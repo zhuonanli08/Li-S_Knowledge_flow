@@ -114,6 +114,8 @@ def match_classes(sents, scope=''):
                     m = None  # 交联、PVDF 等只有在电解质语境才算
             if m and code == 'M12' and re.search(r'templat\w*|morphology[- ]directing|precursor', s) and not re.search(r'electrolyte', s):
                 m = None  # 聚离子液体作模板/前驱体不是含液成分
+            if m and code == 'M12' and re.search(r'dol\b|dioxolane', m.group()) and re.search(r'slurry|dispers\w*|casting|coating process', s):
+                m = None  # DOL 作浆料分散溶剂不是含液成分
             if m and code == 'M12' and scope == '液态锂硫' and not re.search(r'ionic liquid|gel polymer|gel electrolyte|in[- ]situ polymeri|quasi[- ]solid[- ](?:state )?electrolyte|plastici', s):
                 m = None  # 液态组里 DOL/DME 等是常规电解液，不算方法
             if m and code == 'M15' and m.group().startswith('encapsulat') and not re.search(r'sulfur|sulphur|\bs8\b|li2s|polysulfide', s):
@@ -187,6 +189,123 @@ LMB LMBS LIB LIBS LMA LMAS LRR DFT XRD XPS TEM SEM EIS CV GITT NMR FTIR ToF-SIMS
 EV MV CE DOD ICE SOC AFM HRTEM XAS XANES EXAFS STEM MD AIMD CCD RT HT ESW ESR IL ILS GPE GPES QSSE LI-S AND THE FOR WITH'''.split())
 
 
+# ---------- "改的组分"：按用户的三分法（正极 / 电解质 / 界面）+ 工况 ----------
+COMPONENTS = ['正极·材料', '正极·结构与工艺', '电解质·正极内', '电解质·电解质层', '界面', '工况']
+LAYER = re.compile(r'separators?|interlayers?|inter-layers?|between (?:the )?(?:[\w-]+ ){0,4}(?:cathode|electrolyte|anode|layer)s?')
+CATHOLYTE = re.compile(r'catholytes?|(?:in|into|within) (?:the )?(?:[\w-]+ ){0,3}(?:composite )?(?:cathodes?|positive electrodes?)\b|cathode composites?|composite cathodes?|cathode binder|binder and (?:an )?electrolyte')
+CATHCTX = re.compile(r'cathod|positive electrode|sulfur|sulphur|\bs8\b|li2s|polysulf|active material|triple[- ]phase|three[- ]phase|\bncm|\bnmc|lini|licoo2|\blco\b|\blfp\b|lifepo4|\bspan\b')
+HOSTCTX = re.compile(r'\bhosts?\b|confin\w*|encapsulat\w*|\bshells?\b|core[- ]shell|immobili\w*|sulfur (?:carrier|support|reservoir)')
+ELECOBJ = re.compile(r'fillers?|electrolytes?|\b[sgc]pes?\b|\bcses?\b|\bsses?\b|argyrodites?|garnet|llzt?o|nasicon|latp|lagp')
+
+
+def component(code, s, scope):
+    t = BATTERY_NAME.sub(' ', s)
+    cath, cl, layer, host, elec = (bool(p.search(t)) for p in (CATHCTX, CATHOLYTE, LAYER, HOSTCTX, ELECOBJ))
+    if code == 'M17': return '工况'
+    if code == 'M04': return '正极·材料'
+    if code in ('M01', 'M02'):
+        if layer and not cl: return '界面'  # 负载在隔膜/中间层上的催化剂（液态常见）
+        if elec and not (cath or host): return '电解质·电解质层'
+        return '正极·材料'
+    if code == 'M03':
+        if scope != '液态锂硫' and re.search(r'catholyte|solid electrolyte', t): return '电解质·正极内'
+        if scope != '液态锂硫' and elec and not cath: return '电解质·电解质层'  # 加在电解质膜里的介体
+        if scope == '液态锂硫' and re.search(r'electrolyte|additive|solvent|soluble', t) and not host: return '电解质·电解质层'
+        if layer: return '界面'
+        return '正极·材料'
+    if code == 'M05': return '电解质·正极内' if (cl and scope != '液态锂硫') else '电解质·电解质层'
+    if code == 'M06':
+        if layer: return '界面'
+        if re.search(r'carbon black|super ?p\b|ketjen\w*|vgcf|vapor[- ]grown|conductive (?:carbon|additive|agent)s?|carbon additives?|networks?', t) and not host:
+            return '正极·结构与工艺'  # 导电剂/导电网络
+        return '正极·材料'  # 载硫的碳宿主
+    if code == 'M07':
+        if layer or (cath and re.search(r'coat\w*|interfac\w*', t)): return '界面'
+        if elec and not cath: return '电解质·电解质层'
+        return '正极·材料' if host else '正极·结构与工艺'
+    if code == 'M08':
+        if cl: return '电解质·正极内'
+        if layer or re.search(r'interfac\w*|interphase', t): return '界面'
+        if host or re.search(r'li2s|sulfur|active material|nanocomposite', t): return '正极·材料'
+        return '正极·结构与工艺'
+    if code == 'M09':
+        if scope == '液态锂硫' and re.search(r'li2s ?\d|polysulfide catholyte|\bps catholyte', t):
+            return '正极·材料'  # 液态里的 catholyte 指多硫化物溶液，即活性物
+        if re.search(r'catholytes?', t) and not re.search(r'distribut\w*|dispers\w*|infiltrat\w*|gradient|concentration|network|three[- ]dimensional|\b3d\b|structur\w*', t):
+            return '电解质·正极内'
+        return '正极·结构与工艺'
+    if code in ('M10', 'M11', 'M12'): return '电解质·正极内' if cl else '电解质·电解质层'
+    if code == 'M13': return '正极·结构与工艺' if cath else '电解质·电解质层'
+    if code == 'M14':
+        if layer: return '界面'
+        if cath or host: return '正极·结构与工艺'
+        return '电解质·电解质层' if elec else '正极·结构与工艺'
+    if code == 'M15': return '界面'
+    if code == 'M16':
+        if re.search(r'binders?', t): return '正极·结构与工艺' if (cath or not elec) else '电解质·电解质层'
+        return '正极·结构与工艺' if (cath and not elec) else '电解质·电解质层'
+    return '正极·结构与工艺'
+
+
+# ---------- 人工核定（Claude 逐篇读固态锂硫论文的做法句；用户未复核） ----------
+MANUAL = '人工核定（Claude 读做法句，用户未复核）'
+NOT_CATALYST = '实为电解质改性（填料/掺杂/高熵电解质），不是负载在硫正极上、调节硫物种吸附脱附的催化剂'
+REMOVE = {('W4377823673', 'M02'): NOT_CATALYST, ('W4403065663', 'M02'): NOT_CATALYST, ('W4400659480', 'M02'): NOT_CATALYST,
+          ('W4403294781', 'M02'): NOT_CATALYST, ('W4405260721', 'M01'): NOT_CATALYST, ('W4408770051', 'M02'): NOT_CATALYST,
+          ('W7203687046', 'M02'): NOT_CATALYST, ('W7163750640', 'M02'): NOT_CATALYST, ('W7166731345', 'M02'): NOT_CATALYST,
+          ('W4311677557', 'M09'): '本文方法是薄电解质隔膜，原位聚合 catholyte 只是电池配置',
+          ('W4408770051', 'M09'): '离子通道在复合聚合物电解质膜里，不在正极内',
+          ('W4412893263', 'M09'): '本文是新聚合物电解质膜（调控锂沉积与离子传输），不在正极内'}
+ADD = {('W4403294781', 'M10'): ('电解质·电解质层', 'co-doping', 'Sb/O 共掺杂 Li6PS5Cl，只有催化剂行，改判后补电解质改性行'),
+       ('W4391015537', 'M10'): ('电解质·电解质层', 'dual-doped', 'Y2S3、LiI 双掺杂硫化物电解质，原只有催化剂行，补电解质改性行')}
+COMP_BY_PAPER = {}  # 论文 -> 该论文 M09/M08 行的组分
+for _p in 'W3216755742 W4382135243 W4400107507 W4407180644 W4408057124 W7128180073 W7203453822'.split():
+    COMP_BY_PAPER[_p] = '电解质·正极内'
+for _p in 'W3043448976 W3188879443 W4399859339 W4415543410 W2464235999 W4379516656 W7127084998'.split():
+    COMP_BY_PAPER[_p] = '正极·结构与工艺'
+for _p in 'W4200580319 W4391382896 W4289520628 W4387973470 W4415949736'.split():
+    COMP_BY_PAPER[_p] = '正极·材料'
+for _p in 'W2464412938 W4407188356 W7167073746'.split():
+    COMP_BY_PAPER[_p] = '界面'
+COMP_OVERRIDE = {('W4391015537', 'M02'): '正极·材料'}  # SbSn 合金硫宿主
+
+
+def apply_components(rows, corpus_by_id):
+    """给每行加"改的组分"；按人工核定删除/补充行。返回 (新 rows, 改判记录)"""
+    out, reclass = [], []
+    solid_ls = ('固态锂硫', '固态锂硫_全部年份')
+    for r in rows:
+        key = (r['编号'], r['类别编号'])
+        if r['范围'] in solid_ls and key in REMOVE:
+            reclass.append({'范围': r['范围'], '编号': r['编号'], 'DOI': r['DOI'], '标题': r['标题'], '原类别': r['类别编号'],
+                            '处理': '删除该类别行', '理由': REMOVE[key], '依据': MANUAL})
+            continue
+        comp, basis = component(r['类别编号'], r['原句（规范化）'], r['范围']), '规则'
+        if r['范围'] in solid_ls and key in COMP_OVERRIDE:
+            comp, basis = COMP_OVERRIDE[key], MANUAL
+        elif r['范围'] in solid_ls and r['类别编号'] in ('M09', 'M08') and r['编号'] in COMP_BY_PAPER:
+            comp, basis = COMP_BY_PAPER[r['编号']], MANUAL
+        r['改的组分'], r['组分依据'] = comp, basis
+        out.append(r)
+    have = {(r['范围'], r['编号'], r['类别编号']) for r in out}
+    for (pid, code), (comp, ph, why) in ADD.items():
+        for scope in solid_ls:
+            if not any(r['范围'] == scope and r['编号'] == pid for r in rows) or (scope, pid, code) in have:
+                continue
+            src = corpus_by_id[pid]
+            own = own_sentences(src['abstract'])
+            s = next((x for x in own if ph.split('-')[0] in x), own[0] if own else norm(src['title']))
+            cause, name = next((c, n) for k, c, n, _ in VOCAB if k == code)
+            out.append({'范围': scope, '编号': pid, '年份': src['year'], 'DOI': src['doi'], '标题': src['title'],
+                        '原因': cause, '类别编号': code, '方法类别': name, '作用位置（按命中句）': position(s),
+                        '命中短语': ph, '证据来源': '做法句', '原句（规范化）': s,
+                        '原句回查': '✅' if s in norm(src['abstract']) or s in norm(src['title']) else '❌',
+                        '材料线索（机器抽取）': '', '改的组分': comp, '组分依据': MANUAL})
+            reclass.append({'范围': scope, '编号': pid, 'DOI': src['doi'], '标题': src['title'], '原类别': '',
+                            '处理': f'补 {code} 行', '理由': why, '依据': MANUAL})
+    return out, reclass
+
+
 def main():
     corpus, tags = load_corpus(), load_tags()
     scopes = scope_papers(corpus, tags)
@@ -244,8 +363,10 @@ def main():
                     na_rows.append(row)
                 else:
                     rows.append(row)
+    rows, reclass = apply_components(rows, {r['id']: r for r in corpus})
+    print('人工改判', len(reclass), '条；组分分布', collections.Counter(r['改的组分'] for r in rows))
     json.dump({'rows': rows, 'na_rows': na_rows, 'na_papers': na_papers, 'unclassified': unclassified,
-               'scope_n': {k: len(v) for k, v in scopes.items()}},
+               'reclass': reclass, 'scope_n': {k: len(v) for k, v in scopes.items()}},
               open(OUT / '_inventory.json', 'w', encoding='utf-8'), ensure_ascii=False)
     print('范围篇数', {k: len(v) for k, v in scopes.items()})
     print('适用行', len(rows), '不适用行', len(na_rows), '不适用论文', len(na_papers), '未归类论文', len(unclassified))

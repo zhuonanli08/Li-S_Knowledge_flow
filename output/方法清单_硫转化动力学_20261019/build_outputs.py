@@ -13,7 +13,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap, PowerNorm
 from common import OUT, SCOPES
-from build_inventory import VOCAB, GENERIC
+from build_inventory import VOCAB, GENERIC, COMPONENTS
 
 sys.stdout.reconfigure(encoding='utf-8')
 d = json.load(open(OUT / '_inventory.json', encoding='utf-8'))
@@ -60,6 +60,11 @@ def materials(scope, code, k=8):
     return '、'.join(f'{t}({n})' for t, n in c.most_common(k))
 
 
+def comps(scope, code):
+    c = collections.Counter(r['改的组分'] for r in rows if r['范围'] == scope and r['类别编号'] == code)
+    return '；'.join(f'{k} {v}' for k, v in c.most_common())
+
+
 def positions(scope, code):
     c = collections.Counter()
     for r in rows:
@@ -97,6 +102,15 @@ lines = [
     ('17 个方法类别按"转化为什么慢"的四条原因分组；一篇可属多类。词表与例外规则见"词表"页和 build_inventory.py。', False),
     ('作用位置按命中句判断（先去掉"lithium metal batteries""lithium–sulfur batteries"等电池名）。', False),
     ('', False),
+    ('两个维度：方法类别 / 原因（针对转化慢的哪条原因）× 改的组分（改在正极、电解质还是界面）', True),
+    ('改的组分：正极·材料（活性物、宿主、负载的催化剂和介体、混合导体宿主）；正极·结构与工艺（三相分布、导电网络、梯度、粒径与混合工艺、粘结剂）；'
+     '电解质·正极内（catholyte 成分或种类）；电解质·电解质层（隔膜层电解质、液态电解液）；界面（界面层、包覆、界面调节剂、中间层/隔膜修饰）；工况（压力、温度）。', False),
+    ('催化剂的定义（10-19 与用户对齐）：负载在硫正极（碳或宿主）上、通过调节硫物种的吸附/脱附（结合强度）降低转化能垒的物质。'
+     '电解质里的填料、电解质掺杂即使论文称"催化"，也不算催化剂。', False),
+    (f"人工改判 {len(d['reclass'])} 条（固态锂硫：9 篇改电解质的论文移出催化剂类，3 条不在正极内的离子通路行删除，2 篇补电解质改性行；见"
+     '"人工改判记录"页）。固态锂硫正极电解质/混合导体类 25 篇的组分按逐篇阅读核定。', False),
+    ('组分抽查（种子 20261021，规则判定的 30 条，Claude 判读）：✅19、🔶7、❌4；4 条错误和 4 条边缘已按规则纠正。', False),
+    ('', False),
     ('不适用的结果单独存放在 不适用_单独存/不适用结果.xlsx，不在本表：', True),
     ('① 锂负极专用方法（亲锂层、锂宿主、合金负极、锂表面人工 SEI、抑制枝晶）；② 界面层/包覆层/混合导体层只作用在锂负极；③ 命中句只讲锂负极；④ 非锂硫体系（钠/钾/镁等）；⑤ 摘要不涉及硫或锂硫。', False),
     (f"本表适用方法行 {len(rows)} 条；另存不适用方法行 {len(na_rows)} 条、不适用论文 {len(na_papers)} 篇。", False),
@@ -123,7 +137,7 @@ ws = wb.create_sheet('方法清单')
 head = ['原因', '编号', '方法类别']
 for s in SHOW:
     head += [f'{LABEL[s]} 篇数', f'{LABEL[s]} 占比']
-head += ['固态锂硫最早出现年份', '固态锂金属·作用位置（行数）',
+head += ['固态锂硫最早出现年份', '改的组分·液态锂硫', '改的组分·固态锂金属', '改的组分·固态锂硫（全部年份）', '固态锂金属·作用位置（行数）',
          '代表材料线索·液态锂硫', '代表材料线索·固态锂金属', '代表材料线索·固态锂硫',
          '代表文献·液态锂硫', '代表文献·固态锂金属', '代表文献·固态锂硫（全部年份）',
          '另存不适用行数', '验收抽查（该类，修规则前）', '人工确认✍']
@@ -134,13 +148,13 @@ for code, cause, name, _ in CLASSES:
         n = len(papers[(s, code)])
         row += [n, round(n / N[s], 3)]
     yrs = [r['年份'] for r in rows if r['范围'] == '固态锂硫_全部年份' and r['类别编号'] == code]
-    row += [min(yrs) if yrs else '', positions('固态锂金属', code),
+    row += [min(yrs) if yrs else ''] + [comps(s, code) for s in ('液态锂硫', '固态锂金属', '固态锂硫_全部年份')] + [positions('固态锂金属', code),
             materials('液态锂硫', code), materials('固态锂金属', code), materials('固态锂硫_全部年份', code),
             reps('液态锂硫', code), reps('固态锂金属', code), reps('固态锂硫_全部年份', code),
             sum(1 for r in na_rows if r['类别编号'] == code),
             '、'.join(f'{k}{v}' for k, v in sorted(aud[code].items())), '']
     ws.append(row)
-widths = [14, 6, 34] + [10, 9] * 4 + [10, 28, 30, 30, 30, 70, 70, 70, 9, 12, 14]
+widths = [14, 6, 34] + [10, 9] * 4 + [10, 24, 24, 24, 28, 30, 30, 30, 70, 70, 70, 9, 12, 14]
 for i, w in enumerate(widths, 1):
     ws.column_dimensions[get_column_letter(i)].width = w
 for c in ws[1]:
@@ -156,17 +170,50 @@ ws.freeze_panes = 'D2'
 
 # 逐篇证据（适用）
 ws = wb.create_sheet('逐篇证据')
-cols = ['范围', '编号', '年份', 'DOI', '标题', '原因', '类别编号', '方法类别', '作用位置（按命中句）', '命中短语',
+cols = ['范围', '编号', '年份', 'DOI', '标题', '原因', '类别编号', '方法类别', '改的组分', '组分依据', '作用位置（按命中句）', '命中短语',
         '证据来源', '原句（规范化）', '原句回查', '材料线索（机器抽取）']
 ws.append(cols + ['人工确认✍'])
 for r in sorted(rows, key=lambda r: (SHOW.index(r['范围']), r['类别编号'], -r['年份'])):
     ws.append([r[k] for k in cols] + [''])
-for i, w in enumerate([12, 13, 6, 26, 50, 12, 6, 26, 14, 18, 7, 90, 6, 30, 10], 1):
+for i, w in enumerate([12, 13, 6, 26, 50, 12, 6, 26, 14, 12, 14, 18, 7, 90, 6, 30, 10], 1):
     ws.column_dimensions[get_column_letter(i)].width = w
 for c in ws[1]:
     c.font = Font(bold=True)
 ws.freeze_panes = 'C2'
 ws.auto_filter.ref = ws.dimensions
+
+# 组分 × 原因（长表）
+CAUSES = ['反应本身慢', '电子到不了反应面', '离子到不了反应面', '接触丢失']
+ws = wb.create_sheet('组分×原因')
+ws.append(['体系', '改的组分', '针对的原因', '论文篇数', '占该组比例', '主要方法类别（篇数）'])
+for s in SHOW:
+    for comp in COMPONENTS:
+        for cause in CAUSES:
+            rs = [r for r in rows if r['范围'] == s and r['改的组分'] == comp and r['原因'] == cause]
+            ps = {r['编号'] for r in rs}
+            if not ps:
+                continue
+            top = collections.Counter(r['方法类别'] for r in rs)
+            ws.append([LABEL[s], comp, cause, len(ps), round(len(ps) / N[s], 3),
+                       '；'.join(f'{k}（{v}）' for k, v in top.most_common(3))])
+for i, w in enumerate([18, 16, 18, 9, 10, 90], 1):
+    ws.column_dimensions[get_column_letter(i)].width = w
+for c in ws[1]:
+    c.font = Font(bold=True)
+for r in ws.iter_rows(min_row=2):
+    r[4].number_format = '0.0%'
+ws.freeze_panes = 'C2'
+ws.auto_filter.ref = ws.dimensions
+
+# 人工改判记录
+ws = wb.create_sheet('人工改判记录')
+ws.append(['范围', '编号', 'DOI', '标题', '原类别', '处理', '理由', '依据'])
+for x in d['reclass']:
+    ws.append([x['范围'], x['编号'], x['DOI'], x['标题'], x['原类别'], x['处理'], x['理由'], x['依据']])
+for i, w in enumerate([14, 13, 26, 60, 8, 14, 60, 30], 1):
+    ws.column_dimensions[get_column_letter(i)].width = w
+for c in ws[1]:
+    c.font = Font(bold=True)
 
 # 未归类（适用范围内、没识别出方法；只命中负极专用的已在不适用文件里）
 ws = wb.create_sheet('未归类_待看')
@@ -312,4 +359,42 @@ cax.set_title('占该组比例', fontsize=9, color=INK2, pad=3)
 plt.subplots_adjust(left=0.03, right=0.98, top=0.90, bottom=0.07)
 fig.savefig(OUT / '图1_三体系方法清单.png', facecolor=SURF)
 fig.savefig(OUT / '图1_三体系方法清单.svg', facecolor=SURF)
-print('输出完成：复核表适用行', len(rows), '；不适用行', len(na_rows), '不适用论文', len(na_papers))
+plt.close(fig)
+
+# ---------------- 图 2：改的组分 × 针对的原因 ----------------
+PANELS = ['液态锂硫', '固态锂金属', '固态锂硫_全部年份']
+CAUSE_SHORT = ['反应\n本身慢', '电子\n到不了', '离子\n到不了', '接触\n丢失']
+fig, axes = plt.subplots(1, 3, figsize=(15, 6.6), dpi=200)
+fig.patch.set_facecolor(SURF)
+for k, (ax, s) in enumerate(zip(axes, PANELS)):
+    ax.set_facecolor(SURF)
+    for i, comp in enumerate(COMPONENTS):
+        for j, cause in enumerate(CAUSES):
+            n = len({r['编号'] for r in rows if r['范围'] == s and r['改的组分'] == comp and r['原因'] == cause})
+            share = n / N[s]
+            col = cmap(norm(share)) if n else '#efeeea'
+            ax.add_patch(plt.Rectangle((j + 0.03, i + 0.04), 0.94, 0.92, facecolor=col, edgecolor=SURF, linewidth=2))
+            if n:
+                tc = '#ffffff' if norm(share) > 0.55 else INK
+                ax.text(j + 0.5, i + 0.5, f'{n}\n{share * 100:.1f}%', ha='center', va='center', fontsize=9, color=tc, linespacing=1.1)
+        if k == 0:
+            ax.text(-0.1, i + 0.5, comp, ha='right', va='center', fontsize=10.5, color=INK)
+    for j, c in enumerate(CAUSE_SHORT):
+        ax.text(j + 0.5, -0.12, c, ha='center', va='bottom', fontsize=9.5, color=INK2)
+    ax.text(2, -1.05, f'{LABEL[s]}（n={N[s]}）', ha='center', va='bottom', fontsize=12, color=INK, fontweight='bold')
+    ax.set_xlim(-0.05 if k else -2.6, 4.05)
+    ax.set_ylim(len(COMPONENTS) + 0.05, -1.3)
+    ax.axis('off')
+fig.text(0.015, 0.975, '改在哪里 × 针对哪条原因：三个体系的方法分布', fontsize=15, fontweight='bold', color=INK, va='top')
+fig.text(0.015, 0.935, '格内为论文篇数与占该组比例；"改的组分"按正极 / 电解质 / 界面三分，催化剂按"负载在硫正极、调节硫物种吸附脱附"计入正极·材料。',
+         fontsize=9.5, color=INK2, va='top')
+fig.text(0.015, 0.02, '范围同图 1；液态锂硫、固态锂金属为 2023–2026，固态锂硫为 2010–2026 全部。组分大部分按规则判定，固态锂硫催化剂与正极电解质/混合导体类按逐篇阅读核定（Claude 判读，用户未复核）。',
+         fontsize=8.5, color=MUTED, va='bottom')
+cax = fig.add_axes([0.84, 0.905, 0.14, 0.014])
+cb = fig.colorbar(plt.cm.ScalarMappable(cmap=cmap, norm=norm), cax=cax, orientation='horizontal', ticks=[0, 0.05, 0.2, 0.4, 0.6])
+cb.ax.set_xticklabels(['0', '5%', '20%', '40%', '60%'], fontsize=8, color=INK2)
+cb.outline.set_visible(False)
+plt.subplots_adjust(left=0.10, right=0.99, top=0.83, bottom=0.07, wspace=0.05)
+fig.savefig(OUT / '图2_组分×原因.png', facecolor=SURF)
+fig.savefig(OUT / '图2_组分×原因.svg', facecolor=SURF)
+print('输出完成：复核表适用行', len(rows), '；不适用行', len(na_rows), '不适用论文', len(na_papers), '；人工改判', len(d['reclass']))
