@@ -1,0 +1,599 @@
+=== 第 1 页 ===
+Electrochimica Acta 421 (2022) 140456
+Available online 27 April 2022
+0013-4686/© 2022 Elsevier Ltd. All rights reserved.
+A liquid cathode/anode based solid-state lithium-sulfur battery 
+Yuxuan Gao a, Chao Deng a, Ye Fan c, Shubin Wang b, Shaoming Huang a, Shengguo Lu a, 
+Tao Tao a,* 
+a School of Materials and Energy, Guangdong University of Technology, Guangzhou 510006, P R China 
+b Ministry of Ecology and Environment (MEE), South China Institute of Environmental Sciences, Guangzhou 510655, P R China 
+c Institute for Frontier Materials, Deakin University, 75 Pigdons Road, Waurn Ponds, VIC 3216, Australia   
+A R T I C L E I N F O  
+Keywords: 
+Lithium-sulfur batteries 
+Solid-state electrolytes 
+Liquid electrode 
+Interface 
+A B S T R A C T  
+Solid-state lithium sulfur batteries constantly suffer from a poor interfacial compatibility between solid-state 
+cathode/anode and electrolyte, and low critical current density of Li metal anode (< 3 mA cm−2). Here, a 
+concept of a liquid cathode/anode based, room-temperature, solid-state lithium sulfur battery with low 
+impedance electrode/electrolyte interfaces is presented. Due to an extremely stable liquid-solid interface with a 
+high compatibility and unique properties of liquid alloy, the liquid Li-amalgam anode based symmetric cells 
+show a superior electrochemical performance, and no internal short circuit occurs as they run at 55.6 mA cm−2 
+for 10,000 cycles. Liquid Li2S8 polysulfide catholyte can afford a high active material loading (≥135.2 mg mL−1) 
+and has a good contact with the solid-sate electrolyte. The cathode/anode and electrolyte are tightly welded 
+together by the liquid-solid interfaces, and the resulting cells show high performance and good structural sta­
+bility during cycling.   
+1. Introduction 
+With the sharply increasing demand of electrochemical energy 
+storage systems for portable electronic devices and electric vehicles 
+(EV), battery technology is playing an important role. However, the 
+current dominant battery, lithium-ion battery, cannot meet the re­
+quirements of practical application, due to its low theoretical energy 
+density (≤400 Wh kg−1) [1–3]. Lithium-sulfur (Li-S) battery is widely 
+considered as a potential substitute for conventional lithium-ion battery 
+because of its high energy density (2600 Wh kg−1), low temperature 
+performance, environmentally friendly and low cost [4–9]. Neverthe­
+less, traditional Li-S battery with liquid electrolyte is limited to the low 
+sulfur utilization, fast capacity degradation, low Coulombic efficiency, 
+and potential safety hazards, because of the formation, diffusion and 
+shuttle of soluble polysulfide intermediates between cathode and anode, 
+the generation of lithium anode dendrites, and the large volume change 
+of electrodes during cycling [10–12]. 
+Recently, replacing liquid electrolytes with solid-state electrolytes 
+(SSEs) is regarded as a significant way to solve these issues of lithium- 
+sulfur battery, in terms of high mechanical strength and non- 
+flammability of solid-state electrolytes which are able to suppress the 
+lithium dendrite growth and improve the cell safety, and comparatively 
+simple electrochemical processes in solid-state system which is capable 
+of obviously alleviating the formation of polysulfide intermediates and 
+avoiding the shuttle effect [13–17]. However, the poor interface sta­
+bility and large interfacial impedances of anode/cathode SSE interfaces, 
+and low critical current density of Li metal anode (< 3 mA cm−2) are still 
+the big challenge for all-solid-state Li-S batteries [18–21]. To improve 
+the interfacial compatibility between electrodes and SSEs, and reduce 
+their large interfacial impedances in all-solid-state systems, various 
+kinds of strategies have been proposed, such as engineering the Li-SSE 
+interface, synthesizing the composites of cathode/hybrid electrolyte, 
+and employing the wetting agent [22–26]. Although most of the above 
+strategies are generally helpful, they are in-sufficient to overcome the 
+interfacial problems between electrolyte and anode/cathode in 
+solid-state batteries, because most of all-solid-state Li-S batteries need to 
+be operated at an elevated temperature (>room temperature) to 
+improve the ion diffusion rate, and the high working temperature easily 
+induces the problems of corrosion and safety. Therefore, developing 
+suitable strategies to solve the solid-solid contact issues are extremely 
+required for practical all-solid-state batteries. 
+Liquid electrodes including anode and cathode are usually applied to 
+improve the electrochemical performance of energy storage systems, 
+such as liquid-type polysulfide catholyte, Li2S8-TEGDME catholyte, Ga- 
+* Corresponding author. 
+E-mail address: taotao@gdut.edu.cn (T. Tao).  
+Contents lists available at ScienceDirect 
+Electrochimica Acta 
+journal homepage: www.journals.elsevier.com/electrochimica-acta 
+https://doi.org/10.1016/j.electacta.2022.140456 
+Received 29 March 2022; Received in revised form 26 April 2022; Accepted 26 April 2022   
+
+=== 第 2 页 ===
+Electrochimica Acta 421 (2022) 140456
+2
+Sn liquid metal alloy, and liquid K-Na Alloy [27–35]. The liquid elec­
+trode can eliminate issues associated with metal dendrite formation and 
+growth, volume changes, and low ion/electronic conductivity, because 
+of its natural properties. Compared with the solid-solid interface, a 
+liquid-solid or a liquid-liquid anode/cathode-electrolyte interface has 
+the unparalleled advantages, including accommodating the interfacial 
+fluctuation, repairing mechanical damage and cracks in the electrode, 
+and guaranteeing excellent adhesion. For example, Wang et al. proposed 
+a sodium sulfur battery consisting of the β”-alumina solid-state elec­
+trolyte and inorganic ionic liquid electrodes operated at 150 ◦C. [36]. 
+However, liquid electrodes are rarely introduced into the room tem­
+perature solid-state systems to build a liquid-solid electrode-electrolyte 
+interface for safe solid-state battery with low interfacial impedance. 
+Motivated by these results, it gives birth of the concept of novel safe 
+room-temperature Li-S batteries consisting of liquid cathode, solid state 
+electrolyte and liquid Li-based alloy. 
+Here, we design and construct a liquid cathode/anode based solid- 
+state lithium-sulfur battery with low impedance electrode/electrolyte 
+interfaces, which can be operated at room temperature. Liquid Li2S8 
+polysulfide catholyte is employed as cathode, liquid Li-amalgam as 
+anode, and Li10GeP2S12 (LGPS) (12 mS cm–1 at 27 ◦C) [37]. as solid-state 
+electrolyte. In this energy storage system, liquid Li-amalgam anode is 
+capable of eliminating lithium dendrite and has a good contact with 
+LGPS, exhibiting a superior electrochemical performance of the sym­
+metric battery with solid-state electrolyte that can be tested up to 55.6 
+mA cm−2 and run for 10,000 cycles. Also, the liquid Li-amalgam with Ni 
+foam or carbon cloth can be employed as mechanical support to fabri­
+cate solid-state batteries. Li2S8 polysulfide catholyte is able to afford a 
+high active material loading (≥135.2 mg mL−1), avoid the issues of 
+volume expansion and poor kinetics of Li2S, and reduce the interface 
+impedance of cathode/electrolyte. Solid electrolyte can alleviate the 
+shuttle effect of polysulfides, prevent direct contact of lithium amalgam 
+with polysulfide, and solve the issues of electrolyte leakage and battery 
+safety. As a result, we present and demonstrate a concept of a limited 
+lithium anode supported solid-state lithium-sulfur battery with low 
+impedance anode/cathode-electrolyte interfaces. 
+2. Experimental 
+2.1. Preparation of liquid polysulfide cathode 
+Polysulfide catholyte, Li2S8, was prepared by directly reaction of 
+stoichiometric amounts of sulfur powder (AR, ≥99.5%, Sigma-Aldrich) 
+with lithium sulfide (99.5% trace metals basis, Sigma-Aldrich) in 1 M 
+lithium bis(trifluoromethanesulfonyl)imide (LiTFSI)/DOL/DME /1 wt% 
+LiNO3 solution with continuous magnetic stirring for 12 h in the argon- 
+filled glove box (oxygen and moisture level below than 0.1 ppm) [6,25]. 
+The preparation of solid S-based composite cathode is following the 
+method published in a previous report [38]. 
+2.2. Liquid lithium amalgam anode 
+First, lithium metal foils (≥99.9%, Sigma-Aldrich) were cut into 
+small pieces, and 0.858 wt% cut metal pieces added into 99.142 wt% 
+mercury (≥99.999%, Sigma-Aldrich) in the argon-filled glove box (ox­
+ygen and moisture level below than 0.1 ppm). The Li-Hg phase diagram 
+was shown in Figure S1 (Supporting Information). Then, the obtained 
+mixture of lithium and mercury were left to stand in the container for 48 
+h to form a liquid lithium amalgam at room temperature. To prepare the 
+liquid lithium-based anode, the substrate (carbon cloth or Ni foam) was 
+firstly cut to an area of 1.767 cm2, fully infiltrated by the obtained liquid 
+lithium amalgam, and pressed in the die with 15 mm in diameter under 
+Fig. 1. (a) Technological process diagram for the preparation of liquid anode. (c) Schematic diagrams for the fabrication of solid-state lithium-sulfur battery 
+composed of liquid anode and cathode. Optical images of liquid anode (d, e, h and i), liquid cathode (b, j), the pressed electrolyte (f), half cell (g), symmetric cell (l, 
+m), and full cell (j, k). 
+Y. Gao et al.                                                                                                                                                                                                                                     
+
+=== 第 3 页 ===
+Electrochimica Acta 421 (2022) 140456
+3
+300 MPa for 3 min, as shown in Fig. 1a. All operations were conducted at 
+room temperature. 
+2.3. Materials characterization 
+The morphology and element distribution of samples were examined 
+by a field-emission scanning electron microscope (FESEM, Hitachi Co., 
+SU8220) and scanning electron microscopy (SEM, Hitachi Co., SU8220), 
+and Transmission electron microscope (TEM) analysis were tested on an 
+FEI Co., Talos F200S. X-ray Photoelectron Spectroscopy (XPS, Thermo 
+Fisher Co., Escalab 250Xi) was collected using 15 kV monochromatic Al 
+Kα X-ray source (1361 eV) in hybrid lens mode with a step size of 1 eV 
+and pass energy of 100 eV. X-ray diffraction (XRD) analysis was per­
+formed over the range of 10–90◦with a scanning rate of 20◦per min on a 
+Bruker D8 Advance. Raman analysis was detected by Qontor (Renishaw, 
+UK) with 532 nm laser. 
+2.4. Electrochemical measurements 
+A CR2032 coin cell was used to evaluate the performance of solid- 
+state lithium-sulfur battery with liquid-solid interfaces. To fabricate 
+the Li-S full cell, the pressed liquid lithium amalgam/substrate (carbon 
+cloth or Ni foam) anode (0.94 V vs. Li/Li+) was used as mechanical 
+support [39]. LGPS electrolyte power (80–120 mg) placed on the ob­
+tained anode and pressed under 80 MPa for 2 min, and then Li2S8 so­
+lution as cathode (0.5 M, 10 μl, a mass loading of sulfur = ~0.765 mg 
+cm−2) were dropped on the solid-state electrolyte. Finally, the current 
+collector was covered on the cathode. To prepare the current collector, 
+an aluminium foil with a 200 μm blade-coater was coated by the mixture 
+of 90 wt% graphene (Institute of Coal Chemistry, Chinese Academy of 
+Science)/10 wt% polyvinylidenefluoride (PVDF)/N-methylpyrro-lidi­
+none (NMP), dried at 60 ◦C for 12 h, and cut into disc. 
+To further enhance the conductivity of the liquid cathode, a layer of 
+the composite of LGPS@graphene powder was introduced on the surface 
+of LGPS solid-state electrolyte, which was prepared by grinding the 
+mixture of 70 wt% of LGPS solid-state electrolyte and 30 wt% graphene 
+for 30 min. Similarly, the full cell of Li2S8|LGPS@graphene/LGPS|Li-Hg 
+was fabricated by the above-mentioned method. The pressed anode was 
+used as mechanical support, and LGPS electrolyte power (80–120 mg) 
+were pressed on the obtained anode under 80 MPa for 2 min. Then 10 
+mg LGPS@graphene composite powder were pressed on the anode- 
+supported LGPS (80 MPa for 1 min). Li2S8 solution as cathode (0.17 
+M, 30 μl, a mass loading of sulfur = ~0.765 mg cm−2) were dropped on 
+the solid-state electrolyte. Finally, the current collector was covered on 
+the cathode. 
+For comparison, several other kinds of solid-state Li-S full cells were 
+also fabricated. Similarly, after pressing the Li10GeP2S12 (LGPS, 99%, 
+HF-Kejing) solid-state electrolyte powder and liquid lithium amalgam/ 
+substrate (carbon cloth or Ni foam) anode, a limited liquid electrolyte 
+was dropped on the surface of LGPS, and then 1 mg of solid S/graphene 
+composite power placed on the wet LGPS for preparing the composite(S- 
+graphene)/limited liquid electrolyte |LGPS| Li-Hg-Ni full cell. Without a 
+limited liquid electrolyte, a solid composite (S-graphene-LGPS) |LGPS|
+Li-Hg-Ni full cell was also fabricated. Using pure Li to replace the liquid 
+anode, a liquid Li2S8|LGPS|pure Li was prepared. The liquid electrolyte 
+was composed of 1 M Bis(trifluoromethane)-sulfonimide lithium salt 
+(LiTFSI; Sigma Aldrich) in a 1:1 (by volume) mixture of 1, 2-dimethoxy­
+ethane (DME; Sigma Aldrich) and 1, 3-dioxolane (DOL; Sigma Aldrich). 
+For the fabrication of solid-state symmetric cells, both sides of a 
+pressed LGPS solid-state electrolyte disc were sandwiched with two 
+pieces of the liquid lithium amalgam/substrate (carbon cloth or Ni 
+foam) anode at room temperature. First, solid-state electrolyte powder 
+(80–120 mg) were pressed to form a disc, placed on the formed anode 
+and pressed under 180–350 MPa for 2 min, and the other anode was 
+placed onto the resulting disc with electrolytes and anode and pressed 
+under 130–230 MPa for 2 min in the die to build a solid-state symmetric 
+cell. All fabrication of cells was conducted in the argon-filled glove box. 
+Schematic diagrams for the fabrication of solid-state lithium-sulfur 
+battery with liquid-solid interfaces were shown in Fig. 1. 
+The cells were galvanostatically discharged-charged by using a 
+LAND battery tester (Wuhan LAND Co., China). The electrochemical 
+impedance spectroscopy (EIS) measurements and cyclic voltammetry 
+(CV) were conducted by a CHI660E electrochemical workstation. The 
+frequency of EIS was ranged from 1 to 100 MHz with AC amplitude of 5 
+mV. After testing, the impedance spectra were fitted by using Zview 
+software. The sweep rate of CV was 0.1~0.5 mV s −1. 
+3. Results and discussion 
+To prepare disk anodes for coin-cell tests (Fig. 1), the liquid Li-Hg 
+alloy is dropped and pressed into a disc substrate (carbon cloth or Ni 
+foam) at room temperature (Fig. 1a, d, e). An alloy with 0.858 wt% of Li 
+is chosen to ensure a wide range of liquid phase during changing and 
+discharging process. Besides, the Li amount of liquid alloy anode can be 
+precisely adjusted and it has an excellent interfacial contact with inor­
+ganic solid-state electrolytes [40]. A thin LGPS electrolyte layer is 
+capable of being well integrated in the resulting liquid anode after 
+pressing (Fig. 1f, g). In the cathode side, precise amount of liquid Li2S8 
+solution is dropped on the surface of solid–state electrolyte, and a small 
+contact angle observed, showing that the liquid cathode has a good 
+wettability with the solid-state LGPS electrolyte (Fig. 1b, j). As a result, a 
+limited lithium anode supported solid-state Li-S batteries with 
+liquid-solid anode/cathode-electrolyte interfaces can be fabricated 
+(Fig. 1c, k). No liquid leakage occurs during the whole fabrication pro­
+cess (Fig. 1f, g, h, i, l and m), indicating that the liquid electrodes have a 
+good adhesion with solid-state electrolyte and substrate. 
+Since the interface between pure Li metal and SSE is a solid-solid 
+interface, and Li metal can react with LGPS electrolyte to easily cause 
+a short circuit during cycling, the resulting cells show the poor interfa­
+cial stability and large electrode/electrolyte interface impedance 
+(Fig. 2a-c). To improve the interfacial compatibility and stability be­
+tween anode and SSE, a liquid Li-amalgam anode is employed (Fig. 1d, 
+e). As shown in Fig. 2a, the interface between liquid Li amalgam anode 
+and LGPS in solid-state symmetric cells is extremely stable during 
+cycling, exhibiting regular voltage fluctuations with small hysteresis and 
+a long cycle life for 1000 h at 2.83 mA cm−2. No internal short circuit 
+occurs as the current density increases from 0.28 to 56.59 mA cm−2 
+(Fig. 2d-f and Figure S2a-c). Furthermore, the liquid Li based symmetric 
+cells with solid-state electrolyte show much smaller interfacial imped­
+ance (14 Ω) than the pure Li foil-based cell (6755 Ω) (Fig. 2b, c), owing 
+to an enhanced interfacial contact between anode and electrolyte. 
+To test the cycling performance of liquid Li-amalgam anodes at a 
+high current density, the symmetric cells were operated at the ultra-high 
+current density of 56.59 mA cm−2 for 10,000 cycles at room temperature 
+(Fig. 2g and Figure S2d). As expected, the Li-Hg/LGPS symmetrical cell 
+affords the excellent cycle stability without obvious polarization and Li 
+dendrite formation under ultra-high current density of 56.59 mA cm−2. 
+Flat and stable stripping/plating plateaus are maintained after 10,000 
+cycles. The decrease of overpotential in the first few cycles may be due to 
+the surface activation and generation of new interface during repeated 
+Li+ plating/stripping process [41–42]. The excellent stability and small 
+polarization potential of room temperature liquid alloy anode-based 
+symmetric cells can be attributed to their high chemical stability, 
+excellent physical contact, and high ionic conductivity (Fig. 2b, c). 
+Therefore, the liquid limited Li anode greatly helps reducing the inter­
+face impedance and improving interfacial stability between anode and 
+LGPS SSE, especially at high current density. 
+To construct a liquid-solid cathode-electrolyte interface in solid-state 
+Li-S batteries, the as prepared liquid Li2S8 solution is used as cathode. As 
+shown in Fig. 3, liquid Li2S8|LGPS|Li-Hg cell (a mass loading of sulfur ≈
+0.765 mg cm−2) shows a better cycling performance and lower inter­
+facial impedance than any full cells in our tests, such as solid composite 
+Y. Gao et al.                                                                                                                                                                                                                                     
+
+=== 第 4 页 ===
+Electrochimica Acta 421 (2022) 140456
+4
+(S-graphene)|LGPS|Li-Hg and solid composite (S-graphene) /limited 
+liquid electrolyte|LGPS|Li-Hg, which shows an initial charge capacity of 
+447 mAh g −
+1 (0.342 mAh cm−2) and discharge capacity of 466 mAh g −
+1 (0.356 mAh cm−2) at a current density of 100 mA g −
+1(0.076 mA 
+cm−2), corresponding Coulombic efficiency is 101.4%, and a capacity 
+retention of 60.4% at the 100th cycle (Fig. 3a and Figure S5a). 
+Furthermore, the solid-state Li-S batteries with liquid anode and liquid 
+cathode can be tested at various current densities (from 100 to 200, 500, 
+1000 mA g −
+1), delivering reversible discharge capacities (477 mAh g −
+1, 406 mAh g −
+1, 362 mAh g −
+1, and 314 mAh g −
+1, respectively). After 
+the cycling test at 1000 mA g −
+1, it can be cycled back to 387 mAh g −
+1 
+at a current density of 100 mA g −
+1 (Fig. 3d). The corresponding area 
+specific capacity was shown in Figure S5d. The clear cathodic and 
+anodic peaks at around 1.057 and 1.269, and 1.542 V indicate the solid 
+phase transfer mechanism between S and Li2S, respectively [8]. (Fig. 3b, 
+Figure S4a and Figure S5b). While the concentration of liquid cathode 
+decreases from 0.5 M to 0.17 M, the cell shows an improved initial 
+discharge capacity about 867 mAh g −
+1 (0.662 mAh cm−2) and cycle 
+stability at 500 mA g −
+1 (Fig. 3c and Figure S5c). 
+Effective electron transfer is a necessary prerequisite for sulfur 
+electrochemical reaction. To enhance the interfacial electron transport, 
+a LGPS@graphene composites interlayer is inserted between cathode 
+and solid-state electrolyte. After pressing LGPS solid-state electrolyte on 
+the anode, 10 mg LGPS@graphene composites are pressed on the surface 
+of LGPS solid-state electrolyte (Fig. 4a-c). The dropping liquid cathode 
+shows an improved interface compatibility (Fig. 4d), compared with the 
+cell without LGPS@graphene interlayer (Fig. 1j). To further investigate 
+the influence of the LGPS@graphene interlayer, the 0.17 M 
+Li2S8|LGPS@graphene/LGPS|Li-Hg cell is constructed and shows a low 
+Rct (charge transfer) (Fig. 3f), resulting in the improved utilization of 
+active materials and a higher initial capacity about 1498 mAh g −
+1 
+(Fig. 4e and Figure S3) [43] These results indicate that solid-state Li-S 
+battery composed of liquid cathode and liquid anode can be run at room 
+temperature, and possess a low interfacial impedance (Fig. 3f,g and 
+Figure S4b), which may be attributed to the liquid-solid electro­
+de-electrolyte interfaces and improved interfacial compatibility be­
+tween anode/cathode and electrolyte. 
+To further investigate and understand the structural evolution of 
+liquid/solid interfaces between electrode and electrolyte during cycling, 
+the cells of liquid Li2S8|LGPS|Li-Hg were disassembled after 200 cycles, 
+and analysed the composition and morphology (Fig. 5 and 6). Owing to 
+the good interface compatibility between liquid anode/cathode and 
+LGPS electrolyte, the structural integrity of the cycled cells is still pre­
+served well, and the flat, uniform surface morphology of cathode and 
+anode without obvious cracks and delamination can be achieved 
+(Fig. 5a-e, k and l). Also, the liquid interface between anode and elec­
+trolyte is clearly observed, as cycled cells are disassembled and broken 
+down into several parts (Fig. 5f-m), indicating that the anode continu­
+ously has a close contact with electrolyte during cycling. While in the 
+cathode side, after 200 cycles, liquid Li2S8 cathode disappears 
+completely, liquid interface can not be found on the surface of electro­
+lyte after removing the carbon-based current collector, and surface 
+colour of some white solid electrolyte turns into yellow (Fig. 5c,f), 
+demonstrating that liquid Li2S8 cathode undergoes an irreversible phase 
+transition from liquid to solid during cycling, probably because of a 
+decrease of liquid electrolyte content in cathode induced by their 
+Fig. 2. (a) Cycling performance of pure Li metal and liquid Li-Hg alloy symmetric solid-state cells. (b, c) Impedance spectra of the liquid Li-Hg and pure Li metal 
+symmetric cells with solid-state electrolyte. (d, e) Rate capability of liquid Li-Hg alloy based symmetric cell at various stepping-current densities from 0.28 to 56.59 
+mA cm−2 (A set stepping capacity density =1.13 mA h cm−2, respectively). (f) Rate capability of liquid Li-Hg alloy symmetric cell at various stepping-current 
+densities from 0.28 to 56.59 mA cm−2 (A set stepping time = 1 h, respectively). (g) Cycling performance of liquid Li-Hg alloy symmetric cells at an ultra-high 
+current density of 56.59 mA cm−2 (A set stepping capacity density =1.13 mA h cm−2). 
+Y. Gao et al.                                                                                                                                                                                                                                     
+
+=== 第 5 页 ===
+Electrochimica Acta 421 (2022) 140456
+5
+Fig. 3. Electrochemical performances of solid-state Li-S full cells at room temperature. (a) The cycling performance of various kinds of full cells including 0.5 M 
+Li2S8|LGPS|Li-Hg, solid composite (S-graphene)|LGPS|Li-Hg and solid composite (S-graphene)/liquid electrolyte|LGPS|Li-Hg. (b) The charge-discharge curves of the 
+0.5 M Li2S8|LGPS|Li-Hg full cell. (c) The cycling performance of 0.17 M and 0.5 M Li2S8|LGPS|Li-Hg full cell under the current density of 500 mA g −
+1. (d,e) The rate 
+capability and cyclic voltammetry curves for the first cycle at a scan rate of 0.1 mV s −
+1 of the 0.5 M Li2S8|LGPS|Li-Hg full cells. (f,g) Impedance spectra of various 
+kinds of full cells including liquid Li2S8|LGPS|Li-Hg, Li2S8|LGPS@graphene/LGPS|Li-Hg, solid composite (S-graphene-LGPS)|LGPS|Li-Hg and solid composite (S- 
+graphene)/limited liquid electrolyte|LGPS|Li-Hg. 
+Fig. 4. (a) Structure diagram of the Li2S8|LGPS@graphene/LGPS|Li-Hg full cell. (b-d) Optical images of LGPS@graphene interlayer. (e) The charge-discharge curves 
+of the 0.17 M Li2S8|LGPS@graphene/LGPS|Li-Hg full cell under the current density of 500 mA g −
+1. 
+Y. Gao et al.                                                                                                                                                                                                                                     
+
+=== 第 6 页 ===
+Electrochimica Acta 421 (2022) 140456
+6
+decomposition, reaction and diffusion during cycles. 
+However, since the liquid Li2S8 cathode has an intimate contact and a 
+good wetting with solid-state electrolyte in the initial stages of cycles, 
+and could even infiltrate into the solid electrolyte with the increase of 
+cycles, a good coherence between cathode and electrolyte can be ach­
+ieved (Fig. 5p, q), and a densified and stable interface with a good 
+compatibility and a low impedance finally formed. In comparison, the 
+liquid interface of anode/electrolyte can consistently be maintained 
+during delithiation/lithiation cycling process (Fig. 5f-o), because of the 
+relatively excessive mercury in the anode zone. As a result, the liquid 
+anode/cathode has a good wettability and compatibility with solid LGPS 
+electrolyte, the formed interfaces have the low impedance and high 
+structural stability, and the electrode and electrolyte of resulting cells 
+are tightly welded together by the stable, firm interfaces. 
+According to the test and analysis results of Energy Dispersive 
+Spectroscopy (EDS) (Fig. 6a-c) and X-Ray Diffraction (XRD) spectra 
+(Fig. 6k, l), it can be concluded that, after cycles, the formed liquid 
+interface of anode/electrolyte is mainly composed of Li-amalgam 
+(PDF#00–003–0924), 
+Hg 
+(PDF#00–009–0053) 
+and 
+Hg2GeS3 
+(PDF#00–049–1596), because the Li-amalgam can easily react with the 
+LGPS electrolyte in the interfacial zone. Due to a good coherence be­
+tween liquid cathode and electrolyte, it is hard to distinguish cathode 
+zone from interface between cathode and LGPS electrolyte, indicating 
+that they are well integrated. The cycled cathode and interface are 
+mainly consisting of Li2S, LGPS electrolyte, S and polysulfide in­
+termediates, based on the test and analysis results of Transmission 
+electron microscope (TEM) (Fig. 6e-g), X-ray Photoelectron Spectros­
+copy (XPS) spectra (e.g., Li2S4 (161.65 eV and 162.80 eV, yellow), Li2S6 
+(162.10 eV and 163.25 eV, red), Li2S8 or S (163.13 eV and 164.27 eV, 
+blue) (Fig. 6i) and Raman (Fig. 6j) [44–45] Possibly due to a slow 
+diffusion and reaction consumption of the liquid electrolyte in the liquid 
+Li2S8 cathode to lead to the decrease of liquid electrolyte content in 
+cathode zone during cycling, the liquid cathode is completely converted 
+to S-based solid products after discharging and charging. More liquid 
+electrolyte is added in the cathode zone, the cells show an improved 
+reversibility (Fig. 3a, c). Therefore, the content of liquid electrolyte in 
+liquid cathode, as well as catalyst, may be critical factors that greatly 
+affect a solid-liquid phase transition of interface between cathode and 
+electrolyte during cycling. 
+Combining the above-mentioned results with the analysis of charge- 
+discharge curves and cyclic voltammetry curves (Fig. 3), it could be 
+confirmed that during the first discharge, liquid Li2S8 cathode could be 
+converted into Li2S2 and Li2S through the following two-step reactions 
+[38]:  
+Li2S8 → Li2S4–6 (1.269 V)                                                                       
+Li2S4–6 → Li2S / Li2S2 (1.057 V)                                                             
+And during charging, Li2S2 and Li2S could be converted into Li2S4–8 
+and S through the following one-step reaction:  
+Li2S / Li2S2 → Li2S8 / S (1.542 V)                                                           
+An electrochemical reaction mechanism of a liquid cathode/anode 
+based solid-state lithium-sulfur battery in our system, is similar to that of 
+the traditional lithium sulfur battery with liquid electrolyte [4–6]., and 
+different from that of all-solid-state Li-S battery [13–17]. 
+Fig. 5. Optical images and scanning elec tron microscope of solid-state lithium-sulfur battery after 200 cycles. (a) The top surface of cathode side and (b) the anode 
+side for the full cell. (c, l) The cathode top surface of full cell after removing current collector. Side images of full cell (d) and broken cell (e). (f, h) the broken full 
+cells. (g, k) The top surface of anode closing to the electrolyte. (i, m) The top surface of electrolyte closing to anode. (j, n-q) The side surface of the broken full cells: (n, 
+o) the anode/electrolyte interface, and (p) and (q) the cathode/electrolyte interface. 
+Y. Gao et al.                                                                                                                                                                                                                                     
+
+=== 第 7 页 ===
+Electrochimica Acta 421 (2022) 140456
+7
+4. Conclusion 
+We successfully design and demonstrate a liquid cathode/anode 
+based, room-temperature, solid-state lithium sulfur battery with low- 
+impedance electrode/electrolyte interfaces. In this energy storage sys­
+tem, the liquid Li-amalgam anode with Ni foam or carbon cloth is 
+capable of eliminating lithium dendrite, has a good contact with solid- 
+state Li10GeP2S12 (LGPS) electrolyte, and can be employed as mechan­
+ical support to fabricate solid-state batteries. The limited lithium anode 
+based symmetric batteries with solid-state electrolyte show an excellent 
+electrochemical performance, and can safely and smoothly run at 55.6 
+mA cm−2 for 10,000 cycles. Solid electrolyte can alleviate the shuttle 
+effect of polysulfides, prevent direct contact of lithium amalgam with 
+polysulfide, and solve the issues of electrolyte leakage and battery 
+safety. Li2S8 polysulfide catholyte is able to offer a high active material 
+loading (≥135.2 mg mL−1), prevent the issues of volume expansion and 
+poor kinetics of Li2S, and reduce the interface impedance of cathode/ 
+electrolyte. As a result, this strategy provides a pathway to resolve some 
+of the fundamental interfacial and electrode issues of solid-state Li-S 
+batteries. 
+CRediT authorship contribution statement 
+Yuxuan Gao: Investigation, Data curation, Formal analysis, Soft­
+ware, Writing – original draft. Chao Deng: Investigation. Ye Fan: 
+Formal analysis. Shubin Wang: Formal analysis. Shaoming Huang: 
+Formal analysis. Shengguo Lu: Formal analysis. Tao Tao: Supervision, 
+Methodology, Conceptualization, Formal analysis, Data curation, 
+Writing – review & editing. 
+Declaration of Competing Interest 
+The authors declare no conflict of interest. 
+Acknowledgments 
+This work was supported by Guangdong Natural Science Foundation, 
+China (Grant No. 2019A1515012041, 2022A1515010015), the Natural 
+Science Foundation of China (Grant No. 51372042, 51872053, 
+51920105004), Guangdong Basic and Applied Basic Research Founda­
+tion (Grant No. 2020A1515110850, 2022A1515010970), and the NSFC- 
+Guangdong Joint Fund (Grant No. U1501246). 
+Fig. 6. (a-c) EDS analysis of anode/electrolyte interface after cycling. (d,h) EDS analysis of cathode/electrolyte interface after cycling. (e-g) TEM images of the 
+electrolyte with cathode after cycling. (i,) XPS spectra of the electrolyte with cathode. (j) Raman spectra of the electrolyte with cathode. (k, l) XRD spectra of the 
+substrate, original LGPS electrolyte, the cathode side and anode side of LGPS electrolyte after cycling, and the anode where contact with electrolyte after cycling. 
+Y. Gao et al.                                                                                                                                                                                                                                     
+
+=== 第 8 页 ===
+Electrochimica Acta 421 (2022) 140456
+8
+Supplementary materials 
+Supplementary material associated with this article can be found, in 
+the online version, at doi:10.1016/j.electacta.2022.140456. 
+References 
+[1] J.W. Choi, D. Aurbach, Promise and reality of post-lithium-ion batteries with high 
+energy densities, Nat. Rev. Mater. 1 (2016) 16013. 
+[2] M.R. Lukatskaya, B. Dunn, Y. Gogotsi, Multidimensional materials and device 
+architectures for future hybrid energy storage, Nat. Commun. 7 (2016) 12647. 
+[3] K.Sharma Poonam, A. Arora, S.K. Tripathi, Review of supercapacitors: materials 
+and devices, J. Energy Storage 21 (2019) 801–825. 
+[4] J.R. Akridge, Y.V. Mikhaylik, N. White, Li/S fundamental chemistry and 
+application to high-performance rechargeable batteries, Solid State Ionics 175 
+(2004) 243–245. 
+[5] A. Manthiram, Y. Fu, S.-.H. Chung, C. Zu, Y.-.S. Su, Rechargeable lithium-sulfur 
+batteries, Chem. Rev. 114 (2014) 11751–11787. 
+[6] M. Liu, Y.X. Ren, H.R. Jiang, C. Luo, F.Y. Kang, T.S. Zhao, An efficient Li2S-based 
+lithium-ion sulfur battery realized by a bifunctional electrolyte additive, Nano 
+Energy 40 (2017) 240–247. 
+[7] H. Danuta, U. Juliusz, Electric dry cells and storage batteries. U. S. Pat. Off, 1962. 
+[8] L. Wang, T. Zhang, S. Yang, F. Cheng, J. Liang, J. Chen, A quantum-chemical study 
+on the discharge reaction mechanism of lithium-sulfur batteries, J. Energy Chem. 
+22 (2013) 72–77. 
+[9] G. Li, S. Wang, Y. Zhang, M. Li, Z. Chen, J. Lu, Revisiting the role of polysulfides in 
+lithium-sulfur batteries, Adv. Mater. 30 (2018), e1705590. 
+[10] Y.-.X. Yin, H.-.R. Yao, Y.-.G. Guo, Scientific and technological challenges toward 
+application of lithium-sulfur batteries, Chin. Phys. B 25 (2016), 018801. 
+[11] R. Demir-Cakan, M. Morcrette, A.Gueguen Gangulibabu, R. Dedryvere, J. 
+M. Tarascon, Li-S batteries: simple approaches for superior performance, Energy 
+Environ. Sci. 6 (2012) 176–182. 
+[12] J. Xiao, How lithium dendrites form in liquid batteries, Science 366 (2019) 
+426–427. 
+[13] X. Wang, X. Hao, Z. Hengjing, X. Xia, J. Tu, 3D ultraviolet polymerized electrolyte 
+based on PEO modified PVDF-HFP electrospun membrane for high-performance 
+lithium-sulfur batteries, Electrochim. Acta 329 (2020), 135108. 
+[14] Z. Lin, C. Liang, Lithium-sulfur batteries: from liquid to solid cells, J. Mater. Chem. 
+A 3 (2015) 936–958. 
+[15] J.B. Goodenough, P. Singh, Review-solid electrolytes in rechargeable 
+electrochemical cells, J. Electrochem. Soc. 162 (2015) A2387–A2392. 
+[16] A. Manthiram, X. Yu, S. Wang, Lithium battery chemistries enabled by solid-state 
+electrolytes, Nat. Rev. Mater. 2 (2017) 16103. 
+[17] B. Ye, X. Cai, D. Wang, P. Saha, G. Wang, A novel poly(vinyl carbonate-co-butyl 
+acrylate) quasi-solid-state electrolyte as a strong catcher for lithium polysulfide in 
+Li-S batteries, Electrochim. Acta 332 (2020), 135463. 
+[18] A.M. Abakumov, S.S. Fedotov, E.V. Antipov, J.-.M. Tarascon, Solid state chemistry 
+for developing better metal-ion batteries, Nat. Commun. 11 (2020) 4976. 
+[19] Q. Zhao, S. Stalin, C.Z. Zhao, L.A. Archer, Designing solid-state electrolytes for safe, 
+energy-dense batteries, Nat. Rev. Mater. 5 (2020) 1–24. 
+[20] Y. Xiao, Y. Wang, S.-.H. Bo, J.C. Kim, L.J. Miara, G. Ceder, Understanding interface 
+stability in solid-state batteries, Nat. Rev. Mater. 5 (2020) 105–126. 
+[21] P. Bai, J. Li, F.R. Brushett, M.Z. Bazant, Transition of lithium growth mechanisms 
+in liquid electrolytes, Energy Environ. Sci. 9 (2016) 3221–3229. 
+[22] W. Zhou, S. Wang, Y. Li, S. Xin, A. Manthiram, J.B. Goodenough, Plating a 
+dendrite-free lithium anode with a polymer/ceramic/polymer sandwich 
+electrolyte, J. Am. Chem. Soc. 138 (2016) 9385–9388. 
+[23] H. Kitaura, E. Hosono, H. Zhou, An ultrafast process for the fabrication of a Li 
+metal–inorganic solid electrolyte interface, Energy Environ. Sci. 14 (2021) 
+4474–4480. 
+[24] S. Kinoshita, K. Okuda, N. Machida, M. Naito, T. Sigematsu, All-solid-state lithium 
+battery with sulfur/carbon composites as positive electrode materials, Solid State 
+Ionics 256 (2014) 97–102. 
+[25] B. Xu, H. Duan, H. Liu, C.A. Wang, S. Zhong, Stabilization of garnet/liquid 
+electrolyte interface using superbase additives for hybrid Li batteries, ACS Appl. 
+Mate. Interfaces 9 (2017) 21077–21082. 
+[26] C. Wang, Q. Sun, Y. Liu, Y. Zhao, X. Li, X. Lin, M.N. Banis, M. Li, W. Li, K.R. Adair, 
+D. Wang, J. Liang, R. Li, L. Zhang, R. Yang, S. Lu, X. Sun, Boosting the performance 
+of lithium batteries with solid-liquid hybrid electrolytes: interfacial properties and 
+effects of liquid electrolytes, Nano Energy 48 (2018) 35–43. 
+[27] L. Yu, S.J.H. Ong, X. Liu, D. Mandler, Z.J. Xu, The importance of the dissolution of 
+polysulfides in lithium-sulfur batteries and a perspective on high-energy 
+electrolyte/cathode design, Electrochim. Acta 392 (2021), 139013. 
+[28] Y. Yang, G. Zheng, Y. Cui, A membrane-free lithium/polysulfide semi-liquid 
+battery for large-scale energy storage, Energy Environ. Sci. 6 (2013) 1552–1558. 
+[29] S. Zhang, W. Guo, F. Yang, P. Zheng, R. Qiao, Z. Li, Recent progress in polysulfide 
+redox-flow batteries, Batteries Supercaps 2 (2019) 627–637. 
+[30] S. Hamelet, T. Tzedakis, J.B. Leriche, S. Sailler, D. Larcher, P.L. Taberna, P. Simon, 
+J.M. Tarascon, Non-aqueous Li-based redox flow batteries, J. Electrochem. Soc. 
+159 (2012) A1360–A1367. 
+[31] M. Agostini, D.-.J. Lee, B. Scrosati, Y.K. Sun, J. Hassoun, Characteristics of Li2S8- 
+tetraglyme catholyte in a semi-liquid lithium-sulfur battery, J. Power Sources 265 
+(2014) 14–19. 
+[32] J.-.H. So, M.D. Dickey, Inherently aligned microfluidic electrodes composed of 
+liquid metal, Lab Chip 11 (2011) 905–911. 
+[33] P. Xiao, J.-.H. Kim, S. Seo, Flexible and stretchable liquid metal electrodes working 
+at sub-zero temperature and their applications, Materials 14 (2021) 4313. 
+[34] M. Huang, B. Xi, Z. Feng, F. Wu, D. Wei, J. Liu, J. Feng, Y. Qian, S. Xiong, New 
+insights into the electrochemistry superiority of liquid Na-K alloy in metal 
+batteries, Small 15 (2019), 1804916. 
+[35] W. Wang, R. Zhang, P. Zuo, Y. Gao, G. Yin, C. Du, J. Wang, H. Huo, Y. Ma, An 
+interphase-enhanced liquid Na-K anode for dendrite-free alkali metal batteries 
+enabled by SiCl4 electrolyte additive, Energy Storage Mater. 37 (2021) 199–206. 
+[36] D. Wang, J. Hwang, C.-y. Chen, K. Kubota, K. Matsumoto, R. Hagiwara, A β”- 
+alumina/inorganic ionic liquid dual electrolyte for intermediate-temperature 
+sodium-sulfur batteries, Adv. Funct. Mater. 31 (2021), 2105524. 
+[37] N. Kamaya, K. Homma, Y. Yamakawa, M. Hirayama, R. Kanno, M. Yonemura, 
+T. Kamiyama, Y. Kato, S. Hama, K. Kawamoto, A. Mitsui, A lithium superionic 
+conductor, Nat. Mater. 10 (2011) 682–686. 
+[38] Y. Fan, M.M. Rahman, T. Tao, Y. Chen, Ultra-fast and high-energy density 
+polysulfide-eight ion batteries, J. Power Sources 477 (2020), 229018. 
+[39] H.J. Deiseroth, Alkali metal amalgams, a group of unusual alloys, Prog. Solid State 
+Chem. 25 (1997) 73–123. 
+[40] Y. Fan, T. Tao, Y. Gao, C. Deng, B. Yu, Y. Chen, S. Lu, S. Huang, A self-healing 
+amalgam interface in metal batteries, Adv. Mater. 32 (2020), 2004798. 
+[41] M. Wan, S. Kang, L. Wang, H.-.W. Lee, G.W. Zheng, Y. Cui, Y. Sun, Mechanical 
+rolling formation of interpenetrated lithium metal/lithium tin alloy foil for 
+ultrahigh-rate battery anode, Nat. Commun. 11 (2020) 829. 
+[42] Q. Liu, G. Zhu, R. Li, S. Lou, H. Huo, Y. Ma, J. An, C. Cao, F. Kong, Z. Jiang, M. Lu, 
+Y. Tong, L. Ci, G. Yin, J. Wang, Fast lithium transport kinetics regulated by low 
+energy-barrier LixMnO2 for long-life lithium metal batteries, Energy Storage Mater 
+41 (2021) 1–7. 
+[43] X. Yang, J. Luo, X. Sun, Towards high-performance solid-state Li-S batteries: from 
+fundamental understanding to engineering design, Chem. Soc. Rev. 49 (2020) 
+2140–2195. 
+[44] Y. Chen, S. Lu, J. Zhou, X. Wu, W. Qin, O. Ogoke, G. Wu, 3D graphene framework 
+supported Li2S coated with ultra-thin Al2O3 films: binder-free cathodes for high- 
+performance lithium sulfur batteries, J. Mater. Chem. A 5 (2017) 102–112. 
+[45] M.A. Caba˜nero, M. Hagen, E. Quiroga-Gonz´alez, In-operando Raman study of 
+lithium plating on graphite electrodes of lithium ion batteries, Electrochim. Acta 
+374 (2021), 137487. 
+Y. Gao et al.                                                                                                                                                                                                                                     

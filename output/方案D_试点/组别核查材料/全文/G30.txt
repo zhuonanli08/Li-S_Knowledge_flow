@@ -1,0 +1,951 @@
+=== 第 1 页 ===
+Energy
+ Advances
+ PAPER 
+ G. Garnweitner  et al . 
+ Simple and scalable solvent-free PEO based electrolyte 
+fabrication by kneading for all solid state lithium sulfur 
+batteries 
+ISSN 2753-1457
+rsc.li/energy-advances
+Volume 5
+Number 2
+February 2026
+Pages 133–242
+
+=== 第 2 页 ===
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+Energy Adv., 2026, 5, 151–162 | 151
+Cite this: Energy Adv., 2026,
+5, 151
+Simple and scalable solvent-free PEO based
+electrolyte fabrication by kneading for all solid
+state lithium sulfur batteries
+N. L. Grotkopp,ab M. Hokmabadi,ab M. Nebelsiek,bc M. Kurrat,bc P. Michalowski,ab
+A. Jean-Fulcrandabd and G. Garnweitner
+*ab
+PEO is the most investigated polymer for battery solid electrolytes, and continues to be considered state
+of the art to this day. It is often prepared by tape casting in a solvent-based process. However, solvent-
+free production of battery electrolytes has become a prominent topic in the recent years in science and
+industry. This is due to the elimination of one process step – the evaporation of a solvent – sparing pro-
+duction time, material, energy, solvent disposal and thus substantially reducing the production costs.
+Herein we propose the quick and simple solvent-free preparation of a PEO-LiTFSI electrolyte by
+kneading on a larger scale with reduced production times compared to conventional solvent based
+techniques. 50 g of electrolyte are produced at 60 1C within B15 min of kneading and another B5 min
+for calendering at 120 1C, whilst for the solvent-based solid electrolyte processing, B1.5 h followed by
+drying over night was required to prepare one solid electrolyte film. The processing and properties of
+the electrolyte are thoroughly discussed, comparing different conducting salts, polymer molecular
+weights and polymer–salt concentrations that are evaluated by EIS at different temperatures. An SEM
+and 4K light microscope-supported post mortem analysis was performed to provide insights on the
+surface processes of the electrodes that occur during galvanostatic cycling. Moreover, we report the
+first application of this solvent-free based PEO solid electrolyte in Li–S cells with different electrolyte
+thicknesses at 50 1C.
+1. Introduction
+With its high specific energy (theoretically amounting to
+2600 Wh kg1), the lithium sulfur (Li–S) battery technology
+gains more and more interest for application in the modern
+transportation industry.1–3 Especially for short-range aviation
+and drones a lightweight energy supply system possessing high
+gravimetric energy density is necessary.4–6 In the aviation
+industry, the safety of a battery system becomes of high
+importance. Thus, batteries based on liquid electrolytes are
+considered hazardous mainly because of their susceptibility
+to ignition upon short circuiting, as well as due to leakage
+concerns, possible dry-out, evaporation and thermal runaway,
+which
+shifted
+the
+interest
+towards
+solid
+state
+batteries
+(SSB).7–11 Solid polymer electrolytes are highly promising due
+to their broad availability and mechanical flexibility leading to
+good processability and low contact resistance. With respect to
+the scalability of such desired solid electrolytes, one impactful
+aspect is minimizing the use of solvents, as their removal
+involves expensive additional processing steps, which create
+issues related to environmentally responsible waste disposal
+and maintaining a safe work environment.12,13 Completely
+solvent-free electrolyte processing circumvents these proble-
+matic aspects and can for example be realized by using a
+kneader.14 When speaking about scalability also the material
+costs cannot be neglected. Most of battery related research is
+performed under laboratory conditions that are difficult to be
+scaled up, especially when rare and sensitive materials are
+involved.15,16 Therefore, there is a preference for using cost-
+effective blends of electrolyte matrix and conducting salt that
+offer both functionality and economic viability. One of the most
+investigated SSB polymer materials is PEO. When combined
+with conducting salts, it provides sufficient ionic conductivity
+above 50 1C, making it suitable for galvanostatic cycling.17 PEO
+remains an extensively studied polymer electrolyte material
+in current battery research, because of its straightforward
+a Institute for Particle Technology, Technische Universita¨t Braunschweig,
+38104 Braunschweig, Germany. E-mail: g.garnweitner@tu-braunschweig.de
+b Battery LabFactory Braunschweig (BLB), Technische Universita¨t Braunschweig,
+38106 Braunschweig, Germany
+c Elenia Institute of High Voltage Technology and Power Systems,
+Technische Universita¨t Braunschweig, 38106 Braunschweig, Germany
+d General Education Department, E´cole de Technologie Supe´rieure,
+1100, rue Notre-Dame Ouest, Montre´al, H3C 1K3, Que´bec, Canada
+Received 10th October 2025,
+Accepted 26th November 2025
+DOI: 10.1039/d5ya00294j
+rsc.li/energy-advances
+Energy
+Advances
+PAPER
+Published on 27 November 2025
+Licensed under CC-BY 4.0
+
+=== 第 3 页 ===
+152 | Energy Adv., 2026, 5, 151–162
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+processing, relatively high ionic conductivity, wide availability,
+cost effectiveness, high lithium (Li) salt solubility, and its
+flexibility enhancing interfacial contact.18–23 Whilst a number
+of works have investigated the use of PEO of different mole-
+cular weight as well as different Li salts on the ionic conductiv-
+ity and electrochemical performance, systematic studies are
+largely lacking, and the correlation of electrolyte composition
+to its performance is unknown. Therefore, empirical optimiza-
+tions regarding material properties to improve ionic conductiv-
+ity are required, along with post mortem analysis to enable an
+in-depth understanding of component behavior during galva-
+nostatic cycling and particularly in terms of compatibility with
+the highly reactive lithium metal anode.
+In this research, we report a systematic analysis of the use of
+PEO-based solid electrolytes in Li–S SSB, utilizing different
+molecular weights of PEO as well as various conducting salts
+and salt-polymer concentration ratios (EO : Li) at different
+temperatures. Subsequently, the solvent-free production of
+the solid electrolyte identified to show best properties was
+established by using a kneader allowing a larger scale and
+reduced production times compared to conventional solvent-
+based methods. The fabrication of solid electrolytes by knead-
+ing has been previously investigated at our institution, whilst
+not under an optimization of the electrolyte composition,
+neither a comparison of different PEO polymer molecular
+weights (chain lengths) nor a variation or optimization of the
+electrolyte composition were performed.14,24,25 Here, for the
+first time the PEO-based solid electrolyte made under solvent-
+free conditions was applied to lithium-metal-sulfur batteries.
+Furthermore, the challenges associated with post-mortem ana-
+lysis of Li–S-cells using PEO based solid electrolyte, primarily
+due to the electrolyte’s stickiness, is demonstrated. This diffi-
+culty explains the still limited literature available on this topic.
+We show a comprehensive post-mortem analysis, supported by
+SEM and 4K light microscopy of Li–S EL-cells, which clarifies
+the degradation process and reveals that cell malfunctioning
+could be attributed to lithium dendrite formation.
+2. Experimental
+For experimental work
+conducted under dry conditions,
+a dry room with a dew point between 40 and 60 1C (Battery
+LabFactory Braunschweig, Germany) was used.
+2.1.
+Electrolyte preparation
+For comparison, solvent-based electrolyte preparation was car-
+ried out in the dry room by dissolving the conducting salts
+LiTFSI
+(lithium
+bis(trifluoromethanesulfonyl)imide,
+99.9%,
+water content max. 20 ppm, Solvionic SA), LiFSI (lithium
+bis(fluorosulfonyl)imide, 99.9%, water content max. 20 ppm, Sol-
+vionic SA) or LiBArF (lithium tetrakis(pentafluorophenyl)borate,
+98%, BLD Pharmatech GmbH) in acetonitrile (Z99.8%, water
+content max. 10 ppm, VWR International) using a dissolver (Dis-
+permat TU, VMA-Getzmann GmbH, Germany). PEO of five diﬀerent
+average molecular weights (2000, 20000, 200000, 600000 and
+2000000 Da) was used. Thereby, the PEO with 2000–200000,
+2000000 Da was procured from Merck KGaA, whilst the PEO with
+600000 Da was POLYOXTM WSR 205 from The DOW Chemical
+Company. All polymers were previously dried for 24 h at 40 1C and
+then mixed into the acetonitrile solution resulting in a homoge-
+neous solution, except for LiBArF. In the latter case, a homogenous
+solution of LiBArF was prepared by using ethanol (anhydrous,
+Z99.8%, VWR International) as a solvent. The dispersion para-
+meters of the dissolver are initially a stirring rate of 800 rpm for
+10 min followed by mixing at 230 rpm for 1 h. Three different
+EO:Li ratios (10:1, 15:1 and 20:1) were investigated for each
+tested conducting salt. All solutions contained air bubbles which
+were eliminated by evacuation inside a desiccator. In some cases,
+the air bubbles on the surface had to be burst with a spatula for
+complete removal. Subsequently, casting was performed by apply-
+ing the homogeneous solution onto an anti-adhesive siliconized
+polyester foil (36 mm, one side coated, PPI Adhesives Products
+GmbH) on a tape-casting device (Zehntner GmbH Testing Instru-
+ments, ZAA 2300, Switzerland) and spreading it with a casting blade
+(Zehntner GmbH Testing Instruments, ZUA 2000, Switzerland).
+After a first drying step at 30 1C, the remaining solvent was
+evaporated in a vacuum oven (Binder Modell VD 115, BINDER
+GmbH, Germany) at 40 1C over night. The resulting films can be
+delaminated from the substrate foil and are thus considered free-
+standing. For storage, all samples were sealed in aluminum bags.
+Solvent-free electrolyte preparation was carried out in the
+same dry room by kneading (Rheomix 600 kneader, Thermo
+Scientific) PEO 600 000 Da with LiTFSI in a 12 : 1 EO : Li ratio at
+60 1C. First the material was fed at 5 rpm and premixed for
+5 minutes. Afterwards the speed was increased to 60 rpm for
+10 minutes. The resulting product was then pre-pressed using a
+hot press at 60 1C (VOGT Labormaschinen GmbH, LaboPress
+P200 S, Germany). The pre-pressed electrolyte sheet was further
+densified by a calender (MWG 300 L, Saueressig Group, Ger-
+many) at 120 1C and 0.5 m min1 using diﬀerent roll-to-roll
+gaps resulting in homogeneous films with thicknesses of 150,
+300 and 600 mm (5 mm).
+2.2.
+Materials characterization
+Scanning electron microscopy (SEM) (Thermo Fisher Scientific,
+Helios G4 CX Dual-Beam, USA) was performed to investigate
+the morphology of the Li anode and S cathode after post-
+mortem analysis. Energy dispersive X-ray spectroscopy (EDX)
+(Octane Elite-70, EDAX, Mahwah, NJ, United States) was con-
+ducted for elemental analysis. For sample transfer, the Li anode
+and S cathode were prepared in the dry room onto usual SEM
+holders and put into a box which was then sealed under argon
+in an aluminum bag. To maintain a low exposure to the
+surrounding atmosphere, the samples were opened and quickly
+put into the SEM directly after the chamber was opened with
+the entire process taking less than one minute.
+Further optical post mortem analysis was carried out using a
+4K light microscope (VHX-7000, Keyence, Japan).
+Solid PEO-based electrolytes prepared via solvent-based tape
+casting were analyzed by dynamic diﬀerential scanning calori-
+metry (DSC) to investigate the melting point. Therefore, each
+Paper
+Energy Advances
+
+=== 第 4 页 ===
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+Energy Adv., 2026, 5, 151–162 | 153
+sample was sealed inside an aluminum crucible in the dry
+room and tested over a heating and cooling procedure in a DSC
+apparatus (DSC 3, Mettler Toledo GmbH, Switzerland). The
+program started with cooling to 60 1C for 255 s (at a rate of
+0.333 K s1), which was kept for 120 s. Afterwards the first
+heating run up to 95 1C with a heating rate of 0.167 K s1 was
+carried out. The maximum temperature was kept for 30 s. This
+was followed by another cooling and heating cycle. For the
+melting point determination always the extrapolated onset of
+the first heating run was evaluated.26 The degree of crystallinity
+for blends composed of PEO with diﬀerent molecular weights
+and LiTFSI or LiFSI conducting salt in diﬀerent EO : Li ratios
+was calculated with the following equation according to our
+previous research,27 where DHm is the melting enthalpy of the
+sample, DHPEO is the melting enthalpy of fully crystalline PEO
+(196.4 J g1),28 and fPEO is the mass percentage of PEO in the
+blend.
+w ¼
+DHm
+DHPEO  fPEO
+ 100
+2.3.
+Electrochemical measurements
+For impedance measurements, the electrolytes made under
+solvent-based conditions were inserted into coin cells (GELON,
+2032 type, China) in the dry room. Therefore, the electrolyte
+was punched into 17 mm disks and one disk each was placed
+directly into the bottom cover. Afterwards a 10 mm thick copper
+disk with a diameter of 16 mm was added. Via this method the
+thickness of the sticky electrolyte could be measured right
+before cell crimping. To finish cell building stainless steel
+spacers (1  0.5 mm and 2  0.8 mm) were added followed
+by a wave spring and top cover. The cell building setup can be
+seen in the SI, Fig. S1. Electrochemical impedance spectroscopy
+(EIS; Biologic, VSP300, France) was performed in a frequency
+range of 7 MHz to 100 mHz subsequently at 20, 50 and 80 1C for
+these coin cells. Always three cells for each system were built
+and the temperature was kept constant for 2 h before
+measuring EIS.
+For the main investigations EL-cells instead of coin cells
+were fabricated. The cell assembly was performed in dry room
+atmosphere. The coated electrode materials and PEO electro-
+lytes were punched out of the material sheets using a circular
+punching tool. The diameters of the punched cell components
+were as follows: cathode: 17 mm (more information regarding
+the S cathode as well as SEM images showing the surface
+structure are available in the SI, Fig. S3), anode: 18 mm,
+electrolyte: 19 mm. Then the cell components were placed
+inside a hermetically sealed modular test cell (PAT-cell, EL-
+Cell GmbH, Germany). For each of the investigated electrolyte
+thicknesses (150 mm, 300 mm and 600 mm) one test cell was
+assembled.
+The electrical investigations of the cells were carried out
+with docking stations (PAT-channel-1, EL-Cell GmbH, Ger-
+many) in a temperature chamber (Binder KB 115, WKM Wa¨r-
+meprozess- und Klimapru¨ftechnik Michel GmbH & Co. KG,
+Germany). The docking stations were connected to a control
+unit (PAT-Tester-x-8, EL-Cell GmbH, Germany). Before starting
+the electrical tests, the test cells were heated up to 50 1C and
+stored for approx. 18 hours. The temperature was maintained
+at 50 1C throughout the test. In a first step the test cells were
+discharged with 0.02 C to 1.5 V. The C-rate was referred to the
+calculated theoretical capacity. After the first discharge step the
+test cells were cycled with up to 50 loops (CCCV-charging and
+CC-discharging each with 0.1C) between 1.5 V and 3.0 V. The
+recording of the data was performed at every change of 5 mV
+or 5 mA.
+3. Results and discussion
+3.1.
+Preliminary parameter evaluation using solvent based
+electrolyte fabrication
+The solid electrolyte composition showing best performance
+was investigated prior to upscaling to the solvent-free process
+under variation of PEO molecular weight, conducting salt
+and EO : Li ratio. In order to identify the optimal composition,
+electrolyte films were prepared by a solvent based tape-casting
+method in a dry room and subsequently analyzed by electro-
+chemical impedance spectroscopy (EIS) and diﬀerential scan-
+ning calorimetry (DSC). For parameter evaluation five diﬀerent
+PEO molecular weights (2000, 20 000, 200 000, 600 000 and
+2000 000 Da), three conducting salts (LiTFSI, LiFSI and LiBArF)
+and three EO : Li ratios (10 : 1, 15 : 1 and 20 : 1) were investi-
+gated. Being one of the most studied conducting salts in the
+Li–S battery and SSB research fields, LiTFSI was chosen as an
+indispensable reference system.29–32 As an alternative not fall-
+ing under the PFAS (per- and polyfluoroalkyl substances) defi-
+nition and regulations, LiFSI gained a lot of interest in recent
+years and promises stable SEI build-up, which leads to
+improved battery performance33–35 as we could also prove in
+our previous research on novel liquid electrolytes for Li–S
+batteries.36 LiBArF has not been used in Li–S battery research
+so far and seems to be a promising candidate due to its weakly
+coordinating anion37 allowing high and more unhindered Li+
+movement due to the lower ionic interactions between Li cation
+and BArF anion.
+The mechanical strength38 and viscosity of PEO decrease
+with decreasing molecular weight. Thereby, it was not possible
+to prepare a free-standing film for the PEO materials with
+molecular weights of 2000 and 20 000 Da. Preparing the casting
+solution with a dissolver results in strong bubble formation
+during the process of mixing. These air bubbles (see Fig. 1a) are
+trapped in the highly viscous polymer solution and must be
+removed by vacuum (see Fig. 1b) to ensure the subsequent
+preparation of a complete and homogenous film.
+Such desired homogeneous films were obtained for the
+LiTFSI and LiFSI samples (see Fig. 1c and d). In contrast,
+only inhomogeneous films for all EO:Li ratios of LiBArF could
+be fabricated (see Fig. 1e). Furthermore, it was diﬃcult to
+dissolve LiBArF, and even after complete dissolution in ethanol
+the resulting LiBArF films after drying again showed to be
+inhomogeneous.
+Energy Advances
+Paper
+
+=== 第 5 页 ===
+154 | Energy Adv., 2026, 5, 151–162
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+The EIS data depicted in Fig. 2a, c and e shows the ionic
+conductivity of all systems measured at three temperatures (20,
+50 and 80 1C). Being strongly temperature-dependent, the ionic
+conductivity increases with temperature as expected.39,40 When
+comparing diﬀerent PEO molecular weights, the ionic conduc-
+tivity increases with decreasing molecular weight for LiTFSI
+based electrolytes. This finding has also been observed in other
+studies;41,42 especially at lower molecular weights (o100 000 Da,
+especially o10 000 Da) a substantial increase of ionic conduc-
+tivity was reported.43 On the other hand, for LiFSI and LiBArF
+no clear trend was observed and all PEO molecular weights
+seem similar on average. The electrolytes with LiTFSI conduct-
+ing salt show the overall highest ionic conductivity for each
+EO:Li ratio at all temperatures and PEO molecular weights
+(LiTFSI c LiFSI c LiBArF). LiFSI follows with a conductivity
+one to two orders of magnitude lower at 20 and 50 1C, but the
+gap closes more at 80 1C, where its conductivity is only
+5–10 times lower than for LiTFSI. The conductivity of the
+LiBArF electrolytes is the lowest ranging from 109 S cm1
+to o106 S cm1. Regarding the EO : Li ratio, the electrolyte
+system with LiTFSI follows the trend that the conductivity
+increases with increasing conducting salt concentration (20 : 1
+o 15 : 1 o 10 : 1, EO : Li). In contrast, the conductivity of the
+electrolyte system with LiFSI on average increases with decreas-
+ing conducting salt content (10 : 1 o 15 : 1 o 20 : 1, EO : Li).
+This finding was especially observed at higher temperatures of
+50 and 80 1C. LiFSI films with high conducting salt content
+(10 : 1, EO : Li) showed a tendency to become wrinkled or rolled
+up. This was not found for FSI films with the lower amounts of
+conducting salt. It is believed that these findings appear due to
+LiFSI not being fully dissociated in the polymer matrix, leading
+to film inhomogeneities. A similar trend of increasing conduc-
+tivity with decreasing content of conducting salt was observed
+for the LiBArF films (10 : 1 o 15 : 1 o 20 : 1, EO : Li). In that case
+of this trend is probably due to the strong inhomogeneity of the
+LiBArF films, because of incomplete dissolution of the con-
+ducting salt and thus limited interaction of Li+-ions in the
+polymer matrix. LiBArF films are not considered further below
+due to their very low conductivity and inhomogeneity.
+The melting point of a polymer solid electrolyte has a
+decisive influence on the ionic conductivity. It is known that
+the ions are mainly transported through the amorphous
+regions.44 The ionic conductivity of a semi-crystalline polymer
+such as PEO is therefore increased if the melting point is
+lowered by additives, resulting in a lower crystalline content
+for a given temperature.45 DSC was used to determine the
+melting points (see Fig. 2b, d and f). The addition of the
+conducting salt leads to a significant reduction in the melting
+point compared to the pure PEO for all tested molecular
+weights. Furthermore, it can be seen that the LiFSI samples
+always have higher melting points and therefore a lower ionic
+conductivity than LiTFSI electrolytes, as a lower proportion of
+amorphous regions is presumably present in the LiFSI samples
+compared to LiTFSI in the polymer matrix. We speculate that
+this is due to lower interaction of the FSI anion with the
+polymer compared to TFSI. The increase in conducting salt
+content (lower EO:Li ratio) also leads to a melting point
+reduction in principle, which explains the observation of high-
+est conductivities with 10 : 1 EO : Li for the LiTFSI samples. PEO
+200 000 Da 10 : 1 LiTFSI is the only electrolyte for which no
+melting event occurred for the second heating, due to its low
+degree of crystallinity. To gain further insight the degree of
+crystallinity was calculated. Fig. 3a and b shows the degree of
+crystallinity for LiTFSI and LiFSI blends with PEO. The lowest
+degree of crystallinity was observed for PEO 200 000 Da 10 : 1
+LiTFSI for the first (w = 8.33) and second heating run (w = 0)
+(see Table S1). Comparing the diﬀerent molecular weights for
+the 10 : 1 electrolytes, similar values were only observed for the
+Fig. 1
+Representative examples for solvent-based solid electrolyte film production. (a) Electrolyte solution with air bubbles and (b) after vacuum
+treatment. Solid electrolyte film on transparent substrate foil with (c) lithium bis(trifluoromethylsulfonyl)amide (LiTFSI), (d) lithium bis(fluorosulfonyl)imide
+(LiFSI) and (e) lithium tetrakis(pentafluorophenyl)borate (LiBArF).
+Paper
+Energy Advances
+
+=== 第 6 页 ===
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+Energy Adv., 2026, 5, 151–162 | 155
+second heating run. Inconsistencies can be observed for the
+first heating runs of LiTFSI samples, which can be attributed to
+storage eﬀects. Therefore, to circumvent the influence of sto-
+rage eﬀects only the second heating runs will be considered.
+Within the investigated molecular range, pure PEO samples
+follow the trend that crystallinity decreases with increasing
+molecular weight. This observation is in good agreement with
+the literature,46,47 as with increasing molecular chain length
+entanglement
+and
+thus
+amorphicity
+increases.
+However,
+regarding PEO-LiTFSI or LiFSI blends very similar values for
+crystallinity were found for increasing molecular weight, whilst
+strong diﬀerences appear for the distinct ratios of EO : Li. As the
+Fig. 2
+Evaluation of the ionic conductivity as determined by EIS (a), (c) and (e) and the melting point obtained via DSC (b), (d) and (f) of the solid
+electrolyte films with diﬀerent conducting salts (LiTFSI, LiFSI, LiBArF), Li salt concentrations (EO : Li ratio) and PEO molecular weights of 200 000, 600 000
+and 2000 000 Da.
+Energy Advances
+Paper
+
+=== 第 7 页 ===
+156 | Energy Adv., 2026, 5, 151–162
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+polymer interacts with the conducting salt the crystallinity
+decreases with increasing salt content leading to higher ionic
+conductivity. However, the diﬀerent trend observed above for
+LiFSI (see Fig. 2) is not reflected in the degree of crystallinity,
+showing that secondary eﬀects like homogeneity also play a
+big role.
+The electrolyte system PEO 200 000 Da 10 : 1 LiTFSI shows
+the best ionic conductivity of all tested systems (approx. 4–5 
+104 S cm1 at 50 1C), but is characterized by very low
+mechanical stability and is extremely sticky, aggravating further
+processing. It was also noticed that samples with PEO 200000 Da
+10 : 1 LiTFSI crystallized after a short time (one to two days).
+Therefore, the decision was made to use PEO 600 000 Da with
+10 : 1 LiTFSI as the best electrolyte system despite its slightly
+lower ionic conductivity (approx. 1–2  104 S cm1 at 50 1C), as
+these films did not fully crystallize within one day and thus
+were more flexible, were less sticky and showed better mechan-
+ical stability. A more detailed analysis of the mechanical
+properties via nanoindentation was performed and can be
+found in the SI section (see S4 Investigation of mechanical
+properties by nanoindentation).
+3.2.
+Solvent-free electrolyte fabrication
+A simple electrolyte consisting of only PEO and LiTFSI is
+suﬃcient to enable cycling at higher temperatures like 80 1C.
+From the ionic conductivity data for LiTFSI in Fig. 2, it can also
+be suggested that galvanostatic cycling at 50 1C should be
+possible as the ionic conductivity is higher than 104 S cm1.
+However, the ionic conductivity of 10 : 1 and 15 : 1 LiTFSI for
+80 1C and also 50 1C in Fig. 2 are very similar and it is unclear if
+10 : 1 is already the optimum value. Comparing all PEO mole-
+cular weights, the melting point measurements suggest that the
+optimal value in general could lie in between. A similar out-
+come was observed for the LiFSI samples, where the optimal
+EO : Li ratio might lie in between 15 : 1 and 20 : 1 for PEO-LiFSI
+based films. Based on further literature research, it was decided
+to perform all further investigations with the LiTFSI system
+using a 12 : 1 EO : Li ratio instead of 10 : 1, as this represents the
+optimum content of LiTFSI in PEO for this temperature
+range.48,49 Furthermore, under the aspect of increasing the
+scalability by using a kneader, a lower content of the expensive
+conducting salt is economically more advisable.
+The kneader-based SPE fabrication was performed under dry
+room conditions with a total kneading time of 15 min for one
+batch resulting in 50 g of solvent-free solid electrolyte. Further
+densification by calendering is required in order to form a
+homogenous solid electrolyte film with a certain thickness for
+electrochemical investigation in EL-Cell setups (see Fig. 4a–e).
+Previous galvanostatic cycling tests in coin cells at 80 1C showed
+that a minimum thickness of the electrolyte was required for a
+cell to function and not short-circuit. Therefore, three different
+thicknesses (150, 300 and 600 mm) were evaluated for the EL-
+Cell experiment setup. Interestingly the solid electrolyte film
+remained unchanged for 3 days but crystallized after 1–2 weeks
+(compare Fig. 4d and f). The ionic conductivity was measured
+after storage and showed to be comparable to the solvent-based
+solid electrolytes, reaching B2.39  104 S cm1 at 50 1C on
+average for all thicknesses (see Fig. S2). Notably for 20 1C a
+significantly higher average ionic conductivity of B8.12 
+106 S cm1 for all thicknesses was reached.
+The electrochemical cycling performance of Li–S EL-cells
+with the solid electrolyte PEO 600 000 Da 12 : 1 LiTFSI is
+presented in Fig. 5. The cell containing the electrolyte with
+the lowest thickness of 150 mm showed the highest initial
+capacity of 750 mAh g s1. However, this cell also showed
+strong capacity fading and malfunctioned after 14 cycles with a
+CE between 90–99%. With lower initial capacity and lower
+capacity fading but strongly increased cycle life, the cell with
+300 mm thick electrolyte showed a CE of 90–99% for 17 cycles
+which however steadily decreased afterwards. The 600 mm
+thick electrolyte possessed the lowest initial capacity of
+Fig. 3
+Degree of crystallinity characterized by DSC for the first (w1) and
+second heating (w2) of pure PEO samples with the molecular weights
+200 000 Da, 600 000 Da and 2000 000 and corresponding PEO-LiTFSI (a)
+and PEO-LiFSI blends (b) with EO : Li ratios of 10 : 1, 15 : 1 and 20 : 1,
+respectively.
+Paper
+Energy Advances
+
+=== 第 8 页 ===
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+Energy Adv., 2026, 5, 151–162 | 157
+500 mAh g s1 but also the lowest capacity fading and its
+discharge capacity remained above 300 mAh g s1 throughout
+the cycling procedure for 50 cycles. In terms of CE an improve-
+ment can be seen as well, with the Coulombic efficiency (CE)
+staying close to 100% for the whole duration of the cycling test.
+A detailed description and analysis of the cathode (see
+Fig. S3) including a galvanostatic cycling test with the solid
+electrolyte at 80 1C (see Fig. S4) and a liquid electrolyte system
+(see Fig. S5) for comparison can be found in the SI, S2.
+A comparison of the voltage-capacity profiles in Fig. 6 reveals
+voltage fluctuation for the charging curves of the 150 and
+300 mm samples. Severe voltage fluctuation, possibly arising
+from micro short-circuits, can be observed for the first and last
+cycle of the 300 mm sample. The early malfunctioning of 150
+and 300 mm samples thus is suggested to be due to dendritic
+growth as the cause of failure. No voltage fluctuation was
+observed for the thicker 600 mm electrolyte. All discharge
+profiles start at around 2.45 V, directly followed by the first
+discharge plateau which suggests the formation of longer
+polysulfides. This plateau has very low capacity output of less
+than 100 mAh g s1 and becomes smaller with increasing
+electrolyte thickness, suggesting incomplete transformation of
+Fig. 4
+Solid electrolyte consisting of PEO and LiTFSI (12 : 1, EO : Li) produced in a solvent-free manner by kneading. Photographs of (a) the kneading
+process, (b) 50 g solid electrolyte after kneading, (c) solid electrolyte after pre-densification by the hot press, (d) densification by the calender, (e) punched
+solid electrolyte on stainless steel spacer (diameter = 16 mm), (f) solid electrolyte after two weeks storage at room temperature.
+Fig. 5
+Galvanostatic cycling at 50 1C of Li–S EL-cells with different solid electrolyte thicknesses (150, 300 and 600 mm). Coulombic efficiency is
+displayed by hollow data points.
+Energy Advances
+Paper
+
+=== 第 9 页 ===
+158 | Energy Adv., 2026, 5, 151–162
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+the longer polysulfides. The same trend occurs for the larger
+second plateau where the reduction of low-chain polysulfides to
+Li2S2 and finally Li2S brings most of the capacity, suggesting an
+incomplete reaction again. A large gap between charge and
+discharge of the first cycle of each system can be observed,
+corresponding to poor initial CE. At the 10th cycle, the CE is
+close to 100% for 150 and 600 mm while the cell with 300 mm
+electrolyte thickness remained at around 95%, matching
+the observations discussed above. The noise visible in the
+50th charge curve of the 300 mm system indicates cell
+malfunctioning.
+A post-mortem analysis was carried out to obtain more
+insight and find explanations to the observed electrochemical
+behavior. The sticky character of the PEO-LiTFSI electrolytes
+complicates a separation of the cell components. For the 150 mm
+electrolyte, it was not possible to separate cathode from
+anode even after 1 h heat treatment at 60 1C (Fig. 7a and b).
+However, the electrodes could be separated for the cells with
+electrolyte thickness of 300 and 600 mm. A yellowish coloration
+was observed within the electrolyte which stems from the
+polysulfide formation as we already reported in previous
+studies.36,50 The coloration quickly fades after air exposure
+and thus is barely visible in the pictures (Fig. 7c and d).
+Fig. 7e shows a comparison of the cores of two EL-cells, for
+the 600 and 150 mm electrolyte, respectively, after operation at
+50 1C over 50 cycles. For the 600 mm electrolyte, excess electro-
+lyte was observed to be leaking from the cell. This excess
+electrolyte can be also seen behind the plastic cover around
+the metal plunger. It is not very visible from the picture but also
+for the 150 mm sample a small amount of excess electrolyte was
+observed around the metal plunger (see Fig. 7e, red ellipse).
+These findings could explain the early malfunctioning and
+worse cycling behavior of the thinner 150 and 300 mm electro-
+lyte samples. With a thickness reduction during cycling the
+possibility of dendrites short-circuiting the electrodes becomes
+more probable.
+With the use of a 4K light microscope a deeper optical
+investigation was possible. Fig. S6 shows a post-mortem analy-
+sis of the lithium anode and sulfur cathode at diﬀerent
+magnifications. During the investigation it seemed that the
+deep orange-colored spots are directly on the anode and
+covered by electrolyte (see Fig. S6a–c). It is assumed that these
+spots are dead sulfide species that had stopped to participate in
+the electrochemical reaction after binding to the anode. Around
+the edge of the investigated anode a gold-brownish-colored
+electrolyte
+accumulation
+in
+ring
+shape
+was
+discovered
+(Fig. S6a). An image at further magnification shows that this
+gold-brownish substance differs from the deep-orange colored
+spots and is assumed to correlate to polysulfides of higher
+order that had dissolved in the electrolyte (Fig. S6d); also a
+number of black spots can be observed (Fig. S6a and d). This
+might occur due to insufficient pressure around the edges and
+is known as the edge effect in batteries where the formation of
+dead Li is very likely.51 These black spots are predominantly
+present close to the edge supporting this theory.
+To observe the surface morphology in further detail, an
+SEM-supported post-mortem analysis for the best-performing
+system with the 600 mm electrolyte was performed. Fig. 8a–c
+shows the surface morphology of the electrolyte on the Li anode
+at different magnifications. At higher magnifications the
+spherulitic character of PEO becomes visible that leads to many
+wrinkles on the surface (see Fig. 8b). Furthermore, agglomer-
+ates B20 mm in size can be observed. An EDX analysis
+Fig. 6
+Voltage-capacity profiles for the cycled Li–S EL-cells with different
+electrolyte thickness of (a) 150 mm, (b) 300 mm, and (c) 600 mm.
+Paper
+Energy Advances
+
+=== 第 10 页 ===
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+Energy Adv., 2026, 5, 151–162 | 159
+measuring C, N, O, F, S was performed as these elements can be
+utilized to determine the distribution of the solid electrolyte
+components PEO and LiTFSI as well as dissolved sulfur/poly-
+sulfides. The elemental distribution in Fig. 8e (corresponding
+to Fig. 8b and d) gives rise to the assumption that these
+agglomerates could correspond to plated Li because all of them
+show an enhanced content of oxygen, which is attributed to
+oxygen contamination that might have occurred during the
+sample mounting in the SEM device or during sample prepara-
+tion in the dry room. A high content of S on the anode surface
+also explains the low capacity output due to the active material
+loss via the dissolution of polysulfides in the electrolyte and
+their subsequent deposition on the anode.
+The SEM analysis of the sulfur cathode was executed under
+the same conditions as for the Li anode. Here, the diﬀerent
+magnifications in Fig. 9 only show the electrolyte on top of the
+cathode that is partially ripped oﬀ, thus showing a similar
+rippled structure as for the Li anode. However, the rips are of
+much larger size and the smaller wrinkles are not observed but
+the image at higher magnification reveals a smooth surface in
+between the rips. Thus, the characteristic PEO spherulites are
+not observed. The 4K light microscope investigation of the
+cathode did not show any visible color change, in contrast to
+the Li anode (see Fig. S6e–h). Since the EDX analysis provides
+very similar values for all probed elements, with only the oxygen
+content being 11% lower, a similar concentration of polysul-
+fides is expected. The only conceivable difference is the higher
+amount of Li in and around the electrolyte at the Li anode site
+that however cannot be detected via EDX. One possible reason
+could be that Li-rich PEO-LiTFSI clusters and/or the observed
+Fig. 7
+Post-mortem analysis of the Li–S EL-cells after galvanostatic cycling. Photographs of (a) anode, electrolyte and cathode composite/laminate of
+the 150 mm sample after 14 cycles. (b) Sample breakage during delamination of the 150 mm sample. (c) Anode of the 300 mm sample after 50 cycles.
+(d) Anode of the 600 mm sample after 50 cycles. (e) Comparison of EL-cell core with active battery parts sandwiched between two metal plungers and a
+surrounding plastic gasket cover for the 600 mm sample (left) and the 150 mm sample (right).
+Fig. 8
+SEM images of Li anode of the Li–S EL-Cell with 600 mm electrolyte thickness in post mortem analysis. Three different magnifications of (a) 200,
+(b) 2000, (c) 8000, and (d) and (e) element mapping obtained via EDX analysis.
+Energy Advances
+Paper
+
+=== 第 11 页 ===
+160 | Energy Adv., 2026, 5, 151–162
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+agglomerates at the anode surface might act as nucleation sites
+within the PEO, increasing the crystallinity and thus forming
+the spherulitic PEO structure. In summary, the post mortem
+analysis showed that an early malfunctioning of the cells with
+thinner electrolyte of 150 and 300 mm might have happened
+due to a short-circuit induced by dendrites. The reported
+thickness reduction of the PEO electrolyte, which is caused by
+material flow due to high internal cell pressure and tempera-
+tures above the melting point, thereby enhances the probability
+of dendrites contacting the electrodes, especially for the thin-
+ner electrolytes.
+4. Conclusion
+This research described and compared a solvent-based and a
+solvent-free solid electrolyte preparation at larger scale under
+dry room conditions. Initially, via the solvent-based process, a
+detailed study on the influence of diﬀerent PEO molecular
+weights, conducting salts and EO:Li ratios was performed.
+The system with the medium-molecular weight PEO (600000 Da)
+and LiTFSI in a 10 : 1 ratio revealed the best performance with a
+combination
+of
+high
+ionic
+conductivity
+and
+mechanical
+strength. Based on these results, the solvent-free approach by
+using a kneader was established with the high-molecular
+weight PEO. This approach allows good scalability, and already
+50 g of electrolyte could be fabricated in one batch within
+15 min. The electrochemical performance was investigated by
+galvanostatic cycling of EL-cells with a Li metal anode and a
+sulfur-carbon composite cathode. Whilst thin electrolyte layers
+of 300 mm and less caused severe problems during cycling, a
+cell based on the thicker electrolyte of 600 mm exhibited good
+cycling stability (steady capacity during the complete test dura-
+tion of 50 cycles), good coulombic eﬃciency (between 90 and
+99%) and lowest capacity fading. Thinner PEO electrolytes
+result in higher initial capacity, possibly due to a lower amount
+of polysulfides being dissolved in the smaller volume of
+electrolyte present in the cell; however, they lead to greater
+capacity loss and malfunction probability. An SEM-supported
+post-mortem analysis indicated that dendritic Li plating might
+have caused early malfunctioning of the cells with the thinnest
+solid electrolyte separator. In addition, a thickness reduction of
+the electrolyte during cycling was detected, based on the
+observation that excess material had been pressed out of the
+EL-cell core, which further increased the probability of short-
+circuiting the electrodes especially for cells with thinner elec-
+trolyte layers of 150 and 300 mm.
+Conclusively, it has been demonstrated that the solvent-free
+kneader-based production of solid PEO-based electrolytes is a
+viable method to avoid the use of hazardous solvents while also
+saving production time by avoiding the requirement of removal
+of excess solvent. Advanced visual post mortem analysis using
+SEM-EDX and 4K-Microscope has allowed deep insight into the
+material system, and thus can be recommended as highly
+promising method in further research of polymer-based
+lithium sulfur batteries. These results contribute to the further
+development of polymer electrolytes, however a substantial
+improvement in ionic conductivity is still necessary. Whilst
+PEO-based systems appear feasible for application at 50 1C with
+optimized composition and thickness, room-temperature auto-
+motive and aviation applications will require other polymer
+matrices such as cross-linked or gel polymer systems that can
+show substantially higher ionic conductivity.
+Conflicts of interest
+The authors declare no conflict of interest.
+Data availability
+The data that support the findings of this study have
+been included as part of the supplementary information.
+Fig. 9
+SEM images of the sulfur cathode of the Li–S EL-cell with 600 mm electrolyte thickness in post-mortem analysis. Three different magnifications of
+(a) 200, (b) 800, (c) 2000 and (d) and (e) element mapping obtained from EDX analysis.
+Paper
+Energy Advances
+
+=== 第 12 页 ===
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+Energy Adv., 2026, 5, 151–162 | 161
+Supplementary information is available. See DOI: https://doi.
+org/10.1039/d5ya00294j.
+Acknowledgements
+We would like to thank the German Federal Ministry of
+Research, Technology and Space (BMFTR) for funding within
+the project FestPoLiS – FKZ: 03XP0527D. We acknowledge Q.-A.
+Luong (Institute for Particle Technology, Technische Universi-
+ta¨t Braunschweig) for support with the experimental part of the
+solvent-based electrolyte preparation. The authors also thank
+Michael Bredekamp (Institute for Particle Technology, Tech-
+nische Universita¨t Braunschweig) for providing access to the
+4K-LM device. We also thank Daniel Vogt (Institute for Particle
+Technology, Technische Universita¨t Braunschweig) for general
+discussions on the electrochemical analysis. Moreover, the
+authors acknowledge Johannes Lang (Institute for Particle
+Technology, Technische Universita¨t Braunschweig) for general
+discussions on the differential scanning calorimetry analysis.
+Regarding nanoindentation measurements the authors thank
+Stephanie Michel and Ingo Kampen (Institute for Particle
+Technology, Technische Universita¨t Braunschweig). Moreover,
+we acknowledge the Open Access Publication funds of Tech-
+nische Universita¨t Braunschweig for financial support of the
+publication.
+References
+1 D. Wang, L.-J. Jhang, R. Kou, M. Liao, S. Zheng, H. Jiang,
+P. Shi, G.-X. Li, K. Meng and D. Wang, Nat. Commun., 2023,
+14, 1895.
+2 M. M. Thackeray, C. Wolverton and E. D. Isaacs, Energy
+Environ. Sci., 2012, 5, 7854–7863.
+3 B. Liu, R. Fang, D. Xie, W. Zhang, H. Huang, Y. Xia, X. Wang,
+X. Xia and J. Tu, Energy Environ. Mater., 2018, 1, 196–208.
+4 D. A. Dornbusch, R. P. Viggiano, J. W. Connell, Y. Lin and
+V. F. Lvovich, Electrochim. Acta, 2022, 403, 139406.
+5 S. Do¨rfler, S. Walus, J. Locke, A. Fotouhi, D. J. Auger,
+N. Shateri, T. Abendroth, P. Ha¨rtel, H. Althues and
+S. Kaskel, Energy Technol., 2021, 9, 2000694.
+6 J. Robinson and S. Giﬀord, Lithium-sulfur batteries: light-
+weight technology for multiple sectors, 2020, https://discovery.
+ucl.ac.uk/id/eprint/10112086/.
+7 J. W. Fergus, J. Power Sources, 2010, 195, 4554–4569.
+8 S. Chen, K. Wen, J. Fan, Y. Bando and D. Golberg, J. Mater.
+Chem. A, 2018, 6, 11631–11663.
+9 X. Liang, L. Wang, X. Wu, X. Feng, Q. Wu, Y. Sun, H. Xiang
+and J. Wang, J. Energy Chem., 2022, 73, 370–386.
+10 Q. Zhu, C. Ye and D. Mao, Nanomaterials, 2022, 12, 3612.
+11 C. Xian, Q. Wang, Y. Xia, F. Cao, S. Shen, Y. Zhang, M. Chen,
+Y. Zhong, J. Zhang, X. He, X. Xia, W. Zhang and J. Tu, Small,
+2023, 19, e2208164.
+12 N. Verdier, G. Foran, D. Lepage, A. Pre´be´, D. Ayme´-Perrot
+and M. Dolle´, Polymers, 2021, 13, 323.
+13 Y. Nikodimos, M. Ihrig, B. W. Taklu, W.-N. Su and
+B. J. Hwang, Energy Storage Mater., 2023, 63, 103030.
+14 L. Froboese, L. Groﬀmann, F. Monsees, L. Helmers,
+T. Loellhoeﬀel and A. Kwade, J. Electrochem. Soc., 2020,
+167, 20558.
+15 L. Xu, Y. Lu, C.-Z. Zhao, H. Yuan, G.-L. Zhu, L.-P. Hou, Q.
+Zhang and J.-Q. Huang, Adv. Energy Mater., 2021, 11, 2002360.
+16 M. Keppeler, H.-Y. Tran and W. Braunwarth, Energy Tech-
+nol., 2021, 9, 2100132.
+17 C. Wang, Y. Yang, X. Liu, H. Zhong, H. Xu, Z. Xu, H. Shao
+and
+F.
+Ding,
+ACS
+Appl.
+Mater.
+Interfaces,
+2017,
+9,
+13694–13702.
+18 B. Guo, Y. Fu, J. Wang, Y. Gong, Y. Zhao, K. Yang, S. Zhou,
+L. Liu, S. Yang, X. Liu and F. Pan, Chem. Commun., 2022, 58,
+8182–8193.
+19 G. Piana, F. Bella, F. Geobaldo, G. Meligrana and C. Gerbaldi,
+J. Energy Storage, 2019, 26, 100947.
+20 C. Li, H. Yue, Q. Wang and S. Yang, Russ. J. Electrochem.,
+2022, 58, 271–283.
+21 X. Zhang, C. Fu, S. Cheng, C. Zhang, L. Zhang, M. Jiang,
+J. Wang, Y. Ma, P. Zuo, C. Du, Y. Gao, G. Yin and H. Huo,
+Energy Storage Mater., 2023, 56, 121–131.
+22 K. Khan, M. B. Hanif, H. Xin, A. Hussain, H. G. Ali, B. Fu,
+Z. Fang, M. Motola, Z. Xu and M. Wu, Small, 2024,
+20, e2305772.
+23 L. Zhao, M. Hou, K. Ren, D. Yang, F. Li, X. Yang, Y. Zhou,
+D. Zhang, S. Liu, Y. Lei and F. Liang, Small Methods, 2024,
+8, e2301579.
+24 L. Froboese, J. F. van der Sichel, T. Loellhoeﬀel, L. Helmers
+and A. Kwade, J. Electrochem. Soc., 2019, 166, A318–A328.
+25 L. Helmers, L. Frobo¨se, K. Friedrich, M. Steﬀens, D. Kern,
+P. Michalowski and A. Kwade, Energy Technol., 2021,
+9, 2000923.
+26 R. Riesen, Einfluss der Heizrate: Schmelzen und chemische
+Reaktion, 2006.
+27 E. J. Jeon, S. Haidar, L. Helmers, A. Kwade and G. Garnweitner,
+Energy Adv., 2024, 3, 2428–2438.
+28 N. A. Stolwijk, C. Heddier, M. Reschke, M. Wiencierz, J.
+Bokeloh and G. Wilde, Macromolecules, 2013, 46, 8580–8588.
+29 H. Zhang, C. Liu, L. Zheng, F. Xu, W. Feng, H. Li, X. Huang,
+M. Armand, J. Nie and Z. Zhou, Electrochim. Acta, 2014, 133,
+529–538.
+30 M. Huang, S. Feng, W. Zhang, L. Giordano, M. Chen,
+C. V. Amanchukwu, R. Anandakathir, Y. Shao-Horn and
+J. A. Johnson, Energy Environ. Sci., 2018, 11, 1326–1334.
+31 A. Santiago, J. Castillo, I. Garbayo, A. Saenz de Buruaga,
+J. A. Coca Clemente, L. Qiao, R. Cid Barreno, M. Martinez-
+Iban˜ez, M. Armand, H. Zhang and C. Li, ACS Appl. Energy
+Mater., 2021, 4, 4459–4464.
+32 Z. Li, L. Wang, X. Huang and X. He, Adv. Funct. Mater., 2024,
+34, 2408319.
+33 H.-B. Han, S.-S. Zhou, D.-J. Zhang, S.-W. Feng, L.-F. Li,
+K. Liu, W.-F. Feng, J. Nie, H. Li and X.-J. Huang, J. Power
+Sources, 2011, 196, 3623–3632.
+34 G. G. Eshetu, X. Judez, C. Li, M. Martinez-Iban˜ez, I. Gracia,
+O. Bondarchuk, J. Carrasco, L. M. Rodriguez-Martinez,
+Energy Advances
+Paper
+
+=== 第 13 页 ===
+162 | Energy Adv., 2026, 5, 151–162
+© 2026 The Author(s). Published by the Royal Society of Chemistry
+H. Zhang and M. Armand, J. Am. Chem. Soc., 2018, 140,
+9921–9933.
+35 Y. Cai, H. Zhang, Y. Cao, Q. Wang, B. Cao, Z. Zhou, F. Lv,
+W. Song, D. Duo and L. Yu, J. Power Sources, 2022, 535, 231481.
+36 N. L. Grotkopp, M. Horst and G. Garnweitner, Battery
+Energy, 2024, 3, 20240002.
+37 S. Hollstein, P. Erdmann, A. Ulmer, H. Lo¨w, L. Greb and
+M. von Delius, Angew. Chem., Int. Ed., 2023, 62, e202304083.
+38 A.-Y. Jee, H. Lee, Y. Lee and M. Lee, Chem. Phys., 2013, 422,
+246–250.
+39 Q. Ma, X. Qi, B. Tong, Y. Zheng, W. Feng, J. Nie, Y.-S. Hu,
+H. Li, X. Huang, L. Chen and Z. Zhou, ACS Appl. Mater.
+Interfaces, 2016, 8, 29705–29712.
+40 A. Maurel, M. Armand, S. Grugeon, B. Fleutot, C. Davoisne,
+H.
+Tortajada,
+M.
+Courty,
+S.
+Panier
+and
+L.
+Dupont,
+J. Electrochem. Soc., 2020, 167, 70536.
+41 C.
+Papamichail,
+O.
+Techlemtzi,
+G.
+Nikolakakou
+and
+E. Glynos, ACS Macro Lett., 2025, 14, 225–230.
+42 D. Devaux, R. Bouchet, D. Gle´ and R. Denoyel, Solid State
+Ionics, 2012, 227, 119–127.
+43 A. A. Teran, M. H. Tang, S. A. Mullin and N. P. Balsara, Solid
+State Ionics, 2011, 203, 18–21.
+44 M. Marzantowicz, J. R. Dygas, F. Krok, Z. Florjan´czyk and
+E.
+Zygadło-Monikowska,
+Electrochim.
+Acta,
+2007,
+53,
+1518–1526.
+45 P. Vadhva, J. Hu, M. J. Johnson, R. Stocker, M. Braglia,
+D. J. L. Brett and A. J. E. Rettie, ChemElectroChem, 2021, 8,
+1930–1947.
+46 Y. Yang, M. Chen, H. Li and H. Li, Eur. Polym. J., 2018, 107,
+303–307.
+47 X. Chen, G. Hou, Y. Chen, K. Yang, Y. Dong and H. Zhou,
+Polym. Test., 2007, 26, 144–153.
+48 R. Bakar, S. Darvishi, U. Aydemir, U. Yahsi, C. Tav,
+Y. Z. Menceloglu and E. Senses, ACS Appl. Energy Mater.,
+2023, 6, 4053–4064.
+49 M. Wirtz, M. Linhorst, P. Veelken, H. Tempel, H. Kungl,
+B. M. Moerschbacher and R.-A. Eichel, Electrochem. Sci. Adv.,
+2021, 1, e2000029.
+50 N. L. Grotkopp, M. Horst, M. Batzer, G. Garnweitner and
+A. Jean-Fulcrand, Adv. Energy Sustainability Res., 2023,
+4, 2200146.
+51 H. Lee, S. Chen, X. Ren, A. Martinez, V. Shutthanandan,
+M. Vijayakumar, K. S. Han, Q. Li, J. Liu, W. Xu and
+J.-G. Zhang, ChemSusChem, 2018, 11, 3821–3828.
+Paper
+Energy Advances

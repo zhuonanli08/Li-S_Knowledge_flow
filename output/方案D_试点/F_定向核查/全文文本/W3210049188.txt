@@ -1,0 +1,1229 @@
+=== 第 1 页 ===
+www.afm-journal.de
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (1 of 13)
+Research Article
+Solid Electrolyte with Oxidation Tolerance Provides a High-
+Capacity Li2S-Based Positive Electrode for All-Solid-State 
+Li/S Batteries
+Takashi Hakari, Yushi Fujita, Minako Deguchi, Yusuke Kawasaki, Misae Otoyama, 
+Yohei Yoneda, Atsushi Sakuda,* Masahiro Tatsumisago, and Akitoshi Hayashi*
+The electrochemical window of solid electrolytes (SEs) plays a crucial role 
+in designing active material–SE interfaces in high-energy-density all-solid-
+state batteries (ASSBs). However, the suitable electrochemical window for 
+individual active materials is not yet investigated, as the electrochemical 
+window of SEs is overestimated. In this study, the oxidation onset voltages 
+(OOVs) of several SEs, namely those compatible with Li2S as a high-capacity 
+positive electrode material are determined. Results reveal that SEs with low 
+OOVs decrease the capacity and increase the interfacial resistance of the cor-
+responding ASSBs. The OOVs of SEs must exceed that of Li2S by more than 
+0.2 V to achieve high capacity, which in turn depends on SE ionic conduc-
+tivity. Therefore, an Li2S positive electrode is combined with pseudobinary 
+Li-oxyacid salts as SEs, exhibiting high OOVs and ionic conductivities, to 
+afford a high-capacity (500 Wh kg−1) ASSB with high Li2S content.
+DOI: 10.1002/adfm.202106174
+T. Hakari, Y. Fujita, M. Deguchi, Y. Kawasaki, M. Otoyama,  
+Y. Yoneda, A. Sakuda, M. Tatsumisago, A. Hayashi
+Department of Applied Chemistry
+Osaka Prefecture University
+1-1 Gakuen-cho, Naka-ku, Sakai, Osaka 599-8531, Japan
+E-mail: saku@chem.osakafu-u.ac.jp; hayashi@chem.osakafu-u.ac.jp
+decomposition is typically not noted for 
+SEs because they have wide electrochem-
+ical windows of 0–5 V versus Li (obtained 
+by cyclic voltammetry).[16–18] However, the 
+experimental 
+electrochemical 
+windows 
+were different from those predicted by 
+first-principles calculations.[19,20] This dis-
+crepancy is likely due to a limited area for 
+the electrochemical reaction between the 
+SE and a current collector.[21,22] Recently, 
+working electrodes composed of SE–
+carbon (C) composite materials, in which 
+carbon is used as a current collector and 
+is dispersed in SEs, have been proposed 
+to evaluate the intrinsic electrochemical 
+windows of SEs.[23–25] The experimental 
+electrochemical windows of sulfide SEs 
+obtained using these electrodes corre-
+sponded to those predicted by first-principles calculations.[26,27] 
+These results indicate that sulfide SEs were oxidized at poten-
+tials above 2  V versus Li, inducing high interfacial resistance 
+between SEs and high-voltage active materials. In fact, the 
+electrochemical oxidation of sulfide SEs on high-voltage tran-
+sition-metal oxides results in high interfacial resistance on the 
+positive electrode side.[28–30] The oxidative decomposition of 
+sulfide SEs can be mitigated by the oxide coatings onto high-
+voltage active materials.[31–33] In addition, oxide and halide SEs 
+with intrinsically high oxidation stabilities have been directly 
+used in positive electrodes.[34–37]
+ASSBs with an Li2S based-positive electrode, an Li-metal 
+negative electrode, and a thin SE layer demonstrate high energy 
+densities of up to 370 Wh kg−1,[38] whereas ASSBs with an Li2S-
+based positive electrode and realistic negative electrodes and SE 
+layers can achieve energy densities of up to 500 Wh kg−1.[8] In 
+most related studies, triple-phase contacts among Li2S, sulfide 
+SEs, and C are formed using electronically and ionically con-
+ductive nanoscale networks to achieve high Li2S capacities.[39,40] 
+which is prepared by ball-milling between Li2S, sulfide SEs, and 
+C. In addition, the large contact area between sulfide SE and C 
+enables that sulfide SEs not only provide ion-conduction paths 
+but also act as active materials in Li2S positive electrodes to 
+increase their gravimetric capacities.[41,42] In our previous work, 
+we developed Li2S–LiI solid solutions and prepared composite 
+of Li2S–LiI and C (Li2S–LiI–C) by ball-milling.[43] The characteri-
+zation of the Li2S–LiI solid solution as the active material needs 
+to avoid the capacity contribution of sulfide SE as the active 
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adfm.202106174.
+1. Introduction
+All-solid-state batteries (ASSBs) with solid electrolytes (SEs) 
+have attracted considerable attention due to the advantages 
+of their increased safety, high energy, and high power densi-
+ties.[1–3] Although the use of high-energy-density active mate-
+rials,[4,5] thick electrodes,[6] and thin SE layers[7] has allowed 
+the realization of ASSBs with high gravimetric energy densi-
+ties, these values are still lower than those of Li-ion batteries 
+(maximum 300 Wh kg−1).[8] This behavior can be partly ascribed 
+to the high resistance of the sulfide SE–electrode material 
+interfaces,[9,10] which is due to side reactions[11,12] and the loss 
+of interfacial contacts.[13–15] Furthermore, electrochemical 
+© 2021 The Authors. Advanced Functional Materials published by 
+­Wiley-VCH GmbH. This is an open access article under the terms of the 
+Creative ­Commons Attribution License, which permits use, distribution and 
+­reproduction in any medium, provided the original work is properly cited.
+Adv. Funct. Mater. 2022, 32, 2106174
+
+=== 第 2 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (2 of 13)
+material. In Li2S–LiI–C composite itself as the positive electrode, 
+the ionic conductive resistance across positive electrode would 
+have the large impact on the capacity of Li2S–LiI because the 
+ionic conductivity of Li2S–LiI was quite low (<5 × 10−6 S cm−1).[44] 
+For that reason, sulfide SE was necessary as the ionic conduc-
+tion path across the positive electrode. Thus, we designed the 
+electrode structure dividing ionically nanoscale (Li2S–LiI–C) and 
+microscale (sulfide SE) network, which was prepared by hand 
+mixing with Li2S–LiI–C and sulfide SEs (Li2S–LiI–C + SE) to 
+minimize the capacity contribution of sulfide SE. Surprisingly, 
+the Li2S–LiI–C + SE electrode have demonstrated a full utiliza-
+tion of Li2S.[43] We have interpreted two points from the results. 
+One is that SEs even with low ionic conductivity functions as 
+the ionically nanoscale network, which is enabled by short ionic 
+diffusion distance and Li chemical diffusion promoted by job-
+sharing mechanism in composite of SEs and C.[45,46] Another 
+one is that sulfide SEs would be not enough as the ionically 
+nanoscale conduction network due to the decline of ionic con-
+ductivity on the charging process; sulfide SE functions as the 
+active material in the interface between sulphide SE and C from 
+the charging process. Actually, the ion conductive resistance of 
+ASSBs with Li6PS5Cl-C composite electrode have been investi-
+gated by impedance measurements.[47] During charging process, 
+the oxidation of Li6PS5Cl slows down lithium ion transport and 
+increases an overpotential of sulfur-based positive electrodes.[47] 
+Furthermore, the superior property of LiI to sulfide SE is only 
+higher electrochemical oxidation stability.[20] The electrochem-
+ical oxidation of sulfide SEs lowering the lithium ion transport 
+indicates that SEs should have the proper electrochemical oxida-
+tion stability even though 2 V-class sulfur-based electrodes.
+In this study, we probed the relationship between the oxidation 
+stability of SEs and the discharge capacity of ASSBs with Li2S pos-
+itive electrodes. Here, the oxidation stabilities of several Li salts 
+were examined to verify their applicability as the SE, and the con-
+tribution of the capacity of sulfide Li3PS4 (LPS) was considered 
+as negligible. In lithium ion batteries, the oxidation stability of 
+liquid based electrolytes has been determined by the onset oxida-
+tion voltage (OOV) in linear sweep voltammetry (LSV) to discuss 
+an initial electrolyte electrochemical decomposition reactions and 
+factors controlling them.[48,49] In the same manner, the SE oxida-
+tion stability was characterized for SE–C nanocomposites by the 
+OOV in LSV, while the ASSB discharge capacity was measured 
+using a positive electrode comprising Li2S and SE–C composites. 
+The corresponding flow diagram is shown in Scheme 1.
+We have found that the experimentally determined OOVs, 
+used as an indicator of SE oxidation stability, agree well with 
+those previously predicted by first-principles calculations.[19,20] 
+The capacities of ASSBs with Li2S positive electrodes signifi-
+cantly increase up to 1000 mAh g−1 when the employed SEs 
+have OOVs of >2.6 V versus Li, which is 0.2 V higher than that 
+Scheme 1.  Experimental procedure used in the present study. Li2S capacities were characterized for all-solid-state batteries (ASSBs) with positive 
+electrodes comprising Li2S–Li-salt–C composites and Li3PS4 (LPS). Oxidation stabilities were characterized by linear sweep voltammetry (LSV) of all-
+solid-state cells (ASSCs) with working electrodes comprising Li-salt–C composites and LPS. Li2S capacity was correlated with the oxidation stability of 
+the Li salts in the Li2S–Li-salt–C composites.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (3 of 13)
+of Li2S. Furthermore, the discharge capacity of Li2S using SEs 
+with high OOVs depends on the ionic conductivity of the SEs. 
+The developed, high-Li2S-content positive electrodes using pseu-
+dobinary Li-oxyacid salts with critical OOVs and conductivities 
+exhibit high capacities, which are comparable to the theoretical 
+value of the Li2S-based positive electrode (500 Wh kg−1).
+2. Results and Discussion
+The commonly used Li2S positive electrodes comprise Li2S, 
+carbon, and an SE prepared by ball-milling to form elec-
+tronically and ionically conductive nanoscale networks, thus 
+achieving high reversible capacity.[50–52] Therefore, the capacity 
+per gram of Li2S (mAh gLi2S−1) is significantly affected by the 
+electrochemical properties of SEs in the ionically conductive 
+nanoscale networks of the positive electrodes. Most studies 
+have employed sulfide SEs as nanoscale, ionically conduc-
+tive networks (Figure 1a).[50–52] When a common Li2S positive 
+electrode comprising Li2S, C, and LPS as the sulfide SE was 
+prepared by ball-milling, the corresponding ASSB (Li–In/LPS/
+Li2S–LPS–C) exhibited a capacity (1600 mAh g−1) above the 
+theoretical capacity of Li2S (Figure 1b). This indicated that LPS 
+acted as an active material, which is in line with the results 
+detailed by previous reports.[41,42] Therefore, given the difficulty 
+of determining the capacity of an Li2S positive electrode in the 
+presence of sulfide SEs, non-sulfide SEs were employed in the 
+current study. As first-principles calculations of SE electro-
+chemical windows suggest that SE oxidation voltage depends 
+on the SE anion type,[19,20] we used Li salts with different anions 
+(LiF, LiCl, LiBr, LiI, Li3BO3, Li2CO3, Li3PO4, Li2SO4, LiBH4, 
+Li3N, and Li3P) as the nanoscale, ionically conductive networks 
+of the positive electrodes. To prepare Li2S–Li-salt–C composites, 
+we mixed Li2S with one of the Li salts and C by ball-milling. 
+Since the ionic conductivities of the Li salts were much lower 
+than that of the sulfide SE, the ionic conduction path across 
+the positive electrode layers could significantly impact Li2S 
+capacity.[6,53] To mitigate this effect, we employed sulfide SEs 
+to obtain an ion-conduction path across the electrode layer 
+(i.e., the so-called microscale, ionically conductive network). 
+To exclude the capacity contribution of sulfide SEs, their area 
+of contact with C was minimized as much as possible.[54,55] 
+In SEM images and EDX mappings for mixture of sulfide SE 
+and C prepared by hand mixing and ball-milling, sulfide SE 
+was mixed with C in microscale and nanoscale, respectively.[41] 
+Mixing method have an impact on their contact area. Figure 1c 
+shows the charge–discharge curves of ASSBs that were fabri-
+cated from a mixture (LPS + C), prepared by the hand-mixing 
+of LPS and C, and a composite (LPS–C), prepared by the ball-
+milling of LPS and C. In ASSBs (Li–In/LPS/LPS–C) with the 
+LPS–C composite, LPS acted as an active material, whereas 
+ASSBs (Li–In/LPS/LPS + C) with the LPS + C mixture exhibited 
+Figure 1.  Characterization of ASSBs with a common positive electrode and a designer positive electrode used to mitigate the solid electrolyte (SE) 
+capacity contribution. a) Schematics of ASSBs (Li–In/LPS/Li2S–LPS–C) with a common composite positive electrode comprising Li2S, C, and SE. 
+b) Charge–discharge curves of ASSBs (Li–In/LPS/Li2S–LPS–C) containing a common composite positive electrode with an Li2S content of 10 wt%. 
+c) Charge–discharge curves of ASSBs (Li–In/LPS/LPS + C or LPS–C) with an LPS + C mixture and LPS–C composite. d) Schematics of ASSBs (Li–In/
+LPS/Li2S–LiI–C + LPS) with a designer positive electrode used to mitigate the capacity contribution of LPS. e) Scanning electron microscopy (SEM) 
+images and energy-dispersive X-ray spectroscopy (EDX) mappings of the designer positive electrode comprising Li2S–LiI–C and LPS.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (4 of 13)
+a capacity of only 5 mAh g−1. Thus, hand-mixing successfully 
+minimized the capacity contribution of LPS, which allowed LPS 
+to be employed as a microscale, ionically conductive network 
+for the positive electrodes comprising Li2S–Li-salt–C compos-
+ites. Figure 1d illustrates the structure of the positive electrode 
+with nano- and microscale ionically conductive networks, while 
+Figure 1e shows cross-sectional scanning electron microscopy 
+(SEM) images and energy-dispersive X-ray spectroscopy (EDX) 
+mappings of the positive electrode layer comprising an Li2S–
+LiI–C composite and LPS. In the Li2S–LiI–C composite, Li2S, 
+LiI, and C were uniformly dispersed, but the composite as a 
+whole was clearly separated from LPS. This allowed the capacity 
+contribution of LPS to be neglected.
+The presence and dispersion of Li salts in the Li2S–Li-salt–C 
+composite were probed by X-ray diffraction (XRD), SEM-EDX, 
+and X-ray photoelectron spectroscopy (XPS). Figure S1, Sup-
+porting Information shows the XRD patterns of Li2S–Li-salt–
+C recorded in the presence of Si as an internal standard. The 
+pattern of Li2S–LiF–C featured peaks corresponding to the 
+cubic structure of Li2S and LiF (Figure S1a, Supporting Infor-
+mation), while the patterns of all other composites showed no 
+peaks attributable to Li salts and C. No diffraction peaks were 
+observed for Li2S–Li3N–C, which indicated that all components 
+were present in an amorphous state (Figure S1c, Supporting 
+Information). In the patterns of all the Li2S–Li-salt–C compos-
+ites, except Li2S–LiF–C and Li2S–Li3N–C, all diffraction peaks 
+could be indexed to the cubic structure of Li2S. Figures S2–S4, 
+Supporting Information show SEM-EDX images of Li2S–Li-
+salt–C composites, demonstrating that all elements (and hence, 
+the starting materials) were homogeneously mixed and that 
+nanoscale electronically and ionically conductive networks 
+were formed upon ball-milling. Figure S5, Supporting Infor-
+mation shows the particle sizes and particle size distributions 
+of all composites. Li2S–Li-halide–C composites contained 
+particles with sizes on the scale of sub-micrometer to several 
+micrometers, Li2S–Li-oxyacid–C composites contained parti-
+cles several micrometers in size, and Li2S–Li3N–C composites 
+contained particles several to ten micrometers in size. Finally, 
+Li2S–LiBH4–C composites contained particles with sizes of 
+10–30  µm. Li2S–Li-salt–C composites were evaluated by XPS 
+to probe side reactions occurring between the starting mate-
+rials (Figures S6–S8, Supporting Information). Ball-milling did 
+not significantly affect the F 1s, Cl 2p, Br 3p, and I 3d spectra 
+of the composites containing LiF, LiCl, LiBr, and LiI, respec-
+tively (Figure S6, Supporting Information), nor the B 1s, C 1s, 
+P 2p, and S 2p spectra of the composites comprising Li3BO3, 
+Li2CO3, Li3PO4, and Li2SO4, respectively (Figure S7, Sup-
+porting Information). This indicates that the corresponding 
+Li-halide- and Li-oxyacid-containing composites were present. 
+Figure S8, Supporting Information shows the XPS spectra of 
+Li2S–LiBH4–C, Li2S–Li3N–C, and Li2S–Li3P–C. The B 1s spec-
+trum of Li2S–LiBH4–C featured peaks at 68.5 and 70.5 eV attrib-
+utable to LiBH4 and Li3BO3, respectively, indicating that LiBH4 
+was partially oxidized during ball-milling. The N 2p spectrum 
+of Li2S–Li3N–C featured peaks at 396 and 398 eV, which were 
+higher binding energies than those of Li3N, indicating the oxi-
+dation of this compound during ball-milling. However, these 
+peaks were below 400 eV and were therefore ascribed to anionic 
+N. The peak of P2p3/2 at 130 and 132 eV attributable to P0[56,57] 
+and oxygen–phosphorus moieties[58–60] are minor component 
+and the most of peak were located at the lower binding energy 
+compared to 130 eV. In the references,[61–63] the binding energy 
+of P2p3/2 for Li3P was located around from 126 to 130 eV. The P 
+2p spectrum of Li2S–Li3P–C featured peaks of P3− and P−, indi-
+cating the partial oxidation of Li3P.
+Figure  2a–c shows the charge–discharge curves of ASSBs 
+(Li–In/LPS/Li2S–Li-salt–C + LPS) with Li2S–Li-salt–C com-
+posites, revealing the following capacities: 500 (Li2S–LiF–C), 
+650 (Li2S–LiCl–C), 800 (Li2S–LiBr–C), 1100 (Li2S–LiI–C), 500 
+(Li2S–Li3BO3–C), 700 (Li2S–Li2CO3–C), 650 (Li2S–Li3PO4–C), 
+650 (Li2S–Li2SO4–C), 150 (Li2S–LiBH4–C), 100 (Li2S–Li3N–C), 
+and 400 mAh gLi2S−1 (Li2S–Li3P–C). Notably, the last three 
+values of those listed above were lower than the discharge 
+capacities of ASSBs with Li2S–Li-halide–C and Li2S–Li-oxyacid–
+C composites. Furthermore, ASSBs with Li2S–LiBH4–C, Li2S–
+Li3N–C, and Li2S–Li3P–C had large irreversible capacities. In 
+Li2S–Li3P–C, Li3P acted as an active material (Figure S9, Sup-
+porting Information), and the Li2S capacity in this case was 
+calculated by subtracting the capacity of Li3P from the overall 
+capacity (for a more detailed discussion, see the Supporting 
+Information).
+The OOVs of the SEs were determined by the LSV characteri-
+zation of all-solid-state cells (ASSCs) containing Li2S-free com-
+posites, which were prepared by the ball-milling of each Li salt 
+and C. The working electrodes were then prepared by the hand-
+mixing of LPS and the Li-salt–C composites. A schematic illus-
+tration of these ASSCs (Li–In/LPS/Li-salt–C + LPS) with the 
+working electrodes used to measure the OOVs of the Li salts is 
+shown in Figure 2d, while the LSV curves of the ASSCs (Li–In/
+LPS/Li-salt–C + LPS) with the Li-salt–C composites are shown 
+in Figure S10, Supporting Information. The intersection of the 
+base line extrapolation with the curve showing the maximum 
+peak current was defined as the OOV. ASSCs (Li–In/LPS/Li-
+salt–C + LPS) with Li-salt–C composites, except LiF–C, showed 
+oxidation currents. The OOVs determined from the LSV curves 
+and first-principles calculations are summarized in Table S1, 
+Supporting Information and Figure 2e. In the case of the com-
+posites comprising Li halides, LiBH4, and Li3P, the measured 
+OOVs were almost consistent with the calculated oxidation 
+voltages. However, the measured OOVs for the Li-oxyacid- and 
+Li3N-containing composites were more than 1  V, lower and 
+higher, respectively, than the calculated oxidation voltages.[19,20] 
+A more detailed discussion is presented in the Supporting 
+Information
+Figure  3a shows the relationship between the discharge 
+capacities of the ASSBs with Li2S–Li-salt–C composites and the 
+experimentally measured OOVs of the Li salts. The discharge 
+capacity of ASSBs (Li–In/LPS/Li2S–LiF–C + LPS) with Li2S–
+LiF–C was ruled out in the relationship because the OOV and 
+ionic conductivity of LiF could not be measured. However, it 
+should be noted the effect of LiF as ionic conductive path on 
+the capacity of Li2S. LiF is capable of improving capacity and 
+cycle life as SE interphase (SEI) for lithium metal and high 
+voltage positive electrodes due to wide electrochemical sta-
+bility.[64,65] On the other hand, LiF accelerates an aggregation of 
+organic SEI component and plays the role of glue in the SEI 
+film.[66] The interface between LiF and Li2CO3 promotes Li+ ion 
+defects and works as a high conductive SEI.[67] Therefore, the 
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (5 of 13)
+ionic conduction of LiF only would not be enough in SEI. Actu-
+ally, the capacity of ASSBs (Li–In/LPS/Li2S–LiF–C + LPS) with 
+Li2S–LiF–C is the lowest in the Li2S-Li-halide–C and LiF only 
+is not effective in the ion conduction path for Li2S active mate-
+rial. The discharge capacities of the ASSBs (Li–In/LPS/Li2S–
+Li-salt–C + LPS) with Li2S–Li-salt–C composites were under 
+200 mAh g−1 when the Li salts had OOVs under 2.5 V versus 
+Li, Interestingly, LiBH4 caused the low discharge capacity 
+even though OOV of LiBH4 was slightly higher than that of 
+Li2S. On the other hand, the discharge capacities of the same 
+ASSBs exceeded 600 mAh g−1 when the Li salts had OOVs of 
+>2.6 V versus Li, indicating that the Li salts acted as nanoscale, 
+ionic conductive networks in these cases.
+Although the OOVs of LiBH4 and LiI only differed by 0.1 V, 
+the discharge capacities of the ASSBs (Li–In/LPS/Li2S–LiBH4–
+C + LPS or Li2S–LiI–C + LPS) with Li2S–LiBH4–C and Li2S–
+LiI–C were significantly different. To clarify the origin of this 
+behavior, we compared the Nyquist plots of these two ASSBs 
+(Li–In/LPS/Li2S–LiBH4–C + LPS or Li2S–LiI–C + LPS) after full 
+charging (Figure 3b). In the case of the ASSB (Li–In/LPS/Li2S–
+LiBH4–C + LPS) containing Li2S–LiBH4–C, we observed a large 
+semi-circle representing interfacial resistance. In the charging 
+process, it is predicted that LiBH4 is oxidized to an Li-poor 
+oxidant Li2B6H12,[20] which would be formed at the interface 
+between Li-salt and C. The formed Li-poor compounds did not 
+act as nanoscale, ionically conductive networks. As the results, 
+the interface area between Li2S and LiBH4 was decreased, 
+which increases the interfacial resistance (Figure  3e). On the 
+other hand, the ASSB (Li–In/LPS/Li2S–LiI–C + LPS) with 
+Li2S–LiI–C had a smaller interfacial resistance than that of the 
+ASSB (Li–In/LPS/Li2S–LiBH4–C + LPS) with Li2S–LiBH4–C. 
+The cut off voltage of the charging process was 3.6 V versus Li 
+and LiI (Li-salts with OOVs of > 2.6 V vs Li) would be oxidized 
+as well as LiBH4. In coating materials for high voltage active 
+materials, even though the oxidation voltage of coating mate-
+rials (Li2CO3,[68] Li3BO3,[68] LiNbO3,[20] Li1.3Al0.3Ti1.7(PO4)3,[69] 
+Li2ZrO3,[20] and LiZr2(PO4)3[70]) is lower than the cut off voltage 
+of ASSBs with high voltage active materials, the coating mate-
+rials have significantly decreased the interfacial resistance.[71–75] 
+Therefore, those coating materials would be also oxidized on 
+the high voltage active materials but they still work as the Li ion 
+conductive material. Based on the study about coating mate-
+rials for high voltage electrode and the obtained Nyquist plots 
+(Figure 3b), we speculate that the oxidation of LiI was limited 
+and the interface area between Li2S and LiI would be maintained 
+(Figure 3e).Furthermore, when the Li salts exhibited OOVs of 
+>2.6 V versus Li, the discharge capacities of ASSBs with Li2S–
+Li-salt–C composites decreased with increasing OOV. The 
+Figure 2.  Charge–discharge curves of ASSBs with Li2S–Li-salt–C composites and the oxidation stability of the Li salts. Charge–discharge curves of 
+ASSBs (Li–In/LPS/Li2S–Li-salt–C + SE) with a) Li2S–Li-halide–C; b) Li2S–Li-oxyacid–C; and c) Li2S–X–C composites (with X = LiBH4, Li3P, or Li3N). 
+d) Schematic illustration of an ASSC (Li–In/LPS/Li-salt–C + SE) with an Li-salt–C composite used to characterize the oxidation stability of the Li salts. 
+e) Comparison of oxidation voltages predicted by first-principles calculations[19,20] with the oxidation onset voltages (OOVs) determined from the LSV 
+curves of ASSCs (Li–In/LPS/Li-salt–C + SE) with Li-salt–C composites.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (6 of 13)
+discharge capacities of ASSBs (Li–In/LPS/Li2S–Li-halide–C + 
+LPS) with Li2S–Li-halide–C composites decreased depending on 
+the halide in the order of LiI > LiBr > LiCl. However, the OOVs 
+of these salts decreased in the opposite order. Figure 3c shows 
+the impedance spectra of ASSBs (Li–In/LPS/Li2S–Li-halide–C 
++ LPS) with Li2S–Li-halide–C after charging to 600 mAh g−1, 
+that is, to a state-of-charge (SOC) value of 50%. Straight lines 
+with phase angles of 45° were observed in the Nyquist plots, 
+which increased to angles of ≈90° with a decrease in frequency. 
+This is in accordance with the finite-length diffusion model.[76] 
+The impedance (Z) of finite diffusion in an electrode com-
+posed of spherical particles is defined in Equation (1), wherein 
+variables C and Rd are calculated using Equations (2) and (3), 
+respectively.[77]
+Z
+R
+R
+j
+C
+ct
+ω
+=
++
+
+
+
+−
+1
+5
+d
+	
+(1)
+C
+r
+F
+E
+c
+=
+−∂
+∂
+
+
+
+
+3
+s
+	
+(2)
+=
+−∂
+∂
+
+
+
+
+d
+s
+R
+E
+c
+r
+FD
+	
+(3)
+where Rct is the charge transfer resistance, ω is the angular 
+frequency, E is the open-circuit voltage (OCV), cs is the concen-
+tration of the electroactive species in the active electrode mate-
+rial, r is the diffusion length, D is the diffusion coefficient of 
+the electroactive species, and F is the faraday constant. Addi-
+tionally, Rd in Equation (3) is the ratio of applied voltage to the 
+flux of an electroactive species in the active electrode material; 
+thus, we assumed that Rd in our study represents the diffu-
+sion resistance of the Li flux in the Li2S–Li-halide–C composite 
+(Rd Li2S–Li-halide–C). The semi-circle in the plot attributable to Rct 
+was not observed. Therefore, the capacities of the ASSBs with 
+Li2S–Li-salt–C depend on the diffusion resistance of the Li flux 
+in the Li2S–Li-salt–C composite when the Li salts had OOVs 
+of >2.6 V versus Li. The intersection points of the tangent of 
+the slope with the phase angles of 45° and ≈90° are defined as 
+transitions from semi-infinite diffusion to finite diffusion in 
+active materials.[78] Furthermore, the real axis of the intersec-
+tion was determined to be represented by R
+1
+5
+d (Figure S11, Sup-
+porting Information) in Equation (1). The values of Rd Li2S–LiCl–C, 
+Rd Li2S–LiBr–C, and Rd Li2S–LiI–C were 2250, 1670, and 675 Ω cm2, 
+respectively. Figure  3d shows that the discharge capacities 
+of the ASSBs (Li–In/LPS/Li2S–Li-halide–C + LPS) with the 
+Li2S–Li-halide–C composites increased with decreasing diffu-
+sion resistance of the Li flux in the composites. Therefore, the 
+different capacities of these ASSBs likely originate from the 
+varying Li fluxes in the Li2S–Li-halide–C composites (Figure 3e).
+For the Li fluxes in the Li2S–Li-halide–C composites, the Li hal-
+ides would work as the nanoscale, ionically conductive network 
+rather than Li2S during charging. We focused on the ionic con-
+ductivities of the Li salts themselves, which were measured from 
+the alternating current (AC) impedance measurements of their 
+compressed powder pellets (Table S1, Figure S12, Supporting 
+Information). Figure 3d shows that the discharge capacities of the 
+ASSBs (Li–In/LPS/Li2S–Li-halide–C + LPS) with Li2S–Li-halide–C 
+Figure 3.  Relationship between Li2S capacity and Li-salt properties. a) Relationship between the discharge capacities of ASSBs (Li–In/LPS/Li2S–Li-
+salt–C + SE) with Li2S–Li-salt–C composites and the Li salt OOVs measured from the LSV curves of ASSCs (Li–In/LPS/Li-salt–C + SE) with Li-salt–C 
+composites. b) Impedance spectra of ASSBs (Li–In/LPS/Li2S–Li-salt–C + SE) with Li2S–LiI–C and Li2S–LiBH4–C after charging. c) Impedance spectra 
+of ASSBs (Li–In/LPS/Li2S–Li-halide–C + SE) with Li2S–LiCl–C, Li2S–LiBr–C, and Li2S–LiI–C after charging to a state-of-charge (SOC) value of 50%. 
+d) Relationship between the discharge capacities, diffusion resistances of ASSBs (Li–In/LPS/Li2S–Li-halide–C + SE) with Li2S–Li-halide–C composites, 
+and the ionic conductivities of the Li halide. e) Schematic illustration of the discharge of ASSBs with an Li2S-based positive electrode including Li salts 
+with OOVs over and under 2.6 V versus Li.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (7 of 13)
+increased with increasing ionic conductivities of the Li hal-
+ides, indicating that the conductivities of Li salts have a greater 
+effect on the Li2S positive electrodes when the SEs have OOVs 
+of >2.6 V versus Li. Thus, SEs should preferably have OOVs of 
+>2.6 V versus Li and high ionic conductivities (Figure 3e).
+The development of broadly applicable energy storage devices 
+with energy densities of ≈500 Wh kg−1 is an important research 
+target.[9] In particular, calculations assuming a 20-µm-thick Li 
+negative electrode, 20-µm-thick SE layer, and 10-µm-thick cur-
+rent collectors (Equation (S12), Table S2, Figure S13, Supporting 
+Information) suggest that ASSBs with an energy density of 
+500 Wh kg−1 require an Li2S content of >40 wt% and a capacity 
+of >1000  mAh gLi2S−1; however, the Li2S content reported in 
+most papers is 30–40 wt% (Table S3, Supporting Information). 
+Herein, positive electrodes with an Li2S content of 40 wt% were 
+prepared using LiI as a nanoscale, ionically conductive network 
+(Li2S:LiI:C:LPS = 40:10:10:40, w/w/w/w). This Li halide was 
+chosen because the Li2S–LiI–C positive electrode (Li2S:LiI:C:LPS 
+= 30:20:10:40, w/w/w/w) exhibited the highest capacity 
+(Figure  3a). Figure S14, Supporting Information presents the 
+charge–discharge curves of the ASSBs (Li–In/LPS/Li2S–LiI–C + 
+LPS, 30 and 40 wt% Li2S) with 30 and 40 wt% Li2S. The battery 
+capacity in latter case was much lower than that in the former 
+case. The volume ratio of LiI (LiI/Li2S + LiI + C) in Li2S–LiI–C 
+was then decreased from 18 vol% (Li2S:LiI:C = 30:20:10, w/w/w) 
+to 8 vol% (Li2S:LiI:C = 40:10:10, w/w/w) based on the densities of 
+Li2S (1.66 g cm−3), LiI (4 g cm−3), and carbon (2 g cm−3). As ioni-
+cally conductive LiI has a relatively high density, this decrease in 
+its volume within the composite decreased the capacity of the 
+ASSB (Li–In/LPS/Li2S–LiI–C + LPS, 40 wt% Li2S) with 40 wt% 
+Li2S. Therefore, we concluded that SEs must have a low density 
+as well as critical OOV and ionic conductivity values.
+Li3PO4 exhibits a suitable OOV (2.6 V vs Li) and a relatively 
+low mass density (2.5 g cm−3) but features a suboptimal ionic 
+conductivity (Table S1, Supporting Information). Therefore, if 
+the ionic conductivity of this salt is improved, it can be used 
+as a nanoscale, ionically conductive network to increase the 
+Li2S content, while maintaining its high reversible capacity. 
+To improve the ionic conductivity of Li3PO4, there are several 
+strategy such as solid solution with aliovalent element substi-
+tution/doping at both cationic and anionic sites,[79,80] interface 
+engineering due to the addition of insulating fine particles,[81,82] 
+and composite ceramic/polymer electrolytes.[83] Here, we 
+focused on the use of the mixed anion effect to improve the 
+conductivity of Li-ion-conducting glasses in pseudobinary sys-
+tems,[84] because the XRD pattern of Li2S–Li3PO4–C revealed 
+the amorphous nature of its Li3PO4 component (Figure S1b, 
+Supporting Information). There are possible combinations and 
+compositions of the pseudobinary systems. For the present 
+study, an Li3PO4–Li2SO4 pseudobinary system, prepared by the 
+ball-milling of Li3PO4 and Li2SO4, was investigated because 
+Li2SO4 has higher conductivity and OOV values than those 
+of Li3PO4. Furthermore, Li3PO4–Li2SO4 glass (50:50 mol%) 
+could be prepared by rapid quenching.[85] The conductivity of 
+this system was obtained from the AC impedance of the cor-
+responding compressed powder pellet. Figure  4a shows the 
+Nyquist plots of Li3PO4–Li2SO4, pure Li3PO4, and pure Li2SO4. 
+The semi-circle and spike observed in the Nyquist plot of 
+Li3PO4–Li2SO4 indicated that this system exhibited an ionic 
+conductivity of 10−8 S cm−1, a value greater than those of pure 
+Li3PO4 and Li2SO4. The improved ionic conductivity has been 
+seen in many mixed glass former glasses although the mecha-
+nism has not been fully explained due to a nonlinear and non-
+additive change in the ionic conductivity. In Li3BO3–Li2SO4 
+glass system, the elastic moduli are decreased with increasing 
+the Li2SO4 content, which enables the densification of the pellet 
+by cold pressing.[86] Thus, one of the reasons in the improved 
+ionic conductivity would be a reduced grain boundary resist-
+ance in Li3PO4–Li2SO4.
+An Li3PO4–Li2SO4–C composite was then prepared by ball-
+milling to measure the OOV of Li3PO4–Li2SO4. Figure 4b pre-
+sents the LSV curve of an ASSC (Li–In/LPS/Li3PO4–Li2SO4–C 
++ LPS) with Li3PO4–Li2SO4–C, as well as those of ASSCs with 
+Li3PO4–C and Li2SO4–C. The OOV of Li3PO4–Li2SO4 was found 
+to be ≈2.1 V versus Li–In, which corresponds to 2.7 V versus Li, 
+and was not significantly different from that of Li3PO4. Thus, 
+the prepared Li3PO4–Li2SO4 had a relatively high conductivity 
+and an OOV of 2.7 V versus Li, making it a suitable, ionically 
+conductive, nanoscale network for the Li2S–Li-salt–C com-
+posite. An Li2S–Li3PO4–Li2SO4–C composite was prepared by 
+ball-milling in the same way as the Li2S–Li-salt–C composites 
+were, with the corresponding XRD pattern shown in Figure 4c. 
+This pattern featured no peaks of Li3PO4, Li2SO4, or C, sug-
+gesting that Li3PO4 and Li2SO4 were present in an amorphous 
+state. Figure 4d presents the SEM images and EDX mappings 
+of the Li2S–Li3PO4–Li2SO4–C composite, demonstrating the 
+homogeneous mixing of its constituents. The XPS spectra of 
+this composite (Figure 4e) featured the P 2p and S 2p signals 
+of Li3PO4 and Li2SO4, indicating that no severe side reactions 
+occurred between Li2S, Li3PO4, Li2SO4, and C.
+Figure 5 shows the electrochemical properties of ASSBs (Li–
+In/LPS/Li2S–Li3PO4–Li2SO4–C + LPS) with Li2S–Li3PO4–Li2SO4–
+C. Figure  5a shows the charge–discharge curves of ASSBs 
+(Li–In/LPS/Li2S–Li3PO4–Li2SO4–C + LPS, Li2S–LiI–C + LPS, 
+Li2S–LPS–C + LPS, 40 wt% Li2S, 1 mg cm−2) with Li2S–Li3PO4–
+Li2SO4–C, Li2S–LiI–C, and Li2S–LPS–C. The Li2S content in the 
+positive electrode was fixed at 40 wt%. For the electronically and 
+ionically conductive nanoscale network, the contents of C, Li 
+salt, and LPS were all fixed at 10 wt%. For the ionically conduc-
+tive microscale network, the LPS content was fixed at 40 wt%. 
+Thus, the positive electrodes differed only in the Li salt used as 
+the nanoscale, ionically conductive network. ASSBs (Li–In/LPS/
+Li2S–Li3PO4–Li2SO4–C + LPS, Li2S–LiI–C + LPS, Li2S–LPS–C + 
+LPS, 40 wt% Li2S, 1 mg cm−2) with Li2S–LiI–C, Li2S–LPS–C, and 
+Li2S–Li3PO4–Li2SO4–C exhibited capacities of 400, 650, and 1000 
+mAh gLi2S−1, respectively. Notably, ASSBs with Li2S–Li3PO4–
+Li2SO4–C exhibited high capacity even at a high Li2S content. 
+Li3PO4–Li2SO4 functions as the nanoscale, ionically conductive 
+network even though the ionic conductivity of Li3PO4–Li2SO4 
+was 10−8 S cm−1 which was much lower than that of LPS. C.-C. 
+Chen et al., have found the ultrafast Ag diffusion in the com-
+posite of RbAg4I5 and graphite.[45] At an interface of RbAg4I5 
+and graphite, Ag+ ions and electrons conduct in RbAg4I5 and 
+graphite, which increases the diffusion coefficient by about 
+10  000 times of RbAg4I5: Job-sharing chemical diffusion.[45] In 
+our study, the Li chemical diffusion in Li2S–Li3PO4–Li2SO4–
+C would be enabled by the job-sharing chemical diffusion, in 
+which Li+ ions and electrons conduct in Li3PO4–Li2SO4 and C.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (8 of 13)
+For an ASSB (Li–In/LPS/Li2S–Li-salt–C + LPS) with an Li2S-
+based positive electrode to achieve an energy density of 500 Wh 
+kg−1, it should exhibit a reversible capacity of 1167 mAh gLi2S−1 
+with an Li2S content of 40 wt% or a reversible capacity of 
+1000 mAh gLi2S−1 with an Li2S content of 50 wt% (Figure S13, 
+Supporting Information). These values are based on calcula-
+tions assuming a certain anode, SE layer, and current collector 
+(Equation (S12), Table S2, Supporting Information). Figure S15, 
+Supporting Information shows the effects of Li2S loading and 
+operating temperature on the electrochemical performance 
+of ASSBs (Li–In/LPS/Li2S–Li3PO4–Li2SO4–C + LPS, 50 wt% 
+Li2S, 2, 5, or 10 mg cm−2, 25 or 60 °C) containing Li2S–Li3PO4–
+Li2SO4–C. To prepare a positive electrode with an Li2S content of 
+50 wt%, the content of LPS as the microscale, ionically conduc-
+tive network was reduced while maintaining the mass ratio of 
+Li2S:Li3PO4:Li2SO4:C in the Li2S–Li3PO4–Li2SO4–C composite. 
+Accordingly, the weight ratio of Li2S:Li3PO4:Li2SO4:C:LPS 
+equaled 50:6.25:6.25:12.5:25. Figure S15a, Supporting Infor-
+mation shows the charge–discharge curves of the ASSBs 
+(Li–In/LPS/Li2S–Li3PO4–Li2SO4–C + LPS, 50 wt% Li2S, 2 mg cm−2, 
+25 or 60 °C) containing Li2S–Li3PO4–Li2SO4–C with an Li2S con-
+tent of 50 wt% and a loading of 2 mg cm−2 that were recorded 
+at operating temperatures of 25 and 60  °C. At 25 and 60  °C, 
+the discharge capacities equaled 400 and 800 mAh gLi2S−1, 
+respectively, that is, they increased with increasing tempera-
+ture because of the concomitant decrease in internal resistance. 
+Figure S15b, Supporting Information shows the charge–dis-
+charge curves of the ASSBs (Li–In/LPS/Li2S–Li3PO4–Li2SO4–
+C + LPS, 50 wt% Li2S, 2, 5, or 10 mg cm−2, 60 °C) containing 
+Li2S–Li3PO4–Li2SO4–C with 50 wt% of Li2S at Li2S loadings of 
+2, 5, and 10  mg cm−2, revealing that the respective discharge 
+capacities equaled 750, 800, and 500 mAh gLi2S−1. Notably, 
+the discharge capacity at 10 mg cm−2 was lower than those at 
+2 and 5  mg cm−2, which indicated that the microscale, ioni-
+cally conductive network across the positive electrode affected 
+the charge–discharge capacities of this electrode at high load-
+ings.[6,50] To mitigate the effect of the microscale, ionically con-
+ductive network on charge–discharge capacity, a fine sulfide SE 
+Li-P-S-I with the diameter of 2–3 µm was used in the positive 
+electrode instead of a bulky sulfide SE. Figure S15c, Supporting 
+Figure 4.  Characterization of pseudobinary Li3PO4–Li2SO4 and Li2S–Li3PO4–Li2SO4–C composites. a) Nyquist plots of Li3PO4, Li2SO4, and Li3PO4–
+Li2SO4 compressed powder pellets. b) LSV curves of ASSCs (Li–In/LPS/Li3PO4–Li2SO4–C + LPS) with Li3PO4–Li2SO4–C, Li3PO4–C, and Li2SO4–C. 
+c) X-ray diffraction (XRD) patterns of Li2S–Li3PO4–Li2SO4–C and its constituents. d) SEM image and EDX mappings of Li2S–Li3PO4–Li2SO4–C. e) X-ray 
+photoelectron spectroscopy (XPS) spectra of Li2S–Li3PO4–Li2SO4–C and its constituents.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (9 of 13)
+Information shows the results obtained for ASSBs (Li–In/LPS/
+Li2S–Li3PO4–Li2SO4–C + fine SE or bulky SE, 50 wt% Li2S, 
+10 mg cm−2, 60 °C) containing Li2S–Li3PO4–Li2SO4–C with fine 
+or bulk sulfide SEs and a positive electrode containing 50 wt% 
+Li2S at a loading of 10  mg cm−2. The ASSB (Li–In/LPS/
+Li2S–Li3PO4–Li2SO4–C + fine SE, 50 wt% Li2S, 10  mg cm−2, 
+60  °C) with a fine sulfide SE showed a discharge capacity of 
+900 mAh gLi2S−1, corresponding to an areal capacity of 
+9 mAh cm−2. Thus, the charge–discharge tests of ASSBs 
+(Li–In/LPS/Li2S–Li3PO4–Li2SO4–C + fine SE, 10  mg cm−2) 
+with an Li2S loading of 10  mg cm−2 were conducted using 
+fine sulfide SE particles in the positive electrode. The ASSBs 
+(Li–In/LPS/Li2S–Li3PO4–Li2SO4–C + fine LPS, 40 wt% Li2S, 
+10  mg cm−2, 25  °C) containing Li2S–Li3PO4–Li2SO4–C with 
+40 wt%/10  mg cm−2 Li2S exhibited about 1000 mAh gLi2S−1 at 
+25 °C and 0.02 C (Figure S16a, Supporting Information), 0.03 C 
+(Figure S16b, Supporting Information), or 0.05 C (Figure  5b) 
+during 30 cycles (Figure  5c). The ASSBs (Li–In/LPS/Li2S–
+Li3PO4–Li2SO4–C + fine SE, 50 wt% Li2S, 10 mg cm−2, 60 °C) 
+containing Li2S–Li3PO4–Li2SO4–C with 50 wt% Li2S at a 
+loading of 10 mg cm−2 exhibited over 1000 mAh gLi2S−1 at 0.05 C 
+after 10 cycles (Figure S15d, Supporting Information), and the 
+capacities gradually decreased over 20 cycles (Figure  5e). The 
+ASSBs (Li–In/LPS/Li2S–Li3PO4–Li2SO4–C + fine SE, 40 wt% 
+Li2S, 10  mg cm−2, 60  °C) containing Li2S–Li3PO4–Li2SO4–C 
+with 40 wt% Li2S at a loading of 10 mg cm−2 exhibited over 1100 
+and 1000 mAh gLi2S−1 at 0.1 C (Figure 5d) and 0.2 C (Figure S17, 
+Supporting Information), respectively, for 50 to 60 cycles run 
+at 60  °C. The areal and gravimetric capacities of the positive 
+electrode are summarized in Table S4, Supporting Informa-
+tion and presented in Figure  5f. For ease of comparison, the 
+previously obtained capacities of the Li2S-based positive elec-
+trode were standardized with respect to positive electrode 
+mass, and the capacities of ASSBs with Li2S-based positive elec-
+trodes (both areal and per gram of positive electrode) were also 
+included (Table S3, Supporting Information). Figure 5f displays 
+the predicted energy densities of ASSBs based on the capacity 
+per gram of positive electrode and the areal capacity calculated 
+by Equation (4) (assuming an SE layer and current collectors) 
+(Table S2, Supporting Information). The ASSBs with Li2S and 
+Li2S–LiI nanocomposites exhibited high gravimetric and areal 
+capacities, reaching the predicted energy density of 300–400 Wh 
+kg−1. However, these gravimetric and areal capacities were still 
+insufficient to reach an energy density of 400–500 Wh kg−1. On 
+the other hand, the Li2S positive electrode containing Li3PO4–
+Li2SO4 could potentially be used to fabricate ASSBs with an 
+energy density of 400–500  Wh kg−1. Thus, SEs with critical 
+OOVs, high ionic conductivities, and low mass densities were 
+Figure 5.  Electrochemical properties of ASSBs containing Li2S–Li3PO4–Li2SO4–C. a) Charge–discharge curves of ASSBs (Li–In/SE/Li2S–LiI–C + bulky 
+SE, Li2S–LPS–C + bulky SE, Li2S–Li3PO4–Li2SO4–C + bulky SE, 40 wt% Li2S, 1 mg cm−2, 25 °C) containing Li2S–LiI–C, Li2S–LPS–C, and Li2S–Li3PO4–
+Li2SO4–C electrodes with an Li2S content of 40 wt%. b) Charge–discharge curves of ASSBs (Li–In/SE/Li2S–Li3PO4–Li2SO4–C + fine SE, 40 wt% Li2S, 
+10 mg cm−2, 25 °C) containing Li2S–Li3PO4–Li2SO4–C with an Li2S content of 40 wt% recorded at 0.05 C and 25 °C for 40 cycles. c) Cycle performance 
+of ASSBs (Li–In/SE/Li2S–Li3PO4–Li2SO4–C + fine SE, 40 wt% Li2S, 10 mg cm−2, 25 °C) containing Li2S–Li3PO4–Li2SO4–C with the Li2S content of 
+40 wt% and Li2S loading of 10 mg cm−2 at 0.02, 0.03, 0.05, and 0.1 C. d) Charge–discharge curves of ASSBs (Li–In/SE/Li2S–Li3PO4–Li2SO4–C + fine SE, 
+40 wt% Li2S, 10 mg cm−2, 60 °C) containing Li2S–Li3PO4–Li2SO4–C with an Li2S content of 40 wt% and an Li2S loading of 10 mg cm−2 recorded at 0.1 C 
+and 60 °C for 50 cycles. e) Cycle performance of ASSBs (Li–In/SE/Li2S–Li3PO4–Li2SO4–C + fine SE, 40 and 50 wt% Li2S, 10 mg cm−2, 60 °C) containing 
+Li2S–Li3PO4–Li2SO4–C with Li2S contents of 40 and 50 wt% at an Li2S loading of 10 mg cm−2 recorded at 60 °C. f) Relationship between areal capacity 
+and capacity per gram of positive electrode. The energy densities per gram of the cell were calculated from the capacity per gram of positive electrode, 
+areal capacity, and other parameters (Table S3, Supporting Information).
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (10 of 13)
+found to be suitable for the construction of high-Li2S-content 
+positive electrodes with high reversible capacity.
+3. Conclusion
+We successfully demonstrated the use of SEs with critical oxi-
+dation stability to increase the capacity of Li2S as the active 
+material of ASSBs (Li–In/LPS/Li2S–Li-salt–C + SE). The capac-
+ities of ASSBs with an Li2S positive electrode significantly 
+increased when the employed SEs had OOVs of >2.6 V versus 
+Li, in which case the capacities were limited by the ionic 
+conductivities of these SEs. Therefore, it was concluded 
+that proper SEs should exhibit an OOV of >2.6  V  versus Li 
+and have the maximum possible ionic conductivity to act as 
+nanoscale, ionically conductive networks in Li2S positive elec-
+trodes. This obtained insight was used to fabricate a pseu-
+dobinary Li-oxyacid SE with the critical OOV (> 2.6 V vs Li) 
+and ionic conductivity of 10−8 S cm−1, which allowed us to 
+achieve a high capacity of >1000 mAh gLi2S−1 with a high Li2S 
+content (40 to 50 wt%) in the positive electrode. In addition, 
+the corresponding positive electrode could enable the design 
+of ASSBs with an energy density of 400–500  Wh kg−1. The 
+adopted strategy will be also suitable for the development of 
+both 2-V-class, sulfur-based positive electrode materials and 
+high-voltage positive electrode materials. Furthermore, these 
+results are expected to aid the design of artificial SE interfaces 
+on electrode active materials and deepen our understanding 
+of the role of these interfaces in Li-ion batteries.
+4. Experimental Section
+Preparation of Li2S–Li-Salt–C Composites: Li2S (Mitsuwa Chemicals 
+Co., Ltd.) was hand-mixed with LiF (Aldrich, 99.9%), LiCl (Aldrich, 
+99.9%), LiBr (Aldrich, 99.9%), LiI (Aldrich, 99.9%), Li3BO3, Li2CO3 
+(Wako Pure Chemical Ind., Ltd., >99%),  Li3PO4 (Aldrich), Li2SO4, 
+LiBH4 (Aldrich, 90%), Li3N, or Li3P in a 30:20 weight ratio. The mixture 
+was placed into a ZrO2 pot (45  mL) with 160 ZrO2 balls (diameter = 
+4 mm) and was mechanically milled using a planetary ball mill (Fritsch 
+Pulverisette 7) for 10 h at 510 rpm under Ar. To obtain Li3BO3, a mixture 
+of LiOH·H2O (Wako Pure Chemical Industries, Ltd., >99%) and H3BO3 
+(Wako Pure Chemical Industries, Ltd., >99%)  was heated in an Al2O3 
+crucible at 500 °C for 1 h and then sintered at 600 °C for 2 h under an 
+air atmosphere. Li3PO4 and Li2CO3 crystals were heated at 130  °C for 
+12 h under vacuum to remove surface-absorbed water. Li2SO4 was 
+obtained by the heat treatment of Li2SO4·H2O (Wako Pure Chemical 
+Industries, Ltd., >99%) at 300 °C for 3 h in dry Ar. Li3N was prepared 
+from metallic Li foil (Furuuchi Chemical Corp., 99.9%) and N2 gas (6 N). 
+Li foil was placed into a stainless-steel container, and the Ar gas (6 N) 
+inside the container was then replaced with N2 gas. The container 
+was sealed and left for 3 days at room temperature to produce Li3N. 
+Li3P was prepared from reagent-grade Li metal (Fruuchi, 99.9%) and 
+red P (Kojundo, 99.9999%). These starting materials were placed in 
+a 45-mL, stainless-steel pot with 10 stainless-steel balls (diameter = 
+10 mm). The pot was set in a planetary mill (Pulverisette7, Fritch), and 
+mechanochemical treatment was performed at 370 rpm for 10 h. Li2S–
+Li-salt–C composites, comprising Li2S–Li salt composites and vapor-
+grown carbon fiber (C, Showa Denko) in a weight ratio of 50:10, were 
+prepared by mechanically milling mixtures of the Li2S–Li salt composites 
+and C at 510 rpm for 10 h in a ZrO2 pot (45 mL) with 160 ZrO2 balls 
+(diameter = 4 mm). This process formed electron conduction paths to 
+the Li2S–Li salt composite. The sample mass was about 0.2 g.
+Preparation of Li2S Positive Electrodes: The LPS glass SE prepared by 
+mechanical milling and used as the microscale, ionically conductive 
+network in the positive electrode and SE layers for ASSBs featured an 
+ionic conductivity of >10−4 S cm−1 at 25 °C. The Li2S positive electrodes 
+comprised Li2S–Li-salt–C and LPS in a weight ratio of 60:40. Accordingly, 
+the weight ratio of Li2S, Li salt, C, and LPS in the positive electrode 
+equaled 30:20:10:40. The prepared Li2S–Li-salt–C and LPS were hand-
+mixed in a dry, Ar-filled glove box to decrease the capacity contribution 
+of LPS.
+ASSBs with Li2S Positive Electrodes: Fabrication and Electrochemical 
+Characterization: ASSBs with an Li–In alloy/Li2S positive electrode were 
+fabricated as follows: The prepared Li2S positive electrodes (≈3 mg cm−2) 
+with an Li2S loading of 0.9–1.0  mg cm−2 and an SE layer (80  mg) 
+were set in a polycarbonate tube (diameter = 10 mm) and pressed at 
+360  MPa. A 300-µm-thick In foil and a 250-µm-thick Li foil were then 
+placed on the surface of the SE side of the bilayer pellet as a counter-
+reference electrode. The three-layered pellet was then sandwiched 
+between two stainless-steel disks as current collectors. Finally, ASSBs 
+were obtained by pressing at 72  MPa. Charge–discharge tests of 
+the constantly tightened cells were conducted at a current density of 
+0.64 mA cm−2 (0.5 C, 1 C = 1167 mA g−1) and 25 °C under Ar using a 
+charge–discharge device (BTS-2004, Nagano Co.). The voltage ranged 
+from 0 to 3.0  V versus Li–In. The interfacial and diffusion properties 
+of the positive electrode were probed by AC impedance measurements, 
+which were carried out at voltages and frequencies of 10 mV versus OCV 
+and 106–10−2 Hz, respectively.
+Preparation of Li Salt–C Electrode for the Determination of Li Salt 
+Oxidation Onset Voltage: Li-salt–C composites were prepared by hand-
+mixing LiF, LiCl, LiBr, LiI, Li3BO3, Li2CO3, Li3PO4, Li2SO4, LiBH4, Li3N, 
+or Li3P with C in a weight ratio of 50:10. The mixture was placed 
+into a ZrO2 pot (45  mL) with 160 ZrO2 balls (diameter = 4  mm) and 
+mechanically milled using a planetary ball mill (Fritsch Pulverisette 7) for 
+10 h at 510 rpm under Ar. The sample mass equaled 0.3 g. The Li-salt–C 
+electrodes comprised an Li-salt–C composite and LPS in a weight 
+ratio of 60:40. Accordingly, the weight ratio of Li salt, C, and LPS in the 
+electrodes equaled 50:10:40. Li-salt–C and LPS were hand-mixed in a dry 
+Ar-filled glove box, and the obtained Li-salt–C electrodes were used as 
+the ASSC working electrodes. ASSCs with Li–In/Li-salt–C electrodes were 
+fabricated as follows: The prepared Li-salt–C electrode (≈3  mg cm−2) 
+and the SE layer (80 mg) were set into a polycarbonate tube (diameter 
+= 10 mm) and pressed at 360 MPa. A 300-µm-thick indium foil and a 
+250-µm-thick lithium foil were then placed on the surface of the SE side 
+of the bilayer pellet as a counter-reference electrode. The three-layered 
+pellet was then sandwiched between two stainless-steel disks as current 
+collectors. Finally, ASSCs were obtained by pressing at 72  MPa. LSV 
+analysis of the constantly tightened cells was conducted at a sweep 
+rate of 1 mV s−1 and room temperature under Ar using a potentiostat 
+(VersaSTAT 3, AMETEK, Inc.). The voltage ranged from the OCV to 5.0 V 
+(vs Li–In).
+Preparation of Li3PO4–Li2SO4 and Li3PO4–Li2SO4–C Composites: To 
+prepare Li3PO4–Li2SO4, hand-mixed Li3PO4 and Li2SO4 (25:25, w/w) 
+were mechanically milled under the aforementioned conditions. The 
+Li3PO4–Li2SO4–C composite was prepared by mechanically milling a 
+mixture of Li3PO4–Li2SO4 and C in a 5:1 weight ratio using a planetary 
+ball mill under the aforementioned conditions. The Li3PO4–Li2SO4–C 
+electrode, composed of Li3PO4–Li2SO4–C and LPS, was prepared by 
+hand-mixing Li3PO4, Li2SO4, C, and LPS in a weight ratio of 25:25:10:40. 
+ASSCs with Li–In/Li3PO4–Li2SO4–C electrodes were fabricated using 
+the procedure employed for ASSCs with Li–In/Li-salt–C electrodes to 
+determine the OOV, as shown above. The LSV analysis of constantly 
+tightened cells was conducted under the previously mentioned 
+conditions.
+Preparation of Li2S–Li3PO4–Li2SO4–C Positive Electrode for Li2S Capacity 
+Characterization: To fabricate Li2S–Li3PO4–Li2SO4–C, a mixture of Li2S, 
+Li3PO4, and Li2SO4 was prepared by hand-mixing in a weight ratio of 
+40:5:5. The mixture was mechanically milled using a planetary ball 
+mill under the conditions used to prepare the Li2S–Li-salt composites. 
+Li2S–Li3PO4–Li2SO4–C was prepared by the ball-milling of the 
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (11 of 13)
+corresponding constituents in a weight ratio of 40:5:5:10. The Li2S positive 
+electrodes comprised Li2S–Li3PO4–Li2SO4–C and LPS in a weight ratio of 
+60:40 and were prepared by hand-mixing. The Li2S:Li3PO4:Li2SO4:C:LPS 
+weight ratio in these positive electrodes equaled 40:5:5:10:40.
+ASSBs with High-Energy Li2S Positive Electrodes: Fabrication and 
+Electrochemical 
+Characterization: 
+Li2S–Li3PO4–Li2SO4–C 
+positive 
+electrodes with high Li2S contents were prepared as shown above 
+using Li2S:Li3PO4:Li2SO4:C:SE weight ratios of 40:5:5:10:40 and 
+50:6.25:6.25:12.5:25. 
+In 
+Li2S–Li3PO4–Li2SO4–C 
+positive 
+electrodes 
+with 50 wt% Li2S, the tested Li2S loadings equaled 2, 5, and 
+10  mg cm−2 (corresponding to electrode loadings of 4, 10, and 
+20  mg cm−2, respectively). For an Li2S loading of 10  mg cm−2, a fine 
+sulfide SE powder was used to mitigate the ion conductivity resistance in 
+the positive electrodes. ASSBs with an Li–In/Li2S positive electrode were 
+fabricated as described above. Charge–discharge tests of constantly 
+tightened cells were conducted at a current density of 1.17  mA cm−2  
+(0.1 C, 1 C = 1167 mA g−1) and temperatures of 25 and 60 °C under Ar 
+using a charge–discharge device (BTS-2004, Nagano Co.).
+XRD Measurements: XRD patterns were recorded using a 
+diffractometer (SmartLab, Rigaku Corp.) equipped with a Cu Kα radiation 
+source and a detector (Dtex2000) and operated at 45 kV and 200 mA.
+Field Emission-Scanning Electron Microscopy and EDX Measurements: 
+Sample morphology was probed by field emission-scanning electron 
+microscopy (FE-SEM; SU8220; Hitachi High-Technologies Corp.). The 
+distribution of elements in the particles was investigated by EDX (EMAX 
+Evolution; Horiba Ltd.) at an acceleration voltage of 15  kV and room 
+temperature. The dispersion of Li2S–Li-salt–C and LPS in the positive 
+electrodes was probed by SEM imaging of the cross sections of the 
+corresponding ASSBs. The ASSB pellets were cut, and the cross sections 
+were polished using an Ar ion milling system (IM4000; Hitachi High-
+Technologies Corp.) and then observed by FE-SEM.
+XPS Measurements: XPS measurements were conducted using 
+a K-Alpha instrument (Thermo Fisher Scientific Inc.) with a 
+monochromatic Al Kα source (1486.6  eV) to probe the side reactions 
+within the Li2S positive electrode. The observed binding energies were 
+calibrated with respect to the adventitious C 1s peak. Ar+ ion-etching was 
+done to remove the surface impurities. After elimination of the surface 
+impurities, etching procedure was continued to obtain bulk information. 
+To suppress the damages of the samples caused by Ar+ ion-etching, Ar 
+clusters were emitted from Ar+ ion gun during the etching process. To 
+obtain the spectra, the pass energy and scan number were set as 50 eV 
+and 50 times.[87]
+Conductivity Measurements: Ionic conductivities for Li salts pressed at 
+370 MPa were determined using AC impedance measurements (SI-1260; 
+Solartron Analytical) at frequencies in the range from 100 kHz to 0.1 Hz 
+and an applied voltage of 100  mV. The pellet diameter and thickness 
+equaled 10 and ≈0.5 mm, respectively.
+The all samples were sensitive with atmosphere and the all 
+experiments were conducted in a dry Ar-filled glove box and transferred 
+to a test chamber using an Ar-filled transfer vessel.
+Calculation of Capacity per Gram of Positive Electrode and Areal Capacity 
+for ASSBs with Energy Densities of 300, 400, and 500 Wh kg−1: The required 
+capacity per gram of positive electrode (Cpositive electrode/mAh g−1) was 
+calculated from the average discharge voltage (VAve/V), areal capacity 
+(CArea/mAh cm−2), total weight of the SE layer, Li metal, current 
+collectors (w/g cm−2), and the target energy density per gram of cell 
+(ECell/Wh kg−1), as shown below.
+=
+×
+−
+×
+
+
+
+
+1
+1
+1
+Positive electrode
+Cell
+Ave
+Cell
+area
+C
+E
+V
+w E
+V
+C
+	
+(4)
+The derivation of this equation and the total weight are shown and 
+listed in Equations (S1)–(S12) and Table S2, Supporting Information. 
+The average discharge voltage was determined as 1.8 V versus Li from 
+the discharge curves of ASSBs with an Li2S-based positive electrode, 
+whereas the areal capacity was set as a variable.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+This research was supported by JST ALCA-SPRING (grant number 
+JPMJAL1301), Japan and by JSPS KAKENHI (grant number 18H05255).
+Conflict of Interest
+The authors declare no conflict of interest.
+Author Contributions
+T.H. conceived the study concept, designed the experiments, and 
+synthesized the Li2S-based positive electrode. T.H. and Y.F. performed 
+material characterization. M.D. carried out XPS measurements. T.H. 
+and Y.K. carried out AC impedance measurements. T.H. and M.O. 
+summarized the reported capacity of ASSBs with the Li2S-based positive 
+electrode. T.H. calculated the predicted energy density of ASSBs. A.S., 
+A.H., and M.T. supervised the project. T.H. and A.S. wrote the draft. All 
+authors discussed the results and reviewed the manuscript.
+Data Availability Statement
+The data that support the findings of this study are available from the 
+corresponding author upon reasonable request.
+Keywords
+active material, all-solid-state batteries, electrochemical window, ionic 
+conductivity, lithium sulfide, solid electrolytes
+Received: August 3, 2021
+Revised: September 9, 2021
+Published online: October 27, 2021
+[1]	 J. Janek, W. G. Zaire, Nat. Energy 2016, 1, 16141.
+[2]	 Y.  Kato, S.  Hori, T.  Saito, K.  Suzuki, M.  Hirayama, A.  Mitsui, 
+M. Yonemura, H. Iba, R. Kanno, Nat. Energy 2016, 1, 16030.
+[3]	 Y. G.  Lee, S.  Fujiki, C.  Jung, N.  Suzuki, N.  Yashiro, R.  Omoda, 
+D. S. Ko, T. Shiratsuchi, T. Sugimoto, S. Ryu, J. H. Ku, T. Watanabe, 
+Y. Park, Y. Aihara, D. Im, I. T. Han, Nat. Energy 2020, 5, 299.
+[4]	 K.  Nagao, Y.  Nagata, A.  Sakuda, A.  Hayashi, M.  Deguchi, 
+C.  Hotehama, H.  Tsukasaki, S.  Mori, Y.  Orikasa, K.  Yamamoto, 
+Y. Uchimoto, Sci. Adv. 2020, 6, eaax7236.
+[5]	 Z. Zhang, S. Chen, J. Yang, J. Wang, L. Yao, X. Yao, P. Cui, X. Xu, 
+ACS Appl. Mater. Interfaces 2018, 10, 2556.
+[6]	 Y. Kato, S. Shiotani, K. Morita, K. Suzuki, M. Hirayama, R. Kanno, 
+J. Phys. Chem. Lett. 2018, 9, 607.
+[7]	 A. Sakuda, K. Kuratani, M. Yamamoto, M. Takahashi, T. Takeuchi, 
+H. Kobayashi, J. Electrochem. Soc. 2017, 164, A2474.
+[8]	 S.  Randau, D. A.  Weber, O.  Kötz, R.  Koerver, P.  Braun, A.  Weber, 
+E. I.  Tiffée, T.  Adermann, J.  Kulisch, W. G.  Zeier, F. H.  Richter, 
+J. Janek, Nat. Energy 2020, 5, 259.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 12 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (12 of 13)
+[9]	 Y. Xiao, Y. Wang, S. H. Bo, J. C. Kim, L. J. Miara, G. Ceder, Nat. Rev. 
+Mater. 2020, 5, 105.
+[10]	 R. Chen, Q. Li, X. Yu, L. Chen, H Li, Chem. Rev. 2020, 120, 6820.
+[11]	 F.  Walther, R.  Koerver, T.  Fuchs, S.  Ohno, J.  Sann, M.  Rohnke, 
+W. G. Zeier, J. Janek, Chem. Mater. 2019, 31, 3745.
+[12]	 X. Li, Z. Ren, B. M. Norouzi, S. Deng, Y. Zhao, Q. Sun, C. Wang, 
+X. Yang, W. Li, J. Liang, X. Li, ACS Energy Lett. 2019, 4, 2480.
+[13]	 R. Koerver, W. Zhang, L. de Biasi, S. Schweidler, A. O. Kondrakov, 
+S. Kolling, T. Brezesinski, P. Hartmann, W. G. Zeier, J. Janek, Energy 
+Environ. Sci. 2018, 11, 2142.
+[14]	 S.  Ohno, R.  Koerver, G.  Dewald, C.  Rosenbach, P.  Titscher, 
+D. Steckermeier, A. Kwade, J. Janek, W. G. Zeier, Chem. Mater. 2019, 
+31, 2930.
+[15]	 K. B. Hatzell, X. C. Chen, C. L. Cobb, N. P. Dasgupta, M. B. Dixit, 
+L. E.  Marbella, M. T.  McDowell, P. P.  Mukherjee, A.  Verma, 
+V. Viswanathan, A. S. Westover, W. G. Zeier, ACS Energy Lett. 2020, 
+5, 922.
+[16]	 N.  Kamaya, K.  Homma, Y.  Yamakawa, M.  Hirayama, R.  Kanno, 
+M.  Yonemura, T.  Kamiyama, Y.  Kato, S.  Hama, K.  Kawamoto, 
+A. Mitsui, Nat. Mater. 2011, 10, 682.
+[17]	 Z. Liu, W. Fu, E. A. Payzant, X. Yu, Z. Wu, N. J. Dudney, J. Kiggans, 
+K. Hong, A. J. Rondinone, C. Liang, J. Am. Chem. Soc. 2013, 135, 975.
+[18]	 Y.  Seino, T.  Ota, K.  Takada, A.  Hayashi, M.  Tatsumisago, Energy 
+Environ. Sci. 2014, 7, 627.
+[19]	 Y. Zhou, X. He, Y Mo, ACS Appl. Mater. Interfaces 2015, 7, 23685.
+[20]	 W. D.  Richards, L. J.  Miara, Y.  Wang, J. C.  Kim, G.  Ceder, Chem. 
+Mater. 2015, 28, 266.
+[21]	 T. Hakari, M. Deguchi, K. Mitsuhara, T. Ohta, K. Saito, Y. Orikasa, 
+Y. Uchimoto, Y. Kowada, A. Hayashi, M. Tatsumisago, Chem. Mater. 
+2017, 29, 4768.
+[22]	 R.  Koerver, F.  Walther, I.  Aygün, J.  Sann, C.  Dietrich, W. G.  Zeier, 
+J. Janek, J. Mater. Chem. A 2017, 5, 22750.
+[23]	 F. Han, Y. Zhu, X. He, Y. Mo, C. Wang, Adv. Energy Mater. 2016, 6, 
+1501590.
+[24]	 T. Swamy, X. Chen, Y. M. Chiang, Chem. Mater. 2019, 31, 707.
+[25]	 G. F. Dewald, S. Ohno, M. A. Kraft, R. Koerver, P. Till, N. M. Vargas-
+Barbosa, J. Janek, W. G. Zeier, Chem. Mater. 2019, 31, 8328.
+[26]	 D. H. Tan, E. A. Wu, H. Nguyen, Z. Chen, M. A. Marple, J. M. Doux, 
+X. Wang, H. Yang, A. Banerjee, Y. S. Meng, ACS Energy Lett. 2019, 
+4, 2418.
+[27]	 T. K. Schwietert, V. A. Arszelewska, C. Wang, C. Yu, A. Vasileiadis, 
+N. J.  de  Klerk, J.  Hageman, T.  Hupfer, I.  Kerkamm, Y.  Xu, E.  van 
+der Maas, Nat. Mater. 2020, 19, 428.
+[28]	 W. Zhang, F. H. Richter, S. P. Culver, T. Leichtweiss, J. G. Lozano, 
+C. Dietrich, P. G. Bruce, W. G. Zeier, J. Janek, ACS Appl. Mater. Inter-
+faces 2018, 10, 22226.
+[29]	 J. Zhang, C. Zheng, L. Li, Y. Xia, H. Huang, Y. Gan, C. Liang, X. He, 
+X. Tao, W. Zhang, Adv. Energy Mater. 2020, 10, 1903311.
+[30]	 G. L. Zhu, C. Z. Zhao, H. Yuan, B. C. Zhao, L. P. Hou, X. B. Cheng, 
+H. X. Nan, Y. Lu, J. Zhang, J. Q. Huang, Q. B. Liu, Energy Storage 
+Mater. 2020, 31, 267.
+[31]	 T.  Nakamura, K.  Amezawa, J.  Kulisch, W. G.  Zeier, J.  Janek, ACS 
+Appl. Mater. Interfaces 2019, 11, 19968.
+[32]	 Y. Zhang, Y. Tian, Y. Xiao, L. J. Miara, Y. Aihara, T. Tsujimura, T. Shi, 
+M. C. Scott, G. Ceder, Adv. Energy Mater. 2020, 10, 1903778.
+[33]	 D.  Cao, Y.  Zhang, A. M.  Nolan, X.  Sun, C.  Liu, J.  Sheng, Y.  Mo, 
+Y. Wang, H. Zhu, Nano Lett. 2020, 20, 1483.
+[34]	 T.  Yoshinari, R.  Koerver, P.  Hofmann, Y.  Uchimoto, W. G.  Zeier, 
+J. Janek, ACS Appl. Mater. Interfaces 2019, 11, 23244.
+[35]	 T. Asano, A. Sakai, S. Ouchi, M. Sakaida, A. Miyazaki, S. Hasegawa, 
+Adv. Mater. 2018, 30, 1803075.
+[36]	 X. Li, J. Liang, J. Luo, M. Norouzi Banis, C. Wang, W. Li, S. Deng, 
+C.  Yu, F.  Zhao, Y.  Hu, T.-K.  Sham, L.  Zhang, S.  Zhao, S.  Lu, 
+H. Huang, R. Li, K. R. Adair, X. Sun, Energy Environ. Sci. 2019, 12, 
+2665.
+[37]	 K.-H. Park, K. Kaup, A. Assoud, Q. Zhang, X. Wu, L. F. Nazar, ACS 
+Energy Lett. 2020, 5, 533.
+[38]	 R. Xu, J. Yue, S. Liu, J. Tu, F. Han, P. Liu, C. Wang, ACS Energy Lett. 
+2019, 4, 1073.
+[39]	 M.  Nagao, A.  Hayashi, M.  Tatsumisago, T.  Ichinose, T.  Ozaki, 
+Y. Togawa, S. Mori, J. Power Sources 2015, 274, 471.
+[40]	 F. Han, J. Yue, X. Fan, T. Gao, C. Luo, Z. Ma, L. Suo, C. Wang, Nano 
+Lett. 2016, 16, 4521.
+[41]	 T. Hakari, M. Nagao, A. Hayashi, M. Tatsumisago, J. Power Sources 
+2015, 293, 721.
+[42]	 Y.  Aihara, S.  Ito, R.  Omoda, T.  Yamada, S.  Fujiki, T.  Watanabe, 
+Y. Park, S. Doo, Front. Energy Res. 2016, 4, 18.
+[43]	 T. Hakari, A. Hayashi, M. Tatsumisago, Adv. Sustainable Syst. 2017, 
+1, 1700017.
+[44]	 T. Hakari, M. Nagao, A. Hayashi, M. Tatsumisago, Chem. Lett. 2015, 
+44, 1664.
+[45]	 C-C. Chen, L. Fu, J. Maier, Nature 2016, 536, 159.
+[46]	 C-C. Chen, E. Navickas, J. Fleig, J. Maier, Adv. Funct. Mater. 2018, 
+28, 1705999.
+[47]	 S.  Ohno, C.  Rosenbach, G. F.  Dewald, J.  Janek, W. G.  Zeier, Adv. 
+Funct. Mater. 2021, 31, 2010620.
+[48]	 O. Borodin, W. Behl, T. R. Jow, J. Phys. Chem. C 2013, 117, 8661.
+[49]	 S. A. Delp, O. Borodin, M. Olguin, C. G. Eisner, J. L. Allen, T. R. Jow, 
+Electrochim. Acta 2016, 209, 498.
+[50]	 C. Yu, S. Ganapathy, N. J. J. de Klerk, I. Roslon, E. R. H. van Eck, 
+A. P. M.  Kentgens, M.  Wagemaker, J. Am. Chem. Soc. 2016, 138, 
+11192.
+[51]	 M. Shin, A. A. Gewirth, Adv. Energy Mater. 2019, 9, 1900938.
+[52]	 H. Yan, H. Wang, D. Wang, X. Li, Z. Gong, Y. Yang, Nano Lett. 2019, 
+19, 3280.
+[53]	 T. Shi, Q. Tu, Y. Tian, Y. Xiao, L. J. Miara, O. Kononova, G. Ceder, 
+Adv. Energy Mater. 2020, 10, 1902881.
+[54]	 K. Yoon, J.-J. Kim, W. M. Seong, M. H. Lee, K. Kang, Sci. Rep. 2018, 
+8, 8066.
+[55]	 S.  Deng, Y.  Sun, X.  Li, Z.  Ren, J.  Liang, K.  Doyle-Davis, J.  Liang, 
+W. Li, M. Norouzi Banis, Q. Sun, R. Li, Y. Hu, H. Huang, L. Zhang, 
+S. Lu, J. Luo, X. Sun, ACS Energy Lett. 2020, 5, 1243.
+[56]	 B.  Peng, Y.  Xu, K.  Liu, X.  Wang, F. M.  Mulder, ChemElectroChem 
+2017, 4, 2140.
+[57]	 H.  Liu, P.  Lian, Q.  Zhang, Y.  Yang, Y.  Mei, Electrochem. Commun. 
+2019, 98, 124.
+[58]	 M. T. Edmonds, A. Tadich, A. Carvalho, A. Ziletti, K. M. ODonnell, 
+S. P.  Koenig, D. F.  Coker, B.  Ozyilmaz, A. H.  Castro Neto, 
+M. S. Fuhrer, ACS Appl. Mater. Interfaces 2015, 7, 14557.
+[59]	 X. Zhu, T. Zhang, Z. Sun, H. Chen, J. Guan, X. Chen, H. Ji, P. Du, 
+S. Yang, Adv. Mater. 2017, 29, 1605776.
+[60]	 B.  Tian, B.  Tian, B.  Smith, M. C.  Scott, Q.  Lei, R.  Hua, Y.  Tian, 
+Y. Liu, Proc. Natl. Acad. Sci. U. S. A. 2018, 115, 4345.
+[61]	 Y.  Ruan, Y.  Lu, X.  Huang, J.  Su, C.  Sun, J.  Jin, Z.  Wen, J. Mater. 
+Chem. A 2019, 7, 14565.
+[62]	 L. Lin, F. Liang, K. Zhang, H. Mao, J. Yang, Y. Qian, J. Mater. Chem. 
+A 2018, 6, 15859.
+[63]	 S.  Wenzel, S.  Randau, T.  Leichtweiß, D. A.  Weber, J.  Sann, 
+W. G. Zeier, J. Janek, Chem. Mater. 2016, 28, 2400.
+[64]	 T. Li, X.-Q. Zhang, P. Shi, Q. Zhang, Joule 2019, 3, 2647.
+[65]	 X. Zhang, L. Zou, Z. Cui, H. Jia, M. H. Engelhard, B. E. Matthews, 
+X. Cao, Q. Xie, C. Wang, A. Manthiram, J.-G. Zhang, W. Xu, Mater. 
+Today 2021, 44, 15.
+[66]	 Y.  Okuno, K.  Ushirogata, K.  Sodeyama, Y.  Tateyama, Phys. Chem. 
+Chem. Phys. 2016, 18, 8643.
+[67]	 Q.  Zhang, J.  Pan, P.  Lu, Z.  Liu, M. W.  Verbrugge, B. W.  Sheldon, 
+Y.-T. Cheng, Y. Qi, X. Xiao, Nano Lett. 2016, 16, 2011.
+[68]	 B.  Zhang, Z.  Lin, L.-W.  Wang, F.  Pan, ACS Appl. Mater. Interfaces 
+2020, 12, 6007.
+[69]	 Y. Zhou, X. He, Y. Mo, J. Mater. Chem. A 2016, 4, 3253.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 13 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+© 2021 The Authors. Advanced Functional Materials published by Wiley-VCH GmbH
+2106174  (13 of 13)
+[70]	 X.  Zhao, Z.  Zhang, X.  Zhang, B.  Tang, Z.  Xie, Z.  Zhou, J. Mater. 
+Chem. A 2018, 6, 2625.
+[71]	 S. H. Jung, K. Oh, Y. J. Nam, D. Y. Oh, P. Bruner, K. Kang, Y. S. Jung, 
+Chem. Mater. 2018, 30, 8190.
+[72]	 F. Han, J. Yue, C. Chen, N. Zhao, X. Fan, Z. Ma, T. Gao, F. Wang, 
+X. Guo, C. Wang, Joule 2018, 2, 497.
+[73]	 F.  Walter, F.  Strauss, X.  Wu, B.  Mogwitz, J.  Hertle, J.  Sann, 
+M. Rohnke, T. Brezesinski, J. Janek, Chem. Mater. 2021, 33, 2110.
+[74]	 F.  Strauss, J. H.  Teo, J.  Maibach, A.-Y.  Kim, A.  Mazilkin, J.  Janek, 
+T. Brezesinski, ACS Appl. Mater. Interfaces 2020, 12, 57146.
+[75]	 L. Wang, X. Sun, J. Mo, B. Chen, C. Li, J. Li, L. Chang, X. Yu, T.-S. Chan, 
+Z. Hu, M. Noked, G. Cui, Adv. Energy Mater. 2021, 11, 21000881.
+[76]	 C. Ho, I. D. Raistrick, R. A. Huggins, J. Electrochem. Soc. 1980, 127, 343.
+[77]	 J. P. Meyers, M. Doyle, R. M. Darling, J. Newman, J. Electrochem. 
+Soc. 2000, 147, 2930.
+[78]	 S.-T. Myung, S. Komaba, N. Kumagai, J. Electrochem. Soc. 2001, 148, 
+A482.
+[79]	 G. Zhao, K. Suzuki, T. Seki, X. Sun, M. Hirayama, R. Kanno, J. Solid 
+State Chem. 2020, 292, 121651.
+[80]	 Y.  Deng, C.  Eames, B.  Fleutot, R.  David, J.-N.  Chotard, E.  Suard, 
+C.  Masquelier, M. S.  Islam, ACS Appl. Mater. Interfaces 2017, 9, 
+7050.
+[81]	 C. C. Liang, J. Electrochem. Soc. 1973, 120, 1289.
+[82]	 Y. S. Choi, Y.-S. Lee, D.-J. Choi, K. H. Chae, K. H. Oh, Y. W. Cho, 
+J. Phys. Chem. C 2017, 121, 26209.
+[83]	 T. Zhang, W. He, W. Zhang, T. Wang, P. Li, Z. Sun, X. Yu, Chem. Sci. 
+2020, 11, 26209.
+[84]	 M. Tatsumisago, N. Machida, T. Minami, J. Ceram. Soc. Jpn. 1987, 
+95, 197.
+[85]	 M. Tatsumisago, T. Minami, Mater. Chem. Phys. 1987, 18, 1.
+[86]	 M. Tatsumisago, R. Takano, M. Nose, K. Nagao, A. Kato, A. Sakuda, 
+K. Tadanaga, A. Hayashi, J. Ceram. Soc. Jpn. 2017, 125, 433.
+[87]	 Y.  Wang, T.  Matsuyama, M.  Deguchi, A.  Hayashi, A.  Nakao, 
+M. Tatsumisago, J. Ceram. Soc. Jpn. 2016, 124, 597.
+Adv. Funct. Mater. 2022, 32, 2106174
+ 16163028, 2022, 5, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202106174 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

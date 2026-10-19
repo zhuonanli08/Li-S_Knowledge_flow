@@ -1,0 +1,648 @@
+=== 第 1 页 ===
+A nitrogen-doped carbon skeleton derived from biomass as
+conductive agent for electrochemically stable cathode of
+all-solid-state lithium-sulfur batteries
+S. Jin, M. Wang, Y. Zhong**, X. Wang, C. Gu, X. Xia, J. Tu*
+State Key Laboratory of Silicon Materials, Key Laboratory of Advanced Materials and Applications for Batteries of Zhejiang Province, and School of Materials
+Science & Engineering, Zhejiang University, Hangzhou 310027, China
+a r t i c l e
+i n f o
+Article history:
+Received 12 October 2022
+Received in revised form
+9 November 2022
+Accepted 22 November 2022
+Available online 26 November 2022
+Keywords:
+Sulfur cathode
+All-solid-state lithiumesulfur batteries
+Nitrogen-doped carbon
+Sulﬁde electrolyte
+a b s t r a c t
+All-solid-state lithiumesulfur batteries (ASSLSBs) have attracted much attention for the next-generation
+storage system due to their high energy density and safety. However, the oxidative and reductive
+decomposition of sulﬁde electrolyte during cycling causes limited application of ASSLSBs. Herein, we
+design a porous nitrogen-doped carbon skeleton derived from biomass material. The porous design
+minimizes the adverse effect of volume change of sulfur. Meanwhile, the introduction of N-doped carbon
+skeleton improves the electronic conductivity of composite cathode and the sulfur on this skeleton re-
+duces direct contact between the electronic conductor and sulﬁde electrolyte, thus effectively promoting
+rapid electron transfer and inhibiting electron aggregation on the surface of electrolyte. Therefore, such
+an efﬁcient electron transfer network notably suppresses the irreversible decomposition of electrolyte
+and enhances its cycling stability during charge/discharge process. The composite cathode delivers initial
+discharge capacity of 1145.9 mAh/g and a capacity retention of 88.14% after 100 cycles at 0.1 C.
+© 2022 Elsevier Ltd. All rights reserved.
+1. Introduction
+With the development of clean energy, utilizing high perfor-
+mance energy storage devices is of vital importance [1e8].
+Lithiumesulfur batteries (LSBs) have drawn extensive attention
+due to its high theoretical energy density (2600 Wh/kg) [9e13]. In
+addition, the sulfur as cathode material of LSBs is low in its cost and
+rich in its reserves [14,15].
+In liquid electrolyte system, there are intractability problems
+such as shuttle effects [16e18], evident volume change between
+sulfur and discharge products (Li2S) [19e21], as well as their
+insulation [4,5,22e24]. All these lead to low sulfur utilization and
+rapid battery capacity decay. Besides, organic electrolyte tends to
+trigger safety problems, such as burning and explosion [25,26]. The
+use of solid-state electrolyte can fundamentally avoid the above-
+mentioned issues [27,28]. With its high ionic conductivity, sulﬁde
+electrolytes are often employed in the production of all-solid-state
+lithiumesulfur
+batteries
+(ASSLSBs)
+[29e35].
+However,
+the
+components of the cathode are in solid-solid contact without the
+inﬁltration of organic electrolyte, sulfur and its discharge product
+(Li2S) are insulated, and sulﬁde electrolyte decomposes itself dur-
+ing cycling. All these lead to poor electrochemical performance of
+ASSLSBs.
+To date, properly designed triple-phase interfaces can construct
+excellent electron conduction pathways among the components of
+the cathode [36e42]. A co-axial carbon nanotube/sulfur composite
+showed fast electron transport due to the intimate contacts be-
+tween the active materials and electronic network, realizing
+enhanced conversion kinetics [43]. Besides, constructing good
+conductive frameworks by the addition of electron conductor to
+cathode can further increase the electronic conductivity of the
+cathode [44e46]. Gao et al. proposed an intercalationeconversion
+composite cathode by distributing sulfur evenly on electroactive
+Nb18W16O93 and conductive carbon nanotubes. Nb18W16O93 serve
+as a Li-ion/electron conductor, achieving excellent reversible
+discharge-charge behavior [44]. Recently, dry-ﬁlm processes have
+been considered for the designing of composite sulfur cathodes.
+Wu et al. developed a new dry binder styreneebutadiene rubber.
+The solid electrolytes membrane prepared using this processed
+styreneebutadiene rubber exhibits ultra-high ionic conductivity,
+* Corresponding author.
+** Corresponding author.
+E-mail addresses: yu_zhong@zju.edu.cn (Y. Zhong), tujp@zju.edu.cn (J. Tu).
+Contents lists available at ScienceDirect
+Materials Today Sustainability
+journal homepage: https://www.journals.elsevier.com/
+materials-today-sustainability
+https://doi.org/10.1016/j.mtsust.2022.100281
+2589-2347/© 2022 Elsevier Ltd. All rights reserved.
+Materials Today Sustainability 21 (2023) 100281
+
+=== 第 2 页 ===
+contributing to excellent cyclic stability of the corresponding sul-
+ﬁde-based all-solid-state battery [47].
+Sulﬁde electrolytes (SEs) have relatively narrow electrochemical
+stability voltage window, and the oxidative and reductive decom-
+position of them have been experimentally observed [48]. How-
+ever, this irreversible decomposition of Li6PS5Cl electrolyte in
+cathode is usually overlooked. Meng et al. elucidated the redox
+behavior and the mechanisms of Li6PS5Cl irreversible decomposi-
+tion. And this study puts forward that developing excellent
+conductive networks to maintain an electronic pathway between
+cathode particles with minimal exposure to the SE is an effective
+way to reduce its decomposition kinetics [49]. Therefore, rational
+design of S/C composite is the key to reducing irreversible elec-
+trolyte decomposition and achieving stable cycling performance of
+ASSLSBs.
+In this present work, we designed a porous carbon skeleton with
+homogeneous in situ nitrogen-doped and compounded with sulfur
+by melt-diffusion method. When the S/C/Li6PS5Cl composite cath-
+ode coupled with Li6PS5Cl electrolyte layer and Li/In anode, it ex-
+hibits encouraging long cycling stability and rate capability.
+Interfacial characterization demonstrates that this carbon material
+effectively suppressing irreversible electrolyte decomposition. This
+work is vital to conﬁrm the necessary to maintain the SE stability of
+the cathode for ASSLSBs.
+2. Experimental
+5 g soybean ﬂour and 5 g KOH were ground uniformly with a
+mortar. The prepared sample was heated to 700 C at a rate of 5 C/
+min and held for 1.5 h in a nitrogen environment. Then, furnace was
+placed to cool down to room temperature, while the sample was
+washed by 5 M hydrochloric acid to pH 7, and dried at 60 C for 12 h
+to obtain the soybean ﬂour carbon (FBC). The control sample, ﬂour
+carbon (FC) was processed from ﬂour carbon with less nitrogen
+content than FBC.
+Sulfurecarbon composites were prepared by melt-diffusion
+method. 3 g sublimated sulfur and 1 g FBC were ground evenly.
+The mixture was transferred to a reaction jar and kept at 155 C for
+12 h to obtain FBC/S. FC/S was prepared under the same conditions.
+The Li6PS5Cl electrolyte was purchased from Ganfeng Lithium Co.,
+Ltd. The composite cathode is composed of FBC/S and Li6PS5Cl in a
+ratio of 7: 3. The assembly processes took place in an argon at-
+mosphere glove box (H2O < 0.1 ppm, O2 < 0.1 ppm), then ball milled
+at 300 rad/min for 12 h. Finally, the composite electrode material
+FBC/S/SE was obtained, and the control group was denoted as FC/S/
+SE.
+The microstructures of the samples are characterized by X-ray
+diffraction (XRD, Rigaku D/max 2550 PC) and CuKa radiation
+(1.54178 Å) in a 2q range from 10 to 80. Raman spectroscopy are
+characterized using a Renishaw Raman microscope under 532 nm
+laser excitation. X-ray photoelectron spectroscopy (Thermo Scien-
+tiﬁc K-Alphaþ, Al Ka X-ray) was characterized using an ESCA-
+LAB_250Xi spectrometer. Surface topography and microstructure
+were characterized using scanning electron microscope (SEM,
+Hitachi SU8010) and transmission electron microscope (JEOL JEM-
+2100F). The sulfur content in the sulfurecarbon samples was
+determined using thermos gravimetric analysis (Netzsch STA 449C
+thermal analyzer).
+The solid electrolyte layer was obtained by cold pressing 100 mg
+of Li6PS5Cl at 150 MPa for 1 min in a mold with an inner diameter of
+10 mm. FBC/S/SE was evenly distributed on the electrolyte side and
+cold pressed at 350 MPa for 3 min. The mass loading of sulfur was
+1.2 mg/cm. On the other side, an indium-lithium two layered sheet
+with a thickness of 100 mm was successively placed as the anode of
+the ASSLSBs. Compared with lithium metal, indium layer can
+stabilize the interface between electrolyte and anode. The battery
+assembly process was completed in an argon atmosphere glove box
+(H2O < 0.1 ppm, O2 < 0.1 ppm).
+The ionic conductivity of the Li6PS5Cl was tested by a multi-
+channel electrochemical work station (PARSTAT MC) at frequencies
+from 1 MHz to 10 Hz with temperatures of 298e373 K. 150 mg of
+Li6PS5Cl was pressed at 150 MPa for 1 min in a 10 mm diameter
+mold, ﬂanked with charcoal-coated aluminum foil as blocking
+electrodes and collector collectors. In order to test the electron
+conductivity of the positive electrode, 60 mg FBC/S/SE was cold
+pressed at 350 MPa for 3 min and tested by applying 1 mV direct
+current (DC) voltage. Cyclic voltammetry (CV) was performed in the
+potential range of 0.8e2.4 V (Li/Liþ) at a scanning speed of 0.1 mV/s.
+Electrochemical impedance spectroscopy of ASSLSBs was tested at
+frequencies from 1 MHz to 0.1 Hz. The ASSLSBs were tested for
+galvanostatic charge and discharge behavior on the multichannel
+battery test system (LAND CT-2001A) in the voltage range of
+0.8e2.4 V at 25 C.
+Density functional theory section: Cambridge Sequential Total
+Energy Package is used to perform the All density functional
+theory calculation with Accelrys Materials studio software. To
+describe the electronic exchange and correlation effect, we
+employed
+the
+general
+gradient
+approximation
+within
+Per-
+deweBurkereErnzerhof. The kinetic energy cutoff is 240 eV and
+self-consist ﬁled is 2.0  105 atom/eV. We use a k-point sampling
+of (1  1  1) mesh to optimize the geometry structure. In this
+work, a smearing factor of 0.05 eV was used. We constructed a
+tetragonal system cell of graphite carbon nitride with the lattice of
+a ¼ 7.4 Å and b ¼ 7.4 Å. The vacuum region along the orientation is
+18 Å [50].
+3. Results and discussion
+Fig. 1a and d reveal the scanning electron microscope (SEM)
+images of FBC and FC. Due to the activation of KOH, FBC and FC are
+both cross-linked network structures with lots of holes about 1e2
+mm. The transmission electron microscope (TEM) images in Fig. 1b
+and e exhibit that FBC and FC have no obvious lattice stripes and are
+amorphous structure. In Fig. 1c and f, it can be seen that FBC and FC
+are both short-range ordered and long-range disordered structures.
+Nevertheless, the lattice is even less orderly in FBC. In Fig. S1, FBC
+has higher degree of the ration of D peak to G peak (1.05) than FC
+(0.91), providing that it has more defects [51].
+Fig. S2 presents the nitrogen adsorptionedesorption isothermal
+variation curves and pore size distribution curves of FBC and FC.
+Higher nitrogen content results in more porosity and a larger
+speciﬁc surface area in FBC. The FBC with high speciﬁc surface area
+has high availability load of sulfur, and the adverse effect of the
+insulation of sulfur on the electrochemical performance of the
+ASSLSBs can be reduced. The average diameter of pores in FBC is 2.5
+nm. The large number of mesopores can be better to accommodate
+sulfur and decrease the volume expansion and contraction during
+cycling. The energy-dispersive spectroscopy (EDX) spectrum proves
+that nitrogen is homogeneously doped on the carbon substrate (Fig.
+1g and Fig. S3). In the X-ray diffraction (XRD) pattern (Fig. 1h), the
+peaks at 2q of 24 and 40 correspond to (002) (100) crystallo-
+graphic planes of the amorphous structure of carbon material [52].
+X-ray photoelectron spectroscopy (XPS) is characterized to
+further analyze the elements of the materials. In the full spectrum
+(Fig. S4), three peaks can be clearly observed that correspond to C
+(284.7 eV), N (400.0 eV), and O (532.5 eV). Speciﬁc molar ratio is
+shown in Table S1, in which FBC has higher nitrogen content. As
+shown in Figs. 1i, j, N 1s high-resolution spectra can be divided into
+three peaks, namely graphite N (400.7 eV), pyrrolic N (399.8 eV),
+and pyridinic N (398.7 eV) [51]. The difference between FBC and FC
+S. Jin, M. Wang, Y. Zhong et al.
+Materials Today Sustainability 21 (2023) 100281
+2
+
+=== 第 3 页 ===
+is that FBC has more graphite N. In the high-resolution spectra of
+C1s (Fig. S5), the peaks of FBC and FC are similar.
+Sulfurecarbon composites were prepared by melt-diffusion
+method. It can be seen from SEM images in Fig. 2a, the
+morphology of carbon material is maintained, but the surface be-
+comes smooth after the inﬁltration of sulfur. In accordance to the
+EDX image in Fig. 2a and Fig. S6, the sulfur was successfully coated
+on the surface of FBC and FC without the accumulation of sulfur.
+The XRD pattern in Fig. 2b shows apparent sulfur peak, also indi-
+cating the successful combination of sulfur and carbon. Fig. 2c
+presents the Raman spectra of FBC/S and FC/S. The S peak always
+exhibits in 492 cm1 [53]. However, the weak signals proved a
+highly uniform dispersion of sulfur on the surface of FBC and FC. In
+order to determine the sulfur content in the sample, it is analyzed
+by thermogravimetry test in Fig. 2d. The sulfur content of FBC/S is
+about 73.50% and FC/S is about 72.85%.
+To testify their electrochemical properties, FBC/S/SE-Li6PS5Cl-Li/
+In ASSLSBs were assembled for electrochemical tests at 25 C.
+Fig. S7 characterizes the XRD pattern and the ionic conductivity of
+Li6PS5Cl, which is 7.5 mS/cm at 25 C. Electrochemical impedance
+spectroscopy (EIS) analyses were conducted to demonstrate the
+charge-transfer capability of FBC/S/SE and FC/S/SE electrodes. The
+intercept at high frequency indicates the charge-transfer resistance
+of electrode. As shown in Fig. S8, the FBC/S/SE electrode has a small
+charge-transfer resistance, proving its excellent charge-transfer
+capability. Fig. 3a shows the ﬁrst cycle of cyclic voltammetry (CV)
+curve of FBC/S/SE and FC/S/SE electrodes in ASSLSBs. The ﬁrst peak
+at 1.1 V is the reduction peak, which corresponds to the conversion
+from S to Li2S [49]. In the process of anodic oxidation, there is an
+oxidation peak at 1.85 V, corresponding to the conversion from Li2S
+to S. There are no high voltage peaks in the CV curve, proving that
+there is no formation of polysulﬁdes. Compared to FC/S/SE, the FBC/
+S/SE electrode performs higher peak current density and peak area,
+suggesting its better reaction kinetics. In addition, lower oxidation
+reaction potential and reduction reaction potential indicate its
+lower polarization of the FBC/S/SE cathode. Fig. 3b and Fig. S9 show
+Fig. 1. SEM images of (a) FBC and (d) FC. TEM images of (b) FBC and (e) FC. HRTEM images of (c) FBC and (f) FC. (g) EDS elemental mappings of C, N, O of FBC. (h) XRD patterns of FBC
+and FC. XPS N 1s spectra of (i) FBC and (j) FC.
+S. Jin, M. Wang, Y. Zhong et al.
+Materials Today Sustainability 21 (2023) 100281
+3
+
+=== 第 4 页 ===
+Fig. 3. Electrochemical performances of FBC/S/SE and FC/S/SE electrodes in ASSLSBs. (a) CV curves (1st). (b) CV plots of FBC/S electrode in ASSLSB for the 1st to 3rd cycle. (c)
+Galvanostatic discharge/charge curves at 0.1 C. (d) Rate performance at different current densities. (e) Cycling performance and corresponding Coulombic efﬁciency at 0.1 C.
+Fig. 2. (a) SEM images and EDS elemental mappings of C, N,S of FBC/S. (b) XRD patterns of FBC/S and FC/S. (c) Raman spectra of sulfur, FBC/S, and FC/S. (d) Thermal gravimetric
+curves of FBC/S and FC/S. EDS, energy-dispersive spectroscopy; FBC, soybean ﬂour carbon; FC, ﬂour carbon; SEM, scanning electron microscope; XRD, X-ray diffraction.
+S. Jin, M. Wang, Y. Zhong et al.
+Materials Today Sustainability 21 (2023) 100281
+4
+
+=== 第 5 页 ===
+the CV curves of FBC/S/SE and FC/S/SE electrodes for the ﬁrst to
+third cycle, respectively. The positions of the reduction peak and
+oxidation peak of FBC/S/SE electrode in the subsequent cycle have
+little change, and the area of the peak has hardly changed, which
+proves the excellent electrochemical reversibility.
+Fig. 3c displays galvanostatic charge/discharge curves of FBC/S/
+SE and FC/S/SE cathodes in ASSLSBs at 0.1 C. The ASSLSB with the
+FBC/S/SE cathode has a higher capacity and smaller voltage drop,
+suggesting its excellent reaction kinetics. Other than that, there is
+only one pair of discharge/charge plateau, verifying one-step con-
+version between sulfur and Li2S during cycling. The rate capacity of
+FBC/S/SE and FC/S/SE cathodes in ASSLSBs is compared at a current
+density ranging from 0.1 C to 0.5 C (Fig. 3d). The discharge capac-
+ities of FBC/S/SE electrode in ASSLSBs are 1148.0,1076.2,1019.5, and
+925.6 mAh/g at 0.1 C, 0.2 C, 0.3 C, and 0.5 C, respectively. While, the
+FC/S/SE electrode demonstrates lower discharge capacities at the
+same current density. When the current capacity returned to 0.1 C,
+the discharge capacity of FBC/S/SE returns to 1059.4 mAh/g, better
+than FC/S/SE (955.9 mAh/g), indicating a good rate performance of
+FBC/S/SE cathode.
+For further study, the cycling stability of ASSLSBs, galvanostatic
+dischargeecharge test is conducted at a current density of 0.1 C. As
+shown in Fig. 3e, the initial discharge capacity of FBC/S/SE cathode is
+1145.9 mAh/g, and it descends to 1010.0 mAh/g after 100 cycles.
+While the initial capacity of FC/S/SE is 1080.3 mAh/g, descending to
+763.3 mAh/g after 58 cycles, the discharge capacity is very unstable
+in subsequent cycles. All the mentioned above provides evidence
+that the FBC/S/SE electrode in ASSLSBs has high capacity retention
+and cyclic stability. It can be speculated that the enhancement of
+electronic conductivity of cathode and electrochemical stability of
+electrolyte during cycling improve the electrochemical performance.
+DC polarization is used to investigate the effect of nitrogen
+doping on the improvement of electronic conductivity of the
+composite electrodes (Fig. S11). At the same voltage, the electronic
+conductivity of FBC/S/SE electrode is 31.8 mS/cm, higher than FC/S/
+SE (22.2 mS/cm). FBC/S/SE exhibits a smaller polarization current
+proving that it has a lower resistivity. Moreover, the density of
+states (DOS) for carbon materials with and without nitrogen doping
+is calculated by the ﬁrst-principle calculation based on the density
+functional theory (DFT). The graphitic carbon model of the bilayer is
+constructed corresponding to the already prepared carbon material
+of laminar texture. The nitrogen atoms of three conﬁgurations,
+graphitic N, pyridinic N, and pyrrolic N, are used to replace the
+carbon atom in them, so as to construct the nitrogen-doped carbon
+structures. And the molecular models established are shown in
+Figs. 4aed.
+Fig. 4. DFT calculations. Atomic conﬁgurations of (a) graphene carbon, (b) graphitic nitrogen carbon, (c) pyridinic nitrogen carbon, and (d) pyrrolic nitrogen carbon. (e) Corre-
+sponding density of states (DOS) of graphene carbon and N-doped carbon.
+Fig. 5. XPS spectra of pristine Li6PS5Cl and FBC/S-Li6PS5Cl and FC/S-Li6PS5Cl cathodes after 50 cycles: (a) S 2p spectra, (b) P 2p spectra, (c) Cl 2p spectra.
+S. Jin, M. Wang, Y. Zhong et al.
+Materials Today Sustainability 21 (2023) 100281
+5
+
+=== 第 6 页 ===
+At the Fermi level (Ef), none of the DOS values are 0, proving that
+they all have metallicity. The electronic conductivity is related to
+the DOS near Ef [54]. At the Fermi level, the greater the density of
+electronic states, the stronger the electronic conductivity of the
+material. Among them, the DOS of nitrogen-doped carbon mate-
+rials are higher than that of graphitic carbon, which indicates that
+nitrogen doping can improve the electronic conductivity of the
+carbon materials. Comparing the three types of nitrogen-doped
+carbon, the DOS is the highest for the graphitic N-doped carbon,
+followed by pyridinic N-doped nitrogen carbon, and the smallest is
+pyrrolic N-doped carbon. It shows that the graphite N-doped car-
+bon material has the highest electrical conductivity. The above
+theoretical calculations show that nitrogen doping, especially
+graphitic N doping, can improve the electrical conductivity of the
+composite cathode, thus forming a better electrically conductive
+network and maintaining a rapid electron pathway between the
+active material particles.
+To investigate the electrochemical stability of solid electrolyte in
+the cathodes during cycling, XPS tests are conducted to pristine
+Li6PS5Cl and the surfaces of FBC/S/SE and FC/S/SE cathodes after 50
+cycles (Fig. 5). The XPS spectrum of pristine Li6PS5Cl electrolyte can
+be divided into doublet peaks, which is PS43 thiophosphate units
+[55]. After 50 cycles, the S 2p XPS spectrum displays newly formed
+peaks, which is the signal about Li2S at 160.1 eV and P2S5. While Li2S
+is sulfur discharge product and partial electrolyte decomposition
+product, P2S5 is the irreversible product of electrolyte decomposi-
+tion [49]. All these testify that the inevitable decomposition of
+electrolyte after cycling. In stark contrast, the relative intensity of
+P2S5 signal is greatly weakened in the FBC/S/SE cathode compared
+with FC/S/SE, proving that the degree of decomposition is small. For
+the P 2p spectrum, it emerges a doublet peaks at 132.8 eV and
+133.3 eV after cycling which are related to insulating irreversible
+decomposition products (P2S5), in agreement with the S 2p spectra.
+The XPS results show the signiﬁcant difference between the FBC/S/
+SE and FC/S/SE cathodes in ASSLSBs after 50 cycles. In the P 2p
+spectrum of FC/S/SE cathode, there is a stronger P2S5 peaks, proving
+its greater degree of electrolyte decomposition. In Fig. 5c, little
+changes can be found in the Cl 2p spectra. Presumably due to the
+high electronic conductivity of the FBC's reticulated texture,
+achieving the rapid electron conduction between the components
+of the cathode and inhibiting electron aggregation on the surface of
+electrolyte. Besides, the uniform distribution of sulfur on the sur-
+face of carbon skeleton reduces the contact between the carbon
+material and Li6PS5Cl. Li6PS5Cl has less exposure to electronically
+conductive surfaces, and the kinetics of electrolyte decomposition
+can be signiﬁcantly reduced without a sufﬁcient electronic pathway
+for electrolyte redox to occur [49]. Therefore, this efﬁcient electron
+transfer
+network
+reduces
+the
+irreversible
+decomposition
+of
+Li6PS5Cl, which can effectively improve the cycling performance of
+the ASSLSBs with FBC/S/SE cathode.
+4. Conclusion
+In conclusion, a porous nitrogen-doped carbon skeleton derived
+from biomass material has been designed and is used as an efﬁcient
+electron transfer network for sulfur cathode of ASSLSBs. The porous
+design minimizes the adverse effect of volume change of sulfur. The
+N-doped carbon skeleton improves the electronic conductivity of
+composite cathode, effectively promoting rapid electron transfer.
+Besides, it reduces direct contact between electronic conductor and
+SE, inhibiting electron aggregation on the surface of electrolyte.
+Therefore,
+the
+carbon
+skeleton
+suppressed
+the
+irreversible
+decomposition of electrolyte and the ASSLSBs with the FBC/S/SE
+electrode delivers a initial discharge capacity of 1145.9 mAh/g and a
+capacity retention of 88.14% after 100 cycles at 0.1 C. Overall, this
+porous nitrogen-doped carbon skeleton would be a promising
+choice for the cathode design of ASSLSBs.
+Credit author statement
+Shan
+Jin:
+Conceptualization,
+Investigation,
+Data
+curation,
+Writing-original draft. Minkang Wang: Investigation, Writing-
+review & editing. Yu Zhong: Investigation. Xiuli Wang: Supervi-
+sion.
+Changdong
+Gu:
+Supervision.
+Xinhui
+Xia:
+Supervision.
+Jiangping Tu: Supervision, Writing-review & editing, Project
+administration, Funding acquisition.
+Declaration of competing interest
+The authors declare that they have no known competing
+ﬁnancial interests or personal relationships that could have
+appeared to inﬂuence the work reported in this paper.
+Data availability
+Data will be made available on request.
+Acknowledgements
+This work is supported by the National Natural Science Foun-
+dation of China (No. U20A20126, 51971201, 52073252), Key
+Research
+and
+Development
+Program
+of
+Zhejiang
+Province
+(2022C01071) and Natural Science Funds for Distinguished Young
+Scholar of Zhejiang Province (Grant No. LR20E020001).
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.mtsust.2022.100281.
+References
+[1] C. Wei, H. Fei, Y. Tian, Y. An, H. Guo, J. Feng, Y. Qian, Isotropic Li nucleation and
+growth achieved by an amorphous liquid metal nucleation seed on MXene
+framework for dendrite-free Li metal anode, Energy Storage Mater. 26 (2020)
+223e233.
+[2] X. Shan, Y. Zhong, L. Zhang, Y. Zhang, X. Xia, X. Wang, J. Tu, A brief review on
+solid electrolyte interphase composition characterization technology for
+lithium metal batteries: challenges and perspectives, J. Phys. Chem. C 125
+(2021) 19060e19080.
+[3] C. Wang, Y. Li, F. Cao, Y. Zhang, X. Xia, L. Zhang, Employing Ni-embedded
+porous graphitic carbon ﬁbers for high-efﬁciency lithium-sulfur batteries,
+ACS Appl. Mater. Interfaces 14 (2022) 10457e10466.
+[4] G. Liu, J. Shi, M. Zhu, W. Weng, L. Shen, J. Yang, X. Yao, Ultra-thin free-standing
+sulﬁde solid electrolyte ﬁlm for cell-level high all-solid-state lithium batteries,
+Energy Storage Mater. 38 (2021) 249e254.
+[5] S. Chen, D. Xie, G. Liu, J.P. Mwizerwa, Q. Zhang, Y. Zhao, X. Xu, X. Yao, Sulﬁde
+solid electrolytes for all-solid-state lithium batteries: structure, conductivity,
+stability and application, Energy Storage Mater. 14 (2018) 58e74.
+[6] H. Wan, L. Cai, F. Han, J.P. Mwizerwa, C. Wang, X. Yao, Construction of 3D
+electronic/ionic conduction networks for all-solid-state lithium batteries,
+Small 15 (2019), 1905849.
+[7] Z. Zhang, L. Wu, D. Zhou, W. Weng, X. Yao, Flexible Sulﬁde Electrolyte Flexible
+sulﬁde electrolyte thin membrane with ultrahigh ionic conductivity for all-
+solid-state lithium batteries, Nano Lett. 21 (2021) 5233e5239.
+[8] D. Cai, S. Zhang, M. Su, Z. Ma, J. Zhu, Y. Zhong, X. Luo, X. Wang, X. Xia, C. Gu,
+J. Tu, Cellulose mesh supported ultrathin ceramic-based composite elec-
+trolyte for high-performance Li metal batteries, J. Membr. Sci. 661 (2022),
+120907.
+[9] Z. Han, S. Zhao, J. Xiao, X. Zhong, J. Sheng, W. Lv, Q. Zhang, G. Zhou, H.-
+M. Cheng, Engineering d-p orbital hybridization in single-atom metal-
+embedded three-dimensional electrodes for Li-S batteries, Adv. Mater 33
+(2021), 2105947.
+[10] C. Li, Q. Zhang, J. Sheng, B. Chen, R. Gao, Z. Piao, X. Zhong, Z. Han, Y. Zhu,
+J. Wang, G. Zhou, H.-M. Cheng, A quasi-intercalation reaction for fast sulfur
+redox kinetics in solid-state lithium-sulfur batteries, Energy Environ. Sci. 15
+(2022) 4289e4300.
+S. Jin, M. Wang, Y. Zhong et al.
+Materials Today Sustainability 21 (2023) 100281
+6
+
+=== 第 7 页 ===
+[11] J. Sheng, Q. Zhang, C. Sun, J. Wang, X. Zhong, B. Chen, C. Li, R. Gao, Z. Han,
+G. Zhou, Crosslinked nanoﬁber-reinforced solid-state electrolytes with poly-
+sulﬁde ﬁxation effect towards high safety ﬂexible lithium-sulfur batteries,
+Adv. Funct. Mater. 32 (2022), 2203272.
+[12] G. Zhou, H. Chen, Y. Cui, Formulating energy density for designing practical
+lithium-sulfur batteries, Nat. Energy 7 (2022) 312e319.
+[13] Y. Zhong, X. Xia, S. Deng, J. Zhan, R. Fang, Y. Xia, X. Wang, Q. Zhang, J. Tu,
+Popcorn inspired porous macrocellular carbon: rapid pufﬁng fabrication from
+rice and its applications in lithium-sulfur batteries, Adv. Energy Mater. 8
+(2018), 1701110.
+[14] J. Wu, S. Liu, F. Han, X. Yao, C. Wang, Lithium/sulﬁde all-solid-state batteries
+using sulﬁde electrolytes, Adv. Mater. 33 (2021), 2000751.
+[15] Q. Zhang, H. Wan, G. Liu, Z. Ding, J.P. Mwizerwa, X. Yao, Rational design of
+multi-channel continuous electronic/ionic conductive networks for room
+temperature vanadium tetrasulﬁde-based all-solid-state lithium-sulfur bat-
+teries, Nano Energy 57 (2019) 771e782.
+[16] P. Huang, Y. Wang, Carpet-like TiO2 nanoﬁber interlayer as advanced absorber
+for high performance Li-S batteries, Int. J. Electrochem. Sci. 14 (2019)
+5154e5160.
+[17] W. Ren, W. Ma, S. Zhang, B. Tang, Recent advances in shuttle effect inhibition
+for lithium sulfur batteries, Energy Storage Mater. 23 (2019) 707e732.
+[18] D. Yang, X. Xiong, Y. Zhu, Y. Chen, L. Fu, Y. Zhang, Y. Wu, Modiﬁcations of
+separators for Li-S batteries with improved electrochemical performance,
+Russ. J. Electrochem. 56 (2020) 365e377.
+[19] Q. Guo, K.C. Lau, R. Pandey, Implication of mechanical properties of Li-S binary
+compounds obtained from the ﬁrst-principles study, J. Phys. Chem. C 125
+(2021) 290e294.
+[20] Q. Qi, Y. Deng, S. Gu, M. Gao, J.-y. Hasegawa, G. Zhou, X. Lv, W. Lv, Q.-H. Yang,
+L-cysteine-modiﬁed acacia gum as a multifunctional binder for lithium-sulfur
+batteries, ACS Appl. Mater. Interfaces 11 (2019) 47956e47962.
+[21] J. Zhao, M. Yang, N. Yang, J. Wang, D. Wang, Hollow micro-/nanostructure
+reviving lithium-sulfur batteries, Chem. Res. Chin. Univ. 36 (2020) 313e319.
+[22] X. Hong, R. Wang, Y. Liu, J. Fu, J. Liang, S. Dou, Recent advances in chemical
+adsorption and catalytic conversion materials for Li-S batteries, J. Energy
+Chem. 42 (2020) 144e168.
+[23] Y. Yang, C. Chen, J. Hu, Y. Deng, Y. Zhang, D. Yang, High performance lithium-
+sulfur batteries by facilely coating a conductive carbon nanotube or graphene
+layer, Chin. Chem. Lett. 29 (2018) 1777e1780.
+[24] M. Zhao, Y.-Q. Peng, B.-Q. Li, X.-Q. Zhang, J.-Q. Huang, Regulation of carbon
+distribution to construct high-sulfur-content cathode in lithium-sulfur bat-
+teries, J. Energy Chem. 56 (2021) 203e208.
+[25] X. Chen, H. Ji, W. Chen, J. Wu, F. Hu, L. Yuan, Z. Li, Y. Huang, In situ protection
+of a sulfur cathode and a lithium anode via adopting a ﬂuorinated electrolyte
+for stable lithium-sulfur batteries, Sci. China Math. 64 (2021) 2127e2138.
+[26] J. Liu, Y. Xi, Q. Li, J. Li, M. Liu, C. Wang, Z. Hong, F. Song, L. Bai, F. Zeng, An
+enhanced
+polyethylene/polyetherimide
+composite
+separator
+for
+high-
+performance lithium-sulfur battery, Ionics 26 (2020) 4825e4833.
+[27] B. Chen, S. Deng, M. Jiang, M. Wu, J. Wu, X. Yao, Intimate triple phase in-
+terfaces conﬁned in two-dimensional ordered mesoporous carbon towards
+high-performance all-solid-state lithium-sulfur batteries, Chem. Eng. J. 448
+(2022), 137712.
+[28] Q. Zhang, N. Huang, Z. Huang, L. Cai, J. Wu, X. Yao, CNTs@S composite as
+cathode for all-solid-state lithium-sulfur batteries with ultralong cycle life,
+J. Energy Chem. 40 (2020) 151e155.
+[29] P. Nguyen Huu Huy, M. Takaki, H. Muto, M. Reiko, H. Kazuhiro, A. Matsuda,
+Sulfur-carbon nano ﬁber composite solid electrolyte for all-solid-state Li-S
+batteries, ACS Appl. Energy Mater. 3 (2020) 1569e1573.
+[30] E. Umeshbabu, B. Zheng, Y. Yang, Recent progress in all-solid-state lithium-
+sulfur batteries using high Li-Ion conductive solid electrolytes, Electrochem.
+Energy Rev. 2 (2019) 199e230.
+[31] Y. Bai, Y. Zhao, W. Li, L. Meng, Y. Bai, G. Chen, Organic-inorganic multi-scale
+enhanced interfacial engineering of sulﬁde solid electrolyte in Li-S battery,
+Chem. Eng. J. 396 (2020), 125334.
+[32] J. Ju, S. Dong, Y. Cui, Y. Zhang, B. Tang, F. Jiang, Z. Cui, H. Zhang, X. Du, T. Lu,
+L. Huang, G. Cui, L. Chen, Leakage-proof electrolyte chemistry for a high-
+Performance
+lithium-sulfur
+battery,
+Angew.
+Chem.
+Int.
+Ed.
+60
+(2021)
+16487e16491.
+[33] Z. Jiang, H. Peng, Y. Liu, Z. Li, Y. Zhong, X. Wang, X. Xia, C. Gu, J. Tu, A. versatile,
+Li6.5In0.25P0.75S5I sulﬁde electrolyte triggered by ultimate-energy mechanical
+alloying for all-solid-state lithium metal batteries, Adv. Energy Mater. 11
+(2021), 2101521.
+[34] H. Su, Y. Liu, Y. Zhong, J. Li, X. Wang, X. Xia, C. Gu, J. Tu, Stabilizing the
+interphase between Li and Argyrodite electrolyte through synergistic phos-
+phating process for all-solid-state lithium batteries, Nano Energy 96 (2022),
+107104.
+[35] Y. Liu, H. Peng, H. Su, Y. Zhong, X. Wang, X. Xia, C. Gu, J. Tu, Ultrafast synthesis
+of I-rich lithium argyrodite glass-ceramic electrolyte with high ionic con-
+ductivity, Adv. Mater. 34 (2022), 2107346.
+[36] A.S. Alzahrani, M. Otaki, D. Wang, Y. Gao, T.S. Arthur, S. Liu, D. Wang,
+Conﬁning sulfur in porous carbon by vapor deposition to achieve high-
+performance cathode for all-solid-state lithium-sulfur batteries, ACS Energy
+Lett. 6 (2021) 413e418.
+[37] X. Sun, Q. Li, D. Cao, Y. Wang, A. Anderson, H. Zhu, High surface area N-Doped
+carbon ﬁbers with accessible reaction sites for all-solid-state lithium-sulfur
+batteries, Small 18 (2022), 2105678.
+[38] L. Hou, H. Yuan, C. Zhao, L. Xu, G. Zhu, H. Nan, X. Cheng, Q. Liu, C. He, J. Huang,
+Q. Zhang, Improved interfacial electronic contacts powering high sulfur uti-
+lization in all-solid-state lithium-sulfur batteries, Energy Storage Mater. 25
+(2020) 436e442.
+[39] H. Yan, H. Wang, D. Wang, X. Li, Z. Gong, Y. Yang, In situ generated Li2S-C
+nanocomposite for high-capacity and long-life all-solid-state lithium sulfur
+batteries with ultrahigh areal mass loading, Nano Lett. 19 (2019) 3280e3287.
+[40] Q. Han, X. Li, X. Shi, H. Zhang, D. Song, F. Ding, L. Zhang, Outstanding cycle
+stability and rate capabilities of the all-solid-state Li-S battery with a Li7P3S11
+glass-ceramic electrolyte and a core-shell S@BP2000 nanocomposite, J. Mater.
+Chem. 7 (2019) 3895e3902.
+[41] A. Sakuda, Y. Sato, A. Hayashi, M. Tatsumisago, Sulfur-Based composite elec-
+trode with interconnected mesoporous carbon for all-solid-state lithium-
+sulfur batteries, Energy Technol. 7 (2019), 1900077.
+[42] Q. Li, D. Chen, H. Tan, X. Zhang, X. Rui, Y. Yu, 3D porous V2O5 architectures for
+high-rate lithium storage, J. Energy Chem. 40 (2020) 15e21.
+[43] L.-P. Hou, H. Yuan, C.-Z. Zhao, L. Xu, G.-L. Zhu, H.-X. Nan, X.-B. Cheng, Q.-B. Liu,
+C.-X. He, J.-Q. Huang, Q. Zhang, Improved interfacial electronic contacts
+powering high sulfur utilization in all-solid-state lithium-sulfur batteries,
+Energy Storage Mater. 25 (2020) 436e442.
+[44] B.S. Zhao, L. Wang, S. Liu, G.R. Li, X.P. Gao, High-efﬁciency hybrid sulfur
+cathode based on electroactive niobium tungsten oxide and conductive car-
+bon nanotubes for all-solid-state lithium-sulfur batteries, ACS Appl. Mater.
+Interfaces 14 (2022) 1212e1221.
+[45] Y. Fujii, M. Kobayashi, A. Miura, N.C. Rosero-Navarro, M. Li, J. Sun, M. Kotobuki,
+L. Lu, K. Tadanaga, FeePeS electrodes for all-solid-state lithium secondary
+batteries using sulﬁde-based solid electrolytes, J. Power Sources 449 (2020),
+227576.
+[46] D. Wang, Y. Wu, X. Zheng, S. Tang, Z. Gong, Y. Yang, Li2S@NC composite enable
+high active material loading and high Li2S utilization for all-solid-state lithium
+sulfur batteries, J. Power Sources 479 (2020), 228792.
+[47] Y. Li, Y. Wu, T. Ma, Z. Wang, Q. Gao, J. Xu, L. Chen, H. Li, F. Wu, Long-life sulﬁde
+all-solid-state battery enabled by substrate-modulated dry-process binder,
+Adv. Energy Mater. 12 (2022), 2201732.
+[48] T. Swamy, X.W. Chen, Y.M. Chiang, Electrochemical redox behavior of Li ion
+conducting sulﬁde solid electrolytes, Chem. Mater. 31 (2019) 707e713.
+[49] D.H.S. Tan, E.A. Wu, H. Nguyen, Z. Chen, M.A.T. Marple, J.-M. Doux, X. Wang,
+H. Yang, A. Banerjee, Y.S. Meng, Elucidating reversible electrochemical redox
+of Li6PS5Cl solid electrolyte, ACS Energy Lett. 4 (2019) 2418e2427.
+[50] B.G. Wu, L.P. Zhang, B.J. Jiang, Q. Li, C.G. Tian, Y. Xie, W.Z. Li, H.G. Fu, Ultrathin
+porous carbon nitride bundles with an adjustable energy band structure to-
+ward simultaneous solar photocatalytic water splitting and selective phe-
+nylcarbinol oxidation, Angew. Chem. Int. Ed. 60 (2021) 4815e4822.
+[51] Y. Li, L. Zhang, X. Wang, X. Xia, D. Xie, C. Gu, J. Tu, Sodium-storage behavior of
+electron-rich element-doped amorphous carbon, Appl. Phys. Rev. 8 (2021),
+011402.
+[52] K.A. Brown, J.L. Hedrick, D.J. Eichelsdoerfer, C.A. Mirkin, Nanocombinatorics
+with cantilever-free scanning probe arrays, ACS Nano 13 (2019) 8e17.
+[53] W. Yan, S. Chen, M. Wen, Q. Wu, S. Yu, Multicore closely packed ultrathin-
+MnO2@N-doped carbon-gear yolkeshell micro-nanostructures as highly
+efﬁcient sulfur hosts for LieS batteries, J. Mater. Chem. A 9 (2021) 2276e2283.
+[54] Y. Gao, G. Hu, J. Zhong, Z. Shi, Y. Zhu, D.S. Su, J. Wang, X. Bao, D. Ma, Nitrogen-
+doped sp2-hybridized carbon as a superior catalyst for selective oxidation,
+Angew. Chem. Int. Ed. 52 (2013) 2109e2113.
+[55] R. Rajagopal, Y. Subramanian, Y.J. Jung, S. Kang, K.-S. Ryu, Rapid synthesis of
+highly conductive Li6PS5Cl argyrodite-type solid electrolytes using pyridine
+solvent, ACS Appl. Energy Mater. 5 (2022) 9266e9272.
+S. Jin, M. Wang, Y. Zhong et al.
+Materials Today Sustainability 21 (2023) 100281
+7
+

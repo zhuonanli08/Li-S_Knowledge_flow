@@ -1,0 +1,637 @@
+=== 第 1 页 ===
+Small Methods 
+www.small-methods.com
+RESEARCH ARTICLE
+High-Entropy Design for Improving Ionic Conductivity and 
+Air Stability of Lithium Argyrodites for All- Solid- State 
+Lithium-Sulfur Batteries 
+Ruihua Zhou1 
+Chenjie Lou2 
+Jing Lin3 
+Shenghao Li1 
+Shubo Wang1 
+Clemens Ritter4 
+Guoqiang Luo1 
+Mingxue Tang2 
+Florian Strauss3 
+Torsten Brezesinski3 
+Xin Zhang1 
+Shuo Wang1 
+1 State Key Laboratory of Advanced Glass Materials, Wuhan University of Technology, Wuhan, China 
+2 Center for High Pressure Science and Technology 
+Advanced Research, Beijing, China 
+3 Institute of Nanotechnology, Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany 
+4 Institut Laue-Langevin, 
+Grenoble, France 
+Correspondence: Jing Lin ( jing.lin@kit.edu)
+Mingxue Tang ( mingxue.tang@hpstar.ac.cn)
+Xin Zhang ( zhang-xin@whut.edu.cn)
+Shuo Wang 
+( shuowang@whut.edu.cn) 
+Received: 16 May 2026 
+Revised: 25 July 2026 
+Accepted: 4 August 2026 
+Keywords: air stability | configurational entropy | lithium argyrodite | occupational disorder | solid-state battery 
+ABSTRACT 
+Lithium argyrodites hold great promise as solid electrolytes for all-solid-state batteries (ASSBs) owing to their high room- 
+temperature ionic conductivity and soft mechanical properties. However, their poor air stability hinders large-scale commercial 
+applications. To overcome this, we demonstrate herein a high-entropy design strategy by substituting the P-site in Li6 PS5 I with Ge, 
+Sb, Si, and As, yielding Li6.5 As0.25 Si0.25 Ge0.25 Sb0.25 S5 I with a configurational entropy of 2.04 R . Neutron powder diffraction (NPD) 
+and various spectroscopic analyses indicate that the compositional complexity increases structural (occupational) disorder and 
+facilitates lithium transport, resulting in room-temperature ionic conductivities of 8.0 mS cm− 1 in cold-pressed state and 11.4 mS 
+cm− 1 for hot-pressed pellets, the latter being significantly higher compared to the glassy counterpart Li6 PS5 I (1.5 mS cm− 1 ). HEA- 
+As0.25 also demonstrates much improved chemical stability against moist air and toluene. When integrated into full cells with 
+a sulfur cathode and an In/InLi anode, the respective all-solid-state lithium-sulfur batteries exhibit excellent cycling stability. 
+Overall, this work provides a new approach for designing advanced sulfide solid electrolytes that simultaneously possess high 
+ionic conductivity and air stability. 
+1 
+Introduction 
+Replacing flammable organic (liquid) electrolytes with inorganic 
+(sulfide) solid electrolytes (SEs) is a pivotal route towards safer 
+all-solid-state batteries (ASSBs) with higher energy density [ 1–
+3 ]. Among various sulfides, lithium argyrodites are particularly 
+attractive owing to their high ionic conductivity and good 
+deformability [ 4 ]. Specifically, Li6 PS5 X (X = Cl− , Br− ) SEs possess 
+high room-temperature ionic conductivities of 1–5 mS cm− 1 due to 
+S2 − /X− disorder [ 5, 6 ]. Typically, the structural disorder facilitates 
+Li+ migration through interconnected cages. Conversely, the 
+large ionic radius of iodine drives a complete ordering of the anion 
+sublattice in Li6 PS5 I. This ordered structure hinders Li+ hopping 
+between the cages, resulting in a low ionic conductivity of 10− 3 
+mS cm− 1 [ 7 ]. These results demonstrate that the degree of anion 
+ordering has a strong influence on ionic conductivity. 
+Ruihua Zhou and Chenjie Lou contributed equally to this work. 
+All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies. 
+© 2026 Wiley-VCH GmbH 
+Small Methods , 2026; 10:e70963 
+https://doi.org/10.1002/smtd.70963
+1 of 8
+
+=== 第 2 页 ===
+Several strategies have been explored to enhance the ionic 
+conductivity of Li6 PS5 I. Cationic substitution at the P-site with 
+Ge4 + , Sb5 + , or Si4 + introduces beneficial S2 − /I− disorder, thereby 
+increasing the ionic conductivity to 5.4, 2.0, and 0.1 mS cm− 1 , 
+respectively [ 8 ]. Partial substitution of sulfur with chlorine 
+enables the synthesis of the halogen-rich lithium argyrodite 
+Li5.5 PS4.5 Cl1.5 , exhibiting an ionic conductivity of 9.4 mS cm− 1 [ 9 ]. 
+Similarly, an iodine-rich glassy electrolyte, Li5.6 PS4.6 I1.4 , prepared 
+by high-energy ball milling, shows an ionic conductivity of 
+about 2 mS cm− 1 [ 10 ]. Notably, compositional disorder (entropy) 
+introduced by Cl− /Br− co-doping yields Li5.5 PS4.5 Cl0.75 Br0.75 with 
+an impressive ionic conductivity of 13 mS cm− 1 [ 11 ]. Despite 
+achieving room-temperature ionic conductivities comparable to 
+those of liquid electrolytes, these sulfide SEs suffer from poor air 
+stability. They readily react with atmospheric moisture, releasing 
+toxic H2 S while undergoing structural degradation that compro- 
+mises ionic transport [ 12 ]. Furthermore, their susceptibility to 
+nucleophilic attack in polar solvents poses additional challenges 
+for solution-based processing [ 13 ]. Overcoming these stability 
+problems while preserving high ionic conductivity remains a 
+critical bottleneck for their practical application. 
+Chemical doping/substitution is widely used to optimize the 
+air stability of sulfide SEs. This often involves replacing a 
+fraction of the hard-acid P5 + with soft-acid cations [ 14 ]. For 
+example, by doping Li3 PS4 with ZnO, a new SE of composition 
+Li3 + 3 x P1 − x Znx S4 − x Ox with an ionic conductivity of 1 mS cm− 1 was 
+synthesized, which can significantly improve the air stability of 
+Li3 PS4 [ 15 ]. Similarly, doping of Li3 PS4 with Bi2 O3 has been shown 
+to increase the air stability by forming [BiS4 ]3 − (with higher 
+hydrolysis energy than [PS4 ]3 − ) and [PS3 O]3 − (with stronger H2 O 
+adsorption energy than [PS4 ]3 − ), though the ionic conductivity 
+remains below 3 mS cm− 1 [ 16 ]. Strategies such as co-doping 
+with Sb–O or Sn–O in lithium argyrodites (e.g., Li5.5 PS4.5 Cl1.5 ) 
+can achieve higher conductivities, but the improvements in air 
+stability are modest [ 17, 18 ]. Complete replacement of P5 + with 
+soft-acid cations, like Sn4 + , As5 + , or Sb5 + , yields SEs such as 
+Li3.85 Sn0.85 Sb0.15 S4 (0.85 mS cm− 1 ) [ 19 ] or Li3.875 Sn0.875 As0.125 S4 (2.45 
+mS cm− 1 ) [ 20 ] with excellent stability against moisture. However, 
+their conductivities are still insufficient for practical applications. 
+Surface coating represents another effective strategy for increas- 
+ing the air stability of sulfide SEs. For example, exposing Li6 PS5 Cl 
+to an oxygen atmosphere enables the in situ formation of a 
+∼ 50 nm oxygen-rich passivation layer on its free surface [ 12 ], 
+which effectively suppresses hydrolysis. Similarly, the in situ 
+decomposition of NH4 F on Li10 GeP2 S12 generates a LiF coating 
+that significantly reduces H2 S release, albeit at the cost of 
+decreased ionic conductivity (from 6.2 to 2.5 mS cm− 1 ) [ 21 ]. 
+Therefore, achieving improved air stability without sacrificing 
+lithium mobility remains a pivotal requirement for practical 
+applications of ASSBs. 
+In the present work, by substituting phosphorus with a qua- 
+ternary combination of soft-acid cations (As5 + , Si4 + , Ge4 + , 
+Sb5 + ), we synthesized a novel high-entropy lithium argyrodite, 
+Li6.5 As0.25 Si0.25 Ge0.25 Sb0.25 S5 I (HEA-As0.25 ), with a configurational 
+entropy of 2.04 R . This SE achieves room-temperature ionic 
+conductivities of 8.0 and 11.4 mS cm− 1 upon cold and hot pressing, 
+respectively, a fivefold enhancement over its unmodified (glassy) 
+counterpart Li6 PS5 I. The underlying ion conduction mechanism 
+TABLE 1 
+Summary of composition and corresponding nomencla- 
+ture for the SEs employed in this work. 
+Composition 
+Abbreviation 
+Li6.5 As0.25 Si0.25 Ge0.25 Sb0.25 S5 I 
+HEA-As0.25 
+Li6.5 P0.25 Si0.25 Ge0.25 Sb0.25 S5 I 
+HEA-P0.25 
+crystalline Li6 PS5 I 
+c-LPSI 
+crystalline Li5.6 PS4.6 I1.4 
+c-LPSI1.4 
+glassy Li6 PS5 I 
+g-LPSI 
+glassy Li5.6 PS4.6 I1.4 
+g-LPSI1.4 
+is elucidated by a combination of neutron powder diffrac- 
+tion (NPD), magic-angle spinning nuclear magnetic resonance 
+(MAS NMR) spectroscopy, and variable-temperature electro- 
+chemical impedance spectroscopy (EIS) measurements. Aside 
+from the promising transport properties, HEA-As0.25 demon- 
+strates markedly improved air stability, releasing only 30% of 
+the H2 S evolved from glassy Li6 PS5 I, alongside a high chemical 
+compatibility with toluene. When integrated into all-solid-state 
+lithium-sulfur batteries with a sulfur/multi-walled carbon nan- 
+otube (MWCNT)/HEA-As0.25 composite cathode and an In/InLi 
+anode, the cells are found to deliver a reversible specific capacity 
+of 931 mAh g− 1 after 200 cycles at 0.2C, showcasing good cycling 
+stability. 
+2 
+Results and Discussion 
+2.1 
+Structural and Morphological 
+Characterization 
+Following the principles of hard and soft acids and bases (HSAB) 
+and the hydrolysis energy of elements, we designed a high- 
+entropy sulf ide SE by co-substituting P5 + at the 4 b site in Li6 PS5 I 
+with Si4 + , Ge4 + , As5 + , and Sb5 + . The target composition, HEA- 
+As0.25 , was achieved by high-energy ball milling, followed by 
+annealing at 550◦C. For comparison, a series of control samples 
+was prepared, including Li6.5 P0.25 Si0.25 Ge0.25 Sb0.25 S5 I (HEA-P0.25 ), 
+crystalline Li6 PS5 I (c-LPSI), crystalline Li5.6 PS4.6 I1.4 (c-LPSI1.4 ), 
+glassy Li6 PS5 I (g-LPSI), and glassy Li5.6 PS4.6 I1.4 (g-LPSI1.4 ). Both 
+g-LPSI and g-LPSI1.4 were obtained by high-energy ball milling, 
+whereas c-LPSI and c-LPSI1.4 were produced via conventional 
+solid-state synthesis. The compositions and corresponding abbre- 
+viations of the above SEs are provided in Table 1 . 
+As shown in the x-ray diffraction (XRD) patterns in Figure 1a , 
+HEA-As0.25 , HEA-P0.25 , and c-LPSI form single-phase argyrodite 
+phases, while g-LPSI and g-LPSI1.4 exhibit characteristics of 
+amorphous materials. However, as evident from Figure S1 , the c- 
+LPSI1.4 SE synthesized by dry mixing through gentle ball milling 
+and subsequent annealing contains several impurity phases. 
+Raman spectroscopy was used to gain further structural insights 
+(see Figure S2 ). For c-LPSI, g-LPSI, and their iodine-rich coun- 
+terparts, a characteristic peak at about 416 cm− 1 is observed, 
+corresponding to the [PS4 ]3 − units [ 22 ]. In the glassy g-LPSI 
+and g-LPSI1.4 samples, an additional weak signal at 378 cm− 1 
+emerges, which can be attributed to [P2 S6 ]4 − [ 6 ], indicating local 
+2 of 8
+Small Methods, 2026
+ 23669608, 2026, 18, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smtd.70963 by Tsinghua University Library, Wiley Online Library on [27/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+FIGURE 1 
+(a) XRD patterns of HEA-As0.25 , HEA-P0.25 , c-LPSI, g-LPSI, and g-LPSI1.4 . (b) NPD pattern of HEA-As0.25 with corresponding Rietveld 
+plot. The gray circles, blue line, gray vertical tick marks, and gray line represent the experimental and calculated data, position of expected Bragg 
+reflections, and difference between experimental and calculated data, respectively. (c) Crystal structure of HEA-As0.25 . (d) 29 Si MAS NMR spectra of 
+HEA-As0.25 and HEA-P0.25 . (e ‒j) EDS maps of As, Si, Ge, Sb, S, and I in HEA-As0.25 . 
+structural rearrangements during amorphization. In contrast, the 
+high-entropy HEA-As0.25 and HEA-P0.25 SEs exhibit a broadened 
+peak that is shifted to lower wavenumbers ( ∼ 378 cm− 1 ), consistent 
+with the coexistence of [PS4 ]3 − , [SiS4 ]4 − , [AsS4 ]3 − , [SbS4 ]3 − , and 
+[GeS4 ]4 − resulting from multisite substitution [ 23–26 ]. 
+Figure 1b shows the NPD pattern and corresponding Rietveld 
+refinement results for HEA-As0.25 . The refinement confirms a 
+cubic argyrodite structure within the space group 𝐹̄4 3 𝑚with 
+lattice parameter a = 10.3228(9) Å (see Table S1 for details). 
+Figure 1c illustrates the calculated crystal structure of HEA-As0.25 . 
+Site occupancy analysis revealed that the 4 a site is occupied 
+by 90% I− and 10% S2 − , while the 4 d site hosts 90% S2 − and 
+10% I− . At the cation site 4 b , Si4 + , Ge4 + , Sb5 + , and As5 + each 
+exhibit an occupancy of 25%, confirming successful formation of 
+a chemically complex solid solution. Based on these occupancies, 
+the configurational entropy of HEA-As0.25 was calculated to 
+be 2.04 R ( > 1.5R), thus indicating that it can be considered a 
+high-entropy material [ 27, 28 ]. 
+The local structure was probed by solid-state NMR spectroscopy. 
+Figure 1d shows the 29 Si MAS NMR spectra of HEA-As0.25 and 
+HEA-P0.25 . A sharp resonance at ∼ 11.3 ppm is observed, corre- 
+sponding to [SiS4 ]4 − [ 27, 29 ], consistent with the Raman results. 
+The 7 Li MAS NMR spectra (see Figure S3 ) show a single broad 
+resonance at ∼ 1.6 ppm for the crystalline samples (HEA-As0.25 , 
+HEA-P0.25 , and c-LPSI). In contrast, the glassy SEs, g-LPSI1.4 and 
+g-LPSI, exhibit two distinct resonances at ∼ 0.2 and ∼ 2.3 ppm, 
+indicating the presence of multiple lithium environments that 
+enable ion transport in the amorphous phase. The 31 P MAS 
+NMR spectra (see Figure S3 ) reveal that HEA-P0.25 exhibits 
+a broader resonance compared to c-LPSI, reflecting increased 
+chemical disorder at the P-site, as expected. Collectively, these 
+results confirm the successful formation of high-entropy lithium 
+argyrodites with substantial occupational disorder across both the 
+cation and anion sublattices. 
+The morphology of the HEA-As0.25 SE and the element distri- 
+bution were examined by scanning electron microscopy (SEM) 
+coupled with energy-dispersive x-ray spectroscopy (EDS), as 
+shown in Figures 1e–j and S4 . The particles exhibit a diameter of 
+about 5 µm. EDS mapping revealed that the constituent elements 
+(As5 + , Si4 + , Ge4 + , Sb5 + , S2 − , and I− ) are evenly distributed 
+throughout the particles without any localized enrichment or 
+segregation. Similarly, the control samples, HEA-P0.25 , g-LPSI1.4 , 
+and g-LPSI, were found to exhibit uniform element distributions 
+(see Figure S4 ), further confirming their phase purity. 
+2.2 
+Transport Properties 
+The ionic conductivities of the synthesized SEs were determined 
+by EIS at room temperature (see Figure 2a ). The Nyquist plots 
+of the electrochemical impedance for HEA-As0.25 , HEA-P0.25 , 
+g-LPSI1.4 , and g-LPSI only show a straight line without any dis- 
+cernible semicircle in the high-frequency region, characteristic of 
+fast ion conductors where grain-boundary and bulk contributions 
+are indistinguishable. The corresponding ionic conductivities 
+were determined to be 8.0, 7.4, 2.3, and 1.5 mS cm− 1 , respectively 
+(see Figure 2c ). In contrast, the Nyquist plots for c-LPSI and 
+Small Methods, 2026
+3 of 8
+ 23669608, 2026, 18, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smtd.70963 by Tsinghua University Library, Wiley Online Library on [27/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+FIGURE 2 
+(a) Impedance spectra at 25◦C, (b) Arrhenius plots, and (c) ionic conductivities and activation energies for HEA-As0.25 , HEA-P0.25 , 
+g-LPSI1.4 , and g-LPSI. 
+c-LPSI1.4 display large semicircles (see Figure S5 ), with total 
+resistances of tens of k Ω. The corresponding ionic conductivities 
+are 0.0018 and 0.004 mS cm− 1 , respectively, which are three orders 
+of magnitude lower than those of the glassy counterparts. To 
+further assess the intrinsic transport properties and eliminate the 
+influence of residual grain-boundary resistance, dense pellets of 
+HEA-As0.25 and HEA-P0.25 were prepared by hot pressing at 400◦C 
+for 4 h. As shown in Figure S5 , the ionic conductivities further 
+increased to 11.4 and 9.1 mS cm− 1 , respectively. 
+The electronic conductivity of HEA-As0.25 , determined from DC 
+polarization measurements (see Figure S6 ), is only 2.019 × 10− 13 
+S cm− 1 , indicating that this SE behaves as a pure ion conductor 
+with a transference number close to unity. The activation energies 
+( Ea ) for ion conduction were extracted from the Arrhenius plots 
+shown in Figure 2b and are summarized in Figure 2c and Table 
+S2 . The Ea values for HEA-As0.25 , HEA-P0.25 , g-LPSI1.4 , and g-LPSI 
+are 0.17, 0.21, 0.31, and 0.35 eV, respectively. Notably, HEA- 
+As0.25 exhibits the lowest activation energy among all samples, 
+consistent with its highest room-temperature ionic conductivity. 
+This result confirms that the high-entropy strategy effectively 
+lowers the migration barrier for lithium transport. 
+2.3 
+Air and Solvent Stability 
+The practical application of sulfide SEs is severely hindered 
+by their intrinsic moisture sensitivity, which leads to structural 
+degradation, H2 S release, and loss of ionic conductivity upon 
+exposure to ambient air [ 14 ]. The moisture stability of the 
+synthesized SEs was assessed by monitoring the evolution of 
+H2 S with exposure to N2 atmosphere with 40% relative humidity 
+(RH) for 30 min (see Figure 3a ) at room temperature. Among 
+the samples, the glassy g-LPSI SE was found to exhibit the 
+fastest and strongest H2 S release. Increasing the iodine content 
+(g-LPSI1.4 ) somewhat decreases the initial release rate and final 
+concentration of H2 S, although the improvement remains lim- 
+ited. In contrast, HEA-P0.25 , designed by partially substituting P5 + 
+with soft-acid cations (Si4 + , Ge4 + , Sb5 + ) according to the HSAB 
+principle, demonstrates markedly reduced H2 S evolution ( ∼ 37% 
+of that released by g-LPSI). Complete replacement of P5 + in HEA- 
+P0.25 with As5 + yields the most stable SE (HEA-As0.25 ), with H2 S 
+formation suppressed to ∼ 30% of the g-LPSI value. This increased 
+stability stems from the stronger bonding between the soft- 
+acid cations and S2 − anions, thereby lowering their susceptible 
+to hydrolysis. These results provide evidence that the high- 
+entropy strategy, through the incorporation of soft-acid elements, 
+effectively stabilizes the sulfide framework against hydrolytic 
+decomposition. 
+The stability was further evaluated by monitoring the retention 
+of ionic conductivity upon exposure to ambient air for 60 min at 
+room temperature (see Figure 3b ). In line with the above results, 
+HEA-As0.25 showed the highest retention, maintaining 82% of 
+its initial conductivity, followed by HEA-P0.25 with 79%. In stark 
+contrast, the control samples, g-LPSI and g-LPSI1.4 , suffered from 
+severe degradation, retaining only 21% and 18% of their original 
+conductivities, respectively. This agrees well with the significant 
+H2 S release observed for both SEs. Raman spectra of the same 
+SEs acquired after air exposure (see Figure S7 ) show no major 
+changes compared to the pristine state, suggesting that the bulk 
+structure remains largely unaffected. The observed decrease in 
+ionic conductivity is likely due in part to surface amorphization 
+and/or partial decomposition. This demonstrates that the high- 
+entropy strategy applied in this work not only reduces H2 S 
+evolution, but also mitigates the loss of ionic conductivity upon 
+exposure to moisture. 
+The compatibility of sulfide SEs with nonpolar solvents, such as 
+toluene, is critical for their integration into scalable manufactur- 
+ing processes. Therefore, the tolerance of the SEs described herein 
+was assessed by immersing them into toluene for 60 min at room 
+temperature (see Figure 3c ). The high-entropy HEA-As0.25 was 
+found to retain a high ionic conductivity of 6.6 mS cm− 1 after 
+toluene exposure, demonstrating excellent solvent resistance. In 
+contrast, the room-temperature ionic conductivities of g-LPSI and 
+g-LPSI1.4 deceased strongly to 0.6–0.75 mS cm− 1 , corresponding 
+to losses of over 50% compared to the initial values. Raman 
+spectra acquired before and after solvent exposure (see Figure 
+S8 ) again show no bulk structural changes, suggesting that the 
+conductivity loss may arise from surface amorphization and/or 
+4 of 8
+Small Methods, 2026
+ 23669608, 2026, 18, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smtd.70963 by Tsinghua University Library, Wiley Online Library on [27/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+FIGURE 3 
+(a) Time-dependent H2S evolution from HEA-As0.25, HEA-P0.25, g-LPSI1.4, and g-LPSI with exposure to a humid nitrogen atmosphere 
+(40% RH at room temperature). (b) Retention of ionic conductivity upon exposure to ambient air (20% RH at room temperature) for 1 h. (c) Retention of 
+ionic conductivity upon exposure to toluene. All the exposure tests were conducted at room temperature ( ∼ 25◦C). 
+FIGURE 4 
+Room-temperature cycling performance of In/InLi|HEA-As0.25 |sulfur/MWCNT/HEA-As0.25 cells at (a) 0.1C and (b) 0.2C. (c) 
+Galvanostatic charge/discharge curves for the third and 100th cycles at a rate of 0.2C. 
+residual solvent adsorption. These findings highlight the high 
+solvent tolerance of the high-entropy SEs, positioning them as 
+promising candidates for solution-based processing. 
+2.4 
+Battery Performance 
+To demonstrate the practical applicability of HEA-As0.25 , all- 
+solid- state lithium- sulfur batteries with a sulfur/MWCNT/HEA- 
+As0.25 composite cathode and an In/InLi anode were assem- 
+bled and tested electrochemically at room temperature in a 
+potential range from 1.0 to 2.7 V versus In/InLi (correspond- 
+ing to approx. 1.62 ‒3.32 V vs. Li+ /Li). Figure 4a shows the 
+long-term cycling performance of a representative In/InLi|HEA- 
+As0.25 |sulfur/MWCNTs/HEA-As0.25 cell with a sulfur loading of 
+∼ 1.5 mg cm− 2 at a rate of 0.1C. The cell delivered an initial 
+specific discharge specific capacity of 1302 mAh g− 1 , followed by 
+1299 mAh g− 1 in the second cycle. Remarkably, even after 200 
+cycles, the cell was still capable of maintaining a high specific 
+discharge capacity of 931 mAh g− 1 . At a higher rate of 0.2C (see 
+Figure 4b ), the cells also exhibited stable cycling, maintaining a 
+specific discharge capacity of about 886 mAh g− 1 after 100 cycles. 
+As can be seen from Figure 4c , the voltage profiles for the third 
+and 100th cycles show good overlap, thus indicating minimal 
+polarization and stable interfacial contact throughout cycling. 
+These results validate the effectiveness of the high-entropy 
+design in enabling both high capacity and long-term stability in 
+ASSBs. 
+2.5 
+Chemical Analysis Post-Cycling 
+To elucidate the reaction mechanisms that occur in the composite 
+cathode during cycling, x-ray photoelectron spectroscopy (XPS) 
+Small Methods, 2026
+5 of 8
+ 23669608, 2026, 18, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smtd.70963 by Tsinghua University Library, Wiley Online Library on [27/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+FIGURE 5 
+XPS core-level spectra of the (a) S 2p, (b) Ge 3d, and (c) Si 2p regions for the sulfur/MWCNT/HEA-As0.25 composite cathode before 
+and after cycling. 
+was used (for probing the chemical evolution at various states of 
+charge). In general, the S 2p spectrum of the pristine cathode (see 
+Figure 5a ) can be deconvoluted into several distinct components. 
+The doublet at 161.7 eV is assigned to [MS4 ]3/4 − (with M = As5 + , 
+Si4 + , Ge4 + , Sb5 + ), while the feature at 162.9 eV corresponds to M–
+S–M bridging species [ 30–33 ]. The doublet at 161.0 eV originates 
+from “free” S2 − in the HE-As0.25 SE and/or the presence of Li2 S. 
+Additionally, the doublet at 163.7 eV can be attributed to the active 
+sulfur species (Sx ) [ 30 ]. Upon initial discharge to 1.0 V versus 
+In/InLi, the intensity of the Sx and M–S–M peaks decreases, while 
+the signal corresponding to S2 − /Li2 S increases. This evolution 
+indicates the electrochemical reduction of both elemental sulfur 
+and M–S–M intermediates into Li2 S. Subsequently, with charging 
+to 2.7 V versus In/InLi, the Li2 S signal diminishes and eventually 
+vanishes, while the M–S–M and Sx features are recovered, reflect- 
+ing the oxidation of Li2 S back to sulfur and metal sulfide species. 
+In the initial cycles, a progressive activation of redox-active sulfur 
+within the cathode occurs. Concurrently, minor decomposition 
+products from the sulfide SE may contribute additional capacity 
+[ 34 ]. These combined effects account for the gradual increase in 
+specific discharge capacity observed over the first 20 cycles or so 
+(see Figure 4a ). 
+The Ge 3d spectra (Figure 5b ) show a peak at 31.8 eV correspond- 
+ing to [GeS4 ]4 − , along with a peak at 29.6 eV that may be attributed 
+to reduced Ge species [ 32, 33 ]. An additional component at 33.8 eV 
+is assigned to Ge–O bonds [ 25 ], with the oxygen originating 
+from the functional groups present on the MWCNTs. Upon 
+discharge to 1.0 V versus In/InLi, the intensity of the peak indi- 
+cating Ge–S–Ge bridging species decreases, while the [GeS4 ]4 − 
+signal intensifies. This evolution reflects the reductive cleavage 
+of Ge–S–Ge bonds to form [GeS4 ]4 − units. During subsequent 
+charging to 2.7 V versus In/InLi, the reverse transformation 
+occurs, indicating the reversible nature of this kind of structural 
+rearrangement. 
+The Si 2p spectra (see Figure 5c ) can be deconvoluted into 
+contributions related to [SiS4 ]4 − and oxygenated silicon species 
+[ 29, 35 ]. Upon discharge to 1.0 V versus In/InLi, the [SiS4 ]4 − 
+signal diminishes slightly, accompanied by an increase in the oxy- 
+genated silicon component. As cycling proceeds, the oxygenated 
+silicon signal continues to grow, suggesting progressive formation 
+of Si–O bonds during battery operation. 
+From the Sb 3d spectra (see Figure S9 ), it can be seen that the 
+relative intensity of the [SbS4 ]3 − peaks decreases, while the O 1s- 
+related signal increases during charging [ 23 ]. Upon discharge, 
+this trend is reversed. In contrast, the As 3d and I 3d spectra 
+(see Figure S9 ) exhibit no significant changes during both charge 
+and discharge, confirming the electrochemical stability of both 
+As5 + and I− in the high-entropy structure. This stability likely 
+contributes to the robust cycling performance of the HEA-As0.25 - 
+based all-solid-state lithium-sulfur cells. 
+3 
+Conclusions 
+In summary, a chemically complex sulfide solid electrolyte, HEA- 
+As0.25 , with a configurational entropy of 2.04 R was successfully 
+synthesized by substituting P5 + in LPSI with four soft-acid 
+cations, namely, As5 + , Si4 + , Ge4 + , and Sb5 + . Comprehensive 
+structural characterization by XRD, NPD, Raman spectroscopy, 
+and solid-state NMR confirmed the lithium argyrodite structure 
+with even element distribution at the 4 b site and no detectable 
+impurities. Notably, HEA-As0.25 was found to possess a high 
+ionic conductivity of 8.0 and 11.4 mS cm− 1 in cold- and hot- 
+pressed states, respectively, representing a fivefold improvement 
+over the glassy counterpart LPSI (1.5 mS cm− 1 ). The activation 
+energy of HEA-As0.25 was also markedly reduced to 0.167 eV, 
+compared to 0.35 eV for g-LPSI, underscoring that the high- 
+entropy design effectively lowers the energy barrier for lithium 
+6 of 8
+Small Methods, 2026
+ 23669608, 2026, 18, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smtd.70963 by Tsinghua University Library, Wiley Online Library on [27/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+transport. Furthermore, HEA-As0.25 exhibits superior air stability, 
+releasing only about 30% of the H2 S evolved from g-LPSI under 
+humid conditions (40% RH) and retaining 82% of its initial 
+ionic conductivity after 1 h of ambient air (20% RH) exposure—
+a major improvement over g-LPSI ( ∼ 20% retention). It also 
+shows excellent tolerance to non-polar solvents, retaining about 
+80% of its ionic conductivity after dispersion in toluene for 
+60 min. Finally, all-solid-state lithium-sulfur cells using HEA- 
+As0.25 as solid electrolyte revealed stable cycling performance, 
+highlighting the potential of high-entropy lithium argyrodites for 
+practical battery applications. 
+Acknowledgements 
+S. W. acknowledges the Natural Science Foundation of China (Grant No. 
+52302305), Natural Science Foundation Exploration Program of Wuhan 
+(Morning Light Plan) (Grant No. 2024040801020266), and Major Project of 
+the Science and Technology of Hubei Province (Grant No. 2025BAA012). 
+X. Z. acknowledges the Natural Science Foundation of China (Grant 
+No. 52222205). J. L. acknowledges the Fonds der Chemischen Industrie 
+(FCI) for financial support. F. S. is grateful to the Federal Ministry of 
+Research, Technology and Space (BMFTR) for funding within the project 
+MELLi (03XP0447). The authors thank Institute Laue-Langevin (ILL) for 
+beamtime allocation under proposal number 5-21-1201 ( https://doi.org/10. 
+5291/ILL-DATA.5-21-1201 ). 
+Conflicts of Interest 
+The authors declare no competing interests. 
+Data Availabilitiy Statement 
+The data that support the findings of this study are available from the 
+corresponding author upon reasonable request 
+References 
+1 . J. Janek and W. G. Zeier, “Challenges in Speeding up Solid-State Battery 
+Development,” Nature Energy 8 (2023): 230–240, https://doi.org/10.1038/ 
+s41560- 023- 01208- 9 . 
+2 . Y. Ma, J. H. Teo, D. Kitsche, et al., “Cycling Performance and Limi- 
+tations of LiNiO2 in Solid-State Batteries,” ACS Energy Letters 6 (2021): 
+3020–3028, https://doi.org/10.1021/acsenergylett.1c01447 . 
+3 . S. Wang, R. Fang, Y. Li, et al., “Interfacial Challenges for all-Solid-State 
+Batteries Based on Sulfide Solid Electrolytes,” Journal of Materiomics 7 
+(2021): 209–218, https://doi.org/10.1016/j.jmat.2020.09.003 . 
+4 . L. Zhou, N. Minafra, W. G. Zeier, and L. F. Nazar, “Innovative 
+Approaches to Li-Argyrodite Solid Electrolytes for all-Solid-State Lithium 
+Batteries,” Accounts of Chemical Research 54 (2021): 2717–2728, https://doi. 
+org/10.1021/acs.accounts.0c00874 . 
+5 . A. Gautam, M. Sadowski, M. Ghidiu, et al., “Engineering the Site- 
+Disorder and Lithium Distribution in the Lithium Superionic Argyrodite 
+Li6 PS5 Br,” Advanced Energy Materials 11 (2020): 2003369, https://doi.org/ 
+10.1002/aenm.202003369 . 
+6 . S. Wang, Y. Zhang, X. Zhang, et al., “High-Conductivity Argyrodite 
+Li6 PS5 Cl Solid Electrolytes Prepared via Optimized Sintering Processes 
+for All-Solid-State Lithium–Sulfur Batteries,” ACS Applied Materials & 
+Interfaces 10 (2018): 42279–42285, https://doi.org/10.1021/acsami.8b15121 . 
+7 . M. A. Kraft, S. P. Culver, M. Calderon, et al., “Influence of Lattice 
+Polarizability on the Ionic Conductivity in the Lithium Superionic 
+Argyrodites Li6 PS5 X (X = Cl, Br, I),” Journal of the American Chemical 
+Society 139 (2017): 10909–10918, https://doi.org/10.1021/jacs.7b06327 . 
+8 . S. Ohno, B. Helm, T. Fuchs, et al., “Further Evidence for Energy 
+Landscape Flattening in the Superionic Argyrodites Li 6 + x P 1– x Mx S5 
+I (M = Si, Ge, Sn),” Chemistry of Materials 31 (2019): 4936–4944, https:// 
+doi.org/10.1021/acs.chemmater.9b01857 . 
+9 . P. Adeli, J. D. Bazak, K. H. Park, et al., “Boosting Solid-State Diffusivity 
+and Conductivity in Lithium Superionic Argyrodites by Halide Substi- 
+tution,” Angewandte Chemie International Edition 58 (2019): 8681–8686, 
+https://doi.org/10.1002/anie.201814222 . 
+10 . Y. Liu, H. Peng, H. Su, et al., “Ultrafast Synthesis of I-Rich Lithium 
+Argyrodite Glass–Ceramic Electrolyte With High Ionic Conductivity,”
+Advanced Materials 34 (2022): 2107346, https://doi.org/10.1002/adma. 
+202107346 . 
+11 . S. Wang, C. Lou, X. Wu, et al., “Large-Scale Manufacturing Sulfide 
+Superionic Conductor for Advancing All-Solid-State Batteries,” Matter 8 
+(2025): 102135, https://doi.org/10.1016/j.matt.2025.102135 . 
+12 . W. D. Jung, M. Jeon, S. S. Shin, et al., “Functionalized Sulfide 
+Solid Electrolyte With Air-Stable and Chemical-Resistant Oxysulfide 
+Nanolayer for All-Solid-State Batteries,” ACS Omega 5 (2020): 26015–
+26022, https://doi.org/10.1021/acsomega.0c03453 . 
+13 . K. T. Kim, D. Y. Oh, S. Jun, et al., “Tailoring Slurries Using Cosolvents 
+and Li Salt Targeting Practical All-Solid-State Batteries Employing Sulfide 
+Solid Electrolytes,” Advanced Energy Materials 11 (2021): 2003766, https:// 
+doi.org/10.1002/aenm.202003766 . 
+14 . Y. Zhu and Y. Mo, “Materials Design Principles for Air-Stable 
+Lithium/Sodium Solid Electrolytes,” Angewandte Chemie International 
+Edition 59 (2020): 17472–17476, https://doi.org/10.1002/anie.20200 
+7621 . 
+15 . G. Liu, D. Xie, X. Wang, et al., “High Air-stability and Superior Lithium 
+Ion Conduction of Li3 + 3P1-Zn S4-O by Aliovalent Substitution of ZnO 
+for All-Solid-State Lithium Batteries,” Energy Storage Materials 17 (2019): 
+266–274, https://doi.org/10.1016/j.ensm.2018.07.008 . 
+16 . Y. Ni, C. Huang, H. Liu, Y. Liang, and L. Z. Fan, “A High Air- 
+Stability and Li-Metal-Compatible Li3 + 2x P1 − x Bix S4 − 1.5x O1.5x Sulfide 
+Electrolyte for All-Solid-State Li–Metal Batteries,” Advanced Func- 
+tional Materials 32 (2022): 2205998, https://doi.org/10.1002/adfm.20220 
+5998 . 
+17 . G. Li, S. Wu, H. Zheng, et al., “Sn-O Dual-Substituted Chlorine-Rich 
+Argyrodite Electrolyte With Enhanced Moisture and Electrochemical 
+Stability,” Advanced Functional Materials 33 (2022): 2211805, https://doi. 
+org/10.1002/adfm.202211805 . 
+18 . C. Wei, C. Yu, R. Wang, et al., “Sb and O Dual Doping of Chlorine-Rich 
+Lithium Argyrodite to Improve Air Stability and Lithium Compatibility 
+for All-solid-state Batteries,” Journal of Power Sources 559 (2023): 232659, 
+https://doi.org/10.1016/j.jpowsour.2023.232659 . 
+19 . H. Kwak, K. H. Park, D. Han, K.-W. Nam, H. Kim, and Y. S. Jung, “Li + 
+Conduction in Air-stable Sb-Substituted Li4SnS4 for All-solid-state Li-Ion 
+Batteries,” Journal of Power Sources 446 (2020): 227338, https://doi.org/10. 
+1016/j.jpowsour.2019.227338 . 
+20 . P. Lu, L. Liu, S. Wang, et al., “Superior All-Solid-State Batteries 
+Enabled by a Gas-Phase-Synthesized Sulfide Electrolyte With Ultrahigh 
+Moisture Stability and Ionic Conductivity,” Advanced Materials 33 (2021): 
+2100921, https://doi.org/10.1002/adma.202100921 . 
+21 . Y. Jin, Q. He, G. Liu, et al., “Fluorinated Li10 GeP2 S12 Enables Stable 
+All-Solid-State Lithium Batteries,” Advanced Materials 35 (2023): 2211047, 
+https://doi.org/10.1002/adma.202211047 . 
+22 . S. Wang, A. Gautam, X. Wu, et al., “Effect of Processing on Structure 
+and Ionic Conductivity of Chlorine-Rich Lithium Argyrodites,” Advanced 
+Energy and Sustainability Research 5 (2023): 2200197, https://doi.org/10. 
+1002/aesr.202200197 . 
+23 . V. P. Zakaznova-Herzog, S. L. Harmer, H. W. Nesbitt, G. M. Bancroft, 
+R. Flemming, and A. R. Pratt, “High Resolution XPS Study of the Large- 
+Band-Gap Semiconductor Stibnite (Sb2S3): Structural Contributions and 
+Surface Reconstruction,” Surface Science 600 (2006): 348–356, https://doi. 
+org/10.1016/j.susc.2005.10.034 . 
+Small Methods, 2026
+7 of 8
+ 23669608, 2026, 18, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smtd.70963 by Tsinghua University Library, Wiley Online Library on [27/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+24 . Y. Azhniuk, D. Solonenko, V. Loya, et al., “Raman Evidence for 
+Surface Oxidation of Amorphous As2S3 Thin Films Under Ultraviolet 
+Irradiation,” Applied Surface Science 467–468 (2019): 119–123, https://doi. 
+org/10.1016/j.apsusc.2018.10.157 . 
+25 . W. Zhang, T. Leichtweiß, S. P. Culver, et al., “The Detrimental Effects 
+of Carbon Additives in Li10 GeP2 S12 -Based Solid-State Batteries,” ACS 
+Applied Materials & Interfaces 9 (2017): 35888–35896, https://doi.org/10. 
+1021/acsami.7b11530 . 
+26 . S. A. Vaselabadi, W. H. Smith, and C. A. Wolden, “Solution Synthesis 
+of Sb2 S3 and Na3 SbS4 Solid-State Electrolyte,” Journal of The Elec- 
+trochemical Society 168 (2021): 110533, https://doi.org/10.1149/1945-7111/ 
+ac3752 . 
+27 . J. Lin, M. Schaller, S. Indris, et al., “Tuning Ion Mobility in Lithium 
+Argyrodite Solid Electrolytes via Entropy Engineering,” Angewandte 
+Chemie International Edition 63 (2024): 202404874, https://doi.org/10. 
+1002/anie.202404874 . 
+28 . S. Li, J. Lin, M. Schaller, et al., “High-Entropy Lithium Argyrodite 
+Solid Electrolytes Enabling Stable All-Solid-State Batteries,” Angewandte 
+Chemie International Edition 62 (2023): 202314155, https://doi.org/10. 
+1002/anie.202314155 . 
+29 . J. Lin, G. Cherkashinin, M. Schäfer, et al., “A High-Entropy 
+Multicationic Substituted Lithium Argyrodite Superionic Solid Elec- 
+trolyte,” ACS Materials Letters 4 (2022): 2187–2194, https://doi.org/10.1021/ 
+acsmaterialslett.2c00667 . 
+30 . S. Wang, M. Tang, Q. Zhang, et al., “Lithium Argyrodite as Solid 
+Electrolyte and Cathode Precursor for Solid-State Batteries With Long 
+Cycle Life,” Advanced Energy Materials 11 (2021): 2101370, https://doi.org/ 
+10.1002/aenm.202101370 . 
+31 . S. Wang, W. Zhang, X. Chen, et al., “Influence of Crystallinity of 
+Lithium Thiophosphate Solid Electrolytes on the Performance of Solid- 
+State Batteries,” Advanced Energy Materials 11 (2021): 2100654, https://doi. 
+org/10.1002/aenm.202100654 . 
+32 . W. Zhang, F. H. Richter, S. P. Culver, et al., “Degradation Mechanisms 
+at the Li10 GeP2 S12 /LiCoO2 Cathode Interface in an All-Solid-State 
+Lithium-Ion Battery,” ACS Applied Materials & Interfaces 10 (2018): 
+22226–22236, https://doi.org/10.1021/acsami.8b05132 . 
+33 . S. Wenzel, S. Randau, T. Leichtweiß, et al., “Direct Observation of 
+the Interfacial Instability of the Fast Ionic Conductor Li10 GeP2 S12 at 
+the Lithium Metal Anode,” Chemistry of Materials 28 (2016): 2400–2407, 
+https://doi.org/10.1021/acs.chemmater.6b00610 . 
+34 . J. Yang, R. Zhang, R. Zimmermanns, et al., “Tailored Redox- 
+Active Catholytes Enabling High-Rate and High-Loading All-Solid-State 
+Lithium-Sulfur Batteries,” Advanced Materials 38 (2026): 13204, https:// 
+doi.org/10.1002/adma.202513204 . 
+35 . J. Lin, M. Schaller, G. Cherkashinin, et al., “Synthetic Tailoring of 
+Ionic Conductivity in Multicationic Substituted, High-Entropy Lithium 
+Argyrodite Solid Electrolytes,” Small 20 (2024): 2306832, https://doi.org/ 
+10.1002/smll.202306832 . 
+Supporting Information 
+Additional supporting information can be found online in the Supporting 
+Information section. 
+Supporting File : smtd70963-sup-0001-SuppMat.docx. 
+8 of 8
+Small Methods, 2026
+ 23669608, 2026, 18, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smtd.70963 by Tsinghua University Library, Wiley Online Library on [27/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

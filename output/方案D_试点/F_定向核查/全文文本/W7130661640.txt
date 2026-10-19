@@ -1,0 +1,868 @@
+=== 第 1 页 ===
+Advanced Functional Materials
+www.afm-journal.de
+RESEARCH ARTICLE
+Concentration-Gradient Solid-State Sulfur Cathode
+Enabling Improved Energy Storage Under High Sulfur
+Loadings
+Yifei Ma1
+Tianyu Qiu1
+Zhiwei Liu1
+Die Zhou1
+Zhihong Huang1
+Xuemei Cheng2
+Jinlin Yang1
+Jing Li1
+Xinlong Tian1
+Hui Zhang1
+1School of Marine Technology and Equipment, State Key Laboratory of Tropic Ocean Engineering Materials and Materials Evaluation, Hainan University,
+Haikou, China
+2Institute of Photonics & Photo-Technology, Northwest University, Xi’an, China
+Correspondence: Jinlin Yang (yangjl@hainanu.edu.cn)
+Xinlong Tian (tianxl@hainanu.edu.cn)
+Hui Zhang (hui.zhang@hainanu.edu.cn)
+Received: 11 November 2025
+Revised: 20 January 2026
+Accepted: 14 February 2026
+Keywords: all-solid-state lithium-sulfur battery (ASSLSB) | concentration gradient | high sulfur loading | interfacial degradation | sulfur utilization
+ABSTRACT
+All-solid-state lithium-sulfur battery (ASSLSB) represents one of the most promising energy storage technologies attributed to
+the high energy density, intrinsic safety, and economic viability. However, introducing solid-state electrolytes (SEs) into the sulfur
+cathode triggers thorny problems of deficient sulfur loading, inadequate sulfur utilization, and severe interfacial degradation. Here,
+we demonstrate a spatially tailored sulfur cathode architecture with concentration-gradient SE and conductive agent distribution.
+From the separator side to the current collector, SE concentration is decreased from 65 to 55 wt.%, which promotes lithium-
+ion transport through continuous pathways and concentration-driven forces. Conversely, the concentration of conductive agent
+increases from 5 to 15 wt.% to ensure efficient electron conduction. The mutually opposing concentration gradients simultaneously
+suppress the SE degradation by minimizing its interfacial contacts with conductive agents. As a result, the ASSLSB delivers
+enhanced sulfur utilization (1315 mAh g−1) under 7.6 mg cm−2, while maintaining a low capacity fading rate of 0.05% per cycle
+over 225 cycles. Even further increasing the sulfur loading to 11.4 mg cm−2, a high capacity of 10.96 mAh cm−2 is achieved.
+1
+Introduction
+With the advantages of high energy density (2600 Wh kg−1)
+and low cost (US$340 per ton for sulfur), lithium-sulfur bat-
+teries (LSBs) are deemed as one of the most promising energy
+storage systems for fields that prioritize the long-running per-
+formance, such as unmanned aerial vehicles [1–3]. However,
+the lithium polysulfides dissolution problem severely limits the
+sulfur utilization, which results in inferior capacity and cycling
+performance of batteries [4]. For all-solid-state LSBs (ASSLSBs),
+a solid-state electrolyte (SE) is applied to replace the ether-
+based liquid electrolyte of conventional LSBs, which not only
+addresses the polysulfides dissolution issue fundamentally, but
+also enhances the battery safety by mechanically suppressing the
+lithium dendrite growth [5, 6]. Nevertheless, limited by the slow
+and medium-dependent lithium-ion hopping conduction mech-
+anism of SEs, incorporating SEs into the sulfur cathode, except
+for electron-conducting additives is indispensable to guarantee
+smooth ion transport within ASSLSBs [7]. The extra SE additives
+decrease the sulfur loading from 70–80 wt.% to less than 30 wt.%,
+which seriously decreases the energy density of ASSLSBs [8].
+Furthermore, insufficient contacts between SE and SE (or sulfur)
+solid particles, and inevitable void formation within the solid-
+state sulfur cathodes result in slow and interrupted ion transport,
+which diminishes the sulfur electrochemical reaction kinetics,
+especially under high sulfur loadings [9]. Additionally, the
+© 2026 Wiley-VCH GmbH
+Advanced Functional Materials, 2026; 36:e30425
+https://doi.org/10.1002/adfm.202530425
+1 of 10
+
+=== 第 2 页 ===
+FIGURE 1
+Schematic illustration and morphological characterization of the sulfur cathodes. Schematic diagrams of (a) CS and (b) CGS, illustrating
+the transport of lithium ions and electrons, and the parasitic degradation of SE. (c) Cross‑sectional SEM image of the CGS and corresponding elemental
+mappings of Cl and C.
+contact potential difference generated between conductive agents
+and SEs can readily induce the electrochemical degradation of
+SEs, particularly in the widely-adopted sulfides of ASSLSBs [10].
+In order to increase the sulfur loading, intensive efforts focus
+on the development of advanced SEs [11]. Given the inherently
+high density and compact volume of most SEs (e.g., Li6PS5Cl,
+Li10GeP2S12, and Li7P3S11), substantial amounts of SEs remain
+essential to ensure continuous ion transport pathways and
+sufficient interfacial contact with sulfur particles for effective
+electrochemical reactions [12, 13]. An innovative SE of Li3PS4-
+2LiBH4 with low density (1.49 g cm−3) and high ionic conductivity
+(6 mS cm−1) was thus synthesized to realize efficient ion transport
+under high sulfur loadings [14]. The results demonstrated that
+high capacity (1144.8 mAh g−1 at 0.1 C), low capacity fading rate of
+0.028% per cycle, and superior rate performance (1004.6 mAh g−1
+at 0.5 C) are simultaneously realized for the ASSLSB with a
+high sulfur content of 60 wt.%. Furthermore, SEs with mixed
+electronic and ionic conductivity were recently reported to serve
+as bifunctional additives of sulfur cathodes. By enhancing charge
+transfer, they enable reduced conductive agent mass ratios while
+facilitating high sulfur contents (≥60 wt.%) [15]. Attributed to
+the strengthened interfacial contacts between SEs and sulfur
+(or Li2S) particles, electrochemically sulfur conversion reaction
+2 of 10
+Advanced Functional Materials, 2026
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+kinetics are further promoted, which contributes to improved
+battery performance (1450 mAh g−1) even at a strict condition
+(50 wt.%, 0.1 C). To mitigate parasitic SE degradation caused
+by electrochemical interfacial interactions between conductive
+additives and SEs, modified conductive agents were engineered
+with decreased electronic conductivity [16]. This includes func-
+tionalizing graphene or carbon nanotubes (CNTs) with insulating
+groups (e.g., -OH, -COOH) to create electrochemically inactive
+interfaces [17, 18]. Although promising battery performance
+has been obtained through the above strategies, simultaneously
+achieving the goal of high sulfur utilizations (≥1200 mAh g−1),
+high areal sulfur loadings (≥6 mg cm−2) and minimizing SE
+degradation remains a great challenge [19].
+To this end, we demonstrate a spatially modulated sulfur cath-
+ode featuring dual-concentration gradients wherein SE content
+progressively decreases from 65 to 55 wt.% from the separator
+side toward the current collector, while conductive additives
+increase concomitantly from 5 to 15 wt.% in the opposite direc-
+tion (Figure 1). In contrast to the conventional sulfur cathode
+with homogenous compositional concentrations, this architec-
+ture enhances ion transport through continuous SE percolation
+pathways, simultaneously optimizing electron conduction via
+smooth conducting path designs. Crucially, the counter-gradient
+design physically minimizes the interfacial contacts of SE and
+conductive additives to suppress parasitic SE degradations.
+Consequently, the ASSLSB delivers a high specific capacity of
+1315 mAh g−1 at the sulfur loading of 7.6 mg cm−2 with a low
+fading rate (0.05% per cycle over 225 cycles). Even at a high
+loading of 11.4 mg cm−2, the gradient design achieves a capacity of
+965 mAh g−1, alongside a significantly higher capacity retention
+(48%) than non-gradient analogues under equivalent conditions.
+2
+Results and Discussions
+As mentioned above, the solid-state sulfur cathode is composed
+of three functional components: sulfur as the electrochemically
+active material, SE as the ionic conductor, and conductive agents
+as the electron transport medium. In this study, we selected
+the chlorine-rich Li5.5PS4.5Cl1.5 (LPSC) as the SE, and single-
+walled CNTs (SWCNTs) as the electron-conducting network.
+Compared with the widely employed Li6PS5Cl, the chlorine-
+rich LPSC manifests greater lattice disorder, which is beneficial
+for enhanced ionic conductivity and electrochemical activity.
+The particular 1D structure of SWCNT not only endows it with
+reduced tortuosity for electron transport, but also facilitates the
+construction of a 3D network for continuous electron conduction.
+To fabricate the concentration-gradient sulfur cathode (herein
+termed CGS), three layers of cathode mixtures with varying mass
+concentrations of SE and CNTs were sequentially pressed and
+integrated. First, the cathode mixtures containing 30 wt.% sulfur
+and LPSC:SWCNT mass ratios of 65:5, 60:10, and 55:15 were
+prepared by ball milling. Subsequently, the mixture with the
+highest LPSC concentration of 65 wt.% was layered and pressed
+on the SE separator side, and then mixtures with 60 and 55 wt.%
+LPSC were added as the middle and current collector-side layers,
+respectively. For comparison, a conventional sulfur cathode
+(herein denoted as CS) was fabricated. Its LPSC:S:SWCNT mass
+ratio is controlled to be 60:30:10, which is equivalent to the
+average composition ratio of the CGS. To ensure the absence
+of undesired sulfur concentration gradients, thermogravimetric
+analysis (TGA) was conducted on each layer as well as the
+fabricated gradient cathode. As shown in Figure S1, all groups
+were determined to have an identical sulfur content of 30 wt.%,
+with no sulfur gradient.
+To investigate the through‑thickness morphology and component
+distribution of solid-state sulfur cathodes, cryogenic cross-section
+polisher-scanning electron microscopy (CP‑SEM) measurement
+was conducted. As shown in Figure 1c and Figure S2, both CGS
+and CS cathodes were densely fabricated without any discernible
+delamination or cracks, which enables efficient charge transport
+by minimizing interfacial resistance. Different from the homoge-
+neous compositional concentration within the CS cathode, the
+CGS architecture exhibits a pronounced concentration gradient
+of SE and CNT additives. In the layer adjacent to the separator
+side, micrometer-scale SE particles are the dominant component,
+which is consistent with the markedly high Cl signal observed
+in the elemental mapping result (Figure 1c; Figure S3a). In
+the middle layer, with decreasing the SE concentration, the
+intensity of Cl signal is reduced, while the C signal intensity
+is strengthened due to the increased mass ratio of CNT addi-
+tive (Figure 1c; Figure S3b). For the layer near the current
+collector, the amount of SE particles is notably decreased, and
+they are embedded within the CNT-based cathode mixture.
+Correspondingly, the Cl signal intensity is the lowest, whereas
+the C signal is remarkably enhanced from the elemental mapping
+result. Quantitatively, the energy dispersive X-ray spectroscopy
+(EDX) line-scan results reveal a distinct Cl gradient from the
+separator toward the current collector, which corroborates the
+designed SE gradient within the CGS architecture (Figure S4). In
+addition, quantitative EDX mapping spectrum analysis confirms
+that the measured elemental mass ratios (S: 57.1 wt.%, C: 14.3
+wt.%, Cl: 17.4 wt.%, P: 8.1 wt.%, Li: 3.1 wt.%) are close to the
+theoretical composition (LPSC:S: SWCNT ratio of 60:30:10) of
+the CGS cathode (Figure S4c). To further examine the internal
+architecture of the cathode, 3D X‑ray computed tomography
+(X‑ray CT) was performed (Figure S5). The reconstructed 3D
+image reveals a dense and crack‑free microstructure with SE
+particles maintaining good interfacial contact. Clear differences
+in the volume fraction across the three layers are observed,
+consistent with the intended gradient architecture. Furthermore,
+the X-ray CT result indicates that the concentration‑gradient
+design leads to improved through‑thickness continuity of the
+SE network, which is beneficial for reduced tortuosity of ion
+transport pathways, contributing to enhancements in lithium-ion
+mobility.
+To simulate the lithium ion and electron transport within
+the cathode, two models with and without concentration-
+gradient SE and CNT conductive agents were constructed
+using COMSOL Multiphysics (Figure 2). From Figure 2b,c, a
+pronounced intensity disparity can be observed in the sim-
+ulated electrolyte potential and current density from the SE
+separator to the current collector for the CS cathode, which
+manifests its severely limited charge transport kinetics. Con-
+versely, the simulations demonstrate superior intensity and
+uniformity in both electrolyte potential and current density
+for the CGS cathode (Figure 2e,f). The tortuosity factor k
+Advanced Functional Materials, 2026
+3 of 10
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+FIGURE 2
+Multiphysics simulation of the CGS and CS cathodes. (a) COMSOL model of the CS cathode with schematic diagrams of (b) electrolyte
+potential and (c) corresponding current density distribution. (d) COMSOL simulation for CGS cathode with corresponding (e) electrolyte potential and
+(f) current density distribution. The white arrows in (b) and (e) represent the electrolyte current vector.
+was employed to describe the structural coefficient, defined
+by [9]:
+𝜎𝑒𝑓𝑓
+𝑖𝑜𝑛= 𝑘⋅𝜎𝑆𝐸
+𝑖𝑜𝑛⋅𝜀𝑆𝐸
+(1)
+where 𝜎𝑒𝑓𝑓
+𝑖𝑜𝑛is the effective ionic conductivity of the composite,
+𝜎𝑆𝐸
+𝑖𝑜𝑛is the bulk ionic conductivity of the pristine electrolyte, and
+εSE is the SE volume fraction. According to Ohm’s law:
+Δ𝜙=
+𝐼⋅𝐿
+𝜎𝑒𝑓𝑓
+𝑖𝑜𝑛⋅𝐴
+(2)
+where the potential drop of Δϕ across the electrode is inversely
+proportional to the effective ionic conductivity of 𝜎𝑒𝑓𝑓
+𝑖𝑜𝑛.
+Based on the simulated electrochemical-potential differences
+(0.36 V for CGS vs. 0.43 V for CS), the calculated ratio of
+structural coefficients is: kCS/kCGS<1, indicating that the gradient
+structure reduces local tortuosity and improves the effective ionic
+conductivity. As a result, the intensity and uniformity of the
+lithium-ion concentration in the CGS are remarkably promoted.
+As shown in Figure S6, although the mass ratio of ion-conducting
+SE within the CGS cathode was gradually reduced to 55 wt.%
+at the current collector side, which is lower than that of CS
+cathode (60 wt.%), the corresponding lithium-ion concentration
+of the CGS is still significantly enhanced. Furthermore, the
+improved lithium-ion concentration within the CGS cathode
+accelerates the ion diffusion according to Fick’s law, thereby
+promoting the lithium-ion transport across the electrode. With
+the same working mechanism, CNT conductive agents with a
+concentration gradient contribute to the favorable current density
+distribution with increased uniformity, which is beneficial for
+smooth and efficient electrochemical reactions.
+Furthermore, the ionic and electronic conductivity of the solid-
+state sulfur cathodes were measured by the direct current (DC)
+polarization method with electron- and ion-blocking symmetric
+cells, respectively. First, the total resistance was determined
+by measuring the current values at three different voltages
+(0.2, 0.5, and 1 V) and plotting the corresponding I–V curves
+(Figure 3a; Figure S7). The electronic and ionic conductivity
+were then calculated based on Ohm’s Law. As with the ionic
+conductivity, the additional resistance originating from the bulk
+LPSC and the LPSC-Li interface was accounted for and subtracted
+using the equivalent circuit model (Figure S8 and Table S1).
+Consistent with the simulation results, the CGS exhibits better
+performance with lower resistance and higher ionic and elec-
+tronic conductivity than the CS cathode (Figure 3b). To study
+how composition and stacked architecture govern the ionic and
+electronic conductivity of the sulfur cathode, we evaluated the
+charge transport properties of the three constituent layers in
+the CGS cathode, and a reversed concentration-gradient sulfur
+cathode (herein denoted as R-CGS). For simplicity, the three
+layers are designated as SE65, SE60, and SE55, reflecting a gradient
+of decreasing SE concentration from 65 to 55 wt.%. As shown in
+Figure 3b, the electronic conductivity rose from 25 to 32 mS cm−1
+as the CNT content increased, meanwhile the ionic conductivity
+climbed from 0.47 to 1.27 mS cm−1 with higher SE concentration.
+Although this result confirms the positive correlation between
+electrode conductivity and the content of conducting agents,
+the CS exhibits lower ionic and electronic conductivity than its
+CGS counterpart of identical average composition, highlighting
+the critical role of architectural design in the sulfur cathode.
+To further reveal the influence of architectural configuration on
+the charge transport within the solid-state sulfur cathode, the
+concentration-gradient sulfur electrode was inverted and tested.
+Figure 3b indicates that although the R-CGS and CGS possess
+4 of 10
+Advanced Functional Materials, 2026
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+FIGURE 3
+Study on the charge transfer and reaction kinetics in ASSLSBs. (a) I–V curves of the CS, CGS, and R-CGS obtained by DC polarization
+for evaluating ionic conductivity. (b) Electronic and ionic conductivity comparison of different sulfur cathodes. (c) GITT and (d) overpotential profiles
+of ASSLSBs. (e) EIS spectra and corresponding (f) DRT analysis of ASSLSBs before and after 10 cycles.
+comparable electronic conductivity (30.1 vs. 29.2 mS cm−1), the
+R-CGS exhibits a substantially lower ionic conductivity (0.72 vs.
+1.15 mS cm−1) than the CGS cathode, which strongly establishes
+the importance of a high-to-low concentration gradient for
+constructing efficient ion transport pathways. In short, achiev-
+ing high-performance solid-state sulfur cathodes requires the
+synergistic integration of architectural design and compositional
+optimization.
+The galvanostatic intermittent titration technique (GITT) is a
+powerful approach to study electrochemical reaction kinetics
+of ASSLSBs during the working process. In Figure 3c, it can
+be observed that the CGS cathode delivered a higher discharge
+capacity of 1523 mAh g−1 than the CS cathode (1272 mAh g−1)
+at the current density of 0.05 C, which indicates that the
+concentration-gradient structure contributes to a higher sulfur
+utilization. Previous research has verified that a lower open
+circuit voltage (OCV) of ASSLSBs originates from a deeper
+lithiation of the sulfur cathode during the discharge process,
+which diminishes the potential difference between the electrodes
+[14]. In Figure 3c, the OCV of CGS cathode (1.13 V) is lower than
+that of the CS cathode (1.19 V), which confirms that enhanced
+complete electrochemical lithiation reactions are facilitated by
+the concentration-gradient electrode architecture. More impor-
+tantly, both overpotential and ohmic (IR) drop obtained from the
+GITT curves are significantly smaller in the CGS cathode than in
+the CS during the lithiation process, especially when the voltage
+fell below 1.5 V (Figure 3d; Figure S9). These results demonstrate
+that sulfur conversion reaction kinetics to the final discharge
+product of Li2S are remarkably promoted by the concentration-
+gradient architectural design through simultaneously enhanced
+ion and electron transport.
+To further elucidate the resistance details within the ASSLSBs
+during the operating process, electrochemical impedance spec-
+troscopy (EIS) measurements were performed. As shown in
+Figure 3e, the Nyquist plot is composed of three parts: a high-
+frequency ohmic resistance (Re) from the SE and electrodes,
+an interface resistance (Rint), and a low-frequency Warburg
+diffusion tail [16]. Initially, both CGS and CS electrodes exhibit
+a small ohmic resistance of approximately 3.6 Ω. After 10
+charge/discharge cycles, the CS shows a more pronounced
+increase in resistance than the CGS cathode. Since the cycling-
+induced rise in ohmic resistance stems primarily from the LPSC
+decomposition, the attenuated resistance increase in the CGS
+electrode corresponds to its superior capability to mitigate the SE
+(LPSC) oxidation. Furthermore, distribution of relaxation time
+analysis (DRT) was employed to deconvolve overlapping signals
+in the Nyquist plots, specifically to distinguish the contributions
+from the low- and middle-frequency regions. Based on the
+relaxation time, three distinct regions are defined: τI (10−4 to
+10−2 s) assigned to the lithium-ion transport across the cathode-
+electrolyte interphase; τII (10−2 to 100 s) corresponding to the
+charge transfer at the cathode surface; τIII (100 to 102 s) represent-
+ing the solid-state lithium-ion diffusion within the cathode [20].
+The DRT analysis reveals that the relaxation time of characteristic
+peaks within the τIII region for the CGS cathode is shifted
+downward by about half an order of magnitude when compared
+with the CS cathode (Figure 3f). The shortened relaxation time
+suggests that the lithium-ion diffusion and transport kinetics are
+significantly improved within the CGS cathode, which corrob-
+orates our findings from GITT [21]. The CGS cathode exhibits
+significantly lower impedance than the CS cathode, further
+confirming its superior ionic transport kinetics. Consistent with
+the EIS results, the CS cathode displayed a substantially larger
+Advanced Functional Materials, 2026
+5 of 10
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+FIGURE 4
+Operando elucidation of reaction mechanisms in ASSLSBs. Operando Raman mapping of ASSLSBs with (a) CGS and (b) CS cathode.
+I180/I420 evolution of (c) CGS and (d) CS cathode during the charge and discharge process. (e) S 2p and (f) P 2p XPS spectra showing chemical evolution
+of LPSC in both CS and CGS cathodes after 100 cycles.
+impedance increase than the CGS after cycling, particularly in the
+region of τII and τIII, which indicates that the CGS architecture
+can effectively suppress the SE decomposition. To further elu-
+cidate the SE degradation suppression, a high‑voltage charging
+experiment was conducted by directly charging the batteries to
+4.5 V, at which sulfur does not undergo electrochemical oxidation.
+The measured charge capacity, therefore originates exclusively
+from the SE oxidation. As shown in Figure S10, the CGS cathode
+exhibits a lower oxidation capacity (229 mAh g−1) compared with
+the CS cathode (277 mAh g−1), thereby indicating the reduced
+SE decomposition. This quantitative evidence, together with the
+low impedance increase observed in the EIS result, confirms
+that minimizing SE-carbon interfacial contact of the CGS cath-
+ode effectively mitigates the electrolyte oxidative degradation.
+In conclusion, the concentration-gradient design promotes the
+lithium-ion transport and improves the interfacial stability by
+suppressing the deleterious decompositions of SE in solid sulfur
+cathodes.
+Operando Raman spectroscopy was performed using a cus-
+tomized setup to elucidate the underlying reaction mechanism
+of ASSLSBs (Figure S11). Raman spectra of sulfur and LPSC are
+first shown in Figure S12. Three characteristic peaks are identified
+in the LPSC Raman spectrum: a dominant PS4
+3−νs stretching
+mode at 420 cm−1, a PS4
+3−δdef bending mode at 270 cm−1, and
+a weak lattice deformation (LD) band at 180 cm−1 [22]. As with
+the sulfur, three S─S vibrational peaks at approximately 160,
+220, and 470 cm−1 are observed in the Raman spectrum [23]. In
+the CGS cathode, upon discharging, the characteristic Raman
+peak of LPSC at approximately 420 cm−1 decreased dramatically
+in intensity, concomitant with an intensity strengthening of the
+broad band at around 180 cm−1, which indicates that the lithiation
+induces the lattice distortion of PS4
+3−tetrahedra in LPSC and the
+formation of metastable intermediates (Figure 4a). Furthermore,
+the deepening of lithiation leads to a marked intensification
+of these structural distortions in LPSC, most notably over the
+voltage range from 1.2 to 0.9 V. Concurrently, the Raman peaks
+corresponding to pristine sulfur gradually diminished, while new
+peaks of sulfur lithiation products emerged. Specifically, the
+Raman peak at 470 cm−1, corresponding to the S─S stretching
+mode of sulfur, gradually broadened and disappeared, which
+indicates the successful sulfur reduction reaction. A new peak
+at 380 cm−1 gradually appeared, representing the formation of
+Li2S. The intensification of the peaks at 450 and 480 cm−1 can be
+assigned to the formation of Li2S4 and Li2S2, respectively [24, 25].
+These results reveal that the lithiation of sulfur follows a stepwise
+pathway, with the intermediate polysulfides formation prior to
+the final product of Li2S.
+Upon charging, the above spectral changes are highly reversible:
+peaks assigned to the Li2S and Li2Sx diminished, the sulfur
+signals recovered, and the LSPC Raman peaks at 420 and
+180 cm−1 returned to their initial states with negligible changes
+in intensity (Figure 4a). It corroborates the critical role of the
+concentration-gradient structure of the CGS cathode in promot-
+ing the reversibility of sulfur redox conversions and the structural
+stability of LPSC. However, in the CS cathode, the Raman peak of
+LSPC at 420 cm−1 endured a significantly irreversible attenuation
+after being cycled, while the 180 cm−1 band showed a pronounced
+increase in intensity, which is indicative of partially irreversible
+oxidation and structural degradation of LPSC during the charging
+process (Figure 4b). To quantify and compare the structural
+evolution of LPSC in the CS and CGS cathodes, we employed
+the Raman peak intensity ratio (I180/I420) as a metric for its lattice
+stability. A more pronounced change in the I180/I420 ratio between
+the initial and cycled states was observed in the CS cathode
+(0.06) compared to the CGS cathode (0.03) (Figure 4c,d). This
+demonstrably indicates that the concentration-gradient cathode
+architecture can effectively suppress the structural deformation
+of LPSC, thereby enhancing the cycling stability of ASSLSBs.
+6 of 10
+Advanced Functional Materials, 2026
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+High-resolution X-ray photoelectron spectroscopy (XPS) mea-
+surements of S 2p and P 2p were then conducted to elucidate
+the interfacial evolution of the SE in the CS and CGS cathodes.
+In the pristine state, LPSC exhibits dominant PS4
+3−signals (S 2p
+161.5 eV, P 2p 132.5 eV) in the S 2p and P 2p spectra, indicating
+an intact thiophosphate framework (Figure 4e,f) [17]. After 100
+cycles, although P-[S]n-P species (S 2p 163.1 eV) appear in both
+groups, their proportion in the CS is substantially higher than
+in the CGS. This indicates that the PS4
+3−framework in the
+CGS suffers significantly less oxidative degradation over repeated
+cycling [24]. Consistently, the P 2p spectrum shows a markedly
+greater intensity of P-[S]n-P species (P 2p at 133.2 eV) in the
+CS cathode, while the CGS maintains a higher proportion of
+PS4
+3−. The XPS findings are consistent with the Raman results
+shown in Figure 4, where the CGS exhibits better preservation
+of PS4
+3−vibrational modes after cycling. Combined with electro-
+chemical impedance analysis (Figure 3e), it can be concluded that
+the concentration-gradient architecture effectively suppresses
+the interfacial decomposition, thereby sustaining lower charge-
+transfer resistance and enhancing the long-term cycling stability
+of ASSLSBs.
+For the assessment of practical applications, ASSLSBs were
+then assembled with the Li-In alloy anode and sulfur cathodes.
+Compared with pure lithium foil, the Li-In alloy possesses the
+advantage to stabilize lithium anode during repeated opera-
+tions. It is well known that the electrochemical performance
+of ASSLSBs is highly sensitive to the stack pressure; therefore,
+cycling tests were performed across a range of externally applied
+pressures (60, 80, and 100 MPa) using the customized fixture
+mold to investigate the pressure dependence (Figure S13). The
+results show that a higher stack pressure enhances the initial
+specific capacity by improving the interfacial contact; however,
+excessively high pressure increases the risk of short‑circuit failure
+(Figure S14). Therefore, the optimized pressure of 80 MPa was
+applied for all electrochemical measurements in this study.
+At the galvanostatic testing condition within the voltage range
+from 0.9 to 2.4 V (vs. Li-In/Li+), the battery with the CGS cathode
+delivered a high initial specific capacity of 1315 mAh g−1 at 0.1 C
+under a sulfur loading of 7.6 mg cm−2, which corresponds to a
+high sulfur utilization of 78.9% (Figure 5a). In contrast, the battery
+with the CS cathode showed a lower capacity of 1095 mAh g−1
+under the same testing conditions. Besides, it exhibited larger
+polarization than the CGS counterpart, which indicates less
+favorable reaction kinetics within the CS cathode system. The
+differential capacity curves were then derived from galvanostatic
+charge and discharge profiles to analyze the electrochemical
+conversion reactions of sulfur (Figure 5b). During the discharge
+process, a prominent peak at 1.41 V (peak II) accompanied by
+a small peak at 1.48 V (peak I) was observed in the CGS. The
+peak II is widely assigned to the electrochemical process in which
+sulfur is reduced to the final product of Li2S. The appearance
+of small peak I indicates the formation of lithium polysulfide
+intermediates, which is conducive to promoting the kinetics
+of solid-solid sulfur reaction. When being charged, the peak
+observed at 1.70 V (peak III) corresponds to the oxidation of Li2S
+to sulfur. In contrast, the CS cathode exhibits significantly weaker
+redox peaks with smaller integrated areas, pointing to insufficient
+sulfur utilization and the resulting lower capacity. Compared to
+the CGS, the redox peak gap in the CS is much broader, revealing
+its slower reaction kinetics and larger polarization. Furthermore,
+a slope at 2.40 V, corresponding to the SE oxidation, is observed
+during charging for both CS and CGS cathodes. The much gentler
+slope in the CGS can be attributed to its concentration-gradient
+structure, which effectively mitigates the SE decomposition. To
+evaluate the cycling performance, the batteries were cycled at the
+current density of 0.1 C (Figure 5c,d). The obtained results show
+that the CGS cathode group can be steadily operated over 225
+cycles with a capacity retention of 88.9%. However, the control
+group of the CS cathode experienced a sharp capacity decay
+from an initial 1115 mAh g−1 to less than 390 mAh g−1 after only
+110 cycles. Moreover, the discharge voltage plateaus of the CGS
+cathode group exhibit superior stability with a minimal decay
+rate of 0.46 mV per cycle, which is significantly lower than that
+of the CS cathode (2.00 mV per cycle). It demonstrates that the
+kinetically favorable electrochemical reactions enabled by the
+strategically designed CGS cathode are effectively maintained
+with negligible polarization growth during the repeated charge
+and discharge processes (Figure S15).
+Furthermore, the rate capability was evaluated at increasing
+current densities of 0.1, 0.2, 0.5, and 1 C. As shown in Figure 5e,
+the corresponding capacities are 1287, 1070, 735, and 451 mAh g−1
+for the battery using the CGS as the cathode. When the current
+density was returned to 0.1 C after cycling at 1 C, the battery with
+the CGS cathode restored a high capacity of 1165 mAh g−1, which
+highlights the exceptional reversibility and structural stability of
+the CGS-based battery system. By comparison, the battery with
+the CS cathode showed a marked decrease in capacity, delivering
+only 1054, 761, 433, and 180 mAh g−1 at the same current densities
+ranging from 0.1 to 1 C. In addition, the capacity dropped to
+793 mAh g−1 at 0.1 C after the rate performance test, revealing its
+poor reversibility.
+As previously discussed, maintaining favorable reaction kinetics
+under high sulfur loadings (>10 mg cm−2) remains a great chal-
+lenge for developing high-energy-density ASSLSBs [8]. To probe
+the role of the concentration-gradient structure in enhancing
+reaction kinetics, we further increased the sulfur loading from 7.6
+to 11.4 mg cm−2. From Figure 5f, it can be observed that the areal
+capacity of the CGS-based battery can reach up to 10.96 mAh cm−2
+at 0.1 C, which is much higher than that of the CS-based battery
+(8.65 mAh cm−2). Besides, it showed smaller polarization than
+the CS group, which indicates the CGS cathode can effectively
+promote the sulfur conversion reaction kinetics even at a high
+sulfur loading of 11.4 mg cm−2 (Figure S16). Moreover, the areal
+capacity of the CGS-based battery can be retained at a relatively
+high level of 7.2 mAh cm−2 after 100 cycles (Figure 5g). However,
+the capacity of CS-based battery has quickly decayed from 8.6
+to 2.7 mAh cm−2. The high areal capacity delivered by the
+CGS-based battery remains competitive with previously reported
+systems [14, 15, 18, 26–39], which can be attributed to its enhanced
+reaction kinetics and improved sulfur utilization (Figure 5h).
+To further elucidate how cathode architecture influences the elec-
+trochemical performance of ASSLSBs, we introduced the control
+groups of R-CGS, shuffle (without ion and electron gradients), SE-
+and CNT-only gradients, and conducted systematic electrochem-
+ical evaluations. The shuffle cathode (non-gradient structure)
+was fabricated by sequentially stacking layers of SE65, SE55, and
+SE60 (CS) from the separator toward the current collector. As
+Advanced Functional Materials, 2026
+7 of 10
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+FIGURE 5
+Electrochemical performance of ASSLSBs. (a) Galvanostatic discharge/charge curves and (b) corresponding differential capacity
+(dQ/dV) curves of ASSLSBs at 0.1 C. (c) Cycling performance comparison of ASSLSBs at 0.1 C over 225 cycles. (d) The discharge voltage decay curves of
+ASSLSBs at the current density of 0.1 C. (e) Rate capability at 0.1, 0.2, 0.5, and 1 C. (f) Galvanostatic discharge/charge curves and (g) cycling performance
+of ASSLSBs at 0.1 C with a high sulfur loading of 11.4 mg cm−2. (h) Comparison of the areal capacity and sulfur loading of this work to other related
+ASSLSBs.
+shown in Figure S17, both R‑CGS and shuffle controls exhibit
+significantly lower specific capacity and poorer rate capability
+compared with the forward‑gradient CGS structure. Further EIS
+analysis shows that the R‑CGS cathode develops a substantially
+larger interfacial resistance after cycling, which accounts for
+its inferior performance (Figure S18). To ensure reproducibility,
+performance data from five individual batteries were collected
+for each cathode type. A statistical bar chart (Figure S19) was
+further applied to summarize the performance differences among
+these architectures: the CGS cathode retains 95.2% capacity after
+50 cycles, whereas R‑CGS, shuffle, and CS drop to 37.9%, 60.1%,
+and 56.0%, respectively. These results confirm that the gradient
+direction and stacking sequence of the cathode critically affect the
+cycling performance of ASSLSBs. For SE‑only gradient (constant
+CNT content) and CNT-only gradient cathodes (constant SE
+content), the SE‑only gradient delivers a high initial capacity of
+1393 mAh g−1 but suffers from rapid fading to 803 mAh g−1 after
+40 cycles. In comparison, the CNT‑only gradient starts with a
+lower capacity of 1038 mAh g−1 and maintains 642 mAh g−1 over
+40 cycles (Figure S20). Rate tests further reveal their distinct
+behaviors: the SE‑only gradient exhibits capacities ranging from
+1281 mAh g−1 at 0.1 C to 340 mAh g−1 at 1 C but declines
+quickly upon cycling, whereas the CNT‑gradient delivers 1048–
+260 mAh g−1 across 0.1–1 C with more stable cycling performance
+(Figure S20). Taken together, the markedly inferior performance
+of both SE- and CNT-only gradients, relative to the CGS cathode,
+corroborates that concurrent ion and electron concentration gra-
+dients are crucial for the performance enhancement of ASSLSBs.
+Temperature is a critical factor to influence the electrochemical
+performance of ASSLSBs; therefore, we have added the per-
+formance measurement at temperatures of 25◦C and 45◦C for
+both 7.6 and 11.4 mg cm−2 sulfur loadings, including cycling
+performance, rate capability, and Coulombic efficiency (CE)
+evolution (Figures S21 and S22). Combined with the perfor-
+mance results at 60◦C (Figure S23), it can be concluded that
+8 of 10
+Advanced Functional Materials, 2026
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+the concentration‑gradient structure maintains superior cycling
+stability and rate capability compared with the CS at these
+common operational temperatures, verifying the high practicality
+of the gradient cathode design. Besides, at 25◦C and 45◦C,
+the gradient cathode (11.4 mg cm−2 sulfur loading) delivered
+high areal capacities of 7.20 and 9.02 mAh cm−2, respectively,
+which are superior to recently reported values under comparable
+testing conditions (Table S2). Furthermore, we adopted the
+DC polarization strategy to measure the ionic conductivity of
+different cathode structures as a function of temperature. The
+data were subsequently fitted to Arrhenius plots to analyze the
+temperature dependence (Figure S24). It can be observed that all
+cathodes exhibit typical Arrhenius behavior, which confirms that
+the ionic transport is thermally activated and dominated by the
+SE [40]. Importantly, the concentration‑gradient cathode exhibits
+superior ionic conductivity over the control architectures (e.g.,
+CS, R-CGS) within the common operational temperature range
+(25 –60◦C). This indicates that the enhancement in ion transport
+stems primarily from the cathode architectural design.
+Our strategy employs a novel cathode architectural based on
+commercially available chemicals (e.g., LPSC, CNT, and sulfur).
+This approach avoids the need for specialized material treatments
+or complex processing, thereby offering a practical way toward
+scalability and industrialization. To assess the practical applica-
+bility, we fabricated a 30 mm × 50 mm Li-In//S pouch cell using
+the CGS dry‑electrode, with a sulfur loading of 4.6 mg cm−2. The
+pouch cell was galvanostatically cycled within the voltage range
+of 0.9–2.4 V. As shown in Figure S25, the pouch cell delivered
+a high initial specific capacity of 1288 mAh g−1 (5.9 mAh cm−2)
+and retained 875 mAh g−1 (4.0 mAh cm−2) after 20 cycles.
+This corresponds to a capacity retention of 67.2%, revealing
+enhanced reversible electrochemical reactions. The promising
+performance of the practical pouch cell demonstrates that the
+gradient architecture has the potential to be integrated into
+scalable manufacturing and enhances the ASSLSB performance
+under industrially relevant conditions.
+3
+Conclusion
+In summary, a spatially modulated sulfur cathode was developed
+by introducing dual-concentration gradients of the chlorine-rich
+SE and SWCNT conductive agent across the electrode from the
+separator to the current collector. Promoted by the concentration
+gradients, rapid and uniform transport of both lithium ions and
+electrons is achieved, which facilitates electrochemical reaction
+kinetics. Moreover, the minimized interfacial contact between
+SE and conductive agent has been demonstrated to mitigate
+the SE degradation efficiently and guarantee stable lithium-
+ion conduction. As a result, the sulfur utilization and cyclic
+stability of ASSLSB are simultaneously promoted, even when
+the areal loading is increased to 11.4 mg cm−2, a high areal
+capacity of 10.96 mAh cm−2 is realized with durable operation
+over 100 cycles. Owing to the operational feasibility, this strategy
+enables the scalable fabrication of high-sulfur-loading cathodes
+and promotes the practical application of high-energy-density
+ASSLSBs. Furthermore, our findings offer valuable insights into
+the electrode design through compositional optimization, which
+may be applicable to other electrochemical energy storage and
+conversion systems that require high-loading electrodes with
+improved reaction kinetics.
+Author Contributions
+H.Z. and X.L.T. supervised the project. H.Z. and Y.F.M. conceived the
+idea, designed the experiments, and wrote the manuscript. Y.F.M. fabri-
+cated the lithium sulfur batteries, performed the characterizations, and
+conducted the electrochemical measurements. Other authors provided
+valuable suggestions and discussions.
+Acknowledgements
+This work was supported by the National Natural Science Foundation of
+China (22305055, 52362010, 52304326, 22309037, 52362031, and 62105083)
+and the Start-up Research Foundation of Hainan University (KYQD(ZR)-
+23067 and KYQD(ZR)-23073). The authors acknowledge the support for
+comprehensive characterizations by the Pico Electron Microscopy Center
+of Hainan University.
+Conflicts of Interest
+The authors declare no conflicts of interest.
+Data Availability Statement
+The data that support the findings of this study are included in the main
+article and its supporting information. These data are also available from
+the corresponding authors upon request.
+References
+1. H. Zhang, L. K. Ono, G. Tong, et al., “Long-Life Lithium-Sulfur Batteries
+With High Areal Capacity Based on Coaxial CNTs@TiN-TiO2 Sponge,”
+Nature Communications 12 (2021): 4728.
+2. T. Jin, X.-Y. Li, M. Zhao, et al., “Promoting the Rate Perfor-
+mances of Weakly Solvating Electrolyte-Based Lithium‒Sulfur Batteries,”
+Angewandte Chemie 137 (2025): 202504898, https://doi.org/10.1002/ange.
+202504898.
+3. J. T. Kim, X. Hao, C. Wang, and X. Sun, “Cathode Materials for Single-
+Phase Solid-Solid Conversion Li-S Batteries,” Matter 6 (2023): 316–343,
+https://doi.org/10.1016/j.matt.2022.11.019.
+4. F. Liang, S. Wang, Q. Liang, et al., “Insight Into All-Solid-State Li–S
+Batteries: Challenges, Advances, and Engineering Design,” Advanced
+Energy Materials 14 (2024): 2401959, https://doi.org/10.1002/aenm.
+202401959.
+5. Y. Jin, K. Liu, J. Lang, et al., “High-Energy-Density Solid-electrolyte-
+Based Liquid Li-S and Li-Se Batteries,” Joule 4 (2020): 262–274, https://
+doi.org/10.1016/j.joule.2019.09.003.
+6. N. Kamaya, K. Homma, Y. Yamakawa, et al., “A Lithium Superionic
+Conductor,” Nature Materials 10 (2011): 682–686, https://doi.org/10.1038/
+nmat3066.
+7. J. Janek and W. G. Zeier, “Challenges in Speeding up Solid-State Battery
+Development,” Nature Energy 8 (2023): 230–240, https://doi.org/10.1038/
+s41560-023-01208-9.
+8. X. Yang, J. Luo, and X. Sun, “Towards High-Performance Solid-State Li–
+S Batteries: From Fundamental Understanding to Engineering Design,”
+Chemical Society Reviews 49 (2020): 2140–2195, https://doi.org/10.1039/
+C9CS00635D.
+9. S. Ohno, C. Rosenbach, G. F. Dewald, J. Janek, and W. G. Zeier,
+“Linking Solid Electrolyte Degradation to Charge Carrier Transport in the
+Thiophosphate-Based Composite Cathode Toward Solid-State Lithium-
+Sulfur Batteries,” Advanced Functional Materials 31 (2021): 2010620,
+https://doi.org/10.1002/adfm.202010620.
+Advanced Functional Materials, 2026
+9 of 10
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+10. S. Ohno and W. G. Zeier, “Toward Practical Solid-State Lithium–Sulfur
+Batteries: Challenges and Perspectives,” Accounts of Materials Research 2
+(2021): 869–880, https://doi.org/10.1021/accountsmr.1c00116.
+11. H. Song, K. Münch, X. Liu, et al., “All-Solid-State Li–S Batteries With
+Fast Solid–Solid Sulfur Reaction,” Nature 637 (2025): 846–853, https://doi.
+org/10.1038/s41586-024-08298-9.
+12. Z. Liu, W. Fu, E. A. Payzant, et al., “Anomalous High Ionic Conduc-
+tivity of Nanoporous β-Li3PS4,” Journal of the American Chemical Society
+135 (2013): 975–978, https://doi.org/10.1021/ja3110895.
+13. Y. B. Song, D. H. Kim, H. Kwak, et al., “Tailoring Solution-Processable
+Li Argyrodites Li6+ xP1–xMxS5I (M = Ge, Sn) and Their Microstructural
+Evolution Revealed by Cryo-TEM for All-Solid-State Batteries,” Nano
+Letters 20 (2020): 4337–4345, https://doi.org/10.1021/acs.nanolett.0c01028.
+14. D. Wang, L.-J. Jhang, R. Kou, et al., “Realizing High-Capacity All-
+Solid-State Lithium-Sulfur Batteries Using a Low-Density Inorganic
+Solid-State Electrolyte,” Nature Communications 14 (2023): 1895, https://
+doi.org/10.1038/s41467-023-37564-z.
+15. D. Wang, B. Gwalani, D. Wierzbicki, et al., “Overcoming the Con-
+version Reaction Limitation at Three-Phase Interfaces Using Mixed
+Conductors Towards Energy-Dense Solid-State Li–S Batteries,” Nature
+Materials 24 (2025): 243–251, https://doi.org/10.1038/s41563-024-02057-x.
+16. Z. Yu, B. Singh, Y. Yu, and L. F. Nazar, “Suppressing Argyrodite Oxida-
+tion by Tuning the Host Structure for High-Areal-Capacity All-Solid-State
+Lithium–Sulfur Batteries,” Nature Materials 24 (2025): 1082–1090, https://
+doi.org/10.1038/s41563-025-02238-2.
+17. A. Bhadra, M. Brunisholz, J. O. Bonsu, and D. Kundu, “Carbon
+Mediated In Situ Cathode Interface Stabilization for High Rate and Highly
+Stable Operation of All-Solid-State Lithium Batteries,” Advanced Energy
+Materials 15 (2025): 2403608, https://doi.org/10.1002/aenm.202403608.
+18. R. Ma, Y. Fan, Y. Jin, et al., “Construction of Elastic and Conductive
+Channels for High-Rate and High-Areal-Capacity Sulfur Cathodes in
+All-Solid-State Lithium–Sulfur Batteries,” Advanced Energy Materials 14
+(2024): 2304412, https://doi.org/10.1002/aenm.202304412.
+19. J. T. Kim, H. Su, Y. Zhong, et al., “All-Solid-State Lithium–Sulfur
+Batteries Through a Reaction Engineering Lens,” Nature Chemical
+Engineering 1 (2024): 400–410, https://doi.org/10.1038/s44286-024-00079-
+5.
+20. Z. Hu, P. Gao, S. Ju, et al., “Dynamic Volume Compensation Realizing
+Ah-Level All-Solid-State Silicon-Sulfur Batteries,” Nature Communica-
+tions 16 (2025): 1–10.
+21. R. Soni, J. B. Robinson, P. R. Shearing, D. J. L. Brett, A. J. E. Rettie, and
+T. S. Miller, “Lithium-Sulfur Battery Diagnostics Through Distribution of
+Relaxation Times Analysis,” Energy Storage Materials 51 (2022): 97–107,
+https://doi.org/10.1016/j.ensm.2022.06.016.
+22. L. Wang, X. Sun, J. Ma, et al., “Bidirectionally Compatible Buffering
+Layer Enables Highly Stable and Conductive Interface for 4.5 V Sulfide-
+Based All-Solid-State Lithium Batteries,” Advanced Energy Materials 11
+(2021): 2100881, https://doi.org/10.1002/aenm.202100881.
+23. H. Li, L. Cui, F. Wu, et al., “Kinetically-Enhanced Gradient Modulator
+Layer Enables Wide-Temperature Ultralong-Life All-Solid-State Lithium-
+Sulfur Batteries,” Advanced Energy Materials 15 (2025): 2501259, https://
+doi.org/10.1002/aenm.202501259.
+24. Q. Li, C. Xie, X. Jiang, et al., “Catalytic Solder Fuses Solid-Solid Inter-
+faces for All-Solid-State Lithium-Sulfur Batteries,” Advanced Materials 37
+(2025): 2507308, https://doi.org/10.1002/adma.202507308.
+25. D. Cao, X. Sun, F. Li, et al., “Understanding Electrochemical Reaction
+Mechanisms of Sulfur in All-Solid-State Batteries Through Operando and
+Theoretical Studies,” Angewandte Chemie 62 (2023): 202302363.
+26. X. Zhu, W. Jiang, L. Wang, and J. Lu, “Constructing Resilient Cross-
+Linked Network Toward Stable All-Solid-State Lithium-Sulfur Batteries,”
+Advanced Energy Materials 14 (2024): 2304244, https://doi.org/10.1002/
+aenm.202304244.
+27. Q. Zhang, H. Wan, G. Liu, Z. Ding, J. P. Mwizerwa, and X. Yao,
+“Rational Design of Multi-Channel Continuous Electronic/Ionic Con-
+ductive Networks for Room Temperature Vanadium Tetrasulfide-Based
+All-Solid-State Lithium-Sulfur Batteries,” Nano Energy 57 (2019): 771–782,
+https://doi.org/10.1016/j.nanoen.2019.01.004.
+28. X. Yao, N. Huang, F. Han, et al., “High-Performance All-Solid-State
+Lithium–Sulfur Batteries Enabled by Amorphous Sulfur-Coated Reduced
+Graphene Oxide Cathodes,” Advanced Energy Materials 7 (2017): 1602923,
+https://doi.org/10.1002/aenm.201602923.
+29. S. Xu, C. Y. Kwok, L. Zhou, Z. Zhang, I. Kochetkov, and L. F.
+Nazar, “A High Capacity All Solid-State Li-Sulfur Battery Enabled
+by Conversion-Intercalation Hybrid Cathode Architecture,” Advanced
+Functional Materials 31 (2021): 2004239, https://doi.org/10.1002/adfm.
+202004239.
+30. G. Xu, Z. Yan, H. Yang, et al., “Multiscale Structural Engineering
+of Sulfur/Carbon Cathodes Enables High Performance All-Solid-State
+Li–S Batteries,” Small 19 (2023): 2300420, https://doi.org/10.1002/smll.
+202300420.
+31. M. Wang, H. Su, Y. Zhong, et al., “A Unitized Encapsulation Archi-
+tecture With Durable Epitaxial Ion-Conductive Scaffolds for Ultrastable
+Solid-State Sulfur Cathode,” Energy & Environmental Science 18 (2025):
+4162–4175, https://doi.org/10.1039/D4EE05668J.
+32. C. Liu, T. Zhang, R. Wang, et al., “Regulating p-Band Center of Sulfur
+in Li-Argyrodite to Stabilize Dual Solid–Solid Interface for Robust All-
+Solid-State Lithium–Sulfur Battery,” Advanced Functional Materials 35
+(2025): 2412144, https://doi.org/10.1002/adfm.202412144.
+33. C. Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, and L. F. Nazar, “High-
+Performance All-Solid-State Li2S Batteries Using an Interfacial Redox
+Mediator,” Energy & Environmental Science 16 (2023): 610–618, https://doi.
+org/10.1039/D2EE03297J.
+34. A. S. Alzahrani, M. Otaki, D. Wang, et al., “Confining Sulfur in Porous
+Carbon by Vapor Deposition to Achieve High-Performance Cathode for
+All-Solid-State Lithium–Sulfur Batteries,” ACS Energy Letters 6 (2021):
+413–418, https://doi.org/10.1021/acsenergylett.0c01956.
+35. H. Kim, H.-N. Choi, J.-Y. Hwang, C. S. Yoon, and Y.-K. Sun, “Tailoring
+the Interface Between Sulfur and Sulfide Solid Electrolyte for High-Areal-
+Capacity All-Solid-State Lithium–Sulfur Batteries,” ACS Energy Letters 8
+(2023): 3971–3979, https://doi.org/10.1021/acsenergylett.3c01473.
+36. T. Jin, K. Liang, J.-H. Yu, et al., “Enhanced Cycling Stability of All-
+Solid-State Lithium–Sulfur Battery Through Nonconductive Polar Hosts,”
+Nano Letters 24 (2024): 6625–6633, https://doi.org/10.1021/acs.nanolett.
+4c01210.
+37. S. Jin, M. Wang, Y. Zhong, et al., “A Nitrogen-Doped Carbon Skeleton
+Derived From Biomass as Conductive Agent for Electrochemically Stable
+Cathode of All-Solid-State Lithium-Sulfur Batteries,” Materials Today
+Sustainability 21 (2023): 100281.
+38. T. Hakari, Y. Fujita, M. Deguchi, et al., “Solid Electrolyte With Oxida-
+tion Tolerance Provides a High-Capacity Li2S-Based Positive Electrode for
+All-Solid-State Li/S Batteries,” Advanced Functional Materials 32 (2022):
+2106174, https://doi.org/10.1002/adfm.202106174.
+39. H. Zhong, Y. Su, R. Ma, et al., “Nano-Scale Interface Engineering
+of Sulfur Cathode to Enable High-Performance All-Solid-State Li–S
+Batteries,” Advanced Functional Materials 34 (2024): 2315925, https://doi.
+org/10.1002/adfm.202315925.
+40. X. Li, J. Liang, J. Luo, et al., “High-Performance Li–SeSx All-Solid-
+State Lithium Batteries,” Advanced Materials 31 (2019): 1808100, https://
+doi.org/10.1002/adma.201808100.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section.
+SupportingFile: adfm74590-sup-0001-SuppMat.docx.
+10 of 10
+Advanced Functional Materials, 2026
+ 16163028, 2026, 39, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202530425 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

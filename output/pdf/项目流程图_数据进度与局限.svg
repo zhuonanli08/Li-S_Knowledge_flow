@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1110" viewBox="0 0 1400 1110">
+<rect width="100%" height="100%" fill="white"/>
+<text x="36" y="46.879999999999995" font-family="Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#203448">项目执行图：每一步做什么、需要什么、目前卡在哪里</text>
+<text x="36" y="78.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#596773">依据方案 D（2026-10-18）及试点计划；状态为文档记载，未重新盘点数据库或核验工作簿。</text>
+<rect x="36" y="100" width="300" height="37" fill="#203448" stroke="#203448"/>
+<text x="48" y="120.96000000000001" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">所需数据</text>
+<rect x="356" y="100" width="450" height="37" fill="#203448" stroke="#203448"/>
+<text x="368" y="120.96000000000001" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">研究步骤与输出</text>
+<rect x="826" y="100" width="538" height="37" fill="#203448" stroke="#203448"/>
+<text x="838" y="120.96000000000001" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">当前进度 / 局限与控制</text>
+<rect x="36" y="151" width="300" height="115" fill="#F8FAFB" stroke="#BCC9D2"/>
+<text x="49" y="181.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">论文号、DOI、年份、标题摘要</text>
+<text x="49" y="208.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">检索命中与补池记录</text>
+<text x="49" y="235.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">文献类型、配置、液相状态</text>
+<rect x="356" y="151" width="450" height="115" fill="#F2F7FA" stroke="#236586"/>
+<text x="372" y="177.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">01  语料与分组核查</text>
+<text x="372" y="205.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">核对三体系边界与主统计纳入条件</text>
+<text x="372" y="228.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">支撑研究、含液/凝胶、待核实单列</text>
+<text x="372" y="251.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">输出：可追溯论文表与纳排记录</text>
+<rect x="826" y="151" width="538" height="115" fill="#FFF9F1" stroke="#D8C5A9"/>
+<text x="840" y="180.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">待完成：随机60篇核查及定向排查，提交复核。</text>
+<text x="840" y="208.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">旧组名不能直接等同于方案D的新边界。</text>
+<text x="840" y="236.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">随机与定向样本分开报告；组内核查不估计漏收。</text>
+<line x1="336" y1="208" x2="356" y2="208" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="208" x2="349.85692206676737" y2="211.35597877022943" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="208" x2="349.85692206676737" y2="204.64402122977057" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="266" x2="581" y2="286" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="286" x2="577.6440212297706" y2="279.85692206676737" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="286" x2="584.3559787702294" y2="279.85692206676737" stroke="#596773" stroke-width="1.2"/>
+<rect x="36" y="286" width="300" height="115" fill="#F8FAFB" stroke="#BCC9D2"/>
+<text x="49" y="316.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">符合纳入条件的原创论文摘要</text>
+<text x="49" y="343.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">问题/策略词表、角色与位置</text>
+<text x="49" y="370.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">开发样本及独立人工验证集</text>
+<rect x="356" y="286" width="450" height="115" fill="#F2F7FA" stroke="#236586"/>
+<text x="372" y="312.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">02  摘要标注与描述统计</text>
+<text x="372" y="340.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">标注 → 独立核验 → 全量统计</text>
+<text x="372" y="363.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">按体系、时段汇总论文级比例</text>
+<text x="372" y="386.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">输出：问题关注与策略使用分布图</text>
+<rect x="826" y="286" width="538" height="115" fill="#FFF9F1" stroke="#D8C5A9"/>
+<text x="840" y="315.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">已完成首批60篇试点；不代表全量标注已完成。</text>
+<text x="840" y="343.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">文档缺摘要约23%–37%；旧分组仍待核查。</text>
+<text x="840" y="371.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">摘要未提及 ≠ 不存在；三组非完整四格因子设计。</text>
+<line x1="336" y1="343" x2="356" y2="343" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="343" x2="349.85692206676737" y2="346.3559787702294" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="343" x2="349.85692206676737" y2="339.6440212297706" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="401" x2="581" y2="421" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="421" x2="577.6440212297706" y2="414.85692206676737" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="421" x2="584.3559787702294" y2="414.85692206676737" stroke="#596773" stroke-width="1.2"/>
+<rect x="36" y="421" width="300" height="115" fill="#F8FAFB" stroke="#BCC9D2"/>
+<text x="49" y="451.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">分布差异及对应原文</text>
+<text x="49" y="478.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">目标体系需求、已有应用证据</text>
+<text x="49" y="505.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">全文可得性及实验室能力</text>
+<rect x="356" y="421" width="450" height="115" fill="#F2F7FA" stroke="#236586"/>
+<text x="372" y="447.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">03  候选问题筛选</text>
+<text x="372" y="475.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">逐项说明选择理由，不计算总分</text>
+<text x="372" y="498.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">聚焦正极—电解质相关的具体问题</text>
+<text x="372" y="521.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">输出：主问题及进入深读的候选清单</text>
+<rect x="826" y="421" width="538" height="115" fill="#FFF9F1" stroke="#D8C5A9"/>
+<text x="840" y="450.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">待定：第二层主问题与主实验。</text>
+<text x="840" y="478.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">关注度差异不能直接证明空白或实验价值。</text>
+<text x="840" y="506.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">不预设导电碳包覆优先；H01仅为试点候选。</text>
+<line x1="336" y1="478" x2="356" y2="478" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="478" x2="349.85692206676737" y2="481.3559787702294" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="478" x2="349.85692206676737" y2="474.6440212297706" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="536" x2="581" y2="556" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="556" x2="577.6440212297706" y2="549.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="556" x2="584.3559787702294" y2="549.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<rect x="36" y="556" width="300" height="115" fill="#F8FAFB" stroke="#BCC9D2"/>
+<text x="49" y="586.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">选定问题的正文与补充材料</text>
+<text x="49" y="613.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">样品、配方、加工与测试条件</text>
+<text x="49" y="640.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">对照、性能、表征、误差及定位</text>
+<rect x="356" y="556" width="450" height="115" fill="#F2F7FA" stroke="#236586"/>
+<text x="372" y="582.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">04  全文证据抽取</text>
+<text x="372" y="610.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">样品 → 测试 → 比较（实测观察）</text>
+<text x="372" y="633.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">策略页记录作者解释与作用前提</text>
+<text x="372" y="656.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">输出：六页关联证据表及来源记录</text>
+<rect x="826" y="556" width="538" height="115" fill="#FFF9F1" stroke="#D8C5A9"/>
+<text x="840" y="585.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">已完成5篇表样；须按v0.2回填并实质复核。</text>
+<text x="840" y="613.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">44行“需人看”；原句匹配不等于科学判断正确。</text>
+<text x="840" y="641.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">条件缺失记未知；原文数值/单位冲突保留待核。</text>
+<line x1="336" y1="613" x2="356" y2="613" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="613" x2="349.85692206676737" y2="616.3559787702294" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="613" x2="349.85692206676737" y2="609.6440212297706" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="671" x2="581" y2="691" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="691" x2="577.6440212297706" y2="684.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="691" x2="584.3559787702294" y2="684.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<rect x="36" y="691" width="300" height="115" fill="#F8FAFB" stroke="#BCC9D2"/>
+<text x="49" y="721.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">具体策略实现及支持的比较</text>
+<text x="49" y="748.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">明确目标配置、前提与证据</text>
+<text x="49" y="775.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">固态锂硫已有应用及反例</text>
+<rect x="356" y="691" width="450" height="115" fill="#F2F7FA" stroke="#236586"/>
+<text x="372" y="717.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">05  适用性判定与组合假设</text>
+<text x="372" y="745.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">匹配 → 复用；不匹配 → 改造/不适用</text>
+<text x="372" y="768.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">不足 → 未知；互补/限制另建组合假设</text>
+<text x="372" y="791.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">输出：可检验假设及候选实验设计</text>
+<rect x="826" y="691" width="538" height="115" fill="#FFF9F1" stroke="#D8C5A9"/>
+<text x="840" y="720.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">尚未形成经核验的正式适用性结论。</text>
+<text x="840" y="748.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">相同材料不保证相同效果；功能类比仍是假设。</text>
+<text x="840" y="776.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">性能改善证据与机制证据分开，避免因果过推。</text>
+<line x1="336" y1="748" x2="356" y2="748" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="748" x2="349.85692206676737" y2="751.3559787702294" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="748" x2="349.85692206676737" y2="744.6440212297706" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="806" x2="581" y2="826" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="826" x2="577.6440212297706" y2="819.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="581" y1="826" x2="584.3559787702294" y2="819.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<rect x="36" y="826" width="300" height="115" fill="#F8FAFB" stroke="#BCC9D2"/>
+<text x="49" y="856.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">实验材料、加工与测试平台</text>
+<text x="49" y="883.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">基线及策略组、独立重复</text>
+<text x="49" y="910.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">预设指标、尺度和机制表征</text>
+<rect x="356" y="826" width="450" height="115" fill="#F2F7FA" stroke="#236586"/>
+<text x="372" y="852.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">06  实验验证与结论</text>
+<text x="372" y="880.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">复用：2组；改造：3组</text>
+<text x="372" y="903.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">可独立操控的组合：2×2四组</text>
+<text x="372" y="926.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">输出：效果、交互及机制支持程度</text>
+<rect x="826" y="826" width="538" height="115" fill="#FFF9F1" stroke="#D8C5A9"/>
+<text x="840" y="855.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">待候选比较与实验能力确认；文档未报告完成。</text>
+<text x="840" y="883.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">组合交互需重复与不确定性，不能只看单次结果。</text>
+<text x="840" y="911.2" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#203448">负交互不直接证明化学冲突；结论限定目标配置。</text>
+<line x1="336" y1="883" x2="356" y2="883" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="883" x2="349.85692206676737" y2="886.3559787702294" stroke="#596773" stroke-width="1.2"/>
+<line x1="356" y1="883" x2="349.85692206676737" y2="879.6440212297706" stroke="#596773" stroke-width="1.2"/>
+<rect x="36" y="973" width="1328" height="94" fill="#F1F7F4" stroke="#287768"/>
+<text x="51" y="998.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#287768">当前优先顺序</text>
+<text x="215" y="998.08" font-family="Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#203448">固定词表与表结构 → 分组核查 + 现有5篇回填 → 提交复核 → 再做批2与候选比较。</text>
+<text x="215" y="1027.08" font-family="Microsoft YaHei, sans-serif" font-size="16" font-weight="400" fill="#203448">全文约30篇、实验1–3个均是工作量规划，不是已经完成的样本量或结果。</text>
+<text x="36" y="1091.44" font-family="Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#596773">阅读提示：左列是输入，中列是处理及产出，右列是证据边界。历史引用分析不进入方案D主线。</text>
+</svg>

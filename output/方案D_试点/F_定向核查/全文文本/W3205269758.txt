@@ -1,0 +1,697 @@
+=== 第 1 页 ===
+All-Solid-State Lithium−Sulfur Batteries Enhanced by Redox
+Mediators
+Xin Gao, Xueli Zheng, Yuchi Tsao, Pu Zhang, Xin Xiao, Yusheng Ye, Jun Li, Yufei Yang, Rong Xu,
+Zhenan Bao, and Yi Cui*
+Cite This: J. Am. Chem. Soc. 2021, 143, 18188−18195
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: Redox mediators (RMs) play a vital role in some liquid electrolyte-based electrochemical energy storage systems.
+However, the concept of redox mediator in solid-state batteries remains unexplored. Here, we selected a group of RM candidates and
+investigated their behaviors and roles in all-solid-state lithium−sulfur batteries (ASSLSBs). The soluble-type quinone-based RM
+(AQT) shows the most favorable redox potential and the best redox reversibility that functions well for lithium sulﬁde (Li2S)
+oxidation in solid polymer electrolytes. Accordingly, Li2S cathodes with AQT RMs present a signiﬁcantly reduced energy barrier
+(average oxidation potential of 2.4 V) during initial charging at 0.1 C at 60 °C and the following discharge capacity of 1133 mAh
+gs
+−1. Using operando sulfur K-edge X-ray absorption spectroscopy, we directly tracked the sulfur speciation in ASSLSBs and proved
+that the solid−polysulﬁde−solid reaction of Li2S cathodes with RMs facilitated Li2S oxidation. In contrast, for bare Li2S cathodes,
+the solid−solid Li2S−sulfur direct conversion in the ﬁrst charge cycle results in a high energy barrier for activation (charge to ∼4 V)
+and low sulfur utilization. The Li2S@AQT cell demonstrates superior cycling stability (average Coulombic eﬃciency 98.9% for 150
+cycles) and rate capability owing to the eﬀective AQT-enhanced Li−S reaction kinetics. This work reveals the evolution of sulfur
+species in ASSLSBs and realizes the fast Li−S reaction kinetics by designing an eﬀective sulfur speciation pathway.
+■INTRODUCTION
+Redox mediators (RMs) that are reversibly oxidized and
+reduced upon electrochemical cycling play an important role in
+achieving satisfactory performance for many electrochemical
+energy storage systems.1 In the area of lithium-ion batteries,
+RMs induce the reversible oxidation/reduction at a slightly
+higher oxidation potential than the fully charged voltage to
+release extra charge, which works as chemical overcharge
+protection agents in the liquid electrolyte to improve the safety
+of batteries.2−4 For next-generation batteries such as lithium−
+oxygen and lithium−sulfur batteries,5 RMs are incorporated as
+liquid electrolyte additives to promote charge transfer at the
+electrode−electrolyte interface, thus activating insulating
+discharged products such as lithium oxide/lithium peroxide6−8
+and sulfur/lithium sulﬁde (Li2S).9−11 So far, the studies of
+RMs have been focused on liquid electrolytes. It is unknown
+whether the RM concept can also be applied to the solid-state
+system since the solubility and diﬀusivity of RMs in a solid-
+state system is very limited.
+All-solid-state lithium−sulfur batteries (ASSLSBs) have
+received enormous attention owing to their high speciﬁc
+capacity (1675 mAh g−1), high safety, and low cost.12−14
+Extensive eﬀorts have been made to seek desired solid-state
+electrolytes for the satisfactory battery performance.15,16 In
+particular, solid polymer electrolytes (SPEs), mixtures of solid
+polymers and lithium salts, hold great promise owing to their
+better thermal stability than conventional liquid electrolytes
+Received:
+July 25, 2021
+Published: October 22, 2021
+Article
+pubs.acs.org/JACS
+© 2021 American Chemical Society
+18188
+https://doi.org/10.1021/jacs.1c07754
+J. Am. Chem. Soc. 2021, 143, 18188−18195
+Downloaded from pubs.​acs.​org/​jacsat/​article-pdf/​143/​43/​18188/​8332349/​ja1c07754.​pdf by TSINGHUA UNIV user on 24 September 2026
+
+=== 第 2 页 ===
+and better scalable processing ability than inorganic electro-
+lytes.16,17 However, the energy density and stability achieved
+by polymer-based ASSLSBs to date have been far below
+expected due to uncontrolled active materials dissolution
+(lithium polysulﬁdes, LiPSs) into SPEs18 and sluggish
+lithium−sulfur (Li−S) conversion kinetics. To solve the
+dissolution of LiPSs in SPEs, several inorganic ﬁllers (e.g.,
+TiO2,19 Al2O3,20 and some lithium-ion-conducting ce-
+ramics21,22)-incorporated SPEs and nanoscale encapsulation
+of sulfur electrodes have been demonstrated.23 Moreover, a
+series of lithium salts were developed to create the compact
+and stable solid electrolyte interphase (SEI) on the lithium
+metal anode to prevent the polysulﬁde shuttling eﬀect.24−27
+Despite these improvements in ASSLSBs, studies on improving
+Figure 1. Role of redox mediators (RMs) for all-solid-state lithium−sulfur batteries (ASSLSBs). (a) Proposed reaction scheme of the RMs for
+ASSLSBs. Eﬀective RMs solubilized in the solid polymer electrolytes (SPEs) shuttle electrons between the Li2S particles and the current collectors.
+During the charging process, RMox chemically oxidizes Li2S to polysulﬁdes while RMox is reduced to RMred (step A, chemical reaction). RMred
+diﬀuses toward the current collector and is oxidized to the initial state of RMox near the current collector surface (step B, electrochemical reaction).
+The light blue color indicates the SPEs. (b) Schematic ﬁrst charge proﬁles of ASSLSBs with (orange line) and without RM (blue line). A high
+energy barrier needs to be overcome for activating bare Li2S. Gray: Li2S particles; yellow: sulfur.
+Figure 2. Design of RMs for ASSLSBs. (a−c) Cyclic voltammogram (CV) curves and chemical structure of (a) AQT, (b) AQC, and (c) LiI in
+PEO/LiTFSI solid polymer electrolytes (SPEs). The dotted line is the equilibrium potential of Li2S (∼2.15 V versus Li+/Li). Scan rate, 0.1 mV s−1.
+(d) Schematic of the fabrication process of ASSLSBs using Li2S@RM cathodes, SPEs, and lithium metal anodes. Bare Li2S cathodes are prepared
+without adding an RM additive. (e) Charge−discharge curves of Li2S cathodes without/with RMs for the ﬁrst cycle at 0.1 C. The molar ratio of
+Li2S to RMs is 20:1. (f) The zoom-in charge curves of (e) to show the Li2S activation barrier. (g) Energy eﬃciency and discharge capacity of Li2S
+cathodes with diﬀerent RMs for the ﬁrst activation cycle. All the cells are operated at 60 °C.
+Journal of the American Chemical Society
+pubs.acs.org/JACS
+Article
+https://doi.org/10.1021/jacs.1c07754
+J. Am. Chem. Soc. 2021, 143, 18188−18195
+18189
+Downloaded from pubs.​acs.​org/​jacsat/​article-pdf/​143/​43/​18188/​8332349/​ja1c07754.​pdf by TSINGHUA UNIV user on 24 September 2026
+
+=== 第 3 页 ===
+sulfur reaction kinetics in solid-state electrolytes are still in
+their infancy. RMs with the function of electron shuttles are
+expected to promote sulfur species conversion and utilization.
+Furthermore, a deep understanding of the redox chemistry
+during discharge/charge in ASSLSBs is crucial to designing
+eﬀective RMs.
+Herein, we prove the eﬃcacy of RMs in ASSLSBs and reveal
+the redox chemistry for Li2S cathodes using operando X-ray
+absorption spectroscopy (XAS) measurements. By thoroughly
+evaluating the redox potential and the solubility of diﬀerent
+RMs, soluble-type 1,5-bis(2-(2-(2-methoxyethoxy)ethoxy)-
+ethoxy)anthra-9,10-quinone (AQT) shows the best redox
+potential and redox reversibility in SPEs. As a result, the Li2S@
+AQT cell shows the lowest energy barrier (average oxidation
+potential of 2.4 V) for the initial oxidation of Li2S and exhibits
+a following discharge capacity as high as 1133 mAh gs
+−1 at 0.1
+C at 60 °C, which is nearly double that of the bare Li2S cell
+(579 mAh gs
+−1). Using operando XAS, we revealed the redox
+chemistry of the Li−S reaction in ASSLSBs based on Li2S
+cathodes. By identifying the sulfur species using the sulfur K-
+edge, we discovered the solid−solid Li2S−sulfur conversion
+mechanism for the bare Li2S cathode in the ﬁrst charge cycle.
+This solid−solid conversion of the bare Li2S cathodes results in
+a high energy barrier for activation (charge to ∼4 V) and low
+sulfur utilization. Incorporating AQT, operando XAS demon-
+strates the formation of polysulﬁdes in the ﬁrst charging and
+the solid−polysulﬁde−solid conversion mechanism in
+ASSLSBs based on Li2S@AQT cathodes. Furthermore, the
+AQT RM reduced polarization and improved long cycling
+stability and Coulombic eﬃciency (CE, average 98.9% for 150
+cycles).
+Figure 3. Operando X-ray absorption spectroscopy (XAS) to understand RM chemistry in ASSLSBs. (a) Schematic of the operando all-solid-state
+coin cell for X-ray spectroscopic detection and electrochemical test. (b) The cell is composed of the cathode case, Li2S cathode, solid polymer
+electrolytes (SPEs), lithium metal anode, spacer, spring, and anode case. A hole (3 × 3 mm) is drilled at the cathode case and sealed by a polyester/
+polyethylene (PET/PE) ﬁlm (63.5 μm thick). This ﬁlm serves as a transparent window for X-ray beam penetration. The whole cell is heated at 60
+°C for electrochemical cycles. Operando sulfur K-edge XAS spectra of (c) bare Li2S cathodes and (f) Li2S@AQT cathodes in polymer-based
+ASSLSBs for the ﬁrst charging. XAS spectra of Li2S (2473.5 eV) and sulfur (2472.7 eV) shown in the bottom are used as references. The pre-edge
+at 2470.7 eV is from the terminal sulfur of polysulﬁdes. (d) Li2S and sulfur contents calculated from the XAS spectra in (c) during the ﬁrst charge
+process. The corresponding charge curve shows a high energy barrier around 4 V for Li2S activation. Schematics for the proposed Li−S reaction
+mechanism in ASSLSBs, using Li2S cathodes (e) without and (h) with AQT RM. (g) Average chain length of LiPSs versus the state of charge for
+Li2S@AQT cathodes during the ﬁrst charging.
+Journal of the American Chemical Society
+pubs.acs.org/JACS
+Article
+https://doi.org/10.1021/jacs.1c07754
+J. Am. Chem. Soc. 2021, 143, 18188−18195
+18190
+Downloaded from pubs.​acs.​org/​jacsat/​article-pdf/​143/​43/​18188/​8332349/​ja1c07754.​pdf by TSINGHUA UNIV user on 24 September 2026
+
+=== 第 4 页 ===
+■RESULTS AND DISCUSSIONS
+Designing Redox Mediators to Facilitate Li2S
+Oxidation for ASSLSBs. The reaction mechanism of RMs
+in ASSLSBs is shown in Figure 1a, which is considered as a
+two-step process involving electrochemical and chemical
+reactions. During charging, oxidized RMs (RMox) chemically
+oxidize Li2S to lithium polysulﬁdes (LiPSs) while RMox is
+reduced to reduced RMs (RMred) (step A, chemical reaction).
+RMred in turn is electrochemically oxidized to the initial state of
+RMox by giving electrons to current collectors (step B). RMs
+shuttle electrons between the current collectors and isolated
+Li2S, which would have otherwise remained inactive. The
+charging voltage of the cell depends on the electrochemical
+step (step B). Therefore, we propose that the reduced charge
+polarization and improved sulfur utilization for ASSLSBs can
+be realized by choosing an appropriate RM, as shown in Figure
+1b.
+Two criteria are paramount for eﬀective RMs: (1) soluble in
+SPEs; (2) redox potential slightly higher than that of Li2S.
+Anthraquinone (AQ) derivatives with electron-rich benzene
+rings are promising redox candidates. We select two typical AQ
+derivatives to examine their electrochemical properties in
+SPEs, including AQT and anthraquinone-2-carboxylic acid
+(AQC). Lithium iodide (LiI), a typical redox mediator in
+liquid electrolytes,9,28,29 is compared in SPEs as a reference.
+RMs are ﬁrst mixed with poly(ethylene oxide) (PEO)/lithium
+bis(triﬂuoromethanesulfonyl)imide (LiTFSI) electrolytes in
+acetonitrile solution (mixtures shown in Supplementary Figure
+1) and then drop-casted on the carbon paper as the electrodes.
+Figure 2a−c show cyclic voltammogram (CV) curves of the
+RM electrodes versus lithium metal in PEO/LiTFSI SPEs.
+Compared with LiI and AQC, AQT showed the most
+favorable redox potentials, matching that of Li2S oxidation
+and best redox reversibility.
+Li2S cathodes with AQT (Li2S@AQT) are fabricated by
+inﬁltrating PEO/LiTFSI solution with RMs into the Li2S-
+coated carbon paper (Figure 2d). The Li2S cathode without
+adding RMs is used as a control. The molar ratio of Li2S to RM
+is 20:1. ASSLSBs are fabricated with Li2S cathodes, PEO/
+LiTFSI electrolytes, and lithium anodes. Figure 2e presents the
+ﬁrst charge−discharge proﬁles of Li2S cells with/without RMs
+at 0.1 C at 60 °C. The bare Li2S cell shows a high energy
+barrier of 3.4 V and low-energy eﬃciency (less than 70%) at
+the initial activation cycle, because of the large charge transfer
+resistance from the direct oxidation of Li2S.30,31 After
+incorporating the RMs, the activation barrier of Li2S decreases
+below 2.5 V (Figure 2f). Compared with AQC and LiI, Li2S@
+AQT cells represent the lowest average oxidation potential of
+2.4 V and the highest energy eﬃciency of 79.2% for the ﬁrst
+cycle (Figure 2g). This agrees well with our design rationales in
+Figure 1. A speciﬁc capacity of 1133 mAh gs
+−1 at 0.1 C at the
+ﬁrst cycle is realized by the Li2S@AQT cell, which nearly
+doubles that of the bare Li2S cell (579 mAh gs
+−1) (Figure 2g).
+The reversible capacity and CE further increase when the AQT
+concentration increases (Supplementary Figure 2). Since
+adding AQT increases the mass of inactive materials to some
+extent, we choose the molar ratio of 20:1 in the following
+study. To evaluate the stability of polymer electrolytes with
+AQT toward lithium metal anodes, we performed the Aurbach
+test in Cu|Li cells (Supplementary Figure 3). The CE of Cu|Li
+cells with AQT is 93%, while the CE for the bare PEO/LiTFSI
+electrolytes is only 89%. Lithium ﬂuoride (LiF) and lithium
+oxide (Li2O) are detected at the SEI of deposited lithium in
+PEO/LiTFSI electrolytes with AQT (Supplementary Figure
+4). This interphase layer helps to stabilize the electrolyte/
+electrode interface.
+Understanding Redox Chemistry in ASSLSBs. To
+further understand the roles of eﬀective RMs, proper operando
+characterization techniques are required. Operando XAS32−34
+can directly visualize the chemical-state evolution of the
+working electrode in real time, allowing us to explore the RM
+behavior and uncover the sulfur speciation during battery
+operation for ASSLSBs. Here, we for the ﬁrst time perform the
+operando XAS measurements for Li2S electrodes in polymer-
+based ASSLSBs. Figure 3a and b show the designed operando
+coin cell, which can simultaneously perform electrochemical
+cycle and X-ray spectroscopic measurement. To exclude the
+contribution of sulfur absorption from LiTFSI, we used
+poly(ethylene oxide)/lithium perchlorate (PEO/LiClO4) as a
+model system to study the underlying mechanism. Commercial
+Li2S particles (average diameter of 15 μm, SEM image shown
+in Supplementary Figure 5) mixed with PEO/LiClO4 electro-
+lytes are deposited on the carbon paper as the cathodes. A
+PEO/LiClO4 (EO/Li+, 10:1)-inﬁltrated porous polyethylene
+ﬁlm serves as the SPE layer, and lithium metal is the anode. A
+hole (3 × 3 mm) is drilled at the cathode case and sealed by a
+transparent polyester/polyethylene (PET/PE) ﬁlm (63.5 μm
+thick) for X-ray beam penetration. The cell was charged to a
+cutoﬀvoltage of 3.8 V at 10 μA cm−2 at 60 °C. Figure 3c shows
+the operando XAS of the Li2S−Li cell during the ﬁrst cycle. At
+the open-circuit voltage (OCV), the XAS spectrum for Li2S
+cathodes shows a feature at 2473.5 eV, indicating pure Li2S at
+the pristine state.34−36 As the charging process proceeds, an
+additional peak at 2472.7 eV, assigned to the S 1s to 3p
+transition of elemental sulfur,34−36 appears. The intensity of
+the sulfur peak increases with continued delithiation. Mean-
+while, no extra pre-edge feature corresponding to the terminal
+sulfur of polysulﬁdes35,36 at 2470.7 eV is observed, indicating
+no detectable polysulﬁde formation. The overpotential drop
+after the initial activation process is likely due to slight
+polysulﬁde formation from the chemical reaction between Li2S
+and sulfur. However, the amount of formed polysulﬁdes is
+lower than the detect limitation of XAS. To further quantify
+the content change of Li2S and sulfur during the ﬁrst charging
+process, the two-phase ﬁtting for the operando XAS spectra34
+was conducted. The content of Li2S decreases monotonously
+as the charge proceeds, while that of sulfur is increased (Figure
+3d). Therefore, we propose that Li2S is gradually consumed
+and converted to sulfur though a solid−solid reaction in the
+ﬁrst charge process (Figure 3e), showing the sluggish Li2S
+oxidation in ASSLSBs.
+To understand the redox chemistry after incorporating AQT
+RM, we conduct operando sulfur K-edge XAS measurements
+for Li2S@AQT electrodes. The operando XAS results with
+reference samples are shown in Figure 3f. The feature of
+elemental sulfur at 2472.7 eV shows a gradual increase, which
+indicates the transformation from Li2S to sulfur during the
+charging process. Particularly, typical features of LiPSs (2470.7
+eV) are observed from the XAS spectra in the red rectangle in
+Figure 3f, while they are not observed for bare Li2S cathodes
+during the whole ﬁrst charge process. Moreover, we also
+conduct the operando XAS measurement to reveal the working
+mechanism of AQT in the PEO/LiTFSI electrolyte (Supple-
+mentary Figure 6). The polysulﬁde formation is also observed
+Journal of the American Chemical Society
+pubs.acs.org/JACS
+Article
+https://doi.org/10.1021/jacs.1c07754
+J. Am. Chem. Soc. 2021, 143, 18188−18195
+18191
+Downloaded from pubs.​acs.​org/​jacsat/​article-pdf/​143/​43/​18188/​8332349/​ja1c07754.​pdf by TSINGHUA UNIV user on 24 September 2026
+
+=== 第 5 页 ===
+during the ﬁrst charging of the AQT-incorporated Li−S cell. A
+strong LiTFSI peak is shown at 2480.3 eV for all the spectra.
+We further calculate the average chain length of LiPSs at
+diﬀerent charge stages based on the area ratio of main-edge
+peaks to pre-edge peaks.33,35 Figure 3g shows the average chain
+length of LiPSs (n) during the charging. At the beginning of
+charging, the value of n is around 4 and then signiﬁcantly
+increases to 8 as the electrochemical reaction proceeds. At the
+end of the charging, the pre-edge feature of LiPSs disappears
+while the main-edge feature of the elemental sulfur (2472.7
+eV) becomes more prominent.
+These results indicate Li2S cathodes with AQT undergo a
+diﬀerent Li−S reaction mechanism with bare Li2S for the
+activation cycle, as proposed in Figure 3e and h. AQT has a
+higher redox potential (∼2.4 V) than Li2S (∼2.1 V), which
+promotes Li2S oxidation in SPEs by chemically oxidizing Li2S
+to LiPSs. The reduced AQT diﬀuses to current collectors and
+then is electrochemically reoxidized. The redox activity of
+AQT is further veriﬁed by the CV test (Supplementary Figure
+7). It shows reduction peaks from both AQT and Li2S in the
+Li2S@AQT cell, while only reduction peaks from Li2S are in
+the pristine Li2S cell. The oxidation peak of reduced AQT is
+overlapped with the broadened oxidation peak of Li2S. The
+reaction cycle proceeds until all Li2S are fully oxidized and
+activated. As a result, the charge voltage reﬂects the redox
+potential of AQT, which is much lower than the potential of
+bare Li2S activation. It is consistent with the electrochemical
+results in Figure 2e.
+After the ﬁrst activation cycle, we collected the XAS spectra
+at several typical charge voltages during the following charge
+process (Supplementary Figure 8). The two-phase ﬁtting
+method34 was used to calculate the contents of Li2S and sulfur
+at the fully charged state. For bare Li2S cathodes, the ratio of
+Li2S to sulfur is 59/41, which indicates nearly one-half of Li2S
+does not convert to sulfur, thus showing a much lower practical
+capacity than that of the theoretical prediction. On the
+contrary, AQT can shuttle electrons between the current
+collectors and isolated Li2S, which would have otherwise
+remained inactive. Therefore, Li2S cathodes with AQT show
+an improved Li2S utilization, with a ratio of 18/82 for Li2S to
+sulfur at a fully charged state. Similar results were obtained by
+XPS measurements of ex-situ coin cells after cycling
+(Supplementary Figure 9).
+Electrochemical Performance of Li2S Cathodes with
+AQT in ASSLSBs. We further prove the eﬃcacy of AQT
+beyond the ﬁrst activation cycle in ASSLSBs by testing the
+Figure 4. Electrochemical performance of Li2S cathodes without/with AQT RM in ASSLSBs. (a) Cycling performance and Coulombic eﬃciency of
+Li2S cathodes without/with AQT at 0.1 C for 30 cycles. (b) Typical charge−discharge voltage proﬁles of Li2S cathodes without/with AQT at the
+5th cycle and the 20th cycle at 0.1 C. Nyquist plots of (c) the bare Li2S cell and (d) the Li2S@AQT cell before and after diﬀerent cycles. Inset in
+Figure 4d shows the zoom-in Nyquist plot for the Li2S@AQT cell. (e) Voltage proﬁle at the second cycle of the Li2S@AQT cell with a Li2S mass
+loading (3.7 mg cm−2) at 0.25 mA cm−2 at 60 °C. (f) Speciﬁc capacity of the Li2S@AQT cell cycled from 0.06 to 0.48 C. All cells are operated at 60
+°C.
+Journal of the American Chemical Society
+pubs.acs.org/JACS
+Article
+https://doi.org/10.1021/jacs.1c07754
+J. Am. Chem. Soc. 2021, 143, 18188−18195
+18192
+Downloaded from pubs.​acs.​org/​jacsat/​article-pdf/​143/​43/​18188/​8332349/​ja1c07754.​pdf by TSINGHUA UNIV user on 24 September 2026
+
+=== 第 6 页 ===
+cycling performance of Li2S cathodes without/with AQT. As-
+assembled cells are ﬁrst charged to 3.8 V for Li2S activation,
+then cycled from 1.6 to 2.8 V at 0.1 C. Incorporating AQT RM
+signiﬁcantly improves the cycling stability of ASSLSBs (Figure
+4a and b). The bare Li2S cell shows the fast capacity decay
+(from 579 mAh gs
+−1 to 384 mAh gs
+−1) within 20 cycles at 0.1
+C with a lower average Coulombic eﬃciency of 85%. In
+contrast, the Li2S@AQT cell shows a stabilized capacity,
+retained at 997 mA h gs
+−1 after 20 cycles, and sustains more
+than 150 cycles with an average CE of 98.9% (Figure 4a and
+Supplementary Figure 10). It outperforms most previously
+reported PEO-based ASSLSBs (Supplementary Table 1). The
+capacity decay is mainly due to increased cell polarization
+during cycling. No optimized processing is made for the
+commercial Li2S (ball milling or encapsulation).
+The enhanced cycling performance of Li2S@AQT cells is
+attributed to preventing the formation of the thick sulfur/Li2S
+passivation layer and decreasing the amount of soluble sulfur
+species in the SPEs, which are further veriﬁed by operando
+impedance and optical cell studies (Figure 4c,d and
+Supplementary Figure 11). Before cycling, the impedance
+spectrum of the bare Li2S cell shows a larger semicircle than
+that of the Li2S@AQT cell in the high-frequency region,
+indicating higher charge-transfer resistance in the bare Li2S cell
+(Figure 4c and d). After cycling, the impedance of the Li2S@
+AQT cell remains low and stable over 10 cycles. In contrast,
+the bare Li2S cell exhibits a high and increased impedance. It is
+noted that the decreased impedance after the ﬁrst cycle for
+bare Li2S cathodes results from the enhanced contact between
+cathodes and SPEs. Moreover, operando optical cell measure-
+ment (Supplementary Figure 11) indicates adding AQT
+decreases the dissolved sulfur species in the SPEs, owing to
+promoted reaction kinetics and the strong binding of Li2S/
+Li2Sx species to AQT.9 After incorporating AQT, polysulﬁdes
+prefer to stay on the cathode side and are rapidly oxidized/
+reduced during charging/discharging. Additionally, the Li2S@
+AQT cell with a high mass loading of Li2S (3.7 mg cm−2) was
+assembled and tested at 60 °C. The as-prepared Li2S@AQT
+cell shows a high areal capacity of 2.3 mA h cm−2 (Figure 4e)
+and a high cell-level energy density (416 Wh kg−1) based on
+the mass of the Li2S cathode (excluding the current collector),
+the PEO-based electrolyte with RMs, and the lithium metal
+anode. Supplementary Figure 12 displays the cycling perform-
+ance of high-loading ASSLSBs with RMs at 250 mA cm−2. The
+cycling exhibits a slight capacity fading for a few equilibrium
+cycles and remains stable with a capacity of 640 mA h g−1 after
+15 cycles.
+Finally, Li2S@AQT cells were cycled at diﬀerent C-rates to
+investigate the rate performance. As shown in Figure 4f, Li2S@
+AQT cells achieve a discharge capacity of 1214, 827, 577, and
+406 mAh gs
+−1 at 0.06, 0.12, 0.24, and 0.48 C, respectively. It
+outperforms most previously reported ASSLSBs.24,25,37,38 All
+the above results show that AQT enables promoted reaction
+kinetics and stability to achieve high-performance ASSLSBs.
+■CONCLUSIONS
+In summary, we have successfully proved that RMs are
+eﬀective in all-solid-state batteries. An anthraquinone-based
+redox center with a suitable redox potential, good stability, and
+high solubility in the SPEs was rationally designed to facilitate
+Li2S oxidation. Using operando sulfur K-edge X-ray absorption
+spectroscopy, we directly tracked the sulfur speciation and
+revealed the redox chemistry for Li2S cathodes in ASSLSBs for
+the ﬁrst time. Li2S cathodes with AQT RMs deliver a discharge
+capacity as high as 1133 mAh gs
+−1. The Li2S@AQT cell
+demonstrates superior cycling stability (average Coulombic
+eﬃciency 98.9% for 150 cycles) and rate capability owing to
+the eﬀective AQT-enhanced Li−S reaction kinetics. This study
+opens a new avenue for developing next-generation solid-state
+batteries with high energy density, high safety, and long cycle
+life.
+■METHODS
+Preparation of Li2S Cathodes. The 1 M Li2S colloidal solution
+is drop-casted onto the free-standing carbon paper (Fuel Cell Store,
+AvCarb P50). Then, Li2S@RM cathodes are fabricated by inﬁltrated
+PEO (MW = 300 000)/LiTFSI solution (EO to Li is 10:1) with RMs
+into the Li2S-coated carbon paper and dried at 80 °C. The molar ratio
+of Li2S to RMs is 20:1. Bare Li2S cathodes are synthesized following a
+process similar to that of Li2S@RM except without the addition of
+RMs. The mass loading of Li2S is 0.2−0.7 mg cm−2. All the
+procedures were conducted in an argon-ﬁlled glovebox.
+Operando XAS study. Operando coin cells were adapted from the
+type 2032 coin cells. A hole (3 × 3 mm) is drilled at the cathode case
+and sealed by a PET/PE ﬁlm (63.5 μm thick) for X-ray beam
+penetration. The working electrode is bare Li2S or Li2S@AQT. The
+counter electrode is lithium metal. PEO/LiClO4 acted as the
+electrolyte to connect the two electrodes. The operando electro-
+chemical reaction is performed with a Bio-Logic SP-50, which
+simultaneously collects the sulfur K-edge XAS spectra for working
+electrodes. The operando cell is galvanostatically charged to 3.8 V at
+10 μA cm−2 and then discharged to 1.6 V. Sulfur K-edge X-ray
+absorption spectroscopy measurements are performed at beamline 4-3
+at the Stanford Synchrotron Radiation Light source of SLAC National
+Accelerator Laboratory. Data are calibrated, normalized, and further
+analyzed using Athena software.
+Electrochemical Performance Measurements. ASSLSBs are
+assembled using Li2S cathodes, PEO-based electrolytes (10−20 μm),
+and lithium metal anodes (∼50 μm) in an argon-ﬁlled glovebox. As-
+prepared coin cells (type 2032) are tested with a Land battery testing
+system. The ﬁrst charge cycle is cut oﬀat 3.8 V to fully activate the
+Li2S electrode. The following cycles are between 1.6 and 2.8 V. CV
+and electrochemical impedance spectroscopy (EIS) measurements are
+performed using a Bio-Logic VMP3. Temperature-controlled experi-
+ments are performed in an environmental chamber (BTU-133,
+ESPEC North America).
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/jacs.1c07754.
+Experimental details and methods, including redox
+mediator synthesis, polymer electrolyte preparation,
+electrochemical performance measurements, and energy
+density calculation; tables and ﬁgures for electrochemical
+testing and material characterization (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Yi Cui −Department of Materials Science and Engineering,
+Stanford University, Stanford, California 94305, United
+States; Stanford Institute for Materials and Energy Sciences,
+SLAC National Accelerator Laboratory, Menlo Park,
+California 94025, United States;
+orcid.org/0000-0002-
+6103-6352; Email: yicui@stanford.edu
+Journal of the American Chemical Society
+pubs.acs.org/JACS
+Article
+https://doi.org/10.1021/jacs.1c07754
+J. Am. Chem. Soc. 2021, 143, 18188−18195
+18193
+Downloaded from pubs.​acs.​org/​jacsat/​article-pdf/​143/​43/​18188/​8332349/​ja1c07754.​pdf by TSINGHUA UNIV user on 24 September 2026
+
+=== 第 7 页 ===
+Authors
+Xin Gao −Department of Materials Science and Engineering,
+Stanford University, Stanford, California 94305, United
+States;
+orcid.org/0000-0001-5360-0796
+Xueli Zheng −Department of Materials Science and
+Engineering, Stanford University, Stanford, California 94305,
+United States;
+orcid.org/0000-0002-6800-2649
+Yuchi Tsao −Department of Chemistry, Stanford University,
+Stanford, California 94305, United States
+Pu Zhang −Department of Materials Science and Engineering,
+Stanford University, Stanford, California 94305, United
+States
+Xin Xiao −Department of Materials Science and Engineering,
+Stanford University, Stanford, California 94305, United
+States;
+orcid.org/0000-0003-1098-9484
+Yusheng Ye −Department of Materials Science and
+Engineering, Stanford University, Stanford, California 94305,
+United States;
+orcid.org/0000-0001-9832-2478
+Jun Li −Department of Materials Science and Engineering,
+Stanford University, Stanford, California 94305, United
+States; Department of Chemistry, Stanford University,
+Stanford, California 94305, United States;
+orcid.org/
+0000-0003-4660-1234
+Yufei Yang −Department of Materials Science and
+Engineering, Stanford University, Stanford, California 94305,
+United States
+Rong Xu −Department of Materials Science and Engineering,
+Stanford University, Stanford, California 94305, United
+States
+Zhenan Bao −Department of Chemical Engineering, Stanford
+University, Stanford, California 94305, United States;
+orcid.org/0000-0002-0972-1715
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/jacs.1c07754
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+Y.C. and Z. B. acknowledge the support from the Assistant
+Secretary for Energy Eﬃciency and Renewable Energy, Oﬃce
+of Vehicle Technologies, of the U.S. Department of Energy
+under the Battery Materials Research (BMR) Program and the
+Battery500 Consortium program. We thank Erik Nelson and
+Matthew Latimer for their assistance at BL 4-3 at the Stanford
+Synchrotron Radiation Light source of SLAC National
+Accelerator Laboratory. Use of the Stanford Synchrotron
+Radiation Lightsource, SLAC National Accelerator Laboratory,
+is supported by the U.S. Department of Energy, Oﬃce of
+Science, Oﬃce of Basic Energy Sciences under Contract No.
+DE-AC02-76SF00515. X.G. acknowledges Dr. Fang Liu for the
+discussions.
+■REFERENCES
+(1) Tamirat, A. G.; Guan, X.; Liu, J.; Luo, J.; Xia, Y. Redox mediators
+as charge agents for changing electrochemical reactions. Chem. Soc.
+Rev. 2020, 49 (20), 7454−7478.
+(2) Kang, X. Nonaqueous Liquid Electrolytes for Lithium-Based
+Rechargeable Batteries. Chem. Rev. 2004, 104 (10), 4303−4418.
+(3) Zhang, L.; Zhang, Z.; Wu, H.; Amine, K. Novel redox shuttle
+additive for high-voltage cathode materials. Energy Environ. Sci. 2011,
+4 (8), 2858−2862.
+(4) Lee, K. T. Roles of Surface Chemistry on Safety and
+Electrochemistry in Lithium Ion Batteries. Acc. Chem. Res. 2013, 46
+(5), 1161−1170.
+(5) Bruce, P. G.; Freunberger, S. A.; Hardwick, L. J.; Tarascon, J. M.
+Li-O2 and Li-S batteries with high energy storage. Nat. Mater. 2012,
+11 (1), 19−29.
+(6) Lim, H.-D.; Lee, B.; Zheng, Y.; Hong, J.; Kim, J.; Gwon, H.; Ko,
+Y.; Lee, M.; Cho, K.; Kang, K. Rational design of redox mediators for
+advanced Li-O2 batteries. Nat. Energy 2016, 1 (6), 1−9.
+(7) Park, J. B.; Lee, S. H.; Jung, H. G.; Aurbach, D.; Sun, Y. K. Redox
+Mediators for Li-O2 Batteries: Status and Perspectives. Adv. Mater.
+2018, 30 (1), 1704162.
+(8) Leverick, G.; Tułodziecki, M.; Tatara, R.; Bardé, F.; Shao-Horn,
+Y. Solvent-Dependent Oxidizing Power of LiI Redox Couples for Li-
+O2 Batteries. Joule 2019, 3 (4), 1106−1126.
+(9) Tsao, Y.; Lee, M.; Miller, E. C.; Gao, G.; Park, J.; Chen, S.;
+Katsumata, T.; Tran, H.; Wang, L.-W.; Toney, M. F.; Cui, Y.; Bao, Z.
+Designing a Quinone-Based Redox Mediator to Facilitate Li2S
+Oxidation in Li-S Batteries. Joule 2019, 3 (3), 872−884.
+(10) Peng, H. J.; Zhang, G.; Chen, X.; Zhang, Z. W.; Xu, W. T.;
+Huang, J. Q.; Zhang, Q. Enhanced Electrochemical Kinetics on
+Conductive Polar Mediators for Lithium-Sulfur Batteries. Angew.
+Chem., Int. Ed. 2016, 55 (42), 12990−12995.
+(11) Li, G.; Wang, X.; Seo, M. H.; Li, M.; Ma, L.; Yuan, Y.; Wu, T.;
+Yu, A.; Wang, S.; Lu, J.; Chen, Z. Chemisorption of polysulfides
+through redox reactions with organic molecules for lithium-sulfur
+batteries. Nat. Commun. 2018, 9 (1), 1−10.
+(12) Manthiram, A.; Chung, S. H.; Zu, C. Lithium-sulfur batteries:
+progress and prospects. Adv. Mater. 2015, 27 (12), 1980−2006.
+(13) Li, S.; Zhang, W.; Zheng, J.; Lv, M.; Song, H.; Du, L. Inhibition
+of Polysulfide Shuttles in Li-S Batteries: Modified Separators and
+Solid-State Electrolytes. Adv. Energy Mater. 2021, 11 (2), 2000779.
+(14) Ji, X.; Lee, K. T.; Nazar, L. F. A highly ordered nanostructured
+carbon-sulphur cathode for lithium-sulphur batteries. Nat. Mater.
+2009, 8 (6), 500−506.
+(15) Manthiram, A.; Yu, X.; Wang, S. Lithium battery chemistries
+enabled by solid-state electrolytes. Nat. Rev. Mater. 2017, 2 (4), 1−16.
+(16) Zhao, Q.; Stalin, S.; Zhao, C.-Z.; Archer, L. A. Designing solid-
+state electrolytes for safe, energy-dense batteries. Nat. Rev. Mater.
+2020, 5 (3), 229−252.
+(17) Li, Z.; Zhang, H.; Sun, X.; Yang, Y. Mitigating Interfacial
+Instability in Polymer Electrolyte-Based Solid-State Lithium Metal
+Batteries with 4 V Cathodes. ACS Energy Lett. 2020, 5 (10), 3244−
+3253.
+(18) Song, Y.-X.; Shi, Y.; Wan, J.; Lang, S.-Y.; Hu, X.-C.; Yan, H.-J.;
+Liu, B.; Guo, Y.-G.; Wen, R.; Wan, L.-J. Direct tracking of the
+polysulfide shuttling and interfacial evolution in all-solid-state lithium-
+sulfur batteries: a degradation mechanism study. Energy Environ. Sci.
+2019, 12 (8), 2496−2506.
+(19) Croce, F. Nanocomposite polymer electrolytes for lithium
+batteries. Nature 1998, 394 (6692), 456−458.
+(20) Judez, X.; Zhang, H.; Li, C.; Eshetu, G. G.; Zhang, Y.;
+Gonzalez-Marcos, J. A.; Armand, M.; Rodriguez-Martinez, L. M.
+Polymer-Rich Composite Electrolytes for All-Solid-State Li-S Cells. J.
+Phys. Chem. Lett. 2017, 8 (15), 3473−3477.
+(21) Tao, X.; Liu, Y.; Liu, W.; Zhou, G.; Zhao, J.; Lin, D.; Zu, C.;
+Sheng, O.; Zhang, W.; Lee, H. W.; Cui, Y. Solid-State Lithium-Sulfur
+Batteries Operated at 37 degrees C with Composites of Nano-
+structured Li7La3Zr2O12/Carbon Foam and Polymer. Nano Lett.
+2017, 17 (5), 2967−2972.
+(22) Zhang, T.; He, W.; Zhang, W.; Wang, T.; Li, P.; Sun, Z.; Yu, X.
+Designing composite solid-state electrolytes for high performance
+lithium ion or lithium metal batteries. Chem. Sci. 2020, 11 (33),
+8686−8707.
+(23) Gao, X.; Zheng, X.; Wang, J.; Zhang, Z.; Xiao, X.; Wan, J.; Ye,
+Y.; Chou, L. Y.; Lee, H. K.; Wang, J.; Vila, R. A.; Yang, Y.; Zhang, P.;
+Wang, L. W.; Cui, Y. Incorporating the Nanoscale Encapsulation
+Concept from Liquid Electrolytes into Solid-State Lithium-Sulfur
+Batteries. Nano Lett. 2020, 20 (7), 5496−5503.
+Journal of the American Chemical Society
+pubs.acs.org/JACS
+Article
+https://doi.org/10.1021/jacs.1c07754
+J. Am. Chem. Soc. 2021, 143, 18188−18195
+18194
+Downloaded from pubs.​acs.​org/​jacsat/​article-pdf/​143/​43/​18188/​8332349/​ja1c07754.​pdf by TSINGHUA UNIV user on 24 September 2026
+
+=== 第 8 页 ===
+(24) Zhang, H.; Oteo, U.; Judez, X.; Eshetu, G. G.; Martinez-Ibañez,
+M.; Carrasco, J.; Li, C.; Armand, M. Designer Anion Enabling Solid-
+State Lithium-Sulfur Batteries. Joule 2019, 3 (7), 1689−1702.
+(25) Judez, X.; Zhang, H.; Li, C.; Gonzalez-Marcos, J. A.; Zhou, Z.;
+Armand, M.; Rodriguez-Martinez, L. M. Lithium Bis(fluorosulfonyl)-
+imide/Poly(ethylene oxide) Polymer Electrolyte for All Solid-State Li-
+S Cell. J. Phys. Chem. Lett. 2017, 8 (9), 1956−1960.
+(26) Eshetu, G. G.; Judez, X.; Li, C.; Martinez-Ibanez, M.; Gracia, I.;
+Bondarchuk, O.; Carrasco, J.; Rodriguez-Martinez, L. M.; Zhang, H.;
+Armand, M. Ultrahigh Performance All Solid-State Lithium Sulfur
+Batteries: Salt Anion’s Chemistry-Induced Anomalous Synergistic
+Effect. J. Am. Chem. Soc. 2018, 140 (31), 9921−9933.
+(27) Eshetu, G. G.; Judez, X.; Li, C.; Bondarchuk, O.; Rodriguez-
+Martinez, L. M.; Zhang, H.; Armand, M. Lithium Azide as an
+Electrolyte Additive for All-Solid-State Lithium-Sulfur Batteries.
+Angew. Chem., Int. Ed. 2017, 56 (48), 15368−15372.
+(28) Wu, F.; Lee, J. T.; Nitta, N.; Kim, H.; Borodin, O.; Yushin, G.
+Lithium iodide as a promising electrolyte additive for lithium-sulfur
+batteries: mechanisms of performance enhancement. Adv. Mater.
+2015, 27 (1), 101−108.
+(29) Meini, S.; Elazari, R.; Rosenman, A.; Garsuch, A.; Aurbach, D.
+The Use of Redox Mediators for Enhancing Utilization of Li2S
+Cathodes for Advanced Li-S Battery Systems. J. Phys. Chem. Lett.
+2014, 5 (5), 915−918.
+(30) Ye, H.; Li, M.; Liu, T.; Li, Y.; Lu, J. Activating Li2S as the
+Lithium-Containing Cathode in Lithium-Sulfur Batteries. ACS Energy
+Lett. 2020, 5 (7), 2234−2245.
+(31) Yang, Y.; Zheng, G.; Misra, S.; Nelson, J.; Toney, M. F.; Cui, Y.
+High-capacity micrometer-sized Li2S particles as cathode materials for
+advanced rechargeable lithium-ion batteries. J. Am. Chem. Soc. 2012,
+134 (37), 15387−15394.
+(32) Cuisinier, M.; Cabelguen, P.-E.; Evers, S.; He, G.; Kolbeck, M.;
+Garsuch, A.; Bolin, T.; Balasubramanian, M.; Nazar, L. F. Sulfur
+Speciation in Li-S Batteries Determined by Operando X-ray
+Absorption Spectroscopy. J. Phys. Chem. Lett. 2013, 4 (19), 3227−
+3232.
+(33) Wujcik, K. H. In Situ X-ray Absorption Spectroscopy Studies of
+Discharge Reactions in a Thick Cathode of a Lithium Sulfur Battery. J.
+Electrochem. Soc. 2017, 164 (2), A18−A27.
+(34) Zhang, L.; Sun, D.; Feng, J.; Cairns, E. J.; Guo, J. Revealing the
+Electrochemical Charging Mechanism of Nanosized Li2S by in Situ
+and Operando X-ray Absorption Spectroscopy. Nano Lett. 2017, 17
+(8), 5084−5091.
+(35) Pascal, T. A.; Wujcik, K. H.; Velasco-Velez, J.; Wu, C.; Teran,
+A. A.; Kapilashrami, M.; Cabana, J.; Guo, J.; Salmeron, M.; Balsara,
+N.; Prendergast, D. X-ray Absorption Spectra of Dissolved
+Polysulfides in Lithium-Sulfur Batteries from First-Principles. J.
+Phys. Chem. Lett. 2014, 5 (9), 1547−1551.
+(36) Li, X.; Banis, M.; Lushington, A.; Yang, X.; Sun, Q.; Zhao, Y.;
+Liu, C.; Li, Q.; Wang, B.; Xiao, W.; Wang, C.; Li, M.; Liang, J.; Li, R.;
+Hu, Y.; Goncharova, L.; Zhang, H.; Sham, T. K.; Sun, X. A high-
+energy sulfur cathode in carbonate electrolyte by eliminating
+polysulfides via solid-phase lithium-sulfur transformation. Nat.
+Commun. 2018, 9 (1), 1−10.
+(37) Yang, X.; Luo, J.; Sun, X. Towards high-performance solid-state
+Li-S batteries: from fundamental understanding to engineering design.
+Chem. Soc. Rev. 2020, 49 (7), 2140−2195.
+(38) Ma, Q.; Qi, X.; Tong, B.; Zheng, Y.; Feng, W.; Nie, J.; Hu, Y. S.;
+Li, H.; Huang, X.; Chen, L.; Zhou, Z. Novel Li[(CF3SO2)(n-
+C4F9SO2)N]-Based Polymer Electrolytes for Solid-State Lithium
+Batteries with Superior Electrochemical Performance. ACS Appl.
+Mater. Interfaces 2016, 8 (43), 29705−29712.
+Journal of the American Chemical Society
+pubs.acs.org/JACS
+Article
+https://doi.org/10.1021/jacs.1c07754
+J. Am. Chem. Soc. 2021, 143, 18188−18195
+18195
+Downloaded from pubs.​acs.​org/​jacsat/​article-pdf/​143/​43/​18188/​8332349/​ja1c07754.​pdf by TSINGHUA UNIV user on 24 September 2026
+

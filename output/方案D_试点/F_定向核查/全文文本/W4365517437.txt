@@ -1,0 +1,3067 @@
+=== 第 1 页 ===
+Review
+Latest progresses and the application of various electrolytes
+in high-performance solid-state lithium-sulfur batteries
+Yanan Li a,b, Nanping Deng a,b,⇑, Hao Wang a,b, Qiang Zeng a,b, Shengbin Luo a,b, Yongbing Jin a,b,
+Quanxiang Li c, Weimin Kang a,b,⇑, Bowen Cheng a,b
+a State Key Laboratory of Separation Membranes and Membrane Processes/National Center for International Joint Research on Separation Membranes, Tiangong University,
+Tianjin 300387, China
+b School of Textile Science and Engineering, Tiangong University, Tianjin 300387, China
+c Institute for Frontier Materials, Deakin University, Geelong and Waurn Ponds, Victoria 3216, Australia
+a r t i c l e
+i n f o
+Article history:
+Received 14 February 2023
+Revised 22 March 2023
+Accepted 23 March 2023
+Available online 14 April 2023
+Keywords:
+Solid-state lithium sulfur batteries
+Working mechanism
+Solid-state electrolytes
+Outstanding electrochemical performance
+Excellent safety
+a b s t r a c t
+With the emergence of some solid electrolytes (SSEs) with high ionic conductivity being comparable to
+liquid electrolytes, solid-state lithium-sulfur batteries (SSLSBs) have been widely regarded as one of
+the most promising candidates for the next generation of power generation energy storage batteries,
+and have been extensively researched. Though many fundamental and technological issues still need
+to be resolved to develop commercially viable technologies, SSLSBs using SSEs are expected to address
+the present limitations and achieve high energy and power density while improving safety, which is very
+attractive to large-scale energy storage systems. SSLSBs have been developed for many years. However,
+there are few systematic discussions related to the working mechanism of action of various electrolytes
+in SSLSBs and the defects and the corresponding solutions of various electrolytes. To ﬁll this gap, it is very
+meaningful to review the recent progress of SSEs in SSLSBs. In this review, we comprehensively investi-
+gate and summarize the application of SSEs in LSBs to determine the differences which still exist between
+current progresses and real-world requirements, and comprehensively describe the mechanism of action
+of SSLSBs, including lithium-ion transport, interfacial contact, and catalytic conversion mechanisms.
+More importantly, the selection of solid electrolyte materials and the novel design of structures are
+reviewed and the properties of various SSEs are elucidated. Finally, the prospects and possible future
+research directions of SSLSBs including designing high electronic/ionic conductivity for cathodes, opti-
+mizing electrolytes and developing novel electrolytes with excellent properties, improving electrode/-
+electrolyte interface stability and enhancing interfacial dynamics between electrolyte and anode, using
+more advanced test equipment and characterization techniques to analyze conduction mechanism of
+Li+ in SSEs are presented. It is hoped that this review can arouse people’s attention and enlighten the
+development of functional materials and novel structures of SSEs in the next step.
+ 2023 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published
+by ELSEVIER B.V. and Science Press. All rights reserved.
+1. Introduction
+Since the beginning of the industrial revolution, humanity’s
+demand for energy has been growing, and accessing to clean,
+affordable and reliable energy has been the cornerstone of the
+world’s growing prosperity and economic growth [1]. The adoption
+and development of cleaner, more affordable and more reliable
+sources of energy are urgently needed as we face increasing energy
+shortages and serious pollution from fossil fuels [2]. Many
+attempts have been made for realizing these targets. Solar and
+water-based energy generation, and microbial engineering for pro-
+ducing bio-fuels are a few examples of alternatives [1,3]. However,
+these novel energy systems are extremely vulnerable to environ-
+mental and conditional constraints and are intermittent and
+uncontrollable characteristics [4]. Therefore, the development of
+electrochemical energy storage systems providing electricity on
+demand is the core and key of today’s mobile electronic devices
+and electric vehicles, and also plays an important role in the ﬁeld
+of energy storage [5,6].
+At present, secondary batteries have become one of the core
+energy storage technologies supporting sustainable development
+and progress of a mobile society. It is widely used in the rapid
+https://doi.org/10.1016/j.jechem.2023.03.045
+2095-4956/ 2023 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by ELSEVIER B.V. and Science Press. All rights reserved.
+⇑Corresponding authors.
+E-mail addresses: dengnanping@tiangong.edu.cn (N. Deng), kangweimin@tian-
+gong.edu.cn (W. Kang).
+Journal of Energy Chemistry 82 (2023) 170–197
+Contents lists available at ScienceDirect
+Journal of Energy Chemistry
+journal homepage: www.elsevier.com/locate/jechem
+
+=== 第 2 页 ===
+growth of advanced portable electronic devices, electric vehicles
+and smart grid [7]. Lithium metal exhibits low reduction potential,
+excellent energy density and high voltage in these assembled bat-
+teries. Compared with traditional secondary chemical batteries,
+lithium batteries are very attractive in terms of energy and power
+density, cyclability and safety [8]. Compared to other early batter-
+ies (including lead-acid, nickel–cadmium and nickel-metal hydride
+batteries), lithium-ion battery (LIB) has the advantages of higher
+energy density, more excellent efﬁciency, longer cycle life, higher
+voltage platform, no memory effect, and more friendly to the envi-
+ronment. It has achieved great commercial success and brought
+signiﬁcant economic beneﬁts, and has become the most widely
+used electrochemical energy storage system in today’s society
+[6,9–15]. However, it is difﬁcult to further meet the increasing
+demands of ultra-long life, light weight and low cost especially
+in terms of low theoretical speciﬁc capacity [16,17]. Therefore,
+lithium-sulfur batteries (LSBs) with very high theoretical capacity
+(1675 mA h g1) and ultrahigh energy density (2600 Wh kg1)
+are
+considered
+as
+one
+of
+the
+most
+promising
+candidate
+technologies [18–22]. LSB is a kind of lithium battery which uses
+sulfur as the cathode and lithium metal as the anode. Sulfur is
+abundant on earth and has the characteristics of low price and
+environmental friendliness. Its special structure (a crown structure
+of eight sulfur atoms) leads to a very stable thermodynamic perfor-
+mance [21,23,24]. Coupled with its excellent electrochemical prop-
+erties, it has been widely used as a battery cathode material.
+Lithium
+metal
+is
+the
+material
+with
+the
+smallest
+density
+(0.53 g cm3) and chemical equivalent (0.26 g A-1h1) and the
+highest theoretical speciﬁc capacity (3861 mA h g1) in various
+natural metal materials. Its high energy density allows it to have
+excellent energy density and voltage when applied to various bat-
+teries. However, the low electrical conductivity of sulfur, poor ther-
+modynamic stability of lithium anode, interfacial side reactions
+and instability due to volume changes during repeated charging
+and discharging processes, and the ‘‘shuttle effect” of lithium poly-
+sulﬁde (LiPSs) are obstacles to the large-scale commercialization of
+LSBs [3,9,25–28].
+Liquid system is the traditional researching model of LSBs,
+which is mainly composed of lithium metal anode, liquid elec-
+trolyte (such as DOL/DME and tetraethylene glycol dimethyl
+ether), and cathode mainly composed of elemental sulfur [29,30].
+It has the advantages of low cost, high theoretical energy density
+and
+environmental
+friendliness,
+showing
+great
+potential
+in
+advanced energy storage system [31,32]. However, the practical
+application of LSBs based on liquid electrolytes is still hindered
+by their poor cycling performance and the safety problems caused
+by leakage of ﬂammable liquid organic electrolytes and lithium
+dendrite. During the discharge process, the S8 molecule gradually
+gains electrons to combine with Li+ and undergoes multiple poly-
+sulﬁde intermediates (Li2Sx, x = 2, 4, 6, 8) before ﬁnally converting
+to Li2S2/Li2S as shown in Fig. 1. These intermediate and high-order
+LiPSs can be dissolved in the organic liquid electrolyte and trans-
+ferred to low-order LiPSs in the discharge process, so the ‘‘shuttle
+effect” of LiPSs is inevitable [29,33]. In addition, lithium dendrites
+grow uncontrollably during repeated electrochemical charge–dis-
+charge processes, accompanied by internal short circuit lithium
+dendrite growth and other problems, which need further study
+and optimization. To overcome the dilemma, a basic understand-
+ing of solid-state Li kinetics is essential to distinguish the rate-
+determining step in battery cycling [30,34–36].
+Solid-state lithium-sulfur batteries (SSLSBs) using solid-state
+electrolytes (SSEs) as battery separators and electrolytes are
+expected to achieve high energy and power density and improved
+safety, which is very attractive to large-scale energy storage sys-
+tems [38–42]. The working mechanism of SSLSBs is shown in
+Fig. 1(C). In recent years, SSLSBs have made great progress in terms
+of energy density. The theoretical energy density of LSBs is as high
+as 2600 Wh/kg, which is much higher than the energy density of
+traditional lithium-ion batteries. In addition, the energy density
+of SSLSBs is also higher than that of liquid LSBs. For example, Pro-
+fessor Eric D. Wachsman’s team physically separated the sulfur
+cathode and Li7La3Zr2O12 (LLZO) using a polyethylene oxide
+(PEO)-based buffer layer. With a thin bilayer of LLZO and a stable
+sulfur cathode/LLZO interface, the assembled LSB achieved a high
+initial discharge capacity of 1307 mA h/g at a high current density
+of 0.2 mA/cm2 at room temperature, which was corresponding to
+639 Wh/L and high energy density of 134 Wh/kg. In the future,
+the energy density of SSLSBs will be further improved with the
+continuous improvement of the technology [43]. In addition, the
+cycle life and rate performance of SSLSBs also had improved signif-
+icantly due to the development of novel materials and improve-
+ments in manufacturing processes. Thus, the cycle life of SSLSBs
+has increased from hundreds of cycles to thousands of cycles,
+which allows them to be used in a wider range of applications. In
+addition,
+the
+rate
+performance
+of
+SSLSBs
+has
+been
+greatly
+improved due to the continuous development and enhancement
+of novel materials with special structures. Some researchers also
+have been able to improve the rate performance by using the
+SSEs of high conductivity lithium ion transport or by employing
+high-capacity sulfur cathode materials. In addition, the use of
+advanced manufacturing technologies such as laser welding and
+3D printing can also effectively improve the performances of
+SSLSBs [44].
+High and low temperature performance also is rather key per-
+formance index of SSLSBs, and their development has received
+extensive attention. At the same time, the heat generation mecha-
+nism of liquid batteries also has been studied in more depth. The
+thermal runaway of liquid batteries usually starts with the decom-
+position of SEI, which is accompanied by the electrode–electrolyte
+reaction, melting of the electrolyte, and decomposition of the elec-
+trolyte as the temperature increases. The heat generation or prod-
+ucts of these reactions will further induce subsequent chain
+reactions and eventually cause an internal short circuit of the bat-
+tery electrodes, thus triggering thermal runaway of the battery
+[45]. High and low temperature performance also is rather key per-
+formance index of SSLSBs, and their development has received
+extensive attention. At the same time, the heat generation mecha-
+nism of liquid batteries also has been studied in more depth. The
+thermal runaway of liquid batteries usually starts with the decom-
+position of SEI, which is accompanied by the electrode–electrolyte
+reaction, melting of the electrolyte, and decomposition of the elec-
+trolyte as the temperature increases. The heat generation or prod-
+ucts of these reactions will further induce subsequent chain
+reactions and eventually cause an internal short circuit of the bat-
+tery electrodes, thus triggering thermal runaway of the battery
+[46].
+Solid electrolyte (SE) mainly includes polymer electrolytes,
+solid ceramic electrolytes, quasi-solid gel polymer electrolytes
+and composite electrolytes [47]. The main types and materials
+are shown in Fig. 2. Polymer-based materials have good mechani-
+cal stability and ﬂexibility and low interfacial resistance with elec-
+trodes, while inorganic electrolytes have high conductivity at room
+temperature when compared with polymer electrolytes [30]. Gel
+polymer electrolyte is formed by electrolyte lithium salt and liquid
+plasticizer in polymer matrix, which has compact interfacial
+contact, high ionic conductivity, low interfacial impedance and
+good mechanical strength [30,47,48]. Composite electrolyte is an
+emerging formed with polymers and inorganic ﬁllers, realizing
+functional complementarity of each component [49,50]. With the
+emergence of SEs with high ionic conductivity comparable to that
+of liquid electrolytes, SSLSBs have been widely regarded as one of
+the most promising candidates for the next generation of power
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+171
+
+=== 第 3 页 ===
+generation energy storage batteries, and have received extensive
+attention and research [51,52].
+In short, compared with liquid LSBs, SSLSBs are relatively safe
+due to their nonuse of ﬂammable electrolyte and have higher
+energy density using solid state electrolytes instead of separators
+and liquid electrolytes, allowing for more energy to be stored in
+a smaller package. At the same time, SSLSBs are more stable than
+liquid LSBs based on the relatively superior strength of solid state
+electrolytes, meaning they are less likely to suffer from thermal
+runaway compared with liquid electrolytes. In addition, SSLSBs
+are more durable than liquid LSBs, as they are not susceptible to
+leakage or corrosion of organic solvent [53,54].
+However, SEs as the core component of SSLSBs also have their
+inherent shortcomings limiting the fast development. SEs tend to
+have difﬁculty in forming sufﬁcient lithium ion channels, so the
+ionic conductivity of most solid lithium conductors is lower than
+that of liquid electrolytes especially at ambient temperature
+[55–57]. For inorganic SEs, there are problems such as high
+brittleness, poor interfacial contact and high interfacial impedance,
+and large volume changes of sulfur electrodes during battery
+charging and discharging processes will lead to irreversible interfa-
+cial defects between inorganic electrolytes and electrodes [58].
+Polymer electrolytes also often have the problem of low Li+ con-
+ductivity especially at ambient temperature. In particular, PEO
+has a similar molecular structure to polyether liquid electrolytes,
+making long-chain LiPSs susceptible to dissolution and diffusion
+in PEO-based electrolytes [49]. These drawbacks hinder the com-
+mercialization of SSLSBs. Composite solid-state electrolytes can
+combine the merits of inorganic and polymer SEs and have great
+potential for development.
+At present, SSLSBs have been developed for many years. The
+development roadmap and target of SSLSBs is shown in Fig. 3. From
+this picture, we can also see that with the continuous development
+of solid-state lithium sulfur batteries, the exploration and develop-
+ment of multifunctional electrolytes have also received widespread
+attention. But there are few systematic discussions related to the
+working mechanism of action of electrolytes in SSLSBs and the
+defects and the corresponding solutions of different types of elec-
+trolytes. But there are few systematic discussions related to the
+working mechanism of action of electrolytes in SSLSBs and the
+defects and the corresponding solutions of different types of
+electrolytes. To ﬁll this gap, we comprehensively summarize the
+application of solid-state electrolytes in LSBs, and brieﬂy describe
+the mechanism of action of SSLSBs, including lithium-ion transport,
+interfacial contact, and catalytic conversion mechanisms in this
+review. More importantly, the selection of SE materials and the
+design of structures are reviewed and the properties of various SEs
+are elucidated. Finally, the development prospects of solid-state
+electrolytes including designing high electronic/ionic conductivity
+for cathodes, optimizing electrolytes and developing novel elec-
+trolytes with excellent properties, improving electrode/electrolyte
+interface stability and enhancing interfacial dynamics between elec-
+trolyte and anode, using more advanced test equipment and charac-
+terization techniques to analyze conduction mechanism of Li+ in
+SSEs have also prospected. It is hoped that this review can arouse
+people’s attention and enlighten the development of functional
+materials and novel structures of SEs in the next step.
+2. The mechanism of action of SSLSBs
+The working mechanism of SSLSBs includes the mechanism of
+lithium ion transport, the interface mechanism of electrochemical
+reactions and the catalytic conversion mechanism. The discussion
+and study of the internal working principle and mechanism of action
+Fig. 1. (A) Polysulﬁde shuttle reactions in LSB. Reproduced with permission from Ref. [33]. Copyright 2013, Wiley-VCH. (B) Typical charge–discharge curves of Li-S cell with
+1 M LiTFSI in the mixture of DOL and DME (1:1 v/v). Reproduced with permission from Ref. [29]. Copyright 2018, Wiley-VCH. (C) Schematic conﬁgurations of SSLSBs using (c1)
+polymer, (c2) oxide-based SSEs and (c3) sulﬁde-based SSEs. (c4) Typical charge–discharge voltage proﬁles of solid-phase Li-S reactions. Reproduced with permission from Ref.
+[37]. Copyright 2020, Royal Society of Chemistry.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+172
+
+=== 第 4 页 ===
+of SSLSBs are necessary to open a new perspective for the rational
+design of LSBs with high energy density and excellent cycling
+performance.
+2.1. Mechanism of lithium ion transport
+Depending on SEs materials, the mechanism of lithium ion
+transport and conductivity of the composed SSLSBs can vary
+signiﬁcantly. At present, their mechanisms are mainly elaborated
+from two aspects: polymer electrolyte and inorganic electrolyte.
+2.1.1. Li-ion transport in polymer electrolytes
+Most SPEs have low ionic conductivity (10-7  10-5 S/cm) and
+poor lithium ion mobility number (tLi
++, 0.2–0.4) at room tempera-
+ture, which are difﬁcult to meet the practical use requirements.
+This is because the low dielectric constant of the polymer matrix
+cannot promote the dissociation of a large number of free ions
+from the lithium salts. At the same time, the transport of Li+ along
+the polymer molecular chain is disordered at the leap site, which
+does not allow efﬁcient ion transport to occur during the charge–
+discharge processes [59]. In the past few decades, many studies
+have been carried out on the ionic conduction mechanism of solid
+polymer electrolytes. Generally speaking, lithium ion transport
+arises from three primary contributions [60]: (a) Intrachain lithium
+ion motion along the polymer backbone, (b) Cooperative motion of
+lithium ions coordinated with the polymer segments such as PEO,
+and (c) Intersegmental hopping of lithium ions from one chain to
+the other.
+Ion transportion in polymer electrolytes mainly depends on the
+number of freely mobile ions. The number of freely migrating
+lithium ions can increase the ionic conductivity of the electrolyte
+system. Meanwhile, the more charges carried by individual ions
+can further improve the ionic conductivity. The number of freely
+migrating ions mainly depends on the degree of dissociation of
+lithium salts in polymer electrolytes. To carry out fast ion transfer,
+polymer electrolyte must ﬁrst contain a Lewis base (usually ether
+oxygen), which is used to coordinate the cations, thus facilitating
+the dissolution of the salt. For example, the oxygen atom on PEO
+has two lone pair electrons, which have strong coordination ability
+and can interact with lithium to form a complex based on Lewis
+acid-base theory. The chain segments of the PEO polymer are con-
+stantly moving, leading to the continuous complexation and disso-
+ciation of Li+. Lithium ions migrate from one coordination site to
+another new coordination site along the polymer segment, or jump
+from one segment to another, thereby realizing the migration of
+lithium ions. The directional motion is realized under the inﬂuence
+of the external electric ﬁeld, which is called the ion conduction
+process [61–63].
+The ion transport in the polymer electrolyte is also affected by
+the chain segment movement of the amorphous region. In solid
+Fig. 2. Classiﬁcation of electrolytes for SSLSBs.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+173
+
+=== 第 5 页 ===
+polymer electrolytes, ion conduction usually occurs only in the
+amorphous region of the polymer. Therefore, lithium ion transport
+can be promoted by appropriately increasing the operating tem-
+perature of the polymer electrolyte. In particular, when the tem-
+perature is higher than the glass transition temperature (Tg),
+more amorphous regions in the electrolyte are more favorable for
+the movement of polymer chain segments, thus improving ion
+conductivity of polymers [64]. In addition, by polymer blending,
+co-polymerization, grafting and cross-linking, etc., the amorphous
+region also can be increased, and the advantages of various poly-
+mers can be combined to improve the overall performances. Add-
+ing liquid plasticizers, such as ionic liquids, electrolytes, etc., to
+polymer system can also effectively improve its ionic conductivity
+and enhance the contact properties of the interface [65].
+In addition to the most common mechanism of conduction in
+the amorphous region, some scholars have proposed the theory
+of Li+ conduction in the crystalline region of PEO for some polymer
+electrolytes. The results of Bruce’s group concluded that in the
+crystalline phase of P(EO)6-LiX (X = PF6, AsF6, SbF6) electrolyte sys-
+tem [66], each of PEO chain folds to form a semi-cylinder with
+pairs of such chains interlocking to form cylindrical tunnels within
+which the Li+ ions reside. Inside the channel, lithium ions also can
+couple with the O atoms on the ether oxygen chains, while the
+anions are outside the channels and do not interact with lithium
+ions. Lithium ions can migrate along cylindrical channels without
+resorting to segment movement. In detail, the Li+ ion resides in a
+site formed by ﬁve ether oxygens, three from one PEO chain and
+two from the other. In order for a Li+ ion to migrate to another
+stable ﬁve-coordinate site, it has to pass between two ether oxy-
+gens, thus entering an intermediate site formed by four ether oxy-
+gens deﬁning a rectangle. The Li+ ion then passes through another
+bottleneck formed by two ether oxygens in order to enter the next
+ﬁve-coordinate site. In the perfect crystal structure, all the ﬁve-
+coordinate Li+ sites would be full. However, no crystalline solid is
+perfect above 0 K, therefore, there must be some defects that lead
+to vacant Li+ sites to which adjacent Li+ ions may migrate.
+It has also been suggested that the low ionic conductivity and
+short lifetime of SPE limit the application of ambient temperature
+polymeric lithium metal batteries, perhaps as a result of the inher-
+ent restricted segment movement of the polymer at room temper-
+ature. For example, Wang et al. [67] developed an ambient
+temperature bilayer solid polymer electrolyte and innovatively
+investigated the relevant working mechanisms. In this strategy,
+the polypropylene carbonate (PPC)/succinonitrile (SN) was con-
+tacted with the cathode, while polyethylene oxide (PEO)/Li7La3Zr2-
+O12 was employed in the vicinity of the anode. The molecular
+dynamics simulations demonstrated the formation of dissolved
+sheath-like structures [SN---Li+], which showed strong interactions
+with the polymer (PPC--[SN---Li+]/PEO--[SN---Li+]). The combined
+FTIR/NMR and DFT results also showed that the excellent Li-ion
+conduction was mainly attributed to the generation of the
+polymer--[SN---Li+] system, and thus SPE can operate at room tem-
+perature by providing a rich Li-ion transport path through the
+polymer segment.
+In general, the conductivity mechanism of solid polymer elec-
+trolytes needs to be investigated more deeply and systematically
+based on more theoretical calculations and in-situ characterization
+and testing.
+Fig. 3. The development roadmap and target of SSLSBs.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+174
+
+=== 第 6 页 ===
+2.1.2. Li-ion transport in inorganic solid electrolytes
+Li+ transport dynamics are critical for the stability and durabil-
+ity of various solid-state lithium-based batteries [68]. In SEs, since
+the anions are bound to the SE structure, Li+ conduct through the
+SE, which results in a maximum mobility number of 1 for lithium
+ions. This contrasts with liquid electrolytes where both cations and
+anions move and contribute to ionic conductivity [69]. Some inor-
+ganic SE materials can achieve high ionic conductivity at room
+temperature, and the representative materials are Li10GeP2S12(-
+LGPS), Li7La3Zr2O12(LLZO) and Li1+XAlXTi2-X (PO4)3(LATP).
+Targeting the transport of lithium ions in inorganic SEs, Mo et al.
+[70] proposed the concept of concerted transport of lithium ions in
+solid-state lithium-based batteries. That is, the concerted motion
+of multiple ions stimulates the rapid transport of ions and reduces
+the energy barrier of ion migration. In all multiple ion synchrotron
+leap, the individual ions are at different energy positions, some at
+high energy positions and some at low energy positions. When sev-
+eral adjacent ions move together, the downward motion of the ions
+at the high-energy position can partially offset the energy barrier
+felt at the upward motion of the low-energy position. With the
+joint motion of several ions, the concerted leap also will then exhi-
+bit a lower energy barrier [70]. In addition, the size of the ion dif-
+fusion channel is closely related to the ion transport performance.
+For example, in the LISICON-like Li3.5M0.5M’0.5O4, with the increase
+of lithium-ion diffusion channels, the activation energy of ion
+migration
+decreases.
+Finally,
+the
+lithium-ion
+conductivity
+increases. Meanwhile, the anion lattice arrangement also can be
+found to have a great inﬂuence on ion transport, and among the
+many lattice arrangements, the body-centered cubic ionic skeleton
+is the most desirable structure for obtaining high ionic conductiv-
+ity. For example, fast ionic conductors Li10GeP2S12 and Li7P3S11
+possess the structural characteristic of body-centered cubic ionic
+skeleton, thus exhibiting very high ionic conductivity.
+Lattice dynamics also have a large impact on ion transport. In
+the solid crystal structure, the atoms are highly stacked and there
+is the bonding between them. The transport of ions in the crystal
+lattice is usually induced by thermal disturbance, that is, to
+increase the vibration of ions at the equilibrium position and make
+them move from the equilibrium position to other positions [71–
+73]. Yang et al. [74] proposed that the low vibration frequency of
+lithium ions was correlated with the enhanced mobility of lithium
+ions in some SEs such as LISICON and Olivine families by combin-
+ing inelastic neutron scattering measurements with density func-
+tional theory based on lattice dynamics theory. It is proposed
+that the vibrational frequency of lithium ions in crystals has a
+strong correlation with ion transport and plays a key role in con-
+trolling lithium ion conductivity and stability of lithium ion
+conductors.
+In summary, concerted transport, lattice arrangement and lat-
+tice dynamics effectively affect the ionic conductivity and Li+ trans-
+fer number of ISE. However, the key physicochemical issues
+involved above can be very complex. It is suggested that ion con-
+certed transport can have lower activation energy and is an emerg-
+ing promising solution for enhancing ion transport. However, there
+is a lack of research and evidence on the interactions between ions
+and the factors inﬂuencing them, such as determining ion hopping
+on spatial and temporal scales. Therefore, there is an urgent need
+to further investigate the transport mechanisms of lithium ions
+in ISEs, which will facilitate the design of new electrolytes to fur-
+ther improve ionic conductivity.
+2.1.3. Li-ion transport in composite electrolytes
+Organic-inorganic hybrid composite electrolytes are formed
+from functional polymers and inorganic ﬁllers proportional to the
+polymer system [49,50]. Due to the synergistic effect of polymers
+and inorganic ﬁllers, organic–inorganic composite electrolytes
+can take advantage of their respective components to promote
+transport of lithium ions. Inorganic ﬁllers can enhance the contact
+with the polymer matrix and shorten the lithium ion diffusion
+pathway due to their higher surface area, more interfaces between
+organic and inorganic and more favorable lithium ion transmis-
+sion. In addition, the addition of functional ﬁllers also can provide
+a support matrix which can greatly improve the mechanical
+strength and dimensional stability of the polymer allowing the
+composite electrolyte to maintain its overall solid structure even
+at high temperatures. The addition of inorganic ﬁllers also can sig-
+niﬁcantly improve the ionic conductivity of the electrolyte, so that
+some researchers have conducted extensive research on the theo-
+retical mechanism of the enhancement of ionic conductivity by
+introducing some inorganic ﬁllers in composite electrolytes.
+Numerous studies have found that the functional groups of
+inorganic ﬁllers play a critical role in promoting the diffusion of
+lithium ions. The abundant functional groups of inorganic ﬁllers
+(-F, –OH, -Cl, etc.) can adsorb the anions dissociated from lithium
+salts through Lewis acid-base interaction, which can weaken the
+interaction of Li ions with these polymers, and increase the num-
+ber of free lithium ions by promoting the dissociation of lithium
+salts, thereby greatly promoting the Li+ transportation at inorganic
+ﬁller/polymer matrix interfaces [75]; Liu et al. [76] believed that
+surface functional groups of inorganic ﬁllers also could change
+the local structural environment of polymer electrolyte and hinder
+the local recombination of polymer segments, thus reducing the
+polymer crystallinity and increasing the concentration of free Li+.
+It has also been found that the ionic conductivity of composite
+electrolytes is associated with the space charge region. Li et al. [77]
+used the PEO: Ga-LLZO composite as a conduction model system
+which was applicable to other composite polymer electrolytes as
+well. They believed that the enhancement of the ionic conductivity
+of PEO: Ga-LLZO composite polymer electrolyte was closely related
+to the space charge region formed at the interface between the PEO
+matrix and the Ga-LLZO nanoparticles. They simulated the lithium-
+ion transport in the composite polymer electrolyte by the Monte
+Carlo simulation, demonstrating that the enhanced ionic conduc-
+tivity can be ascribed to the ionic conduction in the space charge
+regions and the percolation of the space charge regions. When
+the space charge regions and the phase distribution meet the
+demand of forming the percolation threshold, the percolation
+effect takes effect, and continuous fast conduction pathways are
+formed.
+Under
+these
+circumstances,
+the
+ionic
+conductivity
+increased signiﬁcantly.
+It is worth noting that the organic–inorganic interface is also an
+important component of the complex electrolyte. The interface in
+the complex also has a role in ion conduction as an essential path-
+way for Li-ion fast transport conduction. High-quality organic–
+inorganic interfaces in composite electrolytes can effectively
+improve the ion conductivity of the whole system, even to the level
+of mS cm1. However, conventional polymer solid electrolyte com-
+posite ﬁllers are usually randomly dispersed in the solid composite
+electrolyte, and the interface is often disordered and discontinu-
+ous, making it difﬁcult to form a continuous ion transport path.
+Therefore, such interfaces do not provide satisfactory ion conduc-
+tivity [78]. In general, it is necessary to give them more research
+in this area.
+In conclusion, over the past years, researchers have extensively
+studied the transport mechanism of Li+ and proposed different the-
+ories, and various theories have been proposed to provide a theo-
+retical basis for the development of high performance SSLSBs. To
+carry out ion transport in polymer SEs, it relies on the ability of
+polar groups to coordinate with the Li+, which in turn dissolves
+the lithium salt, generating free-moving ions as well as chain seg-
+ments to move. In inorganic SEs, concerted transport and lattice
+dynamics theories have been proposed by some scholars. However,
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+175
+
+=== 第 7 页 ===
+various types of theories lack uniformity and therefore need to be
+studied and veriﬁed by more advanced technical means: Using
+more advanced test equipment and characterization techniques
+(such as, synchrotron X-ray techniques, solid state nuclear mag-
+netic resonance, neutron diffraction and in situ imaging, etc.) to
+deeply analyze the conduction mechanism of lithium ions in
+SSLSBs and applying more theoretical calculations like DFT (den-
+sity functional theory). In a word, the conductivity mechanism of
+SSLSBs needs to be studied more deeply and systematically.
+2.2. Interface problems of SSLSBs
+Unlike liquid batteries, the interface contact problem is one of
+the biggest challenges for solid-state batteries. In SSLSBs, solid-
+state electrolytes need to be in close contact with the electrodes
+to enable the transport of lithium ions between the prepared elec-
+trolyte and the electrodes. Polymer electrolytes, due to its ﬂexibil-
+ity and adhesion, can form a uniform and close contact interface
+with active substance of electrodes and electronic conductors, thus
+reducing the interface impedance to a certain degree between elec-
+trolytes and electrodes [49,79]. Non-ﬂowable inorganic solid cera-
+mic or glass electrolytes are rigid and difﬁcult to make close
+contact with electrodes, which may greatly affect Li deposition
+and
+dissolution
+behavior.
+Therefore,
+the
+interface
+problem
+between SEs and battery electrodes including anode/solid elec-
+trolyte, internal interface of solid electrolyte and cathode/solid
+electrolyte is particularly signiﬁcant in inorganic SSLSBs [80].
+2.2.1. Anode /solid electrolyte interface
+Lithium metal has a high speciﬁc capacity (3860 mA h/g) and a
+low redox potential (-3.04 V vs. H+/H2) and is considered as an
+ideal anode material for high speciﬁc energy lithium-based batter-
+ies. In SSLSBs, due to the high reactivity and thermodynamic insta-
+bility
+of
+lithium
+metal,
+interface
+reaction
+will
+occur
+after
+contacting with most SEs, resulting in interface instability and con-
+tinuous loss of battery active materials. At the anode interface, the
+reactivity between the ceramic electrolyte and the lithium metal
+anode is high, which tends to produce an unstable intermediate
+layer that can act as a barrier to a further reaction between elec-
+trolytes and metal lithium. This reaction is more obvious for elec-
+trolytes containing high-valent elements, such as the high-valence
+metal cation in the lattice of Li10GeP2S12(LGPS) is easy to be
+restored by lithium metal, which often leads to the occurrence of
+interfacial side reactions, high interfacial resistance and serious
+loss of active materials. The poor wettability between metal Li
+and solid-state composite electrolyte (SCE) usually leads to poor
+interfacial contact and thus high local current density, and lithium
+dendrites are also more likely to be generated at such locations
+with relatively high current density, which the theoretical view
+has received general consensus from some researchers. Such
+lithium dendrites can penetrate the SE and reduce the safety of
+the battery, leading to ﬁre or explosion. In addition, this is often
+inhomogeneous due to the solid–solid contact between metal
+lithium and SE. The poor contact leads to increased interfacial
+resistance, irregular lithium ﬂux distribution, and a signiﬁcant
+reduction in the critical current density of the SCE [81–83].
+In recent years, the effect of stack pressure on the lithium metal
+anode in ASSBs are receiving more and more attention. Masias et al.
+measured the Young’s modulus, the shear modulus, and the Pois-
+son’s ratio of lithium metal at room temperature. Their ﬁndings
+show that Li exhibits a yield strength of about 0.8 MPa. When yield
+strength is exceeding this value, the metal start to creep [84]. This
+has been conﬁrmed by LePage et al., who showed that at room tem-
+perature, the yield strength of Li metal is creep-dominated. This
+yield strength needs to be correlated with the stack pressure
+applied on ASSBs during cycling to fully understand the mechani-
+cal behavior of a lithium metal anode [85].
+High stack pressures can induce uniform interfacial contact
+between Li and the SSE, but they can also mechanically deform
+and force Li through micropores within the SSE pellet to cause
+short circuits. If the stack pressure is too low, interfacial contact
+is not sufﬁcient, leading to interfacial void formation during the
+Li stripping of the battery. The stack pressure can also vary with
+continuous cycle due to changes in the volume of active materials,
+meaning that the actual stack pressure inside the cell can be differ-
+ent than that which is initially applied. Interphase formation and
+morphology evolution at the Li/SSE interface also can affect the
+stack pressure, but such phenomena are not yet well understood.
+Lee et al. found that the evolution of stack pressure was highly
+dependent on the chemical stability of the SSE in contact with
+metal Li, and the interphase formation resulted in a decrease of
+stack pressure during operation. The Li ﬁlament growth is shown
+to exhibit distinct stack pressure signatures that depend on SSE
+processing condition and density. This work will provide a new
+understanding of the interfacial evolution of SSE and also can
+demonstrate the value of electro-chemo-mechanical measure-
+ments for advancing our understanding of SSLSBs [86].
+In conclusion, various evidences show that the interface prob-
+lem of anode/solid electrolyte is an important factor leading to
+the growth of lithium dendrites. This is certainly a great hindrance
+to the development and application of SSLSBs. The simple use of
+SEs does not effectively inhibit the growth of lithium dendrites.
+In order to improve the electrochemical performance of solid-
+state lithium-based batteries, strategies such as solid electrolyte
+interface optimization (such as adding additives to build mechan-
+ically and chemically stable SEI in situ), modiﬁcation of the elec-
+trolyte surface (such as surface coating strategies), and structural
+design (such as obtaining a vertically heterogeneous electrolyte
+by varying the planar laminar electrolyte in the vertical direction)
+have often been used to improve the interface problem between
+the anode and electrolyte. However, the interface optimization
+methods and the composition design and structure designs of the
+buffer layer still require a lot of effort to explore [87].
+2.2.2. Internal interface of the solid electrolyte
+The original idea of solid-state electrolyte is to use its high mod-
+ulus strength to effectively inhibit lithium dendrite growth.
+Although solid-state electrolyte avoids lithium dendrite growth
+to some extent, however, lithium dendrite growth still occurs espe-
+cially under the conditions of high current density. The mechanism
+of lithium dendrite growth in solid-state electrolytes has been
+widely explored and generalized by some researchers. Jeff Saka-
+moto et al. proposed a model for the growth of lithium dendrites
+at grain boundaries. There are abundant grain boundaries in inor-
+ganic SEs. In solid-state batteries, some network-like lithium den-
+drites
+ﬁll
+the
+grain
+boundaries
+and
+grow
+along
+the
+grain
+boundaries toward the interior of the electrolyte, which not only
+causes more severe interfacial reactions, but also causes safety
+accidents and even serious explosion problems due to short cir-
+cuits [25,80]. The internal interface of the SE has a signiﬁcant
+impact on the conductivity of the SE. Some unreasonable defects
+and impurities at the grain boundaries can signiﬁcantly reduce
+the ion transport rate, resulting in a decrease in the overall ionic
+conductivity of the electrolyte [88]. Therefore, the ionic conductiv-
+ity of SEs will be greatly enhanced by reducing the number of grain
+boundaries, modifying and optimizing them rationally and increas-
+ing the density in inorganic electrolytes, etc.
+Inevitable defects and impurities in the electrolyte also provide
+nucleation sites for lithium dendrite growth, which serve as ‘‘roots”
+for dendrite growth and lead to the growth of lithium dendrites.
+The grain boundary interface of SE not only provides space for
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+176
+
+=== 第 8 页 ===
+lithium dendrite growth, but also has a signiﬁcant effect on the ion
+conductivity of the SE. Defects and impurities at the grain bound-
+aries also signiﬁcantly reduce the ion transport rate, leading to a
+decrease in the overall ionic conductivity of the electrolyte [89].
+Strategies to optimize the physical and chemical properties of
+SCEs to achieve dense SCEs are rather important to avoid dendrite
+formation. Lithium dendrites often grow together with inhomoge-
+neous defects including voids, cracks, grain boundaries, impurity
+precipitates, etc. Most of SCEs have undergone a tableting process
+from SCE powders into thin ﬁlms, which inevitably introduces
+defects. Single crystal SCE can fundamentally eliminate the effects
+of grain boundaries and voids, while polycrystalline SCE avoids
+dendrite formation by reducing the defect density. Removal of
+impurities with poor ionic conductivity in SCE is another strategy
+to avoid lithium dendrite growth. The widely studied garnet elec-
+trolyte is easily contaminated by moisture to form a Li2CO3 surface
+layer of lithium ion insulation, which leads to huge interfacial
+resistance and non-uniform Li deposition, and the most commonly
+used strategy is high temperature annealing in inert gas. Some SEs
+with high mechanical strength usually are considered as a poten-
+tial solution to lithium dendrite problem, which can fundamentally
+change the Li deposition behavior [12]. According to the widely
+cited Monroe and Newman model, lithium dendrite growth can
+be successfully suppressed if the shear modulus of SE is 2 times lar-
+ger than that of Li [80].
+Introducing an interfacial buffer layer to keep the interface
+stable is considered to be an effective way to avoid lithium den-
+drite formation. For example, thionyl chloride (SOCl2) was used
+as an electrolyte additive to lower the diffusion barrier and build
+a stable interfacial protective layer to prevent lithium dendrite
+growth [90]. In addition, the uniform porous structure also can
+inhibit the formation of lithium dendrites. Xu et al. designed a
+three-layer garnet matrix with a porous structure to stabilize Li.
+The prepared frame has excellent wettability and lithium pene-
+trates into the porous garnet framework, enabling seamless con-
+tact. The 3D porous structure achieves a high contact area, which
+reduces the local current density when surface current is applied,
+and as a result effectively suppresses the growth of lithium den-
+drites [91].
+Recent studies also have shown that in addition to interfacial
+wettability, electronic conductivity is also one of the signiﬁcant
+factors affecting lithium dendrite growth, and the higher the elec-
+tronic conductivity, the faster the growth rate of lithium dendrites.
+Han et al.[92] illustrated the origin of the lithium dendrite forma-
+tion by monitoring the dynamic evolution of Li concentration pro-
+ﬁles in three popular but representative SEs (LiPON, LLZO and
+amorphous Li3PS4) during lithium plating using time-resolved
+operando neutron depth proﬁling. The high electronic conductivity
+of LLZO and Li3PS4 was the main reason for lithium dendrite
+formation in these SEs. Therefore, reducing the electronic conduc-
+tivity, rather than further increasing the ionic conductivity of SEs,
+is critical for enhancing the electrochemical performance of the
+SSLSBs. Therefore, it is particularly necessary to construct an
+interfacial layer with excellent wettability, low electronic conduc-
+tivity and superior mechanical strength to inhibit the growth of
+lithium dendrites, which can effectively suppress lithium dendrites
+[93].
+2.2.3. Cathode /solid electrolyte interface
+During repeated charge/discharge processes, lithium ions are
+continuously inserted/detached and an 80% volume change occurs
+between sulfur and Li2S, resulting in a tendency for the active
+materials to detach from the lithium ion and electron conductors,
+causing a large interfacial resistance and rapid capacity decay.
+The huge volume change may disconnect the lithium ion and elec-
+tron transport channels, resulting in a limited lithium ion transport
+rate at the SE/anode interface. The charge transport in solid-state
+batteries is entirely dependent on the solid/solid interfaces
+between the SEs and active materials. The inhomogeneous solid–
+solid physical contact at the interface combined with the insulating
+properties of sulfur and other factors lead to the instability of the
+interfaces between electrode and electrolyte [25,27,28,88,94].
+Therefore, solving the volume change during charging and dis-
+charging processes, increasing the interfacial contact area and
+improving the interfacial stability are rather keys to achieving
+the excellent electrochemical performance of SSLSBs.
+The interface design of the sulfur cathode side is also very
+important for SSLSBs. Although sulﬁde SEs still have the drawbacks
+of poor electrochemical stability and weak air stability to be over-
+come, the sulﬁde electrolyte itself exhibits very high ionic conduc-
+tivity and has a good interfacial contact with cell cathode due to its
+soft texture, making the sulﬁde electrolyte has been extensively
+studied. The cathode of SSLSBs based on sulﬁde electrolyte is gen-
+erally prepared by isostatic pressure method. A certain proportion
+of sulfur, conductive agent, and sulﬁde electrolyte are mixed well
+by ball milling and then compounded by isostatic pressing to
+obtain an all-solid-state battery with good ionic conductivity and
+excellent interfacial compatibility [95,96]. Many studies have been
+conducted to construct micro-nanostructures between the anode
+and the interface from a nanosized perspective to improve the uti-
+lization of active materials. For example, Nagao et al. [97] reduced
+the size of Li2S particles by the high-energy ball milling, and then
+compounded with other components to obtain the anode. The high
+speciﬁc surface area of the nanostructure effectively improved the
+contact between the electrode and the electrolyte, and the results
+showed that the ball-milled active material was uniformly dis-
+tributed in the cathode materials and could provide more active
+sites, which effectively improves the Coulombic efﬁciency and
+cycling stability of the battery. However, oxide electrolytes are
+generally hard and do not easily improve the interfacial contact
+by methods such as cold isostatic pressing, so the interfacial prob-
+lems are more prominent in batteries using oxide SEs [98].
+For SSLSBs using polymers as electrolytes, it is urgent to reduce
+the solubility of the polymer electrolyte to LiPSs to avoid their
+shuttle effects. In general, polymers tend to require higher operat-
+ing temperatures to improve the energy conversion efﬁciency and
+electrical energy of the battery. Melting of polymers into liquid
+state occurs during battery use, which can lead to much improved
+interfacial contact, but will inevitably dissolve the LiPSs and lead to
+the shuttle effect [99]. Combining inorganic SEs with organic poly-
+mers can improve the interfacial problems very well. The introduc-
+tion of organic polymer makes the contact between electrolyte and
+electrode tighter and more uniform, and the inorganic SE also has
+higher ionic conductivity and more excellent mechanical strength.
+In conclusion, interface problems are a major challenge for
+SSLSBs. When inorganic solid ceramic or glass is used as elec-
+trolytes for SSLSBs, the solid–solid contact makes the Li+ transport
+at the interface between cathodes/SSEs and anodes/SSEs will be
+greatly limited [93]. The physical properties of the electrolyte itself
+(grain boundaries, density, impurities) also greatly affect the trans-
+port of Li+. Therefore, more attention should be paid to three
+aspects in the design of SSLSBs: Firstly, reserving enough space
+for the volume changes of the cathode and ensuring tight contact
+of the particles inside the cathode to reduce the solid phase inter-
+face impedance. Secondly, improving interface compatibility by
+modifying the interface between lithium metal and SE or designing
+a reasonable buffer layer is a hot topic. Finally, optimizing the qual-
+ity of the electrolyte itself, reducing the number of grain bound-
+aries and impurities, and increasing its own density and strength
+is also a major step to improving the interface problem.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+177
+
+=== 第 9 页 ===
+3. Selection of solid electrolyte materials
+3.1. Polymer electrolytes
+Polymer electrolytes are generally based on various polymers,
+and lithium salts are dissolved in the matrix to achieve high ionic
+conduction of the electrolyte. Solid polymer electrolytes have been
+recognized as promising candidates for obtaining safe and excel-
+lent electrochemical performance lithium batteries due to the good
+ionic conductivity, interfacial compatibility, low ﬂammability,
+excellent
+mechanical
+properties,
+and
+outstanding
+ﬂexibility
+[8,11,30,49,61,93,100]. Not only the solid polymer electrolyte
+potentially hinders the diffusion of LiPSs between cathode and
+anode, but also the polymer with sufﬁciently high modulus can
+prevent the formation of lithium dendrites. In the LSB system, elec-
+trode materials with high sulfur surface loading are prone to large
+volume changes during charging and discharging processes, and
+the polymeric SE can also mitigate the volume changes of the
+active material and thus prevent electrode structure fragmenta-
+tion. Based on the above advantages, the safety and cycling perfor-
+mance of the battery can be signiﬁcantly improved [49,61,101–
+104]. In recent years, various polymer electrolytes have been
+explored and applied in SSLSBs, such as polyethylene oxide(PEO),
+polyacrylonitrile(PAN), polypropylene carbonate(PPC), polyimide
+(PI) SEs, etc. [101,105]. Next, we will explain and illustrate them
+in detail.
+3.1.1. PEO
+PEO is the main polymer host for an alkali metal salt introduced
+as a solid polymer electrolyte and is currently the most widely
+studied framework materials in polymer electrolytes, which is
+rather promising application prospects [49,106,107]. PEO has a
+molecular structure similar to that of polyether liquid electrolyte,
+and the ﬂexible polyether segments can be complex with alkali
+metal ions (Li+). Under the action of the electric ﬁeld, along with
+the thermal movement of molecules, Li+ continuously undergoes
+a process of ‘‘coordination-dissociation” with ether oxygen atoms,
+and directional and rapid migration of Li+ can be realized through
+local relaxation and PEO segment movement [49].The macro-
+molecular structure of PEO also has good ﬂexibility and can form
+good contact with cell electrodes. In addition, it has the advantages
+of low cost, good mechanical stability, excellent electrochemical
+stability and serious corrosion resistance [47,50]. However, the
+room temperature(RT) ionic conductivity of PEO is low, only for
+10-8 to 10-6 S cm1. In addition, the defects of PEO, such as high
+crystallinity, poor thermal dimensional stability and mechanical
+strength, and narrow operating temperature range, also hinder
+its stand-alone application in SSLSBs [108,109].
+It has been shown that reducing the crystalline region of PEO is
+the key to improving ion transport, so the design principle of PEO
+based polymer electrolytes is generally to increase the percentage
+of amorphous phase by suppressing crystallization as a way to
+improve the ionic conductivity of PEO based polymer electrolytes
+at RT and to endow their good mechanical properties [110]. SPE
+usually consists of polymer host as solid matrix with various
+lithium salts. The addition of lithium salts can reduce the glass
+transition temperature and crystallinity of the polymer matrix to
+a certain extent, and greatly improve the mechanical strength of
+the polymer and the stable temperature of the amorphous phase
+(>150 C) [111]. Structure and concentration are the two main fac-
+tors that affect the conductivity of the system. The application of
+various lithium salts of different structures and concentrations
+compounded with PEO based polymers to stabilize the catholyte
+interface, thereby enhancing the performance of solid polymer bat-
+teries is also a method of PEO modiﬁcation [112].
+The dissociation constant of the lithium salt determines the
+ability of the ion pair and ion cluster to bind to the polymer.
+Increasing the dissociation degree of anionic lithium salts in the
+electrolyte system can provide more carriers of lithium ions. The
+dissociation degree of lithium salts is mainly affected by the struc-
+ture of the applied polymers. The kinds and sizes of the anion
+groups in the alkali metal salts determine the ionic conductivity
+for applied polymer electrolytes. The larger the anion group, the
+smaller the lattice energy, and the lithium salt can easily dissociate
+and obtain more free ions, which can signiﬁcantly improve the
+ionic conductivity of the whole polymer electrolyte system. The
+common conductive lithium salts with large anion groups are
+LiClO4 [113], LiPF6 [114], LiAsF6 [115], and LiBF4 [116], etc. The
+obtained results can be conﬁrmed by Armand and co-workers as
+early as 1990 [117]. They also made a study on lithium salts with
+a large anion volume (eg. LiTFSI, LiTFSM and so on). It was pointed
+out that the highly delocalized anion electron cloud in lithium salts
+led to the increased polymer chain motility, and polymers contain-
+ing these lithium salts have lower crystallinity and anion mobility
+number as well as higher conductivity.
+Appropriately increasing the concentration of lithium salt can
+also increase the ion migration number. However, the change of
+electrolyte salt concentration may bring inﬂuences in both positive
+and negative directions, so the lithium salt concentration should
+not be too large to avoid side effects such as increased polymer
+Tg and the aggravation of salt ion complex. In 1993, Angell et al.
+[118] designed and prepared a LiClO3-LiClO4/PEO polymer elec-
+trolyte system and measured the conductivity with the increase
+of lithium salt content as follows: a peak of conductivity appeared
+at 10% of lithium salt content, and then gradually decreased and
+reached the lowest value at 30%. And with the further increase of
+lithium salt content, the system entered the ‘‘polymer in salt”
+region, and the ionic conductivity increased with the addition of
+lithium salt content and reached as high as 10-3 Scm1 at 25 C.
+At this point, the nature of the ‘‘polymer in salt” system is mainly
+dependent on the nature of the salt. The result suggests that under
+certain conditions the long-range transport of ions can be achieved
+without depending on the relaxation process of the polymer chain
+segments.
+In addition to the modiﬁcation of the structure and concentra-
+tion of the lithium salt, the crystallinity of the polymer and the
+enhancement of the ionic conductivity can also be reduced to some
+extent by designing PEO based composite electrolytes. These poly-
+mers mainly include blending, co-polymerization, and cross-
+linking with other polymers and the addition of inorganic ﬁllers.
+We will elaborate on more cases of composite electrolytes in Sec-
+tion 3 of this chapter.
+3.1.2. PVDF
+PVDF has been an advantageous choice as a polymer electrolyte.
+Recently, PVDF based polymer electrolytes have shown sufﬁcient
+conductivity for commercial use in secondary batteries [93,119].
+PVDF has the main following advantages: (1) PVDF mainly contains
+strong electron-absorbing group C-F, which can contribute to the
+preparation of gel ﬁlms with stable electrochemical performance.
+(2) PVDF usually has a high dielectric constant (e = 8.4), which is
+easy to dissolve lithium salt and be swollen by organic solvent.
+(3) PVDF also has good insulation, thermal stability, chemical resis-
+tance and electrochemical stability [39,120]. Long et al. reported a
+facile method to prepare the quasi solid-state LSBs with sulfur
+electrode and PVDF based solid polymer electrolyte (SPE), which
+had less ﬂammability, electrochemical stability and ionic conduc-
+tivity. The prepared PVDF based solid polymer electrolyte pos-
+sessed the conductivity 10-4 S cm1 at 25 C and the lithium
+ions transference number of 0.49 as presented in Fig. 4(A) [121].
+However, the C-F functional groups in PVDF can react with the
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+178
+
+=== 第 10 页 ===
+metal lithium and thus have poor interfacial stability with the
+lithium anode, which greatly affects its effective application in
+LSBs [122]. Combining these characteristics of PVDF, some polymer
+electrolytes with excellent and stable performance can be pro-
+duced by some modiﬁcation strategies.
+Similar to the modiﬁcation of polymers such as PEO, the addi-
+tion of inorganic ﬁllers to the PVDF polymer electrolyte matrix
+can effectively improve the conductivity of the electrolyte. For
+example, Zhang et al. [123] prepared a Li2S-P2S5 glass–ceramic/
+PVDF polymer composite solid electrolyte membrane with a thick-
+ness of only 120 lm and self-supporting properties by a liquid-
+phase method. The in situ-derived polymer matrix can form and ﬁll
+the voids and interstices between the sulﬁde electrolyte particles,
+thus providing excellent interfacial contact properties. The Li2S-
+P2S5-PVDF-LiTFSI composite electrolyte system dissociated more
+free lithium ions under the conditions of added lithium salts,
+resulting in ionic conductivity as high as 7.07  10-4 S cm1 at
+RT. The application of this composite electrolyte in ASLSBs also
+showed a high discharge capacity of 725.1 mA h g1 and a capacity
+retention rate of 93.2% after 100 cycles. Similarly, the fast ionic
+conductor inorganic ﬁller LATP has been used for the modiﬁcation
+of PVDF polymers. Liang et al. [124] prepared a solid electrolyte
+membrane PVDF/LiClO4/LATP by pouring and the thermosetting
+method.
+The
+ionic
+conductivity
+of
+PVDF/LiClO4/LATP
+was
+8.07  10-5 S cm1 at 25 C. The assembled battery showed good
+electrochemical performance. At 25 C and 0.5C, the ﬁrst discharge
+speciﬁc capacity was 620.52 mA h g1. After 500 cycles, the capac-
+ity decay rate of each cycle was only 0.139%.
+In addition to the modiﬁcation method of compounding with
+inorganic ﬁllers, organic substances are also widely used in the
+modiﬁcation of PVDF based polymers. Cellulose acetate (CA) is
+the ﬁrst cellulose derivative to be commercially produced and is
+continuously developed as a cellulose organic acid ester with the
+advantages of stable physical and chemical properties and easy
+processing. Shan et al. [125] designed and prepared a solid polymer
+electrolyte as presented in Fig. 4(B), in which they used the PVDF/
+CA as a matrix and 1-butyl-1-methylpyrrolidinium bis(triﬂuorome
+thylsulfonyl)-imide (Py14TFSI) as an interfacial stabilizer. The
+Fig. 4. (A) Lithium ion conductivity and transference number of prepared PVDF-based solid polymer electrolyte. Reproduced with permission from Ref. [121]. Copyright 2019,
+Elsevier. (B) Schematic illustration of the synthetic process for the S@MPCC cathode and the LiTFSI/Py14TFSI/CA/PVDF polymer electrolyte. Reproduced with permission
+from Ref. [125]. Copyright 2021, American Chemical Society. (C) Schematic illustration of fabricating composite polymer electrolyte membrane by solution-casting technique.
+Reproduced with permission from Ref. [101]. Copyright 2018, Elsevier. (D) Cycling performance of cells with G-PPC-CPE and carbonate electrolyte at 0.2 Ag1. Reproduced
+with permission from Ref. [137]. Copyright 2018, Royal Society of Chemistry. (E) The mechanism of GPEs in LSBs (take PMMA for example). Reproduced with permission from
+Ref. [142]. Copyright 2021, Elsevier.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+179
+
+=== 第 11 页 ===
+applied CA can effectively increase the amorphous region of PVDF
+at RT and promote the movement of chain segments. Meanwhile,
+the addition of CA also can greatly improve the mechanical
+strength and ﬂexibility of the polymer electrolyte. The applied
+Py14TFSI as an interfacial stabilizer can effectively improve the
+electrical conductivity and the interfacial compatibility between
+electrode and electrolyte. The results show that the LiTFSI/Py14-
+TFSI/CA/PVDF polymer electrolyte had a high ionic conductivity
+of 1.45  10-4 S cm1, an electrochemical stability window of
+4.95 V, and a lithium ion transfer number of 0.231. The application
+to SSLSBs exhibited good electrochemical performance with a ﬁrst
+discharge speciﬁcation capacity of 1245.9 mA h g1, with an aver-
+age Coulomb effect of 97%.
+PVDF has numerous advantages for polymer electrolyte applica-
+tions that other materials do not have due to its excellent proper-
+ties such as anode stability, high dielectric constant, etc. However,
+PVDF also suffers from some common drawbacks with other poly-
+mer electrolytes. In addition, its inherent structural symmetry and
+regularity make it easy to form crystalline structures, which are
+not conducive to ionic conductivity. Therefore, researchers usually
+use chemical methods (such as copolymerization and cross-
+linking) or physical methods (such as blending or plasticization)
+and the incorporation of inorganic ﬁllers to improve the properties
+of PVDF.
+3.1.3. Other polymers
+In
+organic
+polymer
+systems,
+in
+addition
+to
+the
+above-
+mentioned PEO and PVDF, polyacrylonitrile(PAN), some other
+polymers such as poly(propylene carbonate) (PPC), poly (vinyli-
+dene ﬂuoride)-hexaﬂuoropropylene copolymer(PVDF-HFP), poly
+(vinyl chloride), poly(methyl methacrylate)(PMMA), polyimide
+and polysiloxane SEs are also widely studied [126].
+Polysiloxane electrolytes have been proven to be one of the
+most promising polymers [101]. The Si-O-Si bonds in polysiloxane
+have small bond rotation potential energy (0.8 kJ/mol), so it has
+soft molecular chain and strong segment motion and it is easy to
+form an amorphous structure [127,128]. At the same time, the
+formed electrolyte also has high electrochemical window, excel-
+lent thermal stability and environmental friendliness. In addition,
+polymer-in-salt electrolyte system can be prepared due to the
+cross-linking network structure of polysiloxane electrolyte [129].
+However, polysiloxane itself has no polarity, cannot dissociate
+lithium salts, and also cannot coordinate with lithium ions and
+has poor ability to conduct lithium ions [127,128,130–132]. There-
+fore, polysiloxane-based polymer electrolytes are often modiﬁed to
+enhance its performance. The polymer-in-salt type double-grafted
+polysiloxane (BPSO) electrolytes obtained by the double-grafted
+structural design of the polysiloxane matrix and the use of high
+quality fraction of lithium salt in the electrolyte also can effectively
+improve its ionic conductivity. Chen et al. [101] prepared a
+polymer-in-salt
+double-grafted
+polysiloxane
+electrolyte
+using
+polysiloxane (BPSO) electrolyte, lithium bis(triﬂuoromethanesulfo
+nyl)imide (LiTFSI), and poly(vinylidene ﬂuoride) (PVDF) as raw
+materials and an acetate ﬁber network as a rigid backbone using
+the solution casting technique. The fabrication process of the com-
+posite electrolyte is shown in Fig. 4(C). The tested result exhibited
+that high ionic conductivity (7.8  10-4 Scm1 at 25 C), excellent
+mechanical properties (6.8 MPa), a wide electrochemical stability
+window (4.7 V vs. Li+/Li), and admirable ion transfer number
+(0.52) at ambient temperature can be obtained. The CPE effectively
+suppresses the growth of lithium dendrites and shuttle effects of
+LiPSs. The assembled SSLSBs ﬁtted with this CPE exhibited good
+room-temperature cycling performance at 1C, suggesting that the
+prepared polymer-salt polysiloxane-based composite electrolyte
+ﬁlm can be applied to ambient-temperature SSLSBs.
+Polycarbonate-based systems are also promising polymer elec-
+trolyte systems with a special molecular structure (containing
+strong polar carbonate groups) and a high dielectric constant that
+can effectively attenuate the interaction between anions and cations
+and increase the number of carriers, thus improving the ionic con-
+ductivity. Common polycarbonate-based electrolytes are mainly:
+Polyethylene carbonate (PEC) [133], Polytrimethylene carbonate
+(PTMC) [134], Polypropylene carbonate(PPC) [135] and Polyethy-
+lene carbonate(PVC) [136] et al. For example, Huang et al. [137]
+developed a novel polypropylene carbonate-based composite gel
+polymer electrolyte (G-PPC-CPE) with 7.3 wt% ether-based elec-
+trolyte as a plasticizer and embedded SiO2 nanoparticles as a multi-
+functional ﬁller to synergistically inhibit the diffusion of LiPSs in the
+PPC polymer matrix. When it was applied in SSLSBs, the prepared G-
+PPC-CPE exhibited a higher sulfur utilization (100%) and an out-
+standing reversible capacity of 700.5 mA h g1. When compared to
+common carbonate-based electrolytes, the prepared electrolyte
+exhibited a long cycle life, and had a capacity retention of 85% after
+500 cycles as presented in Fig. 4(D). In summary, the obtained G-
+PPC-CPE ensured a good prospect for the development of quasi-
+solid LSBs with high performance at ambient temperature.
+Poly(vinylidene ﬂuoride-co-hexaﬂuoropropylene) (PVDF-HFP)
+based gel polymer electrolytes have been extensively studied due
+to their electrochemical stability and high dielectric constant
+[105,138]. Compared with most other polymers (except PEO), it
+has relatively high ionic conductivity at RT and low crystallinity,
+making it an ideal matrix for the preparation of gel polymer elec-
+trolytes [139]. At present, there are many reports on the modiﬁca-
+tion
+of
+PVDF-HFP
+based
+gel
+polymer
+electrolytes,
+and
+the
+commonly used modiﬁcation methods mainly include the applica-
+tion of novel lithium salts, the introduction of other plasticizers,
+and the modiﬁcation of the polymer matrix. For example, Xia
+et al. [140] uniformly embedded Li1.5Al0.5Ti1.5(PO4)3(LATP) particles
+as ﬁllers in GPE to form the ﬁnal PVDF-HFP/LATP composite gel
+polymer electrolyte (CPE), and the assembled solid lithium-sulfur
+battery exhibited a high initial capacity of 918 mA hg1 at 0.05C.
+Compared with commercial liquid electrolytes, the assembled
+LSB with this CPE exhibited higher cycling stability and rate capac-
+ity due to the effective suppression of the polysulﬁde shuttle effect.
+PMMA is a kind of polymer material which has the advantages
+of low cost, easy synthesis and abundant raw materials. And the
+PMMA-based gel electrolytes usually can also form homogeneous
+gel electrolytes like PEO, with polar carbonyl groups which can
+form coordination bonds with lithium salts, leading to fast ion
+transport in solid polymer electrolytes [141]. In addition, PMMA
+has excellent interfacial stability, low interfacial impedance to
+electrodes and good compatibility with electrolyte. However,
+due to the poor mechanical strength and thermodynamic instabil-
+ity of PMMA, there is a serious lithium dendrite problem when
+applied to LSBs. Therefore, PMMA is difﬁcult to be used as a
+matrix alone, and the PMMA matrix is usually needed to modify
+by blending, co-polymerization, cross-linking and addition of
+nanoparticles. Meanwhile, PMMA, as a high-afﬁnity polymer, also
+can be combined with other low-afﬁnity polymers, such as PVDF
+and PVDF-HFP, to form GPE to obtain excellent electrochemical
+properties [142]. Zhang et al. [143,144] combined PVDF-HFP with
+PMMA and montmorillonite nanoclay (PVDF-HFP/PMMA/MMT) as
+a polymer matrix to obtain GPE for assembled LSBs. The nanoclay
+with a layered structure allowed the polymer chains to be
+embedded in the layers, thus reducing the crystallinity of GPE
+and enhancing the compatibility with lithium electrodes and
+the electrical conductivity of GPE. A high ionic conductivity of
+3.06  10-3 S cm1 can be obtained for the GPE containing 5 wt
+% MMT at ambient temperature. Understanding the mechanism
+of action of GPE in LSBs is instructive for the inhibition of lithium
+polysulﬁde shuttling. Yang et al. [142] proposed the mechanism
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+180
+
+=== 第 12 页 ===
+of GPE in LSBs as shown in Fig. 4(E) using the PMMA polymer
+electrolyte as an example. To overcome the shuttle problem of
+lithium polysulﬁdes, some methods such as optimization of
+organic electrolytes, preparation of conductive polymer-sulfur
+composites and fabrication of carbon–sulfur composites have
+been employed. In modifying GPE, physical barrier, chemisorption
+and other methods are mainly used for further enhancing the per-
+formances of GPE.
+Polyacrylonitrile (PAN) is a promising polymer electrolyte car-
+rier with many advantages such as a wide electrochemical win-
+dow, good high temperature resistance, chemical resistance and
+environmental stability. The CN group of PAN also facilitates
+the decomposition of the lithium salt, thus providing a greater ﬂow
+of lithium ions [105,145,146]. However, it is unstable to lithium
+metal cathodes, which limits its application in SSLSBs. The CN
+group in pure PAN tends to cause a lithium anode ‘‘passivation
+effect”, which increases impedance and deteriorates electrochemi-
+cal performance. Blending PAN with other polymers or inorganic
+materials can effectively attenuate this problem to some extent.
+For example, Wang et al. [109] prepared a bi-layer gel polymer
+electrolyte for quasi-solid LSBs. A transition layer consisting of
+PAN, PEO, and Li1.3Al0.3Ti1.7(PO4)3 (LATP) was located on the Li
+anode side to reduce the ‘‘passivation effect” induced by pure
+PAN. Meanwhile, the high ionic conductivity layer consisting of
+PAN and LATP can be in tight contact with the cathode, and the
+high intrinsic ionic conductivity of PAN can be utilized to improve
+the rate performance. In addition, the added LATP ﬁller also can be
+acted as a Li+ transport channel to further improve the ionic con-
+ductivity. The results showed that the designed bi-layer electrolyte
+had a high Li+ transfer number of 0.55 and superior mechanical
+properties. In addition, a stable Coulomb effect of 99.6–100.0%
+and good capacity retention of 79.0% can be achieved after 100
+cycles at 0.1C.
+Although polymer electrolytes have been widely used in SSLSBs,
+most of SPEs face some challenges such as low mechanical strength
+at high temperature and low ionic conductivity at RT [147]. Sharp
+lithium dendrites can easily grow and penetrate in the soft SPE,
+eventually causing the battery to short circuit. During the develop-
+ment of SEs, some materials combining high modulus and excel-
+lent ionic conductivity may effectively suppress lithium dendrites
+growth in batteries. A recent study also showed that SPEs with
+shear modulus of the same order of magnitude as lithium metal
+anodes exhibit unprecedented lithium dendrite growth resistance,
+so it is particularly important to enhance the mechanical strength
+of SPEs to suppress lithium dendrites [61,80]. By introducing non-
+ionic conductive ceramic ﬁllers (such as Al2O3, SiO2, LLZO, LATP
+and so on) into polymer electrolytes to enhance the mechanical
+strength and ionic conductivity of the SPE, lithium dendrites can
+be effectively inhibited. The introduction of additional polymers
+in the pristine SPE by polymer blending, co-polymerization and
+cross-linking can also be effective in inhibiting the inhibition of
+dendrite growth. For example, Khurana et al. [148] reported a
+cross-linked polyethylene-poly(ethylene oxide) SPE, which mainly
+constrains the PEO chains by incorporating them into a cross-linker
+reduces the crystallization of PEO in the copolymers. Thus the
+excellent resistance to dendrite growth ability can be obtained.
+In general, polymer electrolytes have generally received much
+more attention and research in recent years because of their supe-
+rior ﬂexibility, ease of mass production, and tighter electrode/elec-
+trolyte interface bonding than solid electrolytes such as oxides and
+sulﬁdes. However, polymer electrolytes generally have low ionic
+conductivity, the stabilization potential window is not wide
+enough, and both mechanical strength and thermal stability need
+to be further improved. Therefore, it is not recommended to be
+used alone in SSLSBs, and modiﬁcation by physical or chemical
+has become a hot topic of current research.
+3.2. Inorganic solid electrolyte
+In recent years, all-inorganic solid-state batteries (AISSBs) also
+have received extensive attention due to their signiﬁcant improve-
+ments in safety and energy density over liquid-state batteries
+[16,149,150]. Inorganic SEs (ISEs) have lithium ion mobility num-
+bers closing to 1, ionic conductivity 2 to 4 orders of magnitude
+higher than polymer SEs at ambient temperature, and a wide elec-
+trochemical stability window [61,151]. Because ISE cannot dissolve
+LiPSs, they can physically and effectively block the shuttle effect of
+LiPSs [30,69]. In addition, ISEs with high mechanical strength can
+also regulate the uniform deposition of lithium on the anode side
+and inhibit the growth of lithium dendrites. Combined with the
+good thermal stability, ﬂame retardancy and safety of ISE, these
+advantages make it a promising application in LSBs including
+SSLSBs.
+Most ISE materials have a crystalline structure with a speciﬁc
+framework formed by coordination polyhedron. We can classify
+them into sulﬁde, oxide and nitride SEs, etc. based on the different
+heteroatoms in their ligands [61]. Next, we will introduce them in
+detail.
+3.2.1. Sulﬁde
+Among various candidate materials for SEs, sulﬁde-based inor-
+ganic electrolytes have attracted much attention due to their high
+ionic conductivity, mechanical properties, and good compatibility
+with sulfur cathodes [18,93,152,153]. Compared with SPE and
+oxide SEs, sulﬁde SEs have relatively low grain boundary resistance
+resulting in high ionic conductivity (10-3-10-2 S cm1) at RT. At the
+same time, sulﬁde electrolytes have relatively low elastic modulus
+and relatively low hardness, so the processability also is very excel-
+lent. In addition, sulﬁde electrolytes also exhibit excellent compat-
+ibility and better interfacial contact, making them the most
+promising SE type for SSLSBs [30,61,107,154]. Although great pro-
+gress has been made, most sulﬁde electrolytes have high hygro-
+scopic properties, making them less stable in air, degrading even
+in dry air conditions, prone to hydrolysis to produce toxic H2S
+gas, and the structure collapses during hydrolysis, resulting in a
+dramatic drop in ionic conductivity and potential safety issues
+[61,155]. In addition, narrow electrochemical windows (such as
+1.71–2.31 V for Li3PS4 and 1.72–2.29 V for Li10GeP2S12) also hinder
+their large-scale production and application [154]. Sulﬁde-based
+inorganic electrolyte types mainly include: thio-LISICON type,
+lithium argyrodite type, glass–ceramic type, etc. Next, we will give
+a detailed introduction according to these classiﬁcations [156].
+(1) Structure of the thio-LISICON
+Thio-LISICON-type solid solutions are the most typical class of
+sulﬁde
+SEs
+with
+the
+chemical
+general
+formula
+Li4-xA1-yByS4
+(A = Si, Ge, B = Zn, Al, P). In 2001, Kanno’s group ﬁrstly reported
+the thio-LISICON type solid solutions (Li2S-GeS2, Li2S-GeS2-ZnS,
+Li2S-GeS2-Ga2S3), and found that the ionic conductivity could be
+effectively enhanced by using heterovalent element substitution.
+Usually, the Li4GeS4 as shown in Fig. 5(A) has an ionic conductivity
+of only 2  10-7 S/cm. However, by replacing Ge4+ with Ga3+ and Li+
+to obtain Li4.275Ge0.61Ga0.25S4, its RT conductivity was increased to
+6.5  10-5 S/cm. Thus, the excellent ionic conductivity enhance-
+ment was attributed to the Li+ cavities formed by the substitution
+of heterovalent elements [157]. Thio-LISICON-type sulﬁde elec-
+trolytes have been used by many researchers in SSLSBs because
+of high ionic conductivity, low synthesis temperature, excellent
+mechanical ductility and excellent interface contact. The sulﬁde
+electrolytes studied so far are all based on the Li-P-S system. For
+example, Li9.54Si1.74P1.44S11.7Cl0.3 exhibits the highest Li-ion con-
+ductivity at RT among all sulﬁde SEs, making it the best choice
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+181
+
+=== 第 13 页 ===
+for SSLSBs. But the chemical stability of Li9.54Si1.74P1.44S11.7Cl0.3 is
+poor, which will create more difﬁculties during industrial produc-
+tion [58]. A lithium superionic conductor lithium thiophosphate
+Li10GeP2S12 (LGPS) as shown in Fig. 5(B) has a three-dimensional
+framework structure. It exhibits extremely high lithium ion con-
+ductivity at RT. The result represents the highest conductivity
+Fig. 5. (A) The structure of the thio-LISICON. The structure drawn in the ﬁgure is based on the parent structure of Li4GeS4. The three-dimensional framework structure is
+composed of GeS4 tetrahedra. Possible lithium sites are indicated in the ﬁgure. Reproduced with permission from Ref. [157]. Copyright 2001, IOP Publishing. (B) Crystal
+structure of Li10GeP2S12. (b1) The framework structure and lithium ions that participate in ionic conduction, (b2) framework structure of Li10GeP2S12, and (b3) conduction
+pathways of lithium ions. Reproduced with permission from Ref. [158]. Copyright 2011, Springer Nature. (C) Illustration of in situ formation of the LiXMg/LiF/polymer
+(lithiophilic-lithiophobic) SE interphase between Li and LGPS after dropping 1.0 M LiTFSI-Mg(TFSI)2-DME liquid electrolyte onto the LGPS membrane surface. Reproduced
+with permission from Ref. [159]. Copyright 2021, American Chemical Society. (D) Schematic illustration of the fabrication procedure of Cu2SnS3@graphene-Li7P3S11
+nanocomposite. Reproduced with permission from Ref. [160,175]. Copyright 2019, Wiley-ACH. (E) (e1) Discharge-charge curves and (e2) discharge/charge capacity and
+Coulombic efﬁciency of the all-solid-state S/Li6PS5Br/In-Li cell up to 50 cycles at RT. Reproduced with permission from Ref. [162]. Copyright 2014, American Chemical Society.
+(F) Cycle performances of SSLSBs based on 70Li2S30P2S5 and 70Li2S29P2S51SeS2 electrolytes at a rate of 0.1 mA cm2 at 30 C. Reproduced with permission from Ref. [169].
+Copyright 2019, Elsevier. (G) Preparation of the solid-state electrolyte and schematic of SSLSBs. Reproduced with permission from Ref. [155]. Copyright 2021, American
+Chemical Society.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+182
+
+=== 第 14 页 ===
+achieved in SEs, even surpassing that of liquid organic electrolytes.
+It also has good compatibility with sulfur cathodes and therefore
+has a wide range of applications in SSLSBs [154,155,158].
+However, the thermodynamic instability of LGPS to lithium
+metal makes LGPS susceptible to reduction to form Li2S-Li3P-
+LixGe ion/electron hybrid conductors, which promotes the forma-
+tion and growth of lithium dendrites in the SE. The formed side
+reaction also leads to the generation of cracks at the interface
+between the LGPS and cell electrode, which increases the interfa-
+cial impedance and shortens the battery cycle life. For example,
+Wan et al. [159] formed an interfacial layer with a pro-lithium-
+poor lithium gradient between Li and LGPS by sequentially
+reducing the salt and solvent in the Mg(TFSI)2-LiTFSI-DME liquid
+electrolyte at the LGPS/Li interface as presented in Fig. 5(C). Thus,
+the two challenges of reduction of LGPS electrolyte and lithium
+dendrite growth can be effectively solved. The rational design of
+the SE interface between the Li cathode and the LGPS electrolyte
+can provide new opportunities for the development of high-
+performance SSLSBs. Structural design and functional element
+doping of the cathode materials are also effective methods to
+improve the LGPS and electrode interface problem. Wan et al.
+[160] used high ionic conductivity Li7P3S11 as the electrolyte and
+designed
+and
+prepared
+the
+solid-state
+Cu2SnS3@graphene-
+Li7P3S11 nanocomposite cathodes and coated with Li7P3S11 on the
+surface as shown in Fig. 5(D). The large amount of nanoscaled
+triple-phase boundary in cathode ensured high power density
+due to high ionic and electronic conductions and the long cycle life
+due to uniform and reduced volume change of nano-Cu2SnS3 also
+can be realized. The assembled SSLSBs demonstrated a high rever-
+sible discharge speciﬁc capacity of 813.2 mA h g1 at 100 mA g1
+and retains 732.0 mA h g1 after 60 cycles.
+In conclusion, thio-LISICON type sulﬁde electrolytes are widely
+used in SSLSBs by virtue of their high ionic conductivity, low syn-
+thesis temperature, excellent mechanical ductility and good inter-
+facial contact, but also have the disadvantage of higher interfacial
+resistance due to solid–solid contact. Therefore, strategies such
+as solid electrolyte interface optimization and electrolyte surface
+modiﬁcation are often used to improve and solve the interfacial
+problems.
+(2) Lithium argyrodite type
+Argyrodite (Ag8GeS6) is a rare sulﬁde ore containing Ag and Ge
+elements. Replacing Ag+ in the argyrodite with Li+, and at the same
+time replacing other elements to maintain the stability of the
+structure, the novel material is named lithium- argyrodite, and
+its general structural formula is Li6PS5X (X = Cl, Br and I), which
+has a high ionic conductivity close to that of liquid electrolytes.
+It also has the advantages of good mechanical properties, fast ion
+transport, wide electrochemical window and they also can be syn-
+thesized at low cost by solution method, thus showing good pro-
+spects for industrialization among many electrolytes [57,69,161].
+Among them, the more typical Li-argyrodite Li6PS5Br makes it
+an attractive candidate electrolyte for SSLSBs by virtue of its
+ultra-fast ionic conductivity. For example, Chen et al. [162] pre-
+pared a sulfur composite cathode by incorporating amorphous sul-
+fur into super P carbon with a particle size of less than 100 nm by a
+two-step ball milling method, and used Li6PS5Br as SE to prepare
+SSLSBs. The prepared Li6PS5Br had high ionic conductivity (10-3
+S/cm), suitable electrochemical stability and excellent mechanical
+properties, which led to excellent ionic conduction properties
+and LiPSs inhibition in SSLSBs. The electrochemical performance
+is shown in Fig. 5(E), which showed a high initial discharge capac-
+ity of 1355 mA h/g and a reversible capacity of 1080 mA h/g after
+50 cycles. In cycles 2  50, the Coulombic efﬁciency reached an
+average value close to 100%. All of these results indicated that there
+were almost no side reactions and shuttle effect during the cycle.
+In addition, the prepared Li6PS5Br can be blended with the cathode
+material to enhance the cell capacity and improve the cell perfor-
+mance. Chuang et al. [57] obtained the optimized highest ionic
+conductivity (2.58  10-3 S/cm) at RT by controlling the optimal
+annealing temperature of Li6PS5Br as a SE and adopted the S-C-
+Li6PS5Br mixture as the cathode for SSLSBs were prepared. The dif-
+ferent cycling modes (charge–discharge and discharge–charge)
+showed that the capacity of S-C-Li6PS5Br/Li6PS5Br/Li-In cells was
+derived from the active S-C composite and Li6PS5Br in the cathode
+mixture, and the excellent discharge capacity contribution from
+the Li6PS5Br could be related to the decomposition product Li2S.
+The different cycling modes (charge–discharge and discharge–
+charge) suggested that the discharge capacity of the S-C Li6PS5Br/
+Li6PS5Br/Li-In battery came from the active S-C composite and
+the prepared Li6PS5Br in the cathode mixture, and the discharge
+capacity contribution of Li6PS5Br may be related to the decomposi-
+tion effect on the product Li2S. The assembled SSLSBs exhibited an
+initial discharge capacity of 1523.60 mA h g1 at RT.
+Despite the wide range of applications, lithium argyrodite has
+some disadvantages common to sulﬁde electrolytes. For example,
+they are more sensitive to water oxygen in air, poor compatibility
+with cathode materials, and interface problems with lithium metal
+in the cathode. These shortcomings limit its further application in
+SSLSBs [163].
+(3) Glass-ceramic type
+The study of ISE in Li-S systems is derived from sulﬁde glasses
+such as Li7P3S11 [164], Li3PS4, Li2S-P2S5 [61,165] and other glass–
+ceramic sulﬁde SEs have been widely studied due to their high
+ionic conductivity, easy processability and good compatibility with
+sulfur cathodes, which can exceed that of organic liquid elec-
+trolytes [27,30,69,155].
+Li3PS4, with its high RT ionic conductivity (10-4 S/cm) and
+good compatibility with lithium metal cathodes, is one of the
+widely investigated sulﬁde solid-state electrolytes. For example,
+Yamada et al. [166] assembled and tested a Li/Li3PS4/S solid-state
+cell. A speciﬁc capacity of  1600 mA h g1 (0.05C, 0.025 mA cm2)
+was reached at both 25 C and 80 C. Importantly, the initial
+Coulombic efﬁciency was close to 99%, and the high value of
+Coulombic efﬁciency was clear evidence that the SE layer effec-
+tively prevented polysulﬁde shuttling, thus conﬁrming that the
+Li3PS4 SE was very effective in physically preventing the fast migra-
+tion of LiPSs.
+Li2S-P2S5 glasses are widely studied in the ﬁeld of SSLSBs, and
+the glass-ceramics obtained by annealing can effectively improve
+the ionic conductivity of the electrolyte. The SSLSBs with Li2S-
+P2S5
+glass
+electrolyte
+can
+provide
+a
+reversible
+capacity
+of
+400 mA h g1 at 0.05C and 80 C [167,168]. However, non-
+ﬂowable inorganic particles and cathode composites established
+solid–solid contacts in these systems. Therefore, the interfacial
+afﬁnity and the activity of sulfur still remain great challenges.
+Doping treatment can change the overall micro-structure of the
+electrolyte, and in general, doping of other elements in sulﬁde elec-
+trolytes can expand the transport pathway of lithium ions and thus
+improve the electrical conductivity. In addition, doping treatment
+can reduce the interfacial resistance and grain boundary effects
+to improve the ability of lithium ion conduction and electrochem-
+ical properties of SEs, so introducing doping of other elements is an
+effective way to improve the ionic conductivity of ceramic SEs [61].
+For example, Wu et al. [169] prepared SeS2-doped Li2S-P2S5 (LPS)-
+based glass micro-crystalline electrolytes using a simple high-
+energy ball milling combined with annealing method. By replacing
+part of P2S5 with SeS2, the ionic conductivity can be greatly
+enhanced, exhibiting the high conductivity of 5.28  10-3 S cm1
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+183
+
+=== 第 15 页 ===
+at 20 C and activation energy as low as 24.7 kJ mol1. The assem-
+bled SSLSBs based on the 70Li2S-29P2S5-1SeS2 electrolytes and
+sulfur-reduced
+graphene
+oxide
+(S-rGO)
+composite
+cathodes
+showed a high initial discharge capacity of 658.1 mA h g1 at
+0.1 mA cm2 with good cycling stability, and the reversible dis-
+charge capacity was maintained at 558.3 mA h g1 after 100 cycles
+with almost 100% Coulombic efﬁciency as presented in Fig. 5(F).
+These results indicated that these electrolytes can show excellent
+rate capability and cycling stability at low temperatures when
+applied to SSLSBs.
+The substitution of elements in the same main group will
+lead to controllable structural deformation, which also is beneﬁ-
+cial to improve structural stability. Therefore, a homologue sub-
+stitution strategy, such as O to S substitution engineering, is
+proposed to effectively improve the stability of sulﬁde elec-
+trolyte [170,171]. For example, Zhao et al. [155] obtained Li7P2.9-
+Sb0.1S10.75O0.25 from Li7P3S11-doped Sb2O5 by high-energy ball
+milling and subsequent heat treatment as presented in Fig. 5
+(G), partially replacing Sb/P and O/S. The low conductivity phase
+was eliminated and the ionic conductivity reached as high as
+1.61  10-3 S cm1 at RT and exhibited stability in air and with
+lithium anode electrochemical stability. When used for ASSLSB,
+the discharge capacity was 1374.4 mA h g1 after 50 cycles at
+RT, with a Coulomb efﬁciency of 99.86%. When tested at higher
+temperatures, the capacity can be maintained at 1365.4 mA h g1
+after 100 cycles at 60 C. The strategy of homologous substitu-
+tion is not only effective in improving the stability of elec-
+trolytes, but
+has
+also
+been
+proven
+to
+promote
+their
+ionic
+conductivity.
+For
+example,
+Feng
+Pan
+calculated
+by
+density
+functional theory and molecular dynamics that the new SE
+Li14P2Ge2S8O8 obtained by doping oxygen into sulﬁde SE has
+the highest conductivity, and the theoretical ionic conductivity
+at RT was as high as 30.0 mS cm1. It is currently the best
+among solid-state electrolytes [58,72]. Other works have been
+done by partially replacing Li2S with Li2O and ZnO and P2S5 with
+P2O5, thus suppressing the generation of H2S gas and improving
+the air stability of the sulﬁde electrolyte [172–174].
+In conclusion, as with most inorganic SSEs, interfacial afﬁnity
+and sulfur activity remain great challenges. Both the doping treat-
+ment and the substitution of elements of the same main group aim
+to change the overall microstructure of the electrolyte and improve
+the ionic conductivity of ceramic SEs.
+3.2.2. Oxide
+Besides sulﬁde SEs, oxide solid electrolytes (OSEs) are another
+class of SIEs with fast ion diffusion channels, exhibiting high stabil-
+ity and good compatibility, and generally possessing a relatively
+wide electrochemical window [155]. Oxides are chemically more
+stable in air than those of sulﬁdes. They are stable in dry air and
+easy to synthesize and handle, but their ionic conductivity is not
+as high as that of sulﬁdes. In addition, OSEs block lithium dendrites
+which could lead to an increase in the overall energy density,
+owing to the intrinsic properties of Li-metal [93,176]. The most
+studied ceramic electrolytes are NASICON structured ceramic elec-
+trolytes and garnet structured ceramic electrolytes, whose lattice
+structure has facilitated channels suitable for rapid lithium ion
+transport and a large number of defects such as ion vacancies
+inside the materials, and both lattice cations and ion defects can
+be involved in the ion conduction process [177].
+(1) NASICON type
+NASICON electrolyte is also a very widely studied for inorganic
+OSE, which has attracted researching interest and attention due to
+its high ionic conductivity, high moisture stability, better air stabil-
+ity, and wide electrochemical window [155,178]. The general
+chemical formula for NASICON-type lithium ion conductor is
+AM2(PO4)3 (A = Li or Na, M = Ge, Ti or Zr) [179].
+Among various NASICON electrolyte systems, the most repre-
+sentative ones are Li1.5Al0.5Ge1.5(PO4)3 (LAGP) and Li1+xAlxTi2-x(-
+PO4)3
+(LATP)
+et
+al.
+[93,99,155,178].
+However,
+when
+such
+electrolytes are in contact with lithium metal, the reduction of
+Ti4+ or Ge4+ occurs in the process. A mixed ions/electrons conduct-
+ing layer (MCI) is also generated and this reduction reaction con-
+tinues
+because
+MCI
+can
+greatly
+provide
+ion
+and
+electron
+transport channels to both sides of the interface and it is prone
+to lithium dendrite formation [180,181].
+A lithium ﬁlm deposition method also has been used to alleviate
+this interfacial problem. For example, Hao et al. [99] developed a
+solid-state Li-S cell using a Li1.5Al0.5Ge1.5(PO4)3 (LAGP) solid cera-
+mic electrolyte instead of a liquid electrolyte. And the lithium ﬁlm
+was deposited on one side of the LAGP by evaporation to improve
+the interface contact problem between the anode and the LAGP. A
+sulfur-coated carbon nanotube cathode (S-MWCNT) was used as
+the cathode, and a small amount of ionic liquid was dripped to
+improve the ionic conductivity. The assembled Li-S cell exhibited
+a high capacity of 1510 mA h g1 in the ﬁrst cycle and maintained
+1400 mA h g1 after 30 cycles. Meanwhile, the Coulombic efﬁ-
+ciency of the cell was almost 100% in each cycle as in presented
+Fig. 6(A), indicating that this cell has a good suppression of the
+shuttle effect of LiPSs.
+NASICON electrolytes also tend to alleviate this interfacial prob-
+lem by compounding with polymer electrolytes. For example, Deng
+et al. [182] reported a facile in situ UV-curing method to prepare a
+composite electrolyte of polypropylene glycol-co-pentaerythritol
+triacrylate/Li1.5Al0.5Ge1.5(PO4)3 (PPG-co-PETA/LAGP) as shown in
+Fig. 6(B). The prepared composite electrolyte combined the high
+lithium ion conductivity and excellent mechanical strength of inor-
+ganic NASICON-structured LAGP with the nanopore structure and
+the good ﬂexibility and interfacial stability of cross-linked PPG-
+co-PETA. The composite electrolyte containing 66.85 wt% LAGP
+exhibited a high lithium ion conductivity of 5.95  10-3S cm1 at
+25 C, a high lithium ion transfer number of 0.83, and a wide elec-
+trochemical window of  5.0 V (for Li/Li+). When it was applied in
+high performance LSBs, it exhibited good electrochemical cycling
+performance,
+showing
+a
+speciﬁc
+discharge
+capacity
+of
+1508.1 mA h g1 for the ﬁrst cycle discharge, a capacity retention
+of 73.6% after 200 cycles at 0.25C at 25 C, and good rate perfor-
+mance. Similar to LAGP, high ionic conductivity LATP has also been
+widely studied for composite modiﬁcation. For example, Yu et al.
+[183] modiﬁed a thin polymer layer (PIN) with inherent nano-
+pores on the LATP SE, which signiﬁcantly enhanced the ionic inter-
+face between the electrode and the SE. On the negative side, the
+PIN layer prevented the direct contact between lithium metal
+and LATP, thus avoiding the reduction of lithium metal to LATP,
+and its elastic characteristics also led to the improvement of the
+ionic interface between the two solid-phase materials. On the cath-
+ode side, the special pore structure of the PIN layer prevents the
+migration of LiPSs to the surface of LATP, avoiding the subsequent
+reduction of LATP by LiPSs and providing sufﬁcient ion transport
+paths between the cathode and LATP ﬁlms. Thus, this PIN-LATP
+SE greatly improves the stability of LSBs. The assembled SSLSBs
+exhibited a speciﬁc capacity of 1110 mA h g1 at the cycling rate
+of C/10 at RT.
+At present, the NASICON electrolyte is widely studied. Its high
+ionic conductivity, high moisture stability, excellent air stability
+and wide electrochemical window make it a promising SSE. How-
+ever, the interfacial problems associated with this electrolyte are
+equally
+non-negligible
+and
+are
+often
+solved
+by
+electrolyte
+modiﬁcation.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+184
+
+=== 第 16 页 ===
+(2) Garnet type
+In contrast, garnet-structured (Garnet) OSEs have a high stabil-
+ity when in contact with lithium metal and therefore have received
+increasing research attention in recent years [89,184]. The garnet
+framework structure usually is composed of dodecahedral LaO8
+and octahedral ZrO6, while Li atoms are distributed in the voids
+of the framework structure, which can rapidly transition in the
+formed three-dimensional transport network structure [185].
+Garnet-type ceramic SE has high ionic conductivity at RT, wide
+electrochemical window, good chemical stability to metal lithium,
+and no structural transformation. However, there are still some
+challenges in using garnet-type ceramic electrolytes directly in
+solid-state high-energy batteries, and garnet-type OSEs have poor
+contact with the interface of electrodes, which leads to uneven
+charge density on the contact surface thus triggering the formation
+of lithium dendrites and even puncturing the electrolyte leading to
+cell short circuit [186].
+Li7La3Zr2O12 (LLZO) has become a star material in the ﬁeld of
+inorganic oxide electrolyte research due to high ionic conductivity
+and excellent Li+ transfer number, low cost, good mechanical prop-
+erties and good electrochemical and thermal stability, and various
+modiﬁcation optimization and processing process studies have
+emerged in an attempt to prepare practical SSLSBs [178,187]. For
+example, Tao et al. [188] designed and prepared a sulfur composite
+cathode based on LLZO@C and a solid-state composite electrolyte
+composed of Li7La3Zr2O12 (LLZO) and PEO. The addition of PEO also
+can greatly improve the interface problem between the solid-state
+LLZO electrolyte and the electrode. The obtained samples contain-
+ing 15 wt% of LLZO nanoparticles had the highest conductivity of
+9.5  10-6 and 1.1  10-4 S cm1 at 20 C and 40 C, respectively.
+The assembled solid-state Li-S cells as shown in Fig. 6(C) showed
+a moderate speciﬁc discharge capacity of more than 900 mA h g1
+at 37 C, exhibit high Coulombic efﬁciency, and show a signiﬁcant
+stable cycling performance.
+As
+everyone
+knows,
+Ta-doped
+LLZO
+ceramic
+electrolytes
+(LLZTO) have a lithium ion conductivity of 10-4-10-3 S cm1 at
+RT, which is much higher than LLZO and even when compared to
+conventional liquid electrolytes [189]. Murugan et al. [190] intro-
+duced multifunctional interlayers in LSBs to act as polysulﬁde dif-
+fusion inhibitors. The prepared Garnet Li6.4La3Zr1.4Ta0.6O12 (LLZTO)
+ceramic sheets were used as a SE with high ionic conductivity. A
+soft polypropylene interlayer permeated with 10 lL liquid elec-
+trolyte (PP-LE) was used to wet the interface on both sides of the
+cathode and anode to achieve smooth stripping and plating of
+lithium at the interface between metal Li and LLZTO. The ﬁnal
+Fig. 6. (A) (a1) Discharge/charge proﬁle of the solid-state Li-S cell at a current rate of 20 mA g1. (a2) The comparison of cycling performance presenting discharge capacity
+and Coulombic efﬁciency of the solid-state and the LAGP-free cells, respectively. Reproduced with permission from Ref. [99]; Copyright 2017, American Chemical Society. (B)
+(b1) Illustration of the NASICON structure of a Li1+XAlXTi2-X(PO4) (LATP) membrane. (b2) XRD pattern of the LATP membrane. (b3) XRD pattern of a PIN-ccpe (b4) SEM image of
+the cross-section of a PIN-coated LATP membrane. Reproduced with permission from Ref. [183]. Copyright 2019, Wiley-ACH. (C) Schematic illustration of an all-solid-state
+LSB based on LLZO nanostructures. Reproduced with permission from Ref. [188]. Copyright 2017, American Chemical Society. (D) Crystal structures of LiBH4 in (d1)
+orthorhombic (LT) and (d2) hexagonal (HT). Blue ball and gray tetrahedron show Li and BH4, respectively. Reproduced with permission from Ref. [192]. Copyright 2007, AIP
+Publishing. (E) Schematic diagram of PEO-LiBH4 hybrid electrolyte. Reproduced with permission from Ref. [194]. Copyright 2021, American Chemical Society.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+185
+
+=== 第 17 页 ===
+SSLSBs can achieve an initial discharge capacity of 1100 mA h g1.
+The discharge capacity at the 30th charge/discharge cycle was
+706 mA h g1 with a Coulombic efﬁciency approaching 100%. The
+SSLSBs modiﬁed with LLZTO (PP-D (LLZTO)) largely inhibited the
+diffusion of LiPSs on the membrane and improved the cycling per-
+formance and discharge capacity retention.
+In addition to the most studied ceramic electrolytes with NASI-
+CON structure and garnet structure, some perovskite types and
+anti-perovskite types have also received the attention of research-
+ers. The general formula of perovskite type is Li3xLa2/3-xTiO3 such as
+Li0.33La0.557TiO3 (LLTO) and so on [155]. Such OSEs have a simple
+synthesis method, relatively high ionic conductivity (10-3 S/cm),
+and a wide electrochemical window. But their grain boundary
+resistance is large, resulting in a low overall conductivity. In addi-
+tion, the interface of such SEs also is unstable when in contact with
+metallic lithium, which severely limits the practical application of
+LLTO. The anti-perovskite structure has the same structure as the
+perovskite, but the electrical properties of the elements are oppo-
+site, so it is called the anti-perovskite structure. A large amount of
+Li+ is accommodated in the anti-perovskite structure lattice, and by
+introducing a certain number of crystal defects, Li+ can be easily
+moved. Such structures have attracted more attention due to high
+ionic conductivity and wide electrochemical window (over 5 V).
+For example, the anti-perovskite structure Li3OCl0.5Br0.5 has a high
+RT ionic conductivity of 10-3 S/cm and a lower activation energy of
+0.15–1.30
+eV
+[191],
+which
+is
+helpful
+for
+fast
+lithium
+ion
+transportation.
+Among the known SSEs, garnet type SSEs are increasingly rec-
+ognized and studied because of their high electrochemical window,
+relatively stable chemical interface to lithium metal, relatively high
+ambient air stability, and ease of processing.
+3.2.3. Other inorganic electrolytes
+Hydrides
+are
+also
+promising
+solid-state
+electrolytes
+for
+rechargeable batteries. As a representative composite hydride elec-
+trolyte, lithium borohydride LiBH4 as shown in Fig. 6(D) has
+attracted attention because of its excellent chemical/electrochem-
+ical stability to lithium metal anodes, wide electrochemical stabil-
+ity window (relative to Li/Li+) and good compatibility with most
+cell electrodes. However, its drawback is the low ionic conductivity
+at RT, which only exhibits high ionic conductivity (10-3 Scm1) of
+hexagonal structure at temperatures above 117 C when the crys-
+tal structure is transformed from orthorhombic to hexagonal crys-
+tal system, limiting its practical applications [192]. The complex
+hydride-based electrolytes stand out for the intrinsic reductivity,
+ensuring superior chemical/electrochemical stability against the
+Li anode [193]. To increase its ionic conductivity at RT, Zhang
+et al. [194] doped lithium iodide (LiI) in lithium borohydride
+(LiBH4), and the introduction of I- enhanced the interfacial dynam-
+ics and improved the interfacial stability between the electrolyte
+and the lithium anode. As presented in Fig. 6(E), the composite
+poly(ethylene
+oxide)-hydride
+electrolyte
+PEO-Li4(BH4)3I
+(EO/
+Li+=10) was synthesized by solution casting, which exhibited the
+highest ionic conductivity of 4.09  10-4 Scm1 at 70 C and a Li+
+transfer number as high as 0.45. Applied to SSLSBs, it was able to
+exhibit after 75 cycles 232 mA h g1 of signiﬁcant cycling stability.
+The lithium ion conductivity of halide SEs is usually between
+10-3 and 10-7 S/cm, and there are unstable conductive phases and
+electrochemical instability at RT, which are previously considered
+to be a low ionic conductivity and poor stability of SE material sys-
+tems [195]. Recent studies have shown that halide solid-state elec-
+trolytes can also have high electrical conductivity and stability.
+Current research mainly focuses on Li3YCl6, Li3YBr6 and Li3InCl6
+due to their excellent ionic conductivity, high chemical/electro-
+chemical stability and outstanding plasticity. For example, Li
+et al. reported a rationally designed halide based Li3InCl6 SSE with
+a high ionic conductivity of 1.49  10-3 S cm1. By applying Li3InCl6
+SSE, the electrochemical performance of the battery in terms of
+capacity and durability can be signiﬁcantly improved. Although
+Li3InCl6 is not stable in air, the Li3InCl6 can show better stability
+in low humidity environment and is expected to be a promising
+solid-state electrolyte for applications in commercial lithium-ion
+manufacturing [196,197].
+Inorganic nitride electrolytes are mainly Li3N and thin-ﬁlm
+electrolyte LiPON. Single crystal lithium nitride (Li3N) is one of
+the earliest solid-state electrolytes. It is a layered SE with two-
+dimensional ion transport channels, which has the high ionic con-
+ductivity among potential SEs (6  10-3 S cm1 at RT), and is a good
+Li+ conductor [198]. It is very stable to Li metal and is often used for
+the protection of Li metal anodes and SEs. But unfortunately, its
+low electrochemical decomposition potential hinders its practical
+application [107,158]. LiPON is prepared mainly by radio frequency
+magnetron sputtering under N2 atmosphere, pulsed laser deposi-
+tion and other methods. The ionic conductivity was as high as
+3.3  10-6 S cm1 [199]. At the same time, it exhibits excellent
+long-term stability when in contact with lithium. However, the
+preparation process of LiPON electrolyte is also difﬁcult to control
+and the deposition rate is low, which is still needed for further
+enhancement [200].
+In conclusion, ISEs are attracting attention because of their
+advantages such as high safety and high energy density. However,
+poor solid–solid contact and detrimental interfacial reactions
+between ISEs and electrode materials lead to large interfacial resis-
+tances, resulting in still poor cycling performance of LSBs. Based on
+these reasons, various effective strategies have been proposed and
+applied in SSLSBs, such as interfacial modiﬁcation and chemical
+composition modiﬁcation of ISE, preparation of nanomaterials,
+porous materials and composites in cathodes, etc. [58].
+3.3. Composite electrolytes
+The
+above-mentioned
+various
+electrolytes
+have
+different
+advantages. We have compared the advantages and disadvantages
+of different SSEs as shown in Fig. 7. These comparisons will lay a
+solid foundation for the development of more multifunctional
+composite electrolytes for SSLSBs in the future. Due to the low
+ionic conductivity of polymer SEs at RT, and the large interface
+impedance and poor stability of inorganic ceramic SEs, single com-
+ponent SE can hardly meet the practical application requirements
+of high performance LSBs. In order to obtain better cycling perfor-
+mance, designing composite SEs (CSEs) by combining different SEs
+to collect their respective advantages has received increased atten-
+tion in recent years [110]. In general, current studies on CSSEs used
+in SSLSBs can be divided into three categories: Inorganic-organic
+CSSEs,
+organic-organic
+CSSEs,
+and
+inorganic-inorganic
+CSSEs.
+Among them, inorganic–organic CSSEs have been most extensively
+studied and are therefore highlighted in this review.
+3.3.1. Organic-inorganic composite electrolyte
+Organic-inorganic hybrid composite electrolyte is an emerging
+solid-state electrolyte formed by inorganic ﬁllers proportional to
+polymer systems [49,50]. The polymer has excellent ﬂexibility,
+interfacial stability and ease of handling and the inorganic material
+has high ionic conductivity, favorable ﬂame retardancy and excel-
+lent strength. The composite of organic and inorganic materials
+achieves the complementary advantageous functions of each com-
+ponent, which ultimately improves the comprehensive perfor-
+mance of SEs, including ionic conductivity, mechanical strength,
+interfacial stability, electrochemical window and migration num-
+ber, etc. [61,93,101,201,202]. The application of various composite
+electrolyte CPEs in LSBs can block the shuttle of LiPSs and is
+expected to be used as the electrolyte for future high-energy–
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+186
+
+=== 第 18 页 ===
+density and power-type SSLSBs to replace the existing liquid elec-
+trolytes [58,147].
+The addition of modiﬁed ﬁllers to SPEs to prepare composite
+polymer electrolytes is a popular area of SPE research. The func-
+tions of ﬁllers are multifaceted and can not only increase ionic con-
+ductivity and lithium ion migration number, but also improve
+interfacial stability and mechanical properties [50]. Based on the
+interaction mechanism in CPEs, various ﬁllers can be classiﬁed as
+active ﬁllers and inert ﬁllers. In addition to increasing the ionic
+conductivity, these ﬁllers also have an effect on the lithium ion
+mobility number, electrochemical stability window and mechani-
+cal properties of CPEs [203].
+(1) Active ﬁllers
+Active ﬁllers as ion-conducting inorganic materials can partici-
+pate in the ion-conductivity process by forming additional lithium
+ion
+transport
+paths,
+thus
+avoiding
+the
+limitation
+of
+ion-
+conductivity which is mainly dependent on the motion of polymer
+chain segments, thus further improving ion-conductivity. Typi-
+cally, active ﬁllers mainly include oxide-based chalcocite, NASICON
+type or garnet structures and sulﬁdes et al. The incorporation of
+active ﬁllers in polymer matrix not only integrates the advantages
+of high lithium ion conductivity, high mechanical properties and
+low interfacial resistance of active ﬁllers, but also takes advantage
+of various polymers to stabilize the electrode and electrolyte inter-
+faces [28,204]. In addition, a large number of active ﬁllers can limit
+the re-crystallization of polymer chains and the interaction with
+the polymer matrix also can promote the movement of polymer
+molecular chains, thus facilitating Li+ transport through preferen-
+tial ion conduction pathways and improving thermal stability,
+mechanical strength, and electrochemical stability [61,205–207].
+In summary, these advantages allow the active ﬁllers to be
+widely used in SSLSBs. For example, Li3.25Ge0.25P0.75S4 (LGPS) and
+Li6.4La3Zr1.4Ta0.6O12 (LLZTO) nanoparticles, etc. due to their large
+speciﬁc surface area and high activity, along with high ionic con-
+ductivity and good mechanical properties, have been widely used
+in composite polymer electrolytes [208,209]. Li et al. [152] added
+Li3.25Ge0.25P0.75S4 (LGPS) as an active ﬁller in polyethylene oxide
+(PEO), and the prepared composite electrolyte had excellent prop-
+erties with ceramic powder uniformly distributed throughout the
+polymer matrix. The PEO polymer electrolyte was embedded into
+the continuous tightly packed LGPS electrolyte particles, and the
+ceramic particles not only function as a ‘‘ﬁller” which can effec-
+tively inhibit the crystallinity of the polymer matrix. and become
+a major contributor to the conductivity of lithium ions in the com-
+Fig. 7. The advantages and disadvantages of different SSEs.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+187
+
+=== 第 19 页 ===
+posite electrolyte. The assembled LSB with a high initial discharge
+capacity of 1772 mA h g1 and excellent rate performance can be
+obtained.
+Although active ﬁllers offer so many beneﬁts and have led to
+signiﬁcant improvements in battery performance, however, larger
+particle sizes or agglomeration issues may hinder lithium ion
+transport channels. Nanoparticles have smaller particle size and
+relatively large speciﬁc surface area, which will bring more bene-
+ﬁts for the fast conduction of lithium ions. Therefore, the design
+of active ﬁllers should focus on nanosizing.
+(2) Inert ﬁllers
+The active ﬁller itself has ionic conductivity, which directly
+affects the migration process of lithium ions in the polymer sys-
+tem. While the inert ﬁller itself is not directly involved in the
+conduction of lithium ions, it also can enhance the performance
+of the composite electrolyte through interaction. Inert ﬁllers
+mainly refer to typical ceramic oxides such as Al2O3, TiO2, and
+SiO2 have been used in SPE based LSBs to achieve dendrite free
+lithium anodes by regulating the lithium deposition of polar func-
+tional groups, showing a strong ability to inhibit lithium dendrite
+growth [28,61]. These inert ﬁllers cannot conduct ions by them-
+selves, but when distributed in the polymer matrix, they can be
+acted as cross-linking centers through physical and/or chemical
+interactions, hindering the recrystallization of polymer chains
+and thus reducing the crystallinity of the polymer. At the same
+time, there is a strong Lewis acid-base interaction between the
+surface chemical groups of the inert ﬁllers and the cation/anion
+in the corresponding Li salts, which weakens the bond between
+Li+ and the salt anion and promotes the dissociation of the Li salts
+[203].
+SiO2 is a typical widely used inert ﬁller with hydroxyl groups on
+the surface, good dispersibility and large speciﬁc surface area. Lee
+et al. [210] extracted a highly porous silica (RHSiO2) with a 3D net-
+work nanostructure from rice husk as an inert ﬁller combined with
+PEO polymer to form a low-cost, high-performance CPE. RHSiO2
+particles have highly porous channels that allow PEO to create fast
+3D lithium ion channels for improved ionic conductivity, which
+plays a critical role in CPE. With the increase of RHSiO2 content,
+the ionic conductivity was greatly improved. At RT, 10 wt% of
+RHSiO2 CPE exhibited the highest ionic conductivity of 1.1  10-4
+S cm1. In addition, the RHSiO2 CPEs of the SSLSBs exhibit stable
+cycling ability (511 mA h g1 at the 300 th cycle) and an excellent
+rate capability (348 mA h g1 at 1C).
+However, since the improvement of ionic conductivity depends
+on the surface interactions between the ﬁller and PEO, its beneﬁt is
+limited by the maximum ﬁller loading. After this, the ionic conduc-
+tivity decreases due to the aggregation of the ﬁller and the winding
+of the Li+ pathways. Further modiﬁcations of the nanoﬁller, such as
+surface functional groups or grafting onto PEO chains, can provide
+satisfactory ionic conductivity. For example, Tao et al. [211] pre-
+pared a composite electrolyte consisting of ionic liquid grafted
+oxide nanoparticles and PEO polymers, in which the prepared
+IL@ZrO2 exhibited high ionic conductivity at low temperatures,
+reaching 4.95  10-4 S cm1, 2.32  10-4 S cm1 at 50 and 37 C,
+respectively. At the same time, the assembled SSLSBs with this
+composite electrolyte exhibited excellent electrochemical perfor-
+mance, with discharge speciﬁc capacities of 986 mA h g1 and
+600 mA h g1 at 50 and 37 C, respectively.
+In conclusion, organic–inorganic composite electrolyte realizes
+complementary advantages and functions of polymer and inor-
+ganic ﬁller, which ultimately improves the comprehensive perfor-
+mance of SE and has become the current research hotspot of SSE
+for LSBs. However, this type of electrolyte still faces many chal-
+lenges, including ionic conductivity, electrochemical window,
+solid–solid interface issues, two-phase compatibility and other
+key issues that need to be further explored.
+3.3.2. Organic-organic polymer composite
+Using
+polymer
+blending,
+multi-component
+polymer
+co-
+polymerization, cross-linking modiﬁcation and other methods to
+introduce components or segments with better compatibility can
+reduce the regularity of polymer molecules chain segments, inhibit
+crystallization and reduce the glass transition temperature, thus
+improving the mobility of polymer molecules, which is rather
+helpful for further enhancing the electrochemical performance of
+SSLSBs.
+Blending polymer electrolytes are formed by disrupting the reg-
+ularity of PEO molecular chain arrangement by the interaction
+between two or more molecular chains of the polymer [49]. The
+pure PEO is a kind of semi-crystalline polymer, which is not suit-
+able for ions migration. PEI is a highly crystalline polymer and mix-
+ing PEO and PEI may prevent crystallization of each other, resulting
+in some more viable matrices. For example, Tanaka et al. [212]
+blended polyethyleneimine(PEI) and PEO to reduce the crys-
+tallinity of PEO and PEI to obtain a well amorphous structure.
+The sharp drop in conductivity due to the crystallization has been
+largely eliminated, so the conductivity of the ﬁnal blended polymer
+electrolyte at RT was about 10-4 S cm1. It is a qualiﬁed SPE system
+for LSBs. Gao et al. [213] designed and prepared a gel polymer
+electrolyte (GPE) using a simple solution casting method by
+co-blending
+PVDF
+and
+PEO,
+doped
+with
+zirconium
+dioxide
+nanoparticles as shown in Fig. 8(A). The compact morphology of
+PVDF could prevent the penetration of LiPSs, and the addition of
+polyethylene oxide and zirconium dioxide nanoparticles also could
+ensure the absorption of electrolyte and the mobility of lithium.
+When applied to LSBs, the prepared electrolyte not only can effec-
+tively protect the lithium anode from polysulﬁde corrosion, show-
+ing good cycling performance (847.2 mA h g1 after 500 cycles at
+1C). It also had a high initial capacity of 1429 mA h g1, a high
+Coulombic efﬁciency of 96% at 0.2C, and exhibited good rate per-
+formance. Compared with inorganic doped solid state electrolyte
+materials, organic polymer doped solid state electrolytes have
+more advantages of simple preparation and less agglomeration.
+However, these simple physical blending between polymers makes
+it difﬁcult to mix homogeneously, and phase separation can easily
+occur, causing deterioration of mechanical properties.
+Polymer electrolytes can also be co-polymerized with each
+other to improve the properties of the polymer molecular chains
+[61]. Sheng et al. [214] designed and prepared a poly(ethylene
+oxide)-acrylonitrile (PEO-PAN) copolymer membrane electrolyte
+in which PAN ﬁbers acted as both ﬁller and cross-linker as pre-
+sented in Fig. 8(B). The novel structure not only provided improved
+ionic conductivity, high mechanical strength, and lithium dendrite
+blocking ability, but it also inhibited the shuttling of LiPSs, and
+improved the safety and cycle performance of LSBs due to the
+strong adsorption of LiPSs by the C = N-O functional groups formed
+during the cross-linking of PEO and PAN.
+The preparation of three-dimensional polymer networks by
+cross-linking has also been shown to be effective in improving
+the mechanical strength of SPEs. For example, Guo’s group [215]
+obtained
+a
+rigid-ﬂexible
+structure
+by
+photopolymerizing
+a
+branched acrylate on an ion-conducting PEO substrate. The fabrica-
+tion process is shown in Fig. 8(C). The obtained structure recon-
+ciled the inconsistency of stiffness and conductivity, achieving
+both high ionic conductivity (0.22 mS cm1) and high mechanical
+strength (12 GP) at RT. Its strength is sufﬁcient to accommodate
+the growth of Li dendrites. Although polymer co-blending, multi-
+component polymer co-polymerization, and cross-linking modiﬁ-
+cations can enhance the performance of electrolytes to some
+extent. However, the modiﬁcation effect between polymers is lim-
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+188
+
+=== 第 20 页 ===
+ited compared to that of organic/inorganic composite electrolytes.
+Therefore, organic/inorganic composite electrolytes are still the
+mainstream for researchers to develop composite electrolytes.
+3.4. Structure of composite electrolytes
+The design of the overall structure of the SSLSBs can effectively
+improve the performance of the battery. Depending on the struc-
+ture of ﬁllers, we classify the CSEs into the following categories
+based on different dimensions:
+3.4.1. 0D materials
+Inorganic ceramic electrolytes have high ionic conductivity.
+Inorganic nanoparticles with high ionic conductivity and lithium
+salts are dispersed into polymer electrolytes to prepare hybrid
+composite solid-state electrolyte. The composite method can not
+only reduce the crystallinity of the polymer matrix, but also realize
+the conduction of lithium ion in inorganic ceramic particles,
+thereby greatly enhancing the ionic conduction properties of the
+CSE [208,209]. The composite method is an effective strategy to
+improve the electrical properties, mechanical properties and even
+interfacial stability of a single polymer phase. The formed structure
+has been most extensively studied in composite electrolytes for
+SSLSBs. Among the inert nanoﬁllers, 0D nanoﬁllers are mainly
+divided into two categories: (1) Metal oxide ﬁllers including
+In2O3, Al2O3, TiO2, SiO2, ZrO2, treated SiO2, rare-earth oxide ceram-
+ics and ferroelectric materials; and (2) Non-metal oxide ﬁllers
+including nanocarbon materials, molecular sieves and zeolites.
+Regarding active ﬁllers, mainly including perovskite, NASICON,
+garnet types, and some others [110].
+Among the inert oxide ﬁllers, In2O3 ﬁllers have been widely
+studied for their stable physical and chemical properties, thermal
+Fig. 8. (A) The surface morphologies of CS (a1) and PPZr (a2), the cross-section of PPZr membrane (a3 and a4), and the illustration of Li+ ion transport and polysulﬁde blocking
+mechanism for the membrane of PPZr-GPE (a5). Reproduced with permission from Ref. [213]. Copyright 2017, Royal Society of Chemistry. (B) Preparation and characterization
+of the PEO-PAN-LiTFSI membrane electrolyte. (b1) Illustration of the preparation process of PEO-LiTFSI and PEO-PAN-LiTFSI. (b2, b4) SEM images of (b2) the PAN ﬁber
+membrane and (b4) PEO-PAN-LiTFSI. (b3, b5) Optical photographs and thickness measurements of (b3) the PAN ﬁber membrane and (b5) PEO-PAN-LiTFSI. Reproduced with
+permission from Ref. [214]. Copyright 2022, Wiley-ACH. (C) (c1) Illustration for preparing the ipn-PEA electrolyte and (c2) proposed electrochemical deposition behavior of Li
+metal with ipn-PEA electrolyte Reproduced with permission from Ref. [215]. Copyright 2016, American Chemical Society.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+189
+
+=== 第 21 页 ===
+stability and strong adsorption capacity. Zhang et al. [216] pre-
+pared a multifunctional SPE with In2O3 nanoparticles as ﬁller and
+PEO as matrix. The addition of In2O3 nanoparticles not only effec-
+tively improved the ionic conductivity and mechanical properties
+of PEO matrix, but also formed a dense Li-In alloy layer on the
+interface of lithium anode, which can induce uniform deposition
+of Li+, thus inhibiting the growth of lithium dendrites. In addition,
+due to its adsorption capacity, it can effectively capture LiPSs, thus
+hindering the shuttle effect of LiPSs. Combining these advantages,
+the prepared PEO/LiTFSI/In2O3 SPE based SSLSBs exhibited out-
+standing lithium anode stability and excellent cycling perfor-
+mance. The mechanism of In2O3 to enhance the performance of
+PEO based SSLSBs is shown in Fig. 9(A).
+Li6.5La3Zr1.5Ta0.5O12 (LLZTO) is a typical composite electrolyte
+active ﬁller and has been extensively studied. Shao et al. [147]
+designed and fabricated a thermo-polymerized composite gel poly-
+mer electrolyte for quasi-SSLSBs. The preparation process of homo-
+geneous CSE was presented in Fig. 9(B). The prepared CPE has a
+satisfying ionic conductivity and a wide electrochemical window
+as high as above 4.5 V. In particular, the incorporation of garnet
+LLZTO (0.3 lm) particle improves the ﬂame retardancy, mechani-
+cal property and thermal stability. In addition, the application of
+CPE in LSBs can hinder the shuttle of LiPSs to a certain extent,
+and the quasi-solid LSBs assembled by CPE showed good electro-
+chemical performance with only 0.22% decay per cycle at 0.1C
+for 200 cycles.
+In conclusion, compounding 0D ﬁllers with polymers not only
+reduces the crystallinity of the polymer matrix, but also enables
+the conduction of lithium ions in inorganic ceramic particles,
+which greatly enhances the ionic conductivity performance of
+CSE. However, the increase of ionic conductivity depends on the
+surface interaction between the ﬁller and the polymer. Under con-
+ditions beyond the maximum ﬁller loading, the ionic conductivity
+decreases due to the aggregation of ﬁllers and the entanglement of
+Li+ paths. It is also a challenge to avoid the aggregation of such ﬁl-
+lers in the polymer so as to achieve uniform dispersion. Therefore,
+0D ﬁllers require further modiﬁcations such as nanosizing, surface
+functional groups or grafting onto polymer chain segments.
+3.4.2. 1D materials
+Replacing 0D ﬁllers with one-dimensional(1D) ﬁllers (nan-
+otubes, nanorods and nanoﬁbers) is a reasonable choice to further
+increase the lithium ion conductivity. 1D nanostructured materials
+with large surface-to-volume ratios ensure large electrode–elec-
+trolyte contact areas and provide sufﬁcient active sites to acceler-
+ate reaction kinetics and also endows efﬁcient 1D electrons and
+lithium ions transport pathways. In addition, the longer dimension
+of the 1D material provides a more continuous percolation path-
+way, so there is less chance of agglomeration. It is worth noting
+that the addition of 1D material to the electrolyte can effectively
+reduce the crystallinity of the polymer matrix and improve the
+ionic conductivity. At the same time, the growth of lithium den-
+drites was successfully inhibited and the penetration of lithium
+dendrites was hindered [217].
+Therefore, 1D materials incorporated into polymer matrix are
+useful for improving ion conductivity and mechanical properties
+[217]. For example, Lin et al. [218] designed and prepared elec-
+trolytes for using natural halloysite nano-clay, which belongs to
+aluminosilicates (Al2Si2O5(OH)4), as ﬁllers for PEO matrix. The hal-
+loysite nanotube (HNT) is prepared as shown in Fig. 9(C). The
+lithium salt was separated into lithium ions and anions by the
+oppositely charged halloysite nanotube surfaces, where lithium
+ions were adhered to the outer tube silica surface with negatively
+charged and anions were absorbed on the inner tube aluminol sur-
+face indicating positively charged, providing a well-organized
+transport channel for lithium ions.
+The integrated structure of electrolyte and electrode with tight
+electrode/electrolyte interface contact, direct and fast electron
+transport paths, and three-dimensional(3D) ion diffusion channels
+contributes well to the performance improvement of SSLSBs. 1D
+materials also play an essential role in the design of the integrated
+structure of electrolyte and electrode. Yan et al. [219] introduced
+an interconnected electrolyte-cathode bilayer structure as shown
+in Fig. 9(D), which had an interconnected LLAZO channel from
+the electrolyte into the cathode. The highly conductive one-
+dimensional carbon nanoﬁbers can form a continuous ultrafast
+conduction pathway for electrons, and the structural design of
+the LLAZO nanoparticles continuously embedded in porous carbon
+nanoﬁbers shortens the diffusion distance of Li+ and electrons,
+greatly
+reduces
+the
+charge
+transfer
+resistance
+and
+strongly
+improves the kinetics of the redox reaction. In addition, the entire
+structure can be mechanically robust while maintaining ﬂexibility
+due to the excellent mechanical strength of carbon nanoﬁbers.
+In summary, 1D ﬁllers have larger contact area with the poly-
+mer matrix compared to 0D nanoparticle ﬁllers. Also, 1D ﬁllers
+have high aspect ratios, which can create continuous ion transport
+paths and thus improve the ionic conductivity of the electrolyte.
+However, there are still many problems to be solved. Although
+the application of 1D nanomaterials has improved the conductivity
+of polymers to some extent, most conversions are still limited to
+making SSLSBs work only at higher temperatures, which is not only
+a safety hazard but also not conducive to the commercial develop-
+ment of batteries. At the same time, the synthesis methods of 1D
+materials (e.g., hydrothermal and calcination methods at high tem-
+peratures and pressures) are not suitable for mass production and
+commercialization. In terms of the long-term development of 1D
+nanomaterials for solid-state lithium batteries, there is an urgent
+need
+to
+explore
+methods
+that
+are
+convenient,
+fast,
+energy-efﬁcient, and suitable for large-scale production.
+3.4.3. 2D materials
+2D ﬁllers (montmorillonite (MMT), halloysite nanotube (HNT),
+GO, boron nitride (BN), clay ﬂakes, MXene and so on), have a rich
+surface and abundant functional groups, thus which can form more
+active interfaces with polymers in CPEs. In addition, these 2D
+materials can facilitate the rapid transport of lithium ions through
+their ordered channels.
+Exfoliated natural mineral ﬁllers can also be effective in
+improving the ionic conductivity of polymer-based SEs. Minerals/-
+clays are usually silicates with polar surfaces which can be further
+exposed by layering. In addition, the mechanical strength, electro-
+chemical stability and thermal stability of the prepared electrolyte
+can be improved [110]. For example, Tang et al. [208] showed for
+the ﬁrst time a PEO-based SPE reinforced with 2D ﬁllers using ver-
+miculite ﬂakes VS, which was chemically close to inert ceramic ﬁl-
+lers. So it had excellent chemical and thermal stability, and good
+mechanical strength. In this composite system, a vertically aligned,
+continuous
+and
+penetrating
+polymer-ﬁller
+interface
+can
+be
+obtained, which facilitated Li+ transport as shown in Fig. 10(A).
+Similarly, Zhai et al. [220] reported a thin laminar composite solid
+electrolyte (LCSE), namely Vr/PEO-LCSE, was fabricated by ﬁltrat-
+ing vermiculite nanosheets, followed by intercalation of PEO-
+LiTFSI into the interlayer through a swelling and ﬁltration method.
+The preparation process is shown in Fig. 10(B). The continuous and
+regular interlayer channels improve the motility of PEO chains and
+dissociation of LiTFSI with highly enhanced ionic conductivity. In
+addition, the strength of the vermiculite nanosheets endows Vr/
+PEO-LCSE with more excellent mechanical strength, and its com-
+pressive strength reached as high as 131 MPa, which was 550%
+higher than that of pure PEO.
+Since the ionic conductivity of PEO based electrolytes is highly
+dependent on temperature, thermal variations in the electrolyte
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+190
+
+=== 第 22 页 ===
+can lead to inhomogeneous reactions in the electrode, which can
+signiﬁcantly affect lithium deposition and lead to dendrite forma-
+tion. Therefore, improving the thermal homogeneity of the poly-
+mer electrolyte is essential for the performance of SSLSBs. Yin
+et al. [221] used 2D boron nitride(BN) to improve the thermal
+homogeneity of PEO based polymer electrolytes and developed a
+PEO-PVDF
+hybrid
+polymer
+electrolyte
+containing
+2D
+BN
+nanosheets (BN-PEO-PVDF) as shown in Fig. 10(C). and demon-
+Fig. 9. (A) Schematic illustration of the mechanism of In2O3 enhancing the performance of PEO-based SSLSBs. Reproduced with permission from Ref. [216]. Copyright 2022,
+Elsevier. (B) Schematic preparation process of homogeneous composite solid electrolyte. Reproduced with permission from Ref. [147]. Copyright 2020, Elsevier. (C)
+Preparation of HNT modiﬁed ﬂexible electrolyte and mechanism of HNT addition for enhanced ionic conductivity. Reproduced with permission from Ref. [218]. Copyright
+2017, Elsevier. (D) Fabrication process of interconnected bilayer framework. Reproduced with permission from Ref. [219]. Copyright 2022, Elsevier.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+191
+
+=== 第 23 页 ===
+strated high speciﬁc capacity, good cycling in SSLSBs. In addition to
+improved ionic and mechanical properties, the BN ﬁller allows for
+faster and more balanced thermal changes and more uniform ion
+transport in the BN-PEO-PVDF electrolyte.
+In conclusion, compared with 0D nanoparticles and 1D nano-
+wires, 2D ﬁllers have abundant surfaces and rich functional groups,
+and these 2D materials can facilitate the rapid transport of lithium
+ions through their ordered channels. So far, however, the feasibility
+of using 2D materials for LSBs has only been explored as the tip of
+the iceberg. Graphene and BN-based materials have been exten-
+sively reported as representative 2D materials. However, there
+are little research on the remaining 2D materials, and it is urgent
+to wait for the combination of experimental veriﬁcation and simu-
+lation assistance. At the same time, how to obtain high quality 2D
+materials with controllable cost is also a major challenge of
+industrialization.
+3.4.4. 3D materials
+The multi-purpose 3D frame ﬁller can effectively avoid agglom-
+eration and precipitation of ﬁller in the polymer matrix and pro-
+vide a long-range continuous lithium ion transport path, thus
+effectively improving the ionic conductivity of the composite elec-
+trolyte. In addition, the 3D framework ﬁller also can signiﬁcantly
+improve the mechanical strength of the composite electrolyte, thus
+inhibiting the growth of lithium dendrites. Therefore, active ﬁllers
+with 3D-frame structures also have a wide range of applications in
+polymer modiﬁcation. Among the numerous 3D frameworks, inter-
+connected ﬁber networks with high surface area/volume ratios are
+one of the promising candidates for promoting ion transport and
+electrochemical stability [222].
+From the electrochemical point of view, the 3D network struc-
+ture can increase the effective contact area between electrolyte
+and electrode, which can reduce the local current density and
+retard the lithium stripping at the interface. From the mechanical
+point
+of
+view,
+the
+3D
+structure
+also
+introduces
+a
+stress
+ampliﬁcation effect to promote the creep of the lithium near the
+interface [223]. For example, a new PEO-based 3D Li6.4La3Zr2Al0.2-
+O12 (LLZO) nanoﬁber network CPE was fabricated by Hu’s group
+[224]. The results showed that the ionic conductivity of the ﬂexible
+CPE was improved with the help of 3D LLZO nanoﬁber network up
+to 2.5  10-4 S/cm at RT. In addition, the prepared LLZO
+network-enhanced SEs showed signiﬁcantly improved mechanical
+Fig. 10. (A) Improved ionic conductivity of SPE with VS. Reproduced with permission from Ref. [208]. Copyright 2020, Wiley-ACH. (B) Schematic illustration of the
+preparation procedure of Vr/PEO-LCSE. Reproduced with permission from Ref. [220]. Copyright 2020, Royal Society of Chemistry. (C) Rational design of solid-state polymer
+electrolyte with BN additive. (c1) Illustration of SSLSBs with polymer-based electrolytes and schematic comparison of heat transport through electrolytes with and without
+BN additives and (c2) sketch of a composite electrolyte consisting of 2D BN ﬂakes and a blended PEO-PVDF polymer with LiTFSI. Reproduced with permission from Ref. [221].
+Copyright 2020, Wiley-ACH. (D) Schematic of the novel bilayer solid-state electrolyte framework. Reproduced with permission from Ref. [225]. Copyright 2017, Royal Society
+of Chemistry. (E) Preparation process of LLZO@PEO and PTFE@LLZO@PEO solid electrolyte membrane. Reproduced with permission from Ref. [226]. Copyright 2022, Springer
+Nature.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+192
+
+=== 第 24 页 ===
+properties. They were stronger than pure PEO electrolytes and can
+effectively block dendrites in a lithium symmetric cell during
+repeated lithium stripping/plating at RT, with a current density
+of 0.2 mA cm2 around 500 h and a current density of 0.5 mA cm2
+over 300 h. These prepared electrolytes have great potential for
+application in SSLSBs due to their excellent performance. On this
+basis, the researchers have conducted further investigations and
+optimization. K. Fu et al. [225] proposed and prepared a 3D
+bi-layer garnet for SEs in LSBs as shown in Fig. 10(D), in which
+the dense inorganic LLZO layer can greatly improve the ionic con-
+ductivity and mechanical strength of the electrolyte, and the PEO
+polymer gel layer coated on it can alleviate the prominent interface
+problems between the inorganic layer and the electrode, including
+poor contact and wetting at the anode/electrolyte interface, inter-
+facial side reactions, and lithium growth to obtain better contact
+with the lithium metal anode. The results showed that the
+assembled hybrid Li-S cells exhibited high initial Coulombic efﬁ-
+ciency (>99.8%) and high average Coulombic efﬁciency (>99%) in
+the subsequent cycles.
+In addition to the commonly used 3D ceramic skeletons, poly-
+mers can also be used as support skeletons for composite solid-
+state electrolytes. Li et al. [226] designed and prepared a new
+PTFE@LLZO@PEO composite electrolyte for LSBs by introducing
+polytetraﬂuoroethylene (PTFE) ﬁlm into Li7La3Zr2O12 (LLZO)@PEO
+composite electrolyte as a support skeleton, which is shown in
+Fig. 10(E). The prepared composite electrolyte had good inhibitory
+effect on both LiPSs shuttle and lithium dendrite growth. The intro-
+duction of PTFE ﬁlm further improved the mechanical properties
+and thermal stability of the electrolyte. The prepared PTFE@LL-
+ZO@PEO electrolyte exhibited a conductivity of 5.03  10-5 S
+cm1 at 30 C and 2.54  10-4 S cm1 at 60 C. The assembled
+LSB based on PTFE@LLZO@PEO electrolyte exhibited excellent elec-
+trochemical performance.
+In conclusion, the 3D framework ﬁller can effectively avoid the
+agglomeration of ﬁller in the polymer matrix and provide a long-
+range continuous lithium ion transport path, thus effectively
+improving the ionic conductivity of the CSE. In addition, the 3D
+framework ﬁller can signiﬁcantly improve the mechanical strength
+of the CSE, thus inhibiting the growth of lithium dendrites. How-
+ever, although various types of 3D frameworks have been applied
+in CPE to facilitate lithium ion transport, the ionic conductivity is
+usually lower than 10-3 S cm1, which needs further improvement.
+In addition, low-cost fabrication of CPEs using 3D frameworks is
+challenging due to the immaturity of the technology. In order to
+achieve mass production, it is necessary to improve the prepara-
+tion process of 3D framework CPEs.
+In general, single-component SSEs can hardly meet the practical
+application requirements of lithium batteries. Therefore, the design
+and preparation of CSEs and the functional hybridization of each
+component have become an effective way to improve the perfor-
+mance of SSEs. Despite the rapid development in the ﬁeld of SSEs,
+there are still many challenges in the investigation of the basic prin-
+ciples and practical applications. For example, the microscopic
+interaction mechanism between inorganic ﬁllers and polymer
+materials is not clear, and how to disperse inorganic particles
+evenly in polymer matrix also needs to be further solved through
+some novel methods. Therefore, the in-depth study of the conduc-
+tion mechanism of lithium ions in CSEs, the synergistic interaction
+among components and the interfacial properties will provide guid-
+ance to further improve the performance of CSEs [227].
+4. Conclusions and perspectives
+The urgent demand for high energy density batteries and the
+attention to battery safety make it an inevitable trend to use SE
+instead of traditional liquid electrolyte in LSBs. The SSLSBs are
+not only very attractive for large-scale energy storage systems,
+but are also expected to ﬁnd applications in a variety of ﬁelds
+including customizable and wearable batteries. The application of
+wearable mobile phones, high-safety electric vehicles, drones, pho-
+toelectric space stations and other aspects can make our life safer,
+more convenient and more efﬁcient than before. Considering the
+long-term development of LSBs including SSLSBs and the great
+investment in recent years, SSLSB is the best choice for storage sys-
+tem in the near future (Fig. 11).
+At present, a lot of scientiﬁc researchers are focused on the
+development of SEs with higher ionic conductivity. SSLSBs using
+SSE instead of highly ﬂammable and enviably reactive organic-
+based electrolyte has great advantages over the traditional liquid
+LSBs. Firstly, the LiPSs are insoluble in SEs, and the SSEs are
+expected to block the transfer of LiPSs by physically separating
+the cathode and anode electrode, fundamentally and effectively
+overcoming the shuttle problem of dissolved LiPSs. All of these
+merits can provide an opportunity to achieve high energy density,
+safety and reliability. In addition, the density and structure of the
+SE allows more charged ions to gather and conduct a larger cur-
+rent, increasing the battery capacity and exhibiting a high energy
+density which is expected to exceed the battery performance of
+current lithium-ion batteries. At the same time, SEs are non-
+volatile and non-ﬂammable in nature, have a high melting temper-
+ature, and can improve safety and durability by eliminating highly
+ﬂammable liquid electrolytes. SEs are inert to lithium metal, and
+their inherent rigidity and non-ﬂammability limit lithium dendrite
+growth and reduce ﬁre risk.
+Despite SEs having made great progress and developments in Li-
+ion and LSBs, there are still some limitations that need to be paid
+attention to the aspect. These limitations will bring some obstacles
+to widespread commercial application. Firstly, ionic conductivity
+remains a prerequisite for evaluating SEs. Existing SEs do not meet
+sufﬁcient ionic conductivity and other standards, and ﬁnding and
+preparing SPEs with high ionic conductivity at ambient tempera-
+tures remains a signiﬁcant challenge up to now. In addition, non-
+ﬂowinginorganicsolid ceramic or glass electrolytesare rigid and dif-
+ﬁcult to close contact with cell electrodes for SSLSBs. Therefore, the
+interface problem between SE and electrode is particularly signiﬁ-
+cant in inorganic SSLSBs. At present, how to construct SSE with high
+ionic conductivity, good mechanical properties and good compati-
+bility with electrodes at RT is the main challenge faced by SSLSBs.
+At present, composite electrolytes with multifunctional features
+are the most promising direction. The research and development of
+composite solid electrolytes starts with the identiﬁcation of the
+detailed application area of the composite electrolyte in order to
+determine its characteristics and performance requirements. Then,
+suitable raw materials and production processes are selected
+according to the requirements of various application areas. After
+the complex research, developments and tests, they are continu-
+ously optimized to ﬁnally meet the performance requirements.
+Compared with the single inorganic solid electrolyte or organic poly-
+mer electrolyte, this research process is tedious and complicated,
+and the raw material ratios, additives and production processes of
+the composite electrolyte all have important effects on the perfor-
+mance of the composite electrolyte for the ﬁnal batteries. However,
+so far, the design of guiding electrolytes is not clear enough, and
+electrolyte design is hampered by the lack of effective guiding prin-
+ciples. Therefore, the development of composite electrolytes for
+speciﬁc performance requirements still is a huge challenge. In addi-
+tion, some composite electrolytes also suffer from complex struc-
+tures, complicated preparation processes and high costs, which are
+not conducive to large-scale production. Overall, composite elec-
+trolytes with comprehensive multi-functions have a longer way to
+go to meet the actual needs of continuous development.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+193
+
+=== 第 25 页 ===
+The review summarizes the types and characteristics of SEs.
+Polymer electrolyte has good safety, ﬁlm formation and viscoelas-
+ticity, and has good interface contact and compatibility with elec-
+trodes.
+But
+low
+ionic
+conductivity
+at
+RT,
+poor
+mechanical
+properties such as PEO, PVDF, PAN and other polymers have been
+widely studied. Inorganic SEs have high ionic conductivity and
+strong stability. However, their ionic conductivity still cannot meet
+the application requirements of LSBs due to the large impedance of
+electrolyte/electrode interfaces. Common inorganic electrolytes
+mainly are oxide, sulﬁde and nitride electrolytes, etc. Different
+types of SE materials have their own advantages and disadvan-
+tages, and their individual applications have their own limitations.
+Composite electrolyte has the advantages of both polymer and
+inorganic electrolyte, so it is the most promising to meet various
+properties at the same time, but there are still a lot of scientiﬁc
+and technical problems to be solved. For example, the microscopic
+interaction mechanism between inorganic ﬁllers and polymer
+materials is not clear, and how to disperse inorganic particles
+evenly in polymer matrix also needs to be further solved through
+some novel methods.
+Therefore, many scientiﬁc and technical challenges must be
+overcome before SEs are commercially available. Current solutions
+worth studying: (1) Designing high electronic/ionic conductivity
+sulfur cathodes, such as developing and implementing more pre-
+cise conductive coatings or electrode fabrication techniques,
+designing and fabricating cathode materials with high electronic
+and ionic conductivities; (2) Optimizing solid-state electrolytes
+(such as precisely controlling the dispersion and arrangement of
+‘‘active” ISE ﬁllers in polymer matrixes) and developing novel elec-
+trolytes with excellent properties; (3) Improving electrode/elec-
+trolyte interface stability and enhancing interfacial dynamics
+between electrolyte and anode For example, replacing the in-situ
+formed SEI with ex-situ coatings or using novel lithium anodes
+such as lithium-based composite anodes or lithium alloys; (4)
+Using more advanced test equipment and characterization tech-
+niques to deeply analyze the conduction mechanism of lithium
+ions in SSEs (such as, synchrotron X-ray techniques, solid state
+nuclear magnetic resonance, neutron diffraction and in situ imag-
+ing, etc.) and applying more theoretical calculations like DFT (den-
+sity functional theory).
+SSLSBs, as the future development direction of lithium batteries,
+have been supported by policy plans of various countries and have
+been extensively studied by scientiﬁc researchers. With the
+advancement of novel technologies and new ﬁelds, the optimiza-
+tion of solid-state electrolytes and the development of solid-state
+electrolytes with new materials and structures are potential
+approaches to solve the current problems of SSLSBs and accelerate
+the feasibility of energy storage applications.
+Declaration of competing interest
+The authors declare that they have no known competing ﬁnan-
+cial interests or personal relationships that could have appeared
+to inﬂuence the work reported in this paper.
+Acknowledgments
+This work was supported by the National Natural Science Foun-
+dation of China (52203066, 51973157, 51673148 and 51678411),
+the
+Science
+and
+Technology
+Plans
+of
+Tianjin,
+China
+(19PTSYJC00010), the China Postdoctoral Science Foundation Grant
+(2019M651047), and the Tianjin Research Innovation Project for
+Postgraduate Students, China (2020YJSB062), the Tianjin Municipal
+college student’ innovation and entrepreneurship training pro-
+gram, China (202110058052), and the National innovation and
+entrepreneurship training program for college students, China
+(202110058017).
+References
+[1] S. Chu, A. Majumdar, Nature 488 (2012).
+[2] A. Manthiram, Y. Fu, S.H. Chung, C. Zu, Y.S. Su, Chem. Rev. 114 (2014) 11751–
+11787.
+[3] J. Li, Z. Niu, C. Guo, M. Li, W. Bao, J. Energy Chem. 54 (2021) 434–451.
+[4] B. Dunn, H. Kamath, J.-M. Tarascon, Science 334 (2011) 928–935.
+Fig. 11. Prospect of the application of SSLSBs.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+194
+
+=== 第 26 页 ===
+[5] C.Y. Zhang, C. Q. Zhang, J. L. Pan, G. W. Sun, Z. D. Shi, C. H. Li, X. Q. Chang, G. Z.
+Sun, J. Y. Zhou, eScience. 2 (2022) 405–415.
+[6] X.-Y. Yue, J. Zhang, J. Bao, Y.-F. Bai, X.-L. Li, S.-Yu Yang, Z.-W. Fu, Z.-H. Wang,
+Y.-N. Zhou, eScience. 2 (2022) 329–338.
+[7] C.-X. Zu, H. Li, Energy Environ. Sci. 4 (2011) 2614–2624.
+[8] E. Quartarone, P. Mustarelli, Chem. Soc. Rev. 40 (2011) 2525–2540.
+[9] J. Li, Z. Xiong, Y. Wu, H. Li, X. Liu, H. Peng, Y. Zheng, Q. Zhang, Q. Liu, J. Energy
+Chem. 73 (2022) 513–532.
+[10] Z. Tong, L. Huang, W. Lei, H. Zhang, S. Zhang, J. Energy Chem. 54 (2021) 254–
+273.
+[11] H. Zhang, U. Oteo, X. Judez, G.G. Eshetu, M. Martinez-Ibañez, J. Carrasco, C. Li,
+M. Armand, Joule 3 (2019) 1689–1702.
+[12] C. Yang, K. Fu, Y. Zhang, E. Hitz, L. Hu, Adv. Mater. 29 (2017) 1701169.
+[13] T. Zhang, Y. Wang, T. Song, H. Miyaoka, K. Shinzato, H. Miyaoka, T. Ichikawa, S.
+Shi, X. Zhang, S. Isobe, N. Hashimoto, Y. Kojima, Joule 2 (2018) 1522–1533.
+[14] H. Zhang, U. Oteo, H. Zhu, X. Judez, M. Martinez-Ibanez, I. Aldalur, E. Sanchez-
+Diez, C. Li, J. Carrasco, M. Forsyth, M. Armand, Angew. Chem. Int. Ed. Engl. 58
+(2019) 7829–7834.
+[15] H. Yang, J. Chen, J. Yang, Y. Nuli, J. Wang, Energy Stor. Mater. 31 (2020) 187–
+194.
+[16] Y. Zhao, K. Zheng, X. Sun, Joule 2 (2018) 2583–2604.
+[17] J. Pan, J. Li, H. Dong, Y. Fang, K. Shi, Q. Liu, Chem. Eng. J. 447 (2022).
+[18] J.-K. Hu, H. Yuan, S.-J. Yang, Y. Lu, S. Sun, J. Liu, Y.-L. Liao, S. Li, C.-Z. Zhao, J.-Q.
+Huang, J. Energy Chem. 71 (2022) 612–618.
+[19] X. Liu, Y. Li, X. Xu, L. Zhou, L. Mai, J. Energy Chem. 61 (2021) 104–134.
+[20] Y. Zhang, Y. Wu, Y. Liu, J. Feng, Chem. Eng. J. 428 (2022).
+[21] Y. Wu, D. Li, J. Pan, Y. Sun, W. Huang, M. Wu, B. Zhang, F. Pan, K. Shi, Q. Liu, J.
+Mater. Chem. A 10 (2022) 16309–16318.
+[22] Y. Sun, W. Huang, J. Li, J. Pan, H. Nan, H. Dong, K. Shi, Q. Liu, AIChE J. 69 (2022)
+e17940.
+[23] Q. Liu, Y. Wu, D. Li, Y.Q. Peng, X. Liu, B.Q. Li, J.Q. Huang, H.J. Peng, Adv. Mater.
+35 (2023) e2209233.
+[24] J. Pan, Y. Sun, Y. Wu, J. Li, W. Huang, K. Shi, Y. Lin, H. Dong, Q. Liu, Carbon 198
+(2022) 80–90.
+[25] K. Kisu, S. Kim, R. Yoshida, H. Oguchi, N. Toyama, S.-I. Orimo, J. Energy Chem.
+50 (2020) 424–429.
+[26] H. Li, Y. Kuai, J. Yang, S.-I. Hirano, Y. Nuli, J. Wang, J. Energy Chem. 65 (2022)
+616–622.
+[27] Q. Han, X. Li, X. Shi, H. Zhang, D. Song, F. Ding, L. Zhang, J. Mater. Chem. A 7
+(2019) 3895–3902.
+[28] Y.-X. Song, Y. Shi, J. Wan, S.-Y. Lang, X.-C. Hu, H.-J. Yan, B. Liu, Y.-G. Guo, R.
+Wen, L.-J. Wan, Energy Environ. Sci. 12 (2019) 2496–2506.
+[29] W. Chen, T. Lei, C. Wu, M. Deng, C. Gong, K. Hu, Y. Ma, L. Dai, W. Lv, W. He, X.
+Liu, J. Xiong, C. Yan, Adv. Energy Mater. 8 (2018) 1702348.
+[30] M. Yan, W.-P. Wang, Y.-X. Yin, L.-J. Wan, Y.-G. Guo, Energy Chem. 1 (2019).
+[31] X. Wang, Y. Tan, G. Shen, S. Zhang, J. Energy Chem. 41 (2020) 149–170.
+[32] J. Zhang, H. Huang, Y. Xia, C. Liang, Y. Gan, X. Tao, W. Zhang, J. Electrochem.
+Soc. 166 (2019) A5349–A5353.
+[33] R. Xu, I. Belharouak, J.C.M. Li, X. Zhang, I. Bloom, J. Bareño, Adv. Energy Mater.
+3 (2013) 833–838.
+[34] P. Zou, Y. Wang, S. W. Chiang, X. Wang, F. Kang, vC. Yang, Nat. Commun. 9
+(2018) 464
+[35] Y. Wang, G. Wang, P. He, J. Hu, J. Jiang, L.-Z. Fan, Chem. Eng. J. 393 (2020).
+[36] Y. Lu, C.Z. Zhao, R. Zhang, H. Yuan, L.P. Hou, Z.H. Fu, X. Chen, J.Q. Huang, Q.
+Zhang, Sci. Adv. 7 (2021) eabi5520.
+[37] X. Yang, J. Luo,cX. Sun, Chem. Soc. Rev. 49 (2020) 2140–2195
+[38] Z. Zhang, X. Fan, M. Wu, Y. Zhong, X. Ding, C. Luo, Y. Chen,cX. Huang, J.
+Electroanal. Chem. 926 (2022) 116908
+[39] Q. Kang, Y. Li, Z. Zhuang, D. Wang, C. Zhi, P. Jiang, X. Huang, J. Energy Chem. 69
+(2022) 194–204.
+[40] X. Zhao, P. Xiang, J. Wu, Z. Liu, L. Shen, G. Liu, Z. Tian, L. Chen, X. Yao, Nano
+Lett. 23 (2023) 227–234.
+[41] B. Chen, S. Deng, M. Jiang, M. Wu, J. Wu, X. Yao, Chem. Eng. J. 448 (2022).
+[42] L. Wu, G. Liu, H. Wan, W. Weng, X. Yao, J. Power Sources 491 (2021).
+[43] C. Shi, T. Hamann, S. Takeuchi, G.V. Alexander, A.M. Nolan, M. Limpert, Z. Fu, J.
+O’Neill, G. Godbey, J.A. Dura, E.D. Wachsman, ACS Appl. Mater. Interfaces 15
+(2023) 751–760.
+[44] Y. Ma, J.H. Teo, D. Kitsche, T. Diemant, F. Strauss, Y. Ma, D. Goonetilleke, J.
+Janek, M. Bianchini, T. Brezesinski, ACS Energy Lett. 6 (2021) 3020–3028.
+[45] L. Huang, T. Lu, G. Xu, X. Zhang, Z. Jiang, Z. Zhang, Y. Wang, P. Han, G. Cui, L.
+Chen, Joule 6 (2022) 906–922.
+[46] Y. Wu, S. Wang, H. Li, L. Chen, F. Wu, InfoMat 3 (2021) 827–853.
+[47] J. Zhou, H. Ji, J. Liu, T. Qian, C. Yan, Energy Stor. Mater. 22 (2019) 256–264.
+[48] B. Ding, J. Wang, Z. Fan, S. Chen, Q. Lin, X. Lu, H. Dou, A. Kumar Nanjundan, G.
+Yushin, X. Zhang, Y. Yamauchi, Mater. Today 40 (2020) 114–131.
+[49] L. Yue, J. Ma, J. Zhang, J. Zhao, S. Dong, Z. Liu, G. Cui, L. Chen, Energy Stor.
+Mater. 5 (2016) 139–164.
+[50] D.E. Mathew, S. Gopi, M. Kathiresan, A.M. Stephan, S. Thomas, Electrochim.
+Acta 319 (2019) 189–200.
+[51] Z.L. Zhan Lin, N.J. Dudney, C. Liang, ACS Nano 7 (2013) 2829–2833.
+[52] X. Li, J. Liang, M.N. Banis, J. Luo, C. Wang, W. Li, X. Li, Q. Sun, Y. Hu, Q. Xiao, T.-
+K. Sham, L. Zhang, S. Zhao, S. Lu, H. Huang, R. Li, X. Sun, Energy Stor. Mater. 28
+(2020) 325–333.
+[53] X.L. Fan, X. Ji, F.D. Han, J. Yue, J. Chen, L. Chen, T. Deng, J.J. Jiang, C.S. Wang, Sci.
+Adv. 12 (2018) eaau9245.
+[54] L.-P. Hou, H. Yuan, C.-Z. Zhao, L. Xu, G.-L. Zhu, H.-X. Nan, X.-B. Cheng, Q.-B. Liu,
+C.-X. He, J.-Q. Huang, Q. Zhang, Energy Stor. Mater. 25 (2020) 436–442.
+[55] G.T. Hitz, D.W. McOwen, L. Zhang, Z. Ma, Z. Fu, Y. Wen, Y. Gong, J. Dai, T.R.
+Hamann, L. Hu, E.D. Wachsman, Mater. Today 22 (2019) 50–57.
+[56] Y. Fujii, M. Kobayashi, A. Miura, N.C. Rosero-Navarro, M. Li, J. Sun, M.
+Kotobuki, L. Lu, K. Tadanaga, J. Power Sources 449 (2020).
+[57] C. Yu, J. Hageman, S. Ganapathy, L. van Eijck, L. Zhang, K.R. Adair, X. Sun, M.
+Wagemaker, J. Mater. Chem. A 7 (2019) 10412–10421.
+[58] Y. Bai, Y. Zhao, W. Li, L. Meng, Y. Bai, G. Chen, Chem. Eng. J. 396 (2020).
+[59] Y.F. Huang, J.P. Zeng, S.F. Li, C. Dai, J.F. Liu, C. Liu, Y.B. He, Adv. Energy Mater. 8
+(2023) 2203888.
+[60] S. Mogurampelly, O. Borodin, V. Ganesan, Annu. Rev. Chem. Biomol. Eng. 7
+(2016) 349–371.
+[61] R. Chen, W. Qu, X. Guo, L. Li, F. Wu, Mater. Horizons 3 (2016) 487–516.
+[62] S. Gu, C. Sun, D. Xu, Y. Lu, J. Jin, Z. Wen, Electrochem. Energy Rev. 1 (2018)
+599–624.
+[63] H. Du, S. Li, H. Qu, B. Lu, X. Wang, J. Chai, H. Zhang, J. Ma, Z. Zhang, G. Cui, J.
+Membr. 550 (2018) 399–406.
+[64] O. Borodin, G.D. Smith, Macromolecules 39 (2006) 1620–1629.
+[65] R. Tan, R. Gao, Y. Zhao, M. Zhang, J. Xu, J. Yang, F. Pan, ACS Appl. Mater.
+Interfaces 8 (2016) 31273–31280.
+[66] Z. Stoeva, I. Martin-Litas, E. Staunton, Y.G. Andreev, P.G. Bruce, J. Am. Chem.
+Soc. 125 (2003) 4619–4626.
+[67] S. Wang, Q. Sun, Q. Zhang, C. Li, C. Xu, Y. Ma, X. Shi, H. Zhang, D. Song, L.
+Zhang, Adv. Energy Mater. 10 (2023) 2204036.
+[68] S.A. Pervez, B.P. Vinayan, M.A. Cambaz, G. Melinte, T. Diemant, T. Braun, G.
+Karkera, R.J. Behm, M. Fichtner, J. Mater. Chem. A 8 (2020) 16451–16462.
+[69] P. Bonnick, K. Niitani, M. Nose, K. Suto, T.S. Arthur, J. Muldoon, J. Mater. Chem.
+A 7 (2019) 24173–24179.
+[70] X. He, Y. Zhu, Y. Mo, Nat. Commun. 8 (2017) 15893.
+[71] B. Zhang, J. Zhong, Y. Zhang, L. Yang, J. Yang, S. Li, L.-W. Wang, F. Pan, Z. Lin,
+Nano Energy 79 (2021).
+[72] B. Zhang, M. Weng, Z. Lin, Y. Feng, L. Yang, L.W. Wang, F. Pan, Small 16 (2020)
+e1906374.
+[73] B. Zhang, Z. Lin, L.W. Wang, F. Pan, ACS Appl. Mater. Interfaces 12 (2020)
+6007–6014.
+[74] S. Muy, J.C. Bachman, L. Giordano, H.-H. Chang, D.L. Abernathy, D. Bansal, O.
+Delaire, S. Hori, R. Kanno, F. Maglia, S. Lupart, P. Lamp, Y. Shao-Horn, Energy
+Environ. Sci. 11 (2018) 850–859.
+[75] Y. Shi, B. Li, Q. Zhu, K. Shen, W. Tang, Q. Xiang, W. Chen, C. Liu, J. Luo, S. Yang,
+Adv. Energy Mater. 10 (2020) 1903534.
+[76] Y. Liu, B. Xu, W. Zhang, L. Li, Y. Lin, C. Nan, Small 16 (2019) 1902813.
+[77] Z. Li, H.-M. Huang, J.-K. Zhu, J.-F. Wu, H. Yang, L. Wei, X. Guo, ACS Appl. Mater.
+Interfaces 11 (2018) 784–791.
+[78] X. Wang, S. Huang, K. Guo, Y. Min, Q. Xu, Adv. Funct. Mater. 32 (2022)
+2206976.
+[79] X.-B. Cheng, C.-Z. Zhao, Y.-X. Yao, H. Liu, Q. Zhang, Chem. 5 (2019) 74–96.
+[80] D. Cao, X. Sun, Q. Li, A. Natan, P. Xiang, H. Zhu, Matter 3 (2020) 57–94.
+[81] S. Wenzel, S. Randau, T. Leichtweiß, D.A. Weber, J. Sann, W.G. Zeier, J. Janek,
+Chem. Mater. 28 (2016) 2400–2407.
+[82] Y. Su, L. Ye, W. Fitzhugh, Y. Wang, E. Gil-González, I. Kim, X. Li, Energy
+Environ. Sci. 13 (2020) 908–916.
+[83] L. De Trizio, L. Manna, Chem. Rev. 116 (2016) 10852–10887.
+[84] A. Masias, N. Felten, R. Garcia-Mendez, J. Wolfenstine, J. Sakamoto, J. Mater.
+Sci. 54 (2018) 2585–2600.
+[85] W.S. LePage, Y. Chen, E. Kazyak, K.-H. Chen, A.J. Sanchez, A. Poli, E.M.
+Arruda, M.D. Thouless, N.P. Dasgupta, J. Electrochem. Soc. 166 (2019) A89–
+A97.
+[86] C. Lee, S.Y. Han, J.A. Lewis, P.P. Shetty, D. Yeh, Y. Liu, E. Klein, H.-W. Lee, M.T.
+McDowell, ACS Energy Lett. 6 (2021) 3261–3269.
+[87] S. Chen, D. Xie, G. Liu, J.P. Mwizerwa, Q. Zhang, Y. Zhao, X. Xu, X. Yao, Energy
+Stor. Mater. 14 (2018) 58–74.
+[88] L. Xu, S. Tang, Y. Cheng, K. Wang, J. Liang, C. Liu, Y.-C. Cao, F. Wei, L. Mai, Joule
+2 (2018) 1991–2015.
+[89] K. Kataoka, H. Nagata, J. Akimoto, Sci. Rep. 8 (2018) 9965.
+[90] S. Li, H. Dai, Y. Li, C. Lai, J. Wang, F. Huo, C. Wang, Energy Stor. Mater. 18
+(2019) 222–228.
+[91] S. Xu, D.W. McOwen, L. Zhang, G.T. Hitz, C. Wang, Z. Ma, C. Chen, W. Luo, J.
+Dai, Y. Kuang, E.M. Hitz, K. Fu, Y. Gong, E.D. Wachsman, L. Hu, Energy Stor.
+Mater. 15 (2018) 458–464.
+[92] F. Han, A.S. Westover, J. Yue, X. Fan, F. Wang, M. Chi, D.N. Leonard, N.J.
+Dudney, H. Wang, C. Wang, Nat. Energy 4 (2019) 187–196.
+[93] X. Liang, L. Wang, X. Wu, X. Feng, Q. Wu, Y. Sun, H. Xiang, J. Wang, J. Energy
+Chem. 73 (2022) 370–386.
+[94] T. Famprikis, P. Canepa, J.A. Dawson, M.S. Islam, C. Masquelier, Nat. Mater. 18
+(2019) 1278–1291.
+[95] Z. Lin, Z. Liu, W. Fu, N.J. Dudney, C. Liang, Angew. Chem. Int. Ed. Engl. 52
+(2013) 7460–7463.
+[96] H. Nagata, Y. Chikusa, J. Power Sources 264 (2014) 206–210.
+[97] M. Nagao, A. Hayashi, M. Tatsumisago, J. Mater. Chem. 22 (2012) 10015–
+10020.
+[98] Q. Wang, Z. Wen, J. Jin, J. Guo, X. Huang, J. Yang, C. Chen, Chem Commun. 52
+(2016) 1637–1640.
+[99] Y. Hao, S. Wang, F. Xu, Y. Liu, N. Feng, P. He, H. Zhou, ACS Appl. Mater.
+Interfaces 9 (2017) 33735–33739.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+195
+
+=== 第 27 页 ===
+[100] X. Yang, X. Gao, C. Zhao, Q. Sun, Y. Zhao, K. Adair, J. Luo, X. Lin, J. Liang, H.
+Huang, L. Zhang, S. Lu, R. Li, X. Sun, Energy Stor. Mater. 27 (2020) 198–204.
+[101] L. Chen, L.Z. Fan, Energy Stor. Mater. 15 (2018) 37–45.
+[102] W. Li, C. Sun, J. Jin, Y. Li, C. Chen, Z. Wen, J. Mater. Chem. A 7 (2019) 27304–
+27312.
+[103] F. Bertasi, G. Pagot, K. Vezzù, A. Nale, G. Pace, Y. Herve Bang, G. Crivellaro, E.
+Negro, V. Di Noto, Electrochim. Acta 307 (2019) 51–63.
+[104] X. Yang, Q. Sun, C. Zhao, X. Gao, K.R. Adair, Y. Liu, J. Luo, X. Lin, J. Liang, H.
+Huang, L. Zhang, R. Yang, S. Lu, R. Li, X. Sun, Nano Energy 61 (2019) 567–575.
+[105] J. Qian, B. Jin, Y. Li, X. Zhan, Y. Hou, Q. Zhang, J. Energy Chem. 56 (2021) 420–
+437.
+[106] X. Zhu, Z. Wen, Z. Gu, Z. Lin, J. Power Sources 139 (2005) 269–273.
+[107] S. Chen, B. Ding, Q. Lin, Y. Shi, B. Hu, Z. Li, H. Dou, X. Zhang, J. Electroanal.
+Chem. 880 (2021).
+[108] L. Chen, Y. Li, S.-P. Li, L.-Z. Fan, C.-W. Nan, J.B. Goodenough, Nano Energy 46
+(2018) 176–184.
+[109] X. Wang, X. Hao, Y. Xia, Y. Liang, X. Xia, J. Tu, J. Membr. 582 (2019) 37–47.
+[110] Y. Zheng, Y. Yao, J. Ou, M. Li, D. Luo, H. Dou, Z. Li, K. Amine, A. Yu, Z. Chen,
+Chem. Soc. Rev. 49 (2020) 8790–8839.
+[111] R. Ribeiro, G.G. Silva, N.D.S. Mohallem, Electrochim. Acta 46 (2001) 1679–
+1686.
+[112] J. Liang, S. Hwang, S. Li, J. Luo, Y. Sun, Y. Zhao, Q. Sun, W. Li, M. Li, M.N. Banis,
+X. Li, R. Li, L. Zhang, S. Zhao, S. Lu, H. Huang, D. Su, X. Sun, Nano Energy 78
+(2020).
+[113] C.-Y. Chiu, H.-W. Chen, S.-W. Kuo, C.-F. Huang, F.-C. Chang, Macromolecules
+37 (2004) 8424–8430.
+[114] N. Angulakshmi, K. Nahm, J.R. Nair, C. Gerbaldi, R. Bongiovanni, N. Penazzi, A.
+M. Stephan, Electrochim. Acta 90 (2013) 179–185.
+[115] I. Martin-Litas, Y.G. Andreev, P.G. Bruce, Chem. Mater. 14 (2002) 2166–2170.
+[116] J.W. Fergus, J. Power Sources 195 (2010) 4554–4569.
+[117] M. Armand, W. Gorecki, R. Andreani, B. Scrosati, Second international
+meeting on polymer electrolytes. 1990.
+[118] C. Angell, C. Liu, E. Sanchez, Nature 362 (1993) 137–139.
+[119] Y.J. Shen, M.J. Reddy, P.P. Chu, Solid State Ionics 175 (2004) 747–750.
+[120] S.-S. Choi, Y.S. Lee, C.W. Joo, S.G. Lee, J.K. Park, K.-S. Han, Electrochim. Acta 50
+(2004) 339–343.
+[121] C. Long, L. Li, M. Zhai, Y. Shan, J. Phys. Chem. Solids 134 (2019) 255–261.
+[122] Y.-Q. Shen, F.-L. Zeng, X.-Y. Zhou, A.-B. Wang, W.-K. Wang, N.-Y. Yuan, J.-N.
+Ding, J. Energy Chem. 48 (2020) 267–276.
+[123] Y. Zhang, R. Chen, S. Wang, T. Liu, B. Xu, X. Zhang, X. Wang, Y. Shen, Y.-H. Lin,
+M. Li, L.-Z. Fan, L. Li, C.-W. Nan, Energy Stor. Mater. 25 (2020) 145–153.
+[124] X. Liang, Y. Zhang, Y. Ning, D. Huang, L. Lan, S. Li, Nanomater. 12 (2022) 2614.
+[125] Y. Shan, L. Li, X. Yang, ACS Appl. Energy Mater. 4 (2021) 5101–5112.
+[126] Y. Wu, Y. Li, Y. Wang, Q. Liu, Q. Chen, M. Chen, J. Energy Chem. 64 (2022) 62–
+84.
+[127] F.-M. Wang, Y.-Y. Wang, C.-C. Wan, ECS Trans. 16 (2009) 91.
+[128] B. Oh, D. Vissers, Z. Zhang, R. West, H. Tsukamoto, K. Amine, J. Power Sources
+119 (2003) 442–447.
+[129] C.N. Walker, C. Versek, M. Touminen, G.N. Tew, ACS Macro Lett. 1 (2012)
+737–741.
+[130] R. Hooper, L.J. Lyons, M.K. Mapes, D. Schumacher, D.A. Moline, R. West,
+Macromolecules 34 (2001) 931–936.
+[131] N.A. Rossi, Q. Wang, K. Amine, R. West, SILICON-NETH 2 (2010) 201–208.
+[132] J. Li, Y. Lin, H. Yao, C. Yuan, J. Liu, ChemSusChem. 7 (2014) 1901–1908.
+[133] T. Okumura, S. Nishimura, Solid State Ionics 267 (2014) 68–73.
+[134] B. Sun, J. Mindemark, K. Edström, D. Brandell, Solid State Ionics 262 (2014)
+738–742.
+[135] J. Zhang, J. Zhao, L. Yue, Q. Wang, J. Chai, Z. Liu, X. Zhou, H. Li, Y. Guo, G. Cui,
+Adv. Energy Mater. 5 (2015) 1501082.
+[136] J. Chai, Z. Liu, J. Ma, J. Wang, X. Liu, H. Liu, J. Zhang, G. Cui, L. Chen, Adv. Sci. 4
+(2017) 1600377.
+[137] H. Huang, F. Ding, H. Zhong, H. Li, W. Zhang, X. Liu, Q. Xu, J. Mater. Chem. A 6
+(2018) 9539–9549.
+[138] J. Jie, Y. Liu, L. Cong, B. Zhang, W. Lu, X. Zhang, J. Liu, H. Xie, L. Sun, J. Energy
+Chem. 49 (2020) 80–88.
+[139] G. Chen, F. Zhang, Z. Zhou, J. Li, Y. Tang, Adv. Energy Mater. 8 (2018) 1801219.
+[140] Y. Xia, X. Wang, X. Xia, R. Xu, S. Zhang, J. Wu, Y. Liang, C. Gu, J. Tu, Chem. 23
+(2017) 15203–15209.
+[141] M. Dirican, C. Yan, P. Zhu, X. Zhang, Mater. Sci. Eng. R Rep. 136 (2019) 27–46.
+[142] Q. Yang, N. Deng, J. Chen, B. Cheng, W. Kang, Chem. Eng. J. 413 (2021).
+[143] M. Deka, A. Kumar, J. Power Sources 196 (2011) 1358–1364.
+[144] M. Deka, A. Kumar, Electrochim. Acta 55 (2010) 1836–1842.
+[145] S. Li, W. Zhang, J. Zheng, M. Lv, H. Song, L. Du, Adv. Energy Mater. 11 (2021)
+2000779.
+[146] P. Chu, Z.-P. He, Polymer 42 (2001) 4743–4749.
+[147] D. Shao, L. Yang, K. Luo, M. Chen, P. Zeng, H. Liu, L. Liu, B. Chang, Z. Luo, X.
+Wang, Chem. Eng. J. 389 (2020).
+[148] R. Khurana, J.L. Schaefer, L.A. Archer, G.W. Coates, J. Am. Chem. Soc. 136
+(2014) 7395–7402.
+[149] J. Yue, F. Han, X. Fan, X. Zhu, Z. Ma, J. Yang, C. Wang, ACS Nano 11 (2017)
+4885–4891.
+[150] E. Umeshbabu, B. Zheng, Y. Yang, Electrochem. Energy Rev. 2 (2019) 199–230.
+[151] R. Ye, C.-L. Tsai, M. Ihrig, S. Sevinc, M. Rosen, E. Dashjav, Y.J. Sohn, E.
+Figgemeier, M. Finsterbusch, Green Chem. 22 (2020) 4952–4961.
+[152] M. Li, J.E. Frerichs, M. Kolek, W. Sun, D. Zhou, C.J. Huang, B.J. Hwang, M.R.
+Hansen, M. Winter, P. Bieker, Adv. Funct. Mater. 30 (2020) 1910123.
+[153] J. Wu, S. Liu, F. Han, X. Yao, C. Wang, Adv. Mater. 33 (2021) e2000751.
+[154] Y. Cao, P. Zuo, S. Lou, Z. Sun, Q. Li, H. Huo, Y. Ma, C. Du, Y. Gao, G. Yin, J. Mater.
+Chem. A 7 (2019) 6533–6542.
+[155] B.S. Zhao, L. Wang, P. Chen, S. Liu, G.R. Li, N. Xu, M.T. Wu, X.P. Gao, ACS Appl.
+Mater. Interfaces 13 (2021) 34477–34485.
+[156] J. Wu, L. Shen, Z. Zhang, G. Liu, Z. Wang, D. Zhou, H. Wan, X. Xu, X. Yao,
+Electrochem. Energy Rev. 4 (2020) 101–135.
+[157] R. Kanno, M. Murayama, J. Electrochem. Soc. 148 (2001) A742.
+[158] N. Kamaya, K. Homma, Y. Yamakawa, M. Hirayama, R. Kanno, M. Yonemura,
+T. Kamiyama, Y. Kato, S. Hama, K. Kawamoto, A. Mitsui, Nat. Mater. 10 (2011)
+682–686.
+[159] H. Wan, S. Liu, T. Deng, J. Xu, J. Zhang, X. He, X. Ji, X. Yao, C. Wang, ACS Energy
+Lett. 6 (2021) 862–868.
+[160] H. Wan, L. Cai, F. Han, J.P. Mwizerwa, C. Wang, X. Yao, Small 15 (2019)
+e1905849.
+[161] G. Liu, W. Weng, Z. Zhang, L. Wu, J. Yang, X. Yao, Nano Lett. 20 (2020) 6660–
+6665.
+[162] M. Chen, S. Adams, J. Solid State Electrochem. 19 (2014) 697–702.
+[163] Y.-Z. Sun, J.-Q. Huang, C.-Z. Zhao, Q. Zhang, Sci. China Chem. 60 (2017) 1508–
+1526.
+[164] X. Zhu, W. Jiang, S. Zhao, R. Huang, M. Ling, C. Liang, L. Wang, Nano Energy 96
+(2022).
+[165] Y. Fujii, Y. Suto, A. Miura, M. Higuchi, K. Tadanaga, Chem. Lett. 45 (2016) 652–
+654.
+[166] T. Yamada, S. Ito, R. Omoda, T. Watanabe, Y. Aihara, M. Agostini, U. Ulissi, J.
+Hassoun, B. Scrosati, J. Electrochem. Soc. 162 (2015) A646–A651.
+[167] Y. Zhang, Y. Sun, L. Peng, J. Yang, H. Jia, Z. Zhang, B. Shan, J. Xie, Energy Stor.
+Mater. 21 (2019) 287–296.
+[168] H. Kwak, K.H. Park, D. Han, K.-W. Nam, H. Kim, Y.S. Jung, J. Power Sources 446
+(2020).
+[169] Z. Wu, Z. Xie, A. Yoshida, X. An, Z. Wang, X. Hao, A. Abudula, G. Guan, Chem.
+Eng. J. 380 (2020).
+[170] X. Li, J. Liang, N. Chen, J. Luo, K.R. Adair, C. Wang, M.N. Banis, T.K. Sham, L.
+Zhang, S. Zhao, S. Lu, H. Huang, R. Li, X. Sun, Angew. Chem. Int. Ed. Engl. 131
+(2019) 16427–16432.
+[171] T. Chen, L. Zhang, Z. Zhang, P. Li, H. Wang, C. Yu, X. Yan, L. Wang, B. Xu, ACS
+Appl. Mater. Interfaces 11 (2019) 40808–40816.
+[172] T. Ohtomo, A. Hayashi, M. Tatsumisago, K. Kawamoto, J. Non-Cryst. Solids 364
+(2013) 57–61.
+[173] G. Liu, D. Xie, X. Wang, X. Yao, S. Chen, R. Xiao, H. Li, X. Xu, Energy Stor. Mater.
+17 (2019) 266–274.
+[174] A. Hayashi, H. Muramatsu, T. Ohtomo, S. Hama, M. Tatsumisago, J. Alloys
+Compd. 591 (2014) 247–250.
+[175] W. Zhang, Y. Zhang, L. Peng, S. Li, X. Wang, S. Cheng, J. Xie, Nano Energy 76
+(2020).
+[176] A.B. Haruna, T.P. Mofokeng, J.J. Ogada, O. Zoubir, A. Lallaoui, F. Cherkaoui El
+Moursli, Z. Edfouf, K.I. Ozoemena, Electrochem. Commun. 136 (2022).
+[177] L. Fan, S. Wei, S. Li, Q. Li, Y. Lu, Adv. Energy Mater. 8 (2018) 1702657.
+[178] X. Ban, W. Zhang, N. Chen, C. Sun, J. Phys. Chem. C 122 (2018) 9852–9858.
+[179] Y. Wang, W.D. Richards, S.P. Ong, L.J. Miara, J.C. Kim, Y. Mo, G. Ceder, Nat.
+Mater. 14 (2015) 1026–1031.
+[180] Y. Jin, C. Liu, X. Zong, D. Li, M. Fu, S. Tan, Y. Xiong, J. Wei, J. Power Sources 460
+(2020).
+[181] P. Hartmann, T. Leichtweiss, M.R. Busche, M. Schneider, M. Reich, J. Sann, P.
+Adelhelm, J. Janek, J. Phys. Chem. C 117 (2013) 21064–21074.
+[182] Z. Deng, Z. Zheng, W. Ruan, M. Zhang, Mater. 14 (2021) 1979.
+[183] X. Yu, A. Manthiram, Adv. Funct. Mater. 29 (2019) 1805996.
+[184] Y. Shen, Y. Zhang, S. Han, J. Wang, Z. Peng, L. Chen, Joule 2 (2018) 1674–1689.
+[185] A.J. Samson, K. Hofstetter, S. Bag, V. Thangadurai, Energy Environ. Sci. 12
+(2019) 2957–2975.
+[186] X. Han, Y. Gong, K. Fu, X. He, G.T. Hitz, J. Dai, A. Pearse, B. Liu, H. Wang, G.
+Rubloff, Y. Mo, V. Thangadurai, E.D. Wachsman, L. Hu, Nat. Mater. 16 (2016)
+572–579.
+[187] Y. Luo, D. Dong, J. Zhou, Y. Wang, Z. Xue, X. Jiang, J. Alloys Compd. 935 (2023).
+[188] X. Tao, Y. Liu, W. Liu, G. Zhou, J. Zhao, D. Lin, C. Zu, O. Sheng, W. Zhang, H.W.
+Lee, Y. Cui, Nano Lett. 17 (2017) 2967–2972.
+[189] Y. Gao, S. Sun, X. Zhang, Y. Liu, J. Hu, Z. Huang, M. Gao, H. Pan, Adv. Funct.
+Mater. 31 (2021) 2009692.
+[190] M.M.U. Din, R. Murugan, Electrochem. Commun. 93 (2018) 109–113.
+[191] Y. Zhao, L.L. Daemen, J. Am. Chem. Soc. 134 (2012) 15042–15047.
+[192] M. Matsuo, Y. Nakamori, S.–i. Orimo, H. Maekawa, H. Takamura, Appl. Phys.
+Lett. 91 (2007) 224103
+[193] S. Li, J. Ruan, R. Jiang, W. Wu, M. Liu, R. Cao, F. Fang, D. Sun, Y. Song, F. Wang,
+Energy Stor. Mater. 48 (2022) 283–289.
+[194] X. Zhang, T. Zhang, Y. Shao, H. Cao, Z. Liu, S. Wang, X. Zhang, ACS Sustain.
+Chem. Eng. 9 (2021) 5396–5404.
+[195] T. Asano, A. Sakai, S. Ouchi, M. Sakaida, A. Miyazaki, S. Hasegawa, Adv. Mater.
+30 (2018) 1803075.
+[196] R. Kanno, Y. Takeda, O. Yamamoto, Mater. Res. Bull. 16 (1981) 999–1005.
+[197] X. Li, J. Liang, J. Luo, M.N. Banis, C. Wang, W. Li, S. Deng, C. Yu, F. Zhao, Y. Hu, T.
+K. Sham, L. Zhang, S. Zhao, S. Lu, H. Huang, R. Li, K.R. Adaira, X. Sun, Energy
+Environ. Sci. 12 (2019) 2665–2671.
+[198] H. Xu, Y. Li, A. Zhou, N. Wu, S. Xin, Z. Li, J.B. Goodenough, Nano Lett. 18 (2018)
+7414–7418.
+[199] J. Bates, N. Dudney, D. Lubben, G. Gruzalski, B. Kwak, X. Yu, R.A. Zuhr, J. Power
+Sources 54 (1995) 58–62.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+196
+
+=== 第 28 页 ===
+[200] Y. Hamon, A. Douard, F. Sabary, C. Marcel, P. Vinatier, B. Pecquenard, A.
+Levasseur, Solid State Ionics 177 (2006) 257–261.
+[201] J. Wan, J. Xie, D.G. Mackanic, W. Burke, Z. Bao, Y. Cui, Mater. Today Nano 4
+(2018) 1–16.
+[202] X. Liu, X. Li, H. Li, H.B. Wu, Chem. 24 (2018) 18293–18306.
+[203] S. Liu, W. Liu, D. Ba, Y. Zhao, Y. Ye, Y. Li, J. Liu, Adv. Mater. 35 (2022) 2110423.
+[204] Y. Xia, Y.F. Liang, D. Xie, X.L. Wang, S.Z. Zhang, X.H. Xia, C.D. Gu, J.P. Tu, Chem.
+Eng. J. 358 (2019) 1047–1053.
+[205] W. Tang, S. Tang, X. Guan, X. Zhang, Q. Xiang, J. Luo, Adv. Funct. Mater. 29
+(2019) 1900648.
+[206] D. Shanmukaraj, R. Murugan, J. Power Sources 149 (2005) 90–95.
+[207] V. Di Noto, S. Lavina, G.A. Gifﬁn, E. Negro, B. Scrosati, Electrochim. Acta 57
+(2011) 4–13.
+[208] W. Tang, S. Tang, C. Zhang, Q. Ma, Q. Xiang, Y.W. Yang, J. Luo, Adv. Energy
+Mater. 8 (2018) 1800866.
+[209] Q. Wang, J. Zheng, E. Walter, H. Pan, D. Lv, P. Zuo, H. Chen, Z.D. Deng, B.Y.
+Liaw, X. Yu, J. Electrochem. Soc. 162 (2015) A474.
+[210] J.-T. Lee, M.-C. Lin, C.-M. Leu, J.M. Wu, J. Mater. Chem. A 10 (2022) 12928–
+12937.
+[211] O. Sheng, C. Jin, J. Luo, H. Yuan, C. Fang, H. Huang, Y. Gan, J. Zhang, Y. Xia, C.
+Liang, W. Zhang, X. Tao, J. Mater. Chem. A 5 (2017) 12934–12942.
+[212] R. Tanaka, M. Sakurai, H. Sekiguchi, H. Mori, T. Murayama, T. Ooyama,
+Electrochim. Acta 46 (2001) 1709–1715.
+[213] S. Gao, K. Wang, R. Wang, M. Jiang, J. Han, T. Gu, S. Cheng, K. Jiang, J. Mater.
+Chem. A 5 (2017) 17889–17895.
+[214] J. Sheng, Q. Zhang, C. Sun, J. Wang, X. Zhong, B. Chen, C. Li, R. Gao, Z. Han, G.
+Zhou, Adv. Funct. Mater. 32 (2022) 2203272.
+[215] X.X. Zeng, Y.X. Yin, N.W. Li, W.C. Du, Y.G. Guo, L.J. Wan, J. Am. Chem. Soc. 138
+(2016) 15825–15828.
+[216] X. Zhang, H. Zhang, Y. Geng, Z. Shi, S. Zhu, Q. Xu, Y. Min, Chem. Eng. J. 444
+(2022).
+[217] Q. Yang, N. Deng, Y. Zhao, L. Gao, B. Cheng, W. Kang, Chem. Eng. J. 451 (2022).
+[218] Y.
+Lin,
+X.
+Wang,
+J.
+Liu,
+J.D.
+Miller,
+Nano
+Energy
+31
+(2017)
+478–
+485.
+[219] C. Yan, Y. Zhou, H. Cheng, R. Orenstein, P. Zhu, O. Yildiz, P. Bradford, J. Jur, N.
+Wu, M. Dirican, X. Zhang, Energy Stor. Mater. 44 (2022) 136–144.
+[220] P. Zhai, N. Peng, Z. Sun, W. Wu, W. Kou, G. Cui, K. Zhao, J. Wang, J. Mater.
+Chem. A 8 (2020) 23344–23353.
+[221] X. Yin, L. Wang, Y. Kim, N. Ding, J. Kong, D. Safanama, Y. Zheng, J. Xu, D.V.M.
+Repaka, K. Hippalgaonkar, S.W. Lee, S. Adams, G.W. Zheng, Adv. Sci. 7 (2020)
+2001303.
+[222] L. Du, B. Zhang, X. Wang, C. Dong, L. Mai, L. Xu, Chem. Eng. J. 451 (2022).
+[223] R. Xu, F. Liu, Y. Ye, H. Chen, R.R. Yang, Y. Ma, W. Huang, J. Wan, Y. Cui, Adv.
+Mater. 33 (2021) 2104009.
+[224] K.K. Fu, Y. Gong, J. Dai, A. Gong, X. Han, Y. Yao, C. Wang, Y. Wang, Y. Chen, C.
+Yan, Y. Li, E.D. Wachsman, L. Hu, Proc. Natl. Acad. Sci. U. S. A. 113 (2016)
+7094–7099.
+[225] K. Fu, Y. Gong, G.T. Hitz, D.W. McOwen, Y. Li, S. Xu, Y. Wen, L. Zhang, C. Wang,
+G. Pastel, J. Dai, B. Liu, H. Xie, Y. Yao, E.D. Wachsman, L. Hu, Energy Environ.
+Sci. 10 (2017) 1568–1575.
+[226] Z.-C. Li, T.-Y. Li, Y.-R. Deng, W.-H. Tang, X.-D. Wang, J.-L. Yang, Q. Liu, L. Zhang,
+Q. Wang, R.-P. Liu, Rare Met. 41 (2022) 2834–2843.
+[227] M. Zhao, X.-Y. Li, X. Chen, B.-Q. Li, S. Kaskel, Q. Zhang, J.-Q. Huang, eScience 1
+(2021) 44–52.
+Y. Li, N. Deng, H. Wang et al.
+Journal of Energy Chemistry 82 (2023) 170–197
+197
+

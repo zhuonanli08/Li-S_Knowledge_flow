@@ -1,0 +1,840 @@
+=== 第 1 页 ===
+Dynamic Volume Change of Li2S‑Based Active Material and the
+Influence of Stacking Pressure on Capacity in All-Solid-State
+Batteries
+Yushi Fujita, Konrad Münch, Taichi Asakura, Kota Motohashi, Atsushi Sakuda, Jürgen Janek,*
+and Akitoshi Hayashi*
+Cite This: Chem. Mater. 2024, 36, 7533−7540
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: All-solid-state batteries are considered as a reasonable further
+development of conventional lithium-ion batteries. While the same active
+materials may be used, solid electrolytes may offer higher safety than liquid
+electrolytes and enable the reversible operation of the lithium metal anode. Also,
+solid-state lithium/sulfur (Li/S) batteries are being investigated due to their high
+theoretical specific energy. Li2S-based composite positive electrodes have been
+demonstrated to achieve their theoretical capacity, high rate performance, and
+good cycling stability under high stacking pressures. However, during charging,
+Li2S is converted to sulfur and shrinks by 45%, and the resulting loss of contact
+between the composite particles leads to mechanical degradation during cycling.
+To better understand the correlation between the charge−discharge capacities and stack pressure during cycling in high-capacity
+Li2S-based active materials, the dynamic volume change of the positive electrode layer is measured. The volume change of the Li2S-
+based composite positive electrode is observed by using in situ scanning electron microscopy. Furthermore, by using Li4Ti5O12,
+which is well-known to undergo almost no volume change during cycling, as the counter electrode, charge−discharge capacities were
+found to depend on the initial volume change of the composite positive electrode. Finally, candidates for the negative electrode in
+full-cell applications of all-solid-state Li/S batteries are discussed. This study represents a major step toward mitigating mechanical
+deterioration in all-solid-state Li/S batteries stemming from the volumetric expansion and contraction of sulfur-active materials.
+■INTRODUCTION
+All-solid-state lithium-ion batteries have been extensively
+developed as alternatives to conventional lithium-ion batteries
+owing to the high safety of nonflammable solid electrolytes
+(SE). Although oxide-type active materials have been the main
+focus as positive electrode active materials for a long time, they
+still suffer from problems such as limited energy density,
+specific capacity,1 and poor interfacial stability with many
+SEs.2−4 Sulfur-based active materials such as elemental sulfur
+(S) and lithium sulfide (Li2S) are attractive alternatives to
+these conventional positive electrode materials due to their
+high theoretical capacities5−8 and environmental abundance
+(with sulfur being a cheap byproduct from the oil industry). In
+particular, cells using Li2S as active material in the positive
+electrode can be assembled in the discharged state, allowing
+the use of lithium reservoir-free negative electrodes such as
+silicon9,10 and carbon11 or simply lithium-free current
+collectors.12 However, due to the insulating nature of Li2S
+and sulfur, it is necessary to prepare composite electrodes with
+conductive additives to enable a sufficiently high number of
+sites for charge transfer.13
+Previous research efforts have resulted in Li2S-based
+composite positive electrodes that are capable of reaching
+their theoretical capacity at rates up to 2C and good cycling
+stability under laboratory conditions.14−20 Despite those
+advances, the large volume changes that occur during the
+cycling of sulfur-based active materials remain a major
+challenge in the development of fully functional all-solid-state
+Li/S batteries (ASSLSB). The volume of Li2S during charging
+to S decreases by 45%, leading to mechanical degradation
+caused by loss of contact between the composite particles.21−24
+Therefore, in laboratory-scale experiments, small particles are
+used in the composites, and high stack pressures are applied to
+mitigate mechanical degradation. However, in actual applica-
+tions, a battery cell should operate with as little external
+pressure as possible. Hence, it is vital to understand this
+volume change of the sulfur-active material and its influence on
+the integrity and microstructure of the composite. Unfortu-
+nately, it is inherently challenging to directly evaluate the
+volume change of the active material during cycling due to the
+Received:
+May 29, 2024
+Revised:
+July 21, 2024
+Accepted:
+July 22, 2024
+Published: August 2, 2024
+Article
+pubs.acs.org/cm
+© 2024 American Chemical Society
+7533
+https://doi.org/10.1021/acs.chemmater.4c01514
+Chem. Mater. 2024, 36, 7533−7540
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​36/​15/​7533/​1533373/​cm4c01514.​pdf by TSINGHUA UNIV user on 14 October 2026
+
+=== 第 2 页 ===
+specific properties of nanocomposites of sulfur-based active
+materials, such as the low material contrast in scanning
+electron microscopy (SEM), small particle size, and the
+volatility of sulfur species, which is particularly disturbing
+under high vacuum conditions.25 Thus far, only the effects of
+total pressure and volume changes of the full cell were
+reported, not those of the active material itself.26 We have also
+studied pressure changes in ASSLSBs with composite positive
+electrodes incorporating S8
+26 and sulfide-based SEs previ-
+ously.27,28 However, a number of issues remain to be solved:
+how much change in local pressure can be accommodated in
+the composite positive electrodes, what is the minimum stack
+pressure without compromising cell performance, experimental
+data of volume change in the entire positive electrode during
+the charging and discharging processes and whether a negative
+electrode might balance the volume change on the positive
+electrode side. In particular, ASSLSBs based on Li2S as an
+active material in the positive electrode have not yet been
+investigated.
+Here, we investigated the dynamic volume change of the
+positive electrode layer and the correlation between the
+charge−discharge capacities and stack pressure during cycling
+in high-capacity Li2S-based active materials. Li2S−LiI compo-
+site positive electrodes18,29−31 have been widely used as Li2S-
+based positive electrodes because they exhibit capacities equal
+to the theoretical capacity of Li2S.20,32 Here, we observed the
+volume change of the Li2S−LiI composite positive electrode
+using in situ SEM. Furthermore, because Li4Ti5O12 (LTO) is
+known to undergo almost no volume change during the
+charge−discharge process,33 we used it herein to demonstrate
+that the charge−discharge capacities are affected by the initial
+volume change of the composite positive electrode. Finally, we
+discuss candidates for the negative electrode in full-cell
+applications of ASSLSBs.
+■EXPERIMENTAL SECTION
+Synthesis of Electrode Materials. All procedures were
+conducted in a dry Ar atmosphere (p(H2O)/p < 0.5 ppm; p(O2)/p
+< 2 ppm). The composite positive electrodes comprised Li2S, LiI,
+conductive carbon, and sulfide solid electrolytes (SSEs). First, Li2S
+(99.9%, Mitsuwa Chemicals Co., Ltd., 80 mol %) and LiI (99.999%,
+Sigma-Aldrich, 20 mol %) were mixed using a planetary ball mill
+(Pulverisette 7; Fritsch GmbH). The materials (total weight: 0.3 g)
+were placed in a ZrO2 pot (45 mL) with 28.8 g of ZrO2 balls (4 mm
+diameter). Ball-milling was conducted at a rotational speed of 510
+rpm for 10 h. The Li2S:LiI molar ratio of 80:20 was chosen because in
+previous studies, positive electrodes of this composition showed
+excellent electrochemical performance at 25 °C and 2 C rate for 2000
+cycles.20,32 Our previous research also clarified the related charge−
+discharge mechanism.34 The milled sample was mixed with vapor-
+grown carbon fibers (VGCF, Showa Denko) by first using an agate
+mortar and then ball-milling. The VGCF was pretreated by drying in a
+vacuum at 160 °C for 24 h. The 80Li2S·20LiI-VGCF composite was
+finally mixed with SSEs using a ball mill (Pulverisette 23; Fritsch
+GmbH). This mixing method is as mild as mixing in an agate mortar
+and pestle. The weight ratio of Li2S:LiI:VGCF:SSEs in the final
+composite was 29:21:10:40.
+Argyrodite Li6PS5Cl (LPSC, NEI Co. USA, ca. 5 μm) and Li3PS4
+(LPS) glass were used as SEs. Two types of LPS with different particle
+diameters (ca. 5 and 20 μm) were denoted as small-LPS and large-
+LPS, respectively. Large LPS was prepared as described previously.35
+Specifically, the starting materials Li2S and P2S5 (99%, Sigma-Aldrich)
+in a stoichiometric ratio (Li2S:P2S5 = 75:25, mol %) were weighed
+and put into a ZrO2 pot (250 mL) containing 450 g of ZrO2 balls (4
+mm diameter). Ball-milling was performed at 210 rpm for 70 h using a
+planetary ball mill (Pulverisette 5; Fritsch GmbH). Small LPS was
+obtained by further wet milling of large LPS with dehydrated heptane
+and dibutyl ether under the same ball-milling conditions as before.
+The negative electrode was either an In/InLi eutectic alloy or a
+Li4Ti5O12 (LTO) composite. The In/InLi negative electrode was
+prepared from a 250 μm thick Li foil and a 100 or 300 μm thick In
+foil. The amount of Li was controlled to form an In/InLi eutectic two-
+phase material36 even after plating Li from the positive electrode on
+Figure 1. SEM images of (a) large-LPS and (b) small-LPS. Cross-sectional SEM images (secondary electron images) of composites of Li2S−LiI−
+VGCF with (c) large-LPS and (d) small-LPS. Charge−discharge curves of cells (e) In/InLi | large-LPS | Li2S−LiI−VGCF with large-LPS and (f)
+In/InLi | large-LPS | Li2S−LiI−VGCF with small-LPS. These cells were pressurized as much as possible (over 50 MPa) and cycled at 25 °C and
+0.64 mA cm−2. The active material loading was 1.1 mg(Li2S) cm−2, corresponding to a composite loading of 3.8 mg cm−2.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.4c01514
+Chem. Mater. 2024, 36, 7533−7540
+7534
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​36/​15/​7533/​1533373/​cm4c01514.​pdf by TSINGHUA UNIV user on 14 October 2026
+
+=== 第 3 页 ===
+the negative electrode. The LTO/SE composite was prepared by
+mixing and ball-milling carbon-coated LTO (Nanomyte BE-10C, NEI
+Corporation, USA), carbon nanofiber (C65, MSE, USA), and SE. The
+weight ratio of LTO:C65:SE was 30:5:65. The powders (total mass: 1
+g) were placed in a ZrO2 pot (45 mL) with ten ZrO2 balls (10 mm
+diameter) and milled for 30 min at 140 rpm.
+Cell Assembly. All solid-state cells of the type In/InLi | SE | Li2S−
+LiI composite were assembled as described previously.15,37 First, SE
+powder (80 mg) was placed in a polyether ether ketone (PEEK) or
+polycarbonate tube as a separator layer and gently compressed. Then,
+the composite positive electrode (approximately 5 mg) was placed on
+the separator layer and uniaxially pressed between two stainless-steel
+rods at 360 MPa for 5 min. The Li and In foils were placed on the
+separator layer (In first) opposite the composite positive electrode
+and pressed together again at 20 MPa. For cells with an LTO negative
+electrode (LTO composite | SE | Li2S−LiI composite), the SE (80
+mg) was placed in a PEEK tube and pressed manually. The Li2S−LiI
+composite (3−5 mg) and LTO composite (ca. 60 mg) were placed on
+opposite sides of the SE pellet before applying a uniaxial pressure of
+360 MPa for 3 min. Stainless steel or Cu foil was used as the current
+collector. During the electrochemical measurements, defined uniaxial
+stack pressures were applied and monitored in the setups as described
+previously.27,28,33,38 All the procedures were conducted in a dry Ar
+atmosphere.
+Electrochemical Tests. Charge−discharge tests were performed
+on the assembled cells using an electrochemical workstation (VMP3
+and VMP300, Bio-Logic Co.). The cells of the type In/InLi | SE |
+Li2S−LiI composite were cycled at a C/10 rate (ca. 130 μA cm−2) at
+25 or 30 °C in the voltage range of 0−3 V vs. In/InLi. The cells of the
+type LTO composite | SE | Li2S−LiI composite were cycled at a C/10
+rate (ca. 130 μA cm−2) at 25 °C in the voltage range of 0−1.8 V vs.
+LTO. All procedures were conducted in a dry Ar atmosphere.
+SEM Observations. SEM observations of the powdered samples
+were conducted by using a field-emission scanning electron
+microscope (FE-SEM, JSM-6610A, JEOL Ltd.). Cross-sectional
+SEM observations were conducted in situ and on cycled cells ex
+situ. The ex situ cells were examined using FE-SEM (SU8220, Hitachi
+High-Technologies Corp.). Before observation, the fractured surface
+of the pellets was polished by using an Ar+ ion milling system (E-
+3500, Hitachi High-Technologies Corp.). The in situ SEM was
+performed on the same structural all-solid-state cell by applying a
+constant pressure of 50 MPa. A rectangular region was defined in the
+SEM secondary electron image to evaluate volume change in the
+positive electrode during cell cycling. The pore volume was
+segmented by marking this area using GIMP software (version
+2.10.34). The area of the composite was then calculated as the total
+rectangular area minus the area occupied by pores within this
+rectangle.
+■RESULTS AND DISCUSSION
+First, we investigated the size of SE particles within the
+composite positive electrode and their effect on the charge−
+discharge capacities of the all-solid-state cell. Smaller particles
+in the composite are expected to increase the contact area
+between the active material and the ion-conducting SE, as well
+as better accommodate volume changes in the active material.
+Figure 1a,b show secondary electron images of the prepared
+LPS samples. The diameters of large-LPS particles were in the
+range of ca. 10 μm, whereas those of small-LPS were under 5
+μm. Figure 1c,d show cross-sectional SEM images of the
+pressed pellets of the Li2S−LiI−VGCF electrode with large-
+and small-LPS, respectively. In both cases, the pellets were
+dense, and almost no pore space was formed in the composite.
+In Figure 1c, the darker areas were Li2S−LiI−VGCF (marked
+with “AM”), and the brighter areas were large-LPS (marked
+with “SE”). The size of large-LPS is consistent with that shown
+in Figure 1a. In contrast, in Figure 1d, the darker area is small-
+LPS, and the bright area is Li2S−LiI−VGCF, which was
+confirmed by EDS mappings (Figure S1); thus, the contrast
+between the active material and SE is the opposite of that in
+Figure 1c. When using small-LPS, surface irregularities may be
+caused by an Ar+ ion milling treatment. In summary, particles
+of small-LPS were better dispersed in the composite positive
+electrode than those of large-LPS, thereby allowing more
+efficient transport of lithium ions during cycling. Figure 1e,f
+show the charge−discharge curves of cells prepared with large-
+and small-LPS, respectively. Uniaxial stack pressure was
+applied using an external frame, and the screw was tightened
+as much as possible, resulting in a cell stack pressure of over 50
+MPa. The initial charge capacity of the cell with a small LPS
+(1080 mAh g−1) was larger than that with a large LPS (804
+mAh g−1). The cell with small LPS reached a capacity similar
+Figure 2. Cross-sectional SEM images obtained from in situ SEM (backscattered electron images) of composites of Li2S−LiI−VGCF with small-
+LPS during cycling. (a) Before cycling, (b) after the 1st charge, (c) after the 1st discharge, (d) after the 2nd charge, and (e) after the 2nd discharge.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.4c01514
+Chem. Mater. 2024, 36, 7533−7540
+7535
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​36/​15/​7533/​1533373/​cm4c01514.​pdf by TSINGHUA UNIV user on 14 October 2026
+
+=== 第 4 页 ===
+to that expected from our previous results.20,32 This proves
+that the size of the SE particles affects the charge and discharge
+capacities.39 After the initial cycle, both cells show an increase
+in capacity because of the activation of Li2S15 and the
+contributions from the electrochemical degradation products
+of LPS.27,40 Based on these results, SEs with a smaller particle
+size were utilized in the composite positive electrodes in
+subsequent experiments.
+Next, the volume change of the Li2S positive electrode was
+examined under a controlled stack pressure using in situ SEM.
+A constant uniaxial pressure of 50 MPa was applied during
+cycling, and the cross-section of the pellet was imaged. The in
+situ SEM images are shown in Figure 2 and are summarized as
+videos (see Supporting Information, Videos S1, S2, S3, and
+S4). As expected, the pellet shrank during charging and
+expanded during discharging, which is a theoretically
+conceivable dynamic change due to the electrochemical
+delithiation of Li2S upon charging and subsequent lithiation
+during discharging. Despite the significant volume change of
+the active material, the positive electrode remained almost
+dense under the applied measurement conditions. As shown in
+Figure 2, although a large crack was observed at the interface
+between the positive electrode layer and the separator layer
+after the first and second charging, the crack was repaired
+following the subsequent discharging. This is because the large
+volume change of the active material results in the particle
+interface disappearing and reappearing repeatedly. Then, the
+area changes were calculated using image analysis. For this
+purpose, the size change of an area with approximately the
+same material content and the pores inside this area were
+manually segmented and evaluated.
+Figure 3 summarizes the calculated area fractions of
+representative areas before and after charge-discharging.
+According to Figure 3, the area of the composite decreased
+by ca. 20% upon charging and increased again by ca. 20% upon
+discharging. Interestingly, this corresponds to the total
+expected volume change of the composites (assuming that
+only the volume of active material changes while the volume of
+SE and carbon remains unchanged, see Figure S2b). However,
+the magnitude of the observed change in the area is not
+necessarily identical to the change in volume, as this
+relationship is determined by the geometry of the sample
+and of the cross-section (Figure S2a). As expected, the fraction
+of pore space also increased as the active material shrank upon
+charging.
+Next, the influence of the initially applied stack pressure on
+the performance of the Li2S−LiI electrode was investigated.
+Usually, high stack pressures on the order of 50 MPa are
+applied to sulfur-based active materials. For simplicity, the In/
+InLi electrode is often used as a counter electrode in all-solid-
+state batteries36 because of its low reactivity toward sulfide-
+based SEs. In fact, the In/InLi negative electrode shows a
+larger molar volume change than the Li2S-based positive
+electrode in the case of the In/InLi|Li2S−LiI full cell.27,33,41
+Therefore, the stack pressure inside the cell is dominated by
+the volume change of the negative electrode. To explore the
+correlation between the charge−discharge capacities and stack
+pressure dominated by the volume change of the Li2S positive
+electrode, a negative electrode with a minimal volume change
+needs to be used, such as LTO.27,33,42 Thus, the charge−
+discharge capacities of the LTO|Li2S−LiI cells were evaluated
+at stack pressures of 5, 10, 25, and 50 MPa. Note that the stack
+pressure was regulated before cycling and remained uncon-
+trolled thereafter. Although this differs markedly from the
+above in situ SEM experiments, in which the stack pressure
+was kept constant, the pressure in the regulated cells only
+fluctuated slightly (within a few percent) over a longer period.
+Figure 4a shows the charge−discharge curves for the first cycle
+at different stack pressures. The overvoltage increased when
+the stack pressure was decreased, indicating poor particle
+contact at lower pressures. Figure 4b shows the respective
+charge−discharge capacities at different stack pressures.
+Surprisingly, the first charge capacity was almost independent
+of the applied pressure within the investigated range. We
+Figure 3. Observed area of the composite positive electrode and
+pores starting from the pristine state and after charging and
+discharging. The total area and pore space were determined by the
+rectangle areas defined in the secondary electron images and the
+segmentation of pores within these rectangles.
+Figure 4. (a) Charge−discharge curves, (b) relationship between
+charge−discharge capacities and stacking pressure in first cycle, (c)
+cycle performance, (d) conversion efficiency (ΦC), and (e) Coulomb
+efficiency (ΦQ) of the cell LTO-C65-LPSC | LPSC | Li2S−LiI−
+VGCF-LPSC. The stack pressure was 5, 10, 25, and 50 MPa. Charge−
+discharge tests were performed at 25 °C at a C/10 rate (equal to ca.
+216 μA cm−2). The active material loading was 1.8 mg(Li2S) cm−2,
+corresponding to a composite loading of 6.4 mg cm−2. In (c), the
+hollow shapes (◇, □, and ○) represent charge capacities and the
+filled shapes (◆, ■, and ●) represent discharge capacities.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.4c01514
+Chem. Mater. 2024, 36, 7533−7540
+7536
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​36/​15/​7533/​1533373/​cm4c01514.​pdf by TSINGHUA UNIV user on 14 October 2026
+
+=== 第 5 页 ===
+expected that, upon charging, Li would be extracted from the
+Li2S active material, causing it to shrink and gradually lose
+contact between the particles, leading to reduced charge−
+discharge capacities. However, the discharge capacity showed a
+strong and positive correlation with the stack pressure. We
+assume that the contact area between particles after charging
+varied depending on the confining pressure. A comparatively
+low stack pressure of 5 MPa was sufficient for the charging
+reaction, whereas a higher pressure was required for
+discharging.
+Figure 4c shows the cycle performance of each cell, and
+Figure 4d,e shows the conversion and Coulomb efficiencies,
+respectively. The conversion efficiency (ΦC) was calculated by
+dividing the charge capacity by the discharge capacity of the
+previous cycle,23 whereas the Coulomb efficiency (ΦQ) was
+defined according to the IUPAC guidelines and calculated by
+dividing the discharge capacity by the charge capacity in the
+same cycle.43 Differentiating between these two efficiencies
+allows us to discern the origins of the capacity loss. This
+calculation was used in a previous study on sulfur-based
+positive electrodes for ASSLSBs.23 All of the cells studied here
+exhibited capacity degradation during cycling. While ΦC
+almost reached 100%, ΦQ was significantly lower than 100%,
+meaning that the capacity fading was occurring during the
+discharge process. This suggests that only the particle-to-
+particle contact area restored during discharging was active in
+the subsequent charging process. The capacity loss was thus
+caused by a reduced contact area during subsequent
+discharging. In this experiment, additional capacity was
+presumably lost due to the irreversible capacity in the LTO
+counter electrode. However, this irreversible capacity occurs
+similarly at all pressures (see Figure S3). Consequently, the
+lower reversibility of cell cycling at low pressure can be
+assigned to the loss of contact upon charging. Therefore, a
+sufficiently high stack pressure at the end of charging can
+improve the cell performance, although this is difficult to
+achieve in practical batteries.
+To further prove the effect of low pressure on the particle-
+to-particle contact, two cells were charged at fixed pressures of
+10 and 50 MPa. The positive electrode layer was then observed
+by SEM Figure 5a,b shows cross-sectional SEM images of the
+positive electrodes after the first charge at stack pressures of 10
+and 50 MPa. As expected, more voids formed in the electrode
+that was charged at a lower pressure compared to when higher
+pressures were applied. These voids indicate a loss of contact
+between particles, which decreases the subsequent discharge
+capacity. In addition, the voids were observed mainly between
+the SE and AM particles. This means that interface formation
+between SE and AM particles is important to achieve a high
+capacity at low stack pressure. It is also necessary to select
+suitable solid electrolytes for mechanical properties and
+chemical compatibility with sulfide active materials.
+Cells with In/InLi as the negative electrode showed a high
+reversible capacity at a high stack pressure set before cycling
+and at a constant stack pressure of 50 MPa during cycling. In
+contrast, the cells using LTO as the negative electrode showed
+a high initial charge capacity, even at 5 MPa, but poor cycle
+performance, even at 50 MPa. This demonstrated the effect of
+the initial stack pressure on the charge−discharge capacity of
+the cell, which depends on the choice of the negative electrode.
+In/InLi and LTO composite electrodes exhibit significant
+differences in volume changes during cycling. If the volume
+change of the negative electrode compensates for the volume
+change of the positive electrode, the stack pressure might be
+maintained during charging and discharging even though both
+electrodes change their volume. Thus, cells with an In/InLi
+negative electrode should exhibit superior cycling performance.
+To test this hypothesis, cells of the types LTO|Li2S−LiI and
+Li−In|Li2S−LiI were cycled under similar conditions with the
+stack pressure set to 10 MPa only before cycling, and Figure 6
+shows the cycling performance of these cells. Although the
+initial charge capacities were almost identical, the capacity
+retention was higher for the cell with In/InLi than with LTO.
+This difference in capacity is clearly due to the different molar
+volume changes of the negative electrode, as discussed in the
+following in terms of the molar reaction volume |ΔrV̅m|of the
+cell reaction. In/InLi shows |ΔrV̅m| = 7.89 cm3 mol−127 during
+Li insertion or extraction, whereas LTO shows a volume
+change close to zero upon lithiation/delithiation.33 The
+reaction volume of the sulfur conversion reaction is |ΔrV̅m| of
+Li2S to S is 6.09 cm3 mol−1,27 which is not too different from
+that of In/InLi. Because of these similar volume changes, we
+consider the combination of In/InLi and S/Li2S electrodes as
+mechanically reasonably well-balanced compared to that of
+LTO and S/Li2S. This combination prevents a significant
+decrease in the stack pressure upon charging, resulting in
+better capacity retention of the cell. However, even the In/
+InLi|Li2S−LiI cells showed a decrease in capacity during
+cycling. In the cell with LTO, capacity decreased in the
+discharge process, suggesting that voids formed in the Li2S
+positive electrode at charging lead to contact loss. On the other
+hand, in the cell with In/InLi, the In/InLi alloy expands the
+volume at the charge process, which is effective in decreasing
+Figure 5. Cross-sectional SEM images of the cell after charging. The
+stack pressures were (a) 10 and (b) 50 MPa. The darker areas are
+Li2S−LiI−VGCF particles (described as AM) and the brighter areas
+are SE particles (described as SE).
+Figure 6. Cycle performance of cells using LTO and In/InLi as
+negative electrodes. The stack pressure was 10 MPa. Charge−
+discharge tests were performed at 25 °C at C/10 rate (equal to ca.
+216 μA cm−2). The loading was ca. 5 mg of the composites and ca. 1.5
+mg of Li2S. The stack pressure was regulated before cycling and left
+uncontrolled thereafter. The data of LTO are the same as those in
+Figure 4. Hollow shapes (◇, ○) are the charge capacities and filled
+shapes (◆, ●) are the discharge capacities.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.4c01514
+Chem. Mater. 2024, 36, 7533−7540
+7537
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​36/​15/​7533/​1533373/​cm4c01514.​pdf by TSINGHUA UNIV user on 14 October 2026
+
+=== 第 6 页 ===
+the voids in the first cycle. In the cells with In/InLi, the
+capacity degradation occurred during the subsequent charging
+process. The reason for this requires further detailed
+investigation, but at least Li cannot be extracted from the
+positive electrode, which is an additional challenge for
+operating the cells under a low stack pressure. In previous
+work, the capacity of a Li−Mg/sulfur-based composite positive
+electrode cell was retained over more than 50 cycles at only 5
+MPa.38 Therefore, a mechanically balanced electrode combi-
+nation is expected to improve the performance of the Li2S-
+based cells. It is also promising to combine a Li2S-based
+positive electrode with a negative electrode based on Si
+because Si has a high theoretical capacity and low potential
+comparable to that of Li metal,9,10 and its molar volume
+change of 8.85 cm3 mol−1 is higher than that of In/InLi.33
+Notably, despite extensive investigation of all-solid-state cells
+using Si-based negative electrodes in recent years,44,45 there
+have been only a few reports on full cells that combine Li2S
+and Si,46,47 except for those using gel or polymer electrolytes
+instead of SEs.48−52 In addition, applying a minimal amount of
+binder in the composite could mitigate the problems of
+unbalanced volume changes. Further studies are required to
+develop cells with high energy densities and low stack
+pressures.
+■CONCLUSIONS
+In ASSLSBs with a high-capacity Li2S-based positive electrode,
+we measured the dynamic volume change of the positive
+electrode layer and explored the correlation between the
+charge−discharge capacity and stack pressure during cycling,
+where the stack pressure was solely regulated by the positive
+electrode. High charge−discharge capacities and excellent
+cyclability were demonstrated when the stack pressure was
+maintained constant or when a very high stack pressure was
+applied only before cycling. In contrast, when the stack
+pressure was not maintained during cycling or set too low,
+irreversible capacity loss occurred, and the cell capacity
+deteriorated rapidly. In cells utilizing an LTO composite as
+the negative electrode, the first charge capacity was almost
+independent of the applied pressure, whereas the subsequent
+discharge capacity strongly depended on the stack pressure.
+The capacity deteriorated upon discharging, which was
+attributed to the loss of particle-to-particle contact after
+charging at pressures that were too low. To overcome this
+problem, an external force must be applied. Another promising
+solution is balancing the volume change with a suitable
+negative electrode that displays the opposite volume change
+corresponding to the volume change with the Li2S-based
+positive electrode. Our study presents novel insight into the
+electrochemical effects of the large volume expansion and
+contraction of sulfur-active materials, which is a serious hurdle
+on the way to practically relevant cells.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.chemmater.4c01514.
+SEM-EDS mappings of the composite of Li2S-LiI-VGCF
+with small-LPS; schematic of the volume change of a
+sphere and the corresponding cross-sectionand radius
+change; and charge-discharge curves of In/InLi | LPSC |
+LTO-C65-LPSC cells (PDF)
+In situ SEM images for the all-solid-state cell (In/InLi |
+large-LPS | Li2S−LiI−VGCF with small-LPS) during the
+first charge (MP4)
+In situ SEM images for the all-solid-state cell (In/InLi |
+large-LPS | Li2S−LiI−VGCF with small-LPS) during the
+first discharge (MP4)
+In situ SEM images for the all-solid-state cell (In/InLi |
+large-LPS | Li2S−LiI−VGCF with small-LPS) during the
+second charge (MP4)
+In situ SEM images for the all-solid-state cell (In/InLi |
+large-LPS | Li2S−LiI−VGCF with small-LPS) during the
+second discharge (MP4)
+■AUTHOR INFORMATION
+Corresponding Authors
+Jürgen Janek −Institute of Physical Chemistry & Center for
+Materials Research, Justus Liebig University Giessen, 35392
+Giessen, Germany;
+orcid.org/0000-0002-9221-4756;
+Phone: +49(0)641-9934501; Email: Juergen.Janek@
+phys.chemie.uni-giessen.de
+Akitoshi Hayashi −Department of Applied Chemistry,
+Graduate School of Engineering, Osaka Metropolitan
+University, Osaka 599-8531, Japan;
+orcid.org/0000-
+0001-9503-5561; Phone: +81-722549331;
+Email: akitoshihayashi@omu.ac.jp
+Authors
+Yushi Fujita −Department of Applied Chemistry, Graduate
+School of Engineering, Osaka Metropolitan University, Osaka
+599-8531, Japan
+Konrad Münch −Institute of Physical Chemistry & Center for
+Materials Research, Justus Liebig University Giessen, 35392
+Giessen, Germany;
+orcid.org/0000-0002-8778-9344
+Taichi Asakura −Department of Applied Chemistry, Graduate
+School of Engineering, Osaka Metropolitan University, Osaka
+599-8531, Japan;
+orcid.org/0009-0009-3192-5050
+Kota Motohashi −Department of Applied Chemistry,
+Graduate School of Engineering, Osaka Metropolitan
+University, Osaka 599-8531, Japan;
+orcid.org/0000-
+0001-9318-7588
+Atsushi Sakuda −Department of Applied Chemistry,
+Graduate School of Engineering, Osaka Metropolitan
+University, Osaka 599-8531, Japan;
+orcid.org/0000-
+0002-9214-0347
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.chemmater.4c01514
+Author Contributions
+Y.F. and K.M. wrote the manuscript. Y.F., K.M., and T.A.
+conducted the synthesis, charge−discharge measurements, and
+ex situ SEM observations. K.M. analyzed the images obtained
+from the in situ measurements. J.J., A.S., and A.H. supervised
+the study. All authors discussed the results and reviewed the
+manuscript.
+Funding
+This research was supported by JSPS KAKENHI, JST GteX
+Project and the German Federal Ministry of Education and
+Research (BMBF) within the SoLiS project (03XP0395D).
+Notes
+The authors declare no competing financial interest.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.4c01514
+Chem. Mater. 2024, 36, 7533−7540
+7538
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​36/​15/​7533/​1533373/​cm4c01514.​pdf by TSINGHUA UNIV user on 14 October 2026
+
+=== 第 7 页 ===
+■ACKNOWLEDGMENTS
+This research was supported by JSPS KAKENHI (Grant no.
+JP19H05816, and Grant no. JP23KJ1833), JST GteX Project
+(Grant No. JPMJGX23S5), and the German Federal Ministry
+of Education and Research (BMBF) within the SoLiS project
+(Grant no. 03XP0395D). K.M. acknowledges Louis Müller for
+his help with the segmentation of the SEM micrographs.
+■REFERENCES
+(1) Jiao, S.; Wang, J.; Hu, Y.-S.; Yu, X.; Li, H. High-Capacity Oxide
+Cathode beyond 300 mAh/g. ACS Energy Lett. 2023, 8 (7), 3025−
+3037.
+(2) de Biasi, L.; Schwarz, B.; Brezesinski, T.; Hartmann, P.; Janek, J.;
+Ehrenberg, H. Chemical, Structural, and Electronic Aspects of
+Formation and Degradation Behavior on Different Length Scales of
+Ni-rich NCM and Li-rich HE-NCM Cathode Materials in Li-ion
+Batteries. Adv. Mater. 2019, 31 (26), No. 1900985.
+(3) Li, L.; Duan, H.; Li, J.; Zhang, L.; Deng, Y.; Chen, G. Toward
+High Performance All-solid-state Lithium Batteries with High-voltage
+Cathode Materials: Design Strategies for Solid Electrolytes, Cathode
+Interfaces, and Composite Electrodes. Adv. Energy Mater. 2021, 11
+(28), No. 2003154.
+(4) Zeng, Z.; Cheng, J.; Li, Y.; Zhang, H.; Li, D.; Liu, H.; Ji, F.; Sun,
+Q.; Ci, L. Composite Cathode for All-Solid-State Lithium Batteries:
+Progress and Perspective. Mater. Today Phys. 2023, 32, No. 101009.
+(5) Xian, C.; Wang, Q.; Xia, Y.; Cao, F.; Shen, S.; Zhang, Y.; Chen,
+M.; Zhong, Y.; Zhang, J.; He, X.; Xia, X.; Zhang, W.; Tu, J. Solid-State
+Electrolytes in Lithium-Sulfur Batteries: Latest Progresses and
+Prospects. Small 2023, 19 (24), No. e2208164.
+(6) Yang, S.; Wang, B.; Lv, Q.; Zhang, N.; Zhang, Z.; Jing, Y.; Li, J.;
+Chen, R.; Wu, B.; Xu, P.; Wang, D. Recent Advances in Cathodes for
+All-Solid-State Lithium-Sulfur Batteries. Chin. Chem. Lett. 2023, 34
+(7), No. 107783.
+(7) Umeshbabu, E.; Zheng, B.; Yang, Y. Recent Progress in All-
+Solid-State Lithium−Sulfur Batteries Using High Li-Ion Conductive
+Solid Electrolytes. Electrochem. Energy Rev. 2019, 2 (2), 199−230.
+(8) Wu, J.; Liu, S.; Han, F.; Yao, X.; Wang, C. Lithium/Sulfide All-
+Solid-State Batteries Using Sulfide Electrolytes. Adv. Mater. 2021, 33
+(6), No. e2000751.
+(9) Franco Gonzalez, A.; Yang, N.-H.; Liu, R.-S. Silicon Anode
+Design for Lithium-Ion Batteries: Progress and Perspectives. J. Phys.
+Chem. C Nanomater. Interfaces 2017, 121 (50), 27775−27787.
+(10) Huo, H.; Janek, J. Silicon as Emerging Anode in Solid-State
+Batteries. ACS Energy Lett. 2022, 7 (11), 4005−4016.
+(11) Verduzco, J. C.; Bettes, B.; Hu, Q.; Marinero, E. E. A Review on
+Defect Engineering of Anode Materials for Solid-State Battery
+Applications. Ionics (Kiel) 2023, 29 (2), 439−453.
+(12) Zhao, P.; Pan, J.; Zhang, D.; Tang, Y.; Tai, Z.; Liu, Y.; Gao, H.;
+Huang, F. Designs of Anode-Free Lithium-Ion Batteries. Batteries
+2023, 9 (7), 381.
+(13) Nagao, M.; Hayashi, A.; Tatsumisago, M. High-Capacity Li2S−
+Nanocarbon Composite Electrode for All-Solid-State Rechargeable
+Lithium Batteries. J. Mater. Chem. 2012, 22 (19), 10015−10020.
+(14) Chen, B.; Deng, S.; Jiang, M.; Wu, M.; Wu, J.; Yao, X. Intimate
+Triple Phase Interfaces Confined in Two-Dimensional Ordered
+Mesoporous Carbon towards High-Performance All-Solid-State
+Lithium-Sulfur Batteries. Chem. Eng. J. 2022, 448, No. 137712.
+(15) Fujita, Y.; Sakuda, A.; Hasegawa, Y.; Deguchi, M.; Motohashi,
+K.; Jiong, D.; Tsukasaki, H.; Mori, S.; Tatsumisago, M.; Hayashi, A.
+High Capacity Li2S-Li2O-LiI Positive Electrodes with Nanoscale Ion-
+Conduction Pathways for All-Solid-State Li/S Batteries. Small 2023,
+19, No. 2302179.
+(16) Shigedomi, T.; Fujita, Y.; Kishi, T.; Motohashi, K.; Tsukasaki,
+H.; Nakajima, H.; Mori, S.; Tatsumisago, M.; Sakuda, A.; Hayashi, A.
+Li2S−V2S3−LiI Bifunctional Material as the Positive Electrode in the
+All-Solid-State Li/S Battery. Chem. Mater. 2022, 34 (21), 9745−9752.
+(17) Wang, D.; Wu, Y.; Zheng, X.; Tang, S.; Gong, Z.; Yang, Y.
+Li2S@NC Composite Enable High Active Material Loading and High
+Li2S Utilization for All-Solid-State Lithium Sulfur Batteries. J. Power
+Sources 2020, 479, No. 228792.
+(18) Xu, R.; Yue, J.; Liu, S.; Tu, J.; Han, F.; Liu, P.; Wang, C.
+Cathode-Supported All-Solid-State Lithium−Sulfur Batteries with
+High Cell-Level Energy Density. ACS Energy Lett. 2019, 4 (5), 1073−
+1079.
+(19) Yan, H.; Wang, H.; Wang, D.; Li, X.; Gong, Z.; Yang, Y. In Situ
+Generated Li2S-C Nanocomposite for High-Capacity and Long-Life
+All-Solid-State Lithium Sulfur Batteries with Ultrahigh Areal Mass
+Loading. Nano Lett. 2019, 19 (5), 3280−3287.
+(20) Hakari, T.; Hayashi, A.; Tatsumisago, M. Li2S-Based Solid
+Solutions as Positive Electrodes with Full Utilization and Superlong
+Cycle Life in All-Solid-State Li/S Batteries. Adv. Sustainable Syst.
+2017, 1 (6), No. 1700017.
+(21) Gu, J.; Liang, Z.; Shi, J.; Yang, Y. Electrochemo-mechanical
+Stresses and Their Measurements in Sulfide-based All-solid-state
+Batteries: A Review. Adv. Energy Mater. 2023, 13 (2), No. 2203153.
+(22) Wang, W.-P.; Zhang, J.; Chou, J.; Yin, Y.-X.; You, Y.; Xin, S.;
+Guo, Y.-G. Solidifying Cathode−Electrolyte Interface for Lithium−
+Sulfur Batteries. Adv. Energy Mater. 2021, 11 (2), No. 2000791.
+(23) Ohno, S.; Koerver, R.; Dewald, G.; Rosenbach, C.; Titscher, P.;
+Steckermeier, D.; Kwade, A.; Janek, J.; Zeier, W. G. Observation of
+Chemomechanical Failure and the Influence of Cutoff Potentials in
+All-Solid-State Li−S Batteries. Chem. Mater. 2019, 31 (8), 2930−
+2940.
+(24) Zhu, X.; Wang, L.; Bai, Z.; Lu, J.; Wu, T. Sulfide-Based All-
+Solid-State Lithium-Sulfur Batteries: Challenges and Perspectives.
+Nanomicro Lett. 2023, 15 (1), 75.
+(25) Raiß, C.; Peppler, K.; Janek, J.; Adelhelm, P. Pitfalls in the
+Characterization of Sulfur/Carbon Nanocomposite Materials for
+Lithium−Sulfur Batteries. Carbon N. Y. 2014, 79, 245−255.
+(26) Busche, M. R.; Weber, D. A.; Schneider, Y.; Dietrich, C.;
+Wenzel, S.; Leichtweiss, T.; Schröder, D.; Zhang, W.; Weigand, H.;
+Walter, D.; Sedlmaier, S. J.; Houtarde, D.; Nazar, L. F.; Janek, J. In
+Situ Monitoring of Fast Li-Ion Conductor Li7P3S11 Crystallization
+inside a Hot-Press Setup. Chem. Mater. 2016, 28 (17), 6152−6165.
+(27) Wang, S.; Tang, M.; Zhang, Q.; Li, B.; Ohno, S.; Walther, F.;
+Pan, R.; Xu, X.; Xin, C.; Zhang, W.; Li, L.; Shen, Y.; Richter, F. H.;
+Janek, J.; Nan, C.-W. Lithium Argyrodite as Solid Electrolyte and
+Cathode Precursor for Solid-state Batteries with Long Cycle Life. Adv.
+Energy Mater. 2021, 11 (31), No. 2101370.
+(28) Wang, S.; Zhang, W.; Chen, X.; Das, D.; Ruess, R.; Gautam, A.;
+Walther, F.; Ohno, S.; Koerver, R.; Zhang, Q.; Zeier, W. G.; Richter,
+F. H.; Nan, C.-W.; Janek, J. Influence of Crystallinity of Lithium
+Thiophosphate Solid Electrolytes on the Performance of Solid-state
+Batteries. Adv. Energy Mater. 2021, 11 (24), No. 2100654.
+(29) Wu, Z.; Chen, S.; Yu, C.; Wei, C.; Peng, L.; Wang, H.-L.;
+Cheng, S.; Xie, J. Engineering High Conductive Li7P2S8I via Cl-
+Doping for All-Solid-State Li-S Batteries Workable at Different
+Operating Temperatures. Chem. Eng. J. 2022, 442, No. 136346.
+(30) Khurram Tufail, M.; Ahmad, N.; Zhou, L.; Faheem, M.; Yang,
+L.; Chen, R.; Yang, W. Insight on Air-Induced Degradation
+Mechanism of Li7P3S11 to Design a Chemical-Stable Solid Electrolyte
+with High Li2S Utilization in All-Solid-State Li/S Batteries. Chem.
+Eng. J. 2021, 425, No. 130535.
+(31) Jiang, Z.; Liang, T.; Liu, Y.; Zhang, S.; Li, Z.; Wang, D.; Wang,
+X.; Xia, X.; Gu, C.; Tu, J. Improved Ionic Conductivity and Li
+Dendrite Suppression Capability toward Li7P3S11-Based Solid Electro-
+lytes Triggered by Nb and O Cosubstitution. ACS Appl. Mater.
+Interfaces 2020, 12 (49), 54662−54670.
+(32) Hakari, T.; Hayashi, A.; Tatsumisago, M. Highly Utilized
+Lithium Sulfide Active Material by Enhancing Conductivity in All-
+Solid-State Batteries. Chem. Lett. 2015, 44 (12), 1664−1666.
+(33) Koerver, R.; Zhang, W.; de Biasi, L.; Schweidler, S.; Kondrakov,
+A. O.; Kolling, S.; Brezesinski, T.; Hartmann, P.; Zeier, W. G.; Janek,
+J. Chemo-Mechanical Expansion of Lithium Electrode Materials −on
+the Route to Mechanically Optimized All-Solid-State Batteries. Energy
+Environ. Sci. 2018, 11 (8), 2142−2158.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.4c01514
+Chem. Mater. 2024, 36, 7533−7540
+7539
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​36/​15/​7533/​1533373/​cm4c01514.​pdf by TSINGHUA UNIV user on 14 October 2026
+
+=== 第 8 页 ===
+(34) Fujita, Y.; Hakari, T.; Sakuda, A.; Deguchi, M.; Kawasaki, Y.;
+Tsukasaki, H.; Mori, S.; Tatsumisago, M.; Hayashi, A. Li2S−LiI Solid
+Solutions with Ionic Conductive Domains for Enhanced All-Solid-
+State Li/S Batteries. ACS Appl. Energy Mater. 2022, 5 (8), 9429−
+9436.
+(35) Kimura, T.; Inaoka, T.; Izawa, R.; Nakano, T.; Hotehama, C.;
+Sakuda, A.; Tatsumisago, M.; Hayashi, A. Stabilizing High-Temper-
+ature α-Li3PS4 by Rapidly Heating the Glass. J. Am. Chem. Soc. 2023,
+145 (26), 14466−14474.
+(36) Santhosha, A. L.; Medenbach, L.; Buchheim, J. R.; Adelhelm, P.
+The Indium−Lithium Electrode in Solid-state Lithium-ion Batteries:
+Phase Formation, Redox Potentials, and Interface Stability. Batter.
+Supercaps 2019, 2 (6), 524−529.
+(37) Hakari, T.; Fujita, Y.; Deguchi, M.; Kawasaki, Y.; Otoyama, M.;
+Yoneda, Y.; Sakuda, A.; Tatsumisago, M.; Hayashi, A. Solid
+Electrolyte with Oxidation Tolerance Provides a High-capacity Li2S-
+based Positive Electrode for All-solid-state Li/S Batteries. Adv. Funct.
+Mater. 2022, 32, No. 2106174.
+(38) Asakura, T.; Inaoka, T.; Hotehama, C.; Kowada, H.;
+Motohashi, K.; Sakuda, A.; Tatsumisago, M.; Hayashi, A. Stack
+Pressure Dependence of Li Stripping/Plating Performance in All-
+Solid-State Li Metal Cells Containing Sulfide Glass Electrolytes. ACS
+Appl. Mater. Interfaces 2023, 15 (26), 31403−31408.
+(39) Schlautmann, E.; Weiß, A.; Maus, O.; Ketter, L.; Rana, M.;
+Puls, S.; Nickel, V.; Gabbey, C.; Hartnig, C.; Bielefeld, A.; Zeier, W.
+G. Impact of the Solid Electrolyte Particle Size Distribution in Sulfide-
+based Solid-state Battery Composites. Adv. Energy Mater. 2023, 13
+(41), No. 2302309.
+(40) Gamo, H.; Hikima, K.; Matsuda, A. Understanding
+Decomposition of Electrolytes in All-Solid-State Lithium−Sulfur
+Batteries. Chem. Mater. 2022, 34 (24), 10952−10963.
+(41) Fiedler, M.; Cangaz, S.; Hippauf, F.; Dörfler, S.; Abendroth, T.;
+Althues, H.; Kaskel, S. Mechanistic Insights into the Cycling Behavior
+of Sulfur Dry-film Cathodes. Adv. Sustainable Syst. 2023, 7 (4),
+No. 2200439.
+(42) Zhang, W.; Schröder, D.; Arlt, T.; Manke, I.; Koerver, R.;
+Pinedo, R.; Weber, D. A.; Sann, J.; Zeier, W. G.; Janek, J.
+(Electro)Chemical Expansion during Cycling: Monitoring the
+Pressure Changes in Operating Solid-State Lithium Batteries. J.
+Mater. Chem. A Mater. Energy Sustain. 2017, 5 (20), 9929−9936.
+(43) Gritzner, G.; Kreysa, G. Nomenclature, Symbols and
+Definitions in Electrochemical Engineering (IUPAC Recommenda-
+tions 1993). J. Electroanal. Chem. (Lausanne Switz) 1993, 360 (1−2),
+351−362.
+(44) Zhou, L.; Zuo, T.; Li, C.; Zhang, Q.; Janek, J.; Nazar, L. F.
+Li3−xZrx(Ho/Lu)1−xCl6 Solid Electrolytes Enable Ultrahigh-Loading
+Solid-State Batteries with a Prelithiated Si Anode. ACS Energy Lett.
+2023, 8 (7), 3102−3111.
+(45) Tan, D. H. S.; Chen, Y.-T.; Yang, H.; Bao, W.; Sreenarayanan,
+B.; Doux, J.-M.; Li, W.; Lu, B.; Ham, S.-Y.; Sayahpour, B.; Scharf, J.;
+Wu, E. A.; Deysher, G.; Han, H. E.; Hah, H. J.; Jeong, H.; Lee, J. B.;
+Chen, Z.; Meng, Y. S. Carbon-Free High-Loading Silicon Anodes
+Enabled by Sulfide Solid Electrolytes. Science 2021, 373 (6562),
+1494−1499.
+(46) Nagata, H.; Akimoto, J. Effective One-Step Preparation of High
+Performance Positive and Negative Composite Electrodes for All-
+Solid-State Li2S-Si Batteries. J. Electrochem. Soc. 2021, 168 (9),
+No. 090557.
+(47) Nagata, H.; Akimoto, J. Excellent Deformable Oxide Glass
+Electrolytes and Oxide-Type All-Solid-State Li2S-Si Batteries Employ-
+ing These Electrolytes. ACS Appl. Mater. Interfaces 2021, 13 (30),
+35785−35794.
+(48) Hikima, K.; Fujii, R.; Gamo, H.; Tsukasaki, H.; Mori, S.;
+Watanabe, T.; Yamamoto, K.; Uchimoto, Y.; Muto, H.; Matsuda, A.
+Y2S3-Doped Li2S Active Cathode Materials for All-Solid-State Li−S
+Batteries. J. Phys. Chem. C 2023, 127 (28), 13511−13517.
+(49) Meng, X.; Liu, Y.; Guan, M.; Qiu, J.; Wang, Z. A High-Energy
+and Safe Lithium Battery Enabled by Solid-State Redox Chemistry in
+a Fireproof Gel Electrolyte. Adv. Mater. 2022, 34 (28), No. e2201981.
+(50) Liu, Y.; Meng, X.; Wang, Z.; Qiu, J. A Li2S-Based All-Solid-
+State Battery with High Energy and Superior Safety. Sci. Adv. 2022, 8
+(1), No. eabl8390.
+(51) Meng, X.; Liu, Y.; Wang, Z.; Zhang, Y.; Wang, X.; Qiu, J. A
+Quasi-Solid-State Rechargeable Cell with High Energy and Superior
+Safety Enabled by Stable Redox Chemistry of Li2S in Gel Electrolyte.
+Energy Environ. Sci. 2021, 14 (4), 2278−2290.
+(52) Xu, X.; Cheng, J.; Li, Y.; Nie, X.; Dai, L.; Ci, L. Li Metal-Free
+Rechargeable All-Solid-State Li2S/Si Battery Based on Li7P3S11
+Electrolyte. J. Solid State Electrochem. 2019, 23 (11), 3145−3151.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.4c01514
+Chem. Mater. 2024, 36, 7533−7540
+7540
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​36/​15/​7533/​1533373/​cm4c01514.​pdf by TSINGHUA UNIV user on 14 October 2026

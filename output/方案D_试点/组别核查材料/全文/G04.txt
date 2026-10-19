@@ -1,0 +1,921 @@
+=== 第 1 页 ===
+www.advenergymat.de
+2001285  (1 of 11)
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+Full Paper
+A Metal Organic Framework Derived Solid Electrolyte  
+for Lithium–Sulfur Batteries
+Poramane Chiochan, Xingwen Yu, Montree Sawangphruk, and Arumugam Manthiram*
+DOI: 10.1002/aenm.202001285
+which lead to a low utilization of active 
+material and fast capacity decay. The 
+commonly used liquid electrolyte acts as 
+a medium to transport the intermediate 
+lithium polysulfide species (LPSs) to the 
+anode region, leading to a poisoning of 
+the lithium-metal anode.[4] In addition, the 
+nonhomogeneous nucleation of Li at the 
+anode induces undesired dendritic struc-
+tures, which result in safety hazard.[5]
+Tremendous efforts have been devoted 
+to address the aforementioned issues, 
+including advanced cathode design,[6] 
+functionally 
+inserted 
+layers 
+(inter-
+layers),[7] 
+separator 
+modifications,[8] 
+cell-configuration 
+engineering,[9] 
+and 
+artificial solid electrolyte interfaces.[10] 
+Recently, replacing liquid electrolytes 
+with solid-state electrolytes (SSEs) has 
+been explored to solve the fundamental 
+issues associated with polysulfide shuttle 
+and lithium dendrite.[11] Although the use 
+of an SSE impedes LPSs diffusion and 
+suppresses the dendrite formation on Li anode, the low con-
+ductivity and the interfacial resistance between the SSE and 
+the electrode can degrade the performance of LSBs.[12] Many 
+approaches have been reported to resolve the drawback of 
+SSEs. For example, Tao et  al. reported a Li7La3Zr2O12 (LLZO) 
+nanoparticle-filled polyethylene oxide solid electrolyte.[11b] 
+The filler improved the ionic conductivity of the SSE up to 
+1.1 × 10−4 S cm−1 at 40 °C and stabilized the interfacial contact 
+between the electrode and electrolyte. Nanoporous metal organic 
+frameworks (MOFs), formed by metal ion clusters and organic 
+linkers, have also been explored as nanofillers in polymer 
+matrices for the development of SSEs.[13] The nonporous parti-
+cles can boost the ionic conductivity of the polymeric electrolyte 
+at room temperature. Owing to their designable chemical struc-
+ture and unique pores/channels for ion transport, MOF-based 
+materials have not only been used as nano-fillers but also been 
+applied as ionic solid electrolytes directly.[13,14] The first MOF-
+based electrolyte was reported by Wiers et al. in 2011. The solid 
+electrolyte was prepared by integrating lithium isopropoxide 
+(LiOiPr) into a Mg2(dobdc) (dobdc4− refers to 1,4-dioxido-2,5-ben-
+zenedicarboxylate) that exhibited a porous MOF structure.[15] 
+This new type of solid electrolyte could deliver an ionic conduc-
+tivity of 3.1 × 10−4 S cm−1 at 27 °C. In addition, the grafted func-
+tional group on the ligand of MOF significantly enhanced the 
+ionic conductivity and the cation transference number.[16]
+MOF-based electrolytes have also been recently explored for 
+LSBs.[17] The unique structure of a UIO-66 (UIO refers to an 
+Lithium–sulfur batteries (LSBs) are currently considered as promising 
+candidates for next-generation energy storage technologies. However, their 
+practical application is hindered by the critical issue of the polysulfide-
+shuttle. Herein, a metal organic framework (MOF)-derived solid electrolyte 
+is presented to address it. The MOF solid electrolyte is developed based on a 
+Universitetet i Oslo (UIO) structure. By grafting a lithium sulfonate (-SO3Li) 
+group to the UIO ligand, both the ionic conductivity and the polysulfide-sup-
+pression capability of the resulting -SO3Li grafted UIO (UIOSLi) solid elec-
+trolyte are greatly improved. After integrating a Li-based ionic liquid (Li-IL), 
+lithium bis(trifluoromethanesulfonyl)­imide in 1-ethyl-3-methylimidazolium 
+bis(trifluoromethylsulfonyl)imide, the resulting Li-IL/UIOSLi solid electrolyte 
+exhibits an ionic conductivity of 3.3 × 10−4 S cm−1 at room temperature. Based 
+on its unique structure, the Li-IL/UIOSLi solid electrolyte effectively restrains 
+the polysulfide shuttle and suppresses lithium dendritic growth. Lithium–
+sulfur cells with the Li-IL/UIOSLi solid electrolyte and a Li2S6 catholyte 
+show stable cycling performance that preserves 84% of the initial capacity  
+after 250 cycles with a capacity-fade rate of 0.06% per cycle.
+P. Chiochan, Dr. X. Yu, Prof. A. Manthiram
+Materials Science & Engineering Program
+Texas Materials Institute
+The University of Texas at Austin
+Austin, TX 78712, USA
+E-mail: manth@austin.utexas.edu
+P. Chiochan, Prof. M. Sawangphruk
+Department of Chemical and Biomolecular Engineering
+School of Energy Science and Engineering
+Vidyasirimedhi Institute of Science and Technology
+Rayong 21210, Thailand
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/aenm.202001285.
+1. Introduction
+An efficient and economical utilization of renewable energy 
+sources requires high-performance energy-storage technolo-
+gies. The oxide cathodes developed in the 1980s helped the 
+commercialization of lithium-ion batteries,[1] but the high cost 
+of the transition-metal-based cathodes hamper their use for 
+large-scale energy-storage applications.[2] Among the various 
+types of new energy-storage systems, lithium–sulfur batteries 
+(LSBs) are promising as a next-generation technology owing to 
+the high theoretical capacity of sulfur cathode.[3] However, the 
+practical application of LSBs is hindered by a series of intrinsic 
+problems associated with the charge and discharge processes, 
+Adv. Energy Mater. 2020, 10, 2001285
+
+=== 第 2 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (2 of 11)
+MOF structure that has been first developed at Universitetet 
+i Oslo) could suppress the shuttling of polysulfide species. 
+Recently, a nanoporous separator based on a mixed matrix of 
+UIO-66 and PVDF has been designed.[18] On the other hand, 
+only with an SSE, it might not be able to achieve a decent elec-
+trochemical performance in Li-S batteries in terms of active 
+material utilization, rate capability, and overall cycle life. The 
+poor electronic and ionic conductivity of sulfur usually leads to 
+an inefficient utilization of bulk sulfur cathode, especially when 
+less amount of liquid electrolyte is used. The use of Li2S6 catho-
+lyte could facilitate the dispersion of sulfur active material into 
+the cathode matrix (carbon host) in the case of lean electrolyte 
+conditions. In this regard, despite the vital drawback of shut-
+tling, the use of dissolved polysulfides as a sulfur-source cathode 
+can help to elevate the practical utilization of sulfur.[19] Based on 
+the above facets, a new type of LSBs, named hybrid-electrolyte 
+LSBs, has been proposed by integrating the merit of SSEs and 
+polysulfide catholytes.[20] In such LSBs, LISICON or NASICON 
+(such as LATP, LYZP) solid electrolytes have been applied and 
+Li2S6 dissolved in organic solvents was used as active catho-
+lytes.[21] Remarkable cell performance have been achieved with 
+the use of SSEs in terms of specific capacity, cyclability, and the 
+elimination of parasitic reaction on the Li anode. However, the 
+LISICON or NASICON SSEs usually exhibit either low ionic 
+conductivity or incompatibility with lithium metal.
+In this work, we present a Li-S battery with an MOF-based 
+SSE and Li2S6 catholyte. The MOF SSE is developed on the 
+basis of a UIO structure but with a lithium sulfonate (-SO3Li) 
+group grafted (termed as UIOSLi). The UIOSLi SSE plays 
+multiple important roles in the operation of Li-S cells. First, it 
+acts as an insulating separator to prevent the electrical contact 
+between the anode and cathode. Second, it provides an ionic 
+pathway for the transport of Li+ ions to sustain the electro-
+chemical reactions at the two electrodes. Finally, it serves as an 
+LPS barrier to prevent the shuttling of polysulfides. The grafted 
+SO3Li functional group in the UIO enhances the conductivity 
+of the SSE up to 3.3 × 10−4 S cm−1 at room temperature. Hybrid-
+electrolyte LSBs with the UIOSLi SSE and the Li2S6 catholyte 
+show remarkable rate capability, high coulombic efficiency, and 
+long cyclability.
+2. Results and Discussion
+The synthesis procedures of UIOSLi SSEs are as detailed in the 
+Experimental Section. The UIO material has superior chemical 
+stability and was prepared through a reaction of ZrCl4 and 
+terephthalic acid (also named benzene-1,4-dicarboxylic acid, 
+H2BDC) in a medium of dimethylformamide (DMF) and acetic 
+acid. Figure 1a demonstrates the structure of UIO, consisting 
+of a [Zr6O4(OH)4] cluster with an H2BDC strut. To improve 
+the ionic conductivity of the UIO material, various percent-
+ages of SO3H functional group were grafted to the ligand and 
+the resulting MOF is denoted as UIOS. Figure  1b shows the 
+Figure 1.  a–c) Schematic structures of a) UIO (Universitetet i Oslo) material, b) UIOS (UIO grafted with SO3H), and c) UIOSLi (UIO grafted with 
+SO3Li). d) FTIR spectra of the UIO, UIOS, and UIOSLi materials. e) Zoom-in FTIR spectra of the UIO, UIOS, and UIOSLi materials (magnified spectra 
+of (d)). f) XRD patterns of the UIO, UIOS, and UIOSLi materials.
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (3 of 11)
+schematic structure of the UIOS. To get rid of proton from the 
+SO3H group, the UIOS was lithiated with a lithium ionic liquid 
+(Li-IL) and the resulting lithiated MOF is denoted as UIOSLi, 
+as schematically illustrated in Figure 1c. Figure S1, Supporting 
+Information, presents the photographs of the synthesized UIO, 
+UIOS, and UIOSLi powders. They are all colorless as the typ-
+ical UIO-66 MOF material. Figure  1d illustrates the Fourier 
+transform infrared spectra (FTIR) of the synthesized UIO, 
+UIOS, and UIOSLi materials. The UIOS and UIOSLi exhibit 
+almost the same FTIR characteristics, while the UIO shows 
+a different spectrum due to the absence of sulfonate group. 
+Figure  1e shows the zoom-in regions of the FTIR spectra in 
+the wave-number range of 900–1900 cm−1. The vanishing of 
+the bending band of the hydrated proton (located at 1710 cm−1) 
+in the UIOSLi sample indicates a complete substitution of H+ 
+by Li+. Figure 1f displays the X-ray diffraction (XRD) patterns 
+of the UIO, UIOS, and UIOSLi materials. All the three XRD 
+patterns depict the same structural identity of the UIO. These 
+results indicate that the UIOSLi retains the same structure as 
+UIO after being grafted with the SO3Li group. Morphologies of 
+the as-synthesized UIO, UIOS, and UIOSLi powder materials 
+were characterized with scanning electron microscopy (SEM), 
+as presented in Figure S2, Supporting Information. Figure S2a, 
+Supporting Information, shows the SEM image of UIO, 
+depicting the typical morphology of the UIO66-type MOF mate-
+rial. The size of the particles is around 100–250 nm. After tai-
+loring the ligand with the sulfonate group, the UIOS exhibits 
+the same morphology (Figure S2b, Supporting Information) as 
+the unmodified UIO. Moreover, the lithiated material (UIOSLi) 
+maintains the original morphology of UIO with the same par-
+ticle size (Figure S2c, Supporting Information).
+To attain a high Li+-ion conductivity, the UIOSLi was 
+further treated with a lithium ionic liquid (Li-IL) com-
+prising 
+2.0 
+m 
+LITFSI 
+in 
+1-ethyl-3-methylimidazolium 
+bis(trifluoromethylsulfonyl)imide (EMIM [TFSI]). The samples 
+were prepared with different mass ratios of UIOSLi to Li-IL (will 
+be further discussed later), and the resulting IL-treated MOF is 
+termed as Li-IL/UIOSLi. The Li-IL/UIOSLi also maintains the 
+original morphology and particle size of the UIO (Figure S2d, 
+Supporting Information). To confirm the adsorption of Li-IL 
+in UIOSLi, elemental distribution of the MOF materials was 
+analyzed with energy dispersive spectroscopy (EDS). The EDS 
+spectrum of UIO is displayed in Figure S3, Supporting Infor-
+mation, revealing a homogeneous distribution of Zr, O, and 
+C. Both the UIOS and the UIOSLi demonstrate an additional 
+characteristic signal of sulfur (as shown in Figures S4 and S5, 
+Supporting Information), which corresponds to the sulfonate 
+functional group. These results are in good agreement with 
+the FTIR analysis (Figure 1d,e). After encapsulating Li-IL in the 
+UIOSLi, the EDS results illustrate a well-distributed fluorene 
+element (Figure S6, Supporting Information), implying that the 
+Li-IL has diffused into the vacant space of UIOSLi micropores.
+The Li-IL/UIOSLi powder was molded with a special die set 
+under a pressure of 7 tons to fabricate circlet Li-IL/UIOSLi pel-
+lets. The pellets exhibit white color with a diameter of 1.27 cm 
+(half inch) and a thickness of 380 µm (measured with a digital 
+vernier caliper), as pictured in Figure  2a and Figure S7, Sup-
+porting Information. The areal mass of the pellets with this 
+thickness is 78.9  mg cm−2 (including the mass of IL). Thin 
+electrolyte membranes are always preferred for operating bat-
+teries. However, it is extremely challenging at the current devel-
+opmental stage of solid electrolytes. We have actually tried to 
+fabricate thinner pellets, but it is very difficult to handle thin 
+MOF pellets for fabricating coin cells. We are exploring facile 
+methods for making and handling thin solid electrolyte mem-
+branes. The solid electrolyte pellet displays a dense morphology 
+as characterized by SEM (Figure S8, Supporting Information). 
+Figure 2b,c presents the cross-sectional SEM images (Figure 2c 
+is a magnified image of Figure  2b) of the Li-IL/UIOSLi solid 
+electrolyte. The UIOSLi particles formed a compact structure 
+that can provide a solid barrier to block the polysulfide migra-
+tion.[22] Additionally, the EDS elemental mapping and the EDS 
+spectrum of the Li-IL/UIOSLi pellet demonstrate the same 
+characteristics as the Li-IL/UIOSLi powder, as compared with 
+Figure 2d and Figure S9, Supporting Information. Meanwhile, 
+the XRD pattern of Li-IL/UIOSLi pellet (Figure S10, Sup-
+porting Information) exhibits the same features as that of the 
+Li-IL/UIOSLi powder (Figure 1f). These results affirm that the 
+UIOSLi maintains its structural and morphological features 
+after uptaking Li-IL and being molded as pellets.
+The weight ratio of UIOSLi and Li-IL was further investigated 
+toward the optimization of the ionic conductivity of the MOF 
+electrolyte. Figure 3a illustrates the electrochemical impedance 
+spectroscopy (EIS) plots (Nyquist) of the MOF solid electrolytes 
+with various weight ratios of Li-IL to UIOSLi: Li-IL0.7/UIOSLi1.0, 
+Li-IL0.8/UIOSLi1.0, Li-IL0.9/UIOSLi1.0, Li-IL1.0/UIOSLi1.0, and 
+Li-IL1.1/UIOSLi1.0 (the subscripts for Li-IL and UIOSLi refer to 
+the weight ratio of Li-IL to UIOSLi). With a low Li-IL content, 
+the impedance profiles of the solid electrolytes display a semi-
+circle and an inclined line, which contribute to, respectively, the 
+interfacial charge process and the diffusion process.[23] When 
+the ratio of Li-IL to UIOSLi increases to 0.9:1 (IL0.9/UIOSLi1.0), 
+Figure 2.  a) Photo of a Li-IL/UIOSLi solid electrolyte membrane. 
+b) Cross-sectional SEM image of the Li-IL/UIOSLi membrane. c) Magnified 
+images of (b). d) EDS data of the Li-IL/UIOSLi membrane.
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (4 of 11)
+the semicircle of the EIS plot disappears, implying a reduction 
+in the charge-transfer resistance. Moreover, the shift of inter-
+cept at high frequency represents an improvement in ionic con-
+ductivity. With Equation  (1) shown below, ionic conductivities 
+of the Li-IL/UIOSLi membranes were calculated and are sum-
+marized in Figure 3b.
+Conductivity
+L
+R
+S
+=
+×
+	
+(1)
+In Equation (1), L is the thickness (cm) of the solid electro-
+lyte, R is the bulk resistance (Ω) of solid electrolyte, and A is the 
+effective area (cm2) of the solid electrolyte. With an increase in 
+IL, the ionic conductivity of the IL/UIOSLi increases since the 
+Li-IL can originate interactions between TFSI− anions and the 
+metal atoms of the MOF.[24] The IL1.0/UIOSLi1.0 solid electro-
+lyte exhibits a remarkable ionic conductivity of 3.3 × 10−4 S cm−1 
+at room temperature. Although further increase in the con-
+tent of Li-IL can slightly improve the ionic conductivity (e.g., 
+IL1.1/UIOSLi1.0), the mechanical property of the IL1.1/UIOSLi1.0 
+pellet is unexpectedly poor. The IL1.1/UIOSLi1.0 pellet actually 
+exhibits a gel-like feature, as presented in Figure  3b. There-
+fore, the IL1.0/UIOSLi1.0 solid electrolyte was selected for the 
+following studies. The impedance results in Figure  3c,d pre-
+sent the influence of the -SO3 functional group grafted onto 
+MOF. The subscripts of the legends in Figure  3c represent 
+the percentages of the -SO3 functional group, as described in 
+the Experimental Section. Theoretically, the -SO3Li functional 
+group could afford Li+-ion hopping and could provide a Li+-
+ion conveyance pathway.[25] The ionic conductivity of the solid 
+electrolytes increases almost linearly with increasing -SO3 
+functional groups (Figure  3c,d). This result indicates that in 
+addition to the ionic channel created by the pores of MOF, 
+-SO3Li can further enhance the transport of Li+ ions.[26] Based 
+on the EIS analyses in Figure  3, solid electrolytes prepared 
+with 100% -SO3Li grafted on the ligand were used for further 
+studies. Meanwhile, the weight ratio of Li-IL to UIOSLi was 
+maintained at 1: 1.
+To evaluate the polysulfide permeability in the IL-LI/UIOSLi 
+membrane, an in-house designed setup, as schematized in 
+Figure S11, Supporting Information, was used to visualize the 
+Li2S6 diffusion. The experimental details are as described in our 
+previous publication.[27] For a comparison, the conventional Cel-
+gard separator was also tested in the same setup. As illustrated in 
+Figure 4a, the Li2S6 catholyte immediately infused through the 
+Celgard membrane into the blank 1,3-dioxolane/dimethyl ether 
+(DOL/DME) solution in the lower glass container. As a result, 
+the lower beaker was filled with the brownish solution after 1 h 
+of testing. In contrast, the Li-IL/UIOSLi solid electrolyte effec-
+tively retained the polysulfide solution in the upper glass vessel 
+throughout 7 days of the continuous experiment (Figure  4b). 
+The retention of Li2S6 by the Li-IL/UIOSLi is associated with 
+three key factors. First, the pore size of MOF is ≈6–12 Å,[28]  
+which can suppress the penetration of polysulfide species, 
+but allow the transport of Li+ ions. Second, both the sulfonate 
+group (SO3−) and the polysulfides (Sn2−) are negatively charged 
+species. The presence of SO3− on the ligand of UIO would 
+induce a repulsion effect on the Sn2− species and maintain an 
+attraction effect of boosting the Li+-ion transport. Finally, the 
+Li-IL (2.0 m LITFSI in EMIM [TFSI]) exhibits a viscosity that 
+is much higher than that of the catholyte solvents (DME/DOL). 
+For example, the viscosity of EMIM [TFSI] at 25 °C is 32 cP, 
+while the viscosity of DOL and DME are, respectively, 0.59 and 
+0.23 cP at room temperature. Hence, the Li-IL could act as a 
+“glue” to hold the polysulfide species from diffusion through 
+the UIOSLi framework.
+Electrochemical performance of the Li-IL/UIOSLi solid 
+electrolyte was preliminarily evaluated with a symmetric cell 
+Figure 3.  a) Electrochemical impedance spectroscopies (EIS Nyquist plots) and b) ionic conductivities of the Li-IL/UIOSLi solid electrolytes with var-
+ious weight ratios of Li-IL to UIOSLi. c) EIS Nyquist plots and d) ionic conductivities of the Li-IL/UIOSLi with different percentage of grafted SO3− group.
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (5 of 11)
+configuration. The cells were prepared with two pieces of Li 
+metal chips as electrodes. The Li-IL/UIOSLi solid electrolyte was 
+sandwiched between the two pieces of Li foil, as schematized in 
+Figure S12, Supporting Information. For comparison, a liquid-
+electrolyte symmetric cell was also assembled in the same way 
+but with a Celgard separator and a liquid electrolyte comprising 
+1.0 m LITFSI dissolved in a mixture of DOL/DME (1: 1, volume 
+ratio). Figure 5 illustrates the striping–plating voltage profiles 
+of these two symmetric cells. The cells are operated at a cur-
+rent density of ±1.0 mA cm−2 and are alternatively charged and 
+discharged for 1 h in each cycle. In the initial cycles (Figure 5b), 
+both cells present a similar voltage profile containing two major 
+overpotential characteristics. The sharp potential spike contrib-
+utes to a driving force to create lithium seeds on the electrified 
+interface (called the nucleation regime). After the nucleation of 
+lithium seed, the propagation regime appears with a relatively 
+constant value of overpotential.[29] Typically, the overpotential 
+at this regime is lower than the nucleation regime because an 
+additional atom of Li on the lithium seed is more favorable than 
+creating the new lithium embryos.[30] After ≈40 h of cycling, the 
+overpotential of the symmetric liquid-electrolyte cell gradually 
+increases and the voltage profile starts to be spiky, indicating 
+the formation of Li dendrites (Figure 5c).[31] After 150 h, the cell 
+with the conventional liquid electrolyte fails (Figure  5a). On 
+the other hand, the cell with the Li-IL/UIOSLi solid electrolyte 
+maintains stable overpotential throughout the 400 h of cycling 
+(Figure  5a,d). These results hint that the Li-IL/UIOSLi solid 
+electrolyte effectively elevates the ionic transport kinetics.[31] 
+The voltage profiles shown in Figure  5 also demonstrate the 
+stable striping and plating of Li with the Li-IL/UIOSLi solid 
+electrolyte. The smooth and stable charge–discharge voltage 
+without a spike reveals no occurrence of lithium dendrite. 
+According to previous relevant research,[32] the dendrite-free 
+deposition of Li is attributed to a homogeneous lithium flux 
+and uniform lithium growth on the Li-metal surface, facilitated 
+by Li-IL/UIOSLi. Moreover, the nano-sized Zr-based MOF pro-
+vides good contact between the solid electrolyte and the Li-foil 
+electrode.[33] It is also worth mentioning that the cluster of the 
+sulfonate functional group induces a Li+-ion hopping mecha-
+nism and enhances the Li+-ion conductivity.[26b,34]
+The electrochemical performance of the Li-IL/UIOSLi solid 
+electrolyte was further investigated in Li-S cells that were prepared 
+with a Li-metal anode and a Li2S6 catholyte. The cell is termed 
+as Li ǁ Li-IL/UIOSLi ǁ Li2S6. The active material loading at the 
+cathode was 5.6 mgsulfur cm−2 and the ratio of electrolyte to sulfur 
+was 5 (5.0 µL of electrolyte per mg of sulfur). Figure 6a shows 
+cyclic voltammetry (CV) profiles of the Li ǁ Li-IL/UIOSLi ǁ Li2S6  
+cell that were collected at a scan rate of 0.1 mV s−1. The cathodic 
+scan starting from 3.0 to 1.5 V demonstrates two broad peaks 
+corresponding to the two-step reduction reactions. The first 
+peak at ≈2.25 V (marked as I in Figure 6a) is associated with the 
+reduction of active sulfur material to dissolved polysulfide spe-
+cies (e.g., from S8 to Li2Sn, n = 4–8). The second peak at ≈1.90 V 
+(marked as II in Figure  6a) corresponds to further reduction 
+of the dissolved polysulfide species to Li2S2 and Li2S (solid-
+phase species). The backward-scan profile includes one broad 
+anodic peak (marked as I′ in Figure 6a) around 2.40 V that is 
+related to the conversion of Li2S2/Li2S to Li2S8/S8. Figure S13, 
+Supporting Information, presents the CV profiles of a Li-S cell 
+with a conventional Celgard separator (termed as Li ǁ Celgard ǁ 
+Li2S6). A comparison of Figure 6a and Figure S13, Supporting 
+Information, indicates that the cathodic peak potentials of the 
+solid electrolyte cell are lower than those of the liquid electro-
+lyte cell, while the anodic peak potential is higher for the solid 
+electrolyte cell. This phenomenon is attributed to the relatively 
+sluggish transport of Li+-ions in the solid electrolyte. However, 
+the Li ǁ Celgard ǁ Li2S6 cell shows a notable decline in current 
+density after five cycles (Figure S13, Supporting Information), 
+whereas the CV profiles of the Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell 
+maintain repeatable CV profiles from cycle to cycle (Figure 6a).
+Figure 6b presents the galvanostatic charge–discharge voltage 
+profiles of the Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell operated at various 
+C rates. All discharge profiles clearly illustrate two well-defined 
+discharge plateaus (at 2.26 and 2.02 V when the cell is cycled 
+at 0.1C rate) and two well-defined charge plateaus (at 2.25 and 
+2.44 V at 0.1C rate). The charge–discharge plateaus in Figure 6b 
+are consistent with the CV waves presented in Figure 6a. Also, 
+the charge–discharge curves are well maintained at a high rate 
+of 1C, indicating a good rate capability of the cell. Notably, the 
+charge–discharge curves at 0.1C rate obtained before (red line in 
+Figure 6b) and after (blue line in Figure 6b) a series of high-rate 
+Figure 4.  Polysulfide (Li2S6) penetration test through a) Celgard mem-
+brane and b) Li-IL/UIOSLi membrane.
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (6 of 11)
+tests are almost similar, implying a stable electrochemical 
+environment is maintained even under a high-rate operation 
+condition. In contrast, the Li ǁ Celgard ǁ Li2S6 cell also shows 
+clearly separated upper- and lower-voltage plateaus at a low cur-
+rent density as shown in Figure S14a, Supporting Information. 
+However, the discharge–charge curve at a high current density 
+dramatically changes due to the loss of active material and pos-
+sibly the passivation of Li-metal anode. Consequently, when 
+the cycling rate is switched back to 0.1C after a high-rate (1C) 
+cycle, the discharge–charge profiles of the Li ǁ Celgard ǁ Li2S6  
+cell cannot maintain their original shape as those before 
+the high-rate cycling (Figure S14a, Supporting Information). 
+Figure S14b, Supporting Information, compares the initial-cycle 
+profiles of the Li ǁ Celgard ǁ Li2S6 cell and the Li ǁ Li-IL/UIOSLi 
+ǁ Li2S6 cell at a low C rate (C/10). The Li ǁ Celgard ǁ Li2S6 cell 
+showed less polarization behavior than the Li ǁ Li-IL/UIOSLi 
+ǁ Li2S6 cell, which is consistent with the CV results (Figure 6a 
+and Figure S13, Supporting Information). The high polarization 
+behavior of the Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell is likely due to the 
+relatively sluggish transport of Li+ ions in the solid electrolyte. 
+However, the sulfur utilization in the Li ǁ Celgard ǁ Li2S6 cell 
+is lower due to the invasion of polysulfide into Li-metal anode. 
+The voltage difference between the charge and discharge pro-
+files at the mid-depth of charge and discharge can be used to 
+evaluate the polarization behavior of the cell. At the low C rate 
+(0.1C), the Li ǁ Celgard ǁ Li2S6 cell provides a lower overpotential 
+(0.23 V) than the Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell (0.33 V), owing 
+to the sluggish Li+-ion transport in the solid electrolyte. How-
+ever, at the high C rate (1C), the Li ǁ Celgard ǁ Li2S6 cell exhibits 
+higher overpotential than the solid electrolyte cell, possibly due 
+to the passivation at the surface of Li anode caused by the poly-
+sulfide shuttle. Consequently, the overpotential of the Li ǁ Cel-
+gard ǁ Li2S6 cell crucially increases by 70% when the C rate is 
+switched back to 0.1C (Figure S14a, Supporting Information). 
+The absence of additional (other than the redox reactions of 
+sulfur, polysulfide, and sulfide species) peaks or plateaus in the 
+CVs or charge–discharge profiles in Figure 6a,b indicates that 
+the solid electrolyte has no electrochemical activity during the 
+discharge–charge process.
+Figure  6c compares the rate capabilities of the Li ǁ Li-IL/
+UIOSLi ǁ Li2S6 and Li ǁ Celgard ǁ Li2S6 cells in more detail. 
+The Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell delivers reasonable discharge 
+capacities (based on the mass of sulfur) of 1095, 985, 890, and 
+749 mAh g−1, respectively, at the cycling rates of 0.1C, 0.2C, 0.5C, 
+and 1C. When the cycling rate is switched back to 0.1C, the cell 
+exhibits a recovery of its discharge capacity of 1033 mAh g−1, 
+which is 95% of its initial discharge capacity before the high-
+rate cycles. In addition, the discharge capacities within the five 
+cycles at each C rate are consistent. On the other hand, the 
+discharge capacity of the Li ǁ Celgard ǁ Li2S6 cell continuously 
+declines in each cycle and the capacity fade becomes more dra-
+matic with increasing cycling rates. The benefits of using solid 
+electrolyte are obvious from the above comparison between the 
+Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell and the Li ǁ Celgard ǁ Li2S6 cell. 
+The enhanced electrochemical performance of the solid electro-
+lyte cell is majorly attributed to the effective polysulfide control 
+by the IL/UIOSLi membrane.[35]
+Long-term cycling performances of the Li ǁ Li-IL/UIOSLi ǁ 
+Li2S6 and Li ǁ Celgard ǁ Li2S6 cells are compared in Figure 6d. 
+The cells are cycled at a rate of 0.2C. The Li ǁ Celgard ǁ Li2S6 
+control cell shows a rigorous decline in discharge capacity, 
+ending up with a very low capacity after 100 cycles. This out-
+come majorly originates from the continuous polysulfide 
+migration from the cathode to the anode during prolonged 
+cycling. The diffused polysulfide reacts with Li metal and 
+induces a loss of active sulfur material at the cathode and the 
+passivation Li-metal surface, which consequently leads to 
+a low coulombic efficiency and short life span of the battery. 
+Figure 5.  a) Long-term cycling profiles of a Li ǁ Li-IL/UIOSLi ǁ Li and a Li ǁ Celgard ǁ Li symmetric cells. b–d) Zoom-in views of (a) in time frames of 
+0–4 h (b), 100–104 h (c), and 396–400 h (d).
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (7 of 11)
+In contrast, the Li-IL/UIOSLi solid electrolyte can maintain 
+the polysulfides in the cathode while allowing and promoting 
+the Li+-ion transport in the solid electrolyte. As a result, the 
+Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell demonstrates a long cycle life and 
+an excellent capacity-retention capability. Throughout the 250 
+cycles, the capacity retention is 84% for the Li ǁ Li-IL/UIOSLi ǁ 
+Li2S6 cell and the capacity-fade rate is as low as 0.06% per cycle. 
+Besides, the Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell maintains high and 
+relatively stable Coulombic efficiency throughout the 250 cycles. 
+The coulombic efficiency at the cycle number of 250 is 95.4%. 
+Since there is not a negative effect from polysulfide shuttle, 
+the slight decrease in the coulombic efficiency of the Li ǁ Li-IL/
+UIOSLi ǁ Li2S6 cell could be caused by other factors. To the best 
+of our knowledge, the substrate surface area and porosity play 
+an important role in the utilization of active sulfur material.[36] 
+In our case, the specific surface area and porosity of the CFP 
+(carbon fiber paper) substrate are low, but the sulfur loading is 
+relatively high (5.6 mg cm−2). When the redox reaction does not 
+consume the entire bulk active material, S/Li2S clusters can be 
+generated and accumulated in each cycle. These clusters could 
+continuously consume active lithium like in a parasitic reac-
+tion, which could continuously lower the coulombic efficiency 
+over long-term cycling.
+Postmortem analyses of the cycled cells would help to under-
+stand the morphological and structural changes of cell compo-
+nents after prolonged cycling. To do this, cells were disassem-
+bled after cycling and the cell components were collected for 
+characterization. Figure S15, Supporting Information, shows 
+pictures of a Li-IL/UIOSLi membrane that was taken out of a 
+cycled Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell. The picture in Figure S15a, 
+Supporting Information, shows one side of the membrane 
+facing the cathode (termed as cathode-Li-IL/UIOSLi), which 
+reveals a yellow stain on the surface (polysulfides). The other 
+side of the membrane (Figure S15b, Supporting Information, 
+termed as anode-Li-IL/UIOSLi) demonstrates the original 
+color of the solid electrolyte, which implies that no poly-
+sulfides have penetrated through the membrane. Figure S16, 
+Supporting Information, shows the SEM images and EDS 
+data collected on both sides of the cycled Li-IL/UIOSLi mem-
+brane. Both the cathode-Li-IL/UIOSLi and the anode-Li-IL/
+UIOSLi display smooth surfaces without observable crevice 
+and a coagulation of Li2S2/Li2S deposits (note that the mem-
+brane was rinsed with the DME/DOL mixed solvents before 
+the SEM/EDS experiments). EDS data of the cathode-Li-IL/
+UIOSLi and the anode-Li-IL/UIOSLi illustrate similar charac-
+teristics of the elements of C, N, O, F, Zr, and S (the same 
+composition of the pristine IL-UIOSLi). These results hint 
+that the solid electrolyte is chemically compatible with both 
+the Li anode and the polysulfide cathode.[22,37] Figure  7a,b 
+displays the cross-sectional SEM images of the cycled Li-IL/
+UIOSLi. The Li-IL/UIOSLi maintains the same thickness 
+before and after cycling. From the high-resolution SEM image 
+presented in Figure  7b, the cycled Li-IL/UIOSLi maintains 
+a condensed structure as the pristine membrane. Moreover, 
+the EDS data (Figure 7c) and XRD pattern (Figure 7d) of the 
+cycled Li-IL/UIOSLi further confirm that the composition and 
+structure of the Li-IL/UIOSLi did not change after the long-
+term cycling.
+Figure S17a, Supporting Information, shows the picture of 
+a Li anode taken from a cycled Li ǁ Celgard ǁ Li2S6 cell. The 
+surface of the Li anode exhibits a dark feature, implying that 
+parasite reactions have occurred during the operation of 
+the cell. For instance, the polysulfide species that migrated 
+through the Celgard membrane have reacted with Li metal. 
+In contrast, the Li anode taken out of the Li ǁ Li-IL/UIOSLi ǁ 
+Li2S6 cell does not show any yellow-stain feature (Figure S17b, 
+Figure 6.  a) Cyclic voltammograms (CVs) of a Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell. b) Charge–discharge voltage profiles of the Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell at 
+various C rates. c) Discharge capacities of a Li ǁ Li-IL/UIOSLi ǁ Li2S6 and Li ǁ Celgard ǁ Li2S6 cells at various C rates. d) Long-term cycling performance 
+of the Li ǁ Li-IL/UIOSLi ǁ Li2S and Li ǁ Celgard ǁ Li2S6 cells at a cycling rate of 0.2 C.
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (8 of 11)
+Supporting Information). Li anodes from the cycled cells were 
+also analyzed with SEM and EDS. The results are summarized 
+in Figure S18, Supporting Information. A fairly rough surface 
+is observed on the cycled Li anode from the cycled Li ǁ Cel-
+gard ǁ Li2S6 cell (Figure S18a, Supporting Information). EDS 
+analysis of this sample reveals a clear and strong sulfur signal 
+(Figure S18c, Supporting Information). In contrast, the surface 
+of the Li anode from the cycled Li ǁ Li-IL/UIOSLi ǁ Li2S6 cell 
+(Figure S18b, Supporting Information) is relatively smooth and 
+there is no sulfur signal observed (Figure S18d, Supporting 
+Information).
+X-ray photoelectron spectroscopy (XPS) was employed to 
+analyze the surface of the pristine and cycled Li-IL/UIOSLi 
+solid electrolyte membranes. The survey spectra of the pristine 
+Li-IL/UIOSLi and the cycled Li-IL/UIOSLi are presented in 
+Figure S19, Supporting information. Both sides of the sample 
+were characterized. By following the same annotations for 
+the SEM/EDS analyses, one side of the membrane that faces 
+the cathode is termed as cathode-Li-IL/UIOSLi, while the 
+other side facing the anode is termed as anode-Li-IL/UIOSLi. 
+All the three spectra show similar characteristics, representing 
+the elements of Zr, S, C, N, O, and F, which are in a good 
+agreement with the EDS results (Figures 2d and 7c). Regional 
+spectra of the elements of Zr 3p, O 1s, and S 2p are presented 
+in Figure 8. Notably, all Zr 3p spectra exhibit the same char-
+acteristics without changes in the peak position (Figure 8a–c), 
+confirming that no reaction has occurred between the elec-
+trodes (both the polysulfide cathode and the Li anode) and the 
+Zr node on the surface of Li-UIOSLi. Additionally, there is no 
+peak shift (in comparison to the pristine Li-IL/UIOSLi mem-
+brane) in the S 2p and O 1s spectra as well for the anode-Li-
+IL/UIOSLi sample (Figure 8d,f,g,i). The O 1s peaks located at 
+532.5  eV in Figure  8d,f are attributed to the -SO3Li and the 
+S 2p peaks located at 168.5 eV in Figure 8g,i are assigned to 
+-SO3Li functional group as well.[38] These results indicate 
+that there are no valent-state changes of O and S on the sur-
+face of the anode-IL-UIOSLi. However, peak shifts for O 1s 
+and S 2p can be noticed in the cathode-Li-IL/UIOSLi sample 
+(Figure  8e,h), implying a surface chemistry change on the 
+cathode side of the cycled IL-UIOSLi. The shift of S 2p peak to 
+a lower binding energy in Figure 8h is likely due to the trapped 
+polysulfides. However, there is no polysulfide signal directly 
+detected at the lower binding energy (160–164 eV). Therefore, 
+it is suggested that the S 2p peak in Figure 8h originates from 
+the oxidation of polysulfides when preparing samples for the 
+XPS experiments.[39]
+To further investigate the polysulfide penetration behavior in 
+the dynamic cell system, we managed to insert an additional 
+Celgard membrane between the solid–electrolyte and the Li 
+anode (termed as Li ǁ Celgard|Li-IL/UIOSLi ǁ Li2S6). The cell 
+configuration is presented in Figure S20, Supporting Infor-
+mation. For comparison, a liquid electrolyte cell was also pre-
+pared and tested with the same configuration (termed as Li ǁ 
+Celgard|Celgard ǁ Li2S6). The cells were disassembled after 250 
+cycles. Figure S21a, Supporting Information, shows a picture 
+of the inserted Celgard membrane from the liquid-electrolyte 
+Li ǁ Celgard|Celgard ǁ Li2S6 cell, which displays a clear yel-
+lowish feature due to the migration of the polysulfides. On 
+the other hand, the inserted Celgard from the solid-electrolyte 
+Li ǁ Celgard|Li-IL/UIOSLi ǁ Li2S6 cell looks pristine without any 
+color change (Figure S21b, Supporting information), indicating 
+the confinement of polysulfides within the cathode. Figure S22, 
+Supporting Information, summarizes the SEM and EDS anal-
+ysis results of the inserted Celgard membranes. The SEM 
+image (Figure S22a, Supporting Information) and the EDS data 
+(Figure S22b, Supporting Information) reveal the existence of 
+agglomerated polysulfides on the inserted Celgard from the 
+cycled Li ǁ Celgard|Celgard ǁ Li2S6 cell. In contrast, the inserted 
+Celgard from the Li ǁ Celgard|Li-IL/UIOSLi ǁ Li2S6 cell does not 
+show a feature of any agglomerated stuff (Figure S22c, Sup-
+porting Information). There does appear a sulfur signal in the 
+EDS in Figure S22d, Supporting Information, but this sulfur 
+signal is weak and is supposed to be from the LiTFSI salt in the 
+DOL/DME-based liquid electrolyte.
+3. Conclusion
+In summary, we have developed an MOF-derived solid electro-
+lyte to overcome the crucial problem of polysulfide-shuttle in 
+LSBs. The MOF electrolyte was developed with the UIO as the 
+base structure, which selectively allows the transport of Li+-ions 
+but blocks the migration of polysulfide species. By grafting a 
+lithium sulfonate (-SO3Li) group onto the UIO ligand, both the 
+ionic conductivity and the polysulfide-suppression capability 
+of the solid electrolyte were improved. By properly integrating 
+a lithium-ion conductive ionic liquid (Li-IL), LiTFSI in EMIM 
+[TFSI], the resulting Li-IL/UIOSLi electrolyte exhibited an ionic 
+conductivity of 3.3 × 10−4 S cm−1 at room temperature. Li-S cells 
+with the Li-IL/UIOSLi MOF electrolyte showed stable cycling 
+performance.
+Figure 7.  a) Cross-section SEM image of a cycled Li-IL/UIOSLi mem-
+brane. b) High-resolution SEM image of (a). c) EDS data of the cycled 
+Li-IL/UIOSLi in the cross-section area. d) XRD patterns of a pristine Li-IL/
+UIOSLi and a cycled Li-IL/UIOSLi membrane.
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (9 of 11)
+4. Experimental Section
+Chemicals and Materials: Zirconium chloride (ZrCl4, >99.5%, Alfa 
+Aesar), terephthalic acid (H2BDC, >99%, TCI America), monosodium 
+2-sulfoterephthalate (NaSO3-H2BDC, >98%, TCI America), and acetic 
+acid (99%, ACROS Organics) were used for the MOF material synthesis. 
+EMIM [TFSI] (99.5%, Solvonic) was used for the synthesis of ionic liquid. 
+Sublimed sulfur powder (99.5%, Acros Organics) and lithium sulfide 
+(Li2S, 99.9%, Acros Organics) were used for preparing the polysulfide 
+catholyte. Organic solvents and lithium salt used in this research 
+included N,N-dimethylformamide (DMF, 99.5%, Acros Organics), 
+dimethoxyethane (DME, 99+%, Acros Organics), DOL (99.5%, Acros 
+Organics), and lithium bis(trifluoromethanesulfonimide) (99%, ACROS 
+Organics). Carbon nanofiber powder (Fisher Scientific) was used for 
+fabricating the cathode matrix.
+Synthesis of UIOSx: The UIOSX (x refers to the percentage of SO3− 
+group grafted to the UIO ligand, 0, 25, 50, 75, and 100) was prepared 
+in a 250 mL round-bottom flask with a reflux condenser. Stoichiometric 
+amounts of ZrCl4, H2BDC, and NaSO3-H2BDC were mixed and 
+sonicated in a mixed solvent of DME and CH3COOH (19:1 by volume) 
+for 1 h. Then, the mixture was continuously stirred and heated at 140 °C 
+under reflux for 48 h. The white powder produced was collected by a 
+vacuum filtration process and washed with, 250 mL of DME and 300 mL 
+of acetone, respectively. The obtained UIOSX was then further dried in a 
+vacuum oven for 3 days at 150 °C.
+Lithiation of UIOS (UIOSLi): The UIOSx powder was first dispersed 
+into a liquid electrolyte comprising 1.0 m LITFSI in a DME/DOL (1:1, 
+volume ratio) mixture solvent. Then, the mixture was continuously 
+stirred for 14 days at 80 °C. The resulting UIOSLi powder was washed 
+with acetone and dried in a vacuum oven for 24 h at 150 °C.
+Fabrication of Li-IL/UIOSLi Solid Electrolyte Membranes: The UIOSLi 
+powder and Li-IL (2.0 m LITFSI in EMIM [TFSI]) were thoroughly mixed 
+in an agitating mortar. The mixture was then heated at 100 °C for 48 h. 
+The obtained Li-IL/UIOSLi powder was placed in a pellet pressing die 
+set with a diameter of 0.5 in. and was pressed at 7 tons for 1 min to form 
+a pellet. The pellet was then dried at 100 °C for 24 h.
+Characterization: Ionic conductivity measurements of the MOF solid 
+electrolyte pellets were carried out with an AC impedance technique on 
+a Solatron 1287 potentiostat at room temperature. The applied frequency 
+ranged from 0.1 to 106 Hz and the applied amplitude was 5 mV. FTIR 
+of the MOF materials were collected on a Thermo Scientific Nicolet 
+iS5 instrument. SEM along with EDS experiments were conducted 
+on a Quanta 650 instrumentation. XRD experiments were conducted 
+on MiniFlex Benchtop instrumentation with CuKα radiation. Surface 
+analysis of the pristine and cycled MOF electrolytes was conducted on 
+an X-ray photoelectron spectrometer (XPS, Kratos Analytical Company).
+Cell Fabrication and Testing: A blank electrolyte was prepared by 
+dissolving 1.0 m LITFSI and 0.1 LiNO3 in a DOL/DME (1:1 volume ratio) 
+mixture solvent. Li2S6 polysulfide catholyte was prepared through a 
+reaction of sulfur and Li2S (the molar ratio of sulfur to Li2S was 5:1) in 
+the blank electrolyte. The concentration of Li2S6 was controlled at 1.0 m 
+(6.0 m sulfur). A carbon nanofiber (CNF) paper was used as a matrix for 
+the polysulfide catholyte. The CNF paper was synthesized by following 
+the same procedures as in previous publications.[40] Li ǁ Li-IL/UIOSLi ǁ 
+Li2S6 and Li ǁ Celgard ǁ Li2S6 cells were prepared with a CR2032 coin-
+type configuration in an Argon-filled glove box. Sulfur cathodes were 
+Figure 8.  XPS regional spectra of the pristine Li-IL/UIOSLi and cycled Li-IL/UIOSLi membranes. For the cycled membrane, the surface facing the 
+Li-anode is termed as anode-Li-IL/UIOSLi and the surface facing the cathode is termed as cathode-Li-IL/UIOSLi. a–c) Zr 3p spectra of the pristine 
+Li-IL/UIOSLi, cathode-Li-IL/UIOSLi, and anode-Li-IL/UIOSLi membranes. d–f) O 1s spectra of the pristine Li-IL/UIOSLi, cathode-Li-IL/UIOSLi, and 
+anode-Li-IL/UIOSLi membranes. g–i) S 2p spectra of the pristine Li-IL/UIOSLi, cathode-Li-IL/UIOSLi, and anode-Li-IL/UIOSLi membranes.
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (10 of 11)
+prepared by dispersing a certain amount of Li2S6 catholyte into a carbon 
+nanofiber paper matrix. The net sulfur active material was controlled 
+at 5.6  mg cm−2. The ratio of blank electrolyte to net sulfur (E/S) was 
+maintained at 5 µL of blank electrolyte per mg of sulfur. A piece of Li-IL/
+UIOSLi pellet or a piece of Celgard membrane was placed between the 
+Li2S6/CNF cathode and Li-metal anode. An Arbin battery test station 
+was used to evaluate the electrochemical performance of Li-S cells with 
+a galvanostatic charge–discharge mode. Cyclic voltammograms of the 
+cell were recorded by a VoltaLab PGZ402 potentiostat at a scan rate 
+of 0.1 mV s−1.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+This work was supported by the U.S. Department of Energy, Office of 
+Basic Energy Sciences, Division of Materials Science and Engineering 
+under award number DE-SC0005397.
+Conflict of Interest
+The authors declare no conflict of interest.
+Keywords
+ionic liquid, lithium–sulfur batteries, metal organic frameworks, 
+polysulfide shuttle, solid electrolytes
+Received: April 14, 2020
+Revised: May 9, 2020
+Published online: June 5, 2020
+[1]	 A. Manthiram, Nat. Commun. 2020, 11, 1550.
+[2]	 A. Manthiram, Y. Fu, S. H. Chung, C. Zu, Y. S. Su, Chem. Rev. 2014, 
+114, 11751.
+[3]	 S. Evers, L. F. Nazar, Acc. Chem. Res. 2013, 46, 1135.
+[4]	 Q. Pang, X. Liang, C. Y. Kwok, L. F. Nazar, Nat. Energy 2016, 1, 16132.
+[5]	 a) H. Pan, J. Chen, R. Cao, V. Murugesan, N. N. Rajput, K. S. Han, 
+K. Persson, L. Estevez, M. H. Engelhard, J.-G. Zhang, K. T. Mueller, 
+Y.  Cui, Y.  Shao, J.  Liu, Nat. Energy 2017, 2, 813; b) C. Z.  Zhao, 
+X. Q. Zhang, X. B. Cheng, R. Zhang, R. Xu, P. Y. Chen, H. J. Peng, 
+J. Q.  Huang, Q.  Zhang, Proc. Natl. Acad. Sci. U. S. A. 2017, 114, 
+11069.
+[6]	 a) N. Osada, C. B. Bucur, H. Aso, J. Muldoon, Energy Environ. Sci. 
+2016, 9, 1668; b) M. Yan, Y. Zhang, Y. Li, Y. Huo, Y. Yu, C. Wang, 
+J. Jin, L. Chen, T. Hasan, B. Wang, B.-L. Su, J. Mater. Chem. A 2016, 
+4, 9403; c) Y. Zhong, S. Wang, Y. Sha, M. Liu, R. Cai, L. Li, Z. Shao, 
+J. Mater. Chem. A 2016, 4, 9526; d) L.  Luo, S.-H.  Chung, 
+C.-H. Chang, A. Manthiram, J. Mat. Chem. A 2017, 5, 15002.
+[7]	 a) X. Yu, J. Joseph, A. Manthiram, J. Mater. Chem. A 2015, 3, 15683; 
+b) L. Luo, S.-H. Chung, A. Manthiram, J. Mater. Chem. A 2016, 4, 
+16805; c) S. Bai, X. Liu, K. Zhu, S. Wu, H. Zhou, Nat. Energy 2016, 
+1, 16094.
+[8]	 a) X. Luo, X. Lu, G. Zhou, X. Zhao, Y. Ouyang, X. Zhu, Y. E. Miao, 
+T. Liu, ACS Appl. Mater. Interfaces 2018, 10, 42198; b) H. Qu, J. Ju, 
+B. Chen, N. Xue, H. Du, X. Han, J. Zhang, G. Xu, Z. Yu, X. Wang, 
+G. Cui, J. Mater. Chem. A 2018, 6, 23720.
+[9]	 H. Xu, S. Wang, A. Manthiram, Adv. Energy Mater. 2018, 8, 1800813.
+[10]	 a) Y. Liu, D. Lin, P. Y. Yuen, K. Liu, J. Xie, R. H. Dauskardt, Y. Cui, 
+Adv. Mater. 2017, 29, 1605531; b) J.  Zhi, A. Z.  Yazdi, G.  Valappil, 
+J. Haime, P. Chen, Sci. Adv. 2017, 3, 1701010.
+[11]	 a) Q. Zhao, X. Liu, S. Stalin, K. Khan, L. A. Archer, Nat. Energy 2019, 
+4, 365; b) X.  Tao, Y.  Liu, W.  Liu, G.  Zhou, J.  Zhao, D.  Lin, C.  Zu, 
+O. Sheng, W. Zhang, H. W. Lee, Y. Cui, Nano Lett. 2017, 17, 2967; 
+c) Y.-X. Song, Y. Shi, J. Wan, S.-Y. Lang, X.-C. Hu, H.-J. Yan, B. Liu, 
+Y.-G.  Guo, R.  Wen, L.-J.  Wan, Energy Environ. Sci. 2019, 12, 2496; 
+d) X. Yu, Z. Bi, F. Zhao, A. Manthiram, Adv. Energy Mater. 2016, 6, 
+1601392.
+[12]	 X.  Yao, N.  Huang, F.  Han, Q.  Zhang, H.  Wan, J. P.  Mwizerwa, 
+C. Wang, X. Xu, Adv. Energy Mater. 2017, 7, 1602923.
+[13]	 J.-F. Wu, X. Guo, J. Mater. Chem. A 2019, 7, 2653.
+[14]	 Z. Q. Wang, R. Tan, H. B. Wang, L. Y. Yang, J. T. Hu, H. B. Chen, 
+F. Pan, Adv. Mater. 2018, 30, 1704436.
+[15]	 B. M. Wiers, M. L. Foo, N. P. Balsara, J. R. Long, J. Am. Chem. Soc. 
+2011, 133, 14522.
+[16]	 F.  Zhu, H.  Bao, X.  Wu, Y.  Tao, C.  Qin, Z.  Su, Z.  Kang, ACS Appl. 
+Mater. Interfaces 2019, 11, 43206.
+[17]	 D. D.  Han, Z. Y.  Wang, G. L.  Pan, X. P.  Gao, ACS Appl. Mater. 
+Interfaces 2019, 11, 18427.
+[18]	 Z. Q. Wang, W. Y. Hwang, J. H. Hua, Y. D. Wang, H. C. Yi, W. Zhao, 
+Q.  Zhao, B.  Fei, F.  Pan, Small Methods 2020, https://doi.
+org/10.1002/smtd.202000082.
+[19]	 H. L.  Pan, J. Z.  Chen, R. G.  Cao, V.  Murugesan, N. N.  Rajput, 
+K. S.  Han, K.  Persson, L.  Estevez, M. H.  Engelhard, J. G.  Zhang, 
+K. T. Mueller, Y. Cui, Y. Y. Shao, J. Liu, Nat. Energy 2017, 2, 813.
+[20]	 a) X. Yu, A. Manthiram, Acc. Chem. Res. 2017, 50, 2653; b) X. Yu, 
+A. Manthiram, Joule 2017, 1, 453.
+[21]	 a) X. W.  Yu, Z. H.  Bi, F.  Zhao, A.  Manthiram, ACS Appl. Mater. 
+Interfaces. 2015, 7, 16625; b) X. W.  Yu, Z. H.  Bi, F.  Zhao, 
+A. Manthiram, Adv. Energy Mater. 2016, 6, 1601392; c) Y. W. L. Wang, 
+Y. Xia, Energy Environ. Sci. 2015, 8, 1551.
+[22]	 X. Yu, J. Joseph, A. Manthiram, Mater. Horiz. 2016, 3, 314.
+[23]	 G. Tan, R. Xu, Z. Xing, Y. Yuan, J. Lu, J. Wen, C. Liu, L. Ma, C. Zhan, 
+Q.  Liu, T.  Wu, Z.  Jian, R.  Shahbazian-Yassar, Y.  Ren, D. J.  Miller, 
+L. A. Curtiss, X. Ji, K. Amine, Nat. Energy 2017, 2, 17090.
+[24]	 a) C. Yuan, J. Li, P. Han, Y. Lai, Z. Zhang, J. Liu, J. Power Sources 
+2013, 240, 653; b) S. Bai, Y. Sun, J. Yi, Y. He, Y. Qiao, H. Zhou, Joule 
+2018, 2, 2117.
+[25]	 K. D.  Fong, J.  Self, K. M.  Diederichsen, B. M.  Wood, 
+B. D. McCloskey, K. A. Persson, ACS Cent. Sci. 2019, 5, 1250.
+[26]	 a) D. K.  Panda, K.  Maity, A.  Palukoshka, F.  Ibrahim, S.  Saha, 
+ACS Sustainable Chem. Eng. 2019, 7, 4619; b) W. J.  Phang, H.  Jo, 
+W. R. Lee, J. H. Song, K. Yoo, B. Kim, C. S. Hong, Angew. Chem. 
+2015, 54, 5142.
+[27]	 X. W. Yu, S. N. Feng, M. J. Boyer, M. Lee, R. C. Ferrier, N. A. Lynd, 
+G. S. Hwang, G. B. Wang, S. Swinnea, A. Manthiram, Mater. Today 
+Energy 2018, 7, 98.
+[28]	 G. L. Jie Shen, K. Huang, Q. Li, K. Guan, Y. Li, W. Jin, J. Membr. Sci. 
+2015, 513, 155.
+[29]	 A. Pei, G. Zheng, F. Shi, Y. Li, Y. Cui, Nano Lett. 2017, 17, 1132.
+[30]	 P. Biswal, S. Stalin, A. Kludze, S. Choudhury, L. A. Archer, Nano Lett. 
+2019, 19, 8191.
+[31]	 X.  Yu, L.  Xue, J. B.  Goodenough, A.  Manthiram, ACS Mater. Lett. 
+2019, 1, 132.
+[32]	 a) S. Y. Bai, Y. Sun, J. Yi, Y. B. He, Y. Qiao, H. S. Zhou, Joule 2018, 2, 
+2117; b) Z. Q. Wang, Z. J. Wang, L. Y. Yang, H. B. Wang, Y. L. Song, 
+L. Han, K. Yang, J. T. Hu, H. B. Chen, F. Pan, Nano Energy 2018, 49, 
+580.
+[33]	 a) X. Han, Y. Gong, K. K. Fu, X. He, G. T. Hitz, J. Dai, A. Pearse, 
+B. Liu, H. Wang, G. Rubloff, Y. Mo, V. Thangadurai, E. D. Wachsman, 
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+www.advenergymat.de
+www.advancedsciencenews.com
+© 2020 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+2001285  (11 of 11)
+L. Hu, Nat. Mater. 2017, 16, 572; b) R. Chen, W. Qu, X. Guo, L. Li, 
+F. Wu, Mater. Horiz. 2016, 3, 487.
+[34]	 D. N.  Dybtsev, V. G.  Ponomareva, S. B.  Aliev, A. P.  Chupakhin, 
+M. R.  Gallyamov, N. K.  Moroz, B. A.  Kolesov, K. A.  Kovalenko, 
+E. S.  Shutova, V. P.  Fedin, ACS Appl. Mater. Interfaces 2014, 6, 
+5161.
+[35]	 X. Yu, A. Manthiram, Matter 2019, 1, 439.
+[36]	 a) J. Zheng, M. Gu, M. J. Wagner, K. A. Hays, X. Li, P. Zuo, C. Wang, 
+J.-G.  Zhang, J.  Liu, J.  Xiao, J. Electrochem. Soc. 2013, 160, A1624; 
+b) N.  Kang, Y.  Lin, L.  Yang, D.  Lu, J.  Xiao, Y.  Qi, M.  Cai, Nat. 
+Commun. 2019, 10, 4597.
+[37]	 X. Yu, A. Manthiram, Chem. Mater. 2016, 28, 896.
+[38]	 D. Wang, X. Xia, X. Zhang, W. Tang, Y. Zhong, J. Wu, X. Wang, J. Tu, 
+J. Mater. Chem. A 2017, 5, 19358.
+[39]	 Y. Jung, B. Kang, Phys. Chem. Chem. Phys. 2016, 18, 21500.
+[40]	 a) X. W. Yu, J. Joseph, A. Manthiram, Mater. Horiz. 2016, 3, 314; 
+b) X. W.  Yu, A.  Manthiram, Phys. Chem. Chem. Phys. 2015, 17, 
+2127.
+Adv. Energy Mater. 2020, 10, 2001285
+ 16146840, 2020, 27, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202001285 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

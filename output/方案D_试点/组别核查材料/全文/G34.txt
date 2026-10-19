@@ -1,0 +1,706 @@
+=== 第 1 页 ===
+Ceramics International 47 (2021) 18196–18204
+Available online 18 March 2021
+0272-8842/© 2021 Elsevier Ltd and Techna Group S.r.l. All rights reserved.
+Rapid preparation and performances of garnet electrolyte with sintering 
+aids for solid-state Li–S battery 
+Li Yang a, Xiao Huang b, Changfei Zou a, Xiyuan Tao a, Lei Liu a, Kaili Luo a, Peng Zeng a, 
+Qiushi Dai c, Yongfang Li a, Lingguang Yi a, Zhigao Luo a, Xianyou Wang a,* 
+a National Base for International Science & Technology Cooperation, Hunan Province Key Laboratory of Electrochemical Energy Storage and Conversion, School of 
+Chemistry, Xiangtan University, Xiangtan, 411105, China 
+b SZU-NUS Collaborative Innovation Center for Optoelectronic Science & Technology, International Collaborative Laboratory of 2D Materials for Optoelectronics Science 
+and Technology of Ministry of Education, Institute of Microscale Optoelectronics, Shenzhen University, Shenzhen, 518060, China 
+c Clean Nano Energy Center, State Key Laboratory of Metastable Materials Science and Technology, Yanshan University, Qinhuangdao, 066004, China   
+A R T I C L E I N F O  
+Keywords: 
+Solid state electrolyte 
+Garnet type Li7La3Zr2O12 
+Sintering aids 
+Shuttling effect 
+Solid state lithium-sulfur battery 
+A B S T R A C T  
+Lithium-sulfur (Li–S) batteries are attractive due to their high theoretical energy density. However, conventional 
+Li–S batteries with liquid electrolytes undergo polysulfide shuttle-effect and lithium dendrite formation during 
+charge/discharge process, leading to poor electrochemical performance and safety issues. Garnet type 
+Li7La3Zr2O12 (LLZO) solid-state electrolyte (SSE) restricts the penetration of polysulfides and exhibits high ionic 
+conductivity at room temperature (RT). Herein, Li6.5La3Zr1.5Nb0.5O12 (LLZNO) ceramic electrolyte using Li3PO4 
+(LPO) as sintering aids (LLZNO-LPO) is prepared by the rapid sintering method and is applied to construct a 
+shuttle-effect free solid-state Li–S battery. The SSE displays high conductive pure cubic-LLZO phase; during the 
+rapid sintering, LPO melts and junctions the voids between the grains, thus improves Li+ conductivity. As a 
+result, the LLZNO-LPO ceramic electrolyte with Li+ conductivity of 4.3 × 10−4 S cm−1 and high critical current 
+density (CCD) of 1.2 mA cm−2 is obtained at RT. The Li–S solid-state battery which utilizes LLZNO-LPO ceramic 
+electrolyte can deliver an initial discharge capacity of 943 mA h⋅g−1 and 602 mA h⋅g−1 retention after 60 cycles. 
+In the same time, the initial coulombic efficiency is as high as 99.5%, indicating that the SSE can effectively block 
+the polysulfide shuttle towards the Li anode and fulfill a shuttle-free Li–S battery.   
+1. Introduction 
+Li–S batteries, based on the reversible reaction of 16Li+ + S8 + 16 
+e−↔ 8 Li2S, are attractive due to high theoretical energy density (2600 
+Wh⋅kg−1), specific capacity (1675 mA h⋅g−1), environmental friendli­
+ness, the abundance of sulfur as well as low cost [1–4]. However, the 
+inherent polysulfides shuttling problems of Li–S batteries seriously limit 
+their practical application in energy storage systems. The intermediate 
+polysulfides generated during the charge/discharge process dissolve 
+into electrolytic species causing the shuttle effect. These polysulfides 
+diffuse through the separator towards the lithium metal anode, causing 
+the loss of active material and the corrosion of lithium anode, resulting 
+in severe capacity decay and poor coulombic efficiency [5]. Moreover, 
+Li-dendrite penetration through the diaphragm causes short circuit and 
+thermal runaway, thus igniting flammable organic electrolyte and 
+causing burning, even explosion [6–11]. To alleviate these problems, 
+various methods have been adopted for both the S, Li electrodes and the 
+separators, such as synthesizing S host materials to trap polysulfides [12, 
+13], coating Li with polymer to protect the Li electrode, modifying 
+separator to suppress polysulfide shuttle and accelerating polysulfide 
+conversion [14–16]. However, although some progress has been made 
+in the recent works, these strategies cannot fundamentally solve the 
+above problems in liquid-state Li–S batteries [16]. 
+More recently, replacing the liquid electrolyte with solid-state elec­
+trolytes (SSE) such as oxides [17–20], sulfides [21], polymers [22,23], 
+and their compounds [24,25] to construct solid-state Li–S batteries are 
+highly valued. Among them, Li-stuffed garnet-type Li7La3Zr2O12 (LLZO) 
+SSE have drawn much more attention because it has high Li-ion trans­
+ference number ~1 and high conductivity above 1 × 10−4 S cm−1 at 
+room temperature [26,27]. Moreover, it exhibits superior thermal and 
+chemical stability and can be prepared and stored in the air, which is 
+suitable for large scale production [28]. Most importantly, it provides a 
+* Corresponding author. 
+E-mail address: wxianyou@yahoo.com (X. Wang).  
+Contents lists available at ScienceDirect 
+Ceramics International 
+journal homepage: www.elsevier.com/locate/ceramint 
+https://doi.org/10.1016/j.ceramint.2021.03.138 
+Received 3 January 2021; Received in revised form 4 February 2021; Accepted 14 March 2021   
+
+=== 第 2 页 ===
+Ceramics International 47 (2021) 18196–18204
+18197
+prospect to eliminate the polysulfide shuttling effect in Li–S batteries 
+owing to the fact that polysulfide cannot penetrate through it [29,30]. 
+One of the challenges in solid-state Li–S batteries based on LLZO SSE 
+is the difficulty of preparing LLZO ceramic electrolyte with high quality. 
+Conventionally, a dense LLZO sintering body is required before using, 
+which needs a long time sintering at high temperature about 1200 ◦C 
+[17]. The solemn “Li-loss” and abnormal grain growth (AGG) phenom­
+enon in the process would lead to the formation of impurity pyrochlore 
+phase La2Zr2O7 (LZO) with a low Li-ion conductivity and weak me­
+chanical 
+strength 
+[17,31]. 
+Some 
+researchers 
+employed 
+low-melting-point sintering additives like Li3BO3 [32], LiAlSiO4 [33], 
+LiAlO2 [34], ZnO [35], Li2O [36], LiF [37] to densify LLZO ceramics at 
+lower temperatures. These additives can form liquid phases below the 
+sintering temperature [38], which will accelerate the sintering process. 
+Xie et al. [39] reported Li6.4La3Zr1.4Ta0.6O12 (LLZTO) incorporated with 
+amorphous Li3BO3 (LBO) to lessen the pores between the grains and also 
+reduce the grain boundary resistance, a total Li+ conductivity of 5.47 ×
+10−4 S cm−1 was achieved via LLZTO/LBO solid-state electrolyte. 
+Li6.75La3Zr1.75Nb0.25O12 with LiAlSiO4 as an additive was prepared by 
+Chen’s group [33], which displayed the improved relative density and 
+enhanced total ionic conductivity of 6.93 × 10−4 S cm−1 at room tem­
+perature. LZO was also added as a sintering aids to densify LLZTO 
+ceramic [40]. However, the sintering process still need several hours or 
+more and big grains are usually formed [39], which are harmful to the 
+fracture strength of ceramic electrolyte [41]; and “Li-loss” is still inev­
+itable, so mother powders are still required in the preparation process 
+[32]. Recently, our group presented a rapid ultra-high-temperature 
+sintering method without mother powder to manufacture high-quality 
+LLZO ceramics [17]. This method can shorten the sintering time to 
+only 10 min or less, which can effectively restrain “Li-loss” and inhibit 
+grain growth, manufacture LLZO ceramic with high conductivity. This 
+method was also later verified by Hu’s group [42,43]. With the help of 
+sintering aids, the rapid ultra-high-temperature sintering method might 
+offer a prospect to prepare LLZO ceramics with small grain size, dense 
+microstructure and high conductivity. 
+In this work, the garnet ceramic electrolytes using Li3PO4 (LPO) as 
+sintering aids are manufactured by the rapid ultra-high-temperature 
+sintering method and are applied to construct a shuttle-effect free 
+solid-state Li–S battery. Nb5+ was doped into the LLZO structure to 
+stabilize the cubic phase; LPO is used as sintering aids to eliminate the 
+grain clearance and to improve the conductivity of the SSE. The optimal 
+rapid sintering conditions for the LLZO ceramics are discussed. The 
+compatibility of Li anode/LLZNO-LPO ceramic electrolyte is evaluated 
+by the interface resistance detected by electrochemical impedance 
+spectroscopy (EIS) and the critical current density (CCD). Then, a solid- 
+state Li–S battery is constructed using the sintered ceramic as an elec­
+trolyte, and the electrochemical performance of the as-assembled bat­
+tery was tested at a specific current of 0.1C within a voltage window of 
+1.7–2.8 V at 25 ◦C. 
+2. Experimental section 
+2.1. Preparation of solid electrolyte 
+Li6.5La3Zr1.5Nb0.5O12 (LLZNO) powders were prepared via a con­
+ventional solid-state reaction method, and the ceramic electrolytes were 
+sintered by using the rapid ultra-high-temperature sintering method 
+described in our previous work [17]. Stoichiometric amount of 
+LiOH⋅H2O (99%, Adamas, 10 wt% excess to compensate lithium vola­
+tilization), La2O3 (99.9%, pre-heated at 900 ◦C for 12 h), ZrO2 (99.99%, 
+Aladdin), Nb2O5 (99.99%) were mixed with planetary ball milling at 
+500 rpm for 10 h with isopropanol and yttrium stabilized zirconium 
+oxide beads. The obtained mixture was dried at 70 ◦C and calcinated in 
+MgO crucible at 950 ◦C for 6 h to form LLZNO powders. 1 wt% Li3PO4 
+(LPO) as sintering aids was then added into the as-prepared powders. 
+The mixture was ground at 400 rpm for 16 h through wet ball-milling 
+method, and then dried at 70 ◦C to obtain fine powders. The obtained 
+powder was uniaxially pressed into green pellets at 300 MPa with a 
+diameter of 15 mm. Afterward, the green pellets were sintered in a small 
+MgO crucible using the rapid ultra-high-temperature sintering method. 
+In this sintering method, no mother powder is needed. Finally, the 
+LLZNO-Li3PO4 (LLZNO-LPO) ceramic electrolyte pellets were obtained, 
+and the optical sintering schedule was discussed. The preparation pro­
+cess of ceramic electrolyte is illustrated in Fig. 1. 
+2.2. Characterization of electrolyte 
+The sintered CEs were dry-polished by sandpaper from 400 to 2000 
+grit before characterization and assembling in a solid-state battery. 
+Powder X-ray diffraction (PXRD) (Bruker AXS D8, Bruker AXS GmbH) 
+was used to analyze the phase composition of the LLZNO powders and 
+the sintered pellets. The particle size distributions of the garnet fine 
+powders were measured by a laser granularity analyzer. The conduc­
+tivities of the CEs were tested using an electrochemical workstation 
+(Zahner, Model Zennium). Pt/LLZO/Pt was kept at 25 ◦C for at least 30 
+min before the test. The frequency ranged 4 M–1 Hz and the amplitude 
+was 20 mV. 
+The densities of the CEs were calculated via weight/volume. The 
+relative densities (R.D.) are defined as the ratio of calculated densities 
+with the theoretical density, which was obtained from XRD results (5.14 
+g cm−3 for Li6.5La3Zr1.5Nb0.5O12). The fractured surface morphology of 
+as-prepared LLZO CE was investigated by scanning electron microscopy, 
+JSM-6610LV. 
+2.3. Assembly and characterization of the batteries 
+Symmetry batteries were assembled in an Ar-filled glovebox by two 
+schemes: 1)each side of LLZNO-LPO ceramic pellet was rubbed on 
+molten Li (295 ◦C) till the Li wetted the ceramic surface [45], followed 
+by cooling down and cell sealing (designated as Li/LLZNO-LPO/Li); and 
+Fig. 1. Scheme of the preparation process of LLZNO-LPO ceramic electrolyte (CE).  
+L. Yang et al.                                                                                                                                                                                                                                    
+
+=== 第 3 页 ===
+Ceramics International 47 (2021) 18196–18204
+18198
+2) LLZNO-LPO ceramics were sandwiched between two Li metal discs 
+with the interface wetted by 15 μL liquid electrolyte (1 M LiTFSI in 
+DME/DOL) (designated as Li/LLZNO-LPO + LE/Li). All the batteries 
+were assembled in Swagelok-type cell molds. The single side interface 
+resistance of the CE/Li interface were calculated based on dividing 
+experimental resistance by a factor of two and then normalizing to the 
+contact interface area. The lithium plating/stripping test was carried out 
+by galvanostatic cycling with a Neware charge/discharge instrument at 
+various current densities at 25 ◦C. The stripping/plating capacity was 
+fixed at 0.05 mA h cm−2. The CCD is defined as the lowest current 
+density at which cell short circuit occurs due to Li dendrite penetration. 
+The cathode electrodes slurry was prepared by mixing S-CNT powder 
+(carbon nanotubes, original from Cnano Technology, Beijing, China), 
+PVDF binder, and acetylene black in the weight ratio of 8:1:1. The sulfur 
+loading was ~0.5 mg sulfur cm−2. In order to assemble Li/LLZNO-LPO/S 
+solid-state battery, LLZNO-LPO ceramics were sandwiched between Li 
+metal disc and the cathode electrode disc, which cathode electrode side 
+interface was wetted by 8 μL liquid electrolyte. Galvanostatic charge/ 
+discharge cycling was conducted by polarizing the S/CNT cathode be­
+tween 1.7 and 2.8 V versus Li/Li+ at a specific current of 0.1C (1C =
+1675 mA g−1) at 25 ◦C. 
+3. Results and discussion 
+3.1. The significance of Li3PO4 additive 
+The cross-sectional morphology of the as-prepared LLZNO and 
+LLZNO-LPO ceramic electrolyte (CE) are displayed in Fig. 2a–b. It can be 
+seen that LLZNO CE owns smooth polyhedron grains with good crys­
+tallinity; gaps and voids emerge between the grains, which would 
+magnify grain boundary resistance and reduce ionic conductivity [46]. 
+Interestingly, these void spaces almost disappear after the addition of 
+LPO, as shown in Fig. 2b. During ultra-high temperature sintering pro­
+cess of about 1340 ◦C, the low-melting-point LPO (~837 ◦C) [47] 
+transforms into a liquid phase and occupies the void spaces in LLZNO, 
+which will make the structure more compact; Li3PO4 also exhibits ion­
+ically conducting property [48]. Thus, Li3PO4 may behave as the binder 
+to consolidate the grain boundaries and improve the conductivity. The 
+grain sizes for pure LLZNO and LLZNO-LPO are listed in Table 1. It can 
+be found that the LLZNO-LPO grains grow a little larger than pure 
+LLZNO, but the grain sizes of both are all below 20 μm. 
+To study the crystal structure of LLZNO powders and as-prepared 
+CEs, XRD was carried out. As shown in Fig. S1 and Fig. S2, LLZNO 
+powders own cubic-LLZO phase, and the particle size distribution of 
+LLZNO and LLZNO-LPO fine powders possess similar shapes. These fine 
+powders own D(50) ~0.5 μm and can be cold-pressed into green pellets 
+easily. Furthermore, they were sintered by the rapid ultra-high- 
+Fig. 2. Cross-sectional SEM images of (a) pure LLZNO (b) LLZNO-LPO ceramic electrolyte, (c) XRD patterns and (d) EIS curves of as-prepared pure LLZNO and 
+LLZNO-LPO ceramic electrolyte sintered at 1340 ◦C × 1 min. 
+Table 1 
+Summary of the total conductivity (σ) at room temperature, grain size and 
+relative density (R.D.) of pure LLZNO and LLZNO-LPO ceramic electrolyte sin­
+tered at 1340 ◦C × 1 min.  
+Composition 
+Sintering conditions 
+σ (10−4 S cm−1) 
+Grain size 
+R.D. (%) 
+Pure LLZNO 
+1340 ◦C × 1 min 
+0.82 
+2–10 μm 
+90.2 
+LLZNO-LPO 
+1340 ◦C × 1 min 
+3.1 
+4–18 μm 
+90.9  
+L. Yang et al.                                                                                                                                                                                                                                    
+
+=== 第 4 页 ===
+Ceramics International 47 (2021) 18196–18204
+18199
+temperature sintering method with a sintering schedule of 1340 ◦C × 1 
+min. After sintering, all significant diffraction peaks of LLZNO and 
+LLZNO-LPO ceramic electrolyte displayed in Fig. 2c are consistent with a 
+cubic LLZO structure corresponding to PDF#45-0109. No tetragonal 
+phase LLZO is detected, indicating that Nb doping successfully stabilizes 
+the cubic phase LLZO, which can enhance the conductivity about two 
+times than that of tetragonal phase LLZO [44]. No pyrochlore phase 
+La2Zr2O7 exists, suggesting that the rapid ultra-high-temperature sin­
+tering method effectively restrains “Li-loss” [17]. Furthermore, 
+LLZNO-LPO with LPO addition matches well with the peaks of the 
+standard cubic-LLZO phase, indicating that the LPO additive does not 
+influence the crystal structure of cubic LLZO. Hence, this rapid sintering 
+method, along with Nb doping and LPO additive, is beneficial to develop 
+a high conductive cubic-phase LLZO ceramic. 
+Fig. 2d shows the EIS curve of as-prepared pure LLZNO and LLZNO- 
+LPO ceramic electrolyte sintered at 1340 ◦C × 1 min. It displayed a 
+semicircle in the high-frequency region representing the ionic conduc­
+tivity in the grain and grain boundary of the ceramic electrolyte and a 
+low-frequency tail signifying the double-layer capacitance of the Pt/ 
+LLZO interface [49]. The Z′ value of the reflection point in the curve was 
+considered as the total impedance, which was then used to calculate the 
+conductivity [17]. As shown in Table 1, the LPO additive significantly 
+promotes the ionic conductivity of LLZNO-LPO ceramic electrolyte 
+compared with pure LLZNO. Apparently, the LPO additive effectively 
+improves the grain boundary, thus, the grain boundary resistance of the 
+CE decreases, and the total conductivity increases. Hence, LLZNO-LPO is 
+employed as the ceramic electrolyte in the subsequent work, which 
+adopts LPO as the sintering aids. 
+Fig. 3. The influence of different sintering temperatures. Cross-sectional SEM images of LLZNO-LPO ceramic electrolyte sintered at different temperature schemes 
+with (a) 1320 ◦C × 1 min, (b) 1340 ◦C × 1 min, (c1) and (c2) 1360 ◦C × 1 min. (d) EIS curves and (e) total conductivity and R.D. of as-prepared LLZNO-LPO ceramic 
+electrolyte. 
+L. Yang et al.                                                                                                                                                                                                                                    
+
+=== 第 5 页 ===
+Ceramics International 47 (2021) 18196–18204
+18200
+3.2. Determination of rapid sintering temperature for LLZNO-LPO 
+ceramics 
+To further improve the quality of the LLZNO-LPO ceramic electro­
+lyte, the optimal rapid sintering schedule is studied. First, the LLZNO- 
+LPO ceramics were sintered at a series of high temperatures of 
+1320 ◦C, 1340 ◦C, and 1360 ◦C at a constant sintering duration of 1 min. 
+The morphology of the as-prepared samples at different sintering tem­
+peratures is displayed in Fig. 3a–c. The average grain size at 1320 ◦C × 1 
+min is 4–12 μm and 4–18 μm at 1340 ◦C × 1 min. The grain boundaries 
+are tightly packed at 1340 ◦C × 1 min, as shown in Fig. 3b as compared 
+to the grains sintered at 1320 ◦C × 1 min (Fig. 3a). However, some huge 
+grains (sizes >100 μm) and stomas appear at 1360 ◦C × 1 min, indi­
+cating an abnormal grain growth (AGG). AGG phenomenon is harmful to 
+the fracture strength of ceramic electrolyte and have an adverse impact 
+on its practical application in batteries [41]. Moreover, the gaps in the 
+grain boundaries emerge probably because of AGG and the evaporation 
+of Li3PO4 at a high temperature of 1360 ◦C, which will be harmful to 
+Li-ion conductivity. 
+The EIS curve are shown in Fig. 3c, and the calculated values of 
+conductivity and relative densities are shown in Fig. 3d and listed in 
+Table 2. I can be observed that LLZNO-LPO pellets sintered at 1320 ◦C ×
+1 min depicts the lowest conductivity of 2.31 × 10−4 S cm−1 with a low 
+Table 2 
+Summary of the total conductivity at room temperature, grain size, and R.D. of 
+LLZNO-LPO ceramic electrolyte sintered at different sintering temperatures.  
+Composition 
+Sintering 
+conditions 
+σ (10−4 S 
+cm1) 
+Grain size 
+R.D. 
+(%) 
+LLZNO-LPO 
+1320 ◦C × 1 min 
+2.31 
+4–12 μm 
+87.3 
+1340 ◦C × 1 min 
+3.1 
+4–18 μm 
+90.9 
+1360 ◦C × 1 min 
+2.5 
+some grains>100 
+μm 
+91.1  
+Fig. 4. Cross-sectional SEM images of LLZNO-LPO ceramic electrolyte sintered at different time duration schemes with (a) 1340 ◦C × 1 min, (b) 1340 ◦C × 8 min, 
+(c1) and (c2) 1340 ◦C × 16 min. (d) EIS curves and (e) total conductivity and R.D. of as-prepared LLZNO-LPO ceramic electrolyte. 
+L. Yang et al.                                                                                                                                                                                                                                    
+
+=== 第 6 页 ===
+Ceramics International 47 (2021) 18196–18204
+18201
+R.D. of 87.3%. However, the conductivity and R.D. at 1340 ◦C × 1 min is 
+3.1 × 10−4 S cm−1 and 90.9%, respectively. And at 1360 ◦C × 1 min, the 
+value of conductivity is 2.5 × 10−4 S cm−1 with a relative density of 
+91.1%. Obviously, low conductivity and low R.D. value at 1320 ◦C × 1 
+min are due to the low sintering temperature, which is insufficient for 
+densifying. In comparison, the grain boundaries are tighter at 1340 ◦C ×
+1 min with the improved conductivity and the increased R.D. value. As 
+temperature increases, R.D. value improves with the highest R.D value 
+at 1360 ◦C × 1 min. High temperature implies to strong sintering driving 
+force. Besides, the conductivity of the CE sintered at 1360 ◦C × 1 min is 
+lower than 1340 ◦C × 1 min, it can be ascribed to existence of the stomas 
+owning to the AGG and the gaps in the grain boundaries. Accordingly, 
+1340 ◦C is considered to be an optimal rapid sintering temperature for 
+LLZNO-LPO ceramic. 
+3.3. Optimal rapid sintering time for LLZNO-LPO ceramics 
+The effect of rapid sintering time duration was studied by sintering 
+pellets at optimal sintering temperature of 1340 ◦C with different time 
+durations of 1 min, 8 min, and 16 min. The morphology of the as- 
+prepared samples at different sintering time duration is shown in 
+Fig. 4a–c. The average grain size at 1340 ◦C × 1 min is 4–12 μm. As the 
+sintering time increases to 8 min, grain boundaries are consolidated 
+more tightly with a modest grain size of 5–20 μm. Furthermore, some 
+giant grains with grain size >100 μm appears when sintered for 16 min 
+due to AGG phenomenon with void spaces develop at grain boundaries. 
+These void spaces will reduce the R.D. and Li-ion conductivity of the 
+electrolyte. 
+The calculated values of conductivity and relative densities are listed 
+in Table 3. LLZNO-LPO ceramic sintered for 1 min illustrates the lowest 
+conductivity. When sintered for 8 min, the conductivity and R.D. reach 
+the highest value (4.28 × 10−4 S cm−1 and 92.5%). While sintered for 
+16 min, the gaps and void emerge due to the AGG phenomenon; 
+therefore, the conductivity and R.D. reduced to 3.43 × 10−4 S cm−1 and 
+90.6% respectively. As a result, 1340 ◦C × 8 min is considered as the 
+optimal rapid sintering temperature and time for LLZNO-LPO to achieve 
+the ceramic electrolyte with the highest conductivity and improved R.D. 
+Moreover, the XRD patterns of LLZNO-LPO CE sintered at 1320 ◦C ×
+1 min, 1360 ◦C × 1 min, 1340 ◦C × 8 min, and 1360 ◦C × 16 min are 
+shown in Fig. S3. All samples exhibit pure cubic-LLZO phase with no 
+distinguished impurity phase. This demonstrates the excellence of the 
+Table 3 
+Summary of the total conductivity at room temperature, grain size, and R.D. of 
+LLZNO-LPO ceramic electrolyte sintered at different sintering time duration.  
+Composition 
+Sintering 
+conditions 
+σ (10−4 S 
+cm−1) 
+Grain size 
+R.D. 
+(%) 
+LLZNO-LPO 
+1340 ◦C × 1 min 
+3.1 
+4–18 μm 
+90.9 
+1340 ◦C × 8 min 
+4.28 
+5–20 μm 
+92.5 
+1340 ◦C × 16 
+min 
+3.43 
+some grains>100 
+μm 
+90.6  
+Fig. 5. Electrochemical impedance spectra of Li/Garnet/Li batteries tested just assembled and stand for 96 h: a) Li/LLZNO-LPO/Li, b) Li/LLZNO-LPO + LE/Li (The 
+inset is the Scheme of the batteries). c) Galvanostatic cycling of Li/LLZNO-LPO + LE/Li symmetric cell at 25 ◦C. 
+L. Yang et al.                                                                                                                                                                                                                                    
+
+=== 第 7 页 ===
+Ceramics International 47 (2021) 18196–18204
+18202
+rapid ultra-high-temperature sintering method for sintering cubic LLZO 
+with Nb doping and LPO additive. 
+3.4. Compatibility of anode/LLZNO-LPO ceramic electrolyte 
+To better depict the interface compatibility of lithium anode/LLZNO- 
+LPO ceramic electrolyte, two kinds of Li symmetric cells were assembled 
+and tested in Swagelok-type cell molds. For Li/LLZNO-LPO/Li cell, 
+molten Li (295 ◦C) directly contacts the LLZNO-LPO ceramic and can 
+wet the ceramic surface well, as shown in Fig. S4. Electrochemical 
+impedance spectroscopy (EIS) spectra of as-assembled and stand for 96 h 
+Li/Garnet/Li batteries were displayed in Fig. 5a–b. The high-frequency 
+region (above 4.1 × 105 Hz) in the EIS plot corresponds to the bulk/ 
+grain-boundary of LLZO ceramic, and the large semicircle mainly in 
+105 Hz-Hz indicates the Li/LLZO interface resistances. And the x-inter­
+cept of the plot specifies the resistance value [50]. The LLZNO-LPO 
+ceramic electrolyte contributes 112 Ω cm2, whereas Li/LLZNO-LPO/Li 
+displayed an initial total resistance of 3460 Ω cm2. Hence, the total 
+interface resistance can be obtained by subtracting the value of total 
+resistance of Li/LLZNO-LPO/Li with LLZNO-LPO ceramic electrolyte, 
+which is found to be 3348 Ω cm2 (3460–112 = 3348 Ω cm2). Dividing 
+the above value by a factor of 2, the single interface resistance can be 
+attained, which is ~1674 Ω cm2. After 96 h of assembling, the total 
+resistance increased to 6740 Ω cm2 with a single side interface resistance 
+of ~3314 Ω cm2. A recent study reveals that a significant reduction of 
+Nb5+ takes place in Nb-doped LLZO when in contact with Li metal [51]. 
+This instability makes the interface resistance large and increase 
+significantly with time, such as after 96 h. 
+The cell assembled by wetting with LE (Li/LLZNO-LPO + LE/Li) 
+displayed an initial resistance of 411 Ω cm2 with a single side interface 
+resistance of ~150 Ω cm2. Moreover, after 96 h, total resistance 
+increased slightly to 470 Ω cm2 with single side interface resistance of 
+~179 Ω cm2. The LE not only contributes to decreasing the interface 
+resistance by wetting the interface but also prevents the direct contact of 
+LLZNO with Li metal. The slightly increased interface resistance in­
+dicates that a more stable anode side interface is constructed and the LE 
+may protect LLZNO-LPO electrolyte from reduction by lithium anode. 
+Galvanostatic cycling of Li/LLZNO-LPO + LE/Li symmetric cell at 
+25 ◦C with a fixed stripping/plating capacity of 0.05 mA h cm−2 is 
+shown in Fig. 5c. The current densities were set to increase subsequently 
+from 0.05 to 3.2 mA cm−2. As the current density increases, the voltage 
+increases linearly. When the current density is as high as 1.4 mA cm−2, 
+the voltage suddenly drops to a low level and becomes a saw-tooth 
+configuration, showing the occurrence of partial short circuit. Thus, 
+1.2 mA cm−2 is determined to be the CCD for the LLZNO-LPO ceramic 
+electrolyte in Li/LLZNO-LPO + LE/Li symmetric cell. However, in the 
+case of Li/LLZNO-LPO/Li symmetric cell, the CCD for the LLZNO-LPO 
+ceramic electrolyte is only 0.05 mA cm−2 (Fig. S4), which is probably 
+because of the instability of the interface between the LLZNO and Li 
+metal due to overpotential and formation of lithium dendrites [50]. 
+Fig. 6. (a) Electrochemical impedance spectra of the Li/LLZNO-LPO/S battery. b) Charge and discharge profiles, and c) Cycling performance of the Li/LLZNO-LPO/S 
+battery tested at a specific current of 0.1C (1C = 1675 mA g−1) at 25 ◦C. 
+L. Yang et al.                                                                                                                                                                                                                                    
+
+=== 第 8 页 ===
+Ceramics International 47 (2021) 18196–18204
+18203
+Hence, the following solid-state Li–S battery was fabricated with LE 
+wetting the interface, decreasing the interface resistance, and protecting 
+LLZNO from reducing Li metal. 
+3.5. Full cell electrochemical performance of solid-state Li–S battery 
+The EIS curve of the Li/LLZNO-LPO/S battery before cycling shows 
+one semicircle, one short flat line, and a long upward tail as indicated in 
+Fig. 6a. The semicircle from 3.9 × 105–32 Hz corresponds to the in­
+terfaces of Li/LE, LLZNO-LPO/LE, and the diffusion of Li-ion from LE to 
+S cathode [52]. The short flat line from 32–0.8 Hz corresponds to the 
+charge transfer at the cathode side. The total resistance of the Li-Sulfur 
+solid battery is ~337 Ω cm2, which is lower than garnet based solid 
+batteries published recently [39,53]. 
+Electrochemical performance of the Li/LLZNO-LPO/S battery tested 
+at a specific current of 0.1C at 25 ◦C is shown in Fig. 6b–c. The coin cells 
+were cycled within a voltage window of 1.7–2.8 V. At ~2.35 V and ~2.1 
+V, two voltage peaks appeared, as shown in Fig. 6b. The multistep 
+reduction mechanism of S with Li resulted in an intermediate highly 
+soluble polysulfide (Li2Sn, n = 8–1), which finally leads to Li2S/Li2S2 
+[50]. The discharge specific capacities for the 1st, 3rd, 5th, 10th, 20th, 
+40th, 60th cycles are ca. 943, 933, 902, 805, 758, 638, 602 mA h⋅g−1, 
+respectively. The voltage hysteresis increases from the initial 0.25 
+V–0.27 V as the cycles prolong. The initial coulombic efficiency reaches 
+99.5%, and the average coulombic efficiency for all the cycles is 99.4%. 
+The high initial coulombic efficiency indicates that the LLZNO-LPO solid 
+electrolyte can effectively block the polysulfide shuttle towards the Li 
+anode and fulfill a shuttle-free Li–S battery. Although the initial specific 
+capacity reaches 943 mA h⋅g−1, the capacity retention is not satisfactory. 
+The capacity loss is probably due to the formation of “dead” sulfur at the 
+cathode side [18] and the polarization caused by the relatively large 
+interface impedance and the insufficient conductivity of solid electrolyte 
+compared with liquid electrolyte. During the charging process, the 
+redistribution of active sulfur attached on the electronic insulated areas 
+may form the “dead” sulfur. All these issues are worthy of further study 
+by researchers. 
+4. Conclusion 
+In summary, LLZNO ceramic electrolyte using LPO as sintering aids 
+are prepared by the rapid sintering method and are applied to construct 
+a shuttle-effect free solid-state Li–S battery. The LLZNO-LPO ceramic 
+electrolyte owns cubic LLZO structure without any impurity phase, 
+signifying that this rapid sintering method along with Nb doping and 
+LPO additive is beneficial to develop a high conductive cubic-phase 
+LLZO ceramic electrolyte; during the rapid ultra-high temperature sin­
+tering process, LPO transforms into a liquid phase and occupies the voids 
+in LLZNO, consolidates the grain boundaries and improves Li+ con­
+ductivity. Among different sintering conditions, 1340 ◦C × 8 min is an 
+optimal rapid sintering schedule for LLZNO-LPO to achieve a high 
+conductivity of 4.3 × 10−4 S cm−1 at RT; the CCD for the LLZNO-LPO CE 
+in Li/LLZNO-LPO + LE/Li symmetric cell is as high as 1.2 mA cm−2. 
+Utilizing LLZNO-LPO ceramic electrolyte in Li–S solid-state battery, the 
+cell delivers an initial discharge capacity of 943 mA h⋅g−1 and 602 mA 
+h⋅g−1 after 60th cycle. The initial coulombic efficiency reaches a high 
+value of 99.5%. As a result, it can conclude that the LLZNO-LPO SSE can 
+successfully restrict the polysulfide shuttle. Therefore, the rapid sinter­
+ing of garnet electrolyte with sintering aids is a constructive approach to 
+prepare high quality ceramic SSE to fulfill shuttle-effect free solid-state 
+Li–S batteries. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+This work is financially supported by the National Natural Science 
+Foundation of China (No. 51272221), the Innovation Foundation for 
+Postgraduate of Xiangtan University (No. CX2018B054), the Innovation 
+Foundation for Postgraduate of Hunan Province (No. CX2018B369) and 
+the Key Research Program of Hunan Province, China (Grant No. 
+2019GK2032). 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.ceramint.2021.03.138. 
+References 
+[1] P.G. Bruce, S.A. Freunberger, L.J. Hardwick, J.-M. Tarascon, Li–O2 and Li–S 
+batteries with high energy storage, Nat. Mater. 11 (1) (2012) 19–29. 
+[2] B.L. Ellis, K.T. Lee, L.F. Nazar, Positive electrode materials for Li-ion and Li- 
+batteries, Chem. Mater. 22 (3) (2010) 691–714. 
+[3] R. Chen, T. Zhao, F. Wu, From a historic review to horizons beyond: 
+lithium–sulphur batteries run on the wheels, Chem. Commun. 51 (1) (2015) 18–33. 
+[4] H. Pan, K.S. Han, M.H. Engelhard, R. Cao, J. Chen, J.-G. Zhang, K.T. Mueller, 
+Y. Shao, J. Liu, Addressing passivation in lithium–sulfur battery under lean 
+electrolyte condition, Adv. Funct. Mater. 28 (38) (2018), 1707234. 
+[5] M. Chen, C. Huang, Y. Li, S. Jiang, P. Zeng, G. Chen, H. Shu, H. Liu, Z. Li, X. Wang, 
+Perovskite-type La0.56Li0.33TiO3 as an effective polysulfide promoter for stable 
+lithium–sulfur batteries in lean electrolyte conditions, J. Mater. Chem. 7 (17) 
+(2019) 10293–10302. 
+[6] Y. Jung, S. Kim, New approaches to improve cycle life characteristics of 
+lithium–sulfur cells, Electrochem. Commun. 9 (2) (2007) 249–254. 
+[7] Q. Pang, X. Liang, C.Y. Kwok, L.F. Nazar, Advances in lithium–sulfur batteries 
+based on multifunctional cathodes and electrolytes, Nat. Energy 1 (9) (2016) 
+16132. 
+[8] A. Rosenman, E. Markevich, G. Salitra, D. Aurbach, A. Garsuch, F.F. Chesneau, 
+Review on Li-sulfur battery systems: an integral perspective, Adv. Energy Mater. 5 
+(16) (2015), 1500212. 
+[9] J. Shim, K.A. Striebel, E.J. Cairns, The lithium/sulfur rechargeable cell, 
+J. Electrochem. Soc. 149 (10) (2002) A1321. 
+[10] S.-E. Cheon, K.-S. Ko, J.-H. Cho, S.-W. Kim, E.-Y. Chin, H.-T. Kim, Rechargeable 
+lithium sulfur battery, J. Electrochem. Soc. 150 (6) (2003) A796. 
+[11] J. Motavalli, Technology: a solid future, Nature 526 (7575) (2015) S96–S97. 
+[12] P. Zeng, M. Chen, J. Luo, H. Liu, Y. Li, J. Peng, J. Li, H. Yu, Z. Luo, H. Shu, C. Miao, 
+G. Chen, X. Wang, Carbon-coated yttria hollow spheres as both sulfur immobilizer 
+and catalyst of polysulfides conversion in lithium-sulfur batteries, ACS Appl. Mater. 
+Interfaces 11 (45) (2019) 42104–42113. 
+[13] P. Zeng, H. Yu, M. Chen, W. Xiao, Y. Li, H. Liu, J. Luo, J. Peng, D. Shao, Z. Zhou, 
+Z. Luo, Y. Wang, B. Chang, X. Wang, Flower-like ZnO modified with BiOI 
+nanoparticles as adsorption/catalytic bifunctional hosts for lithium–sulfur 
+batteries, J. Energy Chem. 51 (2020) 21–29. 
+[14] M. Agostini, M. Sadd, S. Xiong, C. Cavallo, J. Heo, J.H. Ahn, A. Matic, Designing a 
+safe electrolyte enabling long-life Li/S batteries, ChemSusChem 12 (18) (2019) 
+4176–4184. 
+[15] X.-Q. Zhang, X.-B. Cheng, Q. Zhang, Advances in interfaces between Li metal anode 
+and electrolyte, Adv. Mater. Interfaces 5 (2) (2018), 1701097. 
+[16] D. Lei, K. Shi, H. Ye, Z. Wan, Y. Wang, L. Shen, B. Li, Q.-H. Yang, F. Kang, Y.-B. He, 
+Progress and perspective of solid-state lithium-sulfur batteries, Adv. Funct. Mater. 
+28 (38) (2018). 
+[17] L. Yang, Q. Dai, L. Liu, D. Shao, K. Luo, S. Jamil, H. Liu, Z. Luo, B. Chang, X. Wang, 
+Rapid sintering method for highly conductive Li7La3Zr2O12 ceramic electrolyte, 
+Ceram. Int. 46 (8) (2020) 10917–10924. 
+[18] Y. Lu, X. Huang, Z. Song, K. Rui, W. Qingsong, S. Gu, J. Yang, T. Xiu, M.E. Badding, 
+Z. Wen, Highly stable garnet solid electrolyte based Li-S battery with modified 
+anodic and cathodic interfaces, Energy Storage Mater. 15 (2018) 282–290. 
+[19] S. Xu, D.W. McOwen, L. Zhang, G.T. Hitz, C. Wang, Z. Ma, C. Chen, W. Luo, J. Dai, 
+Y. Kuang, E.M. Hitz, K. Fu, Y. Gong, E.D. Wachsman, L. Hu, All-in-one lithium- 
+sulfur battery enabled by a porous-dense-porous garnet architecture, Energy 
+Storage Mater. 15 (2018) 458–464. 
+[20] H. Huo, Y. Chen, N. Zhao, X. Lin, J. Luo, X. Yang, Y. Liu, X. Guo, X. Sun, In-situ 
+formed Li2CO3-free garnet/Li interface by rapid acid treatment for dendrite-free 
+solid-state batteries, Nano Energy 61 (2019) 119–125. 
+[21] M. Xuan, W. Xiao, H. Xu, Y. Shen, Z. Li, S. Zhang, Z. Wang, G. Shao, Ultrafast solid- 
+state lithium ion conductor through alloying induced lattice softening of Li6PS5Cl, 
+J. Mater. Chem. 6 (39) (2018) 19231–19240. 
+[22] J. Zhou, H. Ji, J. Liu, T. Qian, C. Yan, A new high ionic conductive gel polymer 
+electrolyte enables highly stable quasi-solid-state lithium sulfur battery, Energy 
+Storage Mater. 22 (2019) 256–264. 
+[23] K. Luo, D. Shao, L. Yang, L. Liu, X. Chen, C. Zou, D. Wang, Z. Luo, X. Wang, Semi- 
+interpenetrating gel polymer electrolyte based on PVDF-HFP for lithium ion 
+batteries, J. Appl. Polym. Sci. (2020) 49993. 
+L. Yang et al.                                                                                                                                                                                                                                    
+
+=== 第 9 页 ===
+Ceramics International 47 (2021) 18196–18204
+18204
+[24] D. Shao, L. Yang, K. Luo, M. Chen, P. Zeng, H. Liu, L. Liu, B. Chang, Z. Luo, 
+X. Wang, Preparation and performances of the modified gel composite electrolyte 
+for application of quasi-solid-state lithium sulfur battery, Chem. Eng. J. 389 (2020) 
+124300. 
+[25] X. Li, L. Yang, D. Shao, K. Luo, L. Liu, Z. Wu, Z. Luo, X. Wang, Preparation and 
+application of poly(ethylene oxide)-based all solid-state electrolyte with a walnut- 
+like SiO2 as nano-fillers, J. Appl. Polym. Sci. 137 (24) (2019) 48810. 
+[26] J.-S. Kim, H. Kim, M. Badding, Z. Song, K. Kim, Y. Kim, D.-J. Yun, D. Lee, J. Chang, 
+S. Kim, D. Im, S. Park, S.H. Kim, S. Heo, Origin of intergranular Li metal 
+propagation in garnet-based solid electrolyte by direct electronic structure analysis 
+and performance improvement by bandgap engineering, J. Mater. Chem. 8 (33) 
+(2020) 16892–16901. 
+[27] J. Su, X. Huang, Z. Song, T. Xiu, M.E. Badding, J. Jin, Z. Wen, Overcoming the 
+abnormal grain growth in Ga-doped Li7La3Zr2O12 to enhance the electrochemical 
+stability against Li metal, Ceram. Int. 45 (12) (2019) 14991–14996. 
+[28] N. Zhao, W. Khokhar, Z. Bi, C. Shi, X. Guo, L.-Z. Fan, C.-W. Nan, Solid garnet 
+batteries, Joule 3 (5) (2019) 1190–1199. 
+[29] X. Huang, C. Liu, Y. Lu, T. Xiu, J. Jin, M.E. Badding, Z. Wen, A Li-Garnet composite 
+ceramic electrolyte and its solid-state Li-S battery, J. Power Sources 382 (2018) 
+190–197. 
+[30] H. Qu, J. Ju, B. Chen, N. Xue, H. Du, X. Han, J. Zhang, G. Xu, Z. Yu, X. Wang, 
+G. Cui, Inorganic separators enable significantly suppressed polysulfide shuttling in 
+high-performance lithium–sulfur batteries, J. Mater. Chem. 6 (46) (2018) 
+23720–23729. 
+[31] X. Huang, T. Xiu, M.E. Badding, Z. Wen, Two-step sintering strategy to prepare 
+dense Li-Garnet electrolyte ceramics with high Li + conductivity, Ceram. Int. 44 
+(5) (2017) 5660–5667. 
+[32] L.C. Zhang, J.F. Yang, Y.X. Gao, X.P. Wang, Q.F. Fang, C.H. Chen, Influence of 
+Li3BO3 additives on the Li+ conductivity and stability of Ca/Ta-substituted Li6.55 
+(La2.95Ca0.05)(Zr1.5Ta0.5)O12 electrolytes, J. Power Sources 355 (2017) 69–73. 
+[33] W. Xue, Q. Yang, S. Li, Y. Liu, L. Wang, R. Cheng, C. Chen, The effect of LiAlSiO4 
+additions on lithium ionic conductivity of garnet Li6.75La3Zr1.75Nb0.25O12 
+prepared by solid-state synthesis, Solid State Ionics 350 (2020) 115313. 
+[34] P. Wakudkar, A.V. Deshpande, Enhancement of ionic conductivity by addition of 
+LiAlO2 in Li6.6La3Zr1.6Sb0.4O12 for lithium ion battery, Solid State Ionics 345 
+(2020) 115185. 
+[35] E. Hanc, W. Zając, L. Lu, B. Yan, M. Kotobuki, M. Ziąbka, J. Molenda, On 
+fabrication procedures of Li-ion conducting garnets, J. Solid State Chem. 248 
+(2017) 51–60. 
+[36] Y. Li, Y. Cao, X. Guo, Influence of lithium oxide additives on densification and ionic 
+conductivity of garnet-type Li6.75La3Zr1.75Ta0.25O12 solid electrolytes, Solid 
+State Ionics 253 (2013) 76–80. 
+[37] Y. Li, B. Xu, H. Xu, H. Duan, X. Lü, S. Xin, W. Zhou, L. Xue, G. Fu, A. Manthiram, J. 
+B. Goodenough, Hybrid polymer/garnet electrolyte with a small interfacial 
+resistance for lithium-ion batteries, Angew. Chem. Int. Ed. 56 (3) (2017) 753–756. 
+[38] R.H. Shin, S.S. Ryu, Low-temperature sintering of garnet-type Li7La(3)Zr(2)O12 
+solid electrolyte with Li(3)BO(3) additive prepared by polymeric complex method, 
+J. Nanosci. Nanotechnol. 19 (3) (2019) 1809–1813. 
+[39] H. Xie, C. Li, W.H. Kan, M. Avdeev, C. Zhu, Z. Zhao, X. Chu, D. Mu, F. Wu, 
+Consolidating the grain boundary of the garnet electrolyte LLZTO with Li3BO3 for 
+high-performance LiNi0.8Co0.1Mn0.1O2/LiFePO4 hybrid solid batteries, J. Mater. 
+Chem. 7 (36) (2019) 20633–20639. 
+[40] X. Huang, C. Shen, K. Rui, J. Jin, M. Wu, X. Wu, Z. Wen, Influence of La2Zr2O7 
+additive on densification and Li+ conductivity for Ta-doped Li7La3Zr2O12 garnet, 
+JOM (J. Occup. Med.) 68 (10) (2016) 2593–2600. 
+[41] F.P. Knudsen, Dependence of mechanical strength of brittle polycrystalline 
+specimens on porosity and grain size, J. Am. Ceram. Soc. 42 (8) (1959) 376–387. 
+[42] C. Wang, W. Ping, Q. Bai, H. Cui, R. Hensleigh, R. Wang, A.H. Brozena, Z. Xu, 
+J. Dai, Y. Pei, C. Zheng, G. Pastel, J. Gao, X. Wang, H. Wang, J.-C. Zhao, B. Yang, 
+X. Zheng, J. Luo, Y. Mo, B. Dunn, L. Hu, A general method to synthesize and sinter 
+bulk ceramics in seconds, Science 368 (6490) (2020) 521–526. 
+[43] M. Hong, Q. Dong, H. Xie, X. Wang, A.H. Brozena, J. Gao, C. Wang, C. Chen, J. Rao, 
+J. Luo, L. Hu, Tailoring grain growth and densification toward a high-performance 
+solid-state electrolyte membrane, Mater. Today 42 (2021) 41–48. https://doi.org 
+/10.1016/j.mattod.2020.10.002. 
+[44] X. Li, X. Wang, D. Shao, L. Liu, L. Yang, Preparation and performance of poly 
+(ethylene oxide)-based composite solid electrolyte for all solid-state lithium 
+batteries, J. Appl. Polym. Sci. 136 (19) (2019) 47498. 
+[45] H. Zheng, S. Wu, R. Tian, Z. Xu, H. Zhu, H. Duan, H. Liu, Intrinsic lithiophilicity of 
+Li–garnet electrolytes enabling high-rate lithium cycling, Adv. Funct. Mater. 30 (6) 
+(2019) 1906189. 
+[46] Y. Li, Z. Wang, C. Li, Y. Cao, X. Guo, Densification and ionic-conduction 
+improvement of lithium garnet solid electrolytes by flowing oxygen sintering, 
+J. Power Sources 248 (2014) 642–646. 
+[47] J. Xiao, N.A. Chernova, S. Upreti, X. Chen, Z. Li, Z. Deng, D. Choi, W. Xu, Z. Nie, G. 
+L. Graff, J. Liu, M.S. Whittingham, J.-G. Zhang, Electrochemical performances of 
+LiMnPO4 synthesized from non-stoichiometric Li/Mn ratio, Phys. Chem. Chem. 
+Phys. 13 (40) (2011) 18099–18106. 
+[48] K. Takada, M. Osada, N. Ohta, T. Inada, A. Kajiyama, H. Sasaki, S. Kondo, 
+M. Watanabe, T. Sasaki, Lithium ion conductive oxysulfide, Li3PO4–Li3PS4, Solid 
+State Ionics 176 (31) (2005) 2355–2359. 
+[49] J. Liu, X. Gao, G.O. Hartley, G.J. Rees, C. Gong, F.H. Richter, J. Janek, Y. Xia, A. 
+W. Robertson, L.R. Johnson, P.G. Bruce, The interface between 
+Li6.5La3Zr1.5Ta0.5O12 and liquid electrolyte, Joule 4 (1) (2020) 101–108. 
+[50] S.A. Pervez, B.P. Vinayan, M.A. Cambaz, G. Melinte, T. Diemant, T. Braun, 
+G. Karkera, R.J. Behm, M. Fichtner, Electrochemical and compositional 
+characterization of solid interphase layers in an interface-modified solid-state 
+Li–sulfur battery, J. Mater. Chem. 8 (32) (2020) 16451–16462. 
+[51] Y. Zhu, J.G. Connell, S. Tepavcevic, P. Zapol, R. Garcia-Mendez, N.J. Taylor, 
+J. Sakamoto, B.J. Ingram, L.A. Curtiss, J.W. Freeland, D.D. Fong, N.M. Markovic, 
+Dopant-dependent stability of garnet solid electrolyte interfaces with lithium 
+metal, Adv. Energy Mater. 9 (12) (2019) 1803440. 
+[52] X. Huang, Y. Lu, H. Guo, Z. Song, T. Xiu, M.E. Badding, Z. Wen, None-mother- 
+powder method to prepare dense Li-garnet solid electrolytes with high critical 
+current density, ACS Appl. Energy Mater. 1 (10) (2018) 5355–5365. 
+[53] M. Naguib, A. Sharafi, E.C. Self, H.M. Meyer 3rd, J. Sakamoto, J. Nanda, Interfacial 
+reactions and performance of Li7La3Zr2O12-stabilized Li-sulfur hybrid cell, ACS 
+Appl. Mater. Interfaces 11 (45) (2019) 42042–42048. 
+L. Yang et al.                                                                                                                                                                                                                                    

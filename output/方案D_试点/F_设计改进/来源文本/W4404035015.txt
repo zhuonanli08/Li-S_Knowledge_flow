@@ -1,0 +1,1849 @@
+=== 第 1 页 ===
+Engineering
+ Electrolytes with Transition Metal Ions for the Rapid
+Sulfur Redox and In Situ Solidification of Polysulfides in
+Lithium−Sulfur BatteriesJiahao
+ Gu, Zhaoyang Li, Bo Hong,* Mengran Wang, Zhian Zhang, Yanqing Lai, Jie Li, and Libo Zhang
+Cite
+ This: ACS Appl. Mater. Interfaces 2024, 16, 61934−61945
+Read OnlineACCESS
+Metrics
+ & More
+Article Recommendations* sı
+Supporting Information
+ABSTRACT:
+ Lithium−sulfur (Li−S) batteries have been pursued
+due to their high theoretical energy density and superb cost-
+effectiveness. However, the dissolution−conversion mechanism of
+sulfur inevitably leads to shuttle effects and interface passivation
+issues, which impede Li−S battery practical application. Herein,
+the approach of adopting transition metal salts (CoI2
+)
+ to
+engineering the electrolyte is proposed. Different from anchored
+transition metal catalysts in the cathode, soluble cobalt ions can
+chemically reduce and solidify polysulfides, alleviating the
+dependence of sulfur conversion on the conductive interface
+while suppressing the shuttle effect. Importantly, all elements in
+CoI2
+are
+ in the lowest valence state and solid complexes are formed after the redox reaction, which prevents the migration of high
+valent Co3+
+to
+ the anode, thus overcoming the poor compatibility between redox mediator and Li anode. Notably, I3
+−has
+ the
+function of eliminating dead sulfur and dead lithium, which we apply to Li−S batteries. After activating I3
+−at
+ a certain frequency,
+Li−S batteries indeed achieve a longer and more stable cycle life. By combining the regulatory behavior of anions and cations, the
+electrolyte is engineered for Li−S batteries with high capacity, long lifespan, and excellent rate performance.
+KEYWORDS: Lithium−sulfur batteries, shuttle effects, interface passivation, redox mediator, CoI2
+1.
+ INTRODUCTIONCurrently,
+ the energy density of lithium-ion batteries (LIBs)
+reaches 300 Wh kg−
+1with
+ LiNi0.8
+Co
+0.1
+Mn
+0.1
+O
+2
+as
+the cathode,
+approaching the theoretical limit.1
+However,
+ this still hardly
+meets the higher demands of equipment for lightweight and
+long endurance. Meanwhile, affected by the explosive develop-
+ment of the electric vehicle and electronic wearable device
+markets, the procurement prices of nickel, cobalt, manganese,
+and other metal raw materials continue to rise.2
+In
+ this social
+context, there is an urgent need to develop a battery system
+with lower manufacturing costs and higher energy density. The
+lithium−sulfur (Li−S) battery is a good supplemental product
+for the new energy market, with extremely high theoretical
+specific energy (2600 Wh kg−
+1).
+3
+Moreover,
+ the active material
+sulfur has abundant reserves in the earth’s crust and a wide
+range of extraction sources, ensuring low battery manufactur-
+ing costs.4
+,5However,
+ the practical application of Li−S batteries hardly
+meets expectations. The important reason is that the unique
+dissolution and redeposition behavior of sulfur can cause the
+shuttle effect and continuous passivation of electrodes,
+resulting in rapid capacity decay and short service life of the
+battery.6
+−8In
+ these regards, researchers have made tremen-
+dous efforts in terms of cathodes and electrolytes. Transition
+metal (TM) compounds, such as Ni(OH)2
+,
+9
+CoP,
+10
+or
+MoS2
+,
+11
+,12have
+ been widely introduced into carbon hosts,
+which can effectively chemically absorb polysulfides and
+catalyze their conversion. This strategy can commendably
+improve the sulfur redox kinetics and suppress the shuttle
+effect. Recently, cathode TM catalysts have been developed
+toward single atom or high entropy applications,13
+−16making
+continuous progress in the absorption-catalytic effect. The
+downside is that the TM catalysts cannot solve the dependence
+of sulfur redox on the conductive interface, which makes the
+electrode still prone to passivation during cycling, and the
+catalysts can be poisoned. In addition, the introduction of the
+TM catalysts will also reduce the porosity of the carbon host,
+which affects the sulfur loading and energy density of the
+battery.
+For the inherent defects of cathode modification methods,
+introducing redox mediators to the electrolyte may be a
+splendid solution. Redox mediators can chemically oxidize orReceived:
+ July 14, 2024
+Revised: October 23, 2024
+Accepted: October 24, 2024
+Published: November 4, 2024
+Research
+ Articlewww.acsami.org
+©
+2024 American Chemical Society61934
+https://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−61945
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 2 页 ===
+reduce
+ polysulfides by providing additional electron transfer
+pathways. This helps to alleviate the dependence of sulfur
+conversion on conductive interfaces and to improve sulfur
+reaction kinetics.17
+,18For
+ example, utilizing the redox activity
+of 1,5-bis(2-(2-(2-methoxyethoxy)ethoxy)ethoxy)anthra-9,10-
+quinone (AQT)19
+can
+ enable it to transfer electrons between
+the collector and insulated Li2
+S
+ particles, thereby effectively
+reducing the charging voltage energy barrier of Li−S batteries
+and enhancing the reversibility of active materials. The
+reactions between di-t-butyl disulfide (DtbDS)20
+/diphenyl
+ditelluride (DPDTe)21
+and
+ polysulfide intermediates are
+reported to promote sulfur redox by generating substances
+that are more suitable for the next conversion. The decreases in
+the oxidation voltage energy barrier and in the dependence of
+sulfur conversion on the conductive substrate are beneficial for
+alleviating electrode passivation and achieving the most
+effective utilization of the active interface. However, redox
+mediators hardly suppress the shuttle effect, and their selective
+reactions with polysulfide intermediates will consume addi-
+tional charges, resulting in low Coulombic efficiency. More-
+over, their own redox activity is prone to corroding the Li
+anode.22
+Based
+ on these considerations, there is a pressing
+demand to develop a novel redox mediator that has excellent
+compatibility with the Li anode and can convert soluble
+polysulfides into insoluble solids.
+Here, we report that cobalt iodide (CoI2
+)
+ can serve as a
+redox mediator to perfectly meet the above demands. CoI2
+has
+satisfactory solubility in ether electrolytes, and all its elements
+are in the lowest valence state, without causing oxidation to the
+Li anode. During cycling, CoI2
+can
+ coordinate with
+polysulfides to form precipitates, effectively suppressing the
+shuttle effect. Simultaneously, it can reduce long-chain
+polysulfides to lower order states and reduce the dependence
+of sulfur conversion on conductive substrates, thus alleviating
+electrode passivation. In this process, Co2+
+is
+ oxidized to
+trivalent ions, but due to the formation of solid complexes,
+Co3+
+does
+ not diffuse to the anode, causing side reactions.
+Instead, it receives electrons on the cathode to complete CoI2
+regeneration,
+ ensuring continued mediation. Notably, I−
+in
+CoI2
+can
+ be oxidized to I3
+−when
+ charged to 3.1 V, activating
+the dead sulfur and dead lithium in the battery, thereby
+improving the reversibility of the active materials and
+extending the service life of Li−S batteries. Consequently,
+CoI2
+not
+ only improves the kinetics of sulfur redox and
+alleviates the electrode passivation but also effectively
+suppresses the shuttle effect, endowing Li−S batteries with
+excellent cycle stability and rate performance.2.
+ EXPERIMENTAL SECTION2.1.
+ Preparation of the Sulfur Cathode. Sulfur/carbon (S/C
+composite) composite materials were synthesized by the melt
+diffusion method. Mesoporous carbon and sublimated sulfur
+(Aladdin, 99.5%) were evenly mixed by grinding in a weight ratio
+of 2.5:7.5. Then the mixture was heat treated at 160 °C in a muffle
+furnace for 8 h to obtain a S/C composite material with S content of
+75 wt %.
+The sulfur cathode was obtained by evenly mixing the S/C
+composite material, acetylene black (Kejing, Battery grade), and
+poly(vinylidene fluoride) (Kejing, Battery grade) at a weight ratio of
+7:2:1 or 90:5:5. The low sulfur loading in the cathode is 1.5 mg cm−
+2,
+and the high sulfur loading is 5.7 mg cm−
+2.
+2.2. Preparation of the Electrolyte. The base electrolyte used in
+the experiment is 1 M LiTFSI (Aladdin, 99.5%) and 5 wt % LiNO3
+(Aladdin,
+ 99.5%) dissolved in a solvent composed of diethylene glycol
+dimethyl ether (Duoduo, Battery grade) and 1,3-dioxolane (Duoduo,
+Figure
+ 1. Interaction between CoI2
+and
+ Li2
+S
+6
+.
+ (a) Visualization experimental picture of CoI2
+and
+ Li2
+S
+6
+reaction;
+ (b) UV−visible absorption spectra
+of Li2
+S
+6
+,
+ CoI2
+,
+ and CoI2
++
+ Li2
+S
+6
+supernatant;
+ (c) XPS spectra of S in CoI2
++
+ Li2
+S
+6
+precipitate
+ and Li2
+S
+6
+;
+ (d) XPS spectra of Co in CoI2
++
+ Li2
+S
+6
+precipitate
+ and CoI2
+;
+ (e) Mayer bond order between CoI2
+and
+ Li2
+S
+6
+.
+ (f) FTIR spectra of the CoI2
++
+ Li2
+S
+6
+precipitation
+ and CoI2
+.
+ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561935
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 3 页 ===
+Battery
+ grade) at a volume ratio of 1:1. Then CoI2
+was
+ added to this
+base electrolyte according to a certain mass ratio to finish engineering
+the electrolyte.
+2.3. Electrochemical Measurements. The experimental cells
+were made of the above S/C material as cathode, Li metal as anode,
+and polypropylene as separator. The electrolyte was added at an
+electrolyte/sulfur ratio of 20:1, 9:1, or 6:1. The assembly process must
+be carried out in an argon atmosphere glovebox.
+The cells were cycled between 1.7 and 2.8 V on a LANDAN test
+system (Wuhan, China). Cyclic voltammetry (CV) was conducted on
+an electrochemical workstation (Solartron 1470E) in a voltage range
+of 1.5−3.0 V (vs Li/Li+
+)
+ with the 0.1, 0.15, 0.2, 0.25, and 0.3 mV S−
+1scanning
+ rates. Electrochemical impedance (EIS) and chronoamper-
+ometry tests were also conducted on this electrochemical workstation.
+The testing frequency of EIS was (0.1−1) × 105
+Hz.
+ The ion
+conductivity of the electrolyte was obtained by measuring the
+impedance of a stainless steel symmetrical cell between 0.1 × 106
+and
+1 × 106
+Hz.
+ The specific operation of chronoamperometry was to
+discharge the Li−S cells to 2.1 V at a constant current of 1 mA and
+then discharge at 2.09 V to achieve the nucleation and growth of Li2
+S
+until the current decreased by more than 10−
+5mA.
+2.4. Characterization. Ultraviolet−visible absorption spectra of
+the solutions were collected on the UV visible near-infrared
+spectrophotometer (U-4100). The chemical states of elements such
+as Co, S, and O were determined by X-ray photoelectron
+spectroscopy (XPS, Thermo Kalpha). Fourier transform infrared
+spectroscopy (FTIR) tests were carried out on an FTIR spectrometer
+(Nicolet iS 10). X-ray diffraction (XRD) results were obtained from
+the PANalytical Empyrean instrument with Cu Kα radiation. The
+morphology of cathodes and anodes was captured by a field emission
+scanning electron microscope (FESEM, FEI Quanta- 200). Electron
+probe X-ray microanalysis (EPMA) was conducted using the Electron
+Probe Microanalyzer (JXA-8230). The surface conductivity of the
+cathodes after cycling was detected by the atomic force microscope
+with a conductive module (C-AFM, Bruker Dimension Icon). The
+determination of electrolyte viscosity was carried out on the rotary
+viscometer (NGJ-9S), using the 0# rotor and a speed of 60 rpm.
+2.5. Theoretical Calculations. The structures of CoI2
+and
+ Li2
+S
+6
+are
+ draw by using GaussView software.23
+DFT
+ calculation was based
+on Gaussian 09 software, and the pbepbe method was used to
+optimize the structures of CoI2
+,
+ Li2
+S
+6
+,
+ and CoI2
+−
+Li2
+S
+6
+under
+ the
+def2SVP basis set. The gd3bj method was used to correct
+dispersion.24
+,25Mayer
+ bond order of the complex was calculated by
+using Multiwfn.3.
+ RESULTS AND DISCUSSIONTo
+ define the interaction between CoI2
+and
+ polysulfides, 0.3
+wt % CoI2
+solution
+ and 0.01 M Li2
+S
+6
+solution
+ were mixed at a
+volume ratio of 1:1. As shown in Figure 1a, the mixed solution
+turned light green and generates massive black precipitates at
+the bottom after standing. The supernatant of the mixed
+solution, Li2
+S
+6
+solution,
+ and CoI2
+solution
+ was taken for UV−
+visible absorption spectrum analysis (Figure 1b). It can be seen
+that there are signal peaks of S4
+2−and
+ S6
+2−in
+ the Li2
+S
+6
+solution
+at 310 and 420 nm.26
+The
+ presence of S4
+2−ions
+ is normal due
+to the inevitable disproportionation reaction of polysulfides.27
+For
+ the supernatant of mixed solution, no signal peak of
+polysulfide ions was detected, and the UV−visible absorption
+spectrum curve was basically consistent with that of CoI2
+.
+ The
+same phenomenon applies to Raman spectroscopy detection of
+these solutions (Figure S1, Supporting Information). These
+results indicate that CoI2
+can
+ remove long-chain polysulfides
+dissolved in the electrolyte. The generated precipitate and
+Li2
+S
+6
+were
+ tested by X-ray photoelectron spectroscopy (XPS)
+for S 2p. As revealed in Figure 1c, the signal peak from bridge
+sulfur (SB
+)
+ (162.5−164.7 eV)28
+in
+ the precipitate is weakened,
+compared to that in Li2
+S
+6
+,
+ while the terminal sulfur (ST
+)
+ signal
+peak (161.2−161.8 eV)29
+is
+ significantly enhanced, suggesting
+a lower order state of polysulfides is formed in the precipitate.
+Furthermore, XPS detection for Co 2p was performed on the
+precipitate (Figure 1d). The result reveals that there are strong
+Co3+
+ion
+ signals in the precipitate and that is not present in
+CoI2
+.
+30
+,31Based
+ on these XPS results, it can be known that
+CoI2
+can
+ undergo redox reactions with long-chain polysulfides
+and is oxidized to Co3+
+,
+ while polysulfides are reduced from
+long-chain to short-chain. It is worth mentioning that the
+occurrence of a solidification reaction can prevent the diffusion
+of Co3+
+to
+ the anode. In addition, all elements in CoI2
+are
+ at
+the lowest valence states, and CoI2
+should
+ overcome the
+persistent problem of poor compatibility between redox
+mediators and the Li anode.
+Noticeably, the SB
+and
+ Co3+
+signals
+ still clearly exist in the
+XPS spectra of the precipitation. Considering the strong
+positive charge of Co3+
+/Co
+2+
+,
+ CoI2
+should
+ not only reduce
+long-chain polysulfides but also undergo coordination
+reactions with them. The Mayer bond order of Co−S between
+CoI2
+and
+ Li2
+S
+6
+was
+ calculated through density functional
+theory (DFT) calculations, which can explore the bonding
+interactions between substances. The calculation results for
+Co−S bond order in Figure 1e was as high as 0.8545,
+indicating a strong binding trend.16
+The
+ precipitate was
+detected by X-ray diffraction (XRD) and FTIR. It turned out
+the precipitates do not have specific diffraction peaks generated
+by the crystal form in the XRD spectrum (Figure S2,
+Supporting Information), but there was a clear Co−S bond
+signal at 1075 cm−
+1in
+ the FTIR spectrum (Figure 1f).32
+Therefore,
+ CoI2
+and
+ Li2
+S
+6
+indeed
+ form an amorphous
+coordination compound generated through complexation.
+Based on the above analysis, it can be determined that cobalt
+ions and polysulfides undergo redox and complexation
+reactions as the following equations:
++ = ++ +S n kCo ( 4) Co S ( 4)n k
+2 2 3 2(1)
++ = [ ]+ + S S xCo Co (2 8)x x
+2 /3 2(2)
+To
+ understand the reversibility of the reaction between CoI2
+and
+ Li2
+S
+6
+,
+ a cell was assembled with Li metal as anode and
+carbon paper as cathode collector. The solid−fluid hybrid
+electrolyte after the reaction between CoI2
+and
+ Li2
+S
+6
+and
+electrolyte with CoI2
+/Li
+2
+S
+6
+were
+ dropped as the active material
+for cyclic voltammetry (CV) testing. In CV curves (Figure S3,
+Supporting Information), pure CoI2
+had
+ no redox actively, but
+the reactants CoI2
+and
+ Li2
+S
+6
+had
+ reversible redox peaks similar
+to Li2
+S
+6
+,
+ demonstrating favorable reversibility of the reaction
+between CoI2
+and
+ Li2
+S
+6
+.
+CoI2
+can
+ form precipitates by reaction with polysulfides,
+which is conducive to preventing sulfur dissolution from
+mesoporous carbon and its passing through the separator,
+thereby suppressing the notorious shuttle effect. Cells with/
+without CoI2
+discharged
+ to 2.1 and 1.7 V in the first cycle were
+disassembled, as shown in Figure S4 (Supporting Informa-
+tion). For the cell without CoI2
+discharged
+ to 2.1 V, the
+residual electrolyte between the separator and cathode
+appeared yellow (Figure S4a, Supporting Information),
+which indicated that soluble long-chain polysulfides were
+extensively dissolved from mesoporous carbon. When dis-
+charged to 1.7 V (Figure S4b, Supporting Information), the
+residual electrolyte was still yellow, and granular substances
+(insoluble Li2
+S
+2
+/Li
+2
+S)
+ appeared, illustrating that the dissolved
+polysulfides hardly returned to the interior of the mesoporousACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561936
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 4 页 ===
+carbon
+ and that the reversibility of the active materials was
+poor. However, for cells with CoI2
+,
+ the color of residual
+electrolyte between the separator and cathode at 2.1 V (Figure
+S4c, Supporting Information) and 1.7 V (Figure S4d,
+Supporting Information) was significantly lighter, confirming
+that the addition of CoI2
+can
+ in situ solidify polysulfides and
+reduce their dissolution and diffusion. To visually reveal the
+inhibition of the shuttle effect by CoI2
+,
+ Li−S batteries with/
+without CoI2
+were
+ assembled using an H-type electrolytic cell.
+With the discharge progression, polysulfides will gradually
+dissolve and diffuse across the separator to the anode in the H-
+type electrolytic cell without CoI2
+,
+ as displayed in Figure S5a
+(Supporting Information). For the H-type electrolytic cell with
+CoI2
+(
+Figure S5b, Supporting Information), the electrolyte was
+dark green. As the discharge progressed, the electrolyte reacted
+with the polysulfides and gradually turned light green, and a
+black solid was generated around the cathode. This is
+consistent with the visualization results in Figure S4
+(Supporting Information), verifying the solidification function
+of CoI2
+on
+ polysulfides during the discharge process.
+The shuttle effect in Li−S batteries can lead to severe anode
+corrosion and self-discharge behavior,33
+,34which
+ can be
+mitigated by the solidification function of CoI2
+.
+ The cells
+with/without CoI2
+in
+ the discharged state after 150 cycles were
+disassembled and then subjected to scanning electron
+microscopy (SEM), energy-dispersive spectroscopy (EDS),
+and XPS characterization of their anodes and electron probe X-
+ray microanalysis (EPMA) of their cathodes. Through the
+cross-sectional SEM and EDS images of the anodes (Figure
+2a−d), it can be clearly seen that the addition of CoI2
+reduced
+the corrosion depth of sulfur on the Li anode by nearly 40 μm.
+At the same time, the signal of sulfur element was weakened.
+Furthermore, deep-etch-depth XPS for S 2p was conducted on
+the surface of the Li anodes, as shown in Figure 2e. The atomic
+proportion of Li2
+S
+2
+and
+ Li2
+S
+ in the cell with CoI2
+at
+ different
+depths (0, 2, and 4 nm) was generally reduced compared to
+those without CoI2
+,
+35
+,36confirming
+ that the shuttle effect
+inhibition can alleviate the corrosion of the Li anode. As for
+cathodes, EPMA detection of S and C elements in Figure 2f−k
+reveals that the redeposition of dissolved sulfur on the carbon
+host was uneven in the cell without CoI2
+after
+ 150 cycles.
+However, the addition of CoI2
+can
+ improve this situation,
+which is beneficial for the more effective utilization of the
+active interface and enhances the cycle stability.
+In the self-discharge test, Li−S cells with/without CoI2
+were
+first cycled at 0.2 C for 5 cycles and then discharged to 2.1 V
+on the 6th cycle before standing for 12 h to compare the
+capacity degradation from the fifth cycle to the sixth cycle.37
+Figure
+ 2. Influence of CoI2
+on
+ the shuttle effect. (a, b) Cross-section SEM images of Li anodes with/without CoI2
+;
+ (c, d) cross-section EDS for S
+images of Li anodes with/without CoI2
+;
+ (e) deep-etch-depth XPS for S of Li anodes with/without CoI2
+;
+ (f, g) cross-section SEM images of
+cathodes with/without CoI2
+;
+ (h, i) EPMA for S of cathodes with/without CoI2
+;
+ (j, k) EPMA for C of cathodes with/without CoI2
+;
+ (l, m)
+discharge−charge curves of cells without/with CoI2
+in
+ the self-discharge tests.ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561937
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 5 页 ===
+The
+ results are shown in Figure 2l,m. Compared with cells
+without CoI2
+,
+ the attenuation of discharge specific capacity
+decreased from 5.48% to 3.32%. Self-discharge is indeed
+significantly suppressed due to the reduction of the shuttle
+effect. After returning to normal charge and discharge, the cell
+cycling stability performance with CoI2
+is
+ also better (Figure
+S6, Supporting Information).
+The redox of sulfur depends on the conductive substrate;
+thus, the cathode surface will be passivated with the cycle
+progression. The reduction and solidification functions of CoI2
+on
+ polysulfides are beneficial in reducing this dependence and
+in passivation of sulfur conversion on the interface.
+Chronoamperometry was conducted on Li−S cells with/
+without CoI2
+,
+38
+,39and
+ the results are shown in Figure 3a.
+Attributed to the chemical reduction of polysulfides by CoI2
+,
+the deposition and conversion kinetics of Li2
+S
+2
+/Li
+2
+S
+ are
+accelerated. The cell with CoI2
+can
+ reach the highest constant
+potential current 620 s earlier than that without CoI2
+.
+ At the
+same time, based on the area enclosed by the chronoampero-
+metric curve, the deposition specific capacity of Li2
+S
+2
+/Li
+2
+S
+ in
+the cell with CoI2
+was
+ 998.6 mAh g−
+1,
+ which was higher than
+the 923.7 mAh g−
+1of
+ that without CoI2
+,
+ indicating that CoI2
+facilitate
+ more effective use of the cathode active interface. To
+intuitively disclose the relationship between the discharge
+capacity and the morphology of Li2
+S/Li
+2
+S
+ deposition, the cells
+after chronoamperometry were disassembled, and their
+cathode morphology was observed. As shown in Figure 3b,c,
+the cathode in the cell without CoI2
+was
+ covered by a large film
+of Li2
+S
+2
+/Li
+2
+S.
+ Since Li2
+S
+2
+/Li
+2
+S
+ is an insoluble insulating
+material, this “2D” deposition behavior will passivate the
+conductive surface. The cathode of the cell with CoI2
+exhibited
+a rough and granular morphology, resulting in a higher
+deposition capacity. Further, the visual local electronic
+conductivity of cathodes with/without CoI2
+after
+ chronoam-
+perometry was detected by conductive atomic force micros-
+copy (C-AFM) to evaluate the electrical properties. The results
+Figure
+ 3. Influence of CoI2
+on
+ the cathode. (a) Chronoamperometric curves of cells with/without CoI2
+;
+ (b, c) SEM images of cathodes with/
+without CoI2
+;
+ (d) current maps of cathodes without/without CoI2
+after
+ chronoamperometry and C-AFM current of d1
+−
+d0
+along
+ the x-axis of select
+solid lines; (e) XRD spectra of cathode with/without CoI2
+;
+ (f, g) PITT curves of cells with/without CoI2
+;
+ (h) oxidation voltage energy barrier of
+cells with/without CoI2
+.
+ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561938
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 6 页 ===
+in
+ Figure 3d show that the passing current intensity of the
+cathode without CoI2
+in
+ some areas was much smaller than
+that of the cathode with CoI2
+,
+ while the difference in other
+areas was not significant. This indicates that the addition of
+CoI2
+can
+ alleviate electrode passivation and uniform sulfur
+deposition (consistent with the conclusion in Figure 2f−k
+above). This transition in the deposition behavior of Li2
+S
+2
+/Li
+2
+S
+can be attributed to the reduction effect of CoI2
+,
+ which
+provides additional electron transfer pathways and reduces the
+dependence of sulfur conversion on the conductive interfaces.
+Meanwhile, the complexation of CoI2
+with
+ polysulfides also
+reduces the redistribution of sulfur elements at the electrode
+interface and cathode passivation.
+Additionally, the cathodes were tested by XRD after the first
+discharge of cells with/without 1.0 wt % CoI2
+.
+ From Figure 3e,
+it can be seen that the final discharge products are Li2
+S
+ in both
+cases,40
+and
+ there is no cobalt sulfide present, indicating that
+the compound of trivalent cobalt formed by the reaction with
+polysulfides can obtain electrons during discharge process and
+become CoI2
+again,
+ ensuring the continuous mediating effect
+on the conversion of polysulfides.
+CoI2
+regulates
+ the deposition of Li2
+S,
+ alleviating the
+passivation of the cathode interface, which should also be
+beneficial for the subsequent oxidation process and enhancing
+the interface utilization of active materials. The cells after first
+discharge were subjected to the potentiostatic intermittent
+titration technique (PITT) (Figure 3f):41
+the
+ charge capacity
+of the cell with CoI2
+could
+ reach 1212.3 mAh g−
+1,
+ while that of
+the cell with CoI2
+was
+ only 1087 mAh g−
+1.
+ Crucially, the cell
+with CoI2
+generated
+ a response current when charged at a
+constant voltage of 2.18 V (Figure 3g), which was not present
+in the cell without CoI2
+,
+ demonstrating that the alleviation of
+passivation by precipitation was beneficial for the oxidation of
+Li2
+S.
+ Similarly, in the first charging voltage curve of normal
+charge−discharge cells (Figure 3h), a decrease in the oxidation
+voltage barrier can also be observed when CoI2
+is
+ added. Based
+Figure
+ 4. Influence of CoI2
+on
+ the reaction kinetics of Li−S batteries. (a) Ionic conductivity and electrolyte viscosity of electrolytes with/without
+CoI2
+;
+ (b) fitting diagram of diffusion rate of active materials in the cells with/without CoI2
+;
+ (c) CV curves of the cells without/without CoI2
+;
+ (d, e)
+Tafel curves of cells with/without CoI2
+;
+ (f) activation energies of cells with/without CoI2
+during
+ the discharge process; (g) in situ EIS spectrum of
+the cells without CoI2
+;
+ (h) in situ EIS spectrum of the cells with CoI2
+;
+ (i) Re
+and
+ Rct
+in
+ the cells with/without CoI2
+.
+ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561939
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 7 页 ===
+on
+ these results, it can be concluded that the addition of CoI2
+enhances
+ the electrochemical oxidation of Li2
+S
+ in Li−S
+batteries, which is of great significance for improving the
+reversibility and cycling stability of active materials.
+Considering it should be helpful to decrease the viscosity of
+the electrolyte by CoI2
+reduction
+ of the dissolution of
+polysulfides, the viscosity and ionic conductivity of 5 mM
+Li2
+S
+6
+solution
+ and 0.5 mM Li2
+S
+6
++
+ 0.3 wt % CoI2
+solution
+ were
+measured. The results (Figure 4a and Figure S7, Supporting
+Information) confirmed the decrease in viscosity of the
+electrolyte after solidification of polysulfides with CoI2
+and
+the higher ion conductivity compared to the electrolyte
+containing 5 mM Li2
+S
+6
+,
+ which are beneficial for the reaction
+kinetics of Li−S batteries. To further evaluate the dynamics,
+the cells with/without CoI2
+were
+ subjected to CV at different
+scanning speeds (0.05 mV s−
+1,
+ 0.1 mV s−
+1,
+ 0.15 mV s−
+1,
+ 0.2
+mV s−
+1,
+ 0.3 mV s−
+1).
+ In the CV curves (Figure 4b and Figure
+S8, Supporting Information), it can be observed that the
+potential difference between the oxidation and reduction peaks
+of cells with CoI2
+was
+ smaller than that without CoI2
+,
+indicating that the addition of CoI2
+can
+ reduce the internal
+polarization of the battery. Meanwhile, the peak current of the
+cell with CoI2
+at
+ the same scanning speed was higher than that
+of the one without CoI2
+,
+ and the peak pattern was sharper,
+which indcates better reaction kinetics.
+According to the Randles−Sevcik equation (Ip
+=
+ (2.65 ×
+10−
+5)
+n3/2
+AD
+1/2
+Cv
+1/2
+),
+42
+we
+ linearly fitted the peak current of
+the second reduction peak at different scanning speeds with
+the square root of the scanning rate to compare the diffusion
+rate of active materials in cells with/without CoI2
+during
+ the
+process of long chain reduction of polysulfides to short chain
+reduction. As shown in Figure 4c, the slope of the fitting line
+for the cell with CoI2
+is
+ 13.63, which is much greater than
+11.69 for the cell without CoI2
+.
+ This proves that the reduction
+of cathode passivation and the decrease in electrolyte viscosity
+can improve the diffusion of active materials inside the battery.
+In addition, after logarithmic changes in scanning current
+density, the potential near the two reduction peaks was
+selected for Tafel curve plotting.43
+Then,
+ the Tafel slopes were
+obtained through linear fitting. In Figure 4d,e, it can be seen
+that introducing CoI2
+can
+ reduce the slope of the Tafel curve
+from 135.19 and 82.45 to 102.15 and 55.98. The slope of the
+Tafel curve represents the overpotential value per unit current
+density; therefore, the smaller the value, the easier the electron
+Figure
+ 5. Electrochemical performances of the cells with/without CoI2
+.
+ (a) Cycle performance of the cells with/without CoI2
+at
+ 0.5 C; (b) rate
+performance of the cells with/without CoI2
+;
+ (c) fast charging performance of the cells with/without CoI2
+;
+ (d) cycle performance of the cells with/
+without CoI2
+at
+ 4 C; (e) cycle performance of cells with/without CoI2
+and
+ with high sulfur loading, lean electrolyte at 0.2 C; (f, g) 1st and 10th
+discharge curves of the cells with/without CoI2
+;
+ (h) cycle performance of the pouch cells with/without CoI2
+at
+ 0.05 C.ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561940
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 8 页 ===
+transfer
+ step and the better the reaction kinetics. Furthermore,
+the apparent activation energy of Li−S batteries was
+calculated44
+according
+ to the slope of the Tafel plot and the
+following equation:
+=E E RT
+b (Ox/Red)aa,Red ,Red
+0
+cathode IRConsistent
+ with the above results, CoI2
+effectively
+ decreased
+the activation energy in the multistep reaction process of Li−S
+batteries, as displayed in Figure 4f. In the in situ electro-
+chemical impedance testing (Figure 4g,h), the electrolyte
+resistance (Re
+)
+ of the cell with CoI2
+during
+ cycling was
+basically the same as that without CoI2
+,
+ but the interface
+charge transfer resistance (Rct
+)
+ was smaller than that without
+CoI2
+(
+Figure 4i). This also confirms that CoI2
+can
+ improve the
+interface passivation and enhance battery electrochemical
+kinetics.
+The functions of CoI2
+in
+ alleviating electrode passivation,
+inhibiting the shuttle effect, and enhancing sulfur redox
+kinetics are all beneficial for improving the cycle stability and
+rate performance of Li−S batteries. Through concentration
+gradient experiments (Figure S9, Supporting Information), the
+optimal amount of CoI2
+added
+ was determined to be 0.3 wt %,
+which is much lower than that of previously reported additives,
+perfectly controlling costs and the impact on energy density of
+battery. At this concentration, the initial discharge specific
+capacity of the cell with CoI2
+can
+ reach 1102.8 mA g−
+1,
+ and
+709.8 mAh g−
+1can
+ still be retained after 300 cycles, as shown
+in Figure 5a. In contrast, the cell without CoI2
+decayed
+ from
+1072.8 mAh g−
+1to
+ 573.6 mAh g−
+1,
+ indicating that CoI2
+can
+significantly improve the cycling stability of Li−S batteries.
+Figure
+ 6. Impact of activating I3
+−in
+ the Li−S cells. (a) Cycle performance of cells with activated I3
+−at
+ different frequencies; (b) slope of specific
+capacity attenuation before and after activation; (c) charge−discharge curves during the I3
+−activation
+ process; (d−m) morphology of Li anodes in
+the cells with activated I3
+−at
+ different frequencies after 350 cycles; (n) content of dead sulfur and dead lithium in the cells with/without activation
+after 250 cycles; (o) Cycle life of Li−Li symmetric cell and Li−S cell without CoI2
+.
+ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561941
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 9 页 ===
+The
+ Li−S cells with/without CoI2
+were
+ subjected to rate
+tests at 0.2, 0.5, 1, 2, and 4 C. As can be seen from Figure 5b
+and Figure S10 (Supporting Information), the cell with CoI2
+can
+ demonstrate specific capacities of 1119.9 mAh g−
+1,
+ 966.5
+mAh g−
+1,
+ 918.7 mAh g−
+1,
+ 835.4 mAh g−
+1,
+ and 586.2 mAh g−
+1,
+respectively. In contrast, the discharge specific capacity of the
+cell without CoI2
+was
+ only 962.6 mAh g−
+1,
+ 853.1 mAh g−
+1,
+819.6 mAh g−
+1,
+ 759.4 mAh g−
+1,
+ and 211.9 mAh g−
+1.
+ When the
+rate returned to 0.2 C, the specific capacity of the cell with
+CoI2
+could
+ be restored to 1062.1 mAh g−
+1,
+ while the cell
+without additives could return to only 903.8 mAh g−
+1.
+Obviously, the addition of CoI2
+significantly
+ improved the
+rate performance of Li−S batteries. To evaluate the fast-
+charging performance, discharging rates of cells were all 0.5 C,
+but charging rates were set to 1, 2, and 4 C. After 100 cycles, as
+shown in Figure 5c and Figure S11 (Supporting Information),
+the cells with CoI2
+retained
+ reversible specific capacity of
+844.1, 724.6, and 641.3 mAh g−
+1,
+ which is much better than
+the cells without CoI2
+.
+ The improvement of fast-charging
+capacity by CoI2
+can
+ effectively solve the problem in actual
+battery applications. Furthermore, the cells with CoI2
+also
+performed well in long-term fast charging and discharging
+scenarios. In the long cycling at 4 C (Figure 5d), the initial
+reversible specific capacity of the cell without CoI2
+after
+activation was 149 mAh g−
+1,
+ and the remaining capacity was
+97.1 mAh g−
+1after
+ 150 cycles, during which the Coulombic
+efficiency fluctuated sharply. For the cell with CoI2
+,
+ it could
+still achieve a specific capacity of 525.3 mAh g−
+1after
+ 150
+cycles at 4 C. Combining the rate test and the performance of
+fast charging and discharging, it can be clearly determined that
+CoI2
+can
+ significantly upgrade the cycle performance of
+batteries at high rates, which corroborates the role of CoI2
+in
+alleviating interface passivation and improving sulfur redox.
+Li−S batteries face extreme situations of low electrolyte/
+sulfur (E/S) ratios and high sulfur loading in practical work.
+Therefore, coin cells were assembled with 5.2 mg cm−
+2and
+ 9
+μL mg−
+1E/S
+ ratio and then cycled at 0.2 C. Benefiting from
+the decrease of E/S ratio, the function of CoI2
+inhibiting
+ the
+shuttle effect and relieving electrode passivation was more
+significant, as displayed in Figure 5e. The cell with CoI2
+could
+produce a specific capacity of 1077.1 mAh g−
+1in
+ the first cycle,
+and after 100 cycles, the capacity retention rate of the cell with
+CoI2
+could
+ reach 81.8%. As a comparison, the cell without
+CoI2
+underwent
+ a short circuit after 86 cycles. Remarkably, due
+to the presence of concentration gradients, the polysulfides
+dissolved in the electrolyte not only cannot fully return to the
+cathode, but the dissolution amount will continue to increase
+until a certain steady-state concentration, which results in the
+rapid degradation in the initial cycle of Li−S batteries. Thus, in
+the initial cycles from Figure 5e, the cell capacity attenuation of
+the cell without CoI2
+was
+ up to 29.64% (Figure 5f). For the
+cell with CoI2
+,
+ the capacity attenuation of the first 10 cycles
+could be reduced to 3.68% (Figure 5g), which is consistent
+with the conclusion that CoI2
+can
+ reduce the dissolution of
+polysulfides and inhibit the shuttle effect. In addition, from
+Figure 5f,g, it can be seen that CoI2
+can
+ suppress voltage
+hysteresis and reduce the overpotential of Li2
+S
+ deposition in
+Li−S batteries in poor electrolyte conditions,45
+which
+ once
+again confirms the argument that CoI2
+can
+ improve sulfur
+redox kinetics.
+Further, pouch cells with 4 mg cm−
+2sulfur
+ loading, 6 μL
+mg−
+1E/S
+ ratio, and 2.93 N/P ratio (the capacity ratio of
+cathode and anode) were assembled to simulate the practical
+usage environment. At 0.05 C (Figure 5i), the specific capacity
+of the pouch cell with CoI2
+could
+ reach 1325.0 mAh g−
+1,
+ and
+this cell could maintain 1130.2 mAh g−
+1after
+ 36 cycles. For the
+pouch cell without CoI2
+,
+ the specific capacity decayed from
+1130.2 mAh g−
+1to
+ 798.5 mAh g−
+1.
+ Based on these results, it
+can be seen that the reaction kinetics and interface passivation
+issues of Li−S batteries are more prominent under high sulfur
+loading and low E/S ratio, but the addition of CoI2
+can
+effectively alleviate these and allow the battery to produce
+extremely high specific capacity and have perfect cycling
+stability.
+In previous studies, I3
+−has
+ been reported to activate dead
+sulfur and dead lithium according to following equations,46
+−48alleviating
+ irreversible loss of active materials and interface
+passivation.
++ = +n n n n( 1)I Li S 3( 1)I Li Sn3 2 2(3)
++ = + ++3I 3Li O 8I 6Li IO3 2 3(4)
+The
+ activation of I−
+to
+ I3
+−requires
+ voltage over 3.0 V,49
+while
+ the working voltage range of Li−S batteries is between
+1.7 and 2.8 V. To investigate the influence of I3
+−on
+ Li−S
+batteries, the charging and discharging system is adjusted. At
+different cycles, the cells were charged to 3.1 V to activate I3
+−and
+ then allowed to stand for 60 min. Figure 6a shows the
+cycle performance of Li−S cells activated with I3
+−at
+ different
+frequencies. When I3
+−was
+ activated every 50 or 150 cycles, the
+performance of cells did not improve compared to the normal
+cell with 0.3 wt % CoI2
+,
+ and the cycle life was shortened. For
+the cells with CoI2
+cycling
+ 250/350 cycles, the decay rates (k1
+and
+ k2
+from
+ Figure 6b) before activation were all similar.
+Surprisingly, the decay rate will decrease after activation,
+corresponding to the change in slope k2
+to
+ k3
+in
+ Figure 6b.
+Observing the charge−discharge curves of the cells with CoI2
+,
+a new plateau appeared on the charging curve when charged to
+above 3.0 V (Figure 6c), consistent with the oxidation
+potential from I−
+to
+ I3
+−.
+ By analyzing the relationship between
+activation frequency and cyclic performance, it can be
+concluded that if the activation frequency is too fast, the
+cycle stability of the Li−S battery will deteriorate. This is
+because I3
+−not
+ only can react with Li2
+O
+ and Li2
+S
+ on the
+surface of electrodes, but also has the possibility to react with
+the Li metal anode. If the solid electrolyte interphase (SEI) on
+the surface of the Li anode does not accumulate enough Li2
+O
+and Li2
+S,
+ activating I3
+−can
+ cause corrosion to the anode.
+However, as the number of cycles increases, sufficient
+passivation layers accumulate on the surface area of the
+cathode and anode, and activating I3
+−can
+ to some extent
+increase the reversibility of the active materials. The cells for
+activation experiments at 350 cycles were disassembled, and
+their anodes were observed by SEM. The results are given in
+Figure 6d−m. Compared to the normal cell with CoI2
+,
+ the
+morphology of Li anodes in the cells activated every 50/150
+cycles was severely damaged, while the surface of Li anodes in
+the cells activated at 250/350 cycles was dense and flat. This
+phenomenon confirms our hypothesis. In addition, the anodes
+and cathodes of cells with/without activation at 250th cycle
+were tested by XPS. The result obtained (Figure 6n and Figure
+S12, Supporting Information) revealed that the contents of
+Li2
+O
+ and Li2
+S
+2
+on
+ the anode and cathode indeed decreased
+after activating I3
+−at
+ the 250th cycle.46
+,50Therefore,
+ activating
+I3
+−at
+ an appropriate frequency can improve the cyclic stability
+and lifespan of the Li−S battery. Through frequency gradientACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561942
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 10 页 ===
+experiments,
+ it was determined that activating I3
+−every
+ 250
+cycles was optimal, and after 450 cycles, the cell can still retain
+a reversible specific capacity of 615.7 mAh g−
+1.
+ Furthermore,
+the I3
+−activation
+ experiment was conducted on cells with high
+sulfur loading, and similar results were obtained. The optimal
+activation frequency for the cell with 5.2 mg cm−
+2and
+ 9 μL
+mg−
+1E/S
+ ratio at 0.2 C was every 75 cycles. Under this
+condition, the Li−S cell can retain 867.8 mAh g−
+1after
+ 140
+cycles, as displayed in Figure S13.
+In Figure 6a, it is worth noting that the cell without CoI2
+happens
+ to short circuit after 358 cycles. We believe that this is
+attributed to the corrosion damage of the Li anode. Upon
+disassembling the cell without CoI2
+after
+ 350 cycles, obvious
+dendrites can be seen in the anode and the morphology is
+extremely powdery (Figure S14, Supporting Information). A
+Li−Li cell with 0.1 M Li2
+S
+6
+was
+ assembled and cycled at 1
+mAh−
+1mA
+ cm−
+2.
+ After 600 h, the overpotential gradually
+increased until a short circuit occurred (663 h; Figure 6o). The
+experimental result was also close to the current research
+results on mainstream Li anodes in base ether solvents.35
+,51,52At
+ 0.5 C for the Li−S cell, the constant current density in
+anode was 0.72 mA cm−
+2,
+ and the cell without CoI2
+required
+667 h to cycle to 358 cycles. Thus, the cycle life of the Li−Li
+cell is consistent with the cell without CoI2
+,
+ as displayed in
+Figure 6o, verifying that the corrosion damage of the anode is
+the main cause of short circuits. The normal cell with CoI2
+will
+also experience rapid capacity decay and significant Coulombic
+efficiency fluctuations caused by micro-short-circuits after
+cycling to 300 cycles, while the cell in which I3
+−was
+ activated
+at the 250th cycle can eliminate dead Li2
+S
+ and Li2
+O
+ on the
+electrode surfaces, resulting in a certain improvement in
+battery life and cycle stability.4.
+ CONCLUSIONIn
+ summary, we introduce a transition metal salt, CoI2
+,
+ into the
+electrolyte, overcoming the limitations of traditional anchoring
+catalysts and redox mediator additives. The cobalt ions in CoI2
+can
+ reduce and solidify soluble long-chain polysulfides, which
+alleviates interface passivation, inhibits shuttle effects, and
+improves sulfur redox kinetics. The iodine ions in CoI2
+can
+ be
+activated at an appropriate frequency to help eliminate the
+accumulation of dead sulfur and dead lithium, thereby
+extending the service life of Li−S batteries. Thanks to the
+synergistic effect of anions and cations, the capacity release,
+rate performance, and cyclic stability of Li−S batteries have
+been significantly enhanced. This work broadens the space for
+the design of electrolyte additives, and more transition metals
+can be attempted. Besides, activating I3
+−in
+ different Li−S
+battery working conditions also deserves more attention from
+researchers.■
+ASSOCIATED
+ CONTENT*
+sı
+Supporting
+ InformationThe
+ Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsami.4c11693.
+Raman spectra, XRD spectra, CV curves, XPS spectra,
+photos of cathode under different charging and
+discharging states, the discharge process pictures of H-
+type electrolytic cell with/without CoI2
+,
+ images of
+electrolyte viscosity and ionic conductivity, cycle and
+rate performance, SEM images of Li anodes (PDF)■
+AUTHOR
+ INFORMATIONCorresponding
+ AuthorBo
+ Hong − School of Metallurgy and Environment, Hunan
+Province Key Laboratory of Nonferrous Value-Added
+Metallurgy, Central South University, Changsha 410083
+Hunan, China; National Energy Metal Resources and New
+Materials Key Laboratory, Changsha 410083 Hunan,
+China;
+orcid.org/0000-0001-7979-5122 ;
+Email: bop_hong@163.comAuthors
+Jiahao
+ Gu − School of Metallurgy and Environment, Hunan
+Province Key Laboratory of Nonferrous Value-Added
+Metallurgy, Central South University, Changsha 410083
+Hunan, China
+Zhaoyang Li − School of Metallurgy and Environment, Hunan
+Province Key Laboratory of Nonferrous Value-Added
+Metallurgy, Central South University, Changsha 410083
+Hunan, China
+Mengran Wang − School of Metallurgy and Environment,
+Hunan Province Key Laboratory of Nonferrous Value-Added
+Metallurgy, Central South University, Changsha 410083
+Hunan, China; National Energy Metal Resources and New
+Materials Key Laboratory, Changsha 410083 Hunan, China
+Zhian Zhang − School of Metallurgy and Environment, Hunan
+Province Key Laboratory of Nonferrous Value-Added
+Metallurgy, Central South University, Changsha 410083
+Hunan, China; National Energy Metal Resources and New
+Materials Key Laboratory, Changsha 410083 Hunan,
+China;
+orcid.org/0000-0002-8691-6006 
+Yanqing Lai − School of Metallurgy and Environment, Hunan
+Province Key Laboratory of Nonferrous Value-Added
+Metallurgy, Central South University, Changsha 410083
+Hunan, China; National Energy Metal Resources and New
+Materials Key Laboratory, Changsha 410083 Hunan, China;
+Engineering Research Centre of Advanced Battery Materials,
+The Ministry of Education, Changsha 410083 Hunan, China
+Jie Li − School of Metallurgy and Environment, Hunan
+Province Key Laboratory of Nonferrous Value-Added
+Metallurgy, Central South University, Changsha 410083
+Hunan, China; Hunan Provincial Key Laboratory of
+Nonferrous Value-added Metallurgy, Changsha 410083
+Hunan, China
+Libo Zhang − Luoyang E-Energy Storage and Transformation
+System Co. Ltd., Luoyang 471000 Henan, China
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsami.4c11693Notes
+The
+authors declare no competing financial interest.■
+ACKNOWLEDGMENTS
+This
+ work is supported from the National Natural Science
+Foundation of China (No. 52174287, 52101278 and
+52034011).■
+REFERENCES
+(1)
+ Li, G.-X.; Jiang, H.; Kou, R.; Wang, D.; Nguyen, A.; Liao, M.;
+Shi, P.; Silver, A.; Wang, D. A Superior Carbonate Electrolyte for
+Stable Cycling Li Metal Batteries Using High Ni Cathode. ACS Energy
+letters 2022, 7 (7), 2282−2288.ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561943
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 11 页 ===
+(2)
+ Trost, J. N.; Dunn, J. B. Assessing the feasibility of the Inflation
+Reduction Act’s EV critical mineral targets. Nature sustainability 2023,
+6 (6), 639−643.
+(3) Guo, W.; Zhang, W.; Si, Y.; Wang, D.; Fu, Y.; Manthiram, A.
+Artificial Dual Solid-Electrolyte Interfaces Based on in Situ Organo-
+thiol Transformation in Lithium Sulfur Battery. Nat. Commun. 2021,
+12 (1), 3031.
+(4) Wang, T.; He, J.; Cheng, X.-B.; Zhu, J.; Lu, B.; Wu, Y. Strategies
+toward High-Loading Lithium-Sulfur Batteries. ACS Energy letters
+2023, 8 (1), 116−150.
+(5) Wang, T.; He, J.; Zhu, Z.; Cheng, X.-B.; Zhu, J.; Lu, B.; Wu, Y.
+Heterostructures Regulating Lithium Polysulfides for Advanced
+Lithium-Sulfur Batteries. Adv. Mater. 2023, 35 (47), 2303520.
+(6) Li, J.; Gao, L.; Pan, F.; Gong, C.; Sun, L.; Gao, H.; Zhang, J.;
+Zhao, Y.; Wang, G.; Liu, H. Engineering Strategies for Suppressing
+the Shuttle Effect in Lithium-Sulfur Batteries. Nano-Micro Letters
+2024, 16 (1), 12.
+(7) He, L.; Shao, S.; Zong, C.; Hong, B.; Wang, M.; Lai, Y. Electrode
+Interface Engineering in Lithium-Sulfur Batteries Enabled by a
+Trifluoroacetamide-Based Electrolyte. ACS Appl. Mater. Interfaces
+2022, 14 (28), 31814−31823.
+(8) Ouyang, Y.; Zong, W.; Zhu, X.; Mo, L.; Chao, G.; Fan, W.; Lai,
+F.; Miao, Y. E.; Liu, T.; Yu, Y. A Universal Spinning-Coordinating
+Strategy to Construct Continuous Metal-Nitrogen-Carbon Hetero-
+interface with Boosted Lithium Polysulfides Immobilization for 3D-
+Printed Li-S Batteries. Advanced Science 2022, 9 (26), 2203181.
+(9) Yan, M.; Wang, Z. Y.; Yu, G. W.; Huang, R.; Zhang, C. Y.;
+Chang, X. N.; Dong, W. D.; Liu, X. L.; Liu, J.; Mohamed, H. S. H.;
+et al. Adsorption-Catalysis-Conversion of Polysulfides in Sandwiched
+Ultrathin Ni(OH)2
+-PANI
+ for Stable Lithium-Sulfur Batteries. Small
+2022, 18 (25), 2201822.
+(10) Zhong, Y.; Yin, L.; He, P.; Liu, W.; Wu, Z.; Wang, H. Surface
+Chemistry in Cobalt Phosphide-Stabilized Lithium-Sulfur Batteries. J.
+Am. Chem. Soc. 2018, 140 (4), 1455−1459.
+(11) Xu, Z.-L.; Onofrio, N.; Wang, J. Boosting the Anchoring and
+Catalytic Capability of MoS2
+for
+ High-Loading Lithium Sulfur
+Batteries. Journal of Materials Chemistry A 2020, 8 (34), 17646−
+17656.
+(12) Yang, W.; Yang, W.; Dong, L.; Gao, X.; Wang, G.; Shao, G.
+Enabling Immobilization and Conversion of Polysulfides through a
+Nitrogen-Doped Carbon Nanotubes/Ultrathin MoS2
+Nanosheet
+Core-Shell Architecture for Lithium-Sulfur Batteries. Journal of
+Materials Chemistry A 2019, 7 (21), 13103−13112.
+(13) Lu, C.; Chen, Y.; Yang, Y.; Chen, X. Single-atom Catalytic
+Materials for Lean-Electrolyte Ultrastable Lithium-Sulfur Batteries.
+Nano Lett. 2020, 20 (7), 5522−5530.
+(14) Zhang, Y.; Kang, C.; Zhao, W.; Song, Y.; Zhu, J.; Huo, H.; Ma,
+Y.; Du, C.; Zuo, P.; Lou, S.; et al. d-p Hybridization-Induced
+“Trapping-Coupling-Conversion” Enables High-Efficiency Nb Single-
+Atom Catalysis for Li-S Batteries. J. Am. Chem. Soc. 2023, 145 (3),
+1728−1739.
+(15) Tseng, Y.-H.; Lin, Y.-C.; Wu, Y.-H.; Ting, J.-M.; Chung, S.-H.
+High-Entropy Oxide/Phase-Inverted Carbon for Enhanced Lithium-
+Sulfur Batteries. Journal of Energy Storage 2023, 68, 107767.
+(16) Theibault, M. J.; McCormick, C. R.; Lang, S.; Schaak, R. E.;
+Abrun ̃a, H. D. High Entropy Sulfide Nanoparticles as Lithium
+Polysulfide Redox Catalysts. ACS Nano 2023, 17 (18), 18402−18410.
+(17) Zhao, M.; Peng, H. J.; Wei, J. Y.; Huang, J. Q.; Li, B. Q.; Yuan,
+H.; Zhang, Q. Dictating High-Capacity Lithium-Sulfur Batteries
+through Redox-Mediated Lithium Sulfide Growth. Small Methods
+2020, 4 (6), 1900344.
+(18) Peng, Y.-Q.; Zhao, M.; Chen, Z.-X.; Cheng, Q.; Liu, Y.; Li, X.-
+Y.; Song, Y.-W.; Li, B.-Q.; Huang, J.-Q. Boosting Sulfur Redox
+Kinetics by a Pentacenetetrone Redox Mediator for High-Energy-
+Density Lithium-Sulfur Batteries. Nano Research 2023, 16 (6), 8253−
+8259.
+(19) Tsao, Y.; Lee, M.; Miller, E. C.; Gao, G.; Park, J.; Chen, S.;
+Katsumata, T.; Tran, H.; Wang, L.-W.; Toney, M. F.; et al. Designing
+a Quinone-Based Redox Mediator to Facilitate Li2
+S
+ Oxidation in Li-S
+Batteries. Joule 2019, 3 (3), 872−884.
+(20) Zhao, M.; Li, B.-Q.; Chen, X.; Xie, J.; Yuan, H.; Huang, J.-Q.
+Redox Comediation with Organopolysulfides in Working Lithium-
+Sulfur Batteries. Chem. 2020, 6 (12), 3297−3311.
+(21) Zhang, W.; Ma, F.; Wu, Q.; Zeng, Z.; Zhong, W.; Cheng, S.;
+Chen, X.; Xie, J. Dual-Functional Organotelluride Additive for Highly
+Efficient Sulfur Redox Kinetics and Lithium Regulation in Lithium-
+Sulfur Batteries. Energy & Environmental Materials 2023, 6 (3),
+No. e12369.
+(22) Meini, S.; Elazari, R.; Rosenman, A.; Garsuch, A.; Aurbach, D.
+The Use of Redox Mediators for Enhancing Utilization of Li2
+S
+Cathodes for Advanced Li-S Battery Systems. J. Phys. Chem. Lett.
+2014, 5 (5), 915−918.
+(23) Zhao, M.; Chen, X.; Li, X. Y.; Li, B. Q.; Huang, J. Q. An
+Organodiselenide Comediator to Facilitate Sulfur Redox Kinetics in
+Lithium-Sulfur Batteries. Adv. Mater. 2021, 33 (13), No. e2007298.
+(24) Zhang, X.; Li, J.; Gao, C.; Shi, C.; He, L.; Xiang, Q.; Hong, B.;
+Lai, Y.; Zhang, Z.; Zhang, K. Promoting the Conversion of Li2
+S
+ by
+Functional Additives Phenyl Diselenide in Lithium-Sulfur Batteries. J.
+Power Sources 2021, 482, 228967.
+(25) Burke, K. Perspective on Density Functional Theory. J. Chem.
+Phys. 2012, 136 (15), 150901.
+(26) Shi, C.; Shao, S.; Zong, C.; Gu, J.; Huang, Z.; Hong, B.; Wang,
+M.; Zhang, Z.; Lai, Y.; Li, J. Organothiols for Dual-Interface
+Modification of High Performance Lthium-Sulfur Batteries. Chemical
+Engineering Journal 2022, 448, 137552.
+(27) Hua, W.; Yang, Z.; Nie, H.; Li, Z.; Yang, J.; Guo, Z.; Ruan, C.;
+Chen, X.; Huang, S. Polysulfide-Scission Reagents for the Suppression
+of the Shuttle Effect in Lithium-Sulfur Batteries. ACS Nano 2017, 11
+(2), 2209−2218.
+(28) Liu, Y. H.; Qu, J.; Chang, W.; et al. A Photo-Assisted Reversible
+Lithium-Sulfur Battery. Energy Storage Materials 2022, 50, 334−343.
+(29) Wang, C.; Chen, P.; Wang, Y.; Chen, T.; Liu, M.; Zhang, M.;
+Fu, Y.; Xu, J.; Fu, J. Synergistic Cation-Anion Regulation of
+Polysulfides by Zwitterionic Polymer Binder for Lithium-Sulfur
+Batteries. Adv. Funct. Mater. 2022, 32 (34), 2204451.
+(30) He, Z.; Wang, H.; Li, M.; Feng, L.; Niu, J.; Li, Z.; Jia, X.; Hu, G.
+Amorphous Cobalt Oxide Decorated Halloysite Nanotubes for
+Efficient Sulfamethoxazole Degradation Activated by Peroxymono-
+sulfate. J. Colloid Interface Sci. 2022, 607, 857−868.
+(31) Joshi, K. K.; Pataniya, P. M.; Bhadu, G.; Sumesh, C.K.; et al.
+Monometallic, Bimetallic, and Trimetallic Chalcogenide-Based
+Electrodes for Electrocatalytic Hydrogen Evolution Reaction. Int. J.
+Hydrogen Energy 2023, 48 (20), 7260−7272.
+(32) Vála, L.; Medlin, R.; Kos ̌tejn, M.; et al. Laser-Induced Reactive
+Deposition of Nanostructured CoS2-and Co2
+CuS
+4
+-Based
+ Films with
+Fenton Catalytic Properties. Eur. J. Inorg. Chem. 2019, 1220−1227.
+(33) Kong, W.; Wang, D.; Yan, L.; et al. Ultrathin HfO2
+Modified
+Carbon Nanotube Films as Efficient Polysulfide Barriers for Li-S
+Batteries. Carbon 2018, 139, 896−905.
+(34) Xiao, S.; Huang, L.; Lv, W.; He, Y. B. A Highly Efficient Ion
+and Electron Conductive Interlayer To Achieve Low Self-Discharge of
+Lithium-Sulfur Batteries. ACS Appl. Mater. Interfaces 2022, 14 (1),
+1783−1790.
+(35) Jin, Q.; Zhao, K.; Li, L.; Ma, X.; Wu, L.; Zhang, X. Tailoring the
+Spatial Distribution and Content of Inorganic Nitrides in Solid-
+Electrolyte Interphases for the Stable Li Anode in Li-S Batteries.
+Energy Environmental Materials 2022, 5 (4), 1180−1188.
+(36) Zhao, K.; Jin, Q.; Zhang, L.; Li, L.; Wu, L.; Zhang, X. Achieving
+Dendrite-Free Lithium Deposition on the Anode of Lithium-Sulfur
+Battery by LiF-Rich Regulation Layer. Electrochim. Acta 2021, 393,
+138981.
+(37) Pang, Y.; Wen, Y.; Li, W.; Sun, Y.; Zhu, T.; Wang, Y.; Xia, Y. A
+Sulfur-FePO4
+-C
+ Nanocomposite Cathode for Stable and Anti-Self-
+Discharge Lithium-Sulfur Batteries. Journal of Materials Chemistry A
+2017, 5 (34), 17926−17932.ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561944
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+
+=== 第 12 页 ===
+(38)
+ Fan, F. Y.; Carter, W. C.; Chiang, Y. M. Mechanism and
+Kinetics of Li2
+S
+ Precipitation in Lithium-Sulfur Batteries. Adv. Mater.
+2015, 27 (35), 5203−5209.
+(39) Zhao, M.; Chen, X.; Li, X. Y.; Li, B. Q.; Huang, J. Q. An
+Organodiselenide Comediator to Facilitate Sulfur Redox Kinetics in
+Lithium-Sulfur Batteries. Adv. Mater. 2021, 33 (13), 2007298.
+(40) Chen, Y.; Lu, S.; Zhou, J.; Qin, W.; Wu, X. Synergistically
+Assembled Li2
+S/FWNTs@Reduced
+ Graphene Oxide Nanobundle
+Forest for Free-Standing High-Performance Li2
+S
+ Cathodes. Adv.
+Funct. Mater. 2017, 27 (25), 1700987.
+(41) Li, B. Q.; Kong, L.; Zhao, C. X.; Jin, Q.; Chen, X.; Peng, H. J.;
+Qin, J. L.; Chen, J. X.; Yuan, H.; Zhang, Q.; et al. Expediting Redox
+Kinetics of Sulfur Species by Atomic-Scale Electrocatalysts in
+Lithium-Sulfur Batteries. InfoMat 2019, 1 (4), 533−541.
+(42) Shen, Z.; Gao, Q.; Zhu, X.; Guo, Z.; Guo, K.; Song, X.; Zhao, Y.
+In-Situ Free Radical Supplement Strategy for Improving the Redox
+Kinetics of Li-S Batteries. Energy Storage Materials 2023, 57, 299−
+307.
+(43) Gu, J.; Yang, D.; Wang, X.; Song, Y.; Li, Z.; Qiu, H.; Wang, M.;
+Wang, Q.; Hong, B.; Zhang, Z.; et al. Ammonium Benzenesulfonate as
+an Electrolyte Additive to Relieve the Irreversible Accumulation of
+Lithium Sulfide for High-Energy Density Lithium-Sulfur Battery. J.
+Colloid Interface Sci. 2023, 629, 368−376.
+(44) Luo, C.; Liang, X.; Sun, Y.; Lv, W.; Sun, Y.; Lu, Z.; Hua, W.;
+Yang, H.; Wang, R.; Yan, C.; et al. An Organic Nickel Salt-Based
+Electrolyte Additive Boosts Homogeneous Catalysis for Lithium-
+Sulfur Batteries. Energy Storage Materials 2020, 33, 290−297.
+(45) Chen, Z.-X.; Cheng, Q.; Li, X.-Y.; Li, Z.; Song, Y.-W.; Sun, F.;
+Zhao, M.; Zhang, X.-Q.; Li, B.-Q.; Huang, J.-Q. Cathode Kinetics
+Evaluation in Lean-Electrolyte Lithium-Sulfur Batteries. J. Am. Chem.
+Soc. 2023, 145 (30), 16449−16457.
+(46) Jin, C.; Liu, T.; Sheng, O.; Li, M.; Liu, T.; Yuan, Y.; Nai, J.; Ju,
+Z.; Zhang, W.; Liu, Y.; et al. Rejuvenating Dead Lithium Supply in
+Lithium Metal Anodes by Iodine Redox. Nature Energy 2021, 6 (4),
+378−387.
+(47) Shi, P.; Liang, X.; Xu, K.; Sun, Y.; Cheng, S.; Chen, C.; Xiang,
+H. Sulfone-Assisted-NH4
+I
+as Electrolyte Additive with Synergistic
+Dissolution and Catalysis Effects on Reducing the Activation Voltage
+of Li2
+S
+ Cathode. Chemical Engineering Journal 2020, 398, 125608.
+(48) Liu, Z.; Chen, M.; Zhou, D.; Xiao, Z. Scavenging of “Dead
+Sulfur” and “Dead Lithium” Revealed by Integrated-Heterogeneous
+Catalysis for Advanced Lithium-Sulfur Batteries. Adv. Funct. Mater.
+2023, 33 (46), 2306321.
+(49) Zhao, Q.; Lu, Y.; Zhu, Z.; Tao, Z.; Chen, J. Rechargeable
+Lithium-Iodine Batteries with Iodine/Nanoporous Carbon Cathode.
+Nano Lett. 2015, 15 (9), 5982−5987.
+(50) Gu, J.; Shi, C.; Li, Z.; Liu, F.; Huang, Z.; Hong, B.; Lai, Y.
+Lithiated 3, 6-Dioxa-1, 8-Octane Dithiol as Redox Mediator to
+Manipulate Polysulfides Conversion for High-Performance Lithium-
+Sulfur Batteries. Chemical Engineering Journal 2022, 432, 134379.
+(51) Zhao, K.; Jin, Q.; Li, L.; Zhang, X.; Wu, L. Shielding
+Polysulfides Enabled by a Biomimetic Artificial Protective Layer in
+Lithium-Sulfur Batteries. J. Colloid Interface Sci. 2022, 625, 119−127.
+(52) Wei, J. Y.; Zhang, X. Q.; Hou, L. P.; Shi, P.; Li, B. Q.; Xiao, Y.;
+Yan, C.; Yuan, H.; Huang, J. Q. Shielding Polysulfide Intermediates by
+an Organosulfur-Containing Solid Electrolyte Interphase on the
+Lithium Anode in Lithium-Sulfur Batteries. Adv. Mater. 2020, 32
+(37), No. e2003012.ACS
+ Applied Materials & Interfaceswww.acsami.org Research Articlehttps://doi.org/10.1021/acsami.4c11693
+ACS Appl. Mater. Interfaces 2024, 16, 61934−6194561945
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​16/​45/​61934/​1304921/​am4c11693.​pdf by TSINGHUA UNIV user on 21 September 2026
+

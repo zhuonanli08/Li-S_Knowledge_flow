@@ -1,0 +1,680 @@
+=== 第 1 页 ===
+Halide as Catholyte in Composite Cathode to Enhance Cycling
+Stability of All-Solid-State Lithium−Sulfur Batteries
+Xiaorong Fang, Yujun Fu, Shiqing Sun, Rongcheng Zhang, Pengqian Guo, Kai Sun, Dequan Liu,
+Kai Wang,* and Deyan He*
+Cite This: Nano Lett. 2025, 25, 3843−3850
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: All-solid-state lithium−sulfur batteries (ASSLSBs) using
+inorganic solid-state electrolytes can effectively alleviate the polysulfide
+shuttle effect in liquid electrolytes and improve the energy density.
+However, the electrochemical window of sulfide-based catholytes in
+composite cathodes is relatively narrow, which makes the evaluation of
+electrochemical performance of sulfur cathodes in ASSLSBs complicated.
+The decomposition of the sulfide catholytes increases the interfacial
+resistance, thus reducing the battery cycle life. To overcome these
+challenges, Li3YCl5I has been developed with a wide window of
+electrochemical stability for a catholyte suitable for a composite cathode.
+Its ionic conductivity is as high as 1.67 × 10−3 S cm−1, which is conducive to the rapid transport of lithium ions. The ASSLSB based
+on the Li3YCl5I catholyte exhibits a discharge specific capacity of 1084.05 mAh g−1 at 45 °C. Additionally, it maintains 81.5%
+capacity after 100 cycles, significantly exceeding the retention rate of 54.5% for a battery using Li6PS5Cl.
+KEYWORDS: halide catholyte, cycling stability, iodine, all-solid-state, lithium−sulfur batteries
+L
+ithium−sulfur batteries (LSBs) have attracted consider-
+able interest due to their environmentally benign active
+material, sulfur, high theoretical specific capacity (1675 mAh
+g−1), and high theoretical energy density (2600 Wh kg−1).1−5
+However, the dissolution of lithium polysulfides formed in
+liquid electrolyte-based LSBs and their diffusion to the lithium
+anode are difficult to completely inhibit, resulting in active
+material loss and rapid capacity decay, which hinders the
+practical application of liquid LSBs.3,6−8 Furthermore, the
+flammability of liquid electrolytes brings inevitable safety
+risks.9,10 In contrast, all-solid-state lithium−sulfur batteries
+(ASSLSBs) use solid electrolytes instead of liquid ones,
+effectively mitigating the polysulfides shuttle effect and
+improving safety.11,12
+The solid-state catholytes (SSCEs) in the composite
+cathodes largely determine the cyclic stability of ASSLSBs.13
+Unlike liquid LSBs, where the liquid electrolytes can flow into
+the voids of the composite cathodes composed of sulfur and
+conductive carbon black to provide Li+ diffusion channels,
+ASSLSBs utilize a large amount of SSCEs (approximately 50
+wt %) to mix sulfur and conductive carbon black and then
+cold-pressed to form the composite cathodes. To date, sulfide
+SSCEs have been widely used in the composite cathodes of
+ASSLSBs due to their ultrahigh ionic conductivity, minimal
+interfacial side reactions with sulfur, and good compatibility
+with Li−In alloy anodes.4,14−18 However, in the process of
+charge and discharge, both sulfide SSCEs and sulfur participate
+in the reactions, which affects the cyclic performance of sulfide-
+based SSCE ASSLSBs.19−21 The sulfide SSCE can be used as a
+cathode at 1.6−2.7 V vs Li+/Li,22 which overlaps with the
+charge−discharge window of ASSLSBs. The decomposition of
+sulfide SSCE results in the loss of its intrinsic high ionic
+conductivity. For example, Li10GeP2S12,22 Li6PS5Cl,23 and
+Li6PS5Cl0.5Br0.5
+24 have been reported to undergo decom-
+position reactions during charge−discharge to form ionic
+insulating materials such as LiCl, Li3P, P2S5, GeS2, Li15Ge4, and
+LiBr. Thus, to improve the cyclic stability of ASSLSBs, it is
+necessary to develop SSCEs that are more stable than sulfides
+to promote ionic conduction in the composite cathodes.
+Compared with sulfides, halide solid-state electrolytes not
+only have similar deformability and high ionic conductivity but
+also have larger voltage windows, avoiding participating in the
+charge−discharge reactions of ASSLSBs.25,26 Notably, during
+the cycles, due to the migration of In3+ to the Li3YCl6 lattice, a
+stable anode−electrolyte interphase layer composed of an In-
+doped Li3−xInxYCl6 phase can be in situ formed, which makes
+Li3YCl6 and the Li−In alloy anode have good compatibility.27
+However, its ionic conductivity is limited to approximately
+10−4 S cm−1, resulting in slow Li+ transport. More importantly,
+Received:
+November 20, 2024
+Revised:
+February 22, 2025
+Accepted:
+February 26, 2025
+Published: February 28, 2025
+Letter
+pubs.acs.org/NanoLett
+© 2025 American Chemical Society
+3843
+https://doi.org/10.1021/acs.nanolett.4c05892
+Nano Lett. 2025, 25, 3843−3850
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​25/​10/​3843/​42485689/​nl4c05892.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 2 页 ===
+anion doping with a larger ionic radius effectively enhances the
+ionic conductivity of the halide by forming a weaker
+interaction between lithium ions and halogen anions.28
+Moreover, LiI is commonly used as an additive to the
+composite cathodes of ASSLSBs to promote the electro-
+chemical oxidation of Li2S2/Li2S.29 The introduction of I2
+produces S9.3I, which has higher electronic conductivity than
+elemental sulfur, exhibits excellent long-cycle stability as a
+cathode material for ASSLSBs, and can be heated to recover
+the capacity lost during the cycles.30 Therefore, halide SSCEs
+appear to be effective alternative materials for constructing
+composite cathodes with a long cycle stability in ASSLSBs.
+In this work, halide solid-state electrolytes Li3YCl6−xIx (x =
+0−3) were successfully synthesized by a mechanochemical
+method. The ionic conductivity of the representative
+Li3YCl6−xIx sample is as high as 1.67 × 10−3 S cm−1 at room
+temperature. When used as an SSCE in the composite
+cathodes of ASSLSBs, halide does not participate in the
+charge−discharge reactions, resulting in a capacity retention
+rate of 81.5% after 100 cycles, which is significantly higher than
+54.5% of sulfide-based batteries. Furthermore, the good
+compatibility with the Li−In alloy anode allows the halide to
+effectively act as a solid-state electrolyte layer in ASSLSBs
+without the need for a sulfide interlayer. The use of halide
+SSCEs significantly improves the cycle stability and promotes
+practical application of ASSLSBs.
+Solid-state electrolyte Li3YCl6−xIx (x = 0−3) was synthesized
+by mechanical ball-milling method using a stoichiometric
+mixture of LiCl, YCl3, and LiI. First, the ionic conductivity of
+cold-pressed as-milled Li3YCl6−xIx (x = 0−3) pellets was
+evaluated by electrochemical impedance spectroscopy (EIS).
+With the doping of iodine ions with a larger ionic radius, the
+ionic conductivity of Li3YCl6−xIx (x = 0−1) gradually increases,
+while that of Li3YCl6−xIx (x = 1−3) gradually decreases (Figure
+1). When x = 1, the room-temperature ionic conductivity of
+Li3YCl5I reaches a maximum of 1.67 × 10−3 S cm−1, while the
+Figure 1. Conductivity of as-milled Li3YCl6−xIx (x = 0−3). a Nyquist plots. b Arrhenius conductivity plots. c Changes in the room-temperature
+ionic conductivity and activation energy.
+Figure 2. Structure, composition, and lithium ion migration behavior of as-milled Li3YCl6−xIx (x = 0−3). a XRD patterns. b Visualizing the crystal
+structure of Li3YCl5I with superimposed lithium ion potential map via VESTA.38 c Lithium ion migration pathways of Li3YCl5I. d Energy profile of
+the migration pathways in c.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c05892
+Nano Lett. 2025, 25, 3843−3850
+3844
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​25/​10/​3843/​42485689/​nl4c05892.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 3 页 ===
+room-temperature electronic conductivity drops to 2.82 × 10−9
+S cm−1 (Figure S1). Notably, the room-temperature ionic
+conductivity (>10−4 S cm−1) is at least 4 orders of magnitude
+greater than the electronic conductivity (<10−8 S cm−1) in the
+iodine doping range studied, confirming that these materials
+can act as pure ionic conductors as solid-state electrolyte layers
+for ASSLSBs. Additionally, ionic and electronic conductivity
+were respectively measured at a cold pressure of about 375
+MPa, indicating that they have excellent deformability (Figure
+S2),25,31 making them a promising candidate for SSCEs in
+composite cathodes of ASSLSBs. The measured activation
+energies of Li3YCl6−xIx (x = 0−3) are shown in Figure 1b and c
+and Figure S3, with values ranging from 0.327 to 0.486 eV,
+which are comparable to other halide solid-state electro-
+lytes.25,28
+To elucidate the mechanism of the ionic conductivity, the
+structure and composition of Li3YCl6−xIx (x = 0−3) were
+analyzed by X-ray diffraction (XRD). XRD patterns show that
+Li3YCl6−xIx (x = 0−3) have obvious amorphous structures with
+only a few characteristic peaks of the crystal phase (Figures 2a
+and S4). The XRD peaks of Li3YCl6−xIx at x = 0 are consistent
+with those of the reference Li3YCl6 phase (PDF#44-0286).
+However, when x ≤1, the characteristic peaks at 31.3°, 40.8°,
+and 48.8° shift to smaller angles as the iodine content
+increases, suggesting that doping of larger iodine ions (r(Cl−)
+= 167 pm, r(I−) = 206 pm32) leads to the expansion of the unit
+cell. The wide peak at about 42° in the XRD pattern of
+Li3YCl5I matches that of Li3YI6.33 For Li3YCl6−xIx (x = 1.5−3),
+more new peaks corresponding to Li3YI6 appear next to the
+peaks of Li3YCl6. Although Li3YI6 exhibits characteristic peaks
+similar to those of LiI in the XRD patterns, no precipitated LiI
+phase was observed in the scanning electron microscopy
+(SEM) images and energy-dispersive X-ray spectroscopy
+(EDS) spectra of Li3YCl6−xIx (x = 0−3) (Figure S2). The
+room-temperature ionic conductivity of Li3YI6 was reported to
+be 7.0 × 10−4 S cm−1,33 which is lower than that of Li3YCl5I
+(1.67 × 10−3 S cm−1). By observing the ionic conductivity
+change of Li3YCl6−xIx (x = 0−3) (Figure 1c), it can be inferred
+that when x ≤1, due to the larger ionic radius and the weaker
+electronegativity of I−than Cl−, the doped unit cell volume
+expands and the lattice confinement on Li+ is weakened,34 thus
+increasing the ionic conductivity. When x ≥1, I−can no longer
+incorporate into the lattice of Li3YCl6, forming Li3YI6 with a
+lower ionic conductivity. To investigate the transport pathways
+Figure 3. Electrochemical performances of ASSLSBs with halide and sulfide as SSCEs in composite cathodes. a Initial charge−discharge profiles of
+the S+Li6PS5Cl|Li6PS5Cl|Li−In and S+Li3YCl5I|Li3YCl5I|Li−In batteries at 0.1 C. b Differential capacity against voltage (dQ/dV) curves
+corresponding to the initial charge−discharge profiles in a. c Cycling performances of S+Li6PS5Cl|Li6PS5Cl|Li−In and S+Li3YCl5I|Li3YCl5I|Li−In
+batteries at 0.1 C. d−f GITT profiles and overpotential profiles of the S+Li6PS5Cl|Li6PS5Cl|Li−In battery. g−i GITT profiles and overpotential
+profiles of the S+Li3YCl5I|Li3YCl5I|Li−In battery.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c05892
+Nano Lett. 2025, 25, 3843−3850
+3845
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​25/​10/​3843/​42485689/​nl4c05892.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 4 页 ===
+of Li+ in the crystal phase, we performed the bond valence site
+energy (BVSE)35,36 analysis on Li3YCl5I. By modifying the unit
+cell parameters of Li3YCl6,37 where one Cl−is replaced by one
+I−(Figure 2b), the crystal structure of Li3YCl5I is obtained.
+Based on the XRD characteristic peak position, the unit cell
+parameters of Li3YCl5I are determined as a = b = 11.37803 Å, c
+= 6.31985 Å. The BVSE results show that the [Li2−i2−Li2]
+chain represents the most favorable Li+ migration pathway
+(Figure 2c, highlighted in red), with an effective migration
+barrier of 0.570 eV (Figure 2d). Additionally, lithium ions can
+migrate along the [Li1−i3−Li1], [Li1−i4−Li1], and [Li2−
+Li1] chains (marked in blue, green, and yellow in Figure 2c,
+respectively), with migration barriers of 0.671, 0.690, and
+0.741 eV, respectively (Figure 2d). BVSE can only estimate the
+migration pathways of Li+ in the crystalline phase and cannot
+determine the contribution of the amorphous phase. However,
+it can be inferred from the XRD data that the main factor
+affecting the ionic conductivity of Li3YCl6−xIx (x = 0−3) is the
+formation of the Li3YCl5I phase with high ionic conductivity
+and its relative proportion in the samples. Specifically, when x
+≤1, I−partially replaces Cl−to form Li3YCl5.5I0.5 and Li3YCl5I,
+whose ionic conductivity exceeds Li3YCl6. When x ≥1, the
+competitive formation of Li3YI6
+33 with lower ionic conductivity
+results in lower ionic conductivity of the samples.
+The solid-state electrolyte materials Li3YCl6−xIx (x = 0−3)
+have shown a high ionic conductivity and excellent
+deformability. However, the SSCE of an ASSLSB with a
+composite cathode or a standalone solid-state electrolyte layer
+must have a wide electrochemical stability window to prevent
+participation in the charge−discharge reactions of the battery.
+To investigate the electrochemical stability window of
+Li3YCl6−xIx (x = 0−3), linear sweep voltammetry (LSV)
+tests were performed (Figure S5a). The results show that the
+electrochemical window of Li3YCl5I is approximately 0.89−
+3.25 V vs Li+/Li, which exceeds the operating voltage range of
+sulfur (1.5−2.8 V vs Li+/Li),39 so Li3YCl5I can be stably used
+as an SSCE of the ASSLSB composite cathode. To further
+confirm the stability between Li3YCl5I and the Li−In alloy
+anode, we constructed the Li−In|Li3YCl5I|Li−In symmetric
+battery, which can stably deposit and strip for 200 h at
+constant current (Figure S5b), demonstrating the stability of
+Li3YCl5I on the Li−In alloy anode. Additionally, in situ analysis
+has been used to investigate the interfacial morphological/
+chemical evolution and dynamics of the Li metal/solid
+electrolyte interface.40,41 For the Li−In|Li3YCl5I|Li−In sym-
+metric battery, in situ EIS for the first 20 cycles and X-ray
+photoelectron spectroscopy (XPS) analysis of the Li3YCl5I|Li−
+In interface after cycles were performed. The interfacial
+resistance between the Li3YCl5I and Li−In electrode remains
+basically stable during the cycles, and no byproducts are
+observed in the Y 3d high-resolution XPS spectrum of the
+Li3YCl5I|Li−In interface (Figure S6). The stability of Li3YCl5I
+for the Li−In alloy anode avoids the use of a buffer layer
+between the halide and the Li−In alloy anode, which reduces
+the thickness of the electrolyte layer and increases the energy
+density of the ASSLSB.
+The halide Li3YCl6−xIx (x = 0−3) has a wider electro-
+chemical stability window than that of the sulfide Li6PS5Cl,
+making it an SSCE in ASSLSBs and a solid-state electrolyte
+layer with a Li−In alloy anode. The decomposition of sulfide
+SSCE in the cathode leads to the loss of ion transport
+pathways, further reducing the overall performance of the
+batteries,21 so the cyclic stability of the halide-based SSCE
+ASSLSBs is expected to exceed that of sulfide-based ASSLSBs.
+As shown in Figure 3a, the S+Li3YCl5I|Li3YCl5I|Li−In battery
+presents two discharge plateaus of about 2.03 and 1.93 V,
+representing the electrochemical reactions from S8 to Li2S2 and
+then to Li2S,42 with a specific capacity of 818.14 mAh g−1. The
+two charge plateaus at 2.44 and 2.66 V represent the reversible
+reactions, producing a specific capacity of 735.85 mAh g−1 with
+a first cycle Coulombic efficiency of 90%. Under the identical
+test conditions, the specific discharge and charge capacity of
+the S+Li6PS5Cl|Li6PS5Cl|Li−In battery are 938.83 mAh g−1
+and 1136.18 mAh g−1, respectively, and the first cycle
+Coulombic efficiency is 121%. Notably, in all-solid-state
+batteries with a single cathode active material, the first cycle
+Coulombic efficiency is usually less than 100% due to the loss
+of part of the lithium during lithium-ion deintercalation. The
+first cycle Coulombic efficiency of the S+Li6PS5Cl|Li6PS5Cl|
+Li−In battery is 121%, indicating that multiple active materials
+are involved in the charge−discharge reactions. Compared
+with the S+Li3YCl5I|Li3YCl5I|Li−In battery, the S+Li6PS5Cl|
+Li6PS5Cl|Li−In battery exhibits similar discharge plateaus, but
+more obvious charge plateaus, which may be related to a
+second active material in the composite cathode (Figure 3b).
+During the charging process, the sulfide SSCE in the cathode,
+with the carbon additive, decomposes into electrochemically
+active species on the highly electrochemically conductive
+surface.21 To evaluate whether Li6PS5Cl provides additional
+capacity for the S+Li6PS5Cl|Li6PS5Cl|Li−In battery, we
+assembled a Li6PS5Cl|Li6PS5Cl|Li−In battery using Li6PS5Cl
+as the cathode material. The specific discharge and charge
+capacity of the battery at 0.17 mA g−1 are 119.96 mAh g−1 and
+171.86 mAh g−1, respectively, and the specific discharge
+capacity of 114.03 mAh g−1 is maintained after 200 cycles
+(Figure S7). This suggests that in the S+Li6PS5Cl|Li6PS5Cl|Li−
+In battery, Li6PS5Cl does indeed break down and participate in
+the charge−discharge reactions. During the charging process,
+Li6PS5Cl can be oxidized to produce sulfur, P2Sx (x ≥5),
+lithium polysulfides, and LiCl. Then during the discharge
+process, decomposition products including sulfur, P2Sx (x ≥
+5), and lithium polysulfides can be reduced to form Li2S and
+Li3P.43−46 These ionic insulation materials lead to the loss of
+the Li+ transport pathways in the composite cathode of the S
++Li6PS5Cl|Li6PS5Cl|Li−In battery, and the capacity retention
+rate is only 54.5% after 100 cycles (Figure 3c). In contrast, the
+S+Li3YCl5I|Li3YCl5I|Li−In battery retains 81.5% capacity after
+100 cycles, because sulfur is the only active material.
+Furthermore, the batteries before and after the cycles were
+analyzed by using the galvanostatic intermittent titration
+technique (GITT), as it accurately reflects the changes in Li+
+mobility and internal resistance within the ASSLSBs. For the S
++Li3YCl5I|Li3YCl5I|Li−In battery, the cycle performance
+observed by the GITT curves after 50 cycles is more stable
+than that of the S+Li6PS5Cl|Li6PS5Cl|Li−In battery (Figure 3d
+and g). In addition, the S+Li3YCl5I|Li3YCl5I|Li−In battery has
+significantly less difference in overpotential related to the open-
+circuit voltage before and after the cycles (Figure 3e, f, h, and
+i), indicating less variation in interface resistance and more
+stable lithium-ion transport kinetics. The results demonstrate
+that the decrease of the Li+ mobility in the composite cathode
+caused by Li6PS5Cl decomposition is the main factor leading to
+the deterioration of the battery cycle performance.
+To further identify the decomposition products formed
+during the charge−discharge process of the S+Li6PS5Cl|
+Li6PS5Cl|Li−In battery, the composite cathode before and
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c05892
+Nano Lett. 2025, 25, 3843−3850
+3846
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​25/​10/​3843/​42485689/​nl4c05892.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 5 页 ===
+after the cycles was analyzed by XRD (Figure 4a). Due to the
+composite cathode being prepared by ball-milling, its
+crystallinity is low. However, after 50 cycles, a peak
+corresponding to LiCl appears in the composite cathode
+compared to the uncycled one. For the Li6PS5Cl|Li6PS5Cl|Li−
+In battery with Li6PS5Cl as the cathode material, LiCl
+characteristic peaks also appear in the cathode after cycles
+(Figure S8), which proves the decomposition behavior of
+Li6PS5Cl. Additionally, the morphology and composition of
+the composite cathode before and after the cycles were also
+analyzed. SEM and EDS results show that elements such as S,
+P, and Cl are uniformly distributed on the surface of the
+composite cathode before cycling but Cl is obviously enriched
+after 50 cycles (Figure 4b). This finding shows that the
+decomposition product LiCl of Li6PS5Cl gradually becomes
+irreversible and cannot participate in the charge−discharge
+Figure 4. Stability of sulfide and halide SSCEs in composite cathodes. a XRD patterns and b SEM images and EDS mappings for the composite
+cathode of the S+Li6PS5Cl|Li6PS5Cl|Li−In battery before and after 50 cycles at 0.1 C. c XRD patterns and d SEM images and EDS mappings for
+the composite cathode of the S+Li3YCl5I|Li3YCl5I|Li−In battery before and after 50 cycles at 0.1 C.
+Figure 5. Electrochemical performance of the S+Li3YCl5I|Li3YCl5I|Li−In battery. a Initial charge−discharge profiles at 0.01 C. b, c Rate
+performance. d Long-cycle performance at 0.5 C.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c05892
+Nano Lett. 2025, 25, 3843−3850
+3847
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​25/​10/​3843/​42485689/​nl4c05892.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 6 页 ===
+reactions, indicating that Li6PS5Cl changes from a pure phase
+to a mixed phase of the decomposition products, including
+LiCl and P2Sx (x ≥5), thereby losing the ability to rapidly
+transport Li+ within the composite cathode. In contrast, for the
+S+Li3YCl5I|Li3YCl5I|Li−In battery, XRD, SEM, and EDS
+analyses before and after cycles consistently show that Li3YCl5I
+does not decompose and continues to promote the transport
+of Li+ in the composite cathode (Figure 4c and d).
+Additionally, the XPS spectra of the composite cathode before
+and after cycles were characterized and analyzed (Figure S9).
+For the S+Li3YCl5I|Li3YCl5I|Li−In battery, there is almost no
+difference in the Y 3d high-resolution XPS spectra of the
+composite cathode before and after the cycles. However, for
+the S+Li6PS5Cl|Li6PS5Cl|Li−In battery, the appearance of P2S5
+in the P 2p high-resolution spectrum of the cathode after
+cycles indicates that the Li6PS5Cl SSCE participates in the
+redox reaction during the cycles.
+The development of SSCEs that do not participate in the
+charge−discharge reactions of the composite cathode is critical
+for the cyclic stability of ASSLSBs. Halides have demonstrated
+promising potential in this regard. To further evaluate the
+electrochemical performance of Li3YCl5I SSCE in the
+composite cathode, the rate and long-cycle performances of
+the S+Li3YCl5I|Li3YCl5I|Li−In battery were tested at 45 °C. At
+0.01 C (1C = 1675 mA g−1), the initial discharge specific
+capacity is 1084.05 mAh g−1 and the Coulombic efficiency is
+91% (Figure 5a). At rates of 0.1, 0.2, 0.3, 0.4, and 0.5 C, the
+discharge specific capacities of the battery are 930.9, 734.03,
+611.66, 534.4, and 476.49 mAh g−1, respectively (Figure 5b
+and c). When the rate is reduced from 0.5 C to 0.1 C, the
+battery can recover the discharge specific capacity of 919.6
+mAh g−1. After 200 cycles at 0.5 C, the battery capacity
+retention rate reaches 70% (Figure 5d), which is significantly
+higher than the about 46% of other similar batteries.47 It is
+worth noting that all tests of the battery were carried out at a
+relatively low temperature of 45 °C, which is conducive to
+practical application of ASSLSBs. Additionally, the cycle
+performance of the S+Li3YCl5I|Li3YCl5I|Li−In battery at
+room temperature was tested at 0.1 C. The initial discharge
+capacity is 385.65 mAh g−1, and the 50th cycle discharge
+capacity is 365.03 mAh g−1 (Figure S10).
+In summary, we demonstrate a strategy that uses halide
+SSCEs to replace sulfide SSCEs to improve the cycling stability
+of ASSLSBs. The halide Li3YCl5I with a room-temperature
+ionic conductivity of 1.67 × 10−3 S cm−1 was prepared by
+doping iodine into pristine Li3YCl6 using a simple mechanical
+ball-milling. Compared with the Li6PS5Cl-based SSCE
+composite cathode, the Li3YCl5I SSCE composite cathode
+has a smaller interfacial resistance change and more stable
+lithium-ion transport kinetics during the cycles due to the
+inhibition of decomposition reactions. Consequently, the
+ASSLSB with Li3YCl5I SSCE demonstrates excellent cyclic
+stability, and the capacity retention rate is 81.5% after 100
+cycles at 0.1 C. Using halide with a wide electrochemical
+window as SSCE of the ASSLSB composite cathode, the cycle
+stability of the battery is significantly improved.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.nanolett.4c05892.
+CA profiles, SEM images, Nyquist plots, XRD patterns,
+LSV profiles, the electrochemical performance profiles,
+XPS spectras and TGA profile (PDF)
+■AUTHOR INFORMATION
+Corresponding Authors
+Kai Wang −School of Materials and Energy, Lanzhou
+University, Lanzhou 730000, China;
+orcid.org/0000-
+0001-6149-6685; Email: kwang@lzu.edu.cn
+Deyan He −School of Materials and Energy, Lanzhou
+University, Lanzhou 730000, China;
+orcid.org/0000-
+0002-1628-0356; Email: hedy@lzu.edu.cn
+Authors
+Xiaorong Fang −School of Materials and Energy, Lanzhou
+University, Lanzhou 730000, China
+Yujun Fu −School of Materials and Energy, Lanzhou
+University, Lanzhou 730000, China
+Shiqing Sun −School of Materials and Energy, Lanzhou
+University, Lanzhou 730000, China
+Rongcheng Zhang −School of Materials and Energy,
+Lanzhou University, Lanzhou 730000, China
+Pengqian Guo −School of Information Science and
+Engineering, Huaqiao University, Xiamen 361000, China
+Kai Sun −School of Materials and Energy, Lanzhou
+University, Lanzhou 730000, China
+Dequan Liu −School of Materials and Energy, Lanzhou
+University, Lanzhou 730000, China;
+orcid.org/0000-
+0002-1276-6236
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.nanolett.4c05892
+Author Contributions
+K.W. and D.H. conceived the research. X.F. designed
+experiments and conducted materials synthesis and the
+electrochemical tests. Y.F., S.S., and D.L. performed the SEM
+characterization. Y.F., R.Z., and K.S. performed the XRD
+characterization. With the assistance of K.W., P.G., and D.H.,
+X.F. wrote the manuscript. All authors have given approval to
+the final version of the manuscript.
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+K.W. acknowledges the National Natural Science Foundation
+of China (22479068), the Scientific Research Start-up Funds
+of Lanzhou University (561120204), and the Gansu Provincial
+Science and Technology Planning Project (24JRRA470).
+■REFERENCES
+(1) Liu, R.; Wei, Z.; Peng, L.; Zhang, L.; Zohar, A.; Schoeppner, R.;
+Wang, P.; Wan, C.; Zhu, D.; Liu, H.; et al. Establishing Reaction
+Networks in The 16-Electron Sulfur Reduction Reaction. Nature
+2024, 626 (7997), 98−104.
+(2) Xing, C.; Chen, H.; Qian, S.; Wu, Z.; Nizami, A.; Li, X.; Zhang,
+S.; Lai, C. Regulating Liquid and Solid-State Electrolytes for Solid-
+Phase Conversion in Li−S Batteries. Chem. 2022, 8 (5), 1201−1230.
+(3) Manthiram, A.; Chung, S.-H.; Zu, C. Lithium−Sulfur Batteries:
+Progress and Prospects. Adv. Mater. 2015, 27 (12), 1980−2006.
+(4) Kim, H.; Choi, H.-N.; Hwang, J.-Y.; Yoon, C. S.; Sun, Y.-K.
+Tailoring the Interface Between Sulfur and Sulfide Solid Electrolyte
+for High-Areal-Capacity All-Solid-State Lithium−Sulfur Batteries.
+ACS Energy Lett. 2023, 8 (10), 3971−3979.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c05892
+Nano Lett. 2025, 25, 3843−3850
+3848
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​25/​10/​3843/​42485689/​nl4c05892.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 7 页 ===
+(5) Yang, X.; Li, X.; Adair, K.; Zhang, H.; Sun, X. Structural Design
+of Lithium−Sulfur Batteries: From Fundamental Research to Practical
+Application. Electrochem. Energy Rev. 2018, 1 (3), 239−293.
+(6) Li, G.; Wang, S.; Zhang, Y.; Li, M.; Chen, Z.; Lu, J. Revisiting the
+Role of Polysulfides in Lithium−Sulfur Batteries. Adv. Mater. 2018, 30
+(22), No. 1705590.
+(7) Pang, Q.; Liang, X.; Kwok, C. Y.; Nazar, L. F. Advances in
+Lithium−Sulfur Batteries Based on Multifunctional Cathodes and
+Electrolytes. Nat. Energy 2016, 1 (9), No. 16132.
+(8) Xiang, Y.; Lu, L.; Kottapalli, A. G. P.; Pei, Y. Status and
+Perspectives of Hierarchical Porous Carbon Materials in Terms of
+High-Performance Lithium−Sulfur Batteries. Carbon Energy 2022, 4
+(3), 346−398.
+(9) Gicha, B. B.; Tufa, L. T.; Nwaji, N.; Hu, X.; Lee, J. Advances in
+All-Solid-State Lithium−Sulfur Batteries for Commercialization.
+Nano-Micro Lett. 2024, 16 (1), 172.
+(10) Liu, H.; Li, D.; Dong, C.; Li, Y.; Yuan, H.; Yu, D.; Gao, L.;
+Ding, P.; Li, Y.; Qin, Z.; et al. Generalized Interphase Design for
+Stabilized Li/Inorganic Electrolyte Interfaces. Adv. Energy Mater.
+2024, 14 (38), No. 2402064.
+(11) Li, S.; Zhang, W.; Zheng, J.; Lv, M.; Song, H.; Du, L. Inhibition
+of Polysulfide Shuttles in Li−S Batteries: Modified Separators and
+Solid-State Electrolytes. Adv. Energy Mater. 2021, 11 (2),
+No. 2000779.
+(12) Lei, D.; Shi, K.; Ye, H.; Wan, Z.; Wang, Y.; Shen, L.; Li, B.;
+Yang, Q.-H.; Kang, F.; He, Y.-B. Progress and Perspective of Solid-
+State Lithium−Sulfur Batteries. Adv. Funct. Mater. 2018, 28 (38),
+No. 1707570.
+(13) Zhu, X.; Wang, L.; Bai, Z.; Lu, J.; Wu, T. Sulfide-Based All-
+Solid-State Lithium−Sulfur Batteries: Challenges and Perspectives.
+Nano-Micro Lett. 2023, 15 (1), 75.
+(14) Fan, L.-Z.; He, H.; Nan, C.-W. Tailoring Inorganic−Polymer
+Composites for The Mass Production of Solid-State Batteries. Nat.
+Rev. Mater. 2021, 6 (11), 1003−1019.
+(15) Liu, H.; Liang, Y.; Wang, C.; Li, D.; Yan, X.; Nan, C.-W.; Fan,
+L. Z. Priority and Prospect of Sulfide-Based Solid-Electrolyte
+Membrane. Adv. Mater. 2023, 35, No. 2206013.
+(16) Zhu, X.; Jiang, W.; Zhao, S.; Huang, R.; Ling, M.; Liang, C.;
+Wang, L. Exploring the Concordant Solid-State Electrolytes for All-
+Solid-State Lithium-Sulfur Batteries. Nano Energy 2022, 96,
+No. 107093.
+(17) Alzahrani, A. S.; Otaki, M.; Wang, D.; Gao, Y.; Arthur, T. S.;
+Liu, S.; Wang, D. Confining Sulfur in Porous Carbon by Vapor
+Deposition to Achieve High-Performance Cathode for All-Solid-State
+Lithium−Sulfur Batteries. ACS Energy Lett. 2021, 6 (2), 413−418.
+(18) Liu, S.; Zhou, L.; Han, J.; Wen, K.; Guan, S.; Xue, C.; Zhang,
+Z.; Xu, B.; Lin, Y.; Shen, Y.; et al. Super Long-Cycling All-Solid-State
+Battery with Thin Li6PS5Cl-Based Electrolyte. Adv. Energy Mater.
+2022, 12 (25), No. 2200660.
+(19) Yu, P.; Ahmad, N.; Zeng, C.; Lv, L.; Dong, Q.; Yang, W.
+Tailored Li7P3S11 Electrolyte by In2S3 Doping Suppresses Electro-
+chemical Decomposition for High-Performance All-Solid-State
+Lithium−Sulfur Batteries. ACS Appl. Energy Mater. 2022, 5 (11),
+13429−13438.
+(20) Holekevi Chandrappa, M. L.; Qi, J.; Chen, C.; Banerjee, S.;
+Ong, S. P. Thermodynamics and Kinetics of the Cathode−Electrolyte
+Interface in All-Solid-State Li−S Batteries. J. Am. Chem. Soc. 2022,
+144 (39), 18009−18022.
+(21) Gamo, H.; Hikima, K.; Matsuda, A. Understanding
+Decomposition of Electrolytes in All-Solid-State Lithium−Sulfur
+Batteries. Chem. Mater. 2022, 34 (24), 10952−10963.
+(22) Han, F.; Gao, T.; Zhu, Y.; Gaskell, K. J.; Wang, C. A Battery
+Made from a Single Material. Adv. Mater. 2015, 27 (23), 3473−3483.
+(23) Schwietert, T. K.; Arszelewska, V. A.; Wang, C.; Yu, C.;
+Vasileiadis, A.; de Klerk, N. J. J.; Hageman, J.; Hupfer, T.; Kerkamm,
+I.; Xu, Y.; et al. Clarifying the Relationship Between Redox Activity
+and Electrochemical Stability in Solid Electrolytes. Nat. Mater. 2020,
+19 (4), 428−435.
+(24) Wang, S.; Tang, M.; Zhang, Q.; Li, B.; Ohno, S.; Walther, F.;
+Pan, R.; Xu, X.; Xin, C.; Zhang, W.; et al. Lithium Argyrodite as Solid
+Electrolyte and Cathode Precursor for Solid-State Batteries with Long
+Cycle Life. Adv. Energy Mater. 2021, 11 (31), No. 2101370.
+(25) Wang, K.; Ren, Q.; Gu, Z.; Duan, C.; Wang, J.; Zhu, F.; Fu, Y.;
+Hao, J.; Zhu, J.; He, L.; et al. A Cost-Effective and Humidity-Tolerant
+Chloride Solid Electrolyte for Lithium Batteries. Nat. Commun. 2021,
+12 (1), 4410.
+(26) Shi, X.; Zeng, Z.; Sun, M.; Huang, B.; Zhang, H.; Luo, W.;
+Huang, Y.; Du, Y.; Yan, C. Fast Li-ion Conductor of Li3HoBr6 for
+Stable All-Solid-State Lithium−Sulfur Battery. Nano Lett. 2021, 21
+(21), 9325−9331.
+(27) Kim, S. Y.; Bak, S.-M.; Jun, K.; Ceder, G.; Chen, G. Revealing
+Dynamic Evolution of the Anode-Electrolyte Interphase in All-Solid-
+State Batteries with Excellent Cyclability. Adv. Energy Mater. 2024, 14
+(27), No. 2401299.
+(28) Asano, T.; Sakai, A.; Ouchi, S.; Sakaida, M.; Miyazaki, A.;
+Hasegawa, S. Solid Halide Electrolytes with High Lithium-Ion
+Conductivity for Application in 4 V Class Bulk-Type All-Solid-State
+Batteries. Adv. Mater. 2018, 30 (44), No. 1803075.
+(29) Kim, J. T.; Rao, A.; Nie, H.-Y.; Hu, Y.; Li, W.; Zhao, F.; Deng,
+S.; Hao, X.; Fu, J.; Luo, J.; et al. Manipulating Li2S2/Li2S Mixed
+Discharge Products of All-Solid-State Lithium Sulfur Batteries for
+Improved Cycle Life. Nat. Commun. 2023, 14 (1), 6404.
+(30) Zhou, J.; Holekevi Chandrappa, M. L.; Tan, S.; Wang, S.; Wu,
+C.; Nguyen, H.; Wang, C.; Liu, H.; Yu, S.; Miller, Q. R. S.; et al.
+Healable and Conductive Sulfur Iodide for Solid-State Li−S Batteries.
+Nature 2024, 627 (8003), 301−305.
+(31) Wang, K.; Gu, Z.; Xi, Z.; Hu, L.; Ma, C. Li3TiCl6 As Ionic
+Conductive and Compressible Positive Electrode Active Material for
+All-Solid-State Lithium-Based Batteries. Nat. Commun. 2023, 14 (1),
+1396.
+(32) Shannon, R. D. Revised Effective Ionic Radii and Systematic
+Studies of Interatomic Distances in Halides and Chalcogenides. Acta
+Cryst. A 1976, 32 (5), 751−767.
+(33) Zhang, S.; Zhao, F.; Su, H.; Zhong, Y.; Liang, J.; Chen, J.;
+Zheng, M. L.; Liu, J.; Chang, L.-Y.; Fu, J.; et al. Cubic Iodide LixYI3+x
+Superionic Conductors through Defect Manipulation for All-Solid-
+State Li Batteries. Angew. Chem., Int. Ed. 2024, 63 (12),
+No. e202316360.
+(34) Zhang, H.; Shi, X.; Zeng, Z.; Zhang, Y.; Du, Y. Fast-Charging
+Batteries Based on Dual-Halogen Solid-State Electrolytes. Mater.
+Chem. Front. 2023, 7 (20), 4961−4970.
+(35) Chen, H.; Adams, S. Bond Softness Sensitive Bond-Valence
+Parameters for Crystal Structure Plausibility Tests. IUCrJ. 2017, 4
+(5), 614−625.
+(36) Chen, H.; Wong, L. L.; Adams, S. SoftBV - a Software Tool for
+Screening the Materials Genome of Inorganic Fast Ion Conductors.
+Acta Crystallogr., Sect. B: Struct. Sci. 2019, 75 (1), 18−33.
+(37) Schlem, R.; Muy, S.; Prinz, N.; Banik, A.; Shao-Horn, Y.; Zobel,
+M.; Zeier, W. G. Mechanochemical Synthesis: A Tool to Tune Cation
+Site Disorder and Ionic Transport Properties of Li3MCl6 (M = Y, Er)
+Superionic Conductors. Adv. Energy Mater. 2020, 10 (6),
+No. 1903719.
+(38) Momma, K.; Izumi, F. VESTA 3 for Three-Dimensional
+Visualization of Crystal, Volumetric and Morphology Data. J. Appl.
+Crystallogr. 2011, 44 (6), 1272−1276.
+(39) Lee, J.; Zhao, C.; Wang, C.; Chen, A.; Sun, X.; Amine, K.; Xu,
+G.-L. Bridging the Gap Between Academic Research and Industrial
+Development in Advanced All-Solid-State Lithium−Sulfur Batteries.
+Chem. Soc. Rev. 2024, 53 (10), 5264−5290.
+(40) Zhang, X.-S.; Wan, J.; Shen, Z.-Z.; Lang, S.-Y.; Xin, S.; Wen, R.;
+Guo, Y.-G.; Wan, L.-J. In Situ Analysis of Interfacial Morphological
+and Chemical Evolution in All-Solid-State Lithium-Metal Batteries.
+Angew. Chem., Int. Ed. 2024, 63 (38), No. e202409435.
+(41) Shi, Y.; Wan, J.; Liu, G.-X.; Zuo, T.-T.; Song, Y.-X.; Liu, B.;
+Guo, Y.-G.; Wen, R.; Wan, L.-J. Interfacial Evolution of Lithium
+Dendrites and Their Solid Electrolyte Interphase Shells of Quasi-
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c05892
+Nano Lett. 2025, 25, 3843−3850
+3849
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​25/​10/​3843/​42485689/​nl4c05892.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 8 页 ===
+Solid-State Lithium-Metal Batteries. Angew. Chem., Int. Ed. 2020, 59
+(41), 18120−18125.
+(42) Cao, D.; Sun, X.; Li, F.; Bak, S.-M.; Ji, T.; Geiwitz, M.; Burch,
+K. S.; Du, Y.; Yang, G.; Zhu, H. Understanding Electrochemical
+Reaction Mechanisms of Sulfur in All-Solid-State Batteries through
+Operando and Theoretical Studies. Angew. Chem., Int. Ed. 2023, 62
+(20), No. e202302363.
+(43) Tan, D. H. S.; Wu, E. A.; Nguyen, H.; Chen, Z.; Marple, M. A.
+T.; Doux, J.-M.; Wang, X.; Yang, H.; Banerjee, A.; Meng, Y. S.
+Elucidating Reversible Electrochemical Redox of Li6PS5Cl Solid
+Electrolyte. ACS Energy Lett. 2019, 4 (10), 2418−2427.
+(44) Auvergniot, J.; Cassel, A.; Ledeuil, J.-B.; Viallet, V.; Seznec, V.;
+Dedryvère, R. Interface Stability of Argyrodite Li6PS5Cl toward
+LiCoO2, LiNi1/3Co1/3Mn1/3O2, and LiMn2O4 in Bulk All-Solid-State
+Batteries. Chem. Mater. 2017, 29 (9), 3883−3890.
+(45) Auvergniot, J.; Cassel, A.; Foix, D.; Viallet, V.; Seznec, V.;
+Dedryvère, R. Redox Activity of Argyrodite Li6PS5Cl Electrolyte in
+All-Solid-State Li-Ion Battery: An XPS Study. Solid State Ionics 2017,
+300, 78−85.
+(46) Wang, S.; Xu, X.; Zhang, X.; Xin, C.; Xu, B.; Li, L.; Lin, Y.-H.;
+Shen, Y.; Li, B.; Nan, C.-W. High-Performance Li6PS5Cl-Based All-
+Solid-State Lithium-Ion Batteries. J. Mater. Chem. A 2019, 7 (31),
+18612−18618.
+(47) Wang, C.; Adair, K. R.; Liang, J.; Li, X.; Sun, Y.; Li, X.; Wang,
+J.; Sun, Q.; Zhao, F.; Lin, X.; et al. Solid-State Plastic Crystal
+Electrolytes: Effective Protection Interlayers for Sulfide-Based All-
+Solid-State Lithium Metal Batteries. Adv. Funct. Mater. 2019, 29 (26),
+No. 1900392.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c05892
+Nano Lett. 2025, 25, 3843−3850
+3850
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​25/​10/​3843/​42485689/​nl4c05892.​pdf by TSINGHUA UNIV user on 28 September 2026
+

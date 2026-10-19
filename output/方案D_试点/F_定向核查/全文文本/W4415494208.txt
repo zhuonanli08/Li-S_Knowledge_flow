@@ -1,0 +1,674 @@
+=== 第 1 页 ===
+RESEARCH ARTICLE
+www.advenergymat.de
+Unraveling Asymmetric Macroscopic Reaction Dynamics in
+Solid-State Li–S Batteries During Charge–Discharge Cycles:
+Visualizing Ionic Transport Limitations with Operando
+X-Ray Computed Tomography
+Yuta Kimura,* Mai Tanaka, Shiori Kawasaki, Shoma Yanagihara, Jan Huebner,
+Nozomu Ishiguro, Takashi Nakamura, Oki Sekizawa, Kiyofumi Nitta,
+Yoshiharu Uchimoto, Koji Amezawa, and Saneyuki Ohno*
+By eliminating liquid electrolytes, solid-state Li–S batteries (SSLSBs) deliver
+emerging high-energy storage solutions with intrinsic safety advantages.
+However, restricted access to in-battery reaction dynamics has obscured the
+mechanisms behind critical limitations in rate capability and cyclability. Here,
+operando X-ray computed tomography is employed to capture the evolving
+through-thickness sulfur-lithiation distribution within composite SSLSB cath-
+odes during cycling, directly linking macroscopic ion transport to cell perfor-
+mance. The observations not only demonstrate that macroscopic ion transport
+severely restricts the rate capability of SSLSBs, but also disclose a previously
+unreported charge–discharge asymmetry in reaction heterogeneity that triggers
+irreversible Li2S formation. Diﬀerential-evolution ﬁtting of the reaction proﬁles
+quantiﬁed a deterioration in the eﬀective ionic conductivity during charging,
+which drives the observed asymmetry and likely arises from electrochemical
+and/or microstructural degradation of the electrolyte. This study establishes a
+methodology for high-resolution visualization of reaction dynamics within com-
+posite cathodes, providing quantitative insights into the macroscopic transport
+bottleneck based on experimental observations, which are essential for guiding
+rational electrode design toward enhanced rate capability and cyclability.
+Y. Kimura, M. Tanaka, S. Kawasaki, J. Huebner, K. Amezawa, S. Ohno
+Institute of Multidisciplinary Research for Advanced Materials
+Tohoku University
+Sendai 980-8577, Japan
+E-mail: yuta.kimura.b2@tohoku.ac.jp;saneyuki.ohno.c8@tohoku.ac.jp
+S.Kawasaki,S.Ohno
+GraduateSchool of Environmental Studies
+Tohoku University
+Sendai 980-8572, Japan
+The ORCID identiﬁcation number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/aenm.202503863
+© 2025 The Author(s). Advanced Energy Materials published by
+Wiley-VCH GmbH. This is an open access article under the terms of the
+Creative Commons Attribution License, which permits use, distribution
+and reproduction in any medium, provided the original work is properly
+cited.
+DOI: 10.1002/aenm.202503863
+1. Introduction
+The development of fast ion-conducting
+solid electrolytes (SEs) has opened new
+avenues in solid-state battery chemistry,
+oﬀering a promising alternative to the
+conventional Li-ion batteries.[1–4] One
+of the promising candidates is solid-
+state Li–S batteries (SSLSBs).[5–9] They
+leverage the mechanical rigidity and
+ionic selectivity of SEs to overcome the
+shuttle eﬀect,[10,11]
+a persistent chal-
+lenge in conventional Li–S batteries,
+aﬀording both high safety and outstand-
+ing energy density. However, despite
+these
+advantages,
+SSLSBs
+have
+not
+achieved the desired performance goals
+and
+require
+further
+improvements.
+Current
+performance
+limitations
+of
+SSLSBs have been widely attributed to
+the ionic/electronic insulating nature of
+sulfur and its lithiated compounds,[11,12]
+slow
+solid-to-solid
+conversion,[13–16]
+S. Yanagihara
+Graduate School of Engineering
+Kyushu University
+Fukuoka 819-0395, Japan
+N. Ishiguro
+International Center for Synchrotron Radiation Innovation Smart
+Tohoku University
+Sendai 980-8577, Japan
+T. Nakamura
+Institute of Materials and Systems for Sustainability
+Nagoya University
+Nagoya 464-8601, Japan
+O. Sekizawa, K. Nitta
+Japan Synchrotron Radiation Research Institute
+Sayo-gun 679-5198, Japan
+Y. Uchimoto
+Graduate School of Human and Environmental Studies
+Kyoto University
+Kyoto 606-8501, Japan
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (1 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+
+=== 第 2 页 ===
+www.advancedsciencenews.com
+www.advenergymat.de
+sluggish Li-ion diﬀusion within (de)lithiated sulfur,[17] and con-
+tact loss caused by the massive volume changes of sulfur.[18,19]
+To address these inherent challenges arising from insulat-
+ing nature of active materials, the cathode of SSLSBs neces-
+sitates uniform nanoscale compositing of sulfur, SE, and con-
+ductive additives, which ensures extensive triple-phase bound-
+aries within the cathode and shortens the diﬀusion length in
+the sulfur active material.[5] However, such nano-structuring si-
+multaneously render ionic and electronic conduction within the
+cathode highly ineﬃcient. The resulting complex and tortuous
+transport pathways can reduce the eﬀective ionic conductivity in
+composite cathodes by two to three orders of magnitude com-
+pared to the intrinsic conductivities of the SEs.[20,21] Further-
+more, the resulting high interfacial area density can acceler-
+ate electrolyte degradation,[22] exacerbating the inherently slow
+macroscopic ion transport within the composite. In some cases,
+this electrolyte degradation has been intentionally exploited to
+form redox-active interphases, enabling stable cycling with capac-
+ities exceeding 500 mAh gcathode
+−1.[22,23] While the electrochem-
+ical measurements suggest the macroscopic ion transport is a
+critical performance bottleneck of the SSLSB, these measure-
+ments cannot unambiguously distinguish whether the observed
+performance limitations stem from macroscopic ionic conduc-
+tion within the composite or from microscopic diﬀusion within
+the sulfur particles themselves. This distinction has become in-
+creasingly important for mechanistic understanding in SSLSBs,
+and also across various cathode chemistries including transition
+metal-based systems, particularly in the design of high-loading
+electrodes or cells operated at high current densities, where the
+demands on mass transport are especially severe.[24–26]
+Recently, Bradbury et al. have provided the ﬁrst direct evidence
+that the macroscopic mass transport limitation poses indeed a se-
+rious challenge in SSLSBs.[27] Using operando neutron imaging,
+they directly visualized the reaction front advancing from the SE
+separator to the current collector side within the electrode, clearly
+demonstrating that the electrochemical reactions in the cathode
+were governed by limited macroscopic ion transport. Further-
+more, their tomographic analysis revealed irreversible lithium ac-
+cumulation near the current collector side, suggesting the impact
+of macroscopic transport limitations on capacity loss. However,
+these observations were restricted to exceptionally thick (≈200
+μm) cathodes due to the limited spatial resolution of neutron
+imaging and thus cannot be generalized to more practical cell
+conﬁgurations with better cyclability or high-rate performance.
+Consequently, despite growing recognition that macroscopic ion
+transport is a central limitation in SSLSBs,[21] it remains unclear
+how signiﬁcantly it impacts cells with improved reversibility or
+under various (dis)charging rates.
+To provide deeper insights into these critical challenges, here
+we conducted operando observations of macroscopic reaction
+heterogeneities within composite SSLSB cathodes using syn-
+chrotron X-ray computed tomography (XCT). While XCT has
+been widely employed to observe morphological changes within
+batteries,[28–31] its application for chemical analysis has been
+limited,[32] particularly in the context of macroscopic chemical
+change within electrodes. This study demonstrates for the ﬁrst
+time that XCT, when coupled with high-ﬂux synchrotron beams
+and optimized cell design, can eﬀectively evaluate spatial state-of-
+charge distribution within well-cyclable cathodes under various
+(dis)charging rates with micron-to-submicron spatial resolution.
+This approach not only provided direct evidence that macroscopic
+ion transport severely restricts (dis)charge capacities at high rates
+but also uncovered that reaction heterogeneities within the elec-
+trode exhibit asymmetric patterns between charging and dis-
+charging, demonstrating that macroscopic ionic transport deteri-
+orates during charging. Furthermore, the high-resolution quan-
+titative visualization capability of XCT enables us to extract key
+transport parameters, eﬀective ionic conductivity and interfacial
+charge-transfer kinetics, by ﬁtting the experimentally obtained
+state-of-charge proﬁles using a diﬀerential evolution algorithm.
+This quantitative analysis revealed a threefold decrease in ef-
+fective ionic conductivity within the composite cathode during
+charging, oﬀering new mechanistic insights into irreversible Li2S
+accumulation within the electrode under realistic cell conﬁgura-
+tion and cycling parameters.
+2. Results and Discussion
+To visualize reaction heterogeneities within composite SSLSB
+cathodes using XCT, a cylindrical sample holder with a PEEK
+housing was developed, as shown in Figure 1a. Within this cus-
+tom holder, a cylindrical SSLSB cell (Figure 1b) was fabricated
+by uniaxial pressing (220 MPa[33]) of S/C/Li6PS5Cl (LPSC) com-
+posite powder and LPSC powder, followed by the incorporation of
+In/Li foil. The nominal sulfur loading in the cathode was set at 5.1
+mg cm−2, with volume fractions of sulfur, LPSC, and conductive
+additive ﬁxed at ≈0.33:0.53:0.15 (2:3:1 by mass), a ratio previously
+reported to exhibit favorable performance.[20] To maintain an in-
+ert environment during measurements, the cell was sandwiched
+between two 𝜑1.5 mm stainless steel punches with O-ring seals,
+which not only prevented exposure to air and moisture but also
+served as current collectors. Additionally, a constant constraint
+pressure of ≈60 MPa was applied to the cell during cycling by ap-
+plying torque to the holder bolt. This integrated cell-holder design
+has been conﬁrmed to enable reversible cycling, demonstrating
+stable electrochemical performance (Figure S1, Supporting In-
+formation). Prior to XCT measurements, the cell underwent two
+discharge–charge cycles at 0.1C. It should be noted that the com-
+posite cathode layer is placed at the bottom of the cell, as depicted
+in Figure 1b, to mitigate the inﬂuence of the volume change of
+the anode side on the reconstruction of the 3D image.
+Monochromatic XCT at 18 keV eﬀectively distinguished in-
+dividual cell components (Figure 1c), with brighter regions in-
+dicating higher X-ray absorption. Figure 1d illustrates a cross-
+sectional view near the interface between the LPSC separator
+layer and the composite cathode layer. The composite cathode
+layer exhibits a uniform, dense morphology without visible voids.
+In contrast, inhomogeneous densiﬁcation is observed in the sep-
+arator layer, as shown in Figure 1e, where electrolytes in the cen-
+tral area appear more densely packed than those in the peripheral
+regions. This inhomogeneity is commonly encountered in uni-
+axially compacted powders. However, since ion transport within
+the separator layer is expected to be signiﬁcantly faster accord-
+ing to previous studies,[21] the impact of inhomogeneously den-
+siﬁed separator on the cathode composite behavior is anticipated
+to be negligible. Conversely, the non-uniform thickness and the
+observed bending of the composite cathode layer (Figure 1d)
+require careful consideration, as a simple cross-sectional slice
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (2 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+ 16146840, 2025, 48, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+www.advancedsciencenews.com
+www.advenergymat.de
+Figure 1. Experimental setup and tomographic analysis of an SSLSB. a) Schematic of the custom-designed sample holder for XCT measurements.
+b) Schematic of the cylindrical SSLSB cell structure consisting of composite S/C/LPSC cathode, LPSC separator, and In/Li anode. c) 3D reconstruction
+of the SSLSB cell obtained from XCT measurements. d) Cross-sectional view near the interface between the LPSC separator and composite cathode
+layers. e) Representative tomographic slice of the LPSC separator layer. f) Representative tomographic slices of the composite cathode layer before
+discharge, after full discharge and after full charge at 0.1C.
+parallel to the X-ray beam may contain overlapping cell compo-
+nents, as highlighted in Figure 1f. To minimize eﬀects arising
+from morphological heterogeneity, we focused our analysis of X-
+ray absorbance changes described below on the yellow-framed
+region in Figure 1d–f. This region was speciﬁcally selected be-
+cause it features a relatively ﬂat LPSC/composite cathode inter-
+face, includes the thickest area of the composite cathode layer,
+and exhibits average LPSC layer density.
+Signiﬁcant changes in the X-ray absorbance of the compos-
+ite cathode area are clearly observed upon discharge–charge cy-
+cles. As shown in Figure 1f, the composite cathode area exhib-
+ited markedly reduced X-ray absorbance, becoming darker after
+full discharge at 0.1C. Upon subsequent full charging, the X-ray
+absorbance returned to its initial level prior to discharge. These
+changes in the X-ray absorbance in the composite cathode dur-
+ing cycling are primarily attributed to the sulfur (de)lithiation
+process. Sulfur undergoes a 78% volume expansion when lithi-
+ated to form Li2S.[18] The substantial volume expansion and the
+incorporation of the lighter element Li collectively result in an
+≈40% decrease in X-ray absorbance for this active material.[34]
+Assuming that the reduction of sulfur to Li2S is the sole cause
+of changes in the X-ray absorbance within the composite, the X-
+ray absorbance of the composite cathode per voxel (1.51 μm) is
+expected to decrease by ≈18%, from 1.94 × 10−3 to 1.59 × 10−3,
+after full discharge (the detailed calculation of the theoretical ab-
+sorbance values is described in the Experimental Methods in the
+Supporting Information).
+The degree of sulfur lithiation is quantitatively analyzed
+through the change in the X-ray absorbance in the compos-
+ite cathode during (dis)charge. Figure 2a shows the discharge–
+charge curves of the cell at 0.1C, and Figure 2b presents the cor-
+responding X-ray absorbance variations. The discharged capac-
+ity of the cell employed for visualization was ≈1260 mAh g−1.
+This deviates from the delivered discharge capacity of an identical
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (3 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+ 16146840, 2025, 48, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+www.advancedsciencenews.com
+www.advenergymat.de
+Figure 2. Electrochemical and X-ray absorption characterization of the SSLSB cell. a) Voltage proﬁle during galvanostatic discharge–charge cycling
+at 0.1C (0.85 mA cm−2) at room temperature. b) Evolution of X-ray absorbance in the composite cathode and LPSC separator regions during 0.1C
+discharge–charge cycling, showing mean values (solid lines) and 25/75 percentiles (shaded areas).
+composite cathode tested beforehand using the same operando-
+cell (Figure S1, Supporting Information) and a 𝜑10-mm cell
+(Figure S2, Supporting Information), but such a diﬀerence in de-
+livered capacity is attributed to deviations in cathode loading from
+the target value, speciﬁcally arising from the challenge of pre-
+cisely weighing only 0.27 mg of composite cathode for the 𝜑1.5-
+mm cell (an estimated error based on triplicate cells is 8%). Addi-
+tionally, minor peaks and dips were observed in the potential pro-
+ﬁles, coinciding with the exposure of the cell to the X-ray beam.
+While these features are likely due to interactions between cell
+components and the beam, further investigation is required to
+clarify their exact origin, which is beyond the scope of this study.
+As previously mentioned, the region depicted by the yellow
+frames in Figure 1d–f, encompassing both the composite cath-
+ode and LPSC separator layers, was selected as the area of inter-
+est for quantifying X-ray absorbance changes, thereby mitigating
+the impact of morphological heterogeneity. While the LPSC layer
+showed no distinct (dis)charge-dependent X-ray absorbance vari-
+ations, the absorbance in the composite cathode area varied al-
+most linearly and reversibly with the progression of (dis)charge
+(Figure 2b). The average X-ray absorbance in this area before dis-
+charge/after charge and after discharge were ≈1.94 × 10−3 and
+1.58 × 10−3, respectively. These values aligned closely with theo-
+retical expectations for the composite cathode containing S and
+Li2S as active materials (1.94 × 10−3 and 1.59 × 10−3, respectively).
+Furthermore, the average absorbance in the LPSC area (1.86 ×
+10−3) corresponded well to the expected value, assuming 10%
+porosity,[34] which qualitatively matched the observed morphol-
+ogy in this area (Figure 1e). Despite prevailing assumptions that
+the sensitivity of XCT might be insuﬃcient to capture the attenu-
+ation changes associated with the lithiation/delithiation of a light
+element such as sulfur, the present analysis quantitatively con-
+ﬁrms that absorbance changes in the composite cathode area are
+indeed attributable to sulfur (de)lithiation, thus demonstrating
+the capability of XCT to eﬀectively monitor the lithiation degree
+of sulfur within composite cathodes.
+Now that the degree of sulfur (de)lithiation can be quan-
+titatively assessed through changes in X-ray absorbance, its
+through-thickness distribution is of particular interest as it sen-
+sitively reﬂects macroscopic mass transport limitations within
+the electrode.[27,35,36] Figure 3a shows the X-ray absorbance
+within the composite cathode as a function of distance from the
+LPSC/composite cathode interface before discharge. Each line
+corresponds to the average X-ray absorbance within the region
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (4 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+ 16146840, 2025, 48, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+www.advancedsciencenews.com
+www.advenergymat.de
+Figure 3. Through-thickness X-ray absorbance proﬁles of the composite cathode during 0.1C discharge. a) Average X-ray absorbance as a function of
+distance (x) from the LPSC/composite cathode interface at sequential time points (0-7.4 h). b) Diﬀerential X-ray absorbance proﬁles as a function of
+normalized distance obtained by subtracting the pre-discharge proﬁle from each discharge point proﬁle. The top axis indicates the corresponding change
+in lithiation degree of sulfur (Δ𝜃where 𝜃in Li𝜃S).
+of interest (highlighted by the yellow cuboids in Figure 1) at a
+given depth of discharge at 0.1C. The absorbance proﬁle before
+discharge showed a slight decrease toward the current collec-
+tor side. As discharge progressed, the through-thickness X-ray
+absorbance gradually decreased overall, indicating progressive
+sulfur lithiation across the entire electrode. This sulfur lithia-
+tion concomitantly increased the electrode thickness, causing the
+LPSC/composite cathode interface to shift toward the LPSC layer
+(Figure S3, Supporting Information).
+To quantitatively assess the degree of sulfur lithiation at a given
+position x during discharge while excluding the initial spatial
+variation in the X-ray absorbance, we calculated the diﬀerential
+X-ray absorbance proﬁles by subtracting the pre-discharge proﬁle
+from each discharge point proﬁle (Figure 3b). Prior to subtrac-
+tion, the absorbance proﬁle length at each discharge point was
+normalized to the pre-discharge proﬁle length (L) to account for
+the electrode expansion during discharge. This diﬀerential anal-
+ysis isolates absorbance changes solely attributed to sulfur lithia-
+tion, allowing estimation of changes in the degree of sulfur lithi-
+ation (Δ𝜃where 𝜃in Li𝜃S). This estimation assumes a linear re-
+lationship between absorbance variation and lithiation state (in-
+dicated by the top axis in Figure 3b). This analysis reveals that the
+lithiation progressed almost uniformly throughout the electrode
+during discharge at 0.1C, reaching nearly full lithiation (Δ𝜃≒
+2.0) at the end of discharge. It should be noted, however, that this
+Δ𝜃represents the average lithiation state at a given position and
+does not directly correspond to the formation of speciﬁc reaction
+intermediates.
+When the discharge rate was increased from 0.1C to 0.2C,
+0.4C, and 0.8C, the spatial Δ𝜃distribution became increasingly
+heterogeneous, as shown in Figure 4a. At higher rates, lithiation
+progressed preferentially on the LPSC layer side where Li-ions
+were supplied, while progression of lithiation was suppressed
+in regions near the current collector (original absorbance pro-
+ﬁles shown in Figure S4, Supporting Information). Considering
+Newman-type 1D continuum transport models that couple ionic
+and electronic conduction in composite electrodes,[37] these ob-
+served results clearly demonstrate that macroscopic ion transport
+acts as the rate-limiting factor in the composite cathode, consis-
+tent with ﬁndings reported by Bradbury et al.[27] At discharge rate
+of ≥0.2C, Δ𝜃proﬁles remained heterogeneous even at the end
+of discharge, indicating that the discharge capacity was limited
+by these reaction heterogeneities in the cathode. Indeed, as illus-
+trated in Figure 4c, the discharge capacity signiﬁcantly decreased
+with increasing discharge rate.
+To assess the impact of the reaction heterogeneity on discharge
+capacity, the discharge capacity of the cell at each rate was com-
+pared with those estimated from the integrated value of the Δ𝜃
+proﬁle after discharge (Figure 4d). The discharge capacity esti-
+mated from the Δ𝜃proﬁle at 0.1C (≈1610 mAh g−1) was approx-
+imately equal to the theoretical capacity (1672 mAh g−1), which
+monotonically decreased at higher rates. As shown in Figure 4d,
+the delivered capacities at each rate were normalized to the dis-
+charge capacity at the rate of 0.1 C for direct comparison. The
+normalized capacities obtained from both X-ray absorbance and
+electrochemical measurements were in good agreement, indi-
+cating that the discharge capacity degradation is closely linked
+to reaction heterogeneity arising from limited macroscopic ionic
+transport.
+More notably, a striking asymmetry in reaction heterogene-
+ity was observed when comparing the Δ𝜃proﬁles during dis-
+charge and charge processes. Figure 4b shows diﬀerential X-
+ray absorbance proﬁles between each charging point and the
+post-discharge state during 0.1–0.8C charging. As expected, an
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (5 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+ 16146840, 2025, 48, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+www.advancedsciencenews.com
+www.advenergymat.de
+Figure 4. Analysis of the X-ray absorbance proﬁles at various C-rates and correlation with electrochemical performance. Diﬀerential X-ray absorbance
+proﬁles as a function of the normalized distance from the LPSC layer to the current collector during a) discharge and b) charge at 0.1C, 0.2C, 0.4C,
+and 0.8C. c) Charge–discharge curves of the SSLSB cell at 0.1, 0.2, 0.4, and 0.8C. d) Comparison between experimentally measured discharge/charge
+capacities and those estimated from diﬀerential X-ray absorbance proﬁles, presented both as absolute values and as capacity ratios (normalized to
+respective 0.1C values).
+increase in X-ray absorbance was observed, indicating delithi-
+ation of sulfur. After 0.1C charging, the electrode achieved
+nearly complete charge (Δ𝜃≒-2.0); however, during interme-
+diate charging stages, heterogeneous reaction with preferential
+sulfur delithiation on the LPSC separator side was clearly ob-
+served. This is in marked contrast to the discharge process at
+the same rate, where sulfur lithiation progressed almost uni-
+formly. At higher charging rates, this heterogeneity was fur-
+ther intensiﬁed, creating signiﬁcant asymmetry between the sul-
+fur lithiation distribution in equivalent-rate discharge. This in-
+dicates that the macroscopic ionic transport limitations became
+more signiﬁcant during charging compared to discharging. Con-
+sequently, the overall Δ𝜃after charging was markedly reduced
+compared to the same-rate discharge. In alignment with this,
+the charge capacity of the cell dropped below the discharge ca-
+pacity at the same rate as shown in Figure 4c. Notably, at 0.4C,
+the charge capacity decreased to 66% of the discharge capac-
+ity. Considering the agreement between the capacity ratios esti-
+mated from the Δ𝜃proﬁles and measured values (Figure 4d), the
+intensiﬁed reaction heterogeneity during charging signiﬁcantly
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (6 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+ 16146840, 2025, 48, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+www.advancedsciencenews.com
+www.advenergymat.de
+Figure 5. Quantitative analysis of the macroscopic ionic transport limitations during charging and proposed degradation mechanism. a) Parameter
+estimation methodology using diﬀerential evolution algorithm to optimize 𝜎eﬀ, ion, aj0, Rtotal based on the obtained Δ𝜃proﬁles and the numerical model
+of the SSLSB. b) Comparison between experimentally observed and simulated reaction distribution proﬁles using optimized 𝜎eﬀ,ion, aj0, Rtotal at 0.4C
+discharge/charge. c) Schematic illustration of the proposed mechanism for macroscopic ionic transport deterioration in the composite cathode at high
+potential, attributed to reversible electrochemical and/or microstructural degradation of the SE.
+contributes to this charge capacity deterioration (a detailed dis-
+cussion is provided later). Such decrease in charge capacity rel-
+ative to discharge capacity, namely, the formation of lithiated
+sulfur that cannot revert to its original state, is recognized as
+a critical limitation facing SSLSBs.[35] To date, such irreversible
+Li2S formation has often been explained by a decrease in the
+triple-phase boundary due to chemo-mechanical degradation[37]
+or high activation energy barriers for Li2S conversion.[38] How-
+ever, our direct observations clearly reveal that deterioration
+of macroscopic ionic transport during charging signiﬁcantly
+contributes to the accumulation of irreversible Li2S, comple-
+menting existing explanations focusing primarily on interfacial
+challenges.
+The key for further development of SSLSBs is in macro-
+scopic ion transport within the composite cathodes. To quan-
+titatively demonstrate the impact of macroscopic ion transport
+limitations during charging, we back-calculated the eﬀective
+ionic conductivity (𝜎eﬀ,ion) within the composite cathode during
+(dis)charging from the Δ𝜃proﬁles using the diﬀerential evolu-
+tion algorithm.[38] We constructed a 1D numerical model simu-
+lating (dis)charge reactions in composite cathodes and searched
+for the 𝜎eﬀ,ion value that best reproduced both the experimen-
+tally obtained Δ𝜃proﬁles and the (dis)charge capacity. (Figure
+5a, see Experimental Section in Supporting Information for de-
+tails). Our analysis focused on data from 0.4C (dis)charge cycles,
+where the most signiﬁcant asymmetry in the Δ𝜃proﬁles was ob-
+served during (dis)charge. For simplicity, we assumed constant
+𝜎eﬀ,ion during either discharge or charge and simultaneously esti-
+mated the unknown parameters: the product of the interfacial
+area per unit volume (a) and exchange current density (j0) —
+aj0— and the total resistances external to the composite cathode
+(Rtotal), such as the LPSC separator resistance and charge trans-
+fer resistance in InLi. In particular, aj0 is also a critical parameter
+determining the interfacial charge-transfer kinetics. Therefore,
+we simultaneously evaluated changes in this parameter during
+(dis)charge.
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (7 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+ 16146840, 2025, 48, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+www.advancedsciencenews.com
+www.advenergymat.de
+As shown in Figure 5b, the simulated reaction distribution pro-
+ﬁles using the optimized parameters reasonably agreed with ex-
+perimental data at both 0.4C discharge and charge. The estimated
+𝜎eﬀ,ion for discharge was 5.9 × 10−2 mS cm−1, which aligned
+well with the literature value (3.5 × 10−2 mS cm−1) obtained
+through DC polarization measurements.[39] The estimated 𝜎eﬀ,ion
+for charge was 1.8 × 10−2 mS cm−1, dropping to approximately
+one-third of its discharge counterpart. The simultaneously esti-
+mated aj0 and Rtotal from the charging data were 0.12 mA cm−3
+and 9.9×103 Ω, respectively, showing a decrease in aj0 and an in-
+crease in Rtotal relative to the discharge values (0.89 mA cm−3 and
+4.6×103 Ω). Thus, our parameter estimation indicates that both
+𝜎eﬀ,ion and aj0 decreased during charging, suggesting deteriora-
+tion of both macroscopic ionic transport and interfacial reaction
+kinetics. Among them, the principal driver of the exacerbated re-
+action heterogeneity during charging is the degradation of 𝜎eﬀ,ion.
+Indeed, the decrease in aj0 alone cannot replicate this asymmetric
+reaction pattern during (dis)charge cycles (Figure S5, Supporting
+Information). Thus, our analysis indicates that the diminished
+𝜎eﬀ,ion during charging critically impacts the irreversible Li2S
+formation.
+A primary candidate responsible for the decrease in 𝜎eﬀ,ion dur-
+ing charging is the degradation of SE at high potentials. Previous
+studies have demonstrated that electrochemical decomposition
+of LPSC occurs above its narrow oxidative potential window limit
+(2.01 V vs. Li+/Li).[38] We infer that the resultant low ionic conduc-
+tivity phases, including various Li-thiophosphates glasses con-
+taining PS4
+3−, P2S7
+4−, and P2S6
+4−units, restricted macroscopic
+ionic transport during charging, as illustrated in Figure 5c. On
+the other hand, these degradation products are known to un-
+dergo reversible reduction at low potentials, thereby recovering
+the 𝜎eﬀ,ion during discharge.[21] Such reversible redox activity of
+the degradation products and the associated cyclic changes in
+𝜎eﬀ,ion likely causes the formation of asymmetric reaction het-
+erogeneity. Additionally, the volume contraction of sulfur during
+charge may cause not only a reduction in triple phase boundaries
+but also partial disruption of ionic conduction pathways, poten-
+tially contributing to the decreased 𝜎eﬀ,ion during charging. Thus,
+our research suggests that the sluggish macroscopic ion trans-
+port is not only a standalone issue but is also linked to the electro-
+chemical and microstructural stability of the SE, causing critical
+problems for SSLSB performance. In other words, the change in
+the 𝜎eﬀ,ion is a consequence of multi-fold factor, making it to be a
+universal descriptor for further development.
+3. Conclusion
+This study demonstrates the utility of XCT for observing macro-
+scopic reaction heterogeneities within composite battery elec-
+trodes. Through the development of an experimental setup en-
+abling operando synchrotron XCT measurements, we have pio-
+neered visualizing reaction heterogeneities within realistic com-
+posite SSLSB cathodes that exhibited stable cyclability and fa-
+vorable rate capability. Our observation provided direct evidence
+that macroscopic ion transport within composite cathodes is a
+critical limiting factor for the rate capability of SSLSBs. More
+importantly, through XCT visualization, we revealed that this
+slow macroscopic transport issue is exacerbated during charg-
+ing, resulting in asymmetric reaction heterogeneities during
+(dis)charge cycles, and consequently promoting the irreversible
+Li2S formation. The asymmetric macroscopic ion transport lim-
+itation appears to be closely related to the electrochemical redox
+of the SE and/or chemo-mechanical eﬀects, thus necessitating
+integrated electrode designs that simultaneously ensure eﬃcient
+ionic transport as well as electrochemical and microstructural sta-
+bility throughout the electrode.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or from
+the author.
+Acknowledgements
+This study was supported by JST PRESTO Grant Number JPMJPR23J3,
+JST Mirai Program Grant Number JPMJMI21G3, and JST GteX Grant
+Number JPMJGX23S2, JST ASPIRE Program Grant Number JPM-
+JAP2419, JSPS KAKENHI Grant Number 25H01958, JSPS KAKENHI
+Grant Number 23K26762, Japan. S.O. gratefully acknowledges Toyota
+Riken for its ﬁnancial support through the Rising Fellows Program. XCT
+measurements were performed at SPring-8, Japan: Nos. 2022A1444,
+2022A1424, 2022B1542, 2023A1433, 2023A1408, 2023B1175, 2024A1458,
+2024A1438, and 2024B1351.
+Conﬂict of Interest
+The authors declare no conﬂict of interest.
+Data Availability Statement
+The data that support the ﬁndings of this study are available from the
+corresponding author upon reasonable request.
+Keywords
+composite cathode, macroscopic ion transport, operando X-ray computed
+tomography, reaction heterogeneity, solid-state lithium-sulfur batteries
+Received: July 14, 2025
+Revised: September 30, 2025
+Published online: October 24, 2025
+[1] N. Kamaya, K. Homma, Y. Yamakawa, M. Hirayama, R. Kanno, M.
+Yonemura, T. Kamiyama, Y. Kato, S. Hama, K. Kawamoto, A. Mitsui,
+Nat. Mater. 2011, 10, 682.
+[2] J. Janek, W. G. Zeier, Nat. Energy 2023, 8, 230.
+[3] Y. Li, S. Song, H. Kim, K. Nomoto, H. Kim, X. Sun, S. Hori, K. Suzuki,
+N. Matsui, M. Hirayama, T. Mizoguchi, T. Saito, T. Kamiyama, R.
+Kanno, Science 2023, 381, 50.
+[4] K. J. Kim, M. Balaish, M. Wadaguchi, L. Kong, J. L. M. Rupp, Adv.
+Energy Mater. 2021, 11, 2002689.
+[5] S. Ohno, W. G. Zeier, Acc. Mater. Res. 2021, 2, 869.
+[6] H. Song, K. Münch, X. Liu, K. Shen, R. Zhang, T. Weintraut, Y.
+Yusim, D. Jiang, X. Hong, J. Meng, Y. Liu, M. He, Y. Li, P. Henkel,
+T. Brezesinski, J. Janek, Q. Pang, Nature 2025, 637, 846.
+[7] J. T. Kim, H. Su, Y. Zhong, C. Wang, H. Wu, D. Zhao, C. Wang, X. Sun,
+Y. Li, Nat Chem Eng 2024, 1, 400.
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (8 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+ 16146840, 2025, 48, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+www.advancedsciencenews.com
+www.advenergymat.de
+[8] Y.-K. Sun, ACS Energy Lett. 2024, 9, 5092.
+[9] J. Lee, C. Zhao, C. Wang, A. Chen, X. Sun, K. Amine, G.-L. Xu, Chem.
+Soc. Rev. 2024, 53, 5264.
+[10] Y. V. Mikhaylik, J. R. Akridge, J. Electrochem. Soc. 2004, 151, A1969.
+[11] A. Manthiram, Y. Fu, S.-H. Chung, C. Zu, Y.-S. Su, Chem. Rev. 2014,
+114, 11751.
+[12] S. Lorger, R. E. Usiskin, J. Maier, Adv. Funct. Mater. 2019, 29, 1807688.
+[13] X. Gao, X. Zheng, Y. Tsao, P. Zhang, X. Xiao, Y. Ye, J. Li, Y. Yang, R. Xu,
+Z. Bao, Y. Cui, J. Am. Chem. Soc. 2021, 143, 18188.
+[14] C. Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, L. F. Nazar, Energy Environ.
+Sci. 2023, 16, 610.
+[15] D. Cao, X. Sun, F. Li, S.-M. Bak, T. Ji, M. Geiwitz, K. S. Burch, Y. Du,
+G. Yang, H. Zhu, Angew. Chem. Int. Ed Engl. 2023, 62, 202302363.
+[16] J. T. Kim, A. Rao, H.-Y. Nie, Y. Hu, W. Li, F. Zhao, S. Deng, X. Hao,
+J. Fu, J. Luo, H. Duan, C. Wang, C. V. Singh, X. Sun, Nat. Commun.
+2023, 14, 6404.
+[17] Z. Wang, Y. Tang, L. Zhang, M. Li, Z. Shan, J. Huang, Small 2020, 16,
+2001899.
+[18] S. Ohno, R. Koerver, G. Dewald, C. Rosenbach, P. Titscher, D.
+Steckermeier, A. Kwade, J. Janek, W. G. Zeier, Chem. Mater. 2019, 31,
+2930.
+[19] C. Zheng, K. Wang, L. Li, H. Huang, C. Liang, Y. Gan, X. He, W. Zhang,
+J. Zhang, Front. Energy Res. 2021, 8, 606494.
+[20] G. F. Dewald, S. Ohno, J. G. C. Hering, J. Janek, W. G. Zeier, Batter.
+supercaps 2021, 4, 183.
+[21] S. Ohno, C. Rosenbach, G. F. Dewald, J. Janek, W. G. Zeier, Adv. Funct.
+Mater. 2021, 31, 2010620.
+[22] G. F. Dewald, S. Ohno, M. A. Kraft, R. Koerver, P. Till, N. M. Vargas-
+Barbosa, J. Janek, W. G. Zeier, Chem. Mater. 2019, 31, 8328.
+[23] S. Wang, M. Tang, Q. Zhang, B. Li, S. Ohno, F. Walther, R. Pan, X. Xu,
+C. Xin, W. Zhang, L. Li, Y. Shen, F. H. Richter, J. Janek, C.-W. Nan, Adv.
+Energy Mater. 2021, 11, 2101370.
+[24] S. D. Kang, W. C. Chueh, J. Electrochem. Soc. 2021, 168, 120504.
+[25] S. Yanev, H. Auer, R. Pertsch, C. Heubner, K. Nikolowski, M. Partsch,
+A. Michaelis, J. Electrochem. Soc. 2024, 171, 050530.
+[26] Y. Kimura, S. Huang, T. Nakamura, N. Ishiguro, O. Sekizawa, K.
+Nitta, T. Uruga, T. Takeuchi, T. Okumura, M. Tada, Y. Uchimoto, K.
+Amezawa, Small Methods 2023, 7, 2300310.
+[27] R. Bradbury, G. F. Dewald, M. A. Kraft, T. Arlt, N. Kardjilov, J. Janek, I.
+Manke, W. G. Zeier, S. Ohno, Adv. Energy Mater. 2023, 13, 2203426.
+[28] P. Pietsch, V. Wood, Annu. Rev. Mater. Res. 2017, 47, 451.
+[29] V. Wood, Nat. Rev. Mater. 2018, 3, 293.
+[30] J. Scharf, M. Chouchane, D. P. Finegan, B. Lu, C. Redquest, M.-C. Kim,
+W. Yao, A. A. Franco, D. Gostovic, Z. Liu, M. Riccio, F. Zelenka, J.-M.
+Doux, Y. S. Meng, Nat. Nanotechnol. 2022, 17, 446.
+[31] F. Shen, M. B. Dixit, X. Xiao, K. B. Hatzell, ACS Energy Lett. 2018, 3,
+1056.
+[32] J. Wang, Y.-C. K. Chen-Wiegart, J. Wang, Angew. Chem. Int. Ed Engl.
+2014, 53, 4460.
+[33] M. Cronau, M. Szabo, C. König, T. B. Wassermann, B. Roling, ACS
+Energy Lett. 2021, 6, 3072.
+[34] B. L. Henke, E. M. Gullikson, J. C. Davis, At. Data Nucl. Data Tables
+1993, 54, 181.
+[35] Y. Orikasa, Y. Gogyo, H. Yamashige, M. Katayama, K. Chen, T. Mori,
+K. Yamamoto, T. Masese, Y. Inada, T. Ohta, Z. Siroma, S. Kato,
+H. Kinoshita, H. Arai, Z. Ogumi, Y. Uchimoto, Sci. Rep. 2016, 6,
+26382.
+[36] Y. Kimura, A. Tomura, M. Fakkao, T. Nakamura, N. Ishiguro, O.
+Sekizawa, K. Nitta, T. Uruga, T. Okumura, M. Tada, Y. Uchimoto, K.
+Amezawa, J. Phys. Chem. Lett. 2020, 11, 3629.
+[37] J. S. Newman, C. W. Tobias, J. Electrochem. Soc. 1962, 109,
+1183.
+[38] R. Storn, K. Price, J. Glob. Optim. 1997, 11, 341.
+[39] T. K. Schwietert, A. Vasileiadis, M. Wagemaker, JACS Au 2021, 1, 1488.
+Adv. Energy Mater. 2025, 15, e03863
+e03863 (9 of 9)
+© 2025 The Author(s). Advanced Energy Materials published by Wiley-VCH GmbH
+ 16146840, 2025, 48, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

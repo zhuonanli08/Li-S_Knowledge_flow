@@ -1,0 +1,31 @@
+
+========================================================================
+[all] L1  （只显示 >=20 篇的节点）
+========================================================================
+  S-LiB                         22,497 篇
+  L-LiS                         14,888 篇
+  S-LiS                          1,165 篇
+  QSS-LiS                          236 篇
+
+  引文边矩阵（行=接收/施引, 列=提供/被引）
+                   S-LiB          L-LiS          S-LiS        QSS-LiS
+S-LiB            466,178         10,756         16,958          1,857
+L-LiS              6,409        482,793         10,654          2,489
+S-LiS             15,774         16,068         10,244          1,001
+QSS-LiS            1,913          4,397            923            932
+
+  GO/NO-GO（跨节点边，自环不计）
+                         S-LiB <- L-LiS                        10,756  GREEN 
+                         S-LiB <- S-LiS                        16,958  GREEN 
+                         S-LiB <- QSS-LiS                       1,857  GREEN 
+                         L-LiS <- S-LiB                         6,409  GREEN 
+                         L-LiS <- S-LiS                        10,654  GREEN 
+                         L-LiS <- QSS-LiS                       2,489  GREEN 
+                         S-LiS <- S-LiB                        15,774  GREEN 
+                         S-LiS <- L-LiS                        16,068  GREEN 
+                         S-LiS <- QSS-LiS                       1,001  GREEN 
+                       QSS-LiS <- S-LiB                         1,913  GREEN 
+                       QSS-LiS <- L-LiS                         4,397  GREEN 
+                       QSS-LiS <- S-LiS                           923  GREEN 
+
+  → 本层可用

@@ -1,0 +1,563 @@
+=== 第 1 页 ===
+Ionic liquid enabling stable interface in solid state lithium sulfur
+batteries working at room temperature
+Bin Sun a, b, Kai Liu b, Jialiang Lang b, Minghao Fang a, *, Yang Jin c, **, Hui Wu b, ***
+a Department of Materials Science and Technology, China University of Geosciences, Beijing, 100083, PR China
+b State Key Laboratory of New Ceramics and Fine Processing, School of Materials Science and Engineering, Tsinghua University, Beijing, 100084, PR China
+c Department of Electrical Engineering, Zhengzhou University, Zhengzhou, 450001, PR China
+a r t i c l e
+i n f o
+Article history:
+Received 16 May 2018
+Received in revised form
+26 July 2018
+Accepted 29 July 2018
+Available online 31 July 2018
+Keywords:
+Lithium sulfur batteries
+Solid state
+Room temperature operation
+Interface modiﬁcation
+Safety
+a b s t r a c t
+Power capability of solid state lithium sulfur (Li-S) batteries is severely weakened due to high impedance
+between electrodes and solid electrolyte. To solve this issue, herein we come up with a room temper-
+ature operating (20 C) solid Li-S battery technology enabled by ionic liquid (IL) as interfacial modiﬁ-
+cation. With IL, a signiﬁcant decrease of interfacial resistance is observed from 3540 to 39 U cm2 in
+symmetric cell, which can cycle well at a high current density of 0.5 mA cm2 with a small over potential
+of 300 mV (20 C). On this basis, solid state Li-S batteries are fabricated with IL modiﬁcation, and per-
+formed an excellent electrochemical behavior at 0.2 mA cm2 with the speciﬁc capacity of 340 mAh g1.
+Distinctly, the thin IL layer presents electrochemical and physical stability during the cycling and plays a
+ﬂowable and seamless interfacial layer in solid state Li-S batteries.
+© 2018 Elsevier Ltd. All rights reserved.
+Solid-state Li-S batteries have shown profound impact among
+next-generation energy storage technologies as its signiﬁcantly
+high energy density (2600 kWh Kg1), low cost (cheap and abun-
+dant sulfur cathode), and high safety [1e4]. The employment of SE
+(solid electrolyte) can well solve the problem of polysulﬁde shut-
+tling in sulfur part and dendrite growing in lithium metal part,
+which are two main obstacles in ether electrolyte based Li-S bat-
+teries [5e9]. However, the solid state Li-S batteries are still far from
+practice implementation as the huge interface resistance between
+SE and electrode materials (both Li metal and sulfur parts), which
+severely block the cell power capability and utilization of active
+materials, especially at room temperature operation [10e13].
+Normally, due to the roughness of SE and solid electrodes (like Li
+metal foil and sulfur electrode coating on aluminum foil), gaps
+naturally form at the solid-solid interface when fabricating a solid
+state Li-S cell, which will largely reduce electrode-electrolyte
+contact area and lead to the high interfacial resistance as lithium
+ion cannot transport along these gaps. Limited by the contact area,
+the utilization of electrode capacity is also very low. Especially on
+the sulfur part, not only the insulating gaps, but also the ionic and
+electronic insulating sulfur active material hinder the lithium ion
+transportation. To eliminate the above insulating gaps and increase
+the utilization of sulfur, enormous efforts has been explored in
+recent years, like surface ALD modiﬁcation of SE or composite
+electrolyte using [14e19]. However, the intricate technology and
+high operating temperature (above 60 C) prevent the practical
+employment of solid state Li-S batteries. In addition, the hybrid
+electrolyte [20e27] also has attract much attention, consisting of
+solid-state electrolyte powder and the polymer components, such
+as PEO, PPC, PVDF. However, dendrite growth can not be sup-
+pressed because of the poor mechanic properties of the gel state
+hybrid electrolytes. From the point of interfacial engineering, a
+ﬂowable liquid interfacial layer is superior than solid interfacial
+layer as it can accommodate the interfacial ﬂuctuation and guar-
+antee excellent adhesion. To make it more suitable for practical
+employment, the ﬂowable liquid interfacial layer should also
+possess the following properties: 1) High stability with Li metal and
+good ion conductivity during cycling [28,29]. 2) Low vapor pressure
+and certain viscidity to increase the service life and decrease the
+usage amount [30]. 3) Anti-ﬂammability to reduce the risk of ﬁre at
+same extreme conditions as sulfur electrode and lithium metal are
+intrinsically ﬂammable [31,32].
+* Corresponding author.
+** Corresponding author.
+*** Corresponding author.
+E-mail addresses: fmh@cugb.edu.cn (M. Fang), yangjin@zzu.edu.cn (Y. Jin),
+huiwu@mail.tsinghua.edu.cn (H. Wu).
+Contents lists available at ScienceDirect
+Electrochimica Acta
+journal homepage: www.elsevier.com/locate/electacta
+https://doi.org/10.1016/j.electacta.2018.07.215
+0013-4686/© 2018 Elsevier Ltd. All rights reserved.
+Electrochimica Acta 284 (2018) 662e668
+
+=== 第 2 页 ===
+Based on above principles, herein we come up with the method
+of simply using IL wetting at room temperature to form a sustain-
+able and lithium ion conducting interface between SE and elec-
+trodes (both Li metal and sulfur parts). To verify the effective IL
+wetting, Li-S cells were fabricated using garnet-type Li6.4La3-
+Ta0.6Zr1.4O12 (LLZTO) ceramic electrolyte, Li metal foil anode and
+sulfur cathode coating on aluminum foil, where garnet SE has
+delivered much prospect [33e40]. After wetting the garnet elec-
+trolyte with trace room temperature IL (AMIMTFSI), a liquid inter-
+mediate was introduced, in which the initial solidesolid interface
+was substituted by the new solid-liquid-solid interfaces, simulta-
+neously. The ﬂowable IL layer constructs fast and stable lithium ion
+conduction channels throughout SE and solid electrodes, and can
+accommodate the interfacial ﬂuctuation and guarantee excellent
+adhesion at all time. The new formed solid-liquid-solid interfaces
+can also provide homogeneous current distribution and a decrease
+of the area speciﬁc resistance (ASR) because of the better contact.
+The low vapor pressure, high lithium ion conductivity, appropriate
+viscidity and nonﬂammable properties of IL [41e45], in this work,
+guarantees the stability and safety of all solid-state Li-S batteries.
+On this basis, the fabricated solid state Li-S cells can perform well at
+room temperature. A remarkable electrochemical behavior was
+performed with a high capacity of 300 mAh g1 at 0.2 mA/cm2. A
+high Coulombic efﬁciency above 98.7% was as well remained in the
+60 cycles.
+Garnet electrolyte is adopted as its high stability with Li metal
+and Liþ conductivity. Fig. 1A schematically presents the original
+interface morphology between electrodes (Li metal and cathode
+disc) and garnet electrolyte in a Li-S cell. Here, the poor contact is
+obviously veriﬁed as the existing gaps, which indicates limited ion
+transport pathway for the garnet/Li interface. What is worse, the
+baleful corrosion section on Li anode will lead to a further deteri-
+oration, which is related to the nonuniform charge dispersion
+during Li metal cycling (stripping/platting procedures). After
+modiﬁed by IL intermediate, a perfect interface is achieved due to
+the good wettability between garnet electrolyte and electrodes (Li
+metal and cathode disc) in Fig. 1B. The new formed liquid-solid
+interphase contributes to the intimate contact without any gap,
+promoting effective local current distribution for the enhanced ion
+transport pathway. In addition, the ﬂowable IL intermediate can
+quickly response to the interface ﬂuctuation during Li metal cycling
+to meet a sustainable interface. Fig. 1C displayed the compared
+optical images of garnet electrolyte pellet with and without IL
+wetting. The amount of IL on one side of a ceramic pellet is trace
+(6 mL cm2) so as to wetting the surface without any effusion even
+though in the erected direction. The IL layer is ~2 mm which can be
+evaluated based on the grain radium (in Fig. S1).
+AMIMTFSI
+(1-allyl-3-methylimidazolium
+bis(tri-
+ﬂuoromethanesulfonyl)imide), a common room temperature ionic
+liquid, is used here. As the advanced liquid electrolyte solvent, it has
+received widely research due to the chemical stability, intrinsic
+nonvolatility and nonﬂammability [46e49]. In order to construct a
+stable interface, a wide stable electrochemical window (>4.5 V) is
+necessary to avoid the reaction with electrode materials, which was
+calculated in Fig. S5. The high ion conductivity (2.5  103 S cm1)
+was also calculated by the EIS (electrochemical impedance spec-
+trum) measurement in Fig. S6 at room temperature (20 C).
+Moreover, the excellent vapor pressure was assessed by fetching
+15 mL AMIMTFSI and conventional liquid electrolyte (1 M LiTFSI in
+DOL and DME solvent) on two pieces of polished fresh lithium foil,
+respectively and restored in glovebox for three months at room
+temperature in Fig. S7. At the beginning, the room temperature IL
+well wetted the Li metal when dripped on the surface as like the
+organic electrolyte. Half an hour later, the distinct reduction for
+organic
+electrolyte
+was
+observed.
+The
+organic
+electrolyte
+completely evaporated in 1 h with solid salt left only. While, the IL
+is still retaining even after three months, which strongly exhibited
+its distinguished vapor pressure and nonvolatility.
+The interface morphology was characterized by SEM (scanning
+electron microscope), as shown in Fig. 2 (A to D). For the original
+garnet/Li interface, the limited contact area could be found with the
+much void separating the Li metal and garnet ceramic (Fig. 2 A, B),
+even though the Li metal was melted on the garnet SE with a
+complicated heating procedure and cooled to room temperature
+Fig. 1. Schematic diagram of the interface morphology between garnet electrolyte and Li metal in Li-S batteries. (A) The poor contact of the raw garnet/Li interface suffers from a
+deteriorated phenomenon during cycling. (B) A sustainable interface with excellent contact after IL wetting. (C) The optical images of garnet SE before/after with IL wetting.
+B. Sun et al. / Electrochimica Acta 284 (2018) 662e668
+663
+
+=== 第 3 页 ===
+before handling (details in methods part), which also conﬁrmed the
+poor wetting behavior of the pristine garnet electrolyte. It is sig-
+niﬁcant to substitute the inferior solid-solid interface with a kind of
+intermediate by a simple interface engineering operating. Fig. 2 (C,
+D) demonstrated an improved interface SEM images with IL
+modiﬁcation. The curved interface trend was associated with the
+rough cross-section of materials with fractional IL ﬁxing. Evidently,
+an intimate contact was obtained for IL good wetting with both
+garnet electrolyte and Li metal surface (Fig. 2D), which was favor of
+ion transporting through the interface. Attributing to the viscosity
+of IL, a portion of that covered on the cross-section of garnet when
+handling the sample. The interface area speciﬁc resistances (ASR: U
+cm2) was as well calculated for the effect of IL wetting in symmetric
+cells. The EIS measurements were conducted at a frequency of
+0.1e1 MHz at room temperature. In a typical Nyquist curve, as
+shown in Fig. 2 (E, F), the ﬁrst intercepts at 1 MHz representing the
+bulk impedance of garnet electrolyte, are 73 and 74 U cm2 for the
+cells with and without IL modifying, respectively. The ﬁrst
+depressed semicircles at the high-median frequency, exhibiting the
+overlap of the grain boundary and the interface ASRs, were found to
+be
+135
+and
+71336 U cm
+[2],
+respectively.
+So,
+the
+interface
+impedances can be acquired based on the second x-intercept sub-
+tracting the LLZTO garnet total impedance, dividing by two, and
+then normalizing to the electrode surface area. The total (bulk and
+grain boundary) impedance of the LLZTO samples is ~130 U cm [2],
+which was estimated from the room temperature conductivity
+shown in supporting information (Fig. S3) with the thick, ~300 mm,
+an effective electrode area of ~1 cm2 in this work. Therefore, a
+remarkable decrease ASR from 3540 to 39 U cm2 for IL-garnet/Li
+interface was observed after IL wetting.
+A long-term stripping behavior was delivered toward esti-
+mating the interface evolution in Li/garnet/Li and Li/IL-garnet-IL/Li
+symmetric cell conﬁguration, respectively. As shown in Fig. 3A, the
+voltage proﬁle successively declines during stripping with a huge
+polarization at current density of 0.01 mA cm2, which is consistent
+with the poor contact in Fig. 2A. The transience life is in less than
+30 min when the potential exceeded the range. We can suspect that
+the deterioration of solid-solid interface accompany with the
+corrosion section forming, owing to the charge continuously
+gathering at the contact bulges when ion run through the interface.
+By contrast, the Li/IL-garnet-IL/Li symmetric cell performed at
+0.05 mA cm2
+with
+24 h
+for
+stripping
+and
+plating
+process,
+Fig. 2. Interfacial characterization and evaluation of garnet/Li and IL-garnet/Li. (A and B) SEM images display the crude interface morphology between LLZTO SE and Li anode,
+showing poor wettability of raw garnet SE. (C and D) SEM images of the IL-garnet/Li interface after IL wetting exhibit superb contact owing to the liquid IL intermediate. (E and F)
+The electrochemical impedance spectrum (EIS) teste at the frequency of 0.1e1 MHz for the garnet/Li and IL-garnet/Li interface evaluation. (B), and (D) correspond to the dashed
+frame marked in (A) and (C), respectively.
+B. Sun et al. / Electrochimica Acta 284 (2018) 662e668
+664
+
+=== 第 4 页 ===
+respectively. Fig. 3B exhibits the smooth voltage plateau and
+limited hysteresis even though the interface subjecting to a long
+time of 24 h performing, which was associated with the superior
+interface contact (Fig. 2C).
+Distinctly, both the good interfacial contact and the sustainable
+interfacial endurance with IL wetting contribute to the remarkable
+cycling performance, as depicted in Fig. 3C. With a high operated
+current density of 0.1 mA cm2, a stable and small voltage hyster-
+esis potential (~46 mv) was got in Li/IL-garnet-IL/Li symmetric cell
+during 200 h cycle, implying an ultra-stable interface with reduced
+interface resistance. In contrast, at 0.01 mA cm2, the counterpart
+cell revealed a noisy potential polarization and breakdown in less
+than 30 h, which indicated bad ion transport through the interface.
+Besides, we also further quantify the interface endurance at high
+current density. Here, a variable current density from 0.025 to
+0.5 mA cm2 is assessed in Li/IL-garnet-IL/Li cell in Fig. 3D. The clear
+potential curves and small voltage hysteresis ensure the fast Liþ
+response through the interface after IL wetting. The detained
+voltage plots for the current density of 0.025, 0.05 and 0.1 mA cm2
+were displayed in Fig. 3E, F and showing small hysteresis of 7 and
+15 mV, respectively. Particularly, the subsequent voltage curves
+correspond
+the
+high
+current
+density
+of
+0.1,
+0.2,
+0.3
+and
+0.5 mA cm2, as marked in Fig. 3D, as well as their magniﬁed graphs
+were detailed in Fig. S8 (A, B, C, D). At the current density at
+0.5 mA cm2, a limited hysteresis (300 mV) and stable potential can
+be found from the detailed voltage proﬁle, which indicated the
+Fig. 3. Electrochemical testing with symmetric conﬁguration. (A and B) The stripping behavior of Li metal in Li/garnet/Li and Li/IL-garnet-IL/Li symmetric cells at current density of
+0.01 and 0.05 mA/cm2, respectively. (C) Galvanostatic cycling of Li/garnet/Li and Li/IL-garnet-IL/Li symmetric cells with current density of 0.01 and 0.1 mA/cm2, respectively. (D) A
+long-term cycling endurance of Li/IL-garnet-IL/Li symmetric cell at a variable current density from 0.025 to 0.5 mA/cm2 and subsequent at 0.3 mA/cm2 go through more than 100 h
+(E and F)The corresponding detailed voltage hysteresis at 0.025 and 0.05 mA/cm2, respectively. (G)The FTIR curves of (a) LiTFSI, (b)before cycled AMMITFSI, (c)after cycled AMMITFSI
+and (d)DMC.
+B. Sun et al. / Electrochimica Acta 284 (2018) 662e668
+665
+
+=== 第 5 页 ===
+adjusting capability of IL modifying adequate for high current
+density operation. Importantly, stability is maintained in the Li/IL-
+garnet-IL/Li cell when the current density tuned back to 0.3 mA/
+cm2 over 100 h and the magniﬁed voltage curves were depicted in
+Fig. S8C. The structure measurement of IL was also carried out in
+Fig. 3G. The letter of (a), (b), (c) and (d) represent the Fourier
+transform infrared spectroscopy (FTIR) of LiTFSI, before cycled
+AMIMTFSI, after cycled AMIMTFSI and dimethyl carbonate (DMC),
+respectively. It is notable that (b) exhibits the similar peaks with (c)
+when isolate the effect of (d). In the classical FTIR plots of
+AMIMTFSI, the absorption peaks at 3155 cm1 and 1157 cm1
+identiﬁed the C-H stretching vibration and ﬂexural vibration in
+imidazole ring, respectively. Imidazole skeleton characteristic ab-
+sorption peak was at 1571 cm1 and 1645 cm1 for C]C stretching
+vibration. The structure of TFSI was also veriﬁed when comparing
+with (a) proﬁle, associating with 1350 cm1 and 1195 cm1
+assigned to S]O stretching vibration and C-F distorting vibration,
+respectively. The results indicate stable structure and less con-
+sumption for AMIMTFSI during cycling.
+Solid state Li-S cells were successfully assembled in a glovebox
+and operated at room temperature, which consisting of S cathode,
+LLZTO garnet SE and Li anode in a coin cell battery case as shown in
+Fig. 4A. Two stainless steel spacer were used and adhered with S
+cathode and Li anode so as to make uniform pressure on LLZTO SE,
+and two sides of which wetted by trace IL (detail preparation in
+method section). The electrochemical performance was conducted
+in LAND system at room temperature. Fig. 4B shows the typical
+charge/discharge proﬁles versus speciﬁc capacity at the current
+Fig. 4. The electrochemical performance of Li-S full batteries. (A) Schematic of the Li-S full cell conﬁguration preparation. (B)Typical charge/discharge curves of Li/IL-garnet-IL/S
+battery at current density of 0.02 and 0.2 mA/cm2, respectively. (C) Cycling performance of Li-S battery with IL modiﬁcation. (D) Voltage curves of the full cells with sulfur
+loading of 1.6 mg cm2 and modiﬁed by liquid electrolyte and IL, respectively. (E) Cycling performance of the full cells modiﬁed by IL at 0.12 mA/cm2 (F and G) The optical images of S
+cathode discs when approach the ﬂame after immersed with IL or OE (organic electrolyte), respectively.
+B. Sun et al. / Electrochimica Acta 284 (2018) 662e668
+666
+
+=== 第 6 页 ===
+density
+of
+0.2
+and
+0.02 mA cm2,
+respectively.
+Notably,
+the
+discharge proﬁles present two plateaus similar to the organic
+electrolyte system indicating multiple electrochemical reactions
+[50e53]. An impressive cycling performance was also displayed in
+Fig. 4C, where a high capacity of 570 mAh g1 was revealed at
+0.02 mA cm2 as well as a cycling stability remaining in 60 cycles
+even encountered of a high current density (0.2 mA cm2) in the
+ﬁrst ten cycles. Moreover, an average Coulombic efﬁciency above
+98.7% is performed with the initial cycles less higher than 100%,
+indicating a fraction of the discharged short-chain lithium poly-
+sulﬁdes encountering an irreversible reaction. Importantly, with a
+high sulfur loading of 1.6 mg cm2, the electrochemical behavior of
+the Li-S full cells were also investigated when modiﬁed by organic
+liquid electrolyte (OL) and IL, respectively. Fig. 4D shows the ﬁrst
+discharge/charge proﬁles of the two samples, at 0.12 mA cm2, with
+the discharge capacity of 312 and 381 mAh g1, respectively.
+Obviously, the inferior capacity for the OL modiﬁcation indicates
+the bad interface stability, which is relevant to the consuming and
+decomposing of the OL [54]. And, the failure of charge process also
+shows a interfacial deterioration. A good cycling stability of the full
+cells with IL interface engineering was delivered in Fig. 4E. Fig. S9 (A
+and B) showed the compared resistance of Li-S batteries with/
+without IL for the S cathodes with the impedance decreased from
+20 kU cm2 to 630 U cm2 after IL modifying, which ensured the
+conformity for S cathode. When modiﬁed by liquid electrolyte in
+the sulfur and lithium electrodes, the impedance approximate
+545 U cm2 in Fig. S9 D. Here, bis(triﬂuoromethane)sulfonimide Li
+salt (1 M) (LiTFSI, Sigma) in a mixture of DME and DOL [1:1 (v/v)]
+was used as the liquid electrolyte.
+More attractively, the S cathode immersed IL demonstrated
+superior ﬁre retardance. To identify this merit, two same batch of
+sulfur cathode discs were treated with alcohol lamp ﬂame after
+immersed with 10 mL conventional organic electrolyte (OE) and IL,
+respectively (Fig. 4F and G). Obviously, the electrode immersed
+with OE get ﬁre as soon as approaching the ﬂame but for the
+electrode immersed with IL. It is obvious that the sulfur electrodes
+are in hidden danger with organic electrolyte system. On the con-
+trary, no burn phenomenon for the electrode immersed with IL
+even placed into the alcohol ﬂame, showing its prior safety than the
+hybrid electrolyte system [14].
+In conclusion, an all solid-state Li-S battery working at room
+temperature is reported through an easy and scalable method of IL
+wetting to modify the interface between SE and electrodes (both Li
+metal and sulfur part). The modiﬁed interface shows intimate
+contact as the primary solid-solid interface was substituted with
+solid-liquid-solid interfaces. As a result, the interfacial impedance
+was distinctly decreased from 3540 to 39 U cm [2]. Associating with
+the unique stability with Li, good ion conductivity and certain
+viscidity, trace IL addition promote the all solid-state Li-S batteries
+cycling at room temperature. It is noted that the IL intermediate not
+only reduces the cell impedance, but also works as battery anti-
+ﬂaming retardant as its remarkable nonﬂammability compared
+with conventional organic electrolyte, which can cover the safety
+shortage of Li-S battery at certain extend as Li metal and sulfur are
+intrinsically ﬂammable in air. The ultra-stable and unimpeded IL-
+garnet/Li interface provides a new opportunity for interfacial en-
+gineering of solid state batteries.
+Acknowledgements
+This study was supported by the National Basic Research of
+China (Grants 2015CB932500), National Natural Science Founda-
+tions of China (Grants No. 51661135025, 51522207 and 51572245).
+Appendix A. Supplementary data
+Supplementary data related to this article can be found at
+https://doi.org/10.1016/j.electacta.2018.07.215.
+References
+[1] Jusef Hassoun, Scrosati Bruno, Moving to a solid-state conﬁguration: a valid
+approach to making lithium-sulfur batteries viable for practical applications,
+Adv. Mater. 22 (2010) 5198e5201.
+[2] Y. Zhang, Y. Zhao, D. Gosselink, P. Chen, Synthesis of poly (ethylene-oxide)/
+nanoclay solid polymer electrolyte for all solid-state lithium/sulfur battery,
+Ionics 21 (2015) 381e385.
+[3] A. Manthiram, Y. Fu, Y.S. Su, Challenges and prospects of lithiumesulfur
+batteries, Acc. Chem. Res. 46 (2013) 1125e1134.
+[4] J. Motavalli, A solid future, Nature 526 (2015) S96.
+[5] V. Thangadurai, D. Pinzaru, S. Narayanan, A.K. Baral, Fast solid-state Li ion
+conducting garnet-type structure metal oxides for energy storage, J. Phys.
+Chem. Lett. 6 (2015) 292e299.
+[6] W. Xu, J. Wang, F. Ding, X. Chen, E. Nasybulin, Y. Zhang, J.-G. Zhang, Lithium
+metal anodes for rechargeable batteries, Energy Environ. Sci. 7 (2014)
+513e537.
+[7] P.G. Bruce, S.A. Freunberger, L.J. Hardwick, J.-M. Tarascon, LieO 2 and LieS
+batteries with high energy storage, Nat. Mater. 11 (2012) 19.
+[8] A. Varzi, R. Raccichini, S. Passerini, B. Scrosati, Challenges and prospects of the
+role of solid electrolytes in the revitalization of lithium metal batteries,
+J. Mater. Chem. A. 4 (2016) 17251e17259.
+[9] V. Thangadurai, S. Narayanan, D. Pinzaru, Garnet-type solid-state fast Li ion
+conductors for Li batteries: critical review, Chem. Soc. Rev. 43 (2014)
+4714e4727.
+[10] P.R. Chinnam, S.L. Wunder, Engineered interfaces in hybrid ceramicepolymer
+electrolytes for use in all-solid-state Li batteries, ACS Energy Lett. 2 (2016)
+134e138.
+[11] X. Han, Y. Gong, K.K. Fu, X. He, G.T. Hitz, J. Dai, A. Pearse, B. Liu, H. Wang,
+G. Rubloff, Y. Mo, V. Thangadurai, E.D. Wachsman, L. Hu, Negating interfacial
+impedance in garnet-based solid-state Li metal batteries, Nat. Mater. 16
+(2017) 572.
+[12] D. Lin, Y. Liu, Z. Liang, H.-W. Lee, J. Sun, H. Wang, K. Yan, J. Xie, Y. Cui, Layered
+reduced graphene oxide with nanoscale interlayer gaps as a stable host for
+lithium metal anodes, Nat. Nanotechnol. 11 (2016) 626.
+[13] L. Cheng, E.J. Crumlin, W. Chen, R. Qiao, H. Hou, S.F. Lux, V. Zorba, R. Russo,
+R. Kostecki, Z. Liu, K. Persson, W. Yang, J. Cabana, T. Richardson, G. Chen,
+M. Doeff, The origin of high electrolyteeelectrode interfacial resistances in
+lithium cells containing garnet type solid electrolytes, Phys. Chem. Chem.
+Phys. 16 (2014) 18294e18300.
+[14] W. Luo, Y. Gong, Y. Zhu, Y. Li, Y. Yao, Y. Zhang, K.K. Fu, G. Pastel, C.F. Lin, Y. Mo,
+E.D. Wachsman, L. Hu, Reducing interfacial resistance between garnet-struc-
+tured solid-state electrolyte and Li-Metal anode by a germanium layer, Adv.
+Mater. 29 (2017), 1606042.
+[15] W. Zhou, S. Wang, Y. Li, S. Xin, A. Manthiram, J.B. Goodenough, Plating a
+dendrite-free lithium anode with a polymer/ceramic/polymer sandwich
+electrolyte, J. Am. Chem. Soc. 138 (2016) 9385e9388.
+[16] T. Kato, T. Hamanaka, K. Yamamoto, T. Hirayama, F. Sagane, M. Motoyama,
+Y. Iriyama, In-situ Li7La3Zr2O12/LiCoO2 interface modiﬁcation for advanced
+all-solid-state battery, J. Power Sources 260 (2014) 292e298.
+[17] S.W. Baek, J.M. Lee, T.Y. Kim, M.S. Song, Y. Park, Garnet related lithium ion
+conductor processed by spark plasma sintering for all solid state batteries,
+J. Power Sources 249 (2014) 197e206.
+[18] Y. Zhang, Y. Zhao, D. Gosselink, P. Chen, Synthesis of poly (ethylene-oxide)/
+nanoclay solid polymer electrolyte for all solid-state lithium/sulfur battery,
+Ionics 21 (2014) 381e385.
+[19] S.S. Jeong, Y.T. Lim, Y.J. Choi, G.B. Cho, K.W. Kim, H.J. Ahn, K.K. Cho, Electro-
+chemical properties of lithium sulfur cells using PEO polymer electrolytes
+prepared under three different mixing conditions, J. Power Sources 174
+(2007) 745e750.
+[20] J. Zhang, N. Zhao, M. Zhang, Y. Li, P.K. Chu, X. Guo, Z. Di, X. Wang, H. Li, Flexible
+and ion-conducting membrane electrolytes for solid-state lithium batteries:
+dispersion of garnet nanoparticles in insulating polyethylene oxide, Nano
+Energy 28 (2016) 447e454.
+[21] M. Liu, B. Jin, Q. Zhang, X. Zhan, F. Chen, High-performance solid polymer
+electrolytes for lithium ion batteries based on sulfobetaine zwitterion and
+poly (ethylene oxide) modiﬁed polysiloxane, J. Alloys Compd. 742 (2018)
+619e628.
+[22] A.R. Polu, H.-W. Rhee, Effect of TiO2 nanoparticles on structural, thermal,
+mechanical and ionic conductivity studies of PEO12eLiTDI solid polymer
+electrolyte, J. Ind. Eng. Chem. 37 (2016) 347e353.
+[23] Zhang, X. Zang, H. Wen, T. Dong, J. Chai, Y. Li, B. Chen, J. Zhao, S. Dong, J. Ma,
+L. Yue, Z. Liu, X. Guo, G. Cui, L. Chen, High-voltage and free-standing poly
+(propylene carbonate)/Li6.75La3 Zr1.75Ta 0.25O12 composite solid electrolyte for
+wide temperature range and ﬂexible solid lithium ion battery, J. Mater. Chem.
+A 5 (2017) 4940e4948.
+[24] H. Huo, J. Sun, C. chen, X. Meng, M. He, N. Zhao, X. Guo, Flexible interfaces
+between Si anodes and composite electrolytes consisting of poly (propylene
+B. Sun et al. / Electrochimica Acta 284 (2018) 662e668
+667
+
+=== 第 7 页 ===
+carbonates) and garnets for solid-state batteries, J. Power Sources 383 (2018)
+150e156.
+[25] M.Y. Zhang, M.X. Li, Z. Chang, Y.F. Wang, J. Gao, Y.S. Zhu, Y.P. Wu, W. Huang,
+A sandwich PVDF/HEC/PVDF gel polymer electrolyte for lithium ion battery,
+Electrochim. Acta 245 (2017) 752e759.
+[26] F. Wang, L. Li, X. Yang, J. You, Y. Xu, H. Wang, Y. Ma, G. Gao, Sustain. Energy
+Fuel. 2 (2018) 492e498.
+[27] X. Zhang, T. Liu, S. Zhang, X. Huang, B. Xu, Y. Lin, B. Xu, L. Li, C.-W. Nan, Y. Shen,
+Synergistic coupling between Li6. 75La3Zr1. 75Ta0. 25O12 and poly (vinyli-
+dene ﬂuoride) induces high ionic conductivity, mechanical strength, and
+thermal stability of solid composite electrolytes, J. Am. Chem. Soc. 139 (2017)
+13779e13785.
+[28] B. Garcia, S. Lavallee, G. Perron, C. Michot, M. Armand, Room temperature
+molten salts as lithium battery electrolyte, Electrochim, Acta 49 (2004) 4583.
+[29] J. Jin, H.H. Li, J.P. Wei, X.K. Bian, Z. Zhou, J. Yan, Li/LiFePO4 batteries with room
+temperature ionic liquid as electrolyte, Electrochem. Commun. 11 (2009)
+1500.
+[30] M.J. Earle, K.R. Seddon, Ionic liquids. Green solvents for the future, Pure Appl.
+Chem. 72 (2000) 1391e1398.
+[31] M. Egashira, M. Nakagawa, I. Watanabe, S. Okada, J. Yamaki, Chargeedischarge
+and high temperature reaction of LiCoO2 in ionic liquid electrolytes based on
+cyano-substituted quaternary ammonium cation, J. Power Sources 160 (2006)
+1387.
+[32] M. Galinski, A. Lewandowski, I. Ste˛pniak, Ionic liquids as electrolytes, Elec-
+trochim. Acta 51 (2006) 5567e5580.
+[33] V. Thangadurai, D. Pinzaru, S. Narayanan, A.K. Baral, Fast solid-state Li ion
+conducting garnet-type structure metal oxides for energy storage, J. Phys.
+Chem. Lett. 6 (2015) 292e299.
+[34] K. Liu, C. Wang, Garnet-type Li6.4La3Zr1.4Ta0.6O12 thin sheet: fabrication and
+application in lithiumehydrogen peroxide semi-fuel cell, Electrochem. Com-
+mun. 48 (2014) 147e150.
+[35] R. Murugan, V. Thangadurai, W. Weppner, Fast lithium ion conduction in
+garnet-type Li7La3Zr2O12, Angew. Chem. Int. Ed. 46 (2007) 7778e7781.
+[36] Y. Zhu, X. He, Y. Mo, Origin of outstanding stability in the lithium solid
+electrolyte materials: insights from thermodynamic analyses based on ﬁrst-
+principles calculations, ACS Appl. Mater. Interfaces 7 (2015) 23685e23693.
+[37] R. Jalem, Y. Yamamoto, H. Shiiba, M. Nakayama, H. Munakata, T. Kasuga,
+K. Kanamura, Concerted migration mechanism in the Li ion dynamics of
+garnet-type Li7La3Zr2O12, Chem. Mater. 25 (2013) 425e430.
+[38] S. Afyon, F. Krumeich, J.L.M. Rupp, A shortcut to garnet-type fast Li-ion con-
+ductors for all-solid state batteries, J. Mater. Chem. A 3 (2015) 18636e18648.
+[39] E. Yi, W. Wang, J. Kieffer, R.M. Laine, Flame made nanoparticles permit pro-
+cessing of dense, ﬂexible, Liþ conducting ceramic electrolyte thin ﬁlms of
+cubic-Li7La3Zr2O12 (c-LLZO), J. Mater. Chem. A. 4 (2016) 12947e12954.
+[40] X. Tong, V. Thangadurai, E.D. Wachsman, Highly conductive Li garnets by a
+multielement doping strategy, Inorg. Chem. 54 (2015) 3600e3607.
+[41] H. Sakaebe, H. Matsumoto, K. Tatsumi, Dischargeecharge properties of Li/
+LiCoO2 cell using room temperature ionic liquids (RTILs) based on quaternary
+ammonium cationeEffect of the structure, J. Power Sources 146 (2005)
+693e697.
+[42] P.C. Howlett, D.R. MacFarlane, A.F. Hollenkamp, High lithium metal cycling
+efﬁciency in a room-temperature ionic liquid, Electrochem. Solid State Lett. 7
+(2004) A97eA101.
+[43] M. Armand, F. Endres, D.R. MacFarlane, H. Ohno, B. Scrosati, Ionic-liquid
+materials for the electrochemical challenges of the future, Nat. Mater. 8 (2009)
+621.
+[44] L. Grande, A. Ochel, S. Monaco, M. Mastragostino, D. Tonti, P. Palomino,
+E. Paillard, S. Passerini, Li/air ﬂow battery employing ionic liquid electrolytes,
+Energy Technol. 4 (2016) 85e89.
+[45] M. Wlazło, M. Karpinska, U. Domanska, Thermodynamics and selectivity of
+separation based on activity coefﬁcients at inﬁnite dilution of various solutes
+in 1-allyl-3-methylimidazolium bis {(triﬂuoromethyl) sulfonyl} imide ionic
+liquid, J. Chem. Thermodyn. 102 (2016) 39e47.
+[46] M. Miyano, S. Wada, T. Nakanishi, Y. Hasegawa, Luminescent silicon nano-
+particles covered with ionic liquid, Mater. Lett. 141 (2015) 359e361.
+[47] M. Wang, Z. Shan, J. Tian, K. Yang, X. Liu, H. Liu, K. Zhu, Mixtures of unsatu-
+rated imidazolium based ionic liquid and organic carbonate as electrolyte for
+Li-ion batteries, Electrochim. Acta 95 (2013) 301e307.
+[48] A. Platek, J. Piwek, K. Fic, T. Schubert, P. Gentile, G. Bidan, E. Frackowiak,
+Electrochemical performance of silicon nanostructures in low-temperature
+ionic liquids for microelectronic applications, J. Mater. Chem. A 5 (2017)
+22708e22716.
+[49] A. Singh, R. Vedarajan, N. Matsumi, Modiﬁed metal organic frameworks
+(MOFs)/Ionic liquid matrices for efﬁcient charge storage, J. Electrochem. Soc.
+164 (2017) H5169eH5174.
+[50] Z. Li, Y. Jiang, L. Yuan, Z. Yi, C. Wu, Y. Liu, A highly ordered meso@ microporous
+carbon-supported sulfur@ smaller sulfur coreeshell structured cathode for
+LieS batteries, ACS Nano 8 (2014) 9295e9303.
+[51] C. Barchasz, F. Molton, C. Duboc, J.C. Lepretre, S. Patoux, F. Alloin, Lithium/
+sulfur cell discharge mechanism: an original approach for intermediate spe-
+cies identiﬁcation, Anal. Chem. 84 (2012) 3973e3980.
+[52] R. Demir-Cakan, LieS batteries: simple approaches for superior performance,
+Energy Environ. Sci. 6 (2013) 176e182.
+[53] Z.W. Seh, W. Li, J.J. Cha, G. Zheng, Y. Yang, M.T. McDowell, Y. Cui, Sul-
+phureTiO2 yolkeshell nanoarchitecture with internal void space for long-
+cycle lithiumesulphur batteries, Nat. Commun. 2013 (4) (2013) 1331.
+[54] M.R. Busche, T. Drossel, T. Leichtweiss, D.A. Weber, M. Falk, M. Schneider,
+J. Janek, Dynamic formation of a solid-liquid electrolyte interphase and its
+consequences for hybrid-battery concepts, Nat. Chem. 8 (2016) 426.
+B. Sun et al. / Electrochimica Acta 284 (2018) 662e668
+668

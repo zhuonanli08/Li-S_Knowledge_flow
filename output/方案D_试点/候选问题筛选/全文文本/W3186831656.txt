@@ -1,0 +1,690 @@
+=== 第 1 页 ===
+www.afm-journal.de
+© 2021 Wiley-VCH GmbH
+2104863  (1 of 8)
+Research Article
+Mechanistic Investigation of Polymer-Based All-Solid-State 
+Lithium/Sulfur Battery
+Yang Liu, Haowen Liu, Yitao Lin, Yuxing Zhao, Hua Yuan, Yipeng Su, Jifang Zhang, 
+Shuaiyang Ren, Haiyan Fan, and Yuegang Zhang*
+Although employing solid polymer electrolyte (SPE) in all-solid-state lithium/
+sulfur (ASSLS) batteries is a promising approach to obtain a power source 
+with both high energy density and safety, the actual performance of SPE-
+ASSLS batteries still lag behind conventional lithium/sulfur batteries with 
+liquid ether electrolyte. In this work, combining characterization methods of 
+X-ray photoelectron spectroscopy, in situ optical microscopy, and three-elec-
+trode measurement, a direct comparison between these two battery systems 
+is made to reveal the mechanism behind their performance differences. In 
+addition to polysulfides, it is found that the initial elemental sulfur can also 
+dissolve into and diffuse through the SPE to reach the anode. Different from 
+the shuttle effect that causes uniform corrosion on the anode in a liquid 
+electrolyte, dissolved sulfur species in SPE unevenly passivate the anode sur-
+face and lead to the inhomogeneous Li+ plating/stripping at the anode/SPE 
+solid-solid interface. Such inhomogeneity eventually causes void formation at 
+the interface, which leads to the failure of SPE-ASSLS batteries. Based on this 
+understanding, a protection interlayer is designed to inhibit the shuttling of 
+sulfur species, and the modified SPE-ASSLS batteries show much-improved 
+performance in cycle life.
+DOI: 10.1002/adfm.202104863
+Y. Liu, H. Liu, Y. Lin, Y. Zhao, H. Yuan, Y. Su, Dr. J. Zhang, S. Ren,  
+Dr. H. Fan, Prof. Y. Zhang
+State Key Laboratory of Low-Dimensional Quantum Physics  
+and Department of Physics
+Tsinghua University
+Beijing 100084, China
+E-mail: yuegang.zhang@tsinghua.edu.cn
+concerns. Researchers consider replacing 
+the liquid ether electrolyte with solid elec-
+trolyte to solve these problems.[4] So far, 
+extensive studies have been focused on 
+seeking suitable electrolyte. All-solid-state 
+Li/S (ASSLS) batteries with sulfide inor-
+ganic electrolyte show no polysulfide inter-
+mediates, but huge volume change made 
+it hard to operate without high pressure.[5] 
+Poly(ethylene oxide) (PEO)-based solid 
+polymer electrolyte (SPE) is very prom-
+ising among all electrolyte for its manu-
+facturability, flexibility, and compatibility 
+with electrode.[6]
+According to previous study, PEO-
+based SPE-ASSLS batteries show two 
+plateaus in discharge process,[7] and 
+polysulfides are observed in electrolyte.[8] 
+So, people generally believe that SPE-
+ASSLS batteries have the same working/
+failure 
+mechanism 
+as 
+conventional 
+liquid electrolyte Li/S (LELS) batteries. 
+To reduce the negative effect caused by 
+polysulfides, approaches such as adding 
+nanofiller to SPE,[8c,9] changing lithium salt in SPE,[7c] or 
+designing cathode active material[7a,8a,10] are employed. 
+Although improvement is achieved by using these methods, 
+the performance of SPE-ASSLS batteries still lags behind 
+LELS batteries.[4c,11] In view of this situation, we believe that 
+a clear understanding of the similarities and differences of 
+these two battery systems is needed to explain the perfor-
+mance gap and to optimize SPE-ASSLS design through 
+learning from LELS batteries. Nevertheless, not only the 
+direct comparative study of these two battery systems is rare, 
+but the mechanistic characterization of SPE-ASSLS batteries 
+is insufficient. Zaghib et  al. try to study the structural evo-
+lution of cathode in SPE-ASSLS batteries by combining in 
+situ scanning electron microscope (SEM) and UV–vis absorp-
+tion spectrum.[12] But the high vacuum testing environment 
+is far away from the real battery working condition, and the 
+remaining S8 signal after discharge process proves that the 
+discharge capacity still has room for improvement. More 
+recently, in situ optical microscope is employed to charac-
+terize anode/electrolyte interface and illustrate polysulfides 
+etching and reshaping behavior towards lithium anode at 
+working temperature by Wan, et al.[8b] We believe their work 
+can be further explored by connecting anode morphology 
+changes with batteries electrochemical behavior.
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adfm.202104863.
+1. Introduction
+With the increasing interest in the developing electric trans-
+portation and bulk energy storage, batteries with high-areal 
+capacity and safety are in great demand.[1] The lithium/sulfur 
+(Li/S) battery is very attractive for its high specific energy den-
+sity (2567 Wh kg−1), which is about three to five times higher 
+than commercial Li-ion batteries.[2] However, there are several 
+obstacles that hinder the widespread applications of Li/S bat-
+teries, such as the shuttle effect of polysulfides and dendrites 
+formation on anode.[3] These drawbacks can not only deterio-
+rate the performance of Li/S battery, but lead to severe safety 
+Adv. Funct. Mater. 2021, 31, 2104863
+
+=== 第 2 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+2104863  (2 of 8)
+© 2021 Wiley-VCH GmbH
+In this work, a direct comparison of working/failure mech-
+anisms between SPE-ASSLS batteries and LELS batteries is 
+made to clarify the causes of their performance gap and to 
+optimize SPE-ASSLS battery design. A cathode with discharge 
+capacity of 1333 mAh g−1 is designed for easy in situ characteri-
+zation by optical microscopy, X-ray photoelectron spectroscopy 
+(XPS), and three-electrode electrochemical measurement. Com-
+pared with LELS batteries, we find not only polysulfides but 
+sulfur can dissolve into PEO-based solid-state electrolyte. Dif-
+ferent from the uniform corrosion on anode caused by soluble 
+polysulfides in LELS batteries, dissolved sulfur species in SPE 
+unevenly passivate the anode surface and lead to an inhomoge-
+neous Li+ plating/stripping at anode/SPE solid–solid interface. 
+This inhomogeneity accumulates with cycles and eventually 
+causes significant fluctuation of overpotential and cell failure, 
+which is not observed in LELS batteries. To further support this 
+conclusion and solve this sulfur-anode side reaction problem, a 
+freestanding interlayer is designed to protect the Li anode. The 
+modified SPE-ASSLS batteries show a notable performance 
+improvement in cycle life.
+2. Results and Discussion
+For easy characterization of the chemical and morphologic 
+evolution of active materials, a simple freestanding sulfur 
+cathode is made by loading sulfur and solid electrolyte on 
+cross-stacked super-aligned carbon nanotube (SACNT) films. 
+Figure 1a schematically shows the construction process of the 
+S@SACNT-SPE cathode and SPE-ASSLS battery. The initial 
+sulfur particles distributed in the cathode could be directly 
+observed by optical microscope as shown in Figure S1, Sup-
+porting Information. We evaluated the electrochemical perfor-
+mance of SPE-ASSLS (at 60 °C) and LELS batteries (at room 
+temperature) under the rate of 0.2 C (1 C = 1675 mAh g−1). The 
+results are shown in Figure  1b. High discharge capacities of 
+1333 and 1510 mAh g−1 were achieved at the first cycle in SPE-
+ASSLS and LELS batteries, respectively. The control sample 
+(without sulfur in cathode) shows negligible capacity (Figure S2, 
+Supporting Information), which proves that no obvious side 
+reaction occurs in the S@SACNT-SPE cathode, and the high 
+discharge capacity is all delivered by sulfur. Thus, this simple 
+Figure 1.  a) Schematic illustration of the construction process of a S@SACNT-SPE cathode and an SPE-ASSLS battery. b) Galvanostatic discharge 
+profiles of sulfur in SPE-ASSLS battery and LELS battery at a rate of 0.2 C. c) CV for SPE-ASSLS battery with S@SACNT-SPE at a scan rate of 0.2 mV s−1. 
+d,e) S 2p XPS spectra of the cathode during d) discharging and e) charging. f) Voltage profile of the S@SACNT-SPE cathode that rests for 1800 s 
+(marked by black dash line) before discharges under the rate of 0.2 C. g–i) In situ optical microscopic images of the sulfur particle morphologies cor-
+responding to the moments of g) 0 s, h) 1800 s, i) 6300 s in (f). The cathode loading of all SPE-ASSLS and LELS batteries are 0.1 mg cm−2.
+Adv. Funct. Mater. 2021, 31, 2104863
+ 16163028, 2021, 41, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202104863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+2104863  (3 of 8)
+© 2021 Wiley-VCH GmbH
+cathode is suitable for studying the working process of SPE-
+ASSLS batteries. Compared with LELS batteries, SPE-ASSLS 
+batteries have unique voltage profile features (marked by dash 
+lines and arrow in Figure 1b): 1) a higher but shorter upper dis-
+charge plateau; 2) a long slope after upper discharge plateau. 
+These features are also consistent with cyclic voltammetry (CV) 
+test results (Figure 1c).To fully understand these behaviors, XPS 
+and in situ optical imaging technology were employed to reveal 
+the evolution of active material.
+The S 2p XPS spectral evolution of the S@SACNT-SPE 
+cathode at different discharge states is shown in Figure 1d. The 
+strong peak at 168.9 eV is attributed to TFSI− and its decom-
+position products SO32− is located at 167.3  eV.[13] Sulfur with 
+chemical valance between −2 to 0 is in the low energy range of 
+160 to 164 eV. The XPS spectrum of the cell at the state of open 
+current voltage (OCV) shows only one peak in the low energy 
+region, and it is attributed to elemental sulfur (bridging sulfur, 
+SB0). Compared with OCV state, terminal sulfur of polysulfide 
+(ST1−) peak appears at 2.43 V, and the peak area ratio of SB0 to 
+ST1− is around 3, which indicates the reduction from sulfur 
+to Li2S8. When the discharge voltage reaches 2.1 V, the signal 
+of SB0 is greatly weakened, and the S2− signal appears, which 
+means the transformation from high-order polysulfides to Li2S2 
+and Li2S between 2.43 and 2.1 V. At the end of discharge (1.6 V), 
+SB0 peak becomes negligible. Compared with the profile in 
+2.1 V, the peak area ratio of ST1− to S2− decreased, so we con-
+sider this process as the reduction of Li2S2. The whole reduc-
+tion process can be proposed as follows:
+S
+2e
+2Li
+Li S
+8
+2
+8
++
++
+→
+−
++
+	
+(1)
+Li S
+8
+2
+e
+8
+2 Li
+8Li S (
+2)
+2
+8
+2
+n
+n
+n
+n
+n
+n
+(
+)
+(
+)
++
+−
++
+−
+→
+>
+−
++
+	
+(2)
+2Li S
+2 2
+2 e
+2 2
+2 Li
+Li S
+2
+Li S
+2
+2
+2
+2
+n
+x
+n
+x
+x
+n
+x
+n
+(
+)
+(
+)
+(
+)
++
+−
+−
++
+−
+−
+→
++
+−
+−
++
+	
+(3)
+Li S
+2e
+2Li
+2Li S
+2
+2
+2
++
++
+→
+−
++
+	
+(4)
+In charging process (Figure 1e), SB0 peak appears at 2.25 V, 
+which indicates Li2S and Li2S2 oxidates to polysulfides. The 
+ST1− and S2− peaks become smaller and finally disappear at the 
+end of charging (2.8 V). The similarity between 2.8 V and OCV 
+(2.5 V) states proves that the active materials are highly revers-
+ible in S@SACNT-SPE cathode.
+As polysulfides are important intermediates during dis-
+charge, it is necessary to determine whether there exists shuttle 
+effect in SPE-ASSLS batteries. Therefore, an in situ optical 
+observation system was designed to characterize the mor-
+phology change of active materials during discharge. The bat-
+tery rested for half an hour at 60 °C before discharged under 
+the rate of 0.2 C (Figure  1f). To our surprise, we observed 
+shrinkage of the sulfur particle size even before discharge, indi-
+cating the dissolution of sulfur into SPE at 60 °C. The Raman 
+spectra in Figure S3, Supporting Information, confirmed that 
+sulfur remained as S8 rings after it dissolved in SPE, which was 
+similar to sulfur dissolved in CS2 solvent.[14] We made a further 
+comparative study (Movie S1, Supporting Information) for two 
+control samples of S@SACNT cathodes without SPE, one in 
+argon at 60 °C (left panel in Movie S1 Supporting Information), 
+and the other in liquid ether electrolyte at 30 °C (right panel 
+in Movie S1, Supporting Information). The video indicates that 
+sulfur particles in both control samples show no obvious mor-
+phology change. This result indicates that, without SPE, sulfur 
+can neither evaporate at 60 °C nor fully dissolve in liquid ether 
+electrolyte at its working temperature of 30 °C. And, the sulfur 
+dissolution occurs only in the S@SACNT-SPE sample (middle 
+panel in Movie S1, Supporting Information).
+Combining the chemical, electrochemical, and morphology 
+evolution information of the active materials, the unique voltage 
+profile characteristics of SPE-ASSLS batteries in Figure 1b can 
+be explained as follows: 1) The dissolved sulfur boosts reaction 
+kinetics compared with conventional bulk-type sulfur, resulting 
+in a higher upper discharge plateau. 2) The migration speed of 
+dissolved polysulfides in SPE is lower than that in liquid ether 
+electrolyte, and they cannot return to cathode in time to be 
+reduced in further discharge process, which leads to a longer 
+slope after upper discharge plateau. The long discharge slope is 
+also observed in Li/S batteries with high viscosity electrolyte.[15] 
+Note that the dissolution and diffusion of sulfur could lead to 
+a self-discharge phenomenon over time, which was recorded 
+by the voltage profile in Figure S4a, Supporting Information, 
+and the reduction of sulfur was affirmed by the XPS result in 
+Figure S4b, Supporting Information.
+To identify the electrochemical process on each electrode, 
+a three-electrode cell was designed as shown in Figure 2a. To 
+make the study more comprehensive, SPE-ASSLS (sample 
+1), LELS (sample 2), and the SPE-based Li–Li symmetry cell 
+(sample 3) were tested (Figure 2b,c). On the working electrode 
+side, both the SPE-ASSLS and LELS cells show stable periodic 
+voltage profiles in 10 cycles, indicating well-functioned revers-
+ible working electrodes in these cells. On the counter electrode 
+side, however, the overpotential of the SPE-ASSLS cell shows 
+dramatic increase and severe fluctuation with increasing cycles. 
+In marked contrast, the overpotential remains stable in the 
+LELS cell; and the minor periodical changes, similar to those 
+observed in other reports,[16] may be due to periodical reaction 
+between polysulfides and Li during the discharge–charge pro-
+cesses. In addition, the overpotential in the SPE-based Li–Li 
+symmetry cell remains stable during all cycles, and the whole 
+profile is illustrated in Figure S5, Supporting Information.
+As observed in the above experiments, although the anode 
+electrochemical environment in the SPE-ASSLS cell is sim-
+ilar to that in the LELS cell during the first cycle (Figure S6, 
+Supporting Information), it quickly fails as the cell cycles 
+(Figure 2c). To further study this failure mechanism, we disas-
+sembled the SPE-ASSLS cells after 0, 1, 10 cycles, and obtained 
+the cross-section images by SEM (Figure 3a–c). Li metal 
+counter electrode and SPE show intimate contact before dis-
+charge. After the first cycle, a fresh redeposited lithium layer 
+(marked by a red box in Figure 3b) appears, but it cannot cover 
+the whole anode surface. At the end of 10 cycles, the SEM image 
+shows a sizable void and substantial detachment of Li metal 
+from SPE. In contrast, the Li counter electrode in LELS battery 
+after 10 cycles only shows obvious roughening but retains its 
+overall shape (Figure S7a, Supporting Information). And for 
+the SPE-based Li-Li symmetry cell in Figure 2 and Figure S5, 
+Supporting Information, there maintains intimate contact 
+Adv. Funct. Mater. 2021, 31, 2104863
+ 16163028, 2021, 41, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202104863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+2104863  (4 of 8)
+© 2021 Wiley-VCH GmbH
+between the counter electrode and the solid electrolyte as well 
+(Figure S7b, Supporting Information). Therefore, the existence 
+of sulfur species in the SPE electrolyte is critical in reshaping the 
+morphology of the counter electrode in the SPE-ASSLS cell. Dif-
+ferent corrosion behaviors of polysulfides on copper surface in 
+SPE and liquid ether electrolytes were also observed (Figure S8, 
+Supporting Information). We consider the S@SACNT-SPE 
+cathode and SPE itself have little effect on the failure of SPE-
+ASSLS cell, because the S@SACNT-SPE working electrode 
+behavior in Figure 2 is stable and adding soluble polysulfides 
+in SPE causes almost no change of its ionic conductivity 
+(Figure S9, Supporting Information).
+Figure 2.  a) Schematic of a three-electrode cell. Potential variations of the b) working electrode (S electrode in Sample 1 and 2, Li electrode in Sample 3), 
+c) counter electrode (Li electrode) during charge–discharge processes of three cells (Sample 1–3). SPE: solid polymer electrolyte, LE: liquid electrolyte. 
+Sample 1 and 2 are tested at 0.2 C with cathode loading of 0.1 mg cm−2, the current density of Sample 3 is 33.5 µA cm−2.
+Adv. Funct. Mater. 2021, 31, 2104863
+ 16163028, 2021, 41, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202104863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+2104863  (5 of 8)
+© 2021 Wiley-VCH GmbH
+Based on the above results, the failure mechanism of 
+the SPE-ASSLS cells can be summarized in Figure  3d–f. 
+Figure 3d shows the cross-section view of the Li anode-SPE 
+interface before discharge. During cycling, the dissolved 
+sulfur species diffuse to the anode and form a passivation 
+solid electrolyte interface layer.[8b,c,12] Different from the uni-
+form anode corrosion in LELS cells, the passivation layer 
+in SPE-ASSLS cells is inhomogeneous due to the non-ideal 
+contact of solid–solid interface, which further intensifies 
+the uneven Li+ plating/stripping at the anode-SPE interface 
+(Figure  3e). The accumulation of inhomogeneity reshapes 
+the surface morphology of the anode and eventually causes 
+large voids between the anode and SPE (Figure  3f). These 
+voids directly lead to fluctuation of surface current density 
+as well as overpotential, and affect the cell performance. 
+Although polysulfides can also react with anode in the LELS 
+cell and form porous lithium, there is no contact problem 
+with liquid ether electrolyte, which makes its overpotential 
+remains stable during cycling.
+Based on this understanding, an interlayer composed of 
+SACNT film, graphene oxide (GO), and SPE is designed to pre-
+vent anode from reacting with polysulfides and prolong SPE-
+ASSLS battery life, as shown in Figure 4a. GO membrane is 
+widely used in LELS batteries as it contains lots of oxide func-
+tional group, which is beneficial to confine polysulfides.[17] The 
+freestanding SACNT-GO membrane morphology was revealed 
+by transmission electron microscopy (TEM) in Figure 4b. GO 
+sheets are well connected with the SACNT network, which is a 
+benefit for maintaining robust structure. To guarantee good Li+ 
+conduction, SPE is also added into this membrane. The SACNT-
+GO-SPE (CGS) interlayer can form intimate contact with the 
+SPE electrolyte, as seen in Figure S10, Supporting Information. 
+To testify the function of CGS interlayer in prohibition of poly-
+sulfides, a cell of polysulfides@SACNT cathode and copper foil 
+anode was assembled (inset of Figure 4c). After keeping the cell 
+for 24 h at 60 °C, the copper foil maintained its metallic luster 
+and much less corrosion was observed than the case without 
+CGS interlayer (Figure  4c and Figure S6a, Supporting Infor-
+mation). Figure S11, Supporting Information, depicts the XPS 
+spectra of copper foils used in cells with or without the poly-
+sulfide inhibitor. The spectrum without the protection of CGS 
+interlayer shows extra peaks at peak at 931.9 eV, 932.4 eV, cor-
+responding to Cu2S and CuS, respectively. These results show 
+that the CGS interlayer is effective in suppressing polysulfide 
+diffusion.
+Hybrid-SPE-ASSLS coin cells were used to evaluate the effect 
+of CGS interlayer on their electrochemical performance. The 
+hybrid-SPE was made by adding 20 wt% of Li6.4La3Zr1.4Ta0.6O12 
+particles as nanofiller in the SPE electrolyte, and its properties 
+were illustrated in Figure S12, Supporting Information. The 
+galvanostatic charge and discharge were carried out at 60 °C. 
+For the cell without CGS interlayer (Figure 4d), although the 
+battery shows a high initial discharge capacity of 930 mAh g−1 
+(6th cycle in total) at 0.2 C, it rapidly drops to 519 mAh g−1 
+at 10th cycle. Then, the cell suffers from severe fluctuation in 
+its discharge capacity with an average value of 633 mAh g−1  
+(0.2 C). Decline and fluctuation of its coulombic efficiency are 
+also observed. From 6th to 50th cycles, the average coulombic 
+efficiency is 68.5% and the lowest point is only 12% at 30th 
+cycle. In addition, galvanostatic voltage profiles in Figure  4e 
+also depict the great overcharge and voltage fluctuation of 
+the cell. This is consistent with our observation in the three-
+electrode cell experiments. In the contrast, the cell with CGS 
+interlayer demonstrates much stable performance as illus-
+trated in Figure 4f,g. Due to the insufficient interfacial contact 
+and the Li+ blocking effect in the initial CGS interlayer, the cell 
+needs an activation process at 0.1 C, which is also observed in 
+LELS battery with GO interlayer.[17a] After activation process, 
+the battery shows an average discharge capacity of 833 mAh g−1 
+at 0.2 C, and remains 799 mAh g−1 after 50 cycles. The cou-
+lombic efficiency shows no obvious fluctuation and still 
+approach 85% after 50 cycles. The voltage profiles also remain 
+stable from 6th to 50th cycles. The comparison between these 
+coin cells shows that when the polysulfide shuttle is inhibited 
+by the CGS interlayer, the performance of SPE-ASSLS bat-
+teries can be greatly improved.
+Figure 3.  Cross-section SEM image of the Li anode-SPE interface in the S/SPE/Li cell a) before discharge, b) after the first cycle, c) after ten cycles. 
+d–f) Schematic illustration of Li redeposition process and the cell failure mechanism corresponding to (a–c).
+Adv. Funct. Mater. 2021, 31, 2104863
+ 16163028, 2021, 41, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202104863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+2104863  (6 of 8)
+© 2021 Wiley-VCH GmbH
+3. Conclusion
+In conclusion, this work reveals a key challenge in designing 
+long-cycle-life SPE-ASSLS batteries by comparing their working 
+and failure mechanism with that of LELS batteries. We find 
+that, although sulfur is used as the initial active material in 
+both battery systems, there exists a unique sulfur dissolution 
+and diffusion behavior in SPE-ASSLS batteries. Unlike the 
+LELS batteries in which the polysulfides uniformly corrode 
+the lithium metal anode, the dissolved sulfur species unevenly 
+passivate the anode surface and lead to the inhomogeneous 
+Li+ plating/stripping at the anode/SPE solid-solid interface in 
+SPE-ASSLS batteries, which causes significant overpotential 
+fluctuation. We further verify this conclusion by designing a 
+Figure 4.  a) A schematic illustration of the CNT-GO-SPE interlayer in an SPE-ASSLS battery. b) TEM image of the CNT-GO interlayer. c) SEM image of 
+the copper surface after resting for 24 h at 60 °C in a coin cell with the CGS interlayer “modified” SPE and polysulfides@SACNT cathode; left inset: the 
+cell structure; right inset: optical image of the copper surface. d,f) Cycling performances and e,g) voltage-capacity profiles under 0.2 C (0.1 C for the first 
+5 cycles) for Hybrid-SPE-ASSLS coin cells d,e) without and f,g) with CGS interlayer, respectively. The cathode loadings of all samples are 0.5 mg cm−2.
+Adv. Funct. Mater. 2021, 31, 2104863
+ 16163028, 2021, 41, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202104863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+2104863  (7 of 8)
+© 2021 Wiley-VCH GmbH
+CGS interlayer to prevent sulfur species from reacting with 
+anode. As expected, the CGS modified SPE-ASSLS cell achieves 
+much more stable charge-discharge cycling. Our work shows 
+that the performance bottleneck of SPE-ASSLS batteries origi-
+nates from dissolved sulfur species, and the method we used to 
+analyze SPE-ASSLS batteries could be helpful in understanding 
+other solid-state batteries.
+4. Experimental Section
+Preparation of SPE and Hybrid-SPE Membrane: To prepare SPE 
+membrane, PEO (Aladdin, average molecular weight of 600  000) and 
+LiTFSI (Aladdin, 99%) were dissolved in acetonitrile (Innochem, 99% 
+H2O < 0.5 ppm) with EO/Li molar ratio of 18:1 at 60 °C for 24 h. Then, 
+the obtained solution was cast on a Teflon plate by doctor blading 
+method. The prepared membrane was dried in the glove box for 24 h 
+and transferred to the vacuum oven at 60 °C for another 24 h. Finally, the 
+freestanding SPE was able to be peeled off. Hybrid-SPE membrane was 
+obtained by the same method except that 20 wt% Li6.4La3Zr1.4Ta0.6O12 
+particle (Kejing) was added in the SPE solution at the first step.
+Preparation of Sulfur Cathode and Li/S Batteries: S@SACNT-SPE 
+cathode: Preparation process was schematically illustrated in Figure 1a. 
+SACNT arrays which can directly pull out 1.5 µg cm−2 continuous SACNT 
+film were reported by previous work.[18] A 10 layers cross-stacked free-
+standing SACNT film was prepared on an aluminum frame as cathode 
+structure. 100 mg sulfur was dissolved in 10 mL toluene (Aladdin, 99%) 
+to produce a transparent sulfur solution. 100  µL sulfur solution was 
+uniformly dropped on a 10 cm2 above-mentioned 10 layers SACNT film, 
+and the S@SACNT cathode formed after evaporation of the solvent. 
+Total sulfur loading of S@SACNT cathode is around 0.1 mg cm−2 with 
+a high S/C ratio of more than 6.6:1. SPE solution was further added into 
+S@SACNT cathode to prepare S@SACNT-SPE cathode.
+Polysulfides@SACNT cathode: The Li2S8 catholyte (0.05 mol L−1) was 
+prepared by mixing elemental sulfur (112 mg) with Li2S (23 mg) in 10 mL 
+1,2-dimethoxyethane/1.3-dioxolane (DME/DOL, 1:1 by volume) solvent at 
+50 °C for 24 h. 100 µL Li2S8 catholyte was added on a 10 cm2 SACNT 
+substrate, and further dried in an argon-filled glove box for 12 h to get 
+the polysulfides cathode. This cathode was used with copper anode to 
+evaluate the reaction between polysulfides and anode.
+S@C cathode: Sulfur and KJblack were mixed uniformly by ball milling 
+for 10 h at the mass ratio of mS:mC = 70:30, to yield a black mixture. The 
+black mixture was sealed in an air-tight container and heated at 155 °C 
+for 24 h to form a sulfur-carbon composite. The cathode was prepared 
+by mixing an 80 wt% sulfur-carbon composite, 10 wt% carbon black, 
+and 10 wt% polyvinylidene difluoride (PVDF; Alfa Aesar) in N-methyl-
+2-pyrrolidone (NMP; Aldrich) to form a slurry. The resultant slurry was 
+coated on a carbon-coated Al foil and dried at 55 °C for 4 h. Total sulfur 
+loading of S@C cathode was around 0.5 mg cm−2, and this cathode was 
+used for coin cell SPE-ASSLS batteries.
+Li/S batteries assembly: The ether liquid electrolyte for LELS batteries 
+was prepared by dissolving an appropriate amount of LiTFSI (1 mol L−1) 
+into a DOL/DME (1:1 by volume) solvent. Lithium foil with 450  µm 
+was used as anode, and the Celgard 2400 separator (LELS batteries) 
+or SPE (SPE-ASSLS batteries) was employed to separate electrodes. 
+Two-electrode cell was tested in 2025-type coin cells. The tested three-
+electrode cells, including the SPE-ASSLS cell, LELS cell, and SPE-based 
+Li-Li symmetry cell, were assembled in a Swagelok three-electrode 
+type cell set-up as shown in Figure 2a. Lithium metal was used as the 
+counter electrodes and reference electrodes for all these cells. The 
+working electrodes of the SPE-ASSLS cell, LELS cell, and SPE-based 
+Li–Li symmetry cell were S@SACNT-SPE, S@SACNT, and Li metal, 
+respectively. All the procedure was processed in an argon-filled glove box.
+Preparation of SACNT-GO-SPE Membrane: To prepare SACNT-GO 
+membrane, 5  mg GO powder was dispersed in ethyl alcohol and 
+effectively sonicated for 15 min to get a uniform suspension. A 5 layers 
+cross-stacked free-standing SACNT network with the area of 50 cm2 was 
+prepared on aluminum frame and then GO suspension was uniformly 
+deposited on it. After evaporation of the solution, another 5 layers 
+cross-stacked CNT network were covered on it to get a sandwich-
+structured SACNT-GO membrane with GO loading of 0.1  mg cm−2. 
+After SACNT-GO membrane was prepared, SPE solution was uniformly 
+dropped on the surface of CNT-GO membrane and the solution would 
+soak into this membrane. SACNT-GO-SPE membrane was prepared 
+after evaporation of the solution at 60 °C for 24 h in vacuum oven.
+Characterization: The morphology and structure characterization were 
+carried out on an SEM (Sirion 200, FEI), a TEM (Tecnai G2F20, FEI), 
+and an optical microscope (LCM-DIM, OLS OLYMPUS). XPS data were 
+collected at the Catalysis and surface Science Endstation at the BL11U 
+beamline in the National Synchrotron Radiation Laboratory (NSRL) in 
+Hefei, China. All the electrochemical measurements were carried out 
+at 60 or 30 °C within the range of 1.6–2.8 V. The galvanostatic charge–
+discharge profile was collected by using a Land CT2001 automatic 
+battery tester. CV was recorded on an Autolab PGSTAT204 at a scan rate 
+of 0.2 mV s−1. Their electrode cell was tested on a VMP-3 electrochemical 
+working station under 0.2 C.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+This work was supported by the National Natural Science Foundation of 
+China (NSFC U1832218). This work was supported in part by the Beijing 
+Advanced Innovation Center for Future Chip (ICFC).
+Conflict of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+Research data are not shared.
+Keywords
+electrode/electrolyte interfaces, lithium/sulfur batteries, polymer-based 
+all-solid-state lithium batteries, reaction mechanisms
+Received: May 21, 2021
+Revised: June 30, 2021
+Published online: July 16, 2021
+[1]	 a) J.-M. Tarascon, M. Armand, Nature 2001, 414, 1008; b) D. Larcher, 
+J. M. Tarascon, Nat. Chem. 2015, 7, 11751; c) Y. Cao, M. Li, J. Lu, 
+J.  Liu, K.  Amine, Nat. Nanotechnol. 2019, 14, 200; d) X.  Feng, 
+M. Ouyang, X. Liu, L. Lu, Y. Xia, X. He, Energy Storage Mater. 2018, 
+10, 246.
+[2]	 a) A.  Fotouhi, D. J.  Auger, K.  Propp, S.  Longo, M.  Wild, Renew-
+able Sustainable Energy Rev. 2016, 56, 1008; b) A.  Manthiram, 
+Y.  Fu, S. H.  Chung, C.  Zu, Y. S.  Su, Chem. Rev. 2014, 114, 11751; 
+c) A. Manthiram, S. H. Chung, C. Zu, Adv. Mater. 2015, 27, 1980; 
+d) A. Rosenman, E. Markevich, G. Salitra, D. Aurbach, A. Garsuch, 
+F. F. Chesneau, Adv. Energy Mater. 2015, 5, 1500212. e) M. Liu, F. Ye, 
+W. Li, H. Li, Y. Zhang, Nano Res. 2016, 9, 94.
+Adv. Funct. Mater. 2021, 31, 2104863
+ 16163028, 2021, 41, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202104863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+www.afm-journal.de
+www.advancedsciencenews.com
+2104863  (8 of 8)
+© 2021 Wiley-VCH GmbH
+[3]	 a) Y.  Wang, E.  Sahadeo, G.  Rubloff, C.-F.  Lin, S. B.  Lee, J. Mater. 
+Sci. 2018, 54, 3671; b) M.  Zhao, B. Q.  Li, H. J.  Peng, H.  Yuan, 
+J. Y. Wei, J. Q. Huang, Angew. Chem., Int. Ed. Engl. 2020, 59, 12636; 
+c) S. Zhang, K. Ueno, K. Dokko, M. Watanabe, Adv. Energy Mater. 
+2015, 5, 1500117.
+[4]	 a) M.  Barghamadi, A. S.  Best, A. I.  Bhatt, A. F.  Hollenkamp, 
+M.  Musameh, R. J.  Rees, T.  Rüther, Energy Environ. Sci. 2014, 7, 
+3902; b) E. Umeshbabu, B. Zheng, Y. Yang, Electrochem. Energy Rev. 
+2019, 2, 199; c) X. Yang, J. Luo, X. Sun, Chem. Soc. Rev. 2020, 49, 
+2140.
+[5]	 a) J.  Wu, S.  Liu, F.  Han, X.  Yao, C.  Wang, Adv. Mater. 2021, 
+33, 200751; b) X.  Yao, N.  Huang, F.  Han, Q.  Zhang, H.  Wan, 
+J. P. Mwizerwa, C. Wang, X. Xu, Adv. Energy Mater. 2017, 7, 1602923; 
+c) F. Han, J. Yue, X. Fan, T. Gao, C. Luo, Z. Ma, L. Suo, C. Wang, 
+Nano Lett. 2016, 16, 4521.
+[6]	 a) S.-J. Tan, X.-X. Zeng, Q. Ma, X.-W. Wu, Y.-G. Guo, Electrochem. 
+Energy Rev. 2018, 1, 113; b) G. Zhou, F. Li, H.-M. J. E. Cheng, E. Sci-
+ence 2014, 7, 1307.
+[7]	 a) I.  Gracia, H.  Ben Youcef, X.  Judez, U.  Oteo, H.  Zhang, C.  Li, 
+L. M. Rodriguez-Martinez, M. Armand, J. Power Sources 2018, 390, 
+148; b) P. Zhu, C. Yan, J. Zhu, J. Zang, Y. Li, H. Jia, X. Dong, Z. Du, 
+C.  Zhang, N.  Wu, M.  Dirican, X.  Zhang, Energy Storage Mater. 
+2019, 17, 220; c) X. Judez, H. Zhang, C. Li, J. A. Gonzalez-Marcos, 
+Z. Zhou, M. Armand, L. M. Rodriguez-Martinez, J. Phys. Chem. Lett. 
+2017, 8, 1956.
+[8]	 a) R. Fang, H. Xu, B. Xu, X. Li, Y. Li, J. B. Goodenough, Adv. Funct. 
+Mater. 2021, 31, 2001812; b) Y.-X. Song, Y. Shi, J. Wan, S.-Y. Lang, 
+X.-C.  Hu, H.-J.  Yan, B.  Liu, Y.-G.  Guo, R.  Wen, L.-J.  Wan, Energy 
+Environ. Sci. 2019, 12, 2496; c) F.  Lee, M.-C.  Tsai, M.-H.  Lin, 
+Y. L.  Ni’mah, S.  Hy, C.-Y.  Kuo, J.-H.  Cheng, J.  Rick, W.-N.  Su, 
+B.-J. Hwang, J. Mater. Chem. A 2017, 5, 6708.
+[9]	 a) Y. Lin, X. Wang, J. Liu, J. D. Miller, S. Abouali, Nano Energy 2017, 31, 
+478; b) O. Sheng, C. Jin, J. Luo, H. Yuan, C. Fang, H. Huang, Y. Gan, 
+J. Zhang, Y. Xia, C. Liang, W. Zhang, X. Tao, J. Mater. Chem. A 2017, 
+5, 12934; c) X. Tao, Y. Liu, W. Liu, G. Zhou, J. Zhao, D. Lin, C. Zu, 
+O. Sheng, W. Zhang, H. W. Lee, Y. Cui, Nano Lett. 2017, 17, 2967.
+[10]	 C. Zhang, Y. Lin, J. Liu, J. Mater. Chem. A 2015, 3, 10760.
+[11]	 a) Y. Qiu, W. Li, W. Zhao, G. Li, Y. Hou, M. Liu, L. Zhou, F. Ye, H. Li, 
+Z. Wei, S. Yang, W. Duan, Y. Ye, J. Guo, Y. Zhang, Nano Lett. 2014, 
+14, 4821; b) J.  Wang, L.  Jia, J.  Zhong, Q.  Xiao, C.  Wang, K.  Zang, 
+H. Liu, H. Zheng, J. Luo, J. Yang, H. Fan, W. Duan, Y. Wu, H. Lin, 
+Y. Zhang, Energy Storage Mater. 2019, 18, 246; c) Y. Hu, W. Chen, 
+T. Lei, Y. Jiao, J. Huang, A. Hu, C. Gong, C. Yan, X. Wang, J. Xiong, 
+Adv. Energy Mater. 2020, 10, 2000082.
+[12]	 H.  Marceau, C.-S.  Kim, A.  Paolella, S.  Ladouceur, M.  Lagacé, 
+M. Chaker, A. Vijh, A. Guerfi, C. M. Julien, A. Mauger, M. Armand, 
+P. Hovington, K. Zaghib, J. Power Sources 2016, 319, 247.
+[13]	 C. Xu, B. Sun, T. Gustafsson, K. Edström, D. Brandell, M. Hahlin, 
+J. Mater. Chem. A 2014, 2, 7256.
+[14]	 A. T. Ward, J. Phys. Chem. 1968, 72, 4133.
+[15]	 L. Ji, M. Rao, H. Zheng, L. Zhang, Y. Li, W. Duan, J. Guo, E. J. Cairns, 
+Y. Zhang, J. Am. Chem. Soc. 2011, 133, 18522.
+[16]	 S. S. Zhang, J. Electrochem. Soc. 2012, 159, A920.
+[17]	 a) X.  Wang, Z.  Wang, L.  Chen, J. Power Sources 2013, 242, 65; 
+b) J.-Q.  Huang, Q.  Zhang, F.  Wei, Energy Storage Mater. 2015, 1, 
+127; c) J. Zhu, C. Chen, Y. Lu, J. Zang, M. Jiang, D. Kim, X. Zhang, 
+Carbon 2016, 101, 272; d) W. B. Kong, L. J. Yan, Y. F. Luo, D. T. Wang, 
+K. L. Jiang, Q. Q. Li, S. S. Fan, J. P. Wang, Adv. Funct. Mater. 2017, 
+27, 1606663; e) J. Huang, Q. Zhang, H. Peng, C. Chen, F. Wei, ACS 
+Nano 2015, 9, 10.
+[18]	 X.  Zhang, K.  Jiang, C.  Feng, P.  Liu, L.  Zhang, J.  Kong, T.  Zhang, 
+Q. Li, S. Fan, Adv. Mater. 2006, 18, 1505.
+Adv. Funct. Mater. 2021, 31, 2104863
+ 16163028, 2021, 41, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202104863 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

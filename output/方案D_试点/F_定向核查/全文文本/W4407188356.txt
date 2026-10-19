@@ -1,0 +1,800 @@
+=== 第 1 页 ===
+Electrode/Electrolyte Interphase Formation by Lithium Iodide in a
+Li2S‑Based Positive Electrode for All-Solid-State Batteries
+Yushi Fujita, Jiong Ding, Hiroe Kowada, Shigeo Mori, Kota Motohashi, Atsushi Sakuda,*
+and Akitoshi Hayashi
+Cite This: ACS Appl. Energy Mater. 2025, 8, 2192−2199
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: Because lithium sulfide (Li2S) as an active material
+is both ionically and electronically insulating, it is typically
+combined with sulfide solid electrolytes (SSEs) and conductive
+carbon in all-solid-state batteries to form a composite positive
+electrode. However, the decomposition of the SSEs at the interface
+causes capacity degradation. Among the many reported Li2S-based
+composite positive electrodes, sulfide active materials incorporating
+LiI specifically improve the battery performance by overcoming the
+decomposition of SSEs. In this study, the interface between the
+Li2S−LiI active material and SSE was analyzed, and the effects of
+LiI on the formation of this interphase were elucidated. Structural
+analyses revealed the formation of an amorphous interphase
+comprising lithium, phosphorus, sulfur, and iodine on the SSE
+surface during the initial charging process. This interphase contributed to the charge−discharge capacity and protected the pure SSE
+inside it from excessive redox decomposition, which led to an improvement in the battery performance. These findings will facilitate
+the design of all-solid-state batteries with sulfide-based active materials.
+KEYWORDS: all-solid-state battery, solid electrolyte, lithium sulfide, interface, active material, lithium iodide
+■INTRODUCTION
+All-solid-state lithium-ion batteries are widely used owing to
+their high energy density and safety, attributed to the inorganic
+solid electrolytes in them, which have flame retardation
+characteristics.1−3 Lithium sulfide (Li2S) is attractive as an
+active material in the positive electrode because of its high
+theoretical capacity (1167 mAh g−1). To compensate for the
+low ionic and electronic conductivities of Li2S,4,5 it is usually
+mixed with conductive additives such as sulfide solid
+electrolytes (SSEs) and conductive carbon. Researchers have
+significantly improved the performance of Li2S-based positive
+electrodes for all-solid-state batteries, including their reversible
+capacities, rate performance, and high areal capacities.6−20
+Despite the enhancement of charge−discharge capacities
+using the aforementioned mixing approach, the cycling stability
+remains a concern. One reason for capacity degradation is the
+decomposition of SSEs.21−26 The electrochemical window of
+SSEs is narrow,27−31 and they readily undergo oxidation and
+reduction during cycling, producing an insulating layer at the
+interface.32 To overcome the high energy barrier required for
+the activation of Li2S33,34 and maximize the capacity, most
+Li2S-based all-solid-state cells are tested beyond the electro-
+chemically stable potential of the SSEs. Therefore, it is crucial
+to control the SSE/sulfide active material interphase.35−39
+Among the many reported Li2S-based composite positive
+electrodes, sulfide active materials incorporating LiI or iodine
+compounds specifically improve the battery perform-
+ance.17,40−47 In particular, Li2S−LiI solid solutions demon-
+strate high charge−discharge capacities comparable to the
+theoretical capacity as well as excellent cycling stability over
+2000 cycles at 2C rate and 25 °C, even if the cell is operated
+above a potential sufficient for the decomposition of SSEs.5,48
+LiI promotes lithium diffusion and acts as an ion conduction
+pathway to the active materials during cycling, resulting in an
+increased charge−discharge capacity.46,49,50 In addition, LiI
+enhances Li diffusion at the interface between Li2S and the
+SSE.42 However, because SSEs have redox potentials similar to
+that of Li2S, their decomposition should be promoted near the
+interface with LiI. Nevertheless, cycle degradation caused by
+the decomposition of SSEs does not occur significantly in the
+cells containing LiI. The most likely reason is that a stable
+interphase is formed as a protective layer between the sulfide
+Received:
+October 25, 2024
+Revised:
+January 20, 2025
+Accepted:
+January 23, 2025
+Published: February 6, 2025
+Article
+www.acsaem.org
+© 2025 The Authors. Published by
+American Chemical Society
+2192
+https://doi.org/10.1021/acsaem.4c02731
+ACS Appl. Energy Mater. 2025, 8, 2192−2199
+This article is licensed under CC-BY-NC-ND 4.0
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​4/​2192/​40395375/​ae4c02731.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 2 页 ===
+active material containing LiI and the SSE. Therefore,
+observing the interface between Li2S−LiI active materials
+and SSE will confirm the formation of the interphase,
+facilitating the design of Li2S-based all-solid-state batteries
+with high capacity, high rate, and long life.
+In this study, the interphase between Li2S−LiI active
+material and SSE was investigated using structural analyses
+such as scanning electron microscopy (SEM), transmission
+electron microscopy (TEM), X-ray diffraction (XRD), and
+magic-angle spinning nuclear magnetic resonance (MAS
+NMR).
+■EXPERIMENTAL SECTION
+Synthesis. All procedures were conducted in a dry Ar atmosphere.
+Li2S−LiI solid solutions were prepared using a mechanochemical
+process. Li2S (99.9%, Mitsuwa Chemicals Co., Ltd.) and LiI
+(99.999%, Sigma-Aldrich) at a molar ratio of 80:20 was placed in a
+ZrO2 pot (45 mL) with 29 g of ZrO2 balls (4 mm diameter). Ball-
+milling was performed using a planetary ball mill (Fritsch Pulverisette
+7 classic line) for 10 h at 510 rpm. Li3PS4 (LPS) glass was prepared
+via mechanical process. Li2S and P2S5 (99%, Sigma-Aldrich) at a
+molar ratio of 75:25 was placed in a ZrO2 pot (250 mL) with 450 g of
+ZrO2 balls (4 mm diameter). Ball-milling was performed using a
+planetary ball mill (Fritsch Pulverisette 5 classic line) for 70 h at 210
+rpm. 54Li3PS4·46LiI glass was prepared via mechanical process. Li2S,
+P2S5, and LiI were placed in a ZrO2 pot (45 mL) with 90 g of ZrO2
+balls (4 mm diameter). Ball-milling was performed using a planetary
+ball mill (Fritsch Pulverisette 7 classic line) for 10 h at 510 rpm.
+Figure 1. (a) Schematic of the all-solid-state cell and interphase formed between Li2S−LiI−carbon and Li3PS4. (b) GITT plots of the cell (Li−In/
+Li3PS4/Li2S−LiI−VGCF−Li3PS4) during the 1st cycle measured at C/20 and 25 °C. (c)−(f) Cross-sectional SEM images of Li2S−LiI−VGCF−
+Li3PS4 composite positive electrodes before cycling, after reaching SOC80%, after the 1st full charge, and after the 1st full discharge, respectively.
+Left side: secondary electron images, right side: backscattered images. AM: Li2S−LiI−VGCF particles, SE: Li3PS4 particles, Interphase: the
+interphase. (g) SEM-EDS images of the composite after full charge at C/10 and 25 °C.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02731
+ACS Appl. Energy Mater. 2025, 8, 2192−2199
+2193
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​4/​2192/​40395375/​ae4c02731.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 3 页 ===
+Composite positive electrodes were prepared through a two-step
+process. First, active material and vapor-grown carbon fibers (VGCF,
+Resonac HD. Co.) were mixed using an agate mortar and pestle for 15
+min. The mixed sample was put in a ZrO2 pot (45 mL) with 29 g of
+ZrO2 balls (4 mm diameter). Ball-milling was performed using a
+planetary ball mill (Fritsch Pulverisette 7 classic line) for 10 h at 510
+rpm. The milled sample was directly used as a positive electrode layer
+in some cells. Second, an SSE (LPS or 54Li3PS4·46LiI) was added
+using a ball mill (Pulverisette 23 Fritsch GmbH), which is a mild
+condition equal to mixing using an agate mortar and pestle. The
+weight ratio of Li2S−LiI or LiI to VGCF to SSE is 5:1:4. The weight
+ratio of Li2S to VGCF to SSE is 3:1:6.
+Material Characterization. SEM and energy-dispersive X-ray
+spectroscopy (EDS) were performed using field-emission scanning
+electron microscope (FE-SEM, SU-8220; Hitachi High- Technologies
+Corp.) and an energy-dispersive X-ray spectroscopy system
+(EMAXEvolution X-MAX, Horiba Ltd.). Cross sections of the pellet
+were prepared using an Ar+ ion milling system (IM4000; Hitachi
+High-Technologies Corp.). TEM observation was conducted using
+the JEM-2100Plus (JEOL Co., Ltd.) at an accelerating voltage of 200
+kV. The TEM sample was prepared by a focused ion beam (FIB)
+apparatus (JIB-4700F, JEOL Co., Ltd.). The pellet pieces were
+subjected to a Ga+ beam treatment to prepare thin films. The resulting
+films had a cross-section of 8 μm × 6 μm and a thickness of 100 nm.
+During the TEM observations, a cryo vacuum transfer TEM holder
+(Mel-Build) was used to avoid exposing the samples to air. The
+sample was stabilized at −165 °C using liquid nitrogen. A
+complementary metal−oxide−semiconductor camera (OneView,
+Gatan Inc.) was used to record and prevent specimen drift. The
+microstructures of the sample were examined by recording patterns.
+XRD measurements were performed using an X-ray diffractometer
+(SmartLab, Rigaku) with Cu Kα radiation. Powder and pellet samples
+were sealed in an airtight container with a polymer and Be film
+window, respectively. Diffraction data were collected in the 2θ range
+of 5°−80° at a scan rate of 10° min−1 with a step size of 0.02°. LiI was
+ball-milled at 510 rpm for 10 h using a planetary ball mill (Fritsch
+Pulverisette 7 classic line).
+7Li and
+31P solid-state MAS NMR
+experiments were performed by using an NMR spectrometer (JNM-
+ECZL500G; JEOL). The sample powders were packed into zirconia
+spinners under a dry Ar atmosphere. The observation frequencies of
+7Li and 31P were 194.4 and 202.5 MHz, respectively. The spectra were
+acquired by a single pulse with a width of 7Li of 3.08 and 31P of 2.33
+μs (equivalent to the 90° pulse width). The recycled pulse delays for
+the
+7Li and
+31P MAS NMR measurements were 5 and 10 s,
+respectively. The MAS was set to 20 kHz. The chemical shifts of 7Li
+and 31P NMR spectra were calibrated using 1.0 M LiCl aq (at 0.0
+ppm) and 85% H3PO4 aq (at 0.0 ppm), respectively. Hydrate (LiI·
+x(H2O), Alfa Aesar) was grounded by an agate mortar and pestle for
+measurements. X-ray photoelectron spectroscopy (XPS) measure-
+ments were conducted using an XPS instrument (K-Alpha, Thermo
+Fisher Scientific) with a monochromatic Al Kα source (1486.6 eV).
+Ar+ etching was performed to remove surface impurities. The peaks
+were calibrated using the C 1s peak (284.7 eV).
+Electrochemical Testing. Charge−discharge measurements were
+performed using a BTS-2004 or BTS-2005 charge−discharge device
+(Nagano Co.). The alternating-current (AC) impedance for all-solid-
+state cells was measured using an impedance analyzer (SI-1287,
+Solartron Analytical) at 105 Hz to 0.01 Hz and 10 mV. The AC
+impedance for SSEs was measured using an impedance analyzer (SI-
+1260, Solartron Analytical) at 10 MHz to 0.1 Hz and 10 mV. SSEs
+were pelletized by pressing at 360 MPa for 5 min. Both sides of the
+pellet surface were covered with Au as a current collector. The mean
+diffusion coefficient (D·R−2) was calculated from the galvanostatic
+intermittent titration technique (GITT) profiles.
+Cell Assembly. All procedures were conducted in a dry Ar
+atmosphere. An SSE (80 mg) was placed in a polycarbonate cylinder
+(10 mm diameter) and pressed at a few MPa for a few seconds. The
+composite positive electrode was placed on the separator layer and
+pressed together at 360 MPa for 5 min. The weight was ca. 10 mg for
+the composite containing the SSE and ca. 5 mg for the composite not
+containing the SSE. A Li−In alloy, prepared by touching a lithium foil
+(6 mm diameter and 0.25 mm thickness) to an indium foil (8 mm
+diameter and 0.3 mm thickness), was used as a negative electrode and
+reference electrode. The lithium and indium foils were placed on the
+separator layer, which was another surface with the positive
+composites, and then pressed at approximately 36 MPa for 2 min.
+Stainless steel rods as current collectors were placed on either side of
+the prepared three-layer pellet. The assembled cell was tightened as
+much as possible. The stack pressure is over 50 MPa.
+■RESULTS AND DISCUSSION
+Figure 1a schematically shows the all-solid-state cell and the
+target interphase. The composite positive electrode comprised
+a Li2S−LiI solid solution, VGCF, and LPS glass. LPS glass was
+selected as a representative SSE owing to its simple
+composition and excellent ductility.51,52 Figure 1b shows the
+charge−discharge curves obtained at C/20 rate and 25 °C
+using the GITT, which can promote a uniform reaction.53,54
+Figure S1 shows differences in the charge−discharge behavior
+due to different charge−discharge conditions. By decreasing
+the charge−discharge rate and increasing the temperature, the
+overpotential is lowered as much as possible, leading to the
+appearance of the hidden plateau. Figure S2 shows the cells
+with Li2S−VGCF−LPS and LiI−VGCF−LPS as a comparison.
+The capacity components in the cells using Li2S−LiI−VGCF−
+LPS were determined by comparing the cells using Li2S−LiI−
+VGCF−LPS with the cells using Li2S−VGCF−LPS and LiI−
+VGCF−LPS, as well as by further reviewing the liter-
+ature5,23−25,30,49,55 (details are discussed in the Supporting
+Information). The state of charge (SOC) was calculated by
+dividing the obtained capacity by the theoretical capacity of
+Li2S. In the cells using Li2S−LiI−VGCF−LPS, the oxidation of
+Li2S dominated the capacity until SOC80% (approximately
+270 mAh g−1 based on the weight of the positive electrode,
+corresponding to 930 mAh g−1 based on the weight of the
+Li2S). The oxidation of LiI became dominant after SOC80%.
+However, note that the contributions of all components cannot
+be precisely determined, because the interphase formation,
+decomposition of SSE, and oxidation of lithium polysulfides
+should also contribute to the charge capacity.23,25,47,49,55 In
+addition, an irreversible capacity was observed, because the
+oxidation products of Li2S (such as polysulfides) may not have
+been completely reduced.
+To observe the interphase formation, the all-solid-state cells
+were disassembled after reaching SOC80%, the first full charge,
+and the first full discharge for SEM observations. Figure 1c−f
+shows the cross-sectional SEM images of the positive electrode
+layers during the initial cycle. Although only two contrasts
+derived from Li2S−LiI−VGCF and LPS were detected before
+cycling (indicated by AM and SE, respectively), another
+contrast derived from the interphase appeared after reaching
+SOC80% (indicated as “Interphase”). This interphase was
+formed only in a thin layer ranging from several hundred
+nanometers to several microns on the surface of LPS particles.
+Also, its detection after the first discharge suggests that it was
+maintained during cycling. The thickness of the interphase
+does not appear to be changed after discharging. Figures 1g
+and S3 show the EDS mappings after the first full charge.
+Interestingly, in addition to phosphorus and sulfur, iodine was
+also distributed in the interphase. This indicates that iodine
+was supplied from the Li2S−LiI−VGCF particles and
+integrated into the interphase. This interphase must have
+been formed during cycling rather than during the preparation
+of cross-section or other experimental steps, since it was not
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02731
+ACS Appl. Energy Mater. 2025, 8, 2192−2199
+2194
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​4/​2192/​40395375/​ae4c02731.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 4 页 ===
+observed between the Li2S−LiI−VGCF and LPS particles
+before cycling.
+Next, TEM analysis was carried out on specific cells to
+observe the interphase in detail. The cell of (Li−In/LPS/
+Li2S−LiI−VGCF) was fabricated, and the interphase was
+intentionally formed between the LPS separator and Li2S−
+LiI−VGCF electrode. Figure 2a shows the cell schematic, and
+Figure S4 shows a charge curve of the cell. The charge capacity
+was approximately 436 mAh g−1 based on the weight of the
+positive electrode, which corresponds to 870 mAh g−1 based
+on the weight of Li2S. Figures 2b and S5 show the cross-
+sectional SEM-EDS images of the cell after charging. A thick
+interphase was formed between the LPS separator and Li2S−
+LiI−VGCF electrode. TEM observations were made on
+specific areas including three layers: the electrode, interphase,
+and the LPS separator. Figure 2c shows a bright field image,
+and the circles marked in the bright field image indicate the
+locations where the selected area aperture was inserted. Figure
+2d−f shows the corresponding selected area electron
+diffraction (SAED) patterns of each layer. The crystallization
+was observed in the LPS separator layer, even though this layer
+should be amorphous. In subsequent XRD characterization, no
+crystallization of LPS was observed during the charging
+process. Therefore, the crystallization of LPS is likely due to
+the low-temperature cooling caused by the cryo-TEM holder.
+The interphase had a mostly amorphous structure. The
+diffraction spots observed in the SAED pattern of interphase
+are thought to originate from the adjacent crystallized LPS. In
+addition, the SAED pattern of the Li2S−LiI−VGCF electrode
+showed amorphous structures because Li2S was converted to
+amorphous sulfur or lithium polysulfides during charging. LiI is
+sensitive to high electron beam for the TEM observations and
+LiI crystals are considered to disappear. Based on the SEM
+images in Figure 1, we conclude that the interphase was an
+amorphous (or glass) material composed of Li, P, S, and I.
+Figure 2. (a) Schematic of the all-solid-state cell used for TEM observations. (b) Cross-sectional SEM image and EDS I Lα1 mapping of the cell
+(Li−In/Li3PS4/Li2S−LiI−VGCF) after charging. (c) TEM image of the interphase between Li3PS4 separator and Li2S−LiI−VGCF electrode. ED
+patterns of (d) Li3PS4 separator, (e) interphase, and (f) Li2S−LiI−VGCF electrode.
+Figure 3. (a) XRD patterns, (b) 31P MAS NMR spectra, and (c) 7Li MAS NMR spectra of Li2S−LiI−VGCF−Li3PS4 composite positive electrode
+during the 1st cycle.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02731
+ACS Appl. Energy Mater. 2025, 8, 2192−2199
+2195
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​4/​2192/​40395375/​ae4c02731.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 5 页 ===
+To obtain further structural information on the Li2S−LiI−
+VGCF−LPS composite during cycling, XRD and 31P and 7Li
+MAS NMR analyses were conducted. Figures 3a and S6 show
+the XRD patterns obtained during cycling. The charge−
+discharge mechanism of Li2S−LiI−VGCF has been previously
+investigated,47,49 and the XRD patterns in this study showed
+changes similar to those in the previous report. The difference
+between ref.47,49 and this study is the contact area between
+Li2S−LiI−VGCF and LPS, and more interphase formation is
+expected in this study. Nevertheless, no new peaks were
+detected in the XRD pattern, confirming that the interphase
+was amorphous, in agreement with the TEM observations.
+Figure 3b,c shows the 31P and 7Li MAS NMR spectra before
+and after cycling. PS4
+3−was mainly detected in all 31P MAS
+NMR spectra, indicating that LPS was not dramatically
+oxidized or reduced because of the interphase formed around
+it. Peaks originating from the interphase were not detected,
+because of either their low abundance ratio or overlap with the
+peak of PS4
+3−. In the 7Li MAS NMR spectra before cycling,
+peaks derived from Li2S−LiI and LPS were observed at
+approximately 1.8 and 2.2 ppm, respectively.42,56,57 After
+charging, the peak of Li2S−LiI disappeared, and those of LiI
+and LiI hydrate appeared at approximately −4.7 and −0.6 ppm
+(see Figure S7), and the latter two phases were also observed
+in XRD. In addition, a new peak assigned as the interphase was
+observed at approximately −1.6 ppm. Considering the
+presence of a chemical shift between the peaks of LPS and
+LiI, Li in the interphase should exist in an intermediate
+environment consisting of LPS and LiI. Similar peaks were
+previously reported in the GeS2−Ga2S3−LiI system.58 After
+discharge, the peaks of LiI, LiI·H2O, and LPS remained, and
+that of Li2S−LiI reappeared. In addition, the peak derived from
+the interphase disappeared, suggesting that the interphase was
+reduced during discharge and contributed to the discharge
+capacity. During subsequent charging and discharging, this
+interphase was oxidized and reduced similar to the active
+material, and pure LPS inside the interphase was protected
+from further redox decomposition.
+Next, XPS measurements were performed on the Li2S−LiI−
+VGCF−LPS composite, and Figure S8 shows the S 2p, P 2p,
+and I 3d spectra before and after charging and discharging. The
+S 2p spectra confirmed the redox of S species. The P 2p
+spectra slightly shifted to the higher binding energy, indicating
+that LPS was partially oxidized. In addition, the I 3d spectrum
+Scheme 1. Schematic of the Charge−Discharge Mechanism of Li2S−LiI−VGCF−Li3PS4, Focusing on the Interphase
+Figure 4. (a) Schematic of all-solid-state cells (Li−In/Li3PS4/Li2S−VGCF−Li3PS4) and (Li−In/Li3PS4−LiI/Li2S−VGCF−Li3PS4−LiI). (b)
+Charge−discharge curves of the cells (Li−In/Li3PS4/Li2S−VGCF−Li3PS4) and (Li−In/Li3PS4−LiI/Li2S−VGCF−Li3PS4−LiI). Nyquist plots of
+(c) (Li−In/Li3PS4/Li2S−VGCF−Li3PS4) cell and (d) (Li−In/Li3PS4−LiI/Li2S−VGCF−Li3PS4−LiI) cell after the 1st and 20th charge.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02731
+ACS Appl. Energy Mater. 2025, 8, 2192−2199
+2196
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​4/​2192/​40395375/​ae4c02731.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 6 页 ===
+remained unchanged before and after charging and discharg-
+ing. LiI oxidation was not detected in the Li2S−LiI active
+material, even though there was a plateau in the charge−
+discharge curves at a potential corresponding to LiI oxidation
+(see Figure S2). This suggests that LiI acted as a redox
+mediator.12,13,25 Figure S9 shows the XPS I 3d spectrum after
+initially charging the cell with LiI−VGCF−LPS composite as
+the positive electrode (the charge−discharge curves are shown
+in Figure S2). An I0 peak was observed, suggesting that LiI was
+oxidized when Li2S was not included in the composite positive
+electrode. This confirms that LiI acted as a redox mediator in
+the Li2S−LiI−VGCF−LPS composite. In addition, the
+interphase should have a high Li diffusion capability to enable
+high-rate cycling. Figure S10 shows the GITT measurements
+of cells with Li2S−VGCF−LPS, LiI−VGCF−LPS, and Li2S−
+LiI−VGCF−LPS. The two cells containing LiI showed
+reduced overpotentials, suggesting that the interior of the
+active material and the interfacial phase promoted Li diffusion.
+These effects of LiI at the interface are consistent with a
+previous report based on NMR measurements.42
+Based on the above experiments, we propose the charge−
+discharge mechanism of the interphase shown in Scheme 1. An
+amorphous interphase composed of Li, P, S, and I was formed
+on the surface of SSE particles until SOC80% with iodine
+supplied from the Li2S−LiI−VGCF particles. The amorphous
+interphase was related to LPS−LiI glass (LPS-LiI). The LPS−
+LiI glass improved the tolerance to reduction with Li metal and
+enhanced the Li dissolution/deposition cycling perform-
+ance.59,60 Therefore, the interphase acts as a protective layer
+to prevent further decomposition of LPS. Both Li2S−LiI−
+VGCF and the interphase were oxidized and reduced
+continuously. Thus, LiI promoted the formation of an
+amorphous interphase on the SSE surface, enhanced the
+diffusion of lithium ions, contributed slightly to the charge−
+discharge capacity, and prevented further decomposition of the
+SSE.
+The results discussed above demonstrated that an interphase
+was formed on the surface of bulk LPS. It was consequently
+inferred that the interphase would also be formed when LiI is
+already present in the solid electrolyte rather than in the active
+material of the composite positive electrode. To provide
+further evidence of how LiI affects the interphase formation,
+we compared the performance of cells using Li2S−VGCF−LPS
+and Li2S−VGCF−LPS−LiI composites as the positive electro-
+des. The XRD pattern and Nyquist plots of the LPS−LiI
+sample are shown in Figure S11. Figure 4a displays the Li2S
+cells with LPS and LPS−LiI, and Figure 4b shows their
+charge−discharge curves. Both cells demonstrated an
+enhanced capacity with each cycle due to the contribution of
+the SSE to the capacity. After 20 cycles, the cell with LPS−LiI
+exhibited a slightly higher capacity and lower overvoltage than
+that with LPS. This suggests that the formed interphase
+contributed slightly to the capacity and enhanced Li diffusion.
+Figure 4c,d shows the Nyquist plots of both cells after the first
+and 20th charge. After the 20th cycle, the cell with LPS-LiI
+showed a lower resistance in the low-frequency range than that
+with LPS. The resistance component in the low-frequency
+range originates from lithium diffusion in the positive
+electrode.24,61 In addition, the presence of LiI improves the
+lithium diffusion,49 and possibly the interphase assists the
+lithium diffusion after cycling. Thus, LiI formed the interphase
+even though it was only included in the SSEs, confirming the
+effectiveness of LiI.24,61
+■CONCLUSION
+The interphase between Li2S−LiI active materials and SSEs
+was investigated to clarify why positive electrodes with sulfide
+active materials and iodine compounds have enhanced
+electrochemical capacity, including charge−discharge and
+cycle performances. Structural analysis using SEM, TEM,
+XRD, and NMR confirmed that an amorphous interphase
+consisting of Li, P, S, and I was formed on the LPS surface
+during the initial charging process. The interphase was
+suspected to be an LPS−LiI glass-like material. This interphase
+contributed to the charge−discharge capacity and protected
+the pure LPS inside it from excessive redox decomposition for
+continuous cycling, leading to high capacity, high rate, and
+stable cycle life. Nevertheless, the precise structure, diffusion
+coefficient, and ionic conductivity of the interfacial phase
+remain unknown, and there is scope for further discussion of
+the role of the interface by extracting only the interphase and
+conducting a detailed analysis. These results could further
+facilitate the design of artificial solid electrolyte interphases and
+advance our understanding of the role these interphases play in
+all-solid-state batteries with sulfide-based active materials.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsaem.4c02731.
+Charge−discharge curves, SEM-EDS images, XRD
+patterns, XPS spectra of the cells using Li2S−LiI−
+VGCF−Li3PS4, Li2S−VGCF−Li3PS4, and LiI−VGCF−
+Li3PS4, 7Li MAS NMR spectra of LiI and LiI hydrate,
+XRD patterns and Nyquist plots of 54Li3PS4·46LiI glass,
+and discussion for capacity contribution (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Atsushi Sakuda −Department of Applied Chemistry,
+Graduate School of Engineering, Osaka Metropolitan
+University, Sakai 599-8531, Japan;
+orcid.org/0000-
+0002-9214-0347; Email: saku@omu.ac.jp
+Authors
+Yushi Fujita −Department of Applied Chemistry, Graduate
+School of Engineering, Osaka Metropolitan University, Sakai
+599-8531, Japan
+Jiong Ding −Department of Materials Science, Graduate
+School of Engineering, Osaka Metropolitan University, Sakai
+599-8531, Japan;
+orcid.org/0000-0001-5462-8686
+Hiroe Kowada −Department of Applied Chemistry, Graduate
+School of Engineering, Osaka Metropolitan University, Sakai
+599-8531, Japan
+Shigeo Mori −Department of Materials Science, Graduate
+School of Engineering, Osaka Metropolitan University, Sakai
+599-8531, Japan
+Kota Motohashi −Department of Applied Chemistry,
+Graduate School of Engineering, Osaka Metropolitan
+University, Sakai 599-8531, Japan;
+orcid.org/0000-
+0001-9318-7588
+Akitoshi Hayashi −Department of Applied Chemistry,
+Graduate School of Engineering, Osaka Metropolitan
+University, Sakai 599-8531, Japan;
+orcid.org/0000-
+0001-9503-5561
+Complete contact information is available at:
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02731
+ACS Appl. Energy Mater. 2025, 8, 2192−2199
+2197
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​4/​2192/​40395375/​ae4c02731.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 7 页 ===
+https://pubs.acs.org/10.1021/acsaem.4c02731
+Author Contributions
+Y.F. wrote the original manuscript. Y.F. conducted the
+synthesis, material characterization, and charge−discharge
+measurements. H.K. conducted the NMR measurements and
+analysis. J.D. and S.M. analyzed the samples using TEM. K.M.,
+A.S., and A.H. supervised the study. All authors have reviewed
+and approved the final version of the manuscript.
+Funding
+This research was supported by JSPS KAKENHI (Grant No.
+JP23KJ1833) and the JST GteX Project (Grant No.
+JPMJGX23S5).
+Notes
+The authors declare no competing financial interest.
+■REFERENCES
+(1) Banerjee, A.; Wang, X.; Fang, C.; Wu, E. A.; Meng, Y. S.
+Interfaces and Interphases in All-Solid-State Batteries with Inorganic
+Solid Electrolytes. Chem. Rev. 2020, 120 (14), 6878−6933.
+(2) Yang, X.; Luo, J.; Sun, X. Towards High-Performance Solid-State
+Li−S Batteries: From Fundamental Understanding to Engineering
+Design. Chem. Soc. Rev. 2020, 49 (7), 2140−2195.
+(3) Wu, J.; Liu, S.; Han, F.; Yao, X.; Wang, C. Lithium/Sulfide All-
+Solid-State Batteries Using Sulfide Electrolytes. Adv. Mater. 2021, 33
+(6), No. e2000751.
+(4) Zhang, K.; Wang, L.; Hu, Z.; Cheng, F.; Chen, J. Ultrasmall Li2S
+Nanoparticles Anchored in Graphene Nanosheets for High-Energy
+Lithium-Ion Batteries. Sci. Rep. 2014, 4 (1), 6467.
+(5) Hakari, T.; Hayashi, A.; Tatsumisago, M. Li2S-Based Solid
+Solutions as Positive Electrodes with Full Utilization and Superlong
+Cycle Life in All-Solid-State Li/S Batteries. Adv. Sustain. Syst. 2017, 1
+(6), 1700017.
+(6) Han, F.; Yue, J.; Fan, X.; Gao, T.; Luo, C.; Ma, Z.; Suo, L.;
+Wang, C. High-Performance All-Solid-State Lithium-Sulfur Battery
+Enabled by a Mixed-Conductive Li2S Nanocomposite. Nano Lett.
+2016, 16 (7), 4521−4527.
+(7) Yan, H.; Wang, H.; Wang, D.; Li, X.; Gong, Z.; Yang, Y. In Situ
+Generated Li2S-C Nanocomposite for High-Capacity and Long-Life
+All-Solid-State Lithium Sulfur Batteries with Ultrahigh Areal Mass
+Loading. Nano Lett. 2019, 19 (5), 3280−3287.
+(8) Zhang, Q.; Huang, N.; Huang, Z.; Cai, L.; Wu, J.; Yao, X.
+CNTs@S Composite as Cathode for All-Solid-State Lithium-Sulfur
+Batteries with Ultralong Cycle Life. J. Energy Chem. 2020, 40, 151−
+155.
+(9) Chen, B.; Deng, S.; Jiang, M.; Wu, M.; Wu, J.; Yao, X. Intimate
+Triple Phase Interfaces Confined in Two-Dimensional Ordered
+Mesoporous Carbon Towards High-Performance All-Solid-State
+Lithium-Sulfur Batteries. Chem. Eng. J. 2022, 448, 137712.
+(10) Gao, X.; Zheng, X.; Wang, J.; Zhang, Z.; Xiao, X.; Wan, J.; Ye,
+Y.; Chou, L.-Y.; Lee, H. K.; Wang, J.; Vilá, R. A.; Yang, Y.; Zhang, P.;
+Wang, L.-W.; Cui, Y. Incorporating the Nanoscale Encapsulation
+Concept from Liquid Electrolytes into Solid-State Lithium−Sulfur
+Batteries. Nano Lett. 2020, 20 (7), 5496−5503.
+(11) Jiang, M.; Liu, G.; Zhang, Q.; Zhou, D.; Yao, X. Ultrasmall
+Li2S-Carbon Nanotube Nanocomposites for High-Rate All-Solid-State
+Lithium-Sulfur Batteries. ACS Appl. Mater. Interfaces 2021, 13 (16),
+18666−18672.
+(12) Kwok, C. Y.; Xu, S.; Kochetkov, I.; Zhou, L.; Nazar, L. F. High-
+Performance All-Solid-State Li2S Batteries Using an Interfacial Redox
+Mediator. Energy Environ. Sci. 2023, 16 (2), 610−618.
+(13) Yu, P.; Sun, S.; Sun, C.; Zeng, C.; Hua, Z.; Ahmad, N.; Shao,
+R.; Yang, W. Active Regulation Volume Change of Micrometer-Size
+Li2S Cathode with High Materials Utilization for All-Solid-State Li/S
+Batteries Through an Interfacial Redox Mediator. Adv. Funct. Mater.
+2024, 34 (8), 2306939.
+(14) Nagao, M.; Hayashi, A.; Tatsumisago, M. High-Capacity Li2S−
+Nanocarbon Composite Electrode for All-Solid-State Rechargeable
+Lithium Batteries. J. Mater. Chem. 2012, 22 (19), 10015−10020.
+(15) Hakari, T.; Fujita, Y.; Deguchi, M.; Kawasaki, Y.; Otoyama, M.;
+Yoneda, Y.; Sakuda, A.; Tatsumisago, M.; Hayashi, A. Solid
+Electrolyte with Oxidation Tolerance Provides a High-Capacity
+Li2S-Based Positive Electrode for All-Solid-State Li/S Batteries. Adv.
+Funct. Mater. 2022, 32 (5), 2106174.
+(16) Shigedomi, T.; Fujita, Y.; Kishi, T.; Motohashi, K.; Tsukasaki,
+H.; Nakajima, H.; Mori, S.; Tatsumisago, M.; Sakuda, A.; Hayashi, A.
+Li2S−V2S3−LiI Bifunctional Material as the Positive Electrode in the
+All-Solid-State Li/S Battery. Chem. Mater. 2022, 34 (21), 9745−9752.
+(17) Fujita, Y.; Sakuda, A.; Hasegawa, Y.; Deguchi, M.; Motohashi,
+K.; Jiong, D.; Tsukasaki, H.; Mori, S.; Tatsumisago, M.; Hayashi, A.
+High Capacity Li2S-Li2O-LiI Positive Electrodes with Nanoscale Ion-
+Conduction Pathways for All-Solid-State Li/S Batteries. Small 2023,
+19 (36), 2302179.
+(18) Fujita, Y.; Motohashi, K.; Ding, J.; Tsukasaki, H.; Mori, S.;
+Sakuda, A.; Hayashi, A. Lithium Sulfite Enhances Cycle Performance
+of All-Solid-State Batteries with Li2S-Based Positive Electrode
+Materials. ACS Appl. Energy Mater. 2024, 7 (13), 5447−5436.
+(19) Yu, Y.; Singh, B.; Yu, Z.; Kwok, C. Y.; Kochetkov, I.; Nazar, L.
+F. A Nanocrystallite CuS/Nitrogen-Doped Carbon Host Improves
+Redox Kinetics in All-Solid-State Li2S Batteries. Adv. Energy Mater.
+2024, 14, 2400845.
+(20) Matsuda, A.; Hikima, K. Preparation of Lithium Sulfide-Based
+Cathode Materials and Application to All-Solid-State Batteries. J. Jpn.
+Soc. Powder Powder Metall. 2024, 71 (3), 75−80.
+(21) Ohno, S.; Koerver, R.; Dewald, G.; Rosenbach, C.; Titscher, P.;
+Steckermeier, D.; Kwade, A.; Janek, J.; Zeier, W. G. Observation of
+Chemomechanical Failure and the Influence of Cutoff Potentials in
+All-Solid-State Li−S Batteries. Chem. Mater. 2019, 31 (8), 2930−
+2940.
+(22) Swamy, T.; Chen, X.; Chiang, Y.-M. Electrochemical Redox
+Behavior of Li Ion Conducting Sulfide Solid Electrolytes. Chem.
+Mater. 2019, 31 (3), 707−713.
+(23) Ohno, S.; Zeier, W. G. Toward Practical Solid-State Lithium−
+Sulfur Batteries: Challenges and Perspectives. Acc. Mater. Res. 2021, 2
+(10), 869−880.
+(24) Ohno, S.; Rosenbach, C.; Dewald, G. F.; Janek, J.; Zeier, W. G.
+Linking Solid Electrolyte Degradation to Charge Carrier Transport in
+the Thiophosphate-Based Composite Cathode Toward Solid-State
+Lithium-Sulfur Batteries. Adv. Funct. Mater. 2021, 31 (18), 2010620.
+(25) Gamo, H.; Hikima, K.; Matsuda, A. Understanding
+Decomposition of Electrolytes in All-Solid-State Lithium−Sulfur
+Batteries. Chem. Mater. 2022, 34 (24), 10952−10963.
+(26) Dewald, G. F.; Ohno, S.; Kraft, M. A.; Koerver, R.; Till, P.;
+Vargas-Barbosa, N. M.; Janek, J.; Zeier, W. G. Experimental
+Assessment of the Practical Oxidative Stability of Lithium
+Thiophosphate Solid Electrolytes. Chem. Mater. 2019, 31 (20),
+8328−8337.
+(27) Zhu, Y.; He, X.; Mo, Y. Origin of Outstanding Stability in the
+Lithium Solid Electrolyte Materials: Insights from Thermodynamic
+Analyses Based on First-Principles Calculations. ACS Appl. Mater.
+Interfaces 2015, 7 (42), 23685−23693.
+(28) Richards, W. D.; Miara, L. J.; Wang, Y.; Kim, J. C.; Ceder, G.
+Interface Stability in Solid-State Batteries. Chem. Mater. 2016, 28 (1),
+266−273.
+(29) Zhu, Y.; He, X.; Mo, Y. First Principles Study on
+Electrochemical and Chemical Stability of Solid Electrolyte−
+Electrode Interfaces in All-Solid-State Li-Ion Batteries. J. Mater.
+Chem. A Mater. Energy Sustain. 2016, 4 (9), 3253−3266.
+(30) Tan, D. H. S.; Wu, E. A.; Nguyen, H.; Chen, Z.; Marple, M. A.
+T.; Doux, J.-M.; Wang, X.; Yang, H.; Banerjee, A.; Meng, Y. S.
+Elucidating Reversible Electrochemical Redox of Li6PS5Cl Solid
+Electrolyte. ACS Energy Lett. 2019, 4 (10), 2418−2427.
+(31) Schwietert, T. K.; Arszelewska, V. A.; Wang, C.; Yu, C.;
+Vasileiadis, A.; de Klerk, N. J. J.; Hageman, J.; Hupfer, T.; Kerkamm,
+I.; Xu, Y.; van der Maas, E.; Kelder, E. M.; Ganapathy, S.; Wagemaker,
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02731
+ACS Appl. Energy Mater. 2025, 8, 2192−2199
+2198
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​4/​2192/​40395375/​ae4c02731.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 8 页 ===
+M. Clarifying the Relationship Between Redox Activity and
+Electrochemical Stability in Solid Electrolytes. Nat. Mater. 2020, 19
+(4), 428−435.
+(32) Yu, C.; Ganapathy, S.; Hageman, J.; van Eijck, L.; van Eck, E. R.
+H.; Zhang, L.; Schwietert, T.; Basak, S.; Kelder, E. M.; Wagemaker,
+M. Facile Synthesis Toward the Optimal Structure-Conductivity
+Characteristics of the Argyrodite Li6PS5Cl Solid-State Electrolyte.
+ACS Appl. Mater. Interfaces 2018, 10 (39), 33296−33306.
+(33) Yang, Y.; Zheng, G.; Misra, S.; Nelson, J.; Toney, M. F.; Cui, Y.
+High-Capacity Micrometer-Sized Li2S Particles as Cathode Materials
+for Advanced Rechargeable Lithium-Ion Batteries. J. Am. Chem. Soc.
+2012, 134 (37), 15387−15394.
+(34) Ye, H.; Li, M.; Liu, T.; Li, Y.; Lu, J. Activating Li2S as the
+Lithium-Containing Cathode in Lithium−Sulfur Batteries. ACS
+Energy Lett. 2020, 5 (7), 2234−2245.
+(35) Yu, C.; Ganapathy, S.; de Klerk, N. J. J.; Roslon, I.; van Eck, E.
+R. H.; Kentgens, A. P. M.; Wagemaker, M. Unravelling Li-Ion
+Transport from Picoseconds to Seconds: Bulk versus Interfaces in an
+Argyrodite Li6PS5Cl−Li2S All-Solid-State Li-Ion Battery. J. Am. Chem.
+Soc. 2016, 138 (35), 11192−11201.
+(36) Yue, J.; Yan, M.; Yin, Y.-X.; Guo, Y.-G. Progress of the Interface
+Design in All-Solid-State Li−S Batteries. Adv. Funct. Mater. 2018, 28
+(38), 1707533.
+(37) Li, Y.; Zhang, D.; Xu, X.; Wang, Z.; Liu, Z.; Shen, J.; Liu, J.;
+Zhu, M. Interface Engineering for Composite Cathodes in Sulfide-
+Based All-Solid-State Lithium Batteries. J. Energy Chem. 2021, 60,
+32−60.
+(38) Kim, H.; Choi, H.-N.; Hwang, J.-Y.; Yoon, C. S.; Sun, Y.-K.
+Tailoring the Interface Between Sulfur and Sulfide Solid Electrolyte
+for High-Areal-Capacity All-Solid-State Lithium−Sulfur Batteries.
+ACS Energy Lett. 2023, 8 (10), 3971−3979.
+(39) Guo, Y.; Niu, Q.; Pei, F.; Wang, Q.; Zhang, Y.; Du, L.; Zhang,
+Y.; Zhang, Y.; Zhang, Y.; Fan, L.; Zhang, Q.; Yuan, L.; Huang, Y.
+Interface Engineering Toward Stable Lithium−Sulfur Batteries. Energy
+Environ. Sci. 2024, 17 (4), 1330−1367.
+(40) Xu, R.; Yue, J.; Liu, S.; Tu, J.; Han, F.; Liu, P.; Wang, C.
+Cathode-Supported All-Solid-State Lithium−Sulfur Batteries with
+High Cell-Level Energy Density. ACS Energy Lett. 2019, 4 (5), 1073−
+1079.
+(41) Wan, H.; Zhang, B.; Liu, S.; Zhang, J.; Yao, X.; Wang, C.
+Understanding LiI-LiBr Catalyst Activity for Solid State Li2S/S
+Reactions in an All-Solid-State Lithium Battery. Nano Lett. 2021, 21
+(19), 8488−8494.
+(42) Liu, M.; Wang, C.; Zhao, C.; van der Maas, E.; Lin, K.;
+Arszelewska, V. A.; Li, B.; Ganapathy, S.; Wagemaker, M.
+Quantification of the Li-Ion Diffusion over an Interface Coating in
+All-Solid-State Batteries via NMR Measurements. Nat. Commun.
+2021, 12 (1), 5943.
+(43) Li, H.; Wang, R.; Zhao, S.; Song, J.; Liao, Y.; Tang, H. Sulfur/
+Carbon Cathode Composite with LiI Additives for Enhanced
+Electrochemical Performance in All-Solid-State Lithium-Sulfur
+Batteries. Adv. Compos. Hybrid Mater. 2023, 6 (5), 162.
+(44) Ding, J.; Fujita, Y.; Tsukasaki, H.; Nakajima, H.; Sakuda, A.;
+Hayashi, A.; Mori, S. Mechanism Exploration of Li2S−Li2O−LiI
+Positive Electrodes with High Capacity and Long Cycle Life via TEM
+Observation. ACS Appl. Energy Mater. 2023, 6 (18), 9737−9742.
+(45) Gamo, H.; Maeda, T.; Hikima, K.; Deguchi, M.; Fujita, Y.;
+Kawasaki, Y.; Sakuda, A.; Muto, H.; Phuc, N. H. H.; Hayashi, A.;
+Tatsumisago, M.; Matsuda, A. Synthesis of an AlI3-Doped Li2S
+Positive Electrode with Superior Performance in All-Solid-State
+Batteries. Mater. Adv. 2022, 3 (5), 2488−2494.
+(46) Kim, J. T.; Rao, A.; Nie, H.-Y.; Hu, Y.; Li, W.; Zhao, F.; Deng,
+S.; Hao, X.; Fu, J.; Luo, J.; Duan, H.; Wang, C.; Singh, C. V.; Sun, X.
+Manipulating Li2S2/Li2S Mixed Discharge Products of All-Solid-State
+Lithium Sulfur Batteries for Improved Cycle Life. Nat. Commun.
+2023, 14 (1), 6404.
+(47) Zhou, J.; Holekevi Chandrappa, M. L.; Tan, S.; Wang, S.; Wu,
+C.; Nguyen, H.; Wang, C.; Liu, H.; Yu, S.; Miller, Q. R. S.; Hyun, G.;
+Holoubek, J.; Hong, J.; Xiao, Y.; Soulen, C.; Fan, Z.; Fullerton, E. E.;
+Brooks, C. J.; Wang, C.; Clément, R. J.; Yao, Y.; Hu, E.; Ong, S. P.;
+Liu, P. Healable and Conductive Sulfur Iodide for Solid-State Li−S
+Batteries. Nature 2024, 627 (8003), 301−305.
+(48) Hakari, T.; Hayashi, A.; Tatsumisago, M. Highly Utilized
+Lithium Sulfide Active Material by Enhancing Conductivity in All-
+Solid-State Batteries. Chem. Lett. 2015, 44 (12), 1664−1666.
+(49) Fujita, Y.; Hakari, T.; Sakuda, A.; Deguchi, M.; Kawasaki, Y.;
+Tsukasaki, H.; Mori, S.; Tatsumisago, M.; Hayashi, A. Li2S−LiI Solid
+Solutions with Ionic Conductive Domains for Enhanced All-Solid-
+State Li/S Batteries. ACS Appl. Energy Mater. 2022, 5 (8), 9429−
+9436.
+(50) Shigedomi, T.; Fujita, Y.; Motohashi, K.; Tatsumisago, M.;
+Sakuda, A.; Hayashi, A. Effects of Lithium Halides on Electrode−
+Electrolyte Bifunctional Materials for High-Capacity All-Solid-State
+Batteries. ACS Appl. Mater. Interfaces 2024, 16 (16), 20542−20550.
+(51) Hayashi, A.; Hama, S.; Minami, T.; Tatsumisago, M. Formation
+of Superionic Crystals from Mechanically Milled Li2S−P2S5 Glasses.
+Electrochem. Commun. 2003, 5 (2), 111−114.
+(52) Sakuda, A.; Hayashi, A.; Tatsumisago, M. Sulfide Solid
+Electrolyte with Favorable Mechanical Property for All-Solid-State
+Lithium Battery. Sci. Rep. 2013, 3 (1), 2261.
+(53) Choi, H. U.; Jin, J. S.; Park, J.-Y.; Lim, H.-T. Performance
+Improvement of All-Solid-State Li-S Batteries with Optimizing
+Morphology and Structure of Sulfur Composite Electrode. J. Alloys
+Compd. 2017, 723 (5), 787−794.
+(54) Wang, Y.; Liu, T.; Estevez, L.; Kumar, J. Kinetics of All-Solid-
+State Sulfur Cathodes. Energy Storage Mater. 2020, 27, 232−243.
+(55) Bonnick, P.; Niitani, K.; Nose, M.; Suto, K.; Arthur, T. S.;
+Muldoon, J. A High Performance All Solid State Lithium Sulfur
+Battery with Lithium Thiophosphate Solid Electrolyte. J. Mater. Chem.
+A Mater. Energy Sustain. 2019, 7 (42), 24173−24179.
+(56) Eckert, H.; Zhang, Z.; Kennedy, J. H. Structural Trans-
+formation of Non-Oxide Chalcogenide Glasses. The Short-Range
+Order of Lithium Sulfide (Li2S)-Phosphorus Pentasulfide (P2S5)
+Glasses Studied by Quantitative Phosphorus-31, Lithium-6, and
+Lithium-7 High-Resolution Solid-State NMR. Chem. Mater. 1990, 2
+(3), 273−279.
+(57) Dietrich, C.; Weber, D. A.; Sedlmaier, S. J.; Indris, S.; Culver, S.
+P.; Walter, D.; Janek, J.; Zeier, W. G. Lithium Ion Conductivity in
+Li2S−P2S5 Glasses −Building Units and Local Structure Evolution
+during the Crystallization of Superionic Conductors Li3PS4, Li7P3S11
+and Li4P2S7. J. Mater. Chem. A Mater. Energy Sustain. 2017, 5 (34),
+18111−18119.
+(58) Lin, C.; Calvez, L.; Bureau, B.; Tao, H.; Allix, M.; Hao, Z.;
+Seznec, V.; Zhang, X.; Zhao, X. Second-Order Optical Nonlinearity
+and Ionic Conductivity of Nanocrystalline GeS2−Ga2S3−LiI Glass-
+Ceramics with Improved Thermo-Mechanical Properties. Phys. Chem.
+Chem. Phys. 2010, 12 (15), 3780.
+(59) Choi, S.-J.; Choi, S.-H.; Bui, A. D.; Lee, Y.-J.; Lee, S.-M.; Shin,
+H.-C.; Ha, Y.-C. LiI-Doped Sulfide Solid Electrolyte: Enabling a
+High-Capacity Slurry-Cast Electrode by Low-Temperature Post-
+Sintering for Practical All-Solid-State Lithium Batteries. ACS Appl.
+Mater. Interfaces 2018, 10 (37), 31404−31412.
+(60) Suyama, M.; Kato, A.; Sakuda, A.; Hayashi, A.; Tatsumisago, M.
+Lithium Dissolution/Deposition Behavior with Li3PS4-LiI Electrolyte
+for All-Solid-State Batteries Operating at High Temperatures.
+Electrochem. Acta 2018, 286 (1), 158−162.
+(61) Ho, C.; Raistrick, I. D.; Huggins, R. A. Application of A-C
+Techniques to the Study of Lithium Diffusion in Tungsten Trioxide
+Thin Films. J. Electrochem. Soc. 1980, 127 (2), 343−350.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02731
+ACS Appl. Energy Mater. 2025, 8, 2192−2199
+2199
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​4/​2192/​40395375/​ae4c02731.​pdf by TSINGHUA UNIV user on 28 September 2026
+

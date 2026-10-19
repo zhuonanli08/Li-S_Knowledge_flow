@@ -1,0 +1,68 @@
+=== SI（docx，无页码）===
+Supplementary Information
+J. Priscilla Grace and Surendra K. Martha*
+Department of Chemistry, Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana 502284, India.
+*Corresponding author: Email: martha@chy.iith.ac.in (Surendra K. Martha), 
+Orcid id: https://orcid.org/0000-0002-7762-7237
+3937024003000
+Fig.S1. Flow chart of the synthesis of (a) FeS -RGO and (b) FRHS composite.
+556260000
+Figure S2. TGA curve of FRHS composite (FeS2-RGO 20%, HSAC-10%, and 60% S). 67% S when it is normalized to 100 % of the composite. 
+281940000
+Fig.S3. SEM images of the synthesized FeS2 nanoparticles.
+1156970120459500The free-standing HSAC-S@CF cathode delivers an enhanced initial discharge capacity of 1100 mAh g-1 at 100 mA g-1, and the 2nd cycle shows 1000 mAh g-1. At the 100th cycle, it delivers 620 mAh g-1 capacity.
+Fig.S4. GCD cycling of high surface area carbon-sulfur composite on 3D- carbon fibre (HSAC-S@CF) at 100 mA g-1  ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"CVLxKMmg","properties":{"formattedCitation":"[1]","plainCitation":"[1]","noteIndex":0},"citationItems":[{"id":493,"uris":["http://zotero.org/users/local/Ec1UL6BE/items/2VZXI4Q2"],"itemData":{"id":493,"type":"article-journal","container-title":"Journal of Alloys and Compounds","note":"publisher: Elsevier","page":"172341","source":"Google Scholar","title":"3D Electrode architecture of high surface area carbon-sulfur composite as high energy density cathode for lithium-sulfur battery","volume":"969","author":[{"family":"Grace","given":"J. Priscilla"},{"family":"Bhar","given":"Madhushri"},{"family":"Ghosh","given":"Sourav"},{"family":"Martha","given":"Surendra K."}],"issued":{"date-parts":[["2023"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"} [1]. 
+71698825324600
+Fig.S5. (a, b) Polarization effect and voltage difference of FRHS@CF electrode at 1st and 200th GCD cycle. 
+1112520000
+Fig.S6. Cyclic stability plot of RGO-S@CF electrode at 500 mA g-1 with 2.5 mg cm-2 sulfur loading.
+769620000
+Fig.S7. The areal specific capacity (mAh cm-2) plot of high sulfur loading of 4 mg cm-2 at 500 mA g-1.
+91440000
+Fig.S8. (a) OCV during storage for 170 h after a full charge and (b)  comparison of GCD before and after 170 h of storage (self-discharge).
+center000
+Fig.S9. EIS fitted curves of (a) 1st and (b) 200th cycle and (c) its corresponding equivalent circuit.  
+-114300000
+Fig.S10. (a)Visual adsorption studies of FRHS@CF electrode in Li2S6 solution during 24 h and (b) UV-visible spectra of Li2S6 solution and the polysulfide adsorbed solution.
+0288925
+Fig.S11. (a-d) SEM images of the cycled high sulfur loaded (4.0 mg cm-2) FRHS@CF electrodes. EDAX image of (e) C, S, Fe, (f) C, (g) S, and (h) Fe.
+807720000Fig.S12. Potentiostatic discharge plot of Li2S deposition. For this purpose, the cell was galvanostatically charged to 2.8 V and then potentiostatically discharged at 2.05 V till the current reached 30 µA ( in 5 h).
+Supplementary Table T1. Comparison of different FeS2carbon-sulfur composites with respect to the specific capacity, cycle number, and capacity retention 
+FeS2-Sulfur composite
+Initial discharge capacity (mAh g-1) /C-rate
+Capacity retention
+Reference number
+S/FeS2@CNTs
+1245 mA h g-1 @ 0.2C 440.2 mA h g-1 @ 1C 
+-
+                 ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"PtAEyMk2","properties":{"formattedCitation":"[2]","plainCitation":"[2]","noteIndex":0},"citationItems":[{"id":497,"uris":["http://zotero.org/users/local/Ec1UL6BE/items/YJI9ERIW"],"itemData":{"id":497,"type":"article-journal","container-title":"Journal of Electroanalytical Chemistry","note":"publisher: Elsevier","page":"116724","source":"Google Scholar","title":"Synthesis of hollow S/FeS2@ carbon nanotubes microspheres and their long-term cycling performances as cathode material for lithium-sulfur batteries","volume":"922","author":[{"family":"Zhao","given":"Xishan"},{"family":"Zhang","given":"De-An"},{"family":"Sun","given":"Chuxiao"},{"family":"Liu","given":"Jiajun"},{"family":"Zhao","given":"Tianming"},{"family":"Wang","given":"Meng"},{"family":"Song","given":"Yutong"},{"family":"Xu","given":"Haowen"},{"family":"Wang","given":"Qi"}],"issued":{"date-parts":[["2022"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"} [2]
+FeS2/KB@S 
+852 mAh g-1 @ 0.5 C
+446 mAh g-1 (500 cycles) 
+              ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"cmUNSJq8","properties":{"formattedCitation":"[3]","plainCitation":"[3]","noteIndex":0},"citationItems":[{"id":481,"uris":["http://zotero.org/users/local/Ec1UL6BE/items/W7PFSDJB"],"itemData":{"id":481,"type":"article-journal","container-title":"Journal of Energy Storage","note":"publisher: Elsevier","page":"108712","source":"Google Scholar","title":"Cubic FeS2 enabling robust polysulfide adsorption and catalysis in lithium/sulfur batteries","volume":"72","author":[{"family":"Xie","given":"Fangwei"},{"family":"Xu","given":"Chunjie"},{"family":"Liang","given":"Yazhou"},{"family":"Tian","given":"Zuzhi"},{"family":"Ma","given":"Chao"},{"family":"Xu","given":"Shu"},{"family":"Li","given":"Zhibao"},{"family":"Rehman","given":"Zia Ur"},{"family":"Yao","given":"Shanshan"}],"issued":{"date-parts":[["2023"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"} [3]
+FeS2-decorated CNFs /S
+448 mAh g-1 @ 2C
+87 % (300 cycles) 
+               ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"uhMdDeI5","properties":{"formattedCitation":"[4]","plainCitation":"[4]","noteIndex":0},"citationItems":[{"id":489,"uris":["http://zotero.org/users/local/Ec1UL6BE/items/V53TJAF6"],"itemData":{"id":489,"type":"article-journal","container-title":"Energies","issue":"11","note":"publisher: MDPI","page":"4496","source":"Google Scholar","title":"FeS2-Decorated Carbon NanoFiber as Solid Phase Conversion-Type Cathode for Li-S Batteries","volume":"16","author":[{"family":"Jacas Biendicho","given":"Jordi"},{"family":"Mazaira","given":"Pedro"},{"family":"Avireddy","given":"Hemesh"},{"family":"Zhang","given":"Chaoqi"},{"family":"Tang","given":"Pengyi"},{"family":"Missyul","given":"Alexander"},{"family":"Trilla","given":"Lluis"},{"family":"Arbiol","given":"Jordi"},{"family":"Morante","given":"Joan Ramon"},{"family":"Cabot","given":"Andreu"}],"issued":{"date-parts":[["2023"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"} [4]
+S/CPC@FeS2
+1459 mAh g-1 @ 0.1 C 
+1.5 C
+60 % (900 cycles)
+              ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"y18u6i1E","properties":{"formattedCitation":"[5]","plainCitation":"[5]","noteIndex":0},"citationItems":[{"id":485,"uris":["http://zotero.org/users/local/Ec1UL6BE/items/ELA7SL7R"],"itemData":{"id":485,"type":"article-journal","abstract":"Abstract\n            \n              Despite their high theoretical energy density, lithium–sulfur (Li–S) batteries are hindered by practical challenges including sluggish conversion kinetics and shuttle effect of polysulfides. Here, a nitrogen‐doped continuous porous carbon (CPC) host anchoring monodispersed sub‐10 nm FeS\n              2\n              nanoclusters (CPC@FeS\n              2\n              ) is reported as an efficient catalytic matrix for sulfur cathode. This host shows strong adsorption of polysulfides, promising the inhibition of polysulfide shuttle and the promoted initial stage of catalytic conversion process. Moreover, fast lithium ion (Li‐ion) diffusion and accelerated solid–solid conversion kinetics of Li\n              2\n              S\n              2\n              to Li\n              2\n              S on CPC@FeS\n              2\n              host guarantee boosted electrochemical kinetics for conversion process of sulfur species in Li–S cell, which gives a high utilization of sulfur under practical conditions of high loading and low electrolyte/sulfur (E/S) ratio. Therefore, the surfur cathode (S/CPC@FeS\n              2\n              ) delivers a high specific capacity of 1459 mAh g\n              −1\n              at 0.1 C, a stable cycling over 900 cycles with ultralow fading rate of 0.043% per cycle, and an enhanced rate capability compared with cathode only using carbon host. Further demonstration of this cathode in Li–S pouch cell shows a practical energy density of 372 Wh kg\n              −1\n              with a sulfur loading of 7.1 mg cm\n              −2\n              and an E/S ratio of 4 µL mg\n              −1\n              .","container-title":"Advanced Functional Materials","DOI":"10.1002/adfm.202205471","ISSN":"1616-301X, 1616-3028","issue":"43","journalAbbreviation":"Adv Funct Materials","language":"en","page":"2205471","source":"DOI.org (Crossref)","title":"Monodispersed FeS &lt;sub&gt;2&lt;/sub&gt; Electrocatalyst Anchored to Nitrogen‐Doped Carbon Host for Lithium–Sulfur Batteries","volume":"32","author":[{"family":"Sun","given":"Weiwei"},{"family":"Liu","given":"Shuangke"},{"family":"Li","given":"Yujie"},{"family":"Wang","given":"Danqin"},{"family":"Guo","given":"Qingpeng"},{"family":"Hong","given":"Xiaobin"},{"family":"Xie","given":"Kai"},{"family":"Ma","given":"Zhongyun"},{"family":"Zheng","given":"Chunman"},{"family":"Xiong","given":"Shizhao"}],"issued":{"date-parts":[["2022",10]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"} [5]
+FeS/C-S
+0.1 C 
+66.2 % (100 cycles)
+                ADDIN ZOTERO_ITEM CSL_CITATION {"citationID":"H71IfqZw","properties":{"formattedCitation":"[6]","plainCitation":"[6]","noteIndex":0},"citationItems":[{"id":483,"uris":["http://zotero.org/users/local/Ec1UL6BE/items/AW5LMM84"],"itemData":{"id":483,"type":"article-journal","container-title":"Applied Surface Science","note":"publisher: Elsevier","page":"145286","source":"Google Scholar","title":"Polysulfides anchoring and enhanced electrochemical kinetics of 3D flower-like FeS/carbon assembly materials for lithium-sulfur battery","volume":"508","author":[{"family":"Yuan","given":"Qiong"},{"family":"Chen","given":"Yaxin"},{"family":"Li","given":"Ang"},{"family":"Li","given":"Yuxin"},{"family":"Chen","given":"Xiaohong"},{"family":"Jia","given":"Mengqiu"},{"family":"Song","given":"Huaihe"}],"issued":{"date-parts":[["2020"]]}}}],"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"} [6]
+Our work
+FRHS@CF
+1165 mAh g-1 at 100 mA g-1
+740 mAh g-1 at 500 mA g-1
+73 % (325 cycles)
+-
+References
+[1]J.P. Grace, M. Bhar, S. Ghosh, S.K. Martha, 3D Electrode architecture of high surface area carbon-sulfur composite as high energy density cathode for lithium-sulfur battery, Journal of Alloys and Compounds. 969 (2023) 172341.
+[2]X. Zhao, D.-A. Zhang, C. Sun, J. Liu, T. Zhao, M. Wang, Y. Song, H. Xu, Q. Wang, Synthesis of hollow S/FeS2@ carbon nanotubes microspheres and their long-term cycling performances as cathode material for lithium-sulfur batteries, Journal of Electroanalytical Chemistry. 922 (2022) 116724.
+[3]F. Xie, C. Xu, Y. Liang, Z. Tian, C. Ma, S. Xu, Z. Li, Z.U. Rehman, S. Yao, Cubic FeS2 enabling robust polysulfide adsorption and catalysis in lithium/sulfur batteries, Journal of Energy Storage. 72 (2023) 108712.
+[4]J. Jacas Biendicho, P. Mazaira, H. Avireddy, C. Zhang, P. Tang, A. Missyul, L. Trilla, J. Arbiol, J.R. Morante, A. Cabot, FeS2-Decorated Carbon NanoFiber as Solid Phase Conversion-Type Cathode for Li-S Batteries, Energies. 16 (2023) 4496.
+[5]W. Sun, S. Liu, Y. Li, D. Wang, Q. Guo, X. Hong, K. Xie, Z. Ma, C. Zheng, S. Xiong, Monodispersed FeS2 Electrocatalyst Anchored to Nitrogen‐Doped Carbon Host for Lithium–Sulfur Batteries, Adv Funct Materials. 32 (2022) 2205471. 
+[6]Q. Yuan, Y. Chen, A. Li, Y. Li, X. Chen, M. Jia, H. Song, Polysulfides anchoring and enhanced electrochemical kinetics of 3D flower-like FeS/carbon assembly materials for lithium-sulfur battery, Applied Surface Science. 508 (2020) 145286.

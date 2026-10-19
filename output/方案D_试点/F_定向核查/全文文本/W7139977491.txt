@@ -1,0 +1,817 @@
+=== 第 1 页 ===
+Phase-controlled dual redox mediator enabled high-performance 
+all-solid-state lithium–sulfur batteries
+Hamin Choi a,1, Eunbyoul Lee a,b,c,1, Jae Won Sim b,d, KyuJung Jun e,f,  
+Se Young Kim a,b,c,*, Kyung Yoon Chung a,c,*
+a Sustainable Energy Research Division, Korea Institute of Science and Technology, Seoul, 02792, Republic of Korea
+b Energy Storage Research Center, Korea Institute of Science and Technology, Seoul, 02792, Republic of Korea
+c Division of Energy & Environment Technology, KIST School, University of Science and Technology, Seoul, 02792, Republic of Korea
+d Department of Material Science & Engineering, Yonsei University, Seoul, 03722, Republic of Korea
+e School of Mechanical Engineering, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul, 02841, Republic of Korea
+f Department of Materials Science and Engineering, Massachusetts Institute of Technology, MA, 02139, United States
+A R T I C L E I N F O
+Keywords:
+All-solid-state batteries
+Lithium‑sulfur batteries
+Solid electrolyte
+Redox mediator
+Transition metal dichalcogenides
+Tungsten sulfide
+A B S T R A C T
+All-solid-state lithium‑sulfur batteries (ASSLSBs) emerge as next-generation energy storage systems due to their 
+high theoretical capacity (1672 mAh g−1) and ability to mitigate sulfur shuttle effects in liquid electrolytes (LEs). 
+However, interfacial charge-transfer resistance at sulfur/solid electrolyte (SE) interfaces, compounded by sulfur's 
+insulating nature and volume changes over the cell cycling, limits performance. We introduce a new hybrid 
+cathode for ASSLSBs incorporating tungsten sulfide (WS2) as a dual redox mediator (DRM) utilizing unprece­
+dented W4+/5+/6+ redox. The hybrid cathode simultaneously enhances electron and Li+ transport in the cathode 
+for facile sulfur redox and stabilizes interfacial resistance via unique redox mechanism of WS2 as phase- 
+controlled DRM. Specifically, the WS2 mediator forms reversible amorphous LixWS(4-α) phase as a discharge 
+product rather than LiWS2, which irreversibly reduces to W metal and Li2S. This unique WS2 redox mechanism 
+further mitigated the total volume expansion of the hybrid cathode over the ASSLSB cycling. The hybrid cathode 
+in ASSLSB exhibits outstanding capacity retention of ~83% with maintained discharge capacity of 831 mAh g−1 
+after 50 cycles, particularly under low pressure (~0.3 MPa) and at room temperature (25 ◦C), whereas con­
+ventional sulfur cathodes retain only 34% and 371 mAh g−1 under the same conditions.
+1. Introduction
+As many aspects of daily life, from simple household items to public 
+transportation, are rapidly becoming electrified, the request for devel­
+oping high energy density energy storage systems with long lifespan and 
+high safety has increased significantly. In this regard, lithium‑sulfur 
+batteries (LSBs) have garnered significant attention due to its high 
+theoretical capacity (1672 mAh g−1), abundant resources in nature's 
+crust, and low material cost. [1–7] However, the commercialization of 
+lithium‑sulfur technology in liquid electrolyte batteries is constrained 
+by limited sulfur utilization, volume expansion of the active material, 
+the polysulfide shuttle effect and the risk of thermal runaway associated 
+with flammable liquid electrolytes (LEs). [1,8,9] In particular, the 
+polysulfide shuttle effect, which causes the loss of cathode active ma­
+terials through polysulfide dissolution into LEs, leads to capacity decline 
+during long-term cycling. [4,10,11] To address this issue, all-solid-state 
+lithium‑sulfur batteries (ASSLSBs) have emerged as a promising alter­
+native to conventional LSBs by replacing flammable organic liquid 
+electrolytes with non-flammable inorganic solid electrolytes (SEs). This 
+innovative transition toward an all-solid-state system not only enhances 
+the safety of sulfur-based batteries but also improves the reaction sta­
+bility of sulfur within the cell, as polysulfides are insoluble in solid 
+electrolytes.
+Unlike conventional LSBs, sulfur in ASSLSBs undergoes a different 
+redox process during cell cycling, particularly involving the formation of 
+Li2S2 as an intermediate product during the conversion between sulfur 
+* Corresponding authors at: Sustainable Energy Research Division, Korea Institute of Science and Technology, Seoul, 02792, Republic of Korea.
+E-mail addresses: 123034@kist.re.kr (H. Choi), eunbyoul@kist.re.kr (E. Lee), kyujung@mit.edu (K. Jun), seyoungkim@kist.re.kr (S.Y. Kim), kychung@kist.re.kr
+(K.Y. Chung). 
+1 These authors contributed equally to this work.
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+https://doi.org/10.1016/j.cej.2026.175457
+Received 24 December 2025; Received in revised form 6 March 2026; Accepted 20 March 2026  
+Chemical Engineering Journal 535 (2026) 175457 
+Available online 21 March 2026 
+1385-8947/© 2026 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by- 
+nc-nd/4.0/ ). 
+
+=== 第 2 页 ===
+(S8) and lithium sulfide (Li2S). [5,12,13] However, unfortunately, all of 
+these reaction products inherently exhibit poor electrical conductivity 
+and undergo inevitable volume changes (~80%) during cell cycling, 
+leading to sluggish reaction kinetics and eventually deteriorating the 
+cycling performance of the cell. [5–8,14] To overcome these disadvan­
+tages, several approaches have been made to enhance the reactivity of 
+the multi-step solid-phase sulfur redox reactions by increasing three- 
+phase boundary area among the non-conductive sulfur (S8), carbon 
+additive, and solid electrolyte in a composite cathode of ASSLSBs. [15]
+Previous studies have developed porous carbon materials, including 
+PAN-based core–shell fibers and sulfur-infiltrated porous carbon, to 
+improve electrode conductivity and sulfur utilization in ASSLSBs. 
+[16,17] While these architectures enhance the contact between com­
+ponents and facilitate redox kinetics, their complex and costly fabrica­
+tion processes hinder commercial application.
+Recently, transition metal dichalcogenides (TMDs) have garnered 
+significant attention in the field of energy storage due to their 2D 
+structures, which exhibit superior electrical conductivity and catalytic 
+properties. [18–23] Recent reports have shown that CoS2, which has a 
+rock salt structure, is incorporated into the cathode active material of 
+ASSLSBs and changes to LixCoS2 upon discharge in a one-electron re­
+action. [24] Nazar's group demonstrated that a Li2S@LiVS2 structure 
+enables improved kinetics through intimate interfacial contact, 
+involving both intercalation and conversion reactions. [25,26] While 
+TMDs present a promising strategy for cathode design, their lower 
+theoretical capacity compared to sulfur limits the overall capacity when 
+combined.
+Among many TMDs, tungsten disulfide (WS2) has been rarely 
+explored as a cathode active material for ASSLSBs. Although its 
+reversible electrochemical reaction with Li2S in the cathode of ASSLSB 
+was reported by H. Gamo et al., its redox mechanism has not been 
+demonstrated yet. [27] WS2 has the lowest effective mass among TMDs, 
+and exhibits higher electrical mobility so that it can resolve the inter­
+facial contact issues between insulating reaction products in sulfur 
+cathode by serving as effective charge carrier (Li+ and e−) transporter. 
+[18,28,29]
+In this study, we employed WS2 in composite cathode (S8 + WS2 +
+carbon + solid electrolyte) for ASSLSBs and, for the first time, revealed 
+its key role as a DRM that can improve the sulfur redox kinetics, reduce 
+the charge transfer resistance evolution and further mitigate the volume 
+expansion of the composite cathode over the cell cycling. This hybrid 
+cathode enables to cycle ASSLSBs at low pressure (~0.3 MPa) [30] and 
+room temperature (25 ◦C) with capacity retention of 83% over 50 cycles 
+while non-hybrid cathodes perform lower than 34% over 50 cycles. A 
+combination of synchrotron X-ray-based ex/in-situ analyses and elec­
+trochemical characterization reveals a novel redox reaction behavior of 
+the hybrid composite cathode, which produces Li2WS4 rather than W +
+Li2S through a conversion reaction as final discharge product, differing 
+from those previously reported. The suppressed volume charge of hybrid 
+cathode is further demonstrated in-situ optical microscopy images. 
+These studies offer insight for designing a novel hybrid cathode for high 
+energy density ASSLSBs.
+2. Experimental section
+2.1. Synthesis of solid electrolyte (Li6PS5Cl, LPSCl)
+For the preparation of solid electrolyte Li6PS5Cl, powder type of Li2S 
+(Sigma Aldrich, 99.98%), P2S5 (Sigma Aldrich, 99%), and LiCl (Sigma 
+Aldrich, 99%) were mixed by high-energy ball milling at a molar ratio of 
+5:1:2 at 450 rpm for 60 h (20 min milling, 40 min pause, 60 cycles). A 
+zirconia ball with a diameter of 10 mm was used, and the ball-to-powder 
+ratio is 1:45. After high-energy ball milling, the mixture is placed in a 
+quartz tube and annealed about 10 h. The mixture heats up to 550 ◦C at a 
+rate of 2 ◦C min−1 and maintain it for 5 h. After that, it is naturally 
+cooled down at room temperature. Finally, synthesized powder was 
+ground and sieved to reduce the particle size and obtain 125 μm or less- 
+level particles. All the preparation process were conducted in Ar-filled 
+glovebox.
+2.2. Preparation of the composite cathode
+Sulfur (S8) (Sigma Aldrich, 99.998%) and tungsten disulfide (WS2) 
+(Sigma Aldrich, 99%) were used as cathode active materials. Sulfur 
+active material was pretreated by cryo-milling method (cryomill, 
+Retsch) to pulverize the S8 particles into lesser than micro-size. All three 
+types of ASSLSBs are synthesized in the same method. First of all, the 
+cathode active material and the multi-wall carbon nanotube (MWCNT) 
+are mixed in a weight ratio of 3:2 by using a ball milling. The setting is 
+10 cycles of 30 min mixing at 250 rpm and 10 min of pause. Afterward, 
+the mixture and LPSCl are mixed with a weight ratio of 1:1 and ball- 
+milled at 300 rpm for 30 min followed by a 10 min pause for 2 cycles. 
+All of the processes described above are performed in an argon atmo­
+sphere. The sulfur composite cathode consists of 30 wt% elemental 
+sulfur (S8) as the sole active material. In contrast, the hybrid composite 
+cathode contains a total of 30 wt% active materials, comprising 15 wt% 
+sulfur (S8) and 15 wt% tungsten sulfide (WS2). The tungsten sulfide 
+composite cathode is prepared with 30 wt% WS2 as the active material.
+2.3. Fabrication of ASSLSBs
+The fabrication of ASSLSB is conducted within an Ar-atmosphere 
+glovebox. Using a 15 mm diameter SUS mold, 150 mg of LPSCl is 
+pressed into 30 MPa to create a solid electrolyte layer in the pellet shape. 
+The 6 mg of as-prepared composite cathode was placed on top of the 
+LPSCl layer and pressed at 40 MPa to bond with it, thus creating a 
+cathode layer. The loading amount of the cathode active material is 
+approximately 1.13 mg cm−2. Following this, 65 mg of Li–In powder 
+was added in the opposite direction, and the 10 MPa of pressure resulted 
+in the creation of an anode layer. The Li–In powder can be obtained by 
+mixing the Li powder and In powder in a 1:2 at.% ratio at 2000 rpm for 
+30 s. The resulting ASSLSB pellet is assembled with CR2032 SUS coin 
+cells. In the in-situ XRD measurements conducted at the 9 A beamline, 
+the ASSLSB was configured with composite cathodes, LPSCl, and Li- 
+metal anodes. All other cells, except for this configuration, employed 
+composite cathodes, LPSCl, and Li–In alloy anodes. The coin cell parts - 
+cap, bottom, and spacer of the coin cell for in-situ XRD measurement 
+have punched holes, and polyimide film is attached to the cap and 
+bottom to prevent exposure to the atmosphere.
+2.4. Electrochemical test of the composite cathode
+CV curve and In situ impedance measurement were performed using 
+an multichannel potentio-galvanostat (VMP3, Bio-Logic, France) within 
+a frequency range of 0.1 Hz - 1 MHz. The cycling stability and rate 
+performance were evaluated within a voltage window of 0.1–3.0 V and 
+0.7–3.6 V using Li–In and Li-metal anodes, respectively. Coin cell 
+cycling performance and voltage profile tests at room temperature and 
+low pressure were measured with a multichannel battery tester (Maccor 
+version 4000).
+2.5. Material characterization
+SEM (Regulus 8230, Hitachi) images of the pristine material were 
+observed in Backscatter electron (BSE) mode. Ex situ X-ray diffraction 
+(XRD) measurements were conducted using an R-AXIS IV++ Rigaku 
+instrument (in-house) with Mo Kα radiation (wavelength of 0.7107 Å). 
+Ex-situ XRD measurements were performed by cycling the cell to a 
+specific voltage, followed by disassembly. The composite cathode layer 
+was then scraped, and the collected material was concentrated and 
+sampled in a capillary. In situ XRD was measured at the 6D (UNIST-PAL 
+Crystallography Beamline) and 9 A (Ultra-Small-Angle X-ray Scattering 
+H. Choi et al.                                                                                                                                                                                                                                    
+Chemical Engineering Journal 535 (2026) 175457 
+2 
+
+=== 第 3 页 ===
+Beamline) at the Pohang Acceleratated Laboratory (PAL). In order to 
+conduct in-situ XRD measurement, a customized coin cell part with a 
+hole in the middle and sealed with Kapton tape was prepared, due to the 
+atmospheric stability issues associated with sulfide materials. X-ray 
+photoelectron spectroscopy measurement was conducted using XPS_UPS 
+(Nexsa). X-ray absorption spectroscopy (XAS) was carried out at the 1D 
+(KIST-PAL bending magnet beam line) at the Pohang Acceleratated 
+Laboratory (PAL).
+3. Results and discussion
+3.1. Physical properties of cathode materials
+The morphology and crystal structure of the prepared Li6PS5Cl 
+(LPSCl), sulfur (S8) and tungsten sulfide (WS2) and their composite 
+cathode were examined and displayed in Fig. 1. Scanning electron mi­
+croscope (SEM) images in Fig. 1a-c show LPSCl and S8 particles with 
+irregular shape and size of ≤25 μm. We note that S8 size was controlled 
+by cryo-milling throughout the pretreatment to maximize the effective 
+surface area for electrochemical reaction. Meanwhile, WS2 consists of 
+hexagonal shaped plates with thickness of ≤200 nm implying that it can 
+provide wide specific surface area and the multiple-channel networks in 
+the composite cathode, which is beneficial for contact with other ma­
+terials. [27] X-ray diffraction (XRD) patterns in Fig. 1d confirm that the 
+synthesized LPSCl is well crystallized into cubic structure (F43m) 
+exhibiting a high ionic conductivity of 5.58 × 10−3 S cm−1 (at RT) 
+(Fig. S1) which is comparable to previously reported results. [31–33]
+Fig. 1e displays the XRD pattern of the ring-shaped S8 molecule, which 
+consists of eight sulfur atoms (inset), resulting in a relatively voluminous 
+cathode in ASSLSBs. As shown in Fig. 1f, the XRD pattern of WS2 reveals 
+that its crystal structure consists of alternating atomic layers of W and S, 
+which interact through van der Waals forces. [34] Notably, this layered 
+structure makes WS2 suitable as a cathode active material, enabling 
+lithium-ion intercalation. [18,34] SEM energy dispersive spectroscopy 
+(EDS) measurement on the composite cathodes in Fig. 1g and h confirms 
+that the cathode components are homogeneously mixed in the hybrid 
+cathode by showing the well distributed element signals of S, Cl, P, and 
+W.
+3.2. Electrochemical properties of hybrid cathode
+Fig. 2 shows the comparison of the first two cycling profiles, cyclic 
+voltammetry (CV), and capacity retention of S8, hybrid (S8 + WS2), and 
+WS2 cathodes in ASSLSBs. The cycling profiles of S8 electrode in Fig. 2a 
+shows the initial discharge capacity increase after the first cycle that can 
+be contributed to an activation process of sulfur. In the as-prepared 
+composite cathode, not all S₈ molecules participate in electrochemical 
+reaction during the first discharge, assembly due to some reduced S₈ to 
+polysulfide species during the high-energy ball-milling process (Fig. S2 
+and Fig. S3). After the first charge, the polysulfide species recovered to 
+S₈ molecules which is electrochemically active for the second cycle. The 
+activated S8 cathode then performs practical maximum discharge ca­
+pacity of 1276.61 mAh g−1 which is lesser than theoretical capacity of S8 
+(1672 mAh g−1) possibly due to the sulfur utilization issue in the com­
+posite cathode. [35,36] Meanwhile, WS2 composite electrode in Fig. 2c 
+shows the second discharge capacity of ~380 mAh g−1, which is close to 
+its theoretical capacity (432 mAh g−1), demonstrating the Li intercala­
+tion reaction followed by conversion reaction of WS2 in ASSLSBs (WS2 
++ xLi+ + xe−→ LixWS2 at ~1.1 V vs. Li+/Li, LixWS2 + (4 – x)Li+ + (4 – 
+x)e−→ W + 2Li2S at ~0.6 V vs. Li+/Li, 0 ≤x ≤1)) in accordance with 
+Fig. 1. The information of materials. SEM images of the a) solid electrolyte (Li6PS5Cl, LPSCl), active materials b) sulfur (S8) and c) tungsten sulfide (WS2). The XRD 
+patterns of the d) solid electrolyte (LPSCl), active materials e) sulfur (S8) and f) tungsten sulfide (WS2). SEM images of the g) hybrid and h) S8 composite cathode. EDS 
+mapping of the i-l) hybrid and m-o) S8 composite cathode. Pink, yellow, blue and orange represent S (sulfur), Cl (chlorine), P (phosphorus) and W (tungsten) 
+(respectively).
+H. Choi et al.                                                                                                                                                                                                                                    
+Chemical Engineering Journal 535 (2026) 175457 
+3 
+
+=== 第 4 页 ===
+previous reports. [18,37] In particular, in the low-voltage region (~0.1 
+V) of the WS2 ASSLSB, the electrochemical reduction of WS2 to metallic 
+W occurs. On the other hand, the cycling profiles of hybrid composite 
+electrode in Fig. 2b indicates the complex electrochemical reactions 
+assumably due to the competitive electrochemical reaction of S8 and 
+WS2 over the cell cycling. It should be noted that the hybrid ASSLSB 
+demonstrates a discharge capacity exceeding 1200 mAh g−1 that is 
+higher than a theoretical capacity of 1052 mAh g−1 from a mixture of 
+half S8 (1C = 1672 mAh g−1) and half WS2 (1C = 432 mAh g−1). [18]
+Although WS2 enhanced the reaction activity and sulfur utilization by 
+providing high electrical conductivity similar to previously reported 
+TMDs, the high discharge capacity can only be explained through a new 
+electrochemical reaction mechanism that would be different from those 
+previously identified.
+The electrochemical reaction of the three types of cathodes in 
+ASSLSBs was further investigated by CV test at a scan rate of 0.05 mV/s 
+and displayed in Fig. 2d-f. For reference, the CV of S8 cathode shows one 
+reduction peak at 0.9 and 1.1 V and one oxidation peak at 1.9 V, indi­
+cating well known sulfur redox of conversion reaction (S8 ↔ Li2S). 
+[12,38] For WS2 cathode in Fig. 2f, CV result features aforementioned 
+lithium intercalation and conversion reaction with exhibiting four 
+reduction peaks at around 1.2, 1.3, 0.4, 0.2 V and oxidation peaks at 
+around 1.9 V that can be commonly attributed to the formation of 
+LixWS2 and W + Li2S. In comparison, the hybrid cathode shows three 
+reduction peaks at around 1.2, 1.1 and 0.5 V and one oxidation peak at 
+around 1.9 V. We note that although the CV shows seemingly the 
+combination of submerged redox peaks from S8 and WS2 cathode 
+together, the 0.2 V reduction peak of WS2 cathode corresponding to the 
+irreversible reduction of W from LixWS2 disappeared from the hybrid 
+cathode. [20,21] Given the oxidation peaks of three types of cathodes 
+are all located around 1.9 V, it can be confirmed that WS2 cathode un­
+dergoes a unique reduction pathways during the discharge process.
+The rate performance of ASSLSBs was evaluated over a current range 
+of 0.05 to 1C-rate cycling performance, as shown in Fig. 2g. Both cells 
+had similar capacities at the initial 0.05C; however, as the rate 
+increased, the S8 cell showed a sharp decline in capacity. After the rate 
+was restored to 0.05C, the capacity seemed to recover, but as the rate 
+increased to 0.1C and during cycling, the capacity decreased rapidly 
+again. On the other hand, the hybrid cell showed higher capacity than 
+the S8 cell at each rate, and also exhibits stable cycling performance 
+when the rate was recovered to 0.05C followed by a long-term cycle at 
+0.1C. Consequently, hybrid cells demonstrate superiority over conven­
+tional ASSLSBs with regard to sulfur redox kinetics and interfacial 
+resistance evolution. The further comparative study on the effects of 
+different TMDs (WS2 and MoS2) in hybrid cathodes shown in Fig. S4 
+demonstrates that WS2 plays additional roles beyond providing elec­
+trical conductivity, resulting in superior ASSLSB cycling performance to 
+other hybrid cathodes. The superior cycling performance of the hybrid 
+cathode in comparison to the S8 and WS2 cathodes in ASSLSBs further 
+demonstrated in Fig. 2h. All electrodes were first cycled 3 times at 0.05C 
+for activation followed by 0.1C cycling. The hybrid cathode exhibits an 
+initial discharge capacity of ~831mAh g−1 at 0.1C after 50 cycles, with 
+an outstanding retention rate of ~83% compared to S8 and WS2 com­
+posite cathodes performed ~371 mAh g−1 and ~ 72 mAh g−1. Consid­
+ering the coulombic efficiency of all cathode samples remained close to 
+100% over 50 cycles, no decomposition of sulfide solid electrolyte is 
+assumed from all three electrode samples.
+Fig. 2. The electrochemical measurement results. Voltage profiles during discharging and charging of the a) S8 (1C = 1672 mA g−1), b) hybrid (1C = 1052 mA g−1) 
+and c) WS2 (1C = 432 mA g−1) ASSLSB at first and second formation cycle. The configuration of ASSLSBs are composite cathode, solid electrolyte and Li–In. CV 
+profiles of the d) S8, e) hybrid and f) WS2 ASSLSB at a scan rate of 0.05 mV/s at the first and second cycle. g) Rate capability performance of S8 and hybrid ASSLSBs. 
+h) Cycle performances and Coulombic Efficiencies of ASSLSBs. The formation cycles are conducted 3 times at the 0.05C-rate, then the main 100 cycles are performed 
+at the 0.1C-rate.
+H. Choi et al.                                                                                                                                                                                                                                    
+Chemical Engineering Journal 535 (2026) 175457 
+4 
+
+=== 第 5 页 ===
+3.3. Crystal structure and chemical state evolution of WS2 in the hybrid 
+cathode
+The synchrotron/lab X-ray diffraction (XRD) analyses were con­
+ducted to investigate the detailed reaction mechanism during the initial 
+cycling of hybrid cathode in ASSLSB. Fig. 3 shows the initial cycling 
+profile and color contour map of partial synchrotron in-situ XRD data 
+zoomed from entire 2θ range (Fig. S5), demonstrating the crystal 
+structure evolution of the active materials in the hybrid cathode of 
+ASSLSB. To observe the change in the peak of WS2, the focus was 
+enlarged by about 14–14.5 degrees. Fig. 3a and c indicates that the 
+disappearance of weak (002) reflection at 14.4◦from the poorly crys­
+talline ball-milled WS2 in the as-prepared cathode during the first 
+discharge to 0.1 V. From the following charge from 0.1 V to 1.9 V where 
+Li2S should reduce back to lithium polysulfides, no discernible XRD peak 
+evolved around 14–14.5 degrees. Meanwhile, the weak (002) reflection 
+of WS2 gradually becomes stronger starting from ~1.9 V (yellow dashed 
+line) and most intensified at the end of charge demonstrating the for­
+mation of crystalline WS2. Interestingly, the crystallized WS2 reversibly 
+amorphized again during the following 2nd discharge to 0.1 V showing 
+the diminished (002) reflection peak. In order to exclude the possibility 
+of damaged discharge products by X-ray radiation, ex-situ Raman 
+spectroscopy, non-X-ray-based analysis, is conducted as a complemen­
+tary and the results is shown in Fig. S7. The result indicates that the 
+absence of XRD feature of Li2WS4 in the discharged hybrid cathode is 
+due to the poor crystallinity of Li2WS4 rather than the damaged 
+discharge product.
+The in-situ XRD peak evolution of WS2 in hybrid cathode delineates 
+different structural evolution from the one of the WS2 composite cathode 
+that indicates the Li (de)intercalation reaction of the layered WS2 
+showing a reversible (002) peak shift over the cell cycling (Fig. 3d). The 
+initially high WS2 peak and its subsequent weakening is attributed to an 
+irreversible conversion of WS2 into W and Li2S during cycling, without 
+complete reformation of WS2. [21] On the other hand, the (111) 
+reflection of Li2S at ~26.9◦was not observed from the color contour 
+map of in-situ synchrotron XRD data (Fig. S8) assumably due to its 
+relatively poor crystallinity or the vulnerability of Li2S to the high en­
+ergy X-ray beam. The peak corresponding to the cathode active material 
+exhibits relatively low intensity compared to those of other components 
+in the half-cell. Therefore, further lab-scale ex-situ XRD was performed 
+as explained in experimental section. From the ex-situ XRD patterns in 
+Fig. 3e, the generation of Li2S during discharge and its disappearance 
+after 1.0 V are confirmed by closely examining (111) reflection (marked 
+as yellow star) of Li2S from the hybrid cathode. This result corresponds 
+with previous reports demonstrating the reversible generation and 
+dissipation of Li2S during ASSLSBs cycling. [5,12,13] Consequently, this 
+result identifies Li2S as one of the final discharge products in the hybrid 
+ASSLSB.
+C⋅C.: Composite cathode.
+Fig. 4 presents the initial cycling profile of the ASSLSB equipped with 
+the hybrid cathode, along with ex-situ XPS data acquired at various 
+voltage points to analyze the oxidation state of W during the cycling 
+process. The voltage points where the XPS spectra were collected in 
+Fig. 4a were chosen from the redox peak maxima observed from CV in 
+Fig. 2e. From the XPS spectrum of the as-prepared sample shown in 
+Fig. 4b, the binding energy peaks at 33.1 and 35.3 eV can be assigned to 
+the spin–orbit split doublet of the 4f7/2 and 4f5/2 of W4+ in WS2. Over the 
+first discharge (Fig. 4c–4e), the W 4f XPS spectra indicate the emergence 
+of higher-valence W species (W5+) at 1.2 V, as shown by the peaks at 
+34.5 and 36.7 eV (4f7/2 and 4f5/2), marked in blue in Fig. 4b. As the 
+voltage decreases to 0.1 V, a gradual oxidation to W6+ is observed, 
+evidenced by the increased intensity of the peaks at 37.1 and 39.2 eV, 
+corresponding to the 4f7/2 and 4f5/2 orbitals, highlighted in pink. In 
+contrast to Li intercalation into WS2, which forms LixWS2 during 
+discharge when WS2 is used as the sole active material, the XPS spectra 
+of W in the hybrid cathode indicate a transformation toward LixWS(4-α) 
+during discharge, ultimately yielding Li2WS4 as the final discharge 
+Fig. 3. The in-situ XRD measurement results of ASSLSB during cycling at 0.1C- 
+rate. The configuration of the coin cell for in-situ XRD measurement is illus­
+trated in the upper left. The discharge and charge curve of the a) hybrid and b) 
+WS2 ASSLSB. In-situ XRD patterns WS2 contour plots in the c) hybrid and d) 
+WS2 ASSLSB. e) The XRD pattern of Li2S and ex-situ XRD patterns in the 
+charged and discharged states of hybrid composite cathode.
+Fig. 4. The XPS tungsten (W) spectra of the hybrid composite cathode in 
+discharge and charge states. a) Discharge and charge curves of hybrid ASSLSB. 
+b-j) The as-prepared state and the 1.2 V, 0.6 V, and 0.1 V discharge states and 
+the 1.7 V, 1.0 V, 1.9 V, 2.4 V and 3.0 V charge states.
+H. Choi et al.                                                                                                                                                                                                                                    
+Chemical Engineering Journal 535 (2026) 175457 
+5 
+
+=== 第 6 页 ===
+product. It should be noted that XPS peak of W5+ evolved at the initial 
+discharge process diminished at the end of discharge while W6+ peak 
+keeps increasing. This result demonstrates the lower activation energy of 
+transition from LixWS(4-α) to Li2WS4 than from WS2 to LixWS(4-α). 
+Meanwhile, the W XPS data in Fig. 4f-4h demonstrates a dramatic 
+reduction of W6+ to W4+ within the voltage plateau between 1.0 and 1.9 
+V during charge, where the disappearance of Li2S confirmed from the ex- 
+situ XRD analysis (Fig. 3e). Therefore, it can be assumed that the 
+discharge product Li2WS4 is reduced back to the Sx, LixWS(4-α) and WS2 
+at the fully charged state, as observed in Fig. 4f-4j. Although XPS result 
+suggested possible reaction pathways of the hybrid cathode, it only 
+provides the chemical information from the electrode surface.
+Therefore, to further understand the chemical state evolution from 
+the WS2 in the bulk hybrid electrode, W L-edge is monitored by 
+measuring ex-situ x-ray absorption spectroscopy (XAS) from the hybrid 
+cathode and compared in Fig. 5. The voltage point where the W L-edge 
+spectra was collected in Fig. 5a were chosen from the redox peak max­
+ima observed from CV in Fig. 2e. Fig. 5b demonstrates that the com­
+posite cathode (C⋅C) exhibits white line energy maxima at positions to 
+those of WS2, indicating that the oxidation states are consistent between 
+the two samples. The variation in the peak shape of C.C is attributed to 
+the ball milling of WS2 with S8, which led to a change in the coordination 
+number. As the first discharge proceeds from the as-prepared hybrid 
+cathode, the W L-edge spectra shifts to higher energy from 10,204.6 eV 
+to 10,206.0 eV at 0.6 V (blue line in Fig. 5c), indicating the oxidation 
+state of W is higher than W4+ (10,204.0 eV) During charge, the spectra 
+shift back to the lower energy of 10,205.4 eV indicating the reduction of 
+W but still higher oxidized state than W4+. Considering the W XPS data 
+in Fig. 4b-4j, the W XAS spectra collected from 0.6 V and 0.1 V during 
+discharge demonstrates the W oxidation states of 5+ and 6+, respec­
+tively (Fig. 5d and Fig. S9). Additionally, the extended x-ray absorption 
+fine structure (EXAFS) was conducted to further understand the atomic 
+structure evolution around W over the cell cycling. The W EXAFS pro­
+files measured from the hybrid cathode in Fig. 5e-5f indicates well 
+maintained W–S bond length from the initial prismatic WS2 structure, 
+without a formation of W–W bond indicating the absence of metallic W 
+in the hybrid cathode over the ASSLSB cycling. This result hints at a 
+redox mechanism of WS2 in the hybrid cathode that is distinctively 
+different from the WS2 undergoing the conversion reaction of LixWS2 → 
+W metal + Li2S when WS2 is used as the sole active material. [18,21]
+C.C.: Composite cathode.
+3.4. Unraveling the redox mechanism of the hybrid cathode
+A combination of electrochemistry, x-ray diffraction and spectros­
+copy results demonstrates the reversible W redox between W4+ and W6+
+suggesting the reaction mechanism of WS2 in the hybrid cathode. The 
+entire reaction mechanism of hybrid ASSLSB can be described as 
+follows: 
+WS2 + S8 + 14Li+ + 14e−↔Li2WS4 + 6Li2S
+(1) 
+Considering the oxidation state of tungsten, the reaction can be 
+described as proceeding in two distinct steps. 
+( ∼1.1V) WS2 + S8 + 7Li+ + 7e−↔LixWS(4−α) + yLi2S2 (0 ≤x, a ≤1), (3
+≤y ≤3.5)
+(2) 
+( ∼0.1V) LixWS(4−α) + yLi2S2 + 7Li+ + 7e−↔Li2WS4 + 6Li2S
+(3) 
+The presence of W+5 in the XPS results (Fig. 4) can be interpreted 
+based on the proposed two-step reaction mechanism and the composi­
+tion expressed as LixWS(4-α). Since the formation of Li₂S₂ is known to 
+correspond to approximately half of the theoretical capacity in ASSLSBs, 
+this relationship was used to define a range for the value of y. [5]
+Following this reaction mechanism, the reduction peaks at 1.06 V and 
+0.5 V in Fig. 2e can be attributed to the reduction of W4+/W5+ and W5+/ 
+W6+, respectively, accompanied by the formation of Li2S2 and Li2S. Due 
+to two-electron reaction of hybrid system, the theoretical capacity of the 
+hybrid cathode is estimated to be 1488 mAh g−1 (Table S1), and this can 
+explain the extra capacity mentioned in Fig. 2b. This distinct electro­
+chemical reaction mechanism of hybrid composite cathode can be 
+further demonstrated by monitoring the voltage profiles of the hybrid 
+cathode cycled at slow rate of 0.01C shown in Fig. S10. The slow rate 
+cycling profiles of hybrid cathode closely resembles to the one from 
+cycled at 0.05C (Fig. 2b). The absence of the 0.2 V plateau, even in the 
+0.01C-cycled hybrid cathode, suggests that the formation of metallic W 
+is suppressed due to the thermodynamically stable reaction pathway, 
+rather than being hindered by the overpotential arising from the slug­
+gish reaction kinetics of the composite cathode. Given the electro­
+chemistry data and synchrotron x-ray-based analysis results above, the 
+spontaneous reaction of S₈ to Li2S2 occurs first. Subsequently, the 
+remaining oxidizing ability of the polysulfide species drives the oxida­
+tion of WS2, resulting in the formation of Li2S and Li2WS4 as final 
+products in cathode. The resulting Li2WS4 was not detected in the XRD 
+pattern due to its metastable and amorphous nature, which is consistent 
+with the above analysis. [39] Consequently, these findings demonstrate 
+that WS₂ in the hybrid cathode undergoes a distinct mechanism, 
+differing from previous studies that reported the irreversible reduction 
+of WS₂ to metallic W [21] as corroborated by our study (Fig. 2g).
+3.5. The facile WS2 redox effect on electro-chemo-mechanical properties 
+of hybrid cathode in ASSLSBs
+In Fig. 6, the comparison of in-situ electrochemical impedance 
+spectroscopy (EIS) evolution from the S8, hybrid, and WS2 composite 
+cathodes during first three cycles demonstrates that the facile phase 
+transition of WS2 without conversation reaction improves the chemo- 
+mechanical properties of the hybrid cathode in ASSLSBs. The Nyquist 
+plots in Fig. 6a-c were attained at the specific open circuit voltage (OCV) 
+at different state of charge, corresponding to the points marked on the 
+voltage profiles of the three ASSLSBs in Fig. S11. First, for S8 in Fig. 6a, 
+Fig. 5. The ex-situ tungsten (W) L-edge XAS spectra in discharged and charged 
+states of hybrid ASSLSB. a) Discharge and charge curve of hybrid ASSLSB. b) 
+XANES profiles of the discharge/charge states and references. Enlarged XANES 
+and EXAFS profiles of c, e) discharged/charged states in first cycle and d, f) 
+discharged states in second cycle.
+H. Choi et al.                                                                                                                                                                                                                                    
+Chemical Engineering Journal 535 (2026) 175457 
+6 
+
+=== 第 7 页 ===
+the change in cell resistance over the first cycle is relatively insignifi­
+cant. However, as the cycle is repeated, the cell resistance gradually 
+increases over the following cycles and becomes more pronounced 
+especially the resistance at 1.9 V. The decomposition of LPSCl is not the 
+culprit of the increased resistance given the stable XRD peak evolution 
+from the solid electrolyte over the cell cycling (Fig. S6) and the sound 
+cell operation voltage window for ASSLSBs. [40] Thus, the volume 
+expansion of S8 is expected to be a major contributor to the increase in 
+resistance during cycling. [1,5] In the case of WS₂, Fig. 6c shows mini­
+mal changes in resistance during repeated cycling, highlighting the 
+negligible contact resistance change and superior electrochemical sta­
+bility of WS2 compared to S8 [41]. Meanwhile, the cell resistance of 
+hybrid cathode cell in Fig. 6b shows a trend of reduced resistance during 
+the first cycle, except for the abrupt resistance increase at 1.9 V. This can 
+be attributed to the volume change from Li2S2 to linear shape S8 and WS2 
+generation during charge as indicated by the in-situ XRD data in Fig. 2b. 
+[5,12,13] However, the resistance returns to a lower value at the next 
+charge state at 2.4 V. Notably, with each additional cycle, the resistance 
+value at all points gradually decreases, and the difference in resistance 
+variation also reduces leading to stabilization. This phenomenon can be 
+attributed to two factors: first, the inherently high electrical conduc­
+tivity of WS2 in the high-voltage region (≥1.9 V), which benefits the 
+hybrid cathode by forming an electrically conductive triple-phase 
+boundary network, and the facile LixWS(4-α) and Li2S2 redox in the 
+low-voltage region (≤1.9 V). Second, the stabilization of interfacial 
+contact between the solid electrolyte and cathode active materials (S8 
+and WS2) during the first activation cycle due to the alleviated volume 
+change of the active materials within the electrode. To further explore 
+the effect of WS2 in the hybrid cathode on long-term cycling stability, we 
+performed extended cycling up to 100 cycles under the same conditions 
+(low pressure ~ 0.3 MPa, 25 ◦C). To examine structural stability, ex-situ 
+Raman, XPS, and EIS analyses were conducted at 0.1 V after 100 cycles, 
+and the resulting data and discussion are displayed in Figs. S12, S13 
+and Table S2. The Raman and XPS spectra obtained after 100 cycles 
+show profiles similar to those of the composite cathode measured at 0.1 
+V after the first cycle. These results indicate that its overall redox 
+behavior and chemical state during discharge remain consistent even 
+after long-term cycling. From the EIS data, the interphase resistance of 
+the WS2 hybrid cathode initially decreased due to the newly formed 
+conductive network and then stabilized over cell cycling. However, the 
+charge transfer resistance of the cell increased by ~20 times after 100 
+cycles, demonstrating dwindling reaction kinetics in the cell due to the 
+formation of nano- or micro-voids between the solid electrolyte and 
+active materials and the decomposition of the LPSCl solid electrolyte by 
+reaction with the Li–In anode during cycling. [42]
+The ex-situ optical microscopy (OM) images in Fig. 6d-6e obtained 
+from the multiple charged states of S8 and hybrid composite cathodes 
+further provides the effect of WS2 on the electro-chemo-mechanical 
+properties of hybrid composite cathode in ASSLSBs. The square box is 
+marked to indicate the same location of the electrode surface. For the S8 
+composite cathode in Fig. 6d, it can be observed that cracks form during 
+the first charge and become more predominant during the next cycle 
+(Fig. S14). On the other hand, although the hybrid cathode in Fig. 6e 
+shows some crack evolution during the first charge, the surface is fully 
+recovered in the next cycle (Fig. S15). This explained why the hybrid 
+cell showed a sharp increase in resistance at the first charge at 1.9 V and 
+stabilized for further cycles. This result demonstrates that the incorpo­
+ration of WS2 into the composite cathode enhances ASSLSB performance 
+by stabilizing the interface and mitigating volume change, confirming 
+its role as an DRM.
+4. Conclusion
+The utilization of intrinsically insulating sulfur by adopting TMDs as 
+an ionic and electric conductive redox mediator in a cathode has 
+recently been explored to improve the cycle life and energy density of 
+ASSLSBs. However, their role was limited to providing ionic and electric 
+conductive pathways for sulfur redox without improving electro-chemo- 
+mechanical properties of the composite cathodes. Our study reveals that 
+incorporating electrically conductive WS2 as a two electron dual redox 
+mediator (DRM) in a cathode can maximize the utilization of sulfur in 
+the hybrid composite cathode by facilitating the two-step sulfur redox 
+reactions (S8 ↔ Li2S2 ↔ Li2S) and accommodate the volume change of 
+the electrode over the cell cycling. The comparative study by combining 
+in−/ex-situ X-ray diffraction and spectroscopy analysis with electro­
+chemistry reveals that the WS2 in the hybrid cathode acts as an active 
+Fig. 6. In-situ EIS analysis results. The Nyquist plots for ASSLSBs at discharge 1.2 V, 0.1 V and charge 1.9 V, 2.4 V, 3.0 V of a) S8, b) hybrid and c) WS2 composite 
+cathode material. Green, red and blue represent the first, second and third cycles (respectively). Ex-situ OM measurement of composite cathode surface at initial, 
+discharge 0.1 V and charge 1.9 V, 3.0 V in 1st cycle and 2nd cycle of d) S.8 and e) hybrid ASSLSB. (D: Discharge, C: Charge, M: Mo, W).
+H. Choi et al.                                                                                                                                                                                                                                    
+Chemical Engineering Journal 535 (2026) 175457 
+7 
+
+=== 第 8 页 ===
+material by reversibly forming LixWS(4-α) and Li2S2 as intermediate 
+products and Li2WS4 and Li2S as final products during the ASSLSB 
+cycling without metallic W generation, unlike WS2 in the composite 
+cathode. This novel phase-controlled dual redox reaction mechanism of 
+WS2 in the hybrid cathode leads to two significant outcomes; 1. A 
+discharge capacity approximately 30% higher than the simple sum of 
+the theoretical capacities of the S8 and WS2 redox reactions (1052 mAh 
+g−1), 2. Stable electrochemical reactions of insulating lithium poly­
+sulfides, with suppressed volume changes in the hybrid cathode during 
+cycling, as demonstrated by in-situ EIS data and ex-situ optical micro­
+scopy image analysis. Consequently, the ASSLSBs with a WS2 hybrid 
+cathode exhibited markedly enhanced cycling performance, delivering 
+an initial discharge capacity of 1005 mAh⋅g−1 and maintaining 
+approximately 83% of this capacity after 50 cycles, particularly under 
+low pressure (~ 0.3 MPa) and at room temperature. While our study 
+suggests the rational design rule for hybrid cathode utilizing the unique 
+two electron redox reaction of WS2 as DRM that enables stable cycling of 
+high energy density ASSLSBs, further development of other cathode 
+components, such as binder and additive carbon, is still required to 
+achieve practical ASSLSBs.
+CRediT authorship contribution statement
+Hamin Choi: Writing – original draft, Validation, Investigation, 
+Formal analysis, Data curation, Conceptualization. Eunbyoul Lee: 
+Validation, Investigation, Formal analysis, Data curation. Jae Won Sim: 
+Investigation, Data curation. KyuJung Jun: Validation, Investigation, 
+Formal analysis, Data curation. Se Young Kim: Writing – review & 
+editing, Writing – original draft, Validation, Supervision, Investigation, 
+Funding acquisition, Formal analysis, Data curation, Conceptualization. 
+Kyung Yoon Chung: Writing – review & editing, Validation, Supervi­
+sion, Project administration, Funding acquisition, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Acknowledgements
+The authors express their sincere gratitude to the members of the 
+Pohang Accelerator Laboratory (PAL) for their technical support and 
+assistance. In particular, the authors thank Dr. Tae Joo Shin and man­
+agers Seulyi Lee and Sungjun Yang at the 6D beamline, as well as Dr. 
+Hyungju Ahn at the 9 A beamline, for their support with the in-situ XRD 
+measurements. The authors also acknowledge Dr. Chae Keun Hwa at the 
+1D beamline for his assistance with the XAS measurements. This 
+research was supported by the National Research Foundation of Korea 
+(RS-2024-00404414 and RS-2024-00427700) funded by the Ministry of 
+Science and ICT. This research was supported by the Commercialization 
+Promotion Agency for R&D Outcomes(COMPA) funded by the Ministry 
+of Science and ICT(MSIT).(RS-2025-02312281) and the National 
+Research Council of Science & Technology(NST) grant by the Korea 
+government (MSIT) (No. GTL24011-000). This study was supported by 
+the Korea Institute of Science and Technology (KIST) Institutional Pro­
+gram (No. 26E0321 and 26E0327).
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.cej.2026.175457.
+Data availability
+Data will be made available on request.
+References
+[1] X. Yang, J. Luo, X. Sun, Towards high-performance solid-state Li–S batteries: from 
+fundamental understanding to engineering design, Chem. Soc. Rev. 49 (7) (2020) 
+2140–2195, https://doi.org/10.1039/c9cs00635d.
+[2] X. Yang, X. Li, K. Adair, H. Zhang, X. Sun, Structural design of lithium–sulfur 
+batteries: from fundamental research to practical application, Electrochem. Energy 
+Rev. 1 (2018) 239–293, https://doi.org/10.1007/s41918-018-0010-3.
+[3] S. Wang, Y. Zhang, X. Zhang, T. Liu, Y.-H. Lin, Y. Shen, L. Li, C.-W. Nan, High- 
+conductivity argyrodite Li6PS5Cl solid electrolytes prepared via optimized 
+sintering processes for all-solid-state lithium–sulfur batteries, ACS Appl. Mater. 
+Interfaces 10 (49) (2018) 42279–42285, https://doi.org/10.1021/ 
+acsami.8b15121.
+[4] A. Manthiram, Y. Fu, S.-H. Chung, C. Zu, Y.-S. Su, Rechargeable lithium–sulfur 
+batteries, Chem. Rev. 114 (23) (2014) 11751–11787, https://doi.org/10.1021/ 
+cr500062v.
+[5] J.T. Kim, A. Rao, H.-Y. Nie, Y. Hu, W. Li, F. Zhao, S. Deng, X. Hao, J. Fu, J. Luo, 
+Manipulating Li2S2/Li2S mixed discharge products of all-solid-state lithium sulfur 
+batteries for improved cycle life, Nat. Commun. 14 (1) (2023) 6404, https://doi. 
+org/10.1038/s41467-023-42109-5.
+[6] J. Zhou, M.L. Holekevi Chandrappa, S. Tan, S. Wang, C. Wu, H. Nguyen, C. Wang, 
+H. Liu, S. Yu, Q.R. Miller, Healable and conductive sulfur iodide for solid-state Li–S 
+batteries, Nature 627 (8003) (2024) 301–305, https://doi.org/10.1038/s41586- 
+024-07101-z.
+[7] J. Lee, C. Zhao, C. Wang, A. Chen, X. Sun, K. Amine, G.-L. Xu, Bridging the gap 
+between academic research and industrial development in advanced all-solid-state 
+lithium–sulfur batteries, Chem. Soc. Rev. 53 (10) (2024) 5264–5290, https://doi. 
+org/10.1039/D3CS00439B.
+[8] G. Tan, R. Xu, Z. Xing, Y. Yuan, J. Lu, J. Wen, C. Liu, L. Ma, C. Zhan, Q. Liu, 
+Burning lithium in CS2 for high-performing compact Li2S–graphene nanocapsules 
+for Li–S batteries, Nat. Energy 2 (7) (2017) 1–10, https://doi.org/10.1038/ 
+nenergy.2017.90.
+[9] M. Sawangphruk, New materials for lithium–sulfur batteries: challenges and future 
+directions, Chem. Commun. (2025), https://doi.org/10.1039/D5CC01150G.
+[10] F. Liu, G. Sun, H.B. Wu, G. Chen, D. Xu, R. Mo, L. Shen, X. Li, S. Ma, R. Tao, Dual 
+redox mediators accelerate the electrochemical kinetics of lithium-sulfur batteries, 
+Nat. Commun. 11 (1) (2020) 5215, https://doi.org/10.1038/s41467-020-19040-5.
+[11] C. Zech, P. H¨onicke, Y. Kayser, S. Risse, O. Gr¨atz, M. Stamm, B. Beckhoff, 
+Polysulfide driven degradation in lithium–sulfur batteries during 
+cycling–quantitative and high time-resolution operando X-ray absorption study for 
+dissolved polysulfides probed at both electrode sides, J. Mater. Chem. A 9 (16) 
+(2021) 10231–10239, https://doi.org/10.1039/D0TA12011A.
+[12] D. Cao, X. Sun, F. Li, S.M. Bak, T. Ji, M. Geiwitz, K.S. Burch, Y. Du, G. Yang, H. Zhu, 
+Understanding electrochemical reaction mechanisms of sulfur in all-solid-state 
+batteries through operando and theoretical studies, Angew. Chem. Int. Ed. 62 (20) 
+(2023) e202302363, https://doi.org/10.1002/anie.202302363.
+[13] M. He, Y. Fan, S. Liu, S. Wang, T. Wu, D. Chen, A. Hu, C. Yan, Y. Yan, J. Long, The 
+origin of Li2S2 reduction mechanism modulated by single-atom catalyst for all 
+solid-state Li-S batteries, Adv. Energy Mater. (2025) 2405642, https://doi.org/ 
+10.1002/aenm.202405642.
+[14] Y.-K. Sun, Emerging all-solid-state lithium–sulfur batteries: holy grails for future 
+secondary batteries, ACS Energy Lett. 9 (10) (2024) 5092–5095, https://doi.org/ 
+10.1021/acsenergylett.4c02563.
+[15] 1, The top ten scientific questions in electrochemistry, J. Electrochem. 30 (1) 
+(2024) 2024121, https://doi.org/10.61558/2993-074X.3444.
+[16] X. Sun, Q. Li, D. Cao, Y. Wang, A. Anderson, H. Zhu, High surface area N-doped 
+carbon fibers with accessible reaction sites for all-solid-state Lithium-sulfur 
+batteries, Small 18 (6) (2022) 2105678, https://doi.org/10.1002/smll.202105678.
+[17] A.S. Alzahrani, M. Otaki, D. Wang, Y. Gao, T.S. Arthur, S. Liu, D. Wang, Confining 
+sulfur in porous carbon by vapor deposition to achieve high-performance cathode 
+for all-solid-state lithium–sulfur batteries, ACS Energy Lett. 6 (2) (2021) 413–418, 
+https://doi.org/10.1021/acsenergylett.0c01956.
+[18] S. Bellani, F. Wang, G. Longoni, L. Najafi, R. Oropesa-Nu˜nez, A.E. Del Rio Castillo, 
+M. Prato, X. Zhuang, V. Pellegrini, X. Feng, WS2–graphite dual-ion batteries, Nano 
+Lett. 18 (11) (2018) 7155–7164, https://doi.org/10.1021/acs.nanolett.8b03227.
+[19] H.-N. Choi, H. Kim, M.-J. Kim, Y.-K. Sun, Constructing the Interconnected Charge 
+Transfer Pathways in Sulfur Composite Cathode for All-Solid-State Lithium–Sulfur 
+Batteries, ACS Appl. Mater. Interfaces 16 (8) (2024) 11076–11083, https://doi. 
+org/10.1021/acsami.3c22020.
+[20] H. Liu, D. Su, G. Wang, S.Z. Qiao, An ordered mesoporous WS 2 anode material 
+with superior electrochemical performance for lithium ion batteries, J. Mater. 
+Chem. 22 (34) (2012) 17437–17440, https://doi.org/10.1039/C2JM33992G.
+[21] Y. Liu, W. Wang, Y. Wang, X. Peng, Homogeneously assembling like-charged WS2 
+and GO nanosheets lamellar composite films by filtration for highly efficient 
+lithium ion batteries, Nano Energy 7 (2014) 25–32, https://doi.org/10.1016/j. 
+nanoen.2014.04.018.
+[22] J. Park, B.C. Yu, J.S. Park, J.W. Choi, C. Kim, Y.E. Sung, J.B. Goodenough, 
+Tungsten disulfide catalysts supported on a carbon cloth interlayer for high 
+performance Li–S battery, Adv. Energy Mater. 7 (11) (2017) 1602567, https://doi. 
+org/10.1002/aenm.201602567.
+[23] J. Balach, J. Linnemann, T. Jaumann, L. Giebeler, Metal-based nanostructured 
+materials for advanced lithium–sulfur batteries, J. Mater. Chem. A 6 (46) (2018) 
+23127–23168, https://doi.org/10.1039/C8TA07220E.
+[24] P.T. Dirlam, J. Park, A.G. Simmonds, K. Domanik, C.B. Arrington, J.L. Schaefer, V. 
+P. Oleshko, T.S. Kleine, K. Char, R.S. Glass, Elemental sulfur and molybdenum 
+disulfide composites for Li–S batteries with long cycle life and high-rate capability, 
+H. Choi et al.                                                                                                                                                                                                                                    
+Chemical Engineering Journal 535 (2026) 175457 
+8 
+
+=== 第 9 页 ===
+ACS Appl. Mater. Interfaces 8 (21) (2016) 13437–13448, https://doi.org/10.1021/ 
+acsami.6b03200.
+[25] C.Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, L.F. Nazar, High-performance all-solid- 
+state Li 2 S batteries using an interfacial redox mediator, Energy Environ. Sci. 16 
+(2) (2023) 610–618, https://doi.org/10.1039/D2EE03297J.
+[26] S. Xu, C.Y. Kwok, L. Zhou, Z. Zhang, I. Kochetkov, L.F. Nazar, A high capacity all 
+solid-state Li-sulfur battery enabled by conversion-intercalation hybrid cathode 
+architecture, Adv. Funct. Mater. 31 (2) (2021) 2004239, https://doi.org/10.1002/ 
+adfm.202004239.
+[27] H. Gamo, K. Hikima, A. Matsuda, Transition-metal sulfides for high-performance 
+lithium sulfide cathodes in all-solid-state lithium–sulfur batteries, ACS Omega 8 
+(48) (2023) 45557–45565, https://doi.org/10.1021/acsomega.3c05635.
+[28] D. Ovchinnikov, A. Allain, Y.-S. Huang, D. Dumcenco, A. Kis, Electrical transport 
+properties of single-layer WS2, ACS Nano 8 (8) (2014) 8174–8181, https://doi. 
+org/10.1021/nn502362b.
+[29] S. Conti, D. Neilson, F.M. Peeters, A. Perali, Transition metal dichalcogenides as 
+strategy for high temperature electron-hole superfluidity, Condens. Matter 5 (1) 
+(2020) 22, https://doi.org/10.3390/condmat5010022.
+[30] H.J. Shin, J.T. Kim, A.Y. Kim, N. Noh, J. Park, C.R. Park, S. Yu, H. Kim, K.Y. Chung, 
+J.M. Yuk, New consideration of degradation accelerating of all-solid-state batteries 
+under a low-pressure condition, Adv. Energy Mater. 13 (40) (2023) 2301220, 
+https://doi.org/10.1002/aenm.202301220.
+[31] Z. Liang, Y. Xiang, K. Wang, J. Zhu, Y. Jin, H. Wang, B. Zheng, Z. Chen, M. Tao, 
+X. Liu, Understanding the failure process of sulfide-based all-solid-state lithium 
+batteries via operando nuclear magnetic resonance spectroscopy, Nat. Commun. 14 
+(1) (2023) 259, https://doi.org/10.1038/s41467-023-35920-7.
+[32] L. Wang, R. Xie, B. Chen, X. Yu, J. Ma, C. Li, Z. Hu, X. Sun, C. Xu, S. Dong, In-situ 
+visualization of the space-charge-layer effect on interfacial lithium-ion transport in 
+all-solid-state batteries, Nat. Commun. 11 (1) (2020) 5889, https://doi.org/ 
+10.1038/s41467-020-19726-5.
+[33] J.-M. Doux, Y. Yang, D.H. Tan, H. Nguyen, E.A. Wu, X. Wang, A. Banerjee, Y. 
+S. Meng, Pressure effects on sulfide electrolytes for all solid-state batteries, 
+J. Mater. Chem. A 8 (10) (2020) 5049–5055, https://doi.org/10.1039/ 
+C9TA12889A.
+[34] Z. Zhao, Z. Hu, Q. Li, H. Li, X. Zhang, Y. Zhuang, F. Wang, G. Yu, Designing two- 
+dimensional WS2 layered cathode for high-performance aluminum-ion batteries: 
+from micro-assemblies to insertion mechanism, Nano Today 32 (2020) 100870, 
+https://doi.org/10.1016/j.nantod.2020.100870.
+[35] P. Jiang, H. Zhou, S. Song, K. Suzuki, K. Watanabe, Y. Yamaguchi, N. Matsui, 
+S. Hori, R. Kanno, M. Hirayama, A composite cathode with a three-dimensional 
+ion/electron-conducting structure for all-solid-state lithium–sulfur batteries, 
+Commun. Mater. 5 (1) (2024) 105, https://doi.org/10.1038/s43246-024-00537-w.
+[36] C. Liang, N.J. Dudney, J.Y. Howe, Hierarchically structured sulfur/carbon 
+nanocomposite material for high-energy lithium battery, Chem. Mater. 21 (19) 
+(2009) 4724–4730, https://doi.org/10.1021/cm902050j.
+[37] D.K. Nandi, U.K. Sen, A. Dhara, S. Mitra, S.K. Sarkar, Intercalation based tungsten 
+disulfide (WS 2) Li-ion battery anode grown by atomic layer deposition, RSC Adv. 6 
+(44) (2016) 38024–38032, https://doi.org/10.1039/C6RA00468G.
+[38] H. Kim, H.-N. Choi, J.-Y. Hwang, C.S. Yoon, Y.-K. Sun, Tailoring the interface 
+between sulfur and sulfide solid electrolyte for high-areal-capacity all-solid-state 
+lithium–sulfur batteries, ACS Energy Lett. 8 (10) (2023) 3971–3979, https://doi. 
+org/10.1021/acsenergylett.3c01473.
+[39] A. Paolella, D. Laul, V. Timoshevskii, W. Zhu, S. Marras, G. Bertoni, A.S. Wahba, 
+G. Girard, C. Gagnon, L. Rodrigue, The role of metal disulfide interlayer in Li–S 
+batteries, J. Phys. Chem. C 122 (2) (2018) 1014–1023, https://doi.org/10.1021/ 
+acs.jpcc.7b08719.
+[40] E. Lee, H. Kim, H. Choi, S.Y. Kim, K.Y. Chung, Unraveling the reversible redox 
+mechanism of Li 6 PS 5 cl solid electrolyte in all-solid-state lithium–sulfur batteries, 
+Chem. Commun. 60 (99) (2024) 14834–14837, https://doi.org/10.1039/ 
+D4CC04476B.
+[41] T. Zhao, H. Shu, Z. Shen, H. Hu, J. Wang, X. Chen, Electrochemical lithiation 
+mechanism of two-dimensional transition-metal dichalcogenide anode materials: 
+intercalation versus conversion reactions, J. Phys. Chem. C 123 (4) (2019) 
+2139–2146, https://doi.org/10.1039/C6RA00468G.
+[42] S.T. Luo, Z.Y. Wang, X.L. Li, X.Y. Liu, H.D. Wang, W.G. Ma, L.Q. Zhang, L.Y. Zhu, 
+X. Zhang, Growth of lithium-indium dendrites in all-solid-state lithium-based 
+batteries with sulfide electrolytes, Nat. Commun. 12 (1) (2021) 6968, https://doi. 
+org/10.1038/s41467-021-27311-7.
+H. Choi et al.                                                                                                                                                                                                                                    
+Chemical Engineering Journal 535 (2026) 175457 
+9 
+

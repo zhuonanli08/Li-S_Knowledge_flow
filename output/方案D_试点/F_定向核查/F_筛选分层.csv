@@ -1,0 +1,829 @@
+编号,年份,类型,标题,cell,se,DEC,DEC_摘,ACT,ACT_摘,MED,MED_摘,CUT,CUT_摘,IOD,IOD_摘,CTRL,CTRL_摘,review,score,tier
+W1457523081,2015,article,PEO-coated sulfur-carbon composite for high-performance lithium-sulfur batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W1590294080,2015,article,"Pseudo-binary electrolyte, LiBH4–LiCl, for bulk-type all-solid-state lithium-sulfur battery",all-solid-state,hydride,0,0,0,0,0,0,0,0,4,0,0,0,False,0,T4
+W1877171980,2015,article,Next Generation Batteries: Systems and Materials,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W1963641393,2013,article,High capacity all-solid-state Cu–Li2S/Li6PS5Br/In batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W1980462387,2010,article,Moving to a Solid‐State Configuration: A Valid Approach to Making Lithium‐Sulfur Batteries Viable for Practical Applications,all-solid-state,polymer-SPE; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W1994445827,2015,article,All-solid-state MoS 2 /Li 6 PS 5 Br/In–Li batteries as a novel type of Li/S battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2007770540,2012,article,All-solid-state Li–sulfur batteries with mesoporous electrode and thio-LISICON solid electrolyte,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2013741011,2014,article,Synthesis of poly(ethylene-oxide)/nanoclay solid polymer electrolyte for all solid-state lithium/sulfur battery,all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2021020727,2013,article,"A lithium–sulfur battery using a solid, glass-type P2S5–Li2S electrolyte",all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2024373555,2015,article,Preparation and performance of a composite polyimide/poly(vinylidene fluoride-co-hexafluoropropylene)/nano-Al2O3 polymer electrolyte for lithium-sulfur cell,quasi-solid-state,gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2029872662,2013,article,Progress in flexible lithium batteries and future prospects,,,0,0,1,0,0,0,0,0,2,0,0,0,False,3,T2
+W2032108280,2010,article,Electrochemical Performance of Lithium Sulfur Batteries with Plasticized Polymer Electrolytes based on P(VdF-co-HFP),quasi-solid-state,gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2039210465,2014,article,Li2S nanocomposites underlying high-capacity and cycling stability in all-solid-state lithium–sulfur batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2042119165,2014,article,Transformation of P2S5 into a Solid Electrolyte with Ionic Conductivity at the Positive Composite Electrode of All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W2045744854,2013,article,Why PEO as a binder or polymer coating increases capacity in the Li–S system,solid-liquid-hybrid,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2057297363,2015,article,All Solid-State Lithium–Sulfur Battery Using a Glass-Type P2S5–Li2S Electrolyte: Benefits on Anode Kinetics,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2057759752,2014,article,High performance all-solid-state lithium/sulfur batteries using lithium argyrodite electrolyte,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2061183628,2013,article,Reaction mechanism of all-solid-state lithium–sulfur battery with two-dimensional mesoporous carbon electrodes,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2071055087,2013,article,Fabrication and Characterization of an Effective Polymer Nanocomposite Electrolyte Membrane for High Performance Lithium/Sulfur Batteries,quasi-solid-state,gel-GPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2075284568,2013,article,Application of graphite–solid electrolyte composite anode in all-solid-state lithium secondary battery with Li2S positive electrode,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2077226982,2013,article,Electrochemical Evolution of an Iron Sulfide and Sulfur Based Cathode for All-Solid-State Li-Ion Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2079856498,2013,article,Stabilizing lithium/sulfur batteries by a composite polymer electrolyte containing mesoporous silica particles,all-solid-state,composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2084352231,2014,article,Activation of sulfur active material in an all-solid-state lithium–sulfur battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2085267645,2013,article,Lithium Superionic Sulfide Cathode for All-Solid Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2087199879,2015,article,"A lithium-ion sulfur battery using a polymer, polysulfide-added membrane",quasi-solid-state,polymer-SPE,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W2090808914,2012,article,Electrochemical properties of all solid state Li/S battery,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2090871880,2012,article,Fabrication of favorable interface between sulfide solid electrolyte and Li metal electrode for bulk-type solid-state Li/S battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2091830380,2014,article,Additive effect of ionic liquids on the electrochemical property of a sulfur composite electrode for all-solid-state lithium–sulfur battery,all-solid-state,sulfide; ionogel,0,0,0,0,0,0,0,0,4,0,0,0,False,0,T4
+W2109705256,2014,article,"Li[B(OCH2CF3)4]: Synthesis, Characterization and Electrochemical Application as a Conducting Salt for LiSB Batteries",,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2110697677,2015,article,Sulfur double locked by a macro-structural cathode and a solid polymer electrolyte for lithium–sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2132806456,2013,article,Electrochemical Performance of All‐Solid‐State Li/S Batteries with Sulfur‐Based Composite Electrodes Prepared by Mechanical Milling at High Temperature,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2134363353,2014,article,In Situ Formation of Protective Coatings on Sulfur Cathodes in Lithium Batteries with LiFSI‐Based Organic Electrolytes,,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W2139597510,2013,article,Lithium Polysulfidophosphates: A Family of Lithium‐Conducting Sulfur‐Rich Compounds for Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2159976584,2013,article,A novel polymer electrolyte to improve the cycle life of high performance lithium–sulfur batteries,quasi-solid-state,gel-GPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2224701981,2015,article,Hybrid Lithium–Sulfur Batteries with a Solid Electrolyte Membrane and Lithium Polysulfide Catholyte,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2258140796,2015,article,All‐Solid‐State Lithium–Sulfur Battery with High Energy and Power Densities at the Cell Level,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2262947200,2016,article,Nanocellulose-laden composite polymer electrolytes for high performing lithium–sulphur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2265160130,2016,article,Stable Li–Organic Batteries with Nafion‐Based Sandwich‐Type Separators,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2268327876,2015,article,Review—Solid Electrolytes in Rechargeable Electrochemical Cells,all-solid-state; solid-liquid-hybrid,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W2288653406,2016,article,High rate lithium-sulfur battery enabled by sandwiched single ion conducting polymer electrolyte,solid-liquid-hybrid,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2313163500,2016,article,Atomic Layer Deposition of LixAlyS Solid‐State Electrolytes for Stabilizing Lithium‐Metal Anodes,,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2313891358,2015,article,Computational Study of Lithium Titanate as a Possible Cathode Material for Solid-State Lithium–Sulfur Batteries,,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2316708809,2011,article,Solution-Based Synthesis and Characterization of Lithium-Ion Conducting Phosphate Ceramics for Lithium Metal Batteries,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2317752841,2016,article,Unique starch polymer electrolyte for high capacity all-solid-state lithium sulfur battery,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2320315466,2011,article,Effect of Lithium Polysulfides on the Morphology of Block Copolymer Electrolytes,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2339017334,2016,article,In operando scanning electron microscopy and ultraviolet–visible spectroscopy studies of lithium/sulfur cells using all solid-state polymer electrolyte,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2419534051,2016,article,Effects of LAGP electrolyte on suppressing polysulfide shuttling in Li–S cells,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2425438201,2015,article,Attainable Gravimetric and Volumetric Energy Density of Li–S and Li Ion Battery Cells with Solid Separator-Protected Li Metal Anodes,all-solid-state,oxide; sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2463957914,2016,article,Estimation of energy density of Li-S batteries with liquid and solid electrolytes,all-solid-state; solid-liquid-hybrid,polymer-SPE; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2464235999,2016,article,High-Performance All-Solid-State Lithium–Sulfur Battery Enabled by a Mixed-Conductive Li 2 S Nanocomposite,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2464412938,2016,article,Enhancing the Stability of Sulfur Cathodes in Li–S Cells via in Situ Formation of a Solid Electrolyte Layer,quasi-solid-state,in-situ-polymerized,2,0,0,0,0,0,0,0,1,0,0,0,False,2,T3
+W2466996982,2016,article,"The search for a solid electrolyte, as a polysulfide barrier, for lithium/sulfur batteries",solid-liquid-hybrid,sulfide; composite-CPE,0,0,0,0,0,0,0,0,47,0,0,0,False,0,T4
+W2474905092,2016,article,"A low-cost, high-energy polymer lithium-sulfur cell using a composite electrode and polyethylene oxide (PEO) electrolyte",all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2485006145,2016,article,Phase Separation of Li 2 S/S at Nanoscale during Electrochemical Lithiation of the Solid‐State Lithium–Sulfur Battery Using In Situ TEM,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2502810659,2016,article,All-Solid-State Lithium-Sulfur Battery Based on a Nanoconfined LiBH4Electrolyte,all-solid-state,hydride,0,0,0,0,0,0,0,0,2,0,0,0,False,0,T4
+W2507796133,2016,article,Unravelling Li-Ion Transport from Picoseconds to Seconds: Bulk versus Interfaces in an Argyrodite Li6PS5Cl–Li2S All-Solid-State Li-Ion Battery,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2508209394,2015,article,Conductivity of Block Copolymer Electrolytes Containing Lithium Polysulfides,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2513400983,2016,article,All-solid-state lithium–sulfur batteries with three-dimensional mesoporous electrode structures,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2513574185,2016,article,An all-solid-state lithium–sulfur battery using two solid electrolytes having different functions,all-solid-state,sulfide,0,0,0,0,0,0,0,0,19,0,0,0,False,0,T4
+W2516026063,2016,article,Polysulfide‐Shuttle Control in Lithium‐Sulfur Batteries with a Chemically/Electrochemically Compatible NaSICON‐Type Solid Electrolyte,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2531321157,2016,article,Novel Li[(CF3SO2)(n-C4F9SO2)N]-Based Polymer Electrolytes for Solid-State Lithium Batteries with Superior Electrochemical Performance,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2542734842,2016,article,Durability of the Li1+ x Ti2– x Al x (PO4)3 Solid Electrolyte in Lithium–Sulfur Batteries,solid-liquid-hybrid,oxide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2551496677,2016,article,Natural halloysite nano-clay electrolyte for advanced all-solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2559760197,2016,article,"Synthesis, Structure, and Electrochemical Properties of a Sulfur-Carbon Replica Composite Electrode for All-Solid-State Li-Sulfur Batteries",all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2565035625,2016,article,"Tailored Li 2 S–P 2 S 5 glass-ceramic electrolyte by MoS 2 doping, possessing high ionic conductivity for all-solid-state lithium-sulfur batteries",all-solid-state,sulfide,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W2581940637,2017,article,High performance all-solid-state lithium-sulfur battery using a Li2S-VGCF nanocomposite,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2588239892,2017,article,Recent innovative configurations in high-energy lithium–sulfur batteries,solid-liquid-hybrid,,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W2592932809,2017,article,All-solid-state lithium–sulfur batteries based on a newly designed Li 7 P 2.9 Mn 0.1 S 10.7 I 0.3 superionic conductor,all-solid-state,sulfide,0,0,0,0,0,0,0,0,4,0,0,0,False,0,T4
+W2600056273,2017,article,Improved lithium-ion and electrically conductive sulfur cathode for all-solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2600127342,2017,article,A bifunctional ion-electron conducting interlayer for high energy density all-solid-state lithium-sulfur battery,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2604150433,2017,article,"Toward garnet electrolyte–based Li metal batteries: An ultrathin, highly effective, artificial solid-state electrolyte/metallic Li interface",solid-liquid-hybrid,oxide,1,0,0,0,2,0,2,0,0,0,0,0,False,7,T3
+W2605190567,2017,article,Solid-State Lithium–Sulfur Batteries Operated at 37 °C with Composites of Nanostructured Li 7 La 3 Zr 2 O 12 /Carbon Foam and Polymer,all-solid-state,oxide; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2606907080,2017,article,Lithium Bis(fluorosulfonyl)imide/Poly(ethylene oxide) Polymer Electrolyte for All Solid-State Li–S Cell,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2609714426,2017,article,Improving Lithium–Sulfur Battery Performance under Lean Electrolyte through Nanoscale Confinement in Soft Swellable Gels,quasi-solid-state,gel-GPE,1,0,0,0,1,0,0,0,0,0,0,0,False,2,T3
+W2611417407,2017,article,An all-solid-state metal hydride – Sulfur lithium-ion battery,all-solid-state,hydride,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2612205931,2017,article,High‐Performance All‐Solid‐State Lithium–Sulfur Batteries Enabled by Amorphous Sulfur‐Coated Reduced Graphene Oxide Cathodes,all-solid-state,sulfide,3,0,2,0,0,0,1,0,0,0,0,0,False,11,T1
+W2613116304,2017,article,A novel discharge–charge mechanism of a S–P 2 S 5 composite electrode without electrolytes in all-solid-state Li/S batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2617404392,2017,article,Li2S‐Based Solid Solutions as Positive Electrodes with Full Utilization and Superlong Cycle Life in All‐Solid‐State Li/S Batteries,all-solid-state,,0,0,1,0,0,0,0,0,19,1,0,0,False,3,T2
+W2620024667,2017,article,Ionic conductivity promotion of polymer electrolyte with ionic liquid grafted oxides for all-solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2625917899,2017,article,Performance improvement of all-solid-state Li-S batteries with optimizing morphology and structure of sulfur composite electrode,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2733343447,2017,article,"New electrochemical energy storage systems based on metallic lithium anode—the research status, problems and challenges of lithium-sulfur, lithium-oxygen and all solid state batteries",,,4,0,0,0,2,0,0,0,2,0,0,0,False,6,T3
+W2734841264,2017,article,Polymer-Rich Composite Electrolytes for All-Solid-State Li–S Cells,all-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2738222787,2017,article,Construction of All‐Solid‐State Batteries based on a Sulfur‐Graphene Composite and Li9.54Si1.74P1.44S11.7Cl0.3 Solid Electrolyte,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2751182218,2017,article,Ad hoc solid electrolyte on acidized carbon nanotube paper improves cycle life of lithium–sulfur batteries,quasi-solid-state,in-situ-polymerized; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2754621076,2017,article,Stabilizing the Garnet Solid-Electrolyte/Polysulfide Interface in Li–S Batteries,solid-liquid-hybrid,oxide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2755859262,2017,article,Pre-modified Li3PS4 based interphase for lithium anode towards high-performance Li-S battery,solid-liquid-hybrid,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2759466226,2017,article,"Rechargeable Solid‐State Li–Air and Li–S Batteries: Materials, Construction, and Challenges",,,0,0,0,0,0,0,0,0,2,0,0,0,False,0,T4
+W2759771603,2017,article,Perspective—Lithium-Sulfur Batteries,all-solid-state; solid-liquid-hybrid,,2,0,0,0,0,0,0,0,3,0,0,0,True,2,T3
+W2760736988,2017,article,A Design of Solid-State Li-S Cell with Evaporated Lithium Anode To Eliminate Shuttle Effects,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2763086340,2017,article,Lithium Azide as an Electrolyte Additive for All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2764228965,2017,article,Review—Solid Electrolytes for Safe and High Energy Density Lithium-Sulfur Batteries: Promises and Challenges,all-solid-state,sulfide; oxide; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W2765625587,2017,article,Cover Feature: Construction of All‐Solid‐State Batteries based on a Sulfur‐Graphene Composite and Li9.54Si1.74P1.44S11.7Cl0.3 Solid Electrolyte (Chem. Eur. J. 56/2017),all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2767183005,2017,article,Operando Spectromicroscopy of Sulfur Species in Lithium-Sulfur Batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2767206197,2017,article,Electrode–Electrolyte Interfaces in Lithium–Sulfur Batteries with Liquid or Inorganic Solid Electrolytes,all-solid-state; solid-liquid-hybrid,sulfide; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2768735039,2017,article,A review of solid electrolytes for safe lithium-sulfur batteries,all-solid-state; solid-liquid-hybrid,sulfide; oxide,0,0,0,0,0,0,0,0,10,0,1,0,True,0,T4
+W2775193723,2017,article,A Li-Garnet composite ceramic electrolyte and its solid-state Li-S battery,all-solid-state,oxide; composite-CPE,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W2780158057,2017,article,"Investigation of the stability of metal borohydrides-based compounds LiM(BH4)3Cl (M = La, Ce, Gd) as solid electrolytes for Li-S batteries",all-solid-state,hydride,1,0,0,0,0,0,0,0,1,0,0,0,False,1,T4
+W2781084163,2017,article,An ion-conductive Li1.5Al0.5Ge1.5(PO4)3-based composite protective layer for lithium metal anode in lithium-sulfur batteries,solid-liquid-hybrid,oxide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W2782403284,2018,article,Multifunctional Sandwich‐Structured Electrolyte for High‐Performance Lithium–Sulfur Batteries,quasi-solid-state,gel-GPE,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W2784212954,2018,article,Do imaging techniques add real value to the development of better post-Li-ion batteries?,all-solid-state,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2784331684,2018,article,Novel Composite Polymer Electrolytes of PVdF-HFP Derived by Electrospinning with Enhanced Li-Ion Conductivities for Rechargeable Lithium–Sulfur Batteries,quasi-solid-state,composite-CPE; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2789438618,2018,article,Synthesis of Ta and Ca doped Li7La3Zr2O12 solid-state electrolyte via simple solution method and its application in suppressing shuttle effect of Li-S battery,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2789638551,2018,article,Progress of the Interface Design in All‐Solid‐State Li–S Batteries,all-solid-state,sulfide; oxide,4,0,0,0,0,0,0,0,4,0,0,0,False,4,T3
+W2792135077,2018,article,Lithiated Nafion as polymer electrolyte for solid-state lithium sulfur batteries using carbon-sulfur composite cathode,quasi-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2793464730,2018,article,Dendrite-free Li metal deposition in all-solid-state lithium sulfur batteries with polymer-in-salt polysiloxane electrolyte,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2793580736,2018,article,Progress and Perspective of Solid‐State Lithium–Sulfur Batteries,all-solid-state; quasi-solid-state,gel-GPE; polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,2,0,0,0,True,1,T4
+W2799522686,2018,article,Method Using Water-Based Solvent to Prepare Li7La3Zr2O12 Solid Electrolytes,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2800772067,2018,article,S-containing copolymer as cathode material in poly(ethylene oxide)-based all-solid-state Li-S batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2802021633,2018,article,A Perovskite Electrolyte That Is Stable in Moist Air for Lithium‐Ion Batteries,all-solid-state; quasi-solid-state,oxide; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2802058404,2018,article,Garnet Electrolyte with an Ultralow Interfacial Resistance for Li-Metal Batteries,all-solid-state; solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2802466811,2018,article,Dual‐Layered Film Protected Lithium Metal Anode to Enable Dendrite‐Free Lithium Deposition,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2803830557,2018,article,Recent progress in carbon/lithium metal composite anode for safe lithium metal batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W2804367830,2018,article,High Cycle Capability of All-Solid-State Lithium–Sulfur Batteries Using Composite Electrodes by Liquid-Phase and Mechanical Mixing,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2804604163,2018,article,Highly stable garnet solid electrolyte based Li-S battery with modified anodic and cathodic interfaces,solid-liquid-hybrid,oxide; sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2805698912,2018,article,Hybrid Lithium‐Sulfur Batteries with an Advanced Gel Cathode and Stabilized Lithium‐Metal Anode,solid-liquid-hybrid,oxide,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W2808374660,2018,article,Lithium Conductivity and Ions Dynamics in LiBH4/SiO2 Solid Electrolytes Studied by Solid-State NMR and Quasi-Elastic Neutron Scattering and Applied in Lithium–Sulfur Batteries,all-solid-state,hydride; composite-CPE,0,0,0,0,0,0,0,0,4,0,0,0,False,0,T4
+W2810923385,2018,article,Single ion conducting lithium sulfur polymer batteries with improved safety and stability,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2834846798,2018,article,Garnet structured solid fast Li+ conductor as polysulfide shuttle inhibitor in Li-S battery,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2840670318,2018,article,Development and Challenges of Functional Electrolytes for High‐Performance Lithium–Sulfur Batteries,all-solid-state; quasi-solid-state; solid-liquid-hybrid,gel-GPE; polymer-SPE,2,0,0,0,6,0,0,0,6,0,0,0,False,8,T2
+W2850559166,2018,article,3D-crosslinked tannic acid/poly(ethylene oxide) complex as a three-in-one multifunctional binder for high-sulfur-loading and high-stability cathodes in lithium-sulfur batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2884108817,2018,article,High Capacity All‐Solid‐State Lithium Batteries Enabled by Pyrite‐Sulfur Composites,all-solid-state,sulfide,2,0,1,0,0,0,0,0,4,1,0,0,False,5,T2
+W2884282641,2018,article,"Multiporous sp 2 -hybridized boron nitride (d-BN): stability, mechanical properties, lattice thermal conductivity and promising application in energy storage",all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2884821506,2018,article,Ultrahigh Performance All Solid-State Lithium Sulfur Batteries: Salt Anion’s Chemistry-Induced Anomalous Synergistic Effect,all-solid-state,polymer-SPE,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W2885383843,2018,article,Interphases in Lithium–Sulfur Batteries: Toward Deployable Devices with Competitive Energy Density and Stability,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2885653444,2018,article,All-in-one lithium-sulfur battery enabled by a porous-dense-porous garnet architecture,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2885958970,2018,article,Ionic liquid enabling stable interface in solid state lithium sulfur batteries working at room temperature,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2885966104,2018,article,Spiderweb‐Mimicking Anion‐Exchanging Separators for Li–S Batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2887383087,2018,article,Metal organic framework laden poly(ethylene oxide) based composite electrolytes for all-solid-state Li-S and Li-metal polymer batteries,all-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2887590704,2018,article,Forum on “Characterization Techniques for Li‐Ion Batteries and Beyond”,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2891261949,2018,article,Solid‐State Electrolytes: Progress and Perspective of Solid‐State Lithium–Sulfur Batteries (Adv. Funct. Mater. 38/2018),all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W2891704648,2018,article,Porous Carbon Hosts for Lithium–Sulfur Batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2895629147,2018,article,In Situ Li3PS4 Solid‐State Electrolyte Protection Layers for Superior Long‐Life and High‐Rate Lithium‐Metal Anodes,all-solid-state,sulfide,1,0,2,1,0,0,0,0,0,0,0,0,False,7,T1
+W2895995994,2018,article,High-performance all-solid-state lithium–sulfur batteries with sulfur/carbon nano-hybrids in a composite cathode,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2897239581,2018,article,Understanding the Role of Nano‐Aluminum Oxide in All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,polymer-SPE; composite-CPE,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W2898469256,2018,article,Visualizing the morphological and compositional evolution of the interface of InLi-anode|thio-LISION electrolyte in an all-solid-state Li–S cell by in operando synchrotron X-ray tomography and energy dispersive diffraction,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2899223896,2018,article,Stabilization of all-solid-state Li–S batteries with a polymer–ceramic sandwich electrolyte by atomic layer deposition,all-solid-state,oxide; composite-CPE,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W2899498086,2018,article,Metal-phosphide-doped Li7P3S11 glass-ceramic electrolyte with high ionic conductivity for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2900135350,2018,article,High-capacity lithium sulfur battery and beyond: a review of metal anode protection layers and perspective of solid-state electrolytes,all-solid-state; solid-liquid-hybrid,,1,0,0,0,0,0,0,0,2,0,0,0,True,1,T4
+W2900199308,2018,article,Rate Constants of Electrochemical Reactions in a Lithium-Sulfur Cell Determined by Operando X-ray Absorption Spectroscopy,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2900584074,2018,article,Flexible electrolyte-cathode bilayer framework with stabilized interface for room-temperature all-solid-state lithium-sulfur batteries,all-solid-state,oxide; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2900849319,2018,article,Enhanced Interfacial Stability of Hybrid‐Electrolyte Lithium‐Sulfur Batteries with a Layer of Multifunctional Polymer with Intrinsic Nanoporosity,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2901181159,2018,article,High-Conductivity Argyrodite Li 6 PS 5 Cl Solid Electrolytes Prepared via Optimized Sintering Processes for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2904499258,2018,article,Se as eutectic accelerator in sulfurized polyacrylonitrile for high performance all-solid-state lithium-sulfur battery,all-solid-state,sulfide,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W2904980955,2018,article,Separator Membranes for High Energy‐Density Batteries,,gel-GPE; composite-CPE,0,0,0,0,0,0,0,0,4,0,0,0,False,0,T4
+W2905825666,2018,article,Transport and Charge Carrier Chemistry in Lithium Sulfide,all-solid-state,,2,0,0,0,0,0,0,0,5,0,0,0,False,2,T3
+W2906108923,2018,article,Theoretical versus Practical Energy: A Plea for More Transparency in the Energy Calculation of Different Rechargeable Battery Systems,all-solid-state,,5,0,0,0,0,0,0,0,0,0,0,0,False,5,T3
+W2907252772,2019,article,Amorphous Lithium Sulfide as Lithium‐Sulfur Battery Cathode with Low Activation Barrier,all-solid-state,,0,0,0,0,0,0,0,0,2,0,0,0,False,0,T4
+W2908453675,2019,article,Rational design of multi-channel continuous electronic/ionic conductive networks for room temperature vanadium tetrasulfide-based all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W2911408505,2019,article,A High‐Performance Li–B–H Electrolyte for All‐Solid‐State Li Batteries,all-solid-state,hydride,0,0,0,0,0,0,0,0,7,1,0,0,False,0,T4
+W2912320512,2019,article,Assembling All‐Solid‐State Lithium–Sulfur Batteries with Li 3 N‐Protected Anodes,all-solid-state,sulfide,1,1,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2913113196,2019,article,Advanced Nanoclay-Based Nanocomposite Solid Polymer Electrolyte for Lithium Iron Phosphate Batteries,all-solid-state,composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2913315989,2019,article,Sulfur Redox Reactions at Working Interfaces in Lithium–Sulfur Batteries: A Perspective,all-solid-state,,4,0,0,0,4,1,0,0,0,0,0,0,True,8,T1
+W2915436995,2019,article,Recent Progress in All-Solid-State Lithium−Sulfur Batteries Using High Li-Ion Conductive Solid Electrolytes,all-solid-state,sulfide; oxide; polymer-SPE,2,0,1,0,0,0,0,0,9,0,3,0,True,5,T2
+W2918742558,2019,article,A complex hydride lithium superionic conductor for high-energy-density all-solid-state lithium metal batteries,all-solid-state,hydride,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W2921059923,2019,article,CNTs@S composite as cathode for all-solid-state lithium-sulfur batteries with ultralong cycle life,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2921192624,2019,article,Polymer Electrolyte Glue: A Universal Interfacial Modification Strategy for All-Solid-State Li Batteries,all-solid-state,polymer-SPE; in-situ-polymerized,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2921417292,2019,article,Amorphous Ni‐Rich Li(Ni1−x−yMnxCoy)O2–Li2SO4 Positive Electrode Materials for Bulk‐Type All‐Oxide Solid‐State Batteries,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2921580945,2019,article,High‐Performance Li–SeS x All‐Solid‐State Lithium Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,1,0,False,0,T4
+W2922411224,2019,article,Sulfur‐Based Composite Electrode with Interconnected Mesoporous Carbon for All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2926123667,2019,article,Observation of Chemomechanical Failure and the Influence of Cutoff Potentials in All-Solid-State Li–S Batteries,all-solid-state,sulfide,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W2932361834,2019,article,Metal−Organic Frameworks for High‐Energy Lithium Batteries with Enhanced Safety: Recent Progress and Future Perspectives,all-solid-state,,0,0,0,0,1,0,0,0,0,0,0,0,True,1,T4
+W2935139334,2019,article,Tailoring Li 6 PS 5 Br ionic conductivity and understanding of its role in cathode mixtures for high performance all-solid-state Li–S batteries,all-solid-state,sulfide,13,0,2,0,0,0,0,0,0,0,0,0,False,19,T1
+W2936193495,2019,article,Cathode-Supported All-Solid-State Lithium–Sulfur Batteries with High Cell-Level Energy Density,all-solid-state,sulfide,0,0,0,0,0,0,0,0,6,0,0,0,False,0,T4
+W2940488382,2019,article,In Situ Generated Li2S–C Nanocomposite for High-Capacity and Long-Life All-Solid-State Lithium Sulfur Batteries with Ultrahigh Areal Mass Loading,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2943322021,2019,article,Constructing dual interfacial modification by synergetic electronic and ionic conductors: Toward high-performance LAGP-Based Li-S batteries,all-solid-state; solid-liquid-hybrid,oxide; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2943713060,2019,article,Stable Cycling Lithium–Sulfur Solid Batteries with Enhanced Li/Li10GeP2S12 Solid Electrolyte Interface Stability,solid-liquid-hybrid,sulfide,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W2944002721,2019,article,LAGP|Li Interface Modification through a Wetted Polypropylene Interlayer for Solid State Li-Ion and Li–S batteries,solid-liquid-hybrid,oxide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W2944312707,2019,article,Solid‐State Plastic Crystal Electrolytes: Effective Protection Interlayers for Sulfide‐Based All‐Solid‐State Lithium Metal Batteries,all-solid-state,sulfide; plastic-crystal,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W2945149024,2019,article,Direct tracking of the polysulfide shuttling and interfacial evolution in all-solid-state lithium–sulfur batteries: a degradation mechanism study,all-solid-state,composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2946604523,2019,article,Designer Anion Enabling Solid-State Lithium-Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2947000474,2019,article,Incorporating Solvate and Solid Electrolytes for All‐Solid‐State Li2S Batteries with High Capacity and Long Cycle Life,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2947342170,2019,article,Fluorine‐Free Noble Salt Anion for High‐Performance All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2948222308,2019,article,Poly(ethylene oxide)–Li10SnP2S12 Composite Polymer Electrolyte Enables High-Performance All-Solid-State Lithium Sulfur Battery,all-solid-state,composite-CPE; polymer-SPE; sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2948950145,2019,article,The Discharge Mechanism for Solid-State Lithium-Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2954267266,2019,article,New Insight for Solid Sulfide Electrolytes LSiPSI by Using Si/P/S as the Raw Materials and I Doping,all-solid-state,sulfide,0,0,0,0,0,0,0,0,7,0,0,0,False,0,T4
+W2957787472,2019,article,A review of biomass materials for advanced lithium–sulfur batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W2963324355,2019,article,Recent advances in cathode materials for rechargeable lithium–sulfur batteries,all-solid-state; solid-liquid-hybrid,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W2963816609,2019,article,Room-temperature superionic-phase nanocrystals synthesized with a twinned lattice,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2964105477,2019,article,Rational design of spontaneous reactions for protecting porous lithium electrodes in lithium–sulfur batteries,solid-liquid-hybrid,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2965570284,2019,article,Novel SeS2 doped Li2S-P2S5 solid electrolyte with high ionic conductivity for all-solid-state lithium sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2967850646,2019,article,A high performance all solid state lithium sulfur battery with lithium thiophosphate solid electrolyte,all-solid-state,sulfide,3,0,0,0,0,0,0,0,9,0,0,0,False,3,T3
+W2971808493,2019,article,All‐Solid‐State Printed Bipolar Li–S Batteries,all-solid-state,gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2972442581,2019,article,High Capacity and Superior Cyclic Performances of All-Solid-State Lithium–Sulfur Batteries Enabled by a High-Conductivity Li10SnP2S12 Solid Electrolyte,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2976938161,2019,article,Poly(ionic liquid)-Based Quasi-Solid-State Copolymer Electrolytes for Dynamic-Reversible Adsorption of Lithium Polysulfides in Lithium–Sulfur Batteries,quasi-solid-state,gel-GPE,1,0,0,0,0,0,0,0,0,0,1,0,False,1,T4
+W2978488180,2019,article,Improved interfacial electronic contacts powering high sulfur utilization in all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W2979182582,2019,article,Solid/Solid Interfacial Architecturing of Solid Polymer Electrolyte–Based All‐Solid‐State Lithium–Sulfur Batteries by Atomic Layer Deposition,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2980817441,2019,article,Boron nitride doped Li7P3S11 solid electrolyte with improved interfacial compatibility and application in all-solid-state Li/S battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W2980994780,2019,article,Interfacial Reactions and Performance of Li7La3Zr2O12-Stabilized Li–Sulfur Hybrid Cell,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2981014005,2019,article,A facile synthetic approach to nanostructured Li 2 S cathodes for rechargeable solid-state Li–S batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2981620370,2019,article,"P(VDF-HFP)-poly(sulfur-1,3-diisopropenylbenzene) functional polymer electrolyte for lithium–sulfur batteries",quasi-solid-state,gel-GPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2981846506,2019,article,Li–S Batteries: All‐Solid‐State Printed Bipolar Li–S Batteries (Adv. Energy Mater. 40/2019),quasi-solid-state,gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2982305639,2019,article,Research Progress of the Solid State Lithium-Sulfur Batteries,all-solid-state,,0,0,0,0,0,0,0,0,5,0,1,0,False,0,T4
+W2988642319,2019,article,MOF-Derived Co3O4 Polyhedrons as Efficient Polysulfides Barrier on Polyimide Separators for High Temperature Lithium–Sulfur Batteries,solid-liquid-hybrid,oxide; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2990234695,2019,article,Functionalized cellulose as quasi single-ion conductors in polymer electrolyte for all-solid–state Li/Na and Li S batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W2993271346,2019,article,In situ generated Li2S-LPS composite for all-solid-state lithium-sulfur battery,all-solid-state,sulfide,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W2993637594,2019,article,Elucidating Interfacial Phenomena between Solid-State Electrolytes and the Sulfur-Cathode of Lithium–Sulfur Batteries,all-solid-state,sulfide; halide,6,0,0,0,0,0,0,0,18,0,0,0,False,6,T3
+W2996752519,2019,article,Constructing a High‐Strength Solid Electrolyte Layer by In Vivo Alloying with Aluminum for an Ultrahigh‐Rate Lithium Metal Anode,solid-liquid-hybrid,,4,1,0,0,0,0,0,0,0,0,0,0,False,4,T2
+W3002270725,2020,article,Sulfur–Carbon Nano Fiber Composite Solid Electrolyte for All-Solid-State Li–S Batteries,all-solid-state,sulfide,0,0,1,0,0,0,0,0,17,0,0,0,False,3,T2
+W3004166620,2020,article,Solid polymer electrolytes from double-comb Poly(methylhydrosiloxane) based on quaternary ammonium moiety-containing crosslinking system for Li/S battery,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3005517660,2020,article,Kinetics of all-solid-state sulfur cathodes,all-solid-state,sulfide,1,0,1,0,0,0,0,0,1,0,0,0,False,4,T2
+W3006722388,2020,article,Thin Solid Electrolyte Layers Enabled by Nanoscopic Polymer Binding,all-solid-state,sulfide; in-situ-polymerized,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3006724288,2020,article,Recent progress on biomass‐derived ecomaterials toward advanced rechargeable lithium batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W3006847563,2020,article,Solid‐State Lithium–Sulfur Battery Enabled by Thio‐LiSICON/Polymer Composite Electrolyte and Sulfurized Polyacrylonitrile Cathode,all-solid-state,composite-CPE; sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3008926973,2020,article,Shaping the Contact between Li Metal Anode and Solid‐State Electrolytes,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3009180938,2020,article,Sandwich structured NASICON-type electrolyte matched with sulfurized polyacrylonitrile cathode for high performance solid-state lithium-sulfur batteries,all-solid-state,oxide; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3012958710,2020,article,Development of Lithium-Ion Batteries Wins Nobel Prize,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3013199373,2020,article,Sulfur-Embedded FeS2 as a High-Performance Cathode for Room Temperature All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3013332881,2020,article,Slurry‐Coated Sulfur/Sulfide Cathode with Li Metal Anode for All‐Solid‐State Lithium‐Sulfur Pouch Cells,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3015415752,2020,article,Enhanced Air Stability and High Li-Ion Conductivity of Li6.988P2.994Nb0.2S10.934O0.6 Glass–Ceramic Electrolyte for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W3015636936,2020,article,Polymer Precursor Derived LixPON Electrolytes: Toward Li–S Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3015905867,2020,article,Microstructural analyses of all-solid-state Li–S batteries using LiBH4-based solid electrolyte for prolonged cycle performance,all-solid-state,hydride,2,0,0,0,0,0,0,0,2,0,0,0,False,2,T3
+W3016385099,2020,article,A forum on batteries: from lithium-ion to the next generation,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3016852101,2020,article,Li2S–Li3PS4 (LPS) Composite Synthesized by Liquid‐Phase Shaking for All‐Solid‐State Lithium–Sulfur Batteries with High Performance,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3022794757,2020,article,Organic-inorganic multi-scale enhanced interfacial engineering of sulfide solid electrolyte in Li-S battery,quasi-solid-state,sulfide; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3023364404,2020,article,An efficient bi-functional permselective separator coated with cubic type-Li 7 La 3 Zr 2 O 12 and activated carbon for lithium–sulfur batteries,solid-liquid-hybrid,oxide,1,0,0,0,4,0,0,0,0,0,0,0,False,5,T3
+W3023517450,2020,article,High-rate operation of sulfur/mesoporous activated carbon composite electrode for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3024529292,2020,article,Reaction Mechanism Optimization of Solid‐State Li–S Batteries with a PEO‐Based Electrolyte,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3025796877,2020,article,Facile synthesis of a mixed-conductive Li2S composites for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3033588247,2020,article,In Situ TEM Observations of Discharging/Charging of Solid‐State Lithium‐Sulfur Batteries at High Temperatures,all-solid-state,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W3033772597,2020,article,Solid Electrolytes for Li–S Batteries: Solid Solutions of Poly(ethylene oxide) with Li x PON- and Li x SiPON-Based Polymers,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3033848358,2020,article,Incorporating the Nanoscale Encapsulation Concept from Liquid Electrolytes into Solid-State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3033888280,2020,article,A Metal Organic Framework Derived Solid Electrolyte for Lithium–Sulfur Batteries,quasi-solid-state,ionogel,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3035993642,2020,article,High-Toughness Inorganic Solid Electrolytes via the Use of Reduced Graphene Oxide,all-solid-state,oxide; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3037008878,2020,article,Electrospinning‐Based Strategies for Battery Materials,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3037180228,2020,article,Solidifying Cathode–Electrolyte Interface for Lithium–Sulfur Batteries,quasi-solid-state; all-solid-state; solid-liquid-hybrid,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3038304848,2020,article,Water-based fabrication of garnet-based solid electrolyte separators for solid-state lithium batteries,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3039308907,2020,article,Elevating reactivity and cyclability of all-solid-state lithium-sulfur batteries by the combination of tellurium-doping and surface coating,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3039516479,2020,article,Electrochemical evaluation of different graphene/sulfur composite synthesis routes in all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3042275898,2020,article,Hybrid Li‐S pouch cell with a reinforced sulfide glass solid‐state electrolyte film separator,solid-liquid-hybrid,sulfide,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W3043081339,2020,article,Electrochemical and compositional characterization of solid interphase layers in an interface-modified solid-state Li–sulfur battery,solid-liquid-hybrid,oxide; ionogel,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3043448976,2020,article,Rational Designed Mixed-Conductive Sulfur Cathodes for All-Solid-State Lithium Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3044839251,2020,article,Combining Superionic Conduction and Favorable Decomposition Products in the Crystalline Lithium–Boron–Sulfur System: A New Mechanism for Stabilizing Solid Li-Ion Electrolytes,all-solid-state,sulfide,2,0,0,0,0,0,0,0,3,0,0,0,False,2,T3
+W3045397273,2020,article,"Interface Issues and Challenges in All‐Solid‐State Batteries: Lithium, Sodium, and Beyond",all-solid-state,,3,0,0,0,0,0,0,0,5,0,0,0,False,3,T3
+W3080132686,2020,article,2H‐MoS2 as an Artificial Solid Electrolyte Interface in All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,8,1,0,0,0,0,0,0,0,0,0,0,False,8,T1
+W3080319953,2020,article,"Ionic Conductivity of Low‐Crystalline Li4P2S6 and Li4P2S6–LiX (X=Cl, Br, and I) Systems and Their Role in Improved Positive Electrode Performance in All‐Solid‐State LiS Battery",all-solid-state,sulfide,0,0,0,0,0,0,0,0,10,0,0,0,False,0,T4
+W3080815103,2020,article,Thermal Conductive 2D Boron Nitride for High‐Performance All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3081203536,2020,article,Rational Design of an Electron/Ion Dual-Conductive Cathode Framework for High-Performance All-Solid-State Lithium Batteries,all-solid-state,composite-CPE; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3081422544,2020,article,In‐situ Generated Ultra‐High Dispersion Sulfur 3D‐Graphene Foam for All‐Solid‐State Lithium Sulfur Batteries with High Cell‐Level Energy Density,all-solid-state,sulfide,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W3082182702,2020,article,Ultrathin Solid Composite Electrolyte Based on Li6.4La3Zr1.4Ta0.6O12/PVDF-HFP/LiTFSI/Succinonitrile for High-Performance Solid-State Lithium Metal Batteries,quasi-solid-state,composite-CPE; oxide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3083129377,2020,article,A Review of Solid-State Lithium–Sulfur Battery: Ion Transport and Polysulfide Chemistry,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W3083871336,2020,article,Solid state lithium-sulfur (Li-S) batteries based on solid electrolytes- a brief review,all-solid-state,sulfide; oxide; polymer-SPE; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W3084349965,2020,article,Li2S@NC composite enable high active material loading and high Li2S utilization for all-solid-state lithium sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3086469215,2020,article,Analysis of Charge Carrier Transport Toward Optimized Cathode Composites for All‐Solid‐State Li−S Batteries,all-solid-state,sulfide,7,0,1,0,0,0,0,0,1,0,1,0,False,10,T2
+W3087717505,2020,article,Li1.5Al0.5Ge1.5(PO4)3 Ceramic Based Lithium‐Sulfur Batteries with High Cycling Stability Enabled by a Dual Confinement Effect for Polysulfides,solid-liquid-hybrid; quasi-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3087864154,2020,article,Crosslinked poly(allyl glycidyl ether) with pendant nitrile groups as solid polymer electrolytes for Li–S batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3089647437,2020,article,A novel air-stable Li7Sb0.05P2.95S10.5I0.5 superionic conductor glass-ceramics electrolyte for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,10,0,0,0,False,1,T4
+W3090491572,2020,article,Fibrous Materials for Flexible Li–S Battery,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3092105526,2020,article,Dual effect of MgS addition on li2s ionic conductivity and all-solid-state Li–S cell performance,all-solid-state,sulfide,2,0,2,0,0,0,0,0,1,0,0,0,False,8,T1
+W3093605041,2020,article,A new high-capacity cathode for all-solid-state lithium sulfur battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3094784679,2020,article,Thin laminar composite solid electrolyte with high ionic conductivity and mechanical strength towards advanced all-solid-state lithium–sulfur battery,all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3094828286,2020,article,"Solid-state lithium–sulfur batteries: Advances, challenges and perspectives",all-solid-state,,1,0,0,0,0,0,0,0,1,0,0,0,True,1,T4
+W3095782240,2020,article,Perovskite Lithium Lanthanum Titanate-Modified Separator as Both Adsorbent and Converter of Soluble Polysulfides toward High-Performance Li-S Battery,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3096512146,2020,article,DFT-Guided Design and Fabrication of Carbon-Nitride-Based Materials for Energy Storage Devices: A Review,,,0,0,0,0,1,0,0,0,0,0,0,0,True,1,T4
+W3096634170,2020,article,Polymer electrolytes for Li-S batteries: Polymeric fundamentals and performance optimization,all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3102913277,2020,article,Will Sulfide Electrolytes be Suitable Candidates for Constructing a Stable Solid/Liquid Electrolyte Interface?,solid-liquid-hybrid,sulfide,7,0,0,0,0,0,0,0,0,0,0,0,False,7,T3
+W3105475479,2020,article,"Polymer‐Based Solid Electrolytes: Material Selection, Design, and Application",all-solid-state; quasi-solid-state,polymer-SPE; composite-CPE; gel-GPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3106881006,2020,article,A High Capacity All Solid‐State Li‐Sulfur Battery Enabled by Conversion‐Intercalation Hybrid Cathode Architecture,all-solid-state,sulfide,6,0,0,0,0,0,0,0,4,0,0,0,False,6,T3
+W3107081408,2020,article,Improved Ionic Conductivity and Li Dendrite Suppression Capability toward Li7P3S11-Based Solid Electrolytes Triggered by Nb and O Cosubstitution,all-solid-state,sulfide,2,0,0,0,0,0,0,0,7,0,0,0,False,2,T3
+W3109126384,2020,article,Cathode-Supported-Electrolyte Configuration for High-Performance All-Solid-State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3109188135,2020,article,Construction of stable solid electrolyte interphase on lithium anode for long-cycling solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3109937814,2020,article,A Reaction Model for Li Deposition at the Positive Electrode of the Braga-Goodenough Li-S Battery,all-solid-state,,0,0,0,0,2,0,0,0,0,0,0,0,False,2,T3
+W3113647976,2020,article,Comparison of Sulfur Cathode Reactions between a Concentrated Liquid Electrolyte System and a Solid-State Electrolyte System by Soft X-Ray Absorption Spectroscopy,all-solid-state,sulfide,5,0,0,0,0,0,0,0,0,0,0,0,False,5,T3
+W3116078429,2020,article,Atomic-scale Al2O3 modified PEO-based composite polymer electrolyte for durable solid-state Li − S batteries,all-solid-state,composite-CPE; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3118735547,2021,article,Confining Sulfur in Porous Carbon by Vapor Deposition to Achieve High-Performance Cathode for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W3118756521,2021,article,Preparation of Li2-3xAlxS for All-Solid-State Li-S Battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W3122935490,2021,article,Growing Nanostructured CuO on Copper Foil via Chemical Etching to Upgrade Metallic Lithium Anode,,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W3124149958,2021,article,State‐Of‐The‐Art and Future Challenges in High Energy Lithium–Selenium Batteries,,,1,0,0,0,1,0,0,0,0,0,10,0,False,2,T3
+W3125431518,2021,article,In Honor of Nobel Laureate John B. Goodenough,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3126893467,2021,article,Polymer-based electrolytes for all-solid-state lithium–sulfur batteries: from fundamental research to performance improvement,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,1,0,False,0,T4
+W3127348006,2021,article,Bifunctional Interphase-Enabled Li 10 GeP 2 S 12 Electrolytes for Lithium–Sulfur Battery,all-solid-state,sulfide,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W3127517109,2021,article,Lithium-Sulfur Batteries Employing Hybrid-electrolyte Structure with Li7La3Zr2O12 at Middle Operating Temperature: Effect of Li Salts Concentration on Electrochemical Performance,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3127929569,2021,article,High-Performance All-Solid-State Lithium–Sulfur Batteries Enabled by Slurry-Coated Li6PS5Cl/S/C Composite Electrodes,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3130885225,2021,article,Alumina Nanofilms As Active Barriers for Polysulfides in High-Performance All-Solid-State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3131880064,2021,article,A mechanistic study of electrode materials for rechargeable batteries beyond lithium ions by in situ transmission electron microscopy,,,4,0,0,0,5,0,0,0,0,0,0,0,False,9,T2
+W3132091411,2021,article,Linking Solid Electrolyte Degradation to Charge Carrier Transport in the Thiophosphate‐Based Composite Cathode toward Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,25,3,5,0,0,0,0,0,0,0,40,0,False,40,T1
+W3133888018,2021,article,Well-Dispersed Garnet Crystallites for Applications in Solid-State Li–S Batteries,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3134092700,2021,article,Composite Lithium Protective Layer Formed In Situ for Stable Lithium Metal Batteries,,halide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3134932327,2021,article,Recent Advances in Silicon‐Based Electrodes: From Fundamental Research toward Practical Applications,all-solid-state,,8,0,0,0,0,0,0,0,0,0,0,0,True,8,T2
+W3136245462,2021,article,Natural Clay‐Based Materials for Energy Storage and Conversion Applications,solid-liquid-hybrid,composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3137061176,2021,article,Deciphering the role of tetrahydrofuran residue in the poly(ethylene oxide)/LiTFSI hybrid used for secondary battery electrolyte,solid-liquid-hybrid,polymer-SPE,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W3138451638,2021,article,Rapid preparation and performances of garnet electrolyte with sintering aids for solid-state Li–S battery,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3138672901,2021,article,"Direct Ink Writing of Moldable Electrochemical Energy Storage Devices: Ongoing Progress, Challenges, and Prospects",,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3139836880,2021,article,"Electrochemical Performance of LixSiON Polymer Electrolytes Derived from an Agriculture Waste Product, Rice Hull Ash",all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3144248099,2021,article,Cyclopropenium Cationic-Based Covalent Organic Polymer-Enhanced Poly(ethylene oxide) Composite Polymer Electrolyte for All-Solid-State Li–S Battery,all-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3144984376,2021,article,Composite Electrolytes Based on Poly(Ethylene Oxide) and Lithium Borohydrides for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,hydride; composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,3,0,0,0,False,0,T4
+W3151010430,2021,article,Operando x-ray absorption spectroscopy on battery materials: a review of recent developments,,,1,0,0,0,0,0,0,0,0,0,0,0,True,1,T4
+W3154179325,2021,article,Solid-State Polymer Electrolyte Solves the Transfer of Lithium Ions between the Solid–Solid Interface of the Electrode and the Electrolyte in Lithium–Sulfur and Lithium-Ion Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3154530720,2021,article,Salt Additives for Improving Cyclability of Polymer-Based All-Solid-State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3154555369,2021,article,Ultrasmall Li2S-Carbon Nanotube Nanocomposites for High-Rate All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3162565043,2021,article,Leakage‐Proof Electrolyte Chemistry for a High‐Performance Lithium–Sulfur Battery,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3166076650,2021,article,Strong Interfacial Adhesion between the Li2S Cathode and a Functional Li7P2.9Ce0.2S10.9Cl0.3 Solid-State Electrolyte Endowed Long-Term Cycle Stability to All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3167854890,2021,article,"Tomography Imaging of Lithium Electrodeposits Using Neutron, Synchrotron X-Ray, and Laboratory X-Ray Sources: A Comparison",,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3172848544,2021,article,Electrochemical processes in all-solid-state Li-S batteries studied by electrochemical impedance spectroscopy,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3174763599,2021,article,S/MWCNt/LLZO composite electrode with e−/S/Li+ conductive network for all-solid -state Lithium–Sulfur batteries,all-solid-state,oxide; composite-CPE,0,0,0,0,0,0,0,0,2,0,0,0,False,0,T4
+W3175052050,2021,article,Addressing interface elimination: Boosting comprehensive performance of all-solid-state Li-S battery,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3177195391,2021,article,"Electrolyte Issues in Lithium–Sulfur Batteries: Development, Prospect, and Challenges",,,3,0,0,0,3,0,0,0,2,0,1,0,False,6,T3
+W3178399305,2021,article,Electrolyte Design for Lithium Metal Anode‐Based Batteries Toward Extreme Temperature Application,,,11,0,0,0,1,0,0,0,1,0,0,0,False,12,T2
+W3186529267,2021,article,A new flame-retardant polymer electrolyte with enhanced Li-ion conductivity for safe lithium-sulfur batteries,quasi-solid-state,in-situ-polymerized; gel-GPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3186831656,2021,article,Mechanistic Investigation of Polymer‐Based All‐Solid‐State Lithium/Sulfur Battery,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,1,0,False,0,T4
+W3186973389,2021,article,Congener Substitution Reinforced Li 7 P 2.9 Sb 0.1 S 10.75 O 0.25 Glass-Ceramic Electrolytes for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3188879443,2021,article,Nano-Confinement of Insulating Sulfur in the Cathode Composite of All-Solid-State Li–S Batteries Using Flexible Carbon Materials with Large Pore Volumes,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3190472458,2021,article,A Versatile Li 6.5 In 0.25 P 0.75 S 5 I Sulfide Electrolyte Triggered by Ultimate‐Energy Mechanical Alloying for All‐Solid‐State Lithium Metal Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,80,1,0,0,False,1,T4
+W3196454815,2021,article,PIM‐1 as a Multifunctional Framework to Enable High‐Performance Solid‐State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3199864243,2021,article,Wide Working Temperature Range Rechargeable Lithium–Sulfur Batteries: A Critical Review,quasi-solid-state; all-solid-state,,2,0,0,0,4,0,0,0,1,0,0,0,True,6,T3
+W3201410355,2021,article,Functional additives for solid polymer electrolytes in flexible and high‐energy‐density solid‐state lithium‐ion batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3202182949,2021,article,Understanding LiI-LiBr Catalyst Activity for Solid State Li2S/S Reactions in an All-Solid-State Lithium Battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,114,5,0,0,False,0,T4
+W3202666429,2021,article,Novel Lithium‐Sulfur Polymer Battery Operating at Moderate Temperature,quasi-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3202739397,2021,article,Sulfurized polyacrylonitrile cathodes with electrochemical and structural tuning for high capacity all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,1,0,2,0,0,0,0,0,0,0,0,0,False,7,T1
+W3203235881,2021,article,Cationic Cyclopropenium-Based Hyper-Crosslinked Polymer Enhanced Polyethylene Oxide Composite Electrolyte for All-Solid-State Li-S Battery,all-solid-state,composite-CPE; polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3203794745,2021,article,An Antipulverization and High‐Continuity Lithium Metal Anode for High‐Energy Lithium Batteries,,sulfide,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W3204994929,2021,article,Electron and Ion Co‐Conductive Catalyst Achieving Instant Transformation of Lithium Polysulfide towards Li 2 S,quasi-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3205000386,2021,article,Recent Research and Progress in Batteries for Electric Vehicles,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3205269758,2021,article,All-Solid-State Lithium–Sulfur Batteries Enhanced by Redox Mediators,all-solid-state,polymer-SPE,0,0,0,0,8,3,0,0,5,0,0,0,False,8,T1
+W3205816433,2021,article,Chemical Sulfide Tethering Improves Low-Temperature Li–S Battery Cycling,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3205935506,2021,article,Toward Practical Solid-State Lithium–Sulfur Batteries: Challenges and Perspectives,all-solid-state,sulfide,30,3,0,0,0,0,0,0,0,0,10,0,True,30,T1
+W3205980940,2021,article,Fast Li-ion Conductor of Li 3 HoBr 6 for Stable All-Solid-State Lithium–Sulfur Battery,all-solid-state,halide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3206875435,2021,article,Interconnected cathode-electrolyte double-layer enabling continuous Li-ion conduction throughout solid-state Li-S battery,all-solid-state,oxide; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3207196242,2021,article,"Configuring solid-state batteries to power electric vehicles: a deliberation on technology, chemistry and energy",all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3208468775,2021,article,Collectively Exhaustive MXene and Graphene Oxide Multilayer for Suppressing Shuttling Effect in Flexible Lithium Sulfur Battery,quasi-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3210049188,2021,article,Solid Electrolyte with Oxidation Tolerance Provides a High‐Capacity Li 2 S‐Based Positive Electrode for All‐Solid‐State Li/S Batteries,all-solid-state,,11,1,7,0,0,0,0,0,56,0,3,0,False,32,T1
+W3210586630,2021,article,All-Solid-State Lithium Metal Batteries with Sulfide Electrolytes: Understanding Interfacial Ion and Electron Transport,all-solid-state,sulfide,4,0,0,0,0,0,0,0,1,0,0,0,False,4,T3
+W3211654317,2021,article,An in situ generated polymer electrolyte via anionic ring-opening polymerization for lithium–sulfur batteries,quasi-solid-state,in-situ-polymerized; polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W3214466228,2021,article,Multifunctional Protection Layers via a Self-Driven Chemical Reaction To Stabilize Lithium Metal Anodes,solid-liquid-hybrid,oxide; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W3215122230,2021,article,Tuning ionic conductivity to enable all-climate solid-state Li–S batteries with superior performances,all-solid-state,sulfide,0,0,0,0,0,0,0,0,66,0,0,0,False,0,T4
+W3216755742,2021,article,A Li 2 S-Based Catholyte/Solid-State-Electrolyte Composite for Electrochemically Stable Lithium–Sulfur Batteries,quasi-solid-state,sulfide,5,0,0,0,0,0,0,0,0,0,0,0,False,5,T3
+W3217192319,2021,article,High Surface Area N‐Doped Carbon Fibers with Accessible Reaction Sites for All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4200056864,2021,article,Stabilizing Interface between Li2S–P2S5 Glass-Ceramic Electrolyte and Ether Electrolyte by Tuning Solvation Reaction,solid-liquid-hybrid,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4200106176,2021,article,Rearrangement of Ion Transport Path on Nano-Cross-linker for All-Solid-State Electrolyte with High Room Temperature Ionic Conductivity,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4200335944,2021,article,High-Efficiency Hybrid Sulfur Cathode Based on Electroactive Niobium Tungsten Oxide and Conductive Carbon Nanotubes for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W4200359323,2021,article,Controllable Li 3 PS 4 –Li 4 SnS 4 solid electrolytes with affordable conductor and high conductivity for solid‐state battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4200580319,2021,article,Mixed Ionically/Electronically Conductive Double-Phase Interface Enhanced Solid-State Charge Transfer for a High-Performance All-Solid-State Li–S Battery,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4205472388,2021,article,Bifunctional polymer electrolyte with higher lithium-ion transference number for lithium-sulfur batteries,quasi-solid-state,gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4205527027,2022,article,Connecting battery technologies for electric vehicles from battery materials to management,all-solid-state,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4206179171,2022,article,Perspective of polymer-based solid-state Li-S batteries,all-solid-state; quasi-solid-state,polymer-SPE; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W4206724717,2022,article,A Li 2 S-based all-solid-state battery with high energy and superior safety,all-solid-state,sulfide,5,0,0,0,1,0,0,0,0,0,0,0,False,6,T3
+W4210832251,2022,article,Synthesis of an AlI 3 -doped Li 2 S positive electrode with superior performance in all-solid-state batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,14,0,0,0,False,0,T4
+W4212775077,2022,article,Fluoride-Rich Solid Electrolyte Membrane in Solid-State Li–S Batteries: Improvement of Lithium Cycle Stability and Shuttle Effects,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4212807122,2022,article,Recent advances in the cathode materials and solid-state electrolytes for lithium sulfur batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W4213418883,2022,article,Exploring the concordant solid-state electrolytes for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,1,0,0,0,False,1,T4
+W4214845379,2022,article,Transferring Liquid Metal to form a Hybrid Solid Electrolyte via a Wettability‐Tuning Technology for Lithium‐Metal Anodes,solid-liquid-hybrid,composite-CPE,2,0,0,0,0,0,0,0,1,0,0,0,False,2,T3
+W4220666833,2022,article,Polymers for Long‐Cycle and Highly Safe Lithium‐Based Batteries,,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4220735400,2022,article,Advanced Battery Materials and Interfaces: A European Perspective,,,1,1,0,0,0,0,0,0,0,0,0,0,True,1,T4
+W4220764395,2022,article,Inorganic all-solid-state lithium-sulfur batteries enhanced by facile thermal formation,all-solid-state,hydride,1,0,0,0,0,0,0,0,1,0,0,0,False,1,T4
+W4221054943,2022,article,Improving Cycling Stability of the Lithium Anode by a Spin-Coated High-Purity Li3PS4 Artificial SEI Layer,,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4223529850,2022,article,Covalent Organic Framework for Rechargeable Batteries: Mechanisms and Properties of Ionic Conduction,,,1,0,0,0,0,0,0,0,7,0,0,0,False,1,T4
+W4223598958,2022,article,Engineering high conductive Li7P2S8I via Cl- doping for all-solid-state Li-S batteries workable at different operating temperatures,all-solid-state,sulfide,2,0,1,0,0,0,1,0,209,1,0,0,False,7,T2
+W4223953941,2022,article,Carbon-free and binder-free Li-Al alloy anode enabling an all-solid-state Li-S battery with high energy and stability,all-solid-state,sulfide,12,0,0,0,0,0,1,0,0,0,0,0,False,14,T2
+W4223982513,2022,article,A multifunctional nano filler for solid polymer electrolyte toward stable cycling for lithium-metal anodes in lithium–sulfur batteries,quasi-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4224270538,2022,article,Aqueous Quaternary Polymer Binder Enabling Long-Life Lithium–Sulfur Batteries by Multifunctional Physicochemical Properties,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4224299686,2022,article,Enhanced Cycling Performance of All‐Solid‐State Li‐S Battery Enabled by PVP‐Blended PEO‐Based Double‐Layer Electrolyte,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4226091697,2022,article,Understanding Voltage Hysteresis for High-Energy-Density Li–S Batteries,solid-liquid-hybrid,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4229331799,2022,article,Dry electrode technology for scalable and flexible high-energy sulfur cathodes in all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4280541779,2022,article,Zr doped NASICON-type LATP glass-ceramic as a super-thin coating onto deoxidized carbon wrapped CNT-S cathode for lithium-sulphur battery,solid-liquid-hybrid,oxide,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W4280552242,2022,article,Electronegativity‐Induced Single‐Ion Conducting Polymer Electrolyte for Solid‐State Lithium Batteries,all-solid-state,polymer-SPE,2,0,0,0,0,0,0,0,29,3,0,0,False,2,T3
+W4280565663,2022,article,Regulating liquid and solid-state electrolytes for solid-phase conversion in Li–S batteries,all-solid-state; quasi-solid-state; solid-liquid-hybrid,polymer-SPE; gel-GPE,0,0,0,0,1,0,0,0,1,0,0,0,False,1,T4
+W4281261985,2022,article,3D porous PTFE membrane filled with PEO‐based electrolyte for all solid‐state lithium–sulfur batteries,all-solid-state,composite-CPE; oxide; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4281802802,2022,article,Constructing Ion‐Selective Coating Layer with Lithium Ion Conductor LLZO and Binder Li‐Nafion for Separator Used in Lithium‐Sulfur Batteries,,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4282552735,2022,article,All‐Solid‐State Li–S Batteries Enhanced by Interface Stabilization and Reaction Kinetics Promotion through 2D Transition Metal Sulfides,all-solid-state,sulfide,18,2,0,0,0,0,0,0,0,0,0,0,False,18,T1
+W4283257756,2022,article,Intimate triple phase interfaces confined in two-dimensional ordered mesoporous carbon towards high-performance all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4283464734,2022,article,"Solid-state electrolytes for solid-state lithium-sulfur batteries: Comparisons, advances and prospects",all-solid-state,polymer-SPE; oxide; sulfide,2,0,0,0,0,0,0,0,3,0,0,0,False,2,T3
+W4283698213,2022,article,Controlled Synthesis of Nitrogen-Doped Yolk–Shell Carbon Nanospheres: Tailoring Yolk Size for Lithium–Sulfur Batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4285232799,2022,article,Rice husk-derived porous silicon dioxide fillers for enhancing ionic conductivity in a solid-state electrolyte of lithium–sulfur batteries under molecular dynamic calculation,all-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4285245470,2022,article,In situ grown MOFs and PVDF-HFP co-modified aramid gel nanofiber separator for high-safety lithium–sulfur batteries,quasi-solid-state,gel-GPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4285283930,2022,article,Realizing the compatibility of a Li metal anode in an all-solid-state Li−S battery by chemical iodine–vapor deposition,all-solid-state,sulfide,11,0,0,0,1,0,0,0,189,3,0,0,False,12,T2
+W4285384018,2022,article,NiCo5S8 structure with unique morphology as a cathode active material for All-Solid-State Lithium-Sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4285492209,2022,article,Developing Preparation Craft Platform for Solid Electrolytes Containing Volatile Components: Experimental Study of Competition between Lithium Loss and Densification in Li7La3Zr2O12,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4286268132,2022,article,A functional additive to in-situ construct stable cathode and anode interfaces for all-solid-state lithium-sulfur batteries,all-solid-state,composite-CPE; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4288051734,2022,article,Bulk/Interfacial Synergetic Approaches Enable the Stable Anode for High Energy Density All-Solid-State Lithium–Sulfur Batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4288813706,2022,article,Gradient distribution of functional components in PAN-based electrolytes to endow solid-state lithium sulfur batteries with long cycle life,quasi-solid-state,composite-CPE; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4288914057,2022,article,High Performance Solid‐State Lithium‐Sulfur Battery Enabled by Multi‐Functional Cathode and Flexible Hybrid Solid Electrolyte,solid-liquid-hybrid; quasi-solid-state,composite-CPE; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4289520628,2022,article,Li2S–LiI Solid Solutions with Ionic Conductive Domains for Enhanced All-Solid-State Li/S Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,128,4,0,0,False,0,T4
+W4289711337,2022,article,Crosslinked Nanofiber‐Reinforced Solid‐State Electrolytes with Polysulfide Fixation Effect Towards High Safety Flexible Lithium–Sulfur Batteries,quasi-solid-state,gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4292198272,2022,article,Promoting the conversion of S and Li 2 S using a Co 3 O 4 @NC additive in all-solid-state Li–S batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4292552773,2022,article,A quasi-intercalation reaction for fast sulfur redox kinetics in solid-state lithium–sulfur batteries,quasi-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4293069042,2022,article,Liquid-phase synthesis of Li2S and Li3PS4 with lithium-based organic solutions,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4293254254,2022,article,A liquid cathode/anode based solid-state lithium-sulfur battery,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4293387013,2022,article,Recent advances in cathodes for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide; oxide; polymer-SPE,0,0,1,0,0,0,0,0,8,0,5,0,True,3,T2
+W4293712184,2022,article,A review on 1D materials for all-solid-state lithium-ion batteries and all-solid-state lithium-sulfur batteries,all-solid-state,oxide; sulfide; polymer-SPE,1,0,0,0,0,0,0,0,1,0,0,0,True,1,T4
+W4294668171,2022,article,Lithium Sulfide: Magnesothermal Synthesis and Battery Applications,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4294897884,2022,article,Prospects of halide-based all-solid-state batteries: From material design to practical application,all-solid-state,halide,2,0,0,0,0,0,0,0,6,0,0,0,False,2,T3
+W4295007737,2022,article,"Electrochemical redox of Li2S–CaS and –CaX2 (X = Cl, Br, and I) cathode materials for all-solid-state lithium-sulfur batteries",all-solid-state,sulfide,3,0,0,0,4,0,0,0,5,0,0,0,False,7,T3
+W4295047755,2022,article,Influence of dry‐ and wet‐milled LLZTO particles on the sintered pellets,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4295269343,2022,article,High ceramic content composite solid-state electrolyte films prepared via a scalable solvent-free process,all-solid-state,composite-CPE; oxide; sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4296847192,2022,article,Thermodynamics and Kinetics of the Cathode–Electrolyte Interface in All-Solid-State Li–S Batteries,all-solid-state,sulfide; oxide; halide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4296990564,2022,article,Performance Evaluation of Composite Electrolyte with GQD for All-Solid-State Lithium Batteries,all-solid-state,composite-CPE,0,0,0,0,1,0,0,0,22,0,0,0,False,1,T4
+W4297194651,2022,article,A wide temperature solid-state Li–S battery enabled by a plasmon-enhanced copper–silicon nanowire photothermal current collector,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4298125724,2022,article,Bulk and interface-strengthened Li7P2.9Sb0.1S10.65O0.15I0.2 electrolyte via dual-source doping for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,16,0,0,0,False,2,T3
+W4304989581,2022,article,Deciphering Enhanced Solid-State Kinetics of Li–S Batteries via Te Doping,solid-liquid-hybrid,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4306399247,2022,article,"Solid-State Electrolytes for Lithium–Sulfur Batteries: Challenges, Progress, and Strategies",,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4306771034,2022,article,A room-temperature high performance all-solid-state lithium-sulfur battery enabled by a cross-linked copolymer@ceramic hybrid solid electrolyte,all-solid-state; quasi-solid-state,composite-CPE; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4306842896,2022,article,Fast Ionic Migration from Bulk to Interface in the Li(NH 3 ) x BH 4 @SiO 2 Composite,all-solid-state,hydride,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4306944638,2022,article,Li2S–V2S3–LiI Bifunctional Material as the Positive Electrode in the All-Solid-State Li/S Battery,all-solid-state,sulfide,1,0,0,0,0,0,0,0,73,5,0,0,False,1,T4
+W4307003470,2022,article,"Advances in sulfide-based all-solid-state lithium-sulfur battery: Materials, composite electrodes and electrochemo-mechanical effects",all-solid-state,sulfide,8,0,2,0,0,0,0,0,13,0,1,0,False,14,T1
+W4307351122,2022,article,Beyond Lithium: A New Era of Sustainable Energy Engineering,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4307444470,2022,article,Tailored Li7P3S11 Electrolyte by In2S3 Doping Suppresses Electrochemical Decomposition for High-Performance All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,13,3,1,0,0,0,0,0,0,0,1,0,False,16,T1
+W4308907486,2022,article,Recent Progress of Anode Protection in Li–S Batteries,solid-liquid-hybrid,,2,0,0,0,0,0,0,0,13,0,0,0,True,2,T3
+W4309047134,2022,article,"A review on design of cathode, anode and solid electrolyte for true all-solid-state lithium sulfur batteries",all-solid-state,polymer-SPE,1,0,1,0,1,0,0,0,0,0,1,0,True,5,T2
+W4309360826,2022,article,Progress and Prospects of Inorganic Solid‐State Electrolyte‐Based All‐Solid‐State Pouch Cells,all-solid-state,,3,0,0,0,0,0,0,0,2,0,0,0,True,3,T3
+W4309739347,2022,article,Constructing robust cathode/Li interfaces and intensifying ion transport kinetics for PEO-based solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4309768490,2022,article,Solid-state lithium-sulfur battery chemistries achieving excellent room-temperature cycle performance by high-quality Li7La3Zr2O12-based electrolyte,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4310012461,2022,article,A nitrogen-doped carbon skeleton derived from biomass as conductive agent for electrochemically stable cathode of all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,13,0,0,0,0,0,0,0,0,0,0,0,False,13,T2
+W4310082118,2022,article,Electrochemical energy storage and conversion: An overview,,,1,0,0,0,0,0,0,0,1,0,0,0,False,1,T4
+W4310138346,2022,article,Photo-rechargeable all-solid-state lithium − sulfur batteries based on perovskite indoor photovoltaic modules,all-solid-state,sulfide,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W4311210011,2022,article,Light‐Driven Polymer‐Based All‐Solid‐State Lithium‐Sulfur Battery Operating at Room Temperature,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4311677557,2022,article,Thin Solid Electrolyte Separators for Solid-State Lithium–Sulfur Batteries,solid-liquid-hybrid,sulfide; in-situ-polymerized; gel-GPE,1,0,0,0,1,0,0,0,0,0,0,0,False,2,T3
+W4311764535,2022,article,Understanding Decomposition of Electrolytes in All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,30,5,6,1,8,1,1,0,1,0,0,0,False,58,T1
+W4312043050,2022,article,Flexible Freestanding Thin Polyethylene Oxide‐Based Film as Artificial Solid–Electrolyte Interface to Protect Lithium Metal in Lithium–Sulfur Batteries,,polymer-SPE,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W4312117883,2022,article,Green batteries for clean skies: Sustainability assessment of lithium‐sulfur all‐solid‐state batteries for electric aircraft,all-solid-state,sulfide; oxide; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4312181887,2022,article,"N, S Codoping and Mesoporous‐Induced Capacitive Storage Enhancement in Supercapacitor and Improved Li–S Battery Performances of Polystyrene Waste‐Derived Carbon Electrode",,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4312211364,2022,article,Green Synthesis for Battery Materials: A Case Study of Making Lithium Sulfide via Metathetic Precipitation,all-solid-state,sulfide,0,0,0,0,0,0,0,0,5,0,0,0,False,0,T4
+W4312249847,2022,article,Understanding the role of interfaces in solid-state lithium-sulfur batteries,all-solid-state,,4,0,0,0,0,0,0,0,6,0,0,0,False,4,T3
+W4312885323,2022,article,Related Applications of Solid-State Electrolytes in Lithium-Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4313280495,2022,article,3D Asymmetric Bilayer Garnet-Hybridized High-Energy-Density Lithium–Sulfur Batteries,solid-liquid-hybrid,oxide; polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4313420939,2022,article,Single lithium–ion transport and electrochemical stability triggered by organoborate zwitterions for self-assembled PAS–co–2PEG solid electrolytes for lithium–sulfur battery,quasi-solid-state,polymer-SPE; ionogel,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4313592775,2023,article,Lithium–sulfur cells with a sulfide solid electrolyte/polysulfide cathode interface,solid-liquid-hybrid,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4313597797,2023,article,High-performance all-solid-state Li 2 S batteries using an interfacial redox mediator,all-solid-state,sulfide,0,0,0,0,15,2,0,0,1,0,0,0,False,15,T1
+W4319232171,2023,article,Mechanistic Insights into the Cycling Behavior of Sulfur Dry‐Film Cathodes,all-solid-state,sulfide,8,0,1,0,0,0,2,0,0,0,2,0,False,15,T2
+W4319845309,2023,article,"Covalent Organic Framework Based Lithium–Sulfur Batteries: Materials, Interfaces, and Solid‐State Electrolytes",all-solid-state; quasi-solid-state,,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W4320922142,2023,article,Armoring lithium metal anode with soft–rigid gradient interphase toward high-capacity and long-life all-solid-state battery,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4321374783,2023,article,Diagnosing and Correcting the Failure of the Solid‐State Polymer Electrolyte for Enhancing Solid‐State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,2,0,0,0,0,0,0,0,False,2,T3
+W4321502744,2023,article,Flexible solid-state lithium-sulfur batteries based on structural designs,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4323354421,2023,article,Quantum-mechanics-based molecular dynamics simulations of the structure and performance of sulfur-enriched Li3PS4 cathodes,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4324129413,2023,article,Solid‐State Electrolytes in Lithium–Sulfur Batteries: Latest Progresses and Prospects,all-solid-state,sulfide; oxide; polymer-SPE,0,0,0,0,0,0,0,0,12,0,0,0,False,0,T4
+W4324133871,2023,article,Understanding Electrochemical Reaction Mechanisms of Sulfur in All‐Solid‐State Batteries through Operando and Theoretical Studies **,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4327695165,2023,article,All-Solid-State Garnet Type Sulfurized Polyacrylonitrile/Lithium-Metal Battery Enabled by an Inorganic Lithium Conductive Salt and a Bilayer Electrolyte Architecture,all-solid-state,oxide,0,0,0,0,0,0,0,0,2,0,0,0,False,0,T4
+W4327970430,2023,article,Visualizing Reaction Fronts and Transport Limitations in Solid‐State Li–S Batteries via Operando Neutron Imaging,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4360804732,2023,article,“One Stone Two Birds” Strategy of Synthesizing the Battery Material Lithium Sulfide: Aluminothermal Reduction of Lithium Sulfate,,,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W4360985187,2023,article,All-Solid-State Thin-Film Lithium-Sulfur Batteries,all-solid-state,oxide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4361219278,2023,article,Sulfide-Based All-Solid-State Lithium–Sulfur Batteries: Challenges and Perspectives,all-solid-state,sulfide,15,0,0,0,0,0,0,0,0,0,0,0,True,15,T2
+W4362601856,2023,article,Uncoordinated chemistry enables highly conductive and stable electrolyte/filler interfaces for solid-state lithium–sulfur batteries,all-solid-state,composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4362635226,2023,article,Realizing high-capacity all-solid-state lithium-sulfur batteries using a low-density inorganic solid-state electrolyte,all-solid-state,sulfide; hydride,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W4364380429,2023,article,Nano sulfurized polyacrylonitrile cathode for high performance solid-state lithium–sulfur batteries,all-solid-state,hydride,0,0,0,0,0,0,0,0,5,0,0,0,False,0,T4
+W4365443859,2023,article,Multiscale Structural Engineering of Sulfur/Carbon Cathodes Enables High Performance All‐Solid‐State LiS Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,1,0,False,0,T4
+W4365517437,2023,article,Latest progresses and the application of various electrolytes in high-performance solid-state lithium-sulfur batteries,all-solid-state,,5,0,2,0,0,0,0,0,2,0,0,0,False,11,T1
+W4367668390,2023,article,High Capacity Li2S–Li2O–LiI Positive Electrodes with Nanoscale Ion‐Conduction Pathways for All‐Solid‐State Li/S Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,167,5,0,0,False,0,T4
+W4372204484,2023,article,A three-in-one C 60 -integrated PEO-based solid polymer electrolyte enables superior all-solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4376116756,2023,article,Towards Li–S microbatteries: A perspective review,solid-liquid-hybrid,sulfide; oxide,0,0,0,0,2,0,0,0,3,0,0,0,True,2,T3
+W4376149270,2023,article,Long‐Life and High‐Loading All‐Solid‐State Li–S Batteries Enabled by Acetylene Black with Dispersed Co‐N4 as Single Atom Catalyst,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4377693789,2023,article,Polythiocyanogen as Cathode Materials for High Temperature All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4377823673,2023,article,Nb 2 CT x MXene boosting PEO polymer electrolyte for all‐solid‐state Li‐S batteries: two birds with one stone strategy to enhance Li + conductivity and polysulfide adsorptivity,all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4378837419,2023,article,Particle size control of cathode components for high‐performance all‐solid‐state lithium–sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W4379794325,2023,article,Battery Technologies Comparison for Electric Vehicles,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4380051065,2023,article,Visualizing Lithium Ion Transport in Solid‐State Li–S Batteries Using 6 Li Contrast Enhanced Neutron Imaging,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4380207016,2023,article,Monodispersed MOF-Modified Nanofibers as Versatile Building Blocks for the Ion Regulations in Safe Lithium–Sulfur Batteries,quasi-solid-state,composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4380263706,2023,article,High Energy Density Sulfur‐Rich MoS 6 ‐Based Nanocomposite for Room Temperature All‐Solid‐State Lithium Metal Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,2,0,0,0,False,0,T4
+W4380301849,2023,article,Development of carbon materials for sulfur cathodes in inorganic-based solid-state lithium–sulfur batteries,all-solid-state,,12,0,0,0,1,0,0,0,0,0,2,0,False,13,T2
+W4381322731,2023,article,Synergetic Control of Li + Transport Ability and Solid Electrolyte Interphase by Boron‐Rich Hexagonal Skeleton Structured All‐Solid‐State Polymer Electrolyte,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4381327170,2023,article,Stack Pressure Dependence of Li Stripping/Plating Performance in All-Solid-State Li Metal Cells Containing Sulfide Glass Electrolytes,all-solid-state,sulfide,2,0,0,0,0,0,0,0,2,0,0,0,False,2,T3
+W4382358216,2023,article,Applications and Challenges of Lithium-Sulfur Electrochemical Batteries,all-solid-state,sulfide; oxide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4383215066,2023,article,Achieving fast and stable Li+ transport in lithium-sulfur battery via a high ionic conduction and high adhesion solid polymer electrolyte,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4383619774,2023,article,Squaraine-linked zwitterionic COF modified LLZTO nanoparticles for high performance polymer composite electrolytes in Li–S batteries,quasi-solid-state,composite-CPE; oxide; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4384342341,2023,article,Pore filled solid electrolytes with high ionic conduction and electrochemical stability for lithium sulfur battery,quasi-solid-state,composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4384571301,2023,article,"Organic electrode materials and carbon/small-sulfur composites for affordable, lightweight and sustainable batteries",,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4385146800,2023,article,In-situ Air-Free 4D-STEM Biasing of Model Lithium-Sulfur Batteries,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4385517089,2023,article,"Research progress of all-solid-state lithium–sulfur batteries with sulfide solid electrolytes: materials, interfaces, challenges, and prospects",all-solid-state,sulfide,6,0,0,0,0,0,0,0,7,0,0,0,False,6,T3
+W4385802094,2023,article,High-Mass-Loading Anode-Free Lithium–Sulfur Batteries Enabled by a Binary Binder with Fast Lithium-Ion Transport,,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4385816718,2023,article,Regulation of polysulfide adsorption and LiF-rich interface chemistry to achieve high-performance PEO-based lithium–sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4385969062,2023,article,Synergistic Defect Engineering and Interface Stability of Activated Carbon Nanotubes Enabling Ultralong Lifespan All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,2,0,0,0,0,0,0,0,False,2,T3
+W4386307881,2023,article,Tailoring the Interface between Sulfur and Sulfide Solid Electrolyte for High-Areal-Capacity All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W4386504897,2023,article,Introduction of UV-cured interpenetrating polymer network in PEO-based all-solid-state Li-S battery,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4386594157,2023,article,Suppression of Polysulfide Dissolution and Shuttling with Diphenyl Disulfide Electrolyte for Lithium Sulfur Batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4386753554,2023,article,Stabilizing Li Growth Using Li/LLZO Composites for High‐Performance Li‐Metal‐Based Batteries,,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4386957235,2023,article,Perovskite-Type CsGeI 3 as an Electrolyte Additive for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W4387002533,2023,article,"Li, Na, K, Mg, Zn, Al, and Ca Anode Interface Chemistries Developed by Solid‐State Electrolytes",,,18,0,0,0,0,0,0,0,8,0,0,0,False,18,T2
+W4387100334,2023,article,Synthesis of Li7P3S11 Solid Electrolyte for All-Solid-State Lithium-Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4387211978,2023,article,Sulfur-rich composite cathodes using carbon replica frameworks for all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,13,0,0,0,False,0,T4
+W4387569448,2023,article,Manipulating Li2S2/Li2S mixed discharge products of all-solid-state lithium sulfur batteries for improved cycle life,all-solid-state,sulfide,3,0,0,0,0,0,0,0,61,1,0,0,False,3,T3
+W4387624422,2023,article,Interfacial chemistry and ion-transfer mechanism for a tailored poly(thioether)-enabled hybrid solid polymer electrolyte with electrochemical properties in all-solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W4388554685,2023,article,Effect of the boron element in a Li–P–S system,all-solid-state,sulfide,1,0,0,0,0,0,0,0,2,0,0,0,False,1,T4
+W4388616564,2023,article,Active Regulation Volume Change of Micrometer‐Size Li 2 S Cathode with High Materials Utilization for All‐Solid‐State Li/S Batteries through an Interfacial Redox Mediator,all-solid-state,sulfide,0,0,0,0,12,4,0,0,0,0,0,0,False,12,T1
+W4388653823,2023,article,In operando neutron imaging characterizations of all-solid-state batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4388698619,2023,article,Understanding Ionic Diffusion Mechanisms in Li2S Coatings for Solid-State Batteries: Development of a Tailored Reactive Force Field for Multiscale Simulations,all-solid-state,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4388743991,2023,article,Solid-state electrolytes for inhibiting active species crossover in lithium metal batteries: a review,all-solid-state,,6,0,0,0,3,0,0,0,0,0,0,0,True,9,T2
+W4388898776,2023,article,Transition-Metal Sulfides for High-Performance Lithium Sulfide Cathodes in All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,7,1,0,0,15,1,0,0,5,0,0,0,False,22,T1
+W4389194545,2023,article,High-areal-capacity all-solid-state Li-S battery enabled by dry process technology,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4389205482,2023,article,One-Pot Synthesis of Quaternary Pyridinium-Type Cationic-Based Porous Organic Frameworks: Enhanced Poly(ethylene oxide) Composite Polymer Electrolytes for All-Solid-State Li–S Batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4389426800,2023,article,Optimization of Carbon/Sulfur Composite and Application of Al-LLZO Solid Electrolyte and Highly Concentrated Electrolytes for Lithium-Sulfur Cell,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4389454580,2023,article,A Facile Polymer Interlayer for Lithium Stability in Lithium–Sulfur Batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4389631015,2023,article,Preparation of Lithium Sulfide-Based Cathode Materials and Application to All-Solid-State Batteries,all-solid-state,,0,0,0,0,1,0,0,0,2,0,0,0,False,1,T4
+W4389987526,2023,article,Laboratory Setup for Solid-State Battery Pressure Characterization and Control,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4390291254,2023,article,Improvement of the Li-ion conductivity and air stability of the Ta-doped Li 7 La 3 Zr 2 O 12 electrolyte via Ga co-doping and its application in Li–S batteries,all-solid-state,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4390350889,2023,article,Novel PEO-based composite solid electrolytes for All-Solid-State Li-S battery,all-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4390579363,2024,article,A Review on Engineering Design for Enhancing Interfacial Contact in Solid-State Lithium–Sulfur Batteries,all-solid-state,,2,0,0,0,0,0,0,0,2,0,1,0,True,2,T3
+W4390670057,2024,article,Interfacial self-healing polymer electrolytes for long-cycle solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,1,0,0,0,0,0,False,2,T3
+W4390685367,2024,article,Enhancing lithium-sulfur battery performance through electronic/ionic co-conductive multi-walled carbon nanotubes/lithium lanthanum titanium oxide separator modification,,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4391052195,2024,article,Cubic Iodide LixYI3+x Superionic Conductors through Defect Manipulation for All‐Solid‐State Li Batteries,all-solid-state,halide,0,0,0,0,0,0,0,0,59,8,0,0,False,0,T4
+W4391296500,2024,article,Advanced Polymers in Cathodes and Electrolytes for Lithium–Sulfur Batteries: Progress and Prospects,all-solid-state,polymer-SPE; gel-GPE; composite-CPE,0,0,0,0,1,0,0,0,0,0,0,0,True,1,T4
+W4391309966,2024,article,"Self-Assembly of Ultrathin, Ultrastrong Layered Membranes by Protic Solvent Penetration",quasi-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4391317273,2024,article,Preparation of carbon–sulphur composite electrodes by solution impregnation and application to all-solid-state lithium–sulphur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4391318690,2024,article,A solid-state electrolyte for electrochemical lithium–sulfur cells,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4391320928,2024,article,Lithium dendrites in all‐solid‐state batteries: From formation to suppression,all-solid-state,,4,0,0,0,0,0,0,0,10,0,0,0,False,4,T3
+W4391433016,2024,article,Tuning the ionic and electronic paths in Li2S-based cathode for high-rate performance all-solid-state lithium‑sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,81,0,0,0,False,0,T4
+W4391464216,2024,article,A Green Method of Synthesizing Battery-Grade Lithium Sulfide: Hydrogen Reduction of Lithium Sulfate,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4391612202,2024,article,A highly stable and conductive cerium‐doped Li 7 P 3 S 11 glass‐ceramic electrolyte for solid‐state lithium–sulfur batteries,all-solid-state,sulfide,2,0,0,0,1,0,0,0,2,0,0,0,False,3,T3
+W4391650367,2024,article,"A review of composite polymer electrolytes for solid-state lithium-sulfur batteries: Synthesis methods, optimal design, and critical challenges",quasi-solid-state,composite-CPE; in-situ-polymerized,1,0,0,0,0,0,0,0,5,0,0,0,True,1,T4
+W4391756400,2024,article,Laminar Composite Electrolytes with Nanoporous Sulfonated Covalent Organic Framework-Confined Crown Ether for Solid-State Lithium–Sulfur Batteries,all-solid-state,composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4391893418,2024,article,Innovations in Battery Technology: Enabling the Revolution in Electric Vehicles and Energy Storage,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4392059205,2024,article,Improvement in the Performance of Composite Cathode via Solid Electrolyte for High Electrochemical Performance of Li–S Battery,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4392229429,2024,article,Ion/Electron Co-Conductive Triple-Phase Interface Enabling Fast Redox Reaction Kinetics in Lithium–Sulfur Batteries,,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4392344255,2024,article,Catalytic Solid‐State Sulfur Conversion Confined in Micropores toward Superhigh Coulombic Efficiency Lithium‐Sulfur Batteries,all-solid-state,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4392562112,2024,article,In Situ Construction of LiF–Li 3 N-Rich Interface Contributed to Fast Ion Diffusion in All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4392776338,2024,article,Regulate transportation of ions and polysulfides in all–solid-state Li-S batteries using ordered-MOF composite solid electrolyte,all-solid-state,composite-CPE; polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4392979732,2024,article,Cationic cellulose nanofiber solid electrolytes: A pathway to high lithium-ion migration and polysulfide adsorption for lithium-sulfur batteries,quasi-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4393342138,2024,article,Construction of Elastic and Conductive Channels for High‐Rate and High‐Areal‐Capacity Sulfur Cathodes in All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4393359120,2024,article,PEO coupling with NiO/C3N4 heterojunction facilitates lithium salts dissociation and polysulfides conversion for all-solid-state lithium-sulfur battery,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4393390359,2024,article,Graphitic carbon nitride stabilized the lithium anode/sulfide electrolyte interface for all-solid-state lithium-sulfur battery,all-solid-state,sulfide,8,0,0,0,0,0,0,0,0,0,0,0,False,8,T2
+W4393409724,2024,article,Nano‐Scale Interface Engineering of Sulfur Cathode to Enable High‐Performance All‐Solid‐State Li–S Batteries,all-solid-state,sulfide,12,1,1,0,0,0,0,0,0,0,0,0,False,15,T1
+W4393864763,2024,article,Ionic transport properties of lithium polysulfides within poly(ethylene-oxide) homopolymer electrolytes,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4393984061,2024,article,Beyond lithium-ion: emerging frontiers in next-generation battery technologies,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4393993344,2024,article,Metal Organic Frameworks as Polysulfide Reaction Modulators for Lithium Sulfur Batteries: Advances and Perspectives,solid-liquid-hybrid,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W4394566594,2024,article,Effect of ether medium in LiTFSI and LiFSI‐based liquid electrolytes for lithium–sulfur batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4394576678,2024,article,"Enhancing Ionic Conductivity and Electrochemical Stability of Li3PS4 via Zn, F Co-Doping for All-Solid-State Li–S Batteries",all-solid-state,sulfide,0,0,0,0,0,0,0,0,3,0,0,0,False,0,T4
+W4394811561,2024,article,Asymmetric Sulfur Redox Paths in Sulfide-Based All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4394819936,2024,article,Advances in All-Solid-State Lithium–Sulfur Batteries for Commercialization,all-solid-state,sulfide,5,0,0,0,0,0,0,0,4,0,0,0,False,5,T3
+W4394827372,2024,article,Advancing lithium–sulfur battery efficiency: utilizing a 2D/2D g-C 3 N 4 @MXene heterostructure to enhance sulfur evolution reactions and regulate polysulfides under lean electrolyte conditions,,,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W4394878930,2024,article,ARGET-ATRP-Mediated Grafting of Bifunctional Polymers onto Silica Nanoparticles Fillers for Boosting the Performance of High-Capacity All-Solid-State Lithium–Sulfur Batteries with Polymer Solid Electrolytes,all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4394984984,2024,article,Approaching high rate All-Solid-State Lithium-Sulfur batteries via promoted sulfur conversion with nickel oxide nanoparticle electrocatalyst,all-solid-state,sulfide,1,0,1,0,1,0,0,0,0,0,0,0,False,5,T2
+W4394998081,2024,article,High-Reaction Kinetics SexS1–x Cathodes for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4395079152,2024,article,Integrating Lithium Sulfide as a Single Ionic Conductor Interphase for Stable All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,4,0,0,0,0,0,0,0,4,0,0,0,False,4,T3
+W4395110714,2024,article,Regenerative Solid Interfaces Enhance High-Performance All-Solid-State Lithium Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,66,3,0,0,False,0,T4
+W4396573699,2024,article,Key issues and modification strategies towards high-performance polymer all-solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4396577058,2024,article,Unraveling the Mechanisms of Zirconium Metal–Organic Frameworks‐Based Mixed‐Matrix Membranes Preventing Polysulfide Shuttling,solid-liquid-hybrid,gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4396767739,2024,article,A locally solvent-tethered polymer electrolyte for long-life lithium metal batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4396827438,2024,article,"Porous Organic Framework Materials (MOF, COF, and HOF) as the Multifunctional Separator for Rechargeable Lithium Metal Batteries",all-solid-state,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4396927182,2024,article,A Nanocrystallite CuS/Nitrogen‐Doped Carbon Host Improves Redox Kinetics in All‐Solid‐State Li 2 S Batteries,all-solid-state,sulfide,3,0,0,0,0,0,0,0,5,0,0,0,False,3,T3
+W4396943764,2024,article,InF3 initiated ionic/electronic conductive SEI for highly stable solid-state lithium sulfur batteries,quasi-solid-state,in-situ-polymerized; gel-GPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4396954518,2024,article,"A Large‐Scale Fabrication of Flexible, Ultrathin, and Robust Solid Electrolyte for Solid‐State Lithium‐Sulfur Batteries",all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4396964443,2024,article,Tough and single lithium-ion conductive nanocomposite electrolytes based on PAES- g -PEG and POSS–PEG for lithium–sulfur batteries,quasi-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4398137444,2024,article,"Versatile Separators Toward Advanced Lithium‐Sulfur Batteries: Status, Recent Progress, Challenges and Perspective",,,1,0,0,0,0,0,0,0,0,0,0,0,True,1,T4
+W4398150166,2024,article,Toward practical lithium–sulfur batteries,,,0,0,0,0,2,0,0,0,4,0,0,0,False,2,T3
+W4398770487,2024,article,Enhanced Cycling Stability of All-Solid-State Lithium–Sulfur Battery through Nonconductive Polar Hosts,all-solid-state,sulfide,23,1,0,0,0,0,0,0,0,0,0,0,False,23,T1
+W4399210797,2024,article,Lithium Borate Polycarbonates for High‐Capacity Solid‐State Composite Cathodes,all-solid-state,sulfide; polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,2,0,False,0,T4
+W4399677721,2024,article,Trinitarian Design of Gradient Artificial Interphase Enables Colossal Granular Li Deposits for Stable Li‐Metal Batteries,,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4399776863,2024,article,Lithium Sulfite Enhances Cycle Performance of All-Solid-State Batteries with Li2S-Based Positive Electrode Materials,all-solid-state,sulfide,3,0,0,0,1,0,0,0,10,0,0,0,False,4,T3
+W4399881382,2024,article,High-modulus solid electrolyte interphase layer with gradient composition enables long-cycle all-solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,1,0,0,0,0,0,0,0,False,2,T3
+W4399974861,2024,article,Realizing highly conductive “polymer in salt” electrolytes through Li-ion-highway for room temperature all-solid-state Li-S batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4400004678,2024,article,All-solid-state lithium–sulfur batteries through a reaction engineering lens,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4400107507,2024,article,Toward High-Capacity Li–S Solid-State Batteries: The Role of Partial Ionic Transport in the Catholyte,solid-liquid-hybrid,sulfide; gel-GPE,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W4400188791,2024,article,Unlocking high-energy solid-state lithium-sulfur batteries with an innovative double-layer hybrid solid electrolyte,solid-liquid-hybrid,oxide; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4400338819,2024,article,Enhanced performance of graphene-incorporated electrodes for solid-state lithium-sulfur batteries through facilitated ionic diffusion pathways,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4400448816,2024,article,Nickel-doped CNTs composite as cathode by sulfur vapor deposition for high-performance all-solid-state lithium‑sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4400623886,2024,article,Ferroelectric-enhanced batteries for rapid charging and improved long-term performance,,,1,0,0,0,0,0,0,0,5,0,0,0,False,1,T4
+W4400654510,2024,article,Electrolyte Design for Low Temperature Lithium‐Sulfur Battery: From Different Polysulfide Conversion Mechanisms,,,2,0,0,0,1,0,0,0,1,0,0,0,False,3,T3
+W4401073997,2024,article,Synergistic Evolution of Alloy Nanoparticles and Carbon in Solid-State Lithium Metal Anode Composites at Low Stack Pressure,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4401151708,2024,article,Developing Cathode Films for Practical All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,,3,0,0,0,0,0,0,0,1,0,0,0,False,3,T3
+W4401227329,2024,article,Fast ion-conduction in solid-state Li–S batteries realized by an interfacial-bridge strategy,all-solid-state,polymer-SPE; in-situ-polymerized,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4401245624,2024,article,Dynamic Volume Change of Li 2 S-Based Active Material and the Influence of Stacking Pressure on Capacity in All-Solid-State Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,31,0,0,0,False,0,T4
+W4401247195,2024,article,High Areal Capacity Cation and Anionic Redox Solid-State Batteries Enabled by Transition Metal Sulfide Conversion,all-solid-state,,5,0,0,0,2,0,0,0,0,0,0,0,False,7,T3
+W4401308475,2024,article,All‐Solid‐State Lithium–Sulfur Batteries of High Cycling Stability and Rate Capability Enabled by a Self‐Lithiated Sn‐C Interlayer,all-solid-state,,12,1,0,0,0,0,0,0,0,0,0,0,False,12,T1
+W4401331960,2024,article,Study of Battery Technology: Advancements in Electric Vehicles,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4401524633,2024,article,Progress on critical cell fabrication parameters and designs for advanced lithium–sulfur batteries,,,2,0,0,0,1,0,0,0,0,0,0,0,False,3,T3
+W4401617243,2024,article,An artificial cathode-electrolyte interphase enabling one-step sulfur transition in polyethylene oxide-based solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4401618721,2024,article,High-Electrochemical-Activity Composite Cathode Enabled by Fast Segmental Relaxation for Solid-State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4401629105,2024,article,Effects of Oxide Precursors on the Structure and Properties of Na 3 PS 4– x O x Glassy Solid Electrolytes,all-solid-state,sulfide,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W4401839360,2024,article,High sulfur content cathode composites utilizing the Li(CB9H10)0.7(CB11H12)0.3 superionic conductor for all−solid−state Li−S batteries,all-solid-state,hydride,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4401886559,2024,article,"Activating Redox Kinetics of Li 2 S via Cu + , I − Co‐Doping Toward High‐Performance All‐Solid‐State Lithium Sulfide‐Based Batteries",all-solid-state,sulfide,1,0,0,0,4,0,0,0,4,0,0,0,False,5,T3
+W4402205553,2024,article,Single-ion-conducted covalent organic framework serving as Li-ion pump in polyethylene oxide-based electrolyte for robust solid-state Li–S batteries,all-solid-state,composite-CPE; polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4402207230,2024,article,Achieving Highly Reversible All-Solid-State Lithium-Sulfur Batteries through Metal–Sulfur Bonding Regulation,all-solid-state,sulfide,2,0,0,0,2,0,0,0,0,0,0,0,False,4,T3
+W4402221716,2024,article,Electrochemical Performance of Deposited LiPON Film/Lithium Electrode in Lithium—Sulfur Batteries,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4402228459,2024,article,Skeleton of PVDF-HFP/PEO for high-performance lithium‑sulfur battery cathode,quasi-solid-state,gel-GPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4402519833,2024,article,Enhanced electrochemical stability and ion transfer rate: A polymer/ceramic composite electrolyte for high-performance all-solid-state lithium-sulfur batteries,quasi-solid-state,composite-CPE; sulfide; polymer-SPE,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W4402599189,2024,article,A comprehensive analysis and future prospects on battery energy storage systems for electric vehicle applications,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4402629908,2024,article,Lithium-rich high entropy oxide with abundant oxygen vacancies for composite polymer all-solid-state Li-S batteries,all-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4402653578,2024,article,Entropy‐Modulated Short‐Chain Cathode for Low‐Temperature All‐Solid‐State Li−S Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4402675210,2024,article,Lithium-ion battery fundamentals and exploration of cathode materials: A review,,,2,0,0,0,0,0,1,0,0,0,0,0,True,4,T3
+W4402878646,2024,article,Sulfur/reduced graphite oxide and dual-anion solid polymer‒electrolyte integrated structure for high-loading practical all-solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,2,0,0,0,0,0,1,0,0,0,0,0,False,4,T3
+W4402975524,2024,article,"From non-aqueous liquid to solid-state Li–S batteries: design protocols, challenges and solutions",all-solid-state,,2,0,0,0,1,0,0,0,2,0,0,0,True,3,T3
+W4403065663,2024,article,High-entropy sulfide argyrodite electrolytes for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,3,0,0,0,0,0,0,0,1,0,1,0,False,3,T3
+W4403429557,2024,article,Comb-like poly(β-amino ester)-integrated PEO-based self-healing solid electrolytes for fast ion conduction in lithium–sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4403757436,2024,article,Impact of Ambient Air Contamination on the Performance of Argyrodite-Based All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,24,1,1,0,0,0,0,0,0,0,1,0,False,27,T1
+W4403785187,2024,article,Electrochemically Preplated Lithium on Silver Nanoparticle‐Decorated Three‐Dimensional Vertically Aligned Graphene Foam for Rechargeable Lithium Batteries,solid-liquid-hybrid,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4403793025,2024,article,A Piezocatalysis Strategy to Enable Efficient Redox in Solid‐State Battery,all-solid-state,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4403954692,2024,article,Solid‐State Electrolytes for Lithium Metal Batteries: State‐of‐the‐Art and Perspectives,all-solid-state,sulfide; oxide; polymer-SPE,16,0,0,0,0,0,1,0,5,0,0,0,True,18,T2
+W4403966740,2024,article,A multifunctional self-supporting LLTO/C interlayer for high-performance lithium–sulfur batteries,,oxide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4404021508,2024,article,Sulfide/Polymer Composite Solid‐State Electrolytes for All‐Solid‐State Lithium Batteries,all-solid-state,sulfide; composite-CPE; polymer-SPE,4,0,0,0,0,0,0,0,4,0,0,0,False,4,T3
+W4404299420,2024,article,Aggregation sensitivity of carbon host as an indicator for designing all-solid-state lithium-sulfur batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4404330119,2024,article,Unraveling the reversible redox mechanism of Li 6 PS 5 Cl solid electrolyte in all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,5,0,1,0,0,0,0,0,0,0,0,0,False,8,T2
+W4404443684,2024,article,Engineering Triple‐Phase Interfaces with Hierarchical Carbon Nanocages for High‐Areal‐Capacity All‐Solid‐State Li‐S Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4404655506,2024,article,Macroscopic built-in polarization electric field powers high lithium-ion transport for all-solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4404814435,2024,article,High-Performance Cathodes Prepared via Liquid-Phase Method and Catalyzed by Co9S8 for All-Solid-State Lithium-Sulfur batteries,all-solid-state,sulfide,1,0,0,0,1,0,0,0,0,0,1,0,False,2,T3
+W4404857176,2024,article,In Situ Welding Ionic Conductive Breakpoints for Highly Reversible All-Solid-State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE; sulfide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4404884266,2024,article,High-capacity and long-cycle life Li2S−V2S3−V2O3−LiI bifunctional materials for all-solid-state Li/S batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,76,1,0,0,False,2,T3
+W4405014403,2024,article,Toward the Use of Composite Cathode with Significantly High Interfacial Area Density for Solid-State Li–S Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4405088874,2024,article,Progress and Prospects of Inorganic Solid‐State Electrolyte‐Based All‐Solid‐State Li–S Batteries,all-solid-state,oxide; sulfide,8,0,0,0,0,0,0,0,12,0,0,0,True,8,T2
+W4405222326,2024,article,A review on solid-state electrolytes for Li-S batteries: Encompassing background to recent advancements,all-solid-state,sulfide; oxide; polymer-SPE,4,0,0,0,0,0,0,0,3,0,0,0,True,4,T3
+W4405273944,2024,article,Commercially Applicable One-Step Method to Construct Homogeneous Anode/Electrolyte Interface and Cathode/Electrolyte Interface Layers in All-Solid-State Lithium–Sulfur Batteries,all-solid-state,polymer-SPE; in-situ-polymerized,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4405443748,2024,article,Compatibility of Halide Electrolytes in Solid-State Li–S Battery Cathodes,all-solid-state,halide,12,1,0,0,0,0,1,0,0,0,8,0,False,14,T1
+W4405531860,2024,article,Redox mediators for lithium sulfide cathodes in all-solid-state Li-S batteries: Recent advantages and future perspective,all-solid-state,,1,0,0,0,27,1,0,0,2,0,0,0,True,28,T1
+W4405585971,2024,article,Unlocking the potential of sepiolite: Designing high-performance energy storage materials,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4405637014,2024,article,Commercial Cellulosic Paper-Based Solid Electrolyte for High-Temperature Lithium–Sulfur Batteries,all-solid-state; quasi-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4405729176,2024,article,Role of Electronic Conductivities Toward Practical All‐Solid‐State Lithium‐Metal/Sulfur Batteries,all-solid-state,sulfide,6,0,0,0,4,0,0,0,27,0,0,0,False,10,T2
+W4405808676,2024,article,Recycling Solid-State Batteries: Challenges and Innovations for Sustainable Energy Solutions,,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W4405836669,2024,article,Large-area dendrite-free ultrathin Li-rich 3D Li-Sn alloy/graphene foil for high-performance all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4405867598,2024,article,Li6PS5Cl/MoS2 hybrid electrolyte integrates high sulfur conversion kinetics with stable lithium metal interfaces in all-solid-state lithium-sulfur batteries,,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4405883347,2024,article,A Separator with Double Layers Individually Modified by LiAlO 2 Solid Electrolyte and Conductive Carbon for High‐performance Lithium–Sulfur Batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4405922986,2024,article,Facilitating polysulfide conversion kinetics via multifunctional solid-state electrolytes under lean electrolyte conditions for lithium–sulfur batteries,solid-liquid-hybrid,sulfide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4405987401,2025,article,Advanced performance through mechanofusion-induced uniform interfacial layers for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4405996089,2025,article,All-Solid-State Lithium–Sulfur Batteries with Robust Interphases by Utilizing Elastomeric Polymer-in-Salt Electrolytes,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4406104101,2025,article,Overcoming the conversion reaction limitation at three-phase interfaces using mixed conductors towards energy-dense solid-state Li–S batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4406121493,2025,article,The sulfide solid electrolyte synthesized via carbothermal reduction of lithium sulfate for solid-state lithium-sulfur batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4406151001,2025,article,Advanced Cathodes for Practical Lithium–Sulfur Batteries,,,0,0,0,0,6,0,0,0,0,0,0,0,False,6,T3
+W4406289521,2025,article,Structural reconfiguration of PEO frameworks via β-cyclodextrin as solid polymer electrolyte for superior all-solid-state lithium-sulfur batteries,all-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4406342332,2025,article,Local structure of amorphous sulfur in carbon–sulfur composites for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4406385644,2025,article,All-solid-state Li–S batteries with fast solid–solid sulfur reaction,all-solid-state,sulfide,3,0,0,0,32,0,0,0,68,0,2,0,False,35,T2
+W4406491549,2025,article,Impact of electric vehicle battery recycling on reducing raw material demand and battery life-cycle carbon emissions in China,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4406704722,2025,article,The Role of Stack Pressure in Modulating Electrochemical Behavior of All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4406764636,2024,article,All-Solid-State Lithium Sulfur Cell Safety Characterization,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4406864479,2025,article,Data-driven exploration of weak coordination microenvironment in solid-state electrolyte for safe and energy-dense batteries,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4406964685,2025,article,Glue-assisted exfoliation of two-dimensional sulfur-rich niobium thiophosphate (Nb 4 P 2 S 21 ) for sulfur-equivalent electrode study in lithium storage,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4407164444,2025,article,LiBOB as a cathode additive for all-solid-state lithium sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4407188356,2025,article,Electrode/Electrolyte Interphase Formation by Lithium Iodide in a Li2S-Based Positive Electrode for All-Solid-State Batteries,all-solid-state,sulfide,10,3,0,0,2,0,0,0,106,5,0,0,False,12,T1
+W4407267871,2025,article,Synergistic Effects of Anion Substitution and Interfacial Modification to Enhance Ionic Conductivity in a Hydride Electrolyte,all-solid-state,hydride,1,0,0,0,0,0,0,0,3,0,0,0,False,1,T4
+W4407390950,2025,article,Long Cycle Stability of All‐Solid‐State Lithium‐Sulfur Batteries at Low Pressure and Ambient Temperature: Addressing Contact and Diffusion Kinetics,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4407519638,2025,article,Recent Advances in X-ray Absorption Spectroscopy for Battery Applications,all-solid-state; solid-liquid-hybrid,,1,0,0,0,1,0,0,0,0,0,0,0,True,2,T3
+W4407583635,2025,article,Catalysis‐Driven Sulfur Conversion: From Electrolyte‐Flooded to Solid‐State Batteries,all-solid-state; solid-liquid-hybrid,,1,0,0,0,6,0,0,0,2,0,0,0,False,7,T3
+W4407593665,2025,article,All-in-One Homogenized Sulfur/Cobalt Disulfide Composite Cathodes for Harmonious Interface All-Solid-State Lithium–Sulfur Batteries,,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4407594396,2025,article,Solid Electrolytes and Dendrite Dynamics in Solid-State Lithium–Sulfur Batteries,all-solid-state,oxide; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4407675385,2025,article,Elucidating the correlation between the prelithiation concentration of a Li x Si anode and performance of all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,2,0,1,0,0,0,0,0,0,0,0,0,False,5,T2
+W4407809084,2025,article,Advancements in Chemical Vapor Deposited Carbon Films for Secondary Battery Applications,all-solid-state,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4407821787,2025,article,"Research on electrolyte structure and interface design for solid state Lithium–Sulfur batteries: Challenges, strategies and prospects",all-solid-state,composite-CPE; polymer-SPE; oxide,1,0,0,0,1,0,0,0,0,0,0,0,False,2,T3
+W4408057124,2025,article,Halide as Catholyte in Composite Cathode to Enhance Cycling Stability of All-Solid-State Lithium–Sulfur Batteries,all-solid-state,halide; sulfide,3,1,0,0,0,0,0,0,10,0,0,0,False,3,T2
+W4408104129,2025,article,Comparative and interface tailoring investigation of solution-processed sulfur/carbon cathode for high-performance liquid and solid-state Li-S batteries,all-solid-state; solid-liquid-hybrid,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4408319720,2025,article,Lightweight Materials for High Energy Density Lithium–Sulfur Batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4408476395,2025,article,Enhancing ionic conductivity in Li₇P₃S₁₁ solid electrolytes via doping strategies: Implications for solid-state lithium-sulfur batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,3,0,0,0,False,1,T4
+W4408500350,2025,article,"Research Progress and Challenges of High‐Performance Solid‐State Lithium Sulfur Batteries: Cathodes, Electrolytes, and Anodes",all-solid-state,,4,0,0,0,0,0,0,0,20,0,0,0,False,4,T3
+W4408554701,2025,article,Constructing stable cathode by g-C3N4 nanosheets for high-energy all-solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4408613110,2025,article,Integrating solid interfaces for catalysis in all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,5,0,0,0,0,0,0,0,0,0,0,0,False,5,T3
+W4408733536,2025,article,Deciphering volume changes in Li-S solid-state battery components during cycling: Implication for advanced battery design,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4408884108,2025,article,Enhanced Electrochemical Stability in All‐Solid‐State Lithium–Sulfur Batteries with Lithium Argyrodite Electrolyte,all-solid-state,sulfide,34,1,2,0,0,0,1,0,0,0,1,0,False,42,T1
+W4408944221,2025,article,Sustainable and cost-effective electrode manufacturing for advanced lithium batteries: the roll-to-roll dry coating process,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4409018471,2025,article,An In Situ Polymerized Li‐S Battery Integrated with an Electrothermal Interlayer,quasi-solid-state,oxide; in-situ-polymerized,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4409086792,2025,article,Rekindling hopes for lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,11,11,0,0,1,1,0,0,False,11,T1
+W4409139349,2025,article,Breaking interfacial Lithium-Ion conduction barriers by a Small-Molecule blocker of interfacial reactions for All-Solid-State Lithium-Sulfur batteries,all-solid-state,sulfide; composite-CPE; polymer-SPE,13,0,0,0,0,0,0,0,0,0,0,0,False,13,T2
+W4409200355,2025,article,Progresses and outlooks of all-solid-state lithium-sulfur batteries for practical development,all-solid-state,,3,0,0,0,16,0,0,0,20,0,0,0,False,19,T2
+W4409204203,2025,article,Towards high performance inorganic all-solid-state lithium-sulfur batteries: strategies for enhancing reaction kinetics and solid-solid contact,all-solid-state,sulfide; oxide,11,0,0,0,5,0,0,0,11,0,1,0,False,16,T2
+W4409256450,2025,article,Recent Progress on the Self-Discharge of Lithium–Sulfur Batteries,,,0,0,0,0,2,0,0,0,4,0,0,0,True,2,T3
+W4409269676,2025,article,High‐Areal‐Capacity Sulfur Cathode Enabled by Dual‐Phase Electrolyte for Sulfide‐Based All‐Solid‐State Batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4409282720,2024,article,Review of Performance Analysis of Lithium-Sulfur Batteries for Electric Vehicles: Challenges and Future Prospects,,,0,0,0,0,4,0,0,0,0,0,0,0,True,4,T3
+W4409434460,2025,article,Porous-dual-shell structure and heterojunction Co3O4@NiCo2O4 accelerating polysulfides conversion for all-solid-state lithium sulfur batteries,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4409450933,2025,article,Triphilic organochalcogen compounds for high-capacity and stable solid-state lithium–sulfur batteries,all-solid-state,sulfide,1,0,0,0,1,0,0,0,1,0,0,0,False,2,T3
+W4409591689,2025,article,Halide Chemistry Boosts All‐Solid‐State Li‐S Batteries,all-solid-state,halide; sulfide,1,1,0,0,16,0,0,0,66,1,0,0,False,17,T1
+W4409647332,2025,article,High‐Performance All‐Solid‐State Lithium Metal Batteries: Special Cationic Polymerization Interface Chemistry,all-solid-state,polymer-SPE; composite-CPE,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4409754375,2025,article,Capacity-type composite sulfur cathode design enabling high-energy all-solid-state lithium-metal battery,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4409810847,2025,article,Role and Evolution of FeS 2 Cathode Microstructure in Argyrodite-Based All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,5,0,1,0,0,0,0,0,0,0,0,0,False,8,T2
+W4409922798,2025,article,Sandwich-structured PEO-based composite solid-state electrolytes for lithium–sulfur batteries,quasi-solid-state,composite-CPE; polymer-SPE; oxide,1,0,0,0,0,0,1,0,0,0,0,0,False,3,T3
+W4409965257,2025,article,Application of Polymer Electrolytes Prepared by Ultraviolet Polymerization in Various Lithium Metal Battery Systems,quasi-solid-state,polymer-SPE; in-situ-polymerized,0,0,0,0,1,0,0,0,16,0,0,0,False,1,T4
+W4409995865,2025,article,A 3D-dimensional interconnected structured poly (m-phenylene isophthalamide) nanofiber separator with Li1.5Al0.5Ge1.5(PO4)3 for high-safety lithium-sulfur batteries,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4410131974,2025,article,Dry Battery Electrode Technology: From Early Concepts to Industrial Applications,all-solid-state,,1,0,0,0,0,0,0,0,2,0,0,0,False,1,T4
+W4410478260,2025,article,Improved Li–S Battery Performance with Dispersant/Plasticizer Co-Assisted Modification of a Poly(ethylene Oxide)/Li6.4La3Zr1.4Ta0.6O12 Solid Electrolyte,all-solid-state,composite-CPE; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4410481067,2025,article,First‐Principles Study on Lattice Structures and Electronic Properties of Li 10 SnP 2 S 12 /Li 2 S Interface,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4410521435,2025,article,Suppressing argyrodite oxidation by tuning the host structure for high-areal-capacity all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,19,1,0,0,0,0,0,0,0,0,0,0,False,19,T1
+W4410547199,2025,article,Beyond macroscopic performance: nanoscale charge transfer dynamics in energy storage/conversion devices via scanning electrochemical cell microscopy,,,12,1,0,0,0,0,0,0,0,0,0,0,False,12,T1
+W4411016398,2025,article,Cathode intramolecular electron transfer of the Braga-Goodenough Li-S rechargeable battery,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4411215849,2025,article,Post-Lithium Battery Technologies Driving the Future of Eco-Conscious Electric Vehicles,all-solid-state,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4411235353,2025,article,Kinetically‐Enhanced Gradient Modulator Layer Enables Wide‐Temperature Ultralong‐Life All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,7,0,0,0,0,0,0,0,12,0,0,0,False,7,T3
+W4411235937,2025,article,Current Status and Future Prospects of Solid‐State Lithium–Sulfur Batteries: A Focus on Reaction and Interface Engineering,all-solid-state,,12,0,1,0,13,0,0,0,16,0,1,0,False,28,T2
+W4411264860,2025,article,Preface for the 71st Special Feature “New Progress of Batteries and Fuel Cells” — Getting Off to a Fast Restart,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4411442243,2025,article,Overcoming the conversion reaction limitation with a dual-phase sulfide-based cathode for all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,0,0,0,0,2,0,0,0,0,0,0,0,False,2,T3
+W4411468284,2025,article,Dual inorganic fillers synergy for enhancing carrier transport performance in all-solid-state lithium-sulfur battery,all-solid-state,composite-CPE; polymer-SPE; sulfide; oxide,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W4411475426,2025,article,Ionic Conductivity and Lithium Transference Number in LiClO 4 -Doped Carboxymethyl Cellulose,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4411477459,2025,article,Polymer-Based Solid-State Electrolytes For Lithium–Sulfur Batteries,all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4411909838,2025,article,Catalytic Solder Fuses Solid‐Solid Interfaces for All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4412025158,2025,article,"Carrier transport in sulfur cathodes of all-solid-state lithium-sulfur batteries: Challenges, strategies, and characterizations",all-solid-state,,8,0,0,0,4,0,0,0,12,0,1,0,False,12,T2
+W4412176128,2025,article,Recent developments in addressing the challenges associated with polymer-based solid-state lithium–sulfur batteries,all-solid-state; quasi-solid-state,polymer-SPE; composite-CPE; gel-GPE,0,0,0,0,0,0,0,0,0,0,1,0,False,0,T4
+W4412364495,2025,article,Synergistic Interactions of a Pyridinium Nitride Cationic Skeleton and Succinonitrile for Electrolytes with High Stability for Solid-State Batteries,all-solid-state,polymer-SPE; composite-CPE; plastic-crystal,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4412796449,2025,article,Synergistic Regulation of Single-Atom Catalysis and Conductive Enhancement in All-Solid-State Li–S Batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,2,0,0,0,False,2,T3
+W4413168800,2025,article,Designing Recyclable Electrolytes for Lithium‐Ion and Next‐Generation Energy Storage Devices,all-solid-state,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4413317827,2025,article,Sulfur Reduction Pathways and Through-thickness Distribution in Positive Composite Electrodes of All-solid-state Li–S Batteries: Elucidation of Two-stage Discharge Plateaus,all-solid-state,sulfide,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W4413377866,2025,article,Operando Scanning SAXS/WAXS Cell Design for Multiscale Analysis of All‐Solid‐State Battery Systems,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4413672886,2025,article,The Alternating Stress Evolution and Buffering Effects in All‐Solid‐State Lithium–Sulfur Battery with Pre‐Lithiated Silicon‐Based Anode,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4413852536,2025,article,A Universal Solid Reaction Enabling Nanosized Li 2 S in an Amorphous Matrix for All-Solid-State Li–S Batteries,all-solid-state,sulfide,0,0,0,0,5,0,0,0,1,0,0,0,False,5,T3
+W4413907003,2025,article,Research Progress on Lithium Sulfide Synthesis: A Review,all-solid-state,sulfide,1,0,0,0,0,0,0,0,1,0,1,0,True,1,T4
+W4414195916,2025,article,Modeling the Effects of Pressure on Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4414373804,2025,article,Effect of the Dimensional Structure of Carbon-Based Materials on the Electrochemical Performance of All-Solid Lithium–Sulfur Batteries,all-solid-state,sulfide,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W4414396840,2025,article,The induced linkage mechanism in three-dimensional electrolyte architecture to promote ion transport of solid-state Li-S batteries,quasi-solid-state,gel-GPE; in-situ-polymerized,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4414553751,2025,article,High Energy Density Solid-State Lithium–Sulfur Batteries: Challenges and Advances in Cathode Materials,all-solid-state,,11,0,1,0,8,0,0,0,8,0,0,0,True,22,T2
+W4414606008,2025,article,Assessing the practical feasibility of solid-state lithium–sulfur batteries,all-solid-state,,7,0,1,0,7,0,0,0,7,0,0,0,False,17,T2
+W4414617768,2025,article,Fast Reaction Kinetics via Interfacial Mediation in Quasi- and All-Solid-State Lithium-Sulfur Batteries,all-solid-state; quasi-solid-state,,1,0,0,0,17,2,0,0,3,0,0,0,False,18,T1
+W4414660974,2025,article,Deep Eutectic Electrolyte Induces S 3 − Radicals to Enhance Reaction Kinetics for Solid‐State Lithium‐Sulfur Batteries,quasi-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4414744044,2025,article,Recent Research Trends in Solvent-free Fabrication Methods for Lithium-ion and Next-generation Batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4414748693,2025,article,A complex hydride-based electrolyte additive for rechargeable Li−S batteries,,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4414863940,2025,article,"Powering the future: advances, challenges, and sustainability of polymer electrolytes in lithium–sulfur batteries",all-solid-state,polymer-SPE,1,0,0,0,1,0,0,0,0,0,0,0,False,2,T3
+W4414999502,2025,article,Metal-organic frameworks based solid-state electrolytes for high-performance lithium metal batteries,all-solid-state,composite-CPE,2,0,0,0,1,0,0,0,0,0,0,0,False,3,T3
+W4415002496,2026,article,Dual functions of Lewis acid–base synergy and ZnSe-CoSe 2 heterojunctions toward stable solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE,2,0,0,0,0,0,0,0,0,0,1,0,False,2,T3
+W4415097613,2025,article,Enhancing carrier dynamics through ordered-MOF-based solid electrolyte to construct high-energy Li-S batteries,all-solid-state,polymer-SPE; composite-CPE,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W4415098663,2025,article,"Contemporary Trends in Lithium‐Sulfur Battery Design: A Comparative Review of Liquid, Quasi‐Solid, and All‐Solid‐State Architectures and Mechanisms",all-solid-state; quasi-solid-state,,7,0,0,0,3,0,0,0,0,0,0,0,True,10,T2
+W4415161481,2025,article,A dendrite-free Li–S battery with a cerium-doped sulfide glass–ceramic composite electrolyte,all-solid-state,composite-CPE; sulfide,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W4415213272,2025,article,"Anion‐Defect Engineering in Transition Metal Compounds for Lithium–Sulfur Batteries: Current Progress, Mechanistic Insights, and Future Directions",,,0,0,0,0,4,0,0,0,0,0,0,0,False,4,T3
+W4415375751,2025,article,In Situ Polymer Electrolyte Coating for Lithium–Sulfur Batteries,all-solid-state,polymer-SPE; in-situ-polymerized,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4415411530,2025,article,Realizing Low‐Pressure Operation of All‐Solid‐State Lithium–Sulfur Batteries Enabled by Carbon‐Coated Current Collectors,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4415473443,2025,article,Solid-State vs. Liquid Electrolytes: A Comparative Review,all-solid-state,sulfide; oxide,2,0,0,0,0,0,0,0,0,0,0,0,True,2,T3
+W4415494208,2025,article,Unraveling Asymmetric Macroscopic Reaction Dynamics in Solid‐State Li–S Batteries During Charge–Discharge Cycles: Visualizing Ionic Transport Limitations with Operando X‐Ray Computed Tomography,all-solid-state,sulfide,7,1,0,0,0,0,0,0,0,0,0,0,False,7,T1
+W4415543410,2025,article,Operando Neutron Imaging of Lithium Flux and Gradient Cathode Design for Enhanced Kinetics in High‐Loading All‐Solid‐State Li─S Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4415729749,2025,article,Research and development of next generation batteries in the ALCA-SPRING project (JST),all-solid-state,sulfide; oxide,4,0,0,0,1,0,0,0,2,0,0,0,False,5,T3
+W4415751803,2025,article,Black phosphorene modified polymer solid electrolyte membrane toward advanced all solid-state Li-S batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4415949736,2025,article,Ionic Liquids Anchored on Carbon Synchronize Ion-Electron Transport in Liquid- and Solid-State Sulfur Batteries,solid-liquid-hybrid; quasi-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4416092970,2025,article,Electrolyte strategies for practically viable all-solid-state lithium-sulfur batteries,all-solid-state,sulfide; halide; hydride; oxide,1,0,0,0,2,0,0,0,3,0,0,0,False,3,T3
+W4416292830,2025,article,Synergistic Co‐Optimization Strategy for Electron‐Ion Transport Kinetics in all‐Solid‐State Sulfurized Polyacrylonitrile Cathodes,all-solid-state,sulfide,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W4416333347,2025,article,Theoretical manipulation of ion transport and electrochemical reactivity through positioning MOF infused LiTFSI on PEO chain to stabilize solid state lithium-sulfur battery,all-solid-state,composite-CPE; polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4416356410,2025,article,Stable Cycling of Solid-State Lithium–Sulfur Batteries by In Situ Construction of Li 3 PO 4 /LiF-Enhanced Interface,quasi-solid-state,gel-GPE; in-situ-polymerized,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W4416420895,2026,article,Power play: A multi-criteria analysis of present and future battery technologies,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W4416434809,2025,article,Correlation between sulfur-existing regions in sulfur/porous-carbon composite particles and electrochemical performance of all-solid-state lithium-sulfur batteries,all-solid-state,,2,0,0,0,0,0,0,0,0,0,10,0,False,2,T3
+W4416470663,2025,article,Exploiting deep sulfur conversion by tandem catalysis for all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W4416717249,2025,article,Simple and scalable solvent-free PEO based electrolyte fabrication by kneading for all solid state lithium sulfur batteries,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W4416812843,2025,article,Advances in solid-state lithium–sulfur batteries for next-generation energy storage,all-solid-state,sulfide; halide; composite-CPE,4,0,1,0,4,0,0,0,10,0,1,0,False,11,T2
+W4417537294,2025,article,Boosting electrode kinetics and interfacial stability via multifunctional additives in PEO-based double-layer electrolyte membranes for high-performance solid-state Lithium-sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7116855962,2025,article,Dendrite-suppressing Li–S batteries through triple-component polymer electrolyte design,quasi-solid-state,gel-GPE,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7116973026,2025,article,In situ polymerization for high performance solid-state lithium-sulfur batteries,all-solid-state; quasi-solid-state,in-situ-polymerized; polymer-SPE,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W7117317148,2025,article,Tailor‐Made Protective Li x AlS y Layer for Lithium Anodes to Enhance the Stability of Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7117979440,2026,article,Tracing Lithophilic Sites: In Situ Nanovisualization of Their Migration and Degradation in All-Solid-State Lithium Batteries,all-solid-state,,7,3,0,0,0,0,0,0,0,0,0,0,False,7,T1
+W7118075951,2026,article,Dual‐Conductivity Optimization Toward High‐Rate and Ultralong Life All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W7118163985,2026,article,Unveiling a Stable Polysulfide Transport Framework in a Fluorine‐Free Li‐S Batteries,,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7118192293,2026,article,Interface Engineering Strategies for Shuttle Mitigation in Alkali Metal–Sulfur Batteries: A Comparative Review from Li–S to Na–S and K–S Systems,,,2,0,0,0,4,0,0,0,0,0,0,0,True,6,T3
+W7122365346,2026,article,Chemical Processes in All‐Solid‐State Li─S and Na─S Batteries: A Perspective,all-solid-state,sulfide,21,0,0,0,1,0,0,0,5,0,3,0,True,22,T2
+W7123364468,2026,article,Self-assembled non-flammable poly(arylene ether sulfone)-grafted poly(ethylene glycol) solid electrolyte with improved lithium-ion transport for lithium–sulfur batteries,all-solid-state,polymer-SPE,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W7124161470,2026,article,Catalyzing deep solid-state sulfur conversion,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7124424515,2026,article,Dual‐Interface‐Dominant Cathode Architectures Enabling Fast Sulfur Redox and Stable Interfaces in All‐Solid‐State Li‐S Batteries,all-solid-state,sulfide,43,1,0,0,0,0,0,0,0,0,5,0,False,43,T1
+W7124464532,2026,article,“Active material-free” design to overcome mass-transport limitations for high-energy-density all-solid-state Li-S batteries,all-solid-state,sulfide,14,0,7,0,1,0,0,0,19,0,4,0,False,36,T1
+W7124473418,2026,article,Dual-atom pairs with electron buffering enable ultrastable-cycling all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7125694576,2026,article,Passivation‐Induced Species Dynamics and Microstructural Evolution in Solid‐State Lithium–Sulfur Cathodes,all-solid-state,sulfide,7,1,1,0,0,0,0,0,0,0,0,0,False,10,T1
+W7127049226,2026,article,Stabilizing All-Solid-State Li–S Batteries by a Polysulfide-Repelling and Anode-Protecting Self-Segregated Trilayer Polymer Electrolyte,all-solid-state,polymer-SPE,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7127084998,2026,article,Directional Catalysis of Sulfur at Highly Ordered Triple‐Phase Interfaces in All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,12,0,0,0,0,0,0,0,0,0,1,0,False,12,T2
+W7127421727,2026,article,Optimizing f ‐ d Hybridization Descriptor in Rare‐Earth Oxides for Efficient Sulfur Catalysis in all Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,1,0,0,0,0,0,0,0,False,1,T4
+W7128180073,2026,article,Tailored Redox‐Active Catholytes Enabling High‐Rate and High‐Loading All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,0,0,7,0,14,0,0,0,65,2,0,0,False,35,T1
+W7128364554,2026,article,High‐Valence‐Cation‐Induced Lattice Expansion for Activating Li 2 S Cathode in All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7128429047,2026,article,Interfacial catalysis in lithium salt decomposition: Impacts on lithium metal battery performance,,,5,0,0,0,2,0,0,0,0,0,0,0,False,7,T3
+W7128450216,2025,article,Life Cycle Assessment Studies on Next-Generation Secondary Batteries for Electric Vehicles: Review,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W7128476285,2026,article,"Pseudocapacitive lithium intercalation behavior of Co, Ni-doped MoS2 for all-solid-state PEO-based lithium-sulfur batteries",all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7128549101,2026,article,Tackling the Grand Challenges in Practical Ultrahigh‐Loading (>10 mg cm −2 ) Lithium‐Sulfur Batteries,all-solid-state,,1,0,0,0,3,0,0,0,3,0,0,0,False,4,T3
+W7128707123,2026,article,Review of the different design parameters to yield efficient lithium-sulfur rechargeable cells of higher energy densities,,,1,0,0,0,2,0,0,0,2,0,0,0,True,3,T3
+W7130643983,2026,article,Dynamically cross-linked polyurethane polymer electrolyte based on boroxine for solid-state lithium‑sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7130661640,2026,article,Concentration‐Gradient Solid‐State Sulfur Cathode Enabling Improved Energy Storage Under High Sulfur Loadings,all-solid-state,sulfide,17,1,0,0,0,0,0,0,0,0,0,0,False,17,T1
+W7131105224,2026,article,Aluminum Acetylacetonate-Confined In-Situ Polymer as Dynamic Active Medium for Sustainable Solid-State Lithium–Sulfur Batteries,quasi-solid-state,polymer-SPE; in-situ-polymerized,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7133324216,2026,article,Elucidating Dynamic Evolution of the Sulfur Cathode in Sulfide-Based All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,1,1,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7134001960,2026,article,Anode-less Solid-State Li–S Batteries Enabled by Fe-Stabilized Polysulfides,all-solid-state,sulfide,2,0,0,0,4,0,0,0,1,0,0,0,False,6,T3
+W7134182671,2026,article,In Situ Constructed “Poly‐Ionic Bridges” Promoting Performances of All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state; quasi-solid-state,composite-CPE; oxide; polymer-SPE; in-situ-polymerized,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7134196788,2026,article,Dynamic electric field modulation via BaTiO3-based staggered-type heterojunction for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,1,0,1,0,34,0,0,0,False,3,T3
+W7134817020,2026,article,Spherulite-packed polymer electrolytes with high ion selectivity for stable lithium–sulfur battery performance,quasi-solid-state,gel-GPE; in-situ-polymerized,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7134833152,2026,article,Unraveling the Role of Residual Solvent in PVDF-Based Solid-State Electrolytes: Balance between Ionic Conductivity and Electrochemical Stability,all-solid-state,polymer-SPE; composite-CPE; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7134912443,2026,article,In Situ Synthesis of Li 3 PS 4 Solid Electrolyte Films via Sulfur-Rich Anodization for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7138255974,2026,article,Highly Stable Hybrid Lithium–Sulfur Batteries Using Sulfide Electrolyte Separators with Minimized Leachate Levels,solid-liquid-hybrid,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7139970744,2026,article,Revolutionizing Battery Manufacturing: The Role of Dry Electrode Technology in Sustainable Energy Storage Solutions,,,0,0,0,0,0,0,0,0,4,0,0,0,False,0,T4
+W7139977491,2026,article,Phase-controlled dual redox mediator enabled high-performance all-solid-state lithium–sulfur batteries,all-solid-state,sulfide,2,0,0,0,6,3,0,0,0,0,0,0,False,8,T1
+W7140220521,2026,article,Spatially engineered polymer-in-salt electrolytes for solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE; composite-CPE; oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7140296670,2026,article,Comprehensive Lithium Polysulfide Diffusion Insights within Solid-State Electrolytes,all-solid-state,sulfide; oxide; polymer-SPE; composite-CPE,8,0,0,0,2,0,0,0,2,0,0,0,False,10,T2
+W7140328214,2026,article,Emerging materials for next-generation energy storage: A roadmap to solid-state and beyond,all-solid-state,sulfide; oxide; polymer-SPE,5,0,0,0,0,0,0,0,0,0,0,0,False,5,T3
+W7140598110,2026,article,A dipole-aligned polymer electrolyte enabling directed Li + migration for all-solid-state Li–S batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7141960185,2026,article,Optimization of Cation−Anion Dynamics in Cationic Polymer Electrolytes for Boosting the Performance of All‐Solid‐State Lithium−Metal Battery,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7142666893,2026,article,"Continuous hot-melt kneading for composite sulfur, conductive additive, and solid electrolyte in all-solid-state lithium-sulfur batteries",all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7148259679,2026,article,The role of atomic strain in medium-entropy single-atom catalysts for solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE,2,0,0,0,1,0,0,0,0,0,1,0,False,3,T3
+W7150134573,2026,article,A Review of Technology and Industry Trends in Next-Generation Secondary Batteries,,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W7150775033,2026,article,Rubber-Derived Sulfur Composite Cathodes for Realizing High-Energy-Density All-Solid-State Li-S Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7152751828,2026,article,Toward Fast‐Charging Polymer‐Electrolyte Based All‐Solid‐State Li–S Batteries: Insights into Limiting Factors and Perspectives,all-solid-state,polymer-SPE,1,0,0,0,2,0,0,0,0,0,0,0,True,3,T3
+W7154342744,2026,article,Dry Process for Green Manufacturing of Battery Electrodes: Structural Evolution of Freestanding Film During Roll-to-Roll Processing,,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7154459005,2026,article,"Comprehensive Review of Electric Vehicle Technologies: Battery Advancements, Charging Infrastructure and Future Prospects",,,0,0,0,0,0,0,0,0,0,0,0,0,True,0,T4
+W7154635307,2026,article,Electrolyte‐Free Cathode Design for High‐Sulfur‐Loading All‐Solid‐State Li‐S Batteries,all-solid-state,polymer-SPE; composite-CPE; oxide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7154728122,2026,article,Optimizing the Electrodes/PEO Electrolyte Interface Reaction via Sulfiphilic and Lithiophilic C 3 N 4 /MoS 2 Fillers for Solid-State Li–S Batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7154831746,2026,article,Scalable thin-flake oxide solid-state electrolytes with multi-level stability for high-performance lithium–sulfur batteries,all-solid-state,oxide,2,0,0,0,1,0,0,0,0,0,0,0,False,3,T3
+W7154979982,2026,article,Bioinspired hierarchical dual-gate ion regulation across electrolyte transport regimes for lithium–sulfur batteries,quasi-solid-state; all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7155617209,2026,article,Lotus-pod-inspired honeycomb structures with embedded copper cores enable confinement and rapid kinetics of all-solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7156377761,2026,article,Progress and Prospects of Solid-State Electrolytes in Metal–Sulfur Batteries,,,2,0,0,0,7,0,0,0,7,0,0,0,True,9,T2
+W7160027612,2026,article,Facing X-ray Radiation Damage Systematically: A Quantitative Investigation on Solid-State Electrolytes for LiS Batteries,,sulfide; oxide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7160139140,2026,article,A semi-solid anode-free Cu-Li2S battery comprising Li6PS5Cl solid-state electrolyte and Li[G4]TFSI solvate ionic liquid electrolyte,solid-liquid-hybrid,sulfide; ionogel,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7160165739,2026,article,Synergistic effects of transition metals elements and lithium aluminum germanium phosphate solid electrolyte in suppressing and trapping polysulfide shuttle transfers in lithium‑sulfur batteries,solid-liquid-hybrid,oxide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7160298824,2026,article,Reaction-transport coupling driven by supramolecular host-guest chemistry accelerates kinetics in solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7160898318,2026,article,Compatible Dynamically Wetting Electrolyte–Electrode Interface Design for Solid‐State Lithium–Sulfur Batteries,quasi-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7161575573,2026,article,Simultaneous Redox Mediation and Interfacial Engineering Enabled by Diphenyl Diselenide for High‐Performance All‐Solid‐State Li–S Batteries,all-solid-state,polymer-SPE,2,1,0,0,7,3,0,0,0,0,0,0,False,9,T1
+W7162501480,2026,article,Effect of Binders in Composite Solid Electrolytes on Electrode‐Electrolyte Contact for Low‐Operating‐Pressure All‐Solid‐State Batteries,all-solid-state,sulfide; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7163001190,2026,article,Surface-mediated electrochemistry and interfacial thermodynamics of halide perovskite quantum dots for advanced batteries,,polymer-SPE,6,0,0,0,0,0,0,0,1,0,0,0,False,6,T3
+W7163160923,2026,article,Sustainable energy storage solutions using nanomaterials: bridging the gap between policy and technology in Italy,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7163341456,2026,article,Unlocking the kinetics of solid-state Li-S batteries by redox mediation,all-solid-state,sulfide,0,0,0,0,25,1,0,0,27,0,0,0,False,25,T1
+W7164040859,2026,article,Spatially Decoupled Sulfur Redox and Li + Transport in Polymer Electrolytes for Solid-State Li–S Batteries,all-solid-state,polymer-SPE,0,0,0,0,2,0,0,0,0,0,0,0,False,2,T3
+W7164742609,2026,article,"All-Solid-State Lithium–Sulfur Batteries: Recent Progress, Challenges, and Perspectives",all-solid-state,sulfide; oxide; halide; hydride; polymer-SPE; composite-CPE,14,0,0,0,12,0,0,0,19,0,1,0,True,26,T2
+W7164883511,2026,article,Adsorption or Repulsion: Exploration of Regionally Confined Solid Polymer Electrolytes for Solid-State Lithium−Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7165132441,2026,article,Cation–Anion Redox Co‐Modulation: Unlocking the Potential of All‐Electrochem‐Active Sulfur‐Based Solid‐State Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,2,0,False,0,T4
+W7165483838,2026,article,Effect of carbon interlayer preconditioning on in-situ plated lithium metal stability in anode-free solid-state batteries,all-solid-state,sulfide,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W7165555257,2026,article,Strain-coordination strategy enabling long-cycling all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7166647466,2026,article,Reconciling triple-phase boundaries and tortuosity in high-energy all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,2,0,2,0,False,0,T4
+W7166731345,2026,article,Oxygen Vacancy Engineered BiOCl Nanosheets Enable Synergistic LiF‐Rich SEI Construction and Polysulfide Shuttle Suppression for Lithium Metal Batteries,all-solid-state,polymer-SPE; composite-CPE,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7167073746,2026,article,Electron‐Switching Astaxanthin Enables Programmable Triple‐Phase Interface Chemistry for High‐Loading All‐Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,36,1,0,0,0,0,0,0,0,0,0,0,False,36,T1
+W7167366572,2026,article,Distinct Redox Chemistry in Solid-State Li–S Batteries Induced by Solid Electrolytes,all-solid-state,sulfide,5,1,1,0,1,0,0,0,0,0,0,0,False,9,T1
+W7167575006,2026,article,Tunable Porosity and Structural Properties of Carbon Aerogels: Adapting Packing Density and Morphology of Dry‐Film Cathodes,all-solid-state,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7167593195,2026,article,Flexible solid electrolyte membrane based on PAES-g-2POSSPEG for wide temperature applicable lithium‑sulfur battery,quasi-solid-state,polymer-SPE; composite-CPE,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7167615002,2026,article,Beyond Boundaries: Redox Mediators as Dynamic Charge Carriers and Catalytic Hubs for Efficient Sulfur Conversion in Solid‐State Lithium–Sulfur Batteries,all-solid-state,,5,0,0,0,42,2,0,0,11,0,0,0,False,47,T1
+W7167639624,2026,article,Lithium trapping behavior in sulfur composite cathodes for all-solid-state lithium–sulfur batteries: a comparative study of reduced graphene oxide and hybrid carbon conductive additives,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7167673580,2026,article,Powering next-generation lithium-sulfur batteries: role of solid electrolytes in energy density and safety,all-solid-state; quasi-solid-state,oxide; sulfide; composite-CPE,4,0,0,0,0,0,0,0,3,0,0,0,False,4,T3
+W7167840053,2026,article,"Beyond black mass: A critical systems review of lithium-ion and emerging battery recycling — From pre-treatment burden and route chemistry to industrial translation, regulation, and circularity",,,1,0,0,0,0,0,0,0,0,0,0,0,True,1,T4
+W7167933059,2026,article,Metal–Organic Framework-derived Atomic Metal Sites Promoting Sulfur Cathode for All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7168164857,2026,article,Real-Time Monitoring of Multiphase Evolution in All-Solid-State Li–S Batteries via In-Situ Synchrotron X-ray Absorption Spectroscopy,all-solid-state,sulfide,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7168239380,2026,article,Multiscale Magnetic Field Engineering for Advanced Lithium‐Based Batteries,,,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7169438107,2026,article,Size‐Dependent Trade‐off between Sulfur Catalysis and Sulfide Electrolyte Decomposition for Room‐Temperature Ultrahigh‐Rate All‐Solid‐State Li–S Batteries,all-solid-state,sulfide,46,1,1,0,0,0,0,0,0,0,1,0,False,49,T1
+W7169546940,2026,article,Decoupled sulfur redox pathways governed by initial chemical states in all-solid-state lithium–sulfur batteries,all-solid-state,,2,0,0,0,2,0,0,0,0,0,0,0,False,4,T3
+W7169609557,2026,article,Dynamic Ion‐Pair Networks Enable Selective Li + Transport for Stable and Efficient Solid‐State Lithium‐Sulfur Batteries,all-solid-state,polymer-SPE; composite-CPE,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7170152567,2026,article,Regulation of ionic conduction and sulfur conversion kinetics in PEO/PVDF-HFP solid electrolyte by dual-functional fillers for high-performance solid-state lithium-sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7170318373,2026,article,High-performance all-solid-state sulfurized polyacrylonitrile batteries enabled by iodine coupling,all-solid-state,,0,0,0,0,0,0,0,0,70,1,0,0,False,0,T4
+W7170633062,2026,article,Multicriteria selection of innovative battery cell technologies for electric vehicle applications,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7171311378,2020,article,Next-Generation Battery Technologies for Electric Vehicles,,,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7171512032,2026,article,Green and Low‐Carbon Synthesis of Lithium Sulfide (Li 2 S): From Fundamental Mechanisms to Scalable Manufacturing for Next‐Generation Energy Storage,,sulfide,2,0,0,0,0,0,0,0,5,0,0,0,False,2,T3
+W7171733582,2026,article,Breaking the Three‐Phase Boundary Constraint: Mixed Conductors Enabling Energy‐Dense Solid‐State Lithium–Sulfur Batteries,all-solid-state,sulfide,0,0,0,0,0,0,0,0,1,0,0,0,False,0,T4
+W7171793452,2026,article,Anion‐Managing Biomimetic Electrolyte Based on Fluorinated COF Recognition and Hyperbranched Polyamidoamine Capture for Practical Lithium–Metal Batteries,all-solid-state,composite-CPE; polymer-SPE,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7171946273,2026,article,"Designing conductive polymers as multifunctional electrochemical components for batteries and supercapacitors: Recent advances, mechanisms and design principles",,,3,0,0,0,8,0,0,0,0,0,0,0,True,11,T2
+W7172299303,2026,article,Li7P3S11-modified PAN/PVDF-HFP composite polymer electrolyte for solid-state lithium–sulfur batteries,quasi-solid-state,sulfide; composite-CPE,4,0,0,0,0,0,0,0,0,0,0,0,False,4,T3
+W7172387542,2026,article,Tailoring stable interfaces via F127-induced microstructural reconstruction in PVDF-HFP electrolytes for durable solid-state Li-S batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7172437713,2026,article,"High-Entropy Sulfides in Electrochemical Energy Storage: Evolution, Advanced Applications, and Future Prospects",all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,0,0,False,1,T4
+W7201980765,2026,article,Next-Generation EV Batteries: Increasing Driving Range and Reducing Charging Time,,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7202023691,2026,article,Orotic Acid‐Functionalized Solid Electrolyte With Promoted Salt Dissociation for High‐Performance Lithium–Sulfur Batteries,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7202122563,2026,article,Hierarchical Primary‐Secondary Coordination Synchronizes Ion Flux and Sulfur Redox in Solid Polymer Electrolytes,all-solid-state,polymer-SPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7202352407,2026,article,Lithium–sulfur battery technology presents a promising pathway for advancing the electrification of sustainable public transportation systems,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7202391967,2026,article,Further Evidences for the Sulfur Spillover on Carbon: Thermodynamic Aspects and Effects on Li‐S Solid‐State Batteries,all-solid-state,sulfide,1,0,0,0,0,0,0,0,0,0,2,0,False,1,T4
+W7203453822,2026,article,Liquid-phase synthesis of a series of superionic sulfide electrolytes for all-solid-state lithium-sulfur battery,all-solid-state,sulfide,2,0,0,0,0,0,0,0,9,1,0,0,False,2,T3
+W7203585819,2026,article,Modulating the concentration polarization in lithium-indium anodes of different thicknesses enables high-performance all-solid-state lithium-sulfur batteries,all-solid-state,,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7203675724,2026,article,Unlocking high-sulfur-content cathodes by an all-in-one high-entropy sulfide catalyst for all-solid-state Li–S batteries,all-solid-state,sulfide,7,1,0,0,5,1,0,0,0,0,1,0,False,12,T1
+W7203687046,2026,article,High‐Entropy Design for Improving Ionic Conductivity and Air Stability of Lithium Argyrodites for All‐Solid‐State Lithium‐Sulfur Batteries,all-solid-state,sulfide,0,0,1,0,0,0,0,0,4,0,0,0,False,3,T2
+W7203736000,2026,article,SiPu-modified PVDF polymer electrolytes with multilevel Li+ coordination for fast Li+ transport in solid-state lithium–sulfur batteries,all-solid-state,polymer-SPE; composite-CPE,0,0,0,0,0,0,0,0,0,0,0,0,False,0,T4
+W7203744185,2026,article,Stable and Low‐Pressure Anode‐Free All‐Solid‐State Li–S Batteries Enabled by Reaction‐Derived Nanocrystalline‐Amorphous Li 2 S Cathodes and Deformable Sodium Current Collectors,all-solid-state,sulfide,2,0,0,0,1,0,0,0,13,1,0,0,False,3,T3
+W7204076645,2026,article,Molecular coordination engineering enables triple-synergy cathode design for all-solid-state Li-S batteries,all-solid-state,sulfide,0,0,0,0,2,0,0,0,3,0,0,0,False,2,T3
+W7204201803,2026,article,Lithium Thiostannate Molecular Mediator Enables Interfacial Electronic Reconstruction for Low‐Barrier Li 2 S Chemistry,all-solid-state,sulfide,1,0,0,0,23,2,0,0,0,0,0,0,False,24,T1
+W7204636713,2026,article,Cobalt single-atom catalysts anchored on 3D nitrogen-doped porous carbon as efficient sulfur hosts for all-solid-state lithium-sulfur batteries,all-solid-state,sulfide,2,0,0,0,0,0,0,0,1,0,0,0,False,2,T3
+W7204891205,2026,article,Stabilizing Lithium–Sulfur Batteries in Carbonate Electrolytes via DODT–PEG Interphase Engineering and Ultramicroporous Carbon Confinement,,,1,0,0,0,0,0,0,0,2,0,0,0,False,1,T4
+W7211944505,2026,article,Electrode potential control of Li–Si alloys for safe and high-energy-density all-solid-state Li–S batteries,all-solid-state,sulfide,0,0,1,0,0,0,0,0,0,0,0,0,False,3,T2
+W7212020979,2026,article,Aging Phenomena in TiS 4 -and VS 4 -Based All-Solid-State Lithium Sulfide Batteries Analyzed by ToF-SIMS,all-solid-state,sulfide,5,1,0,0,0,0,0,0,0,0,0,0,False,5,T1
+W7213290624,2026,article,Advanced Electron Microscopy for Li─S and Na─S Batteries,,,2,0,0,0,6,1,0,0,0,0,0,0,False,8,T1
+W7214333712,2026,article,Overview of advances in anode electrode engineering for high-energy-density lithium–sulfur batteries,all-solid-state,sulfide; oxide; polymer-SPE,11,0,0,0,1,0,0,0,0,0,0,0,False,12,T2
+W7214937317,2026,article,Low‐Pressure All‐Solid‐State Lithium–Sulfur Batteries: Challenges and Design Principles,all-solid-state,sulfide,3,0,0,0,1,0,0,0,9,0,0,0,True,4,T3
+W7216088923,2026,article,Synergistic regulation of Li⁺ transport and interfacial stability by Li7P3S11-based composite electrolyte and buffer interlayers for solid-state lithium–sulfur batteries,quasi-solid-state,sulfide; composite-CPE,3,0,0,0,0,0,0,0,0,0,0,0,False,3,T3
+W7220649140,2026,article,Asymmetric dual-functional separator integrating catalytic Co3O4@CNT and Li+-regulating LLZO/PEO layers for stable lithium-sulfur batteries,,oxide; polymer-SPE,2,0,0,0,0,0,0,0,0,0,0,0,False,2,T3
+W7220693530,2026,article,High‐Performance Lithium‐Sulfur All‐Solid–State Batteries Enabled by Chemically Synthesized Lithium Polysulfide Cathodes,all-solid-state,sulfide,1,0,0,0,3,0,0,0,1,0,0,0,False,4,T3
+W7220709382,2026,article,Coupling Reaction Pathways and Interfacial Transport in Practical All-Solid-State Lithium–Sulfur Batteries,all-solid-state,sulfide,13,0,1,0,31,0,0,0,5,0,0,0,False,47,T2

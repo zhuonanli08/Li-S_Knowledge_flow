@@ -1,0 +1,1071 @@
+=== 第 1 页 ===
+Advanced Science 
+www.advancedscience.com
+RESEARCH ARTICLE
+Passivation-Induced Species Dynamics and Microstructural 
+Evolution in Solid-State Lithium–Sulfur Cathodes 
+Arpan K. Sharma1 
+Bairav S. Vishnugopi1 
+Elif Pınar Alsaç2 
+Matthew T. McDowell2 , 3 
+Partha P. Mukherjee1 
+1 School of Mechanical Engineering, Purdue University, West Lafayette, Indiana, USA 
+2 George W. Woodruff School of Mechanical Engineering, Georgia 
+Institute of Technology, Atlanta, Georgia, USA 
+3 School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, Georgia, USA 
+Correspondence: Partha P. Mukherjee ( pmukherjee@purdue.edu) 
+Received: 17 October 2025 
+Revised: 22 December 2025 
+Accepted: 12 January 2026 
+Keywords: electrode microstructure | lithium–sulfur cathode | reaction kinetics | solid-state batteries | transport limitations 
+ABSTRACT 
+Solid-state lithium–sulfur (SSLS) batteries offer high theoretical energy density, yet their practical viability is hindered by poor 
+sulfur utilization and limited rechargeability. At the core of this challenge lies the passivating nature of Li2 S, which restricts ionic 
+and electronic transport, suppresses interfacial activity, and severely impedes the reversibility of electrochemical reactions. In this 
+study, we elucidate the mechanistic origins of these limitations by resolving how charge and discharge species form, grow, and 
+spatially evolve within the cathode microstructure under varied current densities and electrode compositions. By resolving the 
+species distribution at the particle scale and coupling it with Raman spectroscopy and X-ray diffraction, we demonstrate how 
+Li2 S formation induces localized surface passivation that progressively limits electrochemical accessibility within the cathode 
+microstructure. Sulfur utilization is found to be strongly governed by the interplay between sulfur loading, residual porosity, and 
+interfacial architecture. High sulfur contents result in buried, electrochemically isolated domains due to poor solid electrolyte 
+(SE) percolation, while low sulfur contents trigger SE degradation via parasitic reactions. The resulting sulfur-porosity maps 
+delineate the mechanistic boundaries between reversible and transport-limited regimes, offering actionable design guidance for 
+SSLS cathodes with enhanced sulfur utilization. 
+1 
+Introduction 
+Lithium–sulfur (Li–S) batteries are widely recognized as one 
+of the most promising candidates among “beyond lithium-ion”
+energy storage chemistries. With a high theoretical specific 
+energy density of 2600 Wh kg− 1 , substantially surpassing the 350–
+400 Wh kg− 1 range of conventional lithium-ion systems, Li–S cells 
+have garnered significant attention since their original patent in 
+1962 [ 1–6 ]. However, their practical implementation has remained 
+elusive, largely due to polysulfide dissolution and the resulting 
+shuttle effect, which leads to parasitic deposition at the anode and 
+irreversible capacity loss [ 7–14 ]. To overcome these challenges, 
+solid-state Li–S (SSLS) batteries have emerged as a viable alter- 
+native. By replacing the liquid electrolyte with a solid electrolyte 
+(SE), SSLS batteries effectively suppress the polysulfide shuttle 
+phenomenon [ 15–21 ], may help impede lithium dendrite growth 
+via the mechanical rigidity of SEs [ 22–24 ], and improve safety by 
+eliminating flammable liquid components [ 25–31 ]. 
+Figure 1a illustrates a schematic of a typical composite cathode 
+in a SSLS cell, comprising elemental sulfur (S8 ), SE, and carbon 
+additives such as acetylene black (AB), which compensate for 
+the electronically insulating nature of sulfur and its discharge 
+products. Unlike in liquid electrolyte-based Li–S systems, where 
+the electrolyte percolates through the porous electrode and uni- 
+formly wets sulfur surfaces, SEs establish point-to-point contacts 
+between SE-SE and SE-sulfur particles [ 32 ]. These localized 
+interfaces support Li+ transport and define the reactive C|S8 |SE 
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly 
+cited. 
+© 2026 The Author(s). Advanced Science published by Wiley-VCH GmbH 
+Advanced Science , 2026; 13:e20537 
+https://doi.org/10.1002/advs.202520537
+1 of 13
+
+=== 第 2 页 ===
+FIGURE 1 
+(a) Schematic of the multiphase cathode architecture comprising sulfur, SE, and carbon additives, with electrochemical reactions 
+occurring at the triple-phase boundaries. (b) Stepwise discharge pathway illustrating the reduction of sulfur to Li2 Sx intermediates and final formation 
+of insulating Li2 S. (c) Comparison of the electrochemical response of SSLS cells predicted by the mathematical model against the experimental values 
+at (c) 30 wt.% sulfur loading with four different current densities of 0.1, 0.25, 0.5 and 1 mA cm− 2 , and sulfur loadings of (a) 30 wt.%, (b) 40 wt.%, and (c) 
+60 wt.% at a current density of 0.1 mA cm− 2 . 
+interface essential for electrochemical processes (Figure 1a ). 
+The effectiveness of such transport and interfacial reactions is 
+highly sensitive to the cathode microstructure. Voids formed 
+during fabrication can interrupt these percolation pathways, 
+limiting both ionic mobility and reaction kinetics [ 33, 34 ]. These 
+structural constraints not only hinder species transport but also 
+critically influence the progression, localization, and reversibility 
+of electrochemical transformations within the cathode. 
+In a liquid electrolyte-based Li–S cell, sulfur dissolves during 
+discharge to form polysulfides of varying chain lengths, which 
+subsequently precipitate as Li2 S [ 9, 10, 35–41 ]. In contrast, SSLS 
+cells exhibit a direct solid-solid conversion of sulfur with Li+ , 
+forming Li2 S at the cathode without any dissolution or pre- 
+cipitation. During charging, the reverse reaction proceeds with 
+Li2 S converting back to sulfur via the formation of intermediate 
+polysulfides. However, the detailed reaction mechanism in SSLS 
+cathodes remains under active investigation. 
+While early studies suggested a direct sulfur-to-Li2 S conversion 
+[ 42 ], recent works have revealed a more complex pathway 
+involving metastable intermediates such as Li2 S2 , Li2 S4 , and 
+Li2 S8 [ 43, 44 ]. Operando analyses and theoretical studies have 
+confirmed that the discharge product is not exclusively Li2 S but 
+a mixture of Li2 S and Li2 S2 [ 43–48 ]. Kim et al. [ 45 ] employed 
+synchrotron X-ray absorption spectroscopy (XAS) and X-ray 
+photoelectron spectroscopy (XPS) to confirm the presence of 
+mixed Li2 S2 /Li2 S discharge products. Similar spectral features 
+were reported by Cao et al. [ 44 ], indicating Li2 S2 accumulation 
+due to sluggish reaction kinetics in SSLS cathodes. The metastable 
+nature of Li2 S2 , coupled with its structural resemblance to Li2 S 
+and overlapping spectral features, makes its detection particularly 
+challenging [ 45 ]. As the discharge progresses, Li2 S emerges as 
+the dominant product; however, its poor ionic and electronic 
+conductivity results in the formation of a passivating layer around 
+sulfur particles, effectively stalling further redox progression and 
+limiting active material utilization (Figure 1b ). 
+2 of 13
+Advanced Science, 2026
+
+=== 第 3 页 ===
+Although the discharge process proceeds via successive reduc- 
+tion, the reversibility of this pathway during charging remains 
+less certain. Gu et al. [ 49 ] reported a one-step Li2 S-to-sulfur 
+conversion during charging at elevated temperature, suggesting 
+a kinetically driven transformation. In contrast, Cao et al. [ 44 ] 
+detected Li2 S2 even during charging using operando Raman 
+spectroscopy and ex situ XAS. Furthermore, the reconversion 
+of Li2 S to sulfur is severely hindered by its electrochemical 
+inactivity, resulting in substantial activation overpotentials that 
+inhibit full oxidation. This kinetic bottleneck is a key limi- 
+tation to the practical reversibility of SSLS cells [ 45, 50–53 ]. 
+This underscores the critical need to elucidate the passivation 
+effects of Li2 S and their direct impact on cell-level performance 
+limitations. 
+To gain mechanistic insight into these dynamics, modeling 
+frameworks, when coupled with experimental studies, offer a 
+powerful tool to probe species evolution and microstructural 
+changes during cycling. Yin and Franco [ 54 ] pioneered a kinetic 
+model to describe discharge in quasi-solid-state Li–S batteries 
+via a two-step pathway involving a Li2 S2 intermediate. However, 
+their approach remains constrained by the presence of a liquid 
+phase, limiting its relevance to fully solid-state systems. This 
+gap underscores the need for advanced physics-based models 
+that incorporate the distinctive physicochemical features of SSLS 
+batteries to enable more accurate performance predictions across 
+diverse operating regimes. 
+In this work, we develop a comprehensive microstructure- 
+resolved modeling framework for SSLS batteries that couples 
+transport phenomena and reaction kinetics to predict charge–
+discharge behavior. The model uncovers key mechanistic features 
+of species evolution at the particle scale and elucidates the incom- 
+plete reduction and oxidation of sulfur due to Li2 S passivation. We 
+track the dynamic coexistence of different species under varying 
+conditions and relate these pathways to cell-level electrochemical 
+performance. Through parametric analysis of sulfur loading and 
+residual porosity, we identify how competing kinetic and trans- 
+port limitations manifest across different cathode architectures, 
+yielding design principles for optimized microstructures. To 
+complement the modeling, we employ Raman spectroscopy and 
+X-ray diffraction (XRD) on cathodes composed of sulfur, Li6 PS5 Cl 
+(LPSCl) as the SE, and AB to investigate intermediate species 
+formation and structural evolution during cell operation. Overall, 
+this integrated modeling-experimental framework provides a 
+mechanistic bridge between species-scale electrochemistry and 
+macroscale performance in SSLS cells. 
+2 
+Results and Discussion 
+We investigate the electrochemical behavior of a representative 
+SSLS cell with a composite cathode consisting of 30 wt.% sulfur 
+(5 µm), 50 wt.% LPSCl (1 µm) as SE, and 20 wt.% AB as the 
+conductive additive, coupled with a Li–In alloy counter electrode. 
+The solid-solid conversion reaction is modeled through a physics- 
+based mesoscale framework that explicitly resolves both phase 
+transition kinetics and microstructural disparities. In line with 
+literature evidence [ 43–47 ], the reaction proceeds via a two-step 
+pathway: sulfur first reduces to Li2 S2 and subsequently to Li2 S, 
+with distinct Butler–Volmer kinetics assigned to each step to 
+capture the faster conversion to Li2 S2 and the slower, rate-limiting 
+transformation to Li2 S (see Section S1 ). The reaction currents are 
+defined as: 
+𝑖1 = 𝑛1 𝐹𝑘1 
+{ 
+𝜀∗ 
+𝑆8 exp 
+( 
+𝛽1 
+𝐹 
+𝑅𝑇 𝜂1 
+) 
+− 𝜀∗ 
+𝐿𝑖2 𝑆2 exp 
+( 
+−( 1 −𝛽1 ) 𝐹 
+𝑅𝑇 𝜂1 
+) } 
+(1) 
+𝜂1 = 𝜙𝑆 −𝜙𝐸 − 𝐸0 
+1 
+(2) 
+𝑖2 = 𝑛2 𝐹𝑘2 
+{ 
+𝜀∗ 
+𝐿𝑖2 𝑆2 exp 
+( 
+𝛽2 
+𝐹 
+𝑅𝑇 𝜂2 
+) 
+− 𝜀∗ 
+𝐿𝑖2 𝑆 exp 
+( 
+−( 1 −𝛽2 ) 𝐹 
+𝑅𝑇 𝜂2 
+) } 
+(3) 
+𝜂2 = 𝜙𝑆 −𝜙𝐸 − 𝐸0 
+2 
+(4) 
+Here, η1 and η2 are the overpotentials that arise from the 
+difference between the local solid-phase potential ϕS , the elec- 
+trolyte potential ϕe , and the respective equilibrium potentials 
+E0 . This formulation ensures that voltage polarization, arising 
+from the coupled ionic and electronic transport in the composite 
+cathode, governs the reaction kinetics and phase transformations. 
+To represent interfacial kinetic limitations, the model further 
+incorporates a surface passivation penalty that links the active 
+interfacial area to Li2 S accumulation, thereby reproducing the 
+insulating effect of Li2 S and the associated rise in overpoten- 
+tials during cycling. In parallel, microstructural heterogeneity 
+is addressed through stochastically generated cathode architec- 
+tures, from which tortuosity, electronic conductivity, and active 
+interfacial area are quantified using direct numerical simulations. 
+These descriptors are directly integrated into the electrochemical 
+equations, ensuring that the influence of microstructure on 
+transport and reaction kinetics is accurately represented. Addi- 
+tional details of the reaction pathway, governing equations, and 
+property calculations are described in Section S1 . To isolate the 
+effect of surface passivation on electrochemical performance, the 
+present framework assumes a fixed cathode geometry and does 
+not account for cathode volume expansion or chemo-mechanical 
+deformation arising from sulfur conversion. 
+The predictive capability of this framework is demonstrated 
+through extensive validation against experimental data across 
+multiple sulfur loadings and current densities (Figure 1c,d ). 
+The strong agreement between simulated and measured charge- 
+discharge prof iles conf irms that the model captures the highly 
+nonlinear electrochemical response of SSLS cells, including the 
+interplay of transport limitations, interfacial kinetics and surface 
+passivation. 
+Figure 2a shows the simulated discharge behavior, with the cell 
+delivering a specific capacity of 839 mAh g− 1 at a current density 
+of 0.1 mA cm− 2 . The discharge proceeds via sequential sulfur 
+reduction: first to Li2 S2 , followed by conversion to Li2 S. Owing to 
+its comparatively higher ionic and electronic conductivity, Li2 S2 
+undergoes faster redox kinetics than Li2 S [ 43, 45, 54 ]. In contrast, 
+Li2 S is highly insulating, and its accumulation on the particle 
+surfaces impedes both electron and Li+ transport, making the 
+Li2 S2 →Li2 S conversion the rate-limiting step. The discharge 
+Advanced Science, 2026
+3 of 13
+
+=== 第 4 页 ===
+FIGURE 2 
+Simulation results for the SSLS cell with a Li–In counter electrode and 30 wt.% sulfur loading: (a) discharge voltage profile; (b) species 
+evolution during discharge, revealing two distinct regimes; (c) Regime I: initial conversion of sulfur to Li2 S2 ; (d) Regime II: coexistence of sulfur, Li2 S2 , 
+and Li2 S; (e) capacity contributions from the sequential steps: sulfur →Li2 S2 and Li2 S2 →Li2 S. (f) XRD patterns of (a) sulfur, (b) LPSCl, (c) Li2 S 
+precursors and 30% sulfur composite cathodes at (d) pristine, (e) discharge and (f) charged states. (g) Raman spectra at different states of charge and 
+tested at different current densities, highlighting the emergence of the Li2 S2 peak at 437 cm− 1 for different control samples. 
+curve features an initial plateau around 1.50 V, which corresponds 
+to the equilibrium potential of sulfur reduction to Li2 S2 and marks 
+the onset of this transformation. The species evolution (Figure 2b ) 
+reveals two distinct regimes: In Regime I, sulfur is predominantly 
+converted to Li2 S2 , which forms as a kinetically stabilized inter- 
+mediate with negligible Li2 S production (Figure 2c ); In Regime II, 
+Li2 S2 begins converting to Li2 S while unreacted sulfur continues 
+reducing to Li2 S2 (Figure 2d ). 
+As Li2 S accumulates, it passivates active cathode surfaces, 
+forming a shell around sulfur particles that impedes further 
+reaction (see Surface passivation, Section S1.3 ). This progressive 
+passivation manifests as an increased kinetic overpotential and a 
+sharper voltage drop in the later stages of discharge (Figure 2a ). 
+As a consequence of this passivation, the conversion reactions 
+remain incomplete with approximately 23% of sulfur and 54% of 
+Li2 S2 remain unreacted at the end of discharge (Figure 2b,d ). It 
+is important to note that species concentrations are expressed in 
+terms of sulfur content, and the combined total always sums to 
+100%, ensuring sulfur mass conservation (see Section S1 ). Of the 
+total 839 mAh g− 1 capacity, the contribution from the sulfur →
+Li2 S2 reaction slightly exceeds that from Li2 S2 →Li2 S (430 vs. 
+409 mAh g− 1 ), consistent with the incomplete conversion of Li2 S2 
+(Figure 2e ). 
+To confirm the presence of unconverted sulfur, we performed 
+XRD analysis of the cathode composites. In the discharged 
+samples, sulfur peaks are noticeably diminished, indicating 
+substantial sulfur consumption during discharge; however, the 
+persistence of these weakened peaks confirms that a portion of 
+sulfur remains unutilized (Figure 2f ). Additionally, weak (111) 
+reflections corresponding to Li2 S are observed in the discharged 
+4 of 13
+Advanced Science, 2026
+
+=== 第 5 页 ===
+state, suggesting the presence of Li2 S as part of the discharge 
+product and indicating its poorly crystalline nature. Upon charg- 
+ing, the reappearance of distinct sulfur peaks confirms the 
+reconversion of Li2 S to sulfur, indicating the (at least partial) 
+reversibility of the overall conversion process, which is further 
+discussed in a later section. 
+Raman spectroscopy was further conducted on pristine, dis- 
+charged, and charged electrode samples, as well as on the 
+constituent materials (Figure 2g ). For reference, Raman spectra 
+of the individual constituents show distinct peaks for sulfur 
+(158, 220, and 473 cm− 1 ), LPSCl (199, 268, 430, 574, and 599 
+cm− 1 ), and Li2 S (374 cm− 1 ). In the pristine composite electrode, 
+only the sulfur and LPSCl peaks are present. During discharge, 
+sulfur is expected to convert to Li2 S; however, the Raman 
+spectrum of the discharged sample reveals only a weak and 
+broad shoulder at 375 cm− 1 , indicating the presence of largely 
+amorphous Li2 S. No clear peaks corresponding to intermediate 
+polysulfides are detected in either the fully discharged or charged 
+samples. This absence may be attributed to the metastable and/or 
+transient nature of these species, which often evade experimental 
+detection. To further examine the presence of intermediates, 
+ex situ Raman analysis was performed on a cell held at 1.6 V 
+during charging, revealing a distinct small peak at 437 cm− 1 
+attributable to Li2 S2 (Figure 2g ). This observation aligns with 
+earlier reports of Li2 S2 formation during solid-solid conversion 
+and supports our modeling assumptions [ 44, 55 ]. Additionally, 
+all cycled samples exhibited a peak near 390 cm− 1 , attributed 
+to P2 S7 
+4 − chain formation [ 56–58 ], indicating partial degradation 
+of LPSCl. This degradation may occur during both ball-milling 
+and electrochemical cycling. Together, XRD and Raman analy- 
+ses reveal incomplete sulfur utilization, marked by amorphous 
+and/or poorly crystalline Li2 S formation and transient Li2 S2 inter- 
+mediates. These features indicate a redox pathway constrained by 
+sluggish kinetics and limited transport. 
+These limitations become more pronounced at higher current 
+densities. For example, the model predicts a 74% reduction 
+in capacity with a ten-fold increase in current density, from 
+839 mAh g− 1 at 0.1 mA cm− 2 to just 215 mAh g− 1 at 1 mA cm− 2 
+(Figure 3a ). This capacity loss is primarily attributed to increased 
+transport and kinetic overpotentials in the cathode, arising from 
+sluggish Li+ transport and the rapid formation of an insulating 
+Li2 S layer over sulfur particles. At 0.1 mA cm− 2 , the fractions 
+of unconverted sulfur and Li2 S2 are 23% and 54%, respectively, 
+with 23% conversion to Li2 S (Figure 3b ). The low current density 
+allows gradual formation of the Li2 S shell, facilitating continued 
+conversion of sulfur to Li2 S2 and subsequently to Li2 S. However, 
+once the particle surface is fully coated by Li2 S, electron and 
+Li+ access to the interior is blocked, leaving the core unreacted 
+(Figure 3c ). 
+As the discharge rate increases, Li2 S forms more rapidly, acceler- 
+ating surface passivation and exacerbating kinetic overpotential. 
+This is compounded by limited Li+ transport within the cathode. 
+At a current density of 1 mA cm− 2 , sulfur utilization is drastically 
+reduced, with 88% of sulfur remaining unconverted and only 1.3% 
+forming Li2 S, resulting in the steep capacity drop to 215 mAh g− 1 . 
+The rapid formation of the insulating Li2 S film effectively blocks 
+active sites and imposes severe kinetic limitations, reflected in the 
+sharp voltage drop (Figure 3a ). 
+These trends are further supported by current-dependent experi- 
+mental dQ/dV curves (Figure 3d ). At lower current densities, the 
+curves display a distinct peak (at 1.3 V) and shoulder (at 1.6 V), 
+features commonly associated with multi-step sulfur reduction 
+processes. In contrast, higher current densities lead to diminished 
+and merged features, shifted toward lower potentials during 
+discharge and higher potentials during charge. This shift reflects 
+increased kinetic limitations and polarization, primarily arising 
+from sluggish Li+ transport and the rapid formation of electro- 
+chemically inactive Li2 S. The voltage behavior during charging 
+is discussed in detail in a later section. These electrochemical 
+signatures not only reflect reaction kinetics but also hint at 
+spatial heterogeneities in species evolution within the cathode, 
+especially under rate-limited conditions. 
+While the Raman spectroscopy and XRD results confirm the 
+presence of sulfur, Li2 S2 and Li2 S and validate the qualitative 
+trends in species evolution, the absolute quantification of phase 
+fractions in dense solid-state composites experimentally remains 
+a significant challenge. The intrinsic heterogeneity of SSLSs 
+electrodes, coupled with overlapping spectral signatures and the 
+amorphous nature of discharge products, limits the ability of stan- 
+dard laboratory techniques to reliably yield molar phase fractions. 
+Even advanced spectroscopic approaches, such as synchrotron- 
+based X-ray absorption spectroscopy and ToF-SIMS, are primarily 
+utilized to infer relative phase compositions rather than absolute 
+sulfur utilization [ 45 ]. Consequently, the physics-based mesoscale 
+framework developed in this work serves as a necessary tool 
+to provide the quantitative spatial and temporal distributions 
+of species that are not directly accessible through conventional 
+experiments. The development of new operando methodolo- 
+gies for absolute molar quantification remains essential for the 
+field. 
+The evolution of species distribution across the cathode is 
+strongly influenced by the interplay between local reaction 
+kinetics and ionic transport limitations. At a low current density 
+of 0.1 mA cm− 2 , Li+ transport is sufficiently fast to match the 
+reaction kinetics. As a result, sulfur reduction proceeds relatively 
+uniformly throughout the electrode thickness, yielding spatially 
+homogeneous evolution of sulfur, Li2 S2 , and Li2 S, with minimal 
+concentration gradients (Figure 3e ). In contrast, at a higher 
+discharge rate of 1 mA cm− 2 , Li+ transport becomes insufficient 
+to sustain the increased electrochemical demand, particularly 
+in deeper regions of the electrode farther from the separator. 
+Consequently, sulfur reduction is concentrated near the cathode- 
+separator interface, where Li+ availability is highest, resulting 
+in sharp concentration gradients of species along the electrode 
+depth. 
+Interestingly, simulations reveal that these gradients diminish 
+in the later stages of discharge (Figure 3e ). As sulfur near the 
+separator converts to Li2 S, surface passivation eliminates local 
+reaction sites and inhibits further conversion in those regions. 
+This triggers a redistribution of reaction current toward deeper 
+portions of the cathode where active surfaces remain accessible 
+(Figure 3f ). The reaction front progressively migrates toward the 
+cathode-current collector interface as sulfur particles become 
+increasingly encapsulated by a Li2 S layer, enhancing utilization 
+in previously underutilized regions. As a result, although steep 
+concentration gradients form during the early stages of high-rate 
+Advanced Science, 2026
+5 of 13
+
+=== 第 6 页 ===
+FIGURE 3 
+Simulation results showing (a) discharge voltage profiles at varying current densities (0.1–1 mA cm− 2 ); (b) species fraction analysis 
+showing increased unconverted sulfur at higher current densities. (c) Schematic illustrating insulating Li2 S shell formation around sulfur particles, 
+hindering complete conversion. (d) Experimental differential capacity (dQ/dV) curves as a function of current density illustrating current-dependent 
+shifts in redox features using Li–In/Li counter electrode. (e) Simulated spatio-temporal distribution of sulfur (top), Li2 S2 (middle), and Li2 S (bottom) 
+across the cathode depth as a function of depth of discharge (DOD), shown for two discharge rates: 0.1 mA cm− 2 (left) and 1 mA cm− 2 (right). The 
+downward direction corresponds to discharge species forming during the reaction, while the horizontal direction compares the same species at the 
+two discharge rates. High-rate discharge leads to pronounced concentration gradients near the cathode-separator interface, which diminishes toward 
+the end of discharge due to reaction current redistribution. (f) Schematic depicting loss of active sites near the separator-cathode interface due to Li2 S 
+accumulation, causing current redistribution deeper into the cathode. 
+discharge, the final distribution of discharge products becomes 
+relatively uniform due to this dynamic current redistribution. The 
+discharge process ultimately terminates when all accessible active 
+sites are covered with Li2 S, causing the cell voltage to fall below 
+the cutoff threshold of 0.9 V. 
+To gain further insights into microstructural changes induced 
+by electrochemical cycling, scanning electron microscopy (SEM) 
+was performed on the 30wt.% sulfur composite electrode (Figure 
+S4 ). The pristine electrode displays a relatively homogeneous 
+distribution of sulfur-containing particles within the SE matrix. 
+After cycling, the electrode exhibits morphological evolution 
+while some particles show clear changes in shape and surface 
+features, other particles remain largely comparable to pristine 
+morphology. It suggests that while the reaction front migrates, 
+certain regions or particles remain kinetically isolated or become 
+passivated before full conversion can occur. This non-uniform 
+morphological evolution is consistent with the spatially hetero- 
+geneous sulfur utilization and dynamically migrating reaction 
+fronts predicted by the model. 
+While a higher yield of Li2 S during discharge intuitively suggests 
+improved sulfur utilization and greater capacity, this very out- 
+come proves counterproductive during charging. The extensive 
+formation of Li2 S leads to severe passivation, which significantly 
+hinders the reversibility of SSLS cells. This issue is examined in 
+detail in the following section. 
+During charging, Li2 S in the cathode is typically converted 
+back to sulfur via Li2 S2 as an intermediate. However, in this 
+work, the charge reaction is approximated as a direct Li2 S →
+sulfur transformation. This asymmetry is justified under solid- 
+state conditions, where both ion and electron transport are 
+limited and Li2 S is highly passivating. As a result, the oxidation 
+pathway is predominantly rate-limited by the breakdown of Li2 S, 
+enabling a simplified one-step representation without significant 
+6 of 13
+Advanced Science, 2026
+
+=== 第 7 页 ===
+FIGURE 4 
+Simulation results showing (a) charging profile of the SSLS cell at 0.1 mA cm− 2 ; (b) species volume fractions during charging, revealing 
+incomplete reconversion of Li2 S to sulfur; (c) decline in Li2 S content accompanied by a reduction in active interfacial area. (d) Schematic illustrating 
+particle-level evolution with sulfur formation and residual Li2 S, indicating partial reversibility and phase heterogeneity. (e) Simulated voltage-capacity 
+curves during charging at different current densities; extracted (f) Li2 S and (g) sulfur fractions after charging, highlighting increased irreversibility with 
+higher current rates. 
+loss of physical fidelity. A detailed thermodynamic and kinetic 
+justification of this assumption, along with its rate-dependent 
+limitations, is provided in Section S2 . 
+Figure 4a illustrates the simulated electrochemical behavior of 
+the SSLS cell during charging at 0.1 mA cm− 2 . A voltage plateau 
+is observed during this process, primarily associated with the 
+conversion of Li2 S back to sulfur. However, the oxidation of 
+electrochemically inactive Li2 S often requires substantial overpo- 
+tentials to initiate the reaction. As shown in Figure 4b , while some 
+Li2 S is converted to sulfur, complete reconversion does not occur; 
+approximately 54% of Li2 S remains inactivated, resulting in a 
+mixed Li2 S/sulfur charged state. This incomplete transformation 
+reflects the inherent challenge of oxidizing Li2 S, whose insulating 
+nature hinders charge transport and limits sulfur recovery. 
+As the reaction progresses, the available specific active area 
+within the cathode decreases rapidly (Figure 4c ). Around 
+650 mAh g− 1 , a significant loss of specific active area is observed as 
+remaining Li2 S becomes electrochemically inaccessible, causing 
+a sharp increase in cell overpotential and driving the voltage 
+to the cutoff value of 2.4 V. This behavior is consistent with 
+experimental studies, which report a notable decline in conver- 
+sion efficiency under typical operating conditions [ 59–62 ]. The 
+incomplete reconversion of Li2 S reduces both reversibility and 
+long-term cycling performance in SSLS cells (Figure 4d ). To 
+mitigate this, Kim et al. [ 45 ] proposed adjusting the discharge 
+cutoff voltage to favor the formation of a mixed Li2 S2 / Li2 S 
+product. While this strategy may lower the overall discharge 
+capacity, Li2 S2 exhibits more favorable redox kinetics compared to 
+Li2 S, potentially enhancing the rechargeability of SSLS batteries. 
+This limitation is further exacerbated at higher charging rates. 
+The charging capacity drops sharply from 1014 mAh g− 1 at 
+0.1 mA cm− 2 to 263 mAh g− 1 at 1 mA cm− 2 (Figure 4e ). This decline 
+is primarily driven by elevated reaction and kinetic overpoten- 
+tials, as the sluggish conversion of Li2 S to sulfur fails to sustain the 
+required current. The resulting polarization inhibits further Li2 S 
+oxidation, leading to a substantial voltage rise and reduced charge 
+capacity. These effects are also reflected in the current-dependent 
+dQ/dV curves, where a distinct shift in the charging peak toward 
+higher potentials indicates increased kinetic resistance and polar- 
+ization at elevated current densities (Figure 3d ). Consequently, 
+the unconverted Li2 S fraction increases significantly, from 54% at 
+0.1 mA cm− 2 to 87% at 1 mA cm− 2 (Figure 4f ). Correspondingly, 
+the fraction of sulfur recovered decreases from 46% to just 13% as 
+the current increases (Figure 4g ), underscoring the severe impact 
+of kinetic limitations on the sulfur recovery. 
+Similar to discharging, rate-dependent limitations significantly 
+influence the spatial distribution of species within the cath- 
+ode. At low current densities (0.1 mA cm− 2 ), Li2 S is oxidized 
+Advanced Science, 2026
+7 of 13
+
+=== 第 8 页 ===
+FIGURE 5 
+(a) Simulated spatio-temporal distribution of Li2 S (top) and sulfur (bottom) across the cathode depth as a function of state of charge 
+(SOC), shown for two charge rates: 0.1 mA cm− 2 (left) and 1 mA cm− 2 (right). The downward direction corresponds to different charge products, while 
+the horizontal direction compares the same species at the two charge rates. High-rate charge leads to pronounced concentration gradients near the 
+cathode-separator interface, which diminish toward the end of charge due to reaction current redistribution. (b) Schematic illustrating loss of active 
+sites near the separator-cathode interface due to electrochemically inactive Li2 S, leading to current redistribution within the cathode bulk. 
+slowly and uniformly across the cathode thickness, as the rate 
+of Li+ extraction from Li2 S keeps pace with the composite’s 
+ionic transport capacity. This enables a gradual and spatially 
+homogeneous conversion of Li2 S back to sulfur, with minimal 
+concentration gradients (Figure 5a ). In contrast, at high current 
+densities (1 mA cm− 2 ), the system becomes both kinetically and 
+transport limited. In the early stages of charge, Li2 S oxidation 
+is most prominent near the cathode-separator interface, leading 
+to the rapid formation of sulfur in this region. Meanwhile, 
+the deeper regions of the cathode remain underutilized, as the 
+sluggish Li+ transport through the low-conductivity Li2 S network 
+hinders activation. This results in the development of steep 
+species concentration gradients across the electrode, with more 
+converted sulfur near the separator side and a substantial fraction 
+of unreacted Li2 S toward the current collector side (Figure 5a ). 
+As charging progresses, regions near the separator become elec- 
+trochemically inactive due to the residual Li2 S, which remains 
+unconverted owing to the high activation overpotentials required 
+for its oxidation. This passivation suppresses further reaction 
+in these areas and causes the reaction current to redistribute 
+toward deeper regions of the cathode, where unreacted Li2 S and 
+available interfacial pathways still exist. This shift in reaction 
+front facilitates the continued oxidation of Li2 S in the previously 
+underutilized zones (Figure 5b ), thereby gradually diminishing 
+the steep concentration gradients established earlier in the 
+process. By the end of charging, although 87% of Li2 S remains 
+unconverted, the spatial distribution becomes nearly uniform 
+across the cathode, with minimal variation between the separator 
+and current collector interfaces (86.5% vs. 87%). 
+Taken together, the charge and discharge analysis highlight 
+the critical role of Li+ transport and reactive C|S8 |SE interface 
+in governing redox progression, both of which are inherently 
+governed by cathode architecture. This influence becomes par- 
+ticularly apparent when examining sulfur cycling behavior. In 
+SSLS cells, sulfur acts as the active material, with its utilization 
+and recovery directly governing electrochemical performance 
+and rechargeability. Higher sulfur loading reduces the SE fraction 
+in the cathode, limiting ionic percolation pathways and creating 
+domains where sulfur remains unutilized due to poor ion and 
+electron accessibility. 
+During cathode fabrication, sulfur, SE, and carbon additives are 
+mixed and cold-pressed under high pressure. Despite this, voids 
+referred to as residual or “dead” porosity persist within the elec- 
+trode, restricting contact between sulfur and SE particles. This 
+residual porosity is primarily governed by the fabrication pressure 
+and decreases with increasing compaction. In our experiments, 
+the cathodes were fabricated at a high compaction pressure 
+of approximately 360 MPa and cycled under a stack pressure 
+of 20 MPa, corresponding to a dense cathode microstructure. 
+Accordingly, the baseline residual porosity used in the model 
+( ∼ 15%) was chosen to represent this high-densification regime. 
+Reducing the fabrication pressure is expected to increase residual 
+porosity, while further increases in fabrication pressure led to 
+progressively smaller changes as densification saturates [ 63 ]. The 
+porosity range explored in this study (10%–30%) spans realistic 
+fabrication conditions, from highly compacted to more loosely 
+pressed cathodes. This residual porosity can significantly impact 
+battery performance by affecting ion transport, stress accommo- 
+dation, and degradation behavior. Building on these insights, we 
+investigate cell performance as a function of sulfur loading and 
+residual porosity, while maintaining a constant 10 vol% carbon 
+content. 
+At 10 vol% residual porosity, the discharge capacity decreases 
+from 765 to 278 mAh g− 1 as sulfur content increases from 30 to 
+8 of 13
+Advanced Science, 2026
+
+=== 第 9 页 ===
+FIGURE 6 
+(a) Simulated normalized discharge capacity contour as a function of sulfur loading and residual porosity, with representative discharge 
+curves. (b) Schematic illustrating that sulfur utilization at 60 wt.% loading is limited due to greater unreacted sulfur compared to 30 wt.% at 10% 
+residual porosity. (c) Schematic illustration of ion transport efficiency for 30 wt.% sulfur at 10% and 30% residual porosity. (d) Simulated normalized 
+charge capacity contour and representative charge curves for various sulfur-porosity combinations. (e) Experimental discharge voltage profiles for sulfur 
+loadings from 10 to 60 wt.%. (f) Experimental differential capacity (dQ/dV) curves exhibiting additional peaks near 2.2 and 1.2 V at low sulfur loading 
+(high SE content), attributed to solid electrolyte degradation. (g) Raman spectra of cathodes with 50 and 60 wt.% sulfur, confirming the presence of 
+unconverted sulfur domains. 
+60 wt.% (Figure 6a ). At high sulfur loadings, the reduced SE 
+fraction is insufficient to interface with all sulfur domains, 
+disrupting the ionic transport network and introducing kinetic 
+limitations that impair electrochemical performance. As a result, 
+sulfur particles become spatially isolated from the SE (Figure 6b ), 
+leading to an increase in unutilized sulfur from 27% at 30 wt.% 
+to 69% at 60 wt.% sulfur loading. In addition, limited SE content 
+reduces the number of point-to-point connections between SE 
+particles, further constraining Li+ transport within the cathode. 
+These limitations are exacerbated by residual porosity, which 
+interrupts essential particle contact and ion conduction pathways 
+(Figure 6c ). For instance, at 30 vol% residual porosity and 40 wt.% 
+sulfur loading, the discharge capacity drops to 593 mAh g− 1 
+and becomes negligible for sulfur loadings above 50 wt.% 
+(Figure 6b ). 
+A similar trend is observed during charging (Figure 6d ). At 
+10 vol% porosity, the charging capacity declines by 79.3%, from 
+1014 to 209 mAh g− 1 , as sulfur loading increases from 30 to 
+60 wt.%. Likewise, at a fixed 30 wt.% sulfur content, increasing 
+the residual porosity from 10 vol% to 30 vol% reduces the charging 
+capacity to 697 mAh g− 1 , primarily due to aggravated transport 
+limitations. 
+Furthermore, we experimentally investigate the charge-discharge 
+behavior of SSLS cells with varying sulfur content, which 
+confirms that the utilized capacity degrades significantly with 
+increasing sulfur loading (Figure 6e ). Interestingly, an additional 
+capacity contribution is observed at low sulfur loading (10 wt.%) 
+and high SE content (70 wt.% LPSCl), where the voltage profiles 
+exhibit extended sloping regions around ∼ 2.2 V during charging 
+and ∼ 1.2 V during discharging. These features correspond to 
+distinct peaks in the dQ/dV curves that are absent in sulfur- 
+rich compositions, suggesting the presence of parasitic reactions 
+beyond the primary sulfur redox (Figure 6f ). Mechanistically, 
+the increased SE fraction results in a higher density of SE- 
+carbon interfaces, which are known to promote electrochemical 
+degradation under operating voltages, especially during charging 
+[ 56–58, 64–66 ]. This degradation arises because excess SE beyond 
+the percolation threshold does not improve ionic conductivity 
+but instead increases reactive interfacial area with conductive 
+carbon and sulfur intermediates. As the sulfur content increases 
+(50–60 wt.%), these peaks in the dQ/dV curves are suppressed, 
+implying improved electrolyte stability, but at the cost of reduced 
+sulfur utilization due to insufficient SE connectivity. Raman 
+spectra of discharged cathodes further support this trade-off: at 
+higher sulfur contents, the spectra remain dominated by sulfur 
+peaks, confirming the presence of unreacted sulfur domains that 
+remain electronically or ionically isolated (Figure 6g ). 
+These experimental findings align closely with predictions from 
+our computational framework, further validating its ability to 
+capture species utilization and transport limitations. However, 
+it is important to note that our model does not incorporate 
+SE degradation mechanisms; thus, the observed excess capacity 
+and dQ/dV features at high SE contents, attributed to parasitic 
+Advanced Science, 2026
+9 of 13
+
+=== 第 10 页 ===
+reactions, lie outside the current modeling scope. Accordingly, 
+the sulfur-porosity maps are constructed to capture intrinsic 
+transport and kinetic limitations governing sulfur utilization, 
+and do not include capacity contributions arising from SE 
+degradation, which would otherwise artificially favor low-sulfur 
+compositions despite poor reversibility. 
+Within the scope of the present electrochemical framework, an 
+intermediate sulfur content of 30 wt.% consistently provides the 
+best balance between sulfur utilization and transport efficiency 
+(Figure 6a,d ). At lower sulfur contents, excessive SE exposure 
+increases interfacial degradation and parasitic reactions, whereas 
+at higher sulfur contents, reduced SE percolation and surface 
+passivation lead to incomplete sulfur utilization. These com- 
+peting effects give rise to a practical operating window rather 
+than a single universal optimum. Although reduced residual 
+porosity is favorable from a purely electrochemical perspective 
+in the present analysis, which assumes fixed cathode geometry, 
+the optimal porosity cannot be determined independently of 
+chemo-mechanical effects. When sulfur volume expansion and 
+mechanical constraint are considered, excessively low residual 
+porosity is expected to amplify stress localization and interfacial 
+damage, thereby shifting the optimal porosity away from the 
+electrochemically preferred limit. As such, identification of an 
+optimal residual porosity requires a coupled chemo-mechanical 
+treatment and is beyond the scope of the current study. 
+3 
+Conclusion 
+In 
+conclusion, 
+this 
+work 
+provides 
+a 
+comprehensive 
+understanding of electrochemical behavior, species evolution, 
+and microstructural transformations during charge–discharge 
+cycling in SSLS cells. A central limitation in these systems 
+is the electrochemical inactivity of Li2 S, which hinders 
+performance and long-term rechargeability due to its incomplete 
+reconversion to sulfur. While prior experimental studies have 
+reported the presence of mixed species during cycling, our 
+framework elucidates the specific conditions under which these 
+intermediates form and quantifies their temporal and spatial 
+evolution within the cathode, and probes the irreversibility 
+associated with sluggish Li2 S oxidation kinetics. Supported 
+by Raman spectroscopy and XRD, we systematically analyze 
+the coupled influence of transport and kinetic limitations, 
+particularly as governed by sulfur loading and residual porosity, 
+to identify optimal design windows that enhance performance 
+during both discharge and charge. Importantly, we find that 
+low sulfur loading, while improving ionic connectivity, leads 
+to electrolyte degradation due to an excess of reactive SE- 
+carbon interfaces, contributing to parasitic capacity. Conversely, 
+high sulfur content reduces solid electrolyte percolation and 
+results in buried, electrochemically inaccessible domains due to 
+severe passivation. The resulting sulfur-porosity maps provide 
+actionable guidance for tailoring cathode architectures to achieve 
+high sulfur utilization while mitigating transport bottlenecks. By 
+integrating mechanistic modeling with experimental validation, 
+this study advances the fundamental understanding of SSLS 
+operation and delivers design principles for realizing practical, 
+high-energy lithium–sulfur systems. Future work will extend 
+this framework to long-term cycling by coupling chemo- 
+mechanical deformation with transport and interfacial kinetics, 
+enabling quantitative assessment of capacity degradation 
+arising from surface passivation, particle damage, and contact 
+loss during repeated charge-discharge cycles. Additionally, 
+operando electrochemical probes, including impedance and 
+intermittent titration techniques, will be incorporated with 
+analysis frameworks tailored to conversion-driven SSLS cathodes 
+to further elucidate the evolution of kinetic and transport 
+limitations during cycling. 
+4 
+Methods 
+4.1 
+Experimental 
+4.1.1 
+Cathode Composite Preparation 
+Sulfur composites were prepared by ball-milling cathode active 
+materials (CAM), sulfur (Thermo Scientific, 325 mesh, 99.5%), 
+Li6 PS5 Cl (LPSCl, Ampcera, ultrafine with ∼ 1 µm particle size) 
+as the solid ionic conductor, and acetylene black powder (AB, 
+MSE Supplies, ∼ 40 nm particle size). Six different sulfur-based 
+cathode composites were prepared, each containing 20 wt.% AB 
+and varying sulfur content between 10 and 60 wt.%, with 10% 
+increments. The remaining weight fraction in each composite 
+comprised LPSC, varying between 70 and 20 wt.%. Initially, 1 g 
+of sulfur and AB powder was manually mixed using a mortar and 
+pestle for 15 min. This was followed by a preliminary ball milling 
+at 500 rpm for 2 h using a Fritsch Pulverisette 7 planetary ball 
+mill. After this step, the solid electrolyte was added to the jar, and 
+the mixture was subjected to further milling at 500 rpm for 24 
+cycles, each consisting of 10 min of milling followed by 5 min 
+of rest. All the materials were prepared in an Ar-filled glovebox 
+before milling to prevent moisture and oxygen exposure. After 
+milling, the composite powders were collected and stored inside 
+the glovebox for further use. 
+4.1.2 
+Counter Electrode Fabrication 
+Li–In alloy counter electrodes were prepared by pressing lithium 
+and indium foils together with a uniaxial press at 250 MPa in a 1:1 
+stoichiometric ratio until the resulting alloy darkened in color and 
+became brittle. The compound was then ground using a mortar 
+and pestle for 30 min to obtain a fine, homogeneous powder. 
+Subsequently, 10 wt.% LPSCl was added to the mixture, and the 
+grinding process was continued for an additional 30 min to ensure 
+uniform distribution. The final composite anode powder was 
+stored in an Ar-filled glovebox. 
+4.1.3 
+Solid-State Cell Assembly 
+For each cell, a total of 70 mg of LPSCl powder was loaded 
+into a 10 mm diameter polyether ether ketone (PEEK) cell and 
+pelletized using a uniaxial press at 150 MPa for 1 min. The cathode 
+composite (10 mg) was then placed on top of the electrolyte pellet, 
+while the Li–In composite was loaded at the bottom. The full 
+cell stack was subsequently pressed at 375 MPa for 5 min. A 
+constant stack pressure of 20 MPa was applied to all assembled 
+cells. Prior to electrochemical testing, the cells were rested for 3 h. 
+Galvanostatic cycling was performed within a voltage window of 
+10 of 13
+Advanced Science, 2026
+
+=== 第 11 页 ===
+0.9–2.4 V vs. Li–In/In. All cell assembly and cycling procedures 
+were conducted in an Ar-filled glovebox using a Landt battery 
+cycler. 
+4.1.4 
+Raman Spectroscopy 
+Raman spectroscopy measurements were performed using a 
+Renishaw Raman spectrometer (QONTOR Confocal Raman) 
+equipped with a 488 nm laser operating in the visible/near-IR 
+range. The samples were placed between two glass slides and 
+sealed with electrical tape to prevent air ingress. Spectra were 
+collected at 10% laser power with 1-s exposure time and 120 
+accumulations. Data analysis, including background subtraction, 
+normalization, smoothing, and cosmic ray removal, was carried 
+out using Wire 5.2 software. 
+4.1.5 
+X-ray Diffraction 
+A Rigaku Miniflex with a Cu-K ɑ radiation source was used. The 
+cells were disassembled and loaded onto the sample holder and 
+coated with Kapton tape in an Ar-filled glovebox to prevent air 
+ingress. 
+4.1.6 
+Scanning Electron Microscopy (SEM) 
+SEM imaging was performed using a Hitachi SU8230 microscope 
+operated at an accelerating voltage of 10 kV and a working 
+distance of 8 mm. Cell samples were carefully sectioned using 
+a scalpel to expose the electrode cross-sections. During transfer 
+and loading into the SEM chamber, the samples were exposed to 
+ambient atmosphere for less than 10 s, followed by evacuation of 
+the loading chamber for approximately 30 s. 
+Acknowledgements 
+This work was supported by the Mechano-Chemical Understanding of 
+Solid Ion Conductors (MUSIC), an Energy Frontier Research Center 
+funded by the U.S. Department of Energy, Office of Science, Office of Basic 
+Energy Sciences under contract DE-SC0023438. 
+Conflicts of Interest 
+The authors declare no conflicts of interest. 
+Data Availability Statement 
+The data that support the findings of this study are available from the 
+corresponding author upon reasonable request. 
+References 
+1 . J. Chai, J. Du, Q. Li, N. Han, W. Zhang, and B. Tang, “Recent 
+Breakthroughs in the Bottleneck of Cathode Materials for Li–S Batter- 
+ies,” Energy & Fuels 35 (2021): 15455–15471, https://doi.org/10.1021/acs. 
+energyfuels.1c02485 . 
+2 . Y. Ding, Z. P. Cano, A. Yu, J. Lu, and Z. Chen, “Automotive Li- 
+Ion Batteries: Current Status and Future Perspectives,” Electrochemical 
+Energy Reviews 2 (2019): 1–28, https://doi.org/10.1007/s41918- 018- 0022- z . 
+3 . H. Danuta and U. Juliusz, Electric Dry Cells and Storage Batteries, US 
+Patent 3,043,896, issued July 10, (Google Patents 1962). 
+4 . X. Zhang, H. Ma, J. Liu, et al., “Structure and Reactions Mechanism of 
+Sulfurized Polyacrylonitrile as Cathodes for Rechargeable Li-S Batteries,”
+Nano Research 16 (2023): 8159–8172, https://doi.org/10.1007/s12274-022- 
+5327-x. 
+5 . S. Dörfler, H. Althues, P. Härtel, T. Abendroth, B. Schumm, and S. 
+Kaskel, “Challenges and Key Parameters of Lithium-Sulfur Batteries on 
+Pouch Cell Level,” Joule 4 (2020): 539–554. 
+6 . A. Bhargav and A. Manthiram, “Li-S Batteries, What’s Next?,” Next 
+Energy 1 (2023): 100012, https://doi.org/10.1016/j.nxener.2023.100012 . 
+7 . E. Peled, I. Shekhtman, T. Mukra, M. Goor, I. Belenkaya, and D. 
+Golodnitsky, “Improving the Durability and Minimizing the Polysulfide 
+Shuttle in the Li/S Battery,” Journal of The Electrochemical Society 165 
+(2017): A6051, https://doi.org/10.1149/2.0101801jes . 
+8 . X. B. Cheng, J. Q. Huang, H. J. Peng, et al., “Polysulfide Shuttle Control: 
+Towards a Lithium-Sulfur Battery With Superior Capacity Performance 
+up to 1000 Cycles by Matching the Sulfur/Electrolyte Loading,” Journal 
+of Power Sources 253 (2014): 263–268, https://doi.org/10.1016/j.jpowsour. 
+2013.12.031 . 
+9 . A. Mistry and P. P. Mukherjee, “Precipitation–Microstructure Interac- 
+tions in the Li-Sulfur Battery Electrode,” The Journal of Physical Chemistry 
+C 121 (2017): 26256–26264, https://doi.org/10.1021/acs.jpcc.7b09997 . 
+10 . A. N. Mistry and P. P. Mukherjee, “Electrolyte Transport Evolution 
+Dynamics in Lithium–Sulfur Batteries,” The Journal of Physical Chemistry 
+C 122 (2018): 18329–18335, https://doi.org/10.1021/acs.jpcc.8b05442 . 
+11 . L. Yu, S. J. H. Ong, X. Liu, D. Mandler, and Z. J. Xu, “The Importance 
+of the Dissolution of Polysulfides in Lithium-Sulfur Batteries and a 
+Perspective on High-Energy Electrolyte/Cathode Design,” Electrochimica 
+Acta 392 (2021): 139013, https://doi.org/10.1016/j.electacta.2021.139013 . 
+12 . J. Wang, H. Wang, S. Jia, et al., “Recent Advances in Inhibiting Shuttle 
+Effect of Polysulfide in Lithium-Sulfur Batteries,” Journal of Energy 
+Storage 72 (2023): 108372, https://doi.org/10.1016/j.est.2023.108372 . 
+13 . D. Qiu, H. Qu, D. Zheng, X. Zhang, and D. Qu, “Remediation of 
+Shuttle Effect in a Li-Sulfur Battery via a Catalytic Pseudo-8-Electron 
+Redox Reaction at the Sulfur Cathode,” Electrochemistry Communications 
+167 (2024): 107797, https://doi.org/10.1016/j.elecom.2024.107797 . 
+14 . J. Li, L. Gao, F. Pan, et al., “Engineering Strategies for Suppressing the 
+Shuttle Effect in Lithium–Sulfur Batteries,” Nano-Micro Letters 16 (2023): 
+12, https://doi.org/10.1007/s40820-023-01223-1 . 
+15 . J. Wu, L. Yuan, W. Zhang, Z. Li, X. Xie, and Y. Huang, “Reducing the 
+Thickness of Solid-State Electrolyte Membranes for High-Energy Lithium 
+Batteries,” Energy & Environmental Science 14 (2021): 12–36, https://doi. 
+org/10.1039/D0EE02241A . 
+16 . X. Liang, L. Wang, X. Wu, et al., “Solid-State Electrolytes for Solid- 
+State Lithium- Sulfur Batteries: Comparisons, Advances and Prospects,”
+Journal of Energy Chemistry 73 (2022): 370–386, https://doi.org/10.1016/j. 
+jechem.2022.06.035 . 
+17 . Q. Zhu, C. Ye, and D. Mao, “Solid-State Electrolytes for Lithium–Sulfur 
+Batteries: Challenges, Progress, and Strategies,” Nanomaterials 12 (2022): 
+3612, https://doi.org/10.3390/nano12203612 . 
+18 . Y.-K. Sun, “Emerging All-Solid-State Lithium–Sulfur Batteries: Holy 
+Grails for Future Secondary Batteries,” ACS Energy Letters 9 (2024): 5092–
+5095, https://doi.org/10.1021/acsenergylett.4c02563 . 
+19 . G. Di Donato, T. Ates, H. Adenusi, A. Varzi, M. A. Navarra, and 
+S. Passerini, “Electrolyte Measures to Prevent Polysulfide Shuttle in 
+Lithium-Sulfur Batteries,” Batteries & Supercaps 5 (2022): 202200097. 
+20 . Y. Zhu, Z. Chen, H. Chen, et al., “Breaking the Barrier: Strate- 
+gies for Mitigating Shuttle Effect in Lithium–Sulfur Batteries Using 
+Advanced Separators,” Polymers 15 (2023): 3955, https://doi.org/10.3390/ 
+polym15193955 . 
+21 . Y. Huang, L. Lin, C. Zhang, et al., “Recent Advances and Strategies 
+Toward Polysulfides Shuttle Inhibition for High-Performance Li–S Bat- 
+teries,” Advanced Science 9 (2022): 2106004, https://doi.org/10.1002/advs. 
+202106004 . 
+Advanced Science, 2026
+11 of 13
+
+=== 第 12 页 ===
+22 . D. Cao, X. Sun, Q. Li, A. Natan, P. Xiang, and H. Zhu, “Lithium 
+Dendrite in All-Solid-State Batteries: Growth Mechanisms, Suppression 
+Strategies, and Characterizations,” Matter 3 (2020): 57–94. 
+23 . J. Sastre, M. H. Futscher, L. Pompizi, et al., “Blocking Lithium 
+Dendrite Growth in Solid-State Batteries With an Ultrathin Amorphous 
+Li-La-Zr-O Solid Electrolyte,” Communications Materials 2 (2021): 76, 
+https://doi.org/10.1038/s43246- 021- 00177- 4 . 
+24 . H. Liu, X.-B. Cheng, J.-Q. Huang, et al., “Controlling Dendrite Growth 
+in Solid-State Electrolytes,” ACS Energy Letters 5 (2020): 833–843, https:// 
+doi.org/10.1021/acsenergylett.9b02660 . 
+25 . S. Randau, D. A. Weber, O. Kötz, et al., “Benchmarking the Per- 
+formance of All-Solid-State Lithium Batteries,” Nature Energy 5 (2020): 
+259–270, https://doi.org/10.1038/s41560- 020- 0565-1 . 
+26 . L. Zhou, N. Minafra, W. G. Zeier, and L. F. Nazar, “Innovative 
+Approaches to Li-Argyrodite Solid Electrolytes for All-Solid-State Lithium 
+Batteries,” Accounts of Chemical Research 54 (2021): 2717–2728, https://doi. 
+org/10.1021/acs.accounts.0c00874 . 
+27 . K. J. Kim, M. Balaish, M. Wadaguchi, L. Kong, and J. L. M. Rupp, 
+“Solid-State Li–Metal Batteries: Challenges and Horizons of Oxide 
+and Sulfide Solid Electrolytes and Their Interfaces,” Advanced Energy 
+Materials 11 (2021): 2002689, https://doi.org/10.1002/aenm.2020026 
+89 . 
+28 . Y. Guo, S. Wu, Y.-B. He, et al., “Solid-State Lithium Batteries: Safety 
+and Prospects,” eScience 2 (2022): 138–163, https://doi.org/10.1016/j.esci. 
+2022.02.008 . 
+29 . Y. Wu, J. Xu, P. Lu, et al., “Thermal Stability of Sulfide Solid Electrolyte 
+With Lithium Metal,” Advanced Energy Materials 13 (2023): 2301336, 
+https://doi.org/10.1002/aenm.202301336 . 
+30 . R. Götz, R. Streng, J. Sterzinger, et al., “All-Solid-State Li-Ion Batteries 
+With Commercially Available Electrolytes: A Feasibility Review,” InfoMat 
+6 (2024): 12627. 
+31 . S.-J. Yang, J.-K. Hu, F.-N. Jiang, H. Yuan, H. S. Park, and J.-Q. Huang, 
+“Safer Solid-State Lithium Metal Batteries: Mechanisms and Strategies,”
+InfoMat 6 (2024): 12512. 
+32 . A. K. Sharma, B. S. Vishnugopi, A. Ayyaswamy, et al., “Co-Design 
+of Active Material and Solid Electrolyte Particulate Phases in Solid-State 
+Battery Composite Electrodes,” ACS Applied Materials & Interfaces 17 
+(2025): 49520–49532, https://doi.org/10.1021/acsami.5c10908 . 
+33 . P. Minnmann, J. Schubert, S. Kremer, et al., “Editors ′ Choice—
+Visualizing the Impact of the Composite Cathode Microstructure and 
+Porosity on Solid-State Battery Performance,” Journal of The Electrochem- 
+ical Society 171 (2024): 060514, https://doi.org/10.1149/1945-7111/ad510e . 
+34 . M. Clausnitzer, R. Mücke, F. Al-Jaljouli, et al., “Optimizing the Com- 
+posite Cathode Microstructure in All-Solid-State Batteries by Structure- 
+Resolved Simulations,” Batteries & Supercaps 6 (2023): 202300167. 
+35 . K. Kumaresan, Y. Mikhaylik, and R. E. White, “A Mathematical Model 
+for a Lithium–Sulfur Cell,” Journal of the Electrochemical Society 155 
+(2008): A576. 
+36 . Z. Cao, X. Qiu, T. Zhang, et al., “Advancing Lithium-Sulfur Bat- 
+tery Technology: Research on Doped ZnO Modified Membranes,”
+Materials Research Bulletin 174 (2024): 112754, https://doi.org/10.1016/j. 
+materresbull.2024.112754 . 
+37 . A. Manthiram, Y. Fu, and Y.-S. Su, “Challenges and Prospects of 
+Lithium–Sulfur Batteries,” Accounts of Chemical Research 46 (2013): 
+1125–1134, https://doi.org/10.1021/ar300179v. 
+38 . J. Castillo, A. Santiago, X. Judez, et al., “High Energy Density Lithium–
+Sulfur Batteries Based on Carbonaceous Two-Dimensional Additive 
+Cathodes,” ACS Applied Energy Materials 6 (2023): 3579–3589, https://doi. 
+org/10.1021/acsaem.3c00177 . 
+39 . S. Lang, S.-H. Yu, X. Feng, M. R. Krumov, and H. D. Abruña, “Under- 
+standing the Lithium–Sulfur Battery Redox Reactions via Operando 
+Confocal Raman Microscopy,” Nature Communications 13 (2022): 4811, 
+https://doi.org/10.1038/s41467-022- 32139- w. 
+40 . C.-W. Lee, Q. Pang, S. Ha, et al., “Directing the Lithium–Sulfur 
+Reaction Pathway via Sparingly Solvating Electrolytes for High Energy 
+Density Batteries,” ACS Central Science 3 (2017): 605–613, https://doi.org/ 
+10.1021/acscentsci.7b00123 . 
+41 . M. Zhao, B.-Q. Li, X.-Q. Zhang, J.-Q. Huang, and Q. Zhang, “A 
+Perspective Toward Practical Lithium–Sulfur Batteries,” ACS Central 
+Science 6 (2020): 1095–1104, https://doi.org/10.1021/acscentsci.0c00449 . 
+42 . Z. Yang, Z. Zhu, J. Ma, et al., “Phase Separation of Li2 S/S at 
+Nanoscale during Electrochemical Lithiation of the Solid-State Lithium–
+Sulfur Battery Using In Situ TEM,” Advanced Energy Materials 6 (2016): 
+1600806, https://doi.org/10.1002/aenm.201600806 . 
+43 . J. T. Kim, H. Su, Y. Zhong, et al., “All-Solid-State Lithium–Sulfur 
+Batteries Through a Reaction Engineering Lens,” Nature Chemical 
+Engineering 1 (2024): 400–410, https://doi.org/10.1038/s44286-024-00079- 
+5 . 
+44 . D. Cao, X. Sun, F. Li, et al., “Understanding Electrochemical Reaction 
+Mechanisms of Sulfur in All-Solid-State Batteries Through Operando 
+and Theoretical Studies **,” Angewandte Chemie International Edition 62 
+(2023): 202302363, https://doi.org/10.1002/anie.202302363 . 
+45 . J. T. Kim, A. Rao, H.-Y. Nie, et al., “Manipulating Li2 S2 /Li2 S Mixed Dis- 
+charge Products of All-Solid-State Lithium Sulfur Batteries for Improved 
+Cycle Life,” Nature Communications 14 (2023): 6404, https://doi.org/10. 
+1038/s41467- 023- 42109- 5 . 
+46 . N. Erika, T. S. Arthur, P. Bonnick, K. Suto, and M. John, “The 
+Discharge Mechanism for Solid-State Lithium-Sulfur Batteries,” MRS 
+Advances 4 (2019): 2627–2634. 
+47 . C. Zhou, S. Bag, T. He, B. Lv, and V. Thangadurai, “A 20 ◦C Operating 
+High Capacity Solid-State Li-S Battery With an Engineered Carbon 
+Support Cathode Structure,” Applied Materials Today 19 (2020): 100585, 
+https://doi.org/10.1016/j.apmt.2020.100585 . 
+48 . M. He, Y. Fan, S. Liu, et al., “The Origin of Li2 S2 Reduction Mechanism 
+Modulated by Single-Atom Catalyst for all Solid-State Li-S Batteries,”
+Advanced Energy Materials 15 (2025): 2405642, https://doi.org/10.1002/ 
+aenm.202405642 . 
+49 . J. Gu, W. Hu, Y. Wu, et al., “Asymmetric Sulfur Redox Paths in Sulfide- 
+Based All-Solid-State Lithium–Sulfur Batteries,” Chemistry of Materials 
+36 (2024): 4403–4416, https://doi.org/10.1021/acs.chemmater.3c03317 . 
+50 . H. Ye, M. Li, T. Liu, Y. Li, and J. Lu, “Activating Li2 S as the Lithium- 
+Containing Cathode in Lithium–Sulfur Batteries,” ACS Energy Letters 5 
+(2020): 2234–2245, https://doi.org/10.1021/acsenergylett.0c00936 . 
+51 . Y. Yang, G. Zheng, S. Misra, J. Nelson, M. F. Toney, and Y. Cui, 
+“High-Capacity Micrometer-Sized Li2 S Particles as Cathode Materials 
+for Advanced Rechargeable Lithium-Ion Batteries,” Journal of the Amer- 
+ican Chemical Society 134 (2012): 15387–15394, https://doi.org/10.1021/ 
+ja3052206 . 
+52 . X. Gao, X. Zheng, Y. Tsao, et al., “All-Solid-State Lithium–Sulfur Bat- 
+teries Enhanced by Redox Mediators,” Journal of the American Chemical 
+Society 143 (2021): 18188–18195, https://doi.org/10.1021/jacs.1c07754 . 
+53 . M. N. Obrovac and J. R. Dahn, “Electrochemically Active Lithia/Metal 
+and Lithium Sulfide/Metal Composites,” Electrochemical and Solid-State 
+Letters 5 (2002): A70, https://doi.org/10.1149/1.1452482 . 
+54 . Y. Yin and A. A. Franco, “Unraveling the Operation Mechanisms 
+of Lithium Sulfur Batteries With Ultramicroporous Carbons,” ACS 
+Applied Energy Materials 1 (2018): 5816–5821, https://doi.org/10.1021/ 
+acsaem.8b01159 . 
+55 . J. Gu, W. Hu, Y. Wu, et al., “Asymmetric Sulfur Redox Paths in Sulfide- 
+Based All-Solid-State Lithium–Sulfur Batteries,” Chemistry of Materials 
+36 (2024): 4403–4416, https://doi.org/10.1021/acs.chemmater.3c03317 . 
+56 . Y. Aoki, K. Ogawa, T. Nakagawa, et al., “Chemical and Structural 
+Changes of 70Li2 S-30P2 S5 Solid Electrolyte during Heat Treatment,” Solid 
+State Ionics 310 (2017): 50–55, https://doi.org/10.1016/j.ssi.2017.08.006 . 
+57 . C. Dietrich, D. A. Weber, S. J. Sedlmaier, et al., “Lithium Ion Conduc- 
+tivity in Li2 S–P2 S5 Glasses—Building Units and Local Structure Evolution 
+12 of 13
+Advanced Science, 2026
+
+=== 第 13 页 ===
+During the Crystallization of Superionic Conductors Li3 PS4 , Li7 P3 S11 and 
+Li4 P2 S7 ,” Journal of Materials Chemistry A 5 (2017): 18111–18119, https:// 
+doi.org/10.1039/C7TA06067J . 
+58 . K. Shen, W. Shi, H. Song, et al., “Solid Catholyte With Regulated 
+Interphase Redox for All-Solid-State Lithium-Sulfur Batteries,” Advanced 
+Materials 37 (2025): 2417171, https://doi.org/10.1002/adma.202417171 . 
+59 . H. Pan, M. Zhang, Z. Cheng, et al., “Carbon-Free and Binder-Free 
+Li-Al Alloy Anode Enabling an All-Solid-State Li-S Battery With High 
+Energy and Stability,” Science Advances 8 (2022): abn4372, https://doi.org/ 
+10.1126/sciadv.abn4372 . 
+60 . Q. Zhang, N. Huang, Z. Huang, L. Cai, J. Wu, and X. Yao, “CNTs@S 
+Composite as Cathode for All-Solid-State Lithium-Sulfur Batteries With 
+Ultralong Cycle Life,” Journal of Energy Chemistry 40 (2020): 151–155, 
+https://doi.org/10.1016/j.jechem.2019.03.006 . 
+61 . A. Deshmukh, M. Thripuranthaka, V. Chaturvedi, A. K. Das, V. 
+Shelke, and M. V. Shelke, “A Review on Recent Advancements in 
+Solid State Lithium–SULFUR Batteries: Fundamentals, Challenges, and 
+Perspectives,” Progress in Energy 4 (2022): 042001, https://doi.org/10.1088/ 
+2516-1083/ac78bd . 
+62 . S. Ohno and W. G. Zeier, “Toward Practical Solid-State Lithium–Sulfur 
+Batteries: Challenges and Perspectives,” Accounts of Materials Research 2 
+(2021): 869–880, https://doi.org/10.1021/accountsmr.1c00116 . 
+63 . J.-M. Doux, Y. Yang, D. H. S. Tan, et al., “Pressure Effects on Sulfide 
+Electrolytes for all Solid-State Batteries,” Journal of Materials Chemistry 
+A 8 (2020): 5049–5055, https://doi.org/10.1039/C9TA12889A . 
+64 . X. Zhu, L. Wang, Z. Bai, J. Lu, and T. Wu, “Sulfide-Based All-Solid- 
+State Lithium–Sulfur Batteries: Challenges and Perspectives,” Nano- 
+Micro Letters 15 (2023): 75. 
+65 . F. Walther, S. Randau, Y. Schneider, et al., “Influence of Carbon 
+Additives on the Decomposition Pathways in Cathodes of Lithium 
+Thiophosphate-Based All-Solid-State Batteries,” Chemistry of Materials 32 
+(2020): 6123–6136, https://doi.org/10.1021/acs.chemmater.0c01825 . 
+66 . S. Wang, R. Fang, Y. Li, et al., “Interfacial Challenges for All- 
+Solid- State Batteries Based on Sulfide Solid Electrolytes,” Journal of 
+Materiomics 7 (2021): 209–218, https://doi.org/10.1016/j.jmat.2020.09.003 . 
+Supporting Information 
+Additional supporting information can be found online in the Supporting 
+Information section. 
+Supporting File: advs73922-sup-0001-SuppMat.docx. 
+Advanced Science, 2026
+13 of 13
+

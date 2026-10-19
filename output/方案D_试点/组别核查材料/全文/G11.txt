@@ -1,0 +1,929 @@
+=== 第 1 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+Available online 28 September 2020
+1385-8947/© 2020 Elsevier B.V. All rights reserved.
+A novel air-stable Li7Sb0.05P2.95S10.5I0.5 superionic conductor 
+glass-ceramics electrolyte for all-solid-state lithium-sulfur batteries 
+Muhammad Khurram Tufail a, Lei Zhou a, Niaz Ahmad a, Renjie Chen b,*, Muhammad Faheem a, 
+Le Yang a, Wen Yang a,* 
+a Key Laboratory of Cluster Science of Ministry of Education Beijing Key Laboratory of Photoelectronic/Electrophotonic Conversion Materials, School of Chemistry and 
+Chemical Engineering, Beijing Institute of Technology, 5# Zhongguancun Road, Haidian District, Beijing 100081, PR China 
+b School of Material Science and Engineering, Beijing Institute of Technology, Beijing 100081, PR China   
+A R T I C L E I N F O  
+Keywords: 
+Superionic conductor 
+Air stability 
+Glass-ceramics 
+All solid-state electrolyte 
+Aliovalent dual doping 
+All-solid-state lithium-sulfur batteries 
+A B S T R A C T  
+The blend of air stability and high lithium-ion (Li+) conductivity is not a simplistic approach to attain for sulfide- 
+based solid-state electrolytes (SSEs), which hinders the exploitation of high energy all-solid-state lithium-sulfur 
+batteries (ASSLSBs). Herein we report a novel lithium superionic conductor of Li7Sb0.05P2.95S10.5I0.5 as solid-state 
+glass-ceramics electrolytes obtained by an annealing treatment in a solid-state reaction route. It systematically 
+explores the impact of facile aliovalent dual doping into the newly synthesized solid electrolytes, which have 
+influenced higher Li+ conductivity of 2.55 × 10−3 Scm−1 at room temperature, and wide range of voltage sta­
+bility vs. Li/Li+ up to 7 V. Except that, an activation barrier of Li7Sb0.05P2.95S10.5I0.5 for Li+ migration drops 
+expressively due to optimizing the dopant contents, and subsequently defects produced. The electrolyte also 
+achieved significant air stability based on Hard and Soft Acid/Base (HSAB) theory. The intrinsic structural as­
+pects of the air stability for Li7P3S11 and Li7Sb0.05P2.95S10.5I0.5 solid-state electrolytes are premeditated using a 
+combination of ex-situ X-ray photoelectron spectroscopy, XRD as well as Raman spectroscopy and SEM. The Li2S- 
+VGCF-SSE composite cathode with Li7Sb0.05P2.95S10.5I0.5 SSE exhibited a high initial discharge capacity of 622.3 
+mAhg−1 at 0.060 mAcm−2, and ASSLSB was retained over 683.3 mAh g−1 after 15th cycle at room temperature, 
+better than pristine Li7P3S11 SSE-based cell. This research provides a novel concept on the design of air-stable and 
+superionic conductor solid-state electrolytes for high-performance ASSLSBs.   
+1. Introduction 
+Rechargeable Lithium-Sulfur (Li/S) batteries are promising candi­
+dates of high energy densities for extensive next-generation energy 
+storage systems [1–3]. In finical, the shuttling effect of dissolved poly- 
+sulfides between Li metal and the sulfur-based cathode is limiting the 
+consumption of active mass and exacerbates the electrochemical prop­
+erties [4,5]. Consequently, Li/S batteries generally exhibited rapid self- 
+discharge and poor cyclic stability. Besides, owing to the flammability of 
+organic solvents and the continued production of lithium dendrites, the 
+safety of the Li/S batteries was another critical issue to resolve. More­
+over, safety concerns appear to be a nightmare for liquid-based Li/S 
+batteries [6,7]. The findings are emphasizing to the aspect that liquid 
+phase organic electrolyte is significant culprits. 
+Inorganic solid-state electrolytes are fast emerging candidates as a 
+valuable element of Li/S battery due to their excellent mechanical 
+attributes, superior electrochemical stability, and working over a broad 
+range of temperatures [8]. With the assist of a solid-state approach, the 
+shuttle and dissolution of polysulfide, as well as outflow issues, can be 
+entirely rectified [9]. The solid-state electrolytes for all-solid-state bat­
+teries primarily comprise a sulfide-based electrolyte system and an 
+oxide-based electrolyte system [10–13]. In the evaluation of both solid- 
+state electrolytes, the oxide-based electrolyte can demonstrate a lower 
+grain boundary resistance and a lower Li+ conductivity to achieve 10−4 
+S cm−1 at room temperature with poor interface in between electrode/ 
+electrolyte such as Garnet [14–17]. 
+Lithium thiophosphates are incredibly believed as a prospective solid 
+electrolyte in all-solid-state Li/S batteries due to their intrinsic 
+extremely high ionic and low electronic conductivity along with struc­
+tural stability [18]. Additionally, it was promulgated that thiophosphate 
+crystalline 
+compounds 
+such 
+as 
+Li10GeP2S12 
+(12 
+mS 
+cm−1), 
+Li9.54Si1.74P1.44S11.7I0.3 (25 mS cm−1) and glass-ceramics Li7P3S11 (17 
+* Corresponding authors. 
+E-mail addresses: chenrj@bit.edu.cn (R. Chen), wenyang@bit.edu.cn (W. Yang).  
+Contents lists available at ScienceDirect 
+Chemical Engineering Journal 
+journal homepage: www.elsevier.com/locate/cej 
+https://doi.org/10.1016/j.cej.2020.127149 
+Received 25 December 2019; Received in revised form 13 September 2020; Accepted 22 September 2020   
+
+=== 第 2 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+2
+mS cm−1) has proven characteristics of lithium superionic conductor 
+[19–21]. The ionic conductivity of SSEs was analogous to the commer­
+cial organic liquid electrolytes. Moreover, it was asserted that the Li+
+conductivity in lithium thiophosphates solid-state electrolyte funda­
+mentally depends on the distribution of PS4 tetrahedral structure, which 
+is suggested as a framework for Li+ mobility. The assembled all-solid- 
+state Li/S battery based on solid electrolyte disclosed outstanding elec­
+trochemical cyclic stability and rate performance. 
+Nevertheless, lithium thiophosphate-based solid electrolytes have 
+more excellent ionic conductivity than the oxide-based solid electrolyte, 
+but with air-sensitive [22]. The sensitivity of the lithium thiophosphate 
+to atmosphere and moisture needs sophisticated and prolix therapy 
+under a dry noble gas environment, which increases the production cost. 
+The air stability of the lithium thiophosphate adopts the principle of the 
+Hard and Soft Acid/Base (HSAB) theory. Hard acids are of small ionic 
+radii, empty orbitals in the valence shell, and high energy LUMOs, non- 
+polarizable as compared to soft acids, which are large in size, filled 
+orbital with low energy LUMOs and easily polarized. According to the 
+HSAB theory, lithium thiophosphate-based solid electrolytes are highly 
+reactive with oxygen because oxygen is a hard base that reacts favorably 
+with hard acid phosphorus as compared to soft base sulfur. 
+Herein, a novel modest air-stable and superionic conductor lithium 
+thiophosphate-based Li7P3S11 solid-state electrolyte reported which 
+acquired via dual Antimony sulfide (Sb2S5) and Lithium Iodide (LiI) 
+aliovalent dual doping, based on the HSAB theory. Soft acid antimony 
+(Sb) was selected as a dopant element with phosphorus (P). This forms a 
+composite with sulfur and consequently impact on stability against ox­
+ygen, which is a significantly harder base than sulfur. By increasing Sb 
+fraction, the migration pathway for Li+ enlarges and creates a site dis­
+order among I−
+and S2−. The rising defects are associated with a 
+decrease in activation energy and increase the Li+ conductivity over 
+orders of magnitude. Partially doping of Sb with P offers noticeable 
+advantageous stability against water and oxygen. The problems 
+addressed in this research (1) can cause an aliovalent cation of Sb and 
+anion I improve conductivity and decrease in the activation barrier? (2) 
+Does the Sb-doped thiophosphate have anticipated air and water sta­
+bility? In this study, the Sb5+ and I−ions were simultaneously intro­
+duced into the conductive framework of Li7P3S11. The air stability of the 
+thiophosphate-based solid-state electrolytes was demonstrated for the 
+first time by the ex-situ X-ray photoelectron spectroscopy. Raman 
+spectroscopy and SEM have been used to explain further the inherent 
+dynamics of air stability in the Li7P3S11 and dual doped Li7Sb0.05­
+P2.95S10.5I0.5. The crystal structure, Li+ conductivity, activation energy, 
+examining the electrochemical stability with Li of pristine Li7P3S11 and 
+Li7Sb0.05P2.95S10.5I0.5 were also periodically characterized. Moreover, 
+the electrochemical performance of assembled all-solid-state Li/S bat­
+teries with pristine Li7P3S11 and aliovalent dual doped Li7Sb0.05­
+P2.95S10.5I0.5 solid-state electrolytes was also demonstrated. 
+2. Experimental 
+2.1. Preparation method 
+Li2S (99.9%; Alfa Aesar), P2S5 (99%, P ≥27%, Macklin), Sb2S5 (98%; 
+Macklin) and LiI (98.5%; J&K) were used as precursor compounds 
+which were amalgamated in the stoichiometric proportional ratio to 
+synthesized Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7) amor­
+phous solid-state electrolyte via high-energy ball milling. The mixture of 
+all precursors was milled at 510 rpm for 40 h at room temperature. A 
+high-energy ball milling setup (Fritsch, Pulverisette 7) comprising a 
+zirconia pot (volume: 45 mL) with five balls (diameter: 10 mm) made of 
+zirconia. The as-prepared Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 
+0.7) amorphous powdered, annealed at 250–280 ◦C/4h to obtained 
+glass-ceramics solid-state electrolytes samples respectively to the Dif­
+ferential Thermal Analysis (DTA) plots Fig. S1. All the procedures, as 
+mentioned, were carried out in an argon-filled glove box (H2O & O2 <
+0.1 ppm). 
+2.2. Theoretical method 
+For the appliance of building Li7Sb0.05P2.95S10.5I0.5 modal framework 
+supercell consisting 84 formula unit (f.u.) of Li7P3S11 was designed to 
+simulate with (x = 0.05, y = 0.5). One P atom and one S atoms in the 
+modal framework supercell were exchanged by Sb atom and two I atom 
+respectively, according to sustain electronic neutrality. The simulated 
+XRD pattern for Li7Sb0.05P2.95S10.5I0.5 was simulated at (0.154 nm) Cu 
+Kɑ radiation wavelength with VESTA software. 
+2.3. Characterizations 
+X-ray Diffractometer (XRD, D8 Advance, Bruker, Germany) mea­
+surements were conducted with copper Kα radiation by utilizing 
+VANTEC-1 detector. To avoid the effect of air, these samples were 
+covered by a thin polymer film. XRD characteristic peaks were examined 
+for the phase identification of as-synthesized glass–ceramic electrolytes 
+from 10◦to 60◦with a scan rate of 5◦min−1. Raman spectra of glass- 
+ceramics electrolyte samples were conducted by using Renishaw-2000 
+Raman spectrophotometer with laser beam 532 nm wavelength. The 
+morphology and elemental mapping of the synthesized sample were 
+measured by using a Scanning electron microscope (SEM, SUPRA 55, 
+ZIES, Germany). The analysis of elements was carried out with X-ray 
+photoelectron spectroscopy (Thermo Fisher Scientific ESCALab 250Xi, 
+USA). The differential thermal analysis (DTA) plots were measured by 
+using an (SII TG/DTA6200, EXSTAR, Japan), which operates from 0 to 
+350 ◦C at the heating rate of 10 ◦C under Argon gas flow. 
+2.4. Electrochemical measurements of glass-ceramics electrolytes 
+The ionic conductivity of solid-state electrolyte samples was 
+measured by analysis of electrochemical impedance spectroscopy (EIS), 
+which was conducted on an electrochemical workstation (PARSTAT, 
+2273) immoderate range of frequency 10 Hz to 1 MHz under the 15 ◦C- 
+75 ◦C temperature range. The dual doped and pristine SSEs samples 
+were cold-pressed into tablets at 360 MPa (thickness: ~1mm, diameter 
+10 mm) with two stainless steel plates (SS) used as counter blocking 
+electrode in the argon-filled glove box (H2O & O2 < 0.1 ppm). The 
+electrochemical stability (Cyclic Voltammetry) of solid-state electrolytes 
+was analyzed by using an electrochemical workstation (PARSTAT, 
+2273) with scan rate 0.5mVs−1 and voltage range from −0.5 to 7 V vs. 
+(Li/Li+) at room temperature. The SS was used as the working electrode 
+and Li metal as a counter electrode, respectively. 
+The amount of Hydrogen sulfide (H2S) produced from as-synthesized 
+solid-state samples were measured. Tableted samples (200 mg), an H2S 
+gas sensor (GX-2009, Riken Keiki Co, Ltd, Japan) which filled with moist 
+air. The occupied volume of the jar was (2880 cm3). The quantity of H2S 
+gas produce form the prepared sample was measured from their con­
+centration at room temperature, and the relative moisture level was kept 
+40–47% during the calculation. 
+2.5. All-solid-state Li/S batteries assembling 
+The Li2S-VGCF-SSE composite cathode for ASSLSBs was prepared by 
+mechanical mixing of Li2S (99.9%; Alfa Aesar), solid-state glass-ce­
+ramics electrolyte, and vapor-grown carbon fiber (VGCF). The prepa­
+ration method can be divided into two steps procedure high energy ball 
+milling. Firstly, the Li2S and VGCF powder blending with weigh ratio 
+(3:1) and mixed via high energy ball milling. Secondly, as-prepared Li2S- 
+VGCF composite and solid-state glass-ceramics electrolyte were mixed 
+in the ratio (4:6), and then ball milled respectively at room temperature 
+in an argon atmosphere as shown in Scheme 1. The high energy ball 
+milling method assured that all components of Li2S-VGCF-SSE com­
+posite cathode (Li2S: SSE: VGCF = 3:6:1) distributed homogeneously 
+M.K. Tufail et al.                                                                                                                                                                                                                               
+
+=== 第 3 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+3
+and contacted firmly, promising the high electronic and ionic conduc­
+tivity. The loading of Li2S active material was used as 3.5 mg cm−2. For 
+assembly of All-Solid-State Lithium Sulfur Batteries, Li2S-VGCF-SSE 
+composite cathode (15.5 mg) and solid-state glass-ceramics electrolyte 
+powder (100 mg) were cold-pressed to two-layer pellet at 320 MPa for 3 
+min (thickness: ~1mm, diameter 13 mm). Consequently, In-Li alloy (10 
+wt% Li) was pressed on the contradictory side of the solid-state glass­
+–ceramic electrolyte at about 120 MPa for 3 min. All these processes 
+were carried at room temperature in the argon-filled glove box (H2O & 
+O2 < 0.1 ppm). 
+The electrochemical performance of the assembled All-Solid-State 
+LSBs was analyzed by the Galvanostatic charge–discharge test on the 
+LAND battery system (CT2001A, Wuhan Jinnuo Corp, China), with a 
+current density of 0.06 mA cm−2 and voltage range 0.01–3.5 V vs. Li-In. 
+3. Results and discussion 
+3.1. Sb5+ and I−doped solid solution phase 
+Aliovalent doping and substitution in solid-state solution, and local 
+ions have been substituted by foreigner ions with different charges, 
+resulting in a change in framework lattice such as (i) existence of va­
+cancies (ii) introduces holes. Its more rational to conceive that former 
+consideration governs in this example, since none of the elements be­
+longs to the transition group as a part of Li7SbxP3−xS11−yIy (x = 0.05, 0.1 
+and y = 0.5, 0.7), which would impart the formation of holes. 
+Further describes the origin of the changes in conductivity behavior 
+with the addition of dopant in pristine Li7P3S11 under identical synthesis 
+parameters, particular characterization of crystal structure was per­
+formed. The newly prepared solid-state electrolyte is exhibited the Halo 
+patterns without any particular diffraction peak before annealing 
+Fig. S1. Next, the as-synthesized amorphous sample was investigated 
+using differential thermal analysis instruments to select the appropriate 
+annealing temperature. The DTA plot for the Li7Sb0.05P2.95S10.5I0.5 glass 
+sample was represented in the Fig. S2. Notice that the amorphous 
+sample had a crystallization temperature (Tc) (approximately 248 ◦C) 
+[23]. Fig. 1 (a) displays the all X-ray diffraction (XRD) pattern of glass- 
+ceramics samples Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7). It 
+can be seen that the XRD pattern of dual doped samples is attributed to 
+resemblance with the pristine crystalline Li7P3S11 phase, and depicts the 
+formation of the superionic conductive phase in all synthesized samples. 
+The main characteristic crystalline peaks of the superionic conductive 
+phase of Li7P3S11 and Li7SbxP3−xS11−yIy (x = 0.05, 0.1, and y = 0.5, 0.7) 
+were measured between 10◦and 60◦(2Θ). Two theta values 17.39⁰ 
+(022), 19.67⁰ (012), 21.8⁰ (013), 23.20⁰ (030), 25.65⁰ (022), 28.88⁰ 
+(211) 29.6⁰ (114) and 47.46⁰ (060) depicts that formerly prepared 
+Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7) has been yielded as a 
+member of superionic (Li7P3S11) LPS solid-state electrolytes family [24]. 
+All the XRD peaks in the as-synthesized samples were well indexed to the 
+Li7P3S11 phase with the low doping quantity of Sb2S5 (x = 0.05, 0.1) and 
+LiI (0.5, 0.7). Li7P3S11-based glass-ceramics is a triclinic type of crystal 
+system with space group P-1, containing two formula units per unit cell. 
+Among the di-tetrahedral P2S7
+4−and tetrahedral PS4
+3−units, Li+ exists in- 
+between these void spaces, which tend to transfer from one side to 
+another if superionic solid-state electrolyte holds sufficient vacancies as 
+well as defects [24,25]. Sb and I atoms were introduced to creates the 
+defect and increases the number of vacancies in superionic conductor 
+solid-state electrolytes and facilitate the mobility of Li+. 
+The results obtained from Raman spectroscopy with the wavelength 
+range from 300 cm−1 to 500 cm−1 for all synthesized samples include 
+pristine Li7P3S11 shown in Fig. 1 (b). Two significant peaks at 405 cm−1 
+and 420 cm−1 and one minor peak at 385 cm−1 appeared in two distinct 
+curves. It was identified that the bond angle of S-P-S susceptible to the 
+band range of 330–480 cm−1. The peaks at 420 cm−1, 407 cm−1, and 
+386 cm−1 are ascribed to the stretching vibration of P-S bond in the 
+ortho-thiophosphates (PS4
+3−, monomer), pyro-thiophosphates (P2S7
+4−, 
+dimer monomer) and hypo-thiodiphosphate (P2S6
+4−, monomer ethane 
+like structure with a P-P bond) ions respectively [15,26]. Although, the 
+Raman spectroscopic dispersion coefficient data have been linked with 
+polyhedral PSx, the presence of the superionic conductive phase Li7P3S11 
+was demonstrated. The glass-ceramics with a high concentration of 
+phosphorus depict the pattern of P-P bond, which exists in the hypo- 
+thiodiphosphate entity. Meanwhile, it was observed that the partially 
+doping of P2S5 with Sb2S5 and LiI makes no distinct changes in the 
+characteristic peak position of PS4
+3−and P2S7
+4−but alter their intensity 
+ratio. 
+The comparison of the experimental and simulated XRD peaks ob­
+tained through characterization and calculation are presented in Fig. 1 
+Scheme 1. The schematic diagram for preparation of Li2S-VGCF-SSE composite cathode and all-solid-state lithium-sulfur battery assembly.  
+M.K. Tufail et al.                                                                                                                                                                                                                               
+
+=== 第 4 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+4
+(c). From the XRD peaks comparison, both XRD patterns are almost 
+identical, 
+signifying 
+that 
+the 
+newly 
+synthesized 
+material 
+Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7). No curve correlated to 
+the impure phase is detected in the experimental XRD graph. With high 
+Li2S precursor, the ratio of the PS4
+3−increases and P2S6
+4−ions decreases. 
+The Li7Sb0.05P2.95S10.5I0.5 glass-ceramics crystallizes with appropriate 
+ratios of the PS4
+3−
+and P2S6
+4−
+are surrounding by Li+ cations, also 
+showing a superionic conduction framework with edge-sharing poly­
+hedral Fig. 1 (d). The Raman spectra of the new synthesized samples also 
+confirmed that appropriate ratios of the PS4
+3−
+and P2S6
+4−, showing a 
+superionic conduction framework with an edge-sharing polyhedral. The 
+free volume around the PS4
+3−anion permit the distribution of lithium-ion 
+[27]. 
+X-ray photoelectron analysis of Li7Sb0.05P2.95S10.5I0.5 revealed the 
+bonding of P, S, Sb, I, and Li. In detail, deconvolved spectra Fig. S3 (a-d), 
+the responsive signal of P 2p3/2 at 134.1 eV in agreement with the PS4
+3−
+tetrahedral unit and 132.8 eV equivalent to the P2S7
+4−unit, indicated 
+that newly formed glass-ceramics have also belonged to the LPS family 
+[50]. Both types of conductive framework units also contained the three 
+kinds of bonded sulfur of S 2p3/2 with S = P bond (162.1 eV), non- 
+bridging sulfur bond P-S-Li (161.5 eV), and the bridging sulfur P-S-P 
+bond (162.8 eV), respectively [28]. Furthermore, the peak of S 2p3/2 at 
+162.15 eV was correlated to the Sb – S bond simultaneously, which was 
+exhibited Sb 3d core level into two chemical states (Sb 3d5/2, Sb 3d3/2) 
+[29,30], and also I 3d spectra was fitted to peaks at around 618.8 eV and 
+630.8 eV [31–34] suggesting that Sb and I atoms have been doped into 
+LPS glass-ceramics conductive frameworks. These results declare that a 
+conductive frame of the Li7Sb0.05P2.95S10.5I0.5 solid-state electrolytes is 
+identical to the Li7P3S11 with improved lithium-ion conductivity. 
+Fig. 2 (a) displays the morphologies of Li7Sb0.05P2.95S10.5I0.5 particles 
+via SEM. The studies carried out the component distribution and 
+microscopic structure of the doped sample. Many dark patterns of the 
+crystallized area can be marked along with a bright glass randomly. This 
+indicated that formerly prepared glass-ceramics doped solid-state elec­
+trolyte might contain amorphous phase small-sized grain [35]. Likewise, 
+it could be noticed that all precursors with dopants were found to be 
+finely combined by a solid-state reaction to synthesize an integrated Sb 
+and I doped Li7P3S11. Exploiting form high-energy ball-milling, the 
+combo between each ingredient has provided high ionic conductivity. 
+The Energy Dispersion Spectroscopy (EDS) figures confirmed the foot­
+print of sulfur, phosphorus, antimony, and iodine in the SSE composite, 
+Fig. 2 (b). The Sb and I elements were homogeneously distributed in 
+Li7Sb0.05P2.95S10.5I0.5 glass-ceramics along with the phosphorus and 
+sulfur element. The less intense peak of the Sb and I detected in the 
+Fig. 1. (a) XRD diffraction patterns and (b) Raman spectra of Li7P3S11 and Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7) prepared via high energy ball-milling 
+procedure. (c) Experimental and simulated XRD pattern of Li7Sb0.05P2.95S10.5I0.5 (d) The structure of the Li7Sb0.05P2.95S10.5I0.5. 
+M.K. Tufail et al.                                                                                                                                                                                                                               
+
+=== 第 5 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+5
+doped glass-ceramics electrolyte Fig. S4. The inset table of elements 
+showed that the calculated relative quantity of the Sb is measured over 
+the P was less the 0.4% in the doped glass-ceramics Li7Sb0.05­
+P2.95S10.5I0.5, which was near to the theoretical amount Table S5. 
+3.2. Effect of aliovalent dual doping of Sb and I into Glass- ceramics 
+Li7P3S11 
+For the solid-state synthetic approach, Sb and I dopants into 
+Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7) solid solution were 
+prepared from a stoichiometric combinations of Li2S, P2S5, Sb2S5, and LiI 
+at annealing temperature 250–280 ◦C. Based on DTA plots, the crys­
+tallization temperature (Tc) of the Sb and I doped-glass sample was 248 
+◦C. Li7P3S11 
+served as the base material. The synthesized 
+Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7) samples with various 
+Sb+5/P+5 ratios used in order to study the effect of the Li contents 
+increments on the ionic conductivity and activation energy. 
+To examine the effect of Sb and I dopants on the Li-ion conductivity 
+of the synthesized glass-ceramics electrolytes measured by AC imped­
+ance plot at room temperature, comprised of a semicircle and a spike, 
+which mutual contribution of the grain/bulk boundary and with 
+respective electrode Fig. 2 (a). The aggregate of the grain boundary 
+resistance (Rgb) and the bulk (Rbulk) was measured from the interception 
+of the horizontal axis of the gross resistance of composite; therefore, the 
+Li-ion conductivity is measured equivalent to the total resistance (Rtotal 
+= Rgb + Rbulk) of solid-state electrolyte [19]. The calculated Li-ion 
+conductivities of the glass-ceramics solid-state electrolytes curtailed 
+with an increase in the concentrations of Sb2S5 and LiI. Fig. 3 (a) displays 
+that corresponding EIS graph of all sample’s solid solution 
+Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7) and Li7P3S11 solid- 
+state electrolytes at room temperature. The Li-ion conductivity is 
+measured by the total resistance (R1 for Li7Sb0.05P2.95S10.5I0.5 and R2 for 
+Fig. 2. (a) The SEM Images of Li7Sb0.05P2.95S10.5I0.5 solid-state electrolyte (b) The selected rectangular area of Li7Sb0.05P2.95S10.5I0.5 solid-state electrolyte for EDS 
+elemental mapping for P, S, Sb, and I. 
+Fig. 3. (a) The impendence plots of glass-ceramics electrolytes at room temperature. (b) Temperature-dependent comparative Arrhenius conductivity plots of and 
+Li7SbxP3−xS11−yIy (where x = 0.5, 0.1 and y = 0.5, 0.7) with various molar ratio of Sb and I and pristine Li7P3S11. (c) Activation energy and ionic conductivity vs. the 
+molar ratio of Sb and I. The maximum Li+ conductivity was attained with Sb = 0.05 and I = 0.5. An opponent trend can be seen for activation energy. 
+M.K. Tufail et al.                                                                                                                                                                                                                               
+
+=== 第 6 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+6
+Li7P3S11), which is comprised of interfacial resistance and bulk resis­
+tance. It was observed that the solid-state electrolyte, as compare to 
+other samples, has smaller interfacial resistance/bulk resistance, along 
+with speedy reaction kinetics. 
+The Li-ion conductivity of prepared samples and activation energy 
+(Ea) for respective mole ratios of P+5 to Sb+5 was evaluated as a function 
+of temperature. The Ea of Li superionic conductor was computed by the 
+following equation; 
+σT = σ
+◦exp
+(
+−
+Ea
+kBT
+)
+where σT represents total conductivity, σ◦is the pre-exponential metrics, 
+kB is a Boltzmann constant, and T is a temperature (Kelvin). The Li-ion 
+conductivity of the synthesized samples for the different molar ratio of 
+P to Sb was also studied at various temperatures. Fig. 3 (b) showed that 
+the typical Arrhenius graph for Li-ion conduction in the range of 25 
+◦C–75 ◦C as the function 1000/T for all samples. At 25 ◦C Li-ion con­
+ductivity measured for maximum Sb+5 concentration Li7Sb0.1­
+P2.90S10.5I0.5 was 1.67 × 10−3 S cm−1, and for the minimum Sb+5 
+concentration Li7Sb0.05P2.95S10.5I0.5, it was 2.55 × 10−3 S cm−1. The 
+highest values of conductivity achieved was 8.9 × 10−3 S cm−1 at 75 ◦C 
+for Li7Sb0.05P2.95S10.5I0.5 composition. 
+Fig. 3 (c) presented that room temperature Li-ion conductivity (y- 
+axis left) and activation energy (y-axis right) versus their composition of 
+doped composite. The pristine Li7P3S11 has Li-ion conductivity 1.40 ×
+10−3 S cm−1 at room temperature, which was showed the consistency 
+with the literature Table S6. With a low concentration of Sb, dopant has 
+certainly shown an increment in Li ionic conductivity. The optimized 
+composition of sample Li7Sb0.05P2.95S10.5I0.5 has Li-ion conductivity was 
+2.55 × 10−3 S cm−1. The Li-ion conductivity curtails down as the Sb 
+doping increases, and the stability in the air was also improved. To 
+examine the high conductive composition, the different stoichiometric 
+composition of Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7) were 
+mixed and heated. The maximum phase purity with high comparative 
+conductivity was observed at composition Li7Sb0.05P2.95S10.5I0.5. It was 
+noticed that the Li-ion as an only mobile entity in the synthesized solid- 
+state electrolyte, the movement of Li-ion in solid-state electrolytes, is 
+analogous to that of commercial used liquid electrolytes. 
+For solid-state electrolyte, the addition of external elements into the 
+lattice via aliovalent cation and anion dopants disturbed the lattice of 
+synthesized composite and generated the higher interstitials and defects. 
+Furthermore, the doping of large size Sb (0.61 nm) and I (2.20 nm) 
+broadens the Lithium diffusion channels and weakens the interaction 
+between framework and migrating ions. At doping level (x = 0.05 y =
+0.5), the formation of conductive units (PS4
+3−and P2S6
+4−) responsible for 
+the Li-ion conductivity approaches is reached to maximum limit [36]. 
+The fine-tuning of carrier species and optimization of the lattice size in 
+framework unit by aliovalent ions doping or substitution contributed in 
+superionic conductivity and reduced the activation barrier [37,38]. It is 
+significant to note that activation energy versus the amount of doped Sb 
+and I showed a reversed peak of conductivity Fig. 3 (c). The activation 
+energy for ionic conduction, calculated from the slope of an Arrhenius 
+graph, was 20.04 KJmol−1 for the Li7Sb0.05P2.95S10.5I0.5 sample. Ac­
+cording to the equation 1, the conduction of ions is affected by heating 
+exponentially over the Ea. A low value of Ea was in agreement, with the 
+minor changing in the conductivity while varying the temperature. After 
+the aliovalent dual doping, in solid-state electrolyte a low Ea for Li-ion 
+hopping represents that more polarizable lattice and facilitated the ion 
+movement. An optimum radius of foreigner element induced (Sb+5 =
+0.61 nm, P+5 = 0.33 nm) supports the ionic mobility within the structure 
+and minimize the activation energy. For instance, the Ea of the larger ion 
+is less as compared to a smaller one [39]. It can be concluded that by 
+using the newly prepared solid-state solution of Li7Sb0.05P2.95S10.5I0.5, a 
+weaker lattice dynamic and lower activation energy for Li+ mobility 
+within conductive framework were observed. 
+3.3. Air stability 
+The principal aim of this contribution is to attain air stability of 
+sulfide-based solid-state electrolytes. One major disadvantage of sulfide- 
+based solid-state electrolytes is their instability toward moist air, which 
+would lead to the generation of toxic H2S gas. According to Hard and 
+Soft, Acid/Base theory, the instability of the existing Li with P sulfides 
+root showed higher oxophilicity behavior because of the P5+ hard acid 
+nature. The soft dopant acid of Sb5+ is expected to connect more strongly 
+with the existing soft base of S2−
+as compare to P5+ and shows the 
+oxophobicity. This analysis is opposite in Li7P3S11, which suffers from 
+immediate hydrolysis and changes their conductive phase framework 
+when revealing to air. Therefor a solid-state electrolyte has shown sta­
+bility in air. 
+To check the stability of Li7Sb0.05P2.95S10.5I0.5 in ambient atmo­
+sphere, this synthesized sample was exposed in higher humidity of 
+40–47% in the air for a certain amount of period. It was noticed that 
+hydrogen sulfide gas (H2S) appeared as a significant raw product when 
+solid-state electrolytes were exposed to moisture; the amount of pro­
+duced H2S versus time graph was plotted, which described the stability 
+of solid electrolyte samples. The results indicate that Li7Sb0.05­
+P2.95S10.5I0.5 reacts with moisture air in Fig. 4 (a) after t = 35 min, and 
+the amount of H2S was only 0.37 cm3g−1 (26 ppm), while 1.32 cm3 g−1 
+(92 ppm) for Li7P3S11 at the same time. Fig. 4 (b) evaluate ex-situ XRD 
+plots of pristine Li7P3S11 after it was exposed at laboratory conditions 
+(40–47% humidity, RT) for 20 min. The ex-situ XRD curve intensities 
+broadening as well as diminishing of conductive phase peak after the air 
+exposure could be due to moisture absorbed in the Li7P3S11. As expected 
+for Li7Sb0.05P2.95S10.5I0.5 the peak intensity also remained unchanged 
+after air exposure. 
+Ex-situ Raman spectroscopy has been used to further explain the 
+structural dynamics of sulfide-based solid-state electrolytes after expo­
+sure to humid air. Fig. 4 (c) represented the ex-situ Raman spectra of as- 
+prepared Li7P3S11 and Li7Sb0.05P2.95S10.5I0.5 glass-ceramics electrolytes 
+before and after exposure to the moisture air. The two prominent peaks 
+at 420 cm−1 and 407 cm−1 were ascribed to the P-S bond stretching 
+vibration of conductive units PS4
+3−
+and P2S7
+4−
+respectively in pristine 
+Li7P3S11 and dual doped sample Li7Sb0.05P2.95S10.5I0.5 before exposure. 
+After exposure toward the humid air, the intensities of P2S7
+4−
+peak 
+decreased compared to the PS4
+3−peak in pristine Li7P3S11 spectra, and 
+also no significant changes were observed in the Li7Sb0.05P2.95S10.5I0.5 
+Raman curves. Principally, the air stability of Li7P3S11 initiates from the 
+P-S bonds based on the HSAB concept, but P-O bonds would auspiciously 
+form partially instead of P-S bonds consisting of the Li7P3S11 systems. 
+Therefore, limiting the P content in Li7P3S11 is a novel approach to 
+improving air stability. This can be determined after the Raman analysis, 
+that the doped sample with Sb contents tolerate structural variation 
+before & after air exposure [40]. 
+Air stability of the as-prepared samples was examined principally 
+because sulfide-based solid-state electrolytes are commonly air-sensitive 
+to moist air. The ex-situ SEM images of cross-section and surface of 
+Li7P3S11 and Li7Sb0.05P2.95S10.5I0.5 pellets in Fig. 5 (a-h). The morphol­
+ogies of the Li7Sb0.05P2.95S10.5I0.5 are analogous after and before moist 
+air exposure with 40–47% for 20 min; nevertheless, the particle 
+morphology was sharper and less creaked compared to pristine Li7P3S11. 
+Upon exposure to humid air, Li7P3S11 particle appeared to be more 
+similar to covered morphology via the coating layer, observing the shape 
+of particle blunt with more creaked posture [41]. 
+For the first time, the stability of the Li7Sb0.05P2.95S10.5I0.5 was 
+further verified for by the core-line photoelectron spectra, which were 
+collected at the phosphorus and sulfur L-edges of the as-prepared glass- 
+ceramics. Fig. 6 (a-h) showed the S2p and P2p detailed spectra of XPS for 
+the pristine and dual doped samples before and after exposure to air. 
+XPS peaks were deconvoluted by the Lorentzian-Gaussian function of all 
+S2p and P2p spectrum. The S2p3/2 peaks were attributed to the sulfur- 
+phosphorous of S = P bond (162.1 eV), non-bridging sulfur bond P-S- 
+M.K. Tufail et al.                                                                                                                                                                                                                               
+
+=== 第 7 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+7
+Li (161.5 eV), and the bridging sulfur P-S-P bond (162.7 eV), respec­
+tively in both kinds of samples pristine Li7P3S11 and Li7Sb0.05­
+P2.95S10.5I0.5. The responsive peaks of P 2p3/2 can be deconvolved into 
+two spin–orbit split signals that were attributed to the PS4
+3−(134.1 eV) 
+and P2S7
+4−
+(132.8 eV) correspondingly [40,42,43]. These outcomes 
+suggested that the conductive framework of as-prepared samples 
+Li7P3S11 and Li7Sb0.05P2.95S10.5I0.5 have both types of P2S7
+4−
+di- 
+tetrahedral and PS4
+3−
+tetrahedral units. In addition to fluctuating the 
+intensities of signals, a change in the fraction of both kinds of units was 
+observed after exposure of Li7P3S11 to humid air to cleavage of the P-S-P 
+bond. The reduction of the intensity of the S2p 162.7 eV peaks as well as 
+P2p 132.8 eV peak as a function of P-S-P bond cleavage, although no 
+particular variations were observed in the P-S bond peak of the PS4
+3−. 
+There was also no significant fluctuating detected in S2p and P2p 
+detailed deconvoluted spectra of Li7Sb0.05P2.95S10.5I0.5 before and after 
+moist air exposure. The Li7P3S11 sample generated a larger quantity of 
+H2S gas and observed the structural changes in the air as compared to 
+the Sb doped glass-ceramics sample. It is noteworthy that the amount of 
+H2S produced from the Li7P3S11 glass-ceramics was enormously 
+dependent on the bridging sulfur in the conductive framework [44]. This 
+is a clear indication; a new dual doped solid-state electrolyte is air-stable 
+due to no particular change occurs in ex-situ XRD, Raman, as well as XPS 
+peaks and ex-situ SEM images after air exposure and proves that 
+moisture does not alter intrinsic properties of the glass-ceramics 
+electrolyte. 
+3.4. Electrochemical properties 
+The electrochemical voltage window of both samples Li7P3S11 and 
+Li7Sb0.05P2.95S10.5I0.5 was evaluated by cyclic voltammetry (CV) test 
+with 0.5mVs−1 scan rate, and the voltage scan range was −0.5 V to 7 V 
+vs. Li/Li+ at room temperature. In Fig. 7 (a) the CV results of Li7P3S11 
+suggests that oxidation and reduction curves around −0.5 V to 5 V with 
+a little fluctuation due to minor instability from impropriate side reac­
+tion at the interface of electrolytes with Lithium metal. The CV graph of 
+pristine Li7P3S11 was reported in the literature [37,45] . Also, in Fig. 7 
+(b) CV results of Li7Sb0.05P2.95S10.5I0.5 illustrates that oxidation and 
+reduction curves across −0.5 V to 7 V was corresponding to lithium 
+deposition (Li+ + e−→Li) was below 0 V and peak of dissolution 
+(Li→Li+ + e−) at 0.27 V seen with no particular fluctuation. It means 
+Li7Sb0.05P2.95S10.5I0.5 was found almost compatible with lithium metal. 
+The partial doping of the I−into new synthesized solid-state electrolyte 
+found that interfacial stability enhanced due to LiI production at the Li- 
+metal interface [31,32]. The betterment of the stability for doped glass- 
+ceramics could be due to the presence of the I and Sb ions in the 
+conductive framework, limiting the unwanted reaction between Lithium 
+Fig. 4. (a) The quantity of H2S gas produced from both Li7Sb0.05P2.95S10.5I0.5 and Li7P3S11 solid-state electrolytes samples when exposed in moisture air. (b) The air 
+stability test of Li7Sb0.05P2.95S10.5I0.5 and Li7P3S11 examined by ex-situ XRD diffraction technique. (c) Ex-situ Raman results of the Li7P3S11 and Li7Sb0.05P2.95S10.5I0.5 
+before and after exposure to the moist air. 
+Fig. 5. Ex-situ SEM images of Li7P3S11 pellet: (a; b) Before air exposure, surface; cross-section. (c; d) After air exposure, surface; cross-section. Ex-situ SEM images of 
+Li7Sb0.05P2.95S10.5I0.5 pellets: (e; f) Before air exposure, surface; cross-section. (g; h) After air exposure, surface; cross-section. 
+M.K. Tufail et al.                                                                                                                                                                                                                               
+
+=== 第 8 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+8
+metal and electrolyte. 
+3.5. Electrochemical performance of ASSLSBs 
+Prosperous development of all-solid-state Li/S batteries demands to 
+the improvement of the high energy density and high capacity. To 
+demonstrate the cyclic performance, the ASSLSBs were assembled with 
+the as-prepared glass-ceramics electrolytes with Li2S-VGCF-SSE com­
+posite cathode material and Li and In alloy foil as an anode in the glove 
+box. Although, the Li-In alloying technique has been very successful in 
+reducing interfacial instability between the lithium metal anode and the 
+sulfide-based solid-state electrolytes [45–47]. 
+The cyclic performances of the all-solid-state Li/S battery with air- 
+stable Li7Sb0.05P2.95S10.5I0.5 and Li7P3S11 electrolytes are shown in 
+Fig. 8 (a). The charge and discharge curves of both ASSLSBs with 0.06 
+mA cm−2 against the cutoff potential from 0.01 to 3.5 V (vs. Li-In) and 
+corresponding Columbia efficiency at room temperature. Fig. 8 (b) 
+denoted the initial charge and discharge capacity of the all-solid-state 
+Li/S battery with Li7P3S11 electrolyte are 421.6 mAh g−1 and 419.2 
+mAh g−1; relative to the Li7Sb0.05P2.95S10.5I0.5 electrolyte based-battery 
+with an initial charge and discharge capacities are 620 mAh g−1 and 
+622.3 mAh g−1 correspondingly with a high coulombic efficiency of 
+100.3%. The discharge capacities of the both the ASSLSBs assembled 
+with Li7P3S11 and Li7Sb0.05P2.95S10.5I0.5 SSE samples improved with 
+increased the cycle number, the battery with Li2S-VGCF-SSE composite 
+Cathode/Li7Sb0.05P2.95S10.5I0.5/Li-In improved a discharging capacity 
+687.3 mAh g−1 after 15th cycles with the capacity retention of 100%. 
+On the other hand, the discharge capacity 463.3 mAhg−1 is main­
+tained for Li2S-VGCF-SSE composite cathode/Li7P3S11/Li-In with the 
+capacity retention of 98%. The meliorated specific capacity of the all- 
+solid-state Li/S battery with dual doped Li7Sb0.05P2.95S10.5I0.5 SSE was 
+attributed to the higher Li-ion conductivity, good electrochemical sta­
+bility, and homogeneously distributed cathode composite by two steps 
+high energy ball-milling. The improved cyclic stability has been 
+Fig. 6. Ex-situ X-ray photoelectron spectroscopy S 2p, P 2p detailed deconvoluted spectra of the Li7P3S11: (a-b) Before exposure of the moist air. (c-d) After exposure 
+to the humid air. S 2p, P 2p deconvoluted spectra of the Li7Sb0.05P2.95S10.5I0.5: (e-f) Before exposure of the moist air. (g-h) After exposure to the humid air. 
+Fig. 7. The cyclic voltammetry of (a) Li/Li7P3S11/stainless-steel and (b) Li/Li7Sb0.05P2.95S10.5I0.5/stainless-steel from −0.5 to 7 V with 0.5mVs−1 at room 
+temperature. 
+M.K. Tufail et al.                                                                                                                                                                                                                               
+
+=== 第 9 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+9
+achieved from Li7Sb0.05P2.95S10.5I0.5 solid-state electrolyte, which pro­
+hibits the loss of active substances and also shortens the migration 
+pathway of Li-ion with decreased activation energy. The Coulombic 
+efficiency of ASSLSBs remained unchanged during the cycles without 
+the generation of polysulfide intermediate [48–50]. Probably the solid- 
+state battery with Li7Sb0.05P2.95S10.5I0.5 disclosed higher discharging 
+plateaus showing lower polarization and smaller resistance. Fig. 8 (c) 
+depicts charge/discharge plateaus promised outstanding overlapping 
+cyclic performance for 2nd, 6th, 10th, and 15th cycle curves during 
+electrochemical measurements. 
+Furthermore, Li2S-VGCF-SSE composite cathode permit higher con­
+sumption of active mass, which may result from the excellent conduc­
+tivity of VGCP and its network framework, which exhibits an excellent 
+ionic transport with swift electron mobility. Pores of the VGCF facilitate 
+the absorption of polysulfides, results in preventing the polysulfide 
+shuttle [51]. Another aspect of the high capacity of Li2S-VGCF-SSE il­
+lustrates that mixed and high electronic/ionic conductivity can reinforce 
+the utilization of active material in the composite cathode [46,52]. 
+The results show that solute doping of Sb5+ and I−into a solid so­
+lution of glass-ceramics electrolytes. Li7P3S11 may progress electro­
+chemical cycle performance of all-solid-state Li/S batteries and no sign 
+of polysulfide shuttle effect observed in the 15 cycles. The spectacular 
+battery performance was credited to Sb2S5 and LiI doping, improved 
+reaction kinetics, and intimate contact between Li2S and VGCF to pro­
+duce operative conduction path to exploit the consumption of active 
+material during charging and discharging process. The defects created 
+by aliovalent dual doping, cause the modification of conductive frame to 
+broaden the Lithium diffusion channel may affect the enhancement of 
+lithium conduction. The as-synthesized defect rich Li7Sb0.05P2.95S10.5I0.5 
+superionic conductor also exhibits propitious cyclic performance in Li2S- 
+VGCF-SSE composite cathode/Li7Sb0.05P2.95S10.5I0.5/Li-In battery [53]. 
+Along with controlled composition modification by aliovalent dual 
+doping is an elegant approach to evolve upgraded battery technology for 
+energy storage applications. 
+4. Conclusions 
+In 
+this 
+work, 
+glass 
+ceramics 
+solid-state 
+electrolytes 
+of 
+Li7SbxP3−xS11−yIy (x = 0.05, 0.1 and y = 0.5, 0.7) was synthesized by an 
+annealing treatment in a solid-state reaction route via high energy ball 
+milling. Attaining high Li+ conductivity, along with remarkable air 
+stability that enables battery processing, leftovers a great challenge for 
+the solid-state electrolyte. Specifically, a new superionic Li+ conductor 
+Li7Sb0.05P2.95S10.5I0.5 was prepared that exhibited an auspicious Li+
+conductivity of 2.55 × 10−3 S cm−1 at room temperature and consid­
+erable chemical stability when exposed under the moist environment. 
+The obtained result was compared with the pristine Li7P3S11 composite. 
+Air stability was achieved according to the HSAB theory. The soft acid of 
+Sb5+ was introduced in the conductive framework and found modestly 
+stable against oxidation and hydrolysis. The exclusive mechanical 
+studied of dual doped Li7Sb0.05P2.95S10.5I0.5 was carried out by a com­
+bination of ex-situ X-ray photoelectron spectroscopy, XRD as well as 
+Raman spectroscopy and SEM. The structural changes and large lattice 
+volume, which lead to a decrease in the activation barrier for Li+
+mobility, induced by aliovalent dual doping of large size Sb5+ and I−. 
+Combined with the Li2S-composite cathode includes Li2S, VGCF, and 
+solid-state electrolyte. 
+Furthermore, the assembled ASSLSBs revealed a high initial 
+discharge capacity of 622.3 mAh g−1 and retained over 687.3 mAh g−1 
+after the 15th cycle at room temperature. This displayed better initial 
+discharge capacity than solid-state cells based on a Li7P3S11 electrolyte 
+at 0.06 mA cm−2, 0.01–3.5 V, vs. Li-In. Therefore, Li7Sb0.05P2.95S10.5I0.5 
+has excellent potential in the practical application for all-solid-state 
+lithium-sulfur batteries. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+This work was supported by the Nature Science Foundation of China 
+(No. 21575015, 21203008, 21975025), the Beijing Nature Science 
+Foundation (No. 2172051), the National Key Research and Development 
+Program of China “New Energy Project for Electric Vehicle” 
+(2016YFB0100204), the National Natural Science Foundation of China 
+(51772030), 
+Beijing 
+Outstanding 
+Young 
+Scientists 
+Program 
+(BJJWZYJH01201910007023). XRD measurements were performed in 
+the Analysis & Testing Center, Beijing Institute of Technology. Beijing, 
+China. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.cej.2020.127149. 
+References 
+[1] Y. Zhong, S. Wang, Y. Sha, M. Liu, R. Cai, L. Li, Z. Shao, Trapping sulfur in 
+hierarchically porous, hollow indented carbon spheres: a high-performance 
+cathode for lithium–sulfur batteries, J. Mater. Chem. A 4 (2016) 9526–9535. 
+Fig. 8. (a) The cyclic performance of the all solid-state electrolyte Li/S batteries with Li7Sb0.05P2.95S10.5I0.5 and Li7P3S11 as electrolytes at room temperature (b) The 
+1st and 15th charge and discharge curves of Li-In/Li7P3S11/Li2S-VGCF-SSE composite cathode and Li-In/Li7Sb0.05P2.95S10.5I0.5/Li2S-VGCF-SSE composite cathode 
+cells. (c) The 2nd, 6th, 10th and 15th charge/discharge plateaus of Li-In/Li7Sb0.05P2.95S10.5I0.5/Li2S-VGCF-SSE composite cathode cell. The all-solid-state batteries are 
+cycled at 0.060 mAcm−2 in the range of 0.01 to 3.5 V (vs. Li-In) at room temperature. 
+M.K. Tufail et al.                                                                                                                                                                                                                               
+
+=== 第 10 页 ===
+Chemical Engineering Journal 407 (2021) 127149
+10
+[2] Z.W. Seh, Y. Sun, Q. Zhang, Y. Cui, Designing high-energy lithium–sulfur batteries, 
+Chem. Soc. Rev. 45 (2016) 5605–5634. 
+[3] O. Ogoke, G. Wu, X. Wang, A. Casimir, L. Ma, T. Wu, J. Lu, Effective strategies for 
+stabilizing sulfur for advanced lithium–sulfur batteries, J. Mater. Chem. A 5 (2017) 
+448–469. 
+[4] Y. Yue, B. Guo, Z.-A. Qiao, P.F. Fulvio, J. Chen, A.J. Binder, C. Tian, S. Dai, Multi- 
+wall carbon nanotube@ zeolite imidazolate framework composite from a nanoscale 
+zinc oxide precursor, Microporous Mesoporous Mater. 198 (2014) 139–143. 
+[5] N. Ding, S.W. Chien, T.S.A. Hor, Z. Liu, Y. Zong, Key parameters in design of 
+lithium sulfur batteries, J. Power Sources 269 (2014) 111–116. 
+[6] A. Manthiram, Y. Fu, Y.-S. Su, Challenges and prospects of lithium–sulfur batteries, 
+Acc. Chem. Res. 46 (2013) 1125–1134. 
+[7] P.G. Bruce, S.A. Freunberger, L.J. Hardwick, J.-M. Tarascon, Li–O2 and Li–S 
+batteries with high energy storage, Nat. Mater. 11 (1) (2012) 19–29. 
+[8] P. Knauth, Inorganic solid Li ion conductors: An overview, Solid State Ionics 180 
+(2009) 911–916. 
+[9] L. Toffoletti, H. Kirchhain, J. Landesfeind, W. Klein, L. van Wüllen, H.A. Gasteiger, 
+T.F. F¨assler, Lithium ion mobility in lithium phosphidosilicates: crystal structure, 
+7Li, 29Si, and 31P MAS NMR spectroscopy, and impedance spectroscopy of Li8SiP4 
+and Li2SiP2, Chemistry–A European Journal. 22 (2016) 17635–17645. 
+[10] Z. Jiang, S. Wang, X. Chen, W. Yang, X. Yao, X. Hu, Q. Han, H. Wang, Tape-Casting 
+Li 0.34 La 0.56 TiO 3 Ceramic Electrolyte Films Permit High Energy Density of 
+Lithium-Metal Batteries, Adv. Mater. 32 (6) (2020) 1906221, https://doi.org/ 
+10.1002/adma.201906221. 
+[11] K. Takada, Progress and prospective of solid-state lithium batteries, Acta Mater. 61 
+(2013) 759–770. 
+[12] Z. Jiang, H. Xie, S. Wang, X. Song, X. Yao, H. Wang, Perovskite Membranes with 
+Vertically Aligned Microchannels for All-Solid-State Lithium Batteries, Adv. Energy 
+Mater. 8 (2018) 1801433. 
+[13] X. Chen, W. He, L.-X. Ding, S. Wang, H. Wang, Enhancing interfacial contact in all 
+solid state batteries with a cathode-supported solid electrolyte membrane 
+framework, Energy Environ. Sci. 12 (3) (2019) 938–944, https://doi.org/10.1039/ 
+C8EE02617C. 
+[14] Z. Wu, Z. Xie, A. Yoshida, X. An, Z. Wang, X. Hao, A. Abudula, G. Guan, Novel SeS2 
+doped Li2S-P2S5 solid electrolyte with high ionic conductivity for all-solid-state 
+lithium sulfur batteries, Chem. Eng. J. 380 (2020), 122419. 
+[15] L. Zhou, M.K. Tufail, L.e. Yang, N. Ahmad, R. Chen, W. Yang, Cathode-doped 
+sulfide electrolyte strategy for boosting all-solid-state lithium batteries, Chem. Eng. 
+J. 391 (2020) 123529, https://doi.org/10.1016/j.cej.2019.123529. 
+[16] Z. Yang, H. Yuan, C. Zhou, Y. Wu, W. Tang, S. Sang, H. Liu, Facile interfacial 
+adhesion enabled LATP-based solid-state lithium metal battery, Chem. Eng. J. 392 
+(2020) 123650, https://doi.org/10.1016/j.cej.2019.123650. 
+[17] Y. Ren, K. Chen, R. Chen, T. Liu, Y. Zhang, C. Nan, Oxide electrolytes for lithium 
+batteries, J. Am. Ceram. Soc. 98 (2015) 3603–3623. 
+[18] B.V. Lotsch, J. Maier, Relevance of solid electrolytes for lithium-based batteries: A 
+realistic view, J. Electroceram. 38 (2017) 128–141. 
+[19] N. Kamaya, K. Homma, Y. Yamakawa, M. Hirayama, R. Kanno, M. Yonemura, 
+T. Kamiyama, Y. Kato, S. Hama, K. Kawamoto, A. Mitsui, A lithium superionic 
+conductor, Nature Mater. 10 (9) (2011) 682–686. 
+[20] Y. Kato, S. Hori, T. Saito, K. Suzuki, M. Hirayama, A. Mitsui, M. Yonemura, H. Iba, 
+R. Kanno, High-power all-solid-state batteries using sulfide superionic conductors, 
+Nat. Energy 1 (2016) 16030. 
+[21] Y. Seino, T. Ota, K. Takada, A. Hayashi, M. Tatsumisago, A sulphide lithium super 
+ion conductor is superior to liquid ion conductors for use in rechargeable batteries, 
+Energy Environ. Sci. 7 (2014) 627–631. 
+[22] E. Rangasamy, G. Sahu, J.K. Keum, A.J. Rondinone, N.J. Dudney, C. Liang, A high 
+conductivity oxide–sulfide composite lithium superionic conductor, J. Mater. 
+Chem. A 2 (2014) 4111–4116. 
+[23] S. Mo, P. Lu, F. Ding, Z. Xu, J. Liu, X. Liu, Q. Xu, High-temperature performance of 
+all-solid-state battery assembled with 95 (0.7 Li2S-0.3 P2S5)-5Li3PO4 glass 
+electrolyte, Solid State Ionics 296 (2016) 37–41. 
+[24] H. Yamane, M. Shibata, Y. Shimane, T. Junke, Y. Seino, S. Adams, K. Minami, 
+A. Hayashi, M. Tatsumisago, Crystal structure of a superionic conductor, Li7P3S11, 
+Solid State Ionics 178 (2007) 1163–1167. 
+[25] I.-H. Chu, H. Nguyen, S. Hy, Y.-C. Lin, Z. Wang, Z. Xu, Z. Deng, Y.S. Meng, S.P. Ong, 
+Insights into the performance limits of the Li7P3S11 superionic conductor: a 
+combined first-principles and experimental study, ACS Appl. Mater. Interfaces 8 
+(2016) 7843–7853. 
+[26] R.C. Xu, X.H. Xia, Z.J. Yao, X.L. Wang, C.D. Gu, J.P. Tu, Preparation of Li 7 P 3 S 11 
+glass-ceramic electrolyte by dissolution-evaporation method for all-solid-state 
+lithium ion batteries, Electrochim. Acta 219 (2016) 235–240. 
+[27] K. Ohara, A. Mitsui, M. Mori, Y. Onodera, S. Shiotani, Y. Koyama, Y. Orikasa, 
+M. Murakami, K. Shimoda, K. Mori, Structural and electronic features of binary Li 2 
+SP 2 S 5 glasses, Sci. Rep. 6 (2016) 21302. 
+[28] N. Zhang, F. Ding, S. Yu, K. Zhu, H. Li, W. Zhang, X. Liu, Q. Xu, Novel Research 
+Approach Combined with Dielectric Spectrum Testing for Dual-Doped Li 7 P 3 S 11 
+Glass-Ceramic Electrolytes, ACS Appl. Mater. Interfaces 11 (31) (2019) 
+27897–27905. 
+[29] K. Xiao, Q.-Z. Xu, K.-H. Ye, Z.-Q. Liu, L.-M. Fu, N. Li, Y.-B. Chen, Y.-Z. Su, Facile 
+Hydrothermal Synthesis of Sb2S3 Nanorods and Their Magnetic and 
+Electrochemical Properties, ECS Solid State Letters 2 (6) (2013) P51–P54. 
+[30] S. Ito, K. Tsujimoto, D.-C. Nguyen, K. Manabe, H. Nishino, Doping effects in Sb2S3 
+absorber for full-inorganic printed solar cells with 5.7% conversion efficiency, Int. 
+J. Hydrogen Energy 38 (36) (2013) 16749–16754. 
+[31] M.A. Kraft, S. Ohno, T. Zinkevich, R. Koerver, S.P. Culver, T. Fuchs, A. Senyshyn, 
+S. Indris, B.J. Morgan, W.G. Zeier, Inducing High Ionic Conductivity in the Lithium 
+Superionic Argyrodites Li 6+ x P 1– x Ge x S 5 I for All-Solid-State Batteries, J. Am. 
+Chem. Soc. 140 (47) (2018) 16330–16339. 
+[32] J. Kang, B. Han, First-principles characterization of the unknown crystal structure 
+and ionic conductivity of Li7P2S8I as a solid electrolyte for high-voltage Li ion 
+batteries, The Journal of Physical Chemistry Letters. 7 (2016) 2671–2675. 
+[33] R. Rajagopal, K.-S. Ryu, Evaluation of Li6P2S8I solid electrolyte for all solid-state 
+lithium battery applications, Chem. Eng. J. 402 (2020) 126179, https://doi.org/ 
+10.1016/j.cej.2020.126179. 
+[34] I. XPS International, BE Lookup Table for Signals from Elements and Common 
+Chemical Species, Handbook of The Elements and Native Oxides. (1999) 1–4. 
+[35] D. Xie, S. Chen, Z. Zhang, J. Ren, L. Yao, L. Wu, X. Yao, X. Xu, High ion conductive 
+Sb2O5-doped β-Li3PS4 with excellent stability against Li for all-solid-state lithium 
+batteries, J. Power Sources 389 (2018) 140–147. 
+[36] C. Dietrich, D.A. Weber, S.J. Sedlmaier, S. Indris, S.P. Culver, D. Walter, J. Janek, 
+W.G. Zeier, Lithium ion conductivity in Li 2 S–P 2 S 5 glasses – building units and 
+local structure evolution during the crystallization of superionic conductors Li 3 PS 
+4 , Li 7 P 3 S 11 and Li 4 P 2 S 7, J. Mater. Chem. A 5 (34) (2017) 18111–18119. 
+[37] R.-C. Xu, X.-H. Xia, X.-l. Wang, Y. Xia, J.-P. Tu, Tailored Li 2 S–P 2 S 5 glass- 
+ceramic electrolyte by MoS 2 doping, possessing high ionic conductivity for all- 
+solid-state lithium-sulfur batteries, J. Mater. Chem. A 5 (6) (2017) 2829–2834. 
+[38] R.-C. Xu, X.-H. Xia, S.-H. Li, S.-Z. Zhang, X.-l. Wang, J.-P. Tu, All-solid-state 
+lithium–sulfur batteries based on a newly designed Li 7 P 2.9 Mn 0.1 S 10.7 I 0.3 
+superionic conductor, J. Mater. Chem. A 5 (13) (2017) 6310–6317. 
+[39] B.G. Silbernagel, M.S. Whittingham, An NMR study of the alkali metal intercalation 
+phase Li x TiS2: Relation to structure, thermodynamics, and ionicity, J. Chem. 
+Phys. 64 (1976) 3670–3673. 
+[40] J. Liang, N. Chen, X. Li, X. Li, K.R. Adair, J. Li, C. Wang, C. Yu, M. Norouzi Banis, L. 
+i. Zhang, S. Zhao, S. Lu, H. Huang, R. Li, Y. Huang, X. Sun, Li 10 Ge(P 1– x Sb x) 2 S 
+12 Lithium-Ion Conductors with Enhanced Atmospheric Stability, Chem. Mater. 32 
+(6) (2020) 2664–2672. 
+[41] S.-L. Shang, Z. Yu, Y.i. Wang, D. Wang, Z.-K. Liu, Origin of Outstanding Phase and 
+Moisture Stability in a Na 3 P 1– x As x S 4 Superionic Conductor, ACS Appl. Mater. 
+Interfaces 9 (19) (2017) 16261–16269. 
+[42] Y. Wang, T. Matsuyama, M. Deguchi, A. Hayashi, A. Nakao, M. Tatsumisago, X-ray 
+photoelectron spectroscopy for sulfide glass electrolytes in the systems 
+Li2S&ndash;P2S5 and Li2S–P2S5–LiBr, J. Ceram. Soc. Jpn. 124 (2016) 597–601, 
+https://doi.org/10.2109/jcersj2.16006. 
+[43] C. Dietrich, R. Koerver, M.W. Gaultois, G. Kieslich, G. Cibin, J. Janek, W.G. Zeier, 
+Spectroscopic characterization of lithium thiophosphates by XPS and XAS – a 
+model to help monitor interfacial reactions in all-solid-state batteries, Phys. Chem. 
+Chem. Phys. 20 (30) (2018) 20088–20095, https://doi.org/10.1039/C8CP01968A. 
+[44] H. Muramatsu, A. Hayashi, T. Ohtomo, S. Hama, M. Tatsumisago, Structural 
+change of Li2S–P2S5 sulfide solid electrolytes in the atmosphere, Solid State Ionics 
+182 (1) (2011) 116–119, https://doi.org/10.1016/j.ssi.2010.10.013. 
+[45] N. Ahmad, L. Zhou, M. Faheem, M.K. Tufail, L.e. Yang, R. Chen, Y. Zhou, W. Yang, 
+Enhanced Air Stability and High Li-Ion Conductivity of Li 6.988 P 2.994 Nb 0.2 S 
+10.934 O 0.6 Glass–Ceramic Electrolyte for All-Solid-State Lithium–Sulfur 
+Batteries, ACS Appl. Mater. Interfaces 12 (19) (2020) 21548–21558, https://doi. 
+org/10.1021/acsami.0c00393. 
+[46] F. Han, J. Yue, X. Fan, T. Gao, C. Luo, Z. Ma, L. Suo, C. Wang, High-performance 
+all-solid-state lithium–sulfur battery enabled by a mixed-conductive Li2S 
+nanocomposite, Nano Lett. 16 (2016) 4521–4527. 
+[47] C. Yu, J. Hageman, S. Ganapathy, L. van Eijck, L. Zhang, K.R. Adair, X. Sun, 
+M. Wagemaker, Tailoring Li 6 PS 5 Br ionic conductivity and understanding of its 
+role in cathode mixtures for high performance all-solid-state Li–S batteries, 
+J. Mater. Chem. A 7 (2019) 10412–10421. 
+[48] H. Wang, Z.D. Hood, Y. Xia, C. Liang, Fabrication of ultrathin solid electrolyte 
+membranes of β-Li 3 PS 4 nanoflakes by evaporation-induced self-assembly for all- 
+solid-state batteries, J. Mater. Chem. A 4 (21) (2016) 8091–8096, https://doi.org/ 
+10.1039/C6TA02294D. 
+[49] W. Zhang, Y. Zhao, V. Malgras, Q. Ji, D. Jiang, R. Qi, K. Ariga, Y. Yamauchi, J. Liu, 
+J. Jiang, Synthesis of monocrystalline nanoframes of prussian blue analogues by 
+controlled preferential etching, Angew. Chem. Int. Ed. 55 (2016) 8228–8234. 
+[50] M.R. Busche, D.A. Weber, Y. Schneider, C. Dietrich, S. Wenzel, T. Leichtweiss, 
+D. Schr¨oder, W. Zhang, H. Weigand, D. Walter, In situ monitoring of fast Li-ion 
+conductor Li7P3S11 crystallization inside a hot-press setup, Chem. Mater. 28 
+(2016) 6152–6165. 
+[51] Z. Deng, Z. Zhang, Y. Lai, J. Liu, Y. Liu, J. Li, A sulfur–carbon composite for 
+lithium/sulfur battery based on activated vapor-grown carbon fiber, Solid State 
+Ionics 238 (2013) 44–49, https://doi.org/10.1016/j.ssi.2013.03.018. 
+[52] Y. Zhang, T. Liu, Q. Zhang, X. Zhang, S. Wang, X. Wang, L. Li, L.-Z. Fan, C.-W. Nan, 
+Y. Shen, High-performance all-solid-state lithium–sulfur batteries with sulfur/ 
+carbon nano-hybrids in a composite cathode, J. Mater. Chem. A 6 (46) (2018) 
+23345–23356, https://doi.org/10.1039/C8TA08420C. 
+[53] J. Lau, R.H. DeBlock, D.M. Butts, D.S. Ashby, C.S. Choi, B.S. Dunn, Sulfide solid 
+electrolytes for lithium battery applications, Adv. Energy Mater. 8 (2018) 
+1800933. 
+M.K. Tufail et al.                                                                                                                                                                                                                               

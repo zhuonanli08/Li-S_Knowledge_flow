@@ -1,0 +1,30 @@
+# 密钥：绝不提交
+.elsevier_key
+*.key
+.env
+
+# 依赖与缓存
+__pycache__/
+*.pyc
+node_modules/
+**/_deps/
+
+# 文献原文（版权）与大体积打包
+*.pdf
+*.doc
+*.docx
+*.zip
+对标文献/
+output/preflight_raw_*.json.gz
+
+# 方案D 不用引用：引用相关结果不上云（本机原样保留）
+output/方案D_试点/敏感性检验/
+output/cited_meta*.json.gz
+**/引用表.csv
+
+# 调试残留
+*.bak
+*.inspect.ndjson
+
+# 不适用的旧方案/旧结果（本机保留）
+不适用/

@@ -1,0 +1,1412 @@
+=== 第 1 页 ===
+© 2021 Wiley-VCH GmbH
+Supporting Information
+for Adv. Funct. Mater., DOI: 10.1002/adfm.202010620
+Linking Solid Electrolyte Degradation to Charge Carrier
+Transport in the Thiophosphate-Based Composite
+Cathode toward Solid-State Lithium-Sulfur Batteries
+Saneyuki Ohno,* Carolin Rosenbach, Georg F. Dewald,
+Jürgen Janek,* and Wolfgang G. Zeier*
+
+=== 第 2 页 ===
+S1 
+ 
+ 
+Supporting information 
+Linking solid electrolyte degradation to charge carrier 
+transport in the thiophosphate-based composite cathode 
+toward solid-state lithium-sulfur batteries 
+ 
+Saneyuki Ohnoa,b,c*, Carolin Rosenbacha,b, Georg F. Dewalda,b, Jürgen Janeka,b*,  
+Wolfgang G. Zeierd* 
+ 
+aInstitute of Physical Chemistry, Justus-Liebig-University Gießen, Heinrich-Buff-Ring 17, D-
+35392 Gießen, Germany 
+bCenter for Materials Research (ZfM), Justus-Liebig-University Gießen, Heinrich-Buff-Ring 
+16, D-35392 Gießen, Germany 
+cDepartment of Applied Chemistry, Graduate School of Engineering, Kyushu University, 744 
+Motooka, Nishi-ku, 819-0395 Fukuoka, Japan 
+dInstitute of Inorganic and Analytical Chemistry, University of Münster, 
+Corrensstrasse 30, 48149 Muenster, Germany 
+ 
+ 
+Email: 
+*saneyuki.ohno@cstf.kyushu-u.ac.jp 
+*juergen.janek@pc.jlug.de  
+*wzeier@uni-muenster.de 
+ 
+ 
+Table of contents: 
+1. Experimental methods 
+2. Potential profiles of SE-C cells with various cutoff potentials 
+3. XPS analysis: Variations in the degree of oxidation 
+4. DC polarization measurements 
+
+=== 第 3 页 ===
+S2 
+ 
+5. Interfacial resistance between In/InLi anode and Li6PS5Cl 
+6. SEM cross-section images of the composite cathode 
+7. Kramers-Kronig test and Bode plot 
+8. Fit results of cell(i) – (iii) 
+9. Comparison of the fit results with a simple RC parallel circuit vs. those obtained with a TLM 
+10. Conductivity and activation energy of ball-milled Li6PS5Cl 
+11. Fit results of the cells with 8020 and 7030 SE-C composites 
+12. Warburg coefficients from temperature dependent impedance spectra 
+13. Cycling results with SE-C composites possessing 10, 20, and 30wt% of carbon  
+14. Representative impedance data obtained from the SE-C and SE-C-S composites 
+15. Fit results of the potential dependence tests 
+16. Potential profiles of the Li-S batteries with various cutoff potentials 
+17. Reproducibility and long-term cyclability of SE-C-S cells 
+18. Current status of the conversion type cathode performance 
+ 
+ 
+1. Experimental methods 
+Cathode preparation: Li6PS5Cl (SE) was synthesized through classic solid-state reaction by mixing the 
+precursors (LiCl, Li2S, and P2S5) with a mortar and pestle, pelletizing the resulting mixture with a manual 
+screw press, and annealing the pellet at 550 ℃ in a sealed ampule for a week.1,2 X-ray diffraction and 
+temperature dependent impedance spectroscopy of the resulting sample showed phase purity (impurities 
+less than 1 wt%), the ionic conductivity (1.8 mS cm-1), and the activation energy of the ionic conductivity 
+(0.38 eV) as shown in previous work.3 Further details of the synthesis and the measurement procedures can 
+be found elsewhere.1,2,4 The SE-carbon (C) composites with the mass ratios of m(SE):m(C) = 90:10, 80:20, 
+and 70:30 were obtained by ball-milling the SE and the conductive additive (ECP600JD, LION). The 
+milling was conducted with the total 200 mg of SE-C mixture with 30 g of ZrO2 milling media with the 
+diameter of 5 mm at 600 rpm for four hours. A 10-minute break was taken every 10 minutes of milling. As 
+a comparison, as-synthesized Li6PS5Cl was also ball-milled under the same condition without carbon 
+additives, showing an ionic conductivity of (0.76 mS cm-1) with the activation energy of 0.39 eV. The 
+cathode composite for the solid-state Li-S batteries, i. e. the SE-C-S composite, was produced by two-step 
+milling. First, a sulfur-carbon (ECP600JD) mixture was prepared in the same way as in ref 2, followed by 
+milling with Li6PS5Cl with a weight ratio of 1:1 (resulting mass ratio is m(SE):m(C):m(S) = 3:1:2). The 
+milling processes were conducted with the same parameters as the ones for the SE-C composite. Due to the 
+sensitivity to air and moisture, all the sample handlings were done under Ar protective atmosphere. 
+
+=== 第 4 页 ===
+S3 
+ 
+Step-wise cyclic voltammetry (CV): Step-wise CV is useful to address materials´ electrochemical stability 
+and the redox behavior of the decomposition products.5 80 mg of Li6PS5Cl (102 mg cm-2) were loaded into 
+the cell with a diameter of 10 mm (area of 0.785 cm2) as separator and prepressed with a manual press in 
+the glove box, followed by loading 12 mg (15.3 mg cm-2) of SE-C composite prepared with the weight ratio 
+of SE:C is 9:1. The cell stack was electronically pre-pressed under 380 MPa and then the In or In and Li 
+foils were loaded on the other side of the separator as anode. All cells were fixed in a metal frame to 
+maintain a pressure at around 50 MPa. Each scan was started from around the open circuit voltage to the 
+chosen reversal potential (vs. In/InLi as reference potential) with a scan speed of 0.1 mV s-1, followed by 
+the reverse scan with – 0.1 mV s-1. The following scan was then conducted to the next reversal potential, 
+which was higher or lower by 0.1 V for the oxidative and reductive runs, respectively. The oxidative or 
+reductive step-wise CVs were performed up to 3.5 V or down to 0 V vs. In/InLi potential. In foil was 
+employed as anode material for the oxidative step-wise CV.5 One important note on the usage of In foil is 
+that, although the reference potential is not fixed before the measurement, it is pinned to 0.62 V vs. Li+/Li 
+(In/InLi reference potential) as soon as the measurement started with a negligible amount of current flow.6,7 
+In and Li foils were employed to supply a sufficient amount of lithium to test the reduction stability through 
+reductive step-wise CV. The employed In and Li foils possess the diameter of 9 mm and 6 mm and thickness 
+of 100 μm and 120 μm, respectively. The resulting molar ratio is mol(In):mol(Li) = 3:2 to ensure the In/InLi 
+anode potential of 0.62 V vs. Li+/Li as a reference potential.7 Details of the oxidative step-wise CV with 
+hand-ground SE-C composites can be found in ref 5. All the CV tests were conducted at 25 ℃. 
+Cycling tests: The reversibility of the redox reactions of degradation products of a SE-C composite were 
+investigated by cycling the SE-C composite like a cathode material. Here, the mass ratio m(SE):m(C) = 9:1 
+was employed. The cells were cycled within 1 − 1.8 V, 1 − 2.4 V, 1 − 2.7 V, and 1 − 3.0 V vs. In/InLi, as 
+well as 0 − 2.7 V vs. In/InLi with a constant current of 446 μA (568 μA cm-2). The total loading of the SE-
+C composite was 12 mg (15.3 mg cm-2), corresponding to the SE loading of 10.8 mg (13.8 mg cm-2). The 
+cycling tests with a SE-C-S composite (the mass ratio m(SE):m(C):m(S) = 3:1:2) were performed with a 
+total cathode loading of 8 mg (10.2 mg cm-2), corresponding to a sulfur loading of 2.67 mg (3.40 mg cm-2). 
+In both cases, cells were constructed with 80 mg of as-synthesized SE separator (102 mg cm-2) with In and 
+Li foils, possessing the diameter of 9 mm and 6 mm and the thickness of 100 μm and 120 μm, respectively. 
+The applied current for cycling was 446 μA (568 μA cn-2), corresponding to 0.1 C. The lower and upper 
+cutoff potentials were 0 or 1 V and 2.7 or 3.0 V. All cycling tests were performed inside the climate chamber 
+at 25 ℃. 
+Impedance spectroscopy: Impedance spectroscopy was performed to analyze the Li ion and electron 
+transport in the composite cathodes with a VMP-300 impedance analyzer (BioLogic). The resulting 
+
+=== 第 5 页 ===
+S4 
+ 
+impedance spectra were analyzed by fitting the impedance spectra with a transmission-line model (TLM) 
+using RelaxIS 3 (rhd instruments, Germany). The perturbation amplitude was set to 10 mV after confirming 
+no apparent change in spectra with 5 mV and 20 mV. The applied frequency ranges are varied depending 
+on the time-constant of the cells (within the range of 7 MHz – 5 mHz). All cells were measured in metal 
+frames to maintain the pressure at around 50 MPa. Thickness dependency test: To validate a TLM analysis, 
+three cell configurations with a m(SE):m(C) = 90:10 composite were prepared as shown in Figure 3. Cell(i) 
+was a cathode half-cell with 15.3 mg cm-2 of SE-C composite with an anode with In/InLi potential prepared 
+with In and Li foils as mentioned above (102 mg cm-2 of SE as a separator). The anode foils were loaded 
+after pre-pressing the cathode and separator under 380 MPa for 3 min. Cell(ii) and Cell(iii) were symmetric 
+cells with either 15.3 or 30.6 mg cm-2 of SE-C composite on both sides of the cells (102 mg cm-2 of SE as 
+a separator). The entire cells were pressed with 380 MPa for 3 min. The equilibration time was at least 3 
+hours and the measurements were repeated for 2 times to double-check reversibility. To remove the noise 
+in the low-frequency range, all impedance measurements were performed in a climate chamber with the 
+temperature controlled to be 25 ℃. Temperature dependent tests: The temperature dependent 
+measurements were performed between – 40 ℃ to 60 ℃, with an hour of equilibration time except the first 
+step from room temperature to – 40 ℃ where the equilibration time was two hours. The same procedure 
+was applied in the temperature dependent impedance measurement to evaluate Ea in the ball-milled SE. To 
+evaluate the activation energy of ionic transport in the composites, only the data taken below 25 ℃ were 
+included to minimize the influence of electronic transport. This is to secure the required condition of rion ≫ 
+re (see Section 2.2.3). Potential dependent tests: To test the potential dependence, two identical cells with 
+the cell (i) configuration in Figure 3 were constructed. One was used for the reduction test and the other 
+one was used for the oxidation test. In both cases, the potential of the working electrode is scanned from 
+OCV (about 1.55 V vs. In/InLi) to the target potential with 0.1 mV s-1 and kept at the target potential for 12 
+h to let the degradation proceed. The charge consumed or delivered while scanning and holding the potential 
+are also monitored to assess the degree of degradation. After an hour of cell relaxation, the impedance 
+measurement was conducted, followed by the next potential scan to the target potential lower or higher by 
+0.1 V. The measurements are performed down to 0 V for the reductive test and up to 3 V for the oxidative 
+test. While a TLM analysis could be applied all the way down to 0 V vs. In/InLi for the reduction test, it 
+was applicable only up to 2.4 vs. In/InLi for the oxidation test. The total resistance of the cathode layer 
+above 2.5 V vs. In/InLi was well fitted by a semi-circle, reflecting a highly resistive interphase being the 
+rate-determining process. 
+Direct current (DC) polarization measurements: The effective electronic and ionic conductivities of the 
+SE-C composite (m(SE):m(C) = 90:10) were measured through DC polarization to compare them with the 
+results from AC measurements (impedances). The effective partial electronic and ionic conductivities were 
+
+=== 第 6 页 ===
+S5 
+ 
+measured with ion-blocking (stainless steel) and electron-blocking (as-synthesized argyrodites) electrodes 
+in symmetric cell configuration. In both cases 100 mg of cathode is loaded in a cell with an electrode area 
+of 0.785 cm2. The applied potentials were 5, 10, 20, 30, 40, and 50mV with an equilibration time of 12 h. 
+The results are shown in Figure S3. All cells were pressed under 380 MPa (before adding the metal anodes 
+for ion transport measurement) and the measurements were conducted in a metal frame to maintain the 
+pressure at around 50 MPa. To subtract the additional resistance contributions from the interface between 
+the In/InLi anode and SE, a symmetric cell of In/InLi|SE|In/InLi was also constructed and measured. The 
+result is shown in Figure S4. 
+Analytical investigations: The phase purity of the employed Li6PS5Cl before processing was confirmed 
+by X-ray diffraction (XRD) before processing.2 The thickness of the SE-C composite layers was determined 
+by cross-section images taken by a Zeiss MERLIN scanning electron microscope (Carl Zeiss). A transfer 
+vessel (Leica EM VC500) was used to transfer the disassembled battery cells, which were snapped to 
+expose the cross sections. Measurements were carried out by application of an acceleration voltage of 5 kV 
+and a probing current of 1000 pA with backscattered electrons. The results are shown in Figure S5. The 
+binding energy of the SE in cathode composites before and after cycling, as well as before and after mixing 
+with carbon additives were investigated with X-ray photoelectron spectroscopy (XPS). All the sample 
+handlings were conducted under protective argon atmosphere, and the sample transfer was performed with 
+the transfer module to eliminate the exposure to air and moisture. To rule out the shift in the energy from 
+of surface effects, a very gentle sputtering was applied before obtaining the profiles for each element (Ar+ 
+sputtering with 0.5 kV and 0.5 µA on the area of 36 mm² for 5 min). The analysis was conducted with Casa 
+XPS software. All spectra were charge corrected to a binding energy of 284.8 eV for the C 1s line. The 
+peak separation of the doublets found in S 2p and P 2p spectra were 1.21 and 0.87 eV, respectively. The 
+full-width-half-maxima (FWHM) of all the doublets were constrained to evaluate the peak broadening as 
+an indication of a glass formation. The higher the FWHM is, possibly the higher the amorphous contents 
+are due to the variation in the binding energy. All the results are in Figure S2. 
+ 
+ 
+
+=== 第 7 页 ===
+S6 
+ 
+2. Potential profiles of SE-C cells with various cutoff potentials 
+Figure S1: The potential profiles of the cells with the SE-C composites as a cathode material cycled within 
+(a) 1 − 2.4 V, (b) 1 – 2.7 V, (c) 1 – 3.0 V, and (d) 0 – 2.7 V vs. In/InLi are compared. (c) is the same as 
+Figure 2d. As long as the lower cut-off potential is limited to the potential higher than that causing drastic 
+reductive degradation, the general cycling performance is governed by the degree of oxidative degradation. 
+As evident, the observed capacity increases as the upper-cutoff potential increases from (a) to (c). Very 
+little charge observed in the initial discharge down to 1 V vs. In/InLi indicates only the minor degree of 
+reductive degradation when the cell is cycled above that potential. 
+ 
+
+=== 第 8 页 ===
+S7 
+ 
+3. XPS analysis: Variations in the degree of oxidation  
+ 
+ 
+Figure S2: XP spectra obtained from the as-synthesized Li6PS5Cl (pristine), the ball-milled SE-carbon 
+composite before cycling (milled SE-C), and the composites in their charged state after 100 cycles with 
+various cutoff potentials (1 – 2.4 V, 1 – 3 V, and 0 – 3 V). All spectra were fitted by multiple doublets with 
+a peak separation of 1.21 eV as color coded in the figure constraining the full width half maxima (FWHM, 
+unit of eV) to be the same for all peaks. The resulting FWHMs are listed in each panel in units of eV. All 
+spectra were obtained after a gentle sputtering as a cleaning step, which led to a minute sputtering artifact 
+in the phosphorous signal indicated by ∗ (purple doublets). Whereas there is no apparent difference in the 
+spectra before and after ball-milling with carbon, except a slight change in FWHM, drastic changes were 
+observed after cycling. The pristine S 2p and P 2p spectra agrees well with reported spectra.2,8,9 The small 
+
+=== 第 9 页 ===
+S8 
+ 
+peak in P 2p at lower binding energy (purple doublets with ∗) only appears after sputtering. (c)−(e) are 
+measured from the cathode composites in the charged state after 50 cycles between 1 − 2.4V, 1− 3.0V, and 
+0 − 2.7 V, respectively. While (c) and (d) indicate a formation of elemental sulfur and thiophosphates with 
+higher binding energies, (e) shows the irreversible formation of Li2S.  
+ 
+4. DC polarization measurements 
+The DC polarization measurements were performed to corroborate the effective ionic and electronic 
+conductivities obtained through impedance measurements and the TLM analysis. Figure S3 shows the 
+schematics of the measurement setups with electron-blocking (In/InLi|SE|SE-C|SE|In/InLi) and ion-
+blocking (stainless-steel|SE-C|stainless-steel) electrodes, as well as their measurement results. The range of 
+the potential applied to the working electrode is 5 ≤ |V| ≤ 50 mV. Each potential has been kept for 12 h to 
+fully polarize before the steady direct current was registered. To omit the influence of floating potentials, 
+the current direction is flipped for each potential step as indicated with the negative voltages in Figure b 
+and d. As indicated in the figures, the resistances arising from the ionic and electronic transport can be well 
+extracted. To obtain the effective ionic conductivity of the SE-C composite Rion from the measured total 
+resistance Rion,DC, it is necessary to subtract additional contributions, such as the contribution from the 
+electron blocking layers (orange SE layers, RSE) and the contribution from the interface between SE layer 
+and InLi anode, RSE/InLi. Each RSE can be estimated to be 36 Ω as there is 60 mg of the SE layer with 1.8 mS 
+cm-1 (See Figure SX as well, as the resistance is 60 Ω with 100 mg of SE). The 2RSE/InLi is determined to be 
+26.6 Ω based on the In/InLi-SE-In/InLi symmetric cell result shown in Figure S4. With the information of 
+the cell constant, the effective ionic conductivity of the composite is calculated to be 0.17 mS cm-1. The 
+ionic conductivity measured by DC (0.17 mS cm-1) is slightly lower than that by AC shown in Figure 4c in 
+the main text (0.20 ± 0.02 mS cm-1). This is possibly due to the interface that is not captured here (e.g. 
+interface between SE and SE-C layers), but the difference is very subtle and negligible. As for the electronic 
+transport, the measured resistance (Re,DC) can directly be converted to the effective electronic conductivity, 
+resulting in the value of 1.9 mS cm-1 which is in excellent agreement with AC result (1.9 ± 0.2 mS cm-1). 
+As explained in Figure S3, considering the fact that a widely-used semi-circle fitting on the lower frequency 
+tail overestimates the effective ionic conductivity by almost a factor of four, the results above clearly 
+highlight the value of the appropriate impedance analysis with a TLM. 
+
+=== 第 10 页 ===
+S9 
+ 
+ 
+Figure S3: DC polarization measurements are performed to corroborate the results from impedance spectra 
+with a TLM analysis. (a) shows the schematic of the electron blocking measurement setup for the ion 
+transport measurement and its result is shown in figure (b). Similarly, (c) shows the ion-blocking 
+measurement setup and (d) is the results. 
+ 
+5. Interfacial resistance between In/InLi anode and Li6PS5Cl 
+An interfacial resistance between anode and SE is estimated by constructing a symmetric cell of the type 
+In/InLi|SE|In/InLi. The measured impedance result is shown in Figure S4. This is essential information and 
+helps to determine the effective partial ionic conductivity with a In/InLi|SE|SE-C|SE|In/InLi cell 
+configuration and also is very helpful to determine the additional process overlapping in the frequency 
+range for the TLM analysis in this work. 
+
+=== 第 11 页 ===
+S10 
+ 
+ 
+Figure S4: (a) shows a schematic of the experimental set-up and the utilized equivalent circuit to determine 
+the interfacial resistances. (b) shows a Nyquist plot of the resulting impedance data. The black curve 
+represents the fitting result. The frequency range is between 1 MHz and 100 mHz. 
+ 
+Table S1: The fit results obtained from the data shown in Figure S4. The equivalent circuit is show in Figure 
+4a. The value of RSE/InLi1 + RSE/InLi2 (26.6 Ω) is utilized for determining the ionic resistance in the DC 
+polarization measurement as shown in Figure S3. 
+From RSE/CPESE 
+RSE / Ω 
+60.1 
+α value 
+0.754 
+Capacitance / pF 
+148 
+Time constant τ / ns 
+8.91 
+From RSE/InLi1/CPE1 
+R1 / Ω 
+14.4 
+α value 
+0.506 
+Capacitance / mF 
+3.47 
+Time constant τ / ms 
+50.0 
+From RSE/InLi2/CPE2 
+R2 / Ω 
+12.2 
+α value 
+0.805 
+Capacitance / mF 
+7.02 
+Time constant τ / ms 
+85.8 
+
+=== 第 12 页 ===
+S11 
+ 
+6. SEM cross-section images of the composite cathode 
+The thicknesses of the composite layers are evaluated with the cross-section images obtained from scanning 
+electron microscopy with back-scattered electrons as shown in Figure S5. Although the interface shows 
+some roughness as seen in the figure, it is safe to assume that the thickness of the cathode composites takes 
+constant values of 90 μm and 180 μm for the two different loadings. These values are used as input values 
+in the TLM analysis. It should be noted that, while it is not easy to exactly quantify, the roughness of the 
+interface may contribute to the variation in the resulting effective conductivities; however, these errors are 
+estimated to be lower than the observed differences in the various measurements presented in this work. 
+ 
+Figure S5: Cross-section images of the cathode layers with two different loadings to determine the 
+thicknesses. Both are measured with backscattered electrons. 
+ 
+7. Kramers-Kronig test and Bode plot 
+The impedance data quality is confirmed with the Kramers-Kronig test and a goodness of the fit with 
+frequency information is corroborated with the Bode plot, in addition to the Nyquist plot in Figure 4b. 
+
+=== 第 13 页 ===
+S12 
+ 
+ 
+Figure S6: (a) Kramers-Kronig test and (b) Bode plot of the representative data obtained from cell (iii) in 
+Figure 3. (a) confirms the linearity of the impedance data between 100 Hz and 5 mHz, which well covers 
+the frequency range in this work. In (b), the data points and the fitted curve show good agreements in both 
+|Z| and phase angle, representing a goodness of the fit. 
+ 
+8. Fit results of cells (i) – (iii) 
+The fitting results extracted from impedance spectroscopy on the cells (i) – (iii) with TLM analysis are 
+shown in Table S2. The Nyquist plots are shown in Figure 4b, the results are shown in Figure 4c and d. 
+These results highlight that the rate determining process is indeed the lithium ion transport in the cathode 
+composite, which linearly increases as a function of the thickness of the cathode layer. This clearly indicates 
+that the higher conductivity is necessary for the thick electrode configuration to boost the energy density of 
+the cell. 
+Table S2: The fit results of the impedance spectra from cell(i), a SE-C|SE|In/InLI cell, with a TLM. The 
+total cathode loading was 15.3 mg cm-1. The anode interface contribution was not reliably separable. 
+From Roff 
+Roff / Ω 
+31.2 
+ 
+ 
+From TLM analysis 
+Thickness L / μm 
+90 
+α 
+0.93 
+Rion / Ω 
+61.5 
+τ / s 
+5.28 
+
+=== 第 14 页 ===
+S13 
+ 
+Re / Ω 
+6.43 
+ 
+ 
+Extracted physical parameters 
+σion
+eff / mS cm-1 
+0.187 
+Rtotal / Ω 
+99.1 
+σe
+eff / mS cm-1 
+1.78 
+ 
+ 
+ 
+Table S3: The fit results of the impedance spectra from Cell(ii), a SE-C|SE|SE-C cell, with a TLM. The 
+total cathode loading was 30.6 mg cm-1. The thickness L is the sum of the thickness of the both sides. 
+From Roff 
+Roff / Ω 
+34.0 
+ 
+ 
+From TLM analysis 
+Thickness L / μm 
+180 
+α 
+0.97 
+Rion / Ω 
+115 
+τ / s 
+4.57 
+Re / Ω 
+12.1 
+ 
+ 
+Extracted physical parameters 
+σion
+eff / mS cm-1 
+0.200 
+Rtotal / Ω 
+161 
+σe
+eff / mS cm-1 
+1.90 
+ 
+ 
+ 
+Table S4: The fit results of the impedance spectra from Cell(iii), a SE-C|SE|SE-C cell, with a TLM. The 
+total cathode loading was 61.2 mg cm-1. The thickness L is the sum of the thickness of the both sides. 
+From Roff 
+Roff / Ω 
+31.6 
+ 
+ 
+From TLM analysis 
+Thickness L / μm 
+360 
+α 
+0.97 
+Rion / Ω 
+217 
+τ / s 
+19.4 
+Re / Ω 
+22.0 
+ 
+ 
+Extracted physical parameters 
+σion
+eff / mS cm-1 
+0.211 
+Rtotal / Ω 
+270 
+σe
+eff / mS cm-1 
+2.09 
+ 
+ 
+ 
+ 
+
+=== 第 15 页 ===
+S14 
+ 
+9. Comparison of the fitting results obtained with a simple RC parallel circuit vs. those obtained 
+with a TLM 
+As stated in the main text, the wide-spread fit model with a simple semi-circle can lead to a severe 
+underestimation of the cell resistance, resulting in overestimated effective conductivities. This can be 
+critical in elucidating the correct failure mechanism of the cell of interest. Here, we demonstrate the fitting 
+of the lower frequency range of the data from cell (iii) with an equivalent circuit of Roff-RLF/CPELF-CPE, 
+where RLF/CPELF is a parallel circuit of the resistance and a constant phase element of the low-frequency 
+part (RLF and CPELF), respectively. Although the fitting result shows a decent quality of the fit (Figure S7), 
+the resulting effective ionic conductivity is almost four times higher than that from a proper TLM analysis 
+as in Table S4. The resistance contribution from the LF part is 64.1 Ω, which is much lower than 217 Ω 
+obtained from a TLM analysis, resulting in the calculated effective ionic conductivity of 0.72 mS cm-1. This 
+value is obviously almost four times higher than that obtained from a TLM analysis, and also the results 
+from DC measurement. Furthermore, the resistance contribution from the offset (Roff) can be overestimated 
+since the electronic contribution is included there when the electronic resistance in the composite is not 
+negligible. Therefore, there are multifold reasons that a TLM analysis is necessary for the correct analysis 
+of the well-mixed composite cathode like in the case of this work. 
+ 
+Figure S7: An exemplary fit with a simple semi-circle with a parallel circuit of a resistance and a constant 
+phase element. Although the resulting fit is apparently not far off from the data with a deformed semi-circle, 
+the obtained effective ionic transport is severely overestimated.  
+
+=== 第 16 页 ===
+S15 
+ 
+Table S5: The fit results with a typical semi-circle fit are shown below.  
+From Roff 
+Roff / Ω 
+53.1 
+ 
+ 
+From RLF/CPELF 
+RLF / Ω 
+64.1 
+α value 
+0.62 
+Capacitance / mF 
+19.2 
+Time constant τ / s 
+1.23 
+From CPE 
+Capacitance / mF 
+83.5 
+α value 
+0.95 
+ 
+10. Conductivity and activation energy of ball-milled Li6PS5Cl 
+The ionic conductivity of the as-ball-milled SE is determined through temperature dependent impedance 
+spectroscopy and the conductivities and activation energy of the Li-ion transport is presented below. We 
+like to emphasize that the measurement is conducted in the press-cell configuration, typically leading to the 
+appearance of the contribution of the non-ideal contact. See also a caption of the following Figure S8. The 
+fit results are shown in Table S6. 
+ 
+Figure S8: (a) shows Nyquist plot of the ball-milled SE and (b) shows an Arrhenius plot of the fit results. 
+The ball-milled SE without carbon exhibits a room temperature conductivity of 0.76 mS cm-1 and an 
+activation energy of 0.39 eV. The employed equivalent circuits for the fits are Rtotal-Rcontact/CPEcontact-CPE 
+for data > 10 ℃ and Rtotal/CPEtotal-Rcontact/CPEcontact-CPE for the data at lower temperatures. The second 
+
+=== 第 17 页 ===
+S16 
+ 
+semi-circle that appeared at a slightly lower frequency is from the non-ideal contact between SE and 
+stainless-steel electrodes.10  
+ 
+Table S6:  The detailed results of the impedance fit obtained from the data in Figure S8. As the semi-circle 
+in the high frequency region goes beyond the detectable frequencies above 10 ℃, a simple resistance (Rtotal) 
+is employed for the fit instead of Rtotal/CPEtotal. 
+Temperature 
+/ K (℃) 
+Rtotal / Ω 
+Ptotal / pF 
+Ideality 
+factor 
+Rcontact / Ω 
+Pcontact / μF 
+Ideality 
+factor 
+Time constant 
+/ ms 
+233 (−40) 
+13548 
+21 
+0.85 
+33099 
+21 
+0.63 
+7.1 
+243 (−30) 
+6497 
+21 
+0.85 
+16560 
+23 
+0.62 
+3.9 
+253 (−20) 
+3450 
+21 
+0.85 
+9536 
+27 
+0.59 
+2.6 
+263 (−10) 
+1891 
+21 
+0.86 
+5480 
+30 
+0.57 
+1.7 
+273 (0) 
+1063 
+22 
+0.86 
+3151 
+32 
+0.56 
+1.0 
+283 (10) 
+611.9 
+26 
+0.86 
+1799 
+33 
+0.56 
+0.60 
+293 (20) 
+360.5 
+- 
+- 
+976 
+31 
+0.56 
+0.31 
+298 (25) 
+284.2 
+- 
+- 
+750 
+33 
+0.56 
+0.25 
+303 (30) 
+227.7 
+- 
+- 
+599 
+33 
+0.55 
+0.20 
+313 (40) 
+149.9 
+- 
+- 
+383 
+33 
+0.56 
+0.13 
+323 (50) 
+89.50 
+- 
+- 
+215 
+35 
+0.57 
+0.075 
+333 (60) 
+56.28 
+- 
+- 
+128 
+40 
+0.59 
+0.052 
+ 
+11. Fit results of the cells with 8020 and 7030 SE-C composites 
+Table S7: Fit results of the impedance spectra from the 8020 SE-C composite, a SE-C|SE|In/InLi cell, with 
+a TLM. The total cathode loading was 15.3 mg cm-1. The thickness L is the sum of the thickness of the both 
+sides. 
+From Roff 
+Roff / Ω 
+37.8 
+ 
+ 
+From TLM analysis 
+Thickness L / μm 
+90 
+α 
+0.86 
+Rion / Ω 
+116 
+τ / s 
+11.4 
+Extracted physical parameters 
+σion
+eff / mS cm-1 
+9.91 × 10-2 
+ 
+ 
+ 
+
+=== 第 18 页 ===
+S17 
+ 
+Table S8: Fit results of the impedance spectra from the 7030 SE-C composite, a SE-C|SE|In/InLi cell, with 
+a TLM. The total cathode loading was 15.3 mg cm-1. The thickness L is the sum of the thickness of the both 
+sides. 
+From Roff 
+Roff / Ω 
+38.0 
+ 
+ 
+From TLM analysis 
+Thickness L / μm 
+90 
+α 
+1 
+Rion / Ω 
+383 
+τ / s 
+161 
+Extracted physical parameters 
+σion
+eff / mS cm-1 
+3.02 × 10-2 
+ 
+ 
+ 
+12. Warburg coefficients from temperature dependent impedance spectra 
+Here we summarize the detail of how Eq. 9 is derived from Eq. 1 in the main text. Starting from Eq. 1, 
+ 
+𝑍𝑍=
+𝑟𝑟ion𝑟𝑟e
+𝑟𝑟ion + 𝑟𝑟e
+𝐿𝐿+
+√𝑧𝑧i
+(𝑟𝑟ion + 𝑟𝑟e)
+3
+2
+∙
+൫𝑟𝑟ion
+2
++ 𝑟𝑟e2൯cosh𝐿𝐿ට𝑟𝑟ion + 𝑟𝑟e
+𝑧𝑧i
++ 2𝑟𝑟ion𝑟𝑟e
+sinh 𝐿𝐿ට𝑟𝑟ion + 𝑟𝑟e
+𝑧𝑧i
+, 
+Eq. 1 
+when the process is non-Faradaic, the transverse impedance zi becomes a simple interfacial capacitance  
+𝑧𝑧i =
+1
+𝑗𝑗𝑗𝑗𝑐𝑐dl. With an effective electronic resistance 𝑟𝑟e being negligibly small in comparison to an effective 
+ionic resistance 𝑟𝑟ion (or 
+𝑟𝑟e
+𝑟𝑟ion ≪1 ), Eq. 1 becomes 
+ 
+𝑍𝑍= 𝑟𝑟e𝐿𝐿+ ඨ
+𝑟𝑟ion
+𝑗𝑗𝑗𝑗𝑐𝑐dl
+coth൫𝐿𝐿ඥ𝑗𝑗𝑗𝑗𝑟𝑟ion𝑐𝑐dl൯. 
+Eq. S1 
+Given that the time constant of the process is τ = rioncdlL2,  
+ 
+𝑍𝑍= 𝑟𝑟e𝐿𝐿+ ඨ
+𝑟𝑟ion
+𝑗𝑗𝑗𝑗𝑐𝑐dl
+coth൫ඥ𝑗𝑗𝑗𝑗𝑗𝑗൯. 
+Eq. S2 
+The time constant τ is obtainable when the time scale of the measurement (ω-1 / s) is comparable to τ. In 
+such case, 𝜎𝜎ion
+eff can be attained. However, as 𝑟𝑟ion increases with a larger fraction of non-conducting volume 
+or more intense degradation, the τ for ion migration in the composite becomes larger, and eventually 
+exceeds a reliably measurable time scale. In other words, τ becomes much larger than ω-1 (τ ≫ ω-1, or ωτ 
+≫ 1) and under this condition, lim
+𝜏𝜏𝜏𝜏→∞coth൫ඥ𝑗𝑗𝑗𝑗𝑗𝑗൯= 1 holds. Thus, Eq. 2 becomes 
+
+=== 第 19 页 ===
+S18 
+ 
+ 
+𝑍𝑍= 𝑟𝑟e𝐿𝐿+ ඨ
+𝑟𝑟ion
+𝑗𝑗𝑗𝑗𝑐𝑐dl
+. 
+Eq. S3 
+Given that 
+1
+ඥ𝑗𝑗𝑗𝑗=
+1
+√2 ቀ
+1
+√𝜔𝜔−
+1
+√𝜔𝜔𝑗𝑗ቁ, Eq. S3 becomes 
+ 
+𝑍𝑍= 𝑟𝑟e𝐿𝐿+ ඨ
+𝑟𝑟ion
+2𝑐𝑐dl
+൬1
+√𝜔𝜔−1
+√𝜔𝜔𝑗𝑗൰. 
+Eq. S4 
+The Warburg coefficient AW / Ω s-1/2 is, by definition, the coefficient to the frequency dependent part 
+representing the 45-degree tail in Nyquist plot. Thus, 
+ 
+𝐴𝐴W = ඨ
+𝑟𝑟ion
+2𝑐𝑐dl
+. 
+Eq. 9 
+Note that the phase of this process is independent of frequency. In practice, we obtain AW by fitting the 
+experimental impedance data by the following Eq. S4. 
+ 
+𝑍𝑍= 𝑅𝑅+ 𝐴𝐴W ൬1
+√𝜔𝜔−1
+√𝜔𝜔𝑗𝑗൰, 
+Eq. S4 
+where R is a simple resistance representing the offset in the real part of measured Z. The individual values 
+obtained from experimental data are tabulated in the following Table S9. 
+Table S9: The resulting Warburg coefficients obtained from the temperature dependent impedance 
+measurements.  
+Extracted Warburg coefficients 
+Temperature / ℃ 
+AW of cell (ii) / Ω s-0.5 
+AW of cell (ii) / Ω s-0.5 
+AW of SE-C-S / Ω s-0.5 
+-40 
+274.12 
+320.81 
+2464.8 
+-30 
+180.04 
+212.29 
+1441.9 
+-20 
+121.45 
+142.70 
+874.35 
+-10 
+85.858 
+100.87 
+574.73 
+0 
+63.750 
+72.308 
+378.96 
+10 
+47.987 
+52.423 
+259.09 
+20 
+37.593 
+39.228 
+183.26 
+25 
+33.292 
+34.966 
+157.98 
+ 
+ 
+ 
+
+=== 第 20 页 ===
+S19 
+ 
+13. Cycling results with SE-C composites possessing 10, 20, and 30wt% of carbon 
+ 
+Figure S9: Influence of SE:C mass ratio in the composite on the cell cycling performance is shown in (a), 
+and the representative potential profiles are presented in (b) – (d) (initial discharge, and charges and 
+discharges in 1st, 2nd, 5th, 10th, 20th, 30th, 40th, 50th, and 100th cycles). Three cells with SE-C composites 
+possessing a mass ratio of m(SE):m(C) = 90:10, 80:20, and 70:30 were constructed and cycled within 1 - 3 
+V vs In/InLi in the same manner. The cell with m(SE):m(C) = 90:10 exhibits the best performance among 
+those three. While the composites with m(SE):m(C) = 80:20 show a similar emerging plateau as 90:10 at 
+around 1.7 V upon oxidative degradation, the first charge capacity and the following reversible capacity 
+
+=== 第 21 页 ===
+S20 
+ 
+are smaller. With m(SE):m(C) = 70:30, the observed capacity becomes even less. The here-observed trend 
+is likely due to the sluggish and insufficient ion transport in the composite as discussed in Section 2.2.2. 
+ 
+ 
+14. Representative impedance data obtained from the SE-C and SE-C-S composites. 
+The following Figure S10 compares the impedance results from the cell (ii) and (iii), as well as SE-C-S 
+composites, in Nyquist plots, clearly showing the prolonged tail with 45°. This long tail reflects the very 
+long time-constant of the process, which is not reliably measurable with impedance spectroscopy. This is 
+already indicative of a very sluggish lithium ion transport in the SE-C-S composite compared to that of the 
+SE-C composite. 
+ 
+Figure S10: In contrast to the cells with SE-C composite with the SE fraction of 90 wt% (cell (ii) and cell 
+(iii)), the impedance of the SE-C-S composite shows only a straight line within a reasonable measurement 
+frequency range, reflecting a very long time constant of the process due to a sluggish kinetics of lithium 
+ions. 
+ 
+ 
+
+=== 第 22 页 ===
+S21 
+ 
+15. Fit results of the potential dependence tests 
+The dependence on the applied potentials is investigated by constructing two identical cells with SE-C 
+composite with a mass ratio of m(SE):m(C) = 9:1 (9010 SE-C composite). The loading of the composite 
+was 15.3 mg cm-2. Upon applying the potential, a Faradaic reaction occurs and charge flows. The observed 
+charge at each potential is referred to as a specific charge in the table. The cumulative charge means the 
+sum of all the charges down/up to a given potential. The representative impedance data from the oxidative 
+and reductive tests in Nyquist plots are shown in Figure S11. Contributions to the total resistance from each 
+process are also tabulated in Table S10. One thing to note is that the SE-C composite utilized for this test 
+is prepared in the same way as for the other tests but comes from a different batch, resulting in a slightly 
+higher effective ionic transport (by a factor of two) in the composite. While this batch dependent variation 
+in the ion transport is apparent, we consider this as not significant compared to the change associated with 
+a varied SE fraction. Since the effective ionic conductivities of both cells for reductive and oxidative tests 
+are basically identical, we conclude this variation is not due to the impedance measurement or its analysis. 
+We also need to note that, while we assign the small resistive contribution at around the same time constant 
+as the origin of the part relevant for TLM analysis to the interface between anode and SE, this process at 
+low potential can possibly be due to the electronic or ionic conduction in the decomposition products at low 
+potential. The exact assignment of such process is not straightforward and the spectroscopic and 
+electrochemical methods employed in this work cannot determine it reliably. As for the electronic transport 
+in the composite, it can be resolved reliably only in limited cases since its resistance contribution is much 
+lower than that of ionic transport, especially after the electrochemical treatment. In the oxidation tests, a 
+TLM analysis is applicable only up to 2.4 V because of an emerging process and the total resistances above 
+2.4 V are determined by fitting the spectra with a simple semi-circle. 
+ 
+
+=== 第 23 页 ===
+S22 
+ 
+ 
+Figure S11: Nyquist plots of the representative impedance data of the oxidative and reductive potential 
+dependent tests. (a) – (c) are the comparison of the measured data (colored symbols) and the fits (black 
+solid curves), showing good agreement. Upon oxidation, the deteriorated effective ionic conductivity is 
+evident and the part with 45 ° rapidly elongated. Above 2.4 V vs. In/InLi, a TLM is not applicable as the 
+time constant becomes longer than 1/ω. Furthermore, another process appears at higher potential 
+forming a large semi-circle within the frequency range that covers a TLM part at lower potentials. (d) 
+The reductive potential dependent tests lead to very small change in the impedance down to 0.5 V vs 
+In/InLi. By applying even lower potential results in the appearance of a semi-circle, which 
+continuously grows down to 0 V vs. In/InLi.
+
+=== 第 24 页 ===
+S23 
+ 
+Table S10: The fit results upon the reductive tests.  
+Potential dependency: the reductive test 
+Potential / V 
+vs. In/InLi 
+Specific 
+charge / 
+mAh gSE-1 
+Cumulative 
+charge / 
+mAh gSE-1 
+Roff / Ω 
+Ranode / Ω 
+Rion / Ω 
+Re / Ω 
+Rtotal 
+σion
+eff 
+/ mS cm-1 
+As assembled 
+- 
+- 
+38.5 
+4.24 
+29.0 
+3.55 
+75.3 
+0.396 
+1.5 
+2.50 
+2.50 
+40.8 
+5.51 
+27.8 
+2.49 
+76.6 
+0.413 
+1.4 
+3.06 
+5.56 
+42.3 
+5.46 
+27.9 
+1.68 
+77.3 
+0.411 
+1.3 
+3.00 
+8.56 
+43.2 
+4.32 
+29.9 
+1.47 
+78.9 
+0.384 
+1.2 
+3.32 
+11.9 
+44.6 
+3.49 
+31.2 
+0.986 
+80.2 
+0.368 
+1.1 
+3.99 
+15.9 
+46.2 
+3.21 
+30.9 
+- 
+80.7 
+0.371 
+1.0 
+4.68 
+20.5 
+47.8 
+3.54 
+29.4 
+- 
+80.7 
+0.390 
+0.9 
+6.70 
+27.2 
+50.8 
+3.38 
+31.3 
+- 
+85.5 
+0.366 
+0.8 
+6.37 
+33.6 
+51.7 
+3.97 
+30.1 
+- 
+85.8 
+0.381 
+0.7 
+8.04 
+41.7 
+52.2 
+4.04 
+30.1 
+- 
+86.2 
+0.382 
+0.6 
+16.5 
+58.1 
+52.2 
+4.48 
+30.0 
+- 
+86.6 
+0.382 
+0.5 
+48.2 
+106 
+51.0 
+7.53 
+30.3 
+- 
+88.9 
+0.378 
+0.4 
+45.6 
+152 
+50.5 
+11.3 
+31.6 
+- 
+93.4 
+0.363 
+0.3 
+54.6 
+206 
+51.1 
+15.7 
+37.1 
+- 
+104 
+0.309 
+0.2 
+68.9 
+275 
+50.9 
+23.2 
+60.2 
+- 
+134 
+0.190 
+0.1 
+74.6 
+350 
+51.6 
+36.4 
+123 
+- 
+211 
+0.0930 
+0 
+66.7 
+417 
+53.0 
+52.9 
+248 
+- 
+354 
+0.0462 
+ 
+
+=== 第 25 页 ===
+S24 
+ 
+Table S11: The fit results upon the oxidative tests.  
+Potential dependency: the oxidative test 
+Potential / V 
+vs. In/InLi 
+Specific 
+charge / mAh 
+gSE-1 
+Cumulative 
+charge / mAh 
+gSE-1 
+Roff / Ω 
+Ranode / Ω 
+Rion / Ω 
+Re / Ω 
+Rtotal 
+σion
+eff 
+/ mS cm-1 
+As assembled 
+- 
+- 
+40.4 
+4.16 
+37.1 
+5.96 
+87.5 
+0.309 
+1.7 
+0.602 
+0.602 
+39.7 
+3.82 
+38.9 
+5.85 
+82.5 
+0.295 
+1.8 
+3.67 
+4.27 
+39.4 
+3.60 
+40.6 
+5.42 
+83.6 
+0.283 
+1.9 
+13.1 
+17.4 
+39.6 
+3.18 
+42.0 
+4.97 
+84.7 
+0.273 
+2.0 
+25.5 
+42.9 
+39.2 
+2.76 
+46.1 
+5.06 
+88.1 
+0.249 
+2.1 
+32.1 
+75.0 
+38.4 
+2.32 
+56.2 
+5.53 
+96.9 
+0.204 
+2.2 
+42.1 
+117 
+37.4 
+1.42 
+77.2 
+6.14 
+116 
+0.148 
+2.3 
+62.2 
+179 
+37.4 
+0.879 
+129 
+5.96 
+167 
+0.0889 
+2.4 
+87.3 
+267 
+38.0 
+- 
+334 
+5.75 
+371 
+0.0343 
+TLM analysis was not applicable below 
+Cont. 
+Specific charge / mAh gSE-1 
+Cumulative charge / mAh gSE-1 
+Rtotal / Ω 
+2.5 
+37.1 
+370 
+1.03×104 
+2.6 
+22.2 
+392 
+2.14×104 
+2.7 
+13.8 
+406 
+2.50×104 
+2.8 
+7.23 
+413 
+6.10×104 
+2.9 
+3.58 
+417 
+1.70×105 
+3.0 
+2.18 
+419 
+3.71×105 
+
+=== 第 26 页 ===
+S25 
+ 
+16. Potential profiles of the Li-S batteries with various cutoff potentials 
+ 
+Figure S12: Potential profiles of 1st, 2nd, 5th, 10th, 20th, 30th, 40th, and 50th cycles as well as the initial 
+discharge of the cells cycled within 1 – 2.7 V and 1 – 3.0 V. It is evident that the cell cycled up to 3 V 
+exhibit much higher overpotentials in the later cycles, although the early cycles give identical capacity and 
+potential profiles. A larger overpotential results in a less reversible capacity upon long-term cycling, 
+indicating the progressively slowed down lithium ion kinetics caused by the oxidative SE degradation. The 
+second charge curve shows a lower capacity due to the interruption during the discharge followed by the 
+initial discharge. The reproducibility of these two cells are shown in Figure S14. 
+
+=== 第 27 页 ===
+S26 
+ 
+ 
+Figure S13: The representative potentials profiles of the cell cycled between 0 V and 3 V vs. In/InLi. While 
+the reductive degradation shows a boosted capacity due to an additional capacity arising from the SE 
+degradation, the capacity retention is even inferior to the one cycled between 1 V and 3V. This result 
+highlights the detrimental impact of too-deep discharge on the capacity retention. Another highlight from 
+this result is the saturation of the degradation in the latter cycle. The reductive condition is harmful to the 
+SE and the additional capacity due to electrolyte degradation is seen below 0.5 V vs In/InLi in the early 
+cycles; however, the progressive increase in the overpotential seemingly slows down the further 
+degradation in the latter cycles, as the additional plateau vanishes. The degradation should kicks in again if 
+the current is lowered to have smaller overpotential. 
+ 
+ 
+
+=== 第 28 页 ===
+S27 
+ 
+17. Reproducibility and long-term cyclability of SE-C-S cells 
+ 
+Figure S14: Reproducibility, as well as a longer capacity retention, of two representative cycling conditions 
+(1 – 2.7 V and 1 – 3.0 V) with another SE-C-S composite prepared in an identical way. The second SE-C-
+S composite shows a slight reduction in the capacity after the initial discharge, indicating the chemo-
+mechanical failure as presented in our previous work.2 The trends after the first cycle represent good 
+reproducibility of the cycling results, corroborating that the cell degradation is not batch specific. 
+ 
+ 
+ 
+
+=== 第 29 页 ===
+S28 
+ 
+18. Current status of the conversion type cathode performance  
+ 
+Figure S15: The comparison of state-of-the-art conversion-type cells cycled longer than 50 cycles at room 
+temperature, including the here-presented results with orange (with S) and green (without S) symbols. The 
+figure is produced based on the data summarized in a recent review by Yang et al, with additional data 
+listed in Table S12.11 The exception that is not shown in this figure is the data in Nagata et al.12, exhibiting 
+an outstanding result of 14.14 mAh cm-2 before cycling and 13.02 mAh cm-2 at 200 cycles, which is out of 
+the scales employed in Figure S15. The additionally included data are tabulated in the Table S12 with the 
+similar format presented in the aforementioned review.
+0
+200
+400
+600
+800
+1000
+1200
+0
+1
+2
+3
+4
+5
+6
+0
+200
+400
+600
+800
+1000
+1200
+0
+1
+2
+3
+4
+5
+6
+0
+200
+400
+600
+800
+1000
+1200
+0
+1
+2
+3
+4
+5
+6
+ Literature
+ SE-C-S cells in this work
+ SE-C cells in this work
+Areal capacity after cycling / mAh cm-2
+Cycle number
+Areal capacity after cycling / mAh cm-2
+Cycle number
+Areal capacity after cycling / mAh cm-2
+Cycle number
+
+=== 第 30 页 ===
+S29 
+ 
+Table S12: The data additionally included in Figure 7f and S13, which are based on the summary reported by Yang et al.11, are tabulated in the 
+similar format as in Yang et al.  
+Cathode 
+Performance 
+ 
+Active material (AM) 
+Active materials 
+content / wt% 
+Areal loading / 
+mg cm-2 
+Cycle number 
+Current density / 
+mA cm-2 
+Discharge 
+capacity / mAh 
+gAM-1 
+Areal capacity / 
+mAh cm-2 
+Ref 
+Li6PS5Cl-C-S-1 
+33 
+3.40 
+50 
+0.568 
+1262 (1350) 
+4.29 (4.59) 
+This work 
+Li6PS5Cl-C-S-2 
+33 
+3.40 
+50, 100 
+0.568 
+1325 (1300 @50th, 
+1083 @100th) 
+4.50 (4.42 @50th, 
+3.68 @100th) 
+This work 
+Li6PS5Cl-C 
+90 
+13.8 
+50, 100 
+0.568 
+1.85 (205 @50th, 
+188 @100th) 
+0.02 (2.82 @50th, 
+2.59 @100th) 
+This work 
+Li6PS5Cl-MWCF 
+70 
+5.0 
+100 
+0.176 
+305 (556) 
+1.53 (2.83) 
+13 
+
+=== 第 31 页 ===
+S30 
+ 
+References 
+(1)  
+Ohno, S.; Helm, B.; Fuchs, T.; Dewald, G.; Kraft, M. A.; Culver, S. P.; Senyshyn, A.; Zeier, W. G. 
+Further Evidence for Energy Landscape Flattening in the Superionic Argyrodites Li6+xP1-xMxS5I (M 
+= Si, Ge, Sn). Chem. Mater. 2019, 31 (13), 4936–4944. 
+(2)  
+Ohno, S.; Koerver, R.; Dewald, G.; Rosenbach, C.; Titscher, P.; Steckermeier, D.; Kwade, A.; Janek, 
+J. J.; Zeier, W. G. Observation of Chemomechanical Failure and the Influence of Cutoff Potentials 
+in All-Solid-State Li-S Batteries. Chem. Mater. 2019, 31 (8), 2930–2940. 
+(3)  
+Ohno, S.; Bernges, T.; Buchheim, J.; Duchardt, M.; Hatz, A.-K.; Kraft, M. A.; Kwak, H.; Santhosha, 
+A. L.; Liu, Z.; Minafra, N.; et al. How Certain Are the Reported Ionic Conductivities of 
+Thiophosphate-Based Solid Electrolytes? An Interlaboratory Study. ACS Energy Lett. 2020, 5 (3), 
+910–915. 
+(4)  
+Kraft, M. A.; Ohno, S.; Zinkevich, T.; Koerver, R.; Culver, S. P.; Fuchs, T.; Senyshyn, A.; Indris, 
+S.; Morgan, B. J.; Zeier, W. G. Inducing High Ionic Conductivity in the Lithium Superionic 
+Argyrodites Li6+xP1-xGexS5I for All-Solid-State Batteries. J. Am. Chem. Soc. 2018, 140 (47), 16330–
+16339. 
+(5)  
+Dewald, G. F.; Ohno, S.; Kraft, M. A.; Koerver, R.; Till, P.; Vargas-Barbosa, N. M.; Janek, J.; Zeier, 
+W. G. Experimental Assessment of the Practical Oxidative Stability of Lithium Thiophosphate Solid 
+Electrolytes. Chem. Mater. 2019, 31 (20), 8328–8337. 
+(6)  
+Takada, K.; Aotani, N.; Iwamoto, K.; Kondo, S. Solid State Lithium Battery with Oxysulfide Glass. 
+Solid State Ionics 1996, 86–88 (PART 2), 877–882. 
+(7)  
+Santhosha, A. L.; Medenbach, L.; Buchheim, J. R.; Adelhelm, P. The Indium-Lithium Electrode in 
+Solid-State Lithium Ion Batteries: Phase Formation, Redox Potentials and Interface Stability. Batter. 
+Supercaps 2019, 2 (1), 524–529. 
+(8)  
+Walther, F.; Randau, S.; Schneider, Y.; Sann, J.; Rohnke, M.; Richter, F. H.; Zeier, W. G.; Janek, J. 
+Influence of Carbon Additives on the Decomposition Pathways in Cathodes of Lithium 
+Thiophosphate-Based All-Solid-State Batteries. Chem. Mater. 2020, 32 (14), 6123–6136 
+(9)  
+Wenzel, S.; Sedlmaier, S. J.; Dietrich, C.; Zeier, W. G.; Janek, J. Interfacial Reactivity and 
+Interphase Growth of Argyrodite Solid Electrolytes at Lithium Metal Electrodes. Solid State Ionics 
+2018, 318, 102–112. 
+(10)  Irvine, J. T. S.; Sinclair, D. C.; West, A. R. Electroceramics: Characterization by Impedance 
+
+=== 第 32 页 ===
+S31 
+ 
+Spectroscopy. Adv. Mater. 1990, 2 (3), 132–138. 
+(11)  Yang, X.; Luo, J.; Sun, X. Towards High-Performance Solid-State Li-S Batteries: From 
+Fundamental Understanding to Engineering Design. Chemical Society Reviews. Royal Society of 
+Chemistry April 7, 2020, pp 2140–2195. 
+(12)  Nagata, H.; Chikusa, Y. All-Solid-State Lithium-Sulfur Battery with High Energy and Power 
+Densities at the Cell Level. Energy Technol. 2016, 4 (4), 484–489. 
+(13)  Wang, S.; Tnag, M.; Zhang, Q.; Li, B.; Ohno, S.; Pan, R.; Xu, X.; Zhang, W.; Walther, F.; Xin, C.; 
+et al. Conversion Type Cathodes for Solid State Batteries with Long Cycle Life. 2020. Submitted. 
+ 

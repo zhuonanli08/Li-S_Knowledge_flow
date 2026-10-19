@@ -1,0 +1,1366 @@
+=== 第 1 页 ===
+Advanced Materials
+www.advmat.de
+RESEARCH ARTICLE
+Tailored Redox-Active Catholytes Enabling High-Rate and
+High-Loading All-Solid-State Lithium-Sulfur Batteries
+Jingui Yang1
+Ruizhuo Zhang1
+Ramon Zimmermanns2,3
+Mareen Schaller2
+Sylvio Indris2,4
+Jaehoon Choi3,5
+Simon Fleischmann3,5
+Torsten Brezesinski1
+Florian Strauss1
+1Institute of Nanotechnology, Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
+2Institute for Applied Materials–Energy Storage Systems,
+Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany
+3Helmholtz Institute Ulm (HIU) Electrochemical Energy Storage, Ulm, Germany
+4Applied
+Chemistry and Engineering Research Centre of Excellence (ACER CoE), Universite Mohammed VI Polytechnique (UM6P), Ben Guerir, Morocco
+5Karlsruhe
+Institute of Technology (KIT), Karlsruhe, Germany
+Correspondence: Torsten Brezesinski (torsten.brezesinski@kit.edu)
+Florian Strauss (florian.strauss@kit.edu)
+Received: 10 July 2025
+Revised: 23 January 2026
+Accepted: 31 January 2026
+Keywords: catholyte | redox mediation | redox-active electrolyte | solid-state lithium-sulfur battery
+ABSTRACT
+All-solid-state lithium-sulfur batteries (ASSLSBs) hold great promise for next-generation electrochemical energy storage due to
+sulfur’s high theoretical specific capacity and low cost. However, sluggish sulfur conversion kinetics and severe volume variations
+during cycling, as well as poor ionic percolation in composite cathodes, limit their practical viability. To overcome these challenges,
+we herein introduce solid electrolytes of nominal composition Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.2, 0.4), possessing high ionic
+conductivities of ≥7 mS cm−1 at room temperature. We show that increasing iodine content alters the phase composition and
+triggers reversible redox activity in these materials. If implemented as catholytes, this enables very fast sulfur conversion kinetics,
+ultimately leading to ASSLSBs with exceptional performance. The cells achieve 86% sulfur utilization at a rate of C/2 and at 45◦C
+and offer high-rate capability by delivering 1175 mAh gsulfur
+−1 at 5C and 590 mAh gsulfur
+−1 at 15C. Furthermore, the synergistic effects
+of ionic percolation and redox-activity enable record areal capacities up to 14 mAh cm−2 with a sulfur loading of 10 mg cm−2. Taken
+together, our findings provide new strategies for designing redox-active catholytes for application in advanced ASSLSBs and further
+strengthen the redox-mediating role of iodine therein.
+1
+Introduction
+Lithium-sulfur (Li-S) batteries are considered one of the most
+promising next-generation energy storage systems due to the
+high abundance and low cost of sulfur, combined with its
+high theoretical specific capacity (1672 mAh g−1) and a high
+theoretical specific energy of approximately 2600 Wh kg−1 when
+paired with a lithium metal anode [1–4]. However, the practical
+implementation of Li-S batteries is still hindered by the insulating
+nature of both sulfur and lithium sulfide (Li2S), the significant
+volume changes during cycling, and the polysulfide shuttle
+effect in conventional liquid electrolyte systems, which collec-
+tively result in low sulfur utilization, poor Coulomb efficiency,
+and rapid capacity fading [5–11]. All-solid-state lithium-sulfur
+batteries (ASSLSBs), utilizing inorganic solid electrolytes (SEs),
+offer an effective strategy to address several of these issues.
+By replacing flammable liquid electrolytes with superionic SEs,
+ASSLSBs can suppress polysulfide dissolution, enhance safety,
+and mitigate lithium dendrite growth [8, 12]. Nevertheless,
+sluggish redox kinetics between sulfur and Li2S, along with
+(chemo)mechanically-induced degradation caused by signifi-
+cant volume and morphology changes during charge/discharge,
+remain critical obstacles in achieving high energy and power
+densities. To overcome these intrinsic challenges, conventional
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly
+cited.
+© 2026 The Author(s). Advanced Materials published by Wiley-VCH GmbH
+Advanced Materials, 2026; 38:e13204
+https://doi.org/10.1002/adma.202513204
+1 of 15
+
+=== 第 2 页 ===
+approaches have focused on engineering triple-phase boundaries
+(interfaces) among sulfur, SE, and conductive carbon, enabling
+ionic and electronic transport pathways and promoting reversible
+electrochemical S8-to-Li2S conversion [13]. Although these strate-
+gies can improve sulfur utilization, they require precise control
+over microstructure and composition to ensure effective charge
+percolation throughout thick electrodes [14–16]. In practice,
+achieving uniform and stable triple-phase interfaces at high
+sulfur loadings is challenging, and reaction kinetics remain
+limited by the tortuous transport pathways.
+Recently, new strategies based on two-phase reaction mecha-
+nisms have been proposed to overcome the three-phase reac-
+tion limitation in ASSLSBs. One promising approach is to
+develop mixed ionic-electronic conductors (MIECs) as catholytes,
+enabling simultaneous electron and ion transport through a
+unified, conductive network [17, 18]. This type of architecture
+reduces transport tortuosity while activating sulfur redox reac-
+tions at the interfaces, thereby improving sulfur utilization and
+reducing dependence on carbon additives. Another intriguing
+strategy involves the use of redox mediators to facilitate the
+Li2S2/Li2S to sulfur conversion. Although redox mediation has
+been considered effective only in liquid-electrolyte-based sys-
+tems, where dissolved mediators exhibit fast diffusion [19–22],
+recent studies demonstrate its feasibility even in ASSLSBs [23,
+24]. In particular, Pang’s group demonstrated fast conversion
+kinetics enabled by the I−and I2/I3
+−redox couples within an
+amorphous Li2S–B2S3–LiI SE. The I2/I3
+−species are capable of
+chemically oxidizing Li2S, and therefore, enable fast charging,
+even surpassing that of liquid-electrolyte-based counterparts
+[24]. However, not all iodine-containing SEs exhibit distinct
+redox-mediating behavior [25, 26]. Likewise, this effect has not
+been reported by directly combining iodine with sulfur or Li2S,
+even though a certain degree of performance improvement has
+been achieved, due to enhancements in electrical conductivity
+[27–33]. These recent findings indicate that other parameters,
+such as the chemical environment of iodine and/or microstruc-
+ture of the composite cathode, may also play a crucial role.
+Besides, the modest ionic conductivity (around 1 mS cm−1)
+of these redox-active iodine-containing SEs limits their practi-
+cal applicability, particularly regarding the implementation in
+thick, high-sulfur-loading cathodes, where ensuring sufficient
+ionic percolation presents a major challenge. Therefore, there
+is still a major need for developing novel SEs that possess
+both very high ionic conductivities and redox-mediating prop-
+erties capable of enhancing the Li2S2/Li2S to sulfur conversion
+while maintaining fast ion transport throughout the composite
+cathode.
+In light of such considerations, we study the effect of lithium
+iodide substitution on SEs with the nominal composition of
+Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.2, 0.4). The phase composition
+and microstructure of the respective samples were carefully
+examined, and the materials were eventually tested in ASSLSBs.
+During cathode preparation via mechanical mixing, uniformly
+distributed, superionic (nanocrystalline) domains form, con-
+tributing to high ionic conduction. In addition, an iodine-rich,
+amorphous phase is created, which not only positively affects
+conductivity but, above all, exhibits promising redox-mediating
+properties. This synergistic effect of the iodine-rich, amorphous
+and superionic, nanocrystalline phases facilitates efficient ion
+transport and redox mediation within the catholyte, thereby
+enabling high energy- and power-density ASSLSBs.
+2
+Results and Discussion
+Li10.5+aSi1.5+aP1.5−aS12 SEs crystallizing in the tetragonal P42/nmc
+space group (t-Li10.5+aSi1.5+aP1.5−aS12) have attracted significant
+interest due to their sustainable elemental composition and
+superior lithium diffusion coefficient [34]. However, the exper-
+imentally reported ionic conductivities of t-Li10.5+aSi1.5+aP1.5−aS12
+SEs are significantly lower than theoretical predictions [34,
+35]. This discrepancy has been linked to the presence of a
+major fraction of amorphous side phases, which appear to be
+detrimental to lithium transport [36, 37]. In this work, we
+synthetically addressed this issue by modifying the amorphous
+side phases via iodine substitution in the nominal composition
+Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.2, 0.4). Figure 1a illustrates
+the synthesis process, consisting of a high-energy milling step
+prior to annealing at 525◦C. Stoichiometric amounts of Li2S, P2S5,
+SiS2, and optionally LiI were blended and amorphized by ball
+milling. As can be seen from the corresponding synchrotron
+X-ray diffraction (SXRD) patterns in Figure S1a, only minor
+reflections related to Li2S remained, indicating a high degree
+of amorphization upon milling of the precursors. Subsequently,
+the harvested powder was pressed into pellets and sealed in
+quartz ampoules under vacuum, followed by heating at 525◦C.
+As evident from Figure S1b, sharp reflections became visible in
+the respective SXRD patterns, indicating crystallization. A similar
+trend was also observed from pair distribution function (PDF)
+analysis of synchrotron X-ray total scattering data. As shown
+in Figure S1c, only short-range ordering up to around 4 Å was
+apparent after the milling step, further expanding to > 10 Å upon
+annealing. Features below 4 Å can be assigned mainly to atomic
+distances within and between neighboring [PS4]3−and [SiS4]4−
+tetrahedral building units. The first peak at 2.09 Å is due to
+the P─S and Si─S bonds, while the second and third peaks at
+about 3.4 and 3.9 Å correspond to the S─S distance within and
+between the tetrahedra, respectively. Because of the similar size
+of the two types of tetrahedra, the individual distances for the
+P─S and Si─S bonds cannot be distinguished from the PDFs. An
+additional peak around 4.6 Å appeared for the crystalline, iodine-
+containing samples. Hence, one can assume that it is related to
+atom pairs involving iodine (I−I, I−S). This peak suggests that
+iodine is not replacing sulfur in the tetrahedra, since otherwise it
+would overlap with the prevailing S─S distances.
+To qualitatively assess the crystal structure and phase composi-
+tion of the synthesized Li10.5−xSi1.5P1.5S12−xIx SEs, Rietveld analysis
+was performed on XRD patterns. To this end, the samples were
+mixed with 20 wt.% of a silicon standard material to determine
+the fraction of amorphous side phase(s). The diffraction patterns
+and corresponding Rietveld plots can be found in Figure S2a–c.
+The calculated lattice parameters of the different crystalline
+phases, along with previously reported values, are given in Table
+S1. Overall, the data prove t-Li10.5Si1.5P1.5S12 as the major phase.
+Li4PS4I- and argyrodite Li6PS5I-type phases, adopting tetragonal
+and cubic crystal structures, respectively, and amorphous phases
+were also detected (Figure 1b). Schematic phase compositions
+of the different samples are presented in Figure 1a. Specifically,
+for Li10.5Si1.5P1.5S12, 15 wt.% of amorphous phase(s) was observed,
+2 of 15
+Advanced Materials, 2026
+
+=== 第 3 页 ===
+FIGURE 1
+Preparation and characterization of Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.2, 0.4) SEs. (a) Schematic representation of the synthesis
+route. The respective ionic conductivities from cold-pressed pellets at room temperature are indicated, and the composition and crystal structure
+of the individual components, namely, t-Li10.5+aSi1.5+aP1.5−aS12, Li6+bP1−bSibS5I, and Li4+cP1−cSicS4I, are mentioned. [PS4]3−and [P1−mSimS4](3+m)−
+polyanions are denoted by brown and cyan tetrahedra, respectively. Lithium, isolated sulfur, and iodine are represented by gray, yellow, and pink
+balls, respectively. (b) Phase composition of the materials with nominal composition Li10.5−xSi1.5P1.5S12−xIx. SEM imaging and elemental mapping of
+(c) Li10.5Si1.5P1.5S12, (d) Li10.3Si1.5P1.5S11.8I0.2, and (e) Li10.1Si1.5P1.5S11.6I0.4 as sintered pellets.
+in addition to t-Li10.5Si1.5P1.5S12 (85 wt.%). For Li10.3Si1.5P1.5S11.8I0.2,
+the fraction of the t-Li10.5Si1.5P1.5S12 phase remained virtually
+unaltered (84 wt.%), but that of the amorphous phase(s) reduced
+to 6 wt.%, along with the appearance of 3 and 7 wt.% of
+Li6PS5I- and Li4PS4I-type phases, respectively. In the case of
+Li10.1Si1.5P1.5S11.6I0.4, the fraction of the t-Li10.5Si1.5P1.5S12 phase was
+lowered to 75 wt.%, while 19 wt.% of a Li4PS4I-type phase and
+6 wt.% of amorphous phase(s) were found. We further observed
+that with increasing iodine content in Li10.5−xSi1.5P1.5S12−xIx,
+the lattice parameters of the t-Li10.5Si1.5P1.5S12 phase increase
+(Table S1). It is hypothesized that there is no iodine introduction
+into t-Li10.5Si1.5P1.5S12. Rather, the changes in lattice parameters
+appear to be a result of the increased silicon-to-phosphorus ratio
+at the 4d site, since Si4+ has a larger ionic radius than P5+,
+conforming to a more general formula of t-Li10.5+aP1.5−aSi1.5+aS12
+[38]. This kind of Si4+-induced lattice expansion has also been
+reported for the other crystalline side phases, i.e., Li6+bP1−bSibS5I
+(Li6PS5I-type) and Li4+cP1−cSicS4I (Li4PS4I-type) [39, 40]. Based
+on previously reported data, the silicon content was estimated
+to lie between b = 0 and 0.2 in Li6+bP1−bSibS5I and between
+c = 0 and 0.3 in Li4+cP1−cSicS4I, both being stoichiometri-
+cally lower compared to the precursor material. Hence, we
+Advanced Materials, 2026
+3 of 15
+
+=== 第 4 页 ===
+assume that less Si4+ incorporation into the two side phases is
+responsible for the increased silicon-to-phosphorus ratio in the
+t-Li10.5+aSi1.5+aP1.5−aS12 phases.
+To gain more insight into the phase distribution on a macroscopic
+level, scanning electron microscopy (SEM) imaging combined
+with energy dispersive X-ray (EDX) spectroscopy mapping of
+the SE pellets was performed. Figure 1c–e shows top-view SEM
+images and corresponding elemental maps for Si, P, S, and
+I for the different samples after annealing. As can be seen,
+unlike iodine, Si, P, and S were uniformly distributed. For
+Li10.5−xSi1.5P1.5S12−xIx with x = 0.2 and 0.4, bright particles were
+visible in the SEM images, specifically located where elemental
+mapping indicated the presence of iodine. For the sample with
+x = 0.2, local high concentrations of iodine further confirmed
+phase separation into t-Li10.5+aSi1.5+aP1.5−aS12, Li6+bP1−bSibS5I, and
+Li4+cP1−cSicS4I. By contrast, for the sample with x = 0.4, although
+the particle size of the I-containing phase(s) remained compa-
+rable, the total content approximately doubled (16 vs. 25 wt.%,
+see Figure 1b), resulting in a higher number density and a more
+homogeneous dispersion of iodine-rich domains. This, in turn,
+led to the more uniform appearance in Figure 1e.
+The
+room-temperature
+ionic
+conductivity
+of
+the
+Li10.5−xSi1.5P1.5S12−xIx SEs in the form of cold-pressed pellets
+was determined by electrochemical impedance spectroscopy
+(EIS) to be 7.4, 9.2, and 6.8 mS cm−1 for x = 0, 0.2, and 0.4,
+respectively (Figure S3). Based on these results and literature
+reports, we conclude that the high ionic conductivity originates
+from the t-Li10.5+aSi1.5+aP1.5−aS12 phase. However, it is clearly
+reduced by the presence of less conductive amorphous and/or
+crystalline Li4PS4I-type phases [41, 42].
+Given that promising ionic conductivities were achieved, despite
+the formation of multiphase materials, the samples were tested
+as SEs in ASSLSBs. Figure 2a illustrates the general cell con-
+figuration, where the materials are employed both as catholyte
+and as separator, and indium-lithium alloy serves as anode.
+To manufacture the cathode composite, sulfur was first melt-
+infiltrated into a carbon host and subsequently blended with
+additional carbon additive and the SE via high-energy milling.
+The sulfur content accounted for 30 wt.% of the total cathode
+composite, as determined by thermogravimetric analysis (TGA)
+(Figure S4a,b). The first-cycle voltage profiles at a rate of C/2
+and at 45◦C are presented in Figure 2b. Cells containing the
+Li10.5Si1.5P1.5S12 SE delivered an initial specific discharge capacity
+of qdis ≈1670 mAh gsulfur
+−1. However, upon subsequent charge,
+only a qch ≈670 mAh gsulfur
+−1 was achieved (equivalent to
+about 40% of the discharge capacity), accompanied by a distinct
+polarization of 1.07 V. Details on the calculation of Coulomb
+efficiency (CE) can be found in Section S1.
+When using Li10.3Si1.5P1.5S11.8I0.2 as SE, the voltage difference
+between charge and discharge was reduced to 0.68 V. While the
+specific discharge capacity (qdis ≈1450 mAh gsulfur
+−1) was lower
+than that achieved with the Li10.5Si1.5P1.5S12-based cells, about 77%
+of the capacity could be recovered during charge (qch ≈1120 mAh
+gsulfur
+−1). Upon incorporating the Li10.1Si1.5P1.5S11.6I0.4 SE into the
+ASSLSBs, the voltage hysteresis was further lowered to 0.44 V,
+and surprisingly, the specific discharge capacity (qdis ≈1680 mAh
+gsulfur
+−1) was found to be somewhat lower than the specific charge
+capacity (qch ≈1850 mAh gsulfur
+−1). The actual capacity even
+exceeded the theoretical one for sulfur, and a kind of overcharging
+was observed. This suggests that the capacity contribution from
+the SEs is non-negligible.
+Sulfide electrolytes have a narrow thermodynamic stability
+window; however, studies have shown that certain redox cou-
+ples, such as S0/S2−and P5+/P0/P3−, are reversible [43–45].
+Unfortunately, current research on ASSLSBs often overlooks the
+capacity contribution of SEs, attributing the full capacity solely
+to sulfur redox activity. To examine the redox behavior of the
+Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.2, 0.4) SEs, solid-state battery
+cells with a cathode consisting of 70 wt.% SE and 30 wt.%
+carbon black were assembled. The cells were cycled between
+0.4 and 2.5 V vs. In/InLi at 0.86 mA cm−2 (corresponding to
+C/2 for the ASSLSBs), starting from discharge. Results from
+differential capacity analysis (dq/dV plots) are presented in
+Figure 2c and Figure S5a,b. All SEs exhibited similar redox
+behavior, consistent with previous reports [44, 45]. The peaks
+in the dq/dV plots correspond to reversible redox processes,
+which can be assigned to the S0/S2−and P5+/P0 couples. Briefly,
+the initial discharge involves P5+ reduction below 0.75 V vs.
+In/InLi and minor sulfur reduction (0.75–1.6 V vs. In/InLi) in
+the iodine-containing samples, attributed to the presence of trace
+sulfur and/or polysulfides, most likely stemming from synthesis
+residuals or the cathode composite preparation. The subsequent
+charge is dominated by S2−oxidation (1.6–2.0 V vs. In/InLi),
+followed by a minor contribution resulting from P0 oxidation to
+P5+. Subsequent cycles show strong currents related to the S0/S2−
+redox activity and overlap closely, indicating high reversibility.
+Notably, the S0/S2−redox activity increases significantly with
+iodine content, especially for Li10.1Si1.5P1.5S11.6I0.4, which can be
+attributed to the redox mediation by iodine species.
+For the cell with Li10.1Si1.5P1.5S11.6I0.4 as the active component in
+the working electrode, the respective voltage profiles at different
+C-rates are presented in Figure S5c. In the initial cycle at a current
+density (j = 0.86 mA cm−2) corresponding to a rate of C/2 in
+the ASSLSBs, a similar overcharging phenomenon was observed
+(due to S2−oxidation), with the “excess” capacity being highly
+reversible. As evident from Figure S5c, the material delivered a
+specific capacity of about 250 mAh gSE
+−1 at 0.86 mA cm−2. We
+assume that, with such a low current density, it exhibits the same
+electrochemical behavior regardless of whether sulfur is present
+in the cathode or not. Its contribution to the capacity of the
+ASSLSB was calculated with reference to the sulfur content in the
+cathode (Figure 2b). For details on the calculation, see Section S1.
+After subtracting the contribution from the SE, the efficiency of
+the ASSLSB was close to 100%, indicating the high reversibility
+of the sulfur conversion reactions. Aside from that, the capacity
+contribution from the sulfur amounted to ∼1440 mAh gsulfur
+−1,
+corresponding to 86% utilization, which is among the highest
+values reported for ASSLSBs to date [8, 46, 47].
+For ASSLSBs, the dq/dV analysis confirmed that the S0/S2−
+redox couple dominates the capacity (Figure 2d; Figure S6a,b).
+With increasing iodine content, the current related to the S0/S2−
+redox activity is strongly increased, while the polarization is
+markedly reduced. In addition, a new (cathodic) peak appears
+at about 1.5 V vs. In/InLi in the subsequent cycles. The origin
+of this peak remains poorly understood and difficult to study in
+4 of 15
+Advanced Materials, 2026
+
+=== 第 5 页 ===
+FIGURE 2
+Electrochemical performance of ASSLSBs. (a) Schematic illustration of the cell configuration. (b) First-cycle voltage profiles of cells
+using the Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.2, 0.4) SEs as catholyte and in the separator. The redox behavior of Li10.1Si1.5P1.5S11.6I0.4 within the
+same voltage window is indicated by the dash-dotted line. Differential capacity curves for the Li10.1Si1.5P1.5S11.6I0.4-based cells (c) without and (d) with
+sulfur being present in the composite electrode. (e) Rate performance of ASSLSBs using the different SEs. (f) Charge–discharge profiles of a cell with
+Li10.1Si1.5P1.5S11.6I0.4 at different C-rates. (g) Corresponding capacity evolution and estimated contributions from the SE at comparable current densities.
+detail. A possible explanation is the formation of polysulfido-type
+intermediates ([PS4+n]3−, with n > 0) resulting from reactions
+between the sulfur and the SE. Such intermediates have been
+reported in systems prepared by wet-mixing [48].
+The rate performance of cells using the different SEs is shown in
+Figure 2e. Those using the Li10.5Si1.5P1.5S12 SE were only capable
+of delivering a reversible specific discharge capacity of qdis ≈660
+mAh gsulfur
+−1 at C/2, due to the major loss in the first charge
+cycle. The capacities at rates of 5C, 10C, and 15C were found
+to be negligible. Cells using Li10.3Si1.5P1.5S11.8I0.2 showed some
+improvements, but the reversible specific discharge capacities
+at rates ≥5C were still lower than 300 mAh gsulfur
+−1. Notably,
+the Li10.1Si1.5P1.5S11.6I0.4-based cells demonstrated superior rate
+performance, achieving specific discharge capacities of qdis ≈1850
+mAh gsulfur
+−1 at C/2, 1175 mAh gsulfur
+−1 at 5C, 800 mAh gsulfur
+−1 at
+10C, and 590 mAh gsulfur
+−1 at 15C. Representative voltage profiles
+of an ASSLSB using the Li10.1Si1.5P1.5S11.6I0.4 are shown in Figure 2f,
+Advanced Materials, 2026
+5 of 15
+
+=== 第 6 页 ===
+revealing an increase in voltage hysteresis from about 0.44 V at
+C/2 to 1.15 V at 15C.
+For ASSLSBs that are cycled at high C-rates, the calculation
+suggested above is likely insufficient to quantify and separate
+the contributions of SE and sulfur to capacity, as increased
+current densities can lead to inhomogeneous current distribution
+and different reaction kinetics. However, a semi-quantitative
+estimate focusing on the evolution of the reversible capacity of
+Li10.1Si1.5P1.5S11.6I0.4 with increasing current density remains valid.
+As shown in Figure 2g, the reversible capacity associated with
+the SE decreased significantly faster than the total capacity of
+the ASSLSB. Furthermore, it can be assumed that in the presence
+of sulfur, the contribution from the SE at high current densities
+is most likely lower than estimated in Figure 2g. These results
+clearly show that in ASSLSBs, sulfur continues to account for
+the largest share of total capacity, and its relative contribution
+becomes increasingly important with increasing C-rate.
+For the cell with Li10.1Si1.5P1.5S11.6I0.4 as active component in the
+working electrode, specific capacities of about 100 mAh gSE
+−1
+were achieved at j = 8.6 mA cm−2 (corresponding to a rate of
+5C in the ASSLSBs), without major fading over the first 1500
+cycles (Figure S5d). Overall, this underscores the significant
+involvement of SE in electrochemical redox reactions, which
+should be taken into account in future studies. In the case of
+Li10.1Si1.5P1.5S11.6I0.4, its high reversibility is particularly advanta-
+geous for practical applications, as the SE provides additional
+capacity beyond that of sulfur, which serves as the actual cathode
+active material in ASSLSBs.
+The sulfur/C/ Li10.1Si1.5P1.5S11.6I0.4 cathode composite milled for
+different periods of time was also tested in ASSLSBs, with the
+respective voltage profiles at C/2 shown in Figure 3a. It is obvious
+that extending the milling time leads to a strong increase in
+specific discharge capacity from qdis ≈1160 mAh gsulfur
+−1 for 2 h
+to 1850 mAh gsulfur
+−1 for 10 h and further positively affects rate
+capability (Figures S7 and S8).
+To understand the origin of the fast kinetics in ASSLSBs using
+the Li10.1Si1.5P1.5S11.6I0.4, the cathode was first examined by SXRD
+and PDF analysis of total scattering data. The SXRD patterns
+collected from the composite powder ball-milled for 2, 4, and 10 h
+at 450 rpm are shown in Figure 3b, along with those of the pristine
+SE and sulfur. Distinct reflections of the Li4+cP1−cSicS4I (minor)
+and t-Li10.5+aSi1.5+aP1.5−aS12 (major) phases were still clearly visible
+after 2 h of milling. However, those of the Li4+cP1−cSicS4I phase
+were strongly reduced in intensity compared to the pristine
+material. As can be seen, if milling of the cathode compos-
+ite was continued, the intensity of reflections related to the
+Li4+cP1−cSicS4I phase diminished much faster than that for t-
+Li10.5+aSi1.5+aP1.5−aS12. After 10 h of milling, only broad reflections
+from both t-Li10.5+aSi1.5+aP1.5−aS12 and sulfur were still detectable.
+This result indicates that the Li4+cP1−cSicS4I phase readily amor-
+phizes, which is known to be accompanied by an increase in ionic
+conductivity by several orders of magnitude [49, 50]. Sulfur and
+the t-Li10.5+aSi1.5+aP1.5−aS12 phase were also partially amorphized,
+but likely remained in nanocrystalline form after milling. To
+further substantiate this point, 31P magic-angle spinning (MAS)
+nuclear magnetic resonance (NMR) spectroscopy measurements
+were conducted on both the as-synthesized Li10.1Si1.5P1.5S11.6I0.4
+and the corresponding cathode composite. As shown in Figure 3c,
+the pristine material displays three sharp peaks between 110
+and 70 ppm. The 31P resonances associated with the [PS4]3−
+tetrahedra in the crystal structure of the t-Li10.5+aSi1.5+aP1.5−aS12
+phase appear at 94.0 and 73.3 ppm, matching previously reported
+values (93.8 and 73.1 ppm) and being related to two different
+crystallographic phosphorus positions [36]. The sharp signal at
+82.5 ppm is related to [PS4]3−species within the Li4+cP1−cSicS4I
+phase, in agreement with the 31P chemical shift reported for
+crystalline Li4PS4I [51]. Upon cathode composite preparation
+(after 10 h of ball milling), all three peaks are broadened, and
+their relative intensities are reduced. The peaks corresponding
+to the tetragonal phase show a reduced relative intensity and
+some minor shift to lower values, but generally their chemical-
+shift range remains largely unaltered, consistent with partial
+amorphization and the formation of highly strained, defect-rich,
+nanocrystalline domains. In contrast, the peak associated with
+the crystalline Li4PS4I-type phase becomes significantly broader,
+and the emergence of a wide, diffuse feature agrees with the
+formation of an amorphous Li4PS4I-derived phase [52].
+Synchrotron X-ray total scattering and PDF analysis (Figure
+S9) indicated that the long-range ordering (>4 Å) is already
+strongly disturbed after milling for 2 h. Upon further milling,
+the long-range periodicity is strongly reduced, with only short-
+range ordering (<4 Å) being evident from the PDFs. However,
+clear assignment of the different peaks to certain bond distances
+is very challenging, as there is strong overlapping between atomic
+distances originating from the [PS4]3−and [SiS4]4−tetrahedral
+building units and the S─S bonds from sulfur.
+To further probe the micro- and nanostructure of the cathode
+containing the Li10.1Si1.5P1.5S11.6I0.4 SE after 10 h of milling, SEM
+imaging was performed on cross sections. Sample specimens were
+prepared via FIB (focused ion beam) cutting under cryogenic
+conditions to avoid beam damage. As shown in Figure S10a, a
+clean and flat cross-section was successfully prepared. Although
+the assignment of different phases is quite challenging, the
+homogeneity of mixing can be evaluated from high-magnification
+SEM images. A grainy structure is observed, and numerous bright
+spots in the nanometer range are found throughout the composite
+(Figure S10b–f). While some larger spots reach several tens of
+nanometers, the majority of these spots are too small to be
+individually resolved, yet they are uniformly distributed across
+the composite.
+Taken together, the observations from SEM imaging and the
+synchrotron XRD results strongly support the formation of an
+iodine-rich, amorphous phase and the presence of a nanoscale
+t-Li10.5+aSi1.5+aP1.5−aS12 phase together with sulfur and carbon
+components within the cathode composite.
+To confirm the high ionic conductivity within the composite
+cathode with respect to the pristine SE, 7Li pulsed-field gradient
+(PFG) NMR (7Li PFG NMR) measurements were performed using
+a diffusion time of 10 ms (Figure S11). Note that from that latter, a
+diffusion length of several hundred nanometers to a few microm-
+eters can be estimated. As shown in Figure 3d, all cathodes
+exhibited high Li-ion diffusivity (10−12 m2 s−1), comparable in
+magnitude to that of the parent t-Li10.5+aSi1.5+aP1.5−aS12 phase. To
+verify that the high lithium diffusivity primarily originates from
+6 of 15
+Advanced Materials, 2026
+
+=== 第 7 页 ===
+FIGURE 3
+The origin of fast reaction kinetics in ASSLSBs using Li10.1Si1.5P1.5S11.6I0.4 as catholyte. (a) Voltage profiles (C/2, 45◦C) of cells with
+cathode composite (sulfur/C/Li10.1Si1.5P1.5S11.6I0.4) ball-milled for 2, 4, and 10 h and (b) corresponding SXRD patterns. (c) 31P MAS NMR spectra of the
+pristine Li10.1Si1.5P1.5S11.6I0.4 and sulfur/C/Li10.1Si1.5P1.5S11.6I0.4 cathode composite after 10 h of milling. (d) Room-temperature Li-ion diffusion coefficients
+for the sulfur/C/Li10.5−xSi1.5P1.5S12−xIx composites (with x = 0, 0.2, 0.4) determined by 7Li PFG NMR spectroscopy. Diffusion coefficients of the pristine
+Li10.5−xSi1.5P1.5S12−xIx SEs for x = 0 and 0.4 are included for comparison. (e) Electronic and ionic partial conductivities of the Li10.5−xSi1.5P1.5S12−xIx/sulfur
+composites (with x = 0, 0.4). (f) GITT curves for the initial cycle of cells with Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.4). The areal sulfur loading was about
+1 mg cm−2. (g) Schematic illustrations of the cathode composite and synergistic enhancement of sulfur conversion through improved ionic percolation
+and effective activation of the SE|Li2S interface via iodine-mediated redox. The right panel was inspired by literature [24].
+the t-Li10.5+aSi1.5+aP1.5−aS12 phase, the diffusion coefficients for
+the pristine Li10.1Si1.5P1.5S11.6I0.4 (Figure S12a,b) and Li10.5Si1.5P1.5S12
+(from previous work [42]) are also plotted in Figure 3d, showing
+good agreement with the cathode composite data. Subsequently,
+the ionic and electronic partial conductivities were probed using
+a series of electrochemical techniques.
+SE/sulfur mixtures were fabricated, excluding carbon, to isolate
+the effect of the SE. Interestingly, a higher density (1.96 g cm−3)
+was achieved with the cold-pressed Li10.1Si1.5P1.5S11.6I0.4/sulfur
+composite compared to Li10.5Si1.5P1.5S12/sulfur (1.79 g cm−3). Given
+that Li10.1Si1.5P1.5S11.6I0.4 and Li10.5Si1.5P1.5S12 have similar com-
+paction densities (1.66 and 1.69 g cm−3 when powder material
+is densified at 450 MPa, respectively), the increased densifica-
+tion of the Li10.1Si1.5P1.5S11.6I0.4-based composite suggests fewer
+void spaces, being advantageous for charge percolation. The
+electronic conductivity was examined by direct current (DC)
+polarization with ion-blocking electrodes (Figure S13a). Both the
+Advanced Materials, 2026
+7 of 15
+
+=== 第 8 页 ===
+Li10.1Si1.5P1.5S11.6I0.4/sulfur and Li10.5Si1.5P1.5S12/sulfur composites
+revealed rather low electronic conductivities on the order of 10−7
+mS cm−1 (Figure 3e; Figure S13b). The ionic conductivities were
+determined via EIS and found to be 1.62 × 10−2 mS cm−1 for
+Li10.1Si1.5P1.5S11.6I0.4/sulfur, compared to 1.17 × 10−2 mS cm−1 for
+Li10.5Si1.5P1.5S12/sulfur (Figure S13c). Since the electronic conduc-
+tivity is about five orders of magnitude lower than the ionic
+one, the overall conductivity extracted from EIS can be primarily
+attributed to ion conduction. Of note, the iodine-rich, amorphous
+phase has been reported to be softer and more conductive [53,
+54]. Therefore, despite the nanocrystalline t-Li10.5+aSi1.5+aP1.5−aS12
+within the sulfur/C/Li10.1Si1.5P1.5S11.6I0.4 composite being slightly
+less conductive than in the sulfur/C/Li10.5Si1.5P1.5S12 composite,
+the iodine-rich, amorphous phase enables maintaining a higher
+overall conductivity in the Li10.1Si1.5P1.5S11.6I0.4/sulfur composite,
+which is beneficial for improving sulfur utilization and rate
+performance of ASSLSBs.
+To examine the equilibrium voltage and overpotential varia-
+tions in the ASSLSBs depending on the SE used, galvanostatic
+intermittent titration technique (GITT) analysis was performed
+(Figure 3f). The hysteresis between the charge and discharge
+equilibrium voltages indicates asymmetric reaction pathways,
+consistent with a previous study. The latter has been attributed
+to a two-step reduction of S8 to Li2S upon discharge (Equations 1
+and 2) and a single-step oxidation of Li2S to S8 during charge
+(Equation 3) according to [55]:
+S8 + 4Li+ + 4e−→2Li2S4
+(1)
+2Li2S4 + 12Li+ + 12e−→8Li2S
+(2)
+8Li2S →S8 + 16Li+ + 16e−
+(3)
+While both the Li10.5Si1.5P1.5S12- and Li10.1Si1.5P1.5S11.6I0.4-based
+cells showed similar equilibrium voltages at various depths
+of charge/discharge, their overpotentials differed significantly.
+During discharge, the cells using Li10.1Si1.5P1.5S11.6I0.4 exhibited
+lower overpotentials than those with Li10.5Si1.5P1.5S12, likely due
+to facilitated ion transport. However, at the end of discharge,
+the overpotentials converged as sulfur became depleted, and
+both systems ultimately delivered similar discharge capacities.
+In the subsequent charge cycle, the overpotentials were again
+significantly lower for the Li10.1Si1.5P1.5S11.6I0.4-based cells, becom-
+ing more pronounced with increasing state-of-charge (SOC).
+Having in mind that the lithiation follows a path close to the
+thermodynamic ground state, whereas the delithiation (Equa-
+tion 3) is a kinetically dominated process [55], our results clearly
+demonstrate the beneficial effect of iodine on enhancing the
+kinetics of the electrochemical Li2S-to-S8 conversion. This finding
+agrees with a recent study reporting on the redox-mediating
+capability of iodine in a sulfide-based SE, enabling fast solid-
+solid conversion reactions in ASSLSBs [24]. In particular, we
+assume that a similar mechanism is at play here, where iodine is
+being oxidized at the carbon|SE interface, migrates to the SE|Li2S
+interface, and eventually chemically oxidizes Li2S. This unique
+reaction route transforms the SE/Li2S two-phase boundary into
+an active interface, thereby increasing the density of reaction sites
+and improving kinetics, which in turn allows for excellent rate
+performance of the corresponding ASSLSBs.
+The GITT curves of the second cycle (Figure S14) were very
+similar to those of the first cycle, except for the better reversibility
+in both cases and the fact that the iodine-containing cell delivered
+a higher capacity, resulting from the combined effects of SE redox
+activity and improved sulfur utilization. Lower polarization and
+lower overvoltage in the iodine-containing SE at the end of charge
+confirm the continuing role of iodine redox mediation during
+cycling.
+Besides, in situ EIS measurements were performed to probe the
+resistance evolution in the ASSLSBs during the first GITT cycle
+(Figure S15). A contribution in the high-frequency region (∼10−6–
+10−5 Hz) was clearly identified for the cells with Li10.5Si1.5P1.5S12,
+previously attributed to ionic resistance at the SE grain bound-
+aries [55, 56]. However, this contribution was lacking for the
+SE pellets (Figure S3). Previous studies suggest that the bulk
+and grain-boundary resistances of similar superionic conduc-
+tors are only distinguishable at low temperatures and/or much
+higher frequencies [36, 57]. Hence, the resistance observed here
+likely originates from other interfaces present in the cathode.
+Notably, no such contribution was detected in ASSLSBs using
+Li10.1Si1.5P1.5S11.6I0.4, presumably due to the formation of an iodine-
+rich interface that is facilitating lithium transport [58]. As
+expected, the cells using Li10.1Si1.5P1.5S11.6I0.4 exhibited consistently
+lower overall impedances throughout cycling, thereby confirm-
+ing better charge percolation in the case of the iodine-containing
+SE. Moreover, for Li10.5Si1.5P1.5S12, the bulk and interfacial resis-
+tances (intercept with x-axis) were found to steadily increase
+during the initial cycle, unlike for Li10.1Si1.5P1.5S11.6I0.4, where only
+changes to the diffusive response are apparent from the Nyquist
+plots.
+Distribution of relaxation times (DRT) analysis was further
+used to examine the electrochemical processes occurring in
+the middle- and low-frequency regions (10−5–101 Hz) (Figure
+S16). Contributions from charge-transfer resistance at both
+anode and cathode were observed over a broad range of relax-
+ation times, from 10−3 to 1 s, overlapping with one another,
+thus making it very difficult or even impossible to tell them
+apart. However, in general, the charge-transfer resistance of
+ASSLSBs with Li10.1Si1.5P1.5S11.6I0.4 was lower than that of cells
+using Li10.5Si1.5P1.5S12, especially during charge. Aside from that,
+the diffusion-related resistance above 1 s was also lower for
+Li10.1Si1.5P1.5S11.6I0.4, except at the end of charge, where the higher
+SOC led to an increase.
+Based on these results, we hypothesize that Li10.1Si1.5P1.5S11.6I0.4
+exhibits several beneficial effects across multiple aspects. First of
+all, the in situ formed iodine-rich, amorphous phase has a low
+Young’s modulus, which positively affects densification of the
+cathode and facilitates charge-transfer kinetics. Combined with
+the embedded nanocrystalline t-Li10.5+aSi1.5+aP1.5−aS12 phase, this
+greatly enhances ionic percolation. Most importantly, iodine also
+acts as a redox mediator during charge, increasing reaction sites
+and improving rate performance (Figure 3g).
+The fast kinetics was also confirmed by preparing a cathode
+composite via simply blending amorphous Li4PS4I (see XRD
+and EIS data in Figure S17) and Li10.5Si1.5P1.5S12 and testing it as
+catholyte in ASSLSBs. The respective cells were found to deliver
+a specific discharge capacity of qdis ≈600 mAh gsulfur
+−1 at 5C
+8 of 15
+Advanced Materials, 2026
+
+=== 第 9 页 ===
+FIGURE 4
+(a) Long-term cycling performance of Li10.1Si1.5P1.5S11.6I0.4-based ASSLSBs at rates of 1C and 5C and (b) corresponding Coulomb
+efficiencies. (c–e) Top-view and cross-sectional SEM images of the cathode before and after cycling, along with elemental maps for Si, S, C, and I. (f)
+High-magnification SEM images showing the different pore sizes near the surface and in the bulk. Cycling performance achieved with sulfur loadings
+of (g) 5 mgsulfur cm−2 and (h) 10 mgsulfur cm−2.
+(Figure S18), much higher than that achieved with only
+Li10.5Si1.5P1.5S12 (Figure 2e). Overall, these results highlight the
+effects that the mixing process and presence of amorphous side
+phases have on battery performance.
+The long-term cycling performance of ASSLSBs with about
+1 mg cm−2 sulfur loading was evaluated at rates of 1C and 5C
+(Figure 4a). After initial activation, specific discharge capacities
+of qdis ≈1760 mAh gsulfur
+−1 at 1C and qdis ≈1160 mAh gsulfur
+−1
+at 5C were achieved, with continuous fading toward 760 mAh
+gsulfur
+−1 at 1C and 890 mAh gsulfur
+−1 at 5C after 500 cycles.
+The corresponding CEs are shown in Figure 4b. As can be
+seen, they exceeded 99.5% already after 20 cycles at 5C and
+remained well above upon further cycling. If long-term cycling
+was done at a 1C rate, the initial CE was higher than 100%,
+due to the significant capacity contribution related to the redox
+activity of the SE upon charge. During the course of the first
+30 cycles, the CE dropped below 99.5%, after which it recovered
+and stabilized at values exceeding 99.5% upon further cycling.
+The faster capacity decay of ASSLSBs cycled at 1C is likely
+due to more severe (chemo)mechanical degradation caused by
+greater charge/discharge depths (i.e., higher accumulated capac-
+ity) rather than irreversible side reactions, highlighting the need
+for future strategies, such as including polymer binders within the
+cathode composite to better maintain electrode integrity [59].
+To gain insight into the microstructural and morphological
+changes of the cathodes upon battery operation, the cells were
+disassembled after extended cycling (>1000 cycles at 1C), fol-
+lowed by SEM imaging and EDX spectroscopy mapping. The
+pristine cathodes revealed a dense morphology, with some,
+mostly minor microcracking and sulfur, carbon, iodine, and
+silicon being uniformly distributed (Figure 4c). As is evident,
+no obvious segregation of elements occurred after long-term
+cycling, with the cathode integrity being largely maintained
+(Figure 4d). However, cross-sectional SEM imaging demonstrated
+Advanced Materials, 2026
+9 of 15
+
+=== 第 10 页 ===
+FIGURE 5
+Comparisons between reported (a) high-power and (b) high-loading (>3 mgsulfur cm−2) ASSLSBs and our work (red stars). The
+references on the right-hand side refer to those given in Tables S2 and S3.
+that the morphology is changing toward a porous structure
+with slightly uneven element distribution (Figure 4e). From the
+higher-magnification SEM images shown in Figure 4f, it can be
+seen that the pores in the bulk were significantly larger than
+those in the vicinity of the current collector. This kind of structure
+is believed to strongly increase charge-transport tortuosity and
+further cause contact loss, leading to electrochemically inactive
+(“dead”) material. The origin of pore formation is likely rooted in
+the severe volumetric and morphological changes during sulfur
+conversion and possibly also related to the generation of gaseous
+iodine species [24].
+After having proven the excellent rate capability of ASSLSBs
+employing the Li10.1Si1.5P1.5S11.6I0.4 SE, high-loading cells were
+tested. Note that the cathode thickness increased from about
+19 µm for 1 mgsulfur cm−2 to almost 95 µm for 5 mgsulfur cm−2,
+and further to around 190 µm for 10 mgsulfur cm−2. An areal
+capacity of 9.7 mAh cm−2 was achieved with 5 mgsulfur cm−2 at
+C/10 (Figure 4g), corresponding to a specific discharge capacity
+of qdis ≈1940 mAh gsulfur
+−1 (including the contribution from the
+SE). After 40 cycles, 4.8 mAh cm−2 (∼970 mAh gsulfur
+−1) was
+maintained. When the loading was increased to 10 mgsulfur cm−2,
+the ASSLSBs were capable of delivering about 18.1 mAh cm−2
+(∼1810 mAh gsulfur
+−1). However, the areal charge capacity was
+found to be “only” 14.4 mAh cm−2 (1440 mAh gsulfur
+−1) in the
+initial cycle at C/10 (Figure 4h), likely due to major changes
+in charge percolation and/or (chemo)mechanical degradation.
+Nevertheless, a high areal capacity of 10.4 mAh cm−2 was still
+maintained after 20 cycles.
+In order to set the performance of the Li10.1Si1.5P1.5S11.6I0.4-based
+cells in context with reports available in literature, Figure 5a,b
+summarizes data for other high-rate and high-loading ASSLSBs
+[14, 24, 27, 31, 32, 46, 48, 58, 60–64]. The reported ASSLSBs often
+differ with regard to key parameters, such as separator thickness,
+anode type, sulfur content in the cathode, sulfur loading, and
+operating temperature. To ensure fair comparison, the total
+cathode mass was considered in the following calculations,
+assuming a lithium metal anode in all cases. The original data
+and details on the calculations can be found in the Tables S2 and
+S3 and Section S1. In general, the specific energy decreases with
+increasing output power due to capacity decay and polarization.
+The ASSLSBs reported in the present work demonstrate one of the
+best performances (Figure 5a). As can be seen, ref. [6] exhibits a
+higher specific energy below 1 kW kgcathode
+−1, as the sulfur content
+was 60 wt.% and a low-density catholyte was employed. However,
+in this particular case, the operating temperature was 60◦C, and
+the cells showed pronounced fading at high power output.
+Realizing high sulfur loadings is challenging but essential
+for practical applications of ASSLSBs. The goal is to achieve
+high areal capacities while maintaining high cathode-specific
+capacities (i.e., high sulfur content and utilization). Figure 5b
+summarizes reported ASSLSBs with high sulfur loadings (>3
+mgsulfur cm−2). In general, high operating temperatures (≥45◦C)
+and low C-rates (C/50–C/5) appear to be critical for ensuring
+robust sulfur utilization in high-loading cells, likely due to
+the unfavorable tortuosity of the transport pathways in thick
+cathodes. In this regard, our work achieves a record-high areal
+capacity of about 14.4 mAh cm−2 with a loading of 10 mgsulfur cm−2
+at 45◦C and C/10 while maintaining competitive cathode-specific
+capacities. Furthermore, we calculated an idealized ASSLSB
+cell model considering a 30 µm-thin SE separator (density: 2 g
+cm−3) and a Li metal anode (n/p ratio: 1) (Figure S19). In this
+context, our results suggest that a cell-level energy density of
+600 Wh kg−1 is achievable. At a sulfur loading of 5 mgsulfur
+cm−2, this configuration delivers >600 Wh kg−1 (including the SE
+contribution). Increasing the loading to 10 mgsulfur cm−2 reduces
+sulfur utilization and slightly lowers the cell-level energy density,
+but values above 600 Wh kg−1 are still attainable.
+Increasing the sulfur fraction in the cathode composite is
+critical for practical applications, but the tortuosity of the
+charge-transport pathways typically increases with increas-
+ing sulfur content, leading to reduced sulfur utilization and
+increased polarization. To examine this effect, we prepared
+cathode composites with an increased fraction of 37.5 wt.%
+sulfur using two approaches: (i) keeping the electrolyte frac-
+tion constant to maintain ionic transport and redox mediation
+(sulfur-carbon composite [75 wt.% sulfur]:SE = 1:1 by weight;
+referred to as cell_SE), and (ii) keeping the carbon fraction con-
+stant to ensure sufficient electronic conductivity (sulfur-carbon
+composite [75 wt.% sulfur]:Super P:SE = 5:1:4 by weight; referred
+to as cell_C). As shown in Figure S20a,b, cell_SE delivered
+1366 mAh gsulfur
+−1 at C/2 and retained 249 mAh gsulfur
+−1 at 15C,
+whereas cell_C exhibited severe polarization with qdis < 300 mAh
+gsulfur
+−1 even at C/2. These results demonstrate that ionic rather
+than electronic transport is the key limitation at higher sulfur
+10 of 15
+Advanced Materials, 2026
+
+=== 第 11 页 ===
+loadings. Notably, cell_C displayed significantly larger discharge
+polarization, but similar charge polarization compared to cell_SE,
+suggesting that iodine-mediated redox processes remain active,
+while reduced ionic conductivity hinders the sulfur to Li2S
+conversion. Further increasing sulfur content is challenging with
+our current 75 wt.% sulfur-containing composite, but advanced
+hosts capable of lowering carbon fraction in the cathode may
+enable higher sulfur loadings without severely compromising
+ionic percolation [64].
+3
+Conclusion
+In summary, we have examined the effect of iodine substitution
+in sulfide-based solid electrolytes with the nominal composition
+Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.2, 0.4). Structural analysis
+revealed that while iodine is not directly incorporated into the
+primary t-Li10.5+aSi1.5+aP1.5−aS12 phase, for x = 0.4, it promotes
+the formation of a secondary, iodine-containing Li4+cP1−cSicS4I
+phase (19 wt.%) and reduces the fraction of amorphous side
+phases to about 6 wt.%. Despite the multiphase composition, the
+ionic conductivity of this composite electrolyte was determined
+to be 6.8 mS cm−1 at room temperature. When the electrolyte
+of nominal composition Li10.1Si1.5P1.5S11.6I0.4 was incorporated
+into all-solid-state lithium-sulfur batteries (ASSLSBs), the cells
+were found to deliver a reversible specific capacity of 1850
+mAh gsulfur
+−1 at C/2. This high capacity is achieved with a
+substantial contribution from the highly reversible redox of the
+solid electrolyte itself. Moreover, cells using Li10.1Si1.5P1.5S11.6I0.4
+exhibited an excellent rate capability, retaining 1175 mAh gsulfur
+−1
+at 5C and 590 mAh gsulfur
+−1 at 15C, clearly outperforming cells
+with iodine-free solid electrolyte. Scanning electron microscopy,
+synchrotron X-ray diffraction, pair distribution function anal-
+ysis of total scattering data, and NMR spectroscopy revealed
+the complete amorphization of the Li4+cP1−cSicS4I side phase,
+accompanied by nanosizing of the t-Li10.5+aSi1.5+aP1.5−aS12 main
+phase during preparation of the cathode composite. Applying a
+suite of electrochemical characterization techniques confirmed
+that the iodine-rich amorphous phase not only offers high ionic
+conductivity, but also actively participates in the redox reactions,
+thereby enhancing charge-transfer kinetics. This kind of unique
+interplay between different phases during cathode preparation
+and battery operation appears to be a key feature. The positive
+effect of the superionic solid electrolyte was further proven by
+testing of ASSLSBs, achieving a record-high areal capacity of
+14.4 mAh cm−2 with a mass loading of 10 mgsulfur cm−2 at a
+rate of C/10. Based on these high-loading cathodes, a cell-level
+specific energy over 600 Wh kg−1 can theoretically be achieved
+when paired with an ultrathin separator and a stable lithium
+metal anode. Overall, our work provides valuable insights into
+the rational design of redox-active solid electrolytes for next-
+generation electrochemical energy storage, paving the way for
+high-energy and high-power ASSLSBs with superior stability.
+4
+Experimental Section
+4.1
+Synthesis
+The precursors for synthesis, including Li2S (99.99%, Sigma–
+Aldrich), P2S5 (99%, Sigma–Aldrich), SiS2 (99.99%, Goodfellow),
+LiI (99.999%, Sigma–Aldrich), and S8 (Sigma–Aldrich, 99.998%),
+were used as received. Super P and Ketjenblack (EC-600JD)
+carbons were dried under dynamic vacuum (10−3 mbar) at 300◦C
+for 12 h prior to use. All materials were stored and handled in
+an Ar-filled glovebox, with H2O and O2 levels maintained below
+0.5 ppm. The Li10.5−xSi1.5P1.5S12−xIx (with x = 0, 0.2, and 0.4) SEs
+were synthesized via high-energy ball milling and subsequent
+annealing. A stoichiometric precursor mixture of around 1.5 g
+was placed in an 80 mL zirconia jar, along with 10 zirconia balls
+of 10 mm in diameter. The mixture was milled at 450 rpm for
+a total of 12 h using 24 cycles of 30 min milling and 10 min
+resting. After milling, the powders were pressed into pellets
+at 450 MPa, vacuum-sealed in quartz ampoules (10−3 mbar),
+and annealed at 525◦C for 90 h to produce Li10.5Si1.5P1.5S12
+and 8 h for both Li10.3Si1.5P1.5S11.8I0.2 and Li10.1Si1.5P1.5S11.6I0.4.
+The heating rate was set to 5◦C min−1, followed by natural
+cooling. For the mechanochemical synthesis of glass-ceramic
+Li4PS4I SE, a stoichiometric precursor mixture consisting of Li2S,
+P2S5, and LiI was ball-milled following the procedure described
+above.
+4.2
+Laboratory X-Ray Diffraction (XRD)
+Powder samples were sealed in borosilicate capillaries (0.68 mm
+inner diameter, 0.01 mm wall thickness; Hilgenberg) under an
+Ar atmosphere. XRD data were collected using a STOE Stadi-
+P diffractometer with a DECTRIS MYTHEN 1K strip detector
+in Debye-Scherrer geometry (Mo-Kα radiation, λ = 0.70926 Å).
+To quantify the amorphous fraction present in the SEs, 20 wt.%
+Si (640F; NIST) was added as an internal standard reference
+material. Rietveld refinement was performed using the FullProf
+Suite (version 2023) software.
+4.3
+Synchrotron X-Ray Diffraction (SXRD), Total
+Scattering, and Pair Distribution Function (PDF)
+Analysis
+Synchrotron XRD and total scattering data were collected at
+room temperature at beamline P02.1, PETRA III at Deutsches
+Elektronen-Synchrotron (DESY) in Hamburg, Germany, using a
+wavelength of λ = 0.207371 Å. The total exposure time for SXRD
+and total scattering measurements was set to 2700 s, divided into
+9 cycles of 300 s, with a 60 s rest period after each cycle to mitigate
+beam-induced damage. The PDFgetX3 software was applied to
+calculate the G(r) from the experimental total scattering data
+[65]. The latter data were first corrected for sample container
+contribution and Compton scattering, and then the normalized
+structure functions [S(Q)] were obtained. Finally, the S(Q) was
+Fourier-transformed to yield G(r) with Qmax = 16 Å−1 and rpoly =
+1.2 Å.
+4.4
+31P Magic-Angle Spinning (MAS) Nuclear
+Magnetic Resonance (NMR) Spectroscopy
+31P MAS NMR measurements were performed with a Bruker
+Avance spectrometer at a magnetic field of 11.7 T, corresponding
+to a resonance frequency of 202.5 MHz. Spinning was done
+in 2.5 mm rotors at 25 kHz. Samples were packed into the
+Advanced Materials, 2026
+11 of 15
+
+=== 第 12 页 ===
+rotors in an Ar-filled glovebox. Spectra were acquired with a
+rotor-synchronized Hahn-echo pulse sequence with a π/2 pulse
+duration of 1.9 µs and a recycle delay of 30 s. Spectra were
+referenced to H3PO4 (85%) at 0 ppm.
+4.5
+7Li Pulsed-Field Gradient (PFG) NMR
+Spectroscopy
+The 7Li PFG NMR measurements were performed on a Bruker
+Avance spectrometer at a magnetic field of 7.05 T. The maximal
+gradient strength of the diffusion probe is 30 T/m. The samples
+were stored in an Ar-filled glovebox and measured in sealed 5 mm
+borosilicate glass tubes. For the PFG experiments, a stimulated-
+echo pulse sequence was used [66]. Sulfur/C/Li10.1Si1.5P1.5S11.6I0.4,
+sulfur/C/Li10.3Si1.5P1.5S11.8I0.2, and sulfur/C/Li10.5Si1.5P1.5S12 were
+measured with a diffusion time of 10 ms and a gradient duration
+of 1.5 ms. Pristine Li10.1Si1.5P1.5S11.6I0.4 was measured with a
+diffusion time of 60 ms using a gradient duration of 3.5 ms.
+Li10.1Si1.5P1.5S11.6I0.4 exhibited two distinct lithium diffusion coeffi-
+cients with slow exchange, attributed to the t-Li10.5+aSi1.5+aP1.5−aS12
+and Li4+cP1−cSicS4I phases. The corresponding diffusion coeffi-
+cients were extracted using a two-component fitting model, as
+demonstrated in previous work [42].
+4.6
+Electrochemical Impedance Spectroscopy
+(EIS)
+Powder samples were loaded into a PEEK sleeve of inner diameter
+10 mm and sandwiched between stainless steel rods. The cells
+were pressed at 3.5 t for 3 min, and EIS measurements were
+conducted from 0.1 Hz to 7 MHz with a 20 mV voltage amplitude
+and at a stack pressure of 250 MPa using a BioLogic SP-200
+potentiostat.
+4.7
+Direct Current (DC) Polarization
+Measurements
+To this end, SE and S8 in a 5:3 weight ratio were blended in an
+80 mL zirconia jar with 10 zirconia balls (10 mm diameter) at
+450 rpm for 10 h, with cycles of 30 min milling and 10 min resting.
+80 mg of the mixture was then loaded into a PEEK sleeve (10 mm
+diameter) and sandwiched between stainless steel rods. The cell
+was pressed at 3.5 t for 3 min, and the as-made pellet was subjected
+to DC polarization at 0.3, 0.6, 0.9, and 1.2 V at 25◦C and under a
+stack pressure of 250 MPa. Each voltage was applied for 6 h to
+ensure a stable current response, from which both resistance and
+conductivity were calculated.
+4.8
+Thermogravimetric Analysis (TGA)
+TGA measurements were performed using a NETZSCH TG 209F1
+Libra instrument under a continuous argon flow of 20 mL
+min−1. The latter served both as a protective and purging gas.
+Appropriate amounts of composite materials were placed in an
+Al2O3 crucible and heated from room temperature to 550◦C at a
+rate of 5◦C min−1.
+4.9
+Galvanostatic Intermittent Titration
+Technique (GITT), In Situ EIS, and Distribution of
+Relaxation Times (DRT) Analysis
+The ASSLSBs were cycled at a rate of C/10 and at 45◦C in the
+voltage window of 0.4–2.5 V vs. In/InLi with alternating periods
+of 30 min applied current and 35 min open-circuit voltage (OCV)
+relaxation. In situ EIS data were collected during each relaxation
+period. DRT analysis was performed using the MATLAB GUI
+toolbox developed by Ciucci’s group [67]. Inductive data were
+excluded, second-order regularization derivative fitting parame-
+ters were used with a regularization parameter of 0.0001, and a
+radial basis function (RBF) with a full width at half maximum of
+0.5 was applied. The sample size was set to 10000.
+4.10
+Cryogenic Focused Ion Beam (FIB) Cutting,
+Scanning Electron Microscopy (SEM), and Energy
+Dispersive X-Ray (EDX) Spectroscopy
+SEM imaging of the pristine and cycled cathode was performed
+using a LEO 1530 microscope (Zeiss) equipped with a field
+emission gun and operated at 10 kV. EDX was performed using
+an Oxford X-Max N detector (Oxford Instruments) at 20 kV. Cryo-
+FIB cutting and room-temperature SEM imaging were further
+used to probe the texture of the pristine cathode composite. Cross-
+sectional specimens of the pelletized cathode composite were
+prepared using a Capella FIB system equipped with a gallium
+ion source under cryogenic conditions. The cathode pellet was
+mounted on a sample holder with carbon tape inside an Ar-filled
+glovebox and transferred to the scanning electron microscope
+(SEM) (Zeiss Crossbeam 340) via a transfer shuttle. The nitrogen-
+gas-cooled cold stage and the anti-contaminator were stabilized at
+−140◦C and −170◦C, respectively, with temperature control and
+monitoring provided by the cryo FIB-SEM sample preparation
+system (PP3005-06, Quorum). After insertion, the sample was
+further cooled and stabilized at −140◦C. Then, FIB milling was
+performed with a 3 nA ion current. Cross-sectional SEM images
+were acquired at an accelerating voltage of 3 kV at room temper-
+ature. Image distortion caused by the 54◦FIB cutting angle was
+corrected using the optical tilt correction feature implemented in
+the SmartSEM software.
+4.11
+Electrode Preparation, Cell Assembly, and
+Electrochemical Testing
+The sulfur-carbon composite was prepared by mixing 3 g of S8
+with 1 g of Ketjenblack in a mortar. The resulting mixture was
+loaded into an alumina crucible, covered with aluminum foil, and
+heated at 155◦C for 12 h under an Ar atmosphere. For ASSLSBs,
+the cathode was prepared by blending a 1 g mixture of sulfur-
+carbon composite, Super P, and SE (4:1:5 weight ratio) in an
+80 mL zirconia jar with 10 zirconia balls (10 mm diameter) at
+450 rpm for 2, 4, or 10 h (30 min milling cycles with 10 min resting
+periods). In the case of using the amorphous Li4PS4I and sintered
+Li10.5Si1.5P1.5S12 mixture as SE, the cathode was prepared by
+blending sulfur-carbon composite, Super P, amorphous Li4PS4I,
+and sintered Li10.5Si1.5P1.5S12 (4:1:1:4 weight ratio) following the
+same procedure as described above for 10 h milling.
+12 of 15
+Advanced Materials, 2026
+
+=== 第 13 页 ===
+In general, a customized cell setup with stainless steel dies and
+a PEEK sleeve (10 mm diameter) was used for cell assembly.
+The SE (100 mg) was pressed at 62.5 MPa to form the separator
+layer. The cathode composite was spread onto the separator
+and compacted at 440 MPa. For ASSLSBs with a low mass
+loading (∼1 mgsulfur cm−2), an In foil (9 mm diameter, 45 mg;
+GoodFellow) and a Li foil (6 mm diameter, 2 mg; Albemarle
+Corp.) were placed onto the separator. For high-loading ASSLSBs,
+two and four alternating layers of In and Li foils were used
+for 5 and 10 mgsulfur cm−2 loadings, respectively. Galvanostatic
+charge/discharge measurements were performed at 45◦C and
+under 81 MPa external pressure using a Maccor battery cycler. The
+cells were cycled between 0.4 and 2.5 V vs. In/InLi (1.02–3.12 V vs.
+Li+/Li) at different C-rates (1C = 1672 mA gsulfur
+−1) after a 1 h OCV
+rest period.
+For cells with Li10.1Si1.5P1.5S11.6I0.4/carbon cathode, the composite
+was prepared by blending a 1 g mixture of Li10.1Si1.5P1.5S11.6I0.4 and
+Super P (7:3 weight ratio) in an 80 mL zirconia jar with 10 zirconia
+balls (10 mm diameter) at 450 rpm for 10 h (30 min milling
+cycles with 10 min resting periods). They were assembled and
+cycled using the same setup, except that the cathode composite
+loading was 3.9 mg cm−2. This corresponds to a Li10.1Si1.5P1.5S11.6I0.4
+loading equal to the combined mass of Li10.1Si1.5P1.5S11.6I0.4 and
+sulfur in ASSLSBs with 1 mgsulfur cm−2. The cells were initially
+discharged, then charged at 0.86, 8.6, 17.2, and 25.8 mA cm−2
+(equal to the current densities at C/2, 5C, 10C, and 15C for
+ASSLSBs). Subsequent cycling was carried out at 8.6 mA cm−2.
+Acknowledgements
+F.S. and J.Y. are grateful to the German Federal Ministry of Research,
+Technology, and Space (BMFTR) for funding within the project MELLi
+(03XP0447). We acknowledge DESY (Hamburg, Germany), a member
+of the Helmholtz Association HGF, for the provision of experimental
+facilities. Parts of this research were carried out at PETRA III, and we are
+grateful to Martin Aaskov Karlsen and Volodymyr Baran for assistance in
+using beamline P02.1. Beamtime was allocated for proposal I-20240376.
+J.C. and S.F. acknowledge funding from the German Federal Ministry
+of Research, Technology, and Space (BMFTR) in the NanoMatFutur
+program (03XP0423) and basic funding from the Helmholtz Association.
+Open access funding enabled and organized by Projekt DEAL.
+Conflicts of Interest
+The authors declare no conflicts of interest.
+Data Availability Statement
+The data that support the findings of this study are available from the
+corresponding authors upon reasonable request.
+References
+1. P. G. Bruce, S. A. Freunberger, L. J. Hardwick, and J.-M. Tarascon, “Li–
+O2 and Li–S Batteries With High Energy Storage,” Nature Materials 11
+(2012): 19–29, https://doi.org/10.1038/nmat3191.
+2. X. Ji and F. Nazar, “Advances in Li–S Batteries,” Journal of Materials
+Chemistry 20 (2010): 9821–9826, https://doi.org/10.1039/B925751A.
+3. A. Manthiram, Y. Fu, S.-H. Chung, C. Zu, and Y.-S. Su, “Recharge-
+able Lithium–Sulfur Batteries,” Chemical Reviews 114 (2014): 11751–11787,
+https://doi.org/10.1021/cr500062v.
+4. Y. Song, W. Cai, L. Kong, J. Cai, Q. Zhang, and J. Sun, “Rationalizing
+Electrocatalysis of Li–S Chemistry by Mediator Design: Progress and
+Prospects,” Advanced Energy Materials 10 (2020): 1901075, https://doi.org/
+10.1002/aenm.201901075.
+5. Y. V. Mikhaylik and J. R. Akridge, “Polysulfide Shuttle Study in the Li/S
+Battery System,” Journal of The Electrochemical Society 151 (2004): A1969,
+https://doi.org/10.1149/1.1806394.
+6. Y. He, S. Bi, C. Jiang, and J. Song, “Recent Progress of Sulfur Cathodes
+and Other Components for Flexible Lithium–Sulfur Batteries,” Materials
+Today Sustainability 19 (2022): 100181, https://doi.org/10.1016/j.mtsust.
+2022.100181.
+7. S. Choi, I. Yoon, W. T. Nichols, and D. Shin, “Carbon-Coated Li2S
+Cathode for Improving the Electrochemical Properties of an All-Solid-
+State Lithium-Sulfur Battery Using Li2S-P2S5 Solid Electrolyte,” Ceramics
+International 44 (2018): 7450–7453, https://doi.org/10.1016/j.ceramint.
+2018.01.104.
+8. F. Liang, S. Wang, Q. Liang, et al., “Insight into All-Solid-State Li–S Bat-
+teries: Challenges, Advances, and Engineering Design,” Advanced Energy
+Materials 14 (2024): 2401959, https://doi.org/10.1002/aenm.202401959.
+9. D.-W. Wang, Q. Zeng, G. Zhou, et al., “Carbon–Sulfur Composites for
+Li–S Batteries: Status and Prospects,” Journal of Materials Chemistry A 1
+(2013): 9382–9394, https://doi.org/10.1039/C3TA11045A.
+10. B. H. Jeon, J. H. Yeon, K. M. Kim, and I. J. Chung, “Preparation
+and Electrochemical Properties of Lithium–Sulfur Polymer Batteries,”
+Journal of Power Sources 109 (2002): 89–97, https://doi.org/10.1016/S0378-
+7753(02)00050-2.
+11. S.-E. Cheon, K.-S. Ko, J.-H. Cho, S.-W. Kim, E.-Y. Chin, and H.-T. Kim,
+“Rechargeable Lithium Sulfur Battery,” Journal of The Electrochemical
+Society 150 (2003): A800, https://doi.org/10.1149/1.1571533.
+12. E. Umeshbabu, B. Zheng, and Y. Yang, “Recent Progress in All-
+Solid-State Lithium−Sulfur Batteries Using High Li-Ion Conductive Solid
+Electrolytes,” Electrochemical Energy Reviews 2 (2019): 199–230, https://
+doi.org/10.1007/s41918-019-00029-3.
+13. F. Han, J. Yue, X. Fan, et al., “High-Performance All-Solid-State
+Lithium–Sulfur Battery Enabled by a Mixed-Conductive Li2S Nanocom-
+posite,” Nano Letters 16 (2016): 4521–4527, https://doi.org/10.1021/acs.
+nanolett.6b01754.
+14. D. Wang, L.-J. Jhang, R. Kou, et al., “Realizing High-Capacity All-
+Solid-State Lithium-Sulfur Batteries Using a Low-Density Inorganic
+Solid-State Electrolyte,” Nature Communications 14 (2023): 1895, https://
+doi.org/10.1038/s41467-023-37564-z.
+15. P. Jiang, H. Zhou, S. Song, et al., “A Composite Cathode with
+a Three-Dimensional Ion/Electron-Conducting Structure for All-Solid-
+State Lithium–Sulfur Batteries,” Communications Materials 5, no. 1
+(2024): 105, https://doi.org/10.1038/s43246-024-00537-w.
+16. B. Fan, Z. Guan, L. Wu, et al., “Particle Size Control Of Cathode
+Components For High-Performance All-Solid-State Lithium–Sulfur Bat-
+teries,” Journal of the American Ceramic Society 106 (2023): 5781–5794,
+https://doi.org/10.1111/jace.19220.
+17. M. Li, H. Pan, T. Liu, et al., “All-in-One Ionic–Electronic Dual-Carrier
+Conducting Framework Thickening All-Solid-State Electrode,” ACS
+Energy Letters 7 (2022): 766–772, https://doi.org/10.1021/acsenergylett.
+1c02666.
+18. D. Wang, B. Gwalani, D. Wierzbicki, et al., “Overcoming the Con-
+version Reaction Limitation at Three-Phase Interfaces Using Mixed
+Conductors towards Energy-Dense Solid-State Li–S Batteries,” Nature
+Materials 24 (2025): 243–251, https://doi.org/10.1038/s41563-024-02057-x.
+19. L. C. H. Gerber, P. D. Frischmann, F. Y. Fan, et al., “Three-Dimensional
+Growth of Li2S in Lithium–Sulfur Batteries Promoted by a Redox
+Mediator,” Nano Letters 16 (2016): 549–554, https://doi.org/10.1021/acs.
+nanolett.5b04189.
+20. J. Zhou and A. Sun, “Redox Mediators for High Performance Lithium-
+Sulfur Batteries: Progress and Outlook,” Chemical Engineering Journal
+495 (2024): 153648, https://doi.org/10.1016/j.cej.2024.153648.
+Advanced Materials, 2026
+13 of 15
+
+=== 第 14 页 ===
+21. Y. Tsao, M. Lee, E. C. Miller, et al., “Designing a Quinone-Based Redox
+Mediator to Facilitate Li2S Oxidation in Li-S Batteries,” Joule 3 (2019): 872–
+884, https://doi.org/10.1016/j.joule.2018.12.018.
+22. W. Jin, X. Zhang, M. Liu, Y. Zhao, and P. Zhang, “High-Performance
+Li-S Batteries Boosted by Redox Mediators: A Review and Prospects,”
+Energy Storage Materials 67 (2024): 103223, https://doi.org/10.1016/j.ensm.
+2024.103223.
+23. C. Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, and L. F. Nazar, “High-
+Performance All-Solid-State Li2S Batteries Using an Interfacial Redox
+Mediator,” Energy & Environmental Science 16 (2023): 610–618, https://doi.
+org/10.1039/D2EE03297J.
+24. H. Song, K. Münch, X. Liu, et al., “All-Solid-State Li–S Batteries with
+Fast Solid–Solid Sulfur Reaction,” Nature 637 (2025): 846–853, https://doi.
+org/10.1038/s41586-024-08298-9.
+25. S. Zhang, F. Zhao, H. Su, et al., “Cubic Iodide LixYI3+x Superionic
+Conductors through Defect Manipulation for All-Solid-State Li Batteries,”
+Angewandte Chemie 136 (2024): 202316360, https://doi.org/10.1002/ange.
+202316360.
+26. Z. Wu, S. Chen, C. Yu, et al., “Engineering High Conductive Li7P2S8I
+via Cl- Doping for All-Solid-State Li-S Batteries Workable at Different
+Operating Temperatures,” Chemical Engineering Journal 442 (2022):
+136346, https://doi.org/10.1016/j.cej.2022.136346.
+27. J. Zhou, M. L. Holekevi Chandrappa, S. Tan, et al., “Healable and
+Conductive Sulfur Iodide for Solid-State Li–S Batteries,” Nature 627
+(2024): 301–305, https://doi.org/10.1038/s41586-024-07101-z.
+28. Y. Fujita, T. Hakari, A. Sakuda, et al., “Li2S–LiI Solid Solutions with
+Ionic Conductive Domains for Enhanced All-Solid-State Li/S Batteries,”
+ACS Applied Energy Materials 5 (2022): 9429–9436, https://doi.org/10.
+1021/acsaem.2c00978.
+29. Z. Jiang, T. Liang, Y. Liu, et al., “Improved Ionic Conductivity and Li
+Dendrite Suppression Capability toward Li7P3S11-Based Solid Electrolytes
+Triggered by Nb and O Cosubstitution,” ACS Applied Materials &
+Interfaces 12 (2020): 54662–54670, https://doi.org/10.1021/acsami.0c15903.
+30. T. Hakari, A. Hayashi, and M. Tatsumisago, “Highly Utilized Lithium
+Sulfide Active Material by Enhancing Conductivity in All-Solid-State
+Batteries,” Chemistry Letters 44 (1664): 1664–1666, https://doi.org/10.1246/
+cl.150758.
+31. T. Hakari, A. Hayashi, and M. Tatsumisago, “Li2S-Based Solid Solu-
+tions as Positive Electrodes with Full Utilization and Superlong Cycle Life
+in All-Solid-State Li/S Batteries,” Advanced Sustainable Systems 1 (2017):
+1700017, https://doi.org/10.1002/adsu.201700017.
+32. R. Xu, J. Yue, S. Liu, et al., “Cathode-Supported All-Solid-State
+Lithium–Sulfur Batteries with High Cell-Level Energy Density,” ACS
+Energy Letters 4 (1073): 1073–1079, https://doi.org/10.1021/acsenergylett.
+9b00430.
+33. C. Yu, S. Ganapathy, J. Hageman, et al., “Facile Synthesis toward
+the Optimal Structure-Conductivity Characteristics of the Argyrodite
+Li6PS5Cl Solid-State Electrolyte,” ACS Applied Materials & Interfaces 10
+(2018): 33296–33306, https://doi.org/10.1021/acsami.8b07476.
+34. A. Kuhn, O. Gerbig, C. Zhu, F. Falkenberg, J. Maier, and V. Lotsch,
+“A New Ultrafast Superionic Li-Conductor: Ion Dynamics in Li11Si2PS12
+and Comparison with Other Tetragonal LGPS-Type Electrolytes,” Physical
+Chemistry Chemical Physics 16 (2014): 14669–14674, https://doi.org/10.
+1039/C4CP02046D.
+35. S. P. Ong, Y. Mo, W. D. Richards, L. Miara, H. S. Lee, and G. Ceder,
+“Phase stability, electrochemical stability and ionic conductivity of the
+Li10±1MP2X12 (M = Ge, Si, Sn, Al or P, and X = O, S or Se) family of
+superionic conductors,” Energy & Environmental Science 6 (2012): 148–156,
+https://doi.org/10.1039/C2EE23355J.
+36. S. Harm, A.-K. Hatz, I. Moudrakovski, et al., “Lesson Learned from
+NMR: Characterization and Ionic Conductivity of LGPS-like Li7SiPS8,”
+Chemistry of Materials 31 (1280): 1280–1288, https://doi.org/10.1021/acs.
+chemmater.8b04051.
+37. R. Calaminus, S. Harm, D. H. Fabini, et al., “Enhancing Ionic
+Conductivity by in Situ Formation of Li7SiPS8/Argyrodite Hybrid Solid
+Electrolytes,” Chemistry of Materials 34 (2022): 7666–7677, https://doi.org/
+10.1021/acs.chemmater.2c00346.
+38. S. Hori, K. Suzuki, M. Hirayama, et al., “Synthesis, Structure,
+And Ionic Conductivity Of Solid Solution, Li10+δM1+δP2−δS12 (M =
+Si, Sn),” Faraday Discussions 176 (2015): 83–94, https://doi.org/10.1039/
+C4FD00143E.
+39. S. Ohno, B. Helm, T. Fuchs, et al., “Further Evidence for Energy
+Landscape Flattening in the Superionic Argyrodites Li6+ xP1–xMxS5I (M
+= Si, Ge, Sn),” Chemistry of Materials 31 (2019): 4936–4944, https://doi.
+org/10.1021/acs.chemmater.9b01857.
+40. E. P. Ramos, N. Kim, A. Assoud, I. Kochetkov, L. Wan, and L. F. Nazar,
+“Triggering Fast Lithium Ion Conduction in Li4PS4I,” ACS Materials
+Letters 5: 144–154, https://doi.org/10.1021/acsmaterialslett.2c00821.
+41. F. Strauss, J. Lin, L. Karger, D. Weber, and T. Brezesinski, “Probing
+the Lithium Substructure and Ionic Conductivity of the Solid Electrolyte
+Li4PS4I,” Inorganic Chemistry 61 (5885): 5885–5890, https://doi.org/10.
+1021/acs.inorgchem.2c00260.
+42. J. Yang, M. Schaller, G. Cherkashinin, et al., “Glass-Ceramic
+Lithium Thiophosphate Electrolytes with Enhanced Conductivity and
+(Chemo)Mechanical Properties for All-Solid-State Batteries,” Chemistry
+of Materials 37 (2025): 4016–4026, https://doi.org/10.1021/acs.chemmater.
+5c00234.
+43. D. H. S. Tan, E. A. Wu, H. Nguyen, et al., “Elucidating Reversible
+Electrochemical Redox of Li6PS5Cl Solid Electrolyte,” ACS Energy Letters
+4 (2019): 2418–2427, https://doi.org/10.1021/acsenergylett.9b01693.
+44. G. F. Dewald, S. Ohno, M. A. Kraft, et al., “Experimental Assessment
+of the Practical Oxidative Stability of Lithium Thiophosphate Solid
+Electrolytes,” Chemistry of Materials 31 (2019): 8328–8337, https://doi.org/
+10.1021/acs.chemmater.9b01550.
+45. T. Swamy, X. Chen, and Y.-M. Chiang, “Electrochemical Redox
+Behavior of Li Ion Conducting Sulfide Solid Electrolytes,” Chemistry
+of Materials 31 (2019): 707–713, https://doi.org/10.1021/acs.chemmater.
+8b03420.
+46. S. Xu, C. Y. Kwok, L. Zhou, Z. Zhang, I. Kochetkov, and L. F.
+Nazar, “A High Capacity All Solid-State Li-Sulfur Battery Enabled
+by Conversion-Intercalation Hybrid Cathode Architecture,” Advanced
+Functional Materials 31 (2021): 2004239, https://doi.org/10.1002/adfm.
+202004239.
+47. H. Pan, M. Zhang, Z. Cheng, et al., “Carbon-Free and Binder-Free Li-
+Al Alloy Anode Enabling an All-Solid-State Li-S Battery with High Energy
+and Stability,” Science Advances 8 (2022): abn4372, https://doi.org/10.1126/
+sciadv.abn4372.
+48. H. Kim, H.-N. Choi, J.-Y. Hwang, C. S. Yoon, and Y.-K. Sun, “Tailoring
+the Interface between Sulfur and Sulfide Solid Electrolyte for High-Areal-
+Capacity All-Solid-State Lithium–Sulfur Batteries,” ACS Energy Letters 8
+(2023): 3971–3979, https://doi.org/10.1021/acsenergylett.3c01473.
+49. F. Strauss, J. H. Teo, J. Janek, and T. Brezesinski, “Investigations into
+the Superionic Glass Phase of Li4PS4I for Improving the Stability of High-
+Loading All-Solid-State Batteries,” Inorganic Chemistry Frontiers 7 (2020):
+3953–3960, https://doi.org/10.1039/D0QI00758G.
+50. A. Jodlbauer, J. Spychala, K. Hogrefe, B. Gadermaier, and H. M.
+R. Wilkening, “Fast Li Ion Dynamics in Defect-Rich Nanocrystalline
+Li4PS4I─The Effect of Disorder on Activation Energies and Attempt
+Frequencies,” Chemistry of Materials 36 (2024): 1648–1664, https://doi.
+org/10.1021/acs.chemmater.3c02988.
+51. S. J. Sedlmaier, S. Indris, C. Dietrich, et al., “Li4PS4I: A Li+ Superionic
+Conductor Synthesized by a Solvent-Based Soft Chemistry Approach,”
+Chemistry of Materials 29 (2017): 1830–1835, https://doi.org/10.1021/acs.
+chemmater.7b00013.
+52. D. L. Pham, J.-N. Chotard, V. Viallet, et al., “Crystalline vs. Amorphous
+Li4PS4I: Impact of Structure On Ionic Transport And Performances In
+14 of 15
+Advanced Materials, 2026
+
+=== 第 15 页 ===
+Solid-State Battery,” Solid State Ionics 425 (2025): 116869, https://doi.org/
+10.1016/j.ssi.2025.116869.
+53. A. Kato, M. Yamamoto, A. Sakuda, A. Hayashi, and M. Tatsumisago,
+“Mechanical Properties of Li2S–P2S5 Glasses with Lithium Halides and
+Application in All-Solid-State Batteries,” ACS Applied Energy Materials 1
+(2018): 1002–1007, https://doi.org/10.1021/acsaem.7b00140.
+54. S. Ujiie, A. Hayashi, and M. Tatsumisago, “Structure, ionic Con-
+ductivity And Electrochemical Stability of Li2S–P2S5–LiI Glass And
+Glass–Ceramic Electrolytes,” Solid State Ionics 211 (2012): 42–45, https://
+doi.org/10.1016/j.ssi.2012.01.017.
+55. J. Gu, W. Hu, Y. Wu, et al., “Asymmetric Sulfur Redox Paths in Sulfide-
+Based All-Solid-State Lithium–Sulfur Batteries,” Chemistry of Materials
+36 (2024): 4403–4416, https://doi.org/10.1021/acs.chemmater.3c03317.
+56. H. Li, R. Wang, S. Zhao, J. Song, Y. Liao, and H. Tang, “Sulfur/Carbon
+Cathode Composite with LiI Additives for Enhanced Electrochemical
+Performance in All-Solid-State Lithium-Sulfur Batteries,” Advanced Com-
+posites and Hybrid Materials 6 (2023): 162, https://doi.org/10.1007/s42114-
+023-00742-0.
+57. S. Hori, R. Kanno, X. Sun, et al., “Understanding the Impedance
+Spectra of All-Solid-State Lithium Battery Cells with Sulfide Superionic
+Conductors,” Journal of Power Sources 556 (2023): 232450, https://doi.org/
+10.1016/j.jpowsour.2022.232450.
+58. Y. Fujita, J. Ding, H. Kowada, et al., “Electrode/Electrolyte Interphase
+Formation by Lithium Iodide in a Li2S-Based Positive Electrode for All-
+Solid-State Batteries,” ACS Applied Energy Materials 8 (2025): 2192–2199,
+https://doi.org/10.1021/acsaem.4c02731.
+59. J.-K. Hu, H. Yuan, S.-J. Yang, et al., “Dry Electrode Technology for
+Scalable and Flexible High-Energy Sulfur Cathodes in All-Solid-State
+Lithium-Sulfur Batteries,” Journal of Energy Chemistry 71 (2022): 612–618,
+https://doi.org/10.1016/j.jechem.2022.04.048.
+60. W. Pan, K. Yamamoto, N. Machida, et al., “Improving the Electro-
+chemical Performance of Li2S Cathodes Based on Point Defect Control
+with Cation/Anion Dual Doping,” Journal of Materials Chemistry A 11
+(2023): 24637–24643, https://doi.org/10.1039/D3TA05426.
+61. H. Zhong, Y. Su, Y. Wu, et al., “Long-Life and High-Loading All-Solid-
+State Li–S Batteries Enabled by Acetylene Black with Dispersed Co-N4
+as Single Atom Catalyst,” Advanced Energy Materials 13 (2023): 2300767,
+https://doi.org/10.1002/aenm.202300767.
+62. T. Hakari, Y. Fujita, M. Deguchi, et al., “Solid Electrolyte with Oxida-
+tion Tolerance Provides a High-Capacity Li2S-Based Positive Electrode for
+All-Solid-State Li/S Batteries,” Advanced Functional Materials 32 (2022):
+2106174, https://doi.org/10.1002/adfm.202106174.
+63. H. Zhong, Y. Su, R. Ma, et al., “Nano-Scale Interface Engineering
+of Sulfur Cathode to Enable High-Performance All-Solid-State Li–S
+Batteries,” Advanced Functional Materials 34 (2024): 2315925, https://doi.
+org/10.1002/adfm.202315925.
+64. Y. Luo, S. Pan, J. Tian, et al., “Engineering Triple-Phase Interfaces with
+Hierarchical Carbon Nanocages for High-Areal-Capacity All-Solid-State
+Li-S Batteries,” Advanced Materials 36 (2024): 2413325, https://doi.org/10.
+1002/adma.202413325.
+65. P. Juhás, T. Davis, C. L. Farrow, and S. J. L. Billinge, “PDFgetX3: A
+Rapid and Highly Automatable Program for Processing Powder Diffrac-
+tion Data into Total Scattering Pair Distribution Functions,” Journal
+of Applied Crystallography 46 (2013): 560–566, https://doi.org/10.1107/
+S0021889813005190.
+66. W. S. Price, “Pulsed-Field Gradient Nuclear Magnetic Resonance As A
+Tool For Studying Translational Diffusion: Part II. Experimental Aspects,”
+Concepts in Magnetic Resonance 10 (1998): 197–237.
+67. T. H. Wan, M. Saccoccio, C. Chen, and F. Ciucci, “Influence of the
+Discretization Methods on the Distribution of Relaxation Times Decon-
+volution: Implementing Radial Basis Functions with DRTtools,” Elec-
+trochimica Acta 184 (2015): 483–499, https://doi.org/10.1016/j.electacta.
+2015.09.097.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section.
+SupportingFile: adma72445-sup-0001-SuppMat.docx.
+Advanced Materials, 2026
+15 of 15
+

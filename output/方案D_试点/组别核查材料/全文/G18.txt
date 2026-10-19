@@ -1,0 +1,955 @@
+=== 第 1 页 ===
+Adsorption or Repulsion: Exploration of Regionally Confined Solid
+Polymer Electrolytes for Solid-State Lithium−Sulfur Batteries
+Yan Yuan,* Zeyu Li, Yaxin Kong, Jinhaochong Wang, Yan Zhao, and Hai Lu*
+Cite This:
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+Supporting Information
+ABSTRACT: Dissolution and shuttle of generated intermediates polysulﬁdes
+(LiPSs) are intractable challenges for lithium–sulfur (Li–S) batteries equipped with
+solid polymer electrolytes (SPEs). Herein, several polyimide (PI) derivatives char-
+acterized by the introduction of additional functional groups were synthesized and
+employed as polymer matrices for fabricating regionally conﬁned SPEs. The incor-
+porated amide group in the polymer matrix is found to oﬀer enhanced aﬃnity to
+both Li+ and LiPSs. Despite improved ionic conductivity, the fabricated adsorp-
+tion-type SPE causes severe accumulation of sulfur species in the SPE and subse-
+quently partial diﬀusion toward the Li anode. In contrast, inherited sulfonic acid
+group can strongly bind with Li+ through electrostatic adsorption and simulta-
+neously repel Sn
+2– via electrostatic repulsion. The harmonization of the cation coor-
+dination property and the anion repulsion ability not only promotes Li+ migration and homogenizes Li deposition but also completely
+inhibits the entry of LiPSs into the SPE, facilitating their in situ conversion and eliminating the shuttle eﬀect. Consequently, acceler-
+ated reaction kinetics, increased sulfur utilization, and extended cycle lifespan are demonstrated in the Li–S cells adopting the repul-
+sion-type SPE coupled with high sulfur loading cathodes.
+KEYWORDS: solid polymer electrolyte, polyimide, polysulﬁde adsorption, electrostatic repulsion, lithium sulfur battery
+■INTRODUCTION
+Lithium–sulfur
+(Li–S)
+batteries
+have
+attracted
+extensive
+research interests owing to high theoretical energy density,
+abundant sulfur resources, and good environmental friendli-
+ness.1 However, several challenges need to be well addressed
+before they are applied in practice, including the ceaseless shut-
+tle eﬀect caused by soluble intermediates polysulﬁdes (LiPSs)
+and uncontrollable dendrite growth on the Li metal anode,
+which are responsible for irreversible loss of active species, rapid
+capacity decay, and latent safety hazards of Li–S batteries.2,3 In
+essence, both LiPS shuttling and dendritic Li formation are
+closely associated with the electrolyte environment. In view of
+the intrinsic properties of liquid electrolytes, replacing them
+with a solid electrolyte is considered to be a fundamental
+approach to tackle the above issues by physically/chemically
+blocking dissolution/diﬀusion of LiPSs and mechanically resist-
+ing the dendrite growth.4
+Solid sulﬁde electrolytes (SSEs) characterized by high ionic
+conductivity and superior mechanical strength have been
+widely attempted in Li–S batteries.5 A key attraction lies in
+the fact that the Li–S batteries with SSEs involve direct con-
+version between S and Li2S without intermediate formation.6
+However, large interfacial resistances between ceramic grain
+boundaries and at electrolyte/electrode interfaces are quite
+challenging, making the battery hard to operate without high
+pressure.6 Besides, their poor stability against Li metal usually
+leads to serious anode corrosion.7 Solid polymer electrolytes
+(SPEs) are another promising alternatives by virtue of desir-
+able ﬂexibility, good chemical stability, and convenient pro-
+cessability.8
+Poly(ethylene
+oxide)
+(PEO)
+is
+the
+most
+commonly used polymer matrix in the SPEs and is consid-
+ered to be highly compatible with Li–S chemistry because
+its chain segment is structurally analogous to those ether
+solvent molecules.9 Nevertheless, its semi-crystalline nature
+with low segmental mobility below 60 °C leads to low ionic
+conductivity and makes the battery operable at higher tem-
+peratures,10 which greatly restricts the application potential
+of PEO-based SPEs.
+Recent reports further reveal that both LiPSs and elemental S
+can escape from the cathode and dissolve in the PEO due to the
+high donor number (DN) of the ethylene oxide unit.11,12 This
+is reﬂected by the typical two-plateau discharge behavior of
+the solid-state Li–S batteries involving generated LiPSs during
+conversion from sulfur to Li2S. This phenomenon can also be
+Received:
+March 27, 2026
+Revised:
+May 28, 2026
+Accepted:
+May 29, 2026
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+© 2026 American Chemical Society
+Published:    June 16, 2026
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8584
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 2 页 ===
+observed in other polymer matrices.13 Diﬀerent from the situa-
+tion of the liquid electrolyte, the dissolved sulfur species will
+accumulate continuously within the SPE due to the slow move-
+ment in the solid phase, hence greatly decelerating the redox
+reaction kinetics. Furthermore, part of isolated LiPSs apart from
+the electron-rich cathode is diﬃcult to take part in the reversible
+reaction,
+accordingly
+resulting
+in
+active
+material
+loss.14
+Moreover, driven by the concentration gradient, the accumu-
+lated sulfur species in the SPE can gradually diﬀuse to the anode
+side and then unevenly passivate the Li metal, leading to inho-
+mogeneous Li+ plating/stripping.11 As a result, the “shuttle
+eﬀect”
+still
+occurs
+in
+SPE
+cases.15
+To
+handle
+this,
+Goodenough et al. coated the sulfur cathode with a layer of
+PVDF with a reasonably low DN.12 Even when coupled with
+the PEO-based SPE, the strategy suppressed the formation of
+soluble LiPSs and thus improved battery cycling, yet causing
+limited
+reversible
+capacity
+even
+at
+high
+temperatures.
+Therefore, to facilitate complete sulfur conversion while the
+capacity fading is delayed, LiPSs generation in the cathode is
+considered to be necessary, but their movements from the cath-
+ode to anode must be restricted, which necessitates the devel-
+opment of regionally conﬁned SPEs.16
+Based on the above concept, further enhancements of the
+adsorption strength of SPEs toward generated LiPSs have been
+attempted by researchers to suppress the redox shuttle, includ-
+ing adding polar inorganic ﬁllers into the SPE to chemically
+bond LiPSs or introducing high-aﬃnity polymer matrices to
+strongly interact with sulfur species.14,17 For instance, Ji et al.
+synthesized a polymer of intrinsic microporosity (PIM) which
+utilized electrophilic 1,4-dicyanooxanthrene functional groups
+to trap LiPSs.18 However, the adsorption-enhancing route is
+doubtful since more LiPSs could enter into the SPE based on
+the adsorption equilibrium theory (especially at high sulfur
+loading on the cathode), accumulating due to low mobility
+and continuing to diﬀuse toward the anode under a high con-
+centration gradient. Therefore, it is worth further exploring
+the pivotal defects of adsorption-type SPEs and developing a
+more preferable SPE strategy that can impart desired properties
+to practical Li–S batteries.
+Polyimides (PIs) have been regarded as suitable volunteers as
+polymer matrices of the SPE owing to high mechanical strength
+and thermal stabilities.19,20 Moreover, active conjugated car-
+bonyl groups in PI chains serve as favorable binding sites to dis-
+sociate Li salt and transport Li+.20 In this work, several PI
+derivatives were purposefully synthesized by the polymerization
+reaction between dianhydride and diamine, followed by the
+dehydration process. By adjusting diamine types, high-aﬃnity
+amide groups and strong-repulsion sulfonic acid groups were
+introduced into the main chains of PI derivatives, aiming at fab-
+ricating two kinds of regionally conﬁned SPEs: adsorption-type
+and repulsion-type. This study probes the interactions of addi-
+tional functional groups with Li+ and sulfur species and investi-
+gates their eﬀects on Li+ transport, LiPS conﬁnement, anode
+interface stability, and cathode reaction kinetics. It focuses on
+elucidating the diﬀerence in regional conﬁnement features of
+two kinds of SPEs toward sulfur species and primarily empha-
+sizes a feasible design concept of the polymer matrix harmoni-
+zing cation solvation property and anion repulsion ability,
+which is proved to be applicable for constructing advanced
+solid-state Li–S batteries with upgraded performances.
+■RESULTS AND DISCUSSION
+Several PI derivatives were synthesized by multi-step reaction
+routes illustrated in Figure 1a. First, dianhydride (e.g., DSDA)
+and diamine underwent a dimerization reaction in an aprotic
+solvent at room temperature, where the lone pair electrons of
+amino groups in diamine attacked carbon atoms of carbonyl
+groups in dianhydride to generate a dimeric monomer.21
+Then, the monomer experienced a chain reaction to produce
+an unstable polymer intermediate with amide (–CO–NH–)
+and carboxyl (–COOH) groups. Finally, the resultant amide
+group and adjacent carboxyl group in the intermediate under-
+went an intramolecular dehydration reaction at high tempera-
+tures, forming a stable PI derivative containing imide groups
+(–CO–N–CO–).21 According to employed diamines (PPD,
+DABA, and DSD), these products were referred to as PI-P,
+PI-A, and PI-S, respectively. The types of diamine reactants
+result in a distinct diﬀerence in the chain structures of the PI
+derivatives. As shown in Figure 1b, compared to PI-P, PI-A
+and PI-S are endowed with additional amide (–CO–NH–)
+and sulfonic acid (–SO3H) groups, respectively, which were
+directly inherited from the pristine diamine molecules.
+The accurate chemical structures of as-prepared PI deriva-
+tives are identiﬁed by 13C ssNMR, as shown in Figure 2a.
+Note that all samples exhibit characteristic peaks corresponding
+to carbonyl carbon of the imide group located at 165–167
+ppm.22 For PI-A, the signal of quaternary carbon of the amide
+group appears at 130.6 ppm. For PI-S, the signal of quaternary
+carbon of the benzene ring substituted by –SO3H is detected at
+140.5 ppm. The FTIR spectra in Figures 2b and S1 are consis-
+tent with the above ssNMR results. Several PI derivatives all
+exhibit stretching vibrations of C–N–C at 1720 cm−1 and
+C=O at 1780 cm−1, relating to the formation of imide groups.23
+Meanwhile, the characteristic peaks of C–O–C stretching
+(1650 cm−1) and N–H bending (1550 cm−1) from the two
+reactants (DSDA and diamines) almost disappear in these
+cases, suggesting their complete reaction and polymerization.
+A weak N–H peak (∼3300 cm−1) in the PI-A stands for the
+incorporated amide group.24 PI-P and PI-A show vibration
+peaks of the S=O bond at 1150 and 1326 cm−1.25 In contrast,
+Figure 1. (a) Schematics of preparation principles of PI derivatives;
+and (b) molecular structures of reactants and generated PI derivatives.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8585
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 3 页 ===
+PI-S exhibits a merged S=O stretching and a wide O–H stretch-
+ing at 1154–1230 and 2700–3100 cm−1, respectively, suggest-
+ing the existence of –SO3H groups in the PI-S matrix.26,27
+Obviously, the main diﬀerence among several PI derivatives
+lies in the additional groups in the PI chain. DFT calculations
+were employed for probing into the interaction rules of these
+functional groups with Li+ and sulfur species (Li2S6 as an exam-
+ple, Figure 2c,d). In PI-P and PI-A, the most stable conﬁgura-
+tion corresponds to Li+/Li2S6 binding directly to the doubly
+bonded oxygen atom, forming a strong Li–O interaction.28
+However, the doubly bonded oxygen in the amide group
+exhibits a stronger aﬃnity toward Li+/Li2S6 relative to that in
+the imide group. It means that the incorporated amide group
+bridged between two benzene rings not only beneﬁts Li salt dis-
+sociation and Li+ migration but also oﬀers enhanced adsorption
+strength to anchor LiPSs within the PI-A matrix.
+In contrast, a much stronger interaction appears between Li+
+and singly bonded oxygen atom on the sulfonic acid groups in
+the PI-S. The calculated binding energy of the singly-bonded
+oxygen atom with Li+ is even higher than that with pristine
+H+ (Figure S2). Therefore, ion exchange easily occurs to pro-
+duce a lithium sulfonate (–SO3Li) when the sulfonic acid group
+is surrounded by a Li+-rich environment (e.g, PI-S was pre-
+mixed with Li salt during the membrane preparation process),
+which constructs additional Li+ migration channels.29 It should
+be noted that the oxygen atom in the S=O bond is chemically
+stable with weak aﬃnity, and thus, its interaction with Li2S6 is
+negligible. Also, the formed S–O–Li bond could partially shield
+the adsorption of the adjacent doubly bonded oxygen atom
+toward Li2S6. As a result, a quite low binding energy (only –
+0.09 eV) with a long interaction distance exists between PI-S
+and Li2S6.
+To further understand the reason for the above binding
+energy diﬀerence, electrostatic potential (ESP) maps of these
+polymer repeating units after geometrical optimization are com-
+pared. Negative (blue) and positive (red) electrostatic poten-
+tials
+shown
+in
+Figure
+2e
+represent
+electrophilic
+and
+nucleophilic tendencies, respectively. The calculated ESPmin
+value of PI-S (–47 eV) is more negative than that of PI-A
+(–39.2 eV) and PI-P (–28.5 eV), and the highest electronegati-
+vity originates from sulfonic acid groups in PI-S. Therefore, a
+quite weak interaction between PI-S and LiPSs is mainly attrib-
+uted to the overall electrostatic repulsion/shield eﬀect of sul-
+fonic acid groups,30 and simultaneously, the strong interaction
+Figure 2. (a) ssNMR spectra and (b) FTIR spectra of PI derivatives; calculated binding energies of polymer repeating units with (c) Li+ and
+(d) Li2S6; (e) ESP distributions on the polymer repeating units.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8586
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 4 页 ===
+of PI-S with Li+ is greatly proﬁted from electrostatic attraction
+(except for the inherent Li–O interaction). In brief, the grafted
+sulfonic acid group on the benzene ring is expected to build a
+unique function of “sieving” anions and cations, that is, selective
+ionic permeability.
+To experimentally conﬁrm the adsorption or repulsion eﬀect
+of diﬀerent PI derivatives toward LiPSs, H-type glass cells were
+employed for observing the permeability of LiPSs across the
+SPEs, in which the Li2S6 solution (left side) and the
+DOL/DME mixed solvent (right side) were separated by a
+piece of SPE membranes. As shown in Figure 3a, Li2S6 can rap-
+idly permeate through the PI-P after only 24 h due to the mod-
+erate aﬃnity of the polymer matrix. In contrast, stronger-
+aﬃnity PI-A obviously reduces the permeation rate of Li2S6;
+however, it is still not enough to restrict LiPS movement in
+the SPE in view of the color change after 72 h. It is considered
+that the PI-A continuously adsorbs Li2S6 and becomes satu-
+rated at a high adsorption equilibrium concentration after
+48 h, and then, part of Li2S6 diﬀuses gradually to the right side,
+driven by the concentration gradient. Unlike PI-P and PI-A,
+LiPSs can be completely conﬁned in the left region of the PI-
+S even after 72 h by virtue of electrostatic repulsion of the solid
+membrane.
+XPS was performed on both sides of the SPEs extracted from
+the cycled Li–S cells (Figure 3b,c). In the S2p spectra, a pair of
+S(VI) peaks located at both sides of the SPEs are mainly asso-
+ciated with the O=S=O group in the pristine PI chains
+(Figure S3).30 The additional S(IV) and Li2Sn peaks in the cath-
+ode side of PI-A correspond to absorbed long-chain LiPSs, part
+of which is further converted into short-chain sulﬁdes (Li2S2/
+Li2S) during cycling. However, the anode side of PI-A does
+not observe these sulfur species signals. This means that consid-
+erable amounts of LiPSs are preserved/immobilized persistently
+both on the surface and in the bulk phase of the PI-A by strong
+matrix adsorption, thereby forming the distribution of concen-
+tration gradient within the SPE (as depicted in Figure 3d).
+Despite great restriction for sulfur diﬀusion, these active species
+are kinetically sluggish in the subsequent conversion process
+and even could become “dead sulfur” diﬃcult to activate revers-
+ibly due to electronic isolation. Certainly, longer diﬀusion time
+or a higher concentration gradient is still capable of pushing
+part of adsorbed LiPSs to reach the anode, as observed in the
+H-type cell. This is also conﬁrmed by the existence of deposited
+sulfur species on the Li anode after 50 cycles (Figure S4), which
+reﬂects the deﬁciency of the adsorption strategy in controlling
+the shuttle eﬀect. By comparison, there is no sulfur species-
+relating peak on both sides of the PI-S, suggesting great inhibi-
+tion toward LiPSs dissolution/diﬀusion. This enables sulfur spe-
+cies to be conﬁned entirely in the cathode side (instead of
+within the SPE) and then in situ converted (Figure 3d).
+Consequently, higher sulfur utilization and conversion kinetics
+can be achieved, as discussed later.
+In F1s spectra, a strong LiF peak that originated from TFSI-
+decomposition appears on the anode side of PI-A.31 Also, rich
+LiF species distribute on the surface of cycled Li metal equipped
+with PI-A (Figure S4). It is considered that strong interactions
+between the amide group and Li+ are conducive to Li salt dis-
+sociation, TFSI– migration across the SPE and subsequent
+decomposition at the anode side. However, the anode side of
+PI-S and the cycled Li surface coupled with PI-S all present a
+weak LiF signal. This reﬂects a strong anion repulsion ability
+of the PI-S regardless of anion types (Sn
+2– or TFSI–).
+The as-prepared SPEs adopting diﬀerent PI-derived matrices
+were characterized by SEM. It is noteworthy that PVDF was
+introduced into the SPE to oﬀset high rigidity of these PI
+chains, so as to ensure the formation of the ﬂexible membrane.
+As indicated in Figure 4a–c, PI-P presents a porous and loose
+morphology consisting of abundant spherical particles. In con-
+trast, denser structures with smaller pores are observed in the
+PI-A, probably associated with an enhanced connection
+between particles owing to the hydrogen bond interaction in
+the amide group. The incorporation of sulfonic acid groups
+could build a more favorable hydrogen bond network, thereby
+contributing to a more compact morphology with scarce pores
+and uniform elemental distribution (Figure S5). This accounts
+for a higher mechanical strength of the PI-S relative to other
+cases, as demonstrated in Figure 4d. It should be noted that
+the typical thicknesses of several SPEs are 65–67 μm deter-
+mined by the cross-sectional SEM images (Figure S6).
+Li+ transport properties of several SPEs were further investi-
+gated. First, the Li+ transference number (tLi
++) was measured to
+evaluate Li+ contribution to the total charge in the ionic con-
+duction process. According to the results shown in Figure 4e–
+g, the tLi
++ value of PI-S determined by the chronoamperometry
+method is ∼0.49, which is higher than that of PI-A (0.47) and
+PI-P (0.42). Then, the EIS plots of a symmetrical stainless-
+steel cell were measured to calculate the ionic conductivity of
+the SPE. As shown in Figure 4h, PI-S possesses an ionic con-
+ductivity of 1.11 mS cm−1 at 30 °C, which is slightly superior
+to PI-A but is greatly advantageous to PI-P. Furthermore, a
+comparison
+of
+activation
+energies
+(Ea)
+derived
+from
+temperature-dependent impedance measurements (Figure S7)
+reveals lower energy barriers for Li+ migration in the main
+chains of PI-S and PI-A compared to PI-P (Figure 4i). These
+results together demonstrate the upgraded Li+ transport capa-
+bilities in the PI-S.
+In fact, the fabricated PI-S can be regarded as a kind of
+sulfonated polymer electrolytes due to the nature of the
+sulfonated PI chain. The sulfonated matrices have been widely
+employed in fuel cells and some aqueous batteries for proton
+conduction (e.g., Naﬁon membrane)32 and are also capable of
+conducting other alkaline metal cations such as Li+ by cation
+exchange.33 Especially, the sulfonated single-ion conductor can
+be formed by covalently ﬁxing the –SO3
+– on the polymer back-
+bone, which is capable of adequately restricting the anion migra-
+tion under an electric ﬁeld and thus has a characteristic of the
+cation transference number close to unit (t+= 1).34 At this
+moment, the alkali metal cation coordination solely or mainly
+depends on the sulfonic group with high electronegativity.
+The strong cation-anion interaction usually results in diﬃcult
+cation dissociation from the ﬁxed anion and hence low ionic
+conductivity.34
+In contrast, the PI-S system is diﬀerent from the typical
+single-ion conductor. On the one hand, the salt anion (TFSI-)
+coexists in the system and its migration partly contributes to
+the total charge amount (despite the anion repulsion ability of
+the sulfonated PI chain mentioned above), which results in
+the deﬁcient tLi
++ in the PI-S. Fortunately, the electronegative
+sulfonic acid group still increases the tLi
++ value to some extent.
+On the other hand, the sulfonated PI chain in the PI-S can con-
+duct the cation by not only the introduced sulfonic acid group
+but also the intrinsic imide groups in the PI chain. The former
+assists salt dissociation and Li+ migration along the polymer
+matrix by strongly interacting with Li+. Meanwhile, the imide
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8587
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 5 页 ===
+groups also serve as favorable Li+ binding sites since their rela-
+tively moderate cation aﬃnity (high negative charge delocaliza-
+tion) favors easier cation dissociation theoretically. This is
+beneﬁcial to rapid Li+ transport and hence improvement of
+ionic conductivity. Moreover, the structure modiﬁcation of
+additional functional groups reduces the glass transition tem-
+perature (Tg) of PI derivatives (Figure 4j), facilitating chain seg-
+ment movement for conducting Li+ at a wide temperature
+range.
+The PI-S further holds superior oxidation resistivity and ther-
+mal stability, as shown in Figures S8 and S9, suggesting its
+excellent application potentials at high voltage operation and
+high temperature environment.35 It needs to be noted that sev-
+eral as-prepared SPEs still contain a small amount of solvent
+residue according to the TGA result (less than 8 wt %) and
+hence ought to be classiﬁed as solid-state (or quasi-solid-state)
+electrolytes in a strict sense.
+Li|Li symmetrical cells were assembled for assessing the
+interface stability of designed SPEs toward metallic Li. The crit-
+ical current density (CCD) was determined by direct current
+polarization. The results in Figure 5a demonstrate that the
+Li|PI-S|Li cell achieves a considerably high CCD value of
+2.0 mA cm−2, signiﬁcantly outperforming other cells. During
+the plating/stripping cycling process (Figure 5b, c), the sym-
+metrical cells in PI-P and PI-A all encounter a sudden short cir-
+cuit at approximately 752 and 985 h, respectively. In sharp
+contrast, the Li|PI-S|Li cell maintains stable cycling over
+5000 h with relatively smaller polarization at a constant current
+of 0.1 mA cm−2. In addition, a higher exchange current density
+(i0) of 0.297 mA cm−2 is demonstrated in the symmetrical cell
+with PI-S (Figure 5d). The SEM images in Figure 5e reveal that
+inhomogeneous Li deposition with dendrite growth emerges in
+the Li surfaces after cycling in PI-A and especially PI-P, whereas
+the cycled Li metal in the PI-S remains quite smooth and intact
+without any detectable dendrite.
+The excellent compatibility between PI-S and Li metal can be
+attributed to its high mechanical strength to resist dendrite pen-
+etration. What is more, superior Li+ transport kinetics within
+the PI-S matrix eﬀectively regulates the charge distribution
+nearby Li metal and thereby homogenizes Li deposition. It
+Figure 3. (a) LiPSs permeation measurements in H-shaped cells equipped with diﬀerent SPEs. S2p and F1s XPS spectra of (b) PI-A and (c) PI-S on
+both sides extracted from the cycle Li–S cells. (d) Schematic illustrations of sulfur species distributions in the SPEs.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8588
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 6 页 ===
+should be noted that rich LiF emerges on the Li surface after
+cycling in the PI-A according to previous XPS analyses in
+Figure S4. Although LiF is widely regarded as a favorable com-
+ponent of stabilizing SEI, its excess accumulation inevitably
+leads to high interfacial polarization and even cell failure,36 as
+demonstrated in the case of PI-A.
+The GITT test was applied to explore the eﬀect of the
+designed SPEs on the conversion reaction kinetics of the Li-S
+cells (Figure 6a–c). Compared with PI-P and PI-A, PI-S favors
+a smaller IR voltage drop (quasi-open circuit voltage, 48.0 mV)
+and a closed-circuit voltage (CCV, 33.1 mV), suggesting a
+higher average value of the Li+ diﬀusion coeﬃcient (DLi
++).37
+This is further conﬁrmed by MSD-t curves obtained by MD
+simulations (Figures 6d and S10).38 The calculated DLi
++ values
+of PI-P, PI-A, and PI-S are 2.305 × 10−9, 4.467 × 10−9, and
+6.911 × 10−9 cm2 s−1, respectively. The above results reveal
+that the introduced sulfonic acid group in the PI-S constructs
+favorable Li+ transport pathways for highly eﬃcient sulfur
+conversion.
+The sulfur redox kinetics in these SPE systems were further
+investigated via various electrochemical measurements. The
+CV responses of the S/CNT symmetrical cells in Figure 6e
+indicate that PI-S contributes to higher redox currents than
+PI-P and PI-A, indicating a faster conversion rate of those
+regionally conﬁned LiPSs in the cathode. The CV curves of
+Li–S cells in Figure 6f illustrate that PI-S oﬀers higher
+cathodic/anodic peak currents with smaller potential diﬀerence
+relative to other cases, revealing superior redox reversibility. In
+addition, the Li-S cell with PI-S exhibits the highest discharge
+plateau capacity ratio (QL/QH) and the smallest charge/dis-
+charge plateau gap (Figure 6g,h), further reﬂecting the acceler-
+ated redox reaction process owing to grafted sulfonic acid
+groups.
+The enhanced redox reaction kinetics endows the Li–S cell
+with superior rate capability. As shown in Figure 6i, the speciﬁc
+capacity of the cell with PI-S reaches 1275.1 mA h g−1 at 0.1 C
+(∼76.1% of the theoretical limit) and still preserves 560.9 mA h g−1
+when the current density was increased to 2C, all far beyond
+those with PI-A and PI-S. In most previous cases, the intrinsic
+low electronic conductivity of the sulfur cathode and low ionic
+conductivity of the SPE will inevitably generate high polariza-
+tion at high rates for typical solid-state Li-S batteries.
+However, the increased polarization at a discharge rate of 2C
+in the PI-S case is acceptable (Figure S11), and the capacity
+recovery is exhibited when the discharge current is back to
+0.1C.
+Moreover, regional conversion of conﬁned LiPSs as well as
+excellent Li compatibility of the SPE guarantees stable cycling
+Figure 4. SEM image of the SPEs: (a) PI-P; (b) PI-A; (c) PI-S; (d) stress–strain curves of the SPEs; amperometric I–t curve of the SPEs: (e) PI-P;
+(f) PI-A; (g) PI-S; and (h) ionic conductivities; (i) Arrhenius plots of the SPEs; and (j) DSC curves and Tg values of several PI derivatives.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8589
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 7 页 ===
+of the Li–S cell. As shown in Figure 6j, the cell with PI-S
+delivers an initial capacity of 1267.3 mA h g−1 and maintains
+715.2 mA h g−1 after 300 cycles at 0.2C, exceeding the two
+counterparts, meanwhile comparable and even superior to
+recent reports involving solid-state Li–S batteries, as collected
+in Table S1 (most of the cells needed to be operated at a high
+temperature and the rate was restricted in 0.1C). Furthermore,
+remarkable performance diﬀerence between PI-S and PI-A
+exists in the cycle test at a high sulfur loading of 4.0 mg
+cm−2. As shown in Figure 6k, the adsorption-type PI-A mani-
+fests a capacity limit because of considerable quantities of
+active species loss by entry into the SPE under the harsh con-
+ditions. Furthermore, a higher concentration gradient and
+adsorption saturation can be built, pushing part of LiPSs to dif-
+fuse to the anode. As a result, the shuttle eﬀect and Li corro-
+sion issues are hard to be avoided utterly. In contrast, the
+repulsion-type PI-S preserves a high reversible capacity of
+770.5 mA h g−1 after 100 cycles and a stable Coulombic eﬃ-
+ciency close to 100%, demonstrating its superiority in ade-
+quately conﬁning and utilizing sulfur species.
+■CONCLUSIONS
+In summary, two kinds of regionally conﬁned SPEs were pre-
+pared by introducing special functional groups into the PI-
+derived polymer matrix. Experimental research and theoretical
+calculations jointly reveal that the high-aﬃnity amide group
+leads to considerable accumulation of sulfur species in the
+SPE and subsequent diﬀusion toward the Li anode, indicating
+limited suppression of the shuttle eﬀect. In contrast, electroneg-
+ative sulfonic group can strongly coordinate Li+ while repelling
+Sn
+2– by electrostatic interactions. The resultant “sieving” eﬀect
+completely inhibits the entry of LiPSs into the SPE, facilitating
+their rapid conversion as well as promoting Li+ conduction and
+stabilizing the Li surface. The designed repulsion-type SPE
+endows the Li–S cell with high sulfur utilization (1267.3 mA h
+g−1 at 0.2C) and excellent cycle stability (up to 300 cycles).
+Even at a high sulfur loading of 4.0 mg cm−2, a high reversible
+capacity of 770.5 mA h g−1 can be maintained after 100 cycles.
+This work provides deep insight into the failure mechanism of
+Li-S cells in strong-adsorption SPEs and proposes a preferable
+design concept of the SPE, emphasizing electrostatic interaction
+and harmony in cation/anion transport for developing next-
+generation solid-state Li–S batteries facing practical applications.
+■EXPERIMENTAL SECTION
+Materials
+3,3,4,4-Diphenylsulfone tetracarboxylic dianhydride (DSDA, 98%,
+Macklin); p-phenylenediamine (PPD, 99%, Macklin); 4,4′-diaminoben-
+zanilide (DABA, 98%, Leyan); 4,4′-diamino-2,2′-stilbenedisulfonic acid
+Figure 5. (a) Critical current density (CCD) and (b) plating/stripping cycling tests of Li symmetrical cells; (c) enlarged V–t curves at diﬀerent cycle
+stages; (d) Tafel curves of symmetrical cells; (e) SEM images of cycled Li metals in various SPEs.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8590
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 8 页 ===
+(DSD,
+98%,
+Leyan);
+lithium
+bis(triﬂuoromethanesulfonyl)imide
+(LiTFSI, 99.9%, Canrd); poly(vinylidene ﬂuoride) (PVDF, HSV900,
+Arkema); dimethylformamide (DMF, 99.5%, Innochem); and N,N-
+dimethylacetamide (DMAC, 99.8%, Innochem).
+Polyimide Derivative Synthesis
+DSDA (0.1 mmol) was dissolved in DMAC with continuous stirring,
+followed by the addition of 0.1 mmol diamine. The obtained solution
+underwent a primary polymerization reaction at room temperature
+for 12 h and then additional dehydration reaction at 180 °C for 48 h
+in a hydrothermal reactor protected by nitrogen. The generated poly-
+imide (PI) derivatives were washed with acetone three times and dried
+at 60 °C in a vacuum oven for 24 h. According to the employed
+diamines (PPD, DABA, and DSD), these products were referred to
+as PI-P, PI-A, and PI-S, respectively.
+SPE Preparation and Characterization
+PI derivatives, PVDF, and LiTFSI were dissolved in DMF at a weight
+ratio of 5:1:3 by stirring overnight at 60 °C for 12 h. The resultant pre-
+cursor was uniformly coated on a PTFE plate and dried at 60 °C for
+24 h in a glovebox to form an SPE membrane.
+The chemical structure of PI derivatives was analyzed by solid-state
+nuclear magnetic resonance (ssNMR, Bruker AVANCE NEO 400)
+and Fourier transform infrared spectroscopy (FTIR, Nicolet iS50).
+Scanning electron microscopy (SEM, Hitachi S4800 and ZEISS
+Sigma 300) was employed for observing the surface and cross-
+section morphologies of the SPE and Li anode, combined with energy
+dispersive
+X-ray
+spectroscopy
+(EDS)
+for
+elemental
+analyses.
+Diﬀerential scanning calorimetry (DSC, TA Q2000 DSC2500) was
+performed to measure the glass transition temperature (Tg) at a heat-
+ing rate of 10 °C min−1 from –120 °C to room temperature. A ther-
+mogravimetric analyzer (TGA, Mettler-Toledo) was used to detect
+Figure 6. Galvanostatic intermittent titration (GITT) measurements for (a) PI-P, (b) PI-A, and (c) PI-S; (d) MSD curves of the SPEs by MD sim-
+ulations; (e) CV curves of S/CNT symmetrical cells; (f) CV curves and (g) charge–discharge proﬁles of Li–S cells; (h) comparisons of discharge
+plateau capacity ratios and charge–discharge plateau gaps; (i) rate tests of Li-S cells; (j) cycle performances of Li–S cells at sulfur loadings of
+(j) 1.2 mg cm−2 and (k) 4.0 mg cm−2 at 0.2C.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8591
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 9 页 ===
+the thermal stability of the SPE. X-ray photoelectron spectroscopy
+(XPS, Thermo Scientiﬁc K-Alpha) was performed to identify the sur-
+face species on the PI and Li metal. Mechanical strength of the SPE
+was characterized using a tensile tester (CMT6103) at a stretching
+rate of 5 mm min−1.
+The SPE was sandwiched by two parallel stainless steel (SS) without
+any liquid wetting agent. Electrochemical impedance spectroscopy
+(EIS) of the SS|SS symmetrical cell at diﬀerent temperatures was
+tested on an electrochemical workstation, and the ionic conductivity
+(σ) was calculated according to the following equation:
+σ = l
+RS
+(l: electrolyte thickness; S: SS area; R: bulk resistance from the EIS).
+The Li+ transference numbers (tLi
++) and electrochemical window of
+the SPE were measured using widely reported methods.36
+Cell Assembly and Electrochemical Test
+Elemental sulfur and carbon nanotubes (CNTs) were mixed at a
+weight ratio of 7:3, sealed in a tube furnace, and then heated to
+155 °C for 12 h to obtain the S/CNT composite. The sulfur cathode
+was made of the S/CNT composite, conductive carbon, and polyviny-
+lidene diﬂuoride (PVDF) in a weight ratio of 8:1:1 coated on a piece of
+carbon-coated Al foil. The typical sulfur loading on the cathode was
+∼1.1 mg cm−2. The coin-type Li–S cells consisted of the sulfur cathode
+and Li metal anode separated by a piece of the SPE membrane.
+Electrochemical performances of Li–S cells were performed on a
+Neware battery tester in the voltage range of 1.7–2.8 V at room tem-
+perature. Cyclic voltammetry (CV) and electrochemical impedance
+spectroscopy (EIS) were performed on an electrochemical workstation
+(PARSTAT MC).
+Theoretical Calculation
+Materials Studio 2020 was used to optimize the geometry structure of
+each molecule at the theoretical level of Hybrid B3LYP. DFT-D disper-
+sion correction was added to calculate the binding energy (ΔEb) of
+each molecule with Li+ or Li2S6 by the following formula:
+ΔEb = Etotal −Ep −ELi
+where Etotal,Ep, and ELi are the total energy of the system, the
+energy of polymer repeating unit, and the energy of Li+/Li2S6,
+respectively.
+The electrostatic density and electrostatics were calculated by the
+DMol3 module, with the electrostatic potential map onto the isosur-
+face of electrostatic density to analyze the electronic distribution char-
+acteristics of the polymer repeating unit.
+Molecular dynamics (MD) simulations were performed by the
+Forcete module in Materials Studio. The COMPASS III force ﬁeld
+was used to optimize the atom type and charges. The amorphous
+cell (AC) module was used to construct the initial electrolyte
+model. The MD simulations were performed in the NPT mode with
+a time step of 1.0 fs and a duration of 200 ps and in the NVT
+mode with a time step of 2000 ps every 1.0 fs. The electrolyte
+model after MD simulations was used for mean square displacement
+(MSD) analysis.
+■ASSOCIATED CONTENT
+Data Availability Statement
+The data that support the ﬁndings of this study are available
+from the corresponding author upon reasonable request.
+Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsaem.6c01073.
+FITR spectra; XPS spectra; SEM images and EDS map-
+pings; EIS plots; LSV and TGA curves; MD simulation
+snapshots; charge/discharge proﬁles; and table of electro-
+chemical performance comparison (DOCX)
+■AUTHOR INFORMATION
+Corresponding Authors
+Yan Yuan – School of Metallurgical Engineering, Xi'an
+University of Architecture and Technology, Xi'an 710055,
+China;
+orcid.org/0000-0002-1250-6186;
+Email: lingyi21@126.com
+Hai Lu – School of Materials Science and Engineering, Xi'an
+University of Science and Technology, Xi'an 710054, China;
+Email: luhai@xust.edu.cn
+Authors
+Zeyu Li – School of Metallurgical Engineering, Xi'an University
+of Architecture and Technology, Xi'an 710055, China
+Yaxin Kong – School of Metallurgical Engineering, Xi'an
+University of Architecture and Technology, Xi'an 710055,
+China
+Jinhaochong Wang – School of Materials Science and
+Engineering, Xi'an University of Science and Technology, Xi'an
+710054, China
+Yan Zhao – School of Metallurgical Engineering, Xi'an
+University of Architecture and Technology, Xi'an 710055,
+China
+Complete contact information is available at:
+https://pubs.acs.org/doi/10.1021/acsaem.6c01073
+Notes
+The authors declare no conﬂict of interest.
+■ACKNOWLEDGMENTS
+This work was supported by the National Natural Science
+Foundation of China (No. 52474334; 52574358) and the
+Natural Science Basic Research Plan of Shaanxi Province (No.
+2025JC-YBMS-350).
+■REFERENCES
+(1) Liang, F.; Wang, S.; Liang, Q.; Zhong, A.; Yang, C.; Qian, J.; Song,
+H.; Chen, R. Insight into All-Solid-State Li−S Batteries: Challenges,
+Advances, and Engineering Design. Adv. Energy Mater. 2024, 14 (38),
+2401959.
+(2) Xiao, R.; Qu, Z.; Ren, J.; Wang, G.; Sun, Z.; Li, F. Current Status
+and Future Prospects of Solid-State Lithium−Sulfur Batteries: A Focus
+on Reaction and Interface Engineering. Adv. Energy Mater. 2025, 16 (8),
+2501926.
+(3) Tian, S.; Wang, J.; Zhang, N.; Wang, P.; Zhang, J.; Yi, T. Key Issues
+and Modiﬁcation Strategies Towards High-Performance Polymer All-
+Solid-State Lithium-Sulfur Batteries. Coord. Chem. Rev. 2024, 513,
+215909.
+(4) Liang, X.; Wang, L.; Wu, X.; Feng, X.; Wu, Q.; Sun, Y.; Xiang, H.;
+Wang, J. Solid-State Electrolytes for Solid-State Lithium-Sulfur
+Batteries: Comparisons, Advances and Prospects. J. Energy Chem.
+2022, 73, 370−386.
+(5) Zhu, X.; Wang, L.; Bai, Z.; Lu, J.; Wu, T. Sulﬁde-Based All-Solid-
+State Lithium−Sulfur Batteries: Challenges and Perspectives. Nano
+Micro Lett. 2023, 15 (1), 75.
+(6) Yang, X.; Luo, J.; Sun, X. Towards High-Performance Solid-State
+Li−S Batteries: From Fundamental Understanding to Engineering
+Design. Chem. Soc. Rev. 2020, 49 (7), 2140−2195.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8592
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 10 页 ===
+(7) Yao, M.; Shi, J.; Luo, A.; Zhang, Z.; Zhu, G.; Xu, H.; Xu, J.; Jiang,
+L.; Jiang, K. Advances in Sulﬁde Solid−State Electrolytes for Lithium
+Batteries. Energy Storage Mater. 2025, 75, 104018.
+(8) Li, S.; Li, L.; Yang, H.; Zhao, Y.; Shan, Y. A Review of Composite
+Polymer Electrolytes for Solid-State Lithium-Sulfur Batteries: Synthesis
+Methods, Optimal Design, and Critical Challenges. Chem. Eng. J. 2024,
+484, 149433.
+(9) Dong, K.; Hu, H.; Li, W.; Cui, S.; Li, H.; Xing, Y.; Zhang, M.;
+Song, Y.; Myung, S.-T.; Xiang, H.; Jin, Y. Boosting Electrode Kinetics
+and Interfacial Stability via Multifunctional Additives in PEO-Based
+Double-Layer Electrolyte Membranes for High-Performance Solid-
+State Lithium-Sulfur Batteries. Chem. Eng. J. 2026, 527, 172144.
+(10) Fang, R.; Xu, B.; Grundish, N. S.; Xia, Y.; Li, Y.; Lu, C.; Liu, Y.;
+Wu, N.; Goodenough, J. B. Li2S6-Integrated PEO-Based Polymer
+Electrolytes for All-Solid-State Lithium-Metal Batteries. Angew. Chem.
+Int. Ed. 2021, 60 (32), 17701−17706.
+(11) Liu, Y.; Liu, H.; Lin, Y.; Zhao, Y.; Yuan, H.; Su, Y.; Zhang, J.; Ren,
+S.; Fan, H.; Zhang, Y. Mechanistic Investigation of Polymer-Based All-
+Solid-State Lithium/Sulfur Battery. Adv. Funct. Mater. 2021, 31 (41),
+2104863.
+(12) Fang, R.; Xu, H.; Xu, B.; Li, X.; Li, Y.; Goodenough, J. B.
+Reaction Mechanism Optimization of Solid-State Li−S Batteries with
+a PEO-Based Electrolyte. Adv. Funct. Mater. 2020, 31 (2), 2001812.
+(13) Song, Z.; Jiang, W.; Li, B.; Qu, Y.; Mao, R.; Jian, X.; Hu, F.
+Advanced Polymers in Cathodes and Electrolytes for Lithium−Sulfur
+Batteries: Progress and Prospects. Small 2024, 20 (19), 2308550.
+(14) Shao, J.; Li, Y.; Guo, J.; Duan, J.; Liang, H.; Dou, Y.; Lu, S.; Liu, J.
+Solid Polymer Electrolytes for All-Solid-State Lithium−Sulfur Batteries:
+Diﬀerent Designs Dependent on Their Interaction with Sulfur
+Cathodes. Adv. Mater. 2025, 37 (24), 2415864.
+(15) Song, Y.-X.; Shi, Y.; Wan, J.; Lang, S.-Y.; Hu, X.-C.; Yan, H.-J.;
+Liu, B.; Guo, Y.-G.; Wen, R.; Wan, L.-J. Direct Tracking of the
+Polysulﬁde Shuttling and Interfacial Evolution in All-Solid-State
+Lithium−Sulfur Batteries: A Degradation Mechanism Study. Energy
+Environ. Sci. 2019, 12 (8), 2496−2506.
+(16) Bandyopadhyay, S.; Nandan, B. A Review on Design of Cathode,
+Anode and Solid Electrolyte for True All-Solid-State Lithium Sulfur
+Batteries. Mater. Today Energy 2023, 31, 101201.
+(17) Chen, H.; Zhang, Z.; Qin, H.; Zhang, B.; Wang, D.; Ming, L.; Ou,
+X. Topological Polymer Electrolyte Design with Dual Conﬁnements for
+Long-Life Quasi-Solid-State Lithium−Sulfur Batteries. Adv. Funct.
+Mater. 2025, 35 (48), 2506355.
+(18) Ji, Y.; Yang, K.; Liu, M.; Chen, S.; Liu, X.; Yang, B.; Wang, Z.;
+Huang, W.; Song, Z.; Xue, S.; Fu, Y.; Yang, L.; Miller, T. S.; Pan, F.
+PIM-1 as a Multifunctional Framework to Enable High-Performance
+Solid-State Lithium−Sulfur Batteries. Adv. Funct. Mater. 2021, 31
+(47), 2104830.
+(19) Ma, Y.; Jiao, Y.; Yan, Y.; Chen, W.; Li, Y.; Zhou, M.; Chen, D.;
+Zhu,
+J.
+Polyimide-Reinforced
+Solid
+Polymer
+Electrolyte
+with
+Outstanding Lithium Transferability for Durable Li Metal Batteries. J.
+Power Sources 2022, 548, 232034.
+(20) Huang, Y.; Liu, S.; Chen, Q.; Jiao, K.; Ding, B.; Yan, J.
+Constructing Highly Conductive and Thermomechanical Stable
+Quasi-Solid Electrolytes by Self-Polymerization of Liquid Electrolytes
+within Porous Polyimide Nanoﬁber Films. Adv. Funct. Mater. 2022, 32
+(31), 2201496.
+(21) Kothavade, P.; Kaﬁ, A.; Shanmuganathan, K.; Bateman, S. High
+Performance Polyimides for Additive Manufacturing: A Critical
+Review. Prog. Polym. Sci. 2026, 172, 102055.
+(22) Kim, T.; Joo, S. H.; Gong, J.; Choi, S.; Min, J. H.; Kim, Y.; Lee,
+G.; Lee, E.; Park, S.; Kwak, S. K.; Lee, H.-S.; Kim, B.-S. Geomimetic
+Hydrothermal
+Synthesis
+of
+Polyimide-Based
+Covalent
+Organic
+Frameworks. Angew. Chem. Int. Ed. 2022, 61 (4), e202113780.
+(23) Zhang, Y.; Dai, S.; Yin, Z.; Yan, W.; Li, Q.; Yuan, H.; Zhang, X.;
+Chen, L.; Luo, J.; Ouyang, X.; Liao, B.; Hao, W.; Zhu, J. Integration
+Fabrication
+of
+Polyimide
+Composite
+Films
+for
+Aerospace
+Applications. SmartMat 2024, 5 (3), e1225.
+(24) Li, F.; Yu, P.; Wu, B.; Cao, M.; Xia, R.; Qian, J. Dual-Dynamic
+Polyimide and Its Thermally Conductive Adhesive Featuring High
+Glass Transition Temperature, Recyclability, and Strong Adhesion.
+Chem. Eng. J. 2026, 528, 172195.
+(25) Nam, K.-H.; Abdulhafez, M.; Castagnola, E.; Tomaraei, G. N.;
+Cui, X. T.; Bedewy, M. Laser Direct Write of Heteroatom-Doped
+Graphene on Molecularly Controlled Polyimides for Electrochemical
+Biosensors with Nanomolar Sensitivity. Carbon 2022, 188, 209−219.
+(26) Li, J.; Liu, J.; Xu, W.; Long, J.; Huang, W.; Zhang, Y.; Chu, L.
+Highly Ion-Selective Sulfonated Polyimide Membranes with Covalent
+Self-Crosslinking and Branching Structures for Vanadium Redox Flow
+Battery. Chem. Eng. J. 2022, 437, 135414.
+(27) Yang, J.; Tong, L.; Alsubaie, A. S.; Mahmoud, K. H.; Guo, Y.; Liu,
+L.; Guo, L.; Sun, Z.; Wang, C. Hybrid Proton Exchange Membrane
+Used
+in
+Fuel
+Cell
+with
+Amino-Functionalized
+Metal−Organic
+Framework in Sulfonated Polyimide to Construct Eﬃcient Ion
+Transport Channel. Adv. Compos. Hybrid Mater. 2022, 5 (2), 834−842.
+(28) Seh, Z. W.; Zhang, Q.; Li, W.; Zheng, G.; Yao, H.; Cui, Y. Stable
+Cycling of Lithium Sulﬁde Cathodes Through Strong Aﬃnity with a
+Bifunctional Binder. Chem. Sci. 2013, 4 (9), 3673−3677.
+(29) Gong, J.; Peng, Q.; Zhao, S.; Wen, T.; Xu, H.; Ma, W.; Yao, Z.;
+Chen, Y.; Wang, G.; Chen, S. Built-in Single-Ion-Conducting Polymer
+Bridges for Superior Ion Transport Enabling Long-Life and High-
+Voltage Lithium−Metal Batteries. Energy Environ. Sci. 2025, 18 (11),
+5511−5523.
+(30) Miao, X.; Song, C.; Hu, W.; Ren, Y.; Shen, Y.; Nan, C.-w.
+Achieving High-Performance Lithium−Sulfur Batteries by Modulating
+Li+ Desolvation Barrier with Liquid Crystal Polymers. Adv. Mater.
+2024, 36 (29), 2401473.
+(31) Shi, C.; Li, Z.; Wang, M.; Hong, S.; Hong, B.; Fu, Y.; Liu, D.; Tan,
+R.; Wang, P.; Lai, Y. Electrolyte Tailoring and Interfacial Engineering
+for Safe and High-Temperature Lithium-Ion Batteries. Energy Environ.
+Sci. 2025, 18 (7), 3248−3258.
+(32) Song, S.; Li, T.; Zuo, P.; Zhu, Y.; Li, H. Polyoxometalate-
+anchored Naﬁon membranes with enhanced proton conductivity and
+suppressed hydrogen permeability for water electrolysis. J. Membrane
+Sci. 2026, 746, 125276.
+(33) Wang, H.; Cheng, H.; Li, D.; Li, F.; Wei, Y.; Huang, K.; Jiang, B.;
+Xu, H.; Huang, Y. Lithiated Copper Polyphthalocyanine with Extended
+π-Conjugation Induces LiF-Rich Solid Electrolyte Interphase toward
+Long-Life Solid-State Lithium-Metal Batteries. Adv. Energy Mater.
+2023, 13 (16), 2204425.
+(34) Wen, K.; Xin, C.; Guan, S.; Wu, X.; He, S.; Xue, C.; Liu, S.; Shen,
+Y.; Li, L.; Nan, C. Ion−Dipole Interaction Regulation Enables High-
+Performance Single-Ion Polymer Conductors for Solid-State Batteries.
+Adv. Mater. 2022, 34 (32), 2202143.
+(35) Feng, Z.; Lu, H.; Ma, Y.; Yuan, Y. Contrastive Studies on
+Thermal Initiators for In Situ Polymerization of Gel Polymer
+Electrolyte in Supercapacitor. J. Electrochem. Soc. 2026, 173, 030508.
+(36) Yuan, Y.; Wang, B.; Xue, K.; Ma, Y.; Liu, X.; Peng, X.; Liu, M.; Lu,
+H. High-Voltage Solid-State Lithium Metal Batteries with Stable
+Anodic and Cathodic Interfaces by a Laminated Solid Polymer
+Electrolyte. ACS Appl. Mater. Interfaces. 2023, 15 (13), 17144−17151.
+(37) Lu, H.; Su, Y.; Zhang, X.; Ma, Y.; Li, C.; Luo, S.; Kong, L.; Yuan,
+Y.
+Synergistic
+Adsorption-Diﬀusion-Catalytic
+Eﬀect
+Boosting
+Polysulﬁdes Conversion by Rational Isotype Heterojunction Design
+for Highly Reversible Lithium−Sulfur Batteries. Adv. Funct. Mater.
+2025, 35 (44), 2425863.
+(38) Yuan, Y.; Wang, B.; Zhang, J.-H.; Zheng, B.; Fedotov, S. S.; Lu,
+H.;
+Kong,
+L.
+Computational
+Understanding
+and
+Multiscale
+Simulation of Secondary Batteries. Energy Storage Mater. 2025, 75,
+104009.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.6c01073
+ACS Appl. Energy Mater. 2026, 9, 8584−8593
+8593
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​9/​13/​8584/​65101554/​ae-2026-010733.​pdf by TSINGHUA UNIV user on 27 September 2026

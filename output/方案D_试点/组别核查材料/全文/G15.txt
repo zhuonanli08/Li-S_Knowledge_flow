@@ -1,0 +1,827 @@
+=== 第 1 页 ===
+Electrochimica Acta 362 (2020) 137141 
+Contents lists available at ScienceDirect 
+Electrochimica Acta 
+journal homepage: www.elsevier.com/locate/electacta 
+Crosslinked poly(allyl glycidyl ether) with pendant nitrile groups as 
+solid polymer electrolytes for Li–S batteries ✩ 
+Yadagiri L.N.K. Mallela a , 1 , Sohyeon Kim a , 1 , Gyuwon Seo b , 1 , Jin Won Kim b , 
+Santosh Kumar a , ∗, Jaeyoung Lee b , ∗, Jae-Suk Lee a , ∗
+a School of Materials Science and Engineering, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 61005, 
+Republic of Korea 
+b School of Earth Sciences and Environmental Engineering, Gwangju Institute of Science and Technology (GIST), 123 Cheomdangwagi-ro, Buk-gu, Gwangju 
+61005, Republic of Korea 
+a r t i c l e 
+i n f o 
+Article history: 
+Received 2 July 2020 
+Revised 27 August 2020 
+Accepted 17 September 2020 
+Available online 28 September 2020 
+Keywords: 
+Anionic ring opening polymerization 
+Crosslinking 
+Coulombic eﬃciency 
+Li–S battery 
+Poly(allyl glycidyl ether)s 
+Solid polymer electrolyte 
+a b s t r a c t 
+Synthesis of Poly(allyl glycidyl ether)s (PAGE), the modiﬁcation of allyl side chains of PAGE with 3-((2- 
+(2-(2-mercaptoethoxy)ethoxy)ethyl)thio)propanenitrile (CN) and furfuryl mercaptan (FM) (CN/FM-PAGE) 
+for Li-salt dissociation and crosslinking, respectively, is reported. A CN/FM-PAGE with 3% crosslinking 
+ratio as a solid polymer electrolyte (SPE) for Li–S battery exhibits the highest Li-ion conductivity of 
+1.01 × 10 –4 S cm –1 with a [Li]/[O] ratio of 0.2 at 30 °C. Moreover, the SPEs manifest favorable operation up 
+to 80 charge–discharge cycles with high coulombic eﬃciency ( > 95%) and good lithium plating/stripping 
+performance. 
+© 2020 Elsevier Ltd. All rights reserved. 
+1. Introduction 
+Excessive use of poly(ethylene oxide)s (PEOs) is seen in com- 
+mercially important ﬁelds such as lithium polymer batteries [1–4] , 
+dye-sensitized solar cells [5] , drug delivery [6] , and biocompatibil- 
+ity control [7] . PEO-based polymers with side chains enable fur- 
+ther modiﬁcation, thus allowing the tunability of these valuable 
+materials [8–10] . This enables new polymer designs for eﬃcient 
+polymer electrolytes. High molecular weight PEOs, which are semi- 
+crystalline, suffer from low ion conductivity at room temperature. 
+In an attempt to alleviate low ion conductivity problem, various 
+strategies, such as polymer blending, ceramic in polymer/polymer 
+in ceramic design, nanoparticle additions, ionic liquid additivies, 
+dynamic covalent bonds and crosslinking network have been ap- 
+plied [11–15] . A simultaneously high Li-ion conductivity and phase 
+stability of unmodiﬁed PEO is diﬃcult to achieve, the structural 
+✩ The manuscript was written through the contributions of all authors. All au- 
+thors have given approval to the ﬁnal version of the manuscript. 
+∗Corresponding authors. 
+E-mail addresses: skumar@gist.ac.kr (S. Kumar), jaeyoung@gist.ac.kr (J. Lee), 
+jslee@gist.ac.kr (J.-S. Lee). 
+1 These authors (Y.L.N.K.M, S.K, and G.S) contributed equally. 
+modiﬁcation of PEO is the only way to achieve high ion conduc- 
+tivity [16] . 
+The main reason for the ion-conduction property of PEO is 
+the presence of electronegative oxygen atoms in their backbones, 
+which induce ﬂexibility and exhibit low T g [ 17 , 18 ]. In our recent 
+study, we demonstrated that ionic conductivity is enhanced by 
+suppressing the formation of crystal domain structures of PEO [9] . 
+In this viewpoint, the advantage of chemical functionality and the 
+inherent physical properties (low T g , lack of crystallinity) make 
+poly(allyl glycidyl ether) (PAGE) an alternate candidate for PEO 
+[19] . This tunability and facile reactivity of PAGE enable it to be 
+applied in a variety of applications, such as ion-conducting elec- 
+trolytes, therapeutics, and catalysts [19–21] . The allyl side chain is 
+an asset for a facile modiﬁcation, which made us select allyl gly- 
+cidyl ether as the monomer. 
+Approaches such as cationic or anionic ring opening polymer- 
+ization have been utilized to synthesize the PAGE with a variety 
+of functionalities. However, optimized polymerization conditions 
+for AGE and understanding for controlling the side reactions is 
+still a challenging task. Many attempts have been made by var- 
+ious groups to synthesize PAGE [ 22 , 23 ]. Erberich et al. [22] car- 
+ried out an extensive study on the polymerization chemistry of 
+AGE, however, the authors concluded that the polymerization is 
+only controlled to 80% conversion. Hu et al. [24] synthesized PAGE 
+https://doi.org/10.1016/j.electacta.2020.137141 
+0013-4686/© 2020 Elsevier Ltd. All rights reserved. 
+
+=== 第 2 页 ===
+Y.L.N.K. Mallela, S. Kim, G. Seo et al. 
+Electrochimica Acta 362 (2020) 137141 
+with very low polydispersity indices (PDI) but only at low molecu- 
+lar weights using sodium ethoxide initiator. Lee et al. [25] tried to 
+overcome these limitations by using radical-anion potassium naph- 
+thalenide to generate a potassium alkoxide initiator which was 
+employed for the controlled polymerization of AGE. A challenge 
+with most of the syntheses procedures is that the protic impurities 
+are introduced while generating the initiating system which leads 
+to subsequent interference with the polymerization and unwanted 
+side reactions do occur at high polymerization temperatures. 
+Good processability, ﬂexibility, and interfacial compatibility, 
+along with improved safety are the required characteristics of solid 
+polymer electrolytes (SPEs) [26–28] . The importance of SPEs stems 
+from the fact that they act both as electrolytes and separators 
+[2] . Since there is an all-time high interest in high capacity, high 
+power, and high voltage lithium-ion batteries [29] , to meet these 
+requirements, the electrolyte should also possess a high ion con- 
+ductivity, dielectric constant, and anodic oxidation potential, along 
+with demonstrating increased interaction with Li ions [ 9 , 30 ]. SPEs 
+with high ion conductivity showed improved performance in bat- 
+teries [30] . Possible methods to control the dielectric constant in- 
+clude strategies such as changing the blend ratios of the polymer 
+electrolytes [ 31 , 32 ], and the introduction of inorganic additives 
+with a high dielectric constant such as TiO 2 , BaTiO 3 , and mont- 
+morillonite [ 33 , 34 ]. In our recent paper, we described that double- 
+comb poly (siloxane) SPEs show the enhanced dielectric constant 
+and dimensional stability with crosslinking via quaternization [35] . 
+Furthermore, quaternization improves dielectric behavior due to 
+improved polarization and more intense oscillation of molecules 
+[36] . Having polar groups such as –O–, –S–, –NH– etc., are effec- 
+tive for dissolving lithium salts, besides enhancing the dielectric 
+constant of the polymer [37] . The presence of the lowest unoc- 
+cupied molecular orbital and their high electrochemical stability 
+make the nitrile group an indispensable functional group for de- 
+signing high-energy batteries with a wide electrochemical window 
+[38] . Some of the examples of electrolytes based on nitrile groups 
+include acetonitrile [ 39 , 40 ], succinonitrile [ 41 , 42 ], polyacrylonitrile 
+[ 43 , 44 ], poly(ethyl α-cyanoacrylate) [ 45 , 46 ], and polyvinyl alcohol- 
+beta-cyanide ethyl ether [ 47 , 48 ]. 
+Polymers with structure-property relationships that contrive 
+high energy density could be used to enhance Li-ion technology 
+[49] . Li–S batteries have a high theoretical capacity of 1672 mAh 
+g –1 , which is more than 6 times as high as lithium-ion batter- 
+ies [50–52] . Hence, an electrolyte which is stable against Lithium 
+metal anode is needed for high speciﬁc energy batteries with sul- 
+fur cathodes [53] . The Li–S battery has a preferred choice because 
+sulfur is cheap and with easy availability. The problems of Li–S bat- 
+teries, such as a short cycling ability and low charge eﬃciency, are 
+closely related to the dissolution of lithium polysulﬁde (Li 2 S x ) in 
+a liquid electrolyte [ 50 , 51 ]. Replacing the liquid electrolyte with a 
+SPE is the best way to palliate polysulﬁde dissolution problem [54] . 
+Herein, we synthesized PAGEs by an anionic ring opening 
+polymerization (AROP) using the benzenedimethanol/phosphazene 
+base initiator system at room temperature. A facile modiﬁcation 
+of allyl groups was performed with side chains possessing nitrile 
+and furan groups via a thiol–ene click reaction. Crosslinking of the 
+CN/FM-PAGEs was performed with bismaleimide via a Diels-Alder 
+reaction. The crosslinked CN/FM-PAGE was used as an SPE in the 
+construction of a coin cell for Li–S battery. 
+2. Experimental 
+2.1. Materials 
+Azobisisobutyronitrile 
+(98%), 
+allyl 
+glycidyl 
+ether 
+( ≥
+99%), toluene (99.8%), P 4 - t -Bu (0.80 M in n -hexane), 2,2‘- 
+(Ethylenedioxy)diethanethiol (95%), trimethylamine, anhydrous 
+N,N-dimethylformamide (DMF) (99.8%), and anhydrous tetrahy- 
+drofuran (THF) ( ≥99.9%) were purchased from Sigma-Aldrich 
+(South Korea) and were used as received. Azobisisobutyroni- 
+trile (AIBN) was recrystallized from methanol. Allyl glycidyl 
+ether and toluene were distilled under vacuum over calcium 
+hydride and stored with molecular sieves under a nitro- 
+gen atmosphere. Acrylonitirile ( > 99%), 1,1‘-(methylenedi-4,1- 
+phenylene)bismaleimide ( > 98%), 1,4-benzenedimethanol (98%), 
+furfuryl mercaptan ( > 98%), dichloromethane (DCM) ( > 99%) and 
+bis(triﬂuoromethane)sulfonamide lithium salt (LiTFSI) ( > 98%) were 
+purchased from Tokyo Chemical Industry Co. (TCI-South Korea). 
+1,4-Benzenedimethanol was recrystallized and dried under vacuum 
+overnight before use. N,N-Dimethylacetamide (DMA) (99%), and 
+carbon disulﬁde (99.9%) were purchased from Alfa Aesar (South 
+Korea). LiNO 3 (99.99%), PVDF, dioxolane (99%), dimethoxyethane 
+( > 99%), Ketjen black (KB), VGCF-H, Super P and elemental sulfur 
+(100 mesh, 99.5%) were purchased from Sigma-Aldrich (South Ko- 
+rea) and used as received for battery cathode materials. A Celgard 
+3501 ﬁlm was purchased from Celgard Company, Charlotte, NC, 
+USA. 
+2.2. Characterization 
+1 H NMR spectroscopy was carried out using a JEOL JNM- 
+LA 400 FT-NMR instrument at 25 °C to characterize the chemical 
+structure of the reactants, monomers, and polymers. All samples 
+for the NMR measurements were dissolved in deuterated chloro- 
+form (CDCl 3 ). 1 H NMR spectra were reported in parts per mil- 
+lion ( δ) downﬁeld from tetramethylsilane (TMS) as an internal 
+standard (0 ppm). FT-IR spectroscopy measurements were con- 
+ducted to conﬁrm the functional groups and crosslinking of the 
+synthesized polymer. The raw materials, monomers, and poly- 
+mers were analyzed by FT-IR-ATR (Jasco 460 plus, Japan) spectra, 
+which were recorded with a 4 cm –1 resolution within a range of 
+40 0 0–50 0 cm –1 . The molecular weight and dispersity values were 
+recorded using SEC (Waters, M 77251, M510, light scattering, and RI 
+detectors) with four columns (HR 0.5, HR 1, HR 3 and HR 4, Waters 
+styragel columns run in series; the pore sizes were 50, 100, 10 0 0 
+and 10,0 0 0 ˚A, respectively). The SEC analyses were conducted at a 
+ﬂow rate of 1 mL/min using an eluent of THF containing 2% of tri- 
+ethylamine at 40 °C. DSC (TA instruments, TA Q20) and TGA (TA in- 
+strument, TA-2050) were conducted to check the thermal behavior 
+of the synthesized polymers. The glass transition temperature ( T g ) 
+of the polymer and polymer electrolyte was measured in a range 
+of –60 to 20 °C. A heating rate of 5 °C/min was employed for the 
+heating and cooling runs under N 2 . The thermal degradation tem- 
+perature ( T d ) of the polymer electrolyte was measured in a range 
+of 50 to 600 °C at a rate of 10 °C/min under N 2 . XRD was measured 
+with a Rigaku RINT 20 0 0 diffractometer using Cu K α radiation at 
+room temperature to analyze the crystallinity of polymers at an- 
+gles from 5 to 40 °. The samples were prepared as a ﬁlm on a glass 
+substrate using the polymer solution by a drop-casting method. 
+2.3. Synthesis of poly(allyl glycidyl ether) (PAGE) 
+PAGE was synthesized by an anionic ring opening polymer- 
+ization of allyl glycidyl ether (AGE) with a P 4 - t -Bu catalyst sys- 
+tem ( Scheme 1 a). Polymerization was carried out in a glove box 
+charged with nitrogen. 1,4-Benzenedimethanol was dissolved in 
+THF to prepare a 0.25 M stock solution. A 100 μL aliquot of the 1,4- 
+benzenedimethanol solution was added to a 5 mL vial with a stir- 
+rer. P 4 - t -Bu was added and was followed by the addition of toluene 
+so that the monomer concentration was maintained at 2.0 M, fol- 
+lowed by the addition of allyl glycidyl ether to the solution. The re- 
+action was quenched after 24 h with the addition of benzoic acid. 
+2 
+
+=== 第 3 页 ===
+Y.L.N.K. Mallela, S. Kim, G. Seo et al. 
+Electrochimica Acta 362 (2020) 137141 
+Initiator to monomer ratio allowed us to synthesize PAGE poly- 
+mer with 5.6 kDa molecular weight. The above reaction solution 
+was then diluted in THF/DCM, puriﬁed using basic aluminum ox- 
+ide column chromatography and subjected to roto-evaporation for 
+solvent removal. The obtained polymer was dried under vacuum 
+overnight to give a quantitative yield. The polymer was subjected 
+to size exclusion chromatography (Fig. S9) and was characterized 
+by 1 H NMR (Fig. S1 in the supporting information (SI)). 1 H NMR 
+(400 MHz, CDCl 3 ): δ (ppm) 3.41–3.79 (m, 4H), 3.9 (m, 2H), 4.50 (s, 
+4H), 5.10–5.30 (dd, 2H), and 5.80–5.93 (m, 1H). 
+2.4. Synthesis of 
+3-((2-(2-(2-mercaptoethoxy)ethoxy)ethyl)thio)propanenitrile (METPN) 
+METPN was synthesized from 2,2‘-(ethylenedioxy)diethanethiol 
+and 
+acrylonitrile 
+via 
+a 
+thiol-ene 
+Michael 
+addition 
+us- 
+ing triethylamine (TEA) as the catalyst ( Scheme 1 b). 2,2‘- 
+(ethylenedioxy)diethanethiol (20 mM) and 12 mL of THF and 
+TEA (20 mM) were added to a 50 mL two necked round-bottom 
+ﬂask. The temperature was decreased to 0 °C using an ice bath. 
+The solution was purged with argon for 1 h to eliminate dissolved 
+oxygen. THF solution (8 mL) with acrylonitrile (20 mM) was added 
+dropwise to the previous solution using a dropping funnel for 
+30 min with intense stirring. After the addition, the temperature 
+was increased to 45 °C for 16 h. The reaction solution was then 
+cooled to room temperature and diluted with 100 mL of DCM. 
+Puriﬁcation was performed by extraction with 0.50 M HCl solution 
+and distilled water. The organic phase was dried over magnesium 
+sulfate and then ﬁltered. The solvent was removed by rotary 
+evaporator, and the product was dried under vacuum overnight 
+with an 85% yield. The compound was characterized by 1 H NMR 
+and the spectrum is shown in Fig. S2 of the SI. 1 H NMR (400 MHz, 
+CDCl 3 ): δ (ppm) 1.58 (s, 1H), 2.70 (t, 2H), 2.78 (m, 4H), 2.86 (t, 
+2H), and 3.61 (m, 4H) and 3.69 (m, 4H). 
+2.5. Synthesis of CN/FM-PAGE 
+PAGE was functionalized with METPN and furfuryl mercap- 
+tan, which is named as CN/FM-PAGE by a thiol–ene click reac- 
+tion using AIBN as an initiator. PAGE (1.75 mM), 8 ml of DMF, 
+METPN (5.25 mM), furfuryl mercaptan (0.612–0.158 eq.) and AIBN 
+(1.75 mM) were added to a 25-mL round-bottom ﬂask ( Scheme 1 c). 
+Argon purging was performed over one hour to eliminate dissolved 
+oxygen. The temperature of the reaction was raised to 80 °C until a 
+clear solution was observed. After 20 h, the reaction mixture was 
+allowed to cool to room temperature and dialyzed against chloro- 
+form using a benzolylated dialysis tube for 4 days. The solvent of 
+the dialyzed solution was removed by evaporation and dried under 
+vacuum overnight. The CN/FM-PAGE was characterized by 1 H NMR 
+and FT-IR spectroscopy (Fig. S3 and S4 in SI). 1 H NMR (400 MHz, 
+CDCl 3 ): δ (ppm) 1.83 (m, 2H), 2.48–2.65 (m, 2H), 2.66–2.73 (t, 8H), 
+2.74–2.80 (t, 4H) 2.84–2.91 (t, 2H), 3.28–3.97 (m, C–O–C backbone), 
+6.15 (s, 1H), and 6.28 ppm (s, 1H). FT-IR (cm –1 ): 1502 (C = C, furan), 
+and 2370 (C ≡N). 
+2.6. Crosslinking of CN/FM-PAGE for solid polymer electrolytes (SPEs) 
+LiTFSI salt and CN/FM-PAGEs were mixed and crosslinked via 
+a Diels-Alder reaction with bismaleimide (Scheme S1 in the SI). 
+CN/FM-PAGE and bismaleimide were dissolved in a 1:1 furan to 
+maleimide ratio with a small amount (1.0 ml) of DMF. After re- 
+moving the solvent at 120 °C under vacuum, the crosslinking was 
+carried out by Diels-Alder reaction at 65 °C for a minimum of 
+24 h. The degree of crosslinking was varied with time (24, 48 
+and 72 h), and the SPEs so formed are designated as P3, P4, and 
+P5 which corresponds to 3, 4, and 5% of crosslinked CN/FM-PAGE, 
+respectively. Non crosslinked CN/FM-PAGE was designated as P0. 
+24 h was the minimum time required for the ﬁlm formation. The 
+crosslinking was conﬁrmed by FT-IR spectroscopy (Fig. S5 in the SI) 
+FT-IR (cm –1 ): 1180 (C–N–C, Diels-Alder adduct), 1700 (C = O, Diels- 
+Alder adduct), and 1378 cm –1 (C–N, Diels-Alder adduct). 
+2.7. Measurements of Li-ion conductivity 
+The Li-ion conductivity was measured with an electrochemi- 
+cal impedance spectroscopy (Solartron, SI 1280b) over a frequency 
+range from 1 Hz to 20 kHz with an amplitude of 100 mV. All mea- 
+surements were carried out in a temperature range of 30 to 80 °C. 
+An Espec Model SH-241 benchtop type temperature and humid- 
+ity chamber were used to maintain a constant temperature when 
+the ion conductivity was measured. The prepared SPEs were sand- 
+wiched with stainless steel electrodes (1.2 cm diameter) using a 
+Swagelok cell. Their frequency region and resistance were checked 
+by Bode and Nyquist plots, respectively. Impedances obtained by 
+the measurements were used to calculate the ion conductivity by 
+the following equation: 
+σ = d 
+RA 
+where σ (S cm –1 ) is the ion conductivity, d (cm) is the thickness of 
+the membrane, R (ohm) is the resistance, and A (cm 2 ) is the area 
+of the membrane. The impedance of each sample was measured 
+four times to ensure reproducibility. 
+2.8. Cell preparation and assembly 
+CN/FM PAGE prepared from PAGE (0.450 g) was dissolved in 
+1.5 ml of DMF. Bismaleimide was dissolved in a 1:1 furan to 
+maleimide ratio with a polymer solution. LiTFSI with [Li]:[O] = 0.2 
+was added and stirred at 120 °C. The well-mixed solution was di- 
+rectly cast onto a Celgard 3501 separator as porous support with 
+a doctor blade and then heated in a vacuum oven at 65 °C for the 
+Diels-Alder reaction to proceed for 24 h for attaining P3 (50 μm, 
+thickness). A sulfur cathode was prepared by applying a slurry 
+coating on an Al foil. We used S–C composites as an active ma- 
+terial, which was synthesized by heat-treating a mixture of Ketjen 
+black and elemental sulfur at 155 °C for 24 h in an Ar atmosphere. 
+A slurry was cast on the Al foil after mixing the synthesized S–C 
+composites, Super P, and PVDF in DMA, and then it was completely 
+dried in a vacuum oven at 60 °C for 24 h. To investigate the elec- 
+trochemical behavior of crosslinked CN/FM-PAGE (P3), a 2032-type 
+coin cell assembly was constructed. To activate the Li-ion transport 
+pathway, 40 μL of 1 M LiTFSI (dioxolane: dimethoxyethane = 1:1 
+vol%) solution was added on top of P3, which was stacked between 
+the commercial Li metal and sulfur cathode in an Ar-ﬁlled glove 
+box (H 2 O < 0.3 ppm). A similar procedure was employed to form 
+bare Celgard separator. 
+2.9. Electrochemical performance 
+Cyclic voltammetry (potentiostat mode, WBSC30 0 0S, Won- 
+A tech, Republic of Korea) analysis was conducted to con- 
+ﬁrm the electrochemical stability with a Li metal/P3/Li metal 
+cell conﬁguration. With the same cell components, Li-ion strip- 
+ping/plating behavior was investigated. Both cyclic voltammetry 
+and charge–discharge cycling tests were performed (galvanostat 
+mode, WBSC30 0 0S, Won-A tech, Republic of Korea). All electro- 
+chemical tests were carried out under a well-deﬁned temperature 
+of 60 °C in a climate chamber. 
+3 
+
+=== 第 4 页 ===
+Y.L.N.K. Mallela, S. Kim, G. Seo et al. 
+Electrochimica Acta 362 (2020) 137141 
+Fig. 1. Temperature dependence of the ion conductivity of the PAGE, P0, P3, P4, and 
+P5 with [Li]/[O] = 0.2. 
+3. Results and discussion 
+3.1. Ionic conductivity of SPEs 
+As shown in Fig. 1 , after comparing the obtained temperature 
+dependent Li-ion conductivities of non crosslinked CN/FM-PAGE 
+(P0) and PAGE ( Scheme 1 ), the P0 has the highest Li-ion conduc- 
+tivity. The nitrile groups in the side chain of CN/FM-PAGEs allows 
+the dissociation of LiTFSI salt as well as PEO-Li + complex, which 
+further increases the Li-ion availability for transport, thereby in- 
+creasing the ionic conductivity [55] . When we compared the ionic 
+conductivities of P0–P5, we observed that the increase in crosslink- 
+ing ratio decreased the ionic conductivity, as shown in Fig. 1 . The 
+higher crosslinking ratio hindered the ionic transportation as the 
+polymer chain mobility decreases [56–61] . Among P3, P4, and P5, 
+the ionic conductivity decreases with crosslinking and P3 showed 
+the highest value of 1.01 × 10 −4 S cm –1 at 30 °C. The polyether 
+backbone, along with side chains, provide hopping site for Li + ions 
+and pendant nitrile groups increases dissociation of lithium salt 
+which also helped in enhancing the ionic conductivity. 
+The effect of Li salt concentration on the conductivity was 
+also examined using P3, as it showed the highest ionic conductiv- 
+ity among crosslinked CN/FM-PAGEs. Three different [Li]/[O] ratios 
+(0.15, 0.2, and 0.25) were tried, as shown in Fig. 2 , and highest Li- 
+ion conductivity was observed when the ratio [Li]/[O] was 0.2. A 
+decrease in ionic conductivity with increase in Li-salt concentra- 
+tion is due to the formation of aggregated species, which hinders 
+ion mobility with an increase in salt concentration and this has 
+already been reported [ 11 , 16 , 19 ]. 
+3.2. Thermal analysis of crosslinked CN/FM-PAGE 
+A clear comparison of the T g ’s showed that it is increasing by 
+increasing the crosslinking ratios from P0 to P5, as evident from 
+Fig. 3 . The increase in crosslinking ratio tends to decrease poly- 
+mer chain mobility, and hence the T g values increase from −46 to 
+−13 °C. This correlation of T g with crosslinking ratios and chain 
+mobility was also observed by others [ 35 , 62–64 ]. It also explains 
+the decrease in Li-ion conductivity by increasing crosslinking ra- 
+tios from P0–P5. 
+The thermal transition behaviors of P0–P5 were investigated to 
+conﬁrm the thermal stability by TGA. The decomposition temper- 
+atures, which means that the sample is reduced in weight by 5% 
+( T d , 5wt% ), and each thermal transition temperature are summarized 
+Fig. 2. Ion conductivity dependence of P3 on [Li]/[O] ratio. 
+Fig. 3. DSC thermograms show the T g ’s of P0–P5. 
+in Table S1 in the SI. The T d,5wt% values of P0, P3, P4, and P5 were 
+280, 266, 257, and 276, respectively (Fig. S6). The thermal decom- 
+position of these SPEs demonstrated three stages: the ﬁrst stage 
+began at approximately 270 °C, which was due to the decompo- 
+sition of the hydrophobic thio-ether chain segments. The second 
+stage began at approximately 340 °C, which was attributed to the 
+polyether segments and ﬁnally, at 400 °C, which was attributed to 
+the decomposition of LiTFSI [65] . 
+The electrochemical stability of P3 was conﬁrmed as shown in 
+the cyclic voltammetry results for a cathodic potential of –0.5 V 
+and toward an anodic potential of 5.0 V (Fig. S7 in SI). First, Li plat- 
+ing/stripping reactions were clearly shown in a range of ± 0.5 V 
+vs. Li/Li + . Interestingly, P3 showed high electrochemical stability 
+up to 5.0 V without any other peak current that indicated poly- 
+mer decomposition. As provided in the plot of Fig. S7, the poten- 
+tial window of P3 was broader than that of a conventional linear 
+PEO-based SPE [29] . 
+3.3. Electrochemical performance 
+For investigating the electrochemical behavior with Li metal 
+and for Li–S cell test, we fabricated a pore-ﬁlled membrane using 
+P3. A pore-ﬁlled membrane is commonly used for testing an elec- 
+trochemical performance. According to previous reports [ 66 , 67 ], 
+these membranes can lower the thickness by keeping intact the 
+4 
+
+=== 第 5 页 ===
+Y.L.N.K. Mallela, S. Kim, G. Seo et al. 
+Electrochimica Acta 362 (2020) 137141 
+Fig. 4. (a) Galvanostatic Li + stripping/plating voltage proﬁle of a Li/P3/Li symmetric cell with a current density of 0.5 mA cm –2 and a deposition capacity of 0.5 mAh cm –2 
+at 60 °C and (b) voltage proﬁles of the 15, 75, 95, 115 and 255th cycle which correspond to each blue dashed rectangle in (a). (For interpretation of the references to color 
+in this ﬁgure legend, the reader is referred to the web version of this article.) 
+Fig. 5. (a) Cyclic voltammogram of a 50-μm P3 electrolyte inserted into a cell (scan rate 0.1 mV s –1 with a potential sweep range of 1.5 to 3.0 V), (b) charge and discharge 
+potential graph of the 1st (944 mAh g s –1 ), 2nd (894 mAh g s –1 ) and 5th (803 mAh g s –1 ) cycles and (c) cycling performance of the P3 electrolyte, with a 1.25 mg s cm –2 loading 
+amount of the sulfur cathode, tested at 0.2 C (60 °C) ( inset : 50 μm thick P3 ﬁlm). 
+polymer’s properties so that the total ohmic resistance of a battery 
+is effectively reduced. Therefore, we used the pore-ﬁlled mem- 
+brane based on the optimized P3 in a coin cell test. As shown in 
+Fig. 5 , the fabricated pore-ﬁlled membrane was transparent in con- 
+trast to the bare Celgard 3501 separator, which means that the P3 
+was well-formed in the internal structure as well as on top and 
+bottom of the separator. 
+For revealing compatibility with Li metal, galvanostatic strip- 
+ping and plating of Li in a symmetric Li metal/P3/Li metal cell was 
+investigated under 0.5 mA cm –2 with a ﬁxed 0.5 mAh cm –2 ca- 
+pacity at 60 °C ( Fig. 4 ). The initial overpotential in the cell with 
+the P3 was approximately 5 mV higher than that of the cell with 
+the bare separator. However, the potential proﬁles of the two cells 
+showed apparent differences as the cycle number increased. In the 
+bare separator with a liquid electrolyte, a gradual potential drop 
+appeared around the 25th cycle, followed by an evident potential 
+decrease after the 100th cycle. Then, it converged to below 5 mV, 
+which was known as a signal for a soft short circuit. This short cir- 
+cuit was caused by locally and randomly formed lithium agglom- 
+eration, which pressed the separator with weak tensile stress [68–
+70] . 
+On the other hand, the P3 cast Celgard 3501 ﬁlm revealed a 
+stable and consistent potential proﬁle of approximately ± 15 mV 
+for more than 300 h after the stabilization region between the 
+75th and 125th cycles. As depicted in plots B and C of Fig. 4 b, S- 
+shaped potential curves were observed in that region, which was 
+caused by the disproportion of the energy barrier from the thick- 
+ness of the local solid electrolyte interface (SEI) layer and changes 
+during the lithium-ion stripping/plating process [71–73] . This was 
+because the pore ﬁlling P3 assuaged the formation of lithium den- 
+drites. Furthermore, the ﬂexibility of the polymer electrolyte was 
+tolerant of the stress from the surface volume expansion of the 
+lithium electrode and supported a stable SEI layer structure during 
+the cell cycle [74] . As a result, the ﬂuctuated potential proﬁle was 
+5 
+
+=== 第 6 页 ===
+Y.L.N.K. Mallela, S. Kim, G. Seo et al. 
+Electrochimica Acta 362 (2020) 137141 
+Scheme 1. Synthesis of poly(allyl glycidyl ether)s (PAGEs) and functionalization of PAGE. (a) Synthesis of PAGE by anionic ring-opening polymerization. (b) Synthesis of 3- 
+((2-(2-(2-mercaptoethoxy)ethoxy)ethyl)thio)propanenitrile (METPN) via thiol–ene Michael addition of 2,2‘-(ethylenedioxy)diethanethiol and acrylonitrile. (c) Functionalization 
+of PAGE with METPN and furfuryl mercaptan via a thiol–ene click reaction. 
+gradually eased due to reduced uneven distribution of lithium nu- 
+cleation and suppressing the intensive formation of dendrites on 
+the lithium surface. The above mechanism led to stable and con- 
+sistent cycling performance for up to approximately 325 h ( Fig. 4 a, 
+b(A–E)). 
+3.4. Cell performance 
+From the electrochemical results of the CV and galvanostatic cy- 
+cle tests with Li/P3/Sulfur cathode cell conﬁguration, the P3 elec- 
+trolyte was available for Li–S batteries in consideration of its high 
+electrochemical stability within the operating potential (1.5–3.0 V) 
+and its ability to suppress the formation of Li dendrites. Two ev- 
+ident reduction peaks were observed, which indicated the reduc- 
+tion of S 8 to Li 2 S 8 and Li 2 S 6 in succession at the ﬁrst small cur- 
+rent peak near 2.3 V, followed by Li 2 S 6 undergoing a serial reduc- 
+tion from Li 2 S 4 to Li 2 S 2 and Li 2 S at the second current peak near 
+2.0 V ( Fig. 5 a). One prominent oxidation current peak near 2.35 V 
+was the reﬂection of the reverse processes. The CV curve corre- 
+sponded to each of the two plateaus in the discharge cycle and 
+the one plateau in the charge cycle, which has been known as typ- 
+ical Li–S battery potential curves ( Fig. 5 b) [75] . Since there were no 
+pronounced distortions of the current peaks in the depicted cyclic 
+voltammetry graph, all components of P3 might be considered reli- 
+able and chemically stable for utilization as polymer membranes in 
+Li–S batteries. The electrochemical performance was conducted at 
+60 °C with the same cell conﬁguration and a sulfur loading amount 
+of 1.25 mg s cm –2 . 
+The cycling performance of the Li–S cell was measured at a 
+current density of 0.2 C ( Fig. 5 c). Although a rapid capacity drop 
+occurred in the ﬁrst few cycles, the average capacity fade rate of 
+the ﬁrst 5 cycles was 3.8%, while that of the last 5 cycles after 80 
+was 0.33%. The above results meant that cycling was stabilized af- 
+ter a few early cycles. Furthermore, the coulombic eﬃciency of the 
+cell prepared with P3 cast celgard 3501 was remarkably superior 
+to that of the cell prepared with bare celgard 3501 at even lower 
+sulfur loading amounts (Fig. S8 in the SI). Unlike the reference cell, 
+in the cell prepared with P3 cast celgard 3501, lithium polysulﬁdes 
+were unable to diffuse to the anode, while lithium ions could be 
+transported; thus, surface contamination could be prevented. The 
+pore-ﬁlled membrane with P3 plays a crucial role of a membrane 
+for only transferring Li-ion and for blocking lithium polysulﬁde 
+(Li 2 S x , 4 ≤x ≤8) shuttle within a coin cell. The above process en- 
+abled the favorable operation of the Li–S battery while maintain- 
+ing a high coulombic eﬃciency ( > 95%). The results veriﬁed that 
+the P3, i.e., crosslinked CN/FM-PAGE could effectively function as a 
+SPE in a Li–S battery. 
+4. Conclusions 
+Poly(allyl glycidyl ether) (PAGE) was synthesized with con- 
+trolled molecular weight via AROP. The modiﬁcation of PAGE was 
+successful through a thiol-ene click reaction with 3-((2-(2-(2- 
+mercaptoethoxy)ethoxy)ethyl)thio)propanenitrile (METPN) and fur- 
+furyl mercaptane for lithium salt dissociation and crosslinking, 
+respectively. The CN/FM-PAGE was crosslinked by a Diels-Alder 
+reaction using bismaleimide for the preparation of stable SPE 
+ﬁlms. The Li-ion conductivity of crosslinked CN/FM-PAGE (P3) is 
+1.01 × 10 −4 S cm –1 at 30 °C, which is achieved due to the lithium 
+salt dissociation by the high dielectric nitrile groups. The P3 as an 
+SPE exhibited stable lithium stripping/plating behavior against the 
+formation of Li dendrites with high coulombic eﬃciency ( > 95%) in 
+Li–S battery. The above results endorse the fact that good macro- 
+6 
+
+=== 第 7 页 ===
+Y.L.N.K. Mallela, S. Kim, G. Seo et al. 
+Electrochimica Acta 362 (2020) 137141 
+molecular design may overcome the barriers that are manifested 
+in current solid polymer electrolytes. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing ﬁnan- 
+cial interests or personal relationships that could have appeared to 
+inﬂuence the work reported in this paper. 
+CRediT authorship contribution statement 
+Yadagiri L.N.K. Mallela: Conceptualization, Methodology, Vali- 
+dation, Investigation, Formal analysis, Writing - original draft, Writ- 
+ing - review & editing. Sohyeon Kim: Conceptualization, Method- 
+ology, Formal analysis, Writing - original draft. Gyuwon Seo: 
+Methodology, Formal analysis, Investigation, Writing - original 
+draft. Jin Won Kim: Formal analysis, Writing - original draft, Writ- 
+ing - review & editing. Santosh Kumar: Writing - review & edit- 
+ing, Visualization, Supervision. Jaeyoung Lee: Visualization, Super- 
+vision. Jae-Suk Lee: Conceptualization, Visualization, Supervision, 
+Project administration, Funding acquisition. 
+Acknowledgment 
+This research was supported by the National Strategic Project- 
+Fine Particle of the National Research Foundation of Korea (NRF) 
+funded by the Ministry of Science and ICT (MSIT), the Min- 
+istry of Environment (ME), and the Ministry of Health and Wel- 
+fare (MOHW) ( 2017M3D8A1091937 ) and by the “Nobel Research 
+Project” grant for the Grubbs Center for Polymers and Catalysis 
+funded by GIST in 2020. 
+Supplementary materials 
+Supplementary material associated with this article can be 
+found, in the online version, at doi:10.1016/j.electacta.2020.137141 . 
+References 
+[1] M. Armand, Polymers with ionic conductivity, Adv. Mater. 2 (1990) 278–286, 
+doi: 10.10 02/adma.1990 0 020603 . 
+[2] B.W.H. Meyer, Polymer Electrolytes for Lithium-Ion Batteries, (1998) 439–448. 
+[3] P.V. Wright, Polymer electrolytes – the early days, Electrochim. Acta 43 (1998) 
+1137–1143, doi: 10.1016/S0013-4686(97)10011-1 . 
+[4] X. Zhuang, C. Xiao, K. Oyaizu, N. Chikushi, X. Chen, H. Nishide, Synthesis of 
+amphiphilic block copolymers bearing stable nitroxyl radicals, J. Polym. Sci. 
+Part A Polym. Chem. 48 (2010) 5404–5410, doi: 10.1002/pola.24345 . 
+[5] J. Nei De Freitas, A.F. Nogueira, M.A. De Paoli, New insights into dye-sensitized 
+solar cells with polymer electrolytes, J. Mater. Chem. 19 (2009) 5279–5294, 
+doi: 10.1039/b900928k . 
+[6] R.K. Kainthan, J. Janzen, E. Levin, D.V. Devine, D.E. Brooks, Biocompatibility 
+testing of branched and linear polyglycidol, Biomacromolecules 7 (2006) 703–
+709, doi: 10.1021/bm0504882 . 
+[7] K. Knop, R. Hoogenboom, D. Fischer, U.S. Schubert, Poly(ethylene glycol) in 
+drug delivery: pros and cons as well as potential alternatives, Angew. Chemie 
+– Int. Ed. 49 (2010) 6288–6308, doi: 10.10 02/anie.20 0902672 . 
+[8] C. Kojima, K. Yoshimura, A Harada, Y. Sakanishi, K. Kono, Temperature-sensitive 
+hyperbranched poly(glycidol)s with oligo(ethylene glycol) monoethers, J. 
+Polym. Sci: Part A Polym. Chem. 48 (2010) 4047–4054, doi: 10.1002/pola.24190 . 
+[9] B. Kim, C.G. Chae, Y. Satoh, T. Isono, M.K. Ahn, C.M. Min, J.H. Hong, 
+C.F. Ramirez, T. Satoh, J.S. Lee, Synthesis of hard-soft-hard triblock 
+copolymers, 
+poly(2-naphthyl 
+glycidyl 
+ether)- 
+block 
+-poly[2-(2-(2- 
+methoxyethoxy)ethoxy)ethyl glycidyl ether]- block -poly(2-naphthyl gly- 
+cidyl ether), for solid electrolytes, Macromolecules 51 (2018) 2293–2301, 
+doi: 10.1021/acs.macromol.7b02553 . 
+[10] B.F. Lee, M.J. Kade, J.A. Chute, N. Gupta, L.M. Campos, G.H. Fredrickson, 
+E.J. Kramer, N.A. Lynd, C.J. Hawker, Poly(allyl glycidyl ether) – a versatile and 
+functional polyether platform, J. Polym. Sci. Part A Polym. Chem. 49 (2011) 
+4498–4504, doi: 10.1002/pola.24891 . 
+[11] H. Porthault, G. Piana, M. Cesbron, V. Armel, A. Bazin, S. Franger, S. Oukassi, 
+Photo-initiated cross-linking of a methacrylate/ionic liquid based gel polymer 
+electrolyte: effect of the curing sequence on the electrochemical properties, J. 
+Phys. Chem. C 123 (2019) 18171–18179, doi: 10.1021/acs.jpcc.9b02831 . 
+[12] L. Chen, Y. Li, S.P. Li, L.Z. Fan, C.W. Nan, J.B. Goodenough, PEO/garnet compos- 
+ite electrolytes for solid-state lithium batteries: from “ceramic-in-polymer” to 
+“polymer-in-ceramic”, Nano Energy 46 (2018) 176–184, doi: 10.1016/j.nanoen. 
+2017.12.037 . 
+[13] S. Li, C. Zuo, Y.H. Jo, S. Li, K. Jiang, L. Yu, Y. Zhang, J. Wang, L. Li, Z. Xue, 
+Enhanced ionic conductivity and mechanical properties via dynamic-covalent 
+boroxine bonds in solid polymer electrolytes, J. Memb. Sci. 608 (2020) 118218, 
+doi: 10.1016/j.memsci.2020.118218 . 
+[14] G.B. Appetecchi, J. Hassoun, B. Scrosati, F. Croce, F. Cassel, M. Salomon, Hot- 
+pressed, solvent-free, nanocomposite, PEO-based electrolyte membranes: II. All 
+solid-state Li/LiFePO4 polymer batteries, J. Power Sources 124 (2003) 246–253, 
+doi: 10.1016/S0378-7753(03)00611-6 . 
+[15] Y. Zhang, W. Lu, L. Cong, J. Liu, L. Sun, A. Mauger, C.M. Julien, H. Xie, J. Liu, 
+Cross-linking network based on poly(ethylene oxide): solid polymer electrolyte 
+for room temperature lithium battery, J. Power Sources 420 (2019) 63–72, 
+doi: 10.1016/j.jpowsour.2019.02.090 . 
+[16] J.H. Baik, D.G. Kim, J. Shim, J.H. Lee, Y.S. Choi, J.C. Lee, Solid polymer elec- 
+trolytes containing poly(ethylene glycol) and renewable cardanol moieties 
+for all-solid-state rechargeable lithium batteries, Polymer 99 (2016) 704–712, 
+doi: 10.1016/j.polymer.2016.07.058 . 
+[17] D. Bresser, S. Passerini, B. Scrosati, Recent progress and remaining challenges 
+in sulfur-based lithium secondary batteries – a review, Chem. Commun. 49 
+(2013) 10545–10562, doi: 10.1039/c3cc46131a . 
+[18] Y. Tominaga, T. Shimomura, M. Nakamura, Alternating copolymers of carbon 
+dioxide with glycidyl ethers for novel ion-conductive polymer electrolytes, 
+Polymer 51 (2010) 4295–4298, doi: 10.1016/j.polymer.2010.07.037 . 
+[19] K.P. Barteau, M. Wolffs, N.A. Lynd, G.H. Fredrickson, E.J. Kramer, C.J. Hawker, 
+Allyl glycidyl ether-based polymer electrolytes for room temperature lithium 
+batteries, Macromolecules 46 (2013) 8988–8994, doi: 10.1021/ma401267w . 
+[20] R. Haag, F. Kratz, Polymer therapeutics: concepts and applications, Angew. 
+Chemie – Int. Ed. 45 (2006) 1198–1215, doi: 10.10 02/anie.20 0502113 . 
+[21] N. Madhavan, C.W. Jones, M. Weck, Rational approach to polymer-supported 
+catalysts: synergy between catalytic reaction mechanism and polymer design, 
+Acc. Chem. Res. 41 (2008) 1153–1165, doi: 10.1021/ar80 0 081y . 
+[22] M. Erberich, H. Keul, M. Möller, Polyglycidols with two orthogonal protec- 
+tive groups: preparation, selective deprotection, and functionalization, Macro- 
+molecules 40 (2007) 3070–3079, doi: 10.1021/ma0627875 . 
+[23] A. Sunder, H. Türk, R. Haag, H. Frey, Copolymers of glycidol and glycidyl 
+ethers: design of branched polyether polyols by combination of latent cyclic 
+AB2 and ABR monomers, Macromolecules 33 (20 0 0) 7682–7692, doi: 10.1021/ 
+ma992166u . 
+[24] Z. Hu, X. Fan, G. Zhang, Synthesis and characterization of glucose-grafted 
+biodegradable amphiphilic glycopolymers P(AGE-glucose)-b-PLA, Carbohydr. 
+Polym. 79 (2010) 119–124, doi: 10.1016/j.carbpol.2009.07.041 . 
+[25] B.F. Lee, M.J. Kade, J.A. Chute, N. Gupta, L.M. Campos, G.H. Fredrickson, 
+E.J. Kramer, N.A. Lynd, C.J. Hawker, Poly(allyl glycidyl ether) – a versatile and 
+functional polyether platform, J. Polym. Sci. Part A Polym. Chem. 49 (2011) 
+4498–4504, doi: 10.1002/pola.24891 . 
+[26] K. Xu, Electrolytes and interphases in Li-ion batteries and beyond, Chem. Rev. 
+114 (2014) 11503–11618, doi: 10.1021/cr50 0 0 03w . 
+[27] R. Bouchet, S. Maria, R. Meziane, A. Aboulaich, L. Lienafa, J.-P. Bonnet, 
+T.N.T. Phan, D. Bertin, D. Gigmes, D. Devaux, R. Denoyel, M. Armand, Single- 
+ion BAB triblock copolymers as highly eﬃcient electrolytes for lithium-metal 
+batteries, Nat. Mater. 12 (2013) 452–457, doi: 10.1038/nmat3602 . 
+[28] J. Zhang, J. Zhao, L. Yue, Q. Wang, J. Chai, Z. Liu, X. Zhou, H. Li, Y. Guo, G. Cui, 
+L. Chen, Safety-reinforced poly(propylene carbonate)-based all-solid-state poly- 
+mer electrolyte for ambient-temperature solid polymer lithium batteries, Adv. 
+Energy Mater. 5 (2015), doi: 10.1002/aenm.201501082 . 
+[29] K. Jeong, S. Park, S.Y. Lee, Revisiting polymeric single lithium-ion conductors 
+as an organic route for all-solid-state lithium ion and metal batteries, J. Mater. 
+Chem. A 7 (2019) 1917–1935, doi: 10.1039/c8ta09056d . 
+[30] M. Zhang, S. Yu, Y. Mai, S. Zhang, Y. Zhou, A single-ion conducting hyper- 
+branched polymer as a high performance solid-state electrolyte for lithium ion 
+batteries, Chem. Commun. 55 (2019) 6715–6718, doi: 10.1039/c9cc02351h . 
+[31] P. Dhatarwal, R.J. Sengwa, Dielectric and electrical characterization of (PEO–
+PMMA)–LiBF4–EC plasticized solid polymer electrolyte ﬁlms, J. Polym. Res. 24 
+(2017), doi: 10.1007/s10965- 017- 1290- 8 . 
+[32] D.S. Hall, J. Self, J.R. Dahn, Dielectric constants for quantum chemistry and Li- 
+ion batteries: solvent blends of ethylene carbonate and ethyl methyl carbonate, 
+J. Phys. Chem. C 119 (2015) 22322–22330, doi: 10.1021/acs.jpcc.5b06022 . 
+[33] R.J. Sengwa, P. Dhatarwal, S. Choudhary, Effects of plasticizer and nanoﬁller 
+on the dielectric dispersion and relaxation behavior of polymer blend based 
+solid polymer electrolytes, Curr. Appl. Phys. 15 (2015) 135–143, doi: 10.1016/j. 
+cap.2014.12.003 . 
+[34] A. Kumar, S. Logapperumal, R. Sharma, M.K. Das, K.K. Kar, Li-ion transport, 
+structural and thermal studies on lithium triﬂate and barium titanate incor- 
+porated poly(vinylidene ﬂuoride-co-hexaﬂuoropropene) based polymer elec- 
+trolyte, Solid State Ionics 289 (2016) 150–158, doi: 10.1016/j.ssi.2016.03.008 . 
+[35] J.H. Hong, J.W. Kim, S. Kumar, B. Kim, J. Jang, H.J. Kim, J. Lee, J.S. Lee, Solid 
+polymer electrolytes from double-comb poly(methylhydrosiloxane) based on 
+quaternary ammonium moiety-containing crosslinking system for Li/S battery, 
+J. Power Sources 450 (2020) 227690, doi: 10.1016/j.jpowsour.2019.227690 . 
+[36] A . Filimon, A .M. Dobos, V. Musteata, New perspectives on development of 
+polysulfones/cellulose derivatives based ionic-exchange membranes: dielectric 
+response and hemocompatibility study, Carbohydr. Polym. 226 (2019) 115300, 
+doi: 10.1016/j.carbpol.2019.115300 . 
+7 
+
+=== 第 8 页 ===
+Y.L.N.K. Mallela, S. Kim, G. Seo et al. 
+Electrochimica Acta 362 (2020) 137141 
+[37] P. Yao, H. Yu, Z. Ding, Y. Liu, J. Lu, M. Lavorgna, J. Wu, X. Liu, Review on 
+polymer-based composite electrolytes for lithium batteries, Front. Chem. 7 
+(2019) 1–17, doi: 10.3389/fchem.2019.00522 . 
+[38] P. Hu, J. Chai, Y. Duan, Z. Liu, G. Cui, L. Chen, Progress in nitrile-based polymer 
+electrolytes for high performance lithium batteries, J. Mater. Chem. A 4 (2016) 
+10070–10083, doi: 10.1039/c6ta02907h . 
+[39] Y. Yamada, C.H. Chiang, K. Sodeyama, J. Wang, Y. Tateyama, A. Yamada, Cor- 
+rosion prevention mechanism of aluminum metal in superconcentrated elec- 
+trolytes, ChemElectroChem 2 (2015) 1687–1694, doi: 10.1002/celc.201500235 . 
+[40] E. Nanini-Maury, J. ´Swiatowska, A. Chagnes, S. Zanna, P. Tran-Van, P. Mar- 
+cus, M. Cassir, Electrochemical behavior of sebaconitrile as a cosolvent in the 
+formulation of electrolytes at high potentials for lithium-ion batteries, Elec- 
+trochim. Acta 115 (2014) 223–233, doi: 10.1016/j.electacta.2013.10.087 . 
+[41] H.J. Ha, E.H. Kil, Y.H. Kwon, J.Y. Kim, K.L. Chang, S.Y. Lee, UV-curable semi- 
+interpenetrating polymer network-integrated, highly bendable plastic crystal 
+composite electrolytes for shape-conformable all-solid-state lithium ion bat- 
+teries, Energy Environ. Sci. 5 (2012) 6491–6499, doi: 10.1039/C2EE03025J . 
+[42] K.H. Choi, S.J. Cho, S.H. Kim, Y.H. Kwon, J.Y. Kim, S.Y. Lee, deformable Thin, 
+and safety-reinforced plastic crystal polymer electrolytes for high-performance 
+ﬂexible lithium-ion batteries, Adv. Funct. Mater. 24 (2014) 44–52, doi: 10.1002/ 
+adfm.201301345 . 
+[43] G.B. Appetecchi, F. Croce, P. Romagnoli, B. Scrosati, U. Heider, R. Oesten, High- 
+performance gel-type lithium electrolyte membranes, Electrochem. Commun. 
+1 (1999) 83–86, doi: 10.1016/S1388-2481(99)0 0 011-9 . 
+[44] Z. Osman, K.B. Md Isa, A. Ahmad, L. Othman, A comparative study of lithium 
+and sodium salts in PAN-based ion conducting polymer electrolytes, Ionics 16 
+(2010) 431–435, doi: 10.10 07/s11581-0 09-0410-9 . 
+[45] P. Hu, Y. Duan, D. Hu, B. Qin, J. Zhang, Q. Wang, Z. Liu, G. Cui, L. Chen, Rigid- 
+ﬂexible coupling high ionic conductivity polymer electrolyte for an enhanced 
+performance of LiMn2O4/graphite battery at elevated temperature, ACS Appl. 
+Mater. Interfaces 7 (2015) 4720–4727, doi: 10.1021/am5083683 . 
+[46] P. Hu, J. Zhao, T. Wang, C. Shang, J. Zhang, B. Qin, Z. Liu, J. Xiong, G. Cui, 
+A composite gel polymer electrolyte with high voltage cyclability for Ni- 
+rich cathode of lithium-ion battery, Electrochem. Commun. 61 (2015) 32–35, 
+doi: 10.1016/j.elecom.2015.09.026 . 
+[47] D. Zhou, Y.B. He, Q. Cai, X. Qin, B. Li, H. Du, Q.H. Yang, F. Kang, Investiga- 
+tion of cyano resin-based gel polymer electrolyte: in situ gelation mechanism 
+and electrode-electrolyte interfacial fabrication in lithium-ion battery, J. Mater. 
+Chem. A 2 (2014) 20 059–20 066, doi: 10.1039/c4ta04504a . 
+[48] D. Zhou, Y.B. He, R. Liu, M. Liu, H. Du, B. Li, Q. Cai, Q.H. Yang, F. Kang, In situ 
+synthesis of a hierarchical all-solid-state electrolyte based on nitrile materi- 
+als for high-performance lithium-ion batteries, Adv. Energy Mater. 5 (2015), 
+doi: 10.1002/aenm.201500353 . 
+[49] I. Gracia, H. Benyoucef, X. Judez, U. Oteo, H. Zhang, C. Li, L.M. Rodriguez- 
+Martinez, M. Armand, S-containing copolymer as cathode material in 
+poly(ethylene oxide)-based all-solid-state Li-S batteries, J. Power Sources 390 
+(2018) 148–152, doi: 10.1016/j.jpowsour.2018.04.052 . 
+[50] A. Manthiram, Y. Fu, S.H. Chung, C. Zu, Y.S. Su, Rechargeable lithium-sulfur bat- 
+teries, Chem. Rev. 114 (2014) 11751–11787, doi: 10.1021/cr50 0 062v . 
+[51] S.S. Zhang, Liquid electrolyte lithium/sulfur battery: Fundamental chemistry, 
+problems, and solutions, J. Power Sources 231 (2013) 153–162, doi: 10.1016/j. 
+jpowsour.2012.12.102 . 
+[52] R.D. Rauh, K.M. Abraham, G.F. Pearson, J.K. Surprenant, S.B. Brummer, A 
+lithium/dissolved sulfur battery with an organic electrolyte, J. Electrochem. 
+Soc. 126 (1979) 523–527, doi: 10.1149/1.2129079 . 
+[53] D.R. Wang, K.H. Wujcik, A .A . Teran, N.P. Balsara, Conductivity of block copoly- 
+mer electrolytes containing lithium polysulﬁdes, Macromolecules 48 (2015) 
+4 863–4 873, doi: 10.1021/acs.macromol.5b00928 . 
+[54] X. Zhu, Z. Wen, Z. Gu, Z. Lin, Electrochemical characterization and performance 
+improvement of lithium/sulfur polymer batteries, J. Power Sources 139 (2005) 
+269–273, doi: 10.1016/j.jpowsour.2004.07.002 . 
+[55] Q. Zhou, J. Ma, S. Dong, X. Li, G. Cui, Intermolecular chemistry in solid polymer 
+electrolytes for high-energy-density lithium batteries, Adv. Mater. 31 (2019) 1–
+21, doi: 10.1002/adma.201902029 . 
+[56] M. Falco, C. Simari, C. Ferrara, J.R. Nair, G. Meligrana, F. Bella, I. Nicotera, 
+P. Mustarelli, M. Winter, C. Gerbaldi, Understanding the effect of UV- 
+induced cross-linking on the physicochemical properties of highly perform- 
+ing PEO/LiTFSI-based polymer electrolytes, Langmuir 35 (2019) 8210–8219, 
+doi: 10.1021/acs.langmuir.9b0 0 041 . 
+[57] H.-K. Tian, Y. Qi, Simulation of the effect of contact area loss in all-solid-state 
+Li-ion batteries, J. Electrochem. Soc. 164 (2017) E3512–E3521, doi: 10.1149/2. 
+0481711jes . 
+[58] C. Liao, X.G. Sun, S. Dai, Crosslinked gel polymer electrolytes based on 
+polyethylene glycol methacrylate and ionic liquid for lithium ion battery ap- 
+plications, Electrochim. Acta 87 (2013) 889–894, doi: 10.1016/j.electacta.2012. 
+10.027 . 
+[59] T. Sakakibara, M. Kitamura, T. Honma, H. Kohno, T. Uno, M. Kubo, N. Iman- 
+ishi, Y. Takeda, T. Itoh, Cross-linked polymer electrolyte and its application to 
+lithium polymer battery, Electrochim. Acta 296 (2019) 1018–1026, doi: 10.1016/ 
+j.electacta.2018.11.155 . 
+[60] P. Sivaraman, R.K. Kushwaha, K. Shashidhara, V.R. Hande, A.P. Thakur, 
+A.B. Samui, M.M. Khandpekar, All solid supercapacitor based on polyaniline 
+and crosslinked sulfonated poly[ether ether ketone], Electrochim. Acta 55 
+(2010) 2451–2456, doi: 10.1016/j.electacta.20 09.12.0 09 . 
+[61] C. Del Río, O. García, E. Morales, P.G. Escribano, Single cell performance 
+and electrochemical characterization of photocrosslinked and post-sulfonated 
+SEBS-DVB membranes, Electrochim. Acta 176 (2015) 378–387, doi: 10.1016/j. 
+electacta.2015.07.009 . 
+[62] M. Ebadi, T. Eriksson, P. Mandal, L.T. Costa, C.M. Araujo, J. Mindemark, D. Bran- 
+dell, Restricted ion transport by plasticizing side chains in polycarbonate- 
+based solid electrolytes, Macromolecules 53 (2020) 764–774, doi: 10.1021/acs. 
+macromol.9b01912 . 
+[63] K.J. Luo, L.B. Huang, Y. Wang, J.R. Yu, J. Zhu, Z.M. Hu, Tailoring the proper- 
+ties of Diels-Alder reaction crosslinked high-performance thermosets by dif- 
+ferent bismaleimides, Chin. J. Polym. Sci. 38 (2020) 268–277, doi: 10.1007/ 
+s10118-019-2328-7 . 
+[64] A. Lee, G.B. McKenna, Effect of crosslink density on physical ageing of epoxy 
+networks, Polymer 29 (1988) 1812–1817, doi: 10.1016/0032- 3861(88)90396- 5 . 
+[65] K. Fu, Y. Gong, J. Dai, A. Gong, X. Han, Y. Yao, C. Wang, Y. Wang, Y. Chen, C. Yan, 
+Y. Li, E.D. Wachsman, L. Hu, Flexible, solid-state, ion-conducting membrane 
+with 3D garnet nanoﬁber networks for lithium batteries, Proc. Natl. Acad. Sci. 
+USA 113 (2016) 7094–7099, doi: 10.1073/pnas.1600422113 . 
+[66] W.J. Sim, M.S. Lee, Y.W. Choi, Electrochemical and mechanical durability of 
+cast membranes and a reinforced membrane based on sulfonated poly(arylene 
+ether sulfone) for polymer electrolyte fuel cells, Chem. Lett. 43 (2014) 643–
+645, doi: 10.1246/cl.131152 . 
+[67] K.M. Abraham, Polymer electrolytes reinforced by celgard® membranes, J. 
+Electrochem. Soc. 142 (1995) 683, doi: 10.114 9/1.204 8517 . 
+[68] L. Yue, J. Ma, J. Zhang, J. Zhao, S. Dong, Z. Liu, G. Cui, L. Chen, All solid-state 
+polymer electrolytes for high-performance lithium ion batteries, Energy Stor- 
+age Mater. 5 (2016) 139–164, doi: 10.1016/j.ensm.2016.07.003 . 
+[69] B. Wu, J. Lochala, T. Taverne, J. Xiao, The interplay between solid electrolyte 
+interface (SEI) and dendritic lithium growth, Nano Energy 40 (2017) 34–41, 
+doi: 10.1016/j.nanoen.2017.08.005 . 
+[70] S.S. Zhang, Problem, status, and possible solutions for lithium metal anode of 
+rechargeable batteries, ACS Appl. Energy Mater. 1 (2018) 910–920, doi: 10.1021/ 
+acsaem.8b0 0 055 . 
+[71] D. Lin, J. Zhao, J. Sun, H. Yao, Y. Liu, K. Yan, Y. Cui, Three-dimensional sta- 
+ble lithium metal anode with nanoscale lithium islands embedded in ioni- 
+cally conductive solid matrix, Proc. Natl. Acad. Sci. USA 114 (2017) 4613–4618, 
+doi: 10.1073/pnas.1619489114 . 
+[72] K.H. Chen, K.N. Wood, E. Kazyak, W.S. Lepage, A.L. Davis, A.J. Sanchez, N.P. Das- 
+gupta, Dead lithium: mass transport effects on voltage, capacity, and failure of 
+lithium metal anodes, J. Mater. Chem. A 5 (2017) 11671–11681, doi: 10.1039/ 
+c7ta00371d . 
+[73] H. Wang, D. Liu, Y. Liu, Y. Li, Y. Cui, Ultrahigh-current density anodes with 
+interconnected Li metal reservoir through over lithiation of mesoporous AlF 3 
+framework, Sci. Adv. 3 (2017) e1701301, doi: 10.1126/sciadv.1701301 . 
+[74] L. Li, S. Li, Y. Lu, Suppression of dendritic lithium growth in lithium 
+metal-based batteries, Chem. Commun. 54 (2018) 6648–6661, doi: 10.1039/ 
+c8cc02280a . 
+[75] M. Wild, L. O’Neill, T. Zhang, R. Purkayastha, G. Minton, M. Marinescu, G.J. Of- 
+fer, Lithium sulfur batteries, a mechanistic review, Energy Environ. Sci. 8 (2015) 
+3477–3494, doi: 10.1039/c5ee01388g . 
+8 

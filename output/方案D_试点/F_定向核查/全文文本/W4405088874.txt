@@ -1,0 +1,3019 @@
+=== 第 1 页 ===
+REVIEW
+www.advsustainsys.com
+Progress and Prospects of Inorganic Solid-State
+Electrolyte-Based All-Solid-State Li–S Batteries
+Tong Liu, Ronghui Liu, Chengxing Lu,* and Wenjia Song*
+All-solid-state lithium–sulfur batteries (ASSLSBs), a promising alternative to
+liquid lithium–sulfur batteries, are expected to alleviate the shuttle eﬀect,
+reduce material loss, and achieve a compact structure. However, ASSLSBs
+face challenges in ionic conductivity and stability of solid electrolytes,
+optimization of sulfur cathodes, and electrolyte/electrode interfaces. This
+review summarizes recent research progress and strategies addressing these
+issues, focusing on oxide and sulﬁde-based electrolytes. Furthermore, it
+emphasizes the crucial role of rational optimization of sulfur cathode
+materials in composition, structure, and microstructure for constructing
+eﬃcient ion/electron transport networks, and explores methods to solve
+chemical/electrochemical and physical interface issues. Additionally, it
+addresses challenges associated with the lithium anode and its interface
+problems, covering strategies, such as lithium alloy formation, 3D electrode
+architecture, and interfacial buﬀer layer implementation. These approaches
+aim to enhance the stability and performance of the lithium anode in
+ASSLSBs. Finally, this review highlights the signiﬁcance of in situ
+characterization techniques for revealing reaction mechanisms, providing
+insights into phase composition, elemental chemical states, and dynamic
+structural transformations within the batteries, crucial for developing
+high-performance ASSLSBs.
+T. Liu, W. Song
+Tianmushan Laboratory
+Hangzhou 311115, China
+E-mail: songwj@buaa.edu.cn
+R.Liu
+School of Chemistry
+Key Laboratory of Bio-InspiredSmart Interfacial ScienceandTechnology
+Beihang University
+Beijing 100191,China
+C.Lu
+Tianjin International Joint Research Centreof SurfaceTechnology forEn-
+ergy StorageMaterials
+Collegeof Physics andMaterials Science
+Tianjin Normal University
+Tianjin 300387,China
+E-mail: cxlu@tjnu.edu.cn
+W.Song
+School of Materials ScienceandEngineering
+Beihang University
+Beijing 100191,China
+The ORCID identiﬁcation number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/adsu.202400555
+DOI: 10.1002/adsu.202400555
+1. Introduction
+Building a low-carbon society has be-
+come a common goal for all of human-
+ity. It is indispensable for us to amplify
+our eﬀorts to strengthen innovation-led
+energy development and to develop a safe
+and eﬃcient modern energy system.[1,2]
+Considering the variable and intermit-
+tent nature of solar and wind energy,
+battery technology can store and inte-
+grate renewable energy into the grid,
+emerges as a potent means to harness
+these clean and cost-eﬀective energies
+for daily use.[3] Currently, rechargeable
+lithium-ion batteries (LIBs) are the pri-
+mary energy systems for small/mid-sized
+applications such as portable devices and
+electric vehicles (EVs).[4,5] However, due
+to their relatively high cost and lower en-
+ergy and power densities, LIBs are not the
+ideal power option for large-scale station-
+ary energy storage.[6]
+Owing to the cost beneﬁts of sulfur
+and the high theoretical energy density of
+batteries, room-temperature (RT) lithium
+sulfur batteries with an ultrahigh the-
+oretical capacity of 1675 mAh g−1 and
+energy density of 2600 Wh kg−1 are regarded as the frontrun-
+ners for future energy storage.[7,8] Li–S batteries are composed of
+metallic sodium as the anode and elemental sulfur as the cath-
+ode. The energy storage mechanism is based on the multielec-
+tron conversion between S and Li accompanied by the generation
+of various sulfur species. In the organic liquid electrolyte system,
+the discharge process can be summarized into four stages: i) the
+conversion from solid S8 to liquid long-chain polysulﬁde Li2S8;
+ii) the conversion from liquid Li2S8 to liquid medium-chain poly-
+sulﬁde Li2S4; iii) the conversion from liquid Li2S4 to solid Li2S2;
+iv) the conversion from solid Li2S2 to solid Li2S. The charging
+state is the reverse process of the aforementioned reactions.[10,9]
+From this, numerous intrinsic problems are exposed, particu-
+larly concerning the S cathodes. Speciﬁcally, the sulfur cathode
+suﬀers from the shuttling eﬀect of soluble lithium polysulﬁdes
+(LiPS), high activation barriers of multistep electron transfer re-
+actions, leading to poor cycle stability, low-rate performance, and
+low Coulombic eﬃciency, and the lithium metal anode experi-
+ences lithium dendrite growth during charging, initiating un-
+desirable side reactions, decreasing energy density, and posing
+safety concerns of internal short-circuiting.[11,12] When designing
+the sulfur cathode, it is necessary to choose an appropriate carrier
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (1 of 31)
+
+=== 第 2 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 1. Strategies for constructing high-performance ASSLSBs.
+and utilize physical or chemical methods to spatially conﬁne or
+adsorb sulfur.[13] Some high-polarity carrier materials can also act
+as catalysts, accelerating the electron transfer between sulfur and
+lithium.[14]
+Actually, the electrochemical reaction process of Li–S batter-
+ies is highly dependent on the amount of electrolyte and sul-
+fur load, and can be described by the electrolyte/sulfur (E/S)
+ratio. Lowering the electrolyte/sulfur (E/S) ratio enables the re-
+alization of low-cost and high-energy-density Li–S batteries.[15]
+However, for most of the optimized organic liquid Li–S batter-
+ies, there are still problems such as severe shuttle eﬀect, slow
+reaction kinetics, and poor compatibility with lithium metal un-
+der the condition of low E/S ratio.[16] To address these challenges,
+researchers have shifted their focus toward inorganic solid-state
+electrolyte-based Li–S battery technologies, which show great
+promise for achieving high energy densities under low E/S ra-
+tio, because solid electrolytes are signiﬁcantly lighter than their
+liquid counterparts, which further enhances the energy density
+of solid-state lithium–sulfur batteries. Additionally, solid elec-
+trolytes can eﬀectively suppress the dissolution and diﬀusion
+of polysulﬁdes, thereby inherently preventing the shuttle eﬀect
+and improving the battery’s Coulombic eﬃciency and cycling
+stability.[17–19]
+The working principle of all-solid-state lithium–sulfur batter-
+ies (ASSLSBs) is similar to that of traditional liquid Li–S bat-
+teries, relying on the migration of lithium ions between the S
+cathode and Li anode to realize the charging and discharging
+cycle.[20–22] And the uniqueness of solid-state batteries lies in the
+use of solid electrolyte, both lithium-ion conduction and isola-
+tion of the dual function of electronic transmission, thus integrat-
+ing the role of liquid electrolyte and diaphragm, so that the bat-
+tery structure is more concise.[23] The performance of ASSLSBs
+primarily depends on ion transport dynamics. Three key compo-
+nents govern this process: the solid-state electrolyte facilitates ion
+movement, electrode materials provide sites for ion storage, and
+the electrolyte–electrode interface enables ion transfer. These ele-
+ments collectively determine battery performance.[24] Enhancing
+ASSLSB eﬃciency requires coordinated improvements: boosting
+the electrolyte’s ion conductivity and stability, developing elec-
+trode materials with high surface area and optimized structures
+for rapid ion diﬀusion, and creating stable, low-resistance inter-
+faces for eﬃcient ion transport (Figure 1).
+1) Optimize the composition of solid electrolytes. By selecting
+suitable electrolyte materials, we can enhance their ionic con-
+ductivity, mechanical strength, and interfacial compatibility with
+electrodes, thereby improving the overall electrochemical perfor-
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (2 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+mance of the battery. The main types of inorganic solid-state
+electrolytes most used in ASSLSB systems are oxides (garnet
+type LLZO, NASICON type LAGP/LATP, perovskite type LLTO,
+etc.)[25] and sulﬁdes (sulﬁde solid electrolytes mainly comprise
+unary, binary, and multicomponent sulﬁde electrolytes, all based
+on the Li-P-S system, such as glassy Li-P-S, Li6PS5X (X = Cl, Br,
+I), Li11−xM2−xP1+xS12 (M = Ge, Sn, Si), etc.),[26] and a small num-
+ber of inorganic nitride (Li3N,[27] and amorphous LiPON[28] thin
+ﬁlm electrolyte) and hydride (LiBH4) electrolytes.[29] The ionic
+conduction mechanisms, existing challenges, and current opti-
+mization strategies for each type of solid electrolyte will be dis-
+cussed in detail within this review.
+2) Design of S cathodes composition and structure. ASSLSBs
+face signiﬁcant performance challenges in the sulfur cathode.
+The intrinsic insulating nature of sulfur restricts electronic
+transport, which not only reduces material utilization but also
+compromises the rate performance of the battery. The multistep
+solid–solid phase transitions of sulfur during charge–discharge
+cycles, particularly the formation and decomposition of Li2S,
+involve high energy barriers, resulting in slow conversion kinet-
+ics and large overpotentials. Furthermore, the reaction between
+sulfur and lithium during charge–discharge processes induces
+a substantial volume expansion of ≈80%, severely aﬀecting the
+stability of the electrode structure and long-term cycling per-
+formance. Consequently, the design of sulfur cathodes should
+focus on enhancing intrinsic conductivity, optimizing ionic
+transport pathways, and promoting solid-phase conversion ki-
+netics to overcome these critical issues. Improvement strategies
+include the addition of highly conductive or polar materials,
+intercalation/conversion-type materials, catalytic materials, and
+optimization of the inherent properties of sulfur. On this basis,
+optimizing the interaction between solid electrolytes and sulfur
+cathodes is crucial for achieving high-performance ASSLSBs.
+Based on the underlying causes, these interfacial issues can
+be categorized into two major types: chemical/electrochemical
+interfacial problems[30] and physical interfacial problems.[31] The
+former primarily encompasses narrow electrochemical stability
+windows of solid electrolytes, electrolyte degradation, inter-
+diﬀusion of elements at the interfaces, and space charge layers,
+among others.[30] The latter, on the other hand, predominantly
+stems from the rigid interfacial contact between solid electrolytes
+and sulfur cathodes, as well as material fracture and pulveriza-
+tion induced by volume changes and stress accumulation in
+the sulfur cathode during cycling processes.[31] Designing and
+constructing ideal solid electrolyte/sulfur cathode interfaces can
+facilitate eﬃcient ion transport while suppressing side reactions,
+thereby prolonging the cycle life of the battery.
+3) Design of Li anode composition and structure. Lithium
+metal anodes are crucial for high-energy-density batteries due to
+their exceptional theoretical capacity of 3860 mAh g−1 and lowest
+standard electrochemical potential of −3.040 V versus SHE.[32]
+These properties make lithium ideal for next-generation energy
+storage systems. However, the practical application of lithium
+anodes faces a signiﬁcant challenge: the formation and growth
+of lithium dendrites. Dendrite growth, contrary to early predic-
+tions, occurs in solid-state systems even at low current densities.
+This phenomenon is inﬂuenced by solid electrolyte microstruc-
+tures, such as grain boundaries and surface defects, leading to
+nonuniform electric ﬁelds and localized ion ﬂux. Consequently,
+dendrites pose substantial safety risks and degrade long-term cy-
+cling stability. To overcome these challenges, researchers have
+developed two main strategies. The ﬁrst involves lithium an-
+ode modiﬁcation, utilizing lithium alloys (e.g., Li-In, Li-Al) or
+3D porous structures.[33,34] These modiﬁcations enhance electro-
+chemical stability and suppress dendrite growth while maintain-
+ing high capacity. The second strategy focuses on interface en-
+gineering, developing buﬀer layers between the electrode and
+electrolyte.[35] Ideal buﬀer materials combine ionic conductivity,
+electronic insulation, and compatibility with both lithium and
+solid electrolytes. Examples include inorganic layers for mechan-
+ical strength, lithium-philic interlayers to reduce nucleation over-
+potential, and ﬂexible organic layers to accommodate cycling-
+induced volume changes.[36–38]
+In this comprehensive review, we address the recent progress
+on ASSLSBs. We focus on the optimization strategies of diﬀer-
+ent solid electrolytes employed in ASSLSBs systems and high-
+light common strategies to mitigate the contact issues at the
+solid–solid interface. And, some examples related to the in
+situ/quasi-in situ characterization techniques for elucidating the
+reaction mechanisms and performance optimization pathways
+of ASSLSBs. Finally, we provide an overview and outlook on the
+commercialization prospects and potential application scenarios
+for these batteries.
+2. Category of Solid Electrolytes
+Solid-state electrolytes are crucial components in ASSLSBs, serv-
+ing not only to prevent internal short circuits but also to pro-
+vide channels for lithium-ion transport. Currently, the most com-
+monly used solid-state electrolytes in inorganic ASSLSBs sys-
+tems can be categorized into two main types: oxides and sul-
+ﬁdes. In ASSLSBs, solid electrolyte types determine sulfur re-
+action mechanisms. Upper part of Figure 2a illustrates the re-
+action mechanisms of oxide solid-state electrolytes in ASSLSBs,
+the electrochemical reaction process is similar to that of liquid
+lithium–sulfur batteries. For example, Zhang et al. conducted an
+in-depth investigation into the electrochemical reaction mech-
+anism of ASSLSBs based on the LLAZO (Li7La3Zr2O12)@CNF
+cathode matrix. The ﬁrst plateau appears between 2.4 and 2.1 V,
+corresponding to the formation of long-chain polysulﬁdes (Li2Sn,
+4 ≤n ≤8), while the second plateau in the range of 2.1–1.7 V rep-
+resents the formation of lower-order Li2S.[20] During the charg-
+ing process, Li2S is gradually oxidized through various interme-
+diates. Whereas, as shown in lower part of Figure 2a, the electro-
+chemical reaction process in sulﬁde-based ASSLSBs diﬀers sig-
+niﬁcantly from oxide-based systems. Zhu et al. using a Li-In alloy
+anode, S cathode, and Li5.4PS4.4Cl1.6 SSE interlayer observed only
+one pair of redox peaks and one pair of reaction plateaus, which
+contrasts sharply with the multistep reaction characteristics of
+liquid lithium–sulfur batteries. In situ Raman spectroscopy and
+ex situ X-ray absorption spectroscopy (XAS) studies showed that
+during the discharge process, S8 is directly reduced to Li2S2, and
+then further reduced to Li2S. During the charging process, Li2S
+is preferentially oxidized to Li2S2, and ﬁnally oxidized to S8.[21]
+These mechanisms profoundly impact the performance of
+all-solid-state lithium–sulfur batteries (ASSLSBs). Oxide elec-
+trolytes’ multistep reactions can result in complex kinetics,
+whereas sulﬁde electrolytes’ direct conversion process may
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (3 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 2. Comparison of reaction mechanisms a), properties b), and electrochemical performance c) between oxide and sulﬁde solid electrolyte based
+ASSLSBs. Reproduced with permission.[32,81,82] Copyright 2024, The Royal Society of Chemistry; Copyright 2022, Elsevier Ltd; Copyright 2024, Wiley-VCH
+GmbH.
+facilitate faster charging and discharging. However, notably,
+the inﬂuence of electrolytes on battery performance is multi-
+faceted, and their intrinsic properties also play a crucial role
+in ASSLSB performance. Oxide electrolytes excel in chemical
+and thermal stability, oﬀering low processing costs. However,
+they are hampered by poor ionic conductivity and interfacial
+challenges. Conversely, sulﬁde electrolytes demonstrate superior
+ionic conductivity, mechanical properties, and interfacial com-
+patibility, but lack chemical and thermal stability (Figure 2b).
+As results, oxide-based solid electrolyte lithium–sulfur batteries
+have higher discharge voltage and longer cycle life. In contrast,
+sulﬁde-based solid electrolyte batteries possess higher sulfur
+loading and discharge speciﬁc capacity (Figure 2c, Tables 1
+and 2).[32] Comprehensive evaluation of solid electrolytes guides
+optimal material selection for speciﬁc applications, enhancing
+battery design. This process also reveals challenges inherent to
+the materials, informing targeted improvement strategies.
+2.1. Oxides
+Oxide electrolytes were among the earliest systems explored,
+which can be classiﬁed into crystalline and amorphous forms.
+Common crystalline types include perovskite, lithium germa-
+nium phosphate (LISICON), and garnet-structured metal oxides,
+while amorphous electrolytes include lithium phosphorus oxyni-
+tride (LiPON). Among these, garnet-structured metal oxides have
+been extensively studied in the ﬁeld of ASSLSBs. Garnets them-
+selves are silicates with the general formula A3B2(SiO4)3, such
+as calcium aluminum silicate Ca3Al2Si3O12. However, garnet-
+type electrolytes are not silicates but rather inorganic nonmetal-
+lic compounds in which silicon atoms are replaced by various
+metal atoms while maintaining the same structure. The general
+formula for commonly used garnet-type solid electrolytes can be
+represented as Li3+xA3B2O12. In this structure (Figure 3a), atom
+A is an eight-coordinated metal element, commonly using lan-
+thanide elements such as La; atom B is a six-coordinated metal
+element, which can be a tetravalent metal, such as Zr or a pen-
+tavalent metal such as Ta. The AO8 and BO6 polyhedra are in-
+terconnected in a staggered manner through coplanar sharing to
+form a 3D spatial structure.[83] The interstitial spaces are com-
+posed of octahedral and tetrahedral vacancies formed by oxygen
+atoms, and lithium ions ﬁll these vacancies according to a certain
+pattern (Figure 3b).[84]
+The garnet-type Li3+xA3B2O12 has two phases: tetragonal and
+cubic. The ionic conductivity of the cubic phase is ≈1–2 orders
+of magnitude higher than that of the tetragonal phase. The ma-
+jor distinction between the tetragonal and cubic phases of the
+garnet-type Li3+xA3B2O12 lies in the arrangement of Li+. In the
+cubic phase, Li+ are randomly and partially distributed across
+tetrahedral 24d sites, octahedral 48 g sites, and distorted tetra-
+hedral split 96 h sites. The transition to the tetragonal phase in-
+duces tetragonal distortion, transforming the 24d sites into fully
+occupied 8a sites and the partially occupied 48g/96 h sites into
+two fully occupied 16f and 32 g sites. This tetragonal distortion
+signiﬁcantly impacts the Li+ distribution and decreases the ionic
+conductivity.[83]
+Li7La3Zr2O12 (LLZO) is the most typical representative among
+them. Weppner et al. synthesized a novel chemical composition,
+Li7La3Zr2O12, based on garnet-structured oxides. Compared to
+Li-La-M-O2 (M = Nb, Ta), Li7La3Zr2O12 demonstrates enhanced
+lithium-ion conductivity and reduced activation energy. This
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (4 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Table 1. A summary of the electrochemical performance data from the recently research papers on oxide solid electrolyte based ASSLSBs.
+Active material
+Active material
+content [wt%]
+Areal
+loading
+[mg cm−2]
+SSE
+Thickness
+[μm]
+Discharge
+density
+[mAh g−1]
+Cycles
+(n)
+Current
+density
+Voltage plateau
+discharge
+[V] vs Li
+Operating
+temperatures
+[°C]
+Refs.
+Co-T-S
+50
+3.7
+PVDF-LLZO
+—
+1100
+200
+0.1 mA cm−2
+1.75
+25
+[39]
+S/CNT
+—
+4
+LLZO-PEO/LiFSI
+10
+1307
+35
+0.2 mA cm−2
+2.0
+25
+[40]
+S@LLAZO@CNF
+—
+—
+LLAZO
+30
+1055
+150
+0.2 C
+1.95
+25
+[20]
+SPAN
+44
+—
+GPE-ZnO-Ta-LLZO-ZnO
+≈13
+1542
+300
+0.87 mA cm−2
+1.73
+22
+[41]
+SPAN
+—
+1
+bilayer Ta-LLZO
+10
+1400
+200
+0.167 mA cm−2
+≈1.9
+60
+[42]
+C/S/AB/VGCF
+70
+1.5
+Li7La3Zr2O12
+250
+834.5
+300
+0.5 C
+2.05
+25
+[43]
+S/KB/AB/ CMC/SBR
+48
+1
+Li1.5Al0.5Ge1.5(PO4)3-CPE
+>100
+−1080
+150
+0.1 C
+2
+60
+[44]
+S/CB/PVP
+—
+10.8
+Li7La2.75Ca0.25Zr1.75Nb0.25O12
+500
+1250
+40
+0.1 C
+1.8 2.1
+60
+[45]
+S/CNT
+—
+5.4
+Li6.4La3Zr1.4Nb0.2O12
+≈120
+1200
+50
+50 mA g−1
+2.0 2.2
+25
+[46]
+S/AC
+40
+2
+Li6.4La3Zr1.4Ta0.5O12
+300
+1100
+30
+0.03 mA cm−2
+2.0 2.3
+25
+[47]
+Polysulﬁdes/ ACNF
+—
+1
+Li7La3Zr2O12·Li3CO3
+300
+850
+60
+200 μA cm−2
+2.0 2.4
+65
+[48]
+S/CNT
+—
+3
+PYN-Li107Al2Ti6(PO4)3
+120
+950
+150
+0.2 C
+2
+25
+[49]
+S/KB/SP/ CMC/SBR
+64
+1
+Li6.4La3Zr1.4Ta0.6O12-MgO
+500
+1100
+200
+0.2 C
+2.1
+25
+[50]
+S/CNT
+—
+>7
+Li7La3Zr2O12
+≈100
+645
+35
+0.2 mA cm−2
+2
+25
+[51]
+Polysulﬁdes
+—
+1.2
+Li7La3Zr2O12
+≈200
+≈1000
+100
+0.05 A g−1
+2
+25
+[52]
+S/CB/PVP
+70
+1
+Li7La2.75Ca0.25Zr1.75Nb0.25O12
+300
+1532
+30
+15 μA cm−2
+2 2.2
+20
+[53]
+Li2S6/ACNF
+50
+1
+Li6.4La3Zr1.4Ta0.6O12-LiF
+≈400
+1074
+100
+200 μA cm−2
+2 2.2
+25
+[54]
+improvement is attributed to an increase in the cubic lattice
+constant, a higher concentration of lithium ions, diminished
+chemical interactions between Li+ ions and other ions in the
+lattice, and improved densiﬁcation The superior properties
+of Li7La3Zr2O12 make it a promising candidate for solid-state
+electrolyte applications in lithium-ion batteries.[85] To further
+enhance the overall performance of garnet-type LLZO solid
+electrolytes, researchers can optimize both the composition and
+microstructure of these materials.
+In terms of compositional tuning, elemental doping can
+eﬀectively improve the ionic conductivity and structural stability
+of garnet-type solid electrolytes (Figure 3c,d).[86,87] For example,
+Wei et al. designed a Ca-W codoped LLZO-based solid electrolyte
+and systematically investigated the eﬀects of doping on the for-
+mation of the cubic phase and Li+ mobility. Rietveld reﬁnement
+of HAADF-STEM (Figure 4a) and X-ray Diﬀraction (XRD) date
+(Figure 4b) results conﬁrmed the partial substitution of Ca2+
+and W6+ at La3+ and Zr4+ sites, respectively. DFT calculations
+revealed that the local Li+ framework modiﬁcation eﬀect induced
+by Ca-W codoping increased the Li+ occupancy in the 96 h sites,
+which can signiﬁcantly reduce the Li+ migration barrier, thereby
+enhancing the ionic conductivity by two orders of magnitude
+(Figure 4c). Furthermore, to understand the stabilizing eﬀect
+of Ca-W codoping on c-LLZO, ab initio molecular dynamics
+simulations of the phase transition from the tetragonal to cubic
+phase were performed on W- and Ca-doped LLZO. Undoped
+LLZO remained in the tetragonal phase between 300 and 800 K,
+and the transition to the cubic phase occurred at 1000 K. Upon
+W-doping (LLZWO), the phase transition temperature decreased
+to 800 K, while Ca-W codoping (LLCZWO) highly stabilized
+the cubic phase and further reduced the transition temperature
+to 500 K. The decrease in the phase transition temperature
+can be considered a signature of cubic phase stabilization.
+Although accurate transition temperatures are diﬃcult to obtain
+from ab initio calculations, the stabilization trend of the cubic
+phase clearly follows the order LLCZWO > LLZWO > LLZO
+(Figure 4d,e). The tetragonal structures are energetically more
+favorable, but the energy diﬀerence between the tetragonal and
+cubic structures decreases upon Ca and W doping, indicating
+that Ca and W stabilize the cubic phase. One of the key reasons
+for the poor stability of the cubic phase is the distortion of ZrO6
+octahedra. In t-LLZO, the average Zr─O bond length is 2.143
+Å with an O─Zr─O bond angle of 180°, while in c-LLZO, the
+Zr─O bonds are stretched to 2.149 Å, and the average O─Zr─O
+bond angle is 178.33°. The substitution of Ca and W in LLZO
+generates Li vacancies, reducing the Li–Li Coulombic repulsion.
+Furthermore, the smaller ionic radii of Ca and W alleviate the
+ZrO6 distortion and restore the average O─Zr─O bond angle to
+179.69° in c-LLCZWO, thereby stabilizing the c-LLZO phase.[88]
+It is noteworthy that when the number of doping elements
+increases to a certain extent, resulting in the material containing
+more than 5 diﬀerent elements overall, the properties of the
+material will change signiﬁcantly, exhibiting characteristics
+distinctly diﬀerent from traditional single or low-level elemental
+doping. This multicomponent doping system is referred to as
+a high-entropy material, and its unique performance originates
+from the high-entropy eﬀect.[89] For example, Gerbrand Ceder’s
+group combined ﬁrst-principles calculations and experiments to
+demonstrate that introducing chemical disorder through high
+entropy into inorganic solid electrolytes can increase the ionic
+conductivity by several orders of magnitude, thereby lowering the
+overall battery resistance and enhancing performance. This work
+designed three nonalkali metal-stuﬀed high-entropy materials:
+Li(Ti,Zr,Sn,Hf)2(PO4)3
+(LTZSHPO),
+Na(Ti,Zr,Sn,Hf)2(PO4)3
+(NTZSHPO), and Li3(La,Pr,Nd)3(Te,W)2O12 (LLPNTWO), rep-
+resenting
+the
+Li-NASICON,
+Na-NASICON,
+and
+Li-garnet
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (5 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Table 2. A summary of the electrochemical performance data from the recently research papers on sulﬁde solid electrolyte based ASSLSBs.
+Active material
+Active material
+content [wt%]
+Areal
+loading
+[mg cm−2]
+SSE
+Thickness
+[μm]
+Discharge
+density
+[mAh g−1]
+Cycles
+[n]
+Current density Voltage plateau
+discharge
+[V] vs Li
+Operating
+temperatures
+[°C]
+Refs.
+pOMC/S70
+35
+—
+Li6PS5Cl
+—
+1430
+500
+C/10
+2
+25
+[55]
+Cu,I doped-Li2S
+—
+—
+Li6PS5Cl
+—
+931.05
+6000
+0.24 mA cm−2
+1.4
+25
+[56]
+S-C-LPB
+60
+—
+Li3PS4-2LiBH4
+600
+1144.6
+800
+167.5 mA g−1
+≈1.4
+60
+[57]
+S-EVA
+40
+1.2–3
+Li10GeP2S12
+—
+1345.2
+100
+0.1C
+≈1.4
+50
+[31]
+S-KB-LiTFSI
+70
+2
+Li6PS5Cl
+—
+1483
+600
+200 mA g−1
+1.9
+25
+[30]
+S@P-CNT
+1.59
+Li6PS5Cl
+—
+1506.3
+1400
+1.34 mA cm−2
+1.4
+25
+[58]
+S/C
+50
+—
+Li7P3S11
+645
+1542.6
+100
+0.1C
+≈1.4
+25
+[59]
+Li2S/Li salt/VGCF
+30
+0.9
+LPS
+—
+1000
+100
+0.64
+≈1.2
+25
+[60]
+PTTCA@CNT/Super P
+30
+1.2
+LPS
+25
+468
+100
+0.047
+≈1.3
+25
+[61]
+SPAN@MaCP/VGCF
+30
+1
+Li6PS5Cl
+—
+1888.2
+200
+0.13
+≈1.57
+25
+[62]
+TiS2
+100
+22.7–45.6
+LPSCl
+120
+236.5
+200
+0.54
+≈2
+60
+[63]
+VS2/S
+60
+1.7–15.5
+Li3PS4
+—
+640
+100
+0.12
+≈1.2
+25
+[64]
+Li2S/AB/CNT
+14.1
+1.27–5.08
+LGPS&75%Li2S-24%P2S5-
+1%P2O5
+1000
+1160
+300
+0.148
+≈2.0
+60
+[65]
+Li2S/VGCF/SSE
+30
+3.5
+Li9.6P3S12·Li3N·LiCl3
+16
+620
+15
+0.06
+≈1.0
+25
+[66]
+Li2S-KB
+38.8
+1.4
+Li3PS4
+—
+1001
+30
+0.2
+≈1.5
+60
+[67]
+Li2S/VGCF/SSE
+30
+4.6
+Li7P2.9Ce0.2S10.9Cl0.3
+—
+617
+100
+0.06
+≈1.4
+25
+[68]
+S/KB
+38.5
+1.5
+Li3PS4
+—
+1702.6
+100
+0.25
+≈1.5
+60
+[69]
+S/CNT/LGPS
+25
+1.3
+Li10GeP2S12
+—
+1138.7
+200
+0.1 C
+1.7
+25
+[70]
+C/S/Li1nGeP2S12/SR
+90
+1.3
+Li10GeP2S12
+< 700
+950
+10
+0.01 C
+1.7
+25
+[71]
+CuS/S/C/ LiI-Li3PS4
+30-50
+1.0–5.0
+LiI-Li3PS4
+650–850
+850
+800
+200 mA g−1
+1.5
+20
+[72]
+S/AC/65 Li1.6 PS2.35
+LiI
+50
+-
+65Li1.6PS2.35LiI
+—
+>1000
+100
+25.5 mA cm−2
+2
+25
+[73]
+Te0.05S0.95@pPAN
+25
+1.01–1.30
+Li7P3S11
+30–40
+1583.6
+200
+0.28
+≈1.2
+25
+[74]
+S/CNF/LPSI
+15
+0.83
+Li10P3S12I(0.75Li3PS4·0.25LiI)
+—
+600
+20
+1.77 mA cm−2
+2.1
+60
+[75]
+S/Cu/AB/SSE
+CNT@S/AB
+30
+0.4–0.5
+60Li2S·40SiS2(mol%)LGPS&
+75%Li2S·24%P2S5·1%P2O5
+—
+1430.5
+400
+0.42
+≈2.0
+60
+[76]
+S/MSC30
+40
+2.5
+Li3PS4
+—
+1304
+100
+1.3
+≈1.2
+25
+[77]
+S/CMK3
+25.8
+1.64
+Li3PS4
+—
+1583
+50
+0.358
+≈2.0
+60
+[78]
+Li2S@NC/AB
+42.9
+2.45–10.4
+Li7P3S11
+—
+1000
+100
+0.2
+≈1.4
+60
+[79]
+FeS2@S/carbon black
+40
+2
+LGPS&75%Li2S-24%P2S5-
+1%P2O5
+—
+1120.9
+200
+2
+≈2.1
+25
+[80]
+frameworks, respectively. The chemical disorder introduced by
+high entropy and the resulting distortion locally perturb the site
+energies, generating a distribution of site energies. When this
+distribution is wide enough such that the energies of adjacent
+sites overlap, it will facilitate ion hopping between them. If
+such a network of sites with similar energies percolates, then
+macroscopic ion diﬀusion will be enhanced by the disorder.[90]
+In terms of microstructure, high-density LLZO ceramics ex-
+hibit minimal grain boundary impedance, such that their total
+conductivity is almost equivalent to the bulk conductivity. To ob-
+tain high-density LLZO ceramics, the key lies in employing ad-
+vanced preparation techniques.[91] LLZO is diﬃcult to sinter, and
+it is challenging to achieve dense ceramics through traditional
+conventional sintering methods. Using nanoscale LLZO with a
+uniform particle size distribution as the starting ceramic pow-
+der and introducing sintering aids is beneﬁcial for densifying
+LLZO ceramics under ambient pressure.[92–94] Further, we can
+eﬀectively reduce the required sintering temperature and sinter-
+ing time by external assisted sintering techniques, such as hot
+pressure sintering (HP),[95] and spark plasma sintering (SPS)[96]
+by applying pressure or electric ﬁeld, thus reducing the potential
+damage to the material at high temperatures, and facilitating the
+densiﬁcation of the LLZO ceramic body.
+HP is a sintering method that simultaneously completes
+shaping and sintering of dry powder in a mold by applying
+pressure and heat. For LLZO, hot pressing is usually performed
+in an inert atmosphere at 1000–1150 °C with a uniaxial pressure
+of about 50 MPa, resulting in ceramic compacts with up to 99.9%
+density, high grain boundary strength, and an ionic conductivity
+of 1.6×10−3 S cm−1. Sakamoto et al. demonstrated that increasing
+the processing temperature of hot-pressed Al-doped LLZO led
+to larger grain sizes, higher relative density, and consequently,
+enhanced ionic conductivity and critical current density.[95] SPS
+uses high-frequency pulsed DC current to generate discharge
+plasma on powder particle surfaces, causing activation and heat
+release, and completing sintering at lower temperatures. This
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (6 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 3. Garnet-type solid-state electrolytes. a) Polymorphs of tetragonal-phase and cubic-phase LLZO. Reproduced with permission.[83] Copyright
+2023, Elsevier Ltd. b) Ion-migration kinetics for SIEs based on the Frenkel and Schottky defects, and migration pathways for single (upper)/multiple
+(lower) ions. Reproduced with permission.[84] Copyright 2017, Springer Nature. c) Electronic conductivity of in the doped LLZO samples. Reproduced
+with permission.[86] Copyright 2024, Wiley-VCH GmbH. d) The cubic phase stabilization eﬀect from low-entropy to high-entropy garnets: Ultrahigh-speed
+quenching of garnets with diﬀerent compositions, and the corresponding XRD patterns and tetragonal and cubic-phase distributions. Reproduced with
+permission.[87] Copyright 2023, Elsevier Ltd.
+results in products with uniform, ﬁne grains and high density.
+Tian et al. used SPS to prepare Ta5+-doped LLZO at 1000 °C for
+10 min, achieving a stable cubic phase structure with an ionic
+conductivity of 1.0×10−3 S cm−1. SPS equipment is expensive
+and not suitable for large-scale applications, and higher sintering
+temperatures can lead to lithium volatilization and the formation
+of second-phase impurities, reducing ionic conductivity.[96]
+Recently developed ﬁeld-assisted ultrafast sintering technol-
+ogy signiﬁcantly reduces sintering reaction time and tempera-
+ture, eﬀectively suppressing lithium volatilization during high-
+temperature sintering, thereby achieving a high-density cubic
+garnet crystal structure. For example, Liu et al. developed an ul-
+trafast sintering technique for ceramic electrolytes and electrode–
+electrolyte multilayers using microwave-induced carbon thermal
+shock. This method utilizes the interaction between materials
+and the microwave electromagnetic ﬁeld to heat the material
+from the inside out, achieving high densiﬁcation. Carbon ma-
+terials are good microwave absorbers and can be rapidly heated
+by microwave radiation. The ultrafast sintering process includes
+a preheating stage to prevent cracking, followed by a short sin-
+tering stage. This results in LLZTO grain growth, increased den-
+sity (94.5%±5.4%), and higher ionic conductivity (0.60 mS cm−1)
+compared to conventional sintering methods. Moreover, using
+Joule-heated carbon rods as heating elements to form a uniform
+high-temperature environment can also achieve an ultrafast sin-
+tering reaction environment. This method has a heating rate of
+up to ≈103–104 °C min−1, a cooling rate of up to 104 °C min−1, and
+a maximum sintering temperature of 3000 °C, making it suitable
+for preparing high-density high-entropy oxide solid electrolytes
+(Figure 5a).[97] Wan et al. adopted ultrafast high-temperature sin-
+tering technology to study the Li7La3Zr2O12 (LLZO) garnet solid
+electrolyte system with complex crystal structures and diﬀerent
+crystal sites. Within just a few tens of seconds, the ultrafast syn-
+thesis of high-entropy garnet was achieved. Among them, the
+quinary garnet (Li6.6La3Zr0.4Sn0.4Sc0.4Ta0.4Nb0.4O12) exhibited the
+highest ionic conductivity (3.57×10−4 S cm−1) and a lower elec-
+tronic conductivity (5.26×10−9 S cm−1) in symmetric cells. The
+ultrafast reaction time enables high-throughput screening of the
+garnet system. From unary garnet to denary garnet, 5 typical gar-
+nets were studied, with equal molar ratios of Zr-site doping ele-
+ments for each garnet. Under the same synthesis conditions, the
+unary garnet mainly consisted of a tetragonal phase and the com-
+mon La2Zr2O7 impurity phase in garnet synthesis. Meanwhile,
+the ternary garnet was mainly tetragonal, while the quinary, oc-
+tonary, and denary garnets exhibited the ideal cubic phase, in-
+dicating that as the number of elements increased, the garnet
+gradually stabilized toward a pure cubic phase (Figure 5b).[86]
+2.2. Sulﬁdes
+Compared to oxide electrolytes, sulﬁde electrolytes contain S2−
+anions with larger ionic radii, providing broader channels for Li+
+ion transport. Simultaneously, the larger radius of S2−ions makes
+them more susceptible to polarization than O2−ions, weakening
+the interaction between S2−and Li+, which facilitates Li+ ion
+migration and results in superior ionic conductivity of sulﬁde
+electrolytes. Moreover, sulﬁde solid electrolytes possess moderate
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (7 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 4. Eﬀects of Ca-W cosubstitution on performance enhancement and structural stability in c-LLZO. a) HAADF-STEM image of Ca-W dual-doped
+c-LLZO (LLZCWO). b) XRD pattern of LLZCWO. c) Migration energy barriers in LLZCWO for a concerted migration channel. d) Crystal structures and
+arrangement of Li ions of c-LLZO and t-LLZO with Ca-W dual-substituted. e) Temperature dependence of lattice parameters of LLZO, LLZWO, and
+LLCZWO, respectively. Reproduced with permission.[88] Copyright 2022, American Chemical Society.
+hardness, good interfacial physical contact, and excellent me-
+chanical properties. However, they suﬀer from poor air stability
+and a narrow electrochemical stability window (ESW). Therefore,
+the core objective in designing sulﬁde solid electrolytes is to
+enhance the chemical stability, electrochemical stability, and
+ionic conductivity of the materials. Examining the development
+trajectory of sulﬁde solid electrolytes reveals that their evolution
+is characterized by an increase in the number of components and
+the diversiﬁcation of elemental species within the composition.
+The development of sulﬁde solid electrolytes is presented
+in the form of a timeline, which can be traced back to 1981
+(Figure 6). Robert et al. began studying the Li2S-P2S5 system as
+a fast ionic conductor material.[98] The Li2S-P2S5 system has al-
+ways received widespread attention. According to the diﬀerences
+in crystal structure, it can be divided into three categories: glassy,
+crystalline, and glass-ceramic phases. Glassy electrolytes have an
+open structure and large free volume, and their lithium-ion con-
+duction pathways are isotropic. The grain boundary resistance is
+easy to eliminate, and their ionic conductivity is generally 1–2
+orders of magnitude higher than that of crystalline electrolytes
+with the same composition. However, they usually exhibit lower
+ionic conductivity compared to the corresponding glass-ceramic
+sulﬁde electrolytes. Despite the lower ionic conductivity of glassy
+sulﬁde electrolytes compared to the corresponding glass-ceramic
+sulﬁde electrolytes, they have better compatibility with the cath-
+ode and anode materials and demonstrate better utilization in ap-
+plications. Research on glassy sulﬁde electrolytes focuses on the
+binary xLi2S-(100-x)P2S5 system. When x takes diﬀerent values,
+the resulting electrolyte compositions diﬀer, and the electrolyte
+properties also vary greatly. Among them, Li3PS4 (i.e., x = 75)
+and Li7P3S11 (i.e., x = 70) have been most extensively studied.
+Li3PS4 was ﬁrst reported by Tachez et al. in 1984.[106–109] Li3PS4
+has three crystalline phases, including the 𝛼phase, 𝛽phase, and
+𝛾phase.[110] The ionic conductivity varies greatly among the dif-
+ferent crystal phases. The ionic conductivity of 𝛾-Li3PS4 is only
+3 × 10−7 S cm−1, while the ionic conductivity of 𝛽-Li3PS4 can
+reach 10−4 S cm−1. The main reason for this phenomenon is
+the diﬀerent arrangement of PS4 tetrahedra in the various crys-
+tal phases. In 𝛾-Li3PS4, the vertices of the PS4 tetrahedra are ar-
+ranged in the same direction, while in 𝛽-Li3PS4, the vertices of the
+PS4 tetrahedra point in diﬀerent directions and are arranged in
+a zigzag structure, which gives Li+ better mobility in the tetra-
+hedral and octahedral sites. Unlike the crystalline structure of
+Li3PS4, when the Li2S content is reduced to 70%, the resulting
+electrolyte Li7P3S11 belongs to the triclinic unit cell structure.
+The structure of Li7P3S11 is composed of PS4 and P2S7, forming
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (8 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 5. Ultrafast Sintering for garnet-type all-solid-state electrolytes. a) Microwave radiation-microwave-assisted ultrafast sintering of LLZTO electrolyte
+during the 25 s sintering process. Reproduced with permission.[97] Copyright 2022, Wiley-VCH GmbH. b) Joule heating-assisted ultrafast sintering of
+garnet-type electrolyte with diﬀerent entropy values (from low entropy to high entropy). Reproduced with permission.[87] Copyright 2023, Elsevier Ltd.
+a 3D network structure made up of Li─Li bonds around them,
+which coincides with the transport pathways of lithium ions in
+the lattice. Therefore, Li7P3S11 has a higher room temperature
+conductivity, reaching 10−3 S cm−1.[111] The solid electrolytes pre-
+pared with diﬀerent proportions of Li2S and P2S5 have signiﬁ-
+cant diﬀerences in structure and exhibit varying electrochemical
+properties. In the binary sulﬁde electrolyte system, Li2S is the
+glass matrix material, while the other sulﬁde serves as a modi-
+ﬁer and a former for the material. In addition to P2S5, which can
+take on this role as discussed above, other sulﬁdes such as SiS2,
+GeS2, and B2S3 can replace P2S5 and can also be used to prepare
+high-performance solid electrolyte materials.[112] Binary sulﬁde
+solid electrolytes exhibit outstanding comprehensive properties,
+but to reach practical application levels, the ionic conductivity,
+chemical stability, and electrochemical stability window of the
+materials need to be further improved. In terms of enhancing
+the electrolyte conductivity, the most common method is chem-
+ical doping (such as lithium halides, GeO2, Li3PO4, etc.).[113–115]
+The doping research on binary sulﬁde solid electrolytes mostly
+focuses on chalcogenide anion doping. The addition of chalco-
+genide elements has a potential beneﬁcial eﬀect on improving
+the stability of sulﬁde solid electrolytes in air. At the same time,
+the introduction of an appropriate amount of oxygen anions can
+eﬀectively reduce the lithium-ion hopping energy barrier, mak-
+ing it easier for lithium ions to migrate within the lattice. In ad-
+dition, appropriate Se doping from the chalcogenide family can
+also eﬀectively improve the ionic conductivity of the electrolyte.
+Kim et al. used high-energy ball milling and high-temperature
+sintering methods to react P2Se5 as a raw material with Li2S
+and P2S5.[114] Through characterization, it was proven that Se
+can be perfectly embedded into the amorphous electrolyte ma-
+trix and crystal phase, forming a network structure. The results
+showed that, within a certain range, as the amount of P2Se5 dop-
+ing increased, the ionic conductivity of the electrolyte gradually
+increased. When the doping amount was 2%, the electrolyte ex-
+hibited the best ionic conductivity, reaching 6.0×10−4 S cm−1. In
+addition, halogen doping is also considered an eﬀective means
+to improve electrolyte conductivity. Rangasamy et al. used LiI
+to dope binary sulﬁde solid electrolytes, obtaining Li7P2S8I. The
+doping of I can transform the lithium-ion transport mode from a
+2D transport along the a and b axes to a 3D mode that also trans-
+ports along the c axis, greatly enriching the eﬀective transport
+pathways of lithium ions. After doping, the Li+ conductivity can
+reach 4.3×10−4 S cm−1, and the ion migration activation energy
+is reduced to 0.31 eV.[115]
+Based on the binary sulﬁde solid electrolyte system, by intro-
+ducing other transition metal sulﬁdes (MxS), such as GeS2, SiS2,
+Al2S3, and SnS, to replace part of the P2S5, Li2S-P2S5-MxS ternary
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (9 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 6. Sulﬁde-based solid-state electrolyte materials developed in diﬀerent periods, including their chemical compositions, structural diagrams, and
+ionic conductivity values. Reproduced with permission.[99] Copyright 1984, Elsevier Ltd; Copyright 2001, IOP Publishing; Copyright 2011,2016,2023,
+Springer Nature; Copyright 2017,2020, American Chemical Society.
+solid electrolytes can be successfully prepared. The introduction
+of these aliovalent transition metal sulﬁdes can introduce more
+lithium-ion vacancies in the electrolyte lattice, forming a series of
+fast ion conductors with high ionic conductivity. Compared with
+binary electrolytes, the conductivity of ternary sulﬁde solid elec-
+trolytes is generally increased by one to two orders of magnitude,
+reaching above 10−3 S cm−1, showing good prospects for indus-
+trialization. Among them, the superionic conductor Li10GeP2S12
+(LGPS) is a typical ternary sulﬁde solid electrolyte with a compo-
+sition of Li2S-P2S5-GeS2. Kanno’s research group ﬁrst reported
+the preparation of LGPS electrolyte in 2011 using a combination
+of high-energy ball milling and high-temperature sintering.[116]
+The study showed that the ionic conductivity of this electrolyte
+at room temperature was as high as 1.2×10−2 S cm−1, compa-
+rable to liquid electrolytes. This was the ﬁrst solid electrolyte
+with a conductivity reaching the level of liquid electrolytes. Based
+on the research results of LGPS, in order to obtain solid elec-
+trolyte materials with higher conductivity and better stability, re-
+searchers have substituted cations, such as Si, Sn, and Al for
+the Ge site in the electrolyte, and partially replaced S with an-
+ions, such as O and Se, which can improve the electrochemi-
+cal performance of the electrolyte to a certain extent. Ong et al.
+used ﬁrst-principles calculations on Li10±1MP2X12 (M = Ge, Si,
+Sn, Al, P; X = O, S, Se) to analyze in detail the phase stabil-
+ity, electrochemical stability, and lithium-ion conductivity of the
+electrolyte after elemental doping. These calculation results have
+provided good inspiration for other scientists’ research. To re-
+duce the cost of using GeS2 while ensuring high ionic conduc-
+tivity of the electrolyte, SiS2 can be used to completely replace
+GeS2 in the raw materials to prepare Li10SiP2S12 (LSiPS).[117]
+Whiteley et al. prepared LSiPS using a cold pressing method,
+and the resulting electrolyte exhibited a structure identical to that
+of LGPS. The room temperature ionic conductivity also reached
+2.3×10−3 S cm−1. More importantly, LSiPS showed excellent sta-
+bility against lithium and better compatibility with high-voltage
+cathodes. At the same time, the ionic conductivity of the elec-
+trolyte can be further improved by hot pressing.[101] After Kanno’s
+group made a breakthrough in LGPS research, they collabo-
+rated with Toyota Motor Corporation to further develop a crys-
+talline solid electrolyte, Li9.54Si1.74P1.44S11.7Cl0.3, with even more
+superior performance. The room temperature ionic conductiv-
+ity of this new electrolyte is as high as 2.5×10−2 S cm−1, which
+is more than twice that of LGPS, reaching an unprecedented
+level. Such outstanding lithium-ion transport performance is at-
+tributed to the unique 3D conduction structure of the electrolyte.
+In LGPS-type electrolytes, lithium ions mainly undergo 1D trans-
+port along the c-axis. In contrast, in the Li9.54Si1.74P1.44S11.7Cl0.3
+electrolyte, in addition to the 1D transport along the c-axis,
+lithium ions can also undergo 2D migration within the ab plane.
+Typically, 3D ion migration can only be achieved under high-
+temperature conditions. However, this electrolyte successfully
+constructed 3D transport channels for lithium ions at room tem-
+perature through dual-ion doping of Si and Cl. This unique
+structural design eﬀectively overcomes the spatial limitations of
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (10 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+ion transport, greatly improving the ionic conductivity at room
+temperature.[118]
+In addition, there has been extensive research on Li2S-P2S5-
+SnS2 and Li2S-P2S5-Al2S3 system electrolytes. Philipp et al. pre-
+pared Li10SnP2S12, which has the same crystal structure as LGPS.
+Due to the replacement of Ge with Sn, the manufacturing cost
+of the electrolyte can be signiﬁcantly reduced. At the same time,
+through hot pressing, the grain boundary impedance of the elec-
+trolyte can be greatly reduced to a level comparable to the grain
+impedance, and the room temperature ionic conductivity of the
+electrolyte is 4×10−3 S cm−1.[119] On this basis, Tarhouchi et al. ob-
+tained Li10Si0.3Sn0.7P2S12 by partial Sn doping of LSiPS, and the
+room temperature ionic conductivity of this electrolyte can be in-
+creased to 8.0×10−3 S cm−1 with an ionic migration activation en-
+ergy of 0.29 eV, which is comparable to LGPS.[102] Sun et al. pre-
+pared the electrolyte Li10+x[SnySi1−y]1+xP2−xS12 by adjusting the
+composition ratio of Sn and Si and using a solid-phase synthesis
+method. When x is 0.35, the electrolyte Li10.35[Sn0.27Si1.08]P1.65S12
+is obtained, which has the highest room temperature ionic con-
+ductivity, reaching 1.1×10−2 S cm−1, very close to the conductivity
+level of LGPS.[120]
+3. Design of Sulfur Cathode for Solid State Li–S
+Batteries
+The sulfur cathode in ASSLSBs faces challenges of poor con-
+ductivity and sluggish conversion kinetics. The insulating na-
+ture of sulfur leads to limited electron transport, low material
+utilization, and poor rate capability. During cycling, sulfur un-
+dergoes multistep solid–solid phase transformations with slow
+kinetics and high energy barriers, particularly for Li2S forma-
+tion/decomposition, resulting in large overpotentials and low ef-
+ﬁciency. Therefore, designing sulfur cathodes should focus on
+enhancing intrinsic conductivity, optimizing ionic pathways, and
+promoting solid-phase conversion kinetics to overcome these
+critical issues.
+3.1. Modiﬁcation with Highly Conductive or Polar Materials
+Incorporating highly ionic/electronic conductive components,
+such as carbon-based materials, whose size, morphology, dimen-
+sionality, and spatial distribution are crucial for the overall charge
+transport properties of the sulfur cathode. For example, Zhang
+et al. investigated the electron transfer process at the interface
+between active sulfur and conductive carbon in an operational
+cell. The unique coaxial carbon nanotube@sulfur composite with
+enhanced electron contacts facilitates rapid electron transport
+and minimizes interfacial charge transfer resistance, resulting in
+high sulfur utilization and outstanding electrochemical behavior.
+At a sulfur loading of 1.3 mg cm−2, an initial discharge capacity of
+1138.7 mAh g−1 is obtained at 0.21 mA cm−2, with an impressive
+capacity retention of 87.7% after 200 cycles.[70] Yao et al. designed
+an advanced 2D ordered mesoporous carbon (OMC) framework
+that functions as a superior host for active material Li2S. The re-
+sulting mixed conductive nanocomposite exhibits a remarkable
+enhancement in ionic and electronic conductivities, with 5 and
+12 orders of magnitude improvement compared to Li2S, respec-
+tively (Figure 7a).[121]
+However, it is worth noting that some carbon-based hosts
+can cause electrolyte decomposition and suﬀer from weak
+sulfur/Li2S binding, ultimately leading to sulfur detachment and
+capacity decay. To address this problem, Yang et al. proposed an
+unconventional host material design concept, which involves us-
+ing nonconductive polar mesoporous materials as hosts. These
+materials can improve the cycle life of ASSLSBs by mitigating
+the decomposition of adjacent electrolytes and stably binding
+sulfur/Li2S to avoid detachment. To verify this design concept,
+the researchers used mesoporous SiO2 ﬁlled with 70 wt% sul-
+fur as the cathode material and successfully demonstrated the
+excellent cycling stability of ASSLSBs. After 500 cycles at a C/5
+rate, the discharge speciﬁc capacity based on the mass of sulfur
+was maintained at 1446 mAh g−1, with a capacity reversibility of
+95.1% in the ﬁrst cycle. This study provides new ideas and mate-
+rial design strategies for developing high-performance ASSLSBs
+(Figure 7b).[122]
+3.2. Modiﬁcation with Intercalation/Conversion-Type Materials
+Materials with conversion or intercalation properties that con-
+tribute to capacity can be used as carriers for sulfur cathode ac-
+tive materials. They show unique advantages in improving sul-
+fur utilization and mitigating the shuttle eﬀect, making them an
+ideal choice for constructing high-performance lithium–sulfur
+batteries. For example, Yao et al. demonstrated the feasibility
+of room temperature ASSLSBs by employing thin sulfur layer-
+embedded FeS2 (FeS2@S) microsphere composites as active ma-
+terials in the cathode electrode, which also contained Li10GeP2S12
+and Super P. By setting the cut-oﬀvoltage range between 1.5
+and 2.8 V, the system ensures that only lithiation–delithiation re-
+actions between Li2FeS2 and FeSy and direct reaction between
+Li2S and S will occur. This approach eﬀectively prevents the
+large volume change of FeS2 associated with the conversion re-
+action, thereby maintaining the structural integrity of FeS2@S.
+The resulting batteries showcase remarkable rate and cyclic per-
+formances, achieving speciﬁc capacities of 1120.9, 937.2, 639.7,
+517.2, 361.5, and 307.0 mA h g−1 for the FeS2@S composite cath-
+ode at current densities of 30, 50, 100, 500, 1000, and 5000 mA
+g−1, respectively. These values correspond to normalized capac-
+ities of 1645.5, 1252.9, 782.5, 700.2, 478.4, and 363.6 mA h g−1
+for sulfur. Moreover, the batteries can sustain a normalized ca-
+pacity of 430.7 mA h g−1 for sulfur at 1000 mA g−1 over 200
+cycles at room temperature, highlighting their excellent stabil-
+ity and performance (Figure 8a).[80] Nazar et al. reported a new
+type of hybrid cathode material that combines intercalation-type
+VS2 and conversion-type sulfur chemistry for constructing high-
+performance ASSLSBs. Layered VS2 nanomaterials possess fea-
+tures, such as lithium-ion transport channels, metallic conductiv-
+ity, and active capacity contribution, providing an ideal platform
+for solid-state S/Li2S redox couples to release their high gravi-
+metric capacity. The S/VS2/Li3PS4 hybrid cathode composite is
+prepared through a simple, low-cost, and low-energy-consuming
+mechanical mixing process. The S/VS2/Li3PS4|Li3PS4|Li/In (or
+Li) ASSLSBs demonstrate a sulfur utilization of ≈85% and a
+Coulombic eﬃciency close to 100%. With an active material
+(S/VS2) loading as high as 15.5 mg cm−2, an areal capacity of up
+to 7.8 mA h cm−2 is achieved (Figure 8b).[64] Tang et al. proposed a
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (11 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 12 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 7. Designing all-solid-state electrolytes with hollow or porous architectures. a) 2D ordered mesoporous carbon (OMC) toward high-performance
+ASSLSBs. A triple-phase Li2S/OMC/LPSC formed a mixed ionic/electronic conductive network. Reproduced with permission.[121] Copyright 2022, Else-
+vier Ltd. b) Enhanced cycling stability of ASSLSB through nonconductive polar hosts. The active materials form robust connections with the polar silica
+matrix, while its poor electronic conduction properties consequently inhibit the breakdown of the electrolyte. Reproduced with permission.[122] Copyright
+2020, Wiley-VCH GmbH.
+hybrid cathode consisting of few-layer S/MoS2/C nanosheets (<5
+layers) that can achieve high loading and long-life performance
+in advanced ASSLSBs without additional carbon additives. The
+multifunctional MoS2/C substrate exposes a large surface area,
+forming intimate contact sites, and the in situ formed LixMoS2
+during discharge acts as a mixed ionic/electronic conductive net-
+work, improving S/Li2S conversion and providing additional ca-
+pacity for some active materials. In the S/MoS2/C/Li6PS5Cl cath-
+ode composite, the active material content (S + MoS2/C) is as
+high as 60 wt% (with a carbon content of only ≈3.97 wt%), and
+the S/MoS2/C electrode exhibits excellent electrochemical perfor-
+mance, with a reversible discharge speciﬁc capacity of up to 980.3
+mAh g−1 (based on the entire cathode weight of 588.2 mAh g−1)
+after 100 cycles at a current density of 100 mA g−1. At a current
+density of 600 mA g−1, stable cycling performance over 3500 cy-
+cles is observed with a Coulombic eﬃciency of 98.5%, while a
+high areal capacity of 10.4 mAh cm−2 is achieved with an active
+material loading of 12.8 mg cm−2 (Figure 8c).[123]
+3.3. Modiﬁcation with Catalytic Materials
+Incorporating materials with high can establish strong interac-
+tions with sulfur species and signiﬁcantly enhance the redox re-
+action kinetics, ultimately leading to improved rate capability in
+ASSLSB systems. Lee et al. developed NiO electrocatalysts on N-
+doped Super-p as conductive additives for composite cathodes,
+ensuring rapid electron transfer and maximizing surface area.
+This approach reduced overpotential in ASSLSBs, enhancing sul-
+fur redox conversion. The resulting ASSLSB achieved 1845 mAh
+g−1 capacity at 0.05C (room temperature), excellent rate perfor-
+mance at 60 °C, and 9.48 mAh cm−2 areal capacity with 6.65 mg
+cm−2 sulfur loading (Figure 9a).[124] Yang et al. synthesized a
+Co-N4 modiﬁed carbon material through a simple ball-milling
+method to enhance the cycling stability of high-capacity sulfur
+cathodes. Based on in-depth analysis of synchrotron radiation-
+based X-ray Absorption Fine Structure (XAFS), High Resolution
+Transmission Electron Microscope (HRTEM), and X-ray Photo-
+electron Spectroscopy (XPS) characterizations, it was conﬁrmed
+that Co atoms coordinate with N atoms to form Co-N4 active cen-
+ters, which are uniformly dispersed in the acetylene black ma-
+trix. The strong chemical interaction between Co-N4 and S can
+suppress the agglomeration of sulfur particles and accelerate the
+sulfur redox reaction. As a result, the Co-N4@AB/S cathode with
+a high sulfur content of 40% exhibits high speciﬁc capacity, high-
+rate performance, and stable cycling performance. In particular,
+ASSLSBs with a sulfur loading of 4.5 mg cm−2 can maintain a re-
+versible areal capacity of 3.05 mAh cm−2 after 300 cycles at 0.3 C
+and 60 °C (Figure 9b).[125] Yang et al. also used Co3O4@nitrogen-
+doped carbon (Co3O4@NC) nanocomposite as a conductive ad-
+ditive to promote the conversion kinetics of S and Li2S in solid
+sulfur cathodes. As results, the ASSLSBs with S-Co3O4@NC-
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (12 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 13 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 8. Sulfur cathode active materials with conversion or intercalation properties. a) Sulfur-embedded FeS2 as a high-performance cathode for room
+temperature ASSLSB. Lithiation–delithiation reactions occur between Li2FeS2 and FeSy, while a direct reaction takes place between Li2S and S. And
+the corresponding ASSLSBs showed the capacity of 430.7 mA h g−1 for sulfur at 1000 mA g−1 after 200 cycles at room temperature. Reproduced with
+permission.[80] Copyright 2020, American Chemical Society. b) Layered VS2 nanomaterial functioning as an eﬃcient cathode in ASSLSB. Microstructure
+and discharge mechanism of solid-state Li–S/VS2 battery: Conversion-intercalation cathode with LixVS2 network for Li+/e−transport and Li3PS4 as ionic
+conductor for enhanced sulfur utilization. Reproduced with permission.[64] Copyright 2021, Wiley-VCH GmbH. c) In situ LixMoS2 interface enhancing
+high-loading, long-life cathode for ASSLSBs. Few-layered S/MoS2/C composite serves as both sulfur host and active cathode material, where in situ
+formed LixMoS2 facilitates S/Li2S redox and contributes extra capacity. And the corresponding ASSLSBs employing this cathode achieve 588.2 mAh g−1
+at 0.1 A g−1. Reproduced with permission.[123] Copyright 2023, Wiley-VCH GmbH.
+Li7P3S11 composite cathode have a high sulfur content of 50 wt%
+and a sulfur loading of 4 mg cm−2, exhibiting a high speciﬁc ca-
+pacity of 1313 mA h g−1 at 0.2 mA cm−2 and a reversible capac-
+ity of 1167 mA h g−1 after 100 charge–discharge cycles. Further-
+more, the S-Co3O4@NC cathode demonstrates a high areal ca-
+pacity of 16.12 mA h cm−2, corresponding to a reversible capacity
+of 1343 mA h g−1, and exhibits good cycling stability even under
+an ultrahigh sulfur loading of 12 mg cm−2.[126]
+3.4. Optimization of Intrinsic Sulfur Properties
+Elemental sulfur compositional engineering oﬀers a promising
+avenue to mitigate the aforementioned challenges and optimize
+the performance of sulfur cathodes in ASSLSBs. Ong reported
+a molecular crystal of S9.3I with I2 inserted into the crystal
+structure of sulfur. The crystal exhibits a semiconductor-level
+conductivity (about 5.9 × 10−7 S cm−1) at 25 °C, which is 11 orders
+of magnitude higher than that of bulk sulfur. Iodine introduces
+new states into the bandgap of sulfur and promotes the forma-
+tion of reactive polysulﬁdes during the electrochemical cycling
+process. Moreover, the material has a low melting point of about
+65 °C, which allows for the repair of cycle-damaged interfaces
+by periodically remelting the cathode material. The assembled
+Li|Li3PS4|S9.3I ASSLSB exhibits speciﬁc capacities ranging from
+811.8 to 1211.3 mAh g−1 in the temperature range of 25–100 °C
+at a current density of 0.16 A g−1. Increasing the operating tem-
+perature can greatly enhance the battery kinetics, as evidenced
+by smaller polarization and higher capacity. In contrast, the
+elemental sulfur cathode exhibits a much lower capacity, which
+may be due to its poor electronic conductivity. Long-term cycling
+performance at room temperature is crucial for the practical
+application of SSLSBs. When cycled at a current density of 0.16
+A g−1, the capacity of the S9.3I cathode slightly increases due to
+gradual activation during the initial 10 cycles and only decays
+to 794.6 mAh g−1 at the 50th cycle (Figure 10a).[127] Xie et al.
+introduced selenium as a eutectic promoter in S@pPAN, which
+can be uniformly distributed into the composite material at the
+molecular level through Se─S bonds, accelerating the reaction
+kinetics while providing capacity. Studies have shown that 5
+mol% Se doping can greatly enhance lithium-ion diﬀusion
+and electron conduction in ASSLSBs. At room temperature,
+Se0.05S0.95@pPAN with a 5 mg cm−2 cathode loading (1 mg
+cm−2 sulfur loading) can deliver an initial capacity of 840 mA
+h g−1 at a current density of 167.5 mA g−1, and maintain a
+high-capacity retention of 81% over 150 cycles, with signiﬁcantly
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (13 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 14 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 9. Sulfur cathode active materials with high polarity and electrocatalytic activity. a) Nickel oxide nanoparticle electrocatalyst promoted sulfur
+conversion in ASSLSB. NiO nanoparticles on N-doped carbon were integrated into ASLSB cathodes. This enhanced sulfur conversion kinetics, improving
+capacity and rate capability. NiO surfaces facilitate more favorable S8 to Li2S conversion thermodynamics. Reproduced with permission.[124] Copyright
+2024, Elsevier Ltd. b) Acetylene black (AB) dispersed Co-N4 as single atom catalyst for long-life and high-loading ASSLSB. Co-N4@AB enhanced host
+aﬃnity and sulfur redox kinetics. At 4.5 mg cm−2 sulfur loading, the corresponding cathode delivered 5.13 mAh cm−2 at 60 °C, sustaining 300 cycles at
+0.3 C. Reproduced with permission.[125] Copyright 2023, Wiley-VCH GmbH.
+improved rate performance compared to conventional S@pPAN
+(Figure 10b).[128] Similarly, the research group also reported a
+strategy that combines Te doping and Li7P3S11 coating, which
+can greatly improve the activity and stability of the sulfur cathode
+in ASSLSBs. At room temperature, the assembled ASSLSB ex-
+hibited good rate and long cycling performance, with a reversible
+capacity of 1173.1 mAh g−1 and cycling stability up to 500 cycles
+(Figure 10c).[74]
+4. Strategies for Enhancing Interfacial Contact
+Between S Cathode and Solid State Electrolyte
+Oxide electrolytes oﬀer high mechanical strength and chemi-
+cal stability but struggle to form good interfaces with sulfur
+cathodes due to their rigidity. Conversely, sulﬁde electrolytes
+provide excellent ionic conductivity and ﬂexibility but suﬀer
+from low chemical stability and reactivity with electrodes. These
+characteristics result in physical instability (high impedance,
+delamination) and chemical instability (side reactions, layer
+growth) at interfaces. Such issues impact the battery’s ion trans-
+port, rate performance, cycling stability, and long-term eﬃ-
+ciency. Enhancing all-solid-state lithium–sulfur battery perfor-
+mance thus requires addressing these electrolyte-speciﬁc interfa-
+cial problems through targeted engineering and material design
+strategies.
+4.1. Strategies for Physical Interface Issues
+Notably, in the case of ASSLSBs, the phase transition between
+sulfur (S) and lithium sulﬁde (Li2S) during charge and dis-
+charge processes is accompanied by a drastic volume expan-
+sion/contraction of ≈79%. Such a signiﬁcant volume eﬀect
+can induce stress concentration and displacement accumulation
+within the materials, disrupting the structural integrity of the
+cathode and hindering eﬃcient ion/electron transport, thus exac-
+erbating capacity fading and impedance rise in the battery. Con-
+sequently, optimizing the physical properties of solid–solid inter-
+faces and mitigating the volume change eﬀects of cathode ma-
+terials are crucial for enhancing the long-term cycling stability
+of ASSLSBs. To address the aforementioned issues, scientiﬁc re-
+search has focused on three aspects: Three-phase mixture of sul-
+fur cathode, sulfur cathode host, and solid-state electrolyte, layer-
+by-layer fabrication processes of sulfur cathodes and solid elec-
+trolytes, nanostructure engineering, and interface engineering.
+The three-phase mixture of sulfur cathode, sulfur cathode
+host, and solid-state electrolyte is one of the key strategies for con-
+structing high-performance ASSLSBs. By rationally designing
+and optimizing the interfacial structure and interactions among
+these three components, the electrochemical performance and
+long-term stability of the battery can be eﬀectively improved. For
+example, Wang et al. reported a method for synthesizing a sulfur
+cathode with mixed electronic and ionic conductivity by inﬁltrat-
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (14 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 15 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 10. Compositional modiﬁcation of elemental sulfur to optimize the intrinsic properties of sulfur cathodes. a) Incorporating I2 into crystalline
+sulfur forms S9.3I, exhibiting 5.9×10−7 S cm−1 conductivity at 25 °C-eleven orders higher than elemental sulfur. As results, S8 to Li2S conversion shows
+full reversibility, and the corresponding ASSLSB delivered 811.8–1211.3 mAh g−1 at 25–100 °C. Reproduced with permission. [127] Copyright 2024,
+Springer Nature. b) Se-doped S@pPAN composite with Se as eutectic accelerator. Se0.05S0.95@pPAN cathode (5 mg cm−2) achieves 840 mAh g−1
+initial capacity, 81% retention after 150 cycles at 167.5 mA g−1. Reproduced with permission.[128] Copyright 2019, Elsevier Ltd. c) Te-doped @pPAN
+improves reaction kinetics and solid electrolyte compatibility. The resulting ASSLSB exhibits high capacity (1173.1 mAh g−1) and stability over 500
+cycles. Reproduced with permission. [74] Copyright 2020, Elsevier Ltd.
+ing a solution composed of Li3PS4 solid electrolyte and S active
+material into mesoporous carbon (CMK-3). 0.18 g Li3PS4, 0.096 g
+elemental S, and 0.096 g CMK-3 were dispersed in tetrahydro-
+furan (THF) solvent and subjected to vacuum drying treatment
+to obtain a 3-phase mixed electrode material. This method en-
+sures the uniform dispersion of the amorphous Li3PS7 cathode
+electrolyte in the conductive carbon matrix, providing the cathode
+composite material with high and balanced electronic/ionic con-
+ductivity. The inherent porous structure of CMK-3 also helps to
+accommodate the strain/stress generated during the expansion
+and contraction of the active material. In a sulﬁde-based ASSLSB
+with lithium metal as the anode, this cathode composite material
+delivered a high capacity of 1025 mAh g−1 after 50 cycles at 60 °C
+and 1/8C.[78]
+With regard to optimizing the layer-by-layer fabrication pro-
+cesses, researchers have explored advanced techniques, such as
+hot-pressing to promote intimate interfacial contact between the
+sulfur cathode and solid electrolyte, thereby reducing the resis-
+tance to ion/electron transport across the solid–solid interface.
+Yang et al. prepared a composite cathode material by in situ grow-
+ing amorphous Li3PS4 on the surface of the Li2S active cathode
+material. The prepared composite cathode was laid on one side
+of the Li7P3S11 layer and pressed for 5 min under a pressure of
+360 MPa. Lithium-indium (Li-In) alloy was placed on the other
+side of the electrolyte layer and cold-pressed with lithium and in-
+dium foil. The entire battery was pressed at a pressure of 120 MPa
+to ensure close contact between the three-layer battery plates. The
+composite cathode structure has enhanced electrode/electrolyte
+interface contact and an eﬃcient ionic/electronic transport net-
+work, which can signiﬁcantly improve the redox kinetics and
+Li2S areal loading of ASSLSBs. The 85(92Li2S-8P2S5)-15AB com-
+posite material exhibits excellent electrochemical performance,
+with a Li2S utilization as high as 98% and an active Li2S con-
+tent of up to 44 wt%, corresponding to an areal loading of 6 mg
+cm−2. Moreover, even under an ultrahigh Li2S areal loading of
+12 mg cm−2, outstanding electrochemical activity can be main-
+tained, with a reversible capacity of up to 880.3 mAh g−1, corre-
+sponding to an areal capacity of 10.6 mAh cm−2 (Figure 11a).[129]
+Zhang et al. introduced a functional electrolyte-cathode bilayer
+framework for advanced solid-state lithium-ion batteries, which
+features interconnected LLAZO channels from the electrolyte to
+the cathode. Unlike the separated layer composition in conven-
+tional ASSLSBs, the introduced bilayer framework provides ul-
+trafast and continuous ionic/electronic conduction. Li+ is not
+transported through the polymer phase and garnet phase in-
+volving huge interfacial resistance; instead, it is conducted di-
+rectly through the continuously created LLAZO channels from
+the cathode layer to the solid electrolyte layer, greatly shortening
+the diﬀusion distance and promoting the redox reaction of sul-
+fur and sulﬁdes. The obtained ASSLSB assembled with the bi-
+layer framework deliver an attractive capacity of 1055 mAh g−1
+at a current density of 0.2 C (0.334 mA cm−2) at 50 °C, and a re-
+tained capacity of 939 mA cm−2 is still obtained at the 50th cycle
+at 0.2 C (Figure 11b).[20]
+In terms of nanostructure engineering design, researchers
+have focused on employing nanosizing approaches like ball
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (15 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 16 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 11. Layer-by-layer fabrication processes. a) Cold-pressed 85(92Li2S-8P2S5)-15AB/Li7P3S11/Li-In alloy layer-by-layer full cell. 85(92Li2S-8P2S5)-
+15AB composite maintained high capacity from 3 to 12 mg cm−2 Li2S loading. At 12 mg cm−2, it delivered 880.3 mAh g−1 initially, retaining 9.9 mAh
+cm−2 after 40 cycles. With 6 mg cm−2 loading, it achieved 1141.7 mAh g−1 initial capacity, stabilizing at 886.5 mAh g−1 after 100 cycles. Reproduced with
+permission.[129] Copyright 2023, American Chemical Society. b) LLAZO-based electrolyte-cathode bilayer framework enhances Li+ transport in ASSLSBs
+through continuous ionic pathways. Consequently, it delivers 1055 mAh g−1 at 0.2 C, 50 °C, retaining 939 mA cm−2 after 50 cycles. Reproduced with
+permission. [20] Copyright 2022, Elsevier Ltd.
+milling, sol–gel, and other methods to precisely tailor the size,
+morphology, and structural defects of sulfur cathode materi-
+als. This endows the materials with enhanced buﬀering capabil-
+ity, alleviating stress concentration caused by volume changes.
+Zheng et al. achieved enhanced charge transfer behavior at the
+sulfur-LLTO/C biphasic interface compared to the traditional
+three-phase interface by employing lithium lanthanum titanium
+oxide/carbon (LLTO/C) nanoﬁbers with mixed ionic/electronic
+conductivity. The calculated resistance based on Ohm’s law
+yields a conductivity of 6.8 × 10−3 S cm−1. Therefore, the ob-
+tained LLTO/C nanoﬁbers with a high aspect ratio and good
+ionic/electronic conductivity are expected to provide continuous
+mixed conduction at the LLTO/C-S biphasic interface. The results
+show that the LLTO/S cathode delivers a high speciﬁc capacity of
+1162 mAh g−1 during the ﬁrst discharge at 0.1 C, correspond-
+ing to a high sulfur utilization of 69%, thanks to the enhanced
+solid-state charge transfer brought about by the ionic/electronic
+conductive LLTO/C-S interface. After 40 cycles, the discharge ca-
+pacity of the reversible charge–discharge process can be main-
+tained at 1027 mAh g−1, with a coulombic eﬃciency (CE) of
+around 98%.[130] Yang et al. applied atomic layer deposition-
+derived lithium phosphorus oxide coating on the surface of car-
+bon/sulfur particles to enhance the interfacial stability of the
+sulfur cathode and improve the electrochemical performance of
+ASSLSBs. The coating layer can inhibit electrolyte decomposition
+and improve interfacial stability by blocking electron conduction
+between carbon and electrolyte. Moreover, it not only serves as
+an ion-conducting layer to facilitate Li+ transport but also acts as
+a stress buﬀer layer to alleviate contact failure. The assembled
+ASSLSBs with sulﬁde electrolyte exhibit an initial speciﬁc capac-
+ity of 1322 mAh g−1 at 0.2 C and a capacity retention of 86.4%
+after 300 cycles. Furthermore, ASSLSBs maintain a reversible ca-
+pacity of 645 mAh g−1 at 0.5 A g−1 after 1000 cycles, conﬁrming
+the long cycling stability of the coated sulfur cathode. Even under
+high sulfur loading, ASSLSBs achieve high areal capacities of 4.6
+mAh cm−2 at 30 °C and 11.7 mAh cm−2 at 60 °C.[131]
+For interface engineering, the main strategy is to introduce an
+in situ polymer coating as a stress buﬀer layer on the surface of
+the sulfur positive electrode. The polymer buﬀer layer can allevi-
+ate the mechanical stress caused by the volume change of the sul-
+fur positive electrode during the lithium insertion/extraction cy-
+cling process, thereby avoiding damage to the relatively thin solid
+electrolyte layer, making it possible to use a thin electrolyte layer
+and high sulfur loading. Lu et al. innovatively introduced highly
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (16 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 17 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 12. Interface engineering. a) EVA-enhanced elastic composite sulfur cathode for high-performance Li–S batteries. EVA forms a ﬁbrous 3D network,
+reducing internal stress by 33.7% and improving structural stability. At 7.5 mg cm−2 sulfur loading, the SEVA electrode maintains ≈3.0 mAh cm−2 after
+50 cycles. Reproduced with permission. [31] Copyright 2024, Wiley-VCH GmbH. b) PEO buﬀer layer enhances LLZO-based solid-state Li–S battery
+performance. Achieves 1307 mAh g−1 at 0.2 mA cm−2, room temperature. 10 μm LLZO yields 1308 Wh L−1 and 257 Wh kg−1. PEO ensures chemical
+stability and accommodates sulfur volume changes. Reproduced with permission. [40] Copyright 2023, American Chemical Society.
+elastic thermoplastic elastomer EVA into the composite sulfur
+cathode. Through dry ball milling, EVA forms a ﬁbrous 3D cross-
+linked structure in the electrode, and its excellent stretchability
+and elasticity can eﬀectively accommodate the volume change of
+sulfur and alleviate internal stress. In situ pressure monitoring
+conﬁrmed that after adding EVA, the internal stress evolution of
+the composite sulfur cathode was reduced by 33.7%. At the same
+time, the strong hydrogen bonding between EVA and the con-
+ductive materials, as well as the high binding energy with Li2S,
+synergistically enhance the structural stability of the electrode.
+Therefore, this well-designed EVA elastic composite sulfur cath-
+ode (SEVA) exhibits excellent electron and ion transport charac-
+teristics, signiﬁcantly improving battery performance. Even un-
+der a high sulfur loading of 7.5 mg cm−2, the SEVA electrode
+still exhibits a stable speciﬁc capacity of nearly 3.0 mAh cm−2
+after 50 cycles (Figure 12a).[31] Yang et al. used a liquid-phase
+polymerization method to coat conductive polymer polypyrrole
+(PPy) on hollow nitrogen-doped carbon nanotubes (NCNT), suc-
+cessfully preparing PPy@NCNT composite material as a con-
+ductive additive for the sulfur cathode of ASSLSBs. Through
+anion doping and precise control of polymerization conditions,
+PPy@NCNT can eﬀectively alleviate the volume change of the
+electrode during the cycling process while achieving optimal con-
+ductivity. PPy@NCNT shows good chemical compatibility with
+sulﬁde solid electrolytes, forming continuous and ﬂexible con-
+ductive pathways that not only reduce the tortuosity of charge
+transfer but also alleviate local stress. In situ mechanical test-
+ing conﬁrmed that the introduction of PPy@NCNT can reduce
+the axial pressure of the sulfur cathode with a sulfur areal capac-
+ity of 3 mg cm−2 by 11% at 30 °C. Electrochemical tests show
+that the PPy@NCNT-based sulfur cathode achieves a high areal
+capacity of 6 mAh cm−2 (1348 mAh g−1) at 0.1C under a high
+sulfur loading of 4.5 mg cm−2 and stably cycles for 300 times
+at 0.2C. Even at a high temperature of 60 °C, the electrode can
+achieve an areal capacity of over 8.8 mAh cm−2 and stable cy-
+cling performance.[132] Wachsman et al. used a polyethylene ox-
+ide (PEO)-based buﬀer layer to physically separate the sulfur
+cathode and LLZO. Through the thin bilayer of LLZO and the
+stable sulfur cathode/LLZO interface, the lithium–sulfur battery
+achieved a high initial discharge capacity of 1307 mA h g−1 at a
+high current density of 0.2 mA cm−2 at room temperature, cor-
+responding to high energy densities of 639 W h L−1 and 134 W h
+kg−1. By simply reducing the thickness of the LLZO dense layer
+to 10 μm, energy densities of 1308 W h L−1 and 257 W h kg−1
+can be achieved. XRD and XPS show that the PEO layer, which
+physically separates the sulfur cathode and LLZO, is chemically
+and electrochemically stable with LLZO. Furthermore, the PEO
+layer can accommodate the stress/strain associated with sulfur
+volume expansion during the lithiation process (Figure 12b).[40]
+4.2. Strategies for Chemical/Electrochemical Interfacial Issues
+The major challenges at the positive electrode/electrolyte in-
+terface in ASSLSBs originate from the multiphase reaction
+characteristics and high chemical reactivity of the sulfur cath-
+ode. During charge/discharge cycling, sulfur undergoes a series
+of formation/decomposition transformations involving various
+lithium polysulﬁde species and elemental sulfur. These highly re-
+active species are prone to unfavorable chemical/electrochemical
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (17 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 18 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 13. Chemical/electrochemical interfacial issues. a) GPE interlayer stabilizes SPAN/LLZO interface. Preferential FSI decomposition in concen-
+trated GPE forms protective CEI, mitigating cathode expansion stress. For the 2 m GPE battery, the authors achieved a high initial discharge capacity of
+1542 mAh g−1 under a discharge condition of 0.87 mA cm−2. Reproduced with permission. [41] Copyright 2023, Wiley-VCH GmbH. b) Surface modiﬁca-
+tion engineering for S cathode through ALD deposition of nanoscale lithium phosphate coating. The ion-conducting layer facilitates Li+ transport while
+acting as a stress buﬀer to alleviate contact failure. The assembled ASSLSBs demonstrate excellent rate performance even at high loadings of 4.5 mg
+cm−2 and an elevated operating temperature of 60 °C. Reproduced with permission. [131] Copyright 2024, Wiley-VCH GmbH.
+reactions with solid electrolytes, disrupting the interfacial struc-
+ture and obstructing ion transport pathways. The issues at
+the positive electrode/electrolyte interface encompass narrow
+electrochemical stability windows of solid electrolytes, where
+many solid electrolytes are susceptible to decomposition at high
+voltages, undergoing parasitic side reactions with the sulfur
+cathode active materials and compromising the reversibility of
+the battery. Inter-diﬀusion of elements across interfaces can also
+occur, with active species from the positive/negative electrodes
+intermixing with the electrolyte, thereby diminishing the interfa-
+cial ion transport eﬃciency. Additionally, due to the intrinsically
+poor electronic conductivity of the positive electrode active
+materials, space charge layers form at the electrode/electrolyte
+interface, hindering ion transport.
+For chemical/electrochemical interfacial issues, constructing
+artiﬁcial or in situ protective layers at the solid electrolyte/sulfur
+cathode interface can eﬀectively suppress the shuttle eﬀect and
+adverse reactions, mitigate active material loss, and enhance
+ionic conductivity. Shi et al. introduced a gel polymer buﬀer layer
+to stabilize the sulfur cathode/LLZO interface. The gel polymer
+electrolyte (GPE) interlayers were synthesized with three diﬀer-
+ent lithium bis(ﬂuorosulfonyl)imide (LiFSI) salt molar concen-
+trations of 1 m (m ≡mol L−1), 2 m, and 3 m. The average GPE
+thickness is 2.5–3 μm. During the battery charge–discharge pro-
+cess, the decomposition of FSI is preferred over the decompo-
+sition of the solvent, leading to the formation of more LiF, ﬂu-
+orinated carbon, and FSI decomposition products on the Ta-
+LLZO surface. The in situ formed CEI layer acts as a buﬀer
+for interfacial stress and strain. As a result, at room temper-
+ature (22 °C), without applying external pressure, the battery
+exhibits excellent cycling stability: an initial discharge speciﬁc
+capacity as high as 1542 mAh g−1 (discharge current density
+0.87 mA cm−2), and an average discharge speciﬁc capacity of
+1218 mAh g−1 (discharge current density 1.74 mA cm−2) over 265
+cycles, with a capacity retention of 80% (Figure 13a).[41] Huang
+et al. prepared a new type of sulfur-(Ketjen Black)-(LiTFSI) (S-
+KB-LiTFSI) composite cathode material by introducing lithium
+bis(triﬂuoromethanesulfonyl)imide (LiTFSI) salt into the sulfur
+cathode to enhance the kinetic performance of ASSLSBs. The S-
+KB-LiTFSI cathode exhibits an ultrahigh initial discharge speciﬁc
+capacity (1483 mA h g−1), beneﬁting from the addition of LiTFSI,
+which improves the ionic conductivity and Li+ diﬀusion capabil-
+ity of the cathode. Moreover, as cycling progresses, LiTFSI de-
+composes to form a large amount of LiF, Li3N, SO3
+2−, and SO4
+2−
+phases in situ. Density functional theory calculations show that
+LiF and Li3N have lower lithium-ion migration energy barriers
+compared to the solid electrolyte Li6PS5Cl, increasing the Li+
+transport channels; simultaneously, LiF, SO3
+2−, and SO4
+2−opti-
+mize the interface between the cathode and the electrolyte. These
+synergistic eﬀects signiﬁcantly enhance the Li+ diﬀusion kinetics
+and interface stability, enabling the S-KB-LiTFSI cathode to ex-
+hibit excellent cycling stability (402 mA h g−1 retained after 600
+cycles at 200 mA g−1) and rate performance (discharge speciﬁc
+capacity of 814 mA h g−1 at 400 mA g−1) (Figure 13b).[30] Yang
+used atomic layer deposition-derived lithium phosphorus oxide
+coating on the surface of carbon/sulfur particles to enhance the
+interfacial stability of the sulfur cathode and improve the elec-
+trochemical performance of ASSLSBs. The study shows that the
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (18 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 19 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+coating can inhibit electrolyte decomposition and improve inter-
+facial stability by blocking electron conduction between carbon
+and electrolyte. Moreover, it not only serves as an ion-conducting
+layer to facilitate Li+ transport but also acts as a stress buﬀer layer
+to alleviate contact failure. The assembled ASSLSBs with sulﬁde
+electrolyte exhibit an initial speciﬁc capacity of ≈1600 mAh g−1,
+while AB/S shows about 1500 mAh g−1 at 60 °C with a loading of
+4.5 mg cm−2. And LPO@AB/S demonstrates higher speciﬁc ca-
+pacity and better rate capability across all tested rates.[131] Chung
+et al. developed a new type of ASSLSB using a polysulﬁde cathode
+(Li2S6) and a sulﬁde solid electrolyte (Li3PS4). The liquid–solid
+interface between the cathode and the electrolyte replaces the
+traditional solid–solid interface, improving the charge transfer
+pathway and promoting the electrochemical reaction. The high-
+activity polysulﬁde, fast charge transfer at the interface, and ion-
+conducting Li3PS4 solid electrolyte enable high loading and ac-
+tive material content (5 mg cm−2 and 66 wt%, respectively). The
+advanced Li/Li3PS4/polysulﬁde battery achieves high charge stor-
+age capacity (1026 mAh g−1), high areal capacity (5.1 mAh cm−2),
+high energy density (11.3 mWh cm−2), and long cycle life (close to
+100 cycles). XPS and time-of-ﬂight secondary ion mass spectrom-
+etry (TOF-SIMS) conﬁrm the formation of ion-conducting mate-
+rials during the initial cycling process, mainly Li3P and Li3PO4 on
+the cathode side. The Li3P and Li3PO4 formed through chemical
+reactions with polysulﬁdes act as a protective layer, preventing the
+complete penetration of polysulﬁdes into the Li3PS4 electrolyte
+and helping to improve interfacial charge transfer.[133]
+5. Lithium Metal Anode
+The lithium metal anode, due to its extremely high theoreti-
+cal capacity (3680–3862 mAh g−1), lowest density (0.53 g cm−3),
+and very low electrochemical potential (−3.040 V vs SHE), has
+become key to achieving high-performance ASSLSBs.[32] How-
+ever, lithium metal anodes face numerous challenges in practi-
+cal applications, especially the issue of lithium dendrite growth,
+which severely aﬀects the safety and long-term stability of the
+battery.[134] Early theoretical models, such as the Sand’s time the-
+ory in liquid battery systems and the Monroe–Newman model in
+polymer electrolyte batteries, predicted that dendrite problems
+would not occur in all-solid-state batteries.[135] However, actual
+experimental observations showed signiﬁcant diﬀerences from
+these theoretical predictions. Under relatively low current den-
+sity conditions, lithium metal dendrites could still grow in solid
+electrolytes and eventually lead to battery short circuits. This phe-
+nomenon not only challenges our understanding of material be-
+havior but also poses signiﬁcant tests for battery safety perfor-
+mance and long-term stability.
+The microstructural characteristics of solid electrolytes play a
+crucial role in the nucleation and growth of lithium dendrites.
+These characteristics mainly include grain boundaries, surface
+defects, and internal voids. The inhomogeneity of these struc-
+tures can lead to uneven electric ﬁeld distribution and localized
+concentration of lithium ions ﬂux, providing growth sites for den-
+drites. Simultaneously, these areas are often stress concentration
+points, prone to generating microcracks under mechanical loads,
+further promoting dendrite growth. For example, Wang et al. us-
+ing neutron depth proﬁling technique, observed the nucleation
+and growth of lithium dendrites inside the sulﬁde electrolyte
+Li3PS4. This phenomenon primarily stems from the high ionic
+conductivity of the electrolyte, which facilitates rapid lithium ion
+transport, thereby leading to the formation of lithium dendrites
+within the electrolyte (Figure 14a).[136] In actual battery opera-
+tion, the interface between metallic lithium and solid electrolyte
+exhibits complex dynamic characteristics. Charge–discharge cy-
+cling may lead to microscopic changes at the interface, such as
+voids and grain boundaries. These changes trigger a dual ef-
+fect: ﬁrst, they weaken the interfacial contact between the elec-
+trode and electrolyte, reducing ion transport eﬃciency; second,
+they cause local current density to increase, exacerbating elec-
+trochemical polarization phenomena. These two factors inter-
+act, jointly accelerating the formation and growth process of
+lithium dendrites. Rettenwander et al. combining in situ opti-
+cal and ex situ dark-ﬁeld X-ray microscopy methods, investigated
+the evolution process of lithium dendrites in LiSn∣single crystal
+Li6.5La3Zr1.5Ta0.5O12∣LiSn symmetric cells. Experimental obser-
+vations revealed the presence of dislocations in the dendrite front
+region, with these defects showing a close relationship to den-
+drite growth. Researchers inferred that the stress caused by den-
+drite growth might induce the formation of dislocations, which
+in turn inﬂuence the destruction process of the electrolyte and
+dominate the growth direction and branching behavior of den-
+drites (Figure 14b).[137]
+In fact, the formation process of lithium dendrites is often ac-
+companied by multiﬁeld coupling eﬀects. Xu et al. using LLZO as
+the research subject, developed a comprehensive research frame-
+work coupling battery models, mechanical models, phase-ﬁeld
+models, and short-circuit models to investigate crack propagation
+and lithium dendrite growth behavior in solid electrolytes. Their
+research revealed several key factors aﬀecting the performance of
+all-solid-state batteries: 1) Charging rate: High C-rates (>0.5C) ac-
+celerate the occurrence of short circuits, caused by larger overpo-
+tentials driving crack propagation and dendrite growth. 2) Elec-
+trolyte conductivity: Lower conductivity leads to increased over-
+potential, triggering earlier short circuits. 3) Electrolyte conduc-
+tivity (𝜎LLZO): Improving conductivity can reduce internal re-
+sistance, enhance battery performance, and delay crack prop-
+agation, thereby postponing the time to short circuit. 4) Elec-
+trolyte Young’s modulus (ELLZO): In the range of 40–100 GPa,
+higher Young’s modulus accelerates crack propagation, increas-
+ing the risk of short circuits. This is because Young’s modulus
+simultaneously aﬀects both the driving force and resistance to
+crack propagation. 5) Electrolyte fracture toughness (KLLZO):
+Higher fracture toughness can eﬀectively suppress or even pre-
+vent crack propagation, signiﬁcantly reducing the risk of internal
+short circuits.[138]
+To improve interfacial contact, a certain stacking pressure is
+usually applied. Uniform external pressure can prevent stress
+concentration and preferential growth of lithium dendrites in
+local areas. However, the eﬀects on dendrite formation and
+growth stages diﬀer signiﬁcantly, requiring precise control to bal-
+ance interface stability and dendrite suppression. Bruce et al.
+applied high temporal resolution X-ray computed tomography
+(XCT) technology to investigate the complete evolution process
+of lithium dendrites in all-solid-state batteries under in situ con-
+ditions. The study revealed that lithium deposition induces com-
+plex viscoplastic deformation inside dendrites, causing stress ac-
+cumulation. This stress both drives dendrite growth and pro-
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (19 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 20 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 14. In situ observation of lithium dendrites. a) Operando neutron depth proﬁling (NDP) experiments showing lithium plating behavior in diﬀerent
+solid-state battery conﬁgurations. Reproduced with permission. [136] Copyright 2019, Springer Nature. b) Advanced X-ray imaging techniques revealing
+dendrite growth mechanisms and dislocation dynamics in solid-state electrolytes. Reproduced with permission. [137] Copyright 2024, Springer Nature.
+c) Time-resolved X-ray computed tomography (XCT) imaging of lithium dendrite growth and crack propagation in a solid-state electrolyte under applied
+pressure. Reproduced with permission. [139] Copyright 2023, Springer Nature.
+motes lithium migration toward the electrode interface. Based
+on this, they also analyzed the impact of diﬀerent external pres-
+sures (7, 1, and 0 MPa) on lithium dendrite growth kinetics
+through numerical simulations. The results showed that exter-
+nal stress signiﬁcantly regulates dendrite growth behavior: under
+high stress (7 MPa), dendrite length increases sharply with cy-
+cling; under moderate stress (1 MPa), the growth rate decreases;
+under extremely low stress (0 MPa), dendrite length remains es-
+sentially constant. This ﬁnding implies that in an extremely low
+external stress environment, even if lithium dendrites have ini-
+tially formed, their subsequent expansion can be eﬀectively sup-
+pressed (Figure 14c).[139]
+This section focuses on the issue of lithium dendrite growth
+on the metal lithium anode in all-solid-state batteries, delving
+into its nucleation and evolution mechanisms, as well as key in-
+ﬂuencing factors such as microstructure and interfacial dynam-
+ics. Next, we will systematically review existing lithium dendrite
+suppression strategies, analyze advanced interface engineering
+methods in detail, and thoroughly elucidate their working mech-
+anisms and performance optimization principles. These studies
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (20 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 21 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+aim to provide a solid theoretical foundation and practical guid-
+ance for enhancing the safety performance and cycling stability
+of ASSLSBs.
+6. Strategies for Enhancing Interfacial Contact
+Between Li Anode and Solid State Electrolyte
+Strategies for improving the lithium metal interface issues in all-
+solid-state lithium batteries/lithium–sulfur batteries can be pri-
+marily approached from two aspects: modiﬁcation of the lithium
+anode and construction of interfacial buﬀer layers.
+6.1. Modiﬁcation of the Lithium Anode
+6.1.1. Lithium Alloying
+Lithium-based alloy anodes (such as Li-In, Li-Al, Li-Mg, Li-
+Zn, Li-Si, Li-Ag, etc.) form binary or multielement structures
+that maintain high speciﬁc capacity and low reduction poten-
+tial while enhancing electrochemical stability and interfacial
+compatibility.[140–142] They eﬀectively suppress dendrite growth,
+showing promising potential as alternatives to pure lithium
+metal. The solubility of alloying elements in lithium signiﬁcantly
+aﬀects their interaction mechanisms: 1) High solubility elements
+(e.g., Au, Ag, Zn, Mg) tend to form single-phase solid solutions
+with lithium, exhibiting near-zero nucleation overpotential and
+small volume expansion. 2) Medium solubility elements (e.g., Al,
+Pt) show lower nucleation barriers. 3) Low solubility elements
+(e.g., Si, Sn) require phase transformation reconstruction to form
+alloy phases, a process demanding higher activation energy. 4) In-
+soluble elements (e.g., Cu, Ni) need to overcome even higher en-
+ergy barriers for nucleation. These solubility-driven characteristic
+changes directly inﬂuence lithium dissolution-deposition kinet-
+ics, signiﬁcantly aﬀecting lithium deposition behavior and elec-
+trochemical performance. For example, Han et al. evaluated the
+dendrite suppression capabilities of various lithium alloys (in-
+cluding Li-Zn, Li-Si, Li-Sn, and Li-Al) and found that the Li-Al
+alloy exhibited the most outstanding performance. The Li-Al al-
+loy exhibits superior mechanical properties, which play a crucial
+role in eﬀectively suppressing lithium dendrite formation and
+growth. As a result, symmetric cells employing Li-Al alloy an-
+odes demonstrated excellent performance, showing no soft short-
+circuit phenomena under high current density (40 mA cm−2) and
+high capacity (3 mAh cm−2) conditions. Furthermore, these an-
+odes exhibited outstanding performance in solid-state lithium–
+sulfur batteries with high sulfur loading (10 mAh cm−2).[141]
+Zhang et al. developed a novel ternary composite lithium anode,
+Li0.95Mg0.05-50 wt% Graphite, featuring stable lithium diﬀusion
+pathways and a high lithium diﬀusion rate of 3.41×10−10 cm2
+s−1. This composite anode structure eﬀectively suppressed inter-
+facial void growth, signiﬁcantly enhancing the stability of interfa-
+cial contact. After high-capacity (6 mAh cm−2) lithium stripping,
+it still maintained 94.2% contact area. Its excellent performance
+is mainly attributed to the stable diﬀusion pathways constructed
+by the LiMg alloy substrate and the enhancement of lithium dif-
+fusion speed by graphite particles, eﬀectively suppressing the
+dynamic decay of interfacial contact and improving the overall
+working stability of the battery (Figure 15a).[142]
+6.1.2. 3D Porous Framework/Host
+3D lithium metal anodes can eﬀectively suppress dendrite
+growth in liquid batteries but are hindered in all-solid-state bat-
+teries due to the rigidity of solid electrolytes. To address this,
+Sun et al. introduced a sacriﬁcial layer of mixed sulﬁde and
+halide electrolytes on the anode side. The halides in the sacri-
+ﬁcial layer react with lithium to form a 3D lithium metal anode.
+And the in situ generated lithium alloy structure can lower the
+lithium nucleation barrier and promote uniform deposition. Its
+high speciﬁc surface area reduces local current density and ac-
+celerates lithium ions transport while also mitigating electrolyte
+fracture and interface gap issues. The assembled symmetric cells
+demonstrated stable cycling for over 500 h at a current density of
+3 mA cm−2, with a single cycle capacity reaching 3 mAh cm−2
+(Figure 15b).[34]
+6.2. Construction of Interfacial Buﬀer Layers
+Interfacial buﬀer layers play a crucial role in addressing inter-
+face issues in lithium metal batteries. These buﬀer layers aim to
+improve interfacial contact, promote lithium ions transport, and
+suppress side reactions and lithium dendrite formation. An ideal
+interface layer should possess ionic conductivity, electronic insu-
+lation, electrochemical stability, and good compatibility with both
+lithium metal and solid electrolytes. Based on chemical composi-
+tion, interface buﬀer layers can be classiﬁed into three categories:
+inorganic interface buﬀer layers, organic interface buﬀer layers,
+and inorganic–organic composite interface buﬀer layers.[35]
+6.2.1. Inorganic Interface Buﬀer Layers
+Inorganic interface layers feature high mechanical strength and
+good ionic conductivity, making it easy to achieve low thickness
+and high uniformity of coatings. Among them, lithium silicates,
+lithium phosphates, lithium halides, and lithium nitrides can
+serve as artiﬁcial Solid Electrolyte Interphase (SEI) components.
+Artiﬁcial SEI layers have high Young’s modulus, high surface
+energy, and low surface diﬀusion barriers, which help resist the
+stress of dendrite growth while facilitating lithium ion transport
+at the interface.[35,36] Zhou et al. deposited a uniquely structured
+LiI layer at the Li/SSE interface using a chemical iodine-vapor de-
+position (CIVD) method. This LiI layer, composed of densely in-
+terwoven elongated rice-grain-shaped nano-LiI crystals, exhibits
+excellent toughness, high mechanical strength, and good ionic
+conductivity, maintaining a stable Li/SSE interface during long-
+term cycling. All-solid-state lithium–sulfur batteries prepared us-
+ing this LiI layer showed a high capacity of 1400 mAh g−1 at 0.1C,
+with 80.6% capacity retention after 150 cycles at room tempera-
+ture. Under high areal capacity (1.35 mAh cm−2) and high tem-
+perature (90 °C) conditions, the battery still maintained a high
+capacity of 1500 mAh g−1 and achieved stable cycling for over
+100 cycles (Figure 16a).[36]
+Lithium aﬃnity has been identiﬁed as a key factor aﬀect-
+ing lithium plating/stripping behavior. Interlayers based on
+conversion-type metal oxides (CuO, ZnO, Al2O3, etc.) and
+lithium alloys with high lithium aﬃnity (lithiophilicity) are also
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (21 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 22 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 15. Modiﬁcation of the lithium anode. a) Comparative interface evolution of conventional lithium metal and Li-Mg-graphite composite anodes
+in solid-state batteries: void growth suppression and ion kinetics analysis. Reproduced with permission. [142] Copyright 2024, Elsevier Ltd. b) Theoret-
+ical calculations and experimental analyses demonstrating interfacial stability and performance of 3D structured lithium alloy electrodes in solid-state
+batteries. Reproduced with permission. [34] Copyright 2023, Wiley-VCH GmbH.
+widely used to reduce lithium nucleation overpotential and im-
+prove the uniformity of lithium deposition. Yamauchi et al. em-
+ployed atomic layer deposition to deposit Al2O3 on the surface
+of PEO-LiTFSI solid polymer electrolyte (SPE), eﬀectively im-
+proving solid/solid interface issues. This Al2O3 coating not only
+suppressed the “shuttle eﬀect” of polysulﬁdes but also reduced
+interfacial resistance and eﬀectively inhibited lithium dendrite
+formation even after battery operation for over 500 h.[143] Wang
+et al. developed a self-lithiating tin-carbon composite interlayer
+(LSCI) applied at the interface between the lithium metal an-
+ode and solid-state electrolyte (SSE). This structure promoted
+uniform lithium ions transport, reduced SSE decomposition,
+and improved interface stability. Under conditions of 0.4 mAh
+cm−2 and 0.2 mA cm−2, LSCI achieved dendrite-free lithium plat-
+ing/stripping for over 7000 h. In all-solid-state lithium–sulfur
+batteries, even under lower pressure (<8 MPa), batteries with
+LSCI exhibited excellent cycling performance, with about 80%
+capacity retention after 300 cycles (Figure 16b).[144]
+6.2.2. Organic Interface Buﬀer Layers
+Organic materials, especially polymers, can serve as protective
+materials for the solid electrolyte-lithium anode interface due
+to their unique physicochemical properties. These materials,
+with their excellent ﬂexibility and elasticity, can adapt to the vol-
+ume changes of lithium electrodes during cycling. Their elec-
+tronic insulating properties are beneﬁcial for guiding lithium de-
+position, eﬀectively stabilizing the lithium metal/electrolyte in-
+terface and suppressing dendrite growth, signiﬁcantly enhanc-
+ing battery performance. Huang et al. developed a novel self-
+healing poly(ether-polyurethane)-based solid polymer electrolyte.
+This electrolyte, synthesized from polytetrahydrofuran (PTMG),
+hexamethylene diisocyanate (HDI), and 2-hydroxyethyl disulﬁde
+(BHDS), forms a PTMG-HDI-BHDS structure. By introducing
+dynamic covalent disulﬁde bonds and hydrogen bond networks,
+this material achieves excellent interface self-healing ability and
+good interfacial contact. This design not only increases ionic
+conductivity through the ether oxygen and carbonyl functional
+groups in the structure but also endows the material with excel-
+lent self-healing ability, eﬀectively improving the stability of the
+solid/solid interface. In battery performance tests, this electrolyte
+showed excellent performance: Li||Li symmetric cells achieved
+stable cycling for over 6000 h, and solid-state Li–S batteries ex-
+hibited long life of 700 cycles at 0.3 C. When paired with a sulfu-
+rized polyacrylonitrile (SPAN) cathode, the battery retained 93%
+capacity after 700 cycles at 0.3 C, with a speciﬁc capacity of 560
+mAh g−1 at 1 C. When paired with a sulfur/carbon black (S@CB)
+cathode, the solid-state Li–S battery cycled for over 350 cycles with
+a high capacity of 812 mAh g−1. Using ultrasonic imaging tech-
+nology, researchers also found that the interfacial contact of this
+integrated structure was signiﬁcantly better than traditional lam-
+inated structures, further conﬁrming the advantages of this novel
+electrolyte in improving battery interface stability.[37]
+6.2.3. Organic/Inorganic Composite Interface Buﬀer Layers
+Polymer coatings typically exhibit excellent ﬂexibility, able to
+adapt to the deformation of the lithium anode during charge and
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (22 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 23 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 16. Construction of interfacial buﬀer layers. a) Application of LiI as a high-performance SEI protective layer in lithium metal solid-state batteries
+and its inhibitory eﬀect on mechanical failure. Reproduced with permission. [36] Copyright 2022, The Royal Society of Chemistry. b) Performance and
+interface stability of all-solid-state lithium–sulfur batteries (ASSLSBs) with lithium-salt-concentrated ionic liquid (LSCI) interface layer. Reproduced with
+permission. [144] Copyright 2024, Wiley-VCH GmbH.
+discharge processes, but often struggle to provide suﬃcient rigid-
+ity to suppress dendrite expansion. In contrast, inorganic ma-
+terials have higher shear modulus but lack necessary elasticity.
+Organic–inorganic composite interface layers combine the ad-
+vantages of both, possessing moderate rigidity and ﬂexibility, ef-
+fectively enhancing the long-term cycling stability of the lithium
+metal interface and providing new ideas for battery performance
+optimization. Sun et al. developed a nanoscale inorganic–organic
+“gradient” coating to enhance the cycling stability of lithium
+metal anodes. The research team used advanced characteriza-
+tion techniques, such as Rutherford Backscattering Spectrometry
+(RBS), Time of Flight Secondary Ion Mass Spectrometry (TOF-
+SIMS), and X-ray Computed Tomography (CT) to analyze the
+coating structure and its working mechanism in depth. The re-
+sults showed that the gradient-distributed inorganic Zn compo-
+nent acts as active sites to stabilize lithium deposition, while the
+organic Polyurea component serves as a ﬂexible protective layer
+to suppress lithium dendrite growth. Electrochemical tests con-
+ﬁrmed that this gradient coating signiﬁcantly improved the cycle
+life and stability of lithium metal anodes.[38]
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (23 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 24 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 17. In situ Raman spectroscopy techniques. a) In situ Raman setup for ASSLSBs with solid electrolyte. b) Charge–discharge curves and corre-
+sponding changes in Raman intensity distribution during in situ Raman experiments. c) In situ Raman spectra of the cathode at characteristic voltages
+during charge–discharge processes. Reproduced with permission. [21] Copyright 2023, Wiley-VCH GmbH.
+7. Solid-State Cell Design for Ex/In Situ
+Characterization
+Leveraging in situ and quasi in situ electrochemical characteri-
+zation techniques, we can gain profound insights into the evo-
+lution of electrode material components and structure, the dy-
+namic changes in the electrolyte, and the underlying mech-
+anisms governing electrode–electrolyte interfacial interactions.
+This enables us to elucidate the intrinsic reaction behaviors and
+performance degradation mechanisms of ASSLSBs during the
+charge/discharge process. The in situ and quasi in situ electro-
+chemical characterization techniques can be classiﬁed into two
+types: imaging and spectroscopy. The former such as Optical Mi-
+croscope (OM), Scanning Electron Microscope (SEM), and Trans-
+mission Electron Microscope (TEM) are used to observe the sta-
+bility and evolution of the morphology of electrode materials or
+solid electrolyte during electrochemical processes; the latter such
+as Raman, XAFS, and XPS, etc., are used to analyze the evolu-
+tion of the structural components of electrode materials, as well
+as the substrates, intermediates, and products of electrochemical
+reactions.[133]
+In situ X-ray techniques, such as XRD, nano CT, and XAFS,
+can obtain key information about the phase composition, ele-
+mental chemical state, and 3D structure inside the battery. For
+example, Zhu et al. designed a nonin situ XAFS characteriza-
+tion scheme to study the conversion mechanism between S8 and
+Li2S. The experimental results showed that when comparing the
+XANES at 50% charge and discharge states with the initial state, a
+characteristic peak of Li2S2 was obtained at 2471.3 eV, indicating
+the formation of Li2S2 during the reaction process. XANES analy-
+sis of sulfur cathodes at 50% charge after diﬀerent cycle numbers
+reveals that the characteristic peak of Li2S2 stably exists during
+the charge–discharge process, and no long-chain polysulﬁdes are
+formed during the reaction. Furthermore, analysis at 100% dis-
+charge state shows that Li2S2 and S8 still appear, indicating the
+incomplete reaction of S8 and verifying the poor reaction kinetics
+in ASSLSBs.[21]
+Surface-sensitive in situ characterization methods, such as
+Raman spectroscopy (Raman), and TOF-SIMS, can monitor the
+phase transformation process of electrode materials and the
+evolution of the surface chemical environment in real-time. The
+previous work also used in situ Raman technology to analyze
+the reaction process from S8 to Li2S.[21] Raman spectroscopy can
+reveal the relationship between the electrochemical behavior
+and structural changes of materials by detecting the energy
+levels of vibrational modes. For ASSLSB systems, the diﬀerent
+chain-length sulﬁdes involved in the lithiation process corre-
+spond to diﬀerent vibrational modes, thus serving to analyze
+the intermediate phases in the reaction. The researchers used a
+simple cross-sectional electrochemical cell in the in situ Raman
+experiment, which can expose the active material while keep-
+ing the entire battery under normal operating pressure for a
+ASSLSB (Figure 17a). The entire Raman spectroscopy detection
+was placed in a glove box, and the entire testing process was con-
+ducted under an argon atmosphere to avoid the decomposition
+of sulﬁde electrolytes in contact with air. Moreover, the entire
+electrode does not require additional encapsulation, avoiding
+signal attenuation and interference caused by the encapsula-
+tion material. The experimental results showed that during
+the discharge process, the Raman signal of S8 (158, 220, and
+473 cm−1) gradually weakened but did not disappear completely
+(Figure 17b), indicating that S8 gradually participated in the
+reaction but was not fully reacted. No new characteristic peaks
+appeared during the process. During the charging process, the
+Raman signal of S8 gradually increased, indicating that it was
+eventually oxidized to S8 (Figure 17c). More importantly, at 50%
+charge state, a characteristic peak of Li2S2 appeared at 438 cm−1,
+and its intensity gradually increased and then decreased with
+further charging. No characteristic peaks of other polysulﬁdes
+appeared, indicating the formation of short-chain Li2S2 during
+the reaction process, and no long-chain Li2Sn (2<n≤8) existed.
+This result is consistent with the nonin situ XAFS test results.
+TOF-SIMS uses an ion beam to bombard the sample surface,
+causing surface molecules or atoms to detach from the sample
+and form secondary ions. These secondary ions are accelerated
+and enter the time-of-ﬂight mass spectrometer. By measuring
+the ﬂight time and mass of the ions, information about the com-
+position and structure of the sample surface can be obtained.
+This technique can be used to analyze the diﬀusion behavior
+of S elements and the composition of the CEI ﬁlm generated
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (24 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 25 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+Figure 18. In situ microscopy techniques. a) In situ optical imaging technology to observe the decomposition of dissolved PSs and the generation
+of gas inside the composite electrolyte. Reproduced with permission. [147] Copyright 2019, The Royal Society of Chemistry. b) In situ TEM techniques
+to investigate the precipitation and decomposition processes of Li2S in CNT under high-temperature conditions. Reproduced with permission. [122]
+Copyright 2023, Wiley-VCH GmbH. c) In situ TEM characterization to explain the volume-buﬀering eﬀect. Reproduced with permission. [148] Copyright
+2024, Wiley-VCH GmbH.
+at the interface between the cathode and the solid electrolyte
+in ASSLSB systems.[145] For example, Huang et al. used TOF-
+SIMS characterization to demonstrate the phase changes in the
+S-KB-LiTFSI cathode. The study found that LiF, Li3N, SO3
+2−,
+and SO4
+2−phases were formed in situ and uniformly distributed
+within the cathode. Among them, LiF is an electronically insu-
+lating phase that plays an important role in suppressing lithium
+dendrite growth and can stabilize the electrode/electrolyte inter-
+face. Li3N, as an ion-conducting phase, can serve as an additional
+ionic pathway, ensuring fast lithium-ion transport within the
+composite cathode.[30] Tu et al. designed and synthesized oxygen
+vacancy-rich niobium tungsten oxide nanorods (NWOx) as a bi-
+functional cathode additive for ASSLSBs. Previous studies have
+shown that the special layered structure of niobium tungsten
+oxide (NWO) can eﬀectively accommodate lithium ions, and as
+a mixed ionic/electronic conductor, it promotes the conversion
+kinetics of the sulfur cathode. ToF-SIMS was employed to
+investigate the detailed structure of the NWOx-40 cathode after
+50 cycles. The results show the distributions of S, C, Nb, and
+W elements throughout the NWOx-40/S composite cathode,
+showcasing the uniform dispersion and structural integrity of
+the NWOx-40 nanorods during cycling. These results unequivo-
+cally demonstrate the superior chemical and structural stability
+of the NWOx-40 and NWOx-40/S cathodes, which facilitate
+charge transfer during cycling and thereby improve their cycling
+stability and rate performance in SSLSBs.[146]
+In/ex situ microscopy techniques, especially OM, atomic force
+microscopy (AFM), SEM, and TEM, can directly observe the vol-
+ume change behavior of the sulfur cathode during the charg-
+ing and discharging processes, and clearly present the dynamic
+structural transformation process of a certain reaction interme-
+diate in terms of size and crystallinity. For example, Wen et al.
+used in situ optical imaging technology to observe that with
+increasing cycle numbers, the decomposition of dissolved PSs
+and the generation of gas inside the composite electrolyte led to
+severe structural deformation of S, causing cracking and even
+fracture of the sulfur cathode. In addition, ex-situ AFM was
+used to monitor the structural evolution and dynamic behav-
+ior of the composite electrolyte at the nano/microscale. The re-
+sults showed that after PS dissolved in the composite electrolyte,
+the interaction between the polymer network and the functional
+ﬁller particles weakened, which had a signiﬁcant impact on its
+mechanical stability, further leading to the aggravation of CE
+deformation. Real-time observation directly revealed the evolu-
+tion process of the interface morphology and the dynamic be-
+havior of the interface morphology, providing direct guidance
+for material design and performance improvement of SSLSBs
+(Figure 18a).[147] Yang et al. compared and analyzed the stability
+of Li-In|LPSC|pOMS/S70 and Li-In|LPSC|pOMC/S70 ASSLSBs
+(pOMS refers to silica carrier, pOMC refers to carbon-based car-
+rier) during the charge–discharge cycling process. SEM results
+showed that the pOMC/S70 cathode underwent signiﬁcant mor-
+phological changes after cycling, and this change came from
+the decomposition of the solid electrolyte. In contrast, the mor-
+phology and chemical properties of the pOMS/S70 cathode re-
+mained basically unchanged after cycling, beneﬁting from its
+inhibition of solid electrolyte decomposition (Figure 18b).[122]
+Huang et al. employed an innovative research approach, com-
+bining microelectromechanical systems heating devices and in
+situ TEM techniques, to investigate the precipitation and decom-
+position processes of Li2S under high-temperature conditions.
+The experimental results revealed that room-temperature electro-
+chemical lithiation causes Li2S to evolve from an amorphous or
+nanocrystalline structure to a polycrystalline state. Elevated tem-
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (25 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 26 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+peratures not only promoted the precipitation process of Li2S,
+making it more complete, but also signiﬁcantly enhanced its de-
+composition eﬃciency. This phenomenon is attributed to the en-
+hanced Li+ conduction capability in high-temperature environ-
+ments. The research team thus inferred that the diﬀusion be-
+havior of Li+ in Li2S is a key factor determining the reversibility
+performance of ASSLSBs.[149] Yang et al. prepared a new type of
+Li2S-LixIn2S3 cathode using In2S3 and Li2S as raw materials by
+high-energy ball milling. In situ TEM characterization results ex-
+plain that there is no volume change for the sample only under
+electron beam irradiation, indicating the electron beam or other
+environmental factors do not aﬀect the in situ TEM experiments.
+Speciﬁcally, in delithiation of Li2S-0.1In, the volume contracts
+from 576.6 to 565.8 nm over 106 s with 1.9% volume contrac-
+tion. While in reverse, volume increases from 418.4 to 432.4 nm
+in 31.5 s of lithiation, corresponding to 3.3% volume expansion
+(Figure 14c).[148]
+7.1. Future Perspectives
+Solid-state lithium–sulfur batteries, as a crucial candidate for
+the next generation of high-energy-density energy storage sys-
+tems, aim to achieve a gravimetric energy density exceeding
+800 Wh kg−1 to meet the practical application requirements
+in ﬁelds, such as electric vehicles and aerospace. To reach this
+goal, breakthroughs are needed in multiple aspects: the sulfur
+cathode must achieve high sulfur loading and utilization; the
+lithium metal anode needs to maintain long-term stability; the
+solid electrolyte should combine high ionic conductivity with
+good mechanical properties; simultaneously, a stable interface
+between the electrodes and electrolyte must be formed. These
+challenges demand higher standards in material design, inter-
+face engineering, and battery manufacturing processes. Looking
+ahead, breakthroughs in solid-state lithium–sulfur battery tech-
+nology may come from multiple innovative directions: the devel-
+opment of novel solid electrolytes could fundamentally alter the
+performance ceiling of batteries; performance optimization for
+speciﬁc usage scenarios may open up entirely new application
+ﬁelds; in-depth understanding of the impact of external pressure
+on battery performance could provide crucial guidance for pro-
+cess optimization; while the advancement of commercial appli-
+cations may accelerate technological innovation across the entire
+industry.
+7.2. Research on Novel Solid Electrolytes
+To achieve eﬃcient ion migration with high sulfur loading, devel-
+oping highly conductive solid electrolytes has become a necessary
+research direction. Theoretical analysis indicates that for solid-
+state battery systems using intercalation-type cathode active ma-
+terials, the ionic conductivity needs to reach at least 10 mS cm−1.
+However, due to the presence of more insulating components in
+all-solid-state lithium–sulfur battery systems, higher ionic con-
+ductivity is required to ensure their performance. Building upon
+oxide and sulﬁde solid-state batteries, researchers are focusing
+on developing new components and ultrathin structures for solid
+electrolytes.
+In the pursuit of solid-state electrolytes with ultrahigh ionic
+conductivity, oxohalide and sulfohalide materials have demon-
+strated exceptional potential for application. For example, the
+Li9.54[Si1−𝛿M𝛿]1.74P1.44S11.1Br0.3O0.6 (LSiMPSBrO, M = Ge, Sn)
+solid electrolyte developed by Professor Ryoji Kanno’s team
+achieves a volumetric ionic conductivity as high as 32 mS cm−1,
+about three times that of the original LGPS.[150] Wang et al.
+successfully synthesized a series of halogen-rich thio-argyrodite
+compounds with the general formula Li5.5PS4.5ClxBr1.5−x (where
+0≤x≤1.5). Among this series, Li5.5PS4.5Cl0.8Br0.7 (with a conﬁg-
+urational entropy ΔSconf = 1.98R) showed exceptional perfor-
+mance, achieving a remarkably high ionic conductivity of 22.7
+mS cm−1 at room temperature.[151]
+In addition to high ionic conductivity, solid electrolytes should
+possess excellent mechanical properties, particularly good duc-
+tility. This ductility is crucial for maintaining the stability of the
+electrode/electrolyte interface, contributing to the suppression of
+lithium dendrite growth and enhancing the cycle life of batteries.
+Zhou et al. manufactured ﬂexible, ultrathin, and robust solid elec-
+trolytes for solid-state lithium–sulfur batteries using electrospin-
+ning technology. This method combines a PU&PVDF/LLZTO
+composite skeleton with a PVDF-HFP/SN/LiTFSI mixed lithium
+salt solution to prepare an 18 μm thick composite polymer elec-
+trolyte (CPE). This CPE exhibits excellent mechanical proper-
+ties, high ionic conductivity, and a wide electrochemical window,
+while forming a stable SEI layer at the lithium anode interface.
+Li|SPAN batteries based on this CPE maintain a capacity reten-
+tion rate of 94.0% after 350 cycles at 0.5C.[152]
+7.3. The Impact of Environmental Temperature on Performance
+The operation of all-solid-state lithium–sulfur batteries across a
+wide temperature range is crucial for speciﬁc application sce-
+narios. However, low-temperature environments pose numer-
+ous challenges to batteries, including slower electrochemical re-
+action kinetics, reduced ionic conductivity, and decreased ion
+diﬀusion capability in electrodes. To address these issues, re-
+searchers have proposed various innovative strategies: For S elec-
+trode modiﬁcation, Wang et al. designed a short-chain molecular
+cathode S8-SeTe using an entropy regulation strategy. At −20 °C,
+the battery demonstrated excellent cycle stability of 98.4% and
+an electrode energy density of 394.9 Wh kg−1 after 100 cycles.
+Even at an extreme low temperature of −40 °C, the battery could
+still function normally, providing a discharge capacity of 579.6
+mAh g−1.[153] For lithium anode modiﬁcation, Sun et al. intro-
+duced trace amounts of solid-state catalysts into the lithium metal
+anode, regulating the Li2S2/Li2S mixed discharge products. At
+−10 °C, the initial discharge capacity was 336 mAh g−1.[22] Re-
+search on solid electrolytes mainly focuses on optimizing room-
+temperature ionic conductivity and reducing thermal sensitivity.
+Currently, most studies are based on polymer-based solid elec-
+trolytes. For example, by introducing hyperbranched polymer
+plasticizers to construct dynamic crosslinked networks, a wide-
+temperature amorphous phase structure has been achieved. This
+type of quasisolid-state electrolyte with high solid content exhibits
+excellent lithium-ion mobility, mechanical properties, and inter-
+face stability under low-temperature conditions. However, break-
+throughs are still needed in the application of inorganic solid
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (26 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 27 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+electrolytes and inorganic/organic hybrid solid electrolytes in all-
+solid-state battery systems.[154]
+7.4. The Impact of External Pressure on Performance
+External pressure on solid-state batteries falls into two cate-
+gories: preparation pressure (tens to thousands of MPa) and
+stack pressure (<10 MPa). Preparation pressure primarily af-
+fects the microstructure of electrodes and electrolytes, such as
+porosity and ionic conductivity; stack pressure optimizes the
+interfacial contact between electrodes and solid electrolytes. The
+choice of stack pressure depends on the physical properties
+of materials, such as Young’s modulus and shear modulus.
+Appropriate pressure can compensate for volume changes
+during charge–discharge cycles, reduce interfacial resistance,
+and ensure uniform current distribution. However, excessive
+pressure may lead to localized stress concentration and po-
+tentially cause unexpected lithium metal penetration into the
+solid electrolyte layer, potentially triggering short circuits and
+aﬀecting battery performance. Therefore, precise control and op-
+timization of pressure parameters are crucial for enhancing the
+electrochemical performance of batteries. Currently, there are
+few studies on the impact of pressure on solid-state lithium–
+sulfur battery performance, making related research on solid-
+state lithium-ion batteries highly instructive. The mechanical
+response characteristics of solid electrolytes signiﬁcantly de-
+pend on material composition. Sulﬁde SEs (e.g., Li6PS5Cl)
+exhibit lower elastic moduli (18–25 GPa) and excellent room-
+temperature plastic deformation capabilities, being highly
+sensitive to stress states. Optimizing preparation pressure (e.g.,
+increasing from 50 to 370 MPa) can signiﬁcantly improve their
+density, ion mobility, and electrochemical performance. In con-
+trast, oxide SEs (such as Li7La3Zr2O12, LLZO) have higher elastic
+moduli (about 150 GPa) and intrinsic brittleness, requiring
+more precise pressure parameter control to avoid microstruc-
+tural damage.[155] Soboyejo et al., based on the LiBH4-LiNH2
+solid electrolyte system, studied the eﬀect of stack pressure on
+the interfacial characteristics of all-solid-state batteries (ASSBs)
+through computational models, ﬁnite element analysis, and ex-
+perimental research. The study showed that moderate pressure
+(0.26 MPa) can optimize interfacial contact, compress voids,
+enhance ion transport while maintaining elastic deformation
+of the electrolyte, achieving the highest room-temperature con-
+ductivity of 9 × 10−5 S cm−1 at this pressure. However, when
+pressure increases to 1 MPa, it causes signiﬁcant axial and shear
+strain, potentially leading to interfacial yielding or cracking,
+damaging the electrode structure and reducing electrochemical
+performance. This reveals the importance of stack pressure
+optimization in ASSB design, requiring a balance between im-
+proving interfacial contact and avoiding mechanical damage.[155]
+The choice of solid electrolyte system determines whether exter-
+nal force is necessary. Based on current optimization strategies
+for electrodes/interfaces in existing solid-state batteries, most
+battery tests are still conducted without applied external pres-
+sure. However, it is worth noting that external pressure can serve
+as an innovative in situ electrochemical characterization method.
+By applying diﬀerential pressure testing techniques (dP/dV),
+researchers can obtain real-time electrochemical-pressure re-
+sponse data for all-solid-state lithium–sulfur batteries, providing
+crucial information for deciphering the reaction mechanisms of
+sulfur cathodes.[156]
+7.5. Industrial Applications
+Flexible pack batteries, despite their larger eﬀective area, face
+challenges with uneven current density distribution, potentially
+reducing their lifespan. All-solid-state ﬂexible pack batteries dif-
+fer markedly from conventional liquid systems in structure and
+assembly due to their solid-state electrolytes (SSEs). Manufac-
+turing processes vary based on the SSE type: roll-to-roll for ul-
+trathin inorganic ﬁlms, and bipolar plate stacking for compos-
+ite thick electrodes and self-diﬀusing electrodes.[157,158] Currently,
+the stacking method is the most commonly used method for
+assembling ﬂexible pack batteries on a laboratory scale. For ex-
+ample, Wu et al. developed an all-solid-state lithium sulﬁde bat-
+tery using the stacking method. When assembled with a com-
+mercial silicon carbide cathode, the whole battery exhibits ex-
+cellent performance: it retains more than 97% of its initial dis-
+charge capacity after 400 cycles at room temperature. Notably,
+this stacked system achieves a high energy density of over 600 Wh
+kg−1.[56] To achieve the ambitious energy density target of 800 Wh
+kg−1 by 2035 for ASSLSBs, precise control, and optimization of
+key engineering parameters is essential. This requires the com-
+ponents to meet stringent performance speciﬁcations: the cath-
+ode needs to achieve a high sulfur loading (>4 mg cm−2) and a
+high sulfur content (S/C ratio >55 wt%) to obtain an area capac-
+ity of more than 6 mAh cm−2 and a sulfur utilization of 90%;
+and the solid-state electrolyte must have a high ionic conductiv-
+ity (at least 10 mS cm−1) and a very low electronic conductivity
+(<10−8 S cm−1), and the thickness should be controlled below
+30 μm; for the anode, the thickness of lithium metal should be
+precisely controlled in the range of 10–50 μm, and the polariza-
+tion of the electrode should be limited to below 1.2 V; moreover,
+the capacity ratio of the negative electrode to the positive elec-
+trode (N/P ratio) in the overall design of the battery should be kept
+below 1.1.[159,18,32,82]
+The commercialization of solid-state lithium–sulfur batter-
+ies faces multiple process challenges, urgently requiring break-
+throughs in several key areas. The primary diﬃculty lies in de-
+veloping large-scale production technologies, necessitating the
+transformation of laboratory-level manufacturing methods into
+eﬃcient industrial production processes, especially for the prepa-
+ration of solid electrolyte ﬁlms and composite electrodes, while
+ensuring quality, improving eﬃciency, and reducing costs. In
+electrode manufacturing, traditional slurry coating techniques
+for liquid batteries are no longer applicable, urgently requiring
+the development of new methods, such as improved aerosol
+deposition or dry powder technology to achieve high-quality,
+uniform electrode layers. Battery assembly also needs innova-
+tion, developing specialized stacking, pressing, and packaging
+techniques to ensure tight bonding of components and main-
+tain good interfacial contact. Interface treatment is another key
+challenge, requiring eﬃcient surface modiﬁcation or coating
+technologies to reduce interfacial impedance and improve bat-
+tery eﬃciency. During production, the compatibility and sta-
+bility of various materials (such as sulfur, lithium metal, solid
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (27 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 28 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+electrolytes) are also important considerations, demanding new
+material processing and protection technologies. Finally, qual-
+ity control and consistency assurance in large-scale production
+are crucial, requiring the establishment of advanced online mon-
+itoring systems and quality management processes to ensure
+product reliability. Overcoming these process challenges will
+greatly promote the commercialization of solid-state lithium–
+sulfur batteries, bringing revolutionary changes to the new en-
+ergy industry.[159,18,32]
+Acknowledgements
+T.L. and R.L. contributed equally to this work. This work was ﬁnancially
+supported by the Natural Science Foundation of Zhejiang Province (No.
+LZ23E010003), the Key R&D Program of Zhejiang (No. 2024SSYS0080),
+and the National Natural Science Foundation of China (No. 52302301).
+Conﬂict of Interest
+The authors declare no conﬂict of interests.
+Keywords
+all-solid-state lithium–sulfur batteries, ex/in situ characterization, inter-
+face issues, solid-state electrolytes, sulfur cathode
+Received: July 30, 2024
+Revised: October 11, 2024
+Published online: December 4, 2024
+[1] G. Conroy, Nature 2022, 609, 2.
+[2] H. S. Boudet, Nat. Energy 2019, 4, 446.
+[3] C. A. Mirkin, E. H. Sargent, D. P. Schrag, Science 2024, 384, 713.
+[4] D. M. Davies, M. G. Verde, O. Mnyshenko, Y. R. Chen, R. Rajeev, Y.
+S. Meng, G. Elliott, Nat. Energy 2019, 4, 42.
+[5] M. Armand, J. M. Tarascon, Nature 2008, 451, 652.
+[6] Y. Li, Y. Lu, C. Zhao, Y. S. Hu, M. M. Titirici, H. Li, X. Huang, L. Chen,
+Energy Storage Mater. 2017, 7, 130.
+[7] W. Yao, J. Xu, L. Ma, X. Lu, D. Luo, J. Qian, L. Zhan, I. Manke, C.
+Yang, P. Adelhelm, R. Chen, Adv. Mater. 2023, 35, 2212116.
+[8] W. Yao, K. Liao, T. Lai, H. Sul, A. Manthiram, Chem. Rev. 2024, 124,
+4935.
+[9] T. Wang, J. He, Z. Zhu, X.-B. Cheng, J. Zhu, B. Lu, Y. Wu, Adv. Mater.
+2023, 35, 202303520.
+[10] Y. Chen, T. Wang, H. Tian, D. Su, Q. Zhang, G. Wang, Adv. Mater.
+2021, 33, 2003666.
+[11] Z. Nie, K. Xu, Y. Lu, H. Zhang, H. Liu, F. Xu, J. Zhu, Adv. Sustainable
+Syst. 2022, 6, 2200086.
+[12] S. Lv, X. Ma, S. Ke, Y. Wang, T. Ma, S. Yuan, J. L. Zuo, J. Am. Chem.
+Soc. 2024, 146, 9385.
+[13] Y. Gong, J. Li, K. Yang, S. Li, M. Xu, G. Zhang, Y. Shi, Q. Cai, H. Li, Y.
+Zhao, Nano-Micro Lett. 2023, 15, 150.
+[14] M. K. Aslam, S. Jamil, S. Hussain, M. Xu, Energy Environ. Mater.
+2023, 6, e12420.
+[15] J. Chen, Y. Fu, J. Guo, Adv. Mater. 2024, 36, 2401263.
+[16] F. Pei, S. Dai, B. Guo, H. Xie, C. Zhao, J. Cui, X. Fang, C. Chen, N.
+Zheng, Energy Environ. Sci. 2021, 14, 975.
+[17] B. Qi, X. Hong, Y. Jiang, J. Shi, M. Zhang, W. Yan, C. Lai, Nano-Micro
+Lett. 2024, 16, 71.
+[18] C. Wang, J. T. Kim, C. Wang, X. Sun, Adv. Mater. 2023, 35, 2209074.
+[19] C. Xian, Q. Wang, Y. Xia, F. Cao, S. Shen, Y. Zhang, M. Chen, Y.
+Zhong, J. Zhang, X. He, X. Xia, W. Zhang, J. Tu, Small 2023, 19,
+2208164.
+[20] C. Yan, Y. Zhou, H. Cheng, R. Orenstein, P. Zhu, O. Yildiz, P.
+Bradford, J. Jur, N. Wu, M. Dirican, X. Zhang, Energy Storage Mater.
+2022, 44, 136.
+[21] D. Cao, X. Sun, F. Li, S.-M. Bak, T. Ji, M. Geiwitz, K. S. Burch, Y. Du,
+G. Yang, H. Zhu, Angew. Chem., Int. Ed. 2023, 62, e202302363.
+[22] J. T. Kim, A. Rao, H.-Y. Nie, Y. Hu, W. Li, F. Zhao, S. Deng, X. Hao,
+J. Fu, J. Luo, H. Duan, C. Wang, C. V. Singh, X. Sun, Nat. Commun.
+2023, 14, 6404.
+[23] S. Y. Han, C. Lee, J. A. Lewis, D. Yeh, Y. Liu, H. W. Lee, M. T.
+McDowell, Joule 2021, 5, 2450.
+[24] X. Yu, A. Manthiram, Acc. Chem. Res. 2017, 50, 2653.
+[25] J. Schnell, F. Tietz, C. Singer, A. Hofer, N. Billot, G. Reinhart, Energy
+Environ. Sci. 2019, 12, 1818.
+[26] Y. Liang, H. Liu, G. Wang, C. Wang, Y. Ni, C. W. Nan, L. Z. Fan, Info-
+Mat 2022, 4, e12292.
+[27] B. Ma, R. Li, H. Zhu, T. Zhou, L. Lv, H. Zhang, S. Zhang, L. Chen, J.
+Wang, X. Xiao, T. Deng, L. Chen, C. Wang, X. Fan, Adv. Mater. 2024,
+36, 2402324.
+[28] M. A. Marple, T. A. Wynn, D. Cheng, R. Shimizu, H. E. Mason, Y. S.
+Meng, Angew. Chem., Int. Ed. 2020, 59, 22185.
+[29] Y. Wei, Z. Li, Z. Chen, P. Gao, M. Gao, C. Yan, Z. Wu, Q. Ma, Y. Jiang,
+X. Yu, X. Zhang, Y. Liu, Y. Yang, M. Gao, W. Sun, Z. Qu, J. Chen, H.
+Pan, Energy Environ. Sci. 2023, 16, 4679.
+[30] L. Hu, T. Yang, X. Yan, Y. Liu, W. Zhang, J. Zhang, Y. Xia, Y. Wang, Y.
+Gan, X. He, X. Xia, R. Fang, X. Tao, H. Huang, ACS Nano 2024, 18,
+8463.
+[31] X. Zhu, W. Jiang, L. Wang, J. Lu, Adv. Energy Mater. 2024, 14,
+2304244.
+[32] J. Lee, C. Zhao, C. Wang, A. Chen, X. Sun, K. Amine, G. L. Xu, Chem.
+Soc. Rev. 2024, 53, 5264.
+[33] Y. Ye, H. Xie, Y. Yang, Y. Xie, Y. Lu, J. Wang, X. Kong, S. Jin, H. Ji, J.
+Am. Chem. Soc. 2023, 145, 24775.
+[34] H. Duan, C. Wang, R. Yu, W. Li, J. Fu, X. Yang, X. Lin, M. Zheng, X.
+Li, S. Deng, X. Hao, R. Li, J. Wang, H. Huang, X. Sun, Adv. Energy
+Mater. 2023, 13, 2300815.
+[35] T. Sun, Q. Liang, S. Wang, J. Liao, Small 2024, 20, 2308297.
+[36] C. Duan, Z. Cheng, W. Li, F. Li, H. Liu, J. Yang, G. Hou, P. He, H.
+Zhou, Energy Environ. Sci. 2022, 15, 3236.
+[37] F. Pei, L. Wu, Y. Zhang, Y. Liao, Q. Kang, Y. Han, H. Zhang, Y. Shen,
+H. Xu, Z. Li, Y. Huang, Nat. Commun. 2024, 15, 351.
+[38] Y. Sun, C. Zhao, K. R. Adair, Y. Zhao, L. V. Goncharova, J. Liang, C.
+Wang, J. Li, R. Li, M. Cai, T. Sham, X. Sun, Energy Environ. Sci. 2021,
+14, 4085.
+[39] H. Yang, L. Wang, C. Geng, Y. Zhao, Q. Li, X. Jiang, Z. Tian, M. Wang,
+C. Jiang, Z. Sun, B. Cui, Y. B. He, W. Chen, W. Lv, Q. H. Yang, Adv.
+Energy Mater. 2024, 14, 2400249.
+[40] C. Shi, T. Hamann, S. Takeuchi, G. V. Alexander, A. M. Nolan, M.
+Limpert, Z. Fu, J. O’Neill, G. Godbey, J. A. Dura, E. D. Wachsman,
+ACS Appl. Mater. Interfaces 2023, 15, 751.
+[41] C. Shi, S. Takeuchi, G. V. Alexander, T. Hamann, J. O’Neill, J. A. Dura,
+E. D. Wachsman, Adv. Energy Mater. 2023, 13, 2301656.
+[42] C. Shi, G. V. Alexander, J. O’Neill, K. Duncan, G. Godbey, E. D.
+Wachsman, ACS Energy Lett. 2023, 8, 1803.
+[43] A. A. AbdelHamid, J. L. Cheong, J. Y. Ying, Nano Energy 2020, 71,
+104633.
+[44] W. Li, Q. Wang, J. Jin, Y. Li, M. Wu, Z. Wen, Energy Storage Mater.
+2019, 23, 299.
+[45] Y. Gong, K. Fu, S. Xu, J. Dai, T. R. Hamann, L. Zhang, G. T. Hitz, Z.
+Fu, Z. Ma, D. W. McOwen, X. Han, L. Hu, E. D. Wachsman, Mater.
+Today 2018, 21, 594.
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (28 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 29 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+[46] S. Xu, D. W. McOwen, L. Zhang, G. T. Hitz, C. Wang, Z. Ma, C. Chen,
+W. Luo, J. Dai, Y. Kuang, E. M. Hitz, K. Fu, Y. Gong, E. D. Wachsman,
+L. Hu, Energy Storage Mater. 2018, 15, 458.
+[47] M. M. U. Din, R. Murugan, Electrochem. Commun. 2018, 93, 109.
+[48] Y. Li, X. Chen, A. Dolocan, Z. Cui, S. Xin, L. Xue, H. Xu, K. Park, J. B.
+Goodenough, J. Am. Chem. Soc. 2018, 140, 6448.
+[49] X. Yu, A. Manthiram, Adv. Funct. Mater. 2018, 29, 1805996.
+[50] X. Huang, C. Liu, Y. Lu, T. Xiu, J. Jin, M. E. Badding, Z. Wen, J. Power
+Sources 2018, 382, 190.
+[51] K. Fu, Y. Gong, G. T. Hitz, D. W. McOwen, Y. Li, S. Xu, Y. Wen,
+L. Zhang, C. Wang, G. Pastel, J. Dai, B. Liu, H. Xie, Y. Yao, E. D.
+Wachsman, L. Hu, Energy Environ. Sci. 2017, 10, 1568.
+[52] K. K. Fu, Y. Gong, S. Xu, Y. Zhu, Y. Li, J. Dai, C. Wang, B. Liu, G. Pastel,
+H. Xie, Y. Yao, Y. Mo, E. Wachsman, L. Hu, Chem. Mater. 2017, 29,
+8037.
+[53] K. K. Fu, Y. Gong, B. Liu, Y. Zhu, S. Xu, Y. Yao, W. Luo, C. Wang, S. D.
+Lacey, J. Dai, Y. Chen, Y. Mo, E. Wachsman, L. Hu, Sci. Adv. 2017, 3,
+e1601659.
+[54] Y. Li, B. Xu, H. Xu, H. Duan, X. Lu, S. Xin, W. Zhou, L. Xue, G. Fu,
+A. Manthiram, J. B. Goodenough, Angew. Chem., Int. Ed. 2017, 56,
+753.
+[55] T. Jin, K. Liang, J. H. Yu, T. Wang, Y. Li, T.-D. Li, S. P. Ong, J. S. Yu, Y.
+Yang, Nano Lett. 2024, 24, 6625.
+[56] J. Gao, Y. Gao, J. Hao, X. Sun, F. Zhao, Y. Zhang, W. Si, J. Wu, Small
+2024, 2404171.
+[57] D. Wang, L. J. Jhang, R. Kou, M. Liao, S. Zheng, H. Jiang, P. Shi, G.
+X. Li, K. Meng, D. Wang, Nat. Commun. 2023, 14, 1895.
+[58] C. Wang, Y. Wu, J. Gao, X. Sun, Q. Zhao, W. Si, Y. Zhang, K. Wang, F.
+Zhao, T. Ohsaka, F. Matsumoto, C. Huang, J. Wu, ACS Appl. Mater.
+Interfaces 2023, 15, 40496.
+[59] X. Zhu, W. Jiang, S. Zhao, R. Huang, M. Ling, C. Liang, L. Wang,
+Nano Energy 2022, 96, 107093.
+[60] T. Hakari, Y. Fujita, M. Deguchi, Y. Kawasaki, M. Otoyama, Y. Yoneda,
+A. Sakuda, M. Tatsumisago, A. Hayashi, Adv. Funct. Mater. 2022, 32,
+2106174.
+[61] Z. Yang, F. Wang, Z. Hu, J. Chu, H. Zhan, X. Ai, Z. Song, Adv. Energy
+Mater. 2021, 11, 2102962.
+[62] Z. Sun, Y. Hu, F. Qin, N. Lv, B. Li, L. Jiang, Z. Zhang, F. Liu, Energy
+Fuels 2021, 5, 5603.
+[63] J. Y. Kim, J. Park, S. H. Kang, S. Jung, D. O. Shin, M. J. Lee, J. Oh, K.
+M. Kim, J. Zausch, Y.-G. Lee, Y. M. Lee, Energy Storage Mater. 2021,
+41, 289.
+[64] S. Xu, C. Y. Kwok, L. Zhou, Z. Zhang, I. Kochetkov, L. F. Nazar, Adv.
+Funct. Mater. 2021, 31, 2004239.
+[65] M. Jiang, G. Liu, Q. Zhang, D. Zhou, X. Yao, ACS Appl. Mater. Inter-
+faces 2021, 13, 18666.
+[66] M. K. Tufail, L. Zhou, N. Ahmad, R. Chen, M. Faheem, L. Yang, W.
+Yang, Chem. Eng. J. 2021, 407, 127149.
+[67] H. Jiang, Y. Han, H. Wang, Y. Zhu, Q. Guo, H. Jiang, W. Sun, C.
+Zheng, K. Xie, J. Alloy. Compd. 2021, 874, 159763.
+[68] L. Zhou, M. K. Tufail, N. Ahmad, T. Song, R. Chen, W. Yang, ACS
+Appl. Mater. Interfaces 2021, 13, 28270.
+[69] A. S. Alzahrani, M. Otaki, D. Wang, Y. Gao, T. S. Arthur, S. Liu, D.
+Wang, ACS Energy Lett. 2021, 6, 413.
+[70] L.-P. Hou, H. Yuan, C.-Z. Zhao, L. Xu, G.-L. Zhu, H.-X. Nan, X.-B.
+Cheng, Q.-B. Liu, C.-X. He, J.-Q. Huang, Q. Zhang, Energy Storage
+Mater. 2020, 25, 436.
+[71] H. Yuan, H. X. Nan, C. Z. Zhao, G. L. Zhu, Y. Lu, X. B. Cheng, Q.
+B. Liu, C. X. He, J. Q. Huang, Q. Zhang, Batteries Supercaps 2020, 3,
+596.
+[72] S. M. Hosseini, A. Varzi, S. Ito, Y. Aihara, S. Passerini, Energy Storage
+Mater. 2020, 27, 61.
+[73] H. Nagata, Y. Chikusa, J. Akimoto, J. Power Sources 2020, 453,
+227905.
+[74] W. Zhang, Y. Zhang, L. Peng, S. Li, X. Wang, S. Cheng, J. Xie, Nano
+Energy 2020, 76, 105083.
+[75] N. H. H. Phuc, M. Takaki, H. Muto, M. Reiko, H. Kazuhiro, ACS Appl.
+Energy Mater. 2020, 3, 1569.
+[76] Q. Zhang, N. Huang, Z. Huang, L. Cai, J. Wu, X. Yao, J. Energy Chem.
+2020, 40, 151.
+[77] T. Ando, Y. Sato, T. Matsuyama, A. Sakuda, M. Tatsumisago, A.
+Hayashi, J. Ceram. Soc. Jpn. 2020, 128, 233.
+[78] J. Yue, Y. Huang, S. Liu, J. Chen, F. Han, C. Wang, ACS Appl. Mater.
+Interfaces 2020, 12, 36066.
+[79] D. Wang, Y. Wu, X. Zheng, S. Tang, Z. Gong, Y. Yang, J. Power Sources
+2020, 479, 228792.
+[80] J. P. Mwizerwa, Q. Zhang, F. Han, H. Wan, L. Cai, C. Wang, X. Yao,
+ACS Appl. Mater. Interfaces 2020, 12, 18519.
+[81] X. Liang, L. Wang, X. Wu, X. Feng, Q. Wu, Y. Sun, H. Xiang, J. Wang,
+J. Energy Chem. 2022, 73, 370.
+[82] F. Liang, S. Wang, Q. Liang, A. Zhong, C. Yang, J. Qian, H. Song, R.
+Chen, Adv. Energy Mater. 2024, 14, 2401959.
+[83] H. Lee, S. Han, D. G. Lee, H. Ko, J. Lee, W. B. Im, T. Song, J. Choi,
+S. B. Cho, Chem. Eng. J. 2023, 471, 144552.
+[84] C. Chen, K. Wang, H. He, E. Hanc, M. Kotobuki, L. Lu, Small 2023,
+19, 2205550.
+[85] R. Murugan, V. Thangadurai, W. Weppner, Angew. Chem., Int. Ed.
+2007, 46, 7778.
+[86] E. Anderson, E. Zolfaghar, A. Jonderian, R. Z. Khaliullin, E. McCalla,
+Adv. Energy Mater. 2024, 14, 2304025.
+[87] Y. Feng, L. Yang, Z. Yan, D. Zuo, Z. Zhu, L. Zeng, Y. Zhu, J. Wan,
+Energy Storage Mater. 2023, 63, 103053.
+[88] F. Sun, Y. Yang, S. Zhao, Y. Wang, M. Tang, Q. Huang, H. Yu, ACS
+Energy Lett. 2022, 7, 2835.
+[89] S. S. Aamlid, M. Oudah, J. Rottler, A. M. Hallas, J. Am. Chem. Soc.
+2023, 145, 5991.
+[90] Y. Zeng, B. Ouyang, J. Liu, Y.-W. Byeon, Z. Cai, L. J. Miara, Y. Wang,
+G. Ceder, Science 2022, 378, 1320.
+[91] J. A. Isaac, D. Devaux, R. Bouchet, Nat. Mater. 2022, 21, 1412.
+[92] Q. Shen, D. Jiang, S. Cao, X. Lu, C. Mao, X. Dai, F. Chen, ACS Appl.
+Mater. Interfaces 2023, 15, 38759.
+[93] P. Barai, T. Fister, Y. Liang, J. Libera, M. Wolfman, X. Wang, J. Garcia,
+H. Iddir, V. Srinivasan, Chem. Mater. 2021, 33, 4337.
+[94] S. Chen, X. Hu, W. Bao, Z. Wang, Q. Yang, L. Nie, X. Zhang, J. Zhang,
+Y. Jiang, Y. Han, C. Wan, J. Xie, Y. Yu, W. Liu, Cell Rep. Phys. Sci. 2021,
+2, 100551.
+[95] M. Sato, R. Garcia-Mendez, J. Sakamoto, J. Asian Ceram. Soc. 2020,
+8, 793.
+[96] Y. Zhou, X. Li, Y. Yang, X. Huang, B. Tian, ACS Appl. Energy Mater.
+2022, 5, 13817.
+[97] S. Chen, L. Nie, X. Hu, Y. Zhang, Y. Zhang, Y. Yu, W. Liu, Adv. Mater.
+2022, 34, 2200430.
+[98] R. Mercier, J. P. Malugani, B. Fahys, Solid State Ionics 1981, 5, 663.
+[99] M. Tachez, J. Malugani, R. Mercier, G. Robert, Solid State Ionics 1984,
+14, 181.
+[100] R. Kanno, M. Murayama, J. Electrochem. Soc. 2001, 148, A742.
+[101] N. Kamaya, K. Homma, Y. Yamakawa, M. Hirayama, R. Kanno, M.
+Yonemura, T. Kamiyama, Y. Kato, S. Hama, K. Kawamoto, A. Mitsui,
+Nat. Mater. 2011, 10, 682.
+[102] Y. Kato, S. Hori, T. Saito, Nat. Energy 2016, 1, 16030.
+[103] Y. Sun, K. Suzuki, S. Hori, M. Hirayama, Chem. Mater. 2020, 32,
+2664.
+[104] J. Liang, N. Chen, X. Li, X. Li, K. R. Adair, J. Li, C. Wang, C. Yu, M. N.
+Banis, L. Zhang, S. Zhao, S. Lu, H. Huang, R. Li, Y. Huang, X. Sun,
+Chem. Mater. 2017, 29, 5858.
+[105] P. Lu, Y. Xia, G. Sun, D. Wu, S. Wu, W. Yan, X. Zhu, J. Lu, Q. Niu,
+S. Shi, Z. Sha, L. Chen, H. Li, F. Wu, Nat. Commun. 2023, 14,
+4077.
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (29 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 30 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+[106] K. Homma, M. Yonemura, T. Kobayashi, Solid State Ionics 2011, 182,
+53.
+[107] S. Teragawa, K. Aso, K. Tadanaga, J. Mater. Chem. A 2014, 2, 5095.
+[108] T. Hakari, M. Nagao, A. Hayashi, J. Power Sources 2015, 293, 721.
+[109] K. Mori, T. Ichida, K. Iwase, Chem. Phys. Lett. 2013, 584, 113.
+[110] K. Homma, M. Yonemura, M. Nagao, J. Phys. Soc. Jpn. 2010, 79, 90.
+[111] J. Zhou, P. Chen, W. Wang, X. Zhang, Chem. Eng. J. 2022, 446,
+137041.
+[112] S. Kondo, K. Takada, Y. Yamamura, Solid State Ionics 1992, 53, 1183.
+[113] S. Ujiie, T. Inagaki, A. Hayashi, Solid State Ionics 2014, 263, 57.
+[114] D. L. Messurier, V. Petkov, S. W. Martin, J. Phys.: Condens. Matter
+2009, 21, 435104.
+[115] B. Huang, X. Yao, Z. Huang, J. Power Sources 2015, 284, 206.
+[116] J. Kim, Y. Yoon, M. Eom, Solid State Ionics 2012, 225, 626.
+[117] E. Rangasamy, Z. Liu, M. Gobet, J. Am. Chem. Soc. 2014, 136, 6874.
+[118] S. P. Ong, Y. Mo, W. D. Richards, Energy Environ. Sci. 2013, 6, 148.
+[119] J. M. Whiteley, J. H. Woo, E. Hu, J. Electrochem. Soc. 2014, 161,
+A1812.
+[120] B. Philipp, J. Sebastian, Z. Klaus, J. Am. Chem. Soc. 2013, 135, 15694.
+[121] B. Chen, S. Deng, M. Jiang, M. Wu, J. Wu, X. Yao, Chem. Eng. J. 2022,
+448, 137712.
+[122] T. Jin, K. Liang, J.-H. Yu, T. Wang, Y. Li, T.-D. Li, S. P. Ong, J.-S. Yu, Y.
+Yang, Nano Lett. 2024, 24, 816.
+[123] H. Li, R. Wang, J. Song, D. Liu, H. Gao, Y. Chao, H. Tang, Energy
+Environ. Mater. 2023, 6, e12687.
+[124] S. H. Kang, W. G. Lim, L. Xu, D. Son, Y. G. Lee, J. Lee, Chem. Eng. J.
+2024, 490, 151489.
+[125] H. Zhong, Y. Su, Y. Wu, J. Gu, R. Ma, Y. Luo, H. Lin, M. Tao, J. Chen,
+Z. Liang, K. Wang, X. Zheng, Z. Chen, J. Peng, Z. Lv, Z. Gong, J.
+Huang, Y. Yang, Adv. Energy Mater. 2023, 13, 2300767.
+[126] X. Zheng, Y. Wu, C. Li, J. Peng, W. Yang, Z. Lv, H. Zhong, Z. Gong,
+Y. Yang, J. Mater. Chem. A 2022, 10, 18907.
+[127] J. Zhou, M. L. H. Chandrappa, S. Tan, S. Wang, C. Wu, H. Nguyen, C.
+Wang, H. Liu, S. Yu, Q. R. S. Miller, G. Hyun, J. Holoubek, J. Hong,
+Y. Xiao, C. Soulen, Z. Fan, E. E. Fullerton, C. J. Brooks, C. Wang, R. J.
+Clément, Y. Yao, E. Hu, S. P. Ong, P. Liu, Nature 2023, 627, 301.
+[128] Y. Zhang, Y. Sun, L. Peng, J. Yang, H. Jia, Z. Zhang, B. Shan, J. Xie,
+Energy Storage Mater. 2019, 21, 287.
+[129] J. Peng, X. Zheng, Y. Wu, C. Li, Z. Lv, C. Zheng, J. Liu, H. Zhong, Z.
+Gong, Y. Yang, ACS Appl. Mater. Interfaces 2023, 15, 20191.
+[130] L. Wang, X. Yin, B. Li, G. W. Zheng, Nano Lett. 2022, 22, 433.
+[131] H. Zhong, Y. Su, R. Ma, Y. Luo, H. Lin, J. Gu, Z. Gong, Y. Yang, Adv.
+Funct. Mater. 2024, 34, 2315925.
+[132] R. Ma, Y. Fan, Y. Jin, S. Pan, H. Zhong, Y. Luo, J. Gu, M. Luo, Y. Wu,
+W. Hu, P. Chen, Y. Su, G. Wu, J. Yan, J. Gao, Z. Gong, Y. Yang, Adv.
+Energy Mater. 2024, 14, 2304412.
+[133] J. Lu, C. Ke, Z. Gong, D. Li, L. Ci, L. Zhang, Q. Zhang, Acta Phys. Sin.
+2021, 70, 198201.
+[134] X. He, K. Zhang, Z. Zhu, Z. Tong, X. Liang, Chem. Soc. Rev. 2024, 53,
+9.
+[135] J. Wang, L. Chen, H. Li, F. Wu, Energy Environ. Mater. 2023, 6, e12613.
+[136] F. Han, A. S. Westover, J. Yue, X. Fan, F. Wang, M. Chi, D. N. Leonard,
+N. J. Dudney, H. Wang, C. Wang, Nat. Energy 2019, 4, 187.
+[137] C. Yildirim, F. Flatscher, S. Ganschow, A. Lassnig, C. Gammer, J.
+Todt, J. Keckes, D. Rettenwander, Nat. Commun. 2024, 15, 8207.
+[138] C. Yuan, W. Lu, J. Xu, Adv. Energy Mater. 2021, 11, 2101807.
+[139] Z. Ning, G. Li, D. L. R. Melvin, Y. Chen, J. Bu, D. Spencer-Jolly, J. Liu,
+B. Hu, X. Gao, J. Perera, C. Gong, S. D. Pu, S. Zhang, B. Liu, G. O.
+Hartley, A. J. Bodey, R. I. Todd, P. S. Grant, D. E. J. Armstrong, T. J.
+Marrow, C. W. Monroe, P. G. Bruce, Nature 2023, 618, 287.
+[140] H. Pan, M. Zhang, Z. Cheng, H. Jiang, J. Yang, P. Wang, P. He, H.
+Zhou, Sci. Adv. 2022, 8, eabn4372.
+[141] Y. Huang, B. Shao, F. Han, J. Mater. Chem. A 2022, 10, 12350.
+[142] Z. X. Wang, Y. Lu, C. Z. Zhao, W. Z. Huang, X. Y. Huang, W. J. Kong,
+L. X. Li, Z. Y. Wang, H. Yuan, J. Q. Huang, Q. Zhang, Joule 2024, 8,
+2794.
+[143] Z. Fan, B. Ding, T. Zhang, Q. Lin, V. Malgras, J. Wang, H. Dou, X.
+Zhang, Y. Yamauchi, Small 2019, 15, 1903952.
+[144] L. Ye, D. Wang, Q. Lu, L. J. Jhang, R. Kou, A. K. Pandey, J. Lira, M.
+Liao, D. Wang, Adv. Mater. 2024, 2407724.
+[145] S. Zhao, G. Li, B. Zhang, S. Zhang, Y. Liu, J. Zhou, M. Luo, S. Guo,
+Adv. Mater. 2024, 36, 2405184.
+[146] M. Wang, X. Hu, H. Su, Y. Zhong, X. Wang, C. Gu, J. Tu, Adv. Funct.
+Mater. 2024, 34, 2407549.
+[147] Y.-X. Song, Y. Shi, J. Wan, S.-Y. Lang, X.-C. Hu, H.-J. Yan, B. Liu, Y.-G.
+Guo, R. Wen, L.-J. Wan, Energy Environ. Sci. 2019, 12, 2496.
+[148] P. Yu, S. Sun, C. Sun, C. Zeng, Z. Hua, N. Ahmad, R. Shao, W. Yang,
+Adv. Funct. Mater. 2024, 34, 2306939.
+[149] Z. Wang, Y. Tang, L. Zhang, M. Li, Z. Shan, J. Huang, Small 2020,
+16, 2001899.
+[150] Y. Li, S. Song, H. Kim, K. Nomoto, H. Kim, X. Sun, S. Hori, K. Suzuki,
+N. Matsui, M. Hirayama, T. Mizoguchi, T. Saito, T. Kamiyama, R.
+Kanno, Science 2023, 381, 50.
+[151] S. Li, J. Lin, M. Schaller, S. Indris, X. Zhang, T. Brezesinski, C.-
+W. Nan, S. Wang, F. Strauss, Angew. Chem., Int. Ed. 2023, 62,
+e202314155.
+[152] L. Nie, J. Zhu, X. Wu, M. Zhang, X. Xiao, R. Gao, X. Wu, Y. Zhu, S.
+Chen, Z. Han, Y. Yu, S. Wang, S. Ling, G. Zhou, Adv. Mater. 2024, 36,
+2400115.
+[153] W. Zhao, Y. Zhang, Q. Liu, Y. Song, X. Li, L. Ren, G. Yin, S. Lou, J.
+Wang, Angew. Chem., Int. Ed. 2024, e202413670.
+[154] a) Z. Li, Y. Ren, X. Guo, Mater. Chem. Front. 2023, 7, 6305. b) F.
+Zhang, Y. Guo, L. Zhang, P. Jia, X. Liu, P. Qiu, H. Zhang, J. Huang,
+eTransportation 2023, 15, 100220.
+[155] R. A. Ahmed, N. Ebechidi, I. Reisya, K. Orisekeh, A. Huda, A.
+Bello, O. K. Oyewole, W. O. Soboyejo, J. Power Sources 2022, 521,
+230230939.
+[156] X. Hu, Z. Zhang, X. Zhang, Y. Wang, X. Yang, X. Wang, M. Fayena-
+Greenstein, H. A. Yehezkel, S. Langford, D. Zhou, B. Li, G. Wang, D.
+Aurbach, Nat. Rev. Mater. 2024, 9, 305.
+[157] Z.-X. Chen, M. Zhao, L.-P. Hou, X.-Q. Zhang, B.-Q. Li, J.-Q. Huang,
+Adv. Mater. 2022, 34, 2201555.
+[158] J.-K. Hu, H. Yuan, S.-J. Yang, Y. Lu, S. Sun, J. Liu, Y.-L. Liao, S. Li, C.-Z.
+Zhao, J.-Q. Huang, J. Energy Chem. 2022, 71, 612.
+[159] J. T. Kim, H. Su, Y. Zhong, C. Wang, H. Wu, D. Zhao, C. Wang, X.
+Sun, Y. Li, Nat. Chem. Eng. 2024, 1, 400.
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (30 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 31 页 ===
+www.advancedsciencenews.com
+www.advsustainsys.com
+TongLiuisanassociateresearchfellowfromtheTianmushanLaboratory.SheobtainedherPh.D.
+fromBeihangUniversityinAugust,2020.Hermainresearchdirectionisthesynthesisofiron-based
+nanoelectrocatalystsandtheirapplicationsinelectrocatalyticmolecularconversionandmetal–sulfur
+batteries.
+RonghuiLiuisadoctoralstudentatBeihangUniversity.Duringhisdoctoralstudies,heismainlyen-
+gagedinthesynthesis,modiﬁcationofcathodeandanodematerialsforalkalimetalbatteries,andthe
+researchonelectrochemicalreactionmechanisms.
+ChengxingLuisalecturerintheCollegeofPhysicsandMaterialsScienceatTianjinNormalUniver-
+sity.HeobtainedhisPh.D.fromBeihangUniversityinJanuary,2022.Hisresearchpassionslieinthe
+synthesisandcharacterizationofMXene-basedcomposites,alongwithexploringtheirapplicationsin
+high-performancesodium-ionbatteriesandenergysystems.
+WenjiaSongreceivedhisPh.D.fromtheEastChinaUniversityofScienceandTechnology(2011).He
+isnowprofessorintheSchoolofMaterialsScienceandEngineeringattheBeihangUniversity.His
+researchfocusesonthesynthesisandapplicationsofadvancedfunctionalceramicsandceramic
+coatings.
+Adv. Sustainable Syst. 2025, 9, 2400555
+© 2024 Wiley-VCH GmbH
+2400555 (31 of 31)
+ 23667486, 2025, 7, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.202400555 by Tsinghua University Library, Wiley Online Library on [14/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

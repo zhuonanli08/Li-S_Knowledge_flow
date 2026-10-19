@@ -1,0 +1,235 @@
+=== 第 1 页 ===
+Supporting Information
+for Small, DOI: 10.1002/smll.202105678
+High Surface Area N-Doped Carbon Fibers with
+Accessible Reaction Sites for All-Solid-State Lithium-
+Sulfur Batteries
+Xiao Sun, Qiang Li, Daxian Cao, Ying Wang, Alexander
+Anderson, and Hongli Zhu*
+
+=== 第 2 页 ===
+High Surface Area N-doped Carbon Fibers with Accessible Reaction Sites for All-solid-
+state Lithium-sulfur Batteries  
+Xiao Sun†, &, Qiang Li†, &，Daxian Cao†, &, Ying Wang†, Alexander Anderson†, Hongli Zhu†,*   
+†: Department of Mechanical and Industrial Engineering, Northeastern University, 360 Huntington 
+Avenue, Boston, Massachusetts, 02115, United States 
+&: X.S., Q.L., D.C. contributed equally to this work. 
+*: Corresponding author: h.zhu@neu.edu 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== 第 3 页 ===
+ 
+Experimental Section 
+Li6PS5Cl Preparation  
+Argyrodite Li6PS5Cl was synthesized by mechanical ball milling and then annealing treatment. A 
+stoichiometric mixture of P2S5 (Sigma-Aldrich, 99%), Li2S (Sigma-Aldrich, 99.98%), and LiCl 
+(Sigma-Aldrich, 99%) was milled in an argon-filled stainless steel jar (50 mL) with 14 zirconia 
+balls (10 mm in diameter) and 40 zirconia balls (5 mm in diameter) for 10 hours at 500 rpm. Then 
+the as-mixed precursors were sealed in a glass tube in a vacuum and annealed in a quartz tube 
+furnace at 550ºC for 6h.   
+Preparation of PPCF  
+Electrospinning   
+PAN (MW 15K g/mol, Sigma-Aldrich, USA) was ground into powders, which were dissolved in 
+N, N-dimethylformamide (DMF) (Fisher Scientific, 99.9%) at a concentration of  15 w%. As 
+prepared PAN (Sigma-Aldrich, USA) solution was then loaded into a 10 mL syringe with a 22 
+gauge needle (i.d. 0.55 mm, length 38 mm). Electrospinning was carried out in a nanofiber 
+electrospinning unit with the followed conditions: Solution feed rate, 2.0 mL/hour; applied voltage, 
+15 kV; the distance between the syringe needle and the Al collector, 20 cm. The formed nanofiber 
+mesh was picked off from the Al foil and then kept in a desiccator for further processing.   
+Thermotreatment of PAN precursor nanofibers 
+The electrospun PAN precursor nanofibers were thermotreated by stabilization, carbonization, and 
+activation in sequence. First, the as-electrospun nanofibers were stabilized in an air atmosphere in 
+a muffle furnace (GSL 1200X, MTI Corporation, Richmond, CA). The heating was from room 
+temperature to 250 oC with a heating rate of 1 oC min-1. After heating to 250 oC, the samples were 
+held at this temperature for one hour, which was followed by automatically cooling down to room 
+
+=== 第 4 页 ===
+temperature. After thermostabilization, the nanofibers underwent a carbonization process for 
+carbon nanofibers. The carbonization process was conducted in a tubular furnace (GSL 1600X, 
+MTI Corporation, Richmond, CA). The heating was controlled at 5 oC min-1, which was from room 
+temperature to 1000 oC. The holding time at 1000 oC was one hour, which was followed by 
+automatically cooling down to room temperature again. Before the heating, the air in the tube 
+furnace was exchanged with N2 gas three times after vacuuming with the pump to 10-2 torr. The 
+N2 flow during the whole heating and cooling process was kept constant at 100 cm3 min-1. 
+As the last step of thermotreatment, the carbonized carbon nanofibers were chemically activated 
+to prepare the activated carbon nanofibers. Solid KOH was used as the activation agent. Both 
+carbon nanofibers and KOH were ground into finer powders. After that, carbon nanofibers were 
+mixed with KOH with a weight ratio of 1:3. The heating process for activation treatment was the 
+same as the carbonization as abovementioned. After the activation, the samples were dialyzed 
+against deionized water until the pH value of the water was around seven. The dialyzed activated 
+carbon nanofibers were then lyophilized. The obtained dry powders were kept in a glove box until 
+use.  
+Electrochemical Characterization of ASSLSBs 
+Fabrication of All-Solid-State Li Sulfur Batteries 
+To prepare the cathode, carbon additives (PCF, PPCF, and VGCF), sulfur, and Li6PS5Cl were 
+manually mixed at the weight ratio of 10/40/50 in a stainless-steel jar by mechanically milling at 
+a rotating speed of 400 rpm for 10 hours. Then put this mixture into a sealed glass tube. The heating 
+was controlled at 1 oC min-1, which was from room temperature to 155 °C. Then maintained at 155 
+oC for 12 hours and cool down to room temperature with a ramp of 1 oC min-1. Two hundred 
+milligrams of Li6PS5Cl were first pressed into a pellet with a diameter of 12.7 mm under 300 MPa. 
+
+=== 第 5 页 ===
+Then 10 mg of the as-prepared cathode was cast onto the pellet. A piece of In-Li was utilized as 
+the anode and pressed on the other side of the pellet. Finally, the cell pellets were cold-pressed at 
+300 MPa with aluminum and Copper disks as cathode and anode current collectors individually. 
+Electrochemical performance characterization 
+All the ASSLSBs are tested with an electrochemical station (Biologic SP150) at room temperature. 
+The rate and cycling performance were measured with galvanostatic cycling with a potential 
+limitation protocol between the cutoff voltages of 0.7 and 2.7 V (vs. Li-In). The current was based 
+on the area of SE pellet (12.7 mm in diameter). Electrochemical impedance spectroscopy (EIS) 
+was conducted with an amplitude of 10 mV in the frequency range of one MHz to 10 mHz. The 
+rate and cycling measurement were conducted in a protocol that the cell was charged at constant 
+current to 2.7 V, and following discharged to 0.7 V at constant current. The current was calculated 
+based on the mass and capacity of cathode active material.  
+Materials Characterization  
+The X-ray diffraction (XRD) was conducted on PANalytical/Philips X’Pert Pro with Cu Kα 
+radiation. The scanning electron microscopy (SEM) and energy-dispersive X-ray spectroscopy 
+(EDS) were characterized by SEM (JEPL JSM 7000F). Sulfur loading in the PPCF composites 
+was determined from the thermal gravimetric analysis (TGA) measurement (TA Q50, Inc) at the 
+N2 atmosphere. The chemical structure comparisons of the samples were analyzed by X-ray 
+photoelectron spectroscopy (XPS, Thermo Scientific K-Alpha). The Brunauer–Emmett–Teller 
+(BET, Micrometrics 3 Flex surface characterization tool) was employed to detect the specific 
+surface area. Raman spectra were measured on a Thermo Scientific DXR with 532 nm laser 
+excitation. 
+ 
+
+=== 第 6 页 ===
+Mechanism discussion of KOH activation  
+ 
+The activation process by KOH was explained by the combination of chemical activation, physical 
+activation, and lattice expansion. At high temperature, the redox reactions (equations S1~S5) 
+between C with KOH and derivations could etch the carbon through a chemical activation. 
+Meanwhile, the generated CO and CO2 could increase the pores through the gasification of carbon, 
+named physical activation. In addition, the metallic K could intercalate into carbon to expand the 
+carbon lattices. After the removal of these reaction products, the micropores are generated. 
+Because the activation is started from the solid-solid reaction, the formation of the pores is from 
+outside to inside. Herein, the unique core-shell structure was successfully generated by controlling 
+the activation process. 
+ 
+ 
+6KOH + 2C → 2K + 3H2 + 2K2CO3                                                                                 (1)  
+ 
+K2CO3 → K2O + CO2                                                                                                                                                            (2)                                                        
+ 
+CO2 + C → 2CO                                                                                                                (3) 
+ 
+K2CO3 + 2C → 2K + 3CO                                                                                                 (4) 
+ 
+C + K2O → 2K + CO                                                                                                         (5) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== 第 7 页 ===
+Supporting Figures 
+ 
+ 
+Figure S1. SEM images of as-spun PAN fibers before carbonization in (a) low and (b) high 
+magnification. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure S2. SEM images of PCF fibers after carbonization but before activation by KOH in (a) low 
+and (b) high magnification. 
+ 
+ 
+
+=== 第 8 页 ===
+ 
+Figure S3. SEM images of PPCF after activation by KOH but before washing in (a) low and (b) 
+high magnification.  
+ 
+  
+ 
+ 
+ 
+Figure S4. SEM images of PPCF after washing to show the core-shell structure where the porous 
+layer covered on the surface. Representative cross-section images of PPCF that the porous layer 
+(a) fully and (b) partially covered on dense carbon fiber. Representative surface images of PPCF 
+that the porous layer (c) entirely and (d) partially covered on dense carbon fiber. 
+ 
+
+=== 第 9 页 ===
+ 
+Figure S5. SEM images of S-PPCF-SE cathode before annealing in (a) low and (b) high 
+magnification. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure S6. XRD patterns of S-VGCF-SE before and after annealing, Li6PS5Cl and sulfur  
+ 
+ 
+
+=== 第 10 页 ===
+ 
+Figure S7. SEM images of PPCF after thermal infiltration with sulfur in (a) low and (b) high 
+magnification. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure S8. SEM images of S-PPCF-SE after cycling in (a) low and (b) high magnification. The 
+green highlight is the PPCF-S. 
+ 
+ 
+ 
+ 
+ 
+ 

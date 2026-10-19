@@ -1,0 +1,799 @@
+=== 第 1 页 ===
+All-Solid-State Lithium−Sulfur Batteries with Robust Interphases by
+Utilizing Elastomeric Polymer-in-Salt Electrolytes
+Donglei You, Wei Wei,* and Huiming Xiong*
+Cite This: ACS Appl. Energy Mater. 2025, 8, 452−460
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: All-solid-state lithium−sulfur (Li−S) batteries have emerged as one of the most promising alternative energy storage
+solutions ascribed to their potentials of high energy density, cost-effectiveness, and enhanced safety. Herein, elastomeric polymer-in-
+salt electrolytes (PISEs) have been developed by incorporation of highly dielectric and curable cyclic carbonate pendent groups into
+the polyether backbone to fabricate sulfurized polyacrylonitrile (SPAN)/Li batteries. The PISEs with an intrinsic saturation of the
+coordination sites exhibit effective inhibitions of the dissolution of lithium polysulfides and the growth of lithium dendrites and show
+favorable compatibility with both the SPAN cathode and lithium metal anode. The robust LiF-rich interphases formed between the
+electrodes and the PISEs are capable of effectively passivating the electrodes and accommodating their volume expansion, enabling
+the all-solid-sate SPAN/PISE/Li batteries with a high specific capacity of ∼1300 mAh gsulfur
+−1 and long-term cycling stability (over 4
+months) at ambient temperature. This work provides a strategic framework for the design of high-performance polymer-based all-
+solid-state Li−S batteries.
+KEYWORDS: lithium−sulfur batteries, all-solid-state, polymer-in-salt electrolytes, lithium metal batteries, sulfurized polyacrylonitrile
+1. INTRODUCTION
+Li−S batteries are regarded as one of the most promising
+energy storage systems due to their exceptional theoretical
+capacity, ultrahigh energy density (∼2600 Wh kg−1), abundant
+sulfur resources, and environmental sustainability.1−6 Despite
+these advantages, the advancement of conventional liquid Li−S
+batteries is impeded by the challenges from their complex
+interface-related problems, continuous polysulfide shuttling,
+enormous volume expansion, electrolyte depletion, and
+unconstrained dendrite growth on the metal lithium anode
+and associated safety concerns, etc.7−13 Replacing flammable
+liquid electrolytes with compatible solid-state electrolytes to
+firmly block the cathode and anode presents a highly desirable
+strategy to address these issues.
+Solid polymer electrolytes (SPEs) have attracted great
+attention for the development of safe and high-energy-density
+Li−S batteries due to their mechanical flexibility, process-
+ability, and interfacial adhesiveness.14−21 For instance, their
+inherent mechanical flexibility allows them to accommodate
+the large volume expansion of sulfur and lithium electrodes
+during charge and discharge cycles. Among SPEs, polyether-
+based electrolytes are especially widely studied owing to their
+good lithium salt solvation capability and compatibility with
+lithium metal.22−24 However, these electrolytes often suffer
+from the low lithium-ion conductivities at room temperature
+and the strong coupling effect between lithium polysulfides
+(LiPSs, Li2Sn, n = 4−8) and polyether chains, which can
+potentially lead to LiPSs dissolution and shuttling, consequent
+interfacial instability, and short cycle life in Li−S bat-
+teries.18,20,25,26 To address these challenges, substantial efforts
+have been made to suppress LiPSs dissolution, limit parasitic
+Received:
+October 10, 2024
+Revised:
+December 23, 2024
+Accepted:
+December 24, 2024
+Published: January 2, 2025
+Article
+www.acsaem.org
+© 2025 American Chemical Society
+452
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 2 页 ===
+reactions with lithium, and enhance overall performance by
+employing various types of electrolytes such as self-healing
+elastomeric electrolytes,27,28 composite polymer electro-
+lytes,29,30 and polymer-in-salt electrolytes.31,32 Salt-in-polymer
+is conventionally referred to the dissolution of lithium salts
+into the polymer matrix with a low lithium salt content,
+typically less than 50 wt %, while the “polymer-in-salt”
+electrolyte usually contains a lithium salt content exceeding
+that of the polymer matrix, which can particularly offer a high
+lithium-ion transference number and ionic conductivity at
+ambient temperature along with the anion-derived durable
+solid electrolyte interphase (SEI), thus contributing to the
+stable cycling of the cells collectively.33−35
+In Li−S batteries, covalent-type sulfurized polyacrylonitrile
+(SPAN), as one of the notable sulfur composite cathodes, has
+garnered increasing attention due to its solid−solid conversion
+mechanism under certain conditions, particularly with
+carbonate-based electrolytes.5,7,14,15,20,36 However, the dissolu-
+tion of LiPSs may still exist in (poly)ether-based electrolytes
+due to their strong interaction, causing rapid capacity decay
+and severe self-discharge.20,37,38 However, carbonate-based
+electrolytes are unstable when in contact with the lithium
+metal anode.39,40 The formation of robust and durable SEI and
+cathode electrolyte interphase (CEI) layers on both electrodes
+is crucial to the cyclability and the Coulombic efficiency of
+batteries.41−43 There emerges an urgent need to develop
+optimal polymer electrolytes for solid-state Li−S batteries that
+are compatible with both the SPAN cathode and the lithium
+metal anode and possess a low solubility of LiPSs.
+It has been reported that an increase of the concentration of
+salts in small molecular liquid electrolytes may inhibit the
+dissolution of LiPSs due to the formation of ionic aggregates of
+low solubility.44−47 Whereas, for PISEs, the high concentration
+of the lithium salts in the polymer electrolytes is anticipated to
+saturate the solvating sites of the polymer segments,48,49 thus
+suppressing solvation and shuttling of LiPSs during cycling. In
+this work, all-solid-state polymer-based Li−S batteries have
+been developed by employing the SPAN cathode and the
+lithium metal anode, in combination with the polymer-in-salt
+electrolytes cured in situ via the clean and efficient cyclic
+carbonate−amine addition reaction. The competitive solvation
+mechanism in the PISEs may essentially reduce the loss of the
+active substances and alleviate the LiPSs shuttle effect, thereby
+enhancing the interfacial stability and the overall performance
+of the solid-state Li−S battery system. Additionally, the
+formation of robust and durable LiF-rich CEI and SEI layers
+derived from the PISEs can also facilitate the prevention of
+LiPSs release, limit lithium dendrite growth, and accommodate
+volume expansion during cycling. These effects contribute
+synergistically to the improved electrochemical stability and
+lifetime of the Li−S battery.
+2. EXPERIMENTAL SECTION
+2.1. Preparation of the PISEs. The PISEs were prepared in an
+argon-filled glovebox (Mikrouna Super, Shanghai, H2O < 0.1 ppm, O2
+< 0.1 ppm), as reported previously.48 For example, the PEOEC
+polymer and LiTFSI were dissolved in dry tetrahydrofuran to yield a
+homogeneous solution, followed by the addition of the cross-linker of
+ethylene glycol diamine. The amount of lithium salt content in the
+PISE is ∼76 wt %. The resulting solution was then evenly drop-cast
+onto the lithium metal plate and first dried at room temperature and
+then heated at 80 °C for 2h and further dried under high vacuum for
+several hours.
+2.2. Preparation of the SPAN Electrode. The SPAN cathode
+was prepared by mixing SPAN powder, Super P, and PAA binder in
+deionized water at a mass ratio of 8:1:1. The slurry was then coated
+on the carbon-coated aluminum foil via the common blade-cast
+Figure 1. (a) Schematics of the PEOEC polymer and the typical cross-linked structure after reaction with the diamine cross-linker (the molar ratio
+of x and y is 9:1). (b) FTIR spectra of the PEOEC-0.1NH2 elastomer in the CO stretching vibration region. (c) Stress−strain curve of the
+PEOEC-0.1NH2 sample. The inset is a photograph of the cured sample.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+453
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 3 页 ===
+method and dried in vacuum at 80 °C for 6 h. The mass loading of
+the sulfur electrode was 0.5−0.6 mg cm−2.
+2.3. General Characterization Methods. Fourier transform
+infrared spectroscopy (FTIR) was performed on a PerkinElmer
+Spectrum 100 instrument. Ultraviolet−visible (UV−vis) absorption
+spectra were conducted on a UV−vis Spectrophotometer (Lambda
+35, PerkinElmer). The uniaxial tensile test was conducted on a
+dynamic mechanical thermal analyzer (Discovery DMA 850, TA).
+The membrane with dimensions of 15 × 5 × 0.2 mm was obtained in
+a rectangular PTFE mold. Cells were disassembled in an argon-filled
+glovebox, and the lithium plates and SPAN cathodes were soaked in
+anhydrous dimethyl carbonate for 3 days to remove the electrolytes.
+The electrodes were transferred and sealed in an airtight box filled
+with argon for analysis. Scanning electron microscopy (SEM) images
+were acquired by using a field emission scanning electron microscope
+(Nova NanoSEM 450). Transmission electron microscopy (TEM)
+was carried out on a Talos F200X G2 (Thermo Fisher) instrument
+with an accelerating voltage of 200 kV. X-ray photoelectron
+spectroscopy (XPS) measurements were performed by an AXIS
+ULTRA DLD spectrometer using an Al Kα (1486.6 eV) X-ray source.
+Avantage software was applied to fit the XPS peaks, and the C 1s peak
+at 284.8 eV serves as the reference for calibrating the binding energy
+values of the different species.
+2.4. Electrochemical Measurements. Cells (2032 type) were
+assembled in an argon-filled glovebox with water and oxygen contents
+below 0.01 ppm. Electrochemical impedance spectroscopy (EIS) was
+conducted on a CHI 650 E electrochemical test system (Shanghai,
+China). EIS measurements were performed at a frequency range from
+105 to 1 Hz with a voltage amplitude of 5 mV at 30 °C. For the
+assembly of SPAN/Li cells, a hollow cellulose ring spacer was applied
+to control the electrolyte thickness (∼30 μm). The ionic conductivity
+is calculated via the equation of σ = L/(SRb), where L represents the
+thickness of the electrolyte, Rb is the bulk resistance, and S stands for
+the contact area between the electrode and the electrolyte (∼1.1
+cm2). The lithium-ion transference number is estimated via the
+Bruce−Vincent−Evans equation: tLi+ = Iss(ΔV −I0R0)/I0(ΔV −
+IssRss), where ΔV, R0, RS, I0 and Iss are the voltage polarization applied
+to Li/Li cells (10 mV), the initial interfacial impedance, the steady-
+state interfacial impedance, the initial current, and the steady-state
+current, respectively. The cyclic voltammogram (CV) measurements
+were performed at scan rates from 0.2 to 0.9 mV s−1 in a potential
+range from 1 to 3 V. Electrochemical performances of the all-solid-
+state SPAN/Li batteries were evaluated on the battery test system
+(LAND-CT 3002 A, Wuhan, China) in an oven at 30 °C. The current
+density was calculated according to the sulfur mass with a theoretical
+capacity of 1675 mA gsulfur
+−1.
+3. RESULTS AND DISCUSSION
+The polymer-in-salt electrolyte used in the all-solid-state
+lithium−sulfur batteries was prepared via an in situ curing
+process, utilizing PEOEC polymer, LiTFSI, and the ethylene
+glycol diamine cross-linker as the starting materials. The
+precursor solution in tetrahydrofuran was first cast onto the
+lithium metal anode and dried at room temperature. The
+SPAN/Li cells were then assembled, cured at 80 °C to
+accomplish the cyclic carbonate−amine addition reaction, and
+further dried, as illustrated in Figure 1. The aminolysis of cyclic
+carbonates proceeds through the nucleophilic addition of a
+primary amine and ring-opening of the cyclic carbonate group
+into hydroxy urethane.48,50 Figure 1b presents the FTIR
+spectra in the CO stretching region of the cured sample of
+PEOEC-0.1NH2. The CO absorption bands can be
+deconvoluted into four peaks, corresponding to the CO of
+cyclic carbonates and the CO of urethane. The deconvo-
+lution of the pristine cyclic carbonates can be justified due to
+the Fermi resonance, similar to that observed in ethylene
+carbonate and propylene carbonate.51 Quantitative analysis
+reveals that the molar fraction of CO of urethane is
+approximately 12%, agreeing well with the feed molar ratio of
+NH2 to cyclic carbonate. The cured PEOEC-0.1NH2 sample
+exhibits typical elastomeric behaviors of a chemically cross-
+linked network, with a stress at a break of 1.04 MPa (Figures
+1c and S1). As shown in Figure S2, the PISE demonstrates a
+good ionic conductivity above 10−4 S cm−1 at 30 °C and a high
+transference number up to 0.72 when the molar ratio between
+the lithium ion and the carbonate moiety is 2:1. Notably, most
+of the ether and cyclic carbonate moieties participate in the
+coordination with the lithium ions at the high-salt-content
+regime,48 which would be beneficial to restrain the complex-
+ation and the transport of the LiPSs from the sulfur cathode,
+thus inhibiting the notorious shuttle effect.
+Figure 2 shows the cyclic voltammogram (CV) curves of the
+solid-state SPAN/PISE/Li batteries. The CV curves were
+measured at a scan rate of 0.3 mV s−1, where the oxidation and
+the reduction peaks appear at approximately 2.3 and 1.7 V,
+respectively. Remarkably, only one reduction peak can be
+observed, indicative of the direct reduction of the elemental
+sulfur to the solid-state Li2S2/Li2S.20,38,52 It is worth noting
+that all of the CV curves overlap well, with negligible changes
+of the peak position and the peak intensity during the
+continuous ten cycles, implying a good electrochemical
+stability of the SPAN/PISE/Li cell. In contrast, the SPAN/Li
+cell assembled with the low-salt content PEOEC-0.2Li
+electrolyte displays weak and asymmetric peaks, suggesting a
+less reversible reaction (Figure S3). To further reveal the
+kinetics of the redox processes in the battery, the CV profiles at
+different scan rates were explored in the range of 0.2−0.9 mV
+Figure 2. (a) Cyclic voltammetry curves of the SPAN/PISE/Li cell at a scan rate of 0.3 mV s−1. (b) Cyclic voltammetry curves of the SPAN/PISE/
+Li cell at different scan rates from 0.2 to 0.9 mV s−1. (c) Linear fittings of the peak current versus the square root of the scan rate.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+454
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 4 页 ===
+s−1, as shown in Figure 2b. As the scan rate increases, the
+oxidation and reduction peaks shift and the peak intensities
+increase, suggesting a decrease in the size of the diffusion layer
+and increased peak currents. Figure 2c illustrates the
+relationship between the peak current and the square root of
+the scan rate. According to the Randles−Sevcik equation,53 the
+relationship between the peak current ip and the scan rate ν
+during the CV cycling is given as (eq 1):
+=
+*
+i
+F RT
+n
+AD
+C
+0.4463(
+)
+p
+3
+1/2 3/2
+1/2
+1/2
+(1)
+where F is the Faraday constant, R is the ideal gas constant, T
+is the absolute temperature, n is the number of electrons
+transferred in the redox process, A is the contact area, D is the
+diffusion coefficient of the lithium ions, and C* is the
+concentration of the lithium ions in the PISE. As demonstrated
+in Figure 2c, the curves of the peak current versus the square
+root of the scan rate can be well-fitted linearly according to
+(1). The slope of the fitting lines can be used to determine the
+parameters related to the diffusion coefficient of the lithium
+ions during the oxidation/reduction process, whereas multiple
+steps are actually involved in the electrode reaction in lithium−
+sulfur batteries.2−5,10,54 When the electrode reaction is
+reversible, and the diffusion is rate-determining, the chemical
+diffusion coefficient in the CV cycles should conform to the
+Randles−Sevcik equation, exhibiting a linear relationship
+between ip and ν1/2. Indeed, our results strongly suggest that
+the reaction process in the SPAN cathode should be diffusion-
+controlled, with similar apparent diffusion coefficients of Li+
+during the oxidation and reduction processes. This observation
+may imply that the electrochemically reversible electron
+transfer processes occur steadily in the SPAN/PISE/Li cell,
+which could be attributed to the protective interphases formed
+in the high-concentrated PISE.
+The rate performance of the all-solid-state SPAN/PISE/Li
+cell was evaluated, as demonstrated in Figure 3a,b. The
+discharge capacities of the cell are 1331.3, 1283.6, 1247.0,
+1216.5, 1187.1, and 1034.4 mAh gsulfur
+−1 at the current rates
+ranging from 0.05 to 1C. Notably, a high discharge capacity of
+1224.8 mAh gsulfur
+−1 is recovered once returning to 0.1C.
+Figure 3c exhibits the long-term cycling performance of the
+SPAN/PISE/Li cell at 0.1C and 30 °C in the voltage range of
+1−3 V. The cell delivers an initial discharge capacity of 1721.7
+mAh gsulfur
+−1 at 0.1C, which declines to 1333.6 mAh g−1 after
+two activation cycles, while the Coulombic efficiency increases
+from 79.00 to 97.79%, exceeding 99% after several cycles. After
+100 cycles, the discharge capacity is 1258.7 mAh gsulfur
+−1,
+94.4% of the capacity of the third cycle at 0.1C. It is worth
+noting that the reversible discharge capacity of 1151.9 mAh
+gsulfur
+−1 and a Coulombic efficiency above 99.4% are
+maintained after 150 cycles. In order to investigate the self-
+discharge behavior, the SPAN/PISE/Li cell is left to stand for
+7 days at 30 °C after cycling stabilized for 10 cycles. The
+discharge voltage profiles before and after the standing period
+are compared, as shown in Figure 4. No capacity loss can be
+detected after 1 week, suggesting no self-discharge in our
+Figure 3. (a) Cycling performance of the SPAN/PISE/Li cell at different current rates from 0.05 to 1C at 30 °C. (b) Charge−discharge profiles at
+different current rates. Cycling performance (c) and corresponding voltage profiles (d) of the SPAN/PISE/Li cell at 0.1C and 30 °C.
+Figure 4. Self-discharge characterization of the SPAN/PISE/Li cell at
+30 °C. Insets: discharge profiles after various cycles before and after
+quiescence.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+455
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 5 页 ===
+SPAN/PISE/Li cell and a good compatibility of the PISE
+electrolytes with the SPAN cathode. In contrast, the SPAN/Li
+cell using PEOEC-0.2Li as the electrolyte at a low salt content
+exhibits a rapid decay of cycling performance and a low
+discharge capacity (below 300 mAh gsulfur
+−1) and Coulombic
+efficiency (Figure S4), corresponding to the CV profiles and
+differential capacity analysis (Figure S5). The above results
+highlight the roles of the PISE on the cycling stability and
+capacity retention in the all-solid-state Li−S batteries.
+The electrolyte chemistry and its constitution can
+significantly influence the electrochemical behavior of the
+SPAN/Li batteries. Typically, the voltage profiles in traditional
+(poly)ether-based electrolytes exhibit two distinct pla-
+teaus.20,25,39 At the higher initial plateau (∼2.3 V vs Li+/Li),
+long-chain LiPSs would form and dissolve in the (poly)ether-
+based electrolytes, leading to shuttling of the active species
+between the SPAN and the lithium metal electrodes.1,20,38
+Figure 3d shows the galvanostatic voltage profiles of the all-
+solid-state SPAN/PISE/Li cell at 0.1C. Only a single discharge
+voltage plateau at ∼2.0 V is observed, which strongly suggests a
+direct conversion between sulfur active species and Li2S2/Li2S
+during the charging/discharging process without forming
+intermediate long-chain LiPSs by employing this type of
+polymer electrolytes in a high salt concentration. As known,
+the dissolution of LiPSs would be strongly influenced by their
+interaction with polymers. In the PISE, the coordination sites
+are predominantly occupied by the high-content lithium
+ions;48 LiPSs dissolution is expected to be inhibited
+dramatically. This has been further evidenced by the Li2S6
+dissolution experiments and UV−vis absorption spectra, as
+described in the Supporting Information (Figures S6−S8). The
+solid−solid conversion mechanism as well as the saturation of
+the solvation sites of the polymer electrolytes would jointly
+contribute to the stable cycling of lithium−sulfur batteries.
+To unravel the interphase between the PISE and the
+electrodes after cycling, EIS was conducted on SPAN/PISE/Li
+cells with an open-circuit voltage of ∼2.3 V, as depicted in
+Figure 5a. The lithium−sulfur cell with the PISE exhibits a low
+initial interfacial resistance of approximately 120 Ω, which is
+much lower than that of the low-salt content PEOEC-0.2Li
+electrolyte (∼600 Ω; Figure S3b). After 25 cycles at 0.1C and
+30 °C, only a slight increase of the interfacial resistance is
+observed. The SEM image of the lithium metal electrode
+surface reveals a uniform and smooth morphology without
+noticeable lithium dendrites after 25 cycles (Figure 5b). On
+the cathode side, the SPAN cathode in contact with the PISE
+can still maintain a smooth and intact surface morphology after
+cycling, despite flower-shaped irregularities on a larger scale
+(Figure 5c). In addition, the volume changes of the SPAN
+cathode during the discharging/charging process have been
+observed by SEM imaging, as illustrated in Figure S9. The top-
+view SEM images of the initial, the first discharged, and the
+first charged SPAN cathodes show the flat and smooth surface
+without noticeable gaps or cracks (Figure S9a,c) and the
+changes of the SPAN particle size (Figure S9d−f) during
+cycling. The cathode thickness is found to increase from
+approximately 15.8 to 19.0 μm after the first discharge and
+then decrease to ∼16.7 μm after the first charge (Figure S9g−
+i). These results indicate that the elastomeric PISE could
+effectively accommodate the volume expansion and enable the
+integrity and compaction of the SPAN cathode during cycling.
+The TEM image reveals the formation of a homogeneous CEI
+layer in a thickness of approximately 5 nm on the surface of the
+SPAN particles after cycling (Figure 5d), which should be able
+to constrain the active sulfur species in the cathode and may
+prevent the leakage of the LiPSs. The above observations
+indicate that the lithiation/delithiation on the SPAN cathode
+and lithium-ion deposition/stripping on the lithium anode
+Figure 5. (a) EIS profiles of the SPAN/PISE/Li cell after different cycles. SEM images of the lithium metal surface (b) and SPAN cathode surface
+(c). (d) TEM image of the CEI layer on the surface of the SPAN particles after 25 cycles at 0.1C and 30 °C.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+456
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 6 页 ===
+proceed steadily during cycling. The cycling stability can be
+attributed to the good compatibility of the high-salt-
+concentrated PISE with both the SPAN cathode and the
+lithium metal anode, in combination with the robust
+electrodes/PISE interfaces in the all-solid-state SPAN/PISE/
+Li cells.
+The detailed component analysis of the SEI and the CEI in
+the SPAN/PISE/Li cell was performed by using XPS, as
+depicted in Figures 6, S10, and S11. For the lithium metal
+anode, the F 1s spectra indicate a minor organic C−F content
+(16.5%) with a binding energy of 688.5 eV and a significantly
+higher inorganic Li−F content (83.5%) with a binding energy
+of 685.4 eV (Figure 6a,b). As previously reported, LiF is an
+excellent electronic insulator with high interfacial energy and
+mechanical strength, which can facilitate lithium-ion migration
+through the SEI and stabilize the interphase of the lithium
+anode.55−58 Our observations suggest that a LiF-rich SEI layer
+forms on the surface of the cycled lithium anode, which should
+be contributed mainly from the decomposition of the high-
+concentrated LiTFSI. The S 2p spectrum shows clear signals
+for oxidized sulfur species (SO2/SO3) in the range of 165 and
+171 eV, along with the splitting peaks ascribed to the reduction
+products (Li2S and Li2S2) in the range of 159 and 164 eV. The
+peaks of sulfur species in high valence states are associated with
+TFSI−and its decomposition products, whereas the inorganic
+Li2S and Li2S2 are likely derived from the active components of
+the cathode. Figure 6d presents the element ratio of the SEI,
+where the signal strength of the S species is less than 0.5%,
+suggesting substantial alleviation of the shuttling of the LiPSs
+during cycling.
+XPS analyses have also been performed to examine the
+chemical composition of the SPAN cathode surface after
+cycling with the PISE as the electrolyte (Figure 6e−h). As
+shown in the F 1s and S 2p spectra, the signals of LiF, C−F,
+SO2/SO3, Li2S2, and Li2S have been detected. A notably high
+content of LiF was observed in the CEI layer, which can be
+attributed to the high concentration of LiTFSI in the PISE.
+Sulfur species with chemical valence between −2 and 0 appear
+in the low energy range (159−165 eV) in the spectrum (Figure
+6g). In addition to the residual Li2S2 and Li2S, the presence of
+elemental sulfur (bridging S−S) at 163.5 eV has been detected,
+as shown in the S 2p spectrum. It is worth noting that the peak
+intensities of the sulfur-containing species are relatively low on
+the SPAN cathode surface (Figure 6h), suggesting the
+constraint of the majority of the sulfur species in the cathode
+by the CEI layer, which can attenuate the XPS signals. The
+above XPS results essentially imply that the robust inorganic-
+rich SEI and CEI layers formed in the SPAN/PISE/Li cell by
+employing the polymer electrolytes with a high-concentrated
+salt may effectively alleviate the shuttle effect of the LiPSs,
+accommodate the large electrode volume expansion, and
+facilitate the uniform deposition of the lithium ions, thereby
+enhance the cycling performance of the lithium−sulfur cells.
+As reported previously, polyether-based electrolytes can lead
+to severe shuttle effects and capacity degradation in the SPAN/
+Li batteries due to the strong coordination between ether
+segments and LiPSs during the solid−liquid phase tran-
+sition.1,20,25,26 In contrast, the PISE with cyclic carbonates and
+a high salt concentration can not only drastically reduce the
+solubility of LiPSs but also promote the formation of stable
+and robust interfacial layers. As a result, a direct transition of
+sulfur to solid Li2S2/Li2S is observed, and the long-chain LiPSs
+intermediates are dramatically suppressed during cycling,
+which may open a promising pathway for the development
+of high-energy all-solid-state lithium−sulfur batteries.
+Figure 6. XPS spectra of the lithium plates (a−d) and the SPAN cathode surface (e−h) after 25 cycles at 0.1C and 30 °C.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+457
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 7 页 ===
+4. CONCLUSIONS
+In summary, all-solid-state SPAN/PISE/Li batteries, by
+employing an in situ curable polymer-in-salt electrolyte, have
+been developed, and the distinct roles of the PISEs have been
+unraveled in improving the interfacial compatibility, reversible
+redox stability with diffusion-controlled electrode reaction
+kinetics, and capability of suppressing shuttle effect and self-
+discharge. The high-salt-concentration PISE exhibits superior
+compatibility with both the SPAN cathode and the lithium
+metal anode, promoting the formation of robust, inorganic-rich
+SEI and CEI layers. The saturation of the polyelectrolyte
+solvation sites in a high-salt-concentration and the solid−solid
+conversion mechanism of the SPAN cathode in the PISE as
+well as the durability of the interphases can synergistically
+contribute to the effective mitigation of the shuttle effect of the
+LiPSs intermediates generated during the cycling of the sulfur
+cathode, suppression of the growth of lithium dendrites, and
+accommodation of the volume expansion of the electrodes.
+The lithium−sulfur batteries can achieve a high performance of
+discharge capacity exceeding 1300 mAh gsulfur
+−1 in all-solid-
+state and stable cycling without self-discharge at ambient
+temperature.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsaem.4c02576.
+The materials, synthetic details of PEOEC, Li2S6
+dissolution experiments and their UV−vis spectra, and
+electrochemical property and cycling performance
+(PDF)
+■AUTHOR INFORMATION
+Corresponding Authors
+Wei Wei −Department of Polymer Science, School of
+Chemistry and Chemical Engineering, Shanghai Jiao Tong
+University, Shanghai 200240, P. R. China;
+orcid.org/
+0000-0002-7968-477X; Email: wei_wei@sjtu.edu.cn
+Huiming Xiong −Department of Polymer Science, School of
+Chemistry and Chemical Engineering, Shanghai Jiao Tong
+University, Shanghai 200240, P. R. China; Center for Soft
+Matter and Interdisciplinary Sciences and Sichuan Research
+Institute, Shanghai Jiao Tong University, Shanghai 200240,
+P. R. China;
+orcid.org/0000-0001-6628-8519;
+Email: hmxiong@sjtu.edu.cn
+Author
+Donglei You −Department of Polymer Science, School of
+Chemistry and Chemical Engineering, Shanghai Jiao Tong
+University, Shanghai 200240, P. R. China
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsaem.4c02576
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+This research was supported by the National Natural Science
+Foundation of China (22075175 and 22105125). The authors
+appreciate the BL16B and BL19U beamlines in the Shanghai
+Synchrotron Radiation Facility.
+■REFERENCES
+(1) Kim, J. T.; Su, H.; Zhong, Y.; Wang, C.; Wu, H.; Zhao, D.;
+Wang, C.; Sun, X.; Li, Y. All-solid-state lithium-sulfur batteries
+through a reaction engineering lens. Nat. Chem. Eng. 2024, 1, 400−
+410.
+(2) Liu, Y.; Elias, Y.; Meng, J.; Aurbach, D.; Zou, R.; Xia, D.; Pang,
+Q. Electrolyte solutions design for lithium-sulfur batteries. Joule 2021,
+5, 2323−2364.
+(3) Shin, H.; Baek, M.; Gupta, A.; Char, K.; Manthiram, A.; Choi, J.
+W. Recent progress in high donor electrolytes for lithium-sulfur
+batteries. Adv. Energy Mater. 2020, 10, No. 2001456.
+(4) Pang, Q.; Liang, X.; Kwok, C. Y.; Nazar, L. F. Advances in
+lithium-sulfur batteries based on multifunctional cathodes and
+electrolytes. Nat. Energy 2016, 1, No. 16132.
+(5) Manthiram, A.; Chung, S.-H.; Zu, C. Lithium-sulfur batteries:
+progress and prospects. Adv. Mater. 2015, 27, 1980−2006.
+(6) Wang, L.; Shi, H.; Xie, Y.; Wu, Z.-S. Boosting solid-solid
+conversion kinetics of sulfurized polyacrylonitrile via MoS2 doping for
+high-rate and long-life Li-S batteries. Carbon Neutralization 2023, 2,
+262−270.
+(7) Xing, C.; Chen, H.; Qian, S.; Wu, Z.; Nizami, A.; Li, X.; Zhang,
+S.; Lai, C. Regulating liquid and solid-state electrolytes for solid-phase
+conversion in Li-S batteries. Chem 2022, 8, 1201−1230.
+(8) Liu, G.; Sun, Q.; Li, Q.; Zhang, J.; Ming, J. Electrolyte issues in
+lithium−sulfur batteries: development, prospect, and challenges.
+Energy Fuels 2021, 35, 10405−10427.
+(9) Lei, D.; Shi, K.; Ye, H.; Wan, Z.; Wang, Y.; Shen, L.; Li, B.; Yang,
+Q.-H.; Kang, F.; He, Y.-B. Progress and perspective of solid-state
+lithium-sulfur batteries. Adv. Funct. Mater. 2018, 28, No. 1707570.
+(10) Gao, X.; Yu, Z.; Wang, J.; Zheng, X.; Ye, Y.; Gong, H.; Xiao, X.;
+Yang, Y.; Chen, Y.; Bone, S. E.; Greenburg, L. C.; Zhang, P.; Su, H.;
+Affeld, J.; Bao, Z.; Cui, Y. Electrolytes with moderate lithium
+polysulfide solubility for high-performance long-calendar-life lithium
+sulfur batteries. Proc. Natl. Acad. Sci. U.S.A. 2023, 120,
+No. e230126012.
+(11) Xu, J.; An, S.; Song, X.; Cao, Y.; Wang, N.; Qiu, X.; Zhang, Y.;
+Chen, J.; Duan, X.; Huang, J.; Li, W.; Wang, Y. Towards high
+performance Li-S batteries via sulfonate-rich COF-modified separator.
+Adv. Mater. 2021, 33, No. 210518.
+(12) Chen, H.; Wu, J.; Li, M.; Zhao, J.; Li, Z.; Wang, M.; Li, X.; Li,
+C.; Chen, X.; Li, X.; Mai, Y.-W.; Chen, Y. Heterogeneous structure
+design for stable Li/Na metal batteries: Progress and prospects.
+eScience 2024, No. 100281.
+(13) Wang, M.; Lv, S.; Li, M.; Li, X.; Li, C.; Li, Z.; Chen, X.; Wu, J.;
+Li, X.; Chen, Y.; Chen, Q. A heterogeneous quasi-solid-state hybrid
+electrolyte constructed from electrospun nanofibers enables robust
+electrode/electrolyte interfaces for stable lithium metal batteries. Adv.
+Fiber Mater. 2024, 6, 727−738.
+(14) Liang, F.; Wang, S.; Liang, Q.; Zhong, A.; Yang, C.; Qian, J.;
+Song, H.; Chen, R. Insight into all-solid-state Li-S batteries:
+challenges, advances, and engineering design. Adv. Energy Mater.
+2024, 14, No. 2401959.
+(15) Song, Z.; Jiang, W.; Li, B.; Qu, Y.; Mao, R.; Jiang, X.; Hu, F.
+Advanced polymers in cathodes and electrolytes for lithium-sulfur
+batteries: progress and prospects. Small 2024, 20, No. 2308550.
+(16) Jiang, M.; Zhang, Z.; Tang, B.; Dong, T.; Xu, H.; Zhang, H.;
+Lu, X.; Cui, G. Polymer electrolytes for Li-S batteries: polymeric
+fundamentals and performance optimization. J. Energy Chem. 2021,
+58, 300−317.
+(17) Zhao, Q.; Stalin, S.; Zhao, C.-Z.; Archer, L. A. Designing solid-
+state electrolytes for safe, energy-dense batteries. Nat. Rev. Mater.
+2020, 5, 229−252.
+(18) Phan, A. L.; Nan, B.; Le, P. M. L.; Miao, Q.; Wu, Z.; Le, K.;
+Chen, F.; Engelhard, M.; Nguyen, T. D.; Han, K. S.; Heo, J.; Zhang,
+W.; Baek, M.; Xu, J.; Zhang, X.; Liu, P.; Ma, L.; Wang, C. Lightweight
+electrolyte design for Li/sulfurized polyacrylonitrile (SPAN) batteries.
+Adv. Mater. 2024, 36, No. 2406594.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+458
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 8 页 ===
+(19) Zhu, X.; Jiang, W.; Wang, L.; Lu, J. Constructing resilient cross-
+linked network toward stable all-solid-state lithium-sulfur batteries.
+Adv. Energy Mater. 2024, 14, No. 2304244.
+(20) Fang, R.; Xu, H.; Xu, B.; Li, X.; Li, Y.; Goodenough, J. B.
+Reaction mechanism optimization of solid-state Li-S batteries with a
+PEO-based electrolyte. Adv. Funct. Mater. 2021, 31, No. 2001812.
+(21) Chiu, L.-L.; Chung, S.-H. Composite gel-polymer electrolyte
+for high-loading polysulfide cathodes. J. Mater. Chem. A 2022, 10,
+13719−13726.
+(22) Homann, G.; Stolz, L.; Neuhaus, K.; Winter, M.; Kasnatscheew,
+J. Effective optimization of high voltage solid-state lithium batteries by
+using poly(ethylene oxide)-based polymer electrolyte with semi-
+interpenetrating network. Adv. Funct. Mater. 2020, 30, No. 2006289.
+(23) Li, X.; Zheng, Y.; Duan, Y.; Shang, M.; Niu, J.; Li, C. Y.
+Designing comb-chain crosslinker-based solid polymer electrolytes for
+additive-free all-solid-state lithium metal batteries. Nano Lett. 2020,
+20, 6914−6921.
+(24) Wei, W.; Xu, Z.; Xu, L.; Zhang, X.; Xiong, H.; Yang, J. Flexible
+ionic conducting elastomers for all-solid-state room-temperature
+lithium batteries. ACS Appl. Energy Mater. 2018, 1, 6769−6773.
+(25) An, Y.; Cheng, Y.; Wang, S.; Yu, J. Fluoride-rich solid
+electrolyte membrane in solid-state Li-S batteries: improvement of
+lithium cycle stability and shuttle effects. ACS Appl. Energy Mater.
+2022, 5, 2786−2794.
+(26) Gracia, I.; Youcef, H. B.; Judez, X.; Oteo, U.; Zhang, H.; Li, C.;
+Rodriguez-Martinez, L. M.; Armand, M. S-containing copolymer as
+cathode material in poly(ethylene oxide)-based all-solid-state Li-S
+batteries. J. Power Sources 2018, 390, 148−152.
+(27) Pei, F.; Wu, L.; Zhang, Y.; Liao, Y.; Kang, Q.; Han, Y.; Zhang,
+H.; Shen, Y.; Xu, H.; Li, Z.; Huang, Y. Interfacial self-healing polymer
+electrolytes for long-cycle solid-state lithium-sulfur batteries. Nat.
+Commun. 2024, 15, No. 351.
+(28) Zhang, J.; Chou, J.; Luo, X.-X.; Yang, Y.-M.; Yan, M.-Y.; Jia, D.;
+Zhang, C.-H.; Wang, Y.-H.; Wang, W.-P.; Tan, S.-J.; Guo, J.-C.; Zhao,
+Y.; Wang, F.; Xin, S.; Wan, L.-J.; Guo, Y.-G. A fully amorphous,
+dynamic cross-linked polymer electrolyte for lithium-sulfur batteries
+operating at subzero-temperature. Angew. Chem., Int. Ed. 2024, 63,
+No. e202316087.
+(29) Cheng, H.; Yan, C.; Chang, L.; Dirican, M.; Orenstein, R.;
+Zhang, X. Garnet-type composite polymer electrolyte for room-
+temperature all-solid-state Li-S battery. ACS Appl. Energy Mater. 2024,
+7, 3071−3081.
+(30) Duan, H.; Liao, L.; Bi, R.; Deng, Y.; Chen, G. Regulation of
+polysulfide adsorption and LiF-rich interface chemistry to achieve
+high-performance PEO-based lithium-sulfur batteries. J. Mater. Chem.
+A 2023, 11, 19046−19055.
+(31) Li, C.; Zhang, Q.; Sheng, J.; Chen, B.; Gao, R.; Piao, Z.; Zhong,
+X.; Han, Z.; Zhu, Y.; Wang, J.; Zhou, G.; Cheng, H.-M. A quasi-
+intercalation reaction for fast sulfur redox kinetics in solid-state
+lithium-sulfur batteries. Energy Environ. Sci. 2022, 15, 4289−4300.
+(32) Chen, L.; Fan, L.-Z. Dendrite-free Li metal deposition in all-
+solid-state lithium sulfur batteries with polymer-in-salt polysiloxane
+electrolyte. Energy Storage Mater. 2018, 15, 37−45.
+(33) Angell, C. A.; Liu, C.; Sanchez, E. Rubbery solid electrolytes
+with dominant cationic transport and high ambient conductivity.
+Nature 1993, 362, 137−139.
+(34) Chen, F.; Wang, X.; Armand, M.; Forsyth, M. Cationic
+polymer-in-salt electrolytes for fast metal ion conduction and solid-
+state battery applications. Nat. Mater. 2022, 21, 1175−1182.
+(35) You, D.; Hu, W.; Song, L.; Wei, W.; Xiong, H. High-energy
+metallic lithium batteries enabled by polymer-in-salt electrolytes of
+cyclic carbonate substituted polyethers. ACS Appl. Polym. Mater.
+2022, 4, 8584−8593.
+(36) Wang, J.; Yang, J.; Xie, J.; Xu, N. A novel conductive polymer-
+sulfur composite cathode material for rechargeable lithium batteries.
+Adv. Mater. 2002, 14 (13−14), 963−965.
+(37) Lu, H.; Wang, Q.; Chen, J.; Zhang, H.; Ding, J.; Nuli, Y.; Yang,
+J.; Wang, J. Electrolyte solvation regulation engineering promotes Li-
+SPAN battery without esters. Energy Storage Mater. 2023, 63,
+No. 102994.
+(38) Shen, Z.; Zhang, W.; Mao, S.; Li, S.; Wang, X.; Lu, Y. Tailored
+electrolytes enabling practical lithium-sulfur full batteries via
+interfacial protection. ACS Energy Lett. 2021, 6, 2673−2681.
+(39) Piao, N.; Liu, S.; Zhang, B.; Ji, X.; Fan, X.; Wang, L.; Wang, P.-
+F.; Jin, T.; Liou, S.-C.; Yang, H.; Jiang, J.; Xu, K.; Schroeder, M. A.;
+He, X.; Wang, C. Lithium metal batteries enabled by synergetic
+additives in commercial carbonate electrolytes. ACS Energy Lett. 2021,
+6, 1839−1848.
+(40) Cao, R.; Xu, W.; Lv, D.; Xiao, J.; Zhang, J.-G. Anodes for
+rechargeable lithium-sulfur batteries. Adv. Energy Mater. 2015, 5,
+No. 1402273.
+(41) Gabriel, E.; Ma, C.; Graff, K.; Conrado, A.; Hou, D.; Xiong, H.
+Heterostructure engineering in electrode materials for sodium-ion
+batteries: Recent progress and perspectives. eScience 2023, 3,
+No. 100139.
+(42) Li, X.; Wang, Y.; Wu, J.; Tong, L.; Wang, S.; Li, X.; Li, C.;
+Wang, M.; Li, M.; Fan, W.; Chen, X.; Chen, Q.; Wang, G.; Chen, Y.
+Engineering contact curved interface with high-electronic-state active
+sites for high-performance potassium-ion batteries. Proc. Natl. Acad.
+Sci. U.S.A. 2023, 120, No. e2307477120.
+(43) Li, C.; Tong, L.; Wang, S.; Liu, Q.; Wang, Y.; Li, X.; Wang, M.;
+Li, M.; Chen, X.; Wu, J.; Chen, Q.; Mai, Y.-W.; Fan, W.; Chen, Y.; Li,
+X. Nitrogen doping induced by intrinsic defects of recycled
+polyethylene terephthalate-derived carbon nanotubes. SusMat 2023,
+3, 431−440.
+(44) Fang, L.; Xu, W.; Lyu, X.; Liu, Y.; Reinhart, B.; Nguyen, H.; Li,
+T. Suppressing the shuttle effects with FeCo/SPAN cathodes and
+high-concentration electrolytes for high-performance lithium-sulfur
+batteries. ACS Appl. Energy Mater. 2023, 6, 795−801.
+(45) Pang, Q.; Shyamsunder, A.; Narayanan, B.; Kwok, C. Y.;
+Curtiss, L. A.; Nazar, L. F. Tuning the electrolyte network structure to
+invoke quasi-solid state conversion and suppress lithium dendrite
+formation in Li-S batteries. Nat. Energy 2018, 3, 783−791.
+(46) Vijayakumar, M.; Govind, N.; Walter, E.; Burton, S. D.; Shukla,
+A.; Devaraj, A.; Xiao, J.; Liu, J.; Wang, C.; Karim, A.; Thevuthasan, S.
+Molecular structure and stability of dissolved lithium polysulfide
+species. Phys. Chem. Chem. Phys. 2014, 16, 10923−10932.
+(47) Suo, L.; Hu, Y.-S.; Li, H.; Armand, M.; Chen, L. A new class of
+solvent-in-salt electrolyte for high-energy rechargeable metallic
+lithium batteries. Nat. Commun. 2013, 4, No. 1481.
+(48) You, D.; Farooq, M. A.; Lai, Z.; Wei, W.; Xiong, H. In-built
+curable high-salt-concentrated elastomeric polymer electrolytes for
+integrated all-solid-state lithium batteries and ion conduction.
+Macromolecules 2024, 57, 4471−4483.
+(49) Lai, Z.; You, D.; Wei, W.; Xiong, H. Conformation-assisted
+solid-solid phase transition of LiTFSI electrolyte salt and the lithium
+ion coordination. Giant 2024, 20, No. 100330.
+(50) Fortman, D. J.; Brutman, J. P.; Cramer, C. J.; Hillmyer, M. A.;
+Dichtel, W. R. Mechanically activated, catalyst-free polyhydroxyur-
+ethane vitrimers. J. Am. Chem. Soc. 2015, 137, 14019−14022.
+(51) Peruzzi, N.; Ninham, B. W.; Nostro, P. L.; Baglioni, P.
+Hofmeister phenomena in nonaqueous media: the solubility of
+electrolytes in ethylene carbonate. J. Phys. Chem. B 2012, 116,
+14398−14405.
+(52) Chen, W.-J.; Li, B.-Q.; Zhao, C.-X.; Zhao, M.; Yuan, T.-Q.; Sun,
+R.-C.; Huang, J.-Q.; Zhang, Q. Electrolyte regulation towards stable
+lithium-metal anodes in lithium-sulfur batteries with sulfurized
+polyacrylonitrile cathodes. Angew. Chem., Int. Ed. 2020, 59, 10732−
+10745.
+(53) Elgrishi, N.; Rountree, K. J.; McCarthy, B. D.; Rountree, E. S.;
+Eisenhart, T. T.; Dempsey, J. L. A practical beginner’s guide to cyclic
+voltammetry. J. Chem. Educ. 2018, 95, 197−206.
+(54) Zhang, Q.; Huang, Q.; Hao, S.-M.; Deng, S.; He, Q.; Lin, Z.;
+Yang, Y. Polymer in lithium-sulfur batteries. Adv. Sci. 2022, 9,
+No. 2103798.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+459
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 9 页 ===
+(55) Sun, Y.; Li, J.; Xu, S.; Zhou, H.; Guo, S. Molecular engineering
+toward robust solid electrolyte interphase for lithium metal batteries.
+Adv. Mater. 2023, 36, No. 2311687.
+(56) Fei, Y.; Li, G. Unveiling the pivotal parameters for advancing
+high energy density in lithium-sulfur batteries: a comprehensive
+review. Adv. Funct. Mater. 2024, 34, No. 2312550.
+(57) Yamada, Y.; Wang, J.; Ko, S.; Watanabe, E.; Yamada, A.
+Advances and issues in developing salt-concentrated battery electro-
+lytes. Nat. Energy 2019, 4, 269−280.
+(58) Liu, Y.; Liu, H.; Lin, Y.; Zhao, Y.; Yuan, H.; Su, Y.; Zhang, J.;
+Ren, S.; Fan, H.; Zhang, Y. Mechanistic investigation of polymer-
+based all-solid-state lithium/sulfur battery. Adv. Funct. Mater. 2021,
+31, No. 2104863.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.4c02576
+ACS Appl. Energy Mater. 2025, 8, 452−460
+460
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​8/​1/​452/​41624376/​ae4c02576.​pdf by TSINGHUA UNIV user on 28 September 2026

@@ -1,0 +1,969 @@
+=== 第 1 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+Available online 12 April 2022
+1385-8947/© 2022 Elsevier B.V. All rights reserved.
+Engineering high conductive Li7P2S8I via Cl- doping for all-solid-state Li-S 
+batteries workable at different operating temperatures 
+Zhongkai Wu a,b,1, Shaoqing Chen c,1, Chuang Yu a,*, Chaochao Wei a, Linfeng Peng a, 
+Hsing-Lin Wang c,*, Shijie Cheng a, Jia Xie a,* 
+a State Key Laboratory of Advanced Electromagnetic Engineering and Technology, School of Electrical and Electronic Engineering, Huazhong University of Science and 
+Technology, Wuhan 430074, Hubei, China 
+b School of Chemistry and Chemical Engineering, Huazhong University of Science and Technology, Wuhan 430074, China 
+c Department of Materials Science and Engineering, Southern University of Science and Technology, Shenzhen 518055, China   
+A R T I C L E I N F O  
+Keywords: 
+Li7P2S8I0.5Cl0.5 
+Ionic conductivity 
+Solid electrolyte 
+Solid-state Li-S batteries 
+Hot press 
+Doping 
+A B S T R A C T  
+High ionic conductivity and excellent lithium compatibility for sulfide solid electrolytes are vital to developing 
+solid-state Li-metal batteries with high energy density and safety. Li7P2S8I has attracted significant attention due 
+to its low cost, good stability towards lithium metal, and low annealing temperature. However, the low con­
+ductivity compared to liquid electrolyte and poor stability with Li metal at high current density limits its ap­
+plications in solid-state batteries. In this work, the conductivity of Li7P2S8I is first increased from 1.53 mS/cm to 
+3.08 mS/cm by Cl- doping. The enhanced ionic conductivity is due to the introduction of S2-/Cl-/I- disorder 
+structure in the structure. Then, the Li-ion conductivity of Li7P2S8I0.5Cl0.5 is enhanced up to 6.67 mS/cm via 
+optimizing the pellet-making pressures and temperatures with the hot-press technique. Because of the superior 
+conductivity, the assembled Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In battery delivers initial discharge capacities of 1051.0 
+mAh/g, 1385.0 mAh/g, and 713 mAh/g under 0.13 mAh/cm2 at room temperature, 60 ◦C, and 0 ◦C, respec­
+tively. Moreover, the capacity contribution of the Li7P2S8I0.5Cl0.5 electrolyte in cathode mixture are unraveled, 
+which shows reversible charge/discharge more than 80 cycles and confirms the extra capacity from the elec­
+trolytes in the cathode mixture. The hot-press Li7P2S8I0.5Cl0.5 pellet shows excellent lithium compatibility and 
+dendrite suppression capability, achieving stable lithium plating/stripping up to 280 h at 0.1 mA/cm2. The 
+corresponding 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li battery delivers an initial discharge capacity of 474 mAh/g at 0.13 
+mA/cm2 and capacity retention of 83% after 30 cycles. This work provides a promising strategy to explore sulfide 
+electrolytes enabling solid-state Li-Metal battery.   
+1. Introduction 
+Li-S batteries have attracted significant attention in recent years due 
+to their high energy density and low cost. [1–5] However, the current Li- 
+S batteries using organic liquid electrolytes suffer from the shuttle 
+phenomenon of those soluble polysulfide intermediates, leading to the 
+loss of active materials and degrading electrochemical performances. 
+[6–9] Moreover, the utilization of flammable liquid electrolytes also has 
+potential safety issues. [10–13] Solid-state Li-S battery using inorganic 
+solid electrolytes can both avoid the shuttle effect and enhance safety, 
+posing great potential as candidates for next-generation energy storage 
+devices. [14,15] One of the biggest challenges to developing solid-state 
+Li-S batteries is to explore new kinds of solid electrolytes with high ionic 
+conductivity. [16–18] Among the current inorganic solid electrolytes, 
+sulfide solid electrolytes deliver high Li-ion conductivity and low grain 
+boundary resistance, providing the possibility to fabricate high- 
+performance solid-state Li-S batteries. [18,19]. 
+Li7P2S8I with high ionic conductivity (~10-3 S/cm), cheap precursors 
+and low annealing temperature becomes an important candidate in 
+sulfide electrolytes. [20–22] Although Li7P2S8I shows higher conduc­
+tivity than most sulfide electrolytes, which is still far smaller than that of 
+current liquid electrolytes (~10-2 S/cm). Therefore, increasing the 
+conductivity of Li7P2S8I can accelerate its application in solid-state 
+batteries. Previous research has reported that the anion substitution of 
+* Corresponding authors. 
+E-mail addresses: cyu2020@hust.edu.cn (C. Yu), xiejia@hust.edu.cn (J. Xie).   
+1 These authors contributed equally to this work. 
+Contents lists available at ScienceDirect 
+Chemical Engineering Journal 
+journal homepage: www.elsevier.com/locate/cej 
+https://doi.org/10.1016/j.cej.2022.136346 
+Received 8 February 2022; Received in revised form 30 March 2022; Accepted 9 April 2022   
+
+=== 第 2 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+2
+S with halogen elements can enhance the Li-ion conductivity of sulfide 
+solid electrolytes, such as lithium argyrodite and Li2S-P2S5 solid elec­
+trolytes. [23] The introduction of halogens depleted the interaction 
+between the lithium ions and the surrounding anion framework. The 
+increased site disorder enlarges lithium vacancy and diffusivity, 
+compared with solid electrolytes doped with a single halogen, those 
+doped with two halogens showed higher ionic conductivity due to the 
+introduction of disordered S2-/X- structures derived from extra halide. 
+[24,25] Whether the replacement of I with other halogen anions has a 
+similar effect is still a problem. Another typical route to increase the 
+ionic conductivity of solid electrolytes is to decrease the grain boundary 
+contribution. [26] Although sulfide electrolytes exhibit much smaller 
+grain boundaries than other inorganic solid electrolytes, such as oxides 
+and anti-perovskites [27–29], lowering the grain boundary leads to ul­
+trafast Li-ion conductivity even comparable to that of current liquid 
+electrolytes, such as the hot-pressed Li7P3S11 [30]. Unraveling the 
+relationship between grain boundaries and ionic conductivities of 
+modified Li7P2S8I electrolytes provide a clue to design compositions 
+with higher conductivities. 
+S has been chosen as the common active material for solid-state Li-S 
+batteries, leading to poor battery performances due to its low electronic 
+and ionic conductivities. [31] To develop more facile candidate active 
+materials, Li2S with higher electronic/ ionic conductivities, comparable 
+discharge capacity, and the potential utilization of lithium metal-free 
+anodes have drawn significant attention for high-energy solid-state 
+batteries. [32–34] Recently, our group found that introducing LiX (X =
+Br, I) in Li2S leads to a mixture with superior ionic conductivity, yielding 
+improved electrochemical performances for solid-state Li-S batteries. 
+[35] Another issue for the Li-S battery is the large volume expansion 
+during the conversion reactions, which could degrade the effective 
+electrical contacts in the cathode mixture. [36] For Li-S batteries using 
+liquid electrolytes, the fluidity electrolytes can build ionic conducting 
+connections between different parts. While the three-dimensional con­
+ducting framework in solid-state Li-S batteries is based on various types 
+of solid–solid connections, leading to more severe volume variations of 
+solid/solid contacts during cycling, especially under different operating 
+temperatures. [37] However, the evaluations of solid/solid contacts and 
+electrochemical performances of Li7P2S8I-based solid-state Li-S batteries 
+operated at different temperatures are unclear. Revealing those working 
+mechanisms is vital to constructing high-performance all-climate solid- 
+state Li-S batteries. 
+In addition, solid electrolytes are introduced to act as ionic conductor 
+additives to increase ionic conductivity in the cathode mixture of solid- 
+state batteries. [38,39] This is especially important for solid-state Li-S 
+batteries due to the poor ionic conductivity of those sulfur species. [40] 
+Previous research has reported that lithium argyrodite solid electrolytes 
+in the cathode mixture of solid-state batteries can participate in the 
+electrochemical reaction process and provide charge/discharge capac­
+ities. [41] In contrast, whether Li7P2S8I and its analogous electrolytes 
+have a contribution to the capacity in Li7P2S8I-based solid-state Li-S 
+batteries is still unclear. More importantly, the operating temperature 
+effect on the activity of Li7P2S8I solid electrolyte in the cathode mixture 
+of solid-state batteries still needs to be unraveled. 
+In this work, we propose increasing the Li-ion conductivity of 
+Li7P2S8I with the strategy of utilizing Cl- to replace I-. The ion conduc­
+tivities and morphologies of the Cl- modified solid electrolytes are sys­
+tematically studied. The hot-press technique is applied to further 
+enhance the conductivities and densities of the obtained electrolytes. 
+Moreover, electrochemical performances at different operating tem­
+peratures of the milled- and annealed-Li7P2S8I0.5Cl0.5 with higher ion 
+conductivities are investigated by fabricating solid-state Li-S batteries 
+using Li2S-LiI cathode and Li-In anode. The assembled batteries deliver 
+excellent capacity and cyclability. To unravel the capacity contribution 
+of different components in the cathode mixture and verify whether the 
+Li7P2S8I0.5Cl0.5 electrolyte is involved in the electrochemical reactions, a 
+facile solid-state battery with the structure of Li7P2S8I0.5Cl0.5-C/ 
+Li7P2S8I0.5Cl0.5/Li-In is assembled. Multiple ex-situ characterization 
+methods, such as XRD, TEM, XPS, and EIS, are utilized to identify the 
+phase compositions and reveal the structural evolution during cycling. 
+Both the role of Li7P2S8I0.5Cl0.5 electrolyte in the cathode mixture and 
+the corresponding phase transition are unraveled. Finally, the lithium 
+compatibility and lithium dendrite suppression of the hot-pressed 
+Li7P2S8I0.5Cl0.5 is investigated. The obtained Li7P2S8I0.5Cl0.5 exhibits 
+excellent stability against lithium metal and capability for dendrite 
+suppression. Moreover, the as-assembled 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li 
+solid-state Li-S battery delivers high discharge capacity and excellent 
+cyclability under large current density. 
+2. Results and discussion 
+The phase identification of the milled- and annealed Li7P2S8I and 
+Li7P2S8I0.5Cl0.5 (denoted as LPSI and LPSI0.5Cl0.5, respectively) were 
+characterized by powder XRD. The milled Li7P2S8I and Li7P2S8I0.5Cl0.5 
+show similar XRD diffraction peaks. As shown in Fig. 1a. The XRD peaks 
+located at 21◦of samples are assigned to the diffraction peaks of the 
+protective film to separate the contact with air/moisture. No diffraction 
+peaks can be observed in the XRD patterns of those milled Li7P2S8I and 
+Li7P2S8I0.5Cl0.5 electrolytes, suggesting that the amorphous glass is 
+formed after the milling process. After annealing at 180 ◦C, the char­
+acteristic diffraction peaks indexed to the thio-LISICON II analog phase 
+at 20.2◦, 23.6◦, 29.5◦are observed in the pattern of both annealed 
+samples, indicating that introducing Cl has ignorable effect on the 
+structure of Li7P2S8I solid electrolyte. SEM morphologies of the annealed 
+Li7P2S8I0.5Cl0.5 electrolyte are also characterized, and the results are 
+shown in Fig. 1(b-c). Homogenous aggregates with sizes larger than 30 
+μm is observed in the SEM images. As shown in Fig. 1d and Table S1, EDS 
+mapping results confirm the homogenous distribution of S, Cl, P, and I in 
+the obtained materials, suggesting that Cl has been uniformly doped into 
+LPSI at stoichiometric ratio. Moreover, HRTEM images of the sintered 
+Li7P2S8I0.5Cl0.5 electrolyte as well as corresponding SAED pattern are 
+also characterized, as shown in Fig. 1(e-h). The high-resolution trans­
+mission electron microscopy (HRTEM) image of Li7P2S8I0.5Cl0.5 in 
+Fig. 1g (area 1 of Fig. 1f) possesses clear lattice fringes with interplanar 
+distances of 0.295 nm, which corresponding to the diffraction peak at 
+29.5◦. The structure of Li7P2S8I0.5Cl0.5 is depicted in Fig. S2 (a, b). Two 
+kinds of iodine ions, nonbinding or binding with P, are observed in the 
+figure. Only Li-ions surround the nonbinding I- in the structure, while 
+the binding I- ions locate at the PS3I0.5Cl0.5 tetrahedron site. Based on 
+previous paper, Li-ions show a self-diffusion mode in the structure of X- 
+modified Li7P2S8I and prefers to move along the c-axis rather than the a 
+and b-axes. [42] As illustrated in Fig. S2c, Li ions move mostly around 
+iodine ions, and iodine ions provide additional paths for Li ion diffusion. 
+[43]. 
+Ionic conductivities of the prepared samples were tested using the AC 
+impedance. As shown in Fig. 2(a-b), the total resistances of the annealed 
+Li7P2S8I electrolyte are 139 Ω at 0 ◦C, 60.9 Ω at 25 ◦C, 20.8 Ω at 70 ◦C, 
+while the resistances of the heated Li7P2S8I0.5Cl0.5 electrolyte at those 
+corresponding recording temperatures are 75.6 Ω, 30.2 Ω, and 6.6 Ω, 
+respectively. The smaller resistances for Li7P2S8I0.5Cl0.5 compared to 
+that of Li7P2S8I electrolyte indicates that introducing Cl in the structure 
+can greatly reduce the total resistances of Li7P2S8I. The Li-ion conduc­
+tivities of those materials are deduced from the impedance results and 
+depicted in Fig. 2c and Fig. S1. The ionic conductivities of the obtained 
+Li7P2S8I are 0.64, 1.53, and 4.47 mS/cm at 0, 25, and 70 ◦C. While the 
+corresponding conductivities for Li7P2S8I0.5Cl0.5 electrolyte are 1.24, 
+3.08, and 9.79 mS/cm, respectively. The conductivity of the prepared 
+Li7P2S8I in this work is comparable to that in published papers (1.53 vs. 
+1.57 mS/cm), suggesting the successful synthesis of the target phase. 
+[44] The annealed Li7P2S8I0.5Cl0.5 delivers much higher conductivities 
+than the pristine Li7P2S8I at different measuring temperatures, sug­
+gesting that Cl-doping is an effective modification method to enhance 
+the Li-ion conductivity. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+
+=== 第 3 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+3
+Previous research has also reported that the anion disorder can 
+greatly enhance the ionic conductivity of sulfide electrolytes [45,46], 
+which agrees well with our results. It should be mentioned that the ionic 
+conductivity of Li7P2S8I0.5Cl0.5 at 70 ◦C is quite close to that of the 
+current liquid electrolyte (9.79 vs. 10 mS/cm), indicating its great po­
+tential in solid-state battery applications. The activation energy for ionic 
+conduction of inorganic solid electrolytes can be deduced based on 
+temperature-dependent ion conductivities. The conductivity values 
+recorded at different temperatures follow the Arrhenius behavior. The 
+corresponding Ea for Li7P2S8I and Li7P2S8I0.5Cl0.5 electrolytes are 0.24 
+and 0.34 eV, respectively. Typically, a lower Ea value means more 
+polarized crystal lattice and faster ion migration [47], while in this work 
+Li7P2S8I0.5Cl0.5 delivers higher Li-ion conductivity and lower activation 
+energy than the pristine Li7P2S8I, suggesting that Ea is not the only factor 
+affecting ionic conductivity. The ionic conductivity was commonly 
+characterized by pressing the obtained power materials into pellets for 
+measuring. Therefore, the pressure and handling temperature play a 
+vital role in the conductivity results. To investigate the pressure effect, 
+different pressing pressures were applied to make the pellets. As shown 
+in Fig. 3, many big cracks are observed in the SEM images of the surface 
+sections for those pellets pressed under 10 and 80 MPa in Fig. 3a and 
+Fig. S4a, while fewer cracks can be observed when the pressure is 
+increased to 150 MPa in Fig. 3b. At even higher pressures, such as 250 
+MPa in Fig. S4b, only a few cracks with much narrower gaps are 
+observed in the SEM images. When the pressure is increased up to 350 
+MPa, no obvious cracks can be observed in Fig. 3c, suggesting the for­
+mation of a dense pellet with a higher density, all of those measurements 
+were performed at 35 ◦C. The ionic conductivity variation of those ob­
+tained pellets in Fig. 3d also supports our conclusions. The total Li-ion 
+conductivities are 0.9, 1.7, 2.2, 2.75, and 3.08 mS/cm for 10, 80, 150, 
+250 and 350 MPa, respectively. When the pressure is high enough to 
+ensure the contact between different particles in the pellet, such as 250 
+and 360 MPa, the pressure exhibits insignificant influence in the Li-ion 
+conductivity, as shown in Fig. 3d. 
+Fig. 1. (a) XRD patterns of LPSI0.5Cl0.5 and LPSI before and after ball milling; (b, c) SEM images of the LPSI0.5Cl0.5 in different magnifications. (d) EDS mapping 
+images of the obtained LPSI0.5Cl0.5; TEM (e, f), HRTEM (g) and SEAD (h) of LPSI0.5Cl0.5 electrolyte. 
+Fig. 2. The complex Nyquist plots of (a) LPSI0.5Cl0.5 and (b) LPSI measured at different temperatures (0, 25, and 70 ◦C). (c) Li-ion conductivities of LPSI and 
+LPSI0.5Cl0.5 at different temperatures. (d) The corresponding Arrhenius plots of LPSI and LPSI0.5Cl0.5. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+
+=== 第 4 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+4
+Temperature is another critical factor that decides the durability of 
+the solid electrolyte pellet. Hot-pressing is the typical method to control 
+the temperature under a fixed pressure during the pelleting process. 
+Based on above results, 350 MPa pressure is fixed in this work and the 
+hot-pressing temperature varies from room temperature to 180 ◦C. Clear 
+cracks are observed in the SEM images of the pellet at room temperature, 
+which reduce as a function of increasing temperatures, as shown in 
+Fig. 3(e-h). A dense pellet without cracks is obtained when the tem­
+perature increases up to 180 ◦C in Fig. 3g. The densities of the hot- 
+pressed pellets are 1.58, 1.59, 1.61, 1.63, and 1.65 g/cm3 at 30, 50, 
+100, 150, and 180 ◦C, respectively (Fig. 3h). The densities of pellets 
+increase with the increasing temperatures (Fig. S4e), which agrees well 
+with the SEM results that the pellets obtained at higher temperatures 
+exhibit fewer cracks and gaps in the surface. Moreover, the corre­
+sponding Li-ion conductivities of those pellets are 3.35, 3.32, 4.12, 4.85, 
+and 6.67 mS/cm for 30, 50, 100, 150 and 180 ◦C, respectively. Li-ion 
+conductivity shows a clear increase as a function of the increasing 
+temperatures. Additionally, the hot-pressed pellet at 180 ◦C shows much 
+higher ionic conductivity than Li7P2S8I0.5Cl0.5 annealed at the same 
+temperature. Electrochemical stability of the obtained LPSI0.5Cl0.5 glass 
+ceramic electrolytes was characterized with cyclic voltammetry (CV) on 
+the constructed Li/ LPSI0.5Cl0.5/stainless steel asymmetric cell. As 
+depicted in Fig. S3, the corresponding cathodic and anodic currents due 
+to the lithium plating (Li+ + e- → Li) and the lithium stripping processes 
+(Li → Li+ + e-) are detected near 0 V. Moreover, an oxidation peak is 
+observed when the voltage is higher than 3.6 V, suggesting that the 
+upper stable voltage for LPSI0.5Cl0.5 is 3.6 V. Therefore, the obtained 
+LPSI0.5Cl0.5 shows a stable voltage window of 0–3.6 V based on the CV 
+results. Considering the voltage window applied for all-solid-state Li-S 
+batteries, [33,34] 0.4–3.0 V (vs. Li-In) was chosen as a suitable 
+charging/discharging voltage window for the assembled battery in this 
+work. 
+Our previous research has reported that Li2S-LiI is a promising 
+cathode for solid-state Li-S batteries. [35] The highest ionic conductivity 
+is achieved when Li2S and LiI are mixed in a ratio of 3–1. [48] The KB- 
+800 is a type of conductive carbon, which has a unique branch chain 
+shape. The advantage of this form is that the conductive body has many 
+conductive contact points and branch chains form many conductive 
+paths, so conductive carbon KB-800 was chosen for the cathode mixture 
+to enhance its electronic conductivity. However, the existence of carbon 
+also accelerates the instability of sulfide electrolytes in the cathode 
+mixture.[16] The addition of solid electrolytes in the cathode mixture is 
+also vital to increase the ionic conductivity of cathode mixture, but solid 
+electrolyte in the cathode mixture is not the effective capacity contrib­
+utor for the whole battery. To balance the weight ratio of those three 
+different components in the cathode mixture plays a key role in the 
+battery performance. Considering the high ionic conductivity of Li7P2­
+S8I0.5Cl0.5(or Li7P2S8I) and the experience about constructing all-solid- 
+state Li-S batteries in our group, the final ratio of 5:4:1 (3Li2S-LiI: 
+Solid-electrolytes:KB-800) was chosen. Therefore, all-solid-state Li-S 
+batteries consisted of the milled 3Li2S-LiI and the prepared Li7P2S8I and 
+Li7P2S8I0.5Cl0.5 electrolytes were fabricated to evaluate the electro­
+chemical performances of obtained solid electrolytes under different 
+operating temperatures. The Li-ion conductivity of the 3Li2S-LiI-Li7P2­
+S8I0.5Cl0.5-C and 3Li2S-LiI-Li7P2S8I-C cathode mixture at different tem­
+peratures is shown in Fig. S5, The Nyquist plots of 3–1 Li2S-LiI, 
+Li7P2S8I0.5Cl0.5(or Li7P2S8I) and C ball-milled at the molar ratio of 5:4:1 
+show an obvious half-circle in the low-frequency range at 0 ◦C, which is 
+due to the interfacial resistance between electrolytes and Li-In anode at 
+low temperature. Moreover, due to higher conductivity of Li7P2­
+S8I0.5Cl0.5, the bulk impedance of 3Li2S-LiI@LPSI0.5Cl0.5@C is smaller 
+than that of 3Li2S-LiI@LPSI@C. As shown in Fig. 4(a-b), both batteries 
+show only one charge plateaus around 2.1 V vs. Li-In at 25 ◦C, which is 
+associated with the phase conversion from Li2S to S8. [49] During the 
+subsequent discharge process in the first cycle, three discharge plateaus 
+at ~1.8 V, ~1.5 V and ~0.55 V are observed in those figures. The first 
+discharge region (1.9–1.65 V) is assigned to the reduction of elemental 
+sulfur to form polysulfides and reduction of the polysulfides. The second 
+discharge region (1.65–0.7 V) belongs to reduction of polysulfides to 
+Li2S [50]. Moreover, according to our assumption, the third discharge 
+region (0.7–0.4 V) is attributed to the decomposition of Li7P2S8I0.5Cl0.5 
+electrolyte, and the analysis will be given later. At a higher operating 
+temperature (60 ◦C), both batteries exhibit lower charge plateau (~2.0 
+V) and higher discharge plateaus during the 1st charge/discharge pro­
+cesses. On the contrary, when the temperature decreases to 0 ◦C, they 
+show higher charge plateaus and lower discharge plateaus, which is due 
+to the cell polarization at lower temperatures [51]. Moreover, sulfide 
+electrolytes show narrow electrochemical voltage windows based on the 
+simulation results. [12] Our experiment results in this work also confirm 
+this conclusion. We found the reduction of the target Li7P2S8I0.5Cl0.5 
+electrolyte during the cycling process is mainly attributed to the 
+excessive charging/discharging voltage windows. Based on the calcu­
+lation results, Li7P2S8I exhibits a stable voltage range of 1.8–2.2 V (vs. 
+Li+/Lio) [43]. However, the working voltage chosen for all-solid-state Li- 
+S batteries is in the range of 0.4–3.0 V. The assembled 3Li2S-LiI/ 
+Li7P2S8I/Li-In battery delivers an initial discharge capacity of 597, 1028, 
+and 1449 mAh/g at 0, 25 and 60 ◦C, respectively. While the corre­
+sponding battery using Li7P2S8I0.5Cl0.5 with a superior Li-ion conduc­
+tivity shows slightly higher discharge capacities of 713, 1051, and 1385 
+mAh/g at 0, 25 and 60 ◦C, respectively. In Fig. 4b, the discharge 
+Fig. 3. SEM surface images of pressed LPSI0.5Cl0.5 pellets at the pressure of (a) 10 MPa; (b) 150 MPa; (c) 350 MPa measured at 35 ◦C; and at the pressing temperature 
+of (e) 30 ◦C; (f) 100 ◦C; (g) 180 ◦C measured at 350 MPa along with the relationship between ionic conductivity with (d) pressure and (h) pressing temperature. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+
+=== 第 5 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+5
+capacities of both batteries slightly increase at the beginning during the 
+cycling under 25 ◦C. These batteries provide comparable discharge ca­
+pacities higher than 1000 mAh/g at the first 15 cycles (Fig. 4c). Then, 
+the 3Li2S-LiI/Li7P2S8I/Li-In battery shows a fast degradation of capac­
+ities, while the 3Li2SLiI/Li7P2S8I0.5Cl0.5/Li-In battery exhibits a much 
+slower decrease of capacities and much higher discharge capacities. The 
+batteries using Li7P2S8I and Li7P2S8I0.5Cl0.5 solid electrolytes sustain 
+192.8 and 595 mAh/g after 80 cycles, respectively. When the temper­
+ature increases to 60 ◦C, these two batteries show a similar variation of 
+discharge capacities during cycling as that under 25 ◦C. After 80 cycles, 
+47.1% and 47.8% of initial discharge capacities are maintained, 
+respectively. It should be mentioned that the discharge capacities of the 
+first five cycles are higher than the theoretical capacity of Li2S for both 
+batteries, which may be attributed to the decomposition of solid elec­
+trolytes in the cathode. Those products produced during the decompo­
+sition process may participate in the following charge/discharge 
+processes, contributing to capacities in the subsequent cycles. [52–54] 
+When the operating temperature decreases to 0 ◦C, the discharge ca­
+pacities of both batteries slightly increase during cycling. After 80 cy­
+cles, the 3Li2S-LiI/Li7P2S8I/Li-In battery delivers a discharge capacity of 
+925 mAh/g, while the 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In battery shows a 
+higher discharge capacity of 1070 mAh/g. 
+The assembled solid-state Li-S battery using Li7P2S8I0.5Cl0.5 electro­
+lyte delivers much higher discharge capacities and better cyclability 
+than that using Li7P2S8I electrolyte under different operating tempera­
+tures. Moreover, EIS results before and after cycling of above batteries in 
+Fig. S6 (a-c) also confirm that the battery using Li7P2S8I electrolyte 
+shows a significant increase of interfacial resistance after 80 cycles than 
+that utilizing Li7P2S8I0.5Cl0.5 electrolyte. The increase of the interfacial 
+impedance of Li7P2S8I leads to rapid capacity decay, attributed to the 
+irreversible volume expansion during cycling. Additionally, as depicted 
+in the above section, both batteries show enhanced capacities with 
+increased operating temperatures. At higher temperatures, the inorganic 
+Li7P2S8I and Li7P2S8I0.5Cl0.5 electrolytes possess faster Li-ion mitigation, 
+yielding smaller electrochemical polarization and higher discharge ca­
+pacities for the assembled solid-state batteries, which also can be re­
+flected by the smaller voltage differences between charge/discharge 
+plateaus in Fig. 4(a-b). The abnormal variations of discharge capacities 
+under low temperature may be due to the mitigated volume changes 
+during cycling based on our previous research. [35] More details need to 
+be devoted to unravel the working mechanism and volume evaluations 
+under low operating temperatures. Besides the charge/discharge be­
+haviors and cycling performances, the rate capability of those assembled 
+3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In and LiI/Li7P2S8I/Li-In batteries under 
+different operating temperatures were also investigated. In Fig. 4f, the 
+3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In battery shows much better rate capa­
+bility and higher discharge capacities than that of 3Li2S-LiI/Li7P2S8I/Li- 
+In battery at room temperature. The former delivers discharge capacities 
+of 1219, 1120.6, 1107.8, 1020.4, and 942.1 mAh/g at 0.064, 0.13, 0.16, 
+0.32, 0.48 mA/cm2, respectively and returns to 1166.4 mA/g after 25 
+cycles at 0.13 mA/cm2. While the corresponding discharge capacities for 
+the 3Li2S-LiI/Li7P2S8I/Li-In battery at the charge/discharge current 
+densities are 1079.5, 1077.7, 1058.8, 914.4, 803.4 mAh/g, and returns 
+to 1074.3 mA/g after 25 cycles. In addition, the rate performance of the 
+3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In batteries under different operating tem­
+peratures is quite good at 0 ◦C as shown in Fig. 4g, with discharge ca­
+pacities of 636.7, 577.4, 581.1, 510.4, and 461.8 mAh/g at 0.064, 0.13, 
+0.16, 0.32, and 0.48 mA/cm2, respectively and 642.7 mAh/g after 25 
+cycles at 0.13 mA/cm2. At 60 ◦C, the corresponding discharge capacities 
+are 1486.6, 1265.5, 1119.6, 807.8 and 697.3 mAh/g and returns to 
+890.9 mA/g after 25 cycles at 0.13 mA/cm2. In addition, batteries cycled 
+at 0 ◦C shows a upward trend in Fig. 4e, based on the long terms cycling 
+performance after rate tests in Fig. 4g, this battery also suffers discharge 
+capacity degradation after ultralong cycles under 0 ◦C. 
+To confirm the assumption about the volume variations of those 
+assembled solid-state Li-S batteries under different operating tempera­
+tures, the cycled solid-state Li-S batteries were collected and dis­
+assembled. SEM was applied to study the surface and cross-section of 
+those cycled triple-pellets. In Fig. S7a, quite clear cracks are observed on 
+the surface of the cathode mixture side of the cycled 3Li2S-LiI/Li7P2S8I/ 
+Li-In battery under room temperature, and a big gap is observed be­
+tween the cathode mixture layer and the Li7P2S8I electrolyte layer. 
+While for the cycled 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In battery at the same 
+condition in Fig. S7b, no apparent cracks or gaps can be observed in the 
+surface or cross-section parts of the pellet, suggesting that Li7P2­
+S8I0.5Cl0.5 electrolyte suffers smaller volume changes during cycling 
+than the pristine Li7P2S8I electrolyte. This agrees well with previous 
+results that 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In battery exhibits superior 
+battery performances than that of 3Li2S-LiI/Li7P2S8I/Li-In one. Inter­
+estingly, the 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In battery shows faster capac­
+ity degradation at elevated temperature (60 ◦C) than that at 0 ◦C in 
+Fig. 4, suggesting poor cyclability. Correspondingly, many small cracks 
+and a tiny gap are observed in the surface and cross-section parts of the 
+cycled pellet under 60 ◦C (Fig. S7c), implying that this battery suffers 
+large volume variations under elevated temperatures. In contrast, for the 
+battery cycled under 0 ◦C after 80 cycles, much fewer cracks are 
+observed in the SEM images of the surface part, and some cracks are 
+observed in the solid electrolyte layer of the cross-section in Fig. S7d. 
+The good cyclability under 0 ◦C may be due to the dense solid–solid 
+contact between 3Li2S-LiI active materials and Li7P2S8I0.5Cl0.5 electro­
+lytes in the cathode mixture during cycling durations, while the cracks 
+observed in the solid electrolytes may also degrade the battery perfor­
+mances. At elevated temperatures, the cathode layer suffers large vol­
+ume changes during cycling, yields many cracks in the cathode layer, 
+and damages the effective contact between 3Li2S-LiI and Li7P2­
+S8I0.5Cl0.5, therefore exhibiting a fast degradation of discharge capac­
+ities. While at low temperature, the shrink effect of the cathode 
+Fig. 4. (a, b) Charge-discharge curves of the assembled solid-state Li-S batteries 
+measured at different temperatures. The cycling performances of 3Li2S-LiI/ 
+LPSI/Li-In and 3Li2S-LiI/LPSI0.5Cl0.5/Li-In solid-state Li-S batteries measured at 
+(c) room temperature (RT); (d) 60 ℃ and (e) 0 ℃. Rate performances of (f) 
+3Li2S-LiI/SE/Li-In using LPSI and LPSI0.5Cl0.5 solid-state Li-S batteries 
+measured at room temperature and (g) 3Li2S-LiI/LPSI0.5Cl0.5/Li-In solid-state 
+Li-S batteries measured at 0 and 60 ◦C. The Li2S loading is fixed at 3.2 mg 
+cm -2. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+
+=== 第 6 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+6
+composition can mitigate the volume expansion during cycling, 
+providing superior cyclability under 0 ◦C. The elements distribution of P, 
+S, I, Cl in the EDS mappings of the cycled pellets also support our 
+analysis. SEM images and EDS mapping results agree well with the 
+battery performances in the previous sections, verifying that the varia­
+tion of electrochemical performance under different operating temper­
+atures is closely related to the volume changes between solid–solid 
+contact in the assembled solid-state Li-S batteries. 
+Previous electrochemical performances show that the discharge ca­
+pacity of 3Li2S-LiI is even higher than the theoretical capacity of Li2S. 
+There are two kinds of lithium sources in the cathode mixture, the active 
+material 3Li2S-LiI and the Li7P2S8I0.5Cl0.5 solid electrolyte that acts as 
+the ionic additive. Therefore, a possible assumption is that the extra 
+capacities come from Li7P2S8I0.5Cl0.5 electrolyte. To verify this 
+assumption, Li7P2S8I0.5Cl0.5 was mixed with conductive carbon as the 
+cathode mixture and combined with Li7P2S8I0.5Cl0.5 electrolyte and in­
+dium anode to assemble Li7P2S8I0.5Cl0.5-C/Li7P2S8I0.5Cl0.5/Li-In solid- 
+state batteries. As shown in Fig. 5a, the assembled battery delivers an 
+initial discharge of 212.7, 384.2, and 418.3 mAh/g at 0, 25, and 60 ◦C, 
+respectively. All those charge curves show charge plateaus at ~2.25 V 
+vs. Li-In anode, which is associated with the decomposition of Li7P2­
+S8I0.5Cl0.5 in the cathode mixture. Moreover, it also confirms our pre­
+vious assumption that parts of the capacity of the 3Li2S-1LiI/ 
+Li7P2S8I0.5Cl0.5/Li-In batteries in Fig. 4a comes from the lithium- 
+containing solid electrolyte in the cathode composite. While for the 
+discharge curves at different temperatures, two discharge plateaus 
+located at ~1.8 and ~0.5 V vs. Li-In are observed, which are quite like 
+the discharge plots of Li2S. Moreover, this battery shows charge/ 
+discharge capacities in the following 80 cycles in Fig. 5b. It shows a fast 
+decrease of capacities and retains 21.5% of its initial value after 80 
+cycles. At 60 ◦C, Li7P2S8I0.5Cl0.5-C/Li7P2S8I0.5Cl0.5/Li-In battery suffers 
+more severe degradation of discharge capacities and delivers an even 
+lower capacity of 24.7 mAh/g after 80 cycles. This implies that the 
+decomposition of Li7P2S8I0.5Cl0.5 is significantly dependent on the 
+temperature, which also can be reflected by the fast drop of discharge 
+capacities in the first few cycles. Interestingly, this battery shows stable 
+cycling performance with a capacity retention of 85% under 0 ◦C, which 
+is also in good agreement with the superior cyclability of the 3Li2S-LiI/ 
+Li7P2S8I0.5Cl0.5/Li-In battery cycled at the same temperature in Fig. 4. 
+The stable cycling performance is due to the smaller volume changes 
+during cycling under lower temperature, which can be proved via SEM 
+test in Fig. S7d. Therefore, those batteries deliver stable cycling per­
+formance in a short cycling period. When the cycling is long enough, 
+such as the rate capability test in Fig. 4g, the battery also shows a 
+decrease of discharge capacities during cycling. In addition, the capacity 
+increase of 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In at room temperature and 
+60 ◦C in the first 10–20 cycles in Fig. 4(c-d) can be explained by the 
+contribution of electrolyte. As the capacity contributed by electrolyte 
+gradually decreases in 10–20 cycles, the capacity of the battery does not 
+increase in the subsequent cycles but begin to decline. Therefore, the 
+electrochemical performance of the 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In bat­
+tery is closely related to the decomposition of Li7P2S8I0.5Cl0.5 electrolyte 
+in the cathode mixture, especially under elevated or freezing operating 
+temperatures. EIS was also performed on the Li7P2S8I0.5Cl0.5-C/Li7P2­
+S8I0.5Cl0.5/Li-In battery before and after 80 cycles under different 
+operating temperatures. As shown in Fig. 5(c-d), the EIS results before 
+and after cycling under different temperatures show slightly increased 
+resistances due to the Li7P2S8I0.5Cl0.5 electrolyte and significantly 
+enhanced interfacial resistances in the cathode mixture. The interfacial 
+resistance is associated with the decomposition of Li7P2S8I0.5Cl0.5 elec­
+trolyte in the cathode mixture, yielding a thin layer consisting of those 
+side reaction products.[52] The much larger increment of interfacial 
+resistances for the assembled 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li-In battery at 
+the same test conditions demonstrate that the major contribution of 
+resistance for the former battery comes from the interfacial resistance of 
+3Li2S-LiI and Li7P2S8I0.5Cl0.5. 
+In addition, ex-situ XRD was applied to unravel the phase evaluations 
+of cathode mixtures during different charging/discharging states of the 
+assembled 3Li2S-LiI/ Li7P2S8I0.5Cl0.5/Li-In and Li7P2S8I0.5Cl0.5-C/Li7P2­
+S8I0.5Cl0.5/Li-In solid-state batteries. In Fig. 6a, the intensities of those 
+diffraction peaks assigned to Li2S become weaker during the initial 
+charge process, which is associated with the conversation of Li2S to S8. 
+When the 3Li2S-LiI cathode mixture is charged to 3 V, the XRD 
+diffraction peaks of the cycled cathode are indexed to the LiI, S and the 
+Li7P2S8I0.5Cl0.5 solid electrolyte phases. However, no diffraction peaks 
+of the Li2S phase are observed in the pattern of the cycled cathode 
+mixture, suggesting that all Li2S in the mixture has already been trans­
+formed to the S phase after the initial charge process. During the sub­
+sequent discharge process till 1.0 V, the reflection belonging to the S 
+phase disappears, while the Li2S diffraction peaks reappear, indicating 
+the reversible electrochemical reactions between Li2S and S active ma­
+terials during the charge/discharge processes. 
+Moreover, more diffraction peaks of the LiI and Li2S phases are 
+detectable from the XRD patterns of the cathode mixture when it is 
+discharged from 1.0 to 0.4 V. The appearance of those LiI and Li2S 
+phases are associated with the 3Li2S-LiI cathode mixture or the 
+decomposition of the Li7P2S8I0.5Cl0.5 electrolyte during the initial 
+charge/discharge process. This result agrees well with previous 
+Fig. 5. (a) The initial charge/discharge curves of LPSI0.5Cl0.5-C/LPSI0.5Cl0.5/Li-In solid-state batteries cycled at 0.13 mA/cm2 between 0.4 and 3 V vs. Li-In at RT, 60 
+and 0 ◦C. (b) Cycling performance of those batteries at different temperatures and the corresponding EIS before and after 80 cycles at the temperature of: (c) RT, (d) 
+60 ◦C, (e) 0 ◦C. The mass loading of the active materials (LPSI0.5Cl0.5) is fixed at 3.2 mg cm−2. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+
+=== 第 7 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+7
+electrochemical performances of the designed Li7P2S8I0.5Cl0.5-C/Li7P2­
+S8I0.5Cl0.5/Li-In battery. 
+Previous research has reported that sulfide electrolytes in the cath­
+ode of solid-state batteries can also participate in the electrochemical 
+reaction process and contribute to the capacities. [53]. To unravel the 
+phase conversion of the Li7P2S8I0.5Cl0.5 in the cathode mixture, the 
+cycled cathode mixture of Li7P2S8I0.5Cl0.5-C/Li7P2S8I0.5Cl0.5/Li-In at 
+different charge/discharge states are carefully investigated in Fig. 6b. 
+When the mixture is charged to 1.7 V, the diffraction peaks are indexed 
+to the Li7P2S8I0.5Cl0.5 phase and some unknown amorphous phase. 
+During the subsequent charging process, the characteristic peaks of the S 
+and LiI phases at 20.4◦, 24◦and 30.1◦increase with upper cut-off 
+voltages, suggesting the decomposition of the Li7P2S8I0.5Cl0.5 electro­
+lyte. In contrast, the peak assigned to Li7P2S8I0.5Cl0.5 at 36◦decreases 
+during this process, verifying this decomposition of the solid electrolyte. 
+When the charge cut-off voltage reaches 3.0 V, no obvious diffraction 
+peaks belonging to the Li7P2S8I0.5Cl0.5 electrolyte can be detected from 
+the cycled mixture and those reflections of the S and LiI are still visible. 
+During the following discharging, the S and LiI phases are observable in 
+the cathode mixture when the discharge cut-off voltages reach 1.0 and 
+0.4 V. When the discharge voltage is 1.0 V, a new diffraction peaks 
+attributed to the Li2S at 27◦and the characteristic peak of the Li7P2­
+S8I0.5Cl0.5 at 36◦are observed. When the cathode mixture is totally 
+discharged to 0.4 V, diffraction peaks of the S disappear and the peaks 
+belonging to Li2S become stronger, representing the reduction of S to 
+Li2S. 
+Besides XRD characterizations, ex-situ TEM is also performed on 
+those cathode mixtures at different charge/discharge states between 3.0 
+and 0.4 V to identify those phases formed during the initial cycling 
+processes. For the charged Li7P2S8I0.5Cl0.5-C cathode at 3.0 V, clear 
+diffraction rings are observed from the charged mixture. The HRTEM in 
+Fig. 6c shows the lattice fringes of 3.46 and 3.00 Å, which correspond 
+well to the (111) and (200) planes of LiI. While the lattice fringes of 
+2.02 and 3.30 Å in the HRTEM image of Fig. 6d are assigned to the (220) 
+and (111) planes of Li2S, respectively. Moreover, the lattice fringe of 
+2.31 Å corresponds to the (222) planes of S is also observed in the 
+HRTEM image in Fig. 6e. Amorphous phase also can be observed from 
+the TEM images, which may be associated with the carbon additive and 
+side products formed during the charging process. For the cycled mix­
+tures obtained after the initial discharge process, the HRTEM images in 
+Fig. 6(f-h) also show lattice fringes that can be attributed to LiI, Li2S, and 
+P. Those TEM results verify the existence of LiI, Li2S, and P phases in 
+charged (3.0 V) and discharged (0.4 V) cathode mixtures, which agrees 
+well with the ex-situ XRD results. 
+Finally, XPS was also applied to study the cycled Li7P2S8I0.5Cl0.5-C 
+mixture at different charge/discharge states, as shown in Fig. 6(i-k). For 
+the fresh battery with a voltage of 1.7 V, the S 2p XPS spectra are fitted 
+with spin–orbit coupled 2p3/2 and 2p1/2 doublets, corresponding to the 
+bridging sulfur P–S–P (163.6 eV) and non-bridging sulfur P–S–Li (161.8 
+eV), respectively (Fig. 6i). Those two XPS peaks are considered as the 
+characteristic peaks for the pristine Li7P2S8I0.5Cl0.5 materials. When the 
+cathode mixture is charged to 3.0 V, an extra peak assigned to the ex­
+istence of S is observed at 163.9 eV (Fig. 6j). When the mixture is fully 
+discharged to 0.4 V, the characteristic peak at 160.4 eV is detected, 
+which belongs to the bonding energy of electron-rich sulfur species, such 
+as Li-S in Li2S. [54] The electronegativity differences of different ele­
+ments with S can be used to judge the binding sequences. [55] For 
+example, in our case, the trend of binding sequences is S −S > P −S −P 
+> Li −S −P > Li −S. The intensities of the doublet XPS peaks at higher 
+binding energies (pink) increase during the charging process, suggesting 
+the oxidation of sulfur from Li −
+S −
+P to P −
+S −
+P and S −
+S. On the 
+contrary, the intensities of the doublet XPS peaks at lower binding en­
+ergies (blue) increase during the discharge process, indicating the 
+reduction of sulfur from P-S-P to Li-S-P and Li-S. All those XPS analyses 
+agree well with the phase translation of previous ex-situ XRD. Those 
+results also confirm the reversibility of the reduction and oxidation 
+products during the initial cycling process. Furthermore, the observation 
+of Li-S peaks (Li2S) during the discharge process indicates the reduction 
+of sulfide ions or the transformation of high energy binding state to Li-S 
+state. These results confirm our previous assumption that the extra ca­
+pacity is associated with the reduction of P-S-P or S-S to Li-S-P and Li-S in 
+the glass matrix. 
+The density of solid electrolyte pellet plays a vital role in the for­
+mation of lithium dendrite. Therefore, increasing the density of the 
+prepared Li7P2S8I0.5Cl0.5 electrolyte using hot-press method may 
+improve the lithium metal compatibility. The stability of the pressed 
+Fig. 6. (a) Ex-situ XRD evaluation of 3Li2S-LiI/LPSI0.5Cl0.5/Li-In solid-state batteries cycled between 0.4 and 3 V vs. Li-In at 0.13 mAh/cm2 during the different 
+charge/discharge states of the initial cycle. And (b) Ex-situ XRD evaluation of LPSI0.5Cl0.5-C/LPSI0.5Cl0.5/Li-In solid-state batteries during the first cycles. TEM images 
+of the charged/discharged LPSI0.5Cl0.5 mixtures when the cut-off voltages are 3.0 (c, d, e) and 0.4 V (f, g, h). The deconvoluted S2p core XPS spectra of the composite 
+cathodes at the states: (i) OCV 1.7 V, (j) charged to 3.0 V, and (k) discharged to 0 V. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+
+=== 第 8 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+8
+Li7P2S8I0.5Cl0.5 electrolyte pellet towards pristine lithium metal was 
+evaluated by long-term Li plating/stripping tests in Fig. 7a. For the Li 
+symmetric battery test, a short circuit causes a sudden, abnormal drop of 
+polarization, signaling complete Li dendrite penetration of the solid 
+electrolyte layer. In our case, no obvious sign of short circuit is observed 
+during the plating/stripping tests in Fig. 7a. The assembled Li/Li7P2­
+S8I0.5Cl0.5/Li symmetric cell can stably cycle a long duration up to 280 h, 
+suggesting excellent lithium compatibility of the pressed Li7P2S8I0.5Cl0.5 
+electrolyte pellet. Moreover, the EIS of this symmetric cell before and 
+after long-duration cycling is also tested and the results are shown in 
+Fig. 7b. 
+Compared with the impedance of the fresh cell, the cycled cell shows 
+an increased interfacial resistance after 280 h’s plating/stripping. This 
+increase implies the side reaction between Li7P2S8I0.5Cl0.5 electrolyte 
+and pristine Li metal. Therefore, the enhanced lithium compatibility of 
+the Li7P2S8I0.5Cl0.5 pellet is mainly attributed to the improved density 
+which can impede the growth of lithium dendritic. [56–61] Further­
+more, the resistance variations of the assembled Li symmetric cells using 
+the cold- and hot-pressed (denoted as CP and HP, respectively) Li7P2­
+S8I0.5Cl0.5 solid electrolytes as a function of storage durations are care­
+fully investigated, as shown in Fig. S8(a-b). Lithium symmetric cell using 
+cold-pressed Li7P2S8I0.5Cl0.5 shows an extra interfacial resistance 
+compared to that using hot-pressed electrolytes, suggesting superior 
+lithium compatibility of the latter. For the fabricated 3Li2S-LiI/electro­
+lyte/Li-In batteries using those two kinds of solid electrolytes, the bat­
+tery using hot-pressed electrolyte pellet exhibits smaller total resistance 
+than that using cold-pressed electrolyte in Fig. S8(c-d). After 36 h’s 
+storage duration, the former battery shows slight changes of resistance, 
+while the latter battery delivers a large increase in the resistance, as 
+shown in Fig. S8(c-d). The above results suggest better storage proper­
+ties and interfacial stability of the hot-pressed Li7P2S8I0.5Cl0.5 electrolyte 
+pellet. Finally, to evaluate the lithium compatibility and electrochemical 
+performance of the obtained Li7P2S8I0.5Cl0.5 pellet, it was chosen as solid 
+electrolyte combined with 3Li2S-LiI cathode and pristine lithium metal 
+anode to construct solid-state Li-S battery. The assembled battery was 
+cycled at 0.13 mA/cm2 under room temperature between 1.0 and 3.6 V 
+vs. Li+/Lio. The charge/discharge curves of this battery at the fixed 
+cycles are shown in Fig. 7c. Only one charge plateau at ~2.7 V vs. Li+/ 
+Lio is observed during the initial charging process, which corresponds to 
+the phase conversion from Li2S to S8. This charge voltage plateau is 
+slightly higher than the battery using Li-In alloy compound. Both bat­
+teries present similar voltage plateaus during the subsequent discharge 
+processes, indicating the same electrochemical reactions using different 
+anodes. This battery delivers an initial discharge capacity of 474 mAh/g 
+at 0.13 mA/cm2 with a coulombic efficiency of 83.9% at room tem­
+perature in Fig. 7c. After 30 cycles, it shows a discharge capacity of 
+393.4 mAh/g with a capacity retention of 83% (Fig. 7d). Compared with 
+solid-state battery using Li-In anode, this battery exhibits much lower 
+discharge capacities under the same measuring conditions, which may 
+be attributed to the large interface resistances caused by the side reac­
+tion between Li7P2S8I0.5Cl0.5 and pristine Li metal. EIS of the assembled 
+battery before and after 30 cycles are compared and shown in Fig. S9. 
+3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li solid-state after 30 cycles battery demon­
+strate obvious interfacial resistance than the pristine electrode and same 
+battery using Li-In alloy, suggesting the degradation of solid/solid 
+interface and worse compatibility when using Li as anode. Finally, the 
+electrochemical performances of all-solid-state batteries in this work 
+were also compared with previously published works using different 
+solid electrolytes and anodes, as summarized in Table S2. Our results 
+show comparable discharge capacities and cyclability at higher 
+charging/discharge current densities, suggesting the constructed all- 
+solid-state batteries using the obtained LPSI0.5Cl0.5 electrolytes exhibit 
+excellent electrochemical performances. 
+3. Conclusion 
+In summary, we demonstrate that introducing Cl- to substitute I- in 
+the structure of Li7P2S8I can greatly enhance the conductivity. The 
+impedance results show that the obtained Li7P2S8I0.5Cl0.5 delivered two 
+times higher conductivity than that of the pristine Li7P2S8I (3.08 vs. 1.53 
+mS/cm). Solid-state Li-S batteries using the synthesized Li7P2S8I0.5Cl0.5 
+electrolyte combined with 3Li2S-LiI cathode and Li-In anode deliver 
+much higher discharge capacities, better rate capability, and superior 
+cyclability than that using the bare Li7P2S8I electrolyte at different 
+operating temperatures, which is attributed to the improved conduc­
+tivity. SEM results confirm that the electrochemical performance dif­
+ference is also associated with solid–solid interface contacts. The 
+capacity contribution of the Li7P2S8I0.5Cl0.5 electrolyte is unraveled in 
+the cathode mixture during cycling. Ex-situ characterization including 
+XRD, TEM, and XPS results suggest that the Li7P2S8I0.5Cl0.5 electrolyte is 
+firstly decomposed to LiI, Li2S, and P, and then the yielded Li2S act as the 
+active material to participate in the following cycles. An optimized hot- 
+press process can further enhance the conductivity of the Li7P2S8I0.5Cl0.5 
+pellet up to 6.67 mS/cm. On the other hand, the increased density of this 
+pellet yields excellent lithium compatibility and dendrite suppression 
+capability. The assembled 3Li2S-LiI/Li7P2S8I0.5Cl0.5/Li solid-state Li- 
+metal battery delivers an initial discharge capacity of 474 mAh/g at 
+0.13 mA/cm2 and sustained 83% of the capacity after 30 cycles. This 
+work provides a strategy for achieving both high ionic conductivity and 
+optimal lithium dendritic suppressing ability between sulfide electro­
+lytes and Li anode, thus promoting the development of all-solid-state Li 
+metal batteries. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+This work was supported by the Ministry of Science and Technology 
+of China (Nos. 2021YFB2500200, 2021YFB2400300), and the National 
+Natural Science Foundation of China (Nos. 52177214, 51821005). We 
+gratefully acknowledge the Analytical and Testing Center of HUST for 
+allowing us to use its facilities. 
+Fig. 7. (a) Long-term cycling of a Li/HP-LPSI0.5Cl0.5/Li cell at 0.1 mA/cm2 and 
+(b) the corresponding EIS before and after cycling test. (c) Charge and discharge 
+curves and (d) cycling performance of 3Li2S-LiI/LPSI0.5Cl0.5/Li battery. All 
+measurements were performed at room temperature. The mass loading of Li2S 
+in the cathode mixture is 3.2 mg cm−2. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+
+=== 第 9 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+9
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.cej.2022.136346. 
+References 
+[1] D. Lei, K. Shi, H. Ye, Z. Wan, Y. Wang, L.u. Shen, B. Li, Q.-H. Yang, F. Kang, Y.- 
+B. He, Progress and perspective of solid-state lithium-sulfur batteries, Adv. Funct. 
+Mater. 28 (38) (2018) 1707570. 
+[2] J.B. Goodenough, et al., Rechargeable batteries: challenges old and new, J. Solid 
+State Electrochem. 16 (2012) 2019–2029, https://doi.org/10.1007/s10008-012- 
+1751-2. 
+[3] Y.-Z. Sun, J.-Q. Huang, C.-Z. Zhao, Q. Zhang, A review of solid electrolytes for safe 
+lithium-sulfur batteries, Sci. China. Chem. 60 (12) (2017) 1508–1526. 
+[4] K.H. Park, Q. Bai, D.H. Kim, D.Y. Oh, Y. Zhu, Y. Mo, Y.S. Jung, Design strategies, 
+practical considerations, and new solution processes of sulfide solid electrolytes for 
+all-solid-state batteries, Adv. Energy Mater. 8 (18) (2018) 1800035. 
+[5] W. Chen, T. Lei, C. Wu, M. Deng, C. Gong, K. Hu, Y. Ma, L. Dai, W. Lv, W. He, 
+X. Liu, J. Xiong, C. Yan, Designing safe electrolyte systems for a high-stability 
+lithium-sulfur battery, Adv. Energy Mater. 8 (10) (2018) 1702348. 
+[6] A. Manthiram, Y. Fu, S.-H. Chung, C. Zu, Y.-S. Su, Rechargeable lithium-sulfur 
+batteries, Chem. Rev. 114 (23) (2014) 11751–11787. 
+[7] M.R. Kaiser, Z. Han, J.i. Liang, S.-X. Dou, J. Wang, Lithium sulfide-based cathode 
+for lithium-ion/sulfur battery: recent progress and challenges, Energy Stor. Mater. 
+19 (2019) 1–15. 
+[8] C. Sun, J. Liu, Y. Gong, D.P. Wilkinson, J. Zhang, Recent advances in all-solid-state 
+rechargeable lithium batteries, Nano Energy 33 (2017) 363–386, https://doi.org/ 
+10.1016/j.nanoen.2017.01.028. 
+[9] J. Janek, W.G. Zeier, A solid future for battery development, Nat. Energy. 1 (9) 
+(2016), https://doi.org/10.1038/nenergy.2016.141. 
+[10] S. Xia, X. Wu, Z. Zhang, Y. Cui, W. Liu, Practical challenges and future perspectives 
+of all-solid-state lithium-metal batteries, Nano Energy 53 (2018) 753, https://doi. 
+org/10.1016/j.nanoen.2018.09.051. 
+[11] M. Shaibani, A.F. Hollenkamp, M.R. Hill, M. Majumder, Permselective membranes 
+in lithium-sulfur batteries, Curr. Opin. Chem. Eng. J. 16 (2017) 31–38, https://doi. 
+org/10.1016/j.coche.2017.04.005. 
+[12] Y. Zhu, X. He, Y. Mo, Origin of outstanding stability in the lithium solid electrolyte 
+materials: insights from thermodynamic analyses based on first-principles 
+calculations, ACS Appl. Mater. Interfaces. 7 (42) (2015), https://doi.org/10.1021/ 
+acsami.5b07517. 
+[13] X. Chen, Y. Liu, Q. Wang, J. Lv, J. Wen, X. Chen, M.B. McElroy, Pathway toward 
+carbon-neutral electrical systems in China by mid-century with negative CO2 
+abatement costs informed by high-resolution modeling, Joule. 5 (10) (2021) 
+2715–2741, https://doi.org/10.1016/j, joule.2021.10.006. 
+[14] S. Chen, D. Xie, G. Liu, J.P. Mwizerwa, Q. Zhang, Y. Zhao, X. Xu, X. Yao, Sulfide 
+solid electrolytes for all-solid-state lithium batteries: structure, conductivity, 
+stability and application, Energy. Stor. Mater. 14 (2018) 58, https://doi.org/ 
+10.1016/j.ensm.2018.02.020. 
+[15] Y. Zhu, J. Li, J. Liu, A bifunctional ion-electron conducting interlayer for high 
+energy density all-solid-state lithium-sulfur battery, J. Power Sources. 351 (31) 
+(2017) 17–25, https://doi.org/10.1016/j.jpowsour.2017.03.072. 
+[16] L. Peng, H. Ren, J. Zhang, S. Chen, C. Yu, X. Miao, Z. Zhang, Z. He, M. Yu, L. Zhang, 
+S. Cheng, J. Xie, LiNbO3-coated LiNi0.7Co0.1Mn0.2O2 and Chlorine-rich Argyrodite 
+enabling high-performance solid-state batteries under different temperatures, 
+Energy, Stor. Mater. 43 (2021) 53–56, https://doi.org/10.1016/j. 
+ensm.2021.08.028. 
+[17] P.G. Bruce, S.A. Freunberger, L.J. Hardwick, J.M. Tarascon, LigO2 and LigS 
+batteries with high energy storage, Nat. Mater. 11 (2012) 19–29, https://doi.org/ 
+10.1038/nmat3191. 
+[18] C. Zheng, Y. Ruan, J. Su, Z. Song, T. Xiu, J. Jin, M.E. Badding, Z. Wen, Grain 
+boundary modification in garnet electrolyte to suppress lithium dendrite growth, 
+Chem. Eng. J. 411 (2021), https://doi.org/10.1016/j.cej.2021.128508, 128508. 
+[19] Y. Junpei, M. Yan, Y. Yin, Y. Guo, Progress of the interface design in all-solid-state 
+Li-S batteries, Adv. Funct. Mater 28 (38) (2018) 1707533, https://doi.org/ 
+10.1002/adfm.201707533. 
+[20] Y.G. Lee, S. Fujiki, C. Jung, N. Suzuki, N. Yashiro, R. Omoda, D.S. Ko, 
+T. Shiratsuchi, T. Sugimoto, S. Ryu, J.H. Ku, T. Watanabe, Y. Park, Y. Aihara, D. Im, 
+I.T. Han, High-energy long-cycling all-solid-state lithium metal batteries enabled 
+by silver-carbon composite anodes, Nat. Energy 5 (2020) 299–308, https://doi. 
+org/10.1038/s41560-020-0575-z. 
+[21] A. Manthiram, X. Yu, S. Wang, Lithium battery chemistries enabled by solid-state 
+electrolytes, Nat. Rev. Mater. 16 (2017) 16103, https://doi.org/10.1038/ 
+natrevmats.2016.13. 
+[22] Q. Zhang, D. Cao, Y.i. Ma, A. Natan, P. Aurora, H. Zhu, Solid-state batteries: 
+sulfide-based solid-state electrolytes: synthesis, stability, and potential for all-solid- 
+state batteries, Adv. Mater. 31 (44) (2019) 1901131. 
+[23] X. Yao, D. Liu, C. Wang, P. Long, G. Peng, Y.S. Hu, H. Li, L. Chen, X. Xu, High- 
+energy all-solid-state lithium batteries with ultralong cycle life, Nano Lett. 16 (11) 
+(2016) 7148–7154, https://doi.org/10.1021/acs.nanolett.6b03448. 
+[24] R. Rajagopal, et al., Preparation of highly conductive metal doped/substituted 
+Li7P2S8Br(1–x)Ix type lithium superionic conductor for all-solid-state lithium 
+battery applications, Chem. Eng. J. 428 (2022), 132155, https://doi.org/10.1016/ 
+j.cej.2021.132155. 
+[25] S.-J. Choi, et al., LiI-doped sulfifide solid electrolyte: enabling a high-capacity 
+slurrycast electrode by low-temperature post-sintering for practical all-solid-state 
+lithium batteries, ACS Appl. Mater. Interf. 10 (2018) 31404–31412, https://doi. 
+org/10.1021/acsami.8b11244. 
+[26] A. Sakuda, A. Hayashi, M. Tatsumisago, Sulfide solid electrolyte with favorable 
+mechanical property for all-solid-state lithium battery, Sci. Rep. 3 (2013) 2261, 
+https://doi.org/10.1038/srep02261. 
+[27] J. Lau, R.H. DeBlock, D.M. Butts, D.S. Ashby, C.S. Choi, B.S. Dunn, Sulfide solid 
+electrolytes for lithium battery applications, Adv. Energy. Mater. 8 (27) (2018) 
+1800933. 
+[28] J. Schnell, T. Günther, T. Knoche, C. Vieider, L. K¨ohler, A. Just, M. Keller, 
+S. Passerini, G. Reinhart, All-solid-state lithium-ion and lithium metal batteries – 
+paving the way to large-scale production, J. Power Sources 382 (2018) 160–175. 
+[29] R. Chen, Q. Li, X. Yu, L. Chen, H. Li, Approaching practically Accessible solid-state 
+batteries: stability issues related to solid electrolytes and interfaces, Chem. Rev. 
+120 (14) (2019) 6820–6877, https://doi.org/10.1021/acs.chemrev.9b00268. 
+[30] Y. Seino, T. Ota, K. Takada, A. Hayashi, M. Tatsumisago, A sulphide lithium super 
+ion conductor is superior to liquid ion conductors for use in rechargeable batteries, 
+Energ. Environ. Sci. 7 (2) (2014) 627–631. 
+[31] Y.S. Jung, D.Y. Oh, Y.J. Nam, K.H. Park, Issues and challenges for bulk-type 
+allsolid-state rechargeable lithium batteries using sulfide solid electrolytes, Isr. J. 
+Chem. 55 (5) (2015) 472, https://doi.org/10.1002/ijch.201400112. 
+[32] L.P. Hou, H. Yuan, C.Z. Zhao, L. Xu, G.L. Zhu, H.X. Nan, X.B. Cheng, Q.B. Liu, C. 
+X. He, J.Q. Huang, Q. Zhang, Improved interfacial electronic contacts powering 
+high sulfur utilization in all-solid-state lithium-sulfur batteries, Energy. Stor. 
+Mater. 25 (2019) 436, https://doi.org/10.1049/el.2019.0142. 
+[33] H. Zhang, U. Oteo, X. Judez, G.G. Eshetu, M. Martinez-Ibanez, J. Carrasco, C. Li, 
+M. Armand, Designer anion enabling solid-state lithium-sulfur batteries, Joule 3 (7) 
+(2019) 1689–1702, https://doi.org/10.1016/j.joule.2019.05.003. 
+[34] F. Han, J. Yue, X. Fan, T. Gao, C. Luo, Z. Ma, L. Suo, C. Wang, High-performance 
+all-solid-state lithium-sulfur battery enabled by a mixed-conductive Li2S 
+nanocomposite, Nano Lett. 16 (7) (2016) 4521–4527. 
+[35] C. Wei, C. Yu, J. Xie, Tuning ionic conductivity to enable all-climate solid-state Li-S 
+batteries with superior performances, Mater. Adv. 3 (2) (2022) 1047–1054, 
+https://doi.org/10.1039/D1MA00987. 
+[36] X. Yao, N. Huang, F. Han, Q. Zhang, H. Wan, J.P. Mwizerwa, C. Wang, X. Xu, High 
+performance all-solid-state lithium-sulfur batteries enabled by amorphous 
+sulfurcoated reduced graphene oxide cathodes, Adv. Energy Mater. 7 (17) (2017) 
+1602923, https://doi.org/10.1002/aenm.201602923. 
+[37] Y. Xia, Y.F. Liang, D. Xie, X.L. Wang, S.Z. Zhang, X.H. Xia, C.D. Gu, J.P. Tu, A poly 
+(vinylidene fluoride-hexafluoropropylene) based three-dimensional network gel 
+polymer electrolyte for solid-state lithium-sulfur batteries, Chem. Eng. J. 358 (15) 
+(2019) 1047–1053, https://doi.org/10.1016/j.cej.2018.10.092. 
+[38] L. Peng, S. Chen, C. Yu, C. Liao, M. Sun, H. Wang, L. Zhang, S. Cheng, J. Xie, 
+Unraveling the crystallinity on battery performances of chlorine-rich argyrodite 
+electrolytes, J. Power Sources. 520 (1) (2022) 230890. https://doi.org/10.1016/j. 
+jpowsour.2021.230890. 
+[39] F. Wu, J.T. Lee, N. Nitta, H. Kim, O. Borodin, G. Yushin, Lithium iodide as a 
+promising electrolyte additive for lithium–sulfur batteries: mechanisms of 
+performance enhancement, Adv. Mater. 27 (1) (2015) 101–108, https://doi.org/ 
+10.1002/adma.201404194. 
+[40] T. Hakari, A. Hayashi, M. Tatsumisago, Highly utilized lithium sulfide active 
+material by enhancing conductivity in all-solid-state batteries, Chem. Lett. 44 (12) 
+(2015) 1664–1666, https://doi.org/10.1246/cl.150758. 
+[41] M. Chen, R. Prasada, S. Adams, The unusual role of Li6PS5Br in all-solid-state CuS/ 
+Li6PS5Br/In-Li batteries, Solid State Ionics 268 (15) (2014) 300–304, https://doi. 
+org/10.1016/j.ssi.2014.05.004. 
+[42] Y. Mo, S.P. Ong, G. Ceder, et al., First principles study of the Li10GeP2S12 lithium 
+super ionic conductor material, Chem. Mater 24 (1) (2012) 15–17, https://doi.org/ 
+10.1021/cm203303y. 
+[43] J. Kang, B. Han, First-principles characterization of the unknown crystal structure 
+and ionic conductivity of Li7P2S8I as a solid electrolyte for high-voltage Li ion 
+batteries, J. Phys. Chem. Lett 7 (14) (2016) 2671–2675, https://doi.org/10.1021/ 
+acs.jpclett.6b01050. 
+[44] L. Wu, G. Liu, H. Wan, W. Weng, X. Yao, Superior lithium-stable Li7P2S8I solid 
+electrolyte for all-solid-state lithium batteries, J. Power Sources 491 (2021), 
+https://doi.org/10.1016/j.jpowsour.2021.229565, 229565. 
+[45] A.D. Bui, S.-H. Choi, H. Choi, Y.-J. Lee, C.-H. Doh, J.-W. Park, B.G. Kim, W.-J. Lee, 
+S.-M. Lee, Y.-C. Ha, Origin of the outstanding performance of dual halide doped 
+Li7P2S8X (X = I, Br) solid electrolytes for all-solid-state lithium batteries, ACS 
+Appl. Energy Mater 4 (1) (2021) 1–8. 
+[46] H. Wang, C. Yu, S. Ganapathy, E.R.H. van Eck, L. van Eijck, M. Wagemaker, 
+A lithium argyrodite Li6PS5Cl0.5Br0.5 electrolyte with improved bulk and interfacial 
+conductivity, J. Power Sources 412 (2019) 29–36. 
+[47] T. Liu, Y. Ren, Y. Shen, S.-X. Zhao, Y. Lin, C.-W. Nan, Achieving high capacity in 
+bulk-type solid-state lithium ion battery based on Li 6.75 La 3 Zr 1.75 Ta 0.25 O 12 
+electrolyte: Interfacial resistance, J. Power Sources 324 (2016) 349–357. 
+[48] T. Hakari, A. Hayashi, M. Tatsumisago, Li2S-based solid solutions as positive 
+electrodes with full utilization and superlong cycle life in all-solid-state Li/S 
+batteries, Adv. Sustain. Syst. 1 (6) (2017) 1700017, https://doi.org/10.1002/ 
+adsu.201700017. 
+[49] R. Fang, S. Zhao, Z. Sun, D.-W. Wang, H.-M. Cheng, F. Li, More reliable lithium- 
+sulfur batteries: status, solutions and prospects, Adv. Mater. 29 (48) (2017) 
+1606823. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+
+=== 第 10 页 ===
+Chemical Engineering Journal 442 (2022) 136346
+10
+[50] L. Yuan, X. Qiu, L. Chen, W. Zhu, New insight into the discharge process of sulfur 
+cathode by electrochemical impedance spectroscopy, J. Power Sources 189 (1) 
+(2009) 127–132. 
+[51] Y. Hu, X. Han, F. Cheng, Q. Zhao, Z. Hu, J. Chen, Size effect of lithium peroxide on 
+charging performance of Li-O2 batteries, Nanoscale. 6 (1) (2014) 177–180. 
+[52] D.H.S. Tan, E.A. Wu, H. Nguyen, Z. Chen, M.A.T. Marple, J.-M. Doux, X. Wang, 
+H. Yang, A. Banerjee, Y.S. Meng, Elucidating reversible electrochemical redox of 
+Li6PS5Cl solid electrolyte, ACS Energy. Lett. 4 (10) (2019) 2418–2427. 
+[53] T.K. Schwietert, V.A. Arszelewska, C. Wang, C. Yu, A. Vasileiadis, N.J.J. de Klerk, 
+J. Hageman, T. Hupfer, I. Kerkamm, Y. Xu, E. van der Maas, E.M. Kelder, 
+S. Ganapathy, M. Wagemaker, Clarifying the relationship between redox activity 
+and electrochemical stability in solid electrolytes, Nat. Mate. 19 (4) (2020) 
+428–435. 
+[54] Y. Zhang, R. Chen, T. Liu, B. Xu, X. Zhang, L. Li, Y. Lin, C.-W. Nan, Y. Shen, High 
+capacity and superior cyclic performances of all-solid-state lithium batteries 
+enabled by a glass-ceramics solo, ACS Appl. Mater. Interfaces. 10 (12) (2018) 
+10029–10035. 
+[55] G.-L. Zhu, C.-Z. Zhao, H. Yuan, B.-C. Zhao, L.-P. Hou, X.-B. Cheng, H.-X. Nan, Y. Lu, 
+J. Zhang, J.-Q. Huang, Q.-B. Liu, C.-X. He, Q. Zhang, Interfacial redox behaviors of 
+sulfide electrolytes in fast-charging all-solid-state lithium metal batteries, Energy 
+Stor. Mater. 31 (2020) 267–273. 
+[56] M. Sakuma, K. Suzuki, M. Hirayama, R. Kanno, Reactions at the electrode/ 
+electrolyte interface of all-solid-state lithium batteries incorporating Li-M (M = Sn, 
+Si) alloy electrodes and sulfide-based solid electrolytes, Solid State Ionics 285 
+(2016) 101–105. 
+[57] S. Patra, V. Krupa B R, S. Chakravarty, R. Murugan, Microstructural engineering in 
+lithium garnets by hot isostatic press to cordon lithium dendrite growth and negate 
+interfacial resistance for all solid state battery applications, Electrochim. Acta 312 
+(2019) 320–328. 
+[58] Z. Zhang, C. Yu, R. Xu, L. Peng, H. Ren, J. Zhang, L. Zhang, S. Cheng, J. Xie, Iodine- 
+rich lithium argyrodite with enhanced ionic conductivity for solid-state batteries, 
+Scr. Mater 210 (2022), https://doi.org/10.1016/j.scriptamat.2021.114475, 
+114475. 
+[59] S. Chen, C. Yu, S. Chen, L. Peng, C. Liao, C. Wei, Z. Wu, S. Cheng, J. Xie, Enabling 
+ultrafast lithium-ion conductivity of Li2ZrCl6 by indium doping, Chin. Chem. Lett 
+(2021), https://doi.org/10.1016/j.cclet.2021.12.048. 
+[60] L. Peng, C. Yu, Z. Zhang, H. Ren, J. Zhang, Z. He, M. Yu, L. Zhang, S. Cheng, J. Xie, 
+Chlorine-rich lithium argyrodite enabling solid-state batteries with capabilities of 
+high voltage, high rate, low-temperature and ultralong cyclability, Chem. Eng. J 
+430 (2022) 132896. 
+[61] L. Peng, S. Chen, C. Yu, et al. Enhancing moisture and electrochemical stability of 
+Li5.5PS4.5Cl1.5 electrolyte by oxygen-doping. ACS Appl. Mater. Inter, 14 (3) (2022) 
+4179-4185. https://doi.org/10.1021/acsami.1c21561. 
+Z. Wu et al.                                                                                                                                                                                                                                      
+

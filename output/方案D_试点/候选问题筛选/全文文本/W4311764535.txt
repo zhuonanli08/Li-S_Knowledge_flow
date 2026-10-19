@@ -1,0 +1,1098 @@
+=== 第 1 页 ===
+Understanding Decomposition of Electrolytes in All-Solid-State
+Lithium−Sulfur Batteries
+Hirotada Gamo,* Kazuhiro Hikima, and Atsunori Matsuda*
+Cite This: Chem. Mater. 2022, 34, 10952−10963
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: The decomposition behavior of electrolytes affects
+the cycle stability and electrochemical redox activity in all-solid-state
+lithium−sulfur batteries (ASSLSBs). However, there is a sparse
+understanding of the electrochemistry of ASSLSBs involving the
+oxidative decomposition of sulfide solid electrolytes (SEs) due to
+the lack of fundamental studies. Herein, we unveil the redox
+chemistry related to Li2S/S conversion reaction, electrolyte
+decomposition, and redox reaction of the decomposition product,
+based on differential capacity curves. The oxidation reaction of Li2S
+proceeds simultaneously with a continuous oxidative decomposition
+of sulfide SEs. Raman spectroscopy of the cell after cycling shows
+that SEs in the cathode convert the thiophosphates with a S−S thiol
+bond via the decomposition behavior of the electrolytes. The
+implication of this reaction chemistry is expanded toward understanding the Li2S activation process in ASSLSBs. Additionally, we
+demonstrate that Li2S/SE interface modification by different rotation speeds of ball milling in SE mixing allows us to control the
+decomposition kinetics of electrolytes. The severe decomposition of electrolytes causes cycle fading instead of increasing the
+electrochemical redox activity in the early period. The findings of this work highlight the need for interface engineering to avoid
+severe degradation of electrolytes in the cathode and enhance the ability of SEs as a redox mediator.
+■INTRODUCTION
+Lithium−sulfur (Li−S) batteries have received much attention
+as next-generation batteries because S and Li2S cathode
+materials have high theoretical capacities of 1670 and 1167
+mAh g−1, respectively.1 However, the use of organic liquid
+electrolytes in Li−S batteries causes self-discharge through the
+dissolution of lithium polysulfides, an intermediate product of
+the cathode material, which were generated in the charge−
+discharge process. The self-discharge reduces cycle stability
+and, thus, is a hindrance to the commercialization of Li−S
+batteries. All-solid-state Li−S batteries (ASSLSBs), which
+replace the organic liquid electrolytes with inorganic solid
+electrolytes (SEs), suppress the dissolution of lithium
+polysulfides, thereby resolving the cycle fade caused by self-
+discharge in Li−S batteries.2,3 Nevertheless, the poor
+electronic and ionic conductivities of S and Li2S cathodes
+still restrict the utilization of their high theoretical capacity. To
+improve the electric transport properties in cathode
+composites, several research groups have developed cathode
+composites mixed with highly conductive electron additives
+and SEs.3 For instance, electron additives, such as mesoporous
+carbon,4 carbon nanotubes,5−7 and reduced graphene oxide8
+were blended into cathode composites. Similarly, sulfide-based
+SEs such as Li10GeP2S12,8−10 Li7P3S11,11 Li7P2S8I,12 and
+Li6PS5Cl,13−17 are used in cathode composites. In recent
+years, Ohno et al. demonstrated that sluggish ionic transport
+properties in the cathode limit the battery performance of
+ASSLSBs.18 Hence, the role of SEs blended in cathode
+composites holds the key to improving the utilization of sulfur
+cathodes.
+The sulfide SEs in the cathode decompose into chemical
+species with electrochemical redox activity at the highly
+electrochemically conductive surfaces with a carbon additive in
+the charging process.15,19−24 The decomposition of electrolytes
+results in the loss of ionic conduction pathways, degrading the
+overall cell performance.15 In contrast, the redox-active
+chemical species produced through the oxidative decom-
+position of sulfide SEs decreases the charge overpotential of
+Li2S in liquid Li−S batteries.25 Thus, sulfide SEs can serve as a
+redox mediator in ASSLSBs owing to their electrolyte
+decomposition behavior, in addition to their role as conduction
+pathways. However, there is a lack of fundamental studies on
+the electrochemical redox-active decomposition product
+produced from sulfide SEs in ASSLSBs. This is because the
+Received:
+September 23, 2022
+Revised:
+November 21, 2022
+Published: December 15, 2022
+Article
+pubs.acs.org/cm
+© 2022 American Chemical Society
+10952
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 2 页 ===
+onset potential of the oxidative decomposition of SEs is close
+to the oxidation potential of Li2S. In addition, the voltage
+profile of ASSLSBs shows a single discharge plateau compared
+to the two-plateaued discharging voltage profile in liquid Li−S
+batteries.26 These electrochemical behaviors have resulted in
+misinterpretation of redox reactions among many researchers.
+In fact, the reported voltage profiles of ASSLSBs involve
+multistep plateaus in the discharge process, whereas such
+reaction steps have been obscure so far.5,12−14,27−32 A recent
+study reported that the Li2S cathode composites fabricated by
+mixing Li3PS4 (LPS) in a mortar did not show any
+electrochemical activity of LPS, excluding the capacity
+contribution of SEs in ASSLSBs.33 Nevertheless, the voltage
+profiles seem to involve reduction reactions with multiple steps
+in the aforementioned reports; the reason for these reactions is
+still unclear. In addition, such an ambiguous reaction
+mechanism brings a limited understanding of the Li2S
+activation process: a high activation barrier in the first charge
+process and increased capacity during the early cycle.
+In the present work, we identify the electrochemical
+decomposition behavior of SEs in ASSLSBs using galvanostatic
+charge−discharge tests and their differential capacity curves.
+These fundamental experiments provide insight into the
+ASSLSB electrochemistry involving the Li2S redox reaction,
+oxidative decomposition of sulfide SEs, and redox reaction of
+the decomposition product in ASSLSBs. This redox chemistry
+contributes to the understanding of the Li2S activation process
+in ASSLSBs. Additionally, we investigate the effect of different
+Li2S/SE interfaces, which are designed by altering the rotation
+speeds (250 and 510 rpm) in LPS SE mixing, on cell
+performance. Engineering the Li2S/SE interface controls the
+electrolyte decomposition kinetics governing the ability of SEs
+as a redox mediator and cycle stability. This gives insight into
+an optimized design of ASSLSBs that can suppress cycle fading
+and enhance the electrochemical redox activity owing to the
+decomposition of SEs.
+■EXPERIMENTAL SECTION
+Chemicals. Lithium sulfide (99.9%, Mitsuwa), LiCl (99.99%,
+Wako Fujifilm), P2S5 (99%, Merck), and VGCF (vapor-grown carbon
+fiber, Showa Denko) were procured and used without additional
+purification.
+Synthesis of Cathode Materials and SEs. For the synthesis of
+the Li2S cathode material, 1 g of Li2S particles was ball-milled using
+planetary ball milling (Fritsch Pulverisette 7 Premium line) and 45 ml
+of zirconia pots containing 15 zirconia balls with a diameter of φ 10
+mm at a rotation speed of 510 rpm for 10 h. Amorphous LPS SEs
+were prepared by ball milling a mixture powder (1 g) of Li2S and P2S5
+at a molar ratio of 3:1 under identical conditions, as described above.
+Li5.5PS4.5Cl1.5 SEs were prepared for the electrolyte layer by ball
+milling a mixture (2 g) of Li2S, P2S5, and LiCl with a stoichiometric
+ratio at a rotation speed of 600 rpm for 20 h followed by heat
+treatment at 450 °C for 2 h.
+Preparation of Cathode Composites. For the synthesis of
+cathode composites, 0.4 g of Li2S and VGCF powders with a weight
+ratio of 5:1 was first ball-milled with 45 ml of zirconia pots containing
+35 g of φ 4 mm zirconia balls at a rotation speed of 510 rpm for 10 h;
+0.4 g of the Li2S-VGCF and amorphous LPS powders with a weight
+ratio of 6:4 was then ball-milled with 45 ml of zirconia pots containing
+35 g of φ 4 mm zirconia balls at a rotation speed of 250 or 510 rpm
+for 2 h. The obtained Li2S-LPS-VGCF cathode composites milled at
+250 and 510 rpm were denoted as Li2S-250 and Li2S-510,
+respectively. For the synthesis of LPS-VGCF cathode composites,
+0.4 g of amorphous LPS and VGCF powders with a weight ratio of
+9:1 was ball-milled at a rotation speed of 250 and 510 rpm for 2 h.
+Cell Assembly. For galvanostatic cycling tests, the Li−In|
+Li5.5PS4.5Cl1.5|Li2S-250 and -510 cells were assembled as follows.
+First, 80 mg of Li5.5PS4.5Cl1.5 powder was filled with a polyether-ether-
+ketone with two stainless-steel rods, followed by the application of a
+uniaxial pressure of 256 MPa to form pellets with diameters of ∼10.0
+mm at room temperature. The cathode composites were spread over
+one side of the SE layer and pressed under 256 MPa at room
+temperature. The Li2S cathode material loading in Li2S-250 and -510
+is 3.2 mg cm−2. Indium and Li foils were placed on the other side of
+the SE layer and pressed under 90 MPa at room temperature. The
+assembled cell was sandwiched between two stainless-steel rods under
+a pressure of approximately 50 MPa for electrochemical measurement.
+The cells were rested for 1 h before performing the galvanostatic
+cycling test for alloying. In the case of LPS-VGCF cathode
+composites, the LPS material loading is 5.7 mg cm−2.
+Electrochemical Measurements. The fabricated cells were
+cycled under 0.1C (corresponding to the current density of
+approximately 0.292 mA cm−2) in a voltage range of 0.6−3.0 V (vs
+Li−In) at 30 °C using a charge−discharge device (Nagano, BST-
+2004H). Electrochemical impedance spectroscopy (EIS) was
+performed for the cell with Li2S-250 and -510 at the state of full
+charge and discharge using an electrochemical measurement system
+HZ-Pro (Hokuto Denko) in the frequency range of 1 MHz to 1 mHz
+and an applied voltage of 10 mV.
+Materials Characterization. Powder X-ray diffraction (XRD)
+measurements were conducted with Cu Kα radiation and a scan rate
+of 5° min−1 using a Rigaku SmartLab SE.34 Structural refinements
+were conducted by the Rietveld method using the RIETAN-FP
+computer program. The crystalline size, D, of Li2S in the prepared
+cathode composite was calculated from the Halder−Wagner method
+presented in eq 1
+i
+k
+jjj
+y
+{
+zzz =
++
+K
+D
+tan
+tan
+sin
+16
+2
+2
+(1)
+where β is the integral breadth, K is a constant (0.94), ε is the
+microstrain, and λ is the wavenumber of X-rays. The field-emission
+scan electron microscopy characterization (FE-SEM) was performed
+using a Hitachi-S4800 with energy-dispersive spectroscopy (EDS;
+Ultim Max, Oxford Instrument). The sample for SEM character-
+ization was directly prepared from the powder.
+■RESULTS AND DISCUSSION
+Structural Properties of Pulverized SEs. Engineering
+the cathode/SE interface using the ball-milling treatment
+allows us to modify the electrochemical redox kinetics of SEs
+Figure 1. SEM images of (a) LPS, (b) LPS-250, and (c) LPS-510 particles.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10953
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 3 页 ===
+and sulfur cathodes.16,35,36 To gain insights into the effect of
+the structural properties of LPS SEs on the electrochemical
+activity, we evaluated the structural properties of the LPS SEs
+milled at rotation speeds of 250 and 510 rpm (denoted as LPS-
+250 and LPS-510). Figure 1a−c shows the SEM images of
+LPS, LPS-250, and LPS-510, respectively. The average
+secondary particle sizes of LPS-250 and -510 were calculated
+to be 62.2 ± 24.0 and 42.0 ± 15.9 μm, respectively (Figure
+S1). These surface morphologies are similar to pristine LPS
+particles. Figure 2a shows the XRD patterns of pristine LPS,
+LPS-250, and LPS-510. A halo pattern is observed in all of the
+samples, indicating that they form an amorphous structure.
+Raman spectroscopy was performed on pristine LPS, LPS-250,
+and LPS-510 to investigate the modification of the local
+structure induced by ball milling (Figure 2b). Raman spectra of
+the pristine LPS have three Raman peaks at 280, 405, and 436
+cm−1. The Raman spectroscopy study in previous work
+reported that amorphous Li3PS4 consists of PS4
+3−assigned to
+the Raman peak at 420 cm−1 and P2S6
+4−assigned to the Raman
+peak at 386 cm−1 anion units.37 Thus, the obvious peak at 436
+cm−1 corresponds to the symmetric stretching vibrations of the
+P−S covalent bond in the isolated PS4
+3−anion units, and the
+peak at 405 cm−1 corresponds to P2S6
+4−anion units. In
+addition, the broad peak at 280 cm−1 is attributed to the
+bending vibrations of the intramolecular S−S repulsion in the
+isolated PS4
+3−anion units.38 In LPS-250 and -510, the peaks
+corresponding to the P2S6
+4−(393 cm−1) and P−S covalent
+bond in the PS4
+3−(428 cm−1) are observed. These peaks shift
+toward the lower wavenumber (i.e., red shifting) in
+comparison with the pristine LPS, which indicates a softening
+of the lattice.39 In contrast to these peak shifts, no shift of the
+peak corresponding to the S−S bond in the PS4
+3−is detected.
+The spectra of LPS-510 are broader than those of the pristine
+LPS and LPS-250. This observation implies that the PS4
+3−
+tetrahedra are distorted by ball-milling treatment with a higher
+rotation speed. These experimental results highlight that ball-
+milling treatment leads to the loose P−S covalent bond in the
+PS4
+3−of amorphous LPS and distortion of the PS4
+3−tetrahedra
+in LPS-510. Therefore, ball milling with a higher rotation
+speed for the pulverization leads to a decrease in the secondary
+particle size and the distorted local structure of LPS SEs.
+Decomposition Behavior of SEs. Figure 3a plots the
+ionic conductivity versus inverse temperature of the pelletized
+pristine LPS, LPS-250, and -510. These samples exhibit the
+ionic conductivities of 4.8 × 10−4, 4.1 × 10−4, and 2.8 × 10−4 S
+cm−1 at 30 °C, respectively. The change in the ionic
+conductivity may be caused by the distortion of the PS4
+3−
+anion unit observed in the Raman spectra. Additionally, Ates et
+al. reported that β-LPS SE pellets with higher porosity and a
+larger particle size show higher ionic conductivity. This
+observation demonstrates the major effect of grain boundary
+resistance on the ionic conductivity of β-LPS.40 The pelletized
+pristine LPS, LPS-250, and LPS-510 have pellet densities of
+1.82, 1.93, and 2.22 g cm−3, which are calculated from the
+volume measured by the dimensions of the pellets,
+respectively. The LPS with the lower pellet density and larger
+particle size shows higher ionic conductivity. The decrease in
+ionic conductivity induced by ball milling may be originated
+not only from the modified local structure but also the grain
+boundary resistance. Figure 3b depicts galvanostatic charge−
+discharge profiles of 90LPS-10VGCF (wt%) milled at rotation
+speeds of 250 and 510 rpm (denoted as 90LPS-10VGCF-250
+and -510, respectively) under a current density of 0.13 mA
+cm−2 at 30 °C. Compared to the cell with 90LPS-10VGCF-
+250, the cell with 90LPS-10VGCF-510 exhibits a higher
+capacity for 50 cycles. The particle size of the component in
+the electrode dictates electronic and/or ionic contact, affecting
+the electrochemical reaction kinetics of active materials in all-
+solid-state Li-ion batteries.35,41 The high capacity of the
+90LPS-10VGCF-510 is attributed to a larger interfacial contact
+area between the smaller SEs and VGCF but not the effective
+ionic conductivity of SEs in the cathode. This larger contact
+area can be explained by the higher pellet density of LPS-510
+than that of LPS-250. Figure 3c shows the differential charge
+capacity curves of the cell with 90LPS-10VGCF-510. The
+curves involve an oxidation peak at 2.27 V in the first charge
+process, and its intensity declines with each cycle. After the
+initial oxidation reaction, a new oxidation peak appears at 1.76
+V in the second cycle. Sulfide SEs decompose into redox-active
+chemical species containing the complex −P−[Sn]−P−species
+and sulfur.18,20−22,24,25,42−46 In other words, once the LPS is
+oxidized, it cannot return to its pristine electron structure. The
+oxidation peaks at 2.27 and 1.76 V correspond to the
+decomposition reaction of LPS and the oxidation reaction of
+the decomposition product, respectively. In contrast to the
+oxidation at 2.27 V, the oxidation peak observed at 1.76 V is
+maintained throughout the cycle, which indicates that the
+decomposition product has reversible redox activity.42Figure
+3d shows the Raman spectra of LPS-VGCF-250 and -510 after
+the first cycle. No change in the local structure is detected in
+LPS-VGCF-250 before and after the cycle. In LPS-VGCF-510,
+the Raman peak of the PS4
+3−anion unit becomes sharp after
+Figure 2. (a) XRD patterns and (b) Raman spectra of pristine LPS,
+LPS-250, and LPS-510.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10954
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 4 页 ===
+the cycle, which indicates that the reorientation of PS4
+3−occurs
+through the charge/discharge process. Given that LPS-VGCF-
+510, in which the reorientation of PS4
+3−occurs, shows a higher
+capacity than LPS-VGCF-250, the modified local structure of
+amorphous LPS leads to no significant impact on the
+electrochemical redox activity.
+Impact of the Li2S/LPS Interface on Battery Perform-
+ance. The oxidative decomposition of LPS results in redox
+activity, which can improve the battery performance limited by
+the sluggish kinetics of Li2S cathode materials. The Li2S
+reaction chemistry with contributions from the interfacial
+reaction between LPS and Li2S (or VGCF) must be taken into
+account. The cathode composites with different interface
+designs were fabricated, as shown in Figure 4a. The Li2S-
+VGCF composite shows broader Bragg peaks than milled Li2S,
+which is attributed to the smaller crystalline size of Li2S in
+Li2S-VGCF composites (Figure 4b). Ball-milling treatment for
+VGCF mixing further pulverizes the Li2S particles. Using the
+Halder−Wagner method, the average crystalline size of the
+Li2S crystal was calculated to be 16.1 nm for Li2S-250 and 11.1
+nm for Li2S-510 (Figure S2). The milled Li2S involves rough
+secondary particles of over 50 μm in diameter (Figure 4c). As
+can be seen in Figure 4d,e, the SEM-EDS images reveal that
+each particle in Li2S-250 and -510 is aggregated and is in close
+contact with the others. Phosphorus and sulfur atoms are
+evenly distributed across the entire particle. The electro-
+chemical redox activity of Li2S is affected by its micro-
+structure.36,47−49 Based on the structural properties of LPS SEs
+and Li2S cathode composites, we believe that Li2S-250 and
+-510 were fabricated, in which Li2S shows similar redox activity
+and LPS has different secondary particle sizes. Figure 5a,b
+presents the galvanostatic charge−discharge profiles of the cells
+with Li2S-250 and -510, respectively. Both cells show a high
+activation barrier in the first charge process. The capacity of
+these cells is ∼350 mAh g−1 in the first discharge and increases
+with each cycle (Figure 5c). This increase of capacity in the
+early period and the high activation barrier in the initial cycle
+are called the activation process.7,27,30,36 The capacity of the
+cell with Li2S-510 reaches a maximum of 564 mAh g−1 after 16
+cycles and then decreases to 212 mAh g−1 with a low capacity
+retention of 59% after 100 cycles. This decrease in capacity
+should be caused by the degradation of electrolytes.11,15 In
+contrast, the cell with Li2S-250 shows a maximum capacity of
+496 mAh g−1, achieving relatively stable battery performance in
+long-term cycles.
+Figure 3. (a) Ionic conductivity of LPS, LPS-250, and LPS-510 as a function of inverse temperature. (b) Galvanostatic charge−discharge profiles of
+Li−In|Li5.5PS4.5Cl1.5|90LPS-10VGCF-250 and -510 cycled in the voltage range of 0.6−3.0 V (vs Li−In) under 0.13 mA cm−2 at 30 °C. (c)
+Differential charge capacity curves of the cell with 90LPS-10VGCF-510. (d) Raman spectra of LPS-VGCF-250 and -510 after the first cycle.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10955
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 5 页 ===
+The Coulombic and conversion efficiencies were calculated
+to uncover the evolution of electrolyte degradation during the
+charge−discharge cycle (Figure 5d). The conversion efficiency
+ϕC can be determined by dividing the discharge capacity Qd,n
+by the charge capacity Qc,n−1, where n is the cycle number.15
+The Coulombic efficiency ϕQ can be determined by dividing
+the discharge capacity Qd,n by the charge capacity Qc,n in the
+same cycle. The efficiency is dominated by three contributions:
+the cathode material, decomposition of SEs, and redox-active
+decomposition product. The ϕQ values of Li2S-250 and -510
+show 82 and 94% in the first cycle, respectively. The ϕQ
+stabilizes at 100% for Li2S-250 and 98.4% for Li2S-510 after a
+few cycles. The low ϕQ can originate from the irreversibility
+associated with the chemomechanical failure and/or decom-
+position reaction of LPS. This chemomechanical failure should
+be caused by the volume change of the cathode material
+involving a redox reaction. The drastic drops in capacity and
+efficiency are observed in the 67th cycle, which can be
+attributed to the chemomechanical failure. Given that severe
+oxidative decomposition occurs at LPS milled at 510 rpm, as
+can be seen in Figure 3c, the low ϕQ of Li2S-510 observed in
+long-term cycles should originate from the continuous
+decomposition reaction of SEs. The conversion efficiency of
+both Li2S-250 and -510 is ∼115% in the initial cycle and
+converged to 100% after several cycles. The efficiency of over
+100% implies an additional capacity contribution of the LPS
+and an increase in the electrochemical redox activity through
+the oxidation decomposition of LPS.
+Reaction Chemistry of ASSLSBs. The differential
+capacity curves of the cells with Li2S-250 and -510 are
+shown in Figure 6a,b. The calculated differential curves show
+an oxidation peak (○) at ∼2.3 V, a pronounced oxidation peak
+(☆) that appears after the second cycle, and two reduction
+peaks (□and ◊). The first oxidation reaction occurs at the
+same potential as the oxidative decomposition of LPS, as
+confirmed in Figure 3c. However, the initial charge capacity of
+the cells with Li2S-250 and -510 is significantly different from
+that of 90LPS-10VGCF-510. This shows that the oxidation
+reaction of Li2S participates simultaneously with the oxidative
+decomposition of LPS. A Li2S electrode blended with LPS in
+liquid Li−S batteries is activated by a redox mediator
+generated from the delithiation of LPS, decreasing the charging
+potential in the first cycle.25 Hence, LPS should serve as the
+redox mediator through the oxidative decomposition in
+ASSLSBs. The oxidative decomposition of LPS is observed
+even after the second cycle, which implies the dynamic
+evolution of the interface between LPS and Li2S (or VGCF,
+electron additive). To clarify the effect of the redox mediator of
+sulfide SEs, we evaluated the cell performance of a cathode
+composite blended with Li3YCl6 SEs, which show oxidative
+stability in the operating voltage range of ASSLSBs.50 The cell
+exhibits an extremely low capacity of less than 100 mAh g−1,
+although the ionic conductivity of Li3YCl6 (σ30 = 2.9 × 10−4 S
+cm−1) is similar to that of LPS (Figure S3a−c). The cathode
+composite shows no oxidation decomposition of Li3YCl6 in the
+charging process, as shown in Figure S3d of the differential
+charge capacity curves. In a recent study, Li3HoBr6 having a
+high ionic conductivity of ∼1 mS cm−1 and oxidative stability
+was applied to ASSLSBs, resulting in a reversible capacity of
+582 mAh g−1 at 0.1C.51 Here, the weight percentage of the
+sulfur cathode in cathode composites is only 8% and the
+operating temperature is 60 °C. These findings highlight that
+the redox behavior of SEs that are oxidated at a slightly higher
+oxidation reaction potential than Li2S enhances the redox
+reaction kinetics of Li2S in ASSLSBs. Hakari et al. have
+reported that the Li2S cathode blended with SEs or additives
+Figure 4. Structural properties of Li2S cathode composites. (a) Experimental procedure of the synthesis of Li2S cathode composites. (b) XRD
+patterns of the prepared Li2S cathode composites. (c) SEM image of milled Li2S. SEM-EDS images of Li2S-LPS-VGCF cathode composites milled
+at rotation speeds of (d) 250 rpm and (e) 510 rpm for 2 h.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10956
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 6 页 ===
+(such as lithium halide) with a slightly higher onset oxidation
+potential than Li2S shows a high reversible capacity of >1000
+mAh g−1 in ASSLSBs.33 This high capacity was explained by
+the high ionic conduction networks in Li2S cathodes.33,52
+Unlike this notion, our work points out that those SEs can act
+as a redox mediator and accelerate the redox reaction kinetics
+of the Li2S cathode. Our recent study suggested that I-
+substituted Li2S-based cathode materials achieved a superior
+higher discharge capacity under high C-rates compared to
+other halide-ion-substituted Li2S-based cathode materials due
+to the redox behavior of I−, which involves the oxidation to I3−
+at a slightly higher potential than the oxidation potential of
+Figure 5. Electrochemical properties of Li2S-LPS-VGCF cathode composites milled at rotation speeds of 250 and 510 rpm. Galvanostatic charge−
+discharge profiles of Li−In|Li5.5PS4.5Cl1.5|(a) Li2S-250 and (b) Li2S-510 cells cycled in the voltage range of 0.6−3.0 V vs Li−In under 0.1C at 30 °C.
+(c) Cycle stabilities and (d) Coulombic efficiency (ϕQ) and conversion efficiency (ϕC) of Li2S-250 and -510.
+Figure 6. Differential capacity curves of cells with (a) Li2S-250 and (b) -510.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10957
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 7 页 ===
+Li2S.53 In some cases of sulfide ASSLSBs, increasing the ionic
+conductivity of sulfide SEs by a factor of 2 leads to no
+significant improvement in the battery performance of
+ASSLSBs in the early cycle.12,14,54 In contrast, the use of
+Li7P3S11-introduced MoS2 with high catalytic activity allows for
+significantly enhanced reversible capacity in the early cycle.55
+We believe that the development of SEs with inherent high
+catalytic activity can guide the advancement of ASSLSBs.
+Distinguishable reduction peaks are observed at ∼1.1 V (□)
+and ∼1.3 V (◊) vs Li−In. A conversion reaction from a solid
+to a solid in Li−S batteries commonly occurs through a single
+step.56 In addition, the reduction reaction of sulfur in ASSLSBs
+occurs at a potential of ∼1.1 V (vs Li−In).53 Therefore, the
+reduction peaks at higher (◊) and lower voltages (□) are
+attributed to the decomposition products of LPS and S
+cathode materials, respectively. The reduction peak corre-
+sponding to the conversion reaction of S (□) disappears
+completely after 50 cycles. In other words, the Li2S cathode is
+inactivated through long-term cycling. The loss of redox
+activity indicates that the discharge capacity of Li2S-250 and
+-510 after 50 cycles is entirely responsible for the reduction
+reaction of the decomposition product. Nevertheless, the
+capacities of Li2S-250 and -510 are significantly higher than the
+capacity of the cell with 90LPS-10VGCF-510 after 50 cycles
+(Figure 3b). This implies that the decomposition product from
+LPS converts to compounds with higher redox activity through
+the charge/discharge process. The reduction peak correspond-
+ing to the cathode material reappears in dQ/dV curves of Li2S-
+250 during 50−100 cycles (Figure S4). Thus, the Li2S cathode
+material in Li2S-250 is reactivated, which leads to the
+continuous capacity increase of Li2S-250 after 30 cycles. To
+investigate the structural evolution of LPS in the cathode
+during charge/discharge, Raman analysis was performed on
+Li2S-250 and -510 without treatment and after the 20th cycle
+(Figure 7). For the pristine Li2S-250, two peaks are detected at
+428 and 280 cm−1, which correspond to the P−S and S−S
+bonds in the PS4
+3−anion unit, respectively. Raman spectra of
+Li2S-250 after the 20th cycle show a weak peak related to the
+S−S bond at 241 cm−1. For the pristine Li2S-510, a weak peak
+corresponding to the P−S in the PS4
+3−anion unit is observed
+at 427 cm−1. After the 20th cycle, an obvious peak
+corresponding to P−S bonds in the PS4
+3−is detected, which
+suggests that the reorientation of PS4
+3−occurs through the
+charge/discharge process. Additionally, the peaks related to the
+symmetry species of the S−S bonds appear at 156, 224, 250,
+440, and 476 cm−1. These Raman spectra are consistent with
+those of thiophosphates with the S−S thiol bond, P4S10+n
+molecules; this compound is generated from a series of
+reactions of tetraphosphorus decasulfide with disulfides,
+showing a high reversible capacity of over 500 mAh g−1.57−61
+Therefore, the amorphous LPS SEs in the cathode should react
+with polysulfides produced by the delithiation of Li2S in the
+charging process to form complex −P−Sn−P−polyanions that
+contain long-chain cross-linked sulfur. The high capacity
+obtained after the inactivation of Li2S can be described by
+the formation of sulfur-rich thiophosphates with redox activity.
+The redox peak corresponding to the decomposition products
+in the cell with Li2S-510 shifts to the low potential side during
+the long-term cycle. This can be attributed to the decrease in
+chain length for cross-linked sulfur in the decomposition
+product.57 This decomposition behavior should cause an
+irreversible redox reaction, fading cycle stability. Our work
+points out that the overall performance of ASSLSBs discussed
+in previous studies may have been dominated by the
+electrochemical activity of the decomposition products. The
+decomposition behavior of SEs relates to the activation
+process: the initial oxidation reaction with a higher activation
+barrier, and an increase in capacity during dozens of cycles.
+Lithium sulfide cathode is activated by the onset of
+electrochemical redox-active decomposition products gener-
+ated through the oxidative decomposition of SEs in the initial
+charge. In the activation process, sulfide SEs in the cathode
+react with sulfur through continuous oxidative decomposition
+to form thiophosphates with a S−S thiol bond. This reaction
+chemistry of ASSLSBs enhances the cell performance in the
+early cycles. Figure 8 plots the overvoltage calculated from the
+potential difference between the maximum oxidation and
+reduction peaks in the differential capacity curves of the
+galvanostatic cycling test, as shown in Figure 6a,b. The cells
+with Li2S-250 and -510 show a high overvoltage in the first
+cycle because of the activation process. The overvoltage
+significantly reduces in the second cycle and again after
+subsequent cycles. The second decrease means that the
+dominant redox of the Li2S switches to the dominant redox
+of the decomposition products. The cell with Li2S-510 exhibits
+an apparent lower overvoltage after several cycles compared to
+the cell with Li2S-250. This could be attributed to the larger
+contact area between the Li2S cathode material and LPS SEs in
+Li2S-510.
+Electrochemical Impedance Spectroscopy of
+ASSLSBs. Figure 9a shows the electrochemical impedance
+Figure 7. Raman spectra of (a) Li2S-250 and (b) Li2S-510 without
+treatment and after the 20th cycle.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10958
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 8 页 ===
+spectra of pristine cells with Li2S-250 and -510 at an open-
+circuit voltage. The Nyquist plots show a straight 45° line and
+a sharp capacitive tail at the low-frequency regime, which are
+characterized by a typical non-Faradaic transmission line
+model (TLM) behavior (Figure S5). A TLM for impedance
+analysis can determine the effective ionic transport property in
+ASSLSBs.18 The ion transport resistance Rion is identified from
+the low-frequency limit in the real part of the impedance
+spectrum if the electronic resistance is negligible, as
+follows62−64
+=
++
+Z
+R
+R
+1
+3
+overall,
+0
+electrolyte
+ion
+(2)
+The extracted Rion was calculated to be 680 Ω for Li2S-250 and
+975 Ω for Li2S-510 based on the resistance of ∼34 Ω in the
+electrolyte layer (Figure S6). Compared to the cell with Li2S-
+250, the cell with Li2S-510 shows a higher resistance. No
+correlation is found between the resistance obtained from the
+EIS measurement of the pristine cell and the overvoltage of
+galvanostatic charge−discharge; this observation is consistent
+with the EIS study in liquid Li−S batteries.25 This difference
+between the measurements could be because EIS measurement
+treats responses in equilibrium potentials theoretically by
+linearized current−potential characteristics but not electro-
+chemical responses in dynamic equilibrium. In the Nyquist
+plot of the fully discharged cell with Li2S-510 at the 10th cycle,
+a part of the circle emerges at the low-frequency regime
+(Figure S7). This represents the charge transfer resistance
+resulting from the decomposition products of LPS SEs.63
+Figure 8. Overvoltage of the galvanostatic cycling test Figure 5a,b.
+Figure 9. (a) Impedance spectra of Li2S-250 and -510 in the open-circuit voltage before cycling. (b) Equivalent circuit for simulation
+(RSE(Rint,anode/SEQ1)(Rint,cathode/SEQ2)(Rct,decompositionQ3)(Rct,cathodeQ4)). Experimental and simulated impedance spectra of Li2S-250 and -510 in the
+state of full charge after (c) the 1st cycle with a (d) magnified view and the (e) 10th cycle with a (f) magnified view. (g−k) Extracted resistance of
+the cells with Li2S-250 and -510 in the state of full charge after the 1st and 10th cycles. (g) Bulk resistance of an electrolyte layer, (h) interfacial
+resistance between the anode and SEs, (i) interfacial resistance between the cathode and SEs, (j) charge transfer resistance of decomposition
+products, and (k) charge transfer resistance of cathode materials.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10959
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 9 页 ===
+EIS measurements of the cells with Li2S-250 and -510 after
+the 1st and 10th charging were conducted. The obtained
+electrochemical impedance spectra were fitted using the
+equivalent circuit (see Figure 9b). The experimental and
+simulated Nyquist plots of Li2S-250 and -510 in the state of full
+charge are shown in Figure 9c−f, and the Bode plots are shown
+in Figure S8. The model is based on the equivalent circuit
+(RSE(Rint,anode/SEQ1)(Rint,cathode/SEQ2)(Rct,decompositionQ3)) that
+was applied to Li6PS5Cl SEs following the oxidative
+decomposition, with the addition of charge transfer resistance,
+Rct,cathode, and capacitance components connected in parallel
+(Q is a constant phase element, CPE, which represents a
+pseudocapacitance).22 A good fitness for this model supports
+the validity of the equivalent circuit. The extracted values for R
+and CPE are summarized in Table S1. Four resistance
+components located in the high-frequency (≥100 kHz), mid-
+frequency (∼200 Hz), low-frequency (∼30 mHz), and further
+lower-frequency (≤5 mHz) regions correspond to the Li−In/
+SE interface, SE/cathode interface, charge transfer of the
+decomposition product in the cathode, and charge transfer of
+the cathode material, respectively. The bulk resistance of both
+cells decreased through cycling (Figure 9g). This reduction in
+resistance could be derived from consuming SEs in the
+electrolyte layer by the evolution of the interfacial degradation
+at the Li−In/SE (Figure 9h).65 The interfacial resistance of the
+cathode/SE in the cells with Li2S-250 and -510 increases
+through cycling, which should be caused by the detrimental
+volume changes of the cathode material in the lithiation and
+delithiation processes (Figure 9i). The cell with Li2S-510
+shows a lower interfacial resistance of the cathode/SE than the
+cell with Li2S-250 due to the intimate contact between LPS
+with a small secondary particle size and the cathode material
+(or carbon additive) in Li2S-510. The charge transfer resistance
+related to the decomposition product in the cell with Li2S-510
+is twice that of the cell with Li2S-250 in the 10th cycle because
+the pulverized SEs facilitate electrolyte decomposition (Figure
+9j). This is consistent with the existence of the large circle
+component observed in the Nyquist plots of Li2S-510 in the
+state of full discharge (see Figure S7). Figure 9k shows the
+charge transfer resistance of the cathode material. The
+resistance in the first cycle is approximately the same as the
+charge transfer resistance of the fully charged sulfur cathode in
+liquid Li−S batteries reported in the past.25 The resistance
+increases through cycling, inducing the inactivation of Li2S.
+The comprehensive electrochemical analysis and Raman
+measurement reveal that the Li3PS4 in the cathode converts
+the phosphorus compound with a S−S thiol bond through the
+decomposition reaction, which dominates the overall cell
+performance of ASSLSBs. This reaction chemistry improves
+the electrochemical redox activity in the early period, whereas
+the severe decomposition of the electrolyte negatively affects
+cycle stability in long-term cycles. Thus, the variability in cell
+performance that occurs simply by altering the rotation speed
+in the mixing with SEs highlights the need for interface
+engineering, not only avoiding severe degradation of electro-
+lytes in the cathode but also enhancing the ability of SEs as a
+redox mediator.
+■CONCLUSIONS
+Here, we investigated the decomposition reactions of LPS SEs
+in Li2S cathode composites with different interface designs and
+examined their effects on cell performance. The findings of our
+study have contributed to the understanding of the reaction
+chemistry in ASSLSBs involving the decomposition reaction of
+sulfide-based SEs. Galvanostatic charge−discharge tests and
+their differential capacity curves demonstrate that the Li2S
+cathode material participates simultaneously in the oxidation
+reaction as the decomposition reaction of LPS in the initial
+charge process. The decomposition product produced through
+the oxidative decomposition of LPS shows a reversible redox
+reaction. Namely, Li2S is activated by the electrochemical
+redox-active decomposition products of SEs. Such oxidation
+decomposition of LPS occurs continuously even after the
+initial charge process. Raman spectroscopy of the cell after the
+20th cycle unveils that the Li3PS4 in the cathode converts into
+the thiophosphate compound with the S−S bond through the
+charge/discharge process. This reaction chemistry involving
+continuous electrolyte decomposition enhances the cell
+performance of ASSLSBs in the early cycles. In contrast, the
+Li2S cathode causes inactivation through long-term cycles. The
+capacities after the inactivation are entirely attributed to the
+contribution of the decomposition products. This demon-
+strates that the decomposition behavior of electrolytes
+dominates the entire cell performance in ASSLSBs. The
+increasing milling rotation speed in SE mixing for cathode
+composite fabrication gains a larger effective contact area at the
+Li2S/SE interface and thus facilitates the decomposition
+reaction of SEs. This leads to an increase in the charge
+transfer resistance attributed to the decomposition products.
+The increasing decomposition kinetics dramatically enhances
+the capacity in the early cycle but degrades cycle stability.
+Therefore, this ASSLSB reaction chemistry indicates the need
+for interface engineering and rational SE selection to control
+the decomposition kinetics of SEs.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.chemmater.2c02926.
+Overall SEM images of LPS-250 and -510; the Halder−
+Wagner plots; XRD pattern and Nyquist plot of Li3YCl6;
+galvanostatic charge−discharge profiles and differential
+capacity curves of the cell using Li3YCl6; differential
+capacity curves of cells with Li2S-250 and -510 during
+50−100 cycles; schematic diagram of the equivalent
+circuit for TLM; Nyquist plot of Li5.5PS4.5Cl1.5; Nyquist
+plots of the cell with Li2S-250 and -510 in the state of
+full discharge; Bode plots; and elements in the
+equivalent circuit model (PDF)
+■AUTHOR INFORMATION
+Corresponding Authors
+Hirotada Gamo −Department of Electrical and Electronic
+Information Engineering, Toyohashi University of
+Technology, Toyohashi, Aichi 441-8580, Japan;
+orcid.org/0000-0002-5817-9985;
+Email: gamo.hirotada.da@tut.jp
+Atsunori Matsuda −Department of Electrical and Electronic
+Information Engineering, Toyohashi University of
+Technology, Toyohashi, Aichi 441-8580, Japan;
+orcid.org/0000-0002-6493-1205; Email: matsuda@
+ee.tut.ac.jp
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10960
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 10 页 ===
+Author
+Kazuhiro Hikima −Department of Electrical and Electronic
+Information Engineering, Toyohashi University of
+Technology, Toyohashi, Aichi 441-8580, Japan;
+orcid.org/0000-0001-5714-4652
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.chemmater.2c02926
+Author Contributions
+H.G.: Conceptualization, data curation, formal analysis,
+investigation, visualization, funding acquisition, and writing
+original draft; K.H.: writingreview & editing; and A.M.:
+supervision and writingreview & editing.
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+This work was supported by the Grant-in-Aid for JSPS Fellows
+Grant number JP21J12809.
+■REFERENCES
+(1) Jiang, J.; Fan, Q.; Chou, S.; Guo, Z.; Konstantinov, K.; Liu, H.;
+Wang, J. Li2S-Based Li-Ion Sulfur Batteries: Progress and Prospects.
+Small 2021, 17, 1903934−1903957.
+(2) Hayashi, A.; Ohtomo, T.; Mizuno, F.; Tadanaga, K.;
+Tatsumisago, M. All-Solid-State Li/S Batteries with Highly Con-
+ductive Glass-Ceramic Electrolytes. Electrochem. Commun. 2003, 5,
+701−705.
+(3) Wu, J.; Liu, S.; Han, F.; Yao, X.; Wang, C. Lithium/Sulfide All-
+Solid-State Batteries Using Sulfide Electrolytes. Advanced Materials
+2021, 33, 2000751−2000781.
+(4) Sakuda, A.; Sato, Y.; Hayashi, A.; Tatsumisago, M. Sulfur-Based
+Composite Electrode with Interconnected Mesoporous Carbon for
+All-Solid-State Lithium−Sulfur Batteries. Energy Technol. 2019, 7,
+No. 1900077.
+(5) Jiang, H.; Han, Y.; Wang, H.; Zhu, Y.; Guo, Q.; Jiang, H.; Zheng,
+C.; Xie, K. Facile Synthesis of a Mixed-Conductive Li2S Composites
+for All-Solid-State Lithium-Sulfur Batteries. Ionics 2020, 26, 4257−
+4265.
+(6) Zhang, W.; Zhang, Y.; Peng, L.; Li, S.; Wang, X.; Cheng, S.; Xie,
+J. Elevating Reactivity and Cyclability of All-Solid-State Lithium-
+Sulfur Batteries by the Combination of Tellurium-Doping and Surface
+Coating. Nano Energy 2020, 76, No. 105083.
+(7) Nagao, M.; Hayashi, A.; Tatsumisago, M. High-Capacity Li2S-
+Nanocarbon Composite Electrode for All-Solid-State Rechargeable
+Lithium Batteries. J. Mater. Chem. 2012, 22, 10015−10020.
+(8) Yao, X.; Huang, N.; Han, F.; Zhang, Q.; Wan, H.; Mwizerwa, J.
+P.; Wang, C.; Xu, X. High-Performance All-Solid-State Lithium−
+Sulfur Batteries Enabled by Amorphous Sulfur-Coated Reduced
+Graphene Oxide Cathodes. Adv. Energy Mater. 2017, 7, No. 1602923.
+(9) Suzuki, K.; Mashimo, N.; Ikeda, Y.; Yokoi, T.; Hirayama, M.;
+Kanno, R. High Cycle Capability of All-Solid-State Lithium-Sulfur
+Batteries Using Composite Electrodes by Liquid-Phase and
+Mechanical Mixing. ACS Appl. Energy Mater. 2018, 1, 2373−2377.
+(10) Umeshbabu, E.; Zheng, B.; Zhu, J.; Wang, H.; Li, Y.; Yang, Y.
+Stable Cycling Lithium−Sulfur Solid Batteries with Enhanced Li/
+Li10GeP2S12 Solid Electrolyte Interface Stability. ACS Appl. Mater.
+Interfaces 2019, 11, 18436−18447.
+(11) Han, Q.; Li, X.; Shi, X.; Zhang, H.; Song, D.; Ding, F.; Zhang,
+L. Outstanding Cycle Stability and Rate Capabilities of the All-Solid-
+State Li-S Battery with a Li7P3S11 Glass-Ceramic Electrolyte and a
+Core-Shell S@BP2000 Nanocomposite. J. Mater. Chem. A 2019, 7,
+3895−3902.
+(12) Wu, Z.; Chen, S.; Yu, C.; Wei, C.; Peng, L.; Wang, H. L.;
+Cheng, S.; Xie, J. Engineering High Conductive Li7P2S8I via Cl-
+Doping for All-Solid-State Li-S Batteries Workable at Different
+Operating Temperatures. Chem. Eng. J. 2022, 442, No. 136346.
+(13) Wang, S.; Zhang, Y.; Zhang, X.; Liu, T.; Lin, Y. H.; Shen, Y.; Li,
+L.; Nan, C. W. High-Conductivity Argyrodite Li6PS5Cl Solid
+Electrolytes Prepared via Optimized Sintering Processes for All-
+Solid-State Lithium-Sulfur Batteries. ACS Appl. Mater. Interfaces 2018,
+10, 42279−42285.
+(14) Wei, C.; Yu, C.; Peng, L.; Zhang, Z.; Xu, R.; Wu, Z.; Liao, C.;
+Zhang, W.; Zhang, L.; Cheng, S.; Xie, J. Tuning Ionic Conductivity to
+Enable All-Climate Solid-State Li-S Batteries with Superior Perform-
+ances. Mater. Adv. 2022, 3, 1047−1054.
+(15) Ohno, S.; Koerver, R.; Dewald, G.; Rosenbach, C.; Titscher, P.;
+Steckermeier, D.; Kwade, A.; Janek, J.; Zeier, W. G. Observation of
+Chemomechanical Failure and the Influence of Cutoff Potentials in
+All-Solid-State Li-S Batteries. Chem. Mater. 2019, 31, 2930−2940.
+(16) Liu, M.; Wang, C.; Zhao, C.; van der Maas, E.; Lin, K.;
+Arszelewska, V. A.; Li, B.; Ganapathy, S.; Wagemaker, M.
+Quantification of the Li-Ion Diffusion over an Interface Coating in
+All-Solid-State Batteries via NMR Measurements. Nat. Commun.
+2021, 12, No. 5943.
+(17) Han, F.; Yue, J.; Fan, X.; Gao, T.; Luo, C.; Ma, Z.; Suo, L.;
+Wang, C. High-Performance All-Solid-State Lithium-Sulfur Battery
+Enabled by a Mixed-Conductive Li2S Nanocomposite. Nano Lett.
+2016, 16, 4521−4527.
+(18) Ohno, S.; Rosenbach, C.; Dewald, G. F.; Janek, J.; Zeier, W. G.
+Linking Solid Electrolyte Degradation to Charge Carrier Transport in
+the Thiophosphate-Based Composite Cathode toward Solid-State
+Lithium-Sulfur Batteries. Adv. Funct. Mater. 2021, 31, No. 2010620.
+(19) Dewald, G. F.; Ohno, S.; Kraft, M. A.; Koerver, R.; Till, P.;
+Vargas-Barbosa, N. M.; Janek, J.; Zeier, W. G. Experimental
+Assessment of the Practical Oxidative Stability of Lithium
+Thiophosphate Solid Electrolytes. Chem. Mater. 2019, 31, 8328−
+8337.
+(20) Swamy, T.; Chen, X.; Chiang, Y. M. Electrochemical Redox
+Behavior of Li Ion Conducting Sulfide Solid Electrolytes. Chem.
+Mater. 2019, 31, 707−713.
+(21) Banerjee, A.; Wang, X.; Fang, C.; Wu, E. A.; Meng, Y. S.
+Interfaces and Interphases in All-Solid-State Batteries with Inorganic
+Solid Electrolytes. Chem. Rev. 2020, 120, 6878−6933.
+(22) Tan, D. H. S.; Wu, E. A.; Nguyen, H.; Chen, Z.; Marple, M. A.
+T.; Doux, J. M.; Wang, X.; Yang, H.; Banerjee, A.; Meng, Y. S.
+Elucidating Reversible Electrochemical Redox of Li6PS5Cl Solid
+Electrolyte. ACS Energy Lett. 2019, 4, 2418−2427.
+(23) Walther, F.; Randau, S.; Schneider, Y.; Sann, J.; Rohnke, M.;
+Richter, F. H.; Zeier, W. G.; Janek, J. Influence of Carbon Additives
+on the Decomposition Pathways in Cathodes of Lithium Thio-
+phosphate-Based All-Solid-State Batteries. Chem. Mater. 2020, 32,
+6123−6136.
+(24) Hakari, T.; Deguchi, M.; Mitsuhara, K.; Ohta, T.; Saito, K.;
+Orikasa, Y.; Uchimoto, Y.; Kowada, Y.; Hayashi, A.; Tatsumisago, M.
+Structural and Electronic-State Changes of a Sulfide Solid Electrolyte
+during the Li Deinsertion-Insertion Processes. Chem. Mater. 2017, 29,
+4768−4774.
+(25) Li, M.; Bai, Z.; Li, Y.; Ma, L.; Dai, A.; Wang, X.; Luo, D.; Wu,
+T.; Liu, P.; Yang, L.; Amine, K.; Chen, Z.; Lu, J. Electrochemically
+Primed Functional Redox Mediator Generator from the Decom-
+position of Solid State Electrolyte. Nat. Commun. 2019, 10, No. 1890.
+(26) Lin, Y.; Zheng, J.; Wang, C.; Qi, Y. The Origin of the Two-
+Plateaued or One-Plateaued Open Circuit Voltage in Li−S Batteries.
+Nano Energy 2020, 75, No. 104915.
+(27) Jiang, H.; Han, Y.; Wang, H.; Zhu, Y.; Guo, Q.; Jiang, H.; Sun,
+W. W.; Zheng, C.; Xie, K. In-Situ Generated Li2S-Based Composite
+Cathodes with High Mass and Capacity Loading for All-Solid-State
+Li-S Batteries. J. Alloys Compd. 2021, 874, No. 159763.
+(28) Wang, D.; Wu, Y.; Zheng, X.; Tang, S.; Gong, Z.; Yang, Y.
+Li2S@NC Composite Enable High Active Material Loading and High
+Li2S Utilization for All-Solid-State Lithium Sulfur Batteries. J. Power
+Sources 2020, 479, No. 159763.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10961
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 11 页 ===
+(29) Chang, G. H.; Oh, Y. S.; Kang, S.; Park, J. Y.; Lim, H. T. Single-
+Step Prepared Li2S-P2S5-C Composite Cathode for High Areal
+Capacity All-Solid-State Lithium Ion Batteries. Electrochim. Acta 2020,
+358, No. 136884.
+(30) Jiang, H.; Han, Y.; Wang, H.; Zhu, Y.; Guo, Q.; Jiang, H.;
+Zheng, C.; Xie, K. Li2S−Li3PS4 (LPS) Composite Synthesized by
+Liquid-Phase Shaking for All-Solid-State Lithium−Sulfur Batteries
+with High Performance. Energy Technol. 2020, 8, No. 2000023.
+(31) Yi, J.; Chen, L.; Liu, Y.; Geng, H.; Fan, L. Z. High Capacity and
+Superior Cyclic Performances of All-Solid-State Lithium-Sulfur
+Batteries Enabled by a High-Conductivity Li10SnP2S12 Solid Electro-
+lyte. ACS Appl. Mater. Interfaces 2019, 11, 36774−36781.
+(32) Hakari, T.; Hayashi, A.; Tatsumisago, M. Li2S-Based Solid
+Solutions as Positive Electrodes with Full Utilization and Superlong
+Cycle Life in All-Solid-State Li/S Batteries. Adv. Sustainable Syst.
+2017, 1, No. 1700017.
+(33) Hakari, T.; Fujita, Y.; Deguchi, M.; Kawasaki, Y.; Otoyama, M.;
+Yoneda, Y.; Sakuda, A.; Tatsumisago, M.; Hayashi, A. Solid
+Electrolyte with Oxidation Tolerance Provides a High-Capacity
+Li2S-Based Positive Electrode for All-Solid-State Li/S Batteries. Adv.
+Funct. Mater. 2022, 32, No. 2106174.
+(34) Izumi, F.; Momma, K. Three-Dimensional Visualization in
+Powder Diffraction. Solid State Phenom. 2007, 130, 15−20.
+(35) Nagao, M.; Hayashi, A.; Tatsumisago, M. Sulfur-Carbon
+Composite Electrode for All-Solid-State Li/S Battery with Li2S-P2S5
+Solid Electrolyte. Electrochim. Acta 2011, 56, 6055−6059.
+(36) Yu, C.; Ganapathy, S.; Eck, E. R. H. V.; Wang, H.; Basak, S.; Li,
+Z.; Wagemaker, M. Accessing the Bottleneck in All-Solid State
+Batteries, Lithium-Ion Transport over the Solid-Electrolyte-Electrode
+Interface. Nat. Commun. 2017, 8, No. 1086.
+(37) Stöffler, H.; Zinkevich, T.; Yavuz, M.; Hansen, A. L.; Knapp,
+M.; Bednarčík, J.; Randau, S.; Richter, F. H.; Janek, J.; Ehrenberg, H.;
+Indris, S. Amorphous versus Crystalline Li3PS4: Local Structural
+Changes during Synthesis and Li Ion Mobility. J. Phys. Chem. C 2019,
+123, 10280−10290.
+(38) Famprikis, T.; Bouyanfif, H.; Canepa, P.; Zbiri, M.; Dawson, J.
+A.; Suard, E.; Fauth, F.; Playford, H. Y.; Dambournet, D.; Borkiewicz,
+O. J.; Courty, M.; Clemens, O.; Chotard, J. N.; Masquelier, C.; Islam,
+M. S. Insights into the Rich Polymorphism of the Na+Ion Conductor
+Na3PS4 from the Perspective of Variable-Temperature Diffraction and
+Spectroscopy. Chem. Mater. 2021, 33, 5652−5667.
+(39) Krauskopf, T.; Muy, S.; Culver, S. P.; Ohno, S.; Delaire, O.;
+Shao-Horn, Y.; Zeier, W. G. Comparing the Descriptors for
+Investigating the Influence of Lattice Dynamics on Ionic Transport
+Using the Superionic Conductor Na3PS4-XSeX. J. Am. Chem. Soc. 2018,
+140, 14464−14473.
+(40) Ates, T.; Neumann, A.; Danner, T.; Latz, A.; Zarrabeitia, M.;
+Stepien, D.; Varzi, A.; Passerini, S. Elucidating the Role of
+Microstructure in Thiophosphate Electrolytes −a Combined
+Experimental and Theoretical Study of β-Li3PS4. Adv. Sci. 2022, 9,
+No. 2105234.
+(41) Strauss, F.; Bartsch, T.; de Biasi, L.; Kim, A. Y.; Janek, J.;
+Hartmann, P.; Brezesinski, T. Impact of Cathode Material Particle
+Size on the Capacity of Bulk-Type All-Solid-State Batteries. ACS
+Energy Lett. 2018, 3, 992−996.
+(42) Ohno, S.; Zeier, W. G. Toward Practical Solid-State Lithium-
+Sulfur Batteries: Challenges and Perspectives. Acc. Mater. Res. 2021, 2,
+869−880.
+(43) Schwietert, T. K.; Arszelewska, V. A.; Wang, C.; Yu, C.;
+Vasileiadis, A.; de Klerk, N. J. J.; Hageman, J.; Hupfer, T.; Kerkamm,
+I.; Xu, Y.; van der Maas, E.; Kelder, E. M.; Ganapathy, S.; Wagemaker,
+M. Clarifying the Relationship between Redox Activity and Electro-
+chemical Stability in Solid Electrolytes. Nat. Mater. 2020, 19, 428−
+435.
+(44) Koerver, R.; Walther, F.; Aygün, I.; Sann, J.; Dietrich, C.; Zeier,
+W. G.; Janek, J. Redox-Active Cathode Interphases in Solid-State
+Batteries. J. Mater. Chem. A 2017, 5, 22750−22760.
+(45) Wang, S.; Tang, M.; Zhang, Q.; Li, B.; Ohno, S.; Walther, F.;
+Pan, R.; Xu, X.; Xin, C.; Zhang, W.; Li, L.; Shen, Y.; Richter, F. H.;
+Janek, J.; Nan, C. W. Lithium Argyrodite as Solid Electrolyte and
+Cathode Precursor for Solid-State Batteries with Long Cycle Life.
+Adv. Energy Mater. 2021, 11, No. 2101370.
+(46) Wang, S.; Zhang, W.; Chen, X.; Das, D.; Ruess, R.; Gautam, A.;
+Walther, F.; Ohno, S.; Koerver, R.; Zhang, Q.; Zeier, W. G.; Richter,
+F. H.; Nan, C. W.; Janek, J. Influence of Crystallinity of Lithium
+Thiophosphate Solid Electrolytes on the Performance of Solid-State
+Batteries. Adv. Energy Mater. 2021, 11, No. 2100654.
+(47) Tan, G.; Xu, R.; Xing, Z.; Yuan, Y.; Lu, J.; Wen, J.; Liu, C.; Ma,
+L.; Zhan, C.; Liu, Q.; Wu, T.; Jian, Z.; Shahbazian-Yassar, R.; Ren, Y.;
+Miller, D. J.; Curtiss, L. A.; Ji, X.; Amine, K. Burning Lithium in CS2
+for High-Performing Compact Li2S−Graphene Nanocapsules for Li−
+S Batteries. Nat. Energy 2017, 2, No. 17090.
+(48) Takeuchi, T.; Kageyama, H.; Nakanishi, K.; Tabuchi, M.;
+Sakaebe, H.; Ohta, T.; Senoh, H.; Sakai, T.; Tatsumi, K. All-Solid-
+State Lithium Secondary Battery with Li[Sub 2]S−C Composite
+Positive Electrode Prepared by Spark-Plasma-Sintering Process. J.
+Electrochem. Soc. 2010, 157, A1196.
+(49) Nagao, M.; Hayashi, A.; Tatsumisago, M.; Ichinose, T.; Ozaki,
+T.; Togawa, Y.; Mori, S. Li2S Nanocomposites Underlying High-
+Capacity and Cycling Stability in All-Solid-State Lithium-Sulfur
+Batteries. J. Power Sources 2015, 274, 471−476.
+(50) Asano, T.; Sakai, A.; Ouchi, S.; Sakaida, M.; Miyazaki, A.;
+Hasegawa, S. Solid Halide Electrolytes with High Lithium-Ion
+Conductivity for Application in 4 V Class Bulk-Type All-Solid-State
+Batteries. Adv. Mater. 2018, 30, No. 1803075.
+(51) Shi, X.; Zeng, Z.; Sun, M.; Huang, B.; Zhang, H.; Luo, W.;
+Huang, Y.; Du, Y.; Yan, C. Fast Li-Ion Conductor of Li3HoBr6 for
+Stable All-Solid-State Lithium-Sulfur Battery. Nano Lett. 2021, 21,
+9325−9331.
+(52) Fujita, Y.; Hakari, T.; Sakuda, A.; Deguchi, M.; Kawasaki, Y.;
+Tsukasaki, H.; Mori, S.; Tatsumisago, M.; Hayashi, A. Li2S−LiI Solid
+Solutions with Ionic Conductive Domains for Enhanced All-Solid-
+State Li/S Batteries. ACS Appl Energy Mater 2022, 5, 9429−9436.
+(53) Gamo, H.; Huu Huy Phuc, N.; Ikari, M.; Hikima, K.; Muto, H.;
+Matsuda, A. Electrochemical Redox of Li2S−CaS and −CaX2 (X = Cl,
+Br, and I) Cathode Materials for All-Solid-State Lithium-Sulfur
+Batteries. Electrochim. Acta 2022, 431, No. 141149.
+(54) Ahmad, N.; Zhou, L.; Faheem, M.; Tufail, M. K.; Yang, L.;
+Chen, R.; Zhou, Y.; Yang, W. Enhanced Air Stability and High Li-Ion
+Conductivity of Li6.988P2.994Nb0.2S10.934O0.6 Glass-Ceramic Electrolyte
+for All-Solid-State Lithium-Sulfur Batteries. ACS Appl. Mater.
+Interfaces 2020, 12, 21548−21558.
+(55) Xu, R. C.; Xia, X. H.; Wang, X. L.; Xia, Y.; Tu, J. P. Tailored
+Li2S-P2S5 Glass-Ceramic Electrolyte by MoS2 Doping, Possessing
+High Ionic Conductivity for All-Solid-State Lithium-Sulfur Batteries.
+J. Mater. Chem. A 2017, 5, 2829−2834.
+(56) Chen, X.; Yuan, L.; Li, Z.; Chen, S.; Ji, H.; Qin, Y.; Wu, L.;
+Shen, Y.; Wang, L.; Hu, J.; Huang, Y. Realizing an Applicable “Solid
+→Solid” Cathode Process via a Transplantable Solid Electrolyte
+Interface for Lithium-Sulfur Batteries. ACS Appl. Mater. Interfaces
+2019, 11, 29830−29837.
+(57) Li, X.; Liang, J.; Lu, Y.; Hou, Z.; Cheng, Q.; Zhu, Y.; Qian, Y.
+Sulfur-Rich Phosphorus Sulfide Molecules for Use in Rechargeable
+Lithium Batteries. Angew. Chem. 2017, 129, 2983−2987.
+(58) Li, X.; Liang, J.; Banis, M. N.; Luo, J.; Wang, C.; Li, W.; Li, X.;
+Sun, Q.; Hu, Y.; Xiao, Q.; Sham, T. K.; Zhang, L.; Zhao, S.; Lu, S.;
+Huang, H.; Li, R.; Sun, X. Totally Compatible P4S10+n Cathodes
+with Self-Generated Li+ Pathways for Sulfide-Based All-Solid-State
+Batteries. Energy Storage Mater. 2020, 28, 325−333.
+(59) Tanibata, N.; Tsukasaki, H.; Deguchi, M.; Mori, S.; Hayashi,
+A.; Tatsumisago, M. A Novel Discharge-Charge Mechanism of a S-
+P2S5 Composite Electrode without Electrolytes in All-Solid-State Li/S
+Batteries. J. Mater. Chem. A 2017, 5, 11224−11228.
+(60) Ozturk, T.; Ertas, E.; Mert, O. A Berzelius Reagent, Phosphorus
+Decasulfide (P4S10), in Organic Syntheses. Chem. Rev. 2010, 110,
+3419−3478.
+(61) Nizamov, I. S.; Al’Metkina, L.; Garifzyanova, G. G.; Batyeva, E.
+S.; Al’Fonsov, V. A.; Pudovik, A. N. Reactions of Tetraphosphorus
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10962
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 12 页 ===
+Decasulfide and 2, 4-Bis(Alkylthio)- 2, 4-Dithioxo-1, 3, 2λ5, 4λ5-
+Dithiadiphosphetanes with Disulfides and Thioacetals. Phosphorus,
+Sulfur Silicon Relat. Elem. 1993, 83, 191−201.
+(62) Kato, Y.; Shiotani, S.; Morita, K.; Suzuki, K.; Hirayama, M.;
+Kanno, R. All-Solid-State Batteries with Thick Electrode Config-
+urations. J. Phys. Chem. Lett. 2018, 9, 607−613.
+(63) Siroma, Z.; Sato, T.; Takeuchi, T.; Nagai, R.; Ota, A.; Ioroi, T.
+AC Impedance Analysis of Ionic and Electronic Conductivities in
+Electrode Mixture Layers for an All-Solid-State Lithium-Ion Battery. J.
+Power Sources 2016, 316, 215−223.
+(64) Kaiser, N.; Spannenberger, S.; Schmitt, M.; Cronau, M.; Kato,
+Y.; Roling, B. Ion Transport Limitations in All-Solid-State Lithium
+Battery Electrodes Containing a Sulfide-Based Electrolyte. J. Power
+Sources 2018, 396, 175−181.
+(65) Luo, S.; Wang, Z.; Li, X.; Liu, X.; Wang, H.; Ma, W.; Zhang, L.;
+Zhu, L.; Zhang, X. Growth of Lithium-Indium Dendrites in All-Solid-
+State Lithium-Based Batteries with Sulfide Electrolytes. Nat. Commun.
+2021, 12, No. 6968.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.2c02926
+Chem. Mater. 2022, 34, 10952−10963
+10963
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​34/​24/​10952/​3774127/​cm2c02926.​pdf by TSINGHUA UNIV user on 28 September 2026
+

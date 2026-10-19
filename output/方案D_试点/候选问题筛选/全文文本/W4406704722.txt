@@ -1,0 +1,755 @@
+=== 第 1 页 ===
+Vol.:(0123456789)
+Korean Journal of Chemical Engineering (2025) 42:1507–1515 
+https://doi.org/10.1007/s11814-025-00394-4
+ORIGINAL ARTICLE
+The Role of Stack Pressure in Modulating Electrochemical Behavior 
+of All‑Solid‑State Lithium–Sulfur Batteries
+Daeun Lee1 · Youngseo Kim1 · Minjeong Shin1,2,3 
+Received: 28 November 2024 / Revised: 7 January 2025 / Accepted: 11 January 2025 / Published online: 22 January 2025 
+© The Author(s), under exclusive licence to Korean Institute of Chemical Engineers, Seoul, Korea 2025
+Abstract
+All-solid-state lithium–sulfur batteries (ASSLSBs) represent a crucial frontier in energy storage research, promising higher 
+energy densities and improved safety over traditional lithium-ion systems. Despite their advantages, ASSLSBs face signifi-
+cant challenges, particularly in addressing interfacial instability and mechanical issues arising from the insulating nature and 
+volume expansion of sulfur cathodes. Since the interfaces of all-solid-state batteries cannot accommodate the large volume 
+changes, interfacial contact issues become increasingly pronounced in systems utilizing ­S8 conversion chemistry. Therefore, 
+applying stack pressure during cell operation is considered a critical factor for optimizing the performance and cycle life of 
+ASSLSB systems. In this study, we systematically investigated the impact of stack pressure on the electrochemical behavior 
+of ASSLSBs under four different stack pressures. Electrochemical cycling results showed a marked difference in capacity 
+retention—74% retention after 100 cycles at high pressure, while only 6% capacity retention was observed at low pressure. 
+This pressure-dependent cycling performance was analyzed from two perspectives: the ­Li+/e⁻ transport properties and cath-
+ode interfacial resistance. Detailed electrochemical characterizations revealed that low stack pressure leads to contact loss 
+and deactivation of active material, which disrupts the effective ion transport pathways and increases interfacial resistance, 
+significantly impairing the overall performance of the cell. This work highlights the critical role of stack pressure in enhanc-
+ing the electrochemical performance of ASSLSBs, providing key insights for optimizing interfacial stability and transport 
+properties in the field of all-solid-state batteries.
+Keywords  All-solid-state lithium–sulfur batteries · Stack pressure · Galvanostatic intermittent titration technique · 
+Electrochemical impedance spectroscopy · Interfacial resistance · Diffusion coefficient
+Introduction
+Lithium–sulfur batteries (LSBs) are regarded as a promis-
+ing candidate for next-generation batteries due to the high 
+theoretical capacity of ­S8 (1672 mAh ­g−1), high theoreti-
+cal energy density (2600 Wh ­kg−1), and the low cost and 
+abundant availability of sulfur [1–3]. However, LSBs face 
+stability issues due to the flammability of the liquid electro-
+lyte and the use of the highly reactive lithium metal anode 
+[4]. Additionally, during charge/discharge processes, lithium 
+polysulfide intermediates, which are soluble in most liquid 
+electrolytes, dissolve into the electrolyte, causing issues such 
+as the polysulfide shuttle effect, loss of active material, and 
+rapid capacity fading [5, 6]. To address the challenges posed 
+by polysulfide dissolution and the shuttle effect, extensive 
+studies have explored strategies, such as electrolyte design 
+[7–9], cathode structural modifications [10–12], and pro-
+tective coatings for the lithium anode[13, 14]. Recently, 
+all-solid-state lithium–sulfur batteries (ASSLSBs), which 
+utilize solid electrolytes (SEs) in place of liquid electro-
+lytes, have attracted considerable attention. In ASSLSBs, 
+the reaction mechanism of ­S8 changes due to the absence of 
+a medium in which polysulfides can dissolve. Instead of fol-
+lowing a solution-mediated process involving the formation 
+ *	 Minjeong Shin 
+	
+mshin@sungshin.ac.kr
+1	
+Department of Chemistry, Sungshin Women’s University, 
+55 Dobong‑ro 76 ga‑gil, Gangbuk‑gu, Seoul 01133, 
+Republic of Korea
+2	
+School of Chemistry and Energy, Sungshin Women’s 
+University, 55 Dobong‑ro 76 ga‑gil, Gangbuk‑gu, 
+Seoul 01133, Republic of Korea
+3	
+Center for NanoBio Applied Technology, Sungshin 
+Women’s University, 55 Dobong‑ro 76 ga‑gil, Gangbuk‑gu, 
+Seoul 01133, Republic of Korea
+
+=== 第 2 页 ===
+1508
+	
+D. Lee et al.
+of soluble polysulfide intermediates, the electrochemical 
+reaction proceeds via the formation of insoluble products, 
+effectively suppressing the shuttle phenomenon [15, 16].
+Despite such advantages, ASSLSBs face several critical 
+issues. First, in contrast to conventional liquid electrolyte 
+systems, the electrochemically active surface area in all-
+solid-state batteries (ASSBs) is restricted due to the limited 
+solid–solid point contact at the SE/electrode interface [17]. 
+The limited ­Li+/e⁻ transport poses a significant challenge at 
+the cathode interface, where the heterogeneous nature of the 
+composite cathode—comprising active material, conductive 
+carbon, and solid electrolyte—further hinders ion transport 
+and reaction kinetics [18]. Specifically, cathode active mate-
+rials that are not in optimal contact with other constituent 
+phases become electrochemically isolated. Due to the insu-
+lating nature of ­S8 and ­Li2S, issues such as electrochemical 
+contact loss and deactivation become more pronounced in 
+ASSLSBs.
+Furthermore, the significant volume change during the 
+conversion between ­S8 and ­Li2S induces mechanical stress 
+and strain within the internal matrix. The brittle nature of the 
+SE, characterized by its low fracture toughness and limited 
+ability to absorb mechanical stress without cracking, limits 
+its ability to accommodate stress, making it susceptible to 
+cracking and leading to the degradation of the ASSBs [19, 
+20]. The repeated expansion and contraction during cycling 
+lead to the dynamic evolution of the cathode microstructure 
+and interface, which affects the chemo-mechanical stabil-
+ity of the cell. Excessive volume changes result in contact 
+loss of the active material within the composite cathode, 
+disrupting efficient charge-transfer pathways [19, 21]. Con-
+sequently, the uneven interfacial contact in ASSLSBs accel-
+erates sluggish reaction kinetics and the deactivation of cath-
+ode active materials. Therefore, implementing strategies to 
+regulate the interfacial contact in ASSBs is essential.
+In ASSBs, applying stack pressure during battery opera-
+tion to enhance interfacial properties has been widely 
+adopted [22]. The significance of stack pressure in ASSBs 
+has gained increasing attention, with several recent studies 
+thoroughly investigating the impact of stack pressure. In a 
+system using Li–In∣Li6PS5Cl (LPSCl)∣LiNi0.3Mn0.3Co0.3O2 
+(NMC333), X-ray tomography experiments demonstrated 
+that increasing the applied stack pressure reduced voids 
+within the cathode composite and improved the contact 
+area of the active material [21]. In addition, a study using 
+­Li4Ti5O12 (LTO)∣Li10GeP2S12 (LGPS)∣LiNi0.5Mn0.3Co0.2O2 
+(NMC532) systematically investigated the effect of stack 
+pressure (1–17 MPa), and the results showed that increasing 
+stack pressure enhanced the electrochemically active contact 
+area and improved cell performance by mitigating contact 
+loss [22]. Meanwhile, since ­S8 has lower ionic/electronic 
+conductivity and a higher volume expansion rate compared 
+to layered NMC cathodes, the charge transport properties 
+within the cathode become even more critical in ASSLSB 
+systems. Therefore, stack pressure is expected to play a cru-
+cial role in regulating the cathode/SE interface in ASSLSBs, 
+significantly influencing battery performance and cycle life.
+In this work, we systematically evaluate the effect of stack 
+pressure on the electrochemical properties of ASSLSBs. We 
+utilized prelithiated ­Li2S as the active material instead of ­S8, 
+as its pre-expanded structure offers buffer space to accom-
+modate volume changes occurring during battery operation. 
+A cathode composite consisting of ­Li2S, conductive carbon, 
+and LPSCl in a weight ratio of 1:1:2 wt% was used to fabri-
+cate Li–In∣LPSCl∣Li2S composite cells, which were cycled 
+under stack pressures of 1.8 MPa, 3.5 MPa, 7.1 MPa, and 
+10.6 MPa. Systematic analysis of varying stack pressures 
+showed that higher pressures improved capacity, retention, 
+reduced polarization, and enhanced rate capability. The 
+mechanistic origins of these improvements in ASSLSBs 
+were analyzed using galvanostatic intermittent titration 
+technique (GITT) and electrochemical impedance spectros-
+copy (EIS) measurements. This study provides fundamen-
+tal insights into the effect of stack pressure on the dynamic 
+interactions within the ASSLSB cathode interfaces.
+Experimental Section
+Materials Lithium sulfide (Thermo Fisher, 99.9% metal 
+basis) and argyrodite Li₆PS₅Cl (CISOLD, 3 µm particle size) 
+were used as received. Ketjenblack (Nouryon, EC-600JD) 
+was prepared by in an agate mortar for 10 min, followed by 
+heating in a vacuum oven at 80 °C for 8 h to remove mois-
+ture. Lithium metal foil (0.15 mm thick) was purchased from 
+HONJO metal and indium foil (0.127 mm thick, 99.99% 
+metals basis) was obtained from Thermo Fisher.
+Cathode composite preparation The ­Li2S composite cath-
+ode consisted of ­Li2S, Ketjenblack (KB), and LPSCl. ­Li2S 
+and LPSCl powders were ball-milled separately in a zirconia 
+milling jars (25 mL) with zirconia balls (3 mm), sealed in 
+an Ar-filled glovebox. For each powder, ball-milling was 
+conducted at 500 rpm for 10 h using a Tencan planetary 
+ball-mill XQM-0.4A. Dried KB was ground for 10 min 
+in an Ar-filled glove box and then mixed with the previ-
+ously milled ­Li2S and LPSCl powders in a weight ratio of 
+­Li2S:KB:LPSCl (1:1:2 wt%). The mixed powder was ball-
+milled at 500 rpm for 30 h to produce a ­Li2S/KB/LPSCl 
+composite. The morphology and composition of the ­Li2S/
+KB/LPSCl composite were analyzed using a JEOL JSM-
+7500F scanning electron microscope.
+Preparation of LPSCl-Li2S bilayer pellet and all-solid-
+state cell assembly The LPSCl-Li2S bilayer pellet was 
+prepared by sequentially placing 0.075 g of LPSCl and 
+3–4 mg of ­Li2S/KB/LPSCl composite into a 6 mm-diam-
+eter die, resulting in a ­Li2S loading of 0.11–0.14 mg ­cm−2. 
+
+=== 第 3 页 ===
+1509
+The Role of Stack Pressure in Modulating Electrochemical Behavior of All‑Solid‑State Lithium–…
+The powders were compressed using a hydraulic 
+press at 350 MPa for 15 min. All-solid-state ­Li2S cell 
+(Li–In∣LPSCl∣Li2S) were assembled in a custom cell con-
+figuration consisting of a 6 mm polyether ether ketone 
+(PEEK) sleeve and two stainless steel rods. A 6.0 mm-diam-
+eter indium foil and a 5.5 mm-diameter Li metal foil were 
+punched out and pressed onto the opposite side of the ­Li2S 
+composite layer in the bilayer pellet. The indium foil was 
+positioned between the Li metal and the LPSCl surface of 
+the bilayer pellet. All cell preparation steps were performed 
+in an Ar-filled glovebox.
+Electrochemical measurements The assembled cell stacks 
+were placed in a custom-built stack pressure setup equipped 
+with a force gauge (Fig. S1), and uniaxial pressures of 1.8, 
+3.5, 7.1, and 10.6 MPa were applied throughout the elec-
+trochemical measurement. The cells were allowed to rest at 
+open-circuit potential (OCP) for 12 h prior to measurement. 
+Galvanostatic cycling was performed using a WonATech 
+battery cycler within a voltage cut-off range of 0.58–2.68 V 
+vs. Li–In. (1.2–3.3 V vs. Li/Li+) at a current loading of 0.1 
+C. Rate capability test was conducted by varying the C-rate 
+from 0.05 C to 0.1 C, 0.2 C, 0.5 C, 1.0 C, and then back to 
+0.05 C, with 5 cycles performed at each current load. Gal-
+vanostatic intermittent titration technique (GITT) measure-
+ments were performed by applying a 0.08 C current pulse for 
+7.5 min, followed by a 150-min relaxation period. This cycle 
+was repeated until the cut-off voltage was reached. All galva-
+nostatic measurements were conducted using a WonATech 
+battery cycler. Electrochemical impedance spectroscopy 
+(EIS) measurements were performed using a BioLogic 
+SP-300 impedance analyzer. Potentiostatic EIS (PEIS) was 
+conducted over a frequency range of 7 MHz to 1 kHz with 
+a voltage amplitude of 10 mV. Distribution of relaxation 
+times (DRT) analysis and EIS fitting were carried out using 
+RelaxIS 3 software (Rhd Instruments).
+Results and Discussion
+In ASSLSB systems, cathode composites are typically pre-
+pared by mixing the active material, carbon, and solid elec-
+trolytes to make the active material ­(S8 or ­Li2S) electrochem-
+ically active. However, achieving a uniform distribution of 
+these components within the composite is challenging, even 
+after extensive ball-milling [21]. Instead, as shown in the 
+scanning electron microscopy (SEM) images in Fig. S2, the 
+components are unevenly dispersed, and agglomerates are 
+observed. This suggests the presence of electrochemically 
+isolated ­Li2S regions that are not in optimal contact with 
+­Li+/e⁻ conducting matrix.
+One effective way to enhance the electrochemical activity 
+of ­Li2S is to apply pressure to establish intimate interfacial 
+contacts [23, 24]. We note that the densification pressure 
+applied to the bilayer pellet (LPSCl/Li2S composite) during 
+the cell manufacturing process may also influence the cath-
+ode microstructure [25, 26]. However, this study focuses on 
+the external stack pressure applied during battery operation, 
+with a consistent densification pressure of 370 MPa applied 
+to all cells. As shown in Fig. S1 schematic, a force gauge 
+was integrated into a custom-built all-solid-state setup to 
+maintain constant uniaxial pressure during electrochemical 
+cycling. In addition, a Li–In alloy anode was used instead 
+of Li metal to minimize the cell degradation caused by the 
+instability of the Li/SE interface [24]. It was observed that 
+using a Li metal anode resulted in uncontrolled cell short-
+circuiting (Fig. S3), whereas the Li–In alloy anode enabled 
+stable charge–discharge cycling for over 100 cycles and 
+improved the reproducibility of the cycling experiments 
+[27].
+First, the galvanostatic cycling performance of 
+Li–In∣LPSCl∣Li2S composite cell was evaluated under 
+stack pressures of 1.8, 3.5, 7.1, and 10.6 MPa (Figs. 1, 2). 
+Figure 1a presents the discharge capacities of each cell and 
+Fig. 1b shows corresponding Coulombic efficiency (CE) 
+for each cycle. Initial cycle discharge capacities were 134 
+mAh g⁻1, 213 mAh g⁻1, 254 mAh g⁻1, and 363 mAh g⁻1 at 
+1.8 MPa, 3.5 MPa, 7.1 MPa, and 10.6 MPa, respectively. 
+Higher operating pressure resulted in larger capacities, 
+indicating a positive correlation between stack pressure 
+and active material utilization. All cells under varying 
+Fig. 1   Galvanostatic cycling performance of the Li–In|LPSCl|Li2S 
+composite cell under stack pressures of 1.8, 3.5, 7.1, and 10.6 MPa, 
+respectively. The cells were cycled between 0.58 and 2.68 V vs. Li–In 
+(1.2 and 3.3 V vs. Li/Li+) at a current loading of 0.1 C. a Capacity 
+retention as a function of cycle number. b Coulombic efficiency for 
+each cycle
+
+=== 第 4 页 ===
+1510
+	
+D. Lee et al.
+stack pressures show a gradual increase in capacity over 
+the first ~ 10 cycles. The initial increase in cell capaci-
+ties is likely due to the activation of ­Li2S, as indicated 
+by a decrease in cell polarization from the 1st to the 2nd 
+cycle at all pressures (Fig. S4). This reduction in polariza-
+tion suggests a decrease in ­Li2S activation energy during 
+cycling, leading to higher active material utilization [28].
+In addition to higher initial cycle capacities, greater 
+stack pressures improved capacity retention and cycling 
+stability. After 100 cycles, discharge capacities were 7.4 
+mAh g⁻1, 130 mAh g⁻1, 198 mAh g⁻1, and 268 mAh g⁻1, 
+corresponding to the capacity retention of 6%, 61%, 78%, 
+and 74% at 1.8 MPa, 3.5 MPa, 7.1 MPa, and 10.6 MPa, 
+respectively. Notably, the cell under a low stack pressure 
+of 1.8 MPa exhibited rapid capacity fading between 20 
+and 40 cycles, with the capacity at cycle 40 dropping to 
+21 mAh g⁻1 (~ 16% capacity retention). This suggests 
+that actual electrochemical reactions are not occurring 
+effectively. We speculate that physical contact loss of the 
+­Li2S active material within the cathode composite aggra-
+vates with cycling, and a pressure of 1.8 MPa is insuf-
+ficient to prevent this contact loss [29, 30]. The cathode 
+active material undergoes ~ 80% volume contraction and 
+expansion during charge/discharge, significantly altering 
+local contact and arrangement within the composite [31, 
+32]. Repeated volume changes likely reduce the elec-
+trochemically active ­Li2S regions, leading to severe cell 
+degradation.
+Figure 1b shows the CE during the charge/discharge pro-
+cess. At a high stack pressure of 10.6 MPa, the cell main-
+tains ~ 100% CE throughout cycling. In contrast, the cell 
+under 1.8 MPa exhibits significant fluctuations in CE from 
+the beginning. An interesting observation at 1.8 MPa pres-
+sure is that during 20–40 cycle periods, where rapid capacity 
+fading occurs as discussed in Fig. 1a, the CE also decreases. 
+A CE lower than 100% indicates that the discharge capac-
+ity in the ­nth cycle is smaller than the corresponding charge 
+capacity. The reduction in discharge products available for 
+subsequent charge reactions leads to a smaller charge cycle 
+capacity in the (n + 1)th cycle, contributing to capacity fad-
+ing. Therefore, insufficient stack pressure fails to effectively 
+suppress contact loss caused by the volume expansion of the 
+cathode, adversely affecting cell performance.
+Figure S5 presents the voltage profiles from the galvano-
+static cycling of all-solid-state ­Li2S cells shown in Fig. 1. 
+As discussed in Fig. 1, higher stack pressures result in larger 
+1st cycle capacities, while the overall shape of the voltage 
+profiles remains similar across all pressures. Unlike con-
+ventional Li–S or Li₂S cells in liquid-based systems, which 
+typically exhibit two plateaus, the appearance of a single 
+sloping voltage curve aligns with the previous studies [33, 
+34]. After the 1st cycle, the overall shape of the voltage 
+curve remains largely unchanged, showing a single pla-
+teau. However, variations in capacity and overpotential are 
+evident depending on the cycle number and applied pres-
+sure. As shown in the 50th cycle voltage profile (Fig. S5b), 
+significant capacity fading and increased cell polarization 
+are observed at 1.8 MPa. However, the varying degrees of 
+capacity fading under different pressures make it difficult to 
+compare cell polarization using the voltage profiles in Fig. 
+S5. To enable a comparison of cell polarization across dif-
+ferent cycles and pressure conditions, the maximum capacity 
+for each cycle was normalized to 100%, as shown in Fig. 2. 
+The normalized capacity plot allows for an easy comparison 
+of voltages at the same state of charge (SOC) and state of 
+discharge (SOD).
+As shown in Fig. 2, the charge/discharge processes during 
+the 1st cycle exhibit similar voltage traces across all pressure 
+conditions. However, in cycle 50, the overpotential during 
+the charging process increases substantially compared to the 
+1st cycle, showing a voltage profile that deviates from the 
+ideal plateau of the ­Li2S cathode. To track the changes in 
+polarization as cycling proceeds, cell potentials at 50% SOC 
+and 50% SOD were extracted for each cycle and plotted, as 
+shown in Fig. 2c. In this plot, the increase in overpotential 
+is indicated by the increase in cell voltage during the charg-
+ing process and the decrease in cell voltage during the dis-
+charging process. The general trend observed is that, apart 
+Fig. 2   Normalized voltage profiles of the Li–In|LPSCl|Li2S com-
+posite cell under different stack pressures for a cycle 1 and b cycle 
+50. c Variations in polarization as a function of cycle, with cell volt-
+age at 50% state of charge (SOC) and 50% state of discharge (SOD) 
+extracted from each cycle. The ΔE at 50% SOC/SOD is shown in Fig 
+S6
+
+=== 第 5 页 ===
+1511
+The Role of Stack Pressure in Modulating Electrochemical Behavior of All‑Solid‑State Lithium–…
+from the first few cycles, the overpotentials during both the 
+charge/discharge processes increase as cycling proceeds. At 
+the low stack pressure of 1.8 MPa, the changes in overpoten-
+tials are the most pronounced. Notably, the most significant 
+fluctuations occur during cycles 20–40, corresponding to 
+the capacity fading period observed in Fig. 1. Greater cell 
+polarization of the cell under 1.8 MPa is also confirmed in 
+Fig. S6. This suggests that cell degradation and capacity 
+fading during cycling are closely related to the increase in 
+cell overpotential.
+For 3.5 MPa, 7.1 MPa, and 10.6 MPa, the discharge over-
+potential generally increases (i.e., decrease in cell potential) 
+over 100 cycles, but the variations remain relatively small. 
+In contrast, the rise in overpotential during charging is more 
+pronounced. The increase in overpotential during cycling is 
+smallest at 10.6 MPa, while the cell at 1.8 MPa shows a sig-
+nificantly larger rise in overpotential. The large overpoten-
+tial may stem from the intrinsic high resistance of the cell, 
+limited ­Li+ diffusion, and the large kinetic barrier for the 
+conversion reaction. Among the various origins of overpo-
+tential, (1) ohmic overpotential—associated with the intrin-
+sic ­Li+/e⁻ conductivity and cell contact resistance—and (2) 
+concentration overpotential—linked to ­Li+ diffusion within 
+the electrolyte, electrodes, and their interfaces[35]—are 
+strongly influenced by stack pressure. Higher stack pressure 
+likely reduces the ohmic resistance of the cell and enhances 
+Li⁺ diffusion within the composite electrode by increasing 
+the physical contact area between active material and SE, 
+which will be further discussed in more detail [22].
+Figure 3 shows the C-rate-dependent cycling perfor-
+mance of the Li–In|LPSCl|Li2S cell under stack pressures of 
+1.8 MPa and 10.6 MPa. The C-rate was varied from 0.05 C 
+to 0.1 C, 0.2 C, 0.5 C, 1 C, and then back to 0.05 C, and the 
+capacity retention and Coulombic efficiency were analyzed 
+each step. Discharge capacities were normalized to the 1st 
+cycle discharge capacity of each pressure to enable compari-
+son of C-rate dependent capacity variations. As shown in 
+Fig. 3a, an increase in C-rate leads to progressive capacity 
+decay under both pressure conditions. At high current load-
+ing, the diffusion of ­Li+ through the solid electrolyte and 
+into the cathode composite, as well as the sulfur reaction 
+kinetics, is not fast enough to replenish the depleted ­Li+.
+[36, 37] The more rapid capacity fade observed at 1.8 MPa 
+compared to 10.6 MPa suggests that ­Li+ diffusion and reac-
+tion kinetics are further impeded under lower stack pres-
+sure. The transport of ­Li+ and e⁻ is affected by the internal 
+pathways within the electrode [29, 38]. In all-solid-state 
+batteries, unlike liquid electrolyte systems, poor solid–solid 
+contact and the presence of voids or insulating materials 
+within the electrode hinder ion transport across interfaces 
+[38, 39]. In this regard, the significant volume change and 
+insulating nature of sulfur cathodes likely lead to the forma-
+tion of unfavorable pathways for ion transport at low stack 
+pressure, resulting in a poor rate capability. When the C-rate 
+returns back to 0.05 C, the capacity retention is 89.1% and 
+101.5% at 1.8 MPa and 10.8 MPa, indicating better capacity 
+recovery at higher pressure.
+Next, we discuss the Coulombic efficiency variations at 
+each current loading. When the C-rate in increased, the ini-
+tial CE of each current step is smaller than 100%. Larger 
+deviations from 100% are observed at higher C-rates, likely 
+due to the changes in the amount of active material that can 
+reversibly participate in electrochemical charge/discharge 
+[40]. The cell at 10.8 MPa exhibits less CE variation com-
+pared to the cell at 1.8 MPa and recovers to nearly 100% CE. 
+In contrast, at lower pressure, the recovery rate declines as 
+the C-rate increases, with the final cycle at 1.0 C showing a 
+CE of only 74.4%. This result suggests that higher pressure 
+facilitates the formation of a more favorable ­Li+/e⁻ transport 
+pathway, mitigating contact loss capacity decay caused by 
+significant volume changes.
+To investigate how stack pressure affects the diffusion of 
+­Li+ ions within the electrode, galvanostatic intermittent titra-
+tion technique (GITT) tests were conducted under 3.5 MPa 
+and 10.6 MPa, and the corresponding diffusion coefficients 
+were calculated at each current pulse step (Fig. 4). Detailed 
+explanations of the value extraction schematics and the 
+equation used for calculations are provided in Fig. S7. GITT 
+curves in Fig. 4a were obtained by applying a short cur-
+rent pulse followed by a relaxation period to reach a quasi-
+equilibrium state. The relaxed OCP, shown in orange and 
+Fig. 3   Rate capability tests of the Li–In|LPSCl|Li2S composite cell 
+under stack pressures of 1.8  MPa and 10.6  MPa. The C-rate was 
+sequentially increased and then returned to the initial current loading 
+of 0.05 C. a Capacity retention and b Coulombic efficiency for each 
+cycle are shown
+
+=== 第 6 页 ===
+1512
+	
+D. Lee et al.
+green dashed curves, represents the electrochemical equi-
+librium state and serves as an indicator of the SOC/SOD 
+of the active material [41, 42]. The cell cycled at 10.6 MPa 
+exhibits greater voltage hysteresis compared to the cell under 
+3.5 MPa, indicating that a higher SOC/SOD is achieved at 
+higher stack pressure. The electrode overpotential at varying 
+pressures is also noted, which is defined as the difference 
+between the voltage at the end of the current pulse and the 
+voltage at the end of the OCP rest period (Fig. S7). At lower 
+stack pressure, larger overpotential is observed during both 
+charge and discharge processes, reflecting higher internal 
+cell resistance. High internal resistance and greater over-
+potential indicate that the cell at low stack pressure is more 
+likely to reach the cut-off voltage early during battery opera-
+tion, limiting the battery capacity. The greater overpotential 
+and reduced capacity observed in the cell under low stack 
+pressure align with the galvanostatic cycling results shown 
+in Figs. 1 and 2.
+Next, ­Li+ diffusion coefficients (D) were extracted from 
+the GITT measurements (Fig. 4b). Larger diffusion coeffi-
+cients indicate faster reaction kinetics and more uniform ion 
+transport within the composite, resulting in enhanced active 
+material utilization and improved rate performance [43]. 
+Although it is challenging to use GITT to accurately extract 
+diffusion coefficients for composites or materials undergoing 
+phase transitions, it remains a valuable method for investi-
+gating different trends between comparative groups under 
+the same experimental conditions. As shown in Fig. 4b, vari-
+ations in diffusion coefficients during cycling are observed 
+in both cells, with a gradual decrease during the charge 
+cycle, a sharp increase at the onset of the discharge cycle, 
+and a subsequent decrease during the discharge cycle. The 
+variations of diffusion coefficients during cycling are closely 
+associated with the conversion reaction between ­Li2S and ­S8, 
+which involves significant volume changes and the dynamic 
+evolution of the cathode microstructure [44]. Similar trends 
+are observed in both cells under different stack pressures, 
+but the cell subjected to higher stack pressure exhibits con-
+sistently larger diffusion coefficients throughout the charge/
+discharge cycle. Higher stack pressure likely enhances inter-
+facial contact, enabling more efficient ion transport within 
+the ­Li2S composite and improving reaction kinetics. The 
+larger diffusion coefficients observed at high pressure corre-
+late well with the battery cycling results, which demonstrate 
+high capacity, reduced cell polarization, and enhanced rate 
+capability.
+Electrochemical impedance spectroscopy measurements 
+of the Li–In|LPSCl|Li2S composite cells were performed 
+to investigate the origin of improved cycling performance 
+under high stack pressures. Figure 5a shows the Nyquist 
+plot obtained after the 12 h OCP hold, before applying the 
+galvanostatic current load. The Nyquist plot shows several 
+semicircles followed by a low-frequency tail, and the overall 
+cell resistance decreases with increasing stack pressure. The 
+EIS spectra of the as-prepared cells were deconvoluted using 
+the distributional relaxation time (DRT) analysis, with the 
+corresponding DRT curves shown in Fig. 5d. The DRT tech-
+nique identifies suitable equivalent circuit models by extract-
+ing characteristic time constants and resistances associated 
+with various electrochemical processes in battery systems 
+[45]. The DRT curves of the as-prepared cells reveal three 
+distinct relaxation time constants (τ), each corresponding 
+to a specific electrochemical process. The peak at τ = ­10–7 s 
+represents the grain boundary resistance (RGB) of LPSCl 
+[46]. The low-frequency feature at τ = 3 × ­10–4 s likely cor-
+responds to the charge-transfer resistance of the anode (CT-
+a). To further investigate this possibility, the EIS evolution 
+under OCP hold was monitored over time (Fig. S8). Immedi-
+ately after cell assembly, the Nyquist plot and corresponding 
+DRT curve exhibit a high-intensity peak at τ = 3 × ­10–4 s, 
+which significantly decreases during the rest period. The 
+immediate reduction in peak intensity and changes in the 
+EIS spectrum after cell assembly are likely attributed to the 
+formation of the Li–In alloy anode through a spontaneous 
+reaction between Li and In. Notably, this reduction in peak 
+intensity is observed only when a sufficient stack pressure 
+above 7.1 MPa is applied. As shown in Fig. 5d, the intensity 
+Fig. 4   Galvanostatic intermittent titration technique (GITT) analy-
+sis of the Li–In|LPSCl|Li2S composite cell under stack pressures of 
+3.5 MPa and 10.6 MPa. (a) The voltage profile during the 1st charge/
+discharge cycle and (b) the corresponding diffusion coefficient (D) 
+extracted at each current pulse step are shown. For the GITT meas-
+urements, a 0.08 C current pulse was applied for 7.5 min, followed by 
+a 150-min relaxation period. Dashed curves in orange and green are 
+constructed from the final data point of the OCP relaxation period. 
+Schematics and equations used to calculate the diffusion coefficient 
+are provided in Fig. S7
+
+=== 第 7 页 ===
+1513
+The Role of Stack Pressure in Modulating Electrochemical Behavior of All‑Solid‑State Lithium–…
+of this CT-a peak varies significantly with stack pressure. 
+Even after the 12 h rest period, cells under 1.8 MPa and 
+3.5 MPa exhibit a high-intensity peak at τ = 3 × ­10–4 s, indi-
+cating that charge transfer at the Li–In anode is unfavorable 
+at low pressure.
+Another DRT peak at τ = ­10–6 s–10–5 s likely corresponds 
+to the impedance of the cathode interface (RINT), which 
+includes ­Li+/e⁻ transport within the composite, active mate-
+rial/SE interface, particle–particle contacts, solid-electrolyte 
+interphase, etc. Since these individual processes are not fully 
+deconvoluted, RINT is assumed to represent the combined 
+contribution of all cathode-related processes. The intensity 
+of this RINT peak is higher at low stack pressures, suggest-
+ing that a favorable cathode interface is established under 
+high pressure.
+Next, we monitored the evolution of cell impedance dur-
+ing electrochemical cycling. EIS spectra were measured 
+after each cycle, and Fig. 5b, c show the Nyquist plots for 
+a few representative cycles under 1.8 MPa and 10.6 MPa, 
+respectively. Figure 5e, f shows corresponding DRT analysis 
+at 1.8 MPa and 10.6 MPa. The Nyquist plots and DRT curves 
+of 3.5 MPa and 7.1 MPa cells are displayed in Fig. S9. At 
+a low stack pressure of 1.8 MPa, cell resistance increases 
+significantly with the cycle number, whereas the increase in 
+cell impedance remains relatively minimal at 10.6 MPa. The 
+DRT curve shown in Fig. 5e indicates that the significant 
+increase in impedance at 1.8 MPa is closely associated with 
+the RINT process (second peak in the DRT plot). In con-
+trast, the cell cycled at 10.6 MPa exhibits a slight increase 
+in the RGB component, while changes in the DRT peaks 
+corresponding to RINT and CT-a are negligible. This result 
+suggests that stack pressure significantly influences cathode 
+interfacial processes. High stack pressure helps establish and 
+maintain favorable cathode interfaces during cycling, despite 
+the dynamic evolution of the cathode microstructure.
+The evolution of cell impedance during cycling was sys-
+tematically analyzed by fitting the EIS data using the equiva-
+lent circuit model shown in Fig. 5g, which was constructed 
+Fig. 5   Electrochemical impedance spectroscopy (EIS) of the Li–
+In|LPSCl|Li2S composite cell, measured in the as-prepared state and 
+after each cycle. a Nyquist plot of the cell measured in the as-pre-
+pared state under different stack pressures. The inset shows a mag-
+nified view of the high-frequency region. Nyquist plots measured 
+after cycles 1, 10, 50, and 100 under b 1.8 MPa and c 10.6 MPa. d–f 
+Corresponding distributional relaxation time (DRT) analysis of each 
+Nyquist plot shown in a–c. g The equivalent circuit model used for 
+EIS fitting. h Variations of interfacial resistance (RINT) as a function 
+of cycle number
+
+=== 第 8 页 ===
+1514
+	
+D. Lee et al.
+based on the results of the DRT analysis. The divergent 
+behavior among stack pressures is most evident in the RINT 
+values, which are plotted as a function of cycle number in 
+Fig. 5h. The fit results indicate that the increase in RINT is 
+most pronounced in the cell under 1.8 MPa, exhibiting a 
+50-fold increase after cycle 100 cycles. A slight increase 
+in RINT was observed at 3.5 MPa, while the RINT increase 
+was negligible at higher stack pressures of 7.1 MPa and 
+10.6 MPa. At high stack pressure, the physical contact area 
+between the SE and ­Li2S increases, facilitating improved 
+ionic/electronic transport. More importantly, high stack pres-
+sure plays a crucial role in maintaining favorable cathode 
+interfaces during cycling, even as the cathode microstruc-
+ture evolves dynamically due to significant volume changes. 
+At low pressure, in contrast, maintaining favorable cathode 
+interfaces becomes challenging, as the significant volume 
+fluctuations lead to poor interfacial contact and degraded 
+electrochemical performance.
+Conclusion
+This study underscores the critical role of stack pressure 
+in modulating the electrochemical behavior of ASSLSBs 
+by altering solid–solid interfacial contact and influencing 
+interactions within the cathode microstructures. Galvano-
+static charge/discharge cycling experiments showed that 
+higher stack pressures resulted in a larger capacity, improved 
+capacity retention, and enhanced rate capability. In addition, 
+the effect of stack pressure on ­Li+ ion transport and interfa-
+cial properties was investigated using GITT and EIS meas-
+urements. At low stack pressure, chemo-mechanical stress 
+induced by electrode volume changes is not effectively buff-
+ered, reducing the effective contact area at the interface. This 
+results in increased interfacial resistance and poor transport 
+properties, which progressively cause contact loss and iso-
+lation of the active material during cycling. Consequently, 
+these effects lead to large cell polarization and severe capac-
+ity fading under low stack pressure. At high stack pressure, 
+stable interfacial contact is established and maintained 
+throughout cycling, effectively mitigating volume changes 
+and preventing active material contact loss. This results in 
+superior capacity retention, improved rate capability, and 
+prolonged cycle life. The insights gained from this work 
+lay a foundation for optimizing stack pressure as a practical 
+strategy to address critical challenges in ASSLSBs, while 
+also providing valuable guidance for interfacial engineering 
+in all-solid-state batteries, paving the way for their broader 
+adoption in next-generation energy storage systems.
+Supplementary Information  The online version contains supplemen-
+tary material available at https://​doi.​org/​10.​1007/​s11814-​025-​00394-4.
+Acknowledgements  This work was supported by the Sungshin Wom-
+en’s University Research Grant of H20210075.
+Data Availability  The datasets used and/or analyzed during the current 
+study are available from the corresponding author upon reasonable 
+request.
+Declarations 
+Conflict of interest  The authors declare no conflicts of interest.
+References
+	 1.	 C. Luo, E. Hu, K.J. Gaskell, X. Fan, T. Gao, C. Cui, S. Ghose, 
+X.-Q. Yang, C. Wang, Proc. Natl. Acad. Sci. U.S.A. 117(26), 
+14712–14720 (2020)
+	 2.	 A. Rosenman, E. Markevich, G. Salitra, D. Aurbach, A. Garsuch, 
+F. Chesneau, Adv. Energy Mater. 5(16), 1500212 (2015)
+	 3.	 H. Kim, H.-N. Choi, J.-Y. Hwang, C.S. Yoon, Y.-K. Sun, ACS 
+Energy Lett. 8(10), 3971–3979 (2023)
+	 4.	 D. Su, D. Zhou, C. Wang, G. Wang, Adv. Funct. Mater. 28(38), 
+1800154 (2018)
+	 5.	 M. Barghamadi, A. Kapoor, C. Wen, J. Electrochem. Soc. 160(8), 
+A1256–A1263 (2013)
+	 6.	 Y. Liu, P. He, H. Zhou, Adv. Energy Mater. 8(4), 1701602 (2018)
+	 7.	 S. Chen, F. Dai, M.L. Gordin, Z. Yu, Y. Gao, J. Song, D. Wang, 
+Angew. Chem. Int. Ed. 55(13), 4231–4235 (2016)
+	 8.	 X. Zhang, J. Li, C. Gao, C. Shi, L. He, Q. Xiang, B. Hong, Y. Lai, 
+Z. Zhang, K. Zhang, J. Power. Sources 482(15), 228967 (2021)
+	 9.	 X. Song, X. Liang, J. Eko, H.H. Sun, J.M. Kim, H. Kim, Y.K. Sun, 
+Adv. Energy Mater. 14, 2402506 (2024)
+	10.	 M.A. Pope, I.A. Aksay, Adv. Energy Mater. 5(16), 1500124 
+(2015)
+	11.	 X.-Q. Niu, X.-L. Wang, D. Xie, D.-H. Wang, Y.-D. Zhang, Y. Li, 
+T. Yu, J.-P. Tu, ACS Appl. Mater. Interfaces 7(30), 16715–16722 
+(2015)
+	12.	 A.E. Baumann, J.R. Downing, D.A. Burns, M.C. Hersam, V.S. 
+Thoi, ACS Appl. Mater. Interfaces 12(33), 37173–37181 (2020)
+	13.	 H. Hong, N.A.R.C. Mohamad, K. Chae, F.M. Mota, D.H. Kim, J. 
+Mater. Chem. A 9(16), 10012–10038 (2021)
+	14.	 S. Xia, X. Zhang, C. Liang, Y. Yu, W. Liu, Energy Storage Mater. 
+24, 329–335 (2020)
+	15.	 S. Li, W. Zhang, J. Zheng, M. Lv, H. Song, L. Du, Du. Adv. 
+Energy Mater. 11(2), 2000779 (2021)
+	16.	 H. Pan, Z. Cheng, P. He, H. Zhou, Energy & Fuels 34(10), 11942–
+11961 (2020)
+	17.	 H.-D. Lim, J.-H. Park, H.-J. Shin, J. Jeong, J.T. Kim, K.-W. Nam, 
+H.-G. Jung, K.Y. Chung, Energy Storage Mater. 25, 224–250 
+(2020)
+	18.	 J. Yue, M. Yan, Y.X. Yin, Y.G. Guo, Adv. Funct. Mater. 28(38), 
+1707533 (2018)
+	19.	 X. Zhu, L. Wang, Z. Bai, J. Lu, T. Wu, Nano-Micro Lett. 15(1), 
+75 (2023)
+	20.	 K.G. Naik, B.S. Vishnugopi, J. Datta, D. Datta, P.P. Mukherjee, 
+Appl. Mech. Rev. 75(1), 010802 (2023)
+	21.	 Y. Sakka, H. Yamashige, A. Watanabe, A. Takeuchi, M. Uesugi, 
+K. Uesugi, Y. Orikasa, J. Mater. Chem. A 10, 16602–16609 
+(2022)
+	22.	 K.G. Naik, M.K. Jangid, B.S. Vishnugopi, N.P. Dasgupta, P.P. 
+Mukherjee, Adv. Energy Mater. 2403360 (2024)
+	23.	 J. Oh, W.J. Chung, S.H. Jung, Y. Kim, Y. Lee, Y.J. Nam, S. Lee, 
+C.H. Kim, J.W. Choi, Energy Storage Mater. 71, 103606 (2024)
+
+=== 第 9 页 ===
+1515
+The Role of Stack Pressure in Modulating Electrochemical Behavior of All‑Solid‑State Lithium–…
+	24.	 F. Zhang, Y. Guo, L. Zhang, P. Jia, X. Liu, P. Qiu, H. Zhang, J. 
+Huang, eTransportation 15, 100220 (2023)
+	25.	 J.-M. Doux, Y. Yang, D.H. Tan, H. Nguyen, E.A. Wu, X. Wang, 
+A. Banerjee, Y.S. Meng, J. Mater. Chem. A 8(10), 5049–5055 
+(2020)
+	26.	 Z. Wu, S. He, C. Zheng, J. Gan, L. She, M. Zhang, Y. Gao, Y. 
+Yang, H. Pan, eScience 4, 100247 (2024)
+	27.	 Z. Liang, Y. Xiang, K. Wang, J. Zhu, Y. Jin, H. Wang, B. Zheng, 
+Z. Chen, M. TaoX, X. Liu, Nat. Commun. 14(1), 259 (2023)
+	28.	 J.T. Kim, A. Rao, H.-Y. Nie, Y. Hu, W. Li, F. Zhao, S. Deng, X. 
+Hao, J. FuJ, J. Luo, Nat. Commun. 14(1), 6404 (2023)
+	29.	 L.-P. Hou, H. Yuan, C.-Z. Zhao, L. Xu, G.-L. Zhu, H.-X. Nan, 
+X.-B. Cheng, Q.-B. Liu, C.-X. He, J.-Q. Huang, Energy Storage 
+Mater. 25, 436–442 (2020)
+	30.	 B. Liu, S.D. Pu, C. Doerrer, D. Spencer Jolly, R.A. House, D.L. 
+Melvin, P. Adamson, P.S. Grant, X. Gao, P.G. Bruce, SusMat 3(5), 
+721–728 (2023)
+	31.	 B. Qi, X. Hong, Y. Jiang, J. Shi, M. Zhang, W. Yan, C. Lai, Nano-
+Micro Lett. 16(1), 71 (2024)
+	32.	 B.H. Jeon, J.H. Yeon, K.M. Kim, I.J. Chung, J. Power. Sources 
+109(1), 89–97 (2002)
+	33.	 M. Nagao, A. Hayashi, M. Tatsumisago, Electrochim. Acta 
+56(17), 6055–6059 (2011)
+	34.	 S. Ohno, C. Rosenbach, G.F. Dewald, J. Janek, W.G. Zeier, Adv. 
+Funct. Mater. 31(18), 2010620 (2021)
+	35.	 L. Que, L.W. Chen, J. Power. Sources 557, 232536 (2023)
+	36.	 S. Gantenbein, M. Schönleber, M. Weiss, E. Ivers-Tiffée, Sustain-
+ability 11(23), 6697 (2019)
+	37.	 J. Du, W. Wang, Z. Wei, F. Hu, X. Wu, Batteries 9(1), 3 (2022)
+	38.	 D. Hlushkou, A.E. Reising, N. Kaiser, S. Spannenberger, S. 
+Schlabach, Y. Kato, B. Roling, U. Tallarek, J. Power. Sources 
+396, 363–370 (2018)
+	39.	 A. Kızılaslan, Ç.G. Türk, A. Miura, K. Tadanaga, Chem. Eng. J. 
+496, 153588 (2024)
+	40.	 G. Ning, B. Haran, B.N. Popov, J. Power. Sources 117, 160–169 
+(2003)
+	41.	 J. Kim, W. Lee, J. Seok, E. Lee, W. Choi, H. Park, S. Yun, M. 
+Kim, J. Lim, W.-S. Yoon, J. Energy Chem. 66, 226–236 (2022)
+	42.	 Z. Shen, L. Cao, C.D. Rahn, C.-Y. Wang, J. Electrochem. Soc. 
+160(10), A1842 (2013)
+	43.	 Y. Wang, T. Liu, L. Estevez, J. Kumar, Energy Storage Mater. 27, 
+232–243 (2020)
+	44.	 I. Santos-Mendoza, J. Vázquez-Arenas, I. González, G. Ramos-
+Sánchez, C. Castillo-Araiza, Int. J. Chem. Reactor Eng. 17(6), 
+20180095 (2019)
+	45.	 Y. Lu, C.-Z. Zhao, J.-Q. HuangQ, Q. Zhang, Joule 6(6), 1172–
+1198 (2022)
+	46.	 H. Chen, H. Zhang, Y. Zhou, J. Chen, X. Huang, B. Tian, J. Power. 
+Sources 583, 233579 (2023)
+Publisher's Note  Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.
+Springer Nature or its licensor (e.g. a society or other partner) holds 
+exclusive rights to this article under a publishing agreement with the 
+author(s) or other rightsholder(s); author self-archiving of the accepted 
+manuscript version of this article is solely governed by the terms of 
+such publishing agreement and applicable law.
+

@@ -1,0 +1,49 @@
+080 W2800441358 | All-NASICON LVP-LTP aqueous lithium ion battery with excellent stability and low-temperature performance
+081 W2772228741 | Cross-linked polyacrylamide film as gel polymer electrolyte for rechargeable hybrid aqueous batteries
+082 W2766145823 | Flexible Aqueous Li‐Ion Battery with High Energy and Power Densities
+083 W2613083376 | Hybrid Li Ion Conducting Membrane as Protection for the Li Anode in an Aqueous Li–Air Battery: Coupling S
+084 W2775324813 | Highly Conductive, Light Weight, Robust, Corrosion‐Resistant, Scalable, All‐Fiber Based Current Collector
+085 W2734374013 | High Specific Energy Density Aqueous Lithium-Metal Chloride Rechargeable Batteries
+086 W2563380959 | Bulk-Type All-Solid-State Lithium-Ion Batteries: Remarkable Performances of a Carbon Nanofiber-Supported 
+087 W2589475975 | Preparation, characterization and stability of Li-ion conducting Li1.5Al0.5Ge1.5(PO4)3 glass-ceramic with
+088 W2274250799 | A Novel Electrolyte Protect Layer for Aqueous Lithium-Air Battery
+089 W2472229047 | Recent Advances in Non‐Aqueous Electrolyte for Rechargeable Li–O2 Batteries
+090 W2342352727 | Progress in electrolytes for rechargeable Li-based batteries and beyond
+091 W2305990691 | Highly stable bilayer of LiPON and B2O3 added Li1.5Al0.5Ge1.5(PO4) solid electrolytes for non-aqueous rec
+092 W2347039749 | Flexible Aqueous Lithium‐Ion Battery with High Safety and Large Volumetric Energy Density
+093 W2531128841 | A Self‐Healing Aqueous Lithium‐Ion Battery
+094 W2380697585 | Novel Rechargeable M3V2(PO4)3//Zinc (M = Li, Na) Hybrid Aqueous Batteries with Excellent Cycling Performa
+095 W2078548476 | Tape-Cast Water-Stable NASICON-Type High Lithium Ion Conducting Solid Electrolyte Films for Aqueous Lithi
+096 W2789278521 | Water-stable and water penetration-free lithium ion conducting solid electrolyte with NASICON-type struct
+097 W2360300164 | Progress of Studies of Electrolyte in Lithium-Air Battery
+098 W2409664145 | Dopant Concentration–Porosity–Li-Ion Conductivity Relationship in Garnet-Type Li5+2xLa3Ta2–xYxO12 (0.05 ≤
+099 W2075574153 | An Aqueous Lithium–Iodine Battery with Solid Polymer Electrolyte‐Coated Metallic Lithium Anode
+100 W1972851698 | Li0.95Na0.05Ti2(PO4)3/C with Good Performance as Anode Material for Aqueous Rechargeable Lithium Batterie
+101 W4255835054 | A Polyionic, Large‐Format Energy Storage Device Using an Aqueous Electrolyte and Thick‐Format Composite N
+102 W2000257620 | Comparison of lithium and sodium intercalation materials
+103 W2315171721 | Lithium Ion Conducting Solid Electrolytes for Aqueous Lithium-air Batteries
+104 W2062059372 | A Composite Polymer Electrolyte Protect Layer between Lithium and Water Stable Ceramics for Aqueous Lithi
+105 W2094591879 | A Mixed Aqueous/Aprotic Sodium/Air Cell Using a NASICON Ceramic Separator
+106 W2021816810 | Challenges of non-aqueous Li–O2 batteries: electrolytes, catalysts, and anodes
+107 W2065100290 | Lithium conducting solid electrolyte Li1+xAlxGe2−x(PO4)3 membrane for aqueous lithium air battery
+108 W2034190060 | Macroporous LiFePO4 as a cathode for an aqueous rechargeable lithium battery of high energy density
+109 W2050070998 | Aqueous Lithium-Air Rechargeable Batteries
+110 W1978226999 | Stability of Li/Polymer Electrolyte-Ionic Liquid Composite/Lithium Conducting Glass Ceramics in an Aqueou
+111 W2016375334 | Water-Stable Lithium Electrode and Its Application in Aqueous Lithium/Air Secondary Batteries
+112 W4401255840 | Post‐Lithium Storage—Shaping the Future
+113 W4388411851 | Trend of Developing Aqueous Liquid and Gel Electrolytes for Sustainable, Safe, and High-Performance Li-Io
+114 W4303962195 | Recent progresses and challenges in aqueous lithium–air batteries relating to the solid electrolyte separ
+115 W3135814266 | Nitrate-based ‘oversaturated gel electrolyte’ for high-voltage and high-stability aqueous lithium batteri
+116 W3175391148 | Localized Water‐In‐Salt Electrolyte for Aqueous Lithium‐Ion Batteries
+117 W2990314876 | Biomimetic organohydrogel electrolytes for high‐environmental adaptive energy storage devices
+118 W2302783263 | Lithium–Air Batteries with Hybrid Electrolytes
+119 W1712140532 | Bi-layer lithium phosphorous oxynitride/aluminium substituted lithium lanthanum titanate as a promising s
+120 W2166798763 | Development of Electrolytes towards Achieving Safe and High‐Performance Energy‐Storage Devices: A Review
+121 W4233018625 | Excellent Stability of a Lithium‐Ion‐Conducting Solid Electrolyte upon Reversible Li+/H+ Exchange in Aque
+122 W1967683093 | Aqueous and nonaqueous lithium-air batteries enabled by water-stable lithium metal electrodes
+123 W2027158155 | Hybrid and Aqueous Lithium‐Air Batteries
+124 W2021172010 | The Li-Ion Rechargeable Battery: A Perspective
+125 W2048573664 | Li∕Polymer Electrolyte∕Water Stable Lithium-Conducting Glass Ceramics Composite for Lithium–Air Secondary
+126 W2003254797 | Aqueous Lithium‐ion Battery LiTi2(PO4)3/LiMn2O4 with High Power and Energy Densities as well as Superior 
+127 W1620427860 | Handbook of Battery Materials
+128 W1975983331 | Fast Ionic Transport in Solids

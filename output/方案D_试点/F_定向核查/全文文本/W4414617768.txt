@@ -1,0 +1,223 @@
+=== 第 1 页 ===
+Wang et al. 2025 | https://doi.org/10.34133/research.0949
+1
+PERSPECTIVE
+Fast Reaction Kinetics via Interfacial  
+Mediation in Quasi- and All-Solid-State  
+Lithium-Sulfur Batteries
+Ke  Wang1, Yanjiao  Ma2*, Torsten  Brezesinski3, Yuan  Ma1*,  
+and Yuping  Wu1*
+1Confucius Energy Storage Lab, School of Energy and Environment & Z Energy Storage Center, Southeast 
+University, Nanjing 211189, China. 2School of Energy and Mechanical Engineering, Nanjing Normal University, 
+Nanjing 210023, China. 3Institute of Nanotechnology, Karlsruhe Institute of Technology, 76131 Karlsruhe, 
+Germany.
+*Address correspondence to: yanjiao.ma@njnu.edu.cn (Yanjiao M.); yuan.ma@seu.edu.cn (Yuan M.); wuyp@
+seu.edu.cn (Y.W.)
+In recent years, lithium-sulfur batteries have attracted much interest owing to the natural abundance of 
+sulfur and its high theoretical specific capacity (qth ≈ 1,672 mAh g−1), offering the potential to achieve 
+cell-level energy densities exceeding 400 Wh kg−1. While excess electrolyte facilitates redox reactions, 
+it compromises specific energy and safety, driving the shift toward lean-electrolyte and solid-state 
+systems. Although this helps suppress polysulfide shuttling, such strategies suffer from sluggish solid–
+solid conversion reactions and poor interfacial kinetics. Recently, studies adopting interfacial mediator 
+strategies have emerged to address these challenges by enabling localized redox reactions at otherwise 
+inactive interfaces. This perspective highlights advances in mediator-facilitated sulfur conversion under 
+quasi- and all-solid-state conditions, offering insights into designing high-performance (electrolyte-efficient) 
+lithium-sulfur batteries.
+ Lithium-sulfur (Li-S) batteries utilizing cost-effective, high-capacity 
+sulfur cathodes are regarded as promising candidates for next-
+generation electrochemical energy storage [ 1 – 3 ]. However, the 
+conversion relies on soluble lithium polysulfides (LiPSs), whose 
+dissolution, shuttling, and side reactions with lithium cause 
+active material loss and capacity fading. Mitigation includes 
+immobilizing LiPSs in the cathode (with a weight penalty) or 
+suppressing their solubility by tailoring electrolyte solvation 
+[ 4 – 6 ]. A more radical route is to adopt a solid–solid-type con-
+version that bypasses the solution pathway and decouples the 
+reactions from the bulk electrolyte. Nevertheless, these strategies 
+often suffer from compromised kinetics and limited practical 
+applicability [ 7 – 9 ].
+ Recently, Liu et al. [ 10 ] and Song et al. [ 11 ] enhanced reac-
+tion rates significantly by introducing active mediators at the 
+cathode interface to promote localized surface reactions (see 
+Fig.  1 for a schematic illustration of the general concept). These 
+studies exemplify how mediator strategies can accelerate sulfur 
+conversion, providing a set of general design principles for 
+effective mediators in Li-S batteries. Two prerequisites must be 
+satisfied: (a) the redox potential properly matching the targeted 
+active species to enable the desired charge transfer and (b) recy-
+clability to ensure feasibility and continuity. Beyond these com-
+mon requirements, the design principles diverge depending on 
+electrolyte content. In liquid-rich systems, the priority is to 
+suppress LiPS shuttling. With reduced electrolyte, the shuttle 
+is alleviated, and the focus shifts to accelerating reaction 
+kinetics. In the absence of liquid electrolyte, LiPSs are no longer 
+involved, and mediators are instead designed to facilitate fast 
+charge transfer across solid interfaces [ 12 – 14 ]. 
+ This kind of mediation concept has been demonstrated in 
+quasi-solid-state Li-S batteries using lean-electrolyte systems. 
+Specifically, the redox-active, organic mediator introduced into 
+the low-viscosity, ether-based electrolyte can reversibly coordi-
+nate with (quasi-solid) Li2S x species, thereby dynamically gen-
+erating transient, surface-localized solvation domains. These 
+domains enable the conversion to proceed via faster solution-
+phase pathways while suppressing bulk polysulfide dissolution 
+[ 10 ]. Mechanistically, the mediator interacts directly with both 
+soluble and insoluble sulfur species, forming reversible coor-
+dination complexes that chemically bridge otherwise isolated 
+Li2S/Li2S x domains. Through this process, the spatial continuity 
+of redox-active regions is enhanced, ultimately lowering the local 
+kinetic barrier for electron/ion access. At the same time, the 
+mediator operates within a low-permittivity, shuttle-suppressing 
+solvent matrix, which helps confine activity to the electrode 
+interface and prevents long-range polysulfide migration. This 
+design exemplifies how controlled interfacial solvation and 
+molecular-level redox mediation can be co-engineered to unlock 
+fast reaction pathways in systems that are commonly constrained 
+by sluggish transport and electrochemical passivation. When 
+assembled into pouch cells, the system achieved about 330 Wh 
+kg−1 at a 2.4-Ah total capacity, demonstrating not only promis-
+ing specific energy but also practical scalability.
+Citation: Wang K, Ma Y, Brezesinski T, 
+Ma Y, Wu Y. Fast Reaction Kinetics 
+via Interfacial Mediation in Quasi- 
+and All-Solid-State Lithium-Sulfur 
+Batteries. Research 2025;8:Article 
+0949. https://doi.org/10.34133/
+research.0949
+Submitted 25 August 2025  
+Revised 27 September 2025  
+Accepted 28 September 2025  
+Published 10 October 2025
+Copyright © 2025 Ke Wang et al.  
+Exclusive licensee Science and 
+Technology Review Publishing House. 
+No claim to original U.S. Government 
+Works. Distributed under a Creative 
+Commons Attribution License  
+(CC BY 4.0).
+
+=== 第 2 页 ===
+Wang et al. 2025 | https://doi.org/10.34133/research.0949
+2
+ In quasi-solid-state systems, mediators regulate the LiPSs 
+within localized dissolution environments. Building on this, 
+the all-solid-state concept is bypassing the solution-mediated 
+pathway entirely, with mediators tailored to accelerate sulfur 
+conversion. To overcome the intrinsic challenges, a glassy lith-
+ium thioborophosphate iodide (LBPSI) solid electrolyte (SE) 
+has been developed, aiming to promote redox reactions at oth-
+erwise inactive SE|Li2S 2-phase boundaries [ 11 ]. Unlike con-
+ventional ion conductors, LBPSI incorporates redox-active 
+iodine species, which undergo reversible electrochemical cycling 
+(I− ⇌ I2/I3 
+−) and serve as dynamic surface mediators that chemi-
+cally activate solid–solid conversion reactions. During charging, 
+iodine anions present on the SE surface are electrochemically 
+oxidized to I2/I3 
+− at the SE|C interface; these oxidized species 
+then diffuse locally and chemically oxidize adjacent Li2S par-
+ticles in direct contact with the SE. In this manner, the mediator 
+bypasses the requirement for rare SE|Li2S|C triple-phase bound-
+aries and instead enables reactions to proceed at the far more 
+abundant SE|Li2S 2-phase boundaries, which are otherwise 
+electrochemically inert. The glass-forming tendency of LBPSI 
+suppresses crystallization and allows the reversible I−/I2/I3 
+− 
+cycling to occur without irreversible electrolyte degradation. 
+This mechanism enables excellent electrochemical performance 
+across a broad range of operating conditions. Specifically, the 
+all-solid-state Li-S batteries delivered a high specific capacity 
+of 1,497 mAh g−1 
+sulfur at 2 C (with 1 C = 1,672 mA g−1﻿) and 
+30 °C, demonstrating good rate capability. Furthermore, they 
+exhibited a notable longevity, retaining about 80% of their ini-
+tial capacity after more than 25,000 cycles at 5 C and 25 °C.
+ Of note, similar interfacial mediation strategies have been 
+independently reported in other studies, emphasizing the broader 
+applicability of the approach. For instance, in Li–CO2 batteries, 
+Li et al.’s team [ 15 ] used a solid-state Cu(II)/Cu(I) redox media-
+tor to activate CO2 and promote Li2C2O2 formation, realizing 
+efficient and stable cycling. Such mediator strategies have also 
+inspired advances in other electrochemical and catalytic con-
+texts. Examples include C–C coupling electrocatalysis and the 
+design of hydrogel-based nanozymes, illustrating their poten-
+tial well beyond energy storage [ 16 , 17 ]. These studies under-
+score the growing interest in using redox mediators, pointing 
+to a universal strategy that enables interfacial redox activity 
+beyond the conventional limitations of the field. 
+Acknowledgments
+ Funding: This work was supported by the project on Carbon 
+Emiss ion Peak and Neutrality of Jiangsu Province (no. 
+BE2022031-4) and by research start-up funds from Southeast 
+University (RF1028624081) and Nanjing Normal University 
+(184080H201B41).
+ Competing interests:﻿ The authors declare that they have no 
+competing interests. 
+References
+	 1.	 Lim W, Kim S, Jo C, Lee J. A comprehensive review of materials 
+with catalytic effects in Li–S batteries: Enhanced redox kinetics. 
+Angew Chem Int Ed Engl. 2019;58(52):18746–18757.
+	 2.	 Huang Y, Lin L, Zhang C, Liu L, Li Y, Qiao Z, Lin J, Wei Q, 
+Wang L, Xie Q, et al. Recent advances and strategies toward 
+polysulfides shuttle inhibition for high-performance Li–S 
+batteries. Adv Sci. 2022;9(12):2106004.
+	 3.	 Ji X, Nazar LF. Advances in Li–S batteries. J Mater Chem. 
+2010;20(44):9821–9826.
+	 4.	 Raza H, Bai S, Cheng J, Majumder S, Zhu H, Liu Q, Zheng G, 
+Li X, Chen G. Li-S batteries: Challenges, achievements and 
+opportunities. Electrochem Energy Rev. 2023;6(1):29.
+	 5.	 Peng H, Zhang G, Chen X, Zhang Z, Xu W, Huang J, Zhang Q.  
+Enhanced electrochemical kinetics on conductive polar 
+mediators for lithium–sulfur batteries. Angew Chem Int Ed 
+Engl. 2016;55(42):12990–12995.
+	 6.	 Barghamadi M, Kapoor A, Wen C. A review on Li-S batteries 
+as a high efficiency rechargeable lithium battery. J Electrochem 
+Soc. 2013;160(8):A1256–A1263.
+	 7.	 Song Z, Ma Y, Cheng X, Zhu Z, Zhong Y, He J, Wang T, Xu D,  
+Zhang Q, Ozoemena K, et al. Development of advanced 
+anodes for solid-state lithium batteries. Mater Today. 
+2025;88:1005–1027.
+	 8.	 Fan F, Chiang Y. Electrodeposition kinetics in Li-S batteries: 
+Effects of low electrolyte/sulfur ratios and deposition surface 
+composition. J Electrochem Soc. 2017;164(4):A917–A922.
+	 9.	 Wang D, Jhang L, Kou R, Liao M, Zheng S, Jiang H, Shi P, Li G, 
+Meng K, Wang D. Realizing high-capacity all-solid-state 
+lithium-sulfur batteries using a low-density inorganic solid-
+state electrolyte. Nat Commun. 2023;14:1895.
+	10.	 Liu Y, An Y, Fang C, Ye Y, An Y, He M, Jia Y, Hong X, Liu Y, 
+Gao S, et al. Surface-localized phase mediation accelerates 
+quasi-solid-state reaction kinetics in sulfur batteries. Nat 
+Chem. 2025;17(4):614–623.
+	11.	 Song H, Munch K, Liu X, Shen K, Zhang R, Weintraut T, 
+Yusim Y, Jiang D, Hong X, Meng J, et al. All-solid-state 
+Fig. 1. Schematic illustration of mediator-enabled activation in sulfur conversion 
+reactions. LiPSs, lithium polysulfides.
+
+=== 第 3 页 ===
+Wang et al. 2025 | https://doi.org/10.34133/research.0949
+3
+Li–S batteries with fast solid–solid sulfur reaction. Nature. 
+2025;637(8047):846–853.
+	12.	 Kim J, Hao X, Wang C, Sun X. Cathode materials for single-phase 
+solid-solid conversion Li-S batteries. Matter. 2023;2:316–343.
+	13.	 Saneyuki O, Zeier W. Toward practical solid-state lithium–
+sulfur batteries: Challenges and perspectives. Acc Mater Res. 
+2021;2(10):869–880.
+	14.	 Kwon H, Baek J, Kim H. Building lithium metal batteries 
+under lean electrolyte conditions: Challenges and progress. 
+Energy Storage Mater. 2023;55:708–726.
+	15.	 Li W, Zhang M, Sun X, Sheng C, Mu X, Wang L, He P, Zhou H. 
+Boosting a practical Li-CO2 battery through dimerization 
+reaction based on solid redox mediator. Nat Commun. 
+2024;15:803.
+	16.	 Zhang J, Guo C, Fang S, Zhao X, Li L, Jiang H, Liu Z, Fan Z,  
+Xu W, Xiao J, et al. Accelerating electrochemical CO2 
+reduction to multi-carbon products via asymmetric 
+intermediate binding at confined nanointerfaces. Nat 
+Commun. 2023;14:1298.
+	17.	 Tao X, Fang Z, Shao R, Hu J, Cheng H, Zhu S, Wang X, Yu H, 
+Tan B, Zhang C. Covalent organic framework nanohydrogel-
+based oxidase-mimicking nanozyme for photocatalytic 
+antibacterial therapy. Angew Chem Int Ed Engl. 2025; 
+Article e202513754.
+

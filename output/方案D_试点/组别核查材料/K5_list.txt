@@ -1,0 +1,78 @@
+01 固态锂电 W7134181205 卤化物/氯化 | Universal Oxychlorination Strategy in Halide Solid Electrolytes for All‐Solid‐State Batteries | 固态←Halide Solid Electrolytes；电解质←Halide Solid Elec
+02 固态锂电 W7165620135 卤化物/氯化 | Powdery oxychloride solid electrolytes enabling low-pressure all-solid-state batteries | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+03 固态锂电 W7172432204 卤化物/氯化 | Three-Electron Redox NbOCl3 with Enhanced Kinetics and Interfacial Stability for All-Solid-Stat | 固态←oxychloride；电解质←oxychloride
+04 固态锂电 W7146970106 卤化物/氯化 | Precision Chemical Routes to Achieve Superior Oxyhalide Solid Electrolytes in Advanced All-Soli | 固态←halide Solid Electrolytes；电解质←halide Solid Elec
+05 固态锂电 W7167245651 卤化物/氯化 | Interfacial percolation enables high-conductivity lean-lithium oxychloride electrolytes for all | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+06 固态锂电 W7214075376 卤化物/氯化 | From interface engineering to recycling-oriented design: A review of oxide-based all-solid-stat | 固态←garnet；电解质←oxychloride
+07 固态锂电 W7204080842 聚合物 | Enhancing ionic transport in sodium bromide doped tamarind seed polysaccharide solid polymer el | 固态←solid polymer；电解质←solid polymer；标题讲电解质←electrol
+08 固态锂电 W7163216921 卤化物/氯化 | Boosting Ionic Conductivity in Zirconium-Based Oxychloride Solid Electrolytes via Br Doping for | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Electrolyte
+09 固态锂电 W7168356550 硫化物 | Stable High-Areal-Capacity All-Solid-State Batteries Enabled by Ultrathin Li3YCl6-Based Coating | 固态←argyrodite；电解质←argyrodite；标题讲电解质←Li3YCl6
+10 固态锂电 W7136920210 卤化物/氯化 | Electrochemical Behavior and Interfacial Failure of Li 2.22 Zr 1.11 Cl 5.33 O 0.67 in High-Perf | 固态←Halide solid electrolytes；电解质←Halide solid elec
+11 固态锂电 W7212220652 凝胶/准固态 | A Stress Dispersive Quasi‐Solid Polymer Electrolyte Enables Ah‐Level Impact Tolerant Lithium‐Me | 固态←Solid Polymer Electrolyte；电解质←Quasi-Solid；标题讲电解
+12 固态锂电 W7220460940 卤化物/氯化 | Motifs in an Amorphous Aluminum Oxychloride Solid-State Electrolyte (LAOC) from NMR Crystallogr | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Electrolyte
+13 固态锂电 W7161547063 聚合物 | Brush‐on‐Brush Topological Solid Polymer Electrolyte Enables Stable Lithium Metal Battery Cycli | 固态←Solid Polymer Electrolyte；电解质←Solid Polymer Ele
+14 固态锂电 W7133944492 硫化物 | Reimagining ion-transport pathways for all-solid-state lithium batteries | 固态←Li6PS5；电解质←Li6PS5
+15 固态锂电 W7161860129 硫化物 | Hard–Soft Gradient-Engineered Oxychloride Coating on Ni-Rich Cathodes for All-Solid-State Lithi | 固态←sulfide solid；电解质←sulfide solid
+16 固态锂电 W7166143826 卤化物/氯化 | A superionic oxychloride redox catholyte enables high-energy and long-life all-solid-state lith | 固态←oxychloride；电解质←oxychloride；标题讲电解质←superionic
+17 固态锂电 W7133360544 卤化物/氯化 | Amorphous aluminum-based oxychloride superionic conductors via cation–oxygen coupled modificati | 固态←oxychloride；电解质←oxychloride；标题讲电解质←superionic
+18 固态锂电 W7202203040 卤化物/氯化 | HCl‐Free Mechanochemical Synthesis of Lithium Niobium Oxychlorides | 固态←Oxychloride；电解质←Oxychloride
+19 固态锂电 W7167512252 卤化物/氯化 | Scalable High-Performance Li2Zr0.2Ta0.8OCl4.8 Solid Electrolytes: Structure, Dynamics, and Stab | 固态←oxychloride；电解质←oxychloride；标题讲电解质←Electrolyte
+20 固态锂电 W7140279856 未标明 | A Novel H2S Reduction Process of Li2SO4 for High-Purity Li2S Production Toward Next-Generation  | 固态←solid electrolytes
+21 固态锂电 W7155555584 卤化物/氯化 | Disorder‐Driven Fast Na + Transport: From Crystalline to Amorphous Networks in the Mixed‐Anion  | 固态←Oxychloride；电解质←Oxychloride
+22 固态锂电 W7167612276 未标明 | Transitioning From Primary to Rechargeable Li/CF x Batteries: Mechanistic Insights and Design S | 固态←solid-state electrolyte
+23 固态锂电 W7123583032 卤化物/氯化 | Atomic Level Fabrication of Oxychloride Interface for High‐Rate and High‐Voltage Lithium‐Ion Ba | 固态←Oxychloride；电解质←Oxychloride
+24 固态锂电 W7165679516 卤化物/氯化 | Endowing Metal Oxychloride Solid Electrolytes with Improved Li Compatibility | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Electrolyte
+25 固态锂电 W4406931339 卤化物/氯化 | Oxychloride Polyanion Clustered Solid‐State Electrolytes via Hydrate‐Assisted Synthesis for All | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Electrolyte
+26 固态锂电 W4412792832 卤化物/氯化 | Integration of Oxide‐Based All‐Solid‐State Batteries at 350°C by Infiltration of a Lithium‐Rich | 固态←LLZO；电解质←Oxychloride
+27 固态锂电 W4414448718 卤化物/氯化 | UCl3-Type Crystalline Oxychloride Electrolytes for All-Solid-State Lithium-Ion Batteries | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Electrolyte
+28 固态锂电 W4409020669 卤化物/氯化 | A lithium-poor tantalum oxychloride solid electrolyte for all-solid-state lithium batteries | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+29 固态锂电 W4409080577 卤化物/氯化 | Cation‐Anion‐Engineering Modified Oxychloride Zr‐Based Lithium Superionic Conductors for All‐So | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Superionic
+30 固态锂电 W4412422251 卤化物/氯化 | Interfacial Coordination Engineering to Boost Li‐Ion Conduction in Economic Zr‐Based Halide Ele | 固态←LATP；电解质←Halide Electrolytes；标题讲电解质←Ion Conduct
+31 固态锂电 W4412825605 氧化物 | Comparative study of Ta and Ga doping effects on Li 7 La 3 Zr 2 O 12 garnet electrolytes for ad | 固态←garnet；电解质←garnet；标题讲电解质←garnet
+32 固态锂电 W4414671141 卤化物/氯化 | A Li-enriched amorphous Zr-based oxychloride solid electrolyte for high-rate and long-cycling a | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+33 固态锂电 W4410500621 卤化物/氯化 | Crystalline Li-Ta-Oxychlorides with Lithium Superionic Conduction | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Superionic
+34 固态锂电 W4412526141 凝胶/准固态 | Revealing the Heat Generation and Release in a High-Energy-Density Quasi-Solid-State Li-Ion Cel | 固态←solid-state batteries；电解质←Quasi-Solid
+35 固态锂电 W4407261101 聚合物 | Reversibility without over-potential of fluorinated graphite in lithium batteries | 固态←polymer electrolyte；电解质←polymer electrolyte
+36 固态锂电 W4414269978 卤化物/氯化 | An Oxychloride Solid Electrolyte with Superior Na-Ion Conductivity | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Electrolyte
+37 固态锂电 W4404286977 卤化物/氯化 | Oxychloride Polyanion Clustered Solid‐State Electrolytes via Hydrate‐Assisted Synthesis for All | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Electrolyte
+38 固态锂电 W4394861572 卤化物/氯化 | Revealing unprecedented cathode interface behavior in all-solid-state batteries with oxychlorid | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+39 固态锂电 W4392380538 卤化物/氯化 | Interplay of Cathode–Halide Solid Electrolyte in Enhancing Thermal Stability of Charged Cathode | 固态←Halide Solid Electrolyte；电解质←Halide Solid Elect
+40 固态锂电 W4393194226 卤化物/氯化 | Fluorinated Superionic Oxychloride Solid Electrolytes for High-Voltage All-Solid-State Lithium  | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Superionic
+41 固态锂电 W4400976136 卤化物/氯化 | 4 V Na Solid State Batteries Enabled by a Scalable Sodium Metal Oxyhalide Solid Electrolyte | 固态←halide Solid Electrolyte；电解质←halide Solid Elect
+42 固态锂电 W4399725269 卤化物/氯化 | A novel LaCl 3 -based oxychloride solid-state electrolyte enables fast Li-ion transport and is  | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+43 固态锂电 W4394789618 氧化物 | Preparation and performance of highly-conductive dual-doped Li7La3Zr2O12 solid electrolytes for | 固态←Garnet；电解质←Garnet；标题讲电解质←electrolyte
+44 固态锂电 W4400612734 卤化物/氯化 | Exploring superionic conduction in lithium oxyhalide solid electrolytes considering composition | 固态←halide solid electrolytes；电解质←halide solid elec
+45 固态锂电 W4399807331 未标明 | Preparation of LiLaZrMO (M= Ga/Al) solid electrolytes for thermal batteries | 固态←solid electrolytes；锂←硫化物电解质默认锂：；标题讲电解质←electrol
+46 固态锂电 W4382345114 卤化物/氯化 | A cost-effective, ionically conductive and compressible oxychloride solid-state electrolyte for | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+47 固态锂电 W4381889868 卤化物/氯化 | A family of oxychloride amorphous solid electrolytes for long-cycling all-solid-state lithium b | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+48 固态锂电 W4366606948 硫化物 | Air-stable iodized-oxychloride argyrodite sulfide and anionic swap on the practical potential w | 固态←argyrodite；电解质←argyrodite；标题讲电解质←argyrodite
+49 固态锂电 W4376616665 卤化物/氯化 | Fast Li+-conducting Zr4+-based oxychloride electrolyte with good thermal and solvent stability | 固态←oxychloride；电解质←oxychloride；标题讲电解质←electrolyte
+50 固态锂电 W4321332197 凝胶/准固态 | Electrolyte design principles for developing quasi-solid-state rechargeable halide-ion batterie | 固态←oxychloride；电解质←quasi-solid；标题讲电解质←Electrolyte
+51 固态锂电 W4388104688 氧化物 | Review and New Perspectives on Non-Layered Manganese Compounds as Electrode Material for Sodium | 固态←NASICON；电解质←NASICON
+52 固态锂电 W4309859589 氧化物 | Alloyable Viscous Fluid for Interface Welding of Garnet Electrolyte to Enable Highly Reversible | 固态←Garnet；电解质←Garnet；标题讲电解质←Garnet
+53 固态锂电 W3157598090 卤化物/氯化 | Solid-State Rechargeable Lithium Metal Battery with Li 4 B 4 Al 3 O 12 Cl-based Water-Resistant | 固态←Oxychloride；电解质←Oxychloride；标题讲电解质←Electrolyte
+54 固态锂电 W2999787083 卤化物/氯化 | Understanding Li‐Ion Dynamics in Lithium Hydroxychloride (Li2OHCl) Solid State Electrolyte via  | 固态←oxychloride；电解质←oxychloride；标题讲电解质←Electrolyte
+55 固态锂电 W3091764811 卤化物/氯化 | Lithium and Chlorine-Rich Preparation of Mechanochemically Activated Antiperovskite Composites  | 固态←oxychloride；电解质←oxychloride
+56 固态锂电 W3112668965 未标明 | Reaction Mechanism and Structural Evolution of Fluorographite Cathodes in Solid‐State K/Na/Li B | 固态←all-solid-state
+57 固态锂电 W3016780901 未标明 | Investigation the electrochemical properties of LiCl-LiBr-LiF-doped Li7La3Zr2O12 electrolyte fo | 固态←；标题讲电解质←electrolyte
+58 固态锂电 W2912307970 卤化物/氯化 | An All‐Solid‐State Rechargeable Chloride Ion Battery | 固态←oxychloride；电解质←oxychloride
+59 固态锂电 W2263077367 聚合物 | Characterization of CH3SO3H-doped PMMA/PVP blend-based proton-conducting polymer electrolytes a | 固态←polymer electrolytes；锂←硫化物电解质默认锂：；电解质←polymer e
+60 固态锂电 W2178417467 聚合物 | Study on blend polymer (PVA-PAN) doped with lithium bromide | 固态←polymer electrolyte；电解质←polymer electrolyte
+61 固态锂电 W2012297571 复合 | Ceramic/polymer solid electrolyte based lithium water primary battery | 固态←solid electrolyte；电解质←复合：Ceramic/polymer；标题讲电解质
+62 固态锂电 W2508174823 卤化物/氯化 | Properties and Structure of the LiCl-films on Lithium Anodes in Liquid Cathodes | 固态←LiAlCl4；电解质←LiAlCl4
+63 固态锂硫 W7214954457 卤化物/氯化 | Constructing La-embedded BiOCl nanosheets as dual-function catalytic mediators for high-perform | 锂硫←lithium-sulfur；固态←oxychloride；电解质←oxychloride；路
+64 固态锂硫 W4311210011 聚合物 | Light‐Driven Polymer‐Based All‐Solid‐State Lithium‐Sulfur Battery Operating at Room Temperature | 锂硫←Lithium-Sulfur；固态←Poly(ethylene oxide)；电解质←Poly
+65 固态锂硫 W2924295221 卤化物/氯化 | Metal Oxychloride/Metal Electrode Systems for Chloride Ion Batteries | 锂硫←Li/S battery；固态←Oxychloride；电解质←Oxychloride
+66 固态锂硫 W3033916798 卤化物/氯化 | Power Sources Conference, 29th, Atlantic City, NJ, June 9-12, 1980, Proceedings | 锂硫←lithium/sulfur；固态←oxychloride；电解质←oxychloride；路
+67 液态锂硫 W4404065790 不适用（液态 | Facile Synthesis and Thermal Stability Enhancement of Sulfurized Polyacrylonitrile for Thermal  | 锂硫←Sulfurized Polyacrylonitrile；路线←Sulfurized Poly
+68 液态锂硫 W4391509398 不适用（液态 | Ultralight Electrolyte with Protective Encapsulation Solvation Structure Enables Hybrid Sulfur- | 锂硫←lithium-sulfur；标题讲电解质←Electrolyte
+69 液态锂硫 W4220787565 不适用（液态 | Ion Channel Engineering in Super Thick Cathodes toward High-Energy-Density Li–S Batteries | 锂硫←Li-S Batteries；路线←sulfur loading
+70 液态锂硫 W2939899682 不适用（液态 | Controlling Fluoride‐Forming Reactions for Improved Rate Capability in Lithium‐Perfluorinated G | 锂硫←lithium-sulfur
+71 液态锂硫 W2892033604 不适用（液态 | Designing Li-protective layer via SOCl2 additive for stabilizing lithium-sulfur battery | 锂硫←lithium-sulfur；标题讲电解质←additive
+72 液态锂硫 W3006723672 不适用（液态 | Advances in Lithium Battery | 锂硫←Lithium-Sulfur
+73 液态锂硫 W2613490376 不适用（液态 | High-efficiency and high-power rechargeable lithium–sulfur dioxide batteries exploiting convent | 锂硫←lithium-sulfur；标题讲电解质←electrolyte
+74 液态锂硫 W2260300754 不适用（液态 | Lithium Sulfur Primary Battery with Super High Energy Density: Based on the Cauliflower-like St | 锂硫←Lithium Sulfur；路线←sulfur loading
+75 液态锂硫 W2348101889 不适用（液态 | Simulation of Temperature Field of Lithium Battery Based on CFD | 锂硫←lithium/sulfur
+76 液态锂硫 W2362709091 不适用（液态 | Test and Analysis of the Specific Heat Capacity of Lithium/Sulfur Dioxide Battery | 锂硫←Lithium/Sulfur
+77 液态锂硫 W2353553746 不适用（液态 | Thermal Conductivity Measurement of Lithium/Sulfur Dioxide Battery by Steady-state Method | 锂硫←Lithium/Sulfur
+78 液态锂硫 W1567945370 不适用（液态 | Batteries on the battlefield : developing a methodology to estimate the fully burdened cost of  | 锂硫←lithium sulfur

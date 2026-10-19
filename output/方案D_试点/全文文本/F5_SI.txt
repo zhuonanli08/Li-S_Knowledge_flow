@@ -1,0 +1,725 @@
+=== 第 1 页 ===
+Supporting Information
+On the Additive Microstructure in Composite Cathodes and Alumina-
+Coated Carbon Microwires for Improved All-Solid-State Batteries
+Simon Randaua,b, Felix Walthera,b, Anton Neumannc,d, Yannik Schneidera,b, Rajendra S. 
+Negia,b, Boris Mogwitza,b, Joachim Sanna,b, Katharina Becker-Steinbergerc,d, Timo Dannerc,d, 
+Simon Heinc,d, Arnulf Latzc,d,e, Felix H. Richtera,b and Jürgen Janeka,b,*
+aInstitute of Physical Chemistry, Justus Liebig University Giessen, 
+Heinrich-Buff-Ring 17, D-35392 Giessen, Germany.
+bCenter for Materials Research (LaMa), Justus Liebig University Giessen, 
+Heinrich-Buff-Ring 16, D-35392 Giessen, Germany. 
+cGerman Aerospace Center (DLR), Institute of Engineering Thermodynamics,
+Pfaffenwaldring 38-40,70569 Stuttgart, Germany
+dHelmholtz Institute for Electrochemical Energy Storage (HIU), Helmholtzstraße 11, 
+89081
+Ulm, Germany
+eInstitute of Electrochemistry, Ulm University, Albert-Einstein-Allee 47, 89081 Ulm, 
+Germany
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 2 页 ===
+S1. Schematic for a cyclic voltammetry cell
+Supplementary Figure 1: Schematics of the cyclic voltammetry test cell setup. For this work the counter electrode 
+(CE) is indium metal (125 µm). The separating electrolyte is β-Li3PS4. The composite cathode consists of β-Li3PS4 
+and one of the carbon additives.
+S2. SEM Cross-Section of KBC cathode composite
+Supplementary Figure 2: SEM cross section for a cathode composite with KBC as conductive additive. Due to the 
+particular character and presence of not conducting carbon domains, carbon is not visible in the images.
+S3. Reference electrode material for cyclic voltammetry cells
+A counter electrode with a stable potential is needed to perform the cyclic voltammetry experiments. 
+Three types of anode are possible, a pure lithium anode, an ex situ formed indium-lithium alloy (ex situ 
+In/InLi) and indium metal, which forms a lithium-indium alloy during the experiment (in situ In/InLi).
+A lithium metal anode combined with a thiophosphate-based SE results in a reduction of the SE and the 
+formation of an isolating SEI layer.1,2 By using an InLi alloy the negative influence of the direct contact 
+with lithium metal can be avoided. In the region of < 1 at.% to 47 at.% lithium the In/InLi two-phase 
+mixture shows a stable potential of 0.62 V vs. Li+/Li.3 This two-phase alloy is typically prepared by 
+applying a thin lithium foil onto a thick indium foil. During further assembly, a contact between lithium 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 3 页 ===
+metal and SE may occur, a reduction of the SE is possible. If an indium foil is used during cell assembly, 
+it is necessary that the alloy is formed in situ. During the first positive sweep of CV cells the SE is 
+oxidized at the SE/carbon interface. The resulting lithium ions migrate to the anode and form the InLi 
+alloy shortly after the beginning of the experiment, which then forms a stable potential in the presence 
+of unreacted In.4
+When shifting the cell potentials for CV cells with alloy reference electrodes by 0.62 V vs Li+/Li, the 
+present peak position overlays with the lithium metal CV cell (Supplementary Figure 3). This is also 
+visible for the first cycle, but the influence of the first oxidative decomposition of the SE leads to an 
+additional variation of the peak positions hindering an easy comparison. 
+Since the ex situ and in situ formed In/InLi two-phase alloy electrodes are comparable, for all CV cells 
+in this work an in situ formed In/InLi alloy mixture is used as reference electrode. For simplicity the in 
+situ formed anode is indicated as In/InLi in all further figures.
+Supplementary Figure 3: By comparing the open circuit potentials of CV cells with different anodes the necessary 
+potential shifts for cells with an ex situ formed In/InLi anode and an in situ formed In/InLi anode can be shown. 
+Both CV cell potentials needed to be shifted by 0.62 V vs Li+/Li for comparison. The shift for both In/InLi anodes 
+agrees with literature data.3 To receive an in situ formed In/InLi anode a lithium ion source is needed. We assume 
+an oxidation of the SE during the first positive potential sweep.
+S4. Reversibility of the cathode redox couple in the CV cells
+Recurring peak sequences can be seen beginning with the second cycle of the cyclic voltammograms 
+(see Figure 3a,b). When VGCF and C65 are used as carbon additives, the course over several cycles 
+shows a reduction of the current maxima for the individual peaks and a shift of the peak positions to 
+higher potentials for oxidation and to lower potentials for reduction. The presence of oxidation and 
+reduction peaks suggests that a redox pair is present. Due to the mentioned changes, the underlying 
+reaction does not seem to be completely reversible. This can be explained by changes in ion mobility as 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 4 页 ===
+well as kinetic barriers due to the oxidation products formed, resulting in an incomplete reduction of the 
+formed oxidation products. Leading to an increase of cell resistance and the observed peak position shift.
+CV cells with CNT and KBC as carbon additive show a different behavior, which has already been 
+discussed in the manuscript.
+S5. Discussion on surface normalization: Steel stamp vs. fiber carbon vs. 
+particular carbon
+A first comparison between a cell with carbon additive and a cell without additive is useful 
+(Supplementary Figure 4). For the cell without carbon additive, an active area of 0.79 cm2 is assumed, 
+since only the steel stamp acts as a current collector. For the cell with carbon additive, the surface of the 
+VGCF is added. Here the assumption is made that all fibers are in contact with the steel stamp. However, 
+this will result in an overestimation of the electronic contact area for this setup, because of the complex 
+3D structure and presence of isolated domains of the conductive carbons. Therefore, a surface 
+normalization for these experiments is limited. The calculated contact areas, peak currents and 
+calculated ratios for the two setups are shown in Supplementary Table 1. When the ratios for the 
+maximum peak current and surface area are compared for the first cycle, a similar order of magnitude 
+is noticed. Consequently, a surface area dependence of the oxidation can be assumed. In the second 
+cycle the maximum current of the peaks is significantly lower, which is also reflected in the calculated 
+ratio. The reactions can be kinetically and energetically inhibited and reduced contact surfaces by 
+isolated carbon fibers may be the reason. In addition, the changed peak sequence, with three peaks for 
+the second cycle must be taken into account.
+Supplementary Figure 4: Cyclovoltammogram for a) the first and b) second CV cycles of CV cells with VGCF in 
+the composite and without VGCF. The y-achis is scaled differently for a better comparison. 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 5 页 ===
+Supplementary Table 1: Overview of the calculated surface areas and the peak currents measured for the CV cells 
+with VGCF composite and planar steel working electrodes. The surface areas in the cell composition with VGCF 
+have been idealized and simplified, resukting in an overestimation. In addition, the ratios for the surface areas 
+and peak currents for both electrode types are calculated.
+Electrode setup:
+VGCF composite
+Steel stamp
+Ratio 
+Area:
+656 cm2
+0.79 cm2
+830
+Imax (1. cycle):
+780.4 µA
+1.16 µA
+673
+Imax (2. cycle):
+212.5 µA
+1.15 µA
+185
+S6. Cyclic voltammetry cell with first reductive sweep
+The standard CV test starts with a positive sweep toward high potentials, with an initial oxidative peak. 
+Tests were carried out, performing at first a negative sweep towards low potentials (0 V vs. In/InLi). 
+Supplementary Figure 5 shows the corresponding voltammograms. In the negative potential sweep no 
+peaks are observed. In the following positive potential sweep the first oxidation starts at ca. 2.2 V vs. 
+In/InLi. The formed oxidation products are the starting materials for the redox pair, observed in the 
+following cycles. The further cycles do not differ from CV cell, beginning with a positive potential 
+sweep.
+Supplementary Figure 5: Cyclic voltammogram of a cell with VGCF as conductive additive. This cell performed 
+a reversed potential sweep, with a first sweep to negative potentials (reductive region) and afterwards a positive 
+potential sweep. When the reductive sweep performed first, no peaks are visible in this area. The first peak is 
+always the oxidative peak seen in all CV cells first cycles. This peak form the educts of the later observed redox 
+pair.
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 6 页 ===
+S7. Cyclic voltammetry cell narrow potential window
+Starting from the OCV a first positive sweep was carried out to 3.68 V vs. In/InLi and the following 
+negative sweep stops at 1.98 V vs. In/InLi, corresponding to the upper and lower cut-off potential of an 
+ASSB (Supplementary Figure 6). The expected oxidative peak is present in the first cycle. Compared to 
+cyclic voltammograms with higher reversal potentials, the first oxidation is not finalized. Furthermore, 
+reduction peaks are absent, due to the high cut-off potential of the reductive sweep. For the second and 
+third cycle the oxidation is reoccurring. However, the quantity of reaction decreases, a saturation of 
+decomposition products at the SE/carbon interface can be assumed.
+Supplementary Figure 6: CV of a model cell with VGCF carbon additive. For the CV experiment, a potential 
+window of 3.68 V to 1.98 V vs. In/InLi is applied. This correlates to the potential window for an ASSB.
+S8. CV of SE with CNT carbon additive
+Supplementary Figure 7: CV spectra for a cell with CNT carbon additive. The high current in the first cycle 
+indicates strong decomposition reactions.
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 7 页 ===
+S9. First three charge and discharge curves of a full cell with VGCF additive
+Supplementary Figure 8: The first three charge and discharge curves of a cell with VGCF as the conductive 
+additive in the composite cathode (Li|LPS|NCM-622/LPS/VCGF). For the battery cycling, the potential limits 
+have been set to 4.3 V during charging and 2.6 V during discharging.
+S10. Onset for carbon additive induced oxidation in full cells
+Supplementary Figure 9: Onset of the initial oxidation decomposition reaction in the first charge step induced by 
+different carbon additives. A surface dependency for this onset is recognizable and is in agreement with the Onset 
+discussion for the CV cells, mentioned in the manuscript.
+S11. Simulation Framework
+The microstructure resolved simulation framework Battery and Electrochemistry Simulation Tool 
+(BEST) is based on a continuum model for lithium-ion batteries derived by Latz et al.5. The dynamic 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 8 页 ===
+evolution of the concentration and the potential in the simulated cell is described by a set of coupled 
+partial differential equations resulting from the conservation equations for mass, charge, momentum, 
+and energy. We continuously improved and modified the simulation framework to describe additional 
+interfacial and material transport effects in solid-state battery cells6,7. In our recent work, we investigated 
+the interface modification induced through SE delamination and the current-collector contact loss on the 
+battery performance. An in-depth analysis of the parametrization of the material system NCM-622 and 
+ß-LPS can be found in our recent work7. 
+S12. Mixture of electronic and ionic properties in SE phase (BEST)
+A prominent advantage of the microstructure resolved simulations is the ability to incorporate inherently 
+the morphological properties of the cathode composite, as for example particle size and electrode 
+tortuosity. The battery simulation studies are performed on virtually generated voxel-based electrodes, 
+which are based on common experimental microstructural parameters like electrode thickness and 
+particle size. Nevertheless, the growing interest in cell design optimization sets additional requirements 
+also for model development. Additives, such as conducting agents, are just nanometers in size and more 
+or less homogeneously dispersed in the cathode microstructure.8 To maintain numerically efficient 
+virtual electrode resolutions and simultaneously include the fine structural influences of the additive, we 
+extended the BEST framework.
+In Supplementary Table 2 the equations for the extended simulation framework implemented in our 
+framework BEST5 are summarized. 
+Supplementary Table 2: The constitutive equations of the Li-ion battery model used in this work. Indices are 
+defined as electrolyte= El, active material= So and carbon additive = CB.
+Phase
+Material balance
+Charge balance
+Electrolyte
+  (1a)
+∂𝜀El𝑐El
+∂𝑡
+= ― ∇⋅𝑁El
+ (1b)
+0 = ― ∇⋅𝑗eff,El
+ Carbon additive
+ (1c)
+0 = ― ∇⋅𝑗eff,CB
+Active material
+ (1d)
+∂𝑐So
+∂𝑡= ― ∇⋅𝑁So
+ (1e)
+0 = ― ∇⋅𝑗So
+Phase
+Lithium flux
+Charge flux
+Electrolyte
+ (1f)
+𝑁El =
+𝑗eff,El
+𝐹
+ (1g)
+𝑗eff,El = ― 𝜎eff∇ (𝜑 )
+ Carbon additive
+ (1h)
+𝑗eff,CB = ― 𝜅eff,CB∇ ΦSo
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 9 页 ===
+Active material
+ (1i)
+𝑁So = ― 𝐷So∇𝑐So
+ (1j)
+𝑗So = ― 𝜅So∇ ΦSo
+The new extended electrolyte model describes a homogenized electrolyte and conductive additive phase 
+that has an ionic, as well as electronic conductivity. In general, we solve the additional charge 
+conservation equation in the carbon additive phase to account for the electronic transport. The ionic 
+conductivity 
+ describes a property of the SE phase, while the electronic conductivity 
+ 
+𝜅ion
+bulk
+𝜅elec
+bulk 
+characterizes the additive. The effective transport parameters in the mixed-phase are given by:
+(2)
+(3)
+𝜅ion
+eff = 
+𝜀
+𝜏2𝜅ion
+bulk,
+𝜅elec
+eff = 
+𝜀
+𝜏2𝜅elec
+bulk,
+where  denotes the volume fraction and 
+ the tortuosity of the respective phases within the 
+𝜀
+𝜏2
+homogenized SE phase. In our simulations, we assume a homogeneous mixture of the SE with the 
+conductive additive. The morphology of the conductive networks is effectively taken into account by 
+their respective tortuosity which allows the incorporation of the effect of conductive additives without 
+the need for dissolving the additive at the microstructure level. 
+Reactions at the lithium interface as well as at the NCM-622 interface are parametrized via a Butler-
+Volmer type kinetic expressions.9 The corresponding parameters for the interface reactions are given in 
+the Supplementary Table 3. Through the finite porosity of the carbon additive phase  a passivation of 
+𝜀
+the active material surface is introduced, leading to a reduced interface reaction area.
+S13. Model parametrization BEST
+Supplementary Table 3 summarizes the parameters used for the battery cell simulation in BEST. The 
+estimation of the transport kinetics for NCM-622 and LPS is based on the deconvolution of 
+corresponding electrochemical impedance measurements of symmetric and full cells. A detailed 
+discussion can be found in literature.7 The general material parameters such as diffusion coefficients 
+and conductivity were either measured or taken from literature. The state-of-charge-dependent transport 
+correlations for NCM-622 are based on literature values extracted from Galvanostatic Intermittent 
+Titration Technique measurements on half-cells with liquid electrolyte. A summary of all correlations 
+is given in the work of Neumann et al.7. In this study, we additionally introduced conductive carbons 
+with an assumed bulk conductivity of 83 S·cm-1.
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 10 页 ===
+Supplementary Table 3: Simulation Parameters in BEST. Values are measured by the authors (superscript [ °]) or 
+calculated (superscript [*]). The chemical diffusion coefficient of lithium and the electronic conductivity of NCM-
+622 are functional parameters dependent on the SOC of the material. Their values are given for the initial 
+concentrations. All other parameters are constant during the simulations. If not indicated the references for the 
+used parameters are given in Neumann et al7.
+Parameter, Unit
+Description
+Value
+Electrolyte
+, mol·cm-³
+𝑐elyte,0
+Li
+concentration of Li ions in LPS *
+0.0103
+, S·cm-1
+𝜅elyte
+Li
+Li-ion conductivity °
+1.20 ⋅10 ―4
+𝑡+
+Li
+transference number of Li ions 
+1
+, cm²·s-1
+𝐷elyte
+Li
+Li-ion self-diffusion coefficient
+2.4 ⋅10 ―9
+𝑓elyte
+Li
+thermodynamic correction 
+factor*
+1.28
+LPS, µm
+electrolyte (separator) thickness 
+°
+425
+Conductive carbons
+, S·cm-1
+𝜅elyte
+electronic conductivity10
+83
+NCM-622
+, mol·cm-³
+𝑐NCM,0
+Li
+initial Li concentration *
+0.021
+, S·cm-1
+𝜅elyte
+electronic conductivity 
+Eq. S4.1
+, cm²·s-1
+𝐷NCM
+Li
+Li-ion chemical diffusion 
+coefficient
+Eq. S4.2
+, V
+𝑈NCM
+0
+open circuit potential
+Eq. S4.3
+𝛼NCM
+symmetry factor
+0.5
+, mol·cm-³
+𝑐NCM,𝑚𝑎𝑥
+Li
+maximum Li concentration *
+0.0519
+, A·cm-2·mol-1.5
+𝑖NCM
+00
+exchange current density factor 
+*
+4.98 ⋅10 ―4
+, F·cm-²
+𝐶NCM
+DL
+double layer capacity *
+8 ⋅10 ―7
+, µm
+𝐿NCM
+composite cathode thickness *
+40
+Li metal
+, S·cm-1
+𝜅anode
+electronic conductivity *
+10 ⋅102
+, V
+𝑈Li
+0
+open circuit potential
+0
+𝛼NCM
+symmetry factor
+0.5
+, A·cm-2
+𝑖NCM
+00
+exchange current density factor 
+*
+8.87 ⋅10 ―4
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 11 页 ===
+, F·cm-²
+𝐶Li
+DL
+double layer capacity *
+2 ⋅10 ―7
+S14. Effective conductivity calculation with GeoDict 
+Effective conductivity tensors ( ) of electronic and ionic networks of the virtual electrodes and 
+𝜅
+homogenized SE phase are calculated in Geodict11 using microstructure-resolved input data.
+      (5)
+𝜅= [
+𝜅xx
+𝜅𝑥𝑦
+𝜅xz
+𝜅yx
+𝜅yy
+𝜅yz
+𝜅zx 
+𝜅zy
+𝜅zz]
+The main diagonal elements define the effective conductivity in the main propagation axis 
+(x-, y- and z-direction). For the effective conductivity 
+estimation, we use the mean value of the 
+𝜅eff 
+diagonal elements. By calculating the porosity  based on the introduced solid volume fraction (SVF) 
+𝜀
+of the conductive additive and using a common notation for the description of effective transport 
+parameters 
+,       (6)
+𝜅eff = 
+𝜀
+𝜏2𝜅
+we can evaluate the tortuosity 
+ for each phase. Thereby, the conductivity value  represents the ionic 
+𝜏2
+𝜅
+(
+) or electronic (
+) bulk conductivity of the bulk SE and conductive additive, respectively.
+𝜅ion
+bulk
+𝜅elec
+bulk
+S15. Analysis of virtual reference electrode
+The presented electrode generation algorithm randomly distributes the NCM-622 particles in the 
+electrode volume of 
+ up to the desired 45 % SVF. The SVF is calculated based on 
+40x150x150 μm3
+material densities of NCM-622 and LPS, as well as the experimentally set mass ratio for the composite 
+cathode of 70:30. The secondary NCM-622 particles are approximated by ideal spheres. The particle 
+size is assumed to follow a gaussian distribution with particle diameter 
+. The standard 
+𝑑= 10 ± 3 μm
+deviation accounts for particle size reduction trough the initial manufacturing process as well as during 
+the mixing and further pressing of the cell for the electrochemical characterization. Supplementary 
+Figure 10 shows an exemplary electrode microstructure. The virtual sample contains isolated particles 
+shown in blue color, which are not electronically connected to the rest of the electrode depicted in red 
+color. 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 12 页 ===
+Supplementary Figure 10: Virtual electrode generated in GeoDict for the structure analysis and the 
+electrochemical simulation in BEST. Electronically connected particles are depicted in red colour and isolated 
+AM particles are given in blue colour.
+We use a random seed for the structure generation which leads to statistical deviations between each 
+generated structure. In order to quantify the potential statistical deviation, we created five structures with 
+the same composition. The generated electrodes were structurally analyzed regarding their particle 
+connectivity and effective conductivity, as well as their electrochemical performance, i.e. discharge 
+capacity. The results are given in Supplementary Table 4.
+Supplementary Table 4: Estimated isolated particle SVF, effective electronic conductivity, and simulated 
+discharge capacity for five equally generated electrodes in GeoDict. The calculated mean value for each column 
+is highlighted in yellow colour. The virtual electrode marked with [*] was selected as a representative for the 
+electrochemical simulation in BEST.
+Virtual Electrode 
+No.
+Isolated SVF / %
+Effective conductivity
+ / S·cm-1
+𝜅elec
+eff
+Discharge capacity / 
+mAh·g-1
+1
+9.0
+0.026
+100
+2*
+5.0
+0.031
+116
+3
+4.9
+0.040
+121
+4
+6.2
+0.023
+112
+5
+3.6
+0.029
+120
+Mean value
+5.74
+0.029
+113.8
+The calculated average isolated SVF is 5.74 % and the mean discharge capacity is 113.8 mAh/g. 
+Although we use the same generation method, we monitor significant fluctuations of isolated material 
+for the five electrodes. Moreover, we observe a change in the effective electronic conductivity of up to 
+50% between the electrode with the highest isolated SVF compared to the one with the lowest isolated 
+SVF. The relative change in effective conductivity is not proportional to the change in discharge capacity. 
+Even though the effective electronic conductivity provides a first approximation for the electrode 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 13 页 ===
+transport properties, several structural aspects are neglected which are captured by the discharge 
+simulation performed on the virtual electrode. These structural aspects are e.g. the inhomogeneous 
+particle clustering of the AM, the distribution of the isolated AM particles, and the electrode morphology 
+close to the current collector. All these influences together lead to the observed non-linear deviation 
+between the calculated effective electronic conductivity and the performed microstructure resolved 
+simulation. For a more rigorous study on this structural and interfacial effects, we refer to Neumann et 
+al.7.
+Nevertheless, the introduction of carbon additives improves the effective electronic conductivity of the 
+composite cathode and therefore increases the battery performance. Based on the calculated average 
+isolated SVF and the mean effective electronic conductivity value, we selected the virtual structure No. 2 
+(indicated by [*]) for the electrochemical data presented in the manuscript.
+S16. Effective electronic conductivity calculation cathodes with conductive 
+additive
+For the effective conductivity calculation, we select three electrodes from Supplementary Table 4 in 
+order to create high-resolution cutouts of each electrode. Thereby, the selected electrodes represent the 
+upper and the lower boundary for the isolated SVF deviation as well as the mean value. We chose a 
+cubic volume (
+) in the center of each sample and generate a high-resolution cutout 
+40x40x40 μm3
+(
+ voxel) with a voxel resolution of 31.25 nm. By selecting the center part of the 
+1280x1280x1280
+electrode, we reduce the influence of possible generation artifacts occurring atSVF the electrode 
+boundaries. 
+In the next step, the conductive additive is randomly distributed in the remaining pore space up to the 
+desired SVF based on the carbon additive mass content. In Supplementary Figure 11 the described 
+workflow for the structural analysis is schematically shown.
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 14 页 ===
+Supplementary Figure 11: Stepwise workflow for the structure analysis of the carbon additive. (1) cathode 
+structure generation. (2) Selection of symmetric cutout and creation of high-resolution cutout. (3) Introduction of 
+carbon additive and calculation of effective conductivity. We use only the introduced additive phase for the 
+calculation of the effective electronic conductivity 
+.
+𝜅𝑒𝑙𝑒𝑐
+𝑒𝑓𝑓
+For the granular additive Super C65, we select a convex polyhedron as a representative particle shape 
+with 93.75 nm diameter. The VGCFs are introduced with a diameter of 100 nm and a length distribution 
+of 
+ to approximate the product specifications given by the manufacturer. We do not account 
+25 ± 5 μm
+for fiber bending or specific surface clustering of the carbon additives, but we allow for additive overlap 
+and direct contact to the AM.
+For each high-resolution cutout, we vary the mass content of the additives from 0.5 - 6 wt-% and 
+calculate the effective conductivity matrix. We estimate the effective conductivity based on the mean 
+value of the diagonal elements as described in the section above.
+We summarize the relevant parameters for VGCF in Supplementary Table 5 and Super C65 in 
+Supplementary Table 6. Electrochemical simulations in the manuscript use the corresponding values 
+with 3 wt-% conductive additive content which is marked with [*].
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 15 页 ===
+Supplementary Table 5: Calculated parameters for VGCF with a mass density 
+: effective 
+𝜌𝑉𝐺𝐶𝐹= 1.9 𝑔∙𝑚𝑙―1
+electronic conductivity 
+, carbon additive SVF, tortuosity 
+ and porosity  in the solid electrolyte.
+𝜅𝑒𝑙𝑒𝑐
+𝑒𝑓𝑓
+𝜏2
+𝜀
+Mass content / 
+mg
+VGCF SVF 
+/ %
+Effective conductivity 
+ 
+𝜅elec
+eff
+/ S·cm-1
+Porosity in solid 
+electrolyte 𝜀
+Tortuosity 
+𝜏2
+0.5
+0.9
+0.00033
+0.016
+25.8
+0.75
+1.3
+0.0011
+0.023
+12.0
+1
+1.7
+0.0016
+0.031
+10.5
+2
+3.3
+0.0047
+0.061
+7.0
+3*
+4.9
+0.0081
+0.089
+6.0
+4
+6.4
+0.012
+0.12
+5.5
+5
+7.9
+0.016
+0.15
+4.8
+6
+9.3
+0.022
+0.17
+4.4
+Supplementary Table 6: Calculated parameters for C65 with a mass density 
+: effective 
+𝜌𝐶65 = 1.6 𝑔∙𝑚𝑙―1
+electronic conductivity 
+, carbon additive SVF, tortuosity 
+ and porosity  in the solid electrolyte. We excluded 
+𝜅𝑒𝑙𝑒𝑐
+𝑒𝑓𝑓
+𝜏2
+𝜀
+the 0.5, 0.75, and 6 wt-% since the calculations yield no meaningful results regarding the effective conductivity.
+Mass content / 
+mg
+C65 SVF 
+/ %
+Effective conductivity 
+ 
+𝜅elec
+eff
+/ S·cm-1
+Porosity in solid 
+electrolyte 𝜀
+Tortuosity 
+𝜏2
+1
+1.7
+0
+0.036
+∞
+2
+3.3
+0
+0.072
+∞
+3*
+4.9
+0
+0.11
+∞
+4
+6.4
+0
+0.14
+∞
+5
+7.9
+0
+0.17
+∞
+References:
+(1) 
+Liu, Z.; Fu, W.; Payzant, E. A.; Yu, X.; Wu, Z.; Dudney, N. J.; Kiggans, J.; Hong, K.; Rondinone, A. 
+J.; Liang, C. Anomalous High Ionic Conductivity of Nanoporous β-Li 3PS4. J. Am. Chem. Soc. 2013, 
+135 (3), 975–978. https://doi.org/10.1021/ja3110895.
+(2) 
+Zhu, Y.; He, X.; Mo, Y. Origin of Outstanding Stability in the Lithium Solid Electrolyte Materials: 
+Insights from Thermodynamic Analyses Based on First-Principles Calculations. ACS Appl. Mater. 
+Interfaces 2015, 7 (42), 23685–23693. https://doi.org/10.1021/acsami.5b07517.
+(3) 
+Santhosha, A. L.; Medenbach, L.; Buchheim, J. R.; Adelhelm, P. The Indium−Lithium Electrode in 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 16 页 ===
+Solid-State Lithium-Ion Batteries: Phase Formation, Redox Potentials, and Interface Stability. 
+Batter. Supercaps 2019, 2 (6), 524–529. https://doi.org/10.1002/batt.201800149.
+(4) 
+Schwietert, T. K.; Arszelewska, V. A.; Wang, C.; Yu, C.; Vasileiadis, A.; de Klerk, N. J. J.; Hageman, 
+J.; Hupfer, T.; Kerkamm, I.; Xu, Y.; van der Maas, E.; Kelder, E. M.; Ganapathy, S.; Wagemaker, 
+M. Clarifying the Relationship between Redox Activity and Electrochemical Stability in Solid 
+Electrolytes. Nat. Mater. 2020, 19 (4), 428–435. https://doi.org/10.1038/s41563-019-0576-0.
+(5) 
+Latz, A.; Zausch, J. Multiscale Modeling of Lithium Ion Batteries: Thermal Aspects. Beilstein J. 
+Nanotechnol. 2015, 6 (1), 987–1007. https://doi.org/10.3762/bjnano.6.102.
+(6) 
+Finsterbusch, M.; Danner, T.; Tsai, C. L.; Uhlenbruck, S.; Latz, A.; Guillon, O. High Capacity 
+Garnet-Based All-Solid-State Lithium Batteries: Fabrication and 3D-Microstructure Resolved 
+Modeling. 
+ACS 
+Appl. 
+Mater. 
+Interfaces 
+2018, 
+10 
+(26), 
+22329–22339. 
+https://doi.org/10.1021/acsami.8b06705.
+(7) 
+Neumann, A.; Randau, S.; Becker-Steinberger, K.; Danner, T.; Hein, S.; Ning, Z.; Marrow, J.; 
+Richter, F. H.; Janek, J.; Latz, A. Analysis of Interfacial Effects in All-Solid-State Batteries with 
+Thiophosphate Solid Electrolytes. ACS Appl. Mater. Interfaces 2020, 12 (8), 9277–9291. 
+https://doi.org/10.1021/acsami.9b21404.
+(8) 
+Hein, S.; Danner, T.; Westhoff, D.; Prifling, B.; Scurtu, R.; Kremer, L.; Hoffmann, A.; Hilger, A.; 
+Osenberg, M.; Manke, I.; Wohlfahrt-Mehrens, M.; Schmidt, V.; Latz, A. Influence of Conductive 
+Additives and Binder on the Impedance of Lithium-Ion Battery Electrodes: Effect of Morphology. 
+J. Electrochem. Soc. 2020, 167 (1), 013546. https://doi.org/10.1149/1945-7111/ab6b1d.
+(9) 
+Latz, A.; Zausch, J. Thermodynamic Derivation of a Butler-Volmer Model for Intercalation in Li-
+Ion 
+Batteries. 
+Electrochim. 
+Acta 
+2013, 
+110, 
+358–362. 
+https://doi.org/10.1016/j.electacta.2013.06.043.
+(10) 
+VGCFTM-H 
+| 
+Products 
+| 
+SHOWA 
+DENKO 
+K.K. 
+https://www.sdk.co.jp/english/products/126/132/2094.html (accessed Nov 16, 2020).
+(11) 
+GeoDict Startseite https://www.math2market.com/?Language=de (accessed Nov 16, 2020).
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​390277/​pdf/​cm0c04454_si_001/​ by TSINGHUA UNIV user on 18 October 2026

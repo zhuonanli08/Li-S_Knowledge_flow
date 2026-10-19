@@ -1,0 +1,896 @@
+=== 第 1 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+Available online 21 April 2024
+1385-8947/© 2024 Published by Elsevier B.V.
+Approaching high rate All-Solid-State Lithium-Sulfur batteries via 
+promoted sulfur conversion with nickel oxide nanoparticle electrocatalyst 
+Seok Hun Kang a,b,1, Won-Gwang Lim b,1, Liangliang Xu b, Donghyeok Son b, Young-Gi Lee a,*, 
+Jinwoo Lee b,* 
+a Materials and Components Research Division, Electronics and Telecommunications Research Institute (ETRI), 218 Gajeongno, Yuseong-gu, Daejeon 34129, Republic of 
+Korea 
+b Chemical and Biomolecular Engineering, Korea Advanced Institute of Science and Technology (KAIST), 291 Daehak-Ro, Yuseong-Gu, Daejeon 34141, Republic of 
+Korea  
+A B S T R A C T  
+All-solid-state lithium-sulfur battery (ASLSB) is deemed a promising next-generation energy storage device owing to its combination of high theoretical specific 
+energy (2600 Wh kg−1) derived from the sulfur active material, and exceptional safety characteristics and the ability to suppress the polysulfide shuttle effect through 
+the use of solid electrolyte (SE). However, the low electronic and ionic conductivity of sulfur, coupled with the poor solid–solid interfacial contact inherent in all- 
+solid-state configuration, has resulted in poor electrochemical performance. Herein, NiO electrocatalyst supported on N-doped sites of super-p was synthesized and 
+incorporated as a carbon additive in the composite cathode of the ASLSB. The direct growth of nanosized NiO electrocatalyst on the N-doped sites of super-p ensures 
+facile electron transfer to the electrocatalyst surface, while maximizing the electrocatalyst’s surface area. As a result, the overpotential during charging and dis­
+charging of the ASLSB was significantly reduced, as assessed through galvanostatic intermittent titration technique and cyclic voltammetry, indicating enhanced 
+redox conversion of sulfur. Furthermore, the Li6PS5Cl sulfide SE induces solid–solid conversion of sulfur, eliminating the dissolution issue of polysulfide intermediates 
+and ensuring good cycle performance. The assembled ASLSB exhibits a high reversible capacity of 1845 mAh g−1 at 0.05C at room temperature and enhanced rate 
+capability at high C-rates, operated at 60 ◦C. Even at a substantially high sulfur loading level of 6.65 mg cm−2, a maximum areal capacity of 9.48 mAh cm−2 was 
+achieved at room temperature, highlighting the important role of electrocatalyst in realizing high performance ASLSBs.   
+1. Introduction 
+Lithium-sulfur batteries (LSBs) have been extensively studied as one 
+of the most promising next-generation energy storage systems for a wide 
+range of applications that necessitate lightweight power sources, such as 
+portable electronics and unmanned aerial vehicles [1–3]. LSBs offer a 
+high theoretical energy density of 2600 Wh kg−1 which is five time 
+higher than that of conventional lithium-ion batteries (~500 Wh kg−1) 
+and benefit from low battery production cost arising from the natural 
+abundance of sulfur [4,5]. Despite their potential advantages, however, 
+the commercialization of LSBs is hindered by the rapid capacity decay 
+and poor Coulombic efficiency caused by polysulfide dissolution phe­
+nomenon in liquid phase ether-based electrolytes, and the safety con­
+cerns derived from high reactivity of Li metal [6–10]. 
+The implementation of sulfide solid electrolyte (SE) holds great 
+promise in addressing these challenges associated with liquid phase 
+electrolyte-based LSBs. Sulfide SEs induces a solid–solid conversion re­
+action from sulfur to lithium sulfide (Li2S), effectively mitigating the 
+concerns related to polysulfide dissolution [11–13]. Furthermore, SEs 
+contribute to enhanced safety in Li metal batteries due to their inherent 
+nonflammability and nonleakage characteristics [14–16]. Nevertheless, 
+employing SEs in all-solid-state LSBs (ASLSBs) presents a significant 
+challenge due to the high contact resistance arising from the solid–solid 
+interfacial contact between the active material and the electrolyte in 
+composite electrodes [17–19]. This issue is more severe in ASLSBs than 
+in other all-solid-state batteries (ASBs) due to the low electronic and 
+ionic conductivity of sulfur, which necessitates the formation of both 
+electronic and ionic conduction pathways [20]. More importantly, the 
+inhibition of polysulfide formation results in significantly lowered 
+mobility of active materials in ASLSBs, which results in kinetically 
+limited sulfur conversion reaction [5,13,21]. These challenging issues 
+lead to high polarization, poor sulfur utilization, and poor rate perfor­
+mance in ASLSBs. Therefore, developing strategies to accelerate the 
+kinetics of sulfur conversion reaction is crucial to approach high per­
+formance ASLSBs. 
+Fortunately, recent years have witnessed explosive advancements in 
+* Corresponding authors. 
+E-mail addresses: lyg@etri.re.kr (Y.-G. Lee), jwlee1@kaist.ac.kr (J. Lee).   
+1 These authors contributed equally to this work. 
+Contents lists available at ScienceDirect 
+Chemical Engineering Journal 
+journal homepage: www.elsevier.com/locate/cej 
+https://doi.org/10.1016/j.cej.2024.151489 
+Received 10 January 2024; Received in revised form 15 April 2024; Accepted 18 April 2024   
+
+=== 第 2 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+2
+cathode research within the research field of liquid phase electrolyte- 
+based LSBs. These endeavors have left clues that the incorporation of 
+electrocatalytic materials to amplify the sulfur conversion reaction 
+within the cathode, can lead to a marked enhancement in the overall cell 
+performance of LSBs [22–25]. However, despite the notable achieve­
+ments in LSBs to develop advanced electrocatalyst materials, such 
+research has been scarcely studied in the field of ASLSBs. Despite some 
+initial reports, studies on satisfactory electrocatalyst candidates and 
+optimized composite cathode design, capable of realizing high electro­
+chemical performance at high loading levels remain limited [26–29]. 
+Therefore, designing novel electrocatalysts materials which can promote 
+the sulfur conversion reaction at the interface of solid-state active ma­
+terials and electrolyte is highly required. 
+In this work, we investigated the performance of nickel oxide (NiO) 
+nanoparticle electrocatalyst supported on N-doped carbon host on the 
+reaction kinetics of ASLSBs. The uniform integration and robust 
+adsorption of nanosized NiO particles on N-doped sites of super-p en­
+sures high electronic conductivity and facile electron transfer to the 
+electrocatalyst surface. Moreover, the even dispersion of NiO nano­
+particles contributes to substantial electrocatalytic activity, despite the 
+modest amount (~7 wt%) of NiO incorporated in the composite cath­
+ode. The NiO electrocatalyst distinctly diminishes the overpotential of 
+the composite cathode, as demonstrated by various electrochemical 
+assessments. Consequently, the final ASLSB incorporating the NiO 
+electrocatalyst exhibits a remarkably high reversible capacity, even at a 
+notably high loading level, operated at room temperature. 
+2. Experimental Section 
+2.1. Synthesis of NiO@NSP 
+The NiO@NSP was prepared through soft nitriding of super-p (NSP) 
+followed by the incorporation of NiO nanoparticles. 1.2 g of super-p was 
+physically mixed with 1.8 g of urea by mortar grinding. The resulting 
+mixture was heat-treated at 150 ℃ for 2 h, followed by second heat 
+treatment at 300 ℃ for 2 h in a box furnace (heating rate: 5 ℃ min−1). 
+The heat-treated powder was then dispersed in a solvent mixture con­
+taining 200 mL of ethanol and 200 mL of deionized water to completely 
+remove any unreacted urea residual. After stirring for 2 h, the product 
+was collected by filtration and dried. Then, 100 mg of as-prepared sur­
+face-modified super-p was homogeneously dispersed in 80 mL of 
+dimethylformamide (DMF) by sonification and a 0.2 M of nickel acetate 
+tetrahydrate solution was prepared separately. 5 mL of nickel acetate 
+tetrahydrate solution was mixed with the prepared super-p solution. The 
+resulting mixture was stirred at 90 ℃ for 4 h. After cooling to room 
+temperature, the powder was collected by centrifugation with subse­
+quent washing with deionized water, followed by drying in an oven. The 
+final NiO@NSP product was obtained by heat treatment at 450 ℃ for 4 h 
+under an inert Ar atmosphere (heating rate: 2 ℃ min−1). 
+2.2. Preparation of composite cathodes 
+The composite cathodes were prepared by ball milling sulfur 
+(99.998 %, Sigma-Aldrich), super-p (or NiO@NSP), and Li6PS5Cl (LPSCl; 
+Jeong Kwan Display Corp.) with a mass ratio of 1:1:2, respectively. The 
+raw materials were enclosed in an air-tight zirconia pot in an argon- 
+filled glovebox (H2O < 1 ppm) before milling. Ball milling was per­
+formed using planetary micro mill (Pulverisette 7, Fritsch) at a rotating 
+speed of 500 rpm for 10 h. The ball-milled powder was sieved with a 
+mesh size of 32 μm before further use. 
+2.3. ASLSB cell assembly 
+Using a pressure cell mold, 150 mg of LPSCl powder was cold pressed 
+using a hydraulic uniaxial press at 440 Mpa. On one side of the cold 
+pressed LPSCl pellet, 12 mg of composite electrode powder 
+(corresponding to areal sulfur loading of 2.26 mg/cm2) was spread and 
+cold pressed at 440 Mpa. On the other side of the LPSCl pellet, Li foil 
+(300 μm, Honjo Metal Co.) with a diameter of 12 mm was attached. The 
+entire cell was subjected to constant stack pressure of 45 Mpa using a 
+pressure jig throughout the electrochemical measurements. All cells 
+were assembled in an argon-filled glovebox. 
+2.4. Material characterization 
+A transmission electron microscopy (TEM; G2 F30 S-Twin, Tencai) 
+and a scanning electron microscopy (SEM; S-4800 field emission, Hita­
+chi) analyses were used to characterize the size and morphology of the 
+as-prepared catalyst composite materials. High annular dark-field 
+scanning TEM (STEM) and high-resolution TEM (HR-TEM; Titan 
+cubed G2 60–300) analyses with energy dispersive spectrometry (EDS) 
+mapping were conducted for the in-depth characterization of as- 
+synthesized catalyst materials. X-ray diffraction (XRD) patterns were 
+collected using a RIGAKU D/MAX-2500 V X-ray diffractometer (Cu Kα 
+radiation, λ = 1.541 Å). Thermogravimetric analysis (TGA) results were 
+obtained under O2 atmosphere with a scan rate of 10 ◦C min−1. 
+2.5. Electrochemical measurements 
+Electrochemical impedance spectroscopy (EIS) was measured with a 
+potentiostat (SP-150e, BioLogic) with an amplitude of 10 mV and fre­
+quency range of 1 MHz to 50 mHz at room temperature. Galvanostatic 
+cycling tests were conducted using a cycle tester (Toyo System) in a 
+27 ◦C or 60 ◦C chamber in the potential range of 1.5 ~ 3.0 V. Constant 
+current (CC) mode was used for both charge and discharge. Galvano­
+static intermittent titration technique (GITT) was performed with cur­
+rent pulses corresponding to 0.05C for 30 min, followed by 4 h resting. 
+Cyclic voltammetry (CV) was measured between 1.5 to 3.0 V at a scan 
+rate of 0.03 mV s−1 in a 27 ◦C or 60 ◦C chamber. 
+2.6. Density function theory (DFT) calculation 
+Density functional theory (DFT) calculations were conducted with 
+the semi-local PBE (Perdew-Burke-Ernzerhof) [30] functional as 
+implemented in the Vienna ab Initio Simulation Package (VASP) [31]. 
+Spin-polarized calculations were also performed. By using a plane-wave 
+basis with a cutoff energy of 400 eV, the electrons of Ni(4 s,3d) was 
+treated as valence states with the Projector Augmented Wave method 
+(PAW) [32,33]. For Co, a value of U = 3.4 eV was used [34]. A vacuum 
+gap was set to be 15 Å, and the Brillouin zone was sampled with Gama- 
+centered 1x1x1 k-point meshes for surface calculations. All atoms were 
+relaxed with the implemented conjugate-gradient algorithm until the 
+convergence tolerance of Hellmann-Feynman forces and energy on each 
+atom was less than 0.05 eV/Å and 10-4 eV/atom, respectively. Also, the 
+van der Waals (vdW) interactions were described by the Grimme’s DFT- 
+D3 scheme with the application of dispersion correction [35,36]. 
+3. Results and discussion 
+When using SEs for sulfur-based cathodes, physical properties of the 
+electrocatalyst should be carefully considered to improve the overall 
+reaction kinetics of sulfur conversion. Firstly, the use of electrocatalysts 
+with small particle size and high surface-to-volume ratio is critical, as it 
+maximizes the contact area between active sulfur species and the elec­
+trocatalysts, thereby efficiently promoting the solid–solid phase con­
+version of sulfur in ASLSBs. Secondly, the direct growth of 
+electrocatalysts on electrically conductive agents is important in facili­
+tating electron transfer to the electrocatalyst’s surface while minimizing 
+the overall contact resistance of the composite cathode in ASLSBs. 
+In this regard, we synthesized NiO nanoparticles directly grown on 
+the surface of N-doped super-p (NSP) conductive carbon, hereafter 
+referred to as NiO@NSP (Fig. 1). To achieve uniform incorporation of 
+S. Hun Kang et al.                                                                                                                                                                                                                              
+
+=== 第 3 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+3
+NiO nanoparticles on the NSP surface, soft-nitriding method (i.e., ther­
+mal decomposition of urea) was used to generate N-containing species 
+on the super-p (SP) surface, which improves the affinity of the nickel 
+acetate precursor. The homogeneous introduction of NiO nanoparticles 
+onto the surface of NSP was performed by sol–gel reaction (see Experi­
+mental Section). 
+X-ray diffraction (XRD) analysis was conducted to characterize the 
+crystalline phase of the as-prepared NiO@NSP. As shown in Fig. 2a, the 
+broad peak observed at 25◦is primarily attributed to SP (Fig. S1), 
+indicative of its amorphous carbon nature. Other discernable peaks at 
+37◦, 43.2◦, 62.6◦, 75◦, and 79.2◦correspond well with (111), (200), 
+(220), (311), and (222) planes, respectively, which are representative 
+crystalline peaks of cubic phase NiO (No. 03–065-2901)[37]. The 
+average crystallite size, calculated using the Debye-Scherrer equation 
+based on these five peaks of NiO, is 3.2 nm, implying the formation of 
+crystalline NiO nanoparticles without significant agglomeration. 
+The homogeneous incorporation of NiO nanoparticles on NSP was 
+further verified through scanning electron microscopy (SEM) and 
+transmission electron microscopy (TEM) analyses. The SEM and TEM 
+images of NiO@NSP show ultrafine NiO nanoparticle electrocatalyst 
+well embedded on the NSP surface (Fig. 2b and c). This intimate contact 
+between NiO nanoparticles and electrically conductive NSP is crucial for 
+maximizing Li-S electrocatalysis in the cathode. Nanoparticles possess a 
+higher surface-to-volume ratio than larger particles, providing 
+numerous electrocatalytically active surfaces of NiO for the sulfur con­
+version reaction. Furthermore, the direct growth of NiO on NSP facili­
+tates electron transfer to NiO through conductive NSP, and this electron 
+pathway is well-maintained during the cycling due to their intimate 
+contacts. Conversely, physical mixing of NiO particles with NSP for 
+cathode composite design can lead to poor electron transfer to NiO, and 
+the large volume change of sulfur during charge–discharge can result in 
+the loss of contact points between NSP and NiO. High-angle annular 
+dark-field scanning TEM (HAADF-STEM) and corresponding energy 
+dispersive spectrometry (EDS) mapping images of NiO@NSP also 
+Fig. 1. Schematics of enhancing reaction kinetics of solid–solid sulfur conversion reaction by developing NiO@NSP electrocatalyst embedded cathode for high 
+performance ASLSBs. 
+Fig. 2. (a) XRD pattern of NiO@NSP. (b) SEM, (c) TEM, (d) HAADF-STEM, and EDS mapping images of NiO@NSP. (e) HR-TEM image of NiO@NSP. (f) XPS N 1 s and 
+Ni 2p spectra of SP and NiO@NSP. 
+S. Hun Kang et al.                                                                                                                                                                                                                              
+
+=== 第 4 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+4
+indicate homogeneous distribution of NiO nanoparticle and N func­
+tionalities on the SP surface (Fig. 2d). High-resolution TEM (HR-TEM) 
+image of NiO@NSP indicates that the particle size of the NiO electro­
+catalyst is ~ 16 nm. The observed particle size which exceeds the 
+crystallite size calculated from XRD indicates the polycrystalline nature 
+of the NiO electrocatalyst. Measured lattice fringes of 0.20 and 0.24 nm 
+correspond to (200) and (111) plane of the cubic phase NiO, respec­
+tively, consistent with the XRD results (Fig. 2e and Fig. S2). Moreover, 
+thermogravimetric analysis (TGA) result indicates that the total content 
+of the NiO nanoparticles in NiO@NSP is ~ 29 wt% (Fig. S3). 
+X-ray photoelectron spectroscopy (XPS) analysis was performed to 
+characterize the chemical states of NiO@NSP (Fig. 2f). In contrast to SP, 
+the XPS N 1 s spectrum of NiO@NSP displays the representative peaks of 
+N functionalities: pyridinic N, –NH/–NH2, and graphitic N at 398.9, 
+400.1, and 401.2 eV, respectively, providing corroborative evidence of 
+the N-doped carbon surface on NiO@NSP. Meanwhile, the Ni 2p XPS 
+spectrum of NiO@NSP shows the representative peaks of Ni2+ at 855.0 
+(Ni 2p3/2) and 872.8 (Ni 2p1/2) eV, as well as representative peaks of 
+Ni3+ at 856.9 (Ni 2p3/2) and 874.7 (Ni 2p1/2) eV, which is consistent 
+with previously reported XPS Ni 2p spectra of NiO particles [38–40]. 
+These series of analyses confirm that NiO nanoparticles were uniformly 
+distributed on the surface of NSP without significant agglomeration. We 
+believe that NiO@NSP holds great potential for commercialization for 
+the following reasons: i) its synthetic process is straightforward, 
+involving simple solution mixing followed by calcination, which aligns 
+closely with the general synthetic route used to fabricate commercial 
+battery electrodes, thereby facilitating large-scale production; ii) SP, 
+which was used as the carbon substrate, is already commercially 
+employed in the battery industry, indicating an existing and established 
+supply chain. 
+The synthesized NiO@NSP was incorporated into the composite 
+cathode by ball milling sulfur, NiO@NSP, and Li6PS5Cl (LPSCl) with a 
+mass ratio of 1:1:2, respectively. The obtained well-mixed composite 
+cathode after ball milling is presented in Fig. 3a. The LPSCl SE was 
+chosen for this study due to its high ionic conductivity of 3.1 mS cm−1, as 
+measured at 27 ◦C, and low activation energy of 0.18 eV, as calculated 
+from the electrochemical impedance spectroscopy (EIS) data in Fig. S4. 
+To distinguish the C signal of super-p from the background, EDS 
+measurement was conducted using Si wafer as the substrate. The EDS 
+mapping images of a composite particle display uniform dispersion of P, 
+S, and Cl signals originating from the SE composition and C signal 
+resulting from the super-p composition. Given the poor electronic and 
+ionic conductivity of sulfur, the uniform dispersion of both electronic 
+and ionic conductive materials is of utmost importance for ASLSBs. As 
+evidenced by the EDS mapping images, the well-dispersed composite 
+cathode indicates well-established electronic and ionic pathways and 
+intimate contact between different components of the cathode, which 
+will lead to high sulfur utilization during charge–discharge. The rela­
+tively small amount of electrocatalyst remaining in the composite 
+cathode led to the absence of Ni signal at this stage. The constant sulfur 
+content of ~25 % in the final composite was further confirmed by TGA 
+in Fig. 3b. The XRD pattern of the composite cathode revealed crystal 
+peaks corresponding to LPSCl SE and sulfur active material (Fig. S5). 
+Despite the evident presence of NiO crystal peaks in NiO@NSP (Fig. 2a), 
+NiO crystal peaks were not clearly detected in the XRD pattern of the 
+composite cathode. This can be attributed to two factors: i) the total 
+content of NiO in the composite cathode is considerably lower than that 
+of other cathode components (i.e., LPSCl and sulfur), and ii) the crystal 
+peaks of NiO nanoparticles are broader compared to those of highly 
+crystalline LPSCl and sulfur. 
+To investigate the electrochemical performances of ASLSB cells 
+employing NiO electrocatalyst, cells were fabricated with a composite 
+cathode featuring a sulfur loading level of 2.26 mg cm−2 and a Li anode 
+with a thickness of 300 μm. To provide a practical evaluation of our 
+system, all electrochemical evaluations were conducted at 27 ◦C except 
+for high rate test performed at 60 ◦C. Hereafter, cells assembled with 
+NiO@NSP will be referred to as “NiO@NSP cells,” while reference cells 
+assembled with pristine SP will be termed “SP cells.” SP cells were 
+assembled with an equivalent sulfur loading level of 2.26 mg cm−2 and 
+equivalent composition (i.e., S/SP/LPSCl = 1/1/2, w/w/w). 
+Prior to the charge–discharge test, electrochemical impedance (EIS) 
+analysis was performed at open-circuit voltage to assess the interfacial 
+resistance of the NiO@NSP and SP cells. The Nyquist plots of both 
+composite cathodes in Fig. 4a showed negligible difference, suggesting 
+that the interfacial stability between the NiO@NSP electrocatalyst and 
+other composite cathode components (i.e., sulfur and LPSCl) is 
+Fig. 3. (a) Scanning electron microscopy (SEM) and energy dispersive spectrometry (EDS) images of the composite cathode particle. (b) Thermogravimetric analysis 
+(TGA) of S/NiO@NSP/LPSCl composite cathode, super-p, and LPSCl. 
+S. Hun Kang et al.                                                                                                                                                                                                                              
+
+=== 第 5 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+5
+comparable to that of the reference sulfur composite (composed of sul­
+fur, LPSCl, and carbon additive). Therefore, it can be inferred that the 
+interfacial stability of the solid-state sulfur composite cathode is not 
+compromised by the incorporation of NiO@NSP nanoparticles. 
+For the charge–discharge tests, all cells were initially charged- 
+discharged at 0.05C for five cycles to activate the cells, followed by 
+cycling at higher C-rates. As illustrated in the voltage profiles of both 
+cells in Fig. S6, all profiles display a single plateau, signifying the 
+absence of liquid-phase polysulfide formation and solid–solid conver­
+sion of S to Li2S in our all-solid-state system. As shown in Fig. 4b, the NiO 
+cell consistently displays higher capacities at all C-rates compared to the 
+SP cell. This enhancement is attributed to the improved sulfur conver­
+sion reaction facilitated by the incorporation of the NiO electrocatalyst, 
+leading to higher sulfur utilization. The fifth discharge capacities at C- 
+rates of 0.05C, 0.1C, 0.2C, and 0.3C for the SP cell are 1601, 1502, 1329, 
+and 1175 mAh g−1, respectively. On the other hand, the fifth discharge 
+capacities at equivalent C-rates for the NiO@NSP cell are 1845, 1731, 
+1547, and 1386 mAh g−1, respectively. The reversible capacity sur­
+passing the theoretical capacity (1673 mAh g−1) of sulfur is attributed to 
+the partial capacity contribution of LPSCl due to its reversible electro­
+chemical reaction, as reported in the literature [41,42]. Arising from the 
+high sulfur utilization, however, tradeoff between capacity and cycle 
+stability was witnessed. As shown in Fig. 4b, NiO@NSP cell showed 
+slightly faster capacity decay than SP cell at 0.1C. We can infer that the 
+increased sulfur utilization ratio attained with the electrocatalytic effect 
+of NiO@NSP electrocatalysts results in more substantial volume 
+expansion during the lithiation of sulfur in the NiO@NSP cell, leading to 
+more severe mechanically induced contact loss between the active ma­
+terial and the conductive matrix, thereby accelerating the rate of ca­
+pacity decay [43]. Nevertheless, the NiO@NSP cell still exhibited 
+acceptable capacity retention, which will be discussed in detail later. 
+Due to the high sulfur loading in our cell configuration, char­
+ge–discharge performance at C-rates higher than 0.3C could not be 
+tested at 27 ◦C. This limitation is attributed to the critical current density 
+(CCD) of the LPSCl SE at the Li anode interface, as reported in the 
+literature [44–46]. To further investigate the advantageous effect of NiO 
+electrocatalyst within the sulfur composite, additional electrochemical 
+assessments were conducted at an elevated temperature of 60 ◦C. 
+The discharge capacities and corresponding coulombic efficiencies of 
+the SP and NiO@NSP cells at various C-rates, tested at 60 ◦C, are shown 
+in Fig. 4c. The elevated temperature of 60 ◦C allows for higher ionic 
+conductivity of 6.9 mS cm−1, permitting testing at C-rates as high as 1C 
+without compromising the CCD at the anode side. Unlike the trend 
+observed at 27 ◦C, at which both cells displayed different capacities at 
+the fifth cycle at 0.05C, both of the SP cell and NiO@NSP cell exhibited 
+similar capacities. The SP cell exhibited a discharge capacity of 1744 
+mAh g−1, while the NiO@NSP cell exhibited 1778 mAh g−1. We hy­
+pothesize that at the lower temperature of 27 ◦C, the limited ionic 
+conductivity of the SE becomes the primary limiting factor, and as a 
+result, the NiO electrocatalyst effectively enhances the rate performance 
+even at a low current of 0.05C. However, at 60 ◦C, the ionic conductivity 
+of the SE is significantly enhanced, rendering the electrocatalytic effect 
+of the NiO electrocatalyst negligible during cycling at a low current of 
+0.05C. Nonetheless, the catalytic effect becomes evident at higher C- 
+rates at 60 ◦C. The fifth discharge capacities at various C-rates of 0.1C, 
+0.3C, 0.5C, and 1C for the SP cell are 1676, 1538, 1380, and 1001 mAh 
+g−1, respectively. The corresponding capacity retentions in relation to 
+the discharge capacity at 0.05C are 96.1, 88.2, 79.1, and 57.4 %. On the 
+other hand, the fifth discharge capacities at the same C-rates for the 
+NiO@NSP cell are 1735, 1667, 1536, and 1237 mAh g−1, exhibiting 
+capacity retention of 97.5, 93.7, 86.4, and 69.6 %, respectively. Fig. 4d 
+provides a comparative assessment of the capacity retention of both 
+cathodes at higher C-rates. The enhanced rate capability resulting from 
+the utilization of the NiO electrocatalyst is also evident in the voltage 
+profiles presented in Fig. 4e and f. Notably, the overpotential between 
+the charge–discharge voltage profiles of the NiO@NSP cell is reduced 
+compared to that of the SP cell, resulting in higher capacities. 
+To comprehensively assess the influence of NiO@NSP’s physical 
+properties on the electrochemical performance of ASLSBs, we also 
+fabricated a solid-state sulfur composite cathode by blending commer­
+cial bulk NiO particles with SP carbon (bulk NiO + SP) in the same 
+weight ratio as NiO@NSP. The ASLSB cell incorporating bulk NiO + SP 
+exhibited initial discharge capacities of 1097 and 1306 mAh g−1 at 27 ◦C 
+and 60 ◦C, respectively, at 0.05C (Fig. S7), which are considerably lower 
+than those obtained for the NiO@NSP and SP cells (Fig. 4b and 4c). 
+Furthermore, regardless of the cell’s operating temperature, the bulk 
+NiO + SP cell experienced cell failure (i.e., zero capacity) at 0.1, 0.2, and 
+0.3C (Fig. S7a). These results indicate that the incorporation of bulk NiO 
+materials (without well-controlled nanostructures) into the solid-state 
+sulfur composite cathode is unfavorable for enhancing Li-S 
+Fig. 4. (a) Nyquist plots of SP and NiO@NSP cells at room temperature. Electrochemical performances of SP and NiO@NSP cells at (b) 27 ◦C and (c) 60 ◦C. (d) 
+Capacity retentions at high C-rates of cells tested at 60 ◦C. Charge-discharge profiles of (e) SP cell and (f) NiO@NSP cell at various C-rates tested at 60 ◦C. 
+S. Hun Kang et al.                                                                                                                                                                                                                              
+
+=== 第 6 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+6
+electrochemistry due to poor solid–solid contact, which can impede the 
+efficient electron and ion pathways at the cathode component interfaces, 
+despite the electrocatalytic effect of NiO. Hence, it underscores the 
+importance of employing NiO nanoparticles directly grown on the sur­
+face of NSP (NiO@NSP) to simultaneously accelerate Li-S electro­
+chemistry and facilitate electron and ion transfer at the interfaces. 
+To verify the enhanced redox kinetics of the composite cathode 
+incorporating NiO electrocatalyst, galvanostatic intermittent titration 
+technique (GITT) was conducted on both cells at 27 ◦C. The GITT ex­
+periments were initiated following the initial discharge process using 
+freshly assembled cells. As illustrated in Fig. 5a and b, the overpotential 
+observed during both the charge and discharge processes in the 
+NiO@NSP cell exhibits a notable reduction when compared to the SP 
+cell. For visual comparison, the overpotential was calculated as the 
+difference between the voltage during galvanostatic loading and the 
+quasi-open-circuit voltage (QOCV) after relaxation, as depicted in 
+Fig. 5c and d. Both cells initially exhibit a slight decrease in over­
+potential for both charge and discharge processes, most likely due to the 
+cell activation process associated with the redistribution of components 
+within the composite cathode, leading to lower charge transfer resis­
+tance [47,48]. Upon subsequent reaction, the overpotential increases for 
+both charge–discharge processes, attributed to complex factors 
+including the increase in internal resistance arising from the loss of 
+physical contact at the solid–solid interface upon further reaction and 
+resulting volume change, and change in diffusivity of Li within sulfur 
+particles upon (de)lithiation, as reported in the literature [49,50]. 
+Nonetheless, for both charge and discharge processes, the overpotential 
+of the SP cell increases at a relatively faster rate than that of the 
+NiO@NSP cell. This behavior can be attributed to the accelerated redox 
+reaction kinetics within the NiO@NSP cell, facilitated by the presence of 
+the NiO nanoparticle electrocatalyst. 
+The electrocatalytic effect of NiO was also evident in the cyclic 
+voltammetry (CV) analysis performed at both 27 ◦C and 60 ◦C with a 
+scan rate of 0.03 mV s−1, as depicted in Fig. 5e and f. The CV profiles of 
+NiO@NSP and SP cells show a distinctive cathodic peak (corresponding 
+to the reduction reaction of sulfur to Li2S) and anodic peak (corre­
+sponding to the oxidation reaction of Li2S to sulfur). This behavior 
+contrasts with that of liquid-phase electrolyte-based LSBs, which typi­
+cally exhibit two cathodic and anodic peaks. This observation corrobo­
+rates that formation of liquid-phase polysulfide intermediates is 
+suppressed in ASLSBs due to solid–solid conversion reaction. It is note­
+worthy that these two CV profiles exhibit a significant difference in 
+polarization. In the case of SP cell at 27 ◦C, the cathodic and anodic 
+peaks are positioned at 1.68 and 2.83 V, respectively, indicating a po­
+larization of 1.15 V. Conversely, the CV profile of NiO@NSP cell at 
+27 ◦C, show cathodic and anodic peaks at 1.68 and 2.68 V, respectively, 
+resulting in a reduced polarization of 1.00 V. The polarization measured 
+at 60 ◦C are reduced in both SP and NiO@NSP cells, relative to those 
+measured at 27 ◦C, due to the enhanced ionic conductivity of SE at 
+elevated temperature. Nonetheless, the polarization reduction from NiO 
+electrocatalyst is more distinct at 60 ◦C. The calculated polarization of 
+SP and NiO@NSP cell at 60 ◦C are 0.77 V and 0.53 V, respectively. The 
+notable decrease in overall polarization and the downshift of the anodic 
+potential observed in NiO@NSP cell corroborate that the NiO nano­
+particle electrocatalyst homogeneously incorporated on the surface of 
+NSP is favorable for accelerating the reaction kinetics of solid–solid 
+conversion in ASLSBs. 
+In order to gain insight into the origin behind the electrocatalytic 
+performance, density function theory (DFT) calculations were addi­
+tionally conducted. As illustrated in Fig. 6a, the conversion of S8 to Li2S 
+was investigated on three distinct surfaces: pristine carbon, NiO(200) 
+@NSP, and NiO(111)@NSP, to account for both (200) and (111) sur­
+faces of NiO as observed in HR-TEM analysis. The computed relative 
+energies of S8 and Li2S on the three surfaces were calculated relative to a 
+common baseline energy denoted as *, as plotted in Fig. 6b and detailed 
+in Table S1. Results indicate that from the initial adsorption of S8, both 
+NiO(200)@NSP and NiO(111)@NSP surfaces exhibit a stronger bind­
+ing energy for S8 compared to pristine carbon surface [51]. This 
+observation was further confirmed by crystal orbital Hamilton popula­
+tion (COHP) analysis in Fig. S8. The more negative integrated-COHP 
+Fig. 5. Galvanostatic intermittent titration technique (GITT) curves of (a) SP cell and (b) NiO@NSP cell at the first cycle tested at 27 ◦C. Current pulses corresponding 
+to 0.05C for 30 min were employed, followed by 4 h resting. Overpotential profiles of the cells from the GITT measurement for (c) charge and (d) discharge. Cyclic 
+voltammetry (CV) curve of SP cell and NiO@NSP cell at a scan rate of 0.03 mV s−1 tested at (e) 27 ◦C and (f) 60 ◦C. 
+S. Hun Kang et al.                                                                                                                                                                                                                              
+
+=== 第 7 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+7
+(ICOHP) values for NiO(200)@NSP (−0.225 eV) and NiO(111)@NSP 
+(−0.312 eV) compared to C (−0.048 eV) confirm a heightened affinity 
+with S8. Furthermore, the change in energy states from S8 to Li2S on NiO 
+(200)@NSP and NiO(111)@NSP surfaces are 1.57 and 2.66 eV, 
+respectively, which is greater than 0.35 eV on pristine carbon surface. 
+This implies that the conversion of S8 to Li2S is more thermodynamically 
+favorable on the NiO electrocatalyst surface, which is in good agreement 
+with the electrochemical evaluations conducted thus far [52]. 
+Benefiting from the improved reaction kinetics catalyzed by NiO, the 
+NSP@NiO cell, even with a notably high sulfur loading, demonstrated 
+exceptional performance, as depicted in Fig. 7. Even at a substantial 
+sulfur loading of 4.46 mg cm−2, the NiO@NSP cell exhibited a high 
+initial discharge capacity of 6.95 mAh cm−2. This equates to 93 % of the 
+theoretical capacity (7.48 mAh cm−2) at this loading level, signifying 
+high sulfur utilization. The cell demonstrated reasonable cyclability 
+concerning its high loading level of active material (4.46 mg cm−2), 
+exhibiting 4.61 mA h cm−2 and 2.73 mA h cm−2 of areal capacity even 
+after 100 and 200 cycles, respectively. As the sulfur loading was further 
+increased to 6.65 mg cm−2, the NiO@NSP cell displayed an astounding 
+discharge capacity of 8.96 mAh cm−2 in the initial cycle, which subse­
+quently increased to 9.48 mAh cm−2 after cell activation. It is worth 
+noting that such a high areal capacity greatly surpasses that achieved 
+using state-of-the-art layered cathode materials (~4 mAh cm−2) and is 
+among the highest reported values for ASLSBs reported to date (Table 1) 
+[53,54]. This exceptional areal capacity highlights the well-established 
+electronic and ionic conduction pathways and rapid redox kinetics 
+within the NiO@NSP cell synthesized in this study, highlighting the 
+substantial role of electrocatalyst in ASLSBs. However, the high utili­
+zation of the solid–solid phase sulfur conversion reaction led to limited 
+cycle stability in high sulfur loading ASLSBs with NiO nanoparticle 
+electrocatalyst. While the enhanced sulfur utilization facilitated by the 
+NiO electrocatalyst results in superior areal capacity, it also induces a 
+significant volume change of active species during cell cycling, which 
+deteriorates the stability of solid–solid contact within the cathode. 
+Fig. 6. DFT calculation results. (a) Diagrams for the adsorption of S8 and Li2S on pristine carbon, NiO(200)@NSP, and NiO(111)@NSP surfaces. (b) Corresponding 
+energy states. 
+Fig. 7. Initial charge/discharge profiles of NiO@NSP cells at high loading levels of (a) 4.46 mg cm−2 and (c) 6.65 mg cm−2 operated at room temperature and (b, d) 
+their corresponding cycle performance. 
+S. Hun Kang et al.                                                                                                                                                                                                                              
+
+=== 第 8 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+8
+Therefore, future research to mitigate these degradation issues (e.g., 
+designing functional binders) is highly required in the research field of 
+ASLSBs. 
+To examine the development of interfacial impedance in cells after 
+cycling, EIS was conducted before and after multiple charge–discharge 
+cycles. Fig. S9a-d displays the Nyquist plots of the SP and NiO@NSP cells 
+before and after the 5th and 16th cycles of charge–discharge at 27 ◦C and 
+60 ◦C. All cells underwent an initial charge–discharge at 0.05C for five 
+cycles, followed by cycling at 0.1C. The equivalent circuit model of the 
+ASLSB cells is depicted in Fig. S9e. Constant phase elements (CPEs) were 
+utilized to account for the non-ideal behavior of the electrodes, resulting 
+from their rough and/or porous surfaces. Rb corresponds to the bulk 
+resistance of the solid electrolyte and the current collector of the battery. 
+The high-frequency semicircle, characterized by Ran and CPEan in par­
+allel, corresponds to the resistance and capacitance related to the elec­
+trolyte/anode interface [28,62]. The mid-frequency semicircle, 
+characterized by Rct and CPEct in parallel, corresponds to the charge 
+transfer resistance within the cathode and the capacitance formed at the 
+cathode interface. Warburg impedance (W) corresponds to Li ion 
+diffusion in the battery. The fitted results of the Nyquist plots using the 
+equivalent circuit model are listed in Tables S2 and S3. 
+As demonstrated by the Nyquist plots and the fitting results, the Rct of 
+NiO@NSP cells is distinctively lower than that of SP cells at both 
+operating temperatures. Interestingly, the Rct of the SP cell cycled at 
+60 ◦C (996 Ω) was higher than that of the same cell cycled at 27 ◦C (94.3 
+Ω). We attribute this behavior to the larger volume change and internal 
+stress experienced by the cell due to higher sulfur utilization when 
+operated at 60 ◦C. Although the same degradation mechanism is ex­
+pected in the NiO@NSP cell, the Rct remains relatively lower in the 
+NiO@NSP cell even at 60 ◦C (65.4 Ω) due to the enhanced reaction ki­
+netics resulting from the introduction of electrocatalysts in the 
+NiO@NSP cell. A similar improvement in the Rct upon incorporating 
+NiO@NSP is observed in cells operated at 27 ◦C. The higher values of Ran 
+and Rct after the 5th cycle compared to those after the 16th cycle for 
+both cells operated at 27 ◦C may be attributed to improved interfacial 
+contact after slower activation during cycling at 27 ◦C 
+The evolution of the interface after cycling was further examined 
+using SEM by visualizing the morphology of the cells before and after 
+cycling. The cell used for this SEM analysis underwent 300 cycles of 
+charge–discharge before disassembly. As shown in Fig. S10a, the as- 
+assembled NiO@NSP cathode exhibits a rough surface morphology 
+similar to that of the SE pellet layer, when viewed from the cross- 
+sectional perspective. In contrast, after cycling, the composite cathode 
+displays a very smooth and dense morphology in Fig. S10b, indicating 
+improved homogeneity of the different components within the com­
+posite. After multiple cycles of lithiation/delithiation, the sulfur parti­
+cles are pulverized and more uniformly distributed, explaining the 
+initial increase in discharge capacity and decrease in impedance during 
+the initial activation cycles. From the top view, despite utilizing me­
+chanically ductile sulfide SE and pressing the composite cathode at a 
+high pressure of 440 Mpa, the existence of some voids within the com­
+posite cathode pellet is unavoidable (Fig. S10c). However, after multiple 
+cycling, the sulfur particles are pulverized from repeated lithiation/ 
+delithiation, resulting in a seamless interface as shown in Fig. S10d. 
+Moreover, even after 300 cycles of charge–discharge, no significant 
+cracks were observed in the NiO@NSP cathode and uniform dispersion 
+of different components within the composite cathode was maintained, 
+as confirmed by the EDS mapping images in Fig. S10e. 
+4. Conclusion 
+In conclusion, an ASLSB with a remarkable areal capacity was suc­
+cessfully demonstrated through the incorporation of NiO electrocatalyst 
+into the sulfur composite cathode. From galvanostatic intermittent 
+titration technique (GITT) analysis, it was evident that the NiO@NSP 
+cell exhibited a reduction in overpotential, for both charge and 
+discharge processes. This observation is a strong indicator of improved 
+sulfur conversion kinetics which was further validated through CV 
+analysis, as evident from earlier onset of redox peaks. The enhanced 
+electrochemical performance of the NiO@NSP cell translated into su­
+perior rate capability at elevated C-rates, when sufficient ionic con­
+ductivity of SE was achieved. Notably, the NiO@NSP cell exhibited 
+exceptional areal capacity, achieving an unprecedented 9.48 mAh cm−2 
+after cell activation at a high sulfur loading of 6.65 mg cm−2. This 
+achievement significantly surpasses the reported capacities for 
+contemporary layered cathode materials, emphasizing the potential of 
+this system for addressing the energy storage challenges of the future. 
+Furthermore, we believe that NiO@NSP functional materials have great 
+Table 1 
+Comparison of this work with other reported all-solid-state lithium sulfur batteries.  
+Composite cathode 
+Solid electrolyte 
+Anode 
+Active material 
+weight ratio (%) 
+Active material 
+loading level (mg/ 
+cm2) 
+Operatingtemp 
+(◦C) 
+Discharge cap 
+(mAh/g) 
+Areal D cap 
+(mAh/cm2) 
+Ref. 
+S/Li6PS5Cl/ 
+MoS2@CNT 
+Li6PS5Cl 
+Li-In 
+20 % 
+4 
+30 
+1600 
+6.4 
+[48] 
+S/LPB/KB 
+Li3PS4- 
+2LiBH4(LPB) 
+Li-In 
+60 % 
+2.0 ~ 3.0 
+60 
+1144.6 
+2.58 
+[47] 
+S/Li7P3S11/Co@AB 
+Li6PS5Cl 
+Li-In 
+40 % 
+1.5, 4.5 
+30, 60 
+1439 (RT) 
+5.13 (with 4.5 
+mg/cm2, 60 ◦C) 
+[28] 
+S/Li3PS4/KB 
+Li3PS4 
+Li-In 
+39 % 
+1.5, 4.5 
+60 
+1792.6 
+4.31 (with 4.5 
+mg/cm2, 60 ◦C) 
+[42] 
+S/VS2/Li3PS4 
+Li3PS4 
+Li-In 
+20 % 
+1.7 (S + VS2), 15.5 
+25 
+1444 
+7.8 (with 15.5 
+mg/cm2) 
+[55] 
+Li2S@AQT (Redox 
+mediator) 
+PEO/LiTFSI 
+Li 
+60 % 
+3.7 
+60 
+1133 
+2.3 
+[26] 
+Li2S@TiS2 core–shell 
+PEO/LiTFSI 
+Li 
+60 % 
+4 
+60 
+910 
+2.4 
+[56] 
+Li2S@C/Li7P3S11/AB 
+Li7P3S11 
+Li-In 
+38 % 
+7 
+RT, 60 
+1067 (RT) 
+7.46 (60 ◦C) 
+[57] 
+S/G/Super-p/Li7P3S11 
+Li7P3S11-PEO- 
+LiClO4 
+Li 
+25 % 
+2.0 
+RT 
+826 
+1.7 
+[58] 
+S/CNT/SE 
+70Li2S-30P2S5 
+Li-In 
+25 % 
+1.1 
+RT 
+1140.9 
+1.25 
+[59] 
+rGO@S-Li10GeP2S12- 
+AB 
+Li10GeP2S12 
+Li 
+12 % 
+0.4 ~ 0.5 
+60 
+1525.6 
+0.76 
+[60] 
+S-CR- 
+Li3.25Ge0.25P0.75S4 
+Li3.25Ge0.25P0.75S4 
+Li-Al 
+9 % 
+0.6 
+25 
+1500 
+0.86 
+[61] 
+S/Li6PS5Cl/SP 
+Li6PS5Cl 
+Li 
+25 % 
+2.26 
+27 
+1601 
+3.65 
+This 
+work 
+S/Li6PS5Cl/ 
+NiO@NSP 
+2.26, 6.65 
+1845, 1425 
+9.48 (with 6.65 
+mg/cm2, RT)  
+S. Hun Kang et al.                                                                                                                                                                                                                              
+
+=== 第 9 页 ===
+Chemical Engineering Journal 490 (2024) 151489
+9
+potential to be widely applied as electrocatalysts in other sulfur cathode- 
+based battery systems (e.g., Na-S and Zn-S batteries) to enhance the 
+intrinsic sluggish redox reactivity of metal-sulfur electrochemistry. 
+CRediT authorship contribution statement 
+Seok Hun Kang: Writing – review & editing, Writing – original draft, 
+Visualization, Validation, Methodology, Investigation, Formal analysis, 
+Conceptualization. Won-Gwang Lim: Writing – review & editing, 
+Writing – original draft, Visualization, Methodology, Investigation, 
+Formal analysis, Conceptualization. Liangliang Xu: Writing – review & 
+editing, Visualization, Investigation, Formal analysis. Donghyeok Son: 
+Investigation, Formal analysis. Young-Gi Lee: Supervision, Project 
+administration, Funding acquisition. Jinwoo Lee: Supervision, Project 
+administration, Funding acquisition. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgements 
+This work was supported by the Development Program of Core In­
+dustrial Technology (No.20012326) funded by the Ministry of Trade, 
+Industry & Energy (MOTIE, South Korea) and the National Research 
+Foundation (NRF, South Korea) (RS-2023-00235596). 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.cej.2024.151489. 
+References 
+[1] Z.W. Seh, Y. Sun, Q. Zhang, Y. Cui, Chemical Society Reviews 45 (2016) 
+5605–5634. 
+[2] L. Chen, L.L. Shaw, J. Power Sources 267 (2014) 770–783. 
+[3] A. Manthiram, S.-H. Chung, C. Zu, Adv. Mater. 27 (2015) 1980–2006. 
+[4] X. Ji, K.T. Lee, L.F. Nazar, Nat. Mater 8 (2009) 500–506. 
+[5] S.S. Zhang, J. Power Sources 231 (2013) 153–162. 
+[6] K.J. Kim, M. Balaish, M. Wadaguchi, L. Kong, J.L.M. Rupp, Adv. Energy Mater. 11 
+(2021) 2002689. 
+[7] S. Xia, X. Wu, Z. Zhang, Y. Cui, W. Liu, Chem 5 (2019) 753–785. 
+[8] D. Lei, K. Shi, H. Ye, Z. Wan, Y. Wang, L. Shen, B. Li, Q.-H. Yang, F. Kang, Y.-B. He, 
+Advanced Functional Materials 28 (2018) 1707570. 
+[9] A. Manthiram, Y. Fu, Y.-S. Su, Acc. Chem. Res. 46 (2013) 1125–1134. 
+[10] T. Liu, H. Hu, X. Ding, H. Yuan, C. Jin, J. Nai, Y. Liu, Y. Wang, Y. Wan, X. Tao, 
+Energy Storage Mater. 30 (2020) 346–366. 
+[11] M. Tatsumisago, A. Hayashi, International Journal of Applied Glass Science 5 
+(2014) 226–235. 
+[12] P. Bonnick, K. Niitani, M. Nose, K. Suto, T.S. Arthur, J. Muldoon, Journal of 
+Materials Chemistry A 7 (2019) 24173–24179. 
+[13] S. Bandyopadhyay, B. Nandan, Mater. Today, Energy 31 (2023) 101201. 
+[14] A. Hayashi, T. Ohtomo, F. Mizuno, K. Tadanaga, M. Tatsumisago, Electrochemistry 
+Communications 5 (2003) 701–705. 
+[15] W. Zhang, J. Nie, F. Li, Z.L. Wang, C. Sun, Nano Energy 45 (2018) 413–419. 
+[16] J. Han, M.J. Lee, K. Lee, Y.J. Lee, S.H. Kwon, J.H. Min, E. Lee, W. Lee, S.W. Lee, B. 
+J. Kim, Adv. Mater. 35 (2023) 2205194. 
+[17] Y. Xiao, Y. Wang, S.-H. Bo, J.C. Kim, L.J. Miara, G. Ceder, Nature Reviews 
+Materials 5 (2019) 105–126. 
+[18] L. Xu, S. Tang, Y. Cheng, K. Wang, J. Liang, C. Liu, Y.-C. Cao, F. Wei, L. Mai, Joule 2 
+(2018) 1991–2015. 
+[19] Z. Wu, X. Li, C. Zheng, Z. Fan, W. Zhang, H. Huang, Y. Gan, Y. Xia, X. He, X. Tao, 
+J. Zhang, Electrochemical Energy Reviews 6 (2023). 
+[20] L.-P. Hou, H. Yuan, C.-Z. Zhao, L. Xu, G.-L. Zhu, H.-X. Nan, X.-B. Cheng, Q.-B. Liu, 
+C.-X. He, J.-Q. Huang, Q. Zhang, Energy Storage Mater. 25 (2020) 436–442. 
+[21] L. Cheng, L.A. Curtiss, K.R. Zavadil, A.A. Gewirth, Y. Shao, K.G. Gallagher, ACS 
+Energy Lett. 1 (2016) 503–509. 
+[22] W.G. Lim, S. Kim, C. Jo, J. Lee, Angew. Chem. Int. Ed. 58 (2019) 18746–18757. 
+[23] S.Y. Yi, E. Choi, H.Y. Jang, S. Lee, J. Park, D. Choi, Y. Jang, H. Kang, S. Back, 
+S. Jang, J. Lee, Adv. Mater. (2023). 
+[24] Y. Li, Y. Zeng, Y. Chen, D. Luan, S. Gao, X.W. Lou, Angew. Chem. Int. Ed. 61 
+(2022). 
+[25] Q. Cheng, Z.X. Chen, X.Y. Li, C.X. Bi, F. Sun, X.Q. Zhang, X. Ma, B.Q. Li, J. 
+Q. Huang, Adv. Energy Mater. 13 (2023). 
+[26] X. Gao, X. Zheng, Y. Tsao, P. Zhang, X. Xiao, Y. Ye, J. Li, Y. Yang, R. Xu, Z. Bao, 
+Y. Cui, J. Am. Chem. Soc. 143 (2021) 18188–18195. 
+[27] X. Meng, Y. Liu, Y. Ma, Y. Boyjoo, J. Liu, J. Qiu, Z. Wang, Adv. Mater. 35 (2023) 
+2212039. 
+[28] H. Zhong, Y. Su, Y. Wu, J. Gu, R. Ma, Y. Luo, H. Lin, M. Tao, J. Chen, Z. Liang, 
+K. Wang, X. Zheng, Z. Chen, J. Peng, Z. Lv, Z. Gong, J. Huang, Y. Yang, Adv. Energy 
+Mater. 13 (2023). 
+[29] J. Gu, H. Zhong, Z. Chen, J. Shi, Z. Gong, Y. Yang, Chem. Eng. J. 454 (2023) 
+139923. 
+[30] J.P. Perdew, K. Burke, M. Ernzerhof, Phys. Rev. Lett. 77 (1996) 3865. 
+[31] G. Kresse, J. Furthmüller, Physical Review B 54 (1996) 11169. 
+[32] G. Kresse, D. Joubert, Physical Review b 59 (1999) 1758. 
+[33] O. Bengone, M. Alouani, P. Bl¨ochl, J. Hugel, Physical Review B 62 (2000) 16392. 
+[34] S. Lany, H. Raebiger, A. Zunger, Physical Review B 77 (2008) 241201. 
+[35] D.J. Chadi, Physical Review B 16 (1977) 1746. 
+[36] S. Grimme, J. Antony, S. Ehrlich, H. Krieg, The Journal of Chemical Physics 132 
+(2010). 
+[37] X. Yang, N. Yan, W. Zhou, H. Zhang, X. Li, H. Zhang, Journal of Materials 
+Chemistry A 3 (2015) 15314–15323. 
+[38] P.G. Lebi`ere, E. Gy¨orgy, C. Logofatu, D. Naumenko, H. Amenitsch, P. Rajak, 
+R. Ciancio, ´A. P´erez del Pino, Ceramics International 48 (2022) 15877–15888. 
+[39] M. Cheng, H. Fan, Y. Song, Y. Cui, R. Wang, Dalton Trans. 46 (2017) 9201–9209. 
+[40] R. Zhang, J. Bi, Y. Wang, N. Liu, Z. Liang, J. Wu, Z. Wang, X. Zhang, Y. Han, Appl. 
+Surf. Sci. 639 (2023) 158176. 
+[41] D.H.S. Tan, E.A. Wu, H. Nguyen, Z. Chen, M.A.T. Marple, J.-M. Doux, X. Wang, 
+H. Yang, A. Banerjee, Y.S. Meng, ACS Energy Lett. 4 (2019) 2418–2427. 
+[42] A.S. Alzahrani, M. Otaki, D. Wang, Y. Gao, T.S. Arthur, S. Liu, D. Wang, ACS 
+Energy Lett. 6 (2021) 413–418. 
+[43] S. Ohno, R. Koerver, G. Dewald, C. Rosenbach, P. Titscher, D. Steckermeier, 
+A. Kwade, J. Janek, W.G. Zeier, Chem. Mater. 31 (2019) 2930–2940. 
+[44] J. Kasemchainan, S. Zekoll, D. Spencer Jolly, Z. Ning, G.O. Hartley, J. Marrow, P. 
+G. Bruce, Nat. Mater 18 (2019) 1105–1111. 
+[45] C. Wu, B. Emley, L. Zhao, Y. Liang, Q. Ai, Z. Chen, F.C. Robles Hern´andez, F. Wang, 
+S. Risal, H. Guo, J. Lou, Y. Yao, Z. Fan, Nano Lett. 23 (2023) 4415–4422. 
+[46] L. Zhao, W. Li, C. Wu, Q. Ai, L. Guo, Z. Chen, J. Zheng, M. Anderson, H. Guo, 
+J. Lou, Y. Liang, Z. Fan, J. Zhu, Y. Yao, Adv. Energy Mater. 13 (2023). 
+[47] D. Wang, L.-J. Jhang, R. Kou, M. Liao, S. Zheng, H. Jiang, P. Shi, G.-X. Li, K. Meng, 
+D. Wang, Nat. Commun. 14 (2023). 
+[48] H. Kim, H.-N. Choi, J.-Y. Hwang, C.S. Yoon, Y.-K. Sun, ACS Energy Lett. 8 (2023) 
+3971–3979. 
+[49] J. Kim, W. Lee, J. Seok, E. Lee, W. Choi, H. Park, S. Yun, M. Kim, J. Lim, W.- 
+S. Yoon, Journal of Energy Chemistry 66 (2022) 226–236. 
+[50] Y. Wang, T. Liu, L. Estevez, J. Kumar, Energy Storage Mater. 27 (2020) 232–243. 
+[51] H. Liu, W. Pei, W.-H. Lai, Z. Yan, H. Yang, Y. Lei, Y.-X. Wang, Q. Gu, S. Zhou, 
+S. Chou, H.K. Liu, S.X. Dou, ACS Nano 14 (2020) 7259–7268. 
+[52] W. Cui, S. Yu, J. Zhao, Computational Materials Science 171 (2020) 109228. 
+[53] M. Eftekharnia, M. Hasanpoor, M. Forsyth, R. Kerr, P.C. Howlett, ACS Applied 
+Energy Materials 2 (2019) 6655–6663. 
+[54] P. Stehle, D. Vrankovic, M. Anjass, ECS Meeting Abstracts, MA2022-02 (2022) 
+2464. 
+[55] S. Xu, C.Y. Kwok, L. Zhou, Z. Zhang, I. Kochetkov, L.F. Nazar, Advanced Functional 
+Materials 31 (2021) 2004239. 
+[56] X. Gao, X. Zheng, J. Wang, Z. Zhang, X. Xiao, J. Wan, Y. Ye, L.-Y. Chou, H.K. Lee, 
+J. Wang, R.A. Vil´a, Y. Yang, P. Zhang, L.-W. Wang, Y. Cui, Nano Lett. 20 (2020) 
+5496–5503. 
+[57] H. Yan, H. Wang, D. Wang, X. Li, Z. Gong, Y. Yang, Nano Lett. 19 (2019) 
+3280–3287. 
+[58] X. Xu, G. Hou, X. Nie, Q. Ai, Y. Liu, J. Feng, L. Zhang, P. Si, S. Guo, L. Ci, J. Power 
+Sources 400 (2018) 212–217. 
+[59] Y. Zhang, T. Liu, Q. Zhang, X. Zhang, S. Wang, X. Wang, L. Li, L.-Z. Fan, C.-W. Nan, 
+Y. Shen, Journal of Materials Chemistry A 6 (2018) 23345–23356. 
+[60] X. Yao, N. Huang, F. Han, Q. Zhang, H. Wan, J.P. Mwizerwa, C. Wang, X. Xu, Adv. 
+Energy Mater. 7 (2017) 1602923. 
+[61] K. Suzuki, M. Tateishi, M. Nagao, Y. Imade, T. Yokoi, M. Hirayama, T. Tatsumi, 
+R. Kanno, J. Electrochem. Soc. 164 (2017) A6178–A6183. 
+[62] B. Fan, Z. Guan, H. Wang, L. Wu, W. Li, S. Zhang, B. Xue, Solid State Ion. 368 
+(2021) 115680. 
+S. Hun Kang et al.                                                                                                                                                                                                                              
+

@@ -1,0 +1,621 @@
+=== 第 1 页 ===
+Chinese Chemical Letters 37 (2026) 111110 
+Contents lists available at ScienceDirect 
+Chinese Chemical Letters 
+journal homepage: www.elsevier.com/locate/cclet 
+Constructing stable cathode by g-C3 N4 nanosheets for high-energy 
+all-solid-state lithium-sulfur batteries 
+Ying Li a , Ze-Chen Lv a , b , Peng-Fei Wang a , b , ∗, Jie Shu c , Ping He d , ∗, Ting-Feng Yi a , b , ∗
+a School of Materials Science and Engineering, Northeastern University, Shenyang 110819, China 
+b Key Laboratory of Dielectric and Electrolyte Functional Material Hebei Province, School of Resources and Materials, Northeastern University at 
+Qinhuangdao, Qinhuangdao 066004, China 
+c School of Materials Science and Chemical Engineering, Ningbo University, Ningbo 315211, China 
+d Center of Energy Storage Materials & Technology, College of Engineering and Applied Sciences, Jiangsu Key Laboratory of Artiﬁcial Functional Materials, 
+National Laboratory of Solid State Microstructures and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, 
+China 
+a r t i c l e 
+i n f o 
+Article history: 
+Received 3 January 2025 
+Revised 11 March 2025 
+Accepted 18 March 2025 
+Available online 18 March 2025 
+Keywords: 
+Polyethylene oxide 
+All-solid-state electrolyte 
+Lithium-sulfur battery 
+Adsorption and catalysis 
+Coulombic eﬃciency 
+a b s t r a c t 
+Poly(ethylene oxide)-based polymer all-solid-state lithium-sulfur batteries (ASSLSBs) have been a promi- 
+nent direction in new generation of energy storage devices due to their safety, low cost and high speciﬁc 
+energy. However, the performance degradation arising from the “shuttle effect” and poor ion transport 
+dynamics limit its further development. Herein, for the ﬁrst time, we introduce the concepts of adsorp- 
+tion and catalysis into polymer ASSLSBs. By combining S@KB with g-C3 N4 , the polysulﬁdes shuttling is 
+signiﬁcantly inhibited. Meanwhile, the kinetic process of the cathode is obviously improved, which is con- 
+ﬁrmed by in situ electrochemical impedance spectroscopy. The battery with g-C3 N4 can provide a high 
+reversible capacity 1078.5 mAh/g, and can be stabilized for 150 cycles with a ﬁnal Coulombic eﬃciency of 
+97.47 %, implying a superior electrochemical stability than previously reported. Furthermore, the intrinsic 
+mechanisms of adsorption and catalysis are intensively studied by means of XPS, DFT calculations, and 
+galvanostatic intermittent titration technique. Changes in electrode properties before and after cycling 
+have also been used to study battery stability. Overall, this work will open the door to the novel polymer 
+all-solid-state lithium-sulfur battery design for practical realization of high-energy batteries. 
+© 2026 Published by Elsevier B.V. on behalf of Chinese Chemical Society and Institute of Materia 
+Medica, Chinese Academy of Medical Sciences. 
+The ever-increasing requirement for high-energy-density bat- 
+tery of electric vehicles, portable devices and large-scale energy 
+storage grids has attracted a lot of attention beyond state-of- 
+the-art commercial lithium-ion battery system [ 1–3 ]. Solid-state 
+lithium-sulfur batteries [ 4 ], which occupy the dual advantages of 
+lithium-sulfur batteries (high capacity [ 5 ] and high speciﬁc energy 
+[ 6 ]) and solid-state batteries (high energy [ 7 , 8 ] and high safety 
+[ 9 ]), has been a prominent direction in a new generation of energy 
+storage devices. Regarding the selection of solid electrolyte, two 
+categories including inorganic and polymer are extensively stud- 
+ied [ 10 , 11 ]. Inorganic electrolyte owns high ionic conductivity, but 
+interface problems and high cost are the key factors restricting its 
+application [ 12 ]. By contrast, polymer-based solid-state electrolytes 
+offer advantages such as excellent processability, close electrode 
+contact, non-toxicity, and low cost [ 13 ], making them poised for 
+∗Corresponding authors. 
+E-mail addresses: wangpengfei@neuq.edu.cn (P.-F. Wang), pinghe@nju.edu.cn (P. 
+He), tfyihit@163.com (T.-F. Yi). 
+early commercialization. Of these, polyethylene oxide (PEO) stands 
+out as an electrolyte matrix with ether oxygen bonds as its main 
+chain, exhibiting good compatibility with sulfur cathodes [ 12 ]. PEO 
+also serves as an excellent Li+ complexing agent with strong Li+ 
+dissolution capabilities, thus demonstrating signiﬁcant potential for 
+various applications [ 14 ]. 
+Notwithstanding, PEO-based all-solid-state lithium-sulfur bat- 
+tery (ASSLSB) is beset by some key scientiﬁc questions. Firstly, be- 
+cause the reaction mechanism in the PEO-based electrolyte is sim- 
+ilar to the “dissolution and deposition” in the liquid electrolyte 
+[ 15 , 16 ], the battery exhibits a serious “shuttle effect”, which results 
+in low utilization of active substances and short cycling life. Sec- 
+ondly, on the anode side, the shuttling polysulﬁdes will react with 
+metal Li to form an unstable solid electrolyte interphase (SEI) ﬁlm 
+[ 17 ], leading to a continuous consumption of electrode materials. 
+Thirdly, the electrolyte does not possess suﬃcient ionic conductiv- 
+ity ( ∼10–6 S/cm) due to the highly crystalline of PEO (75 %−80 %) 
+at room temperature, resulting a lower battery capacity value [ 11 ]. 
+The nature of the ﬁrst two issues is caused by the “shuttle effect”, 
+https://doi.org/10.1016/j.cclet.2025.111110 
+1001-8417/© 2026 Published by Elsevier B.V. on behalf of Chinese Chemical Society and Institute of Materia Medica, Chinese Academy of Medical Sciences. 
+
+=== 第 2 页 ===
+Y. Li, Z.-C. Lv, P.-F. Wang et al. 
+Chinese Chemical Letters 37 (2026) 111110 
+and the third issue is due to the characteristics of the electrolyte 
+itself. Therefore, seeking a suitable way to solve the above issues is 
+the key to this battery system. 
+Employing ﬁllers to construct PEO-based polymer composite 
+solid electrolytes is a common approach [ 18 ]. The abundant func- 
+tional groups on the ﬁller surface can change the internal chemical 
+environment of the electrolyte, thus improving the ionic conductiv- 
+ity. Meanwhile, these ﬁllers can inhibit the shuttle of polysulﬁdes 
+by blocking effect. Lee et al. [ 19 ] incorporated nano TiO2 into PEO- 
+based electrolytes, where the Lewis acidic groups on the transition 
+metal oxide surfaces interacted with the Lewis basic units in PEO, 
+resulting in reduced crystallinity of PEO and enhanced ionic con- 
+ductivity [ 20 ]. Besides the above inert ﬁllers, there is also an active 
+ﬁller, which can decrease the crystallinity and further improve the 
+conductivity by conducting Li+ on its own. Tao et al. [ 21 ] utilized 
+garnet-type active Li7 La3 Zr2 O12 as a ﬁller, enabling the PEO-based 
+electrolyte to achieve an ionic conductivity of 1.1 × 10–4 S/cm at 
+40 °C. Moreover, lithium-sulfur batteries based on this electrolyte 
+provided a capacity exceeding 900 mAh/g at 37 °C. 
+Another common approach is to replace part of the functional 
+groups of the lithium salt LiN(CF3 SO2 )2 (LiTFSI), and then construct 
+a dense and stable SEI ﬁlm with high ionic conductivity to en- 
+hance the stability of the battery [ 22 ]. Eshetu et al. [ 23 ] utilized - 
+SO2 F substitution for -SO2 CF3 in LiTFSI and applied it in PEO-based 
+ASSLSBs. The SEI ﬁlm of this system consists of a balanced organic- 
+inorganic composition, which can prevent polysulﬁdes from react- 
+ing with the lithium metal anode, resulting in a high capacity of 
+1392 mAh/g. Zhang et al. [ 24 ] replaced one -F with -H in LiTFSI, 
+where the asymmetric structure and electrochemically unstable - 
+CF2 H easily decompose on the lithium surface, forming a dense 
+SEI containing the ion conductor LiH, inhibiting the reaction be- 
+tween polysulﬁdes and lithium, and to some extent enhancing the 
+ion conductivity. Thus, the battery can achieve a capacity of 1035 
+mAh/g. However, modifying the functional groups in lithium salts 
+primarily targets the “shuttle effect” of batteries, with limited en- 
+hancement in the ion conductivity of the electrolyte itself. 
+Indeed, besides the modiﬁcation of the electrolyte itself, the 
+ingenious design on the cathode side is equally critical but 
+scarcely reported in polymer-based solid-state lithium-sulfur bat- 
+teries. Herein, for the ﬁrst time, we introduce the concepts of ad- 
+sorption and catalysis into polymer ASSLSBs. By combining S@KB 
+with g-C3 N4 , the kinetic process of the positive electrode is ob- 
+viously improved. g-C3 N4 is a two-dimensional lamellar material 
+with strong covalent bonds between its conjugated layers [ 25 ], 
+which are connected by tertiary amines [ 26 ], so it has high chem- 
+ical and thermal stability. Moreover, lone pair electrons on the N 
+atoms can provide an active site [ 27 ], adsorb and catalyze the con- 
+version of polysulﬁdes. Finally, the “shuttle effect” is effectively 
+inhibited, and the dynamic process of the battery is greatly im- 
+proved, which makes up for the low ionic conductivity of the 
+polymer-based electrolyte to a certain extent. 
+Fig. 1 exhibits the preparation and related spectral characteri- 
+zation of electrode materials. Firstly, the speciﬁc preparation steps 
+of the electrode material, including the respective sintering and 
+physical mixing processes, was detailed in Supporting information. 
+Then a schematic diagram for the action mechanism of g-C3 N4 is 
+displayed ( Fig. 1 a), involving the adsorption and catalysis process. 
+The samples can be named S/KB and S/KB-CN1 (3 wt%), S/KB- ‍CN2 
+(5 wt%), S/KB-CN3 (8 wt%), in that order, depending on the amount 
+of added g-C3 N4 . The sulfur content was conﬁrmed to be 65 % for 
+S/KB- ‍CN2 by thermogravimetric test (Fig. S1 in Supporting infor- 
+mation). In order to deeply investigate the crystal structures of 
+S/KB, g-C3 N4 and S/KB-CN2, these materials were tested by X-ray 
+diffraction (XRD, Fig. 1 b). The diffraction peaks of the S/KB com- 
+posites correspond to the standard card (PDF #78–1889) and the 
+crystal structure is consistent with the rhombohedral structure of 
+Fig. 1. Preparation and related spectral characterization of materials. (a) The prepa- 
+ration process of electrode material (S/KB/g-C3 N4 , abbreviated as S/KB-CN) and its 
+action mechanism in battery. (b) XRD and (c) Raman spectra of S/KB, g-C3 N4 and 
+S/KB-CN2 materials. XPS spectra of (d) N 1s and (e) S 2p for S/KB-CN2 materials. 
+sulfur [ 28 ]. Subsequently, the Raman results ( Fig. 1 c) shows that 
+the ID / IG value of S/KB-CN2 (1.516) is greater than that of S/KB 
+(1.439), indicating that the defects of the material increased after 
+the introduction of g-C3 N4 . The increased defects are favorable for 
+the adsorption of polysulﬁdes, which improves the reactivity of the 
+electrode material. In addition, the characteristic peaks belonging 
+to g-C3 N4 clearly appear in the range of < 10 0 0 cm-1 , which fur- 
+ther conﬁrms that g-C3 N4 has been successfully complexed with 
+S/KB. 
+Next, the chemical properties of the S/KB-CN2 composites were 
+analyzed by XPS tests and the results are shown in Fig. S2 (Sup- 
+porting information) and Figs. 1 d and e. The XPS gross spectrum 
+(Fig. S2a) of the S/KB-CN2 conﬁrms the presence of the elements 
+sulfur (S 2p), carbon (C 1s) and nitrogen (N 1s) in the material, 
+which correspond to the different chemical states of these ele- 
+ments. Fig. S2b illustrates the high-resolution XPS pattern of C 1s 
+and its ﬁtting results. The peak of 283.8 eV can be ascribed to the 
+C-C of the indeterminate source carbon in KB. The XPS peak of 
+284.5 eV is related to the C-O bond, while the peak at 288.1 eV can 
+correspond to the N-C3 correlation formed by combining C atoms 
+and N atoms in the g-C3 N4 lattice, which is slightly shifted in peak 
+position compared to the g-C3 N4 XPS pattern. Then the XPS peaks 
+and the ﬁtting results in three ﬁne peaks of N 1s are shown in Fig. 
+1 d. The peak at 398.5 eV corresponds to the C-N = C bond, while 
+the peaks at 399.2 eV and 401.0 eV correspond to the N-C3 and 
+-NHx bonds, respectively. The S 2p peak ( Fig. 1 e) induced by spin- 
+orbit splitting splits into a double peak of S 2p1/2 at 164.4 eV and 
+S 2p3/2 at 163.3 eV, with an intensity ratio of about 2:1. The bind- 
+ing energy of S 2p3/2 (163.3 eV) is lower than that of elemental S 
+(164.0 eV), suggesting that the material suffers from the presence 
+of weak C-S bonds. In addition, a broad peak of very low intensity 
+exists near 167.1 eV because of the presence of partially oxidized 
+2 
+
+=== 第 3 页 ===
+Y. Li, Z.-C. Lv, P.-F. Wang et al. 
+Chinese Chemical Letters 37 (2026) 111110 
+Fig. 2. Surface morphology and element distribution of different samples. SEM images of (a) S/KB, (b) S/KB-CN2 and (c) g-C3 N4 . (d) The corresponding mapping images of 
+S/KB-CN2 sample. (e, f) TEM, (g) HRTEM, (h) Spacing value calculated from the corresponding phase proﬁle, and (i) SAED of S/KB-CN2. 
+forms of sulfur. The XPS results further indicate the full binding 
+and interaction of sulfur and g-C3 N4 . 
+Subsequently, Figs. 2 a-d show the SEM images of S/KB, S/KB- 
+CN2 and g-C3 N4 as well as the elemental distribution of S/KB-CN2. 
+The morphology of S/KB was found to be polymerized from pri- 
+mary particles with particle size of 40–50 nm ( Fig. 2 a). The S/KB- 
+CN2 sample in Fig. 2 b exhibits a similar microscopic morphology 
+to the S/KB electrode, which suggests that the addition of g-C3 N4 
+did not have an effect due to the smaller particle size of g-C3 N4 . 
+The morphology of g-C3 N4 in Fig. 2 c is lamellar with uniform dis- 
+tribution. The particles loosely combined with each other, and have 
+a large speciﬁc surface area, which can effectively adsorb poly- 
+sulﬁdes and facilitate the catalytic conversion of sulfur species. In 
+addition, Fig. 2 d illustrates the mapping of the S/KB-CN2 sample, 
+from which it can be seen that all elements, including sulfur, car- 
+bon, and nitrogen, are uniformly distributed in the S/KB-CN2. This 
+result veriﬁes that g-C3 N4 has successfully compounded with S/KB, 
+and this composite has a high degree of homogeneity and purity. 
+To further characterize the structure and morphology of the 
+material in depth, TEM and SAED of S/KB-CN2 were tested ( Figs. 
+2 e-i). The particle distribution in Fig. 2 e is relatively uniform with 
+a small amount of agglomeration. Some stacked particles can be 
+observed in Fig. 2 f, which are lamellar g-C3 N4 distributed among 
+them. Two lattice stripes of 0.337 nm and 0.385 nm can be clearly 
+seen in the S/KB-CN2 composite ( Fig. 2 g), which correspond to the 
+(002) crystal plane of g-C3 N4 and the (222) crystal plane of S, re- 
+spectively. The SAED plot in Fig. 2 i shows the diffraction rings of 
+S/KB-CN2, indicating that the composite is amorphous, which is 
+consistent with previous ﬁndings. Then the spacing values for the 
+phase proﬁle analysis of the corresponding crystal planes (313) and 
+(002) were calculated ( Fig. 2 h), which also corresponds to the XRD 
+crystalline of S and g-C3 N4 of the composite and indicates the suc- 
+cessful compounding of materials. 
+Fig. 3. Adsorbing ability of polysulﬁdes on g-C3 N4 . (a) Visual adsorption experi- 
+ment of different materials to polysulﬁdes. (b) XPS spectra of S 2p for the g-C3 N4 
+powder after soaked in polysulﬁde solution and then washed in the solvent repeat- 
+edly. (c) Adsorbing models of Li2 Sn ( n = 4, 6 and 8) on g-C3 N4 surface and (d) the 
+corresponding adsorbing energy based on DFT calculations. 
+To better show the inhibition of the shuttling phenomenon of 
+polysulﬁdes, characterization of the adsorption effect is important 
+( Fig. 3 ). First, a simple visual adsorption experiment was used to 
+directly observe the adsorption effect of g-C3 N4 on polysulﬁdes 
+( Fig. 3 a). After 24 h of adding KB and g-C3 N4 to the polysulﬁde so- 
+lution, it was observed that the polysulﬁde solution with g-C3 N4 
+was the lightest in color, indicating that g-C3 N4 successfully ad- 
+3 
+
+=== 第 4 页 ===
+Y. Li, Z.-C. Lv, P.-F. Wang et al. 
+Chinese Chemical Letters 37 (2026) 111110 
+sorbed the polysulﬁdes, which is conducive to the inhibition of the 
+“shuttle effect” in the reaction process of the battery. Then XPS 
+spectra of the g-C3 N4 powder after soaked in polysulﬁde solution 
+and then washed in the solvent repeatedly was detected to deter- 
+mine the adsorption mechanism. Fig. S3a (Supporting information) 
+shows the XPS full spectrum, which can be tested with S 2p, C 1s 
+and N 1s. Fig. S3b (Supporting information) displays the XPS spec- 
+trum of N 1s and the ﬁtting results, which are highly similar to 
+those at the time of as-tested samples, with peaks of 398.5, 399.2, 
+and 401.0 eV corresponding to the C-N = C, N-C3 , and -NHx bonds, 
+respectively. Then Fig. S3c (Supporting information) shows the XPS 
+spectrum of C 1s, which corresponds to the g-C3 N4 as is. Since 
+there is no effect from the KB carbon source, the C-C at 284.6 eV is 
+a result of the indeterminate source of carbon during the trans- 
+fer process. The peaks at 286.1 and 288.9 eV correspond to C-O 
+and C-N3 , respectively, which is consistent with that at the time of 
+testing described above. Fig. 3 b displays the XPS peaks and their 
+ﬁtting results for S 2p, which showed ﬁve ﬁne peaks. The peaks 
+at 168.4 eV and 166.3 eV correspond to S2 O3 2- /SO3 2- and R-SO2 - 
+R/SO4 2- , respectively, which are caused by oxidation of the sulfur 
+species during the transfer and washing of the samples [ 29 ]. The 
+three sub-peaks that appear in the low binding energy range in- 
+clude bridging sulfur (SB 0 ) in polysulﬁdes at 163.6 eV, terminal sul- 
+fur (ST 1- ) in polysulﬁdes at 162.8 eV, and sulfur anion (S2- ) in Li2 S 
+at 161.5 eV [ 30 ]. The above results further indicate the adsorption 
+of g-C3 N4 on polysulﬁde species. 
+In addition, to reveal the underlying mechanism of g-C3 N4 to 
+Li2 Sx ( x = 4, 6, 8), the ﬁrst principles calculations based on den- 
+sity functional theory (DFT) were performed. Calculations in Fig. 3 c 
+show that the adsorption of Li2 Sx on g-C3 N4 results in a signiﬁcant 
+decrease in the speciﬁc electron density around the Li2 Sx molecule 
+(blue region) and an enhancement of the electron density on the 
+g-C3 N4 substrate (green region). With the adsorption of polysul- 
+ﬁdes, the transfer of electrons from Li2 S4 , Li2 S6 , and Li2 S8 to g- 
+C3 N4 are 0.252, 0.233, and 0.390 e, respectively. This suggests that 
+the charge transfer between polysulﬁdes and g-C3 N4 is relatively 
+easy during the redox process, and the smaller interfacial charge 
+transfer resistance is favorable for the electrochemical properties of 
+the material. Besides, when Li2 Sx was adsorbed on the g-C3 N4 sur- 
+face, the Li element in the Lix Sy molecule showed a strong aﬃnity 
+with the double-coordinated N atoms in g-C3 N4 ( Fig. 3 d), which 
+made the Lix Sy molecule more easily anchored to the g-C3 N4 sur- 
+face [ 31 ]. The calculated adsorption energies of Li2 S4 , Li2 S6 , and 
+Li2 S8 on g-C3 N4 surface were −2.17, - ‍2.35, and - ‍2.32 eV, respec- 
+tively, suggesting that the strong interactions between g-C3 N4 and 
+polysulﬁdes contribute to the stabilization of the intermediates in 
+the redox process. Thus, the “shuttle effect” of the cathode mate- 
+rial is suppressed and the cycling stability of the cathode material 
+will be improved. 
+To test the actual working effect in the battery, the kinetic char- 
+acterization and the corresponding electrochemical performance of 
+different sam ples were collected ( Fig. 4 ). Then to explore the cat- 
+alytic activity of g-C3 N4 , cyclic voltammetry (CV) tests were per- 
+formed on the symmetric cells, while the carbon carrier KB in 
+the sulfur-carbon composite was similarly subjected to CV tests for 
+control. The corresponding cell structure is schematically shown in 
+Fig. 4 a. The symmetric cell consisted of an electrolyte containing 
+Li2 S6 and two identical g-C3 N4 /KB electrodes. Fig. 4 b demonstrates 
+the CV test results of KB and g-C3 N4 /KB symmetric cells. Two pairs 
+of redox peaks can be roughly seen in the CV curves of g-C3 N4 /KB 
+symmetric cell at ±0.46 and ±1.51 V, but the peaks are broad and 
+overlapped, which cannot be clearly differentiated. However, the 
+CV curves of KB symmetric cell do not show any obvious redox 
+peaks [ 32 ]. This suggests that compared to KB, g-C3 N4 can effec- 
+tively promote the conversion of polysulﬁdes. Fig. 4 c shows the CV 
+test used to investigate the redox process and electrochemical be- 
+havior of S/KB and S/KB-CN electrodes during the electrochemical 
+reaction. The redox curves obtained from all the samples tested are 
+highly similar, implying that the addition of g-C3 N4 does not af- 
+fect the electrochemical behavior of the original system of Li-S bat- 
+teries. There are two distinct reduction peaks at around 2.44 and 
+2.0 V in the CV curves, which correspond to the reduction of sul- 
+fur to soluble long-chain polysulﬁdes (Li2 Sx , 4 ≤x ≤8) and soluble 
+polysulﬁdes being further reduced to insoluble short-chain Li2 S2 
+and Li2 S, respectively. The two reverse oxidation peaks at 2.31 V 
+and 2.48 V show the opposite process, i.e ., the insoluble end prod- 
+ucts Li2 S2 and Li2 S are oxidized to sulfur. The potential difference 
+between the redox peaks of S/KB-CN2 is 0.305 V, which is much 
+smaller than that of the other samples (0.333 V for S/KB, 0.331 V for 
+S/KB-CN1, and 0.315 V for S/KB-CN3). This result suggests that the 
+catalytic activity of moderate amount of g-C3 N4 promotes the poly- 
+sulﬁde conversion process and reduces the cell polarization, but 
+too much catalyst affects the redox process. Moreover, the S/KB- 
+CN2 sample exhibited higher current density and larger redox peak 
+area than the other samples, which indicated that S/KB-CN2 had a 
+higher reversible capacity. 
+Then, to further study the effect of g-C3 N4 on the reaction ki- 
+netics of S/KB composites, electrochemical impedance spectroscopy 
+(EIS) tests were performed. Fig. 4 d shows the Nyquist plots of the 
+S/KB and S/KB-CN samples, and all the curves contain semicircu- 
+lar regions and inclined straight-line regions. The high-frequency 
+region presents a semicircle, and the two intercepts of the semicir- 
+cle with the coordinate axis correspond to the ohmic resistance of 
+the cell ( Rs ) and the charge transfer resistance between the elec- 
+trolyte and the electrodes ( Rct ), respectively. Fig. 4 e displays the 
+values of Rs and Rct resulting from the impedance spectrum based 
+on the equivalent circuit. The impedance of S/KB-CN2 ( Rs = 8.71 , 
+Rct = 61.3 ) is signiﬁcantly smaller than that of S/KB ( Rs = 26.9 
+, Rct = 115 ), S/KB-CN1 ( Rs = 8.84 , Rct = 76.7 ) and S/KB- ‍CN3 
+( Rs = 10.9 ‍ , Rct = 84.4 ), which indicates that the addition of ap- 
+propriate amount g-C3 N4 can signiﬁcantly reduce the charge trans- 
+fer resistance, promote the electron transfer at the interface and 
+improve its reaction kinetics of lithium-sulfur batteries, but too 
+much catalyst will likewise hinder the charge. In summary, S/KB- 
+CN2 showed the best electrochemical kinetic activity. Then Fig. 4 f 
+demonstrates the charge-discharge curves for four samples (1.5- 
+2.8 V, 1 C = 1600 mA/g). The shape of the curves for all the samples 
+remains highly consistent and all the discharge curves have two 
+plateaus. The ﬁrst plateau at the initial stage of discharge is located 
+at around 2.4 V, where S8 is gradually reduced to Li2 S4 , a process 
+known as solid-liquid conversion process. The second plateau in 
+the discharge curve is located at 2.1 V, which corresponds to the 
+conversion of Li2 S4 to insoluble Li2 S2 and Li2 S. Notably, the dis- 
+charge capacity corresponding to the second plateau with the addi- 
+tion of g-C3 N4 is signiﬁcantly higher than that of the original sam- 
+ple. This is mainly attributed to the fact that g-C3 N4 can adsorb 
+long-chain polysulﬁdes, which reduces the probability of polysul- 
+ﬁde shuttling to a certain extent. Meanwhile, g-C3 N4 catalyzes the 
+conversion of long-chain polysulﬁdes to short-chain, improves the 
+utilization rate of dissolved polysulﬁde ions, and reduces the irre- 
+versible loss of active substances. 
+Subsequently, a galvanostatic intermittent titration technique 
+(GITT) and rate performance was performed to further explore the 
+practical kinetic enhancement of lithium-sulfur battery. For the 
+GITT curves of the S/KB and S/KB-CN2 samples in Fig. S4 (Support- 
+ing information) and Fig. 4 g, the black curve is the voltage-time 
+curve, which is similar to the charging and discharging curves of 
+the batteries, but it is a stepwise rise and fall due to the differ- 
+ent test conditions. The GITT curves of the two samples were sim- 
+ilar, implying that the addition of g-C3 N4 did not affect the reac- 
+tion process of the cell, and the reaction mechanism of the cell 
+remained consistent. There are two discharge platforms at 2.4 V 
+4 
+
+=== 第 5 页 ===
+Y. Li, Z.-C. Lv, P.-F. Wang et al. 
+Chinese Chemical Letters 37 (2026) 111110 
+Fig. 4. Kinetic characterization and the corresponding electrochemical properties of different samples. (a) The schematic of a symmetric battery using two same electrodes 
+coated with g-C3 N4 and conversion of polysulﬁdes. (b) Cyclic voltammograms of symmetric batteries with the electrodes of KB and g-C3 N4 /KB. (c) CV curves of the S/KB and 
+S/KB-CN samples at 0.1 mV/s. (d) EIS results of the S/KB and S/KB-CN samples. (e) Fitting results of the S/KB and S/KB-CN samples and the corresponding equivalent circuit. 
+(f) Charge-discharge curves of the S/KB and S/KB-CN samples. (g) Galvanostatic intermittent titration technique of S/KB-CN2 sample. (h) Rate performance of the S/KB and 
+S/KB-CN samples. (i) Rate performance of Li–S batteries with PEO solid electrolyte. 
+and 2.0 V corresponding to the generation of long-chain polysul- 
+ﬁdes (Li2 Sx , 4 ≤x ≤8) and the transformation process to short- 
+chain Li2 S2 and Li2 S, respectively. The charging plateau, on the 
+other hand, corresponds to the oxidation process, where the dis- 
+charge end product is gradually oxidized to sulfur monomers, in 
+agreement with the CV curve. The longer discharge time of S/KB- 
+CN2 indicates that its discharge capacity is also higher. The red 
+curve shows the diffusion coeﬃcient as a function of time. Again, 
+during the discharge process, the D values of S/KB-CN2 ranged 
+from 3.16 × 10–16 to 1.58 × 10–11 , while those of S/KB ranged from 
+1.26 × 10–16 to 1.26 × 10–11 . Also, observation reveals that the D 
+of S/KB-CN2 is greater than that of the S/KB electrode at al- 
+most all voltages, which is the same as the previous results of 
+the electrochemical impedance. Hence, g-C3 N4 incorporation im- 
+proves the reaction kinetics and has a positive effect on the bat- 
+tery performance. Then the rate performance of S/KB and S/KB-CN 
+were tested ( Fig. 4 h). The speciﬁc capacity of all electrodes de- 
+creases gradually with the increase of current density, which can 
+be attributed to the polarization of the electrode materials at high 
+current density. The speciﬁc initial discharge capacities of S/KB, 
+S/KB-CN1, S/KB- ‍CN2 and S/KB-CN3 are 828.18, 985.91, 1124.45 and 
+945.74 mAh/g, respectively. The ﬁrst Coulomb eﬃciencies were 
+105.42 %, 104.01 %, 102.65 % and 102.27 %, respectively. The results 
+showed that the addition of g-C3 N4 could signiﬁcantly improve the 
+electrochemical performance of the battery. And the capacity of 
+the electrodes with g-C3 N4 was signiﬁcantly increased at all rates 
+compared to the unadded samples, indicating that the catalytic 
+conversion of g-C3 N4 improves the reaction kinetics of the lithium- 
+sulfur batteries. S/KB-CN2 exhibits the highest speciﬁc capacity at 
+0.1, 0.3, 0.5, and 1 C, but when the current density is too high, 
+the difference between S/KB-CN2 and S/KB- ‍CN1 and S/KB-CN3 is 
+not signiﬁcant, but there is still a large enhancement compared to 
+the original sample due to the limitation of the electron transfer 
+at high current densities. Taken together, the catalysis of g-C3 N4 
+facilitates the polysulﬁde conversion and thus improves the bat- 
+tery performance. Compared with previous studies [ 22–24 , 33–44 ], 
+S/KB-CN2 materials show signiﬁcantly improved rate performance 
+( Fig. 4 i). 
+To further elucidate the inﬂuence of g-C3 N4 on S/KB, in situ 
+EIS analyses were conducted on the S/KB-CN2 and S/KB samples. 
+As illustrated in Figs. 5 a and d, Figs. S5a and d (Supporting in- 
+formation), the S/KB-CN2 sample exhibited lower impedance and 
+more stable Li+ transport kinetics throughout the overall charge- 
+discharge process compared to S/KB. The distribution of relaxation 
+times (DRT) method was employed to visualize the results of the 
+in situ EIS tests. According to Figs. 5 b, c, e, and f, Figs. S5b, c, e and 
+f (Supporting information), the regions corresponding to τ < 1 and 
+τ > 1 are indicative of charge transfer reactions and Warburg dif- 
+fusion processes, respectively. The impedance value distribution at 
+different potentials correlates with the charge-discharge proﬁles of 
+the materials. This further demonstrates that S/KB-CN2 exhibits re- 
+duced impedance during the overall charge-discharge process, in- 
+dicating that the incorporation of g-C3 N4 signiﬁcantly enhances 
+the Li+ transport kinetics of the S/KB samples. 
+To verify the battery stability during cycling, the SEM and map- 
+ping images of S/KB and S/KB-CN2 samples before and after cy- 
+cling ( Figs. 6 a-h) and the corresponding battery cycle stability ( Fig. 
+6 i) were measured. Obviously, the microstructure of the S/KB elec- 
+trode showed signiﬁcant changes with electrode broken and hol- 
+low, which is due to the destruction of the branched structure of 
+KB during the cycling process. This structural change may reduce 
+the conductivity and sulfur storage capacity of electrode, thus af- 
+fecting the electrochemical property. In contrast, the microstruc- 
+ture of the S/KB-CN2 electrode appeared to be more intact with 
+no obvious breakage or cavities after cycling, which is because 
+the presence of g-C3 N4 can improve the structural stability of the 
+electrode material during cycling. Meanwhile, more uniform sul- 
+fur distribution on the S/KB-CN2 electrode was found by mapping 
+5 
+
+=== 第 6 页 ===
+Y. Li, Z.-C. Lv, P.-F. Wang et al. 
+Chinese Chemical Letters 37 (2026) 111110 
+Fig. 5. Kinetic analysis of S/KB-CN2 samples. In situ EIS and corresponding DRT transformation for S/KB-CN2 samples at (a-c) discharge and (d-f) charge. 
+Fig. 6. SEM and mapping images of S/KB and S/KB-CN2 samples before and after 
+cycling and the corresponding cycling stability. (a, b) S/KB before cycling, (c, d) S/KB 
+after cycling, (e, f) S/KB-CN2 before cycling, and (g, h) S/KB-CN2 after cycling. (i) 
+Cycling stability of S/KB and S/KB-CN2 samples. 
+plots. In addition, it can be found from Fig. S6 (Supporting infor- 
+mation) that the N element is evenly distributed before and after 
+the cycle. This further conﬁrms that g-C3 N4 has a good adsorp- 
+tion effect on polysulﬁdes and can maintain stability during the 
+cycle, which can help immobilize sulfur on the electrodes and pre- 
+vent it from leaching out of the electrodes, thus improving the cy- 
+cling stability. Then Fig. 6 i demonstrates the cycling performance 
+of S/KB with S/KB-CN samples at 0.5 C. The capacity is abnor- 
+mally high in the ﬁrst cycle because of the presence of side reac- 
+tions. From the second cycle, S/KB, S/KB-CN1, S/KB-CN2, and S/KB- 
+CN3 achieve discharge capacities of 619.8, 824.9, 887.9 and 867.4 
+mAh/g, respectively. After 150 cycles, the four samples can provide 
+discharge capacities of 377.1, 486.1, 582.2 and 489.7 mAh/g, respec- 
+tively, suggesting that the S/KB-CN2 possess the highest capacity 
+with the retention of 65.57 %, while the capacity retention rate of 
+S/KB is only 60.84 %. Besides, the Coulombic eﬃciency can be vi- 
+sualized as a “shuttle effect”. The S/KB has the worst result with 
+the Coulombic eﬃciency gradually decreasing from 30 cycles to a 
+minimum of 71.43 %, implying a severe overcharging phenomenon 
+arising from polysulﬁdes diffusion. The Coulombic eﬃciencies of 
+S/KB-CN1 and S/KB-CN3 were relatively stable, but gradually in- 
+creased to 88.03 % and 88.81 % after 150 cycles with a slight “shut- 
+tle effect”. The Coulombic eﬃciency of the S/KB-CN2 sample ﬁnally 
+reached 97.47 %, which was the best among the four samples. The 
+reason is that g-C3 N4 , as a catalyst, can effectively adsorb poly- 
+sulﬁdes on the cathode side, catalyze their transformation, accel- 
+erate the redox reaction, and inhibit the “shuttle effect”, whereas 
+the addition of too much catalyst reduces the ratio of the active 
+substance to the polysulﬁdes and prevents the diffusion of poly- 
+sulﬁdes, which reduces the speciﬁc capacity. The speciﬁc capacity 
+of S/KB-CN3 is lower than that of S/KB-CN2, which suggests that 
+5 wt% of g-C3 N4 is the optimal composite amount. Subsequently, 
+to further investigate the eﬃciency during the reaction process, 
+charge-discharge curves of S/KB and S/KB-CN samples at various 
+cycles of 0.5 C and different rates were exhibited (Fig. S7 in Sup- 
+porting information). Notably, the charging capacity is larger than 
+the discharging capacity in all samples except S/KB- ‍CN2 at 30 cy- 
+cles, and a “shuttle effect” occurs, while the capacity decay rate 
+starts to accelerate. The Coulombic eﬃciency of the S/KB-CN2 sam- 
+ple was around 100 % in the ﬁrst 100 cycles and only 2.6 % lower 
+after 150 cycles while being very stable. During different rates, the 
+curve trends were similar for each sample, with the plateau grad- 
+ually decreasing until disappearing near 2.2 V and decreasing near 
+2.0 V. The discharge capacities of the S/KB- ‍CN2 electrode at 0.1, 0.3, 
+0.5, 1, and 2 C were 1078.5, 959.6, 874.9, 701.1 and 393.0 mAh/g, 
+respectively. The S/KB-CN2 electrode was the highest at the same 
+current density, S/KB-CN2 electrodes all have the highest discharge 
+speciﬁc capacity at the same current density, while S/KB has the 
+lowest discharge capacity. It was further demonstrated that g-C3 N4 
+could improve the electrochemical performance. 
+In summary, this work proposed an innovative concept of ad- 
+sorption and catalysis into polymer ASSLSBs. The XRD, XPS, SEM 
+and TEM conﬁrms that g-C3 N4 has been successfully complexed 
+with S/KB with high integrity and purity. Simple and intuitive vi- 
+sualization experiments as well as calculations successfully demon- 
+strated that g-C3 N4 has strong adsorption properties for polysul- 
+ﬁdes. The redox peaks in the CV curves of the symmetric cell in- 
+dicates that g-C3 N4 has obvious electrocatalytic ability for polysul- 
+ﬁdes conversion, which can effectively promote the conversion of 
+soluble long-chain polysulﬁdes to the ﬁnal product. The g-C3 N4 ’s 
+adsorption and catalytic properties can effectively inhibit polysul- 
+ﬁde shuttling, improve sulfur utilization, and accelerate the ki- 
+netics of the cell reaction. In situ EIS test further veriﬁed that 
+g-C3 N4 enhanced the Li+ transport dynamics. Among the differ- 
+6 
+
+=== 第 7 页 ===
+Y. Li, Z.-C. Lv, P.-F. Wang et al. 
+Chinese Chemical Letters 37 (2026) 111110 
+ent ratios of g-C3 N4 , the S/KB-CN2 sample shows higher current 
+density, larger redox peak area and smaller charge transfer resis- 
+tance than the other samples, which suggests that S/KB-CN2 has a 
+larger reversible capacity and better dynamic properties than the 
+other materials. Finally, the S/KB-CN2 electrode had the highest 
+discharge capacity of at 1078.5 mAh/g (0.1 C), 959.6 mAh/g (0.3 
+C), 874.9 mAh/g (0.5 C), 701.1 mAh/g (1 C), and 393.0 mAh/g (2 
+C), respectively. The discharge capacity of the S/KB-CN2 sample 
+could achieve 582.2 mAh/g with a capacity retention of 65.6 % and 
+a Coulombic eﬃciency of 97.47 % after 150 cycles at 0.5 C, which 
+is the best performance of all samples. In addition, the average 
+Coulomb eﬃciencies of S/KB, S/KB-CN1, S/KB-CN2, and S/KB-CN3 
+were 73.69 %, 91.83 %, 98.72 %, and 93.11 % after 150 cycles, which 
+indicated that g-C3 N4 could accelerate the reaction kinetics and in- 
+hibit the “shuttle effect”. 
+Declaration of competing interest 
+The authors declare that they have no known competing ﬁnan- 
+cial interests or personal relationships that could have appeared to 
+inﬂuence the work reported in this paper. 
+CRediT authorship contribution statement 
+Ying Li: Writing – original draft, Methodology, Formal analysis. 
+Ze-Chen Lv: Writing – review & editing, Data curation. Peng-Fei 
+Wang: Writing – review & editing, Supervision, Project adminis- 
+tration. Jie Shu: Writing – review & editing, Supervision. Ping He: 
+Writing – review & editing, Supervision. Ting-Feng Yi: Writing –
+review & editing, Supervision, Project administration, Funding ac- 
+quisition. 
+Acknowledgments 
+This work was supported by the National Natural Science Foun- 
+dation of China (Nos. 22309027 and 52374301 ), the Natural Science 
+Foundation of Hebei Province (No. E2024501010 ), the Shijiazhuang 
+Basic Research Project (Nos. 241790 6 67A and 241790907A ), the 
+Fundamental Research Funds for the Central Universities (Nos. 
+N2423054 and N2423052 ), the Performance subsidy fund for Key 
+Laboratory of Dielectric and Electrolyte Functional Material Hebei 
+Province (No. 22567627H ). 
+Supplementary materials 
+Supplementary material associated with this article can be 
+found, in the online version, at doi:10.1016/j.cclet.2025.111110 . 
+References 
+[1] G. Zhu , X. Tian , H.C. Tai , et al. , Nature 596 (2021) 525–530 . 
+[2] C.Y. Wang , T. Liu , X.G. Yang , et al. , Nature 611 (2022) 4 85–4 90 . 
+[3] S.B. Yang , B. Wang , Q. Lv , et al. , Chin. Chem. Lett. 34 (2023) 107783 . 
+[4] J. Zhou , M.L. Holekevi Chandrappa , S. Tan , et al. , Nature 627 (2024) 301–305 . 
+[5] Y. Wang , H.X. Chen , F.D. Yu , et al. , Chin. Chem. Lett. 35 (2024) 109001 . 
+[6] S. Zhou , J. Shi , S. Liu , et al. , Nature 621 (2023) 75–81 . 
+[7] Y.C. Ji , K. Yang , M.Q. Liu , et al. , Adv. Funct. Mater. 31 (2021) 2104830 . 
+[8] H.H. Duan , L.P. Liao , R. Bi , et al. , J. Mater. Chem. A 11 (2023) 19046–19055 . 
+[9] H.H. Duan , J.H. Liu , J.F. He , et al. , J. Energy Chem. 98 (2024) 87–95 . 
+[10] L. Schweiger , K. Hogrefe , B. Gadermaier , et al. , J. Am. Chem. Soc. 144 (2022) 
+9597–9609 . 
+[11] P.F. Wang , X. He , Z.C. Lv , et al. , Adv. Funct. Mater. 33 (2023) 2211074 . 
+[12] D. Zhou , D. Shanmukaraj , A. Tkacheva , et al. , Chem 5 (2019) 2326–2352 . 
+[13] Q. Zhao , S. Stalin , C.Z. Zhao , et al. , Nat. Rev. Mater. 5 (2020) 229–252 . 
+[14] J. Yin , X. Xu , S. Jiang , et al. , Chem. Eng. J. 431 (2022) 133352 . 
+[15] D. Wang , L.J. Jhang , R. Kou , et al. , Nat. Commun. 14 (2023) 1895 . 
+[16] P.F. Wang , Y.H. Zhao , S.-H. Tian , et al. , Energy Fuels 37 (2023) 15198–15205 . 
+[17] H.H. Duan , L.S. Li , X.X. Fu , et al. , Chem. Eng. J. 450 (2022) 138208 . 
+[18] J. Li , F. Xie , W. Pang , et al. , Sci. Adv. 10 (2024) 3925 . 
+[19] F. Lee , M.C. Tsai , M.-H. Lin , et al. , J. Mater. Chem. A 5 (2017) 6708–6715 . 
+[20] F. Wu , K. Zhang , Y. Liu , et al. , Energy Storage Mater. 33 (2020) 26–54 . 
+[21] X. Tao , Y. Liu , W. Liu , et al. , Nano Lett. 17 (2017) 2967–2972 . 
+[22] H. Zhang , X. Judez , A. Santiago , et al. , Adv. Energy Mater. 9 (2019) 1900763 . 
+[23] G.G. Eshetu , X. Judez , C. Li , et al. , J. Am. Chem. Soc. 140 (2018) 9921–9933 . 
+[24] H. Zhang , U. Oteo , X. Judez , et al. , Joule 3 (2019) 1689–1702 . 
+[25] J. Wang , S. Wang , Coord. Chem. Rev. 453 (2022) 214338 . 
+[26] D. Yuan , Y. Dou , Z. Wu , et al. , Chem. Rev. 122 (2022) 957–999 . 
+[27] P.F. Wang , Y. Li , S.H. Tian , et al. , Energy Fuels 37 (2023) 15170–15178 . 
+[28] S. Zhang , N. Zhong , X. Zhou , et al. , Nano-Micro Lett. 12 (2020) 112 . 
+[29] Y. Wu , T. Momma , S. Ahn , et al. , J. Power Sources 366 (2017) 65–71 . 
+[30] Z. Jin , T. Lin , H. Jia , et al. , ACS Nano 15 (2021) 7318–7327 . 
+[31] Y. Sun , W. Huang , J. Li , et al. , AlChE J. 69 (2023) e17940 . 
+[32] B. Al Alwan , Z. Wang , W. Fawaz , et al. , Energies 15 (2022) 15217827 . 
+[33] X. Judez , H. Zhang , C. Li , et al. , J. Phys. Chem. Lett. 8 (2017) 1956–1960 . 
+[34] Y. Wang , S. Geng , G. Yan , et al. , J. Am. Chem. Soc. 5 (2022) 2495–2504 . 
+[35] C. Fan , W. Meng , J. Han , et al. , Energy Storage Mater. 71 (2024) 103554 . 
+[36] Y. Wang , G. Wang , P. He , et al. , Chem. Eng. J. 393 (2020) 124705 . 
+[37] A. Chatterjee , D. Ganguly , R. Sundara , et al. , Energy Technol 12 (2024) 2300576 . 
+[38] H. Cheng , C. Yan , L. Chang , et al. , ACS Appl. Energy Mater. 7 (2024) 3071–3081 . 
+[39] B. Hu , S. Han , J. Zhang , et al. , J. Colloid Interface Sci. 650 (2023) 203–210 . 
+[40] J. Sheng , Q. Zhang , C. Sun , et al. , Adv. Funct. Mater. 32 (2022) 2203272 . 
+[41] H. Duan , L. Liao , R. Bi , et al. , J. Mater. Chem. A 11 (2023) 19046–19055 . 
+[42] Z. Ao , H. Li , Y. Zou , et al. , Acta Mater. 270 (2024) 119880 . 
+[43] J.T. Lee , M.C. Lin , C.M. Leu , et al. , J. Mater. Chem. A 10 (2022) 12928–12937 . 
+[44] Z.C. Li , T.Y. Li , Y.R. Deng , et al. , Rare Met. 41 (2022) 2834–2843 . 
+7 

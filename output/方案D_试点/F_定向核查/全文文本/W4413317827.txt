@@ -1,0 +1,1190 @@
+=== 第 1 页 ===
+Article
+Electrochemistry, 93(9), 097003 (2025)
+Sulfur Reduction Pathways and Through-thickness Distribution in Positive Composite
+Electrodes of All-solid-state Li–S Batteries: Elucidation of Two-stage Discharge Plateaus
+Hiroshi NAGATA,a,*,§
+Satoshi YASUNO,b
+and Kunimitsu KATAOKAa,§
+a National Institute of Advanced Industrial Science and Technology (AIST), Central 5, 1-1-1 Higashi, Tsukuba, Ibaraki 305-8565, Japan
+b Japan Synchrotron Radiation Research Institute (JASRI), 1-1-1 Kouto, Sayo-cho, Sayo-gun, Hyogo 679-5198, Japan
+* Corresponding author: nagata.hiroshi@aist.go.jp
+ABSTRACT
+Sulfur
+positive
+electrodes
+in
+liquid-type
+lithium–sulfur
+(Li–S)
+batteries exhibit two discharge plateaus at approximately 2.4 and
+2.1 V (vs. Li). However, conventional sulfur composite electrodes in
+all-solid-state Li–S batteries typically do not display these two clear
+discharge plateaus. Furthermore, the reaction mechanisms in such
+frameworks remain poorly understood. In this study, the cause of
+these diﬀerences and reaction pathways were clariﬁed by examining
+the reaction progression and distribution through the electrode
+thickness using hard X-ray photoelectron spectroscopy, Raman
+spectroscopy, and incremental capacity analysis (ΔQ/ΔV). The results
+indicate that the reaction proceeds from neutral bridged sulfur to
+Li2S via lithium polysulﬁdes with Li-coordinated anionic sulfur, similar
+to liquid type ones. Furthermore, clear diﬀerences in the reaction
+progression
+across the
+electrode
+thickness
+are
+observed.
+In
+low-reactivity electrodes, the degree of reaction progress varies more signiﬁcantly across the thickness compared with that in highly
+reactive electrodes. This suggests that in low-reactivity sulfur composite electrodes, the two-plateau reactions proceed simultaneously
+throughout the discharge region. In contrast, high-reactivity electrodes show clear discharge plateaus, with regions in which only the
+second plateau reaction occurs. These insights will accelerate further understanding of the reaction for all-solid-state Li–S batteries.
+© The Author(s) 2025. Published by ECSJ. This is an open access article distributed under the terms of the Creative Commons Attribution 4.0 License (CC BY,
+https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse of the work in any medium provided the original work is properly cited. [DOI:
+10.5796/electrochemistry.25-00115].
+Keywords : Solid-state Battery, Lithium–sulfur Battery, Sulfur Reaction in Solid-state Battery
+1. Introduction
+All-solid-state lithium–sulfur (Li–S) batteries represent one of the
+most promising candidates for next-generation batteries character-
+ized by high energy density and enhanced safety. This improved
+performance is attributable to the use of sulfur as a positive
+electrode active material, which has a high theoretical capacity of
+1672 mAh g¹1, as well as inorganic solid electrolytes (SEs).1,2
+Compared with conventional Li–S batteries that use organic liquid
+electrolytes, all-solid-state Li–S batteries demonstrate considerably
+improved cycling performance as the dissolution of lithium
+polysulﬁdes into electrolyte is suppressed.3 Furthermore, higher
+energy densities can be expected by reducing the amount of
+electrolyte in the positive electrode to lower the SE/S ratio.4
+However, the reaction area and carrier transfer paths in solid-state
+batteries are more limited than those in conventional liquid-type
+batteries owing to reduced contact between particles. Thus, their
+charge–discharge reactivity is lower than that of conventional liquid-
+type Li–S batteries. Notably, liquid-type Li–S batteries clearly
+exhibit two-stage discharge plateaus: the ﬁrst plateau at approx-
+imately 2.4 V (vs. Li), corresponding to reactions such as S8 ¼
+Li2S8, Li2S8 ¼ Li2S6, Li2S6, and Li2S8 ¼ Li2S4; and the second
+plateau at approximately 2.1 V (vs. Li), pertaining to reactions like
+Li2S4 ¼ Li2S2 and Li2S2 ¼ Li2S.5,6 In contrast, most solid-state Li–
+S batteries do not exhibit these two-stage discharge plateaus and
+show lower rate performance owing to their higher resistances.7,8
+Furthermore, the reaction mechanisms of sulfur composite elec-
+trodes in all-solid-state batteries remain poorly understood caused by
+diﬃculties of identiﬁed reaction intermediates.9–11 In the Raman
+spectroscopy and X-ray absorption spectroscopy analyses, the peaks
+of the reaction intermediates overlapped with those of sulfur and
+sulﬁde solid electrolytes, making it diﬃcult to unambiguously
+conﬁrm their presence. Moreover, sulfur undergoes signiﬁcant
+volume changes during charging and discharging, necessitating its
+continuous conﬁnement to prevent electrode breakdown.12 This
+renders
+in situ
+observations
+of
+the
+charge–discharge process
+challenging. Therefore, clariﬁcation of the reaction pathways and
+mechanisms in sulfur positive composite electrodes in all-solid-state
+batteries remains a crucial research challenge.
+Prior
+studies
+have
+demonstrated
+improvements
+in
+sulfur
+reactivity in all-solid-state Li–S batteries by using high P/S ratio
+SEs and high-speciﬁc-surface-area carbon in the positive composite
+electrodes, which resulted in slight multi-step discharge plateaus.13–15
+In this study, we clarify part of the discharge reaction mechanism
+and the eﬀect of improved sulfur reactivity on the electrode reaction
+by analyzing the reaction distribution across the electrode cross-
+section using Raman spectroscopy, synchrotron hard X-ray photo-
+§ECSJ Active Member
+H. Nagata
+orcid.org/0000-0002-0390-6102
+S. Yasuno
+orcid.org/0000-0002-7832-0608
+K. Kataoka
+orcid.org/0000-0001-5322-3011
+Electrochemistry
+The Electrochemical Society of Japan
+https://doi.org/10.5796/electrochemistry.25-00115
+https://doi.org/10.50892/data.electrochemistry.29939255
+Received: July 15, 2025
+Accepted: August 18, 2025
+Published online: August 20, 2025
+Issued: September 17, 2025
+1
+
+=== 第 2 页 ===
+electron spectroscopy (HAXPES), and incremental capacity analysis
+(¦Q/¦V). Electrodes at diﬀerent discharged states were extracted,
+and the progress of the electrode reaction across the thickness
+direction was evaluated by analyzing the chemical state of sulfur
+in the cross-sections. One of the main reasons for diﬃculties of
+identifying intermediates is that change in sulfur during the charge–
+discharge process overlapped with sulﬁde SEs for many analyses.
+Thus, an SE whose composition did not overlap with the S 1s
+HAXPES spectrum of sulfur or its discharge products was used in
+this study to clarify changes in the chemical state of sulfur and its
+distribution in the thickness direction of the electrode. By employing
+an SE without spectral overlap, the changes in sulfur during charge–
+discharge cycling can be fully veriﬁed. The S 1s HAXPES spectra
+revealed that the reaction proceeded from neutral bridged sulfur to
+Li-coordinated anionic sulfur and Li2S and a diﬀerence in the degree
+of reaction progress across the electrode thickness. Furthermore,
+signiﬁcant diﬀerences of reaction progress on the thickness direction
+were observed depending on the sulfur reactivity of the electrode.
+The presence of a constant voltage plateau during the later stages of
+discharge in the high-reactivity sulfur electrode was clariﬁed to
+result from the exclusive progression of the second plateau reaction
+within this region. The ﬁndings from the analyses conducted solely
+on the sulfur redox reaction, together with thickness-direction
+analysis, oﬀer signiﬁcant advances in our understanding of sulfur
+reactions in solid-state batteries.
+2. Experimental
+Reagent-grade sulfur (Sigma Aldrich, 99.5 %), Li2S (Mitsuwa
+Chemical, 99.9 %), P2S5 (Sigma Aldrich, 99 %), Li2SO4 (Sigma
+Aldrich, 99.99 %), Li2CO3 (Rare Metallic Corp., 99.99 %), LiBr
+(Sigma Aldrich, 99.999 %), activated carbon (AC, MSC-30, Kansai
+Coke and Chemicals Co., Ltd.), and ketjenblack (KB, EC-600JD,
+Lion Co.) were used as the starting materials. The sulfur reagent was
+puriﬁed by sublimation. Li2SO4 and Li2CO3 were dried under
+vacuum at 300 °C for 12 h. All process were carried out in an Ar
+atmosphere or in a sealed vessel ﬁlled with Ar. The SEs and positive
+composite electrodes were prepared by mechanical milling using a
+planetary ball mill apparatus (Premium Line P-7, Fritsch Co.).
+Li1.5PS3.3 (60Li2S–40P2S5) and Li4.0PS4.5 (80Li2S–20P2S5), as
+the SEs for positive composite electrodes, were prepared by
+mechanical milling at 500 rpm for 10 h with ZrO2 balls (ball
+diameter 4 mm; total mass 160 g) in a ZrO2 pot, using reagents with
+Li2S : P2S5 molar ratios of 60 : 40 and 80 : 20 (ionic conductivities
+of 0.027 and 0.42 mS cm¹1 at 25 °C), respectively, following a
+previously reported procedure.13,14 A reference SE (0.45Li2SO4–
+0.30Li2CO3–0.25LiBr,
+LSCB)
+with
+an
+ionic
+conductivity
+of
+3.6 µS cm¹1 at 25 °C was prepared by mechanical milling at
+370 rpm for 60 h with ZrO2 balls (ball diameter 5 mm; total mass
+120 g) in a ZrO2 pot, using reagents with molar ratios of
+Li2SO4 : Li2CO3 : LiBr = 45 : 30 : 25, following a prior study.16
+Positive composite electrodes were prepared by mechanical milling
+at 370 rpm for 2 h with ZrO2 balls (ball diameter 5 mm; total mass
+40 g) in a ZrO2 pot, using reagents with weight ratios of S : SE : AC
+or KB = 50 : 40 : 10, following a previous report.13,14 The compo-
+site electrodes fabricated with Li1.5PS3.3 + AC and Li4.0PS4.5 + KB
+were
+labeled
+H-r
+electrode
+and
+L-r
+electrode,
+respectively,
+representing high- and low-reactivity sulfur electrode. A reference
+positive composite electrode (Ref electrode) was prepared using the
+same process with a weight ratio of S : LSCB : AC = 25 : 65 : 10.
+The half-cell conﬁguration was established for the cross-sectional
+analysis of the electrode: Al as the current collector/a sulfur positive
+composite electrode/Li5.5PS4.5Cl1.5 (LPSC) as the second SE layer/
+Li5.3PS4.3Br0.7Cl (LPSBC) and Li3PS4 glass (B-SE, weight ratio =
+9 : 1) as the ﬁrst SE layer/Li–In alloy.17,18 Here, LPSC was prepared
+by mechanical milling at 500 rpm for 10 h, followed by annealing at
+450 °C for 5 h under Ar atmosphere, consistent with a prior report.19
+The B-SE powder (80 mg) was placed in a polycarbonate tube (inner
+diameter = 10 mm), which could be separated after releasing the
+restrain, and pressurized at 200 MPa using stainless steel rods to
+form the ﬁrst SE layer. Subsequently, the LPSC powder (50 mg),
+sulfur positive electrode powder (7.5 mg), and Al powder (50 mg)
+were placed on the ﬁrst SE layer and pressed under 200 MPa by
+stainless steel rods. Li and In foils were stacked on the surface of the
+pellet, making contact with the ﬁrst SE layer, and pressed under
+80 MPa by stainless steel rods to obtain the Li–In alloy (Li/In =
+0.64). In Lix–In (x < 1), the Li–In alloy maintained a constant
+potential of 0.62 V vs. Li.20 The half-cell was assembled in an Ar-
+ﬁlled glove box and placed in a sealed vessel ﬁlled with Ar.
+Electrode performance was stabilized by charging and discharging
+the cells over ﬁve cycles at 0.25 mA cm¹2 and 25 °C using a charge–
+discharge measurement device (ACD-01, Asuka Electronics Co.
+Ltd.). After discharge to speciﬁc states at 0.25 mA cm¹2 and 25 °C,
+the assembly consisting of Al/positive composite electrode/second
+SE layer was extracted from the cell in the Ar-ﬁlled glove box. The
+half-cell of Ref electrode was assembled using the same cell
+structure, but the positive composite electrode weight was 8.0 mg
+and charge–discharge testing was performed at 60 °C.
+¦Q/¦V analysis was performed using modiﬁed discharge
+proﬁles of the half-cells. The discharge data at equal capacity
+intervals were processed into proﬁles at 1 mV intervals. Consecutive
+identical voltage values were deleted, and the data were linearly
+interpolated between two points to ensure that the intervals between
+the data points were 1 mV. The discharge data were smoothed using
+a 20-point moving average, and ¦Q/¦V was calculated using the
+central diﬀerence method.
+Samples for sulfur chemical state analysis across the electrode
+cross-section were obtained by extracting them from half-cells
+conditioned to speciﬁc discharge states, following stabilization for
+ﬁve cycles under the same conditions as in the charge–discharge
+tests. AP-HAXPES measurements were performed using a diﬀer-
+entially pumped analyzer (Scienta Omicron HiPP-2) installed at
+BL46XU of SPring-8. The incident X-ray beam, with a photon
+energy of 7.94 keV, was monochromatized using Si(111) double
+crystals and Si(311) double-crystal channel-cut monochromators.
+The X-ray was an incident on samples at an angle of 85° relative to
+the surface normal, and the emitted photoelectrons were detected at
+a take-oﬀangle of 85° relative to the surface plane. The Ar pressure
+inside the analysis chamber was maintained at either 5000 or
+1000 Pa. The X-ray beam width along the electrode thickness
+direction was approximately 5 µm, and its intensity was decreased
+using Al (50 µm) and Si (200 µm) to reduce sample damage.
+Samples were prepared in an Ar-ﬁlled glove box and transferred to
+the analysis chamber of the spectrometer using an airtight transfer
+vessel. Al–electrode and SE–electrode interfaces were determined
+by monitoring the Al 1s and Cl 1s spectra, respectively. After the
+corresponding element was no longer detected, the measurement
+points were for the Al and SE sides were positioned by moving 5 µm
+toward the center of the electrode. Thus, these points were 5–15 µm
+from each interface. The midpoint between these points, based on
+the device position coordinates, was also established as a measure-
+ment point. The binding energies of all spectra were calibrated to the
+Fermi edge energy of Au (7940.04 eV), measured from an Au plate
+as the external standard. After subtracting the Shirley background,
+the S 1s HAXPES spectra were analyzed by curve ﬁtting to a
+Lorentzian asymmetric line shape using CasaXPS software.
+The Raman spectra of the electrode cross-sections were obtained
+using a spectrometer (NRS-7100, JASCO Co.) with an excitation
+wavelength of 532 nm. To prevent air exposure, the measurement
+samples for Raman spectroscopy were prepared in an Ar-ﬁlled glove
+box and sealed in a vessel using a thin glass plate and polyimide
+tape. Measurements were conducted at the center of the electrode.
+Electrochemistry, 93(9), 097003 (2025)
+2
+
+=== 第 3 页 ===
+3. Results and Discussion
+This study was focused on the cross-sectional analysis of
+electrodes; thus, half-cells were assembled in a manner that
+facilitated extraction of the electrodes after the charge–discharge
+test. As shown in Fig. S1, electrodes in various discharge states
+were extracted by releasing the constraint of a separable polycar-
+bonate tube. In this conﬁguration, molding of the ﬁrst SE layer was
+subjected to the maximum pressure of fabrication process. Thus, the
+three-layered sample, consisting of Al/positive electrode/second
+SE, could be readily extracted from the cell by ensuring a separation
+between the ﬁrst and second SE layers. The Al and second SE layer
+not only functioned as a support for the electrode but also helped
+determine the HAXPES analysis position. This is because Al in the
+current corrector and Cl in the second SE, were not components of
+the electrodes, facilitating interlayer observations. This conﬁgu-
+ration signiﬁcantly improved the success rate of electrode extraction
+after charge–discharge tests. Furthermore, synchrotron HAXPES
+enabled the analysis of deep regions (of the order of several tens of
+nanometers), which are inaccessible to conventional photoelectron
+spectroscopy relying on soft X-ray beams. This capability helped
+mitigate the inﬂuence of equilibration within the electrode post-
+extraction. Additionally, ambient-pressure (AP)-HAXPES measure-
+ment enables to decrease sublimation of sulfur for stable analysis.
+The positive electrodes used in this study were high-reactivity
+(H-r) and low-reactivity (L-r) electrodes, prepared with Li1.5PS3.3
+and Li4.0PS4.5 as SEs, respectively.13,14 These conﬁgurations were
+selected to evaluate the diﬀerences in discharge proﬁles. Addition-
+ally, a Ref electrode, composed of 45Li2SO4–0.30Li2CO3–0.25LiBr
+(LSCB) as the SE, was used to evaluate sulfur reactions during
+discharge.16 The binding energies of elemental sulfur and the SO4
+component in LSCB were approximately 2472 and 2479 eV,
+respectively, as measured by S 1s HAXPES of S–C and LSCB–C,
+respectively (Fig. S2a). Thus, the S 1s spectrum of LSCB did not
+overlap with those of elemental sulfur and its discharge components
+with lower valence. Therefore, the Ref electrode was suitable for
+evaluating the complete discharge reaction and discharge state of
+sulfur at the analysis point, based on changes observed in the S 1s
+HAXPES spectra.
+The Ref electrode exhibited good reversibility at 60 °C. The
+discharge
+capacity
+in
+the
+5th
+cycle
+at
+0.25 mA cm¹2
+was
+approximately 1600 mAh g¹1 (S), close to the theoretical capacity
+(Fig. 1a). Thus, the Ref electrode was considered suitable for
+assessing the complete discharge reaction in the electrode, especially
+along the thickness direction. The ¦Q/¦V proﬁle of the Ref
+electrode during discharge in the 5th cycle showed a clear peak at
+approximately 1.44 V (vs. Li–In) and shoulder peak at approx-
+imately 1.52 V (vs. Li–In) (Fig. 1b). The modiﬁed discharge proﬁles
+derived at 1 mV intervals were in good agreement with the original
+curves, validating their suitability for ¦Q/¦V assessment. The
+shoulder peak at approximately 1.52 V and clear peak at 1.44 V are
+considered to correspond to the ﬁrst plateau reaction and a mixed
+reaction involving both the ﬁrst and second plateau reactions
+typically observed in liquid-type batteries, respectively. To conﬁrm
+the reaction, S 1s HAXPES spectra of the cross-section of the Ref
+electrode were measured through the thickness direction at diﬀerent
+discharge states (0, 100, 500, 1100, and 1500 mAh g¹1 (S)) at
+0.25 mA cm¹2 and 60 °C (Fig. 2). In the complete S 1s spectra
+(Fig. 2a), three main components were observed at approximately
+2472, 2470, and 2468 eV, attributable to neutral bridged sulfur, Li-
+coordinated anionic sulfur in lithium polysulﬁdes, and S2¹ in Li2S,
+respectively. Here, the spectral components were designated as S(0),
+S(D¹), and S(2¹) for neutral bridged sulfur, Li-coordinated anionic
+sulfur, and S2¹ in Li2S, respectively.
+Figure 3 shows the Raman spectra of the cross-section of the Ref
+electrode at diﬀerent discharge states. At 0 mAh g¹1 (S), peaks
+corresponding to elemental sulfur (S8) were observed at approx-
+imately 475, 220, and 150 cm¹1. These peaks dramatically decreas-
+ed at a discharge state of 100 mAh g¹1 (S), and new peaks appeared
+at around 445 cm¹1. It was diﬃcult to assign these peaks to
+individual lithium polysulﬁdes, such as Li2Sx (x = 2–8), owing
+to nearby peaks at approximately 440 cm¹1.21–24 However, the
+formation of long-chain lithium polysulﬁdes was estimated by
+the signiﬁcant decrease in sulfur peaks after discharging only
+100 mAh g¹1 (S) because short-chain lithium polysulﬁdes gener-
+ation require much amount of reduction proceeding. As discharge
+progressed, the peak near 450 cm¹1 decreased, while that near
+355 cm¹1, corresponding to Li2S, increased. The Li2S peak in the
+Ref electrode exhibited a lower wavelength compared with that of
+pure Li2S (375 cm¹1), attributable to the high polarity of LSCB.
+Furthermore, the peak near 445 cm¹1 shifted to a slightly lower
+wavelength of 440 cm¹1 at 1500 mAh g¹1 (S), consistent with the
+formation of short-chain lithium sulﬁdes such as Li2S2. This
+assignment is considered reasonable because the peak shift occurred
+in the later stage of discharge, indicating that the peak near 440 cm¹1
+is diﬀerent from that associated with elemental sulfur (Fig. S2b).
+These results suggest the existence of several lithium polysulﬁde
+species during discharge.
+The ﬁndings from Raman spectroscopy were used to further
+interpret the HAXPES spectra (Fig. 2). The structures of Li2S8,
+Li2S6, Li2S4, and Li2S2 have been proposed to involve the
+coordination of Li with several S atoms.22,25 Thus, Li2S8 and
+Li2S6 were expected to exhibit both S(0) and S(D¹) peaks in their
+S 1s spectra, whereas Li2S4, and Li2S2 would show only the S(D¹)
+peak. Below, we discuss the progress of the reaction in the
+electrodes based on changes in S(0), S(D¹), and S(2¹) at each
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+0
+500
+1000
+1500
+2000
+Cell potential vs. Li-In / V
+Specific capacity / mAh g −1(S)
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+500
+1000
+1500
+2000
+-ΔQ/ΔV (a. u.)
+Specific capacity / mAh g −1(S)
+Cell potential vs. Li-In / mV
+˖ modified data
+˖ original data
+˖ ΔQ/ΔV
+1st cycle 
+3rd cycle 
+5th cycle 
+(a)
+(b)
+Figure 1.
+(a) Charge–discharge curves of the Ref electrode half-
+cell at 0.25 mA cm¹2 and 60 °C. (b) ¦Q/¦V curve at the 5th cycle.
+Electrochemistry, 93(9), 097003 (2025)
+3
+
+=== 第 4 页 ===
+discharge state. At the 0 mAh g¹1 (S) discharge state, only one peak
+near 2472 eV, corresponding to S(0), was observed throughout the
+cross-section of the Ref electrode. This suggests the presence of
+only elemental sulfur (S8), consistent with the Raman results. At
+the 100 mAh g¹1 (S) discharge state, corresponding to the broad
+shoulder at approximately 1.52 V (vs. Li–In) in the ¦Q/¦V plot, a
+new peak at 2470 eV corresponding to S(D¹) was observed in
+addition to S(0), and its intensity increased toward the SE side.
+Compared with the Raman results, the peak of elemental sulfur at
+approximately 475 cm¹1 dramatically decreased. However, the S(0)
+peak in the S 1s was still prominent. This suggests that the ﬁrst
+plateau reaction, involving the transformation of elemental sulfur
+(S8) to long-chain lithium polysulﬁdes, proceeded in this stage.
+Additionally, the progress of the discharge reaction was more
+signiﬁcant on the SE side, featuring a shorter Li-ion transfer length
+from counter electrode, than that on the Al side. In all-solid-state
+batteries, the inﬂuence of ionic transfer length in the thickness
+direction of the electrode is signiﬁcant, leading to considerable
+diﬀerences in reactivity at diﬀerent positions within the electrode.
+This could explain the diﬀerence in degree of reaction progress
+at the current collector side and separator SE side. At the of
+500 mAh g¹1 (S) discharge state, corresponding to the peak near
+1.42 V (vs. Li–In) in the ¦Q/¦V curve, a decrease in S(0) and an
+increase in S(D¹) were observed in all areas. Furthermore, a peak at
+approximately 2468 eV, corresponding to the S(2¹), appeared at the
+SE side, along with the S(0) and S(D¹) peaks, consistent with the
+Raman results. This indicates that the ﬁrst and second plateau
+reactions occur simultaneously in this potential region and that the
+reaction progresses more on the SE side than on the Al side.
+Consequently,
+the
+non-uniform
+reaction
+along
+the
+thickness
+direction does not result in a clear two-step discharge plateaus as
+in liquid electrolyte systems. Additionally, S(0) peaks of all areas
+were slightly shifted to lower energies than that of 0 and
+100 mAh g¹1 (S) discharge states. This suggests that Li2S6 as
+a shorter long-chain lithium polysulﬁdes are increased in the
+electrode. These diﬀerences in reaction progress along the thickness
+directions became more signiﬁcant at the 1100 mAh g¹1 (S)
+discharge state, and no S(0) was observed on the SE side. At the
+1500 mAh g¹1 (S) the discharge state, corresponding to the ﬁnal
+stage of discharge, S(0) was absent across all areas, suggesting
+complete progression of the ﬁrst plateau reaction. The diﬀerences in
+S(D¹) and S(2¹) ratios were minimal across all areas. Typically, in
+the late stage of discharge, the concentration of reactants consid-
+erably aﬀects the reactivity in diﬀerent regions. Thus, the SE side,
+where reactions had progressed to a larger extent, exhibited a higher
+decrease in reactivity compared with that in the early stage of
+discharge, with a similar distribution in terms of the chemical state
+of sulfur. The eﬀect of equilibration within the extracted electrode
+may also have been signiﬁcant in the ﬁnal stage discharge state.
+Furthermore, S(2¹) accounted for approximately 80 % on average.
+Based on the remaining discharge capacity, the S(D¹) component is
+attributable to short-chain lithium polysulﬁdes, such as Li2S2,
+consistent with the Raman results. These results suggest that in all-
+solid-state Li–S batteries, similar to liquid systems, multiple lithium
+polysulﬁdes are involved in several diﬀerent stages of the reaction,
+and the reaction progress varies in the thickness direction. These
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0 mAh g-1
+100 mAh g-1
+500 mAh g-1
+1100 mAh g-1
+1500 mAh g-1
+0 mAh g-1
+100 mAh g-1
+500 mAh g-1
+1100 mAh g-1
+1500 mAh g-1
+0 mAh g-1
+100 mAh g-1
+500 mAh g-1
+1100 mAh g-1
+1500 mAh g-1
+˚ S(0)
+˕ S(δ-)
+˜ S(2-)
+˚ S(0)
+˕ S(δ-)
+˜ S(2-)
+˚ S(0)
+˕ S(δ-)
+˜ S(2-)
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+— S(0)
+— S(δ-)
+— S(2-)
+— S(0)
+— S(δ-)
+— S(2-)
+— S(0)
+— S(δ-)
+— S(2-)
+Figure 2.
+S 1s HAXPES spectra and corresponding component ratios in the cross-section of the Ref electrode at diﬀerent discharge states:
+(a), (d) Al side, (b), (e) midpoint, and (c), (f ) SE side. In (a)–(c), black solid lines represent the measured spectra; red, green, and blue solid
+lines indicate the S(0), S(D¹) and S(2¹) components, respectively. The solid purple line denotes the background, and the dashed orange line
+represents the sum of the ﬁtted components.
+100
+200
+300
+400
+500
+600
+Intensity (a. u.)
+Raman shift / cm-1
+0 mAh g-1
+100 mAh g-1
+500 mAh g-1
+1100 mAh g-1
+1500 mAh g-1
+Figure 3.
+Raman spectra of the cross-section of the Ref electrode
+at diﬀerent discharge states.
+Electrochemistry, 93(9), 097003 (2025)
+4
+
+=== 第 5 页 ===
+ﬁndings enhance our understanding of the sulfur discharge reaction
+in the electrode in all-solid-state LiS batteries. Notably, the use of
+the LSCB as the SE, which has no overlapping peaks with sulfur and
+its discharge products in the target regions for Raman and HAXPES
+spectra, enables a comprehensive analysis.
+Based on the observations of the sulfur discharge reaction in
+solid-state Li–S batteries, the diﬀerence in the degree of reaction
+progress within highly reactive and less reactive electrodes is
+discussed. Figure 4 shows the charge–discharge and ¦Q/¦V curves
+of the H-r and L-r electrodes. The H-r and L-r electrodes showed
+speciﬁc capacities of 1760 and 1320 mAh g¹1 (S) in the 5th cycle at
+0.25 mA cm¹2 and 25 °C, respectively. These modiﬁed discharge
+proﬁles of H-r and L-r electrodes derived at 1 mV intervals were in
+good agreement with the original curves, validating their suitability
+for ¦Q/¦V assessment (Figs. 4b and 4d). The H-r electrode
+exhibited a higher speciﬁc capacity and discharge potential,
+attributable to improved sulfur reactivity owing to the use of a high
+P/S ratio SE and high-surface-area carbon, consistent with previous
+reports.13,14 Notably, the capacity of the H-r electrode included the
+high contribution from the SE at 0.7 V (vs. Li–In), resulting in a
+higher capacity than the theoretical capacity of sulfur. In addition,
+the discharge curve of the H-r electrode showed a slight multi-step
+discharge plateau, considerably diﬀerent from the behavior of the
+L-r electrode. These diﬀerences were more clearly reﬂected in the
+¦Q/¦V plots at the 5th discharge curve (Fig. 4b). The ¦Q/¦V of
+the L-r electrode exhibited a single broad peak at approximately
+1.32 V (vs. Li–In), similar to the typical proﬁle of a sulfur composite
+electrode. In contrast, the ¦Q/¦V curve of the H-r electrode showed
+two clear peaks at approximately 1.41 and 1.29 V (vs. Li–In), as well
+as a broad shoulder around 1.52 V (vs. Li–In). The peak near 1.29 V
+(vs. Li–In) was sharp, suggesting a single plateau reaction. Therefore,
+the discharge reactions in the H-r electrode likely proceeds mainly
+through the ﬁrst plateau reaction, a combination of the ﬁrst and
+second plateau reactions, and mainly the second plateau reaction at
+approximately 1.52, 1.41, and 1.29 V (vs. Li–In), respectively.
+In the L-r electrode, characterized by low reactivity, the ﬁrst
+plateau component remained on the current collector side caused by
+slower reaction kinetics during discharge. This reaction proceeded
+simultaneously with the second plateau reaction on the separator SE
+side. This is likely why no peak separation was observed in the
+¦Q/¦V curve, even in the later stages of discharge. In addition, the
+eﬀect of improving sulfur reactivity using a high P/S ratio SE and
+high-surface-area carbon were conﬁrmed in the ¦Q/¦V analysis of
+composite electrodes with compositions S : Li1.5PS3.3 : KB = 50 :
+40 : 10 and S : Li4.0PS4.5 : AC = 50 : 40 : 10, as shown in Fig. S3.
+Both ¦Q/¦V curves showed two peaks, but the diﬀerences in the
+peaks were smaller than that observed in the H-r electrode. This
+suggests that the high P/S ratio SE and high-surface-area carbon
+individually aﬀect the sulfur reactivity. A larger distance between
+the two ¦Q/¦V peaks typically corresponds to a higher sulfur
+reactivity. When the sulfur reaction resistance is small, the relative
+impact of its increase at the second plateau becomes signiﬁcant,
+suppressing the SE-side reaction and allowing each plateau reaction
+to proceed independently, which results in greater peak separation.
+Since the eﬀect of reaction resistance is considered to be more
+signiﬁcant than that of ionic conductivity resistance under the
+present conditions, a larger peak separation can be regarded as an
+indicator of higher reactivity. Thus, the order of eﬀectiveness for
+enhancing reactivity was high P/S ratio SE + high-speciﬁc-surface-
+area carbon, only high P/S ratio SE, and only high-speciﬁc-surface-
+area carbon.
+To verify this phenomenon and hypothesis regarding sulfur
+reactivity, the change in the state of sulfur in the thickness direction
+of the electrode cross-section in each discharge state was conﬁrmed
+by AP-HAXPES (Fig. 5). At the discharge state of 0 mAh g¹1 (S),
+S(D¹) was observed in addition to S(0), owing to the presence of the
+sulﬁde SE even in the full-charge state, where only elemental sulfur
+is expected as the redox species. Thus, unlike the Ref electrode,
+understanding the reaction progress in the H-r electrode requires
+consideration of the S(D¹) component derived from the sulﬁde SE.
+At the discharge state of 100 mAh g¹1 (S), corresponding to the
+broad shoulder around 1.52 V (vs. Li–In) in the ¦Q/¦V curve, S(0)
+decreased and increased S(D¹) in all areas, with the amount of
+change slightly higher toward the SE side. This proﬁle was similar
+to that for the Ref electrode, indicating that only the ﬁrst plateau
+reaction progressed in this potential region. Here, the (D¹) peak was
+slightly shifted to higher energy due to mixing with the (D¹)
+component of the SE and the higher-energy (D¹) species in Li2Sx.
+The diﬀerence in reaction progress across the thickness direction
+became more signiﬁcant in the 400 mAh g¹1 (S) discharge state,
+corresponding to the ﬁrst peak near 1.41 V (vs. Li–In) in the ¦Q/
+¦V curve. Toward the SE side, the decrease in S(0) became more
+notable, and the proportion of S(D¹) increased. Furthermore, S(2¹)
+appeared on the SE side, indicating that the second plateau reaction
+progressed along with the ﬁrst plateau reaction in this potential
+region. At the 1100 mAh g¹1 (S) discharge state, corresponding to
+the second sharp peak at approximately 1.29 V (vs. Li–In) in the
+¦Q/¦V curve, no S(0) was observed in any area, and S(2¹)
+gradually increased toward the SE side. This suggests that the
+second plateau reaction proceeded in this potential region, as species
+containing neutral bridged sulfur (such as Li2S8 and Li2S6), which is
+a reactant in the ﬁrst plateau reaction were no longer observed. At
+the 1500 mAh g¹1 (S) discharge state, corresponding to the ﬁnal
+stage of discharge, only the second plateau reaction proceeded.
+However, the diﬀerences in S(D¹) and S(2¹) ratios were small in all
+areas, as in the case of the Ref electrode, owing to the reduction in
+reactivity owing to decreased reactant concentration. The overall
+reaction in the H-r electrode predicted from the ¦Q/¦V curve was
+consistent with the S 1s HAXPES spectra, highlighting that the two-
+step plateau reaction observed in liquid-type batteries also occurs in
+all-solid-state Li–S batteries.
+Figures 5g–5l shows the S 1s HAXPES spectra of the L-r
+electrode, which exhibits a typical discharge proﬁle, to compare its
+reaction characteristics with those of the H-r electrode and verify
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+0
+500
+1000
+1500
+2000
+Cell potential vs. Li-In / V
+Specific capacity / mAh g−1(S)
+1st cycle 
+3rd cycle 
+5th cycle 
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+500
+1000
+1500
+2000
+-ΔQ/ΔV (a. u.)
+Specific capacity / mAh g−1(S)
+Cell potential vs. Li-In / mV
+˖ modified data
+˖ original data
+˖ ΔQ/ΔV
+(a)
+(b)
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+0
+500
+1000
+1500
+2000
+Cell potential vs. Li-In / V
+Specific capacity / mAh g−1(S)
+1st cycle 
+3rd cycle 
+5th cycle 
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+500
+1000
+1500
+2000
+-ΔQ/ΔV (a. u.)
+Specific capacity / mAh g−1(S)
+Cell potential vs. Li-In / mV
+˖ modified data
+˖ original data
+˖ ΔQ/ΔV
+(c)
+(d)
+Figure 4.
+Charge–discharge curves at 0.25 mA cm¹2 and 25 °C are shown in (a) for the H-r electrode and in (c) for the L-r electrode; the
+corresponding ¦Q/¦V curves at the 5th cycle are shown in (b) and (d), respectively.
+Electrochemistry, 93(9), 097003 (2025)
+5
+
+=== 第 6 页 ===
+the predicted pathways. At the 0 mAh g¹1 (S) discharge state,
+corresponding to the full-charge state, both S(0) and S(D¹), ascribed
+to elemental sulfur and sulﬁde SE, respectively, were observed,
+similar to the H-r electrode. At the 500 mAh g¹1 (S) discharge state,
+corresponding to the broad peak at approximately 1.32 V (vs. Li–In)
+in the ¦Q/¦V curve, a decrease in S(0) and an increase in S(2¹)
+were observed toward the SE side. This suggests that the ﬁrst and
+second plateau reactions simultaneously proceeded in this region
+across all areas of the electrode. The same trends were also observed
+at the discharge state of 1000 mAh g¹1 (S). Furthermore, at the
+discharge state of 1200 mAh g¹1 (S), corresponding to the last stage
+of discharge, the diﬀerences in S(0), S(D¹), and S(2¹) ratios were
+small in all areas, similar to those in the Ref and H-r electrodes.
+However, S(0) was persistent, indicating that both the ﬁrst and
+second plateau reactions occurred even at this late stage, likely
+owing to the lower sulfur reactivity in the L-r electrode. These
+comparative results highlight that diﬀerences in sulfur reactivity
+inﬂuence not only the reversible capacity but also the reaction
+progress through the thickness direction. In addition, the Ref
+electrode using LSCB, which exhibits similar ionic conductivity at
+60 °C to that of Li1.5PS3.3 at 25 °C, did not exhibit a single the
+second plateau reaction, similar to the L-r electrode. As the LSCB
+does not improve sulfur reactivity as Li1.5PS3.3 does, the reactivity in
+the Ref electrode remained low even under high-temperature
+operation. Thus, our ﬁndings highlight that changes in sulfur
+reactivity determine whether multiple discharge plateaus appear.
+Additionally, the ﬁrst charge–discharge curve of the H-r electrode
+at 60 °C exhibited a two-stage discharge plateau similar to that of the
+conventional liquid system, except for the capacity contribution
+from the solid electrolyte below 0.8 V (vs. Li–In) (Fig. 6). The
+capacity of the second plateau was approximately 1000 mAh g¹1
+(S), which is close to the theoretical capacity expected from the
+reduction of Li2S4 and Li2S2 produced during the stepwise reduction
+of S8. This is further evidence that the increased reactivity at 60 °C
+leads to a more pronounced separation of the ﬁrst and second
+plateau reactions, and that the S-S bonds are broken stepwise
+starting from S8.
+Overall, in general sulfur composite electrodes for all-solid-state
+Li–S batteries, similar to the low-reactivity electrode considered in
+this study, the ﬁrst plateau reactants likely remain throughout the
+electrode even in the later stages of discharge, reacting simulta-
+neously with the second plateau reactants during the entire discharge
+process. This provides valuable insights into the reactions of sulfur
+in all-solid-state Li–S batteries. Furthermore, the diﬀerence in the
+degree of reaction progress in the thickness direction of the electrode
+leads to the ﬁrst and second discharge plateau reactions occurring
+simultaneously, attributable to the high sulfur reaction resistance.
+The degree of overlap of these two plateau reactions depends on the
+sulfur reactivity. As the sulfur in the electrode may be in a partial
+equilibrium state after being removed from the cell, operando
+measurements are necessary in future work to further understand the
+charge–discharge reactions of sulfur in solid-state Li–S batteries.
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0 mAh g-1
+100 mAh g-1
+400 mAh g-1
+1100 mAh g-1
+1500 mAh g-1
+0 mAh g-1
+100 mAh g-1
+400 mAh g-1
+1100 mAh g-1
+1500 mAh g-1
+0 mAh g-1
+100 mAh g-1
+400 mAh g-1
+1100 mAh g-1
+1500 mAh g-1
+˚ S(0)
+˕ S(δ-)
+˜ S(2-)
+˚ S(0)
+˕ S(δ-)
+˜ S(2-)
+˚ S(0)
+˕ S(δ-)
+˜ S(2-)
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+2465
+2470
+2475
+2480
+Intensity (a. u.)
+Binding energy / eV
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0
+20
+40
+60
+80
+100
+0
+500
+1000
+1500
+2000
+Component ratio / %
+Discharge state / mAh g-1(S)
+0 mAh g-1
+500 mAh g-1
+1000 mAh g-1
+1200 mAh g-1
+0 mAh g-1
+500 mAh g-1
+1000 mAh g-1
+1200 mAh g-1
+0 mAh g-1
+500 mAh g-1
+1000 mAh g-1
+1200 mAh g-1
+˚ S(0)
+˕ S(δ-)
+˜ S(2-)
+˚ S(0)
+˕ S(δ-)
+˜ S(2-)
+˚ S(0)
+˕ S(δ-)
+(g)
+(h)
+(i)
+(j)
+(k)
+(l)
+— S(0)
+— S(δ-)
+— S(2-)
+— S(0)
+— S(δ-)
+— S(2-)
+— S(0)
+— S(δ-)
+— S(2-)
+— S(0)
+— S(δ-)
+— S(2-)
+— S(0)
+— S(δ-)
+— S(2-)
+— S(0)
+— S(δ-)
+— S(2-)
+Figure 5.
+S 1s HAXPES spectra and corresponding component ratios for cross-sections of the H-r electrode at diﬀerent discharge states:
+(a), (d) Al side, (b), (e) midpoint, and (c), (f ) SE side. Corresponding results for the L-r electrode: (g), (j) Al side, (h), (k) midpoint, and (i), (l)
+SE side. The same line styles used in Fig. 2 are applied to (a)–(c) and (g)–(i).
+Electrochemistry, 93(9), 097003 (2025)
+6
+
+=== 第 7 页 ===
+Owing to the low electrical conductivity of sulfur, the diﬀerence in
+reaction progress across the thickness of the electrode could be
+observed using synchrotron HAXPES. However, these diﬀerence
+may be even more signiﬁcant during actual discharging, which must
+be further examined. Despite these limitations, we believe that the
+results and experimental procedures presented in this work will
+facilitate further exploration of sulfur reactions in not only all-solid-
+state Li–S batteries but also other solid-state batteries.
+4. Conclusions
+The progress of sulfur discharge reactions in all-solid-state Li–S
+batteries was comprehensively examined using Raman spectrosco-
+py, synchrotron AP-HAXPES, and ¦Q/¦V analysis of discharge
+curves. We demonstrated the eﬀectiveness of evaluation of sulfur
+reactions using a Ref electrode that uses LSCB, which does not
+overlap with sulfur and its discharge products in Raman and
+HAXPES spectra. The reaction progress in the through-thickness
+direction at diﬀerent discharge states was explored. The results
+highlighted that in all-solid-state Li–S batteries, as in liquid-type
+systems, several lithium polysulﬁdes are involved in diﬀerent stages,
+and the reaction progress varies in the thickness direction.
+Furthermore, diﬀerences of sulfur reactivity aﬀect not only the
+reversible capacity but also the reaction progress along the thickness
+direction. The H-r electrode, characterized by high sulfur reactivity,
+exhibits a clear discharge plateau at approximately 1.29 V (vs. Li–
+In), indicating the progression of only the second plateau reaction.
+This was conﬁrmed by the absence of ﬁrst plateau reactants and
+presence
+of
+Li-coordinated
+sulfur,
+as
+conﬁrmed
+from
+S 1s
+HAXPES. This work oﬀers novel insights into sulfur reactions in
+all-solid-state Li–S batteries, enhancing our understanding of the
+complex reaction mechanisms and thereby promoting the develop-
+ment of high-energy-density batteries.
+Acknowledgments
+This work was partly supported by the GteX Program (Grant
+Nos. JPMJGX23S5 and JPMJGX23S4) of the Japan Science and
+Technology Agency (JST). Synchrotron radiation experiments were
+performed on beamline BL46XU at SPring-8 with the approval
+of the Japan Synchrotron Radiation Research Institute (JASRI)
+(Proposal Nos. 2025A1539 and 2025A1702).
+CRediT Authorship Contribution Statement
+Hiroshi Nagata: Conceptualization (Lead), Data curation (Lead), Formal analysis
+(Lead), Funding acquisition (Equal), Investigation (Lead), Methodology (Lead),
+Supervision (Equal), Visualization (Lead), Writing – original draft (Lead)
+Satoshi Yasuno: Formal analysis (Equal), Funding acquisition (Equal), Methodology
+(Equal), Writing – review & editing (Equal)
+Kunimitsu Kataoka: Supervision (Equal), Writing – review & editing (Equal)
+Data Availability Statement
+The data that support the ﬁndings of this study are openly available under the terms
+of the designated Creative Commons License in J-STAGE Data listed in D1 of
+References.
+Conﬂict of Interest
+There are no conﬂicts of interest to declare.
+Funding
+Japan Science and Technology Agency: JPMJGX23S5
+Japan Science and Technology Agency: JPMJGX23S4
+References
+D1. H. Nagata, S. Yasuno, and K. Kataoka, J-STAGE Data, https://doi.org/10.50892/
+data.electrochemistry.29939255, (2025).
+1.
+X. Ji and L. F. Nazar, J. Mater. Chem., 20, 9821 (2010).
+2.
+L. Du, R. Wu, Z. Wu, H. Huang, Y. Xia, Y. Gan, W. Zhang, X. Xia, X. He, and
+J. Zhang, Mater. Chem. Front., 7, 5760 (2023).
+3.
+M. Nagao, A. Hayashi, and M. Tatsumisago, Electrochim. Acta, 56, 6055 (2011).
+4.
+X. Judez, H. Zhang, C. Li, G. G. Eshetu, J. A. González-Marcos, M. Armand, and
+L. M. Rodriguez-Martinez, J. Electrochem. Soc., 165, A6008 (2018).
+5.
+Y. Pilyugina, E. V. Kuzmina, and V. S. Kolosnitsyn, ECS J. Solid State Sci.
+Technol., 13, 065011 (2024).
+6.
+A. M. Suzanowicz, C. W. Mei, and B. K. Mandal, Batteries, 8, 45 (2022).
+7.
+S. Ohno, C. Rosenbach, G. F. Dewald, J. Janek, and W. G. Zeier, Adv. Funct.
+Mater., 31, 2010620 (2021).
+8.
+H. Song, K. Münch, X. Liu, K. Shen, R. Zhang, T. Weintraut, Y. Yusim, D. Jiang,
+X. Hong, J. Meng, Y. Liu, M. He, Y. Li, P. Henkel, T. Brezesinski, J. Janek, and
+Q. Pang, Nature, 637, 846 (2025).
+9.
+J. Lee, C. Zhao, C. Wang, A. Chen, X. Sun, K. Amine, and G. L. Xu, Chem. Soc.
+Rev., 53, 5264 (2024).
+10.
+D. Cao, X. Sun, F. Li, S. M. Bak, T. Ji, M. Geiwitz, K. S. Burch, Y. Du, G. Yang,
+and H. Zhu, Angew. Chem., Int. Ed., 62, e202302363 (2023).
+11.
+J. T. Kim, H. Su, Y. Zhong, C. Wang, H. Wu, D. Zhao, C. Wang, X. Sun, and
+Y. Li, Nat. Chem. Eng., 1, 400 (2024).
+12.
+Y. Fujita, K. Münch, T. Asakura, K. Motohashi, A. Sakuda, J. Janek, and A.
+Hayashi, Chem. Mater., 36, 7533 (2024).
+13.
+H. Nagata and Y. Chikusa, J. Power Sources, 263, 141 (2014).
+14.
+H. Nagata and Y. Chikusa, J. Power Sources, 264, 206 (2014).
+15.
+H. Nagata and Y. Chikusa, Energy Technol., 4, 484 (2016).
+16.
+H. Nagata and J. Akimoto, ACS Appl. Mater. Interfaces, 13, 35785 (2021).
+17.
+S. V. Patel, S. Banerjee, H. Liu, P. Wang, P. H. Chien, X. Feng, J. Liu, S. P. Ong,
+and Y. Y. Hu, Chem. Mater., 33, 1435 (2021).
+18.
+H. Nagata and K. Kataoka, J. Power Sources, 623, 235443 (2024).
+19.
+P. Adeli, J. D. Bazak, K. H. Park, I. Kochetkov, A. Huq, G. R. Goward, and L. F.
+Nazar, Angew. Chem. Int. Ed., 58, 8681 (2019).
+20.
+K. Takada, N. Aotani, K. Iwamoto, and S. Kondo, Solid State Ionics, 86–88, 877
+(1996).
+21.
+L. Xue, Y. Li, A. Hu, M. Zhou, W. Chen, T. Lei, Y. Yan, J. Huang, C. Yang, X.
+Wang, Y. Hu, and J. Xiong, Small Struct., 3, 2100170 (2022).
+22.
+J. J. Chen, R. M. Yuan, J. M. Feng, Q. Zhang, J. X. Huang, G. Fu, M. Sen Zheng,
+B. Ren, and Q. F. Dong, Chem. Mater., 27, 2048 (2015).
+23.
+T. Wang, Q. Zhang, J. Zhong, M. Chen, H. Deng, J. Cao, L. Wang, L. Peng, J.
+Zhu, and B. Lu, Adv. Energy Mater., 11, 2100448 (2021).
+24.
+M. Hagen, P. Schiﬀels, M. Hammer, S. Dörﬂer, J. Tübke, M. J. Hoﬀmann, H.
+Althues, and S. Kaskel, J. Electrochem. Soc., 160, A1205 (2013).
+25.
+X. Peng, J. Li, J. Dang, S. Yin, H. Zheng, C. Wang, and Y. Mo, Inorg. Chem., 63,
+4716 (2024).
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+0
+500
+1000
+1500
+2000
+2500
+Cell potential vs. Li-In / V
+Specific capacity / mAh g −1(S)
+Figure 6.
+First charge–discharge curves of half-cells with the H-r
+electrode at 0.25 mA cm¹2 and 60 °C.
+Electrochemistry, 93(9), 097003 (2025)
+7
+

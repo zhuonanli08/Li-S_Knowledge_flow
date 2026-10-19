@@ -1,0 +1,1102 @@
+=== 第 1 页 ===
+Article
+‘‘Active material-free’’ design to overcome mass-
+transport limitations for high-energy-density all-
+solid-state Li-S batteries
+Graphical abstract
+Highlights
+• A cathode composed of Li 6 PS 5 Cl and Ketjen black without 
+preloaded sulfur is designed
+• Intra-agglomerate mass transport limits the kinetics of all-
+solid-state Li-S systems
+• Composite cathode reached 1,277.8 Wh kg⁻¹, with a cycle life 
+of 767 cycles
+Authors
+Zhengcheng Gu, Shengfu Wei, 
+Xing Zhang, Weigang Ma
+Correspondence
+x-zhang@tsinghua.edu.cn (X.Z.), 
+maweigang@tsinghua.edu.cn (W.M.)
+In brief
+Artificially preloading active materials 
+cannot guarantee effective three-phase 
+contact, where the ionic conductors, 
+electronic conductors, and active 
+materials meet, making it difficult to 
+achieve efficient sulfur utilization. In our 
+design, the cathode contains no 
+preloaded active material. Instead, it 
+provides abundant interfaces between 
+ionic and electronic conductors, allowing 
+an ‘‘invisible hand’’ to drive the in situ 
+formation of active materials at these 
+interfaces. This design inherently 
+maintains both ionic and electronic 
+pathways, enabling high performance.
+Gu et al., 2026, Joule 10, 102239
+February 18, 2026 © 2025 Elsevier Inc. All rights are reserved, including those for 
+text and data mining, AI training, and similar technologies. 
+https://doi.org/10.1016/j.joule.2025.102239
+ll
+
+=== 第 2 页 ===
+Article
+‘‘Active material-free’’ design to overcome 
+mass-transport limitations for high-energy-density 
+all-solid-state Li-S batteries
+Zhengcheng Gu, 1,2 Shengfu Wei, 1,2 Xing Zhang, 1, * and Weigang Ma 1,3, *
+1 Key Laboratory for Thermal Science and Power Engineering of Ministry of Education, Department of Engineering Mechanics, Tsinghua 
+University, Beijing 100084, China
+2 These authors contributed equally
+3 Lead contact
+*Correspondence: x-zhang@tsinghua.edu.cn (X.Z.), maweigang@tsinghua.edu.cn (W.M.)
+https://doi.org/10.1016/j.joule.2025.102239
+SUMMARY
+Lithium-sulfur all-solid-state batteries (Li-S ASSBs) offer ultrahigh specific capacity and enhanced safety but 
+are hindered by low cathode-level energy density. Simulations reveal that intra-agglomerate mass-transport 
+limitations in bulk sulfur represent the primary challenge. To address this, we propose an ‘‘active material 
+(AM)-free’’ design using a cathode composed solely of Li 6 PS 5 Cl (LPSCl) and carbon, where AMs form in 
+situ via electrolyte decomposition. The resulting submicron-scale AMs overcome mass-transport limitations 
+through shortened diffusion paths. By expanding LPSCl-carbon interfaces, this cathode exhibits high cath-
+ode-level energy density. The self-limiting AM growth prevents excessive degradation, ensuring cycling sta-
+bility (95% retention after 500 cycles at 50 ◦ C). Subsequent optimization with LiI additive further elevates cath-
+ode-level energy density to 1,277.8 Wh kg − 1 (9.25 mAh cm − 2 ) and extends cycle life to 767 cycles at room 
+temperature (RT). This work provides a promising approach to designing high-performance cathodes by ex-
+ploiting the redox activity of the solid electrolyte.
+INTRODUCTION
+Lithium-sulfur (Li-S) batteries, which store lithium through sulfur’s 
+conversion reactions, exhibit ultrahigh theoretical specific ca-
+pacity of 1,672 mAh g s ⁻¹ (based on sulfur mass) 1 and high-energy 
+density. 2–4 Moreover, the natural abundance of sulfur avoids reli-
+ance on critical materials like nickel and cobalt, 5 which are essen-
+tial for conventional layered oxide cathodes. These attributes 
+position Li-S batteries as one of the most promising alternatives 
+to current Li-ion batteries. 3,6,7 Li-S all-solid-state batteries 
+(ASSBs) address the thermal runaway risks of liquid Li-S batteries 
+by replacing flammable liquid electrolytes with non-flammable 
+solid electrolytes (SEs), 8–13 which ensures inherent safety. Addi-
+tionally, SEs mitigate the ‘‘shuttle effect,’’ which is a persistent
+CONTEXT & SCALE Lithium-sulfur all-solid-state batteries offer high theoretical capacity and improved 
+safety over conventional lithium-ion systems. However, lithiation and delithiation require simultaneous ac-
+cess to both electrons and ions, and sulfur has poor ionic and electronic conductivity; therefore, conductive 
+carbon and catholyte must be added to the composite cathode, which lowers practical energy density. The 
+conventional view believes that achieving high-energy density in lithium-sulfur batteries requires maximizing 
+the preloaded sulfur loading while keeping polarization under control. However, increasing the content of 
+preloaded sulfur inevitably exacerbates mass-transport limitations within sulfur agglomerates. In this 
+work, we propose an alternative route for the high-energy-density cathode: exploit the redox activity of 
+the sulfide electrolyte itself. We introduce an ‘‘active material-free’’ cathode design without preloading sulfur. 
+Instead, active materials are formed in situ via the decomposition of the solid electrolyte Li 6 PS 5 Cl at carbon 
+interfaces. In situ-formed active materials are inherently accessible to both ions and electrons, and the self-
+limiting decomposition reaction shortens mass-transport lengths within the active material. By increasing the 
+interfacial area between the ionic conductor and the electronic conductor, we improved the kinetics of the 
+Li 6 PS 5 Cl redox reactions, ultimately achieving a cathode with high-energy density and long cycle life.
+Joule 10, 102239, February 18, 2026 © 2025 Elsevier Inc. 
+1
+All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+ll
+
+=== 第 3 页 ===
+issue in liquid Li-S systems where dissolved sulfur species 
+migrate between electrodes, degrading performance. 14,15 
+However, sulfur is intrinsically a poor ionic and electronic 
+conductor, which renders the conversion reactions kinetically 
+limited. Thus, a significant amount of SE and conductive carbon
+(C) has to be incorporated to mitigate polarization (Figure 1A). 
+This forces most studies to operate at low active material (AM) 
+loadings, thus yielding high sulfur-mass-based specific capacities
+(mAh g S 
+− 1 ) but low cathode-level specific capacities (mAh g cat
+− 1,
+the subscript ‘‘cat’’ denotes calculation based on the total mass of 
+the composite cathode, including the mass of SE, conductive C, 
+and other components in the cathode, and the same applies 
+below) and energy densities. Although the sulfur-mass-based 
+specific capacity even approaches its theoretical limit now, the 
+corresponding cathode-level and cell-level energy densities 
+remain inferior to commercial Li-ion batteries (Figure S1).
+The prevailing view is that enhancing cathode-level energy 
+density hinges on increasing the content of active sulfur in the
+cathode while keeping polarization under control. To mitigate 
+polarization, previous studies have primarily focused on over-
+coming inter-agglomerate reaction-rate limitations (Figure 1B): 
+the insulating nature of elemental sulfur and its lithiation products 
+confines conversion reactions to three-phase boundaries 16,17 
+(AM/conductive C/SE). Consequently, bulk sulfur remains elec-
+trochemically inactive as ‘‘dead sulfur.’’ Various strategies have 
+been proposed to address this issue, including designing mixed 
+ionic-electronic conductors to mitigate the kinetic limitations at 
+the three-phase boundaries, 18 introducing redox mediators 19,20 
+and additives, 21–23 optimizing electrolytes, 24 modifying AMs, 25 
+and improving preparation methods. 26 However, beyond interfa-
+cial reaction limitations, most existing literature has overlooked a 
+critical aspect, mass-transport limitations 3 (Figure 1C): the low 
+ionic conductivities of AMs confine Li + ions transport within the 
+surface regions, leaving the bulk intra-agglomerate sulfur inac-
+tive. Moreover, increasing sulfur content exacerbates the 
+mass-transport limitations by making it more difficult for the
+Figure 1. Schematic of ‘‘AM-free’’ ASSB and comparisons with the conventional Li-S ASSB
+(A) Configuration of conventional Li-S ASSB.
+(B) Inter-agglomerate limitation. The brown region represents lithiated sulfur, the yellow agglomerates represent unlithiated sulfur, green arrows indicate Li-ion 
+transport pathways, and red arrows indicate electron transport pathways. Electrochemical reactions occur at the three-phase boundaries of AM, electronic 
+conductor, and ionic conductor, so only sulfur in contact with both the SE and conductive C is active.
+(C) Intra-agglomerate limitation. The low ionic and electronic conductivity of the AM restricts Li-ion and electron transport within surface regions only, rendering 
+the intra-agglomerate bulk sulfur electrochemically inactive and unlithiated.
+(D) Configuration of AM-free ASSB. The cathode consists solely of conductive C and sulfide SE without preloading AM.
+(E) In situ-formed AMs. The in situ-formed small-sized AMs shorten the required mass-transport length, which improves the utilization of the intra-agglomerate 
+AM. The low ionic and electronic conductivity of the reaction products inherently hinders further electrolyte decomposition, thereby ensuring cycling stability.
+(F) Expanding effective interfaces. Increasing effective interfaces is expected to promote the formation of AM, thereby enhancing the performance.
+2 
+Joule 10, 102239, February 18, 2026
+Article
+ll
+
+=== 第 4 页 ===
+intra-agglomerate sulfur to establish electrochemical connec-
+tions with electrolytes and conductive C, leading to low AM uti-
+lization (Figure S2).
+In this article, we reveal that mass-transport limitations are the 
+key constraint on performance in conventional Li-S ASSBs. To 
+overcome this, we took a path completely opposite to the main-
+stream: the cathode contains no preloaded sulfur (Figure 1D). 
+Contrary to the prevailing view that regards electrolytes as inac-
+tive, Li 6 PS 5 Cl (LPSCl) intrinsically undergoes oxidative decom-
+position to form elemental sulfur. Therefore, enhancing energy 
+density does not necessarily require increasing preloaded sulfur 
+but can also be achieved by strengthening the redox activity of 
+the electrolyte. The advantage is that the decomposition prod-
+ucts of LPSCl are both ionically and electronically insulating, 
+which inherently limits further reaction progression. 27–30 This 
+self-limiting reaction constrains the size of in situ-formed AMs, 
+thereby shortening the required mass-transport length, which 
+contributes to enhancing mass-transport kinetics. Therefore, 
+we employ the ‘‘AM-free’’ design, whereby the AM is in situ 
+formed through electrolyte decomposition (Figure 1E). Through 
+maximizing the effective LPSCl-C interfacial area (Figure 1F) to 
+enhance redox activity of LPSCl, AM-free ASSB delivered a 
+high cathode-level energy density and exhibited cycling stability: 
+zero capacity fade after 127 cycles at room temperature (RT) and 
+stable performance through 500 cycles at 50 ◦ C. After over-
+coming the mass-transport limitations in conventional Li-S 
+ASSBs through AM-free design, the next rate-limiting step shifts
+to interfacial charge transfer kinetics. Accordingly, a spiral-
+progression strategy, using the LiI additive to lower the 
+charge transfer resistance, further boosts the RT performance 
+to 853 mAh g cat ⁻¹ and 1,277.8 Wh kg cat ⁻¹ (the calculation of the 
+cathode-level energy density is given by Note S1).
+RESULTS AND DISCUSSION
+Mass-transport limitations in conventional Li-S ASSBs 
+Figures 2A and S3 show cross-sectional scanning electron mi-
+croscopy (SEM) and energy-dispersive X-ray spectroscopy 
+(EDS) maps of a conventional Li-S battery cathode. In the EDS 
+maps, the phosphorus (P) signal intensity increases in the 
+brighter regions of the SEM image, while conversely, the C signal 
+intensity is stronger in the darker regions of the SEM image. This 
+indicates that the darker phase in the SEM image corresponds to 
+the S-C composite, and the brighter phase corresponds to the 
+LPSCl. In the conventionally prepared S-C-LPSCl cathode with 
+preloaded sulfur, the sulfur aggregates into micron-sized clus-
+ters. When the intra-agglomerate diffusion of Li + ions is signifi-
+cantly slower than the inter-agglomerate reaction rate, the lithia-
+tion process becomes mass-transport-limited. Conversely, it is 
+considered reaction-rate limited. 3 The relationship between 
+mass transport and interfacial reaction rates was evaluated 
+through modeling of conventional Li-S ASSB lithiation processes 
+(further details regarding the calculation model can be found in 
+Note S2 and Figure S4). Figure 2B presents simulated discharge
+Figure 2. Mass-transport limitations in conventional Li-S ASSBs
+(A) SEM image and EDS maps of conventional S-C-LPSCl cathode. Scale bar: 10 μm.
+(B) Simulated discharge curves of conventional Li-S ASSBs under different kinetic parameters, at an applied current density of 0.1 mA cm − 2 and with a sulfur 
+loading of ∼2 mg s cm − 2 in the cathode.
+(C) Degree of conversion at different discharge states. The reference exchange current density i 0 = 0.01 mA cm − 2 (corresponding to a charge transfer resistance 
+of 2,526 Ω cm 2 , see Equation S12 in Note S2), the discharge current density is 0.1 mA cm − 2 , and the average agglomerate diameters are 4.0 and 1.2 μm. 
+Streamlines indicate ionic current flow, and the degree of conversion is defined as the local Li-ion concentration normalized by that in Li 2 S. Scale bar: 5 μm.
+Joule 10, 102239, February 18, 2026 
+3
+Article
+ll
+
+=== 第 5 页 ===
+curves under different kinetic parameters. For sulfur agglomer-
+ates with an average diameter of 4.0 μm and a charge transfer 
+resistance of 2,526 Ω cm − 2 (corresponding to a reference ex-
+change current density of 0.01 mA cm − 2 , see Note S2), the spe-
+cific discharge capacity reached only 573 mAh g S 
+− 1 . Although 
+improving inter-agglomerate kinetics was recognized as crucial 
+for enhancing performance, even when the charge transfer resis-
+tance was reduced to one-tenth of its original value (correspond-
+ing to a reference exchange current density of 0.1 mA cm − 2 ) to 
+simulate enhanced reaction kinetics, the specific capacity 
+merely improved to 589 mAh g S 
+− 1 . This limitation arises because 
+the low diffusion coefficient restricts intra-agglomerate mass 
+transport. As shown in the upper panel of Figure 2C, which dis-
+plays the degree of conversion at different discharge states. Se-
+vere conversion inhomogeneity was observed within the sulfur 
+agglomerate, resulting in polarization that limits internal sulfur 
+utilization.
+The ratio of the interfacial reaction rate to the mass-transport 
+rate is defined as the dimensionless Damko¨ hler number (Da). 
+Da > 1 indicates the mass transport controlled process, and < 1 
+reaction controlled. The following expression quantifies how 
+each parameter affects Da (details in Note S3 and Figure S5):
+Da = i app 
+nFcDh
+L
+S v
+; 
+(Equation 1)
+where n is the charge transfer number, F is Faraday’s constant, D 
+is the Li-ion diffusion coefficient in the AM, c is the Li-ion concen-
+tration in the AM, iₐₚₚ is the applied current density, h is the elec-
+trode thickness, L is the characteristic length for mass transport, 
+and S v is the effective specific surface area of the AM. For sulfur 
+agglomerates with an average diameter of 4.0 μm, we estimated 
+Da = 8.5, confirming that sulfur conversion was mass-transport 
+controlled, which was consistent with the observed inhomoge-
+neity. Equation 1 reveals that shortening the mass-transport 
+characteristic length L and increasing specific surface area S v 
+are key design strategies for overcoming mass-transport limita-
+tions. To validate this analysis, we simulated discharge curves 
+for the same sulfur volume fraction but with the average agglom-
+erate diameter reduced to 1.2 μm (lower panel of Figure 2C). In 
+that case, Da fell to 1, and intra-agglomerate conversion became 
+more homogeneous, indicating that mass-transport limitations 
+were alleviated. Consequently, the specific discharge capacity 
+increased dramatically to 882 mAh g S ⁻¹ (Figure 2B).
+Contrary to the conventional focus on improving inter-agglom-
+erate kinetics, the above results reveal that overcoming mass-
+transport limitations is critical for advancing Li-S ASSBs. Short-
+ening the characteristic mass-transport length and increasing 
+the AM specific surface area are essential approaches. The con-
+ventional strategy of increasing the AM content in solid-state cath-
+odes to enhance energy density has reached an impasse: 
+increasing the sulfur content inevitably deteriorates mass trans-
+port within agglomerates, leading to more severe polarization.
+Overcoming mass-transport limitations through 
+exploiting the redox activity of SEs
+Instead of increasing the preloaded sulfur, we exploit LPSCl 
+reactivity to form electrochemically AMs. Upon oxidative
+decomposition during charging, LPSCl in situ forms AMs. As 
+shown in Figure S6, thermogravimetric analysis (TGA) and 
+X-ray photoelectron spectroscopy (XPS) indicate the formation 
+of elemental sulfur in the charged LPSCl-C composite. The 
+self-limiting nature of the decomposition products constrains 
+the thickness of the AM layer, which is expected to overcome 
+mass-transport limitations. As shown in Figures 3A and 3B, we 
+simulated how the thickness of the product layer and the oxida-
+tion current density evolved during LPSCl decomposing at a po-
+tential of 2.4 V versus Li/Li + (the simulation method can be found 
+in Note S4 and Figure S7). As the product layer gradually thick-
+ened, the decomposition reaction rate decreased as evidenced 
+by the decreased electronic current densities. This self-limiting 
+behavior kept the thickness of the product layer below 0.7 μm 
+even after 800 min, which constrains the required diffusion 
+length L and thus contributes to overcoming mass-transport lim-
+itations. In addition, the absence of large agglomerates also pre-
+vents blockage of ionic pathways during charging, allowing 
+gradual, more complete conversion of the electrolyte and fuller 
+utilization.
+The pathway to enhancing energy density lies in improving reac-
+tion kinetics. Expanding SE-C interfaces helps enhance the redox 
+activity of LPSCl. Volume ratios of the LPSCl-C composite were 
+optimized to increase effective interfacial area. We prepared a se-
+ries of composites with x vol % graphene (GN) and (100 − x) vol % 
+LPSCl via high-energy ball milling. As shown in Figure 3C, the 
+discharge specific capacity (based on the cathode mass) first 
+increased and then decreased with higher C content. This 
+behavior was mechanistically explained by the randomly gener-
+ated two-phase models to represent the C and LPSCl (top panel 
+of Figure 3C). At ∼45 vol % C, LPSCl formed large clusters with 
+limited interfacial contact with GN, resulting in low discharge ca-
+pacity. By contrast, ∼65 vol % C maximized the effective interfa-
+cial area, enabling the highest capacity in our experiments. 
+Beyond this ratio, excessive C introduced redundant, ineffective 
+C-C interfaces and disrupted ionic transport, thus degrading per-
+formance. To further increase the effective interfacial area, we 
+tested C with distinct specific surface areas, including carbon 
+nanotubes (CNTs), GN, and Ketjen black (KB) (Figure S8), at a fixed 
+content of 10 wt % (∼65 vol %) in LPSCl-C composites. As shown 
+in Figure 3D, CNT, with a fibrous morphology and ∼73 m 2 g − 1 sur-
+face area, which established only limited contact with the SE, 
+delivered a specific capacity of 181 mAh g cat 
+− 1 . By contrast, KB, 
+featuring a highly branched architecture and ∼1,368 m 2 g − 1 sur-
+face area, formed dense interfacial networks that promoted in 
+situ AM formation, resulting in 726 mAh g cat 
+− 1 . GN, possessing a 
+sheet-like structure and intermediate surface area, exhibited mod-
+erate performance consistent with its interfacial characteristics. 
+Figure S9 shows electrochemical impedance spectra (EIS) mea-
+surements of the charge transfer resistances for as-prepared 
+LPSCl-C composites. The lower charge transfer resistance of 
+LPSCl-KB indicates a larger effective interfacial area within the 
+KB-based cathode, further confirming that KB provides more 
+effective interfaces, which promotes in situ AM generation. There-
+fore, the LPSCl/KB composite (90/10, w/w) was selected for the 
+following studies as a cathode material for AM-free ASSBs.
+The constrained size of in situ-formed AM was observed 
+through the SEM images and EDS line profiles of the
+4 
+Joule 10, 102239, February 18, 2026
+Article
+ll
+
+=== 第 6 页 ===
+LPSCl-KB composite cathode cross-section after 127 cycles 
+and charged to 2.8 V versus Li-In/Li⁺ (Figures 3E, 3F, and S10– 
+S12). Based on the contrast in the backscattered electron 
+(BSE) image in Figure 3E, three distinct phases can be clearly
+differentiated. The dark, radially branched phase shows the 
+typical morphology of KB. Also evidenced by the EDS line profile 
+of C (Figure 3F), the intensity decreased gradually from the scan-
+ning origin (0–0.5 μm, the dark branched phase) to the endpoint.
+Figure 3. Design of AM-free ASSBs
+(A) Simulated evolution of decomposition-product layer thickness and current density at the C surface with an applied potential of 2.4 V versus Li/Li⁺.
+(B) Spatial distributions of the decomposition-product volume fraction and electronic current density at various times in the simulation. The curved boundaries in 
+the images denote the C electrode surface, and a volume fraction of 1 represents the decomposition-product phase, while a volume fraction of 0 represents the 
+SE phase. Scale bar: 2 μm.
+(C) Discharge specific capacity of LPSCl-C at RT as a function of the volume fraction of conductive C. The upper panel shows the distribution of SE and 
+conductive C at different volume fractions in randomly generated structures, whereas the lower panel presents experimental results.
+(D) Comparison of discharge specific capacity at RT for LPSCl-C cathodes (10 wt % C) using different types of conductive C versus the specific surface area of 
+the C.
+(E) SEM image of the LPSCl-KB cathode polished by an argon ion beam. Scale bar: 2 μm.
+(F) EDS line scanning across the KB-rich phase to the SE-rich phase in (D). The green, yellow, red, and blue backgrounds indicate regions with relatively high 
+signals of C, P, S, and Cl, respectively.
+(G) Comparison of cathode-level energy density of LPSCl-KB at RT with that of typical cathode materials from the literature. 18–20,23–26,31–43 The red bar represents 
+energy densities of LPSCl-KB achieved in this work, with areal loadings of 6.4 and 12.7 mg cat cm − 2 . The specific data can be found in Table S1.
+Joule 10, 102239, February 18, 2026 
+5
+Article
+ll
+
+=== 第 7 页 ===
+Adjacent to this C-rich region (0–0.5 μm), the interphase (0.5– 
+2.2 μm) was detected with relatively enhanced S and P signals, 
+corresponding to the in situ-formed AM from LPSCl decomposi-
+tion. SEM results reveal that the AM interlayer at the KB bound-
+aries exhibited a submicron scale. Notably, the spatial decou-
+pling of S and P enrichment (stronger P signals at ∼1.6 μm 
+versus dominant S signals at ∼0.6 and ∼1.0 μm) suggests 
+compositional heterogeneity in the in situ-formed AMs, a phe-
+nomenon to be discussed in the following section. Beyond 
+2.5 μm, stable Cl signals originated from SE. These observations 
+align well with our design target. Even after 127 cycles, the in 
+situ-formed AMs remained confined to submicron-scale do-
+mains due to their inherently poor ionic and electronic conductiv-
+ity, which intrinsically limited further thickening and prevented 
+continuous severe SE decomposition, thereby ensuring cycling 
+stability. The AMs covered on the C surfaces, where the high-
+surface-area KB (branched architecture) enlarged interfacial 
+contacts with SE, which directly correlated with the high specific 
+capacity. Based on the SEM results, we estimate a characteristic 
+mass-transport length of ∼1 μm. Combining this value with the 
+specific surface area of KB yields an estimated Damko¨ hler num-
+ber Da of ∼ 0.06 for the LPSCl-KB cathode at an applied current 
+density of 1 mA cm − 2 . A Da significantly below unity indicates 
+that mass transport is no longer the rate-limiting step and that 
+the AM-free design successfully overcomes mass-transport 
+limitations.
+The AM-free design enabled the LPSCl-KB composite cath-
+ode to deliver a cathode-level energy density of 1,174.8 Wh 
+kg cat ⁻¹ at RT and 0.15C, coupled with an areal capacity of 4.2 
+mAh cm − 2 (6.4 mg cat cm − 2 ; Figure S13A). This cathode-level en-
+ergy density at RT was benchmarked in Figure 3G. Furthermore, 
+under higher mass loading of 12.7 mg cat cm − 2 at RT and 0.05C, 
+the cathode achieved a discharge capacity of 8.15 mAh cm − 2 , as 
+shown in Figure S13B.
+Cycling performance of AM-free ASSBs
+We proceeded to evaluate the cycling stability of the composite 
+cathode (LPSCl/KB = 90/10, w/w). The LPSCl-KB|LPSCl|LiIn 
+cell, with an areal loading of 6.4 mg cat cm⁻ 2 , was cycled between 
+0.3 and 2.8 V at 0.64 mA cm⁻ 2 (∼0.2C) and RT. The initial 
+discharge specific capacity reached 574 mAh g cat ⁻¹, followed 
+by a progressive increase over the subsequent 20 cycles 
+(Figure 4A). This was an activation stage where LPSCl decom-
+posed at KB interfaces and formed AMs, which contributed to 
+the increasing capacity. During the stabilized cycling stage, the 
+cell exhibited notable cycling stability, with nearly identical 
+charge-discharge profiles at the 50th and 100th cycles 
+(Figure 4B). Notably, instead of capacity fade, the AM-free cath-
+ode exhibited a slow rise in the specific capacity, achieving an 
+areal capacity of 4.2 mAh cm⁻ 2 (660 mAh g cat ⁻¹) after 127 cycles. 
+This behavior shows that the self-limiting decomposition of sul-
+fide electrolytes simultaneously achieved high AM utilization 
+and maintained the conductivity of the bulk SE.
+These findings also imply that in the prior reports of 
+conventional Li-S ASSBs, the measured capacity might not orig-
+inate entirely from preloaded sulfur. Instead, the in situ-formed 
+sulfur through SE decomposition made non-negligible contribu-
+tions to the overall capacity. Therefore, the specific capacities
+based on sulfur mass (mAh g S 
+− 1 ) are inappropriate, and the 
+cathode-mass-based specific capacity (mAh g cat 
+− 1 ) is more 
+proper for such systems.
+As a comparison, we investigated the cycling performance of 
+the LPSCl-GN composite cathode (Figure S14). The LPSCl-GN 
+cell similarly exhibited gradual capacity growth but plateaued 
+at 384 mAh g cat ⁻¹ after 77 cycles due to GN’s lower surface 
+area. This contrast underscores the important role of maximizing 
+C-SE effective interfacial area in AM-free designs.
+Next, we cycled the LPSCl-KB|LPSCl|LiIn cell at a higher cur-
+rent density of 1.6 mA cm⁻ 2 with an areal loading of 4.84 mg cat 
+cm − 2 at 50 ◦ C (Figure 4C). Consistent with observations at low 
+current density, the capacity evolution exhibited a similar two-
+stage profile: an initial activation stage followed by stable 
+cycling. Even at a relatively large current, the LPSCl-KB cathode 
+retained a capacity of ∼600 mAh g cat ⁻¹, and the discharge ca-
+pacity was 95% of the initial value after 500 cycles.
+The rate capability of the LPSCl-KB|LPSCl|LiIn cell was evalu-
+ated at 50 ◦ C across current densities of 0.32, 0.64, 1.6, 3.2, and 
+6.4 mA cm − 2 , corresponding to approximate C-rates of 0.1C, 
+0.2C, 0.5C, 1C, and 3C, respectively, as shown in Figure 4D, 
+and the voltage profiles at different rates are shown in 
+Figure S15. The composite cathode delivered specific capacities 
+of 641.7, 629.3, 590.7, 558.7, and 485.5 mAh g cat ⁻¹ at these cur-
+rent densities, demonstrating insignificant capacity degradation 
+even at a large current density of 3.2 mA cm − 2 (1C). When re-
+tested at the initial 0.32 mA cm − 2 after high-rate cycling, the ca-
+pacity increased to 667 mAh g cat 
+− 2 , which showed the interfacial 
+reversibility.
+The AM-free cathode design enables simultaneous achieve-
+ment of high-energy density and power density, as demon-
+strated in the Ragone plot (Figure S16). At 3C, LPSCl-KB 
+matched the power density of Ni-Mn-Co-based ternary cath-
+odes 42 while providing approximately twice their energy density.
+Electrochemical reaction pathway of the AM-free 
+cathode
+LPSCl undergoes oxidative decomposition during the first
+charge of the AM-free cathode, and the formed decomposition 
+products serve as redox-AMs in subsequent cycles, enabling
+reversible lithiation and delithiation. The charge-discharge 
+voltage profiles (Figure 4B) and the cyclic voltammetry (CV)
+curves (Figure S17) of LPSCl-KB differed between the initial cy-
+cle and stabilized cycling stages. The initial charging oxidation
+current onset occurred at ∼2.3 V versus Li/Li + , which corre-
+sponds to the upper limit of the LPSCl stability window. The 
+absence of S 8 plateau during the first charge and its appearance 
+in subsequent cycles indicate that active S 8 is generated by
+oxidative decomposition of LPSCl during the initial charge.
+This is further confirmed by XPS results as shown in Figure 5A. 
+In the as-prepared LPSCl-KB sample, only the S 2p peak origi-
+nating from PS 4 
+3− in LPSCl was detected, while in the fully
+charged LPSCl-KB, XPS (Figure 5A, charged to 2.8 V versus 
+Li-In/Li + ) detected an S 2p 3/2 peak at 163.5 eV and an S 2p 1/2
+peak at 164.7 eV, respectively, which were attributed to S 8 . 43
+The detected S 8 was also validated by Raman spectra 
+(Figure S18). The as-prepared LPSCl-KB sample displayed 
+only Raman peaks corresponding to LPSCl and KB, whereas
+6 
+Joule 10, 102239, February 18, 2026
+Article
+ll
+
+=== 第 8 页 ===
+the charged sample exhibited the characteristic peak of S 8 at 
+212 cm − 1 . 44 Further Raman investigation (Figure 5B) identified 
+P 2 S 6 
+4− (384 cm⁻¹) 45–47 and P 2 S 6 
+2− (390 cm⁻¹), 48 with spatial 
+mapping showing their heterogeneous distribution across the 
+cathode cross-section, while the characteristic peak of PS 4 
+3 ⁻ 
+at 425 cm⁻¹ in sulfide electrolytes disappeared. The presence 
+of P 2 S 6 
+2− disrupts Li-ion transport pathway, 48,49 leading to a po-
+larization during the terminal stage of charge (∼80%–100% state 
+of charge [SOC]) as evidenced by a decline in lithium diffusion 
+coefficient D (bottom panel of Figure 5E, obtained from the gal-
+vanostatic intermittent titration technique [GITT] measurements). 
+In addition, P 2 S 5 is also considered a possible oxidation product 
+of LPSCl. 43,50 Furthermore, solid-state ionic conductors could 
+delithiate to form vacancy defects, 51,52 such as Li 2-δ P 2 S 6 . In 
+Figure 4B, the first-cycle charging capacity of LPSCl exceeds 
+the capacity required to form Li 2 P 2 S 6 . Therefore, we believe
+that a portion of Li 2 P 2 S 6 will undergo further delithiation at our 
+charging cutoff voltage, potentially forming Li 2-δ P 2 S 6 or P 2 S 5 . 
+In summary, the initial charging of LPSCl leads to the in situ for-
+mation of AMs such as S 8 , Li 2 P 2 S 6 . These products subse-
+quently undergo reversible delithiation and lithiation during the 
+following charge-discharge cycles.
+During discharging, S 8 is reduced first. Differential-capacity 
+curves (dQ/dV, Figure 5D) show both LPSCl-KB and conven-
+tional S-LPSCl-KB cells exhibited a reduction peak at ∼1.3 V 
+versus Li-In/Li⁺, corresponding to the lithiation of S 8 . However, 
+the conventional cell displayed a single sharp peak, whereas 
+LPSCl-KB exhibited an expanded window with an onset at
+∼1.55 V and a second peak at ∼1.17 V, which is considered to 
+be intermediate lithium polysulfide (LiPS) formation. Raman 
+shifts of the discharged LPSCl-KB (Figure 5C) confirm Li 2 S 
+(373 cm − 1 ) 53 and LiPSs (479 cm − 1 ). 54 These species’ spatial
+Figure 4. Electrochemical performance of LPSCl-KB ASSBs
+(A) Cycling performance of an LPSCl-KB|LPSCl|LiIn cell with a cathode loading of 6.4 mg cat cm − 2 at RT, operated at a current density of 0.64 mA cm − 2 within the 
+voltage range of 0.3–2.8 V.
+(B) Corresponding charge-discharge curves for the 1st, 2nd, 50th, and 100th cycles of (A).
+(C) Cycling performance of an LPSCl-KB|LPSCl|LiIn cell with a cathode loading of 4.84 mg cat cm − 2 at 50 ◦ C, operated at a current density of 1.6 mA cm − 2 within 
+the voltage range of 0.3–2.8 V.
+(D) Rate capability of LPSCl-KB at 50 ◦ C under different current densities.
+Joule 10, 102239, February 18, 2026 
+7
+Article
+ll
+
+=== 第 9 页 ===
+Figure 5. Conversion reaction mechanism of LPSCl-KB
+(A) XPS spectra of S 2p and P 2p for LPSCl-KB at different states: charged to 2.8 and 2.0 V, as-prepared, and discharged to 1.0 and 0.3 V (versus Li-In/Li⁺).
+(B) Raman spectra of LPSCl-KB after charging. Two distinct peaks at 384 and 390 cm − 1 appeared in the LPSCl-KB sample after charging. The former is attributed 
+to P 2 S 6 
+4− and the latter to P 2 S 6 
+2− . The top left panel shows the integrated Raman intensity distribution at 378–386 cm − 1 , representing the distribution of P 2 S 6 
+4 ⁻,
+whereas the top right panel displays the Raman spectrum at point A. The bottom left panel shows the integrated Raman intensity distribution at 386–395 cm − 1 ,
+representing the distribution of P 2 S 6 
+2 ⁻, whereas the bottom right panel shows the Raman spectrum at point B. Scale bar: 5 μm.
+(C) Raman spectra of LPSCl-KB after discharging. The top left panel shows the integrated Raman intensity distribution at 360–385 cm⁻¹, representing the 
+distribution of Li 2 S, whereas the top right panel displays the Raman spectrum at point C. The bottom left panel shows the integrated Raman intensity distribution 
+at 465–485 cm⁻¹, representing the distribution of LiPSs, whereas the bottom right panel shows the Raman spectrum at point D. The peaks at 425 cm⁻¹ shown in 
+this figure were caused by the PS 4 
+3− stretching vibrations. Scale bar: 5 μm.
+(D) dQ/dV curves of stable-cycling LPSCl-KB|LPSCl|LiIn and S-LPSCl-C|LPSCl|LiIn cells.
+(E) GITT and open circuit voltage (OCV) curves of a stable-cycling LPSCl-KB cell, along with the corresponding calculated diffusion coefficients. The main 
+conversion pathways during charge and discharge are shown.
+8 
+Joule 10, 102239, February 18, 2026
+Article
+ll
+
+=== 第 10 页 ===
+distributions were visualized by Raman mapping. XPS of sam-
+ples discharged from 1.0 to 0.3 V versus Li-In/Li + shows the S 
+2p 3/2 peak shifting from 161.4 eV (LiPSs) to 160.1 eV (Li 2 S), 
+consistent with the conversion from LiPSs to Li 2 S. LiPS interme-
+diates are common in liquid Li-S batteries but are seldom 
+observed in conventional Li-S ASSBs due to the high kinetic bar-
+riers for LiPSs. 3 However, we detected these intermediates in 
+LPSCl-KB, demonstrating the improved kinetics. After discharg-
+ing, as shown in the right panels of Figure 5B, the characteristic 
+Raman shift of LPSCl at 425 cm − 1 , which diminished upon full 
+charge, re-emerged (right panels of Figure 5C), indicating the 
+regeneration of PS 4 
+3− species. This indicates that the reduction 
+of S 8 together with Li 2 P 2 S 6 leads to the regeneration of Li 3 PS 4 . 
+The formation of Li 3 PS 4 can also be supported by the diffusion 
+coefficient as shown in Figure 5E. The ionic conductor Li 3 PS 4 
+results in the rising diffusion coefficient (∼50%–25% SOC). 
+An additional small plateau appeared between 0.6 and 0.3 V 
+versus Li-In/Li + , which corresponded to the reduction of Li 3 PS 4 
+to Li 3 P, as evidenced by a new P 2p 3/2 peak at 128.5 eV 
+(Figure 5A, discharged to 0.3 V) after full discharge, which is 
+attributed to Li 3 P.
+During the subsequent charging process, the 0.3–1.7 V range 
+(∼0%–25% SOC in Figure 5E) corresponded to the oxidation of 
+Li 3 P to Li 4 P 4 S 6 and Li 3 PS 4 . The oxidation dQ/dV peak (Figure 5D) 
+at ∼1.8 V (the charge plateau) aligned with conventional Li-S sys-
+tems, corresponding to the generation of S 8 in this range.
+In summary, during the first charge, LPSCl is oxidatively de-
+composed to form LiCl, Li 3 PS 4 , and S 8 . Li 3 PS 4 is further oxidized 
+to Li 2 P 2 S 6 and additional S 8 , and some Li 2 P 2 S 6 undergoes 
+further delithiation to form other products. The main conversion 
+pathways of these AMs during subsequent stable cycling are 
+illustrated in the upper panels of Figure 5E. During discharging, 
+S 8 is first reduced to Li 2 S and Li 3 PS 4 , which provide approxi-
+mately 82% of the total discharge energy, based on the 
+discharge voltage profile in Figure 4B. Further discharge partially 
+reduces Li 3 PS 4 to Li 3 P. During charge, Li 3 P is oxidized to Li 3 PS 4 
+initially, and incomplete oxidation can produce Li 4 P 2 S 6 . The 
+main charge plateau corresponds to the oxidation of Li 2 S to S 8 
+and to the oxidation of Li 3 PS 4 to S 8 and Li 2 P 2 S 6 . Although these 
+conversions are thermodynamically allowed, the high delivered 
+discharge energy density depends critically on the kinetic control 
+of AM-free cathodes. In particular, the in situ generated AMs are 
+inherently electronically and ionically connected, and their sub-
+micron size mitigates transport limitations, making the theoreti-
+cally high-energy-density kinetically accessible. Conventional 
+Li-S ASSBs do not deliver high capacity under the same cutoff 
+voltage (Figure S19).
+In the initial oxidation products of LPSCl, LiCl is inactive and 
+does not participate in redox reactions during cycling. Although 
+its presence reduces specific capacity and energy density, as 
+shown in Figure S20, the chloride-free sulfide SE cathode 
+(L 3 PS 4 -KB) achieves 834 mAh g cat 
+− 1 . We found that the L 3 PS 4 - 
+KB cathode without LiCl retained only 53% of the initial capacity 
+after 120 cycles. Electronically insulating species such as LiCl 
+are thought to impede electron transfer, thereby slowing ongoing 
+electrochemical decomposition and stabilizing the interface. 55 
+Based on this, we speculate the cycling stability of LPSCl-KB 
+is likely related to the relatively low electronic conductivity of
+LiCl, which could help passivate the interface and limit excessive 
+irreversible electrolyte decomposition.
+Enhancing performance through lithium iodide additive 
+The AM-free design has overcome the mass-transport limita-
+tions of conventional Li-S ASSBs. In the new LPSCl-KB system, 
+interfacial reaction kinetics emerge as the next rate-limiting step. 
+A large charge transfer resistance after charging is shown in EIS 
+in Figure 6A (the EIS and the distribution of relaxation time [DRT] 
+analysis during charging and discharging of LPSCl-KB are 
+shown in Figure S21). S 8 as an electronic insulator caused signif-
+icant polarization. As shown in the left panel of Figure 6B, density 
+functional theory (DFT) calculation exhibited a large band gap of
+∼2.4 eV for elemental sulfur. Consequently, we further address 
+charge transfer limitations. Figure S22 illustrates this spiral pro-
+gression. LiI was introduced as an additive into the LPSCl-KB 
+composite cathode (LiI|LPSCl|KB = 5/85.5/9.5 w/w/w). I⁻ ions 
+are expected to oxidize to I 2 during charging in Li-S 
+ASSBs, 19,23 and our interfacial calculations demonstrated that 
+I 2 /S 8 interfaces introduced new energy states within sulfur’s 
+band gap, as shown in Figure 6B, thereby enhancing the com-
+posite cathode electronic conductivity. The addition of LiI mark-
+edly lowered the charge transfer resistance observed in fully 
+charged LiI-modified cathodes (Figure 6A).
+The rate capability of the LPSCl-KB-LiI|LPSCl|LiIn cell was 
+investigated at 0.64, 1.6, 3.2, and 6.4 mA cm − 2 at RT, respec-
+tively, with an areal loading of ∼5.5 mg cat cm − 2 as shown in 
+Figure 6C. At a current density of 0.64 mA cm⁻ 2 (∼0.2C), the 
+composite cathode delivered a specific capacity of 853 mAh 
+g cat ⁻¹, and at 1.6, 3.2, and 6.4 mA cm − 2 (∼0.5C–2C), the capac-
+ities still achieved 820, 612, and 465 mAh g cat ⁻¹.
+The LPSCl-KB-LiI cathode achieved high cathode-level energy 
+density with high areal capacity at RT. As shown in Figure 6D, at 
+0.07C, the discharge areal capacity reached 9.25 mAh cm − 2 , and 
+the energy density at the cathode level achieved 1,278 Wh 
+kg cat 
+− 1 , which was further improved compared with the value of 
+1,174.8 Wh kg cat 
+− 1 achieved by LPSCl-KB. We compared the 
+areal capacities and cathode-level energy densities of reported 
+conventional Li-S ASSBs with this work in Figure S23.
+Next, we tested the cycling stability of the LPSCl-KB-
+LiI|LPSCl|LiIn cell with a cathode loading of 5.35 mg cat cm − 2 
+(Figure 6E). At RT and 1.9 mA cm − 2 (∼0.6C), the specific capac-
+ity was sustained at 81% of the initial capacity over 767 cycles. 
+These indicate that the addition of LiI not only maintained the 
+high specific capacity and stability of LPSCl-KB but also 
+improved the cycling rate, which marks a significant step toward 
+practical high-energy-density solid-state batteries.
+Conclusions and outlook
+Overall, the AM-free ASSB abandons preloaded elemental sulfur 
+and instead utilizes the self-limiting electrochemical decomposi-
+tion of the sulfide SE (LPSCl) to in situ form AMs at the conductive 
+C interfaces. Mechanistic studies indicate that the self-formed 
+AMs contribute capacity via the S/P redox pathway. This strategy 
+overcomes the mass-transport limitations and achieves high-en-
+ergy density and stable cycling. Furthermore, the introduction of 
+the LiI additive optimizes charge transfer, thereby enhancing per-
+formance. This AM-free design demonstrates that improving the
+Joule 10, 102239, February 18, 2026 
+9
+Article
+ll
+
+=== 第 11 页 ===
+Figure 6. Electrochemical performance of LPSCl-KB-LiI
+(A) Impedance spectra of fully charged LPSCl-KB and LPSCl-KB-LiI.
+(B) Density of states (DOS) distribution of elemental sulfur and the I₂/S₈ interface relative to the Fermi level (E f ). Blue represents the DOS of sulfur, red represents 
+the DOS of iodine, yellow spheres represent sulfur atoms, and purple spheres represent iodine atoms.
+(C) Rate capability of LPSCl-KB-LiI at RT under different current densities.
+(D) Charge-discharge curves of LPSCl-KB-LiI|LPSCl|LiIn at RT under current densities of 0.64, 1.3, and 1.6 mA cm − 2 , corresponding to approximately 0.07C, 
+0.14C, and 0.2C, respectively.
+(E) Cycling performance of LPSCl-KB-LiI with a cathode loading of 5.4 mg cat cm − 2 at RT, operated at a current density of 1.9 mA cm − 2.
+10 
+Joule 10, 102239, February 18, 2026
+Article
+ll
+
+=== 第 12 页 ===
+energy density does not necessarily rely solely on increasing AM 
+loading and provides an alternative route: raise the redox activity 
+of the sulfide electrolyte itself.
+METHODS
+SE synthesis
+Stoichiometric amounts of Li 2 S (>99.9%, Alfa Aesar), P 2 S 5 
+(>99.9%, Alfa Aesar), and LiCl (>99.9%, Alfa Aesar) were first 
+mixed and ground to achieve a homogeneous blend. The 
+mixture was then transferred to a zirconia ball-milling jar and pro-
+cessed in a planetary ball mill at 500 rpm for 30 h. After ball mill-
+ing, the powder was heated in an argon atmosphere at 550 ◦ C for
+6 h to obtain LPSCl.
+Cathode preparation
+AM-free cathodes were prepared via high-energy ball milling. 
+LPSCl and conductive C were mixed at a weight ratio of 
+(100 − x):x (where x = 5, 10, 20, 30, and 50) and then loaded 
+into ZrO 2 jars. ZrO 2 balls of 10, 8, 5, and 0.7 mm diameter 
+were added, with a ball-to-material ratio of approximately 30:1. 
+The milling procedure consisted of a milling step (600 rpm, 
+15 min) followed by a rest step (5 min), for a total of 20 h under 
+an argon-protected atmosphere.
+The conductive C materials—CNTs (Chengdu Jiacai Technol-
+ogy), GN (Chengdu Jiacai Technology), and KB ECP-600JD (KB, 
+Lion Specialty Chemicals.)—were used directly without further 
+processing. The resulting AM-free LPSCl-C cathodes had C 
+weight fractions of 5, 10, 20, 30, and 50 wt %, corresponding 
+to volume fractions of 46, 65, 80, 88, and 94 vol %, respectively. 
+For sulfur-based cathodes, sulfur (99.5%, Alfa Aesar) and KB 
+were mixed at a weight ratio of x:10 (where x = 10, 30, and 50), 
+ground for 30 min, and then heated at 155 ◦ C for 12 h. The sul-
+fur-KB composite was subsequently combined with LPSCl at a 
+weight ratio of (x + 10):(90 − x) (where x = 10, 30, and 50), ground 
+for 10 min, and milled using the same ball-milling procedure as the 
+AM-free cathodes. Cathodes with total sulfur weight fractions of 
+10, 30, and 50 wt % were obtained. Cathodes and electrolytes 
+were prepared in an Ar atmosphere with H 2 O and O 2 < 0.1 ppm.
+Cell fabrication
+Cells were fabricated as follows: 70 mg of LPSCl powder was 
+pressed into a pellet (10 mm in diameter) at ∼150 MPa for
+1 min. Cathode powders with the targeted area loading were uni-
+formly spread onto one side of the electrolyte pellet and pressed 
+at ∼765 MPa for 3 min. Lithium foil and indium foil were roll-
+pressed at a mass ratio of 2:98 to form a lithium-indium (LiIn) 
+alloy (∼0.25 mm thickness), which was used as the anode. The 
+LiIn anode was then placed on the opposite side of the electro-
+lyte pellet. Finally, stainless steel was used as the cathode 
+current collector, and copper foil was used as the anode current 
+collector. The assembled cell was compressed at 150 MPa 
+before testing. All the cells were fabricated in an Ar-filled glove-
+box with H 2 O and O 2 < 0.1 ppm.
+Materials characterization
+The cross-sectional morphology of the LPSCl-KB cathode was 
+analyzed using a scanning electron microscope and energy-
+dispersive X-ray spectrometer (JEOL, JSM-7900F, Japan). Prior 
+to SEM-EDS analysis, the cross-section of the sample was pol-
+ished using a cross-section polisher (JEOL, IB-19520CCP, 
+Japan). The sample was transferred under an Ar atmosphere 
+to avoid air exposure.
+To prepare the sample for Raman measurement, the LPSCl-
+KB|LPSCl|LiIn cell was removed from the cell mold using a sepa-
+rator. The cross-section was then cut with a ceramic blade. 
+Subsequently, the sample was placed in a custom-made 
+argon-protected optical chamber. Raman spectra were ob-
+tained using a HORIBA LabRAM HR Evolution Raman system 
+with a 633 nm excitation laser and a 50× objective lens.
+The XPS samples were prepared in the glove box and trans-
+ferred through a vacuum transfer chamber to the Thermo Scien-
+tific K-Alpha X-ray photoelectron spectrometer for probing. 
+Nitrogen gas adsorption was performed to obtain specific 
+surface area for different conductive Cs based on the 
+Brunauer-Emmett-Teller (BET) method with a surface area 
+analyzer (Micromeritics, ASAP2460, USA).
+Electrochemical testing
+Cells were cycled under a stack pressure of ∼50 MPa at either 
+50 ◦ C in a thermal chamber or at RT using a battery testing sys-
+tem (Land CT2001A). All battery cycling was conducted inside 
+the glove box (H 2 O, O 2 < 0.1 ppm).
+Impedance spectra were measured using an electrochemi-
+cal workstation (Bio-Logic VSP-300) over a frequency range 
+of 1 Hz to 6 MHz, with 8 points measured per decade. A sinu-
+soidal alternating voltage with an amplitude of 10 mV was
+applied. 
+A pulse current of 0.2 mA cm − 2 was applied for 1 h during the 
+GITT measurement, followed by a 5-h relaxation at RT. The 
+lithium diffusion coefficients were calculated using the following 
+equation:
+D = 4 
+πτ
+( n m V m 
+S
+) 2 (ΔE s
+ΔE t
+) 2
+; 
+(Equation 2)
+where τ is the duration of the current pulse, n m is the molar num-
+ber, V m is the molar volume of the electrode material, S is the 
+contact area between the electrode and electrolyte, ΔE S is the 
+change in the steady-state voltage change during the relaxation 
+period after each constant current titration, and ΔE t is the total 
+voltage change during the constant current pulse.
+DFT calculations
+DFT calculations in this study were performed using the 
+Vienna Ab Initio Simulation Package (VASP) 56 within the 
+projector-augmented wave (PAW) method. 57 The exchange-
+correlation functional was the generalized gradient approxima-
+tion (GGA) of Perdew-Burke-Ernzerhof (PBE). The plane-wave 
+energy cutoff was set to 520 eV. Geometry optimizations 
+and electronic property calculations employed Γ-centered
+Monkhorst-Pack k-point sampling with a density of 0.04 A˚ − 1.
+The convergence criterion for electronic steps was 10 − 5 eV, 
+and all structures were relaxed until all forces were less than
+0.01 eV A 
+˚ − 1.
+Joule 10, 102239, February 18, 2026 
+11
+Article
+ll
+
+=== 第 13 页 ===
+RESOURCE AVAILABILITY
+Lead contact
+Further information and requests for resources should be directed to and will 
+be fulfilled by the lead contact, Weigang Ma (maweigang@tsinghua.edu.cn).
+Materials availability
+This study did not generate new, unique reagents.
+Data and code availability
+This study did not generate or analyze datasets or code. All data needed to 
+evaluate the conclusions in the study are presented in the paper or 
+supplemental information. All data are available from the corresponding au-
+thors upon reasonable requests.
+ACKNOWLEDGMENTS
+This work was supported by the National Natural Science Foundation of China 
+(grant no. 52130602) and the Tsinghua University Initiative Scientific Research 
+Program (International Joint Mission on Climate Change and Carbon 
+Neutrality).
+AUTHOR CONTRIBUTIONS
+Conceptualization, W.M., Z.G., and S.W.; investigation, W.M., Z.G., S.W., and 
+X.Z.; formal analysis, Z.G. and S.W.; supervision, W.M. and X.Z.; funding 
+acquisition, W.M. and X.Z.; methodology, Z.G. and S.W.; validation, Z.G. 
+and S.W.; visualization, Z.G. and S.W.; writing – original draft, Z.G. and 
+S.W.; writing – review & editing, Z.G., S.W., X.Z., and W.M.
+DECLARATION OF INTERESTS
+The authors declare no competing interests.
+SUPPLEMENTAL INFORMATION
+Supplemental information can be found online at https://doi.org/10.1016/j. 
+joule.2025.102239.
+Received: May 15, 2025 
+Revised: July 16, 2025 
+Accepted: November 12, 2025 
+Published: January 16, 2026
+REFERENCES
+1. Manthiram, A., Fu, Y., Chung, S.H., Zu, C., and Su, Y.S. (2014). Recharge-
+able Lithium -Sulfur Batteries. Chem. Rev. 114, 11751–11787. https://doi. 
+org/10.1021/cr500062v.
+2. Bhargav, A., He, J., Gupta, A., and Manthiram, A. (2020). Lithium-Sulfur 
+Batteries: Attaining the Critical Metrics. Joule 4, 285–291. https://doi. 
+org/10.1016/j.joule.2020.01.001.
+3. Kim, J.T., Su, H., Zhong, Y., Wang, C., Wu, H., Zhao, D., Wang, C., Sun, X., 
+and Li, Y. (2024). All-solid-state lithium–sulfur batteries through a reaction 
+engineering lens. Nat. Chem. Eng. 1, 400–410. https://doi.org/10.1038/ 
+s44286-024-00079-5.
+4. Wang, D., Jhang, L.J., Kou, R., Liao, M., Zheng, S., Jiang, H., Shi, P., Li, 
+G.X., Meng, K., and Wang, D. (2023). Realizing high-capacity all-solid-
+state lithium-sulfur batteries using a low-density inorganic solid-state 
+electrolyte. Nat. Commun. 14, 1–10. https://doi.org/10.1038/s41467-
+023-37564-z.
+5. Chung, W.J., Griebel, J.J., Kim, E.T., Yoon, H., Simmonds, A.G., Ji, H.J., 
+Dirlam, P.T., Glass, R.S., Wie, J.J., Nguyen, N.A., et al. (2013). The use 
+of elemental sulfur as an alternative feedstock for polymeric materials. 
+Nat. Chem. 5, 518–524. https://doi.org/10.1038/nchem.1624.
+6. Yang, X., Luo, J., and Sun, X. (2020). Towards high-performance solid-
+state Li-S batteries: From fundamental understanding to engineering 
+design. Chem. Soc. Rev. 49, 2140–2195. https://doi.org/10.1039/ 
+c9cs00635d.
+7. Kim, J.T., Hao, X., Wang, C., and Sun, X. (2023). Cathode materials for sin-
+gle-phase solid-solid conversion Li-S batteries. Matter 6, 316–343. 
+https://doi.org/10.1016/j.matt.2022.11.019.
+8. Janek, J., and Zeier, W.G. (2016). A solid future for battery development. 
+Nat. Energy 1, 1–4. https://doi.org/10.1038/nenergy.2016.141.
+9. Zhao, Q., Stalin, S., Zhao, C.Z., and Archer, L.A. (2020). Designing solid-
+state electrolytes for safe, energy-dense batteries. Nat. Rev. Mater. 5, 
+229–252. https://doi.org/10.1038/s41578-019-0165-5.
+10. Gu, Z., Song, D., Luo, S., Liu, H., Sun, X., and Zhu, L. (2023). Insights into 
+the Anode-Initiated and Grain Boundary-Initiated Mechanisms for 
+Dendrite Formation in All-Solid-State Lithium Metal Batteries. Adv. Energy 
+Mater. 13, 2302945. https://doi.org/10.1002/aenm.202302945.
+11. Ning, Z., Li, G., Melvin, D.L.R., Chen, Y., Bu, J., Spencer-Jolly, D., Liu, J., 
+Hu, B., Gao, X., Perera, J., et al. (2023). Dendrite initiation and propagation 
+in lithium metal solid-state batteries. Nature 618, 287–293. https://doi.org/ 
+10.1038/s41586-023-05970-4.
+12. Wan, H., Wang, Z., Zhang, W., He, X., and Wang, C. (2023). Interface 
+design for all-solid-state lithium batteries. Nature 623, 739–744. https:// 
+doi.org/10.1038/s41586-023-06653-w.
+13. Luo, S., Wang, Z., Li, X., Liu, X., Wang, H., Ma, W., Zhang, L., Zhu, L., and 
+Zhang, X. (2021). Growth of lithium-indium dendrites in all-solid-state 
+lithium-based batteries with sulfide electrolytes. Nat. Commun. 12, 
+6968. https://doi.org/10.1038/s41467-021-27311-7.
+14. Ren, W., Ma, W., Zhang, S., and Tang, B. (2019). Recent advances in shut-
+tle effect inhibition for lithium sulfur batteries. Energy Storage Mater. 23, 
+707–732. https://doi.org/10.1016/j.ensm.2019.02.022.
+15. Pang, Q., Liang, X., Kwok, C.Y., and Nazar, L.F. (2016). Advances in 
+lithium-sulfur batteries based on multifunctional cathodes and electro-
+lytes. Nat. Energy 1, 1–11. https://doi.org/10.1038/nenergy.2016.132.
+16. Janek, J., and Zeier, W.G. (2023). Challenges in speeding up solid-state 
+battery development. Nat. Energy 8, 230–240. https://doi.org/10.1038/ 
+s41560-023-01208-9.
+17. Wu, F., and Yushin, G. (2017). Conversion cathodes for rechargeable 
+lithium and lithium-ion batteries. Energy Environ. Sci. 10, 435–459. 
+https://doi.org/10.1039/c6ee02326f.
+18. Wang, D., Gwalani, B., Wierzbicki, D., Singh, V., Jhang, L.J., Rojas, T., 
+Kou, R., Liao, M., Ye, L., Jiang, H., et al. (2025). Overcoming the conver-
+sion reaction limitation at three-phase interfaces using mixed conductors 
+towards energy-dense solid-state Li–S batteries. Nat. Mater. 24, 243–251. 
+https://doi.org/10.1038/s41563-024-02057-x.
+19. Song, H., Mu¨ nch, K., Liu, X., Shen, K., Zhang, R., Weintraut, T., Yusim, Y., 
+Jiang, D., Hong, X., Meng, J., et al. (2025). All-solid-state Li-S batteries 
+with fast solid-solid sulfur reaction. Nature 637, 846–853. https://doi.org/ 
+10.1038/s41586-024-08298-9.
+20. Kim, H., Choi, H.N., Hwang, J.Y., Yoon, C.S., and Sun, Y.K. (2023). 
+Tailoring the Interface between Sulfur and Sulfide Solid Electrolyte for 
+High-Areal-Capacity All-Solid-State Lithium-Sulfur Batteries. ACS Energy 
+Lett. 8, 3971–3979. https://doi.org/10.1021/acsenergylett.3c01473.
+21. Luo, Y., Pan, S., Tian, J.Y., Liang, Y., Zhong, H., Ma, R., Gu, J., Wu, Y., 
+Zhang, H., Lin, H., et al. (2024). Engineering Triple-Phase Interfaces with 
+Hierarchical Carbon Nanocages for High-Areal-Capacity All-Solid-State 
+Li-S Batteries. Adv. Mater. 36, e2413325. https://doi.org/10.1002/adma. 
+202413325.
+22. Hu, Z., Geng, C., Shi, J., Li, Q., Yang, H., Jiang, M., Wang, L., Yang, Q.H., 
+and Lv, W. (2024). In Situ Welding Ionic Conductive Breakpoints for Highly 
+Reversible All-Solid-State Lithium-Sulfur Batteries. J. Am. Chem. Soc. 
+146, 34023–34032. https://doi.org/10.1021/jacs.4c13126.
+23. Kim, J.T., Rao, A., Nie, H.Y., Hu, Y., Li, W., Zhao, F., Deng, S., Hao, X., Fu, 
+J., Luo, J., et al. (2023). Manipulating Li2S2/Li2S mixed discharge
+12 
+Joule 10, 102239, February 18, 2026
+Article
+ll
+
+=== 第 14 页 ===
+products of all-solid-state lithium sulfur batteries for improved cycle life. 
+Nat. Commun. 14, 6404. https://doi.org/10.1038/s41467-023-42109-5.
+24. Hou, L.P., Yuan, H., Zhao, C.Z., Xu, L., Zhu, G.L., Nan, H.X., Cheng, X.B., 
+Liu, Q.B., He, C.X., Huang, J.Q., et al. (2020). Improved interfacial elec-
+tronic contacts powering high sulfur utilization in all-solid-state lithium– 
+sulfur batteries. Energy Storage Mater. 25, 436–442. https://doi.org/10. 
+1016/j.ensm.2019.09.037.
+25. Zhou, J., Holekevi Chandrappa, M.L., Tan, S., Wang, S., Wu, C., Nguyen, 
+H., Wang, C., Liu, H., Yu, S., Miller, Q.R.S., et al. (2024). Healable and 
+conductive sulfur iodide for solid-state Li – S batteries. Nature 627, 
+301–305. https://doi.org/10.1038/s41586-024-07101-z.
+26. Qian, X., Lyu, Y., Zhou, S., Qiu, Y., Sun, Y., Yuan, Y., and Shao, M. (2024). 
+Enhancing Long Stability of Solid-State Batteries Through High-Energy 
+Ball Milling-Induced Decomposition of Sulfide-Based Electrolyte to Sulfur. 
+Adv. Mater. 36, e2412319. https://doi.org/10.1002/adma.202412319.
+27. Guo, R., Zhang, K., Zhao, W., Hu, Z., Li, S., Zhong, Y., Yang, R., Wang, X., 
+Wang, J., Wu, C., et al. (2023). Interfacial Challenges and Strategies to-
+ward Practical Sulfide-Based Solid-State Lithium Batteries. Energy Mater. 
+Adv. 4, 1–31. https://doi.org/10.34133/energymatadv.0022.
+28. Jeong, S., Li, Y., Sim, W.H., Mun, J., Kim, J.K., and Jeong, H.M. (2023). 
+Advances of sulfide-type solid-state batteries with negative electrodes: 
+Progress and perspectives. EcoMat 5, 1–28. https://doi.org/10.1002/ 
+eom2.12338.
+29. Li, X., Liang, J., Banis, M.N., Luo, J., Wang, C., Li, W., Li, X., Sun, Q., Hu, Y., 
+Xiao, Q., et al. (2020). Totally compatible P4S10+n cathodes with self-
+generated Li+ pathways for sulfide-based all-solid-state batteries. Energy 
+Storage Mater. 28, 325–333. https://doi.org/10.1016/j.ensm.2020.03.014.
+30. Zhu, Y., He, X., and Mo, Y. (2015). Origin of Outstanding Stability in the 
+Lithium Solid Electrolyte Materials: Insights from Thermodynamic Ana-
+lyses Based on First-Principles Calculations. ACS Appl. Mater. Interfaces 
+7, 23685–23693. https://doi.org/10.1021/acsami.5b07517.
+31. Shen, K., Shi, W., Song, H., Zheng, C., Yan, Y., Hong, X., Liu, X., An, Y., Li, 
+Y., Ye, F., et al. (2025). Solid Catholyte with Regulated Interphase Redox 
+for All-Solid-State Lithium-Sulfur Batteries. Adv. Mater. 37, e2417171. 
+https://doi.org/10.1002/adma.202417171.
+32. Wang, C., Yu, R., Hwang, S., Liang, J., Li, X., Zhao, C., Sun, Y., Wang, J., 
+Holmes, N., Li, R., et al. (2020). Single crystal cathodes enabling high-per-
+formance all-solid-state lithium-ion batteries. Energy Storage Mater. 30, 
+98–103. https://doi.org/10.1016/j.ensm.2020.05.007.
+33. Peng, L., Ren, H., Zhang, J., Chen, S., Yu, C., Miao, X., Zhang, Z., He, Z., 
+Yu, M., Zhang, L., et al. (2021). LiNbO3-coated LiNi0.7Co0.1Mn0.2O2 and 
+chlorine-rich argyrodite enabling high-performance solid-state batteries 
+under different temperatures. Energy Storage Mater. 43, 53–61. https:// 
+doi.org/10.1016/j.ensm.2021.08.028.
+34. Tanaka, Y., Ueno, K., Mizuno, K., Takeuchi, K., Asano, T., and Sakai, A. 
+(2023). New Oxyhalide Solid Electrolytes with High Lithium Ionic Conduc-
+tivity >10 mS cm− 1 for All-Solid-State Batteries. Angew. Chem. Int. Ed. 
+62, e202217581. https://doi.org/10.1002/anie.202217581.
+35. Wan, Z., Lei, D., Yang, W., Liu, C., Shi, K., Hao, X., Shen, L., Lv, W., Li, B., 
+Yang, Q.H., et al. (2019). Low Resistance–Integrated All-Solid-State Bat-
+tery Achieved by Li7La3Zr2O12 Nanowire Upgrading Polyethylene Oxide 
+(PEO) Composite Electrolyte and PEO Cathode Binder. Adv. Funct. Mater. 
+29, 1–10. https://doi.org/10.1002/adfm.201805301.
+36. Zuo, T.T., Walther, F., Teo, J.H., Rueß, R., Wang, Y., Rohnke, M., 
+Schro¨ der, D., Nazar, L.F., and Janek, J. (2023). Impact of the Chlorination 
+of Lithium Argyrodites on the Electrolyte/Cathode Interface in Solid-State 
+Batteries. Angew. Chem. Int. Ed. 62, e202213228. https://doi.org/10. 
+1002/anie.202213228.
+37. Park, K.H., Oh, D.Y., Choi, Y.E., Nam, Y.J., Han, L., Kim, J.Y., Xin, H., Lin, 
+F., Oh, S.M., and Jung, Y.S. (2016). Solution-Processable Glass LiI-
+Li4SnS4 Superionic Conductors for All-Solid-State Li-Ion Batteries. Adv. 
+Mater. 28, 1874–1883. https://doi.org/10.1002/adma.201505008.
+38. Wu, Y., Zhou, K., Ren, F., Ha, Y., Liang, Z., Zheng, X., Wang, Z., Yang, W., 
+Zhang, M., Luo, M., et al. (2022). Highly reversible Li2RuO3 cathodes in 
+sulfide-based all solid-state lithium batteries. Energy Environ. Sci. 15, 
+3470–3482. https://doi.org/10.1039/d2ee01067d.
+39. Gao, X., Liu, B., Hu, B., Ning, Z., Jolly, D.S., Zhang, S., Perera, J., Bu, J., 
+Liu, J., Doerrer, C., et al. (2022). Solid-state lithium battery cathodes oper-
+ating at low pressures. Joule 6, 636–646. https://doi.org/10.1016/j.joule. 
+2022.02.008.
+40. Fu, J., Wang, C., Wang, S., Reid, J.W., Liang, J., Luo, J., Kim, J.T., Zhao, 
+Y., Yang, X., Zhao, F., et al. (2025). A cost-effective all-in-one halide mate-
+rial for all-solid-state batteries. Nature 643, 111–118. https://doi.org/10. 
+1038/s41586-025-09153-1.
+41. Cui, L., Zhang, S., Ju, J., Liu, T., Zheng, Y., Xu, J., Wang, Y., Li, J., Zhao, J., 
+Ma, J., et al. (2024). A cathode homogenization strategy for enabling long-
+cycle-life all-solid-state lithium batteries. Nat. Energy 9, 1084–1094. 
+https://doi.org/10.1038/s41560-024-01596-6.
+42. Ye, L., and Li, X. (2021). A dynamic stability design strategy for lithium 
+metal solid state batteries. Nature 593, 218–222. https://doi.org/10. 
+1038/s41586-021-03486-3.
+43. Tan, D.H.S., Wu, E.A., Nguyen, H., Chen, Z., Marple, M.A.T., Doux, J.M., 
+Wang, X., Yang, H., Banerjee, A., and Meng, Y.S. (2019). Elucidating 
+Reversible Electrochemical Redox of Li6PS5Cl Solid Electrolyte. ACS En-
+ergy Lett. 4, 2418–2427. https://doi.org/10.1021/acsenergylett.9b01693.
+44. Cao, D., Sun, X., Li, F., Bak, S.M., Ji, T., Geiwitz, M., Burch, K.S., Du, Y., 
+Yang, G., and Zhu, H. (2023). Understanding Electrochemical Reaction 
+Mechanisms of Sulfur in All-Solid-State Batteries through Operando and 
+Theoretical Studies. Angew. Chem. Int. Ed. 62, e202302363. https://doi. 
+org/10.1002/anie.202302363.
+45. Sang, L., Haasch, R.T., Gewirth, A.A., and Nuzzo, R.G. (2017). Evolution at 
+the Solid Electrolyte/Gold Electrode Interface during Lithium Deposition 
+and Stripping. Chem. Mater. 29, 3029–3037. https://doi.org/10.1021/ 
+acs.chemmater.7b00034.
+46. Hassoun, J., Verrelli, R., Reale, P., Panero, S., Mariotto, G., Greenbaum, 
+S., and Scrosati, B. (2013). A structural, spectroscopic and electrochem-
+ical study of a lithium ion conducting Li10GeP2S12 solid electrolyte. 
+J. Power Sources 229, 117–122. https://doi.org/10.1016/j.jpowsour. 
+2012.11.130.
+47. Mizuno, F., Ohtomo, T., Hayashi, A., Tadanaga, K., and Tatsumisago, M. 
+(2006). Lithium ion conducting solid electrolytes prepared from Li2S, 
+elemental P and S. Solid State Ionics 177, 2753–2757. https://doi.org/ 
+10.1016/j.ssi.2006.04.024.
+48. Dietrich, C., Weber, D.A., Culver, S., Senyshyn, A., Sedlmaier, S.J., Indris, 
+S., Janek, J., and Zeier, W.G. (2017). Synthesis, Structural Characteriza-
+tion, and Lithium Ion Conductivity of the Lithium Thiophosphate 
+Li2P2S6. Inorg. Chem. 56, 6681–6687. https://doi.org/10.1021/acs.inorg-
+chem.7b00751.
+49. Wang, Y., Richards, W.D., Ong, S.P., Miara, L.J., Kim, J.C., Mo, Y., and 
+Ceder, G. (2015). Design principles for solid-state lithium superionic con-
+ductors. Nat. Mater. 14, 1026–1031. https://doi.org/10.1038/nmat4369.
+50. Auvergniot, J., Cassel, A., Foix, D., Viallet, V., Seznec, V., and Dedryve` re, 
+R. (2017). Redox activity of argyrodite Li6PS5Cl electrolyte in all-solid-
+state Li-ion battery: An XPS study. Solid State Ionics 300, 78–85. 
+https://doi.org/10.1016/j.ssi.2016.11.029.
+51. Chen, C.C., Fu, L., and Maier, J. (2016). Synergistic, ultrafast mass storage 
+and removal in artificial mixed conductors. Nature 536, 159–164. https:// 
+doi.org/10.1038/nature19078.
+52. Schwietert, T.K., Arszelewska, V.A., Wang, C., Yu, C., Vasileiadis, A., de 
+Klerk, N.J.J., Hageman, J., Hupfer, T., Kerkamm, I., Xu, Y., et al. (2020). 
+Clarifying the relationship between redox activity and electrochemical sta-
+bility in solid electrolytes. Nat. Mater. 19, 428–435. https://doi.org/10. 
+1038/s41563-019-0576-0.
+53. Luo, S., Liu, X., Zhang, X., Wang, X., Wang, Z., Zhang, Y., Wang, H., Ma, 
+W., Zhu, L., and Zhang, X. (2022). Nanostructure of the Interphase Layer
+Joule 10, 102239, February 18, 2026 
+13
+Article
+ll
+
+=== 第 15 页 ===
+between a Single Li Dendrite and Sulfide Electrolyte in All-Solid-State Li 
+Batteries. ACS Energy Lett. 7, 3064–3071. https://doi.org/10.1021/acse-
+nergylett.2c01543.
+54. Hannauer, J., Scheers, J., Fullenwarth, J., Fraisse, B., Stievano, L., and Jo-
+hansson, P. (2015). The Quest for Polysulfides in Lithium-Sulfur Battery 
+Electrolytes: An Operando Confocal Raman Spectroscopy Study. Chem-
+PhysChem 16, 2755–2759. https://doi.org/10.1002/cphc.201500448.
+55. Zhu, Y., He, X., and Mo, Y. (2016). First principles study on electrochemical 
+and chemical stability of solid electrolyte-electrode interfaces in all-solid-
+state Li-ion batteries. J. Mater. Chem. A 4, 3253–3266. https://doi.org/10. 
+1039/c5ta08574h.
+56. Kresse, G., and Furthmu¨ ller, J. (1996). Efficient iterative schemes for ab in-
+itio total-energy calculations using a plane-wave basis set. Phys. Rev. B 
+Condens. Matter 54, 11169–11186. https://doi.org/10.1103/PhysRevB. 
+54.11169.
+57. Blo¨ chl, P.E. (1994). PROJECTOR AUGMENTED-WAVE METHOD. Phys. 
+Rev. B Condens. Matter 50, 17953–17979. https://doi.org/10.1103/Phys-
+RevB.50.17953.
+14 
+Joule 10, 102239, February 18, 2026
+Article
+ll
+

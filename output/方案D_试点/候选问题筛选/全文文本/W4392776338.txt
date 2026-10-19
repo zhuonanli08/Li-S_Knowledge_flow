@@ -1,0 +1,1135 @@
+=== 第 1 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+1 of 14
+M AT E R I A L S S C I E N C E
+Regulate transportation of ions and polysulfides in 
+all–solid-­state Li-­S batteries using ordered-­MOF 
+composite solid electrolyte
+Jia Li1†, Fangxi Xie2†, Weiwei Pang3, Qingyou Liang4, Xianfeng Yang4, Lei Zhang1*
+A dilemma arises when striving to balance the maximum desired ion conductivity and minimize the undesired 
+lithium polysulfide shuttling effect for all–solid-­state lithium-­sulfur batteries (ASSLSBs). Here, we introduce a 
+strategy of using ordered MIL-­125–NH2 as fillers for poly(ethylene oxide)–based electrolytes to simultaneously 
+regulate the transportation of lithium ions and polysulfides. When compared to electrolytes lacking metal-­organic 
+frameworks (MOFs) and those containing disordered MOFs, the electrolyte featuring an ordered-­MOF structure, 
+denoted as three-­dimensional (3D) MPPL composite solid electrolyte (CSE), exhibits the highest ion conductivity 
+of 8.3 × 10−4 siemens per centimeter at 60°C. As a result, pouch-­type ASSLSBs with 3D MPPL CSE maintains stable 
+cycling for 400 cycles at 0.5 C at 60°C, showcasing the successful implementation of this strategy in simultane-
+ously regulating ion and polysulfide transport. This approach opens up alternative avenues to achieve high-­
+performance ASSLSBs with exceptional energy density.
+INTRODUCTION
+Lithium-­sulfur (Li-­S) batteries are considered one of the most prom-
+ising candidates to satisfy the emerging market demands for energy 
+storage (1, 2). On the basis of the S/S2− and Li+/Li redox couples, Li-­S 
+batteries can offer a high theoretical capacity (1675 mAh g−1) and, 
+consequently, a high energy density (3–6). Furthermore, the utiliza-
+tion of elemental sulfur, which has abundant reserves on Earth, offers 
+a much lower cost (~$100 per ton) than conventional layered cath-
+odes with precious transition metal elements (for example, $75,000 
+per ton for Co) (7). In the realm of Li-­S battery research, all–solid-­
+state Li-­S batteries (ASSLSBs) have emerged as a highly promising 
+avenue for their practical realization (8–10). Specifically, the incorpo-
+ration of solid-­state electrolytes (SSEs) in ASSLSBs, characterized by 
+their intriguing physicochemical attributes, such as nonflammability, 
+noncorrosiveness, nonvolatility, and leak-­proof qualities, provides a 
+level of safety superior to that of conventional Li-­S batteries using liq-
+uid electrolytes (11). Furthermore, the high Young’s modulus of SSEs 
+enhances resilience against lithium dendrite formation, thereby bol-
+stering overall safety (12). Furthermore, ASSLSBs eliminate the need 
+for liquid electrolytes, rendering them more straightforward to man-
+ufacture compared to traditional Li-­S batteries while also endowing 
+them with superior energy density as energy storage devices. Al-
+though ASSLSBs hold great promise, they are not without any chal-
+lenges (12). A notable hurdle lies in the rigid interaction between 
+inorganic solid electrolytes and active materials in the solid-­solid inter-
+face. The innate rigidity and brittleness of inorganic solid electrolytes 
+can lead to increased interfacial impedance with the electrodes (7, 13). 
+What exacerbates this issue is the substantial volumetric expansion of 
+79% during the lithiation process of sulfur, as it transforms from S8 to 
+Li2S. This expansion can result in contact loss and the formation of 
+irreversible Li2S, leading to the chemomechanical failure of ASSLSBs (9, 
+14, 15). Therefore, developing SSEs for ASSLSBs with optimized 
+transportation and prolonged cycle life is desired but remains a 
+challenge.
+Solid polymer electrolytes (SPEs), such as poly(ethylene oxide) 
+(PEO), polyacrylonitrile (PAN), and poly(vinylidene fluoride), are 
+highly flexible. They can offer intimate interfacial contact with 
+electrodes and avoid the fragile issue of their inorganic analogs, 
+thus extending the cycle life of ASSLSBs (16). Unfortunately, de-
+spite their superiorities, SPEs always exhibit low ion conductivity 
+(10−5 to 10−10 S cm−1) at room temperature (17, 18). Therefore, 
+maximizing ionic conductivity stands as a notable focal point in 
+the study of SPEs (9). On the other hand, plenty of long-­/mid-­
+chain polysulfides (LiPSs) (Li2Sn, n ≥ 4) are formed because of the 
+reduction of S in the cycling process of Li-­S batteries (3–6). The 
+similar molecular structure between LiPSs and polymer electro-
+lytes, particularly PEO-­based electrolytes, results in the dissolu-
+tion of LiPSs, which is also known as the “shuttle effect” of LiPSs 
+(19, 20). This has been considered as the key reason of irreversible 
+loss of active materials and rapid capacity degradation of Li-­S bat-
+teries (21). Thus, minimizing the undesired LiPSs shuttle effect 
+remains one of the foremost concerns in the field of Li–S batteries 
+(19, 20). The simultaneous pursuit of both maximum ion conduc-
+tivity and minimum LiPSs shuttle presents a dilemma for ASSLSBs, 
+hence demanding a feasible strategy to selectively optimize trans-
+portation in SPEs.
+Metal-­organic frameworks (MOFs), porous crystalline inorganic-­
+organic materials with tunable pore sizes, offer a unique capability 
+to selectively separate various molecules (12, 22–26). This remark-
+able capability of MOFs for selective separation can serve as a po-
+tential approach to regulate the transportation of ions and LiPSs 
+simultaneously if MOFs are incorporated to ASSLSBs as inorganic 
+fillers into polymer matrices (12, 27–34). However, when using the 
+conventional solvent casting method for MOFs–polymer composite 
+solid electrolytes (CSEs), MOF particles are often distributed in a 
+disordered and discontinuous manner within the polymer matrix 
+1School of Chemistry and Chemical Engineering, Guangdong Provincial Key Lab-
+oratory of Advanced Energy Storage Materials, South China University of Tech-
+nology, Guangzhou 510640, P. R. China. 2School of Chemical Engineering and 
+Technology, Sun Yat–Sen University, Zhuhai 519082, P. R. China. 3Petrochemical 
+Research Institute, PetroChina Company Limited, Beijing 102206, P. R. China. 
+4Analytical and Testing Centre, South China University of Technology, Guangzhou 
+510640, P. R. China.
+*Corresponding author. Email: celeizhang@​scut.​edu.​cn
+†These authors contributed equally to this work.
+Copyright © 2024 The 
+Authors, some rights 
+reserved; exclusive 
+licensee American 
+Association for the 
+Advancement of 
+Science. No claim to 
+original U.S. 
+Government Works. 
+Distributed under a 
+Creative Commons 
+Attribution 
+NonCommercial 
+License 4.0 (CC BY-­NC). 
+
+=== 第 2 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+2 of 14
+(35, 36). The disordered and discontinuous distribution of MOFs 
+may result in nonuniform Li+ deposition and disruption of Li+ trans-
+portation, thus consequently promoting lithium dendrite growth 
+and reducing Li+ conductivity, respectively (37). This hinders the ef-
+fective utilization of the selective regulating capability of MOFs (36, 
+38). Despite the selective regulating capability that MOFs can offer, 
+the implantation of such a capability in MOF-­related CSEs for 
+ASSLSBs remains a challenge.
+Herein, we propose a strategy of using ordered MOF as fillers to 
+prepare MOF-­related CSEs for ASSLSBs, enabling simultaneously 
+regulated transportation of ions and LiPSs. As a proof of concept, 
+ordered distribution of MIL-­125–NH2 within a PEO-­based electro-
+lyte (denoted as 3D MPPL CSE) was successfully prepared through 
+electrospinning and the following calendaring approach. Three-­
+dimensional (3D) MPPL CSE, featured with an ordered distributed 
+MIL-­125–NH2 structure, provides highly ordered channels, facili-
+tating the strong dissociation of lithium salt and inducing uniform 
+Li+ transport. As a result, the ionic conductivity of 3D MPPL CSE is 
+as high as 8.3 × 10−4 S cm−1 at 60°C. In addition, it also induces the 
+formation of Li3N, providing even lithium deposition. Consequently, 
+the cycle life span of a lithium symmetric cell using 3D MPPL CSE is 
+almost 15 times longer than that of cells using its analogs without 
+MOF filler and with disordered-­MOF filler, respectively. Further-
+more, 3D MPPL CSE with an ordered distributed MIL-­125–NH2 pro-
+vides multiple barriers, preventing the shuttle of LiPSs and allowing 
+prolonged cycle life. Specifically, the pouch-­type ASSLSBs with 3D 
+MPPL CSE cycles stably for 400 cycles at 0.5 C at 60°C. The high ion 
+conductivity and excellent cycle life demonstrate the successful im-
+plementation of using an ordered-­MOF structure to simultaneously 
+regulate ion and polysulfide transportation. This strategy opens up a 
+previously unidentified way to achieve high-­performance ASSLSBs, 
+paving the way to achieve ASSLSB with high energy density for prac-
+tical application.
+RESULTS
+Synthesis and structure of 3D MPPL CSE
+The 3D MPPL CSE was synthesized using an electrospinning 
+process coupled with a calendering process, followed by a subse-
+quent pouring of a PEO/LiTFSI homogeneous solution, as illus-
+trated in Fig. 1A. As determined by the N2 adsorption-­desorption 
+isotherms of the MIL-­125–NH2 precursors (fig. S1), the MIL-­125–NH2 
+particles show an average pore size of 4.5 Å, which is notably 
+smaller than the diameters of LiPSs (Li2Sn, 4 < n ≤ 8, 5.2 to 8.4 Å). 
+Scanning electron microscopy (SEM) and transmission electron 
+microscopy (TEM) images of MIL-­125–NH2 particles demon-
+strate that they have a tetragonal plate morphology with an aver-
+age diameter of 1 μm (Fig.  1B and fig.  S2). X-­ray diffraction 
+(XRD) pattern (fig. S3) confirms that the prepared product is a 
+MIL-­125–NH2 precursor (39). Afterward, taking advantage of the 
+good compatibility between MIL-­125–NH2 and PAN, we used an 
+electrospinning technique to synthesize a spinning film with uni-
+form distribution of MIL-­125–NH2.As shown in fig.  S4A, the 
+large size of the 3D MIL-­125–NH2@PAN film (denoted as 3D 
+MP) suggests its potential for large-­scale preparation. The SEM 
+images (fig. S4, B and C) show that it exhibits a microstructure 
+with a necklace-­like morphology but has a loosened structure. The 
+XRD pattern (fig. S4D) indicates the presence of MIL-­125–NH2 
+in 3D MP. The TEM images (fig. S5, A and B) further exhibit a 
+microstructure with a necklace-­like morphology of 3D MP mem-
+brane, and the MIL-­125–NH2 particles are completely embedded 
+in the PAN fibers (fig. S5B, inset). A calendering process was ad-
+opted to increase the density of 3D MP membrane. The SEM im-
+age (Fig. 1C) of the calendered 3D MP membrane shows that the 
+overall structure of material inherits a necklace–like morphology. 
+In particular, the 3D MP membrane has a 3D network of nanofi-
+brous MIL-­125–NH2@PAN structures with the MIL-­125–NH2 
+completely embedded in the PAN fibers. Specifically, as shown 
+in Fig. 1D and fig. S5 (C and D), the fibers intertwine to create 
+an almost dense structure with a symmetrical distribution of 
+MIL-­125–NH2, revealing the ordered distribution of MOF parti-
+cles in the fiber and the membrane. XRD patterns demonstrate 
+that the crystal structure of MIL-­125–NH2 in the 3D MP mem-
+brane before and after calendering remains unchanged (figs. S3 
+and S6). Compared with fig. S4, the results of the calendered 3D 
+MP membrane indicate that the calendering process increases 
+the density of 3D MP, leading to a reduction in pore size and an 
+enhancement of interfacial contact areas with the electrode (40). 
+However, there are still a few gaps in the 3D MP membrane. Last, 
+to completely eliminate the pores in the 3D MP membrane, the 
+infiltration of PEO/LiTFSI in the 3D MP membrane to form the 
+final 3D MPPL CSE was realized. The SEM image (Fig. 1E) re-
+veals that 3D MPPL CSE exhibits a smooth and clear surface, 
+along with a homogeneous film. This also indicates that there is 
+no phase separation between the 3D MP membrane and PEO, 
+suggesting that the 3D MP membrane is well distributed in the 
+PEO polymer. In addition, the cross-­sectional SEM image of 3D 
+MPPL CSE (Fig. 1F) shows an average thickness of around 76 μm, 
+agreeing with the thickness measured from thickness gauge (fig. S7). 
+The optical photographs of 3D MPPL CSE show its self-­standing, 
+transparent, and flexible nature, allowing it to be mass-­prepared 
+and making it suitable for use as electrolytes in both coin and 
+pouch cells (Fig. 1G and fig. S8). The corresponding elemental 
+mapping images (Ti, N, F, O, and S, as shown in Fig. 1H) of 3D 
+MPPL CSE reveal the uniform spatial distribution of MIL-­125–NH2 
+in 3D MPPL CSE. The results prove that MIL-­125–NH2 particles 
+are uniformly dispersed in 3D MPPL CSE. XRD patterns also 
+show that the diffraction peak at 9.8°, which can be attributed to 
+MIL-­125–NH2, is presented at 3D MPPL CSE, agreeing with the 
+XRD peaks of pristine MIL-­125–NH2 (fig. S9). This indicates that 
+the crystal structure of MIL-­125–NH2 remains unchanged dur-
+ing the whole preparation process (39). Furthermore, the peaks 
+at 19.1° and 23.2° corresponding to PEO weaken upon the intro-
+duction of the 3D MP membrane. This observation suggests a 
+reduction in the crystallinity degree of PEO (41). For compari-
+son, PEO/LiTFSI CSE (denoted as PL CSE) and MIL-­125–NH2/
+PEO/LiTFSI (denoted as MPL CSE) were prepared by a typical 
+solution casting method. The SEM images, energy-­dispersive x-­
+ray (EDX) mapping images, and optical photographs (figs. S10 to 
+S13) of MPL CSE and PL CSE demonstrate that their morpholo-
+gies and physical characteristics are similar to those of 3D MPPL 
+CSE. These similar properties allow them to be used as control 
+samples in the following experiments. The SEM images and EDS 
+elemental mapping images of 3D MPPL CSE and MPL CSE re-
+veal that, when compared to the conventional solvent casting 
+method, electrospinning and the following calendering ap-
+proach can achieve a more uniform dispersion of MOFs in SSEs 
+(figs. S14 and S15).
+
+=== 第 3 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+3 of 14
+Physicochemical characterizations of 3D MPPL CSE
+The ordered distribution of MIL-­125–NH2 in 3D MPPL CSE was 
+evaluated by small-­angle x-­ray scattering (SAXS). As displayed in 
+Fig. 2A, there is no indication of secondary structures in the scat-
+tering profile, suggesting the uniform distribution of charges in the 
+polymer and the high uniformity of 3D MPPL CSE, MPL CSE, and 
+PL CSE (18). The radius of gyration (Rg), calculated by Guinier’s 
+law, is defined as the radius of rotation of the scatterer. Its physical 
+meaning is similar to the radius of inertia, which is used to analyze 
+the dispersion of scatterers (42). Furthermore, the Guinier curve 
+of 3D MPPL CSE presents two linear regions, with correspond-
+ing Rg values of 4.5 and 16.5 nm, respectively. These values are 
+apparently larger than the Rg values (4.0 and 14.6 nm) of the Guinier 
+curve of MPL CSE (Fig. 2B). The larger value of Rg indicates 
+that MIL-­125–NH2 particles in 3D MPPL CSE are more evenly dis-
+tributed than those in MPL CSE (19). In summary, the results 
+from SAXS and Guinier curves reveal a higher degree of order in 
+MIL-­125–NH2 within the as-­prepared 3D MPPL CSE compared to 
+that in MPL CSE.
+We conducted a comprehensive investigation of these CSEs to 
+uncover the differences in ionic conductivity (σ) resulting from the 
+variations arising from the inclusion of MOFs and the ordered-­
+MOF structure. Specifically, we conducted Fourier transform infra-
+red spectrometry (FTIR) measurements in the 600 to 3500 cm−1 
+Fig. 1. Schematic illustration of the synthesis process and morphological and structural characterizations of 3D MPPL CSE. (A) Schematic illustration of the syn-
+thesis process for 3D MPPL CSE. (B) SEM image of MIL-­125–NH2. (C and D) SEM images of 3D MP membrane at different magnifications. (E and F) SEM images of 3D MPPL 
+CSE: (E) top view and (F) side view. (G) Photo image of a 3D MPPL CSE. (H) SEM image and corresponding Ti, N, F, O, and S element mapping images.
+
+=== 第 4 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+4 of 14
+regions to further investigate the interaction behaviors among 3D 
+MP, MIL-­125–NH2, PEO, and Li+ (fig.  S16A). In the magnified 
+FTIR spectra within the range of 1000 to 1400 cm−1, distinct red 
+shifts are evident for the asymmetric stretching vibration peaks at 
+1332 and 1065 cm−1. These peaks correspond to S=O bonds and 
+N─S bonds of LiTFSI in 3D MPPL CSE, MPL CSE, and PL CSE, 
+respectively (fig. S16B). These observed red shifts are indicative of 
+an increase in the bond energy of S=O and N─S in TFSI−. This phe-
+nomenon can be attributed to the reduced interaction between 
+TFSI− and Li+ (20). The amplified FTIR spectra of these CSEs with-
+in the range of 1300 to 1400 cm−1 (figs. S17 and S18) show that there 
+is an upward asymmetric stretching vibration absorption peak in 
+the S=O groups at 1358 cm−1 (peak 1). The peak area can be used as 
+an indicator to assess the extent of LiTFSI dissociation. Notably, as 
+shown in Fig. 2C, the peak area in 3D MPPL CSE measures 11.1%, 
+exhibiting a notable increase when compared to the PL CSE (9.2%) 
+and MPL CSE (10.2%) (table S1). This result suggests a more pro-
+nounced dissociation of LiTFSI in 3D MPPL CSE. This might be 
+attributed to more open Ti sites presented in the ordered MIL-­125–NH2 
+structure, offering an enhanced interaction with TFSI− ion (20, 43). 
+The dissociation degrees of LiTFSI in CSEs were further studied us-
+ing Raman spectroscopy (fig. S19). In the Raman curve of 3D MPPL 
+CSE, two peaks at 741 cm−1 (peak 1) and 748 cm−1 (peak 2) are related 
+to free TFSI− and ion cluster [Li(TFSI)2)−], respectively (fig. S20) 
+(44, 45). As shown in Fig. 2D, the peak area of TFSI− (peak 1) in 3D 
+MPPL CSE is 94.8%, which is higher than that of MPL CSE (94.6%) 
+and PL CSE (89.8%) (fig. S21 and table S2). The Raman results indi-
+cate that there is an increased presence of free TFSI− ions on the 
+surface of electrolyte of 3D MPPL CSE than those of MPL CSE 
+and PL CSE.
+Overall, the FTIR results of 3D MPPL CSE reveal the stronger 
+interaction between the open Ti sites of ordered MIL-­125–NH2 and 
+the TFSI− ions (46), implying a more effective dissociation of LiTFSI. In 
+addition, the Raman results disclose that there is higher content of 
+free anion incorporated with 3D MPPL CSE, suggesting more free 
+lithium ions in the electrolyte. These results imply that, because of 
+Fig. 2. Physicochemical characterization of CSEs. (A) SAXS curves of PL CSE, MPL CSE, and 3D MPPL CSE. (B) Guinier plots of SAXS data for MPL CSE and 3D MPPL CSE. 
+(C) The proportion of the FTIR spectra of 1358 cm−1 fractions as a function of PL CSE, MPL CSE, and 3D MPPL CSE based on FTIR fitting by Gaussian fitting. (D) The propor-
+tion of free TFSI− fractions as a function of PL CSE, MPL CSE, and 3D MPPL CSE based on Raman fitting. (E) DSC curves of PL CSE, MPL CSE, and 3D MPPL CSE. (F) Nyquist 
+plots of PL CSE, MPL CSE, and 3D MPPL CSE at 60°C. (G) Temperature-­dependent σ of PL CSE, MPL CSE, and 3D MPPL CSE. (H) Schematic illustration of Li+ transport path-
+ways of MPL CSE and 3D MPPL CSE. a.u., arbitrary units.
+
+=== 第 5 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+5 of 14
+the distinctive ordered-­MOF structure, 3D MPPL CSE can effec-
+tively fix anion by the open Ti sites and dissociate LiTFSI, thus in-
+creasing the Li+ concentration and potentially enhancing the σ of 
+the electrolyte (43).
+We investigated the impact of different forms of MIL-­125–NH2 
+on the overall crystallinity of the composite system using differential 
+scanning calorimetry (DSC). Furthermore, the glass transition tem-
+perature (Tg) calculated by DSC can be used to directly reveal the 
+transfer temperature from the crystalline to the amorphous state 
+(47). As determined by DSC results (Fig. 2E), the Tg of 3D MPPL 
+CSE is −53.2°C, which is lower than those of MPL CSE (−53.1°C) 
+and PL CSE (−52.3°C). In addition, the Tg values of both 3D MPPL 
+CSE and MPL CSE are nearly identical. This indicates that the pres-
+ence of MIL-­125–NH2, whether in a disordered or ordered form, 
+exerts a similar influence on reducing the overall crystallinity of 
+PEO (48). The melting temperatures (Tm) of PL CSE and MPL CSE 
+are 51.0 and 50.4°C, respectively, whereas 3D MPPL CSE shows a 
+lower Tm of 49.0°C. These results suggest that the inclusion of 
+MIL-­125–NH2 can effectively hinder the organized alignment of 
+PEO chains. Furthermore, XRD patterns were also measured to de-
+termine the crystallinity of PEO (fig. S22). When MIL-­125–NH2 is 
+incorporated, both MPL CSE and 3D MPPL CSE show a decreased 
+XRD peak intensity of PEO, indicating the successful inhabitation of 
+the crystallization process of PEO chains due to the presence of 
+MOF particles. Thermogravimetric analysis (TGA) plots of 3D 
+MPPL CSE, MPL CSE, and PL CSE are shown in fig. S23. The de-
+composition of PL CSE begins at 350°C, with a carbon residue of 
+approximately 9.4% observed above 600°C. In comparison to PL 
+CSE, both MPL CSE and 3D MPPL CSE exhibit lower decomposi-
+tion temperatures (336° and 327°C, respectively), suggesting that 
+more amorphous regions of PEO are present in the 3D MPPL CSE 
+and MPL CSE. This subsequently reduces the crystalline nature of 
+PEO, potentially enhancing the σ of the electrolyte. In addition, 
+when subjected to thermal shock conditions (200°C, 0.5 hours), the 
+MPL CSE and PL CSE melted, while the size and morphology of 3D 
+MPPL CSE remain substantially unchanged (fig. S24). Overall, the 
+DSC results suggest that the ordered feature might lower the Tm and 
+Tg of PEO, which have a positive impact on σ. The results above 
+demonstrate that the ordered arrangement of MIL-­125–NH2 in 3D 
+MPPL CSE reduces the crystallinity of the PEO matrix by prevent-
+ing the crystallization of PEO molecular chains. As a result, such an 
+ordered arrangement of MIL-­125–NH2 promotes the conduction of 
+lithium ions on the surface of the filler particles and thus improves 
+the σ. Meanwhile, the strong Lewis acid–base interaction between 
+the surface chemical groups of the MIL-­125–NH2 and the cations/
+anions from Li salts could promote the dissociation of Li salts and, 
+consequently, enhance Li+ transport, which have a positive im-
+pact on σ.
+Considering the positive effect of the 3D MPPL CSE structure on 
+LiTFSI dissociation, we examined the influence of the ordered-­
+MOF structure on the σ of the CSE samples using electrochemical 
+impedance spectroscopy (EIS), as shown in figs. S25 and S26. The 
+EIS curves of stainless steel (SS)|CSE|SS at 60°C are shown in 
+Fig. 2F. Among the three CSEs, 3D MPPL CSE exhibits the lowest 
+bulk resistance, suggesting that its σ is higher than those of MPL 
+CSE and PL CSE. Figure 2G shows Arrhenius plots of 3D MPPL 
+CSE, MPL CSE, and PL CSE. According to Eq. 1, at 30°C, the σ val-
+ues for 3D MPPL CSE, MPL CSE, and PL CSE are 2.1  ×  10−5, 
+8.6 × 10−6, and 7.4 × 10−6 S cm−1, respectively (figs. S25 and S26). 
+Meanwhile, at 60°C, the corresponding values are 8.3 × 10−4, 4.6 × 10−4, 
+and 3.8 × 10−4 S cm−1, respectively. The values of σ of the 3D MPPL 
+CSE are meaningfully higher than those of MPL CSE and PL CSE at 
+all temperatures. This substantiates that, apart from reducing crys-
+tallinity, the ordered-­MOF structure in 3D MPPL CSE can further 
+augment the ion transport capability of the electrolyte (47). In com-
+parison to MPL CSE, the CSE with the disordered-­MOF structure 
+prepared by the conventional solution casting method, 3D MPPL 
+CSE with the ordered-­MOF structure substantially enhances its σ. 
+Although the disordered-­MOF structure in MPL CSE can reduce 
+the crystallinity of PEO, they also tend to aggregate, forming discon-
+tinuous Li+ pathways. Consequently, the aggregation might block 
+the Li+ transport, leading to reduced σ. As suggested in Fig. 2H, it is 
+postulated that the presence of the ordered-­MOF structure within 
+the electrolyte not only diminishes the crystallinity of the composite 
+system but also provides 3D continuous Li+ conduction pathways 
+with a large number of organic-­inorganic amorphous interphases, 
+thereby augmenting Li+ transport in the electrolyte and offering a 
+higher σ than the one with the disordered-­MOF structure. With a 
+combination of chronoamperometry and EIS, the Li+ transference 
+number (tLi+) of 3D MPPL CSE is calculated to be 0.81 according to 
+Eq. 2 (fig. S27), which is much higher than those of MPL CSE (0.64) 
+and PL CSE (0.39) (fig. S28 and table S3).
+Mechanism of stability of the 3D MPPL CSE/Li interface
+To investigate the influence of the ordered-­MOF structure on the 
+cycling stability of the electrolytes, symmetrical lithium metal cells 
+were assembled using the three prepared electrolytes and subjected 
+to galvanostatic tests. As shown in fig. S29, the linear sweep voltam-
+metry (LSV) curve of 3D MPPL CSE exhibits an increase at voltages 
+above 5.0 V, signifying the composite system’s stability and its resis-
+tance to decomposition at lower voltages. The electrochemical sta-
+bility window of the 3D MPPL CSE is apparently higher than those 
+of MPL CSE and PL CSE. As disclosed in Fig. 3A, the 3D MPPL 
+CSE cell exhibits a substantially improved stability than other elec-
+trolytes. Specifically, it enables a stable operation for more than 
+1500 hours at 0.1 mA cm−2, and its voltage-­time curve remains 
+smooth during operation. After 1500 hours, the overpotential of the 
+Li|3D MPPL CSE|Li cell is 60 mV. In contrast, the Li|MPL CSE|Li 
+cell short-­circuits after 124 hours, while the Li|PL CSE|Li cell short-­
+circuits after 98 hours. This phenomenon is likely to be attributed to 
+the instable solid electrolyte interphase (SEI) layer, causing the 
+growth of Li dendrites that eventually penetrated the electrolytes 
+(40). The Li|3D MPPL CSE|Li symmetrical cell exhibits a low initial 
+voltage, and the overpotential progressively increases during opera-
+tion. The continuous test results of the lithium symmetrical cells of 
+3D MPPL CSE, MPL CSE, and PL CSE at different current densities 
+are shown in Fig. 3B. The 3D MPPL CSE cell can stably operate at a 
+large current density of 0.5 mA cm−2. In contrast, the symmetrical 
+cells of MPL CSE and PL CSE suffer from short circuits at 0.2 and 
+0.5 mA cm−2, respectively. This phenomenon suggests that 3D 
+MPPL CSE exhibits a lower interface impendence under high cur-
+rent densities. In addition, when the current density went back to 
+0.1 mA cm−2, the Li|3D MPPL CSE|Li cell enables a stable opera-
+tion for more than 1000 hours (fig. S30). The results indicate that 
+the implementation of 3D MPPL CSE confers improved cycling sta-
+bility and enhanced rate capability to the symmetric cells, enabling 
+them to endure larger currents in comparison to those equipped 
+with MPL CSE and PL CSE. This phenomenon demonstrates that 
+
+=== 第 6 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+6 of 14
+Fig. 3. Physicochemical characterization of the interfaces in symmetric Li cells with various CSEs. (A) Galvanostatic cycling stability and (B) rate performance of the 
+symmetric Li cells with PL CSE, MPL CSE, and 3D MPPL CSE at 60°C. (C) Nyquist plots for the symmetric Li cells with 3D MPPL CSE after rest at 60°C at a specific time. (D to 
+F) XPS analysis of the 3D MPPL CSE/Li electrode interface after cycling: (D) N 1s, (E) F 1s, and (F) Li 1s. (G to I) SEM images of the surface of the cycled Li metal in Li sym-
+metric cells: (G) PL CSE, (H) MPL CSE, and (I) 3D MPPL CSE. (J to L) Schematic illustration of different Li behaviors with various electrolytes: (J) PL CSE, (K) MPL CSE, and 
+(L) 3D MPPL CSE.
+
+=== 第 7 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+7 of 14
+the presence of ordered-­MOF structure can enhance the ion-­
+transport capacity of CSE, thereby suppressing localized Li+ depo-
+sition and promoting interfacial stability as well as extending the 
+cycle life (49).
+We evaluated the stability between the CSEs and Li metal by 
+monitoring the changes in interfacial resistances. As depicted in 
+Fig. 3C and fig. S31, at 60°C, the initial interfacial resistance between 
+3D MPPL CSE and Li metal (145 ohms) is apparently lower than 
+that of the MPL CSE/Li (408 ohms) and PL CSE/Li (547 ohms). 
+Moreover, as suggested in Fig. 3C, the interfacial resistance of 3D 
+MPPL CSE only exhibits a slight increase over time and eventually 
+stabilize after 400 hours. Conversely, the interfacial resistances of 
+the MPL CSE/Li and PL CSE/Li show a dramatic increase and be-
+come dysfunctional after 200 hours. Furthermore, the interface be-
+tween 3D MPPL CSE and Li metal after cycling was investigated 
+using x-­ray photoelectron spectroscopy (XPS). As shown in Fig. 3 
+(D to F), the N 1s peak at 399.1 eV and F 1s peak at 688.8 eV corre-
+spond to LiTFSI (50). The N 1s peak at 397.4 eV and Li 1s peak at 
+55.3 eV correspond to Li3N, while the Li 1s peak at 56.2 eV and F 1s 
+peak at 685.2 eV correspond to LiF (40). After cycling, both LiF and 
+Li3N are found at the 3D MPPL CSE/Li interface as well as the MPL 
+CSE/Li interface (fig. S32). As shown in fig. S33, in contrast to the 
+XPS analysis of the MOF-­incorporated CSEs/Li interface, where 
+both Li3N and LiF are observed, only LiF is observed in the PL CSE/
+Li interface. This observation aligns with the XPS results reported in 
+previous studies on PEO/LiTFSI (40). These results also highlight 
+the crucial role of MOFs in the formation of Li3N at the CSEs/Li 
+interface. Given that Li3N is formed on both MOF-­incorporated 
+CSE, the area ratio of Li3N and LiF for the MPL CSE/Li interface is 
+notably lower than that of the 3D MPPL CSE/Li interface. To intui-
+tively investigate the impact of the ordered-­MOF structure against 
+dendrite growth, the Li anode surface morphologies of lithium sym-
+metrical cells with 3D MPPL CSE, MPL CSE, and PL CSE after cy-
+cling at 0.1 mA cm−2 for 40 hours were characterized by SEM (Fig. 3, 
+G to I). As shown in Fig. 3G, the massive lithium dendrites are ob-
+served on the cycled lithium anode of the Li|PL CSE|Li cell. It is seen 
+from Fig. 3H that there are some mossy lithium dendrites grown on 
+the Li anode in the Li|MPL CSE|Li cell. In contrast, a flat Li metal 
+surface can be observed for the cycled Li|3D MPPL CSE|Li cell 
+(Fig. 3I). It is apparent that lithium dendrite nucleation is mitigated 
+on the lithium anode for 3D MPPL CSE, which is consistent with its 
+prolonged lifetime in symmetric Li cells. The above results provide 
+strong evidence of the good stability between our 3D MPPL CSE 
+and Li metal, which can be attributed to the improved interfacial 
+chemistry between the 3D MPPL CSE and Li metal, as illustrated in 
+Fig. 3 (J to L). The formation of uniform, inorganic, and stable Li3N 
+and LiF at the 3D MPPL CSE/Li interface plays a key role in the 
+enhanced stability. The presence of the unique Li3N assumes notable 
+importance in diminishing interfacial resistance and averting the 
+growth of lithium dendrite. This is achieved by ensuring a uniform 
+distribution of Li+ on the interface. Li3N not only acts as a super-
+ionic Li+ conductor but also exhibits good wettability with Li metal 
+electrode (40). Furthermore, Li3N demonstrates superior stability 
+against Li metal, thereby mitigating continuous side reactions with 
+the electrolyte and establishing a stable interface between 3D MPPL 
+CSE and Li metal (51, 52). The ordered-­MOF structure in 3D MPPL 
+CSE facilitates the formation of Li3N in the interface between Li 
+metal and CSE, compared to that of MPL CSE, the CSE with the 
+disordered-­MOF structure. This highlights the crucial impact of the 
+presence of MOF and the distinctive ordered-­MOF structure in 3D 
+MPPL CSE on facilitating Li3N formation and consequently pro-
+longing cycle life.
+In situ Raman analysis of CSE-­based ASSLSBs
+To delve deeper into the impact of the ordered-­MOF structure in 
+mitigating the shuttle effect of LiPSs, we investigate the LiPSs per-
+meation behavior through two experiments. First, the LiPSs perme-
+ation behavior through barrier layers was investigated in an H-­typed 
+glass apparatus (fig. S34). Apparently, the right chamber of PL CSE 
+turns from colorless to brownish red after 90 min, suggesting that 
+the PL CSE experiences serious LiPSs penetration. Comparatively, 
+brownish red can be observed in the right chamber of the MPL CSE 
+after 300 min, suggesting that the migration of LiPSs across the MPL 
+CSE is partially restrained. Furthermore, when the 3D MPPL CSE 
+was used as the barrier layer, only a slight yellow color can be per-
+ceived for the solution in the right chamber of it after 420 min. It 
+indicates that the 3D MPPL CSE can effectively block the perme-
+ation of LiPSs from the cathode to the anode, even at high concen-
+trations of LiPSs. The prevention of LiPSs of 3D MPPL CSE might 
+originate from the physical confinement and its strong chemical im-
+mobilization layer. Another grievous problem in Li-­S batteries is the 
+self-­discharge behavior, which results in the decrease of open-­circuit 
+voltage (OCV) and the poor cyclability (53). A stable OCV indicates 
+great advantage in blocking the shuttle of LiPSs, showcasing a prom-
+ising potential for future practical application and storage (54). As 
+shown in fig. S35, notable OCV drops are observed for the PL CSE 
+and MPL CSE, suggesting their weak ability of blocking shuttle of 
+LiPSs. In contrast, the 3D MPPL CSE sustains a stable OCV over 
+200-­hour standing, suggesting its superiority in blocking the shut-
+tle of LiPSs.
+Second, the LiPSs permeation behavior was also investigated by 
+in situ Raman spectroscopy to detect the presence of LiPSs shuttling 
+on the anode side. In a typical in situ Raman experiment, we fabri-
+cated a homemade in situ optical cell using KB@S as cathode and 
+lithium metal as anode, with 3D MPPL CSE, MPL CSE, and PL CSE 
+as the electrolytes, to study the dissolution behavior of intermediate 
+LiPSs (Li2Sx, 3 ≤ x ≤ 8) in ASSLSBs at 60°C (Fig. 4A). All of the 
+components were sealed between a glass substrate and a piece of 
+transparent optical glass slide to enable in situ optical observation 
+(Fig.  4B). A photograph of the experimental setup is shown in 
+fig. S36. The in situ Raman observation points (red dot) of 3D MPPL 
+CSE, MPL CSE, and PL CSE are displayed in figs. S37 to S39. The 
+peaks with strong intensities at approximately 280, 325, and 522 
+cm−1 correspond to the S8
+2−, S6
+2−, and S3•, respectively (55). Nota-
+bly, during the tests of PL CSE (Fig. 4, C and F), the peaks attributed 
+to long-­chain S8
+2− and S6
+2− consistently exhibit strong intensities 
+throughout the entire discharge process. This indicates that large 
+quantities of S8
+2− and S6
+2− species produced by the KB@S cathode 
+initially dissolve into the PL CSE and continuously migrate to the 
+anode side during the discharge process (53). Furthermore, during 
+the low-­voltage plateau of the discharge process, there is a gradually 
+increasing peak at 522 cm−1 (S3•), suggesting the increased content 
+of S3• species. The presence of S3• indicates that the disproportion-
+ation and dissociation of S6
+2− (S6
+2− ↔ 2S3•) have occurred, further 
+confirming the substantial quantity of S6
+2− in the electrolyte (56). 
+This demonstrates the intensive LiPSs permeation behavior in PL 
+CSE. The substantial loss of primary discharge products (S8
+2− and 
+S6
+2−) due to LiPSs permeation serves as the underlying cause of the 
+
+=== 第 8 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+8 of 14
+low initial specific capacity and the rapid capacity decay of PL 
+CSE. During the test of MPL CSE incorporated with MIL-­125–NH2, 
+the Raman spectra (Fig. 4, D and G) show apparent reduction in the 
+S6
+2− peak intensity, compared to that of PL CSE. The lower intensity 
+of S6
+2− of MPL CSE for 0 to 50 min suggests that less S6
+2− species are 
+permeated through MPL CSE than PL CSE. During subsequent dis-
+charge, the intensities of peaks around 325 cm−1, corresponding to 
+mid-­chain S6
+2−, become higher. Considering that the pore size (ap-
+proximately 4.5 Å) of MIL-­125–NH2 is notably smaller than the di-
+ameters of LiPSs (5.2 to 8.4 Å) (57), we propose that these results 
+indicate that the physical confinement of LiPSs by MIL-­125–NH2 in 
+MPL CSE partially restricts the leakage of LiPSs into the electrolyte 
+for 0 to 50 min. Furthermore, in situ Raman spectra of the 3D MPPL 
+CSE cell depicted in Fig. 4 (E and H) exhibit weak peak intensities of 
+S8
+2− and S6
+2− throughout the entire discharge process, indicating 
+minimal LiPSs shuttling among these three electrolytes. This con-
+firms that 3D MPPL CSE, featuring an ordered-­MOF structure, en-
+ables stronger adsorption of LiPSs compared to MPL CSE with a 
+disordered-­MOF structure, thereby inhibiting the shuttle of LiPSs 
+more efficiently. The conspicuous differences in Raman signal inten-
+sities provide evidence of the ordered-­MOF in the CSE, which effi-
+ciently restrains the shuttling of LiPSs during cycling.
+Electrochemical performances of CSE-­based ASSLSBs
+To compare their electrochemical performance, ASSLSBs were as-
+sembled with 3D MPPL CSE, MPL CSE, and PL CSE. Furthermore, 
+cycling electrochemical tests were performed to investigate the ef-
+fect of the ordered-­MOF structure on their electrochemical perfor-
+mance. TGA curves show that the total sulfur mass content of 
+KB@S composites is around 70% (fig. S40). Figure 5A depicts cyclic 
+voltammetry (CV) curves of ASSLSBs with 3D MPPL CSE. During 
+cathodic scan, the cathodic peak at approximately 2.4 V corre-
+sponds to the conversion of S8 into soluble long-­chain LiPSs (Li2Sn, 
+4 < n ≤ 8). The cathodic peak at 1.9 V corresponds to the subse-
+quent formation of insoluble short-­chain compounds, namely, 
+Li2S2 and Li2S. In addition, the anodic peaks, found at approxi-
+mately 2.4 and 2.5 V, are attributed to the generation of long-­chain 
+LiPSs and the reformation of S8 during the oxidation process, 
+Fig. 4. In situ Raman analysis CSE-­based ASSLSBs. (A) Schematic of the setup for in situ optical observation. A thin gap (1 to 2 mm) on the Li anode side was designed 
+to observe the Raman signal of lithium polysulfide. (B) Schematic illustration of the electrochemical cell assembled with a KB@S working electrode, the corresponding 
+electrolytes, and a lithium-­metal counter electrode. The entire cell was heated to 60°C during the whole test. (C to E) In situ time-­resolved Raman images during discharge: 
+(C) PL CSE, (D) MPL CSE, and (E) 3D MPPL CSE. (F to H) Selected Raman spectra at specific voltages: (F) PL CSE, (G) MPL CSE, and (H) 3D MPPL CSE.
+
+=== 第 9 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+9 of 14
+Fig. 5. Performances of all–solid-­state KB@S|CSEs|Li cells. (A) The CV curves for the initial three cycles of ASSLSBs using 3D MPPL CSE. (B) The discharge-­charge voltage 
+curves for specific cycles at 0.05 C of ASSLSBs using 3D MPPL CSE. (C) The comparison of rate performance of three CSEs. (D) The comparison of cycling performance of 
+three CSEs at 0.1 C. (E) The comparison of 3D MPPL CSE and reported PEO-­based CSEs in the retention rate. (F and G) Cycling performance and coulombic efficiency of 
+pouch cell–type ASSLSBs using 3D MPPL CSE at 0.1 (F) and 0.5 C (G). (H) Optical images of LEDs powered by pouch cell–type ASSLSBs using 3D MPPL CSE under various 
+conditions, including folding, rolling, sticking, and cutting.
+
+=== 第 10 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+10 of 14
+respectively. Figure 5B shows the galvanostatic voltage profiles of 
+an ASSLSBs cell with 3D MPPL CSE at 0.05 C (1 C = 1675 mAh 
+g−1). In contrast to conventional liquid Li-­S batteries, 3D MPPL 
+CSE–based ASSLSBs exhibit distinctive voltage profile characteris-
+tics, namely, (i) a higher, albeit shorter, upper discharge plateau, 
+and (ii) an extended slope following the upper discharge plateau. 
+These features are also consistent with CV test results. The galvano-
+static voltage profiles of MPL CSE and PL CSE also show the same 
+trend, indicating that the shuttle effect of LiPSs also exists in 
+PEO-­based ASSLSBs at 60°C (fig. S41). The rate performances of 
+ASSLSBs with 3D MPPL CSE, MPL CSE, and PL CSE are shown in 
+Fig. 5C. Among these cells, the 3D MPPL CSE–based ASSLSB de-
+livers the highest specific capacities of 929.9, 882.8, 739.6, and 
+349.4 mAh g−1 at current densities of 0.05, 0.1, 0.2, and 0.5 C, re-
+spectively. When the current density returns to 0.1 C, a high dis-
+charge capacity of 857.5 mAh g−1 can be recovered. The ASSLSBs 
+with 3D MPPL CSE consistently outperformed those with MPL 
+CSE and PL CSE at all rates. Notably, the discharge-­charge voltage 
+curves of the ASSLSBs based on PL, MPL, and 3D MPPL CSEs at 
+the different current densities show well-­defined charge-­discharge 
+plateaus (fig. S42). As for the lower discharge plateau (∼1.87 V), 
+the ASSLSBs based on the PL, MPL, and 3D MPPL CSEs at the 
+high current of 0.5 C deliver plateau capacities of 126, 180, and 
+260 mAh g−1, respectively (fig. S42D). The largest capacity obtained at 
+the lower discharge plateau for 3D MPPL CSE, among three of 
+them, indicates the high conversion rate from Li2S4 to solid Li2S2/
+Li2S. Furthermore, compared to the CV curves of PL and MPL 
+CSEs, the CV profile of 3D MPPL CSE delivered a higher peak cur-
+rent and a smaller polarization voltage, indicating the enhanced 
+transformation of S8 to soluble LiPSs and then further to insoluble 
+products (Li2S), and facilitated the oxidation of Li2S to sulfur 
+(fig. S43). As shown in Fig. 5D, after two activation cycles at a cur-
+rent density of 0.05 C, the ASSLSBs with 3D MPPL CSE deliver a 
+high discharge capacity of 703.0 mAh g−1 after 50 cycles with the 
+current density of 0.1 C. In contrast, the discharge capacities of PL 
+CSE and MPL CSE suffer from severe fluctuation from the 8th and 
+15th cycles, respectively. In addition, galvanostatic voltage profiles 
+of ASSLSBs with MPL CSE and PL CSE in fig. S44 also depict the 
+great overcharge and voltage fluctuation of the cells. The discharge/
+charge profiles of different cycle numbers for PL, MPL, and 3D 
+MPPL CSEs at 0.1 C are also consistent with CV test results, as 
+shown in fig. S45. The charge-­discharge profiles of the ASSLSBs 
+based on 3D MPPL CSE [fig. S45 (A and B) show smaller electro-
+chemical polarization and prolonged second discharge plateau 
+compared to the ASSLSBs based on PL and MPL CSEs]. In addi-
+tion, galvanostatic voltage profiles of ASSLSBs with MPL CSE and 
+PL CSE throughout the delithiation process show that they both 
+suffer from the great overcharge and voltage fluctuation from the 
+10th and 20th cycles, respectively (fig. S45, C to E) (58). In particu-
+lar, the PL CSE produces a voltage clamping phenomenon near 
+2.4 V at the 13th cycle (fig. S45D). In contrast, the charge-­discharge 
+voltage profiles of the ASSLSBs with 3D MPPL CSE are flatter than 
+those of the others in the lithiation/delithiation process over time 
+due to the excellent ionic conductivity of 3D MPPL CSE (fig. S45F). 
+As suggested by in  situ Raman results, this can be attributed to 
+their unconstrained LiPSs shuttling. Moreover, the 3D MPPL CSE–
+based ASSLSBs in this work deliver a superior retention rate to re-
+ported solid-­state cells with different PEO–based CSEs (Fig. 5E and 
+table S4) (59–70).
+The 3D MPPL CSE–based ASSLSB pouch–type cells were also 
+configured to showcase the practical application of 3D MPPL CSE 
+in flexible electronic devices. The cycling performance of this pouch 
+cell with 3D MPPL CSE at 60°C is displayed in Fig. 5F. The pouch-­
+type cell achieves a very stable reversible capacity of 1017.4 mAh g−1 
+at 0.1 C for 30 cycles after the initial two activation cycles at 0.05 
+C. To further examine the effect of the ordered-­MOF structure on 
+the life span of 3D MPPL CSE, long-­term cycling performance of 
+the assembled ASSLSBs with 3D MPPL CSE–based pouch cell was 
+investigated with 0.5 C at 60°C. As shown in Fig. 5G, after the initial 
+two activation cycles at 0.05 C, it delivers a high and initial reversible 
+capacity of about 418.1 mAh g−1 at 0.5 C. Even after 400 cycles, a 
+high discharge capacity of over 323.2 mAh g−1 could be maintained. 
+By contrast, the cells with MPL CSE and PL CSE show a rapid over-
+charge after a small number of cycles (fig. S46). The SEM, EDX map-
+ping, TEM images, and XRD spectra (figs. S47 to S50) of cycled 3D 
+MPPL CSE and MPL CSE demonstrate that their structure and 
+compositions after long cycles remain unchanged. Specifically, the 
+cycled 3D MPPL CSE still maintains the ordered-­MOF structure. 
+Moreover, the evaluation of the bendability of the pouch-­type 
+ASSLSBs under different conditions was conducted, as shown in 
+Fig. 5H. The pouch-­type cell maintains a consistent output voltage 
+when subjected to different bending conditions, showcasing its po-
+tential in the realm of flexible wearable electronic (movies S1 to S3). 
+The inherent chemical and thermal stabilities of 3D MPPL CSE con-
+tribute to reliable safety measures, even in scenarios where the 
+pouch cell is exposed to sticking or cut-­open destructive conditions 
+in ambient air, demonstrating that the ASSLSBs with 3D MPPL CSE 
+have superior safety in various practical conditions (movies S4 
+and S5).
+DISCUSSION
+From the results above, we propose that the improved performance 
+of 3D MPPL CSE compared to its counterparts (PL CSE and MPL 
+CSE) originates from three aspects. First, the FTIR and Raman re-
+sults demonstrate that the incorporation of MIL-­125–NH2 provides 
+additional Ti sites to form a chemical attachment with TFSI−, allow-
+ing a more effective dissociation of LiTFSI and offering additional 
+free Li+ ions. The presence of MOF improves the σ of as-­prepared 
+CSEs. In addition, the incorporation of MOFs in CSEs reduces the 
+crystalline nature of PEO, potentially enhancing the σ of electro-
+lytes. Moreover, the ordered-­MOF structure of 3D MPPL CSE offers 
+additional ordered 3D channels for Li+ transportation, further fa-
+cilitating the σ of CSEs.
+Second, the ex situ XPS results reveal that the incorporation of 
+MOFs in CSEs induces the formation of Li3N on the electrolyte/Li 
+interface. Li3N serves as both a superionic Li+ conductor and a pro-
+moter of good wettability with lithium metal, thereby suppressing 
+localized Li+ deposition, promoting interfacial stability, and extend-
+ing the cycle life. Moreover, the ordered MIL-­125–NH2 structure of 
+3D MPPL CSE facilitates the formation of these two compounds, 
+offering further extended cycle life of 3D MPPL CSE than those 
+of pristine PL CSE and the MPL CSE with the disordered-­MOF 
+structure.
+Third, because highly ordered micropores (approximately 4.5 Å) 
+of MIL-­125–NH2 are notably smaller than the diameters of LiPSs 
+(Li2Sn, 4 < n ≤ 8) (57), the CSEs with MIL-­125–NH2 restrict the 
+shuttle of LiPSs, offering enhanced cycle life compared to PL CSE, 
+
+=== 第 11 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+11 of 14
+the one without MIL-­125–NH2. Besides, compared with MPL CSE, 
+3D MPPL CSE with the ordered-­MOF structure offers multiple bar-
+riers to prevent the shuttle of LiPSs, resulting in the prevention of 
+LiPSs shuttle and the enhanced cycling durability of Li|3D MPPL 
+CSE|Li cells compared to other two cells.
+As illustrated in Fig. 6A, the ordered arrangement of MOFs with 
+optimized pore size in 3D MPPL CSE can restrict the shuttle of 
+LiPSs. In addition, the open Ti sites combined with TFSI− limits the 
+movement of TFSI−, increasing σ and tLi+ of 3D MPPL CSE. The 
+MIL-­125–NH2 fiber obtained by the electrospinning method has a 
+compact 3D network structure, which is conducive to providing the 
+required mechanical strength of electrolyte and achieving a uniform 
+lithium deposition. Furthermore, a flexible CSE with the compact 
+MIL-­125–NH2 fiber will provide a facilitating Li+ transport path-
+way, substantially enhancing the σ and mechanical strength of PEO-­
+based electrolytes. For comparison, the PL CSE (shown in Fig. 6B) 
+faces difficulties in addressing challenges such as the shuttle effect of 
+LiPSs, uneven Li+ flux, and low lithium dissociation. When it comes 
+to the case of MPL CSE (Fig. 6C), the introduction of MIL-­125–NH2 
+shows promise in restraining the shuttle effect of LiPSs. However, it 
+fails to address the issues of disparate distribution of MIL-­125–NH2 
+within the CSEs, leading to the inhomogeneous Li+ flux and low 
+LiTFSI dissociation. Therefore, through the construction of a compact 
+3D MP membrane with an ordered distribution of MIL-­125–NH2, 
+the resulting interconnected 3D MPPL CSE not only exhibits aug-
+mented uniform Li+ flux and enhanced LiTFSI dissociation but also 
+effectively suppresses the shuttle effect of LiPSs.
+In summary, we have successfully demonstrated a strategy of us-
+ing an ordered-­MOF structure to simultaneously regulate transpor-
+tation of ions and LiPSs in ASSLSBs. An ordered distribution of 
+MOFs, in this case, MIL-­125–NH2, can be easily obtained through 
+an electrospinning and a subsequent calendering process. The elec-
+trolyte, named 3D MPPL CSE, with an ordered-­MOF structure of-
+fers a more effective dissociation of LiTFSI in the electrolyte as well 
+as the continuous structure of MOFs, facilitating the ion transporta-
+tion and enhancing the rate performance of ASSLSBs. Simultane-
+ously, the ordered-­MOF structure in 3D MPPL CSE offers highly 
+ordered micropores and multiple barriers to restrict the shuttle of 
+LiPSs, offering an enhanced cycle life of ASSLSBs. This study pres-
+ents a strategy using an ordered-­MOF structure to concurrently 
+regulate ion and LiPSs transportation in ASSLSBs, thereby opening 
+the door to realizing ASSLSBs with notably improved energy den-
+sity, making them viable for practical applications.
+MATERIALS AND METHODS
+Fabrication of 3D MPPL CSE
+The detailed synthesis procedure of MIL-­125–NH2 can be found in the 
+Supplementary Materials. Afterward, the synthesized MIL-­125–NH2 
+particles and PAN powder were added to N,N′-­dimethylformamide 
+solvent and mixed by a magnetic stirrer to obtain a homogeneous 
+solution. In the electrospinning process, a high voltage of 15 kV was 
+applied, and an aluminum foil was used as a collector, positioned at 
+a fixed distance of 15 cm from the needle. The collector aided in 
+gathering the spun nanofibers, creating a 3D network referred to as 
+the 3D MP membrane. Subsequently, the freshly spun 3D MP mem-
+brane was separated from the aluminum collector and vacuum-­
+dried to eliminate any remaining solvent. Last, the 3D MP membrane 
+was cold-­pressed at approximately 2 MPa for 1 min, making it ready 
+for use. Afterward, PEO and LiTFSI with a molar ratio of 20:1 (based 
+on ethylene oxide [EO]:LiTFSI) were dissolved in acetonitrile to ob-
+tain a PEO/LiTFSI solution. Subsequently, the PEO/LiTFSI solution 
+Fig. 6. The schematic images of three CSEs in the application of ASSLSBs. (A) 3D MPPL CSE, (B) PL CSE, and (C) MPL CSE.
+
+=== 第 12 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+12 of 14
+was carefully applied onto 3D MP. Last, the resulting composite 
+membrane was then dried in a vacuum oven at 60°C for 24 hours to 
+obtain 3D MPPL CSE. For the control samples of PL CSE and MPL 
+CSE, their detailed fabrication process can be found in the Supple-
+mentary Materials.
+Material characterizations
+The structures of synthesized materials were analyzed by XRD 
+(Bruker D8 advanced x-­ray diffractometer) using a Cu-­Kα radiation 
+x-­ray diffractometer (40 kV, 40 mA). The surface and cross-­sectional 
+morphologies of the electrolytes were characterized using SEM 
+(SU8220, 10 kV) and TEM (JEOL JEM 2100F, 200 kV). FTIR mea-
+surements were carried out on an FTIR spectrometer (Nicolet IS50–
+Nicolet Continuum). Raman spectra were recorded through an 
+HJY LabRAM Aramis (λ = 785 nm). TGA experiments were car-
+ried out using a Netzsch 209F3 at a heating rate of 10°C min−1 in 
+air. Brunauer-­Emmett-­Teller surface area and pore radius distribu-
+tion of materials were tested on Micromeritic 3Flex at liquid nitrogen 
+temperature. The XPS spectra of the CSEs were measured by an 
+Axis Supra+ electron spectrometer with monochromatized Al Kα 
+radiation.
+Electrochemical measurements
+The electrochemical properties of CSEs were performed on the 
+GAMRY 1000E electrochemical workstation. The symmetric cells of 
+SS|CSEs|SS were used for the test of ionic conductivity by EIS ex-
+periments over the temperature range of 30° to 80°C. Impedance 
+data were obtained in the frequency range of 105 to 10−2 Hz with an 
+AC amplitude of 10 mV. The σ was calculated by using Eq. 1
+where d and S represent the thickness and contacting area of the 
+CSEs, and R is the bulk resistance of the electrode.
+Electrochemical stability tests of the electrolytes were performed 
+using LSV measurements on SS/Li unsymmetrical cells. The mea-
+surements were carried out at a scan rate of 5 mV s−1 and a tem-
+perature of 60°C. In these tests, SS served as the working electrode, 
+while Li metal was used as the reference electrode. The interface 
+stability against Li metallic electrodes of the electrolyte membrane 
+was measured by the lithium periodic stripping/plating tests of the 
+Li/Li symmetric cells at 60°C. DC polarization combined with AC 
+impedance in a Li/Li symmetric cell was applied to examine the tLi+, 
+which can be estimated according to the following Eq. 2
+where ΔV is the applied DC potential (10 mV), I represents the DC, 
+and R is the charge transfer resistance of the passivation layers. The 
+subscripts “0” and “S” represent the initial and steady state, re-
+spectively.
+Assembly and tests of coin and flexible pouch–type ASSLSBs
+Coin cell–type and flexible pouch–type ASSLSBs were assembled in 
+an argon-­filled glovebox. We used the prepared KB@S composite 
+electrode as the cathode, CSEs as both the electrolyte and separator, 
+and lithium as the anode. The charge-­discharge tests, rate capability, 
+and long-­term cycling performance tests were carried out at a con-
+stant current mode between 1.6 and 2.6 V at 60°C using Neware 
+battery testers. Meanwhile, the EIS spectra of the cells were collected 
+over the frequencies from 105 to 10−2 Hz using the GAMRY 1000E.
+In situ Raman spectroscopy measurements
+The in situ optical cells were assembled in an argon-­filled glovebox. 
+We used the bare KB@S composite as the working electrode and 
+cold-­pressed lithium metal on a copper foil as the counter electrode. 
+The PL CSE, MPL CSE, 3D MPPL CSE acted as the electrolyte to 
+connect two electrodes. An optical glass slide was placed on top of 
+the electrodes, and the cell was then sealed by a polytetrafluoroeth-
+ylene high-­temperature film. A hole (1 to 2 mm) was punched on Li 
+metal anode to allow the laser to shine on the CSEs directly. The 
+in situ electrochemical reaction was performed with GAMRY 1000E, 
+and Raman signals were recorded on a Raman microscope (HJY 
+LabRAM Aramis) by a 785-­nm laser.
+Supplementary Materials
+This PDF file includes:
+Supplementary Text
+Figs. S1 to S50
+Tables S1 to S4
+Legends for movies S1 to S5
+Other Supplementary Material for this manuscript includes the following:
+Movies S1 to S5
+REFERENCES AND NOTES
+	 1.	 Y. Liu, X. Meng, Z. Wang, J. Qiu, A Li2S-­based all-­solid-­state battery with high energy and 
+superior safety. Sci. Adv. 8, eabl8390 (2022).
+	 2.	 W. Yao, J. Xu, L. Ma, X. Lu, D. Luo, J. Qian, L. Zhan, I. Manke, C. Yang, P. Adelhelm, R. Chen, 
+Recent progress for concurrent realization of shuttle-­inhibition and dendrite-­free 
+lithium-­sulfur batteries. Adv. Mater. 35, e2212116 (2023).
+	 3.	 A. Manthiram, Y. Fu, S. Chung, C. Zu, Y. Su, Rechargeable lithium–sulfur batteries. Chem. 
+Rev. 114, 11751–11787 (2014).
+	 4.	 G. Zhou, H. Chen, Y. Cui, Formulating energy density for designing practical lithium-­sulfur 
+batteries. Nat. Energy 7, 312–319 (2022).
+	 5.	 Y. Yin, S. Xin, Y. Guo, L. Wan, Lithium–sulfur batteries: Electrochemistry, materials, and 
+prospects. Angew. Chem. Int. Ed. 52, 13186–13200 (2013).
+	 6.	 Z. W. Seh, Y. Sun, Q. Zhang, Y. Cui, Designing high-­energy lithium–sulfur batteries. Chem. 
+Soc. Rev. 45, 5605–5634 (2016).
+	 7.	 H. Pan, Z. Cheng, P. He, H. Zhou, A review of solid-­state lithium–sulfur battery: Ion 
+transport and polysulfide chemistry. Energy Fuels. 34, 11942–11961 (2020).
+	 8.	 B. Ding, J. Wang, Z. Fan, S. Chen, Q. Lin, X. Lu, H. Dou, A. Kumar Nanjundan, G. Yushin,  
+X. Zhang, Y. Yamauchi, Solid-­state lithium–sulfur batteries: Advances, challenges and 
+perspectives. Mater. Today 40, 114–131 (2020).
+	 9.	 S. Ohno, W. G. Zeier, Toward practical solid-­state lithium–sulfur batteries: Challenges and 
+perspectives. Acc. Mater. Res. 2, 869–880 (2021).
+	10.	 Z. Zheng, H. Ye, Z. Guo, Recent progress on pristine metal/covalent-­organic frameworks 
+and their composites for lithium–sulfur batteries. Energ. Environ. Sci. 14, 1835–1853 
+(2021).
+	11.	 T. Wei, Z. Wang, Q. Zhang, Y. Zhou, C. Sun, M. Wang, Y. Liu, S. Wang, Z. Yu, X. Qiu, S. Xu,  
+S. Qin, Metal–organic framework-­based solid-­state electrolytes for all solid-­state lithium 
+metal batteries: A review. CrstEngComm 24, 5014–5030 (2022).
+	12.	 C. Xian, Q. Wang, Y. Xia, F. Cao, S. Shen, Y. Zhang, M. Chen, Y. Zhong, J. Zhang, X. He, X. Xia, 
+W. Zhang, J. Tu, Solid-­state electrolytes in lithium–sulfur batteries: Latest progresses and 
+prospects. Small 19, 2208164 (2023).
+	13.	 J. C. Bachman, S. Muy, A. Grimaud, H.-­H. Chang, N. Pour, S. F. Lux, O. Paschos, F. Maglia,  
+S. Lupart, P. Lamp, L. Giordano, Y. Shao-­Horn, Inorganic solid-­state electrolytes for lithium 
+batteries: Mechanisms and properties governing ion conduction. Chem. Rev. 116, 
+140–162 (2016).
+	14.	 S. Ohno, R. Koerver, G. Dewald, C. Rosenbach, P. Titscher, D. Steckermeier, A. Kwade,  
+J. Janek, W. G. Zeier, Observation of chemomechanical failure and the influence of cutoff 
+potentials in all-­solid-­state Li–S batteries. Chem. Mater. 31, 2930–2940 (2019).
+	15.	 R. Schlem, C. F. Burmeister, P. Michalowski, S. Ohno, G. F. Dewald, A. Kwade, W. G. Zeier, 
+Energy storage materials for solid-­state batteries: Design by mechanochemistry. Adv. 
+Energy Mater. 11, 2101022 (2021).
+σ = d
+SR
+(1)
+(tLi+) = Is(ΔV −I0R0)
+I0(ΔV −IsRs)
+(2)
+
+=== 第 13 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+13 of 14
+	16.	 X. Yang, M. Jiang, X. Gao, D. Bao, Q. Sun, N. Holmes, H. Duan, S. Mukherjee, K. Adair,  
+C. Zhao, J. Liang, W. Li, J. Li, Y. Liu, H. Huang, L. Zhang, S. Lu, Q. Lu, R. Li, C. V. Singh, X. Sun, 
+Determining the limiting factor of the electrochemical stability window for PEO-­based 
+solid polymer electrolytes: Main chain or terminal –OH group? Energy Environ. Sci. 13, 
+1318–1325 (2020).
+	17.	 S. Bandyopadhyay, A. Gupta, R. Srivastava, B. Nandan, Bio-­inspired design of electrospun 
+poly(acrylonitrile) and novel ionene based nanofibrous mats as highly flexible solid state 
+polymer electrolyte for lithium batteries. Chem. Eng. J. 440, 135926 (2022).
+	18.	 S. Wang, Q. Sun, Y. Ma, Z. Wang, H. Zhang, X. Shi, D. Song, L. Zhang, L. Zhu, Dual in situ 
+polymerization strategy endowing rapid ion transfer capability of polymer electrolyte 
+toward Ni-­rich-­based lithium metal batteries. Small Methods 6, 2200258 (2022).
+	 19.	 K. Qian, R. E. Winans, T. Li, Insights into the nanostructure, solvation, and dynamics of liquid 
+electrolytes through small-­angle x-­ray scattering. Adv. Energy Mater. 11, 2002821 (2021).
+	20.	 Y. Li, Z. Fu, S. Lu, X. Sun, X. Zhang, L. Weng, Polymer nanofibers framework composite 
+solid electrolyte with lithium dendrite suppression for long life all-­solid-­state lithium 
+metal battery. Chem. Eng. J. 440, 135816 (2022).
+	21.	 A. Rafie, J. W. Kim, K. K. Sarode, V. Kalra, A review on the use of carbonate-­based 
+electrolytes in Li-­S batteries: A comprehensive approach enabling solid-­solid direct 
+conversion reaction. Energy Storage Mater. 50, 197–224 (2022).
+	22.	 Q. Qian, P. A. Asinger, M. J. Lee, G. Han, K. Mizrahi Rodriguez, S. Lin, F. M. Benedetti,  
+A. X. Wu, W. S. Chi, Z. P. Smith, MOF-­based membranes for gas separations. Chem. Rev. 
+120, 8161–8266 (2020).
+	23.	 A. Knebel, J. Caro, Metal–organic frameworks and covalent organic frameworks as 
+disruptive membrane materials for energy-­efficient gas separation. Nat. Nanotechnol. 17, 
+911–923 (2022).
+	24.	 M. S. Denny Jr., J. C. Moreton, L. Benz, S. M. Cohen, Metal–organic frameworks for 
+membrane-­based separations. Nat. Rev. Mater. 1, 16078 (2016).
+	25.	 H. Furukawa, K. E. Cordova, M. O’Keeffe, O. M. Yaghi, The chemistry and applications of 
+metal-­organic frameworks. Science 341, 1230444 (2013).
+	26.	 Y. Yang, L. Li, R. Lin, Y. Ye, Z. Yao, L. Yang, F. Xiang, S. Chen, Z. Zhang, S. Xiang, B. Chen, 
+Ethylene/ethane separation in a stable hydrogen-­bonded organic framework through a 
+gating mechanism. Nat. Chem. 13, 933–939 (2021).
+	27.	 R. Zhao, Y. Wu, Z. Liang, L. Gao, W. Xia, Y. Zhao, R. Zou, Metal–organic frameworks for 
+solid-­state electrolytes. Energy. Environ. Sci. 13, 2386–2403 (2020).
+	28.	 D. Lim, H. Kitagawa, Proton transport in metal–organic frameworks. Chem. Rev. 120, 
+8416–8467 (2020).
+	29.	 S. Liu, W. Liu, D. Ba, Y. Zhao, Y. Ye, Y. Li, J. Liu, Filler-­integrated composite polymer 
+electrolyte for solid-­state lithium batteries. Adv. Mater. 35, 2110423 (2023).
+	30.	 H. Chen, Y. Xiao, C. Chen, J. Yang, C. Gao, Y. Chen, J. Wu, Y. Shen, W. Zhang, S. Li, F. Huo,  
+B. Zheng, Conductive MOF-­modified separator for mitigating the shuttle effect of 
+lithium-­sulfur battery through a filtration method. ACS Appl. Mater. Interfaces 11, 
+11459–11465 (2019).
+	31.	 B. Wu, J. Pan, L. Ge, L. Wu, H. Wang, T. Xu, Oriented MOF-­polymer composite nanofiber 
+membranes for high proton conductivity at high temperature and anhydrous condition. 
+Sci. Rep. 4, 4334 (2014).
+	32.	 Z. Zhu, Y. Zeng, Z. Pei, D. Luan, X. Wang, X. W. D. Lou, Bimetal-­organic framework 
+nanoboxes enable accelerated redox kinetics and polysulfide trapping for lithium-­sulfur 
+batteries. Angew. Chem. Int. Ed. 62, e202305828 (2023).
+	33.	 Y. Li, Y. Zeng, Y. Chen, D. Luan, S. Gao, X. W. Lou, Mesoporous N-­rich carbon with single-­Ni 
+atoms as a multifunctional sulfur host for Li-­S batteries. Angew. Chem. Int. Ed. 61, 
+e202212680 (2022).
+	34.	 Y. Liu, X. Meng, Z. Wang, J. Qiu, Development of quasi-­solid-­state anode-­free high-­energy 
+lithium sulfide-­based batteries. Nat. Commun. 13, 4415 (2022).
+	35.	 G. W. Peterson, D. T. Lee, H. F. Barton, T. H. Epps, G. N. Parsons, Fibre-­based composites 
+from the integration of metal–organic frameworks and polymers. Nat. Rev. Mater. 6, 
+605–621 (2021).
+	36.	 X. Yang, J. Liu, N. Pei, Z. Chen, R. Li, L. Fu, P. Zhang, J. Zhao, The critical role of fillers in 
+composite polymer electrolytes for lithium battery. Nanomicro Lett. 15, 74 (2023).
+	 37.	 Z. Li, S. Wang, J. Shi, Y. Liu, S. Zheng, H. Zou, Y. Chen, W. Kuang, K. Ding, L. Chen, Y. Lan,  
+Y. Cai, Q. Zheng, A 3D interconnected metal-­organic framework-­derived solid-­state 
+electrolyte for dendrite-­free lithium metal battery. Energy Storage Mater. 47, 262–270 (2022).
+	38.	 Y. Zhu, Q. Zhang, Y. Zheng, G. Li, R. Gao, Z. Piao, D. Luo, R. Gao, M. Zhang, X. Xiao, C. Li,  
+Z. Lao, J. Wang, Z. Chen, G. Zhou, Uncoordinated chemistry enables highly conductive 
+and stable electrolyte/filler interfaces for solid-­state lithium–sulfur batteries. Proc. Natl. 
+Acad. Sci. U.S.A. 120, e2300197120 (2023).
+	39.	 Z. Hao, Y. Wu, Q. Zhao, J. Tang, Q. Zhang, X. Ke, J. Liu, Y. Jin, H. Wang, Functional separators 
+regulating ion transport enabled by metal-­organic frameworks for dendrite-­free lithium 
+metal anodes. Adv. Funct. Mater. 31, 2102938 (2021).
+	40.	 Y. Ma, J. Wan, Y. Yang, Y. Ye, X. Xiao, D. T. Boyle, W. Burke, Z. Huang, H. Chen, Y. Cui, Z. Yu,  
+S. T. Oyakhire, Y. Cui, Scalable, ultrathin, and high-­temperature-­resistant solid polymer 
+electrolytes for energy-­dense lithium metal batteries. Adv. Energy Mater. 12, 2103720 
+(2022).
+	41.	 H. Chen, D. Adekoya, L. Hencz, J. Ma, S. Chen, C. Yan, H. Zhao, G. Cui, S. Zhang, Stable 
+seamless interfaces and rapid ionic conductivity of Ca–CeO2/LiTFSI/PEO composite 
+electrolyte for high-­rate and high-­voltage all-­solid-­state battery. Adv. Energy Mater. 10, 
+2000049 (2020).
+	42.	 G. Fuertes, N. Banterle, K. M. Ruff, A. Chowdhury, D. Mercadante, C. Koehler, M. Kachala,  
+G. Estrada Girona, S. Milles, A. Mishra, P. R. Onck, F. Gräter, S. Esteban-­Martín, R. V. Pappu, 
+D. I. Svergun, E. A. Lemke, Decoupling of size and shape fluctuations in heteropolymeric 
+sequences reconciles discrepancies in SAXS vs. FRET measurements. Proc. Natl. Acad. Sci. 
+U.S.A. 114, E6342–E6351 (2017).
+	43.	 H. Huo, B. Wu, T. Zhang, X. Zheng, L. Ge, T. Xu, X. Guo, X. Sun, Anion-­immobilized polymer 
+electrolyte achieved by cationic metal-­organic framework filler for dendrite-­free 
+solid-­state batteries. Energy Storage Mater. 18, 59–67 (2019).
+	44.	 W. Gu, F. Li, T. Liu, S. Gong, Q. Gao, J. Li, Z. Fang, Recyclable, self-­healing solid polymer 
+electrolytes by soy protein-­based dynamic network. Adv. Sci. 9, 2103623 (2022).
+	45.	 H. Jamal, F. Khan, H. Si, J. H. Kim, Enhanced compatibility of a polymer-­based electrolyte 
+with Li-­metal for stable and dendrite-­free all-­solid-­state Li-­metal batteries. J. Mater. Chem. 
+A 9, 27304–27319 (2021).
+	46.	 M. Vazquez, M. Liu, Z. Zhang, A. Chandresh, A. B. Kanj, W. Wenzel, L. Heinke, Structural and 
+dynamic insights into the conduction of lithium-­ionic-­liquid mixtures in nanoporous 
+metal–organic frameworks as solid-­state electrolytes. ACS Appl. Mater. Interfaces 13, 
+21166–21174 (2021).
+	47.	 X. Wang, S. Huang, K. Guo, Y. Min, Q. Xu, Directed and continuous interfacial channels for 
+optimized ion transport in solid-­state electrolytes. Adv. Funct. Mater. 32, 2206976 (2022).
+	48.	 J. Atik, D. Diddens, J. H. Thienenkamp, G. Brunklaus, M. Winter, E. Paillard, Cation-­assisted 
+lithium-­ion transport for high-­performance PEO-­based ternary solid polymer 
+electrolytes. Angew. Chem. Int. Ed. 60, 11919–11927 (2021).
+	49.	 J. Kang, Z. Yan, L. Gao, Y. Zhang, W. Liu, Q. Yang, Y. Zhao, N. Deng, B. Cheng, W. Kang, 
+Improved ionic conductivity and enhancedinterfacial stability of solid polymer 
+electrolytes with porous ferroelectric ceramic nanofibers. Energy Storage Mater. 53, 
+192–203 (2022).
+	50.	 H. Li, Y. Du, Q. Zhang, Y. Zhao, F. Lian, A single-­ion conducting network as rationally 
+coordinating polymer electrolyte for solid-­state Li metal batteries. Adv. Energy Mater. 12, 
+2103530 (2022).
+	51.	 X. Ji, S. Hou, P. Wang, X. He, N. Piao, J. Chen, X. Fan, C. Wang, Solid-­state electrolyte design 
+for lithium dendrite suppression. Adv. Mater. 32, 2002741 (2020).
+	52.	 K. Park, J. B. Goodenough, Dendrite-­suppressed lithium plating from a liquid electrolyte 
+via wetting of Li3N. Adv. Energy Mater. 7, 1700732 (2017).
+	53.	 G. Zeng, Y. Liu, D. Chen, C. Zhen, Y. Han, W. He, Natural lepidolite enables fast polysulfide 
+redox for high-­rate lithium sulfur batteries. Adv. Energy Mater. 11, 2102058 (2021).
+	54.	 Z. Han, H. Ren, Z. Huang, Y. Zhang, S. Gu, C. Zhang, W. Liu, J. Yang, G. Zhou, Q. Yang, W. Lv, 
+A permselective coating protects lithium anode toward a practical lithium–sulfur battery. 
+ACS Nano 17, 4453–4462 (2023).
+	55.	 Y. Wang, Z. Deng, J. Huang, H. Li, Z. Li, X. Peng, Y. Tian, J. Lu, H. Tang, L. Chen, Z. Ye, 2D 
+Zr-­Fc metal-­organic frameworks with highly efficient anchoring and catalytic conversion 
+ability towards polysulfides for advanced Li-­S battery. Energy Storage Mater. 36, 466–477 
+(2021).
+	56.	 J. Chen, R. Yuan, J. Feng, Q. Zhang, J. Huang, G. Fu, M. Zheng, B. Ren, Q. Dong, Conductive 
+lewis base matrix to recover the missing link of Li2S8 during the sulfur redox cycle in Li–S 
+battery. Chem. Mater. 27, 2048–2055 (2015).
+	57.	 S. Bai, X. Liu, K. Zhu, S. Wu, H. Zhou, Metal–organic framework-­based separator for 
+lithium–sulfur batteries. Nat. Energy 1, 16094 (2016).
+	58.	 Y. Li, H. Zhan, K. Huang, Y. Zhou, All solid state lithium sulfur rechargeable battery with 
+PEO-­based polymer electrolytes. Acta Chimica Sinica 68, 1850–1854 (2010).
+	59.	 Y. Shi, Z. Fan, B. Ding, Z. Li, Q. Lin, S. Chen, H. Dou, X. Zhang, Atomic-­scale Al2O3 modified 
+PEO-­based composite polymer electrolyte for durable solid-­state Li−S batteries. J. 
+Electroanal. Chem. 881, 114916 (2021).
+	60.	 R. Fang, H. Xu, B. Xu, X. Li, Y. Li, J. B. Goodenough, Reaction mechanism optimization of 
+solid-­state Li-­S batteries with a PEO-­based electrolyte. Adv. Funct. Mater. 31, 2001812 
+(2021).
+	61.	 Y. Ji, K. Yang, M. Liu, S. Chen, X. Liu, B. Yang, Z. Wang, W. Huang, Z. Song, S. Xue, Y. Fu,  
+L. Yang, T. S. Miller, F. Pan, PIM-­1 as a multifunctional framework to enable high-­
+performance solid-­state lithium−sulfur batteries. Adv. Funct. Mater. 31, 2104830 (2021).
+	62.	 Z. Ao, Y. Zou, H. Zou, Y. Huang, N. Chen, Enhanced cycling performance of all-­solid-­state 
+Li-­S battery enabled by PVP-­blended PEO-­based double-­layer electrolyte. Chem. Eur. J. 
+28, e202200543 (2022).
+	63.	 G. G. Eshetu, X. Judez, C. Li, M. Martinez-­Ibañez, I. Gracia, O. Bondarchuk, J. Carrasco,  
+L. M. Rodriguez-­Martinez, H. Zhang, M. Armand, Ultrahigh performance all solid-­state 
+lithium sulfur batteries: Salt anion's chemistry-­induced anomalous synergistic effect. J. 
+Am. Chem. Soc. 140, 9921–9933 (2018).
+	64.	 Y. Wang, G. Wang, P. He, J. Hu, J. Jiang, L.-­Z. Fan, Sandwich structured NASICON-­type 
+electrolyte matched with sulfurized polyacrylonitrile cathode for high performance solid-­
+state lithium-­sulfur batteries. Chem. Eng. J. 393, 124705 (2020).
+
+=== 第 14 页 ===
+Li et al., Sci. Adv. 10, eadl3925 (2024)     13 March 2024
+S c i e n c e A d va n c e s | R e s e a r c h A r t i c l e
+14 of 14
+	 65.	 M. Li, J. E. Frerichs, M. Kolek, W. Sun, D. Zhou, C. J. Huang, B. J. Hwang, M. R. Hansen, M. Winter, 
+P. Bieker, Solid-­state lithium−sulfur battery enabled by Thio-­LiSICON/polymer composite 
+electrolyte and sulfurized polyacrylonitrile cathode. Adv. Funct. Mater. 30, 1910123 (2020).
+	66.	 X. Xu, G. Hou, X. Nie, Q. Ai, Y. Liu, J. Feng, L. Zhang, P. Si, S. Guo, L. Ci, Li7P3S11/
+poly(ethylene oxide) hybrid solid electrolytes with excellent interfacial compatibility for 
+all-­solid-­state batteries. J. Power Sources 400, 212–217 (2018).
+	67.	 W. Kou, J. Wang, W. Li, R. Lv, N. Peng, W. Wu, J. Wang, Asymmetry-­structure electrolyte 
+with rapid Li+ transfer pathway towards high-­performance all-­solid-­state lithium−sulfur 
+battery. J. Memb. Sci. 634, 119432 (2021).
+	68.	 Y. Liu, H. Liu, Y. Lin, Y. Zhao, H. Yuan, Y. Su, J. Zhang, S. Ren, H. Fan, Y. Zhang, Mechanistic 
+investigation of polymer-­based all-­solid-­state lithium/sulfur battery. Adv. Funct. Mater. 31, 
+2104863 (2021).
+	69.	 H. Duan, L. Li, X. Fu, Y. Deng, G. Chen, A functional additive to in-­situ construct stable 
+cathode and anode interfaces for all-­solid-­state lithium-­sulfur batteries. Chem. Eng. J. 
+450, 138208 (2022).
+	70.	 X. Gao, X. Zheng, J. Wang, Z. Zhang, X. Xiao, J. Wan, Y. Ye, L. Y. Chou, H. K. Lee, J. Wang,  
+R. A. Vila, Y. Yang, P. Zhang, L. W. Wang, Y. Cui, Incorporating the nanoscale encapsulation 
+concept from liquid electrolytes into solid-­state lithium-­sulfur batteries. Nano Lett. 20, 
+5496–5503 (2020).
+Acknowledgments 
+Funding: This work was financially supported by the National Natural Science Foundation of 
+China (22275057), CNPC Innovation Foundation (2022DQ02–0410), the Guangdong Basic and 
+Applied Basic Research Foundation (2023B1515040011), and the Science and Technology 
+Projects in Guangzhou (202201010705). Author contributions: L.Z., J.L., and F.X. conceived 
+the idea and cowrote the manuscript. J.L., F.X., W.P., Q.L., and X.Y. performed the experiments 
+and in situ Raman spectroscopy. L.Z. guided all aspects of the work. All authors made 
+contributions to the manuscript collaboratively. Competing interests: J.L. and L.Z. are 
+inventors on a patent application related to this work filed by the South China University of 
+Technology Patent Affairs Center (no. 202311692926.7, filed 11 December 2023). All other 
+authors declare that they have no competing interests. Data and materials availability: All 
+data needed to evaluate the conclusions in the paper are present in the paper and/or the 
+Supplementary Materials.
+Submitted 16 October 2023 
+Accepted 7 February 2024 
+Published 13 March 2024 
+10.1126/sciadv.adl3925
+

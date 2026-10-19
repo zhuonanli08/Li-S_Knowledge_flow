@@ -1,0 +1,1871 @@
+=== 第 1 页 ===
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+A locally solvent-tethered polymer
+electrolyte for long-life lithium metal
+batteries
+Yanfei Zhu
+1,3, Zhoujie Lao1,3, Mengtian Zhang1,3, Tingzheng Hou
+1
+,
+Xiao Xiao1, Zhihong Piao1, Gongxun Lu
+1, Zhiyuan Han1, Runhua Gao1, Lu Nie1,
+Xinru Wu1, Yanze Song1, Chaoyuan Ji1, Jian Wang
+2 & Guangmin Zhou
+1
+Solid polymer electrolytes exhibit enhanced Li+ conductivity when plasticized
+with highly dielectric solvents such as N,N-dimethylformamide (DMF). How-
+ever, the application of DMF-containing electrolytes in solid-state batteries is
+hindered by poor cycle life caused by continuous DMF degradation at the
+anode surface and the resulting unstable solid-electrolyte interphase. Here we
+report a composite polymer electrolyte with a rationally designed Hofmann-
+DMF coordination complex to address this issue. DMF is engineered on Hof-
+mann frameworks as tethered ligands to construct a locally DMF-rich interface
+which promotes Li+ conduction through a ligand-assisted transport mechan-
+ism. A high ionic conductivity of 6.5 × 10−4 S cm−1 is achieved at room tem-
+perature. We demonstrate that the composite electrolyte effectively reduces
+the free shuttling and subsequent decomposition of DMF. The locally solvent-
+tethered electrolyte cycles stably for over 6000 h at 0.1 mA cm−2 in Li | |Li
+symmetric cell. When paired with sulfurized polyacrylonitrile cathodes, the full
+cell exhibits a prolonged cycle life of 1000 cycles at 1 C. This work will facilitate
+the development of practical polymer-based electrolytes with high ionic
+conductivity and long cycle life.
+Solid polymer electrolytes (SPEs) are recognized as promising candi-
+dates for achieving next-generation solid-state batteries due to their
+accessible processability and high safety1. However, the sluggish seg-
+mental motion and limited solvating ability of the polymer matrix lead
+to unsatisfactory ionic conductivity of SPEs at room temperature (10−8
+to 10−5 S cm−1)2,3. High dielectric solvents including N-methyl-2-
+pyrrolidone (NMP)4, dimethyl sulfoxide (DMSO)5, and N,N-dimethyl-
+formamide (DMF)6 have been utilized in SPEs as plasticizers to facil-
+itate improved transport kinetics. Among the investigated solvents,
+DMF with high relative permittivity (εr = 36.7) and low viscosity
+(0.82 mPa s) at room temperature has proven to be highly effective for
+boosting ionic conductivity7,8. The carbonyl oxygen (C=O) of DMF
+directly coordinates with Li+, which helps dissociate the ion pair of
+lithium salts. This DMF regulated Li+ coordination environment redu-
+ces the correlated motion of Li+ and the anion, and promotes net Li+
+ﬂuxes. Unfortunately, it is found that DMF can migrate together with
+Li+ towards the Li metal anode, leading to serious side reactions at the
+electrode–electrolyte interface9. The uncontrolled decomposition and
+continuous depletion of DMF are highly detrimental to the stability of
+the Li metal anode as well as the durability of SPEs.
+Additive engineering has been a cost-effective and practical
+approach to mitigate the adverse effects of DMF in SPEs10. Functional
+polymer (e.g., poly(acrylic acid)) has been explored as an organic
+additive to induce a robust solid-electrolyte interphase (SEI), and
+suppress the interfacial side reactions between DMF and Li metal.
+However, despite the improved interfacial stability and cycle life, DMF
+Received: 19 October 2023
+Accepted: 18 April 2024
+Check for updates
+1Tsinghua-Berkeley Shenzhen Institute & Tsinghua Shenzhen International Graduate School, Shenzhen 518055, PR China. 2Canadian Light Source, Saskatoon
+S7N 2V3, Canada. 3These authors contributed equally: Yanfei Zhu, Zhoujie Lao, Mengtian Zhang.
+e-mail: tingzhenghou@sz.tsinghua.edu.cn;
+guangminzhou@sz.tsinghua.edu.cn
+Nature Communications|  (2024) 15:3914 
+1
+1234567890():,;
+1234567890():,;
+
+=== 第 2 页 ===
+is virtually diluted and cannot sufﬁciently dissociate the Li salts when
+excessive organic additive ﬁlled, resulting in compromised ionic
+conductivity11. Composite polymer electrolytes (CPEs) with inorganic
+additive have been investigated with improved ionic conductivity by
+reducing the polymer crystallinity and providing multiple/or syner-
+gistic Li+ conductive pathways12. Recently, dielectric ceramic materials
+such as Li6.75La3Zr1.75Ta0.25O12 (ref. 13), Li1.4Al0.4Ti1.6(PO4)3 (ref. 14), and
+BaTiO3–Li0.33La0.57TiO3–x (ref. 15) and have been reported to further
+promote salt dissociation while serving as active sorbents for DMF.
+However, previous approaches to additive engineering have mainly
+focused on addressing either ionic conductivity or electrochemical
+stability. The synergetic effect of DMF modulation and Li+ transport
+mechanism among the complex components remains unclear, which
+substantially impedes the design of high-performance and durable
+polymer electrolytes. In brief, an effective strategy to simultaneously
+improve both aspects needs to be developed for the ultimate appli-
+cation of SPEs.
+Based on our previous efforts in the design of nano-additive for
+CPEs16, we propose to design a DMF-containing coordination complex
+as a dual-functional additive. By engineering DMF into a suitable
+coordination complex, surface-tethered DMF ligands are expected to
+facilitate ion transport by a locally solvent-rich environment while
+minimizing undesirable DMF migration. Among reported coordination
+complexes, layered Hofmann-framework materials are known for their
+metal site-rich feature and tunable geometry by incorporating appro-
+priate ligands (e.g., NH3, H2O, and organic molecules) on the metal
+sites17–19. A wide range of functionalized Hofmann materials with
+unique physicochemical properties can be developed through ﬁne-
+tuning ligands and ligand exchange. This feature provides the oppor-
+tunity to locally conﬁne and retain functional solvents, including DMF,
+within the electrolyte phase20. Moreover, open metal sites of the
+Hofmann framework are able to dissociate Li salt through the
+metal–anion interaction21,22. Therefore, integrating the Hofmann fra-
+mework with DMF as ligands is a promising approach to construct a
+dual-functional additive.
+Here we demonstrate the simultaneous improvement in ionic
+conductivity and electrochemical stability for CPEs by the incorpora-
+tion of DMF ligand-exchanged Hofmann frameworks. A locally-
+conﬁned DMF-rich environment at additive–polymer interfaces of
+CPEs is constructed by a Hofmann-DMF (Ni(DMF)2Ni[CN]4, denoted as
+Ni-DMF). The conﬁnement and reduced consumption of DMF leads to
+a stable inorganic-rich SEI with a signiﬁcant decrease in DMF induced
+products and a durable CPE. As a result, the designed CPE cycled stably
+against Li metal electrodes for over 6000 h with an overvoltage of
+64 mV.
+Meanwhile,
+the
+constructed
+solvent-tethered
+Ni-
+DMF–electrolyte interfaces serve as rapid Li+ transport pathways and
+promote Li+ conduction kinetics through a ligand-assisted transport
+mechanism, leading to a high room temperature ionic conductivity
+(6.5 × 10−4 S cm−1). Furthermore, Ni-DMF helps immobilize anions and
+exhibits a high Li+ transference number (tLi
++) of 0.71. These features
+enable Li | |sulfurized polyacrylonitrile (Li | |SPAN) cells to operate for
+1000 cycles at 1 C with a capacity decay of 0.04% per cycle and a Li | |
+SPAN pouch cell with an areal capacity of 1.9 mAh cm–2 (47 mAh with
+sulfur loading of 50 mg) to operate for 35 cycles, all of which stand
+among the state-of-the-art performance in solid-state lithium–sulfur
+batteries (ssLSBs).
+Results
+Integrated Ni-DMF complex design
+A precursor Hofmann-H2O complex (Ni(H2O)2Ni[CN]4·xH2O, denoted
+as Ni-H2O) was synthesized by assembling planar anionic [Ni(CN)4]2−
+with Ni2+ ions, which link neighboring cyanogen groups at their N ends
+(Supplementary Fig. 1)18. The Ni2+ sites bonding with two coordinated
+H2O molecules further complete the octahedral coordination geo-
+metry. The resulting crystal structure is an extended two-dimensional
+(2D) network stacking along the [001] axis, with absorbed H2O mole-
+cules in the interlayer region. The absorbed H2O is unstable and can be
+removed by external management, resulting in abundant interstitial
+space23. With this in mind, a thermal treatment process for Ni-H2O was
+carried out to obtain the intermediate products (Ni(H2O)2Ni[CN]4,
+denoted as Ni-activated) with open channels created for efﬁcient
+ligand exchange. Scanning electron microscopy (SEM) and transmis-
+sion electron microscopy (TEM) images show that Ni-H2O and Ni-
+activated exhibit similar nano-sheet morphology with a diameter of
+approximately 200 nm (Supplementary Fig. 2). N2 adsorption/deso-
+rption isotherms demonstrate the removal of absorbed H2O, as evi-
+denced by an uplift at low P/P0 for Ni-activated, which corresponds to
+an augmentation of interstitial space (Supplementary Fig. 3). This
+conversion is further supported by Brunauer–Emmett–Teller (BET)
+surface area (SBET) calculation that the Ni-activated achieves a higher
+SBET of 48.4 m2 g−1 than Ni-H2O (27.6 m2 g−1). With an enlarged open
+channel, the coordinated H2O was subsequently substituted with DMF
+through the ligand exchange process with excessive DMF solvent ﬁll-
+ing up (Fig. 1a)2. The obtained Ni-DMF structure consists of 2D corru-
+gated layers stacking along the [200], achieving both enlarged lattice
+spacing (7.63 Å) and SBET of 59.7 m2 g−1. Powder X-ray diffraction
+(PXRD) results for Ni-DMF show a (200) crystal peak at around 12°,
+which coincides well with the simulated Ni(DMF)2Ni[CN]4 diffraction
+pattern (Supplementary Fig. 4)24.
+Scanning transmission X-ray microscope (STXM) energy-stack
+imaging technique25 and extracted X-ray absorption near edge struc-
+ture (XANES) spectra of O K-edge further reveal the ligand exchange
+process (Fig. 1b). Stack data were analyzed using the principle com-
+ponent analysis and cluster analysis to obtain the spatial distribution of
+O containing species, presented as color-coded mapping images based
+on changes in optical densities (Supplementary Figs. 5–7). The O K-
+edge spectra extracted from each sample stack region are shown in
+Fig. 1c. Compared with the Ni-H2O sample, the inorganic O (H–O–H)
+signals of Ni-activated located at 536 and 538 eV are weakened due to
+the elimination of absorbed H2O molecules26. In the case of Ni-DMF,
+the emergence of a strong organic O (C=O in DMF) signal (532 eV)
+instead of H–O–H signals indicates efﬁcient O substitution27. These
+results are consistent with attenuated total reﬂectance-Fourier trans-
+form infrared spectra (ATR-FTIR), which show that H–O–H signals are
+replaced with C=O signals. (Supplementary Fig. 8).
+We further conducted a comprehensive analysis of the local
+structure of Ni-DMF using both theoretical calculations and extended
+X-ray absorption ﬁne structure (EXAFS) analyses. Density functional
+theory (DFT) calculation results demonstrate that the formation of the
+Ni-DMF structure is overall exergonic, as evidenced by a more negative
+adsorption Gibbs free energy (ΔGr) under the excessive DMF solvent
+environment (Fig. 1d). The k3-weighted Fourier transform of EXAFS
+revealsthe local structure change of Ni site (SupplementaryFig. 9).The
+ﬁrst coordinated shells are assigned to the Ni–C or Ni–N scattering
+paths16. The relatively stronger intensity of Ni–O oscillation in Ni-DMF
+reveals its more ordered local structure around the Ni site28. Notably,
+Ni-DMF exhibits a larger Ni–O bond length (1.77 Å) than that of Ni-H2O
+(1.74 Å), revealing the weaker interaction between Ni and DMF ligand.
+To further investigate the interaction between the Ni site and
+its surrounding ligands, we conducted STXM XANES analyses at the
+Ni L-edge (Fig. 1e). Both samples show three absorption peaks in the
+L3-edge region where the peak located at ∼859 eV is assigned to
+metal–ligand interaction of the Ni coordination29. Compared with
+Ni-H2O, Ni-DMF witnesses a decrease in peak intensity, indicating a less
+charge exchange interaction between Ni and DMF30. The highest
+occupied molecular orbital analysis (HOMO, insets in Fig. 1e) further
+illustrates the local electronic structural difference between Ni-H2O
+and Ni-DMF. Ni-H2O shows a more shared electron distribution,
+whereas Ni-DMF mostly exhibits electrostatic interactions with com-
+paratively less charge transfer.
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+2
+
+=== 第 3 页 ===
+Li+ transport mechanism in CPE
+To investigate the ionic conduction behavior of Ni-DMF, the materials
+were incorporated into a LiFSI/poly(vinylidene ﬂuoride-co-hexa-
+ﬂuoropropylene) (PVDF-HFP) electrolyte (donated as LPE) to yield a
+CPE (donated as LPE@Ni-DMF). LPE@Ni-DMF exhibits a much higher
+ionic conductivity (6.5 × 10−4 S cm−1) at room temperature than that of
+LPE (2.4 × 10−4 S cm−1) and other reported PVDF-based electrolytes
+(Supplementary Fig. 10 and Table 1). Furthermore, the tLi
++ of LPE@Ni-
+DMF increases from 0.44 (LPE) to as high as 0.71 (Supplementary
+Fig. 11). To understand the contribution of Ni-DMF to the improved
+ionic conduction performance, molecular dynamics (MD) simulations
+were performed to reveal the Li+ transport mechanism on the atomistic
+scale (Supplementary Fig. 12). Extracted local snapshots show the
+structural evolution of key species in LPE@Ni-DMF (Fig. 2a). At the
+initial stage (0 ns), the DMF ligand binds to the Ni site on the surface via
+Ni–O(DMF) coordination. Subsequently, the DMF detethers from the
+Ni-DMF surface, and enters the ﬁrst solvation shell of a nearby Li+ to
+form a Li–O(DMF) coordinated state at 0.76 ns. Importantly, the
+recoordination of Ni–O(DMF) is captured at 36.79 ns where the DMF
+ligand decoordinates with Li+ and re-tethers to the original Ni site. The
+observation of the reverse process indicates that the surface-tethered
+DMF can facilitate ion motion while barely diffusing with Li+. By
+extending the simulation time, we observed rotational behaviors of the
+Li+-coordinating DMF ligand during the Li+ transport process (Fig. 2b
+and Supplementary Fig. 13). Therefore, a locally-conﬁned DMF-rich
+interface between the Ni-DMF and its surrounding electrolyte phase is
+theoretically veriﬁed31,32. We also note that FSI−can be immobilized
+onto the framework (Supplementary Fig. 14). The motion of the paring
+Li+ can thus be uncorrelated from the anion, contributing to an
+improved Li+ conductivity and transference number33. As a compar-
+ison, in LPE, it is observed that the coordinating DMF tends to diffuse
+together with Li+ for a longer distance (Fig. 2c). We further quantita-
+tively distinguished the ionic conduction mechanism of LPE@Ni-DMF
+and LPE by calculating the characteristic residence time (τ) for coor-
+dinating species moving with Li+ (Supplementary Fig. 15). We observe a
+notable reduction of 60% in the residence time for both Li+/DMF and
+Li+/FSI– pairs within LPE@Ni-DMF compared to pristine LPE, in accor-
+dance with the lower activation energy (Ea) of LPE@Ni-DMF (0.147 eV)
+(
+)
+Ni-H2O
+Ni-DMF
+Photon energy (eV)
+Ni L3-edge
+[200]
+Coordinated    
+DMF
+7.63 Å
+Ni
+N
+O
+H
+C
+Absorbed H2O 
+elimination
+Coordinated H2O/DMF
+exchange
+Ni-DMF
+Ni-H2O
+Ni-activated
+d
+e
+2O
++DMF
+2O
++DMF
+Ni-H2O complex
+Ni-H2O/DMF complex
+Ni-DMF complex
+2O) bond
+Cyanogen
+Gr 
+-1
+Gr 
+a
+b
+c
+Monochronic 
+X-ray
+Order select 
+aperture
+Detection layer
+Scintillator with 
+photomultiplier tube
+Piezoelectric 
+(x, y, z) stage
+(536, 538 eV)
+(536, 538 eV)
+O=C signal
+(532 eV)
+Ni-H2O
+Ni-activated
+Ni-DMF
+O K-edge
+interaction
+a
+c
+b
+Normalized Intensity (arb. units)
+Normalized Intensity (arb. units)
+Fig. 1 | Experimental and theoretical study on the ligand-exchanged processes
+and the structure-property correlations. a Schematic illustration of the ligand-
+exchanged processes and the crystal structure of Ni-DMF. b Stack analyses of Ni-
+DMF detected by STXM. c Aligned average values of O K-edge spectra of Ni-H2O, Ni-
+activated, and Ni-DMF. d Coordination structures and adsorption Gibbs free energy
+(ΔGr) change during ligand-exchanged processes calculated using DFT. e XANES
+analyses of Ni L3-edge for Ni-H2O and Ni-DMF and corresponding charge interaction
+between Ni and surrounding ligands.
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+3
+
+=== 第 4 页 ===
+than that of LPE (0.218 eV; Supplementary Fig. 16). The results
+demonstrate a less correlated cation–anion motion (higher tLi
++), and a
+less sluggish ion transport mechanism with more Li+ hopping (higher
+conductivity) in LPE@Ni-DMF34. This trend is in well agreement with
+our experimental measurements. The diffusion length of DMF co-
+migrating with Li+ can be determined utilizing the equation:
+L =
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+6DDMFτ
+q
+ð1Þ
+Since the diffusion coefﬁcients for DMF (DDMF) and FSI– (DFSI
+–)
+remain relatively constant in LPE and LPE@Ni-DMF (Supplementary
+Fig. 17), both the residence time and diffusion length of DMF moving
+concurrently with Li+ exhibit signiﬁcant decrease within LPE@Ni-DMF,
+which mitigates the DMF shuttling. Therefore, Li+ conduction in
+LPE@Ni-DMF follows a unique ligand-assisted Li+ transport mechanism
+at the Ni-DMF–electrolyte interfaces (Fig. 2d).
+To further illustrate how the locally DMF-rich environment leads
+to a favorable Li+ transport mechanism, radial distribution functions
+(RDFs) of the Li+ coordination shell were calculated for bulk LPE and
+the interface in LPE@Ni-DMF. The two peaks of LPE, located at
+approximately 2 Å are assigned to Li–O(DMF) and Li–O(FSI–) pairs,
+corresponding to an integrated coordination number (CN) of 1.02 and
+3.09, respectively (Fig. 2e, g)35. In contrast, the dominant peak of the
+Li–O(DMF) pair in LPE@Ni-DMF suggests that more DMF molecules
+participate in Li+ solvation, resulting in a larger CN of 3.8 and a larger
+Li–O(DMF) distance of 2.11 Å in LPE@Ni-DMF compared to that in LPE
+(2.05 Å) (Fig. 2f, g). The DMF ligands of Ni-DMF alter the Li+ coordi-
+nation environment in LPE, leading to an increase in the number of
+solvent molecules surrounding Li+ and consequently a longer
+Li–O(DMF) bond length. This reduces the interaction between Li+ and
+( )
+Ni-DMF
+d
+c
+h
+DMF-ligand rotation
+0 ns
+Ni
+O(DMF)
+0.76 ns
+Li+
+O(DMF)
+36.79 ns
+61.07 ns
+66.09 ns
+78.47 ns
+Li-site 1
+Li-site 2
+Li-site 3
+a
+b
+Ni
+O(DMF)
+(i) Attach
+(ii) Guide
+(iii) Detach
+Ligand assisted Li+ transport
+FSI
+Li+
+g
+e
+f
+LPE@Ni-DMF
+LPE
+3.09
+1.02
+1.29
+3.8
+0 ns
+1.66 ns
+5.93 ns
+[DMF-Li+] cluster-site 1
+[DMF-Li+] cluster-site 2
+[DMF-Li+] cluster-site 3
+[DMF-Li+] cluster diffusion
+LPE@Ni-DMF
+LPE@Ni-DMF
+LPE
+FSI
+DMF
+(
+)
+(
+)
+( )
+( )
+( )
+(
+)
+(
+)
+( )
+( )
+( )
+Ni
+N
+O
+H
+C
+F
+S
+Li
+Fig. 2 | Li+ transport mechanism in LPE@Ni-DMF. Snapshots of MD simulation of
+the interaction between Li+ and DMF ligand (a) and local motion trail of the DMF
+ligand during Li+ transfer (b). c Snapshots of the MD simulation of [DMF-Li+] cluster
+diffusion in LPE. d Schematic illustration of the ligand-assisted Li+ transport
+mechanism where Li+ is attached, guided, and then detached with DMF ligands at
+the locally-conﬁned DMF-rich interfaces. RDFs of Li+/DMF and Li+/FSI−pairs in LPE
+(e) and LPE@Ni-DMF (f). g Integrated coordination number of Li+ with DMF and FSI–
+in LPE and LPE@Ni-DMF, respectively. h Probability distribution of DMF and FSI−
+between two separate Ni-DMF nanosheets in LPE@Ni-DMF.
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+4
+
+=== 第 5 页 ===
+DMF molecules, including those trapped in the PVDF-HFP matrix.
+Additionally, the reduced peak of Li–O(FSI–) pair indicates more dis-
+sociation between Li+ and FSI–, which arises from the enhanced sol-
+vation effects of DMF ligands and the immobilization of FSI– of Ni sites
+(Supplementary Fig. 18). Overall, both DMF and FSI– tend to con-
+centrate at the interface, inducing a DMF-rich and FSI–-adsorbed local
+environment (Fig. 2h).
+Properties of LPE@Ni-DMF
+LPE@Ni-DMF exhibits a comparable thickness of ∼130 μm, yet a more
+compact structure than LPE, as evidenced by SEM images (Supple-
+mentary Fig. 19). To further investigate the internal architecture and
+component distribution of LPE@Ni-DMF, X-ray computed tomo-
+graphy (XCT) was employed (Fig. 3a). The Ni-DMF nanosheets (green
+region in the split rendering map) are uniformly dispersed in PVDF-
+HFP and LiFSI matrix, thereby creating continuous and efﬁcient Li+
+transfer interfaces between Ni-DMF and electrolyte phases (Supple-
+mentary Movie 1). The three-dimensional (3D) reconstruction results
+reveal that the Ni-DMF compactly integrate with the LPE matrix, leav-
+ing behind interconnected micron-level particle (Fig. 3b and Supple-
+mentary Movie 2). This unique spatial conﬁguration is further
+supported by magniﬁed SEM images (Fig. 3c and Supplementary
+Fig. 20) and corresponding energy dispersive spectrometer (EDS)
+mapping (Supplementary Fig. 21). Consequently, LPE@Ni-DMF exhi-
+bits a three-fold increase in Young’s modulus, reaching 13.3 MPa
+compared to LPE (Supplementary Fig. 22).
+7Li solid-state nuclear magnetic resonance (ssNMR) spectra were
+utilized to investigate the macroscopic environment of Li+. In the case
+(
+Voltage (V)
+)
+%
+(
+)
+%
+(
+a
+b
+LPE@Ni-DMF
+c
+X-ray source
+Condenser
+Sample 
+rotation
+Zone plate 
+objective
+Detector
+PVDF-HFP polymer chain
+Li-based composite 
+Li+
+Li+
+Li+
+Ni-DMF 
+d
+g
+e
+f
+(110)
+Fresh
+(100)
+(020)
+Cycled
+(111)
+(200)
+Fresh
+(111)
+(200)
+Cycled
+LPE@Ni-DMF
+LPE
+5 
+0 
+-5 
+-10 
+7Li shift (ppm)
+Upfield
+shift
+Fresh
+Cycled
+LPE
+5 
+0 
+-5 
+-10 
+7Li shift (ppm)
+Downfield 
+shift
+Cycled
+Fresh
+LPE@Ni-DMF
+LPE
+LPE@Ni-DMF
+0.5 m 
+1 m 
+Split rendering map
+Fresh
+Cycled
+Cycled
+Fresh
+h
+i
+j
+LPE@Ni-DMF
+LPE
+4.3 V
+4.7 V
+700
+710
+720
+730
+740
+750
+760
+770
+Free FSI-
+ (31.7%)
+CIP
+(21.1%)
+AGG-1
+(41.3%)
+AGG-2
+(5.9%)
+Raman shift (cm-1)
+700
+710
+720
+730
+740
+750
+760
+770
+Free FSI-
+(6.4%)
+CIP
+(24.7%)
+AGG-1
+(31.4%)
+AGG-2
+(37.5%)
+Raman shift (cm-1)
+5 m 
+Voltage (V)
+Current ( A)
+Intensity (a. u.)
+Intensity (a. u.)
+Intensity (arb. units)
+Intensity (arb. units)
+Intensity (a.u.)
+0
+5000
+10000
+15000
+20000
+Intensity (a.u.)
+0
+4000
+8000
+12000
+16000
+Fig. 3 | Physicochemical properties and durability analyses of LPE@Ni-DMF.
+a Schematic illustration of LPE@Ni-DMF XCT and the internal architecture. The
+rendered green region represents the uniformly dispersed Ni-DMF nanosheets.
+b 3D bulk reconstruction of LPE@Ni-DMF. c SEM images of the internal structure in
+LPE@Ni-DMF. d 7Li ssNMR spectra of LPE and LPE@Ni-DMF under fresh and cycled
+states. Raman spectra of LPE (e) and LPE@Ni-DMF (f). CIP, contact ion pairs; AGGs,
+aggregate clusters. g LSV curves of asymmetric Li | |SS cells with a scanning rate of
+1 mV s−1. The inset is the magniﬁed image at the selected voltage range from 4 to 5 V.
+Relative weight change of DMF before and after cycling in LPE (h) and LPE@Ni-DMF
+(i) detected by TG analyses. j 2D WAXS mapping of LPE and LPE@Ni-DMF under
+fresh and cycled states.
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+5
+
+=== 第 6 页 ===
+of LPE where ions are strongly aggregated, a broad resonance is
+observed due to poor ionic mobility (Fig. 3d)16,36. Notably, the narrower
+7Li full-width of LPE@Ni-DMF than LPE indicates faster Li+ motion
+facilitated by ligand-assisted transport. Furthermore, a signiﬁcant dif-
+ference is observed between cycled samples (galvanostatic plating/
+stripping tests at 0.1 mA cm−2 and 0.1 mAh cm−2 per half cycle for 100 h
+in Li | |Li symmetric cells at room temperature), where the 7Li signal of
+the cycled LPE is upﬁeld shift (from −2.19 to −2.43 ppm) compared to a
+downﬁeld shifted of 7Li signal (from −1.33 to −0.77 ppm) of the cycled
+LPE@Ni-DMF (Supplementary Fig. 23). This trend suggests a reduced
+deshielding effect on Li+, signifying an enhanced Li salt dissociation37.
+ATR-FTIR tests of LPE and LPE@Ni-DMF membranes were performed
+to evaluate the trace of C=C double bonds9. It is evident that the
+spectrum of LPE@Ni-DMF shows a more prominent C=C characteristic
+peak at 1703 cm−1 than that of LPE, demonstrating that the Ni-DMF can
+induce enhanced dehydroﬂuorination of PVDF-HFP, thereby improv-
+ing the ionic conduction at the interface of the composite material
+(Supplementary Fig. 24). Raman analysis was performed to detect the
+FSI−anion states15. From Fig. 3e, f, the content of free FSI−, contact ion
+pairs (CIP), and aggregate clusters (AGGs) of LPE are 6.4%, 24.7%, and
+68.9%, respectively, while the corresponding values for LPE@Ni-DMF
+are 31.7%, 21.1%, and 47.2%, respectively, suggesting that the solvation
+structures can be altered by the addition of Ni-DMF and hence the
+formation of more mobile Li+.
+The electrochemical potential window of electrolytes is an
+important criterion for evaluating practicality. The high voltage stability
+of LPE and LPE@Ni-DMF was tested by linear sweep voltammetry (LSV).
+The LPE exhibits a sharp oxidizing peak beginning at approximately
+4.3 V, while the LPE@Ni-DMF begins to oxidize at over 4.7 V, indicating
+a high antioxidative capability of LPE@Ni-DMF (Fig. 3g). Durability is
+another crucial criterion to evaluate the practical performance of
+SPEs38. Due to the high reactivity between DMF and Li metal (Supple-
+mentary Figs. 25, 26), the shuttling of [DMF-Li+] clusters can lead to a
+gradual depletion of DMF in LPE. To illustrate the concentration evo-
+lution of DMF in a symmetric cell model, the ﬁnite element method
+(FEM) simulation was performed (Supplementary Fig. 27)39. Under an
+applied external electric ﬁeld, DMF migrates to the anode and reacts
+with Li metal, resulting in a continuous decrease in DMF concentration
+in LPE (Supplementary Fig. 28). However, this change is notably less
+severe in LPE@Ni-DMF due to the stronger DMF anchoring ability of Ni
+sites compared to PVDF chains (Supplementary Figs. 28, 29). This trend
+was further experimentally veriﬁed by thermal gravimetric (TG) analy-
+sis. The relative weight change after cycling (ΔW) reduced from 7.5 wt%
+for LPE (Fig. 3h) to 1.7 wt% for LPE@Ni-DMF (Fig. 3i).
+The diffraction patterns of electrolyte membranes were recorded
+using 2D wide-angle X-ray scattering (WAXS) to investigate the impact
+of DMF content evolution on electrolyte properties. For fresh LPE, the
+crystallographic orientation exhibits a single diffraction peak at 14.9°,
+corresponding to the (110) crystalline phase of PVDF (Supplementary
+Fig. 30)40. This sparseness indicates an incomplete crystallization of
+PVDF units in the copolymer due to the presence of DMF, as validated
+by the highly centered (110) facet in the 2D WAXS concentrated pat-
+tern (Fig. 3j). After cycling, two additional crystalline peaks appear at
+13.3° (100) and 14.4° (020), respectively, suggesting an increased
+crystallinity in LPE due to continuous consumption of DMF9. The fresh
+and cycled LPE@Ni-DMF exhibit the same diffraction peaks mainly
+assigned to Ni-DMF, indicating the robust structural stability of Ni-DMF
+during the electrochemical process. Additionally, the XRD pattern of
+cycled LPE@Ni-DMF shows a similar full width at half-maximum of the
+amorphous area as that of fresh LPE@Ni-DMF, indicating the pre-
+dominant amorphous structure in LPE@Ni-DMF is well maintained
+(Supplementary Fig. 31). Consequently, LPE@Ni-DMF with superior
+durability maintained a higher ionic conductivity of 5.7 × 10−4 S cm−1
+after cycling than that of cycled LPE (9.5 × 10−5 S cm−1; Supplemen-
+tary Fig. 32).
+Interfacial stability of LPE@Ni-DMF with Li metal
+The conﬁnement of DMF not only enhances the durability of
+LPE@Ni-DMF by mitigating DMF shuttling and degradation, but also
+prevents the irreversible loss of the anode active material. FEM
+simulations depict the adverse effect of DMF on the Li metal (Sup-
+plementary Fig. 33). Beneﬁtting from the conﬁnement effect of DMF,
+LPE@Ni-DMF produces a relatively ﬂat surface geometry of Li metal.
+However, Li metal suffers from serious attacks with uneven corrosion
+depth in the case of LPE, leading to poor interfacial contact and
+unstable SEI between electrolyte and electrode. As a result, the Li|
+LPE@Ni-DMF|Li cell stably cycles for 6250 h with a low overvoltage of
+64 mV, whereas the cell using LPE displays increasing overvoltage
+and interfacial resistance after only 500 h of cycling (Fig. 4a and
+Supplementary Fig. 34). In addition, the Li|LPE@Ni-DMF|Li cell
+exhibits a critical current density (CCD) of 1.0 mA cm−2, which is
+much higher than that with LPE (0.3 mA cm−2; Fig. 4b). It should be
+noted that the SEM and corresponding EDS mappings show that the
+Li metal after Li|LPE@Ni-DMF|Li cell cycling has a ﬂat surface mor-
+phology without any detectable Ni species, indicating the good
+electrochemical stability of Ni-DMF on Li metal (Supplemen-
+tary Fig. 35).
+Exchange current density (ECD) tests and X-ray photoelectron
+spectroscopy (XPS) were conducted to illustrate the different SEI
+characteristics of LPE and LPE@Ni-DMF. The cell with LPE@Ni-DMF
+delivers
+a
+higher
+ECD
+(0.69 mA cm−2)
+than
+that
+with
+LPE
+(0.24 mA cm−2), indicating promoted Li+ transport ability through SEI
+(Fig. 4c), while a low value of LPE indicates sluggish Li+ conduction
+kinetics41. The SEI composition is found responsible for the differ-
+ence. The O1s XPS spectra obtained through sputtering show that the
+SEI of LPE (LPE-SEI) displays a clear and high atomic ratio of organic
+O (–(R–O)x–) signal, while that of LPE@Ni-DMF (LPE@Ni-DMF-SEI)
+exhibits a decreased signal for the species (Supplementary Fig. 36)42.
+This suggests that the decomposition of shuttled DMF on the Li
+metal surface is alleviated by LPE@Ni-DMF. A similar trend is
+observed for the F1s XPS spectra (Supplementary Fig. 37). Both LiF
+and anion species (–SO2F) are uniformly distributed throughout the
+depth proﬁling in LPE-SEI, indicating the incomplete decomposition
+of ‒SO2F43. In comparison, LPE@Ni-DMF-SEI exhibits a layered dis-
+tribution of ﬂuorine species with superﬁcial –SO2F and LiF inner
+phases. A LiF-rich inorganic layer has been reported to stabilize the Li
+metal SEI and promote interfacial Li+ transport44,45. The Ni2p XPS
+spectrum (Supplementary Fig. 38) indicates that no Ni signal is pre-
+sent in the SEI composition, which is consistent with the EDS map-
+ping results.
+Cryogenic transmission electron microscopy (cryo-TEM) was uti-
+lized to further unveil the micro-structure and local chemical com-
+position of the SEI. Although the distribution of C, N, O, F, and S
+elements is concentrated in both LPE-SEI and LPE@Ni-DMF-SEI, there
+are notable distinctions in the induced depositional morphology.
+LPE@Ni-DMF-SEI has a compact and thinner morphology compared to
+LPE-SEI, which exhibits an uneven deposition (Supplementary Figs. 39,
+40). High-resolution TEM image and corresponding fast Fourier
+transformation (FFT) analysis conﬁrm that the organic phases dom-
+inate LPE-SEI, with only a few crystalline Li2O (111), LiOH (001), or LiF
+(200) observed through the major amorphous area (Fig. 4d)42,46.
+Opposite results were found for LPE@Ni-DMF-SEI which exhibits a
+large amount of inorganic LiF and Li2O grains with little amorphous
+area (Fig. 4e). The difference in the SEI composition is further quan-
+titatively distinguished by calculating the ﬂuorine-to-carbon (F/C)
+elemental ratio (Fig. 4f). A much higher F/C ratio in LPE@Ni-DMF-SEI
+demonstrates that the integrated Ni-DMF complex can induce an
+anion-derived inorganic-rich SEI.
+The dynamic evolution process of SEI and the corresponding Li+
+deposition behavior under cycling condition were illustrated by FEM
+simulations. We ﬁnd that the thickness of LPE-SEI increases unevenly
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+6
+
+=== 第 7 页 ===
+with aggravated corrosion (Fig. 4g and Supplementary Movie 3; based
+on the DMF corrosion model), resulting in an uneven horizontal dis-
+tribution of ionic conductivity of the SEI (Supplementary Fig. 41). In
+contrast, LPE@Ni-DMF-SEI exhibits a regulated morphology with a
+uniform ionic conduction behavior (Supplementary Movie 4). The SEI
+morphology after cycling obtained from the FEM model is in good
+agreement with the experimental observations from cryo-TEM. Con-
+sidering thatthe Li deposition behaviors are highly correlated to the Li+
+concentration gradient in the SEI47, we further compared Li+ con-
+centration distribution in LPE-SEI and LPE@Ni-DMF-SEI. Similarly, LPE-
+SEI exhibits evident local Li+ depletion zones and extremely uneven Li+
+concentration distribution owing to its inhomogeneous SEI inducing
+sluggish Li+ transport ability (Fig. 4h). Speciﬁcally, sharp Li+ con-
+centration gradient arises at local Li+ depletion zones at the LPE-
+SEI–anode interface, which coincides with the areas with enlarged
+overpotential (Supplementary Fig. 42), causing excessively high local
+current density (Supplementary Fig. 43) and dendritic Li deposition
+(Fig. 4i, Supplementary Fig. 44 and Movie 5)48. As opposed to behavior
+of LPE, LPE@Ni-DMF yields the dense and smooth Li deposition due to
+the accelerated kinetics of Li+ ﬂux and uniformly distributed Li+ con-
+centration at the interface, which is further conﬁrmed by SEM images
+(Fig. 4j, Supplementary Fig. 45 and Movie 6).
+( )
+( )
+( )
+( )
+64 mV
+0.1 mA cm
+0.1 mAh cm
+(
+(
+))
+(
+)
+a
+c
+d
+b
+LPE
+LPE@Ni-DMF
+LPE@Ni-DMF
+Li+ concentration
+(M)
+8
+2
+LPE@Ni-DMF
+Li+ concentration at anode surface
+Anode morphology evolution
+10.0
+5.0
+2.5
+0.0
+Deposition thickness ( m)
+7.5
+8
+6
+4
+2
+0
+-2
+Li+ concentration (M)
+20
+0
+40
+Y position ( m)
+LPE
+Large gradient
+Uneven distribution
+10.0
+5.0
+2.5
+0.0
+Deposition thickness ( m)
+7.5
+8
+6
+4
+2
+0
+-2
+Li+ concentration (M)
+20
+0
+40
+Y position ( m)
+SEI morphology evolution
+High
+Low
+SEI thickness
+e
+f
+g
+i
+j
+LPE
+Li surface
+Local current density
+(mA cm )
+0.5
+0
+Time-varying
+Voltage (V)
+Voltage (V)
+Time (h)
+Time (h)
+mA cm
+mA cm
+mA cm
+s
+h
+Fig. 4 | Experimental study and FEM simulations on the interfacial stability of
+LPE@Ni-DMF with Li metal. a Cycling stability of the Li | |Li symmetric cells at a
+current density of 0.1 mA cm−2 with capacity of 0.1 mAh cm−2 per half cycle. The
+insets are the magniﬁed images at the selected time period. b CCD of LPE and
+LPE@Ni-DMF. The plating/stripping time for half cycle is set to 1 h. c Tafel curves
+with calculated ECD of the Li | |Li symmetric cells with a scanning rate of 0.1 mV s−1.
+Cryo-TEM and corresponding FFT images for the component analyses in LPE-SEI (d)
+and LPE@Ni-DMF-SEI (e). f F/C elemental ratio in LPE-SEI and LPE@Ni-DMF-SEI.
+Values are means, and error bars were calculated by taking the standard errors from
+one sample for three measurements. g FEM simulation results of the evolution of
+SEI thickness in a Li | |Li symmetric cell model. The color from blue to red represents
+the increase of SEI thickness. h The Li+ concentration distribution at the interface
+between SEIs and Li anodes and the local current density distribution on Li surface
+(at the state of 1 h charging). The Li anode morphology evolution related to Li+
+concentration distribution (at the state of 1 h charging) on Li surface under the
+inﬂuence of (i) LPE-SEI and (j) LPE@Ni-DMF-SEI. The stacked curves from bottom to
+top represent the Li deposition thickness of different locations on the selected line,
+and the line colors change with the charging time.
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+7
+
+=== 第 8 页 ===
+Performance of Li | LPE@Ni-DMF | SPAN solid-state batteries
+The favorable ion transport and interfacial features of LPE@Ni-DMF
+manifest its great promise in practical solid-state batteries. SPAN
+cathodes (high theoretical capacity of 1675 mAh g−1) and Li metal
+anodes were paired for both LPE and LPE@Ni-DMF to assemble Li|
+LPE | SPAN and Li|LPE@Ni-DMF | SPAN coin cells and were tested at
+multiple temperatures. As shown in Fig. 5a, the rate performance
+(tested at room temperature) vastly improves for the Li|LPE@Ni-
+DMF | SPAN cell over Li|LPE | SPAN, delivering a speciﬁc capacity of
+899 mAh g−1 at 0.3 C, 872 mAh g−1 at 0.5 C, and 811 mAh g−1 at 1 C,
+respectively (here, all the coin cells were activated at 0.1 C for the ﬁrst
+cycle). In terms of long-term cycling at room temperature, the Li|
+LPE@Ni-DMF | SPAN cell exhibits a reversible speciﬁc capacity of
+961 mAh g−1 (capacity retention of 81.9%) after 300 cycles at 0.2 C
+(Supplementary Fig. 46). By sharp contrast, the SPAN/LPE/Li cell
+exhibits rapid capacity decay during cycling, leading to a capacity
+retention of only 14.7% under the same conditions. Notably, the Li|
+LPE | SPAN cell suffers from severe capacity drop between 150 and 200
+cycles accompanied by serious ﬂuctuation of Coulombic efﬁciency
+(CE), which can be attributed to micro-short circuiting caused by the Li
+dendrites (Supplementary Fig. 47). The improved electrochemical
+performance of the Li|LPE@Ni-DMF | SPAN cell is also validated by
+cycling at 1 C (Fig. 5b). The Li|LPE@Ni-DMF | SPAN cell displays
+remarkable cyclability (1000 cycles with a capacity retention of 60%)
+and records an average CE of 99.8% throughout its cycle life. In con-
+trast, the Li|LPE | SPAN cell fails after only 100 cycles with a low average
+CE of 96.7%.
+In-situ electrochemical impedance spectroscopy (EIS) measure-
+ments and distribution of relaxation time (DRT) analysis were con-
+ducted to evaluate the Li+ transport behaviors during cycling. The
+impedance during the ﬁrst 5 cycles increases in LPE, while the opposite
+trend is observed in the case of LPE@Ni-DMF (Supplementary Fig. 48).
+To further decouple the electrochemical processes, DRT technology is
+utilized to convert the impedance information from the frequency
+domain into the time domain49. The transformation allows the rela-
+tively objective and clear identiﬁcation of the contribution of each
+0.00
+0.25
+0.50
+0.75
+1.00
+(
+)
+(
+)
+(
+)
+(
+)
+a
+(
+)
+( )
+(
+)
+LPE@Ni-DMF
+Areal loading: 2 mgs cm
+2nd
+35th
+Current density: 0.1 C
+(s)
+(s)
+( ) ( )
+1
+5
+5
+1
+LPE
+LPE@Ni-DMF
+b
+c
+d
+e
+f
+g
+Cycle number
+Current density (C)
+53. PEO/PIM(60
+)
+54. PEO(70
+)
+55. PEO/LGPS(60
+)
+6. PEO/PAN(70
+)
+56. BPSO/PVDF/
+CA(25
+)
+57. PVDFHFP(25
+)
+58. Poly(DOL)/SiO2/
+PEG(25
+)
+16. PVDFHFP/
+UCPBA(25
+)
+59. LLZO-PEO(37
+)
+Specific capacity (mAh g-1)
+Current density: 1 C
+Areal loading: 1 mgs cm
+50 mg sulfur
+RSEI
+RCT
+RD
+RSEI
+RCT
+RD
+Areal capacity
+(mAh cm-2)
+This work
+8 cm
+7 cm
+0
+250
+500
+750
+1000
+0
+500
+1000
+1500
+2500
+LPE@Ni-DMF discharge
+Cycle number
+(
+)
+90
+92
+94
+96
+98
+100
+(
+)
+LPE discharge
+Fig. 5 | Properties of the Li | |SPAN solid-state batteries using LPE@Ni-DMF.
+a Rate performance of the Li | |SPAN coin cells. b Cycling stability of the Li | |SPAN
+coin cells at 1 C with a sulfur loading of 1 mg cm−2. c DRT analyses of Li | |SPAN coin
+cells in the ﬁrst 5 cycles. d Comprehensive comparison of polymer-based ssLSBs
+performance (including speciﬁc capacity, areal capacity, and cyclability) between
+this work and those in previous reports. e Temperature-dependent performance of
+Li | |SPAN coin cells at 0.05 C. Values are means, and error bars were calculated by
+taking the standard errors from one sample for ﬁve measurements. f Charge-
+discharge proﬁles of the Li|LPE@Ni-DMF | SPAN pouch cell at 0.1 C with a sulfur
+loading of 2 mg cm−2. g Cycling stability of the Li|LPE@Ni-DMF | SPAN pouch cell
+with 50 mg sulfur and capacity of 47 mAh. The inset is the showcase of the solid-
+state Li-Sulfur pouch cell. All the coin cells and pouch cells were tested in the
+voltage range from 1 to 3 V.
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+8
+
+=== 第 9 页 ===
+electrochemical process. As shown in Fig. 5c, both DRT spectra consist
+of three peaks, each with a unique relaxation time that denotes a
+speciﬁc electrochemical process. Speciﬁcally, the peaks located at
+time constants of 10−4, 10−3−10−2, and 10−2−10−1 s represent the impe-
+dances of SEI (RSEI)50, charge transfer (RCT)51, and diffusion process
+(RD)52 of the electrode, respectively. The impedance increases and
+right shift at 10−4 s in LPE can be attributed to the continuous growth of
+the organic-rich SEI layer with slower Li+ transport kinetics. In contrast,
+the impedance in LPE@Ni-DMF remains invariant, demonstrating that
+the SEI layer with inorganic compounds as dominant contents is more
+stable once formed, which is essential for cyclability. We also observe
+impedance increase at 10−3−10−2 s in LPE. The unstable SEI layer and
+contact loss is considered responsible for the hindered Li+ charge
+transfer and sluggish electrochemical reduction kinetics. In the case of
+LPE@Ni-DMF, the impedance of charge transfer gradually decreases
+within the ﬁrst 5 cycles, which could be attributed to the reinforced
+inorganic-rich SEI and accelerated Li+ transport. The above results
+demonstrate that Li+ transport regulation and DMF conﬁnement by
+using Ni-DMF lead to notably improved cyclability, which is superior to
+previous reports (Fig. 5d)53–59.
+In addition to the excellent performance at room temperature,
+the Li|LPE@Ni-DMF | SPAN cell also shows exceptional performance at
+low temperatures. The temperature-dependent performance of Li|
+LPE | SPAN and Li|LPE@Ni-DMF | SPAN cells are compared at 0.05 C at
+20 °C, 10 °C, 0 °C, and −10 °C (Supplementary Fig. 49). The average
+speciﬁc capacity of the Li|LPE@Ni-DMF | SPAN cell at −10 °C is as high
+as 835 mAh g−1, corresponding to a capacity retention of 52% upon that
+at 20 °C, while the Li|LPE | SPAN cell only provides an average speciﬁc
+capacity of 86.5 mAh g−1 at −10 °C, corresponding to a low capacity
+retention of 13% (Fig. 5e). Furthermore, the Li|LPE@Ni-DMF | SPAN cell
+is found to fully restore its capacity at 0 °C even after operation at
+−10 °C, suggesting its good reaction kinetics at low temperature. This
+can be attributed to the higher ionic conductivity (2.55 × 10−4 S cm−1 at
+0 °C and 1.26 × 10−4 S cm−1 at −10 °C; Supplementary Fig. 50) and better
+interfacial stability of LPE@Ni-DMF. Overall, the impedance of the Li|
+LPE@Ni-DMF | SPAN cell at 0 °C (465 Ω) is markedly lower than that of
+Li|LPE | SPAN cell (861 Ω; Supplementary Fig. 51).
+Finally, to showcase the capability of LPE@Ni-DMF under more
+realistic conditions, a pouch cell with high areal loading (2 mg cm−2)
+cathode was fabricated. The Li|LPE@Ni-DMF | SPAN pouch cell
+(50 mg sulfur loading) exhibits exceptional cycling performance at
+0.1 C, delivering a high speciﬁc capacity of 950 mAh g−1 after 35 cycles
+(Fig. 5f). The discharge-charge curves of Li|LPE@Ni-DMF | SPAN
+pouch cell are substantially overlapped from the 2nd to 35th cycles
+with negligible hysteresis aggravation, indicating excellent electro-
+chemical reversibility. The pouch cell achieved a capacity of 47 mAh
+and areal capacity of 1.9 mAh cm−2 after 35 cycles, demonstrating the
+feasibility of this CPE as a solid-state electrolyte for practical
+ssLSBs (Fig. 5g).
+Discussion
+In this work, we propose a locally solvent-tethered polymer electrolyte
+design to achieve highly ion-conductive and durable CPEs with the
+dual-functional Ni-DMF additive as a proof of concept. Our results
+demonstrate that the conﬁnement effect of Ni-DMF prevents DMF
+consumption, resulting in enhanced durability for both the CPE and Li
+metal anode (over 6000 h of cycling at 0.1 mA cm−2 with capacity of
+0.1 mAh cm−2 per half cycle). Furthermore, Ni-DMF provides a locally
+DMF-rich interface for Li+ transport, leading to improved ionic con-
+ductivities at both room temperature (6.5 × 10−4 S cm−1) and extreme
+operating conditions (2.55 × 10−4 S cm−1 at 0 °C and 1.26 × 10−4 S cm−1 at
+–10 °C). The Ni-DMF complex effectively addresses the Achilles’ heel of
+solvent-containing SPEs, which is crucial for achieving stable cycling
+performance in ssLSBs (1000 cycles at 1 C). Notably, solid-state pouch
+cell with a high areal capacity of 1.9 mAh cm–2 exhibited excellent
+cyclability (47 mAh after 35 cycles). This work demonstrates a pro-
+mising CPE design for the potential application of ssLSBs, and we
+expect that the design principle can be extended to SPEs for other
+emerging solid-state battery systems.
+Methods
+Materials preparation
+Ni(H2O)2Ni[CN]4·xH2O was synthesized via a coprecipitation method.
+In a typical procedure, 0.19 g of NiCl2·6H2O (purity: >99%, Macklin) and
+0.176 g of dihydrate tri-sodium citrate (purity: >99%, Aldrich) were
+dissolved in 40 mL of deionized water under stirring for 1 h to form a
+clear solution. 0.193 g of K2[Ni(CN)4] (AR, Aldrich) was added into
+40 mL deionized water to form another clear solution. After that, the
+two solutions were mixed under agitated stirring for 4 h and then aged
+at 25 °C for 24 h. The light-blue precipitate was collected out and
+washed with deionized water three times denominated as Ni-H2O.
+Followed by thermal dehydration treatment of Ni-H2O under a vacuum
+condition at 80 °C for 6 h, the light-yellow sample (Ni(H2O)2Ni[CN]4)
+was achieved denominated as Ni-activated. 100 mg of Ni-activated
+powder was immersed in 2 mL DMF (purity: >99.8%, Aldrich) solution
+(∼1.9 g), followed by magnetically stirring for 2 h to fulﬁll thorough
+solution exchange process. After the color of Ni-activated thoroughly
+changed to light-green, the residual DMF and H2O molecules were
+eliminated
+by
+centrifugation
+and
+the
+light-green
+precipitate
+(Ni(DMF)2Ni[CN]4) underwent vacuum drying at 60 °C for 2 h to yield
+the ﬁnal product Ni-DMF.
+The solid-state electrolyte (SSE) membranes were prepared
+through
+a
+solution-casting
+method.
+0.3 g
+of
+PVDF-HFP
+(M.w.
+∼400,000, Maclin) was dispersed in 1.5 mL of DMF solution (∼1.42 g) at
+80 °C for 2 h. 0.3 g of LiFSI (purity: >99.9%, DoDoChem) was dissolved
+in 1.5 mL of DMF solution (∼1.42 g) at 25 °C for 1 h. PVDF-HFP and LiFSI
+solutions were then mixed, followed by stirring at 25 °C for 4 h. Then
+the mixed solution was cast onto a glass substrate using a doctor blade
+with 750 μm height, and the DMF solution was evaporated at 60 °C for
+4 h to obtain the LPE membrane. With other conditions unchanged,
+60 mg of Ni-DMF powder was added into the mixture of PVDF-HFP and
+LiFSI solution with another 2 h mixing performed before the casting
+process (the weight ratios between Ni-DMF, PVDF-HFP, LiFSI, and DMF
+is measured to be 1:5:5:47), and the LPE@Ni-DMF membrane can be
+obtained.
+The SPAN composite was prepared by mixing sulfur (Alfa Aesar)
+and polyacrylonitrile (Mw = 150,000, Aldrich) in a weight ratio of 4:1,
+followed by heating treatment in an Ar-ﬁlled furnace at 450 °C for 6 h16.
+The cathode slurry was ﬁrstly prepared by heat-dissolving 0.2 g of
+PVDF-HFP and 0.2 g of LiFSI in 5 mL DMF solution at 80 °C for 4 h.
+Then, 0.5 g of SPAN and 0.1 g of multi-walled carbon nanotubes (>95%,
+XFNANO) were mixed into the slurry. The electrodes were prepared by
+coating the slurry onto an Al foil (15 μm, Canrd) and dried at 60 °C for
+12 h. The sulfur loading of SPAN cathodes was calculated to be
+1−2 mg cm−2. All the preparation processes were carried out in an Ar-
+ﬁlled glovebox.
+Electrochemical measurements
+The as-prepared LPE and LPE@Ni-DMF membranes were cut into disks
+with different diameters for electrochemical measurements. Stainless
+steel (SS) symmetric SS | SSE | SS cells were used to test ionic con-
+ductivities at 25 °C, 20 °C, 10 °C, 0 °C, and −10 °C, respectively,
+according to the equation of:
+σ = L=ðR × SÞ
+ð2Þ
+where L, R, and S are the thickness, bulk resistance, and area of SSE
+(with a diameter of 15 mm), respectively, using a Biologic multi-
+channel electrochemical workstation in the range from high frequency
+of 100 K Hz to low frequency of 0.1 Hz and an amplitude voltage of
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+9
+
+=== 第 10 页 ===
+5 mV. The Ea was calculated according to the Arrhenius equation of:
+K = AeEa=RT
+ð3Þ
+where K is rate constant, A is pre-exponential factor, R is gas constant,
+and T is absolute temperature.
+Symmetric Li|SSE|Li cells were used to test tLi
++ by combining AC
+impedance and potentiostatic polarization procedures according to
+the equation5:
+tLi
++ = IsðΔV  I0R0Þ
+I0ðΔV  IsRsÞ
+ð4Þ
+Where ΔV is the DC polarization voltage (10 mV), I0 and Is are initial
+and stable currents (μA) during polarization, and R0 and Rs are the
+impedance (Ω) before and after polarization.
+Cyclic voltammetry (CV) measurements of the Li|SSE|Li cells
+were performed on an electrochemical workstation at initial
+open-circuit voltage over the voltage range of −0.2−0.2 V with a
+scanning rate of 0.1 mV s−1. Tafel curves were obtained by ﬁtting
+the second cycle (after SEI formation) of CV data including anodic
+scan and cathodic scan. The voltage at the intersection of two
+curves was deﬁned as 0 V (around the Li/Li+ equilibrium poten-
+tial). The electrochemical window of SSE was obtained at 25 °C by
+linear sweep voltammetry (LSV) using asymmetric Li|SSE | SS cells
+at 0−5 V (vs. Li/Li+) with a scanning rate of 1 mV s−1.
+DRT analysis is conducted using the DRT Tools which are devel-
+oped by Ciucci. Group (GitHub-ciuccislab/DRTtools: An intuitive
+MATLAB GUI to compute the DRT). The transition from frequency
+domain to time domain is accomplished by the general formula:
+ZðωÞ = R1 +
+Z 1
+0
+γðτÞ
+1 + jωτ dτ
+ð5Þ
+Where Z(ω) represents the impedance based on frequency, R∞
+represents ohmic impedance in the battery, τ represents the speciﬁc
+relaxation time, and γ(τ) is the distribution function of relaxa-
+tion times.
+A LAND CT2003A electrochemical testing system was used to
+measure the electrochemical performance of symmetrical and asym-
+metric coin cells at multiple temperatures. The SSE membranes were
+cut into disks with diameter of 19 mm for tests. The cycling perfor-
+mance of the Li|SSE|Li cells was tested at current densities of
+0.1−1 mA cm−2 at 25 °C. The performance of Li|SSE | SPAN cells was
+tested with the voltage range from 1.0 to 3.0 V at 25 °C, 20 °C, 10 °C,
+0 °C, and −10 °C, respectively. For the pouch cells assembly, SPAN
+coated on the Al current collector was used as the cathode (areal
+loading: 2 mgs cm−2), and lithium foil (100 μm) on the Cu current col-
+lector (9 μm, Canrd) was used as the anode. Both the anode and
+cathode were 5 × 5 cm2 while the solid-state electrolyte was 6 × 6 cm2. It
+is noted that the Al current collector was welded to an Al tab (Canrd)
+and the Cu current collector was welded to a Ni tab (Canrd) with tab
+sizes of 0.1 × 5 cm2. The whole electric core was ﬁnally packed with Al-
+plastic ﬁlm (113 μm, Canrd) in a drying room with a humidity of less
+than 10% at 25 °C.
+Materials characterization
+The morphologies and microstructures of samples were characterized
+by SEM (5 kV, Hitachi SU8010) with an EDS detector and TEM (JEOL
+JEM-2100f). The DMF corrosion procedure on Li metal was recorded by
+optical microscope (DVM6). XRD (Bruker AXS D8) and ATR-FTIR
+(Thermo Nicolet Avatar 320 Spectrometer) spectra were employed for
+analysis of the crystal structures and composition of samples. TG (TA
+instruments Q500) analysis was conducted to probe the thermal sta-
+bility of SSE and determine the weight variation of DMF before and
+after electrochemical tests. Ni K-edge XANES measurements and
+EXAFS analyses were performed at Canadian Light Source (CLS), using
+the soft X-ray Micro-characterization beamline (SXRMB, 06B1-1). The
+STXM O K-edge and Ni L-edge measurements were conducted using
+the SM beamline (10ID-1) at the CLS. The 7Li ssNMR spectra of samples
+were recorded on a 500 MHz Bruker AVANCE NEO spectrometer
+equipped with an 11.70 T widebore magnet using a 2.5 mm Bruker MAS
+probe (DVT design) at 25 kHz MAS. The inner structures and compo-
+nents reconstruction of SSE membrane were executed by X-CT (Zeiss
+Xradia 515 versa). The mechanical performance was tested by a ﬁlm
+stress measurement system (FSM 500TC-R). The Raman spectra were
+obtained by LabRAM HR Evolution to detect the FSI−anion states. The
+in-situ reactivity between DMF and Li metal was investigated using an
+optical microscope (DVM6). The lithium foil was cut to a size of
+0.5 × 1 cm2 and then placed in the porthole of a Teﬂon mold. The
+porthole was then ﬁlled with DMF solvent and sealed with a glass slide.
+All operations were performed in an Ar-ﬁlled glovebox. Two-
+dimensional wide-angle X-rays scattering (2D-WAXS) tests were con-
+ducted on Brockhouse X-ray Diffraction and Scattering Beamlines-
+High Energy Wiggler (BXDS-WHE) Beamline at CLS. For XPS mea-
+surements, each Li tablet (after Li//Li cell cycling) was washed with 1,2-
+Dimethoxyethane (purity: >99.9%, DoDoChem) solvent for three times
+to remove the residual DMF on Li tablet. Then the washed Li tablet was
+dried under vacuum for 6 h at 25 °C before transferred and sealed into
+the XPS holder in the Ar-ﬁlled glovebox. The XPS proﬁles were col-
+lected with an Escalab Xi+ scanning XPS microprobe. Cryo-TEM char-
+acterizations were performed on TEM (FEI Talos-S) operated at 200 kV
+with a Gatan 698 cryo-transfer holder. In the cryo-TEM test, 300 mesh
+Cu as a carrier, and the samples were kept stable by liquid nitrogen
+freezing at the low temperature of −180 °C.
+Finite element method simulation
+Based on the COMSOL Multiphysics 6.0 platform, we performed the
+ﬁnite element analysis for the process of DMF corrodes the Li anode
+and the Li+ electrochemical behavior under different SEIs, and the
+following are the simulation equations:
+Mass transfer
+In the electrolyte, the transfer of ions is driven by migration because of
+electric ﬁeld and diffusion because of concentration gradient which
+are governed by the Nernst−Planck equation:
+Ni =  Di ∇c0,i 
+ziFc0,i
+RT
+∇φl
+
+
+ð6Þ
+Where Ni is ﬂux, and Di, zi and c0,i is the diffusion coefﬁcient,
+charge and concentration of species i, respectively. F is the Faraday’s
+constant, R is the ideal gas constant, T is the Kelvin temperature and φl
+is the electrolyte potential. Meanwhile, the ions in the electrolyte fol-
+lows the equations of conservation of mass and charge:
+∂ci
+∂t + ∇× Ni = 0
+ð7Þ
+X
+izici = 0
+ð8Þ
+Where ci is the concentration, and zi is the valence of each species
+in the electrolyte.
+Corrosion reaction of DMF with Li anode
+The corrosion reaction between DMF and Li at the anode surface could
+be assumed as:
+DMF + Li + + e $ LiA + B
+ð9Þ
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+10
+
+=== 第 11 页 ===
+Where LiA and B are the corrosion products, which may contain a
+number of inorganic components according to XPS results. We artiﬁ-
+cially deﬁned that the DMF could be transferred together with Li+ in
+LPE, while in LPE@Ni-DMF, the mobility of DMF would be set to 0 to
+simulate the conﬁne effect.
+In order to simulate the random corrosion results, we set a ran-
+dom distribution function at the electrode-electrolyte interface, the
+function is generated by:
+fðx,yÞ =
+X
+M
+m = M
+X
+N
+n = N
+aðm,nÞ cos½2πðmx + nyÞ + θðm,nÞ
+ð10Þ
+Where x and y are the spatial coordinates, m and n are the spatial
+frequencies, a(m,n) is the amplitude, and θ(m,n) is the phase angle.
+The amplitude is randomly generated by a Gaussian distribution
+function, and the phase angle and spatial frequency are derived from a
+uniform random distribution in a limited interval.
+Kinetics of Li+
+Basically, Li+ is transported from the bulk solution to the anode surface
+then reduced to Li-atom, and at the interface of the electrolyte and the
+anode, the deposition process of Li+ can be described as the simpliﬁed
+reaction:
+Li + + e $ Li
+ð11Þ
+The electrochemical behaviors of Li+ at the electrode-electrolyte
+interface could be described by the famous Butler-Volmer equation:
+iloc = iex exp αaFη
+RT
+
+
+ exp αcFη
+RT
+
+
+
+
+ð12Þ
+Where iloc is the local current density, which can be employed to
+quantify the local reaction rate. η is overpotential, while αa and αc are
+the anodic and cathodic charge transfer coefﬁcients, respectively. The
+exchange current density (iex) is deﬁned as the current density ﬂowing
+equally in each direction at the reversible potential. It is a useful metric
+for characterizing the ease of a reaction to occur, and is closely related
+to the electron transfer kinetics and the concentration gradient near
+the surface:
+iex = ie
+Y
+i,vj>0
+cLi
++
+cb
+ 
+!
+αavj
+nj Y
+i,vj<0
+cLi
++
+cb
+ 
+!
+αcvj
+nj
+ð13Þ
+Therefore, the iex is signiﬁcantly inﬂuenced by the
+cLi
++
+cb
+, which is
+also refers to the concentration gradient. cLi
++ is the concentration of Li+
+near the anode and cb can be considered as the concentration of Li+ in
+the bulk electrolyte. The current density (ie) represents the kinetics of
+electrons. vj is the stoichiometric coefﬁcients and nj is the number of
+electrons transferred. The overpotential (η) can be decided into the
+concentration overpotential (ηc) and the electrochemical over-
+potential (ηe), which can be calculated from:
+η = φs  φl  Ueq = ηc + ηe
+ð14Þ
+Where φs is the solid phase potential, and Ueq is the equilibrium
+potential of the reaction.
+Based on the above equations, the iloc is closely related to the Li+
+concentration distribution and the overpotential at the anode surface.
+Therefore, boundary conditions near the substrate can be described
+as:
+NLi
++  n =  i0
+2F exp αaFη
+RT
+
+
+
+cLi
++
+c0
+exp αcFη
+RT
+
+
+
+
+ð15Þ
+Where n is the normal vector of the boundary.
+Morphology evolution of SEI, corrosion and Li+ deposition
+We use the Dynamic Mesh method to simulate the corrosion and Li+
+deposition morphology, and the Level Set method to keep track of SEI
+morphology evolution. The Level Set interface automatically sets up
+the equations for the movement of the interface between the elec-
+trolyte and electrode domains. The interface is represented by the 0.5
+contour of the level set variable. The level set variable Ф varies from 1 in
+the electrode domain to 0 in the electrolyte domain. The transport of
+the level set variable is given by:
+∂Φ
+∂t + u∇Φ = γ∇
+ε∇Φ  Φð1  ΦÞ
+∇Φ
+absð∇ΦÞ
+
+
+ð16Þ
+The ε parameter determines the thickness of the interface and is
+deﬁned as ε = hmax/4, where hmax is the maximum mesh element size in
+the domain, and u is the velocity of level set. The γ parameter deter-
+mines the amount of reinitialization. A suitable value for γ is the
+maximum velocity magnitude occurring in the model.
+The Level Set delta function δ to prescribe the growth of SEI is
+approximated by:
+δ = 6abs Φ 1  Φ
+ð
+Þ
+ð
+Þ  absð∇ΦÞ
+ð17Þ
+It should be noted that in order to improve the convergence of
+numerical calculations and clarify the role of each step, the impact of
+DMF corrosion Li anode related to the formation of SEI and the elec-
+trochemical behavior of Li+ under different SEIs were calculated in two
+steps. Firstly, the height information of SEI generated by DMF corro-
+sion on Li anode is extracted as the basis for subsequent simulation of
+SEI electrochemical properties. Secondly, Li+ deposition is further
+simulated based on the aforementioned SEI properties. Both the
+anodic and cathodic charge transfer coefﬁcients are set as 0.5, the
+exchange current density is set as 100 A m−2, the Li+ concentration in
+LPE is set as 8 M, the temperature is ﬁxed at 298 K, and the applied
+current density is 1 mA cm−2. The diffusion coefﬁcient of Li+ in the
+electrolyte is set to 1e−11 m2s−1.
+Calculations
+Classical molecular dynamics (MD) simulations were performed to
+obtain the ionic conduction mechanism of the LPE and LPE@Ni-DMF
+with the Large Scale Atomic/Molecular Massively Parallel Simulator
+(LAMMPS) software package60. The nonpolarizable UFF61 was utilized
+to parameterize the bonded and van der Waals interactions of Ni-DMF,
+which was generated using LAMMPS interface62. The bonded and non-
+bonded parameters for DMF were obtained from the Optimized
+Potentials for Liquid Simulations All Atom (OPLS-AA) force ﬁelds63,64,
+while those for Li+ and FSI−are taken from ref. 65 and ref. 66. Partial
+charges of the Ni-DMF were ﬁtted from ﬁrst principles using the RESP2
+method67 with B3LYP-D3(BJ)/def2TZVP68 level of theory for Ni and CN
+ligand. Long-range electrostatic interactions were handled by the
+particle-particle particle-mesh (PPPM) solver with a grid spacing of
+0.1 nm. A cutoff distance of 1.25 nm was used for electrostatic and 12–6
+Lennard-Jones interactions. The ﬁtted partial charges of Ni-DMF and
+the unit charge of Li+ (+1) and FSI−(−1) were then scaled by a factor of
+ε = 0.6 and 0.8 for LPE@Ni-DMF and LPE, respectively, to account for
+the fact that solvent–ion and ion–ion interactions are typically over-
+estimated in nonpolarizable force ﬁelds69–71.
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+11
+
+=== 第 12 页 ===
+The atomic position obtained from single crystal X-ray diffraction
+of LPE@Ni-DMF was used as the initial structure to build a supercell
+containing 128 Ni, 128 CN, 512 DMF, and 180 LiFSI. LPE was modeled
+with 192 DMF, 264 LiFSI to obtain an effective concentration of 7.15 M,
+which agrees to the experimental concentration of 8.3 M.
+The initial conﬁgurations were minimized by conjugated-gradient
+energy minimization scheme employing a convergence criterion of
+1.0 × 10−4. The LPE and LPE@Ni-DMF structures were then equilibrated
+for 2 ns in the isothermal-isobaric ensemble (T = 298, 283, 263 K, and
+P = 1 bar) using the Parrinello–Rahman barostat followed with an
+annealing process. Subsequently, 50 ns production runs within the
+canonical ensemble (NVT) under a Nosé–Hoover thermostat were
+performed to obtain the Li+ transport properties. The simulation time
+waslong enough to sample adequately the Fickian(diffusive) regimeof
+all systems72.
+The H2O and DMF exchange free energy, highest occupied
+molecular orbital (HOMO), and adsorption energy were calculated
+using B3LYP-D3(BJ) def2TZVP level of theory with implicit solvent
+model IEF-PCM (UFF, DMF)73,74 in Gaussian 16 (ref. 75). Quasi-harmonic
+entropy and enthalpy correction with a cutoff frequency of 100 cm−1
+was applied as suggested by ref. 76. using the GoodVibes program77.
+Data availability
+All data supporting the research in this paper are available in the main
+text and Supplementary Information, and source data can be obtained
+through reasonable requests from corresponding authors.
+References
+1.
+Zhao, Q., Stalin, S., Zhao, C.-Z. & Archer, L. A. Designing solid-state
+electrolytes for safe, energy-dense batteries. Nat. Rev. Mater. 5,
+229–252 (2020).
+2.
+Yang, C. et al. Copper-coordinated cellulose ion conductors for
+solid-state batteries. Nature 598, 590–596 (2021).
+3.
+Lee, M. J. et al. Elastomeric electrolytes for high-energy solid-state
+lithium batteries. Nature 601, 217–222 (2022).
+4.
+Gao, C. et al. Cellulose acetate propionate incorporated PVDF-HFP
+based polymer electrolyte membrane for lithium batteries. Com-
+pos. Commun. 33, 101226 (2022).
+5.
+Xu, S. et al. Decoupling of ion pairing and ion conduction in
+ultrahigh-concentration electrolytes enables wide-temperature
+solid-state batteries. Energy Environ. Sci. 15, 3379–3387 (2022).
+6.
+Sheng, J. et al. Crosslinked nanoﬁber‐reinforced solid‐state elec-
+trolytes with polysulﬁde ﬁxation effect towards high safety ﬂexible
+lithium–sulfur batteries. Adv. Funct. Mater. 32, 2203272 (2022).
+7.
+Du, L., Xu, H., Zhang, Y. & Zou, F. Electrospinning of poly-
+caprolatone nanoﬁbers with DMF additive: the effect of solution
+proprieties on jet perturbation and ﬁber morphologies. Fiber Polym.
+17, 751–759 (2016).
+8.
+Zhou, C., Bag, S., Lv, B. & Thangadurai, V. Understanding the role of
+solvents on the morphological structure and Li-ion conductivity of
+poly(vinylidene ﬂuoride)-based polymer electrolytes. J. Electro-
+chem. Soc. 167, 070552 (2020).
+9.
+Liu, Q. et al. Polymer electrolytes based on interactions between
+[solvent-Li+] complex and solvent-modiﬁed polymer.Energy Sto-
+rage Mater 51, 443–452 (2022).
+10.
+Han, S. et al. Metal-organic framework derived porous structures
+towards lithium rechargeable batteries. Ecomat 5, e12283 (2023).
+11.
+Xue, C., Zhang, X., Wang, S., Li, L. & Nan, C.-W. Organic–organic
+composite electrolyte enables ultralong cycle life in solid-state
+lithium metal batteries. ACS Appl. Mater. Interfaces 12, 24837–24844
+(2020).
+12.
+Fan, L.-Z., He, H. & Nan, C.-W. Tailoring inorganic–polymer com-
+posites for the mass production of solid-state batteries. Nat. Rev.
+Mater. 6, 1003–1019 (2021).
+13.
+Zhang, X. et al. Synergistic coupling between Li6.75La3Zr1.75Ta0.25O12
+and poly(vinylidene ﬂuoride) induces high ionic conductivity,
+mechanical Strength, and thermal stability of solid composite elec-
+trolytes. J. Am. Chem. Soc. 139, 13779–13785 (2017).
+14.
+Yang, K. et al. Stable interface chemistry and multiple ion transport
+of composite electrolyte contribute to ultra-long cycling solid-state
+LiNi0.8Co0.1Mn0.1O2/lithium metal batteries. Angew. Chem. Int. Ed.
+60, 24668–24675 (2021).
+15.
+Shi, P. et al. A dielectric electrolyte composite with high lithium-ion
+conductivity for high-voltage solid-state lithium metal batteries.
+Nat. Nanotechnol. 18, 602–610 (2023).
+16.
+Zhu, Y. et al. Uncoordinated chemistry enables highly conductive
+and stable electrolyte/ﬁller interfaces for solid-state lithium–sulfur
+batteries. PNAS 120, e2300197120 (2023).
+17.
+Hofmann, K. A. & Küspert, F. Verbindungen von Kohlenwasser-
+stoffen mit Metallsalzen. Z. Anorg. Allg. Chem. 15, 204–207
+(1897).
+18.
+Hu, M., Ishihara, S. & Yamauchi, Y. Bottom-up synthesis of mono-
+dispersed single-crystalline cyano-bridged coordination polymer
+nanoﬂakes. Angew. Chem. Int. Ed. 52, 1235–1239 (2013).
+19.
+Hu, A., Chen, X., Zhou, H., Chen, Y. & Yuan, A. Syntheses, structures,
+and host-guest interactions of 2-D grid-type cyanide-bridged
+compounds [Zn(L)(H2O)2][M(CN)4]·3H2O (L = N,N′-bis(4-pyr-
+idylformamide)−1,4-benzene; M = Ni, Pd or Pt). J. Coord. Chem. 66,
+3241–3248 (2013).
+20. Lu, R., Zhou, H., Chen, Y., Xiao, J. & Yuan, A. Syntheses, crystal
+structures, and thermal stabilities of the ﬁrst Hofmann-DMF-type
+complexes Zn(DMF)2M(CN)4 (M = Ni, Pd, Pt). J. Coord. Chem. 63,
+794–800 (2010).
+21.
+Yang, B., Shi, Y., Kang, D. J., Chen, Z. & Pang, H. Architectural design
+and electrochemical performance of MOF-based solid-state elec-
+trolytes for high-performance secondary batteries. Interdiscip.
+Mater. 2, 475–510 (2023).
+22. Liu, C. et al. Metal-organic frameworks for solid-state electrolytes: a
+mini review. Electrochem. Commun. 150, 107491 (2023).
+23. Reyes-Martinez, O., Torres-García, E., Rodríguez-Gattorno, G. &
+Reguera, E. Dehydration process of Hofmann-type layered solids.
+Materials 6, 1452–1466 (2013).
+24. Nai, J. et al. Construction of Ni(CN)2/NiSe2 heterostructures by
+stepwise topochemical pathways for efﬁcient electrocatalytic
+oxygen evolution. Adv. Mater. 34, 2104405 (2021).
+25. Koo, B. et al. Dynamic surface phases controlling asymmetry of
+high-rate lithiation and delithiation in phase-separating electrodes.
+Energy Environ. Sci. 16, 3302–3313 (2023).
+26. Pan, G. et al. Nanobubbles at hydrophilic particle–water interfaces.
+Langmuir 32, 11133–11137 (2016).
+27.
+Frati, F., Hunault, M. O. J. Y. & de Groot, F. M. F. Oxygen K-edge X-ray
+Absorption Spectra. Chem. Rev. 120, 4056–4110 (2020).
+28. You, Y., Yu, X., Yin, Y., Nam, K.-W. & Guo, Y.-G. Sodium iron hex-
+acyanoferrate with high Na content as a Na-rich cathode material
+for Na-ion batteries. Nano Res. 8, 117–128 (2015).
+29. Hocking, R. K. et al. Fe L-edge XAS studies of K4[Fe(CN)6] and
+K3[Fe(CN)6]: a direct probe of back-bonding. J. Am. Chem. Soc. 128,
+10442–10451 (2006).
+30. Hocking, R. K. et al. Fe L-edge X-ray absorption spectroscopy of
+low-spin heme relative to non-heme Fe complexes: delocalization
+of Fe d-electrons into the porphyrin ligand. J. Am. Chem. Soc. 129,
+113–125 (2007).
+31.
+Hou, T. et al. Ionic conduction mechanism and design of
+metal–organic framework based quasi-solid-state electrolytes. J.
+Am. Chem. Soc. 144, 13446–13450 (2022).
+32. Yuan, S. et al. A versatile single-ion electrolyte with a grotthuss-like
+Li conduction mechanism for dendrite-free Li metal batteries.
+Energy Environ. Sci. 12, 2741–2750 (2019).
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+12
+
+=== 第 13 页 ===
+33. Hou, T. & Xu, W. Deep dive into anionic metal-organic frameworks
+based quasi-solid-state electrolytes. J. Energy Chem. 81, 313–320
+(2023).
+34. Rojaee, R. et al. Highly‐cyclable room‐temperature phosphorene
+polymer electrolyte composites for Li metal batteries. Adv. Funct.
+Mater. 30, 1910749 (2020).
+35. Hou, T. et al. The inﬂuence of FEC on the solvation structure and
+reduction reaction of LiPF6/EC electrolytes and its implication for
+solid electrolyte interphase formation. Nano Energy 64, 103881
+(2019).
+36. Brus, J., Czernek, J., Urbanova, M., Rohlíček, J. & Plecháček, T.
+Transferring lithium ions in the nanochannels of ﬂexible
+metal–organic frameworks featuring superchaotropic metalla-
+carborane guests: Mechanism of ionic conductivity at atomic
+resolution. ACS Appl. Mater. Interfaces 12, 47447–47456 (2020).
+37. Guo, D. et al. Foldable solid-state batteries enabled by electrolyte
+mediation in covalent organic frameworks. Adv. Mater. 34,
+2201410 (2022).
+38. Lennartz, P. et al. Practical considerations for enabling Li|polymer
+electrolyte batteries. Joule 7, 1471–1495 (2023).
+39. Doyle, M., Fuller, T. F. & Newman, J. Modeling of galvanostatic
+charge and discharge of the lithium/polymer/insertion cell. J.
+Electrochem. Soc. 140, 1526–1533 (1993).
+40. Liu, Y. et al. Electro-thermal actuation in percolative ferroelectric
+polymer nanocomposites. Nat. Mater. 22, 873–879 (2023).
+41.
+Hobold, G. M., Kim, K.-H. & Gallant, B. M. Beneﬁcial vs. inhibiting
+passivation by the native lithium solid electrolyte interphase
+revealed by electrochemical Li+ exchange. Energy Environ. Sci. 16,
+2247–2261 (2023).
+42. Yu, H. et al. Dendrite-free lithium deposition with self-aligned
+columnar structure in a carbonate–ether Mixed Electrolyte. ACS
+Energy Lett. 2, 1296–1302 (2017).
+43. Yu, Z. et al. Rational solvent molecule tuning for high-performance
+lithium metal battery electrolytes. Nat. Energy 7, 94–106 (2022).
+44. Fan, X. et al. All-temperature batteries enabled by ﬂuorinated
+electrolytes with non-polar solvents. Nat. Energy 4, 882–890 (2019).
+45. Chen, J. et al. Electrolyte design for LiF-rich solid–electrolyte
+interfaces to enable high-performance microsized alloy anodes for
+batteries. Nat. Energy 5, 386–397 (2023).
+46. Sheng, O. et al. In situ construction of a LiF‐enriched interface for
+stable all‐solid‐state batteries and its origin revealed by cryo‐TEM.
+Adv. Mater. 32, 2000223 (2020).
+47. Boyle, D. T. et al. Correlating kinetics to cyclability reveals ther-
+modynamic origin of lithium anode morphology in liquid electro-
+lytes. J. Am. Chem. Soc. 144, 20717–20725 (2022).
+48. He, X. et al. The passivity of lithium electrodes in liquid electrolytes
+for secondary batteries. Nat. Rev. Mater. 6, 1036–1052 (2021).
+49. Lu, Y., Zhao, C.-Z., Huang, J.-Q. & Zhang, Q. The timescale identi-
+ﬁcation decoupling complicated kinetic processes in lithium bat-
+teries. Joule 6, 1172–1198 (2022).
+50. Jia, H. et al. Controlling ion coordination structure and diffusion
+kinetics for optimized electrode-electrolyte interphases and high-
+performance Si anodes. Chem. Mater. 32, 8956–8964 (2020).
+51.
+Risse, S. et al. Correlation of capacity fading processes and elec-
+trochemical impedance spectra in lithium/sulfur cells. J. Power
+Sour. 323, 107–114 (2016).
+52. Shu, C. et al. Highly reversible Li-O2 battery induced by modulating
+local electronic structure via synergistic interfacial interaction
+between ruthenium nanoparticles and hierarchically porous car-
+bon. Nano Energy 57, 166–175 (2019).
+53. Ji, Y. et al. PIM‐1 as a multifunctional framework to enable high‐
+performance solid‐state lithium–sulfur batteries. Adv. Funct. Mater.
+31, 2104830 (2021).
+54. Zhang, H. et al. Designer anion enabling solid-state lithium–sulfur
+batteries. Joule 3, 1689–1702 (2019).
+55. Li, M. et al. Solid‐state lithium–sulfur battery enabled by Thio‐LiSI-
+CON/polymer composite electrolyte and sulfurized poly-
+acrylonitrile cathode. Adv. Funct. Mater. 30, 1910123 (2020).
+56. Chen, L. & Fan, L. Z. Dendrite-free Li metal deposition in all-solid-
+state lithium sulfur batteries with polymer-in-salt polysiloxane
+electrolyte. Energy Storage Mater. 15, 37–45 (2018).
+57. Li, C. et al. A quasi-intercalation reaction for fast sulfur redox
+kinetics in solid-state lithium–sulfur batteries. Energy Environ. Sci.
+15, 4289–4300 (2022).
+58. Utomo, N. W., Deng, Y., Zhao, Q., Liu, X. & Archer, L. A. Structure and
+evolution of quasi‐solid‐state hybrid electrolytes formed inside
+electrochemical cells. Adv. Mater. 34, 2110333 (2022).
+59. Tao, X. et al. Solid-state lithium–sulfur batteries operated at 37 °C
+with composites of nanostructured Li7La3Zr2O12/carbon foam and
+polymer. Nano Lett. 17, 2967–2972 (2017).
+60. Plimpton, S. Fast parallel algorithms for short-range molecular-
+dynamics. J. Comput. Phys. 117, 1–19 (1995).
+61.
+Rappe, A. K. et al. Uff, a full periodic-table force-ﬁeld for molecular
+mechanics and molecular-dynamics simulations. J. Am. Chem. Soc.
+114, 10024–10035 (1992).
+62. Boyd, P. G., Moosavi, S. M., Witman, M. & Smit, B. Force-ﬁeld pre-
+diction of materials properties in metal-organic frameworks. J. Phys.
+Chem. Lett. 8, 357–363 (2017).
+63. Jorgensen, W. L., Maxwell, D. S. & Tirado-Rives, J. Development and
+testing of the OPLS all-atom force ﬁeld on conformational ener-
+getics and properties of organic liquids. J. Am. Chem. Soc. 118,
+11225–11236 (1996).
+64. Kaminski, G. A., Friesner, R. A., Tirado-Rives, J. & Jorgensen, W. L.
+Evaluation and reparametrization of the OPLS-AA force ﬁeld for
+proteins via comparison with accurate quantum chemical calcula-
+tions on peptides†. J. Phys. Chem. B 105, 6474–6487 (2001).
+65. Jensen, K. P. & Jorgensen, W. L. Halide, ammonium, and alkali metal
+ion parameters for modeling aqueous solutions. J. Chem. Theory
+Comput. 2, 1499–1509 (2006).
+66. Canongia Lopes, J. N. et al. Potential energy landscape of
+bis(ﬂuorosulfonyl)amide. J. Phys. Chem. B 112, 9449–9455
+(2008).
+67. Schauperl, M. et al. Non-bonded force ﬁeld model with advanced
+restrained electrostatic potential charges (RESP2). Commun. Chem.
+3, 44 (2020).
+68. Becke, A. D. Densityeld modonal thermochemistry. III. The role of
+exact exchange. J. Chem. Phys. 98, 5648–5652 (1993).
+69. Liu, H. & Maginn, E. A molecular dynamics investigation of the
+structural and dynamic properties of the ionic liquid 1-n-butyl-3-
+methylimidazolium bis(triﬂuoromethanesulfonyl)imide. J. Chem.
+Phys. 135, 124507 (2011).
+70. Leontyev, I. & Stuchebrukhov, A. Accounting for electronic polar-
+ization in non-polarizable force ﬁelds. Phys. Chem. Chem. Phys. 13,
+2613–2626 (2011).
+71.
+Chaban, V. Polarizability versus mobility: atomistic force ﬁeld for
+ionic liquids. Phys. Chem. Chem. Phys. 13, 16055–16062 (2011).
+72.
+Hou, T., Fong, K. D., Wang, J. & Persson, K. A. The solvation struc-
+ture, transport properties and reduction behavior of carbonate-
+based electrolytes of lithium-ion batteries. Chem. Sci. 12,
+14740–14751 (2021).
+73. Tomasi, J., Mennucci, B. & Cammi, R. Quantum mechanical con-
+tinuum solvation models. Chem. Rev. 105, 2999–3093 (2005).
+74. Tomasi, J., Mennucci, B. & Cances, E. The IEF version of the PCM
+solvation method: an overview of a new method addressed to study
+molecular solutes at the QM ab initio level. J. Mol. Struc-Theochem.
+464, 211–226 (1999).
+75. Frisch, M. J. et al. Gaussian 16 Rev. A.03 (Gaussian Inc., 2016).
+76. Grimme, S. Supramolecular binding thermodynamics by
+dispersion-corrected density functional theory. Chem. Eur. J. 18,
+9955–9964 (2012).
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+13
+
+=== 第 14 页 ===
+77.
+Luchini, G., Alegre-Requena, J. V., Funes-Ardoiz, I. & Paton, R. S.
+GoodVibes: automated thermochemistry for heterogeneous com-
+putational chemistry data. F1000Research 9, 291 (2020).
+Acknowledgements
+This work was supported by the National Key Research and Develop-
+ment Program of China (2021YFB2500200), National Natural Science
+Foundation of China (No. 52072205), Joint Funds of the National Natural
+Science Foundation of China (U21A20174), Guangdong Innovative and
+Entrepreneurial Research Team Program (2021ZT09L197), Shenzhen
+Science and Technology Program (KQTD20210811090112002), and the
+Start-up Funds, the Overseas Research Cooperation Fund of Tsinghua
+Shenzhen International Graduate School and the Shenzhen Geim Gra-
+phene Center. The authors thank J.Wang. who helped us with the
+Scanning Transmission X-ray Microscopy tests on SM Beamline at CLS.
+The CLS is supported by the NSERC, the National Research Council
+Canada, the Canadian Institutes of Health Research, the Province of
+Saskatchewan, Western Economic Diversiﬁcation Canada, and the Uni-
+versity of Saskatchewan.
+Author contributions
+Y.Z. and G.Z. conceived the idea. G.Z. and T.H. directed the project. Y.Z.
+and Z.L. synthesized materials, characterized materials, and analyzed
+data. T.H., X.W., and C.J. performed DFT calculations and molecular
+dynamics simulations. M.Z. performed FEM simulations and data ana-
+lysis. G.L. performed cryo-TEM and cryo-TEM EDS experiments. J.W.
+conducted the XAS and STXM experiments. X.X., Z.H., R.G., L.N., and
+Y.S. helped with electrochemical measurements and battery test. Y.Z.,
+Z.P., and G.Z. cowrote and revised the manuscript. All authors con-
+tributed to the interpretation of the results.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information The online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-024-48078-7.
+Correspondence and requests for materials should be addressed to
+Tingzheng Hou or Guangmin Zhou.
+Peer review information Nature Communications thanks Xi Chen, Hir-
+oyuki Ueda and the other anonymous reviewer(s) for their contribution to
+the peer review of this work. A peer review ﬁle is available.
+Reprints and permissions information is available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+Article
+https://doi.org/10.1038/s41467-024-48078-7
+Nature Communications|  (2024) 15:3914 
+14

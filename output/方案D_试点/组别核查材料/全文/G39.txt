@@ -1,0 +1,810 @@
+=== 第 1 页 ===
+2200181  (1 of 11)
+© 2022 Wiley-VCH GmbH
+www.advmat.de
+Research Article
+Transferring Liquid Metal to form a Hybrid Solid Electrolyte 
+via a Wettability-Tuning Technology for Lithium-Metal 
+Anodes
+Xin Jin, Ziqiang Cai, Xinrui Zhang, Jianming Yu, Qiya He, Zhenda Lu, Mouad Dahbi, 
+Jones Alami, Jun Lu,* Khalil Amine,* and Huigang Zhang*
+X. Jin, Z. Cai, J. Yu, Z. Lu, H. Zhang
+National Laboratory of Solid State Microstructures
+Collaborative Innovation Center of Advanced Microstructures
+and College of Engineering and Applied Sciences
+Nanjing University
+Jiangsu 210093, China
+E-mail: hgzhang@ipe.ac.cn
+X. Jin, X. Zhang, Q. He, H. Zhang
+State Key Laboratory of Multiphase Complex Systems
+Institute of Process Engineering
+Chinese Academy of Sciences
+Beijing 100190, China
+X. Zhang
+Key Laboratory for Macromolecular Science of Shaanxi Province
+School of Chemistry and Chemical Engineering
+Shaanxi Normal University
+Xi’an, Shaanxi 710062, China
+DOI: 10.1002/adma.202200181
+1. Introduction
+The ever-increasing demands for high-
+energy-density batteries have motivated 
+intensive studies on rechargeable Li-metal 
+batteries in recent years because Li-metal 
+anodes have an exceedingly high specific 
+capacity (3860 mAh g−1) and low elec-
+trode potentials (−3.04  V vs the standard 
+hydrogen electrode).[1–5] However, Li-metal 
+anodes suffer from several severe issues 
+in practical applications,[6–10] such as high 
+surface area lithium growth,[11–15] rapid 
+consumption of active Li,[16–18] and accu-
+mulation of solid electrolyte interphase 
+(SEI),[19–22] which lead to safety concerns, 
+short cycle life, and low Coulombic effi-
+ciency (CE). Owing to the high activity, Li 
+metal spontaneously reacts with most elec-
+trolytes if it is not passivated or protected. 
+Thus, a viable Li-metal anode should main-
+tain the stability of Li/electrolyte inter-
+faces where SEI plays a crucial role.[23–25] 
+Integrating solid-state electrolyte (SSE) into Li-metal anodes has demon-
+strated great promise to unleash the high energy density of rechargeable 
+Li-metal batteries. However, fabricating a highly cyclable SSE/Li-metal anode 
+remains a major challenge because the densification of the SSE is usually 
+incompatible with the reactive Li metal. Here, a liquid-metal-derived hybrid 
+solid electrolyte (HSE) is proposed, and a facile transfer technology to 
+construct an artificial HSE on the Li metal is reported. By tuning the wetta-
+bility of the transfer substrates, electron- and ion-conductive liquid metal is 
+sandwiched between electron-insulating and ion-conductive LiF and oxides to 
+form the HSE. The transfer technology renders the HSE continuous, dense, 
+and uniform. The HSE, having high ion transport, electron shut-off, and 
+mechanical strength, makes the composite anode deliver excellent cyclability 
+for over 4000 h at 0.5 mA cm−2 and 1 mAh cm−2 in a symmetrical cell. When 
+pairing with LiFePO4 and sulfur cathodes, the HSE-coated Li metal dramati-
+cally enhances the performance of full cells. Therefore, this work demon-
+strates that tuning the interfacial wetting properties provides an alternate 
+approach to build a robust solid electrolyte, which enables highly efficient 
+Li-metal anodes.
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/adma.202200181.
+Q. He, H. Zhang
+Shaanxi Key Laboratory of Degradable Biomedical Materials
+Shaanxi R&D Center of Biomaterials and Fermentation Engineering
+School of Chemical Engineering
+Northwest University
+Taibai North Road 229, Xi’an, Shaanxi 710069, China
+M. Dahbi, J. Alami
+Materials Science and Nano-Engineering Department
+Mohammed VI Polytechnic University
+Ben Guerir, Morocco
+J. Lu, K. Amine
+Chemical Sciences and Engineering Division
+Argonne National Laboratory
+Lemont, IL 60439, USA
+E-mail: junlu@anl.gov; amine@anl.gov
+K. Amine
+Department of Material Science and Engineering
+Stanford University
+Stanford, CA 94305, USA
+Adv. Mater. 2022, 34, 2200181
+
+=== 第 2 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (2 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+However, the dynamic volume change of Li metal during plating/
+stripping renders a natural SEI (which is usually 10–20 nm and 
+not flexible)[26,27] vulnerable to withstand the tremendous stress. 
+The resulting crack in the SEI will cause a repeated formation of 
+new SEI, thereby lowering the cyclability.[28]
+Many strategies like designing new electrolyte formula[29–31] 
+and/or building an artificial protective layer by pretreating Li 
+surface[32–34] have been proposed to stabilize the Li/electrolyte 
+interface and improve the cycling performance of Li-metal 
+anodes. For example, LiNO3,[35] as a widely used electrolyte 
+additive,[36–40] could form a relatively stable SEI containing 
+LiNxOy and Li3N, which originate from the decomposition of 
+LiNO3. Some fluorine-containing organic substances or salts 
+were also used as the electrolyte additives because their decom-
+position product (LiF), as a good electron insulator and poor ion 
+conductor (the Li-ion diffusivity is 1.3 × 10−23 cm2 s−1),[41] could 
+strengthen the SEI by suppressing dendrites, blocking electron, 
+and facilitating ion transport.[42–44] Based on these strength-
+ening mechanisms, other artificial protective layers, such as 
+Al2O3,[45] LiF,[46] and Li–M alloys (M = Zn,[15] Sn,[47] Hg,[48] In,[49] 
+etc.), were also developed to coat Li metal. In addition to the 
+consideration for mechanical suppression, another key factor 
+among these protective layers is the relationship between elec-
+tron and ion conductivities, which determines whether Li ions 
+rapidly diffuse through and deposit beneath the protective layer.
+A good solid electrolyte layer should have several prerequi-
+sites: 1) high Li-ion conductivity; 2) negligible electron transport; 
+3) mechanical strength; 4) dense structure; 5) easy to fabricate; 
+6) stability concerning thermal, chemical, and electrochemical 
+decomposition; 7) flexibility. Simple binary Li salts (like LiF,[46] 
+Li2O,[50] LiCl,[51] LiBr,[52] and LiI[53]) are convenient candidates 
+because they are apparently electron insulators and can also 
+allow modest transport of Li ions along their grain boundary. 
+To mechanically suppress the dendrite growth, artificial solid 
+electrolytes usually have to be thicker than a natural SEI. How-
+ever, a thick solid layer imposes high kinetic resistance at a high 
+charge/discharge rate.[54] In contrast, Li–M alloys usually have 
+relatively high ion conductivity (Li–Ga,[55] 1.4 × 10−9 cm2 s−1; 
+Bi–Ga,[56] 8.9  ×  10−5 cm2 s−1; Li–Sn,[57] 10−14 to 10−9 cm2 s−1; 
+Li–In,[49] 10−8 to 10−6 cm2 s−1), probably enabling a thick film to 
+suppress dendrites without sacrificing ion transports. Unfortu-
+nately, their high electron conductivities undermine the advan-
+tages to be an ideal solid electrolyte for Li-metal anodes.
+In this work, we developed an artificial hydride solid electro-
+lyte (HSE) by transferring electron-conductive liquid metal (LM) 
+between electron-insulating LiF and oxides layers via a wetta-
+bility-tuning strategy (as shown in Figure 1). Based on a series 
+of theoretical modeling and experimental studies on interfacial 
+wettability, we selected a stainless steel (SS) substrate to spread 
+LM because of its medium wetting properties toward LM. After 
+heat treatment in air, the superficially oxidized LM (soLM) were 
+coated with Li metal. Because soLM interacted more strongly 
+with Li (high wetting) than SS (medium wetting), the Li/soLM 
+bilayer could be readily detached off SS. The newly exposed 
+Adv. Mater. 2022, 34, 2200181
+Figure 1.  Design principle and fabrication. a) Schematic illustration of the fabrication procedure of Li/soLM/LiF. b) Cross-sectional diagram of Li plating 
+under the artificial hybrid solid electrolyte.
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (3 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+LM surface was then sputtered with LiF to passivate the Ga–
+In–Sn sites of LM (these sites may catalyze the decomposition 
+of liquid electrolyte if not isolated or passivated).[58,59] Thanks 
+to the good flowability of LM, the obtained HSE film was con-
+tinuous, dense, and uniform, which is ideal as a protecting 
+layer for Li-metal anodes. Such a sandwich structure could 
+simultaneously realize high ion transport, electron shut-off, 
+and mechanical strength, which could not be achieved by each 
+component of the sandwich. Thus, the resulting Li/soLM/LiF 
+composite anode demonstrates excellent cyclability in a sym-
+metrical cell for over 4000 h at 0.5 mA cm−2 and 1 mAh cm−2. 
+When pairing with LiFePO4 or sulfur cathodes, the Li/soLM/
+LiF anode could dramatically enhance the electrochemical per-
+formance of their full cells. In general, tuning the interfacial 
+wetting properties provide another approach to building robust 
+solid electrolyte layers, which enable highly efficient Li-metal 
+anodes.
+2. Results and Discussion
+2.1. Morphological and Structural Analysis
+Spreading properties determine whether or not LM could 
+be fabricated as a dense and uniform film. Four typical sub-
+strates (SS, Cu, glass, and carbon) having varied wettability 
+were elected to test the spreading properties of LM on them. 
+Figure 2a shows the contact angle measurements of LM on 
+varied substrates. LM does not wet carbon and glass, showing 
+high contact angles. It is rather difficult to spread LM on a non-
+wetting surface (like carbon and glass) and meanwhile form 
+an even and continuous film. Cu and SS could spread LM well 
+as demonstrated by low contact angles. Therefore, Cu and SS 
+could be used to assist the spreading of LM and the formation 
+of artificial HSE.
+After annealing in air at 200 °C for 24 h, the top surface of 
+LM was oxidized to form an soLM shell, which was thin and 
+dense. Li foil was then compressed on the top of soLM. Because 
+Li was electrically connected with substrates by external cir-
+cuits and the oxidized shell was ion-conductive, LM was gradu-
+ally lithiated and solidified to form an even and mechanically 
+robust HSE. After holding on pressure (5–10  MPa), the sub-
+strate was detached to release the Li/soLM. Figure  2b shows 
+that the resultant soLM was so closely attached to Cu that after 
+release, most of them remained on Cu and only a low fraction 
+of LM residual was transferred to Li. A simple reason is that the 
+adhesion between LM and Cu was stronger than that between 
+Li and LM. Conversely, in the case of SS-assisted detachment, 
+soLM was successfully transferred to Li foil while SS remained 
+intact (Figure  2c). Therefore, it can be concluded that the 
+transfer technology enabled by tuning interfacial wettability 
+could realize the facile fabrication of continuous LM film.
+Adv. Mater. 2022, 34, 2200181
+Figure 2.  Wettability-tuning transfer process. a) Wettability characterization and contact angle measurements of LM on Cu, SS, glass, and carbon. 
+b,c) Substrates-assisted transfer process using Cu (b) and SS (c). d) Cross-sectional scanning electron microscopy (SEM) image of Li/soLM/LiF. 
+e) SEM/EDX mapping and f) top-view SEM images of Li/soLM/LiF.
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (4 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+To elucidate the interfacial structures, we analyzed the 
+morphological and elemental distribution along the cross sec-
+tions of samples during each step of fabrication. As shown in 
+Figure S1a (Supporting Information), Li/soLM (no LiF coating) 
+has a dense and even layer of soLM (8 µm thick), which closely 
+adheres to Li foil. The energy-dispersive X-ray spectroscopy 
+(EDX) elemental mapping images in Figure S1b (Supporting 
+Information) show the uniform distribution of Ga, In, and Sn 
+on the top of Li foil. In particular, the EDX image of elemental 
+images exhibits a thin layer of oxygen signals distribution, indi-
+cating that the transfer technology successfully sandwiched the 
+oxides layer (Li2O and/or Ga/In/Sn oxides) between LM and Li 
+foil. Since LM is flowable and can wet the transfer substrates 
+during fabrication, the soLM layer tightly adheres to and fully 
+cover the Li metal, forming a flat and smooth top layer as 
+shown in Figure S1c (Supporting Information).
+Furthermore, an additional thin layer of LiF was sputtered 
+on the top of Li/soLM (see Figure  2d). The EDX elemental 
+mapping image (Figure 2e) indicates that elemental F is only 
+distributed on the top surface. Figure 2f demonstrates that the 
+LiF coating is generally flat and the thickness of LiF is ≈70 nm 
+(Figure S2, Supporting Information). The X-ray diffraction pat-
+terns of Li/soLM/LiF in Figure S3 (Supporting Information) 
+show that the Li/soLM/LiF is mainly composed of Li, Li–Ga, 
+and In–Li–Sn. No obvious crystalline LiF and Li2O may be due 
+to their low amount or amorphous state.
+2.2. Simulation of the Transfer Mechanism
+To further understand the wetting properties of LM on varied 
+substrates, we first conducted molecular dynamics (MD) sim-
+ulations. The Lennard-Jones (LJ)[35,60–62] and adaptive inter-
+molecular reactive bond order potentials[63–65] were used for 
+metal atoms and carbon, respectively. As the interactions 
+between metal atoms and sp2-hybrid C could not be accurately 
+described by the original LJ potentials, we fitted them by an ab 
+initio method in Note S1 (Supporting Information) and used 
+the geometric model for fitting in Figures S4-S7 (Supporting 
+Information).
+Figure 3a–c displays the simulation results of LM on SS, 
+Cu, and C, respectively, which satisfactorily confirm the experi-
+mental observations in Figure 2a. LM spreads well on Cu and 
+however, has a higher contact angle on SS than on Cu. Such a 
+difference could be further understood by examining the binary 
+phase diagram of metal–Ga systems (Figure 3d, e). When Cu is 
+in contact with liquid Ga (melting point is 29.8°C), Ga atoms 
+will attack Cu atoms to induce the interdiffusion between Ga 
+and Cu. This interfacial wetting is governed by the kinetics of 
+interdiffusion. At low temperatures (<254 °C), CuGa2 is nearly 
+in equilibrium with liquid Ga. Although the formation of solid-
+state CuGa2 may slow down the diffusion of Ga atoms into bulk 
+Cu phase, Cu atoms could readily diffuse into liquid Ga owing 
+to its relatively high solubility in liquid Ga (4 at.% at 254 °C). In 
+contrast, Fe is insoluble in Ga below 400 °C (only ≈1.7 at.% Fe is 
+dissolved in Ga at 600 °C). Solid intermetallic compounds (e.g., 
+FeGa3) may slow down the diffusion of Ga into bulk Fe while 
+the insolubility of Fe in Ga prevents Fe from diffusing into Ga. 
+Based on these analyses, we may conclude that as compared 
+to SS, Cu induces the spreading of LM mainly because of the 
+reactive wetting, thereby showing a much lower contact angle 
+than SS. Figure  3c shows that LM forms a round droplet on 
+C and exhibits a high contact angle and poor spreading prop-
+erties. The MD results can attribute the de-wetting properties 
+to the weak interaction between C and LM. As compared to 
+wetting Cu and de-wetting C, only SS demonstrates a medium 
+interaction strength to LM, which becomes a key factor to assist 
+the transfer process.
+To understand the release step of the transfer technology, 
+we built heterogeneous interface models and calculated the 
+work of separation (Wsep) between LiGa alloy phases and var-
+ious substrates using density functional theory (DFT). Wsep 
+is the energy required to separate the two slabs as shown in 
+Figure  3g.  To  match two incoherent slabs, we followed the 
+strategy of Jacobsen et al. to calculate the 2D strain tensor of 
+the LM interfaces first and selected the interface models that 
+have the lowest strain and are computationally feasible for the 
+following DFT calculations.[66] Figure S8 (Supporting Informa-
+tion) displays all typical models for Cu/Ga and SS/Ga interfaces. 
+CuGa2 was used as the substrate because Cu alloys with Ga. As 
+Ga in LM attacks most other metals by diffusing into their lat-
+tice, for simplicity, LiGa (instead of Sn and In) was considered 
+to represent the lithiated LM. Figure 3h,i presents the Wsep of 
+various interfaces with respect to the distance. The interface 
+of SS/LiGa has a lower Wsep than that of Li2O/LiGa, indicating 
+that removing the substrate of Li/soLM/SS will readily detach 
+SS through the SS/soLM interface. However, in the case of Li/
+soLM/Cu, the high Wsep (Figure 3h) and relatively large area (as 
+illustrated in Figure 3f) of the CuGa2/LiGa interface lead to the 
+breakup of LiGa, thereby failing to transfer lithiated LM from 
+Cu to the Li metal completely (as shown in Figure 2b).
+The simulation of interfacial properties reveals that tuning 
+the interfacial wettability allows us to spread a uniform and 
+thin layer of intractable LM on Li metal. In addition, under-
+standing and manipulating the strengths of various interfaces 
+in Li/soLM/substrates enable the easy release of substrates, 
+eventually realizing a successful transfer.
+2.3. In Situ Characterization of Li Deposition
+To study whether the artificial HSE suppresses the dendritic 
+growth of Li metal, we observed the in situ growth of Li metal 
+on bare Li and Li/soLM/LiF by an optical microscope. Upon 
+negative polarization, dendrites were deposited on the surface 
+of bare Li metal (Figure 4a). In contrast, Li/soLM/LiF induced 
+uniform deposition of Li metal, which could be identified with 
+the increased thickness of Li (Figure  4b). The top layers of 
+soLM/LiF remained intact, implying an underneath plating. To 
+further verify the growth mechanism, we disassembled the cell 
+and observed the cross-sectional morphology of Li-plated Li/
+soLM/LiF by SEM. Figure 4c shows a distinct layered structure 
+consisting of top artificial HSE and Li metal. More importantly, 
+the newly deposited Li could be distinguished from the original 
+Li metal (which could also be compared to the un-plated Li as 
+shown in Figure 9, Supporting Information). Li was nucleated 
+at the Li/soLM interface, where was the farthest spots that 
+electrons from Li metal can be transported to during negative 
+Adv. Mater. 2022, 34, 2200181
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (5 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+polarization. Therefore, a top growth of the Li metal (dendritic 
+formation, Figure 10, Supporting Information) was avoided and 
+replaced with the underneath plating.
+Local electron and ion transport usually determine the dep-
+osition behavior of Li metal. To explain the Li plating under-
+neath the HSE, we used polytetrafluoroethylene (PTFE) as 
+probe molecules to visualize the reaction between PTFE and 
+Li so as to understand the electron and ion transport through 
+the HSE. Specifically, a PTFE film was coated onto Li metal, 
+Li/LM, Li/soLM, and Li/soLM/LiF, respectively. After being 
+compressed for 24 h, the PTFE film was peeled off. Figure 4e 
+shows that the PTFE film in contact with Li metal or Li/LM 
+turned black, indicative of the unblocked transport of elec-
+trons and Li-ions, which initialized the reduction of PTFE. In 
+stark contrast, the surface of PTFE film in contact with soLM 
+or LiF remained intact, which is similar to the PTFE films 
+without any reaction (Figure 11, Supporting Information). It 
+can be concluded that a thin layer of Li2O and/or LiF could 
+shut off the electron transport from the Li metal to the top 
+surfaces of Li/soLM and Li/soLM/LiF, therefore preventing 
+dendritic growth on the top and facilitating the underneath 
+plating of Li metal.
+Given the good insulating properties, it is intuitive for one 
+to think of using only Li2O and/or LiF as the SEI. However, it 
+should be emphasized that an artificial SEI must also conduct 
+Li-ions well. We thus calculated the migration barriers of Li 
+ions in bulk Li2O, LiF, and Li2Ga. As shown in Figure  4f, Li 
+ions have to overcome high energy barriers of 1.71 and 2.66 eV 
+through Li2O and LiF, respectively. To suppress the dendritic 
+growth, a relatively thick layer is usually needed to maintain the 
+mechanical strength of solid electrolytes. However, high energy 
+barriers make thick solid electrolytes difficult to conduct Li-ions 
+efficiently. Li2Ga exhibits a much lower energy barrier (0.43 eV) 
+for Li-ion conduction than Li2O and LiF. Thus, lithiated LM can 
+serve as a much better Li-ion conductor than Li2O and LiF. As 
+lithiated LM is also a good electron conductor, LM-based solid 
+electrolytes must be electrically passivated. Based on the above 
+consideration on electron/ion conduction and mechanical 
+strength, we developed the transfer technology to sandwich 
+an ion-conductive LM film between electron-insulating and 
+Adv. Mater. 2022, 34, 2200181
+Figure 3.  Simulation and mechanistic analyses of transfer process. a–c) MD simulated geometric models of LM on Cu (CuGa2 is used in consideration 
+of Cu–Ga alloying) (a), SS (b), and carbon (c). d,e) Binary phase diagrams of Ga–Cu (d) and Ga–Fe (e). d) Adapted with permission.[67a] Copyright 
+1990, ASM International. e) Adapted with permission.[67b] Copyright 2016, ASM International. f) Schematic diagram of interdiffusion between Cu and 
+Ga. g) Schematic illustration of the work of separation. h,i) Wsep of various interfaces at Li/soLM/SS (Li2O/LiGa and SS/LiGa) (h) and Li/soLM/Cu 
+(LiGa/LiGa and CuGa2/LiGa) (i) with respect to the distance.
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (6 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+ion-conductive Li2O and LiF. Such a sandwich structure con-
+currently enables good electron insulation, rapid ion conduc-
+tion, and robust mechanical strength, which are essential for a 
+solid electrolyte.
+2.4. Electrochemical Properties of Li/soLM/LiF Anodes
+Figure 5a shows the electrochemical cycling properties of 
+symmetric cells using bare Li and Li/soLM/LiF, respectively, 
+at varied test conditions. The electrolyte was 1 m Lithium 
+bis(trifluoromethanesulphonyl)imide (LiTFSI) in an electro-
+lyte of 1,3-dioxolane (DOL) and 1,2-dimethoxyethane (DME). 
+At 1 mAh cm−2, both cells exhibit similar plating/stripping 
+voltage gaps (about 12  mV) for less than 500 h probably 
+because the current density (0.5 mA cm−2) is relatively low and 
+the SEI does not build up at the beginning. With the increase 
+of cycling number, the average voltage of bare Li starts to 
+increase rapidly, which might be caused by the consumption of 
+electrolytes and accumulation of SEI. Especially, after 1000 h, 
+the bare Li cell exhibits noisy voltage signals, which are super-
+imposed on a generally increasing average voltage. The noisy 
+voltage response is a good indicator for short circuits (due to 
+Li “dendrites”).[68,69] Eventually, the cell broke down in 1100 h. 
+In stark contrast, the Li/soLM/LiF cell could be cycled with 
+low average overpotentials (≈15 mV) for more than 4000 h. By 
+zooming in the voltage profiles, one can see that the plating/
+stripping voltage decreases from 25  mV in the first cycle to 
+the minimum of 12 mV in the 125th cycle (500 h). The initial 
+decrease in voltages can be attributed to electrode activation, 
+which was also observed in previous studies.[70] After activa-
+tion, the average plating/stripping voltages increase slightly 
+Adv. Mater. 2022, 34, 2200181
+Figure 4.  Optical analyses of in situ Li plating and modeling. a,b) Optical images of Li plating on bare Li (a) and Li/soLM/LiF (b) at 0.5 mA cm−2 after 
+varied times. c) Cross-sectional SEM image of Li/soLM/LiF after plating at 0.5 mA cm−2. d) Optical images of PTFE films and illustration of reaction 
+between PTFE and different anode surfaces. e) Geometric models for simulating Li diffusion and f) the energy barrier in LiF, Li2O, and Li2Ga.
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (7 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+by only 0.0021 mV per hour, demonstrating superior cycling 
+properties.
+Figure 5b presents the cycling performance at a high current 
+density of 5 mA cm−2. As compared to the low-rate properties 
+in Figure  5a, the cyclability of the bare Li cell is dramatically 
+reduced. A stable voltage profile could be maintained for only 
+50 h. After about 85 h, the bare Li cell is broken. A significant 
+increase in current density likely induces non-uniform plating 
+and thus leads to dendritic growth, which unavoidably increases 
+the surface area and consumes electrolyte to form more SEI. 
+The newly formed SEI would in turn aggravate the situation 
+of non-uniform plating. Such a worse loop accelerates the 
+increase in plating/stripping voltage until the breakdown. Li/
+soLM/LiF demonstrates a mechanically robust artificial HSE, 
+which offers two protective effects: 1) the high ion-conductivity 
+of the artificial HSE could homogenize the Li transport to avoid 
+the concentration of current density; 2) the mechanical proper-
+ties of the HSE help to suppress the dendritic growth. There-
+fore, the Li/soLM/LiF cell could maintain the stable cycling 
+overpotentials at a high current density of 5 mA cm−2 as well 
+as at low rates. A similar conclusion of good cycling (for 1400 h) 
+is further demonstrated at high loading cells (5 mAh cm−2) 
+as shown in Figure  5c. The above analyses on varied rates 
+and loading tests confirm that the artificial HSE dramatically 
+improves the cyclability of Li-metal anodes.
+More importantly, Li/soLM/LiF exhibits much higher cycling 
+stability in ester electrolytes than bare Li. Figure  5d shows 
+that Li/soLM/LiF can cycle for >1600 h at a high capacity 
+(5 mAh cm−2) in ethylene carbonate (EC) and dimethyl car-
+bonate (DMC). Despite a slight voltage increase after 1200 h, 
+such a cycling property of Li/soLM/LiF far exceeds that of bare 
+Li. Li metal usually does not cycle well in carbonate electro-
+lytes because of the poor deposition behavior, which has been 
+reported previously.[71–73] However, carbonates have wide poten-
+tial windows and are used for high voltage systems to increase 
+the energy density of batteries. Therefore, cycling a Li-metal 
+anode well in carbonates is equally important for building high-
+energy batteries.
+Adv. Mater. 2022, 34, 2200181
+Figure 5.  Electrochemical characterization of symmetric cells. a–c) Cycling performance of bare Li and Li/soLM/LiF cells using ether electrolytes at 
+0.5 mA cm−2 and 1 mAh cm−2 (a); 5 mA cm−2 and 1 mAh cm−2 (b); 0.5 mA cm−2 and 5 mAh cm−2 (c). d) Cycling performance of bare Li and Li/soLM/
+LiF cells using carbonate ester electrolytes. e,f) Nyquist plots in the 10th (e) and 100th (f) cycles.
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (8 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+Adv. Mater. 2022, 34, 2200181
+To further understand the change of resistance during 
+cycling, we compared the EIS data in the 10th and 100th cycles 
+in Figure 5e,f. These Nyquist plots exhibit depressed semicir-
+cles, which could be modeled with two overlapping semicircles 
+simply due to SEI and charge transfer, respectively.[74] By fitting 
+with the equivalent circuit[75] in Figure 5e, we obtained the EIS 
+parameters in Table S2 (Supporting Information). Bare Li and 
+Li/soLM/LiF have similar high-frequency intercepts (RE), which 
+are slightly increased from the 10th to 100th cycle), indicative of 
+well-controlled comparison. The resistances of charge transfer 
+(RCT) remain almost unchanged. Despite starting with the sim-
+ilar SEI resistance (RSEI) in the 10th cycle, Li/soLM/LiF forms 
+much less SEI than bared Li after 100 cycles, indicating that Li/
+soLM/LiF builds up more stable SEI than bare Li, which con-
+firms the analyses of galvanostatic cycling.
+2.5. Full Cell Characterization
+LiFePO4 and sulfur were chosen as the cathodes to verify 
+whether the good cyclability of Li/soLM/LiF in symmetric 
+cells could be applied to full cells. Li/soLM/LiF and bare Li 
+were first assembled with LiFePO4 using carbonate electrolytes 
+(labeled as Li/soLM/LiF||LiFePO4 and Li||LiFePO4, respectively). 
+Figure 6a shows that Li/soLM/LiF||LiFePO4 can be charged and 
+discharged reversibly with a high capacity about 150 mAh g−1. 
+The typical two-phase reaction between Li and Li1−xFePO4 ren-
+ders the voltage curves flat and also contributes to two sharp 
+peaks (3.28 and 3.56  V) in cyclic voltammetric (CV) curves. 
+The narrow gap between two CV peaks indicates good revers-
+ibility. Figure  6b presents the cycling properties of Li/soLM/
+LiF||LiFePO4 and Li||LiFePO4 cells at 0.1C. A N/P ratio of 3.43 
+and electrolyte (14.7 µL mAh−1 are used to demonstrate the dif-
+ference of cyclability (see the cycling in a flooded electrolyte in 
+Figure S12, Supporting Information, for comparison). The Li/
+soLM/LiF||LiFePO4 cell can deliver a relatively stable capacity 
+of 150 mAh g−1 for 100 cycles with high CEs around 99.9%. 
+In contrast, the capacity of Li||LiFePO4 cell varies upon cycling 
+and rapidly decays in about 80 cycles. Given the well-recog-
+nized good cyclability of LiFePO4, the cell degradation can be 
+attributed to the poor cycling properties of the bare Li anode. 
+Even when the C rate is increased ten times (Figure  6c), the 
+Figure 6.  Electrochemical properties of full cells. a) Charge/discharge and CV curves of Li/soLM/LiF||LiFePO4 cells. b,c) Cycling properties of Li||LiFePO4 
+and Li/soLM/LiF||LiFePO4 cells at 0.1 C (b) and Li/soLM/LiF||LiFePO4 at 1 C (c). d) Charge/discharge and CV curves of Li/soLM/LiF|| S/Ru@rGO. 
+e) Cycling properties of Li||S/Ru@rGO and Li/soLM/LiF||S/Ru@rGO cells at 1 C. f) SEM image and g) EDX mapping of Li/soLM/LiF after cycling. 
+h) SEM image and i) EDX mapping of Li after cycling.
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (9 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+Adv. Mater. 2022, 34, 2200181
+Li/soLM/LiF||LiFePO4 cell maintains high CEs (≈99.9%) and 
+high capacity (95–112 mAh g−1) for 1000 cycles, which amounts 
+to a decaying rate of 0.017 mAh g−1 per cycle. Thus, the artifi-
+cial HSE dramatically improves the cyclability of the Li/soLM/
+LiF||LiFePO4 cell.
+In addition to pairing with intercalation cathodes, Li-metal 
+anodes are also widely used in Li–S batteries to unleash the 
+ultrahigh energy density of sulfur cathodes. We prepared Ru 
+nanoparticles on reduced graphene oxide (Ru@rGO) to load 
+sulfur (S/Ru@rGO) as shown in Figure S13 (Supporting Infor-
+mation). Ru serves as a catalyst to accelerate the conversion of 
+polysulfides while rGO could facilitate electron conduction. It 
+should be noted that polysulfides are soluble in the liquid elec-
+trolyte of DOL and DME. Polysulfides migration toward anodes 
+will degrade the cycling performance of Li–S batteries. Poly-
+sulfides absorbents are usually needed to confine polysulfides 
+inside sulfur cathodes to mitigate the detrimental “shuttling 
+effect.” We intentionally added no absorbents and allowed 
+polysulfides to migrate. The shuttling of polysulfides offers an 
+indicator to examine the role of artificial HSE. As shown in 
+Figure 6d, the resultant Li/soLM/LiF||S/Ru@rGO cell exhibits 
+two typical voltage plateaus at 2.35 and 2.07  V, which corre-
+spond to the conversion reactions from long-chain S8 to Li2S4 
+and from Li2S4 to Li2S2/Li2S, respectively.[76,77] A specific capacity 
+of 1257.78 mAh g−1 was delivered in the first cycle, showing an 
+initial CE of 99.1%. The reductive scan of the CV curves dem-
+onstrates two distinct peaks at 2.3 V and 2.05 V, which are in 
+agreement with the two plateaus in the discharge curves. A 
+high capacity and well-separated redox peaks indicate that Ru@
+rGO could appropriately catalyze the conversion reactions of 
+the Li–S system. Despite having a similar initial capacity, the 
+Li||S/Ru@rGO cell loses its capacity much more rapidly than 
+the Li/soLM/LiF||S/Ru@rGO cell upon cycling (Figure 6e).
+To elucidate the degradation mechanism, we disassembled 
+the cycled cells to observe the cross-section of their anodes. 
+Figure  6f shows that the artificial HSE with a relatively even 
+thickness is coated on the cycled lithium, indicating that the 
+plating of metallic lithium does not break the HSE. The EDX 
+mapping images show that LM elements (Ga and Sn) are dis-
+tributed uniformly while the signals of F and S are mainly pre-
+sent at the top region (Figure 6g). Elemental F originates from 
+the LiF coating and decomposed electrolyte. In contrast, the 
+morphology of the cycled bare Li anode is changed to rough and 
+dendritic aggregates (Figure 6h). The EDX mapping images in 
+Figure 6i indicate that sulfur species are distributed unevenly 
+along the thickness direction. It can be deduced that sulfur spe-
+cies are diffused from cathodes and corrode the Li-metal anode, 
+leading to non-uniform plating of Li during recharge. Dendritic 
+growth in turn facilitates the diffusion of S species into the Li 
+anode (Figure S14, Supporting Information). The increase of 
+surface area due to dendritic morphology causes the decompo-
+sition of electrolytes, redistributing F elements along the cross 
+section.
+The results of LiFePO4 and Li–S battery systems allow us to 
+conclude that the artificial HSE significantly suppresses the den-
+dritic growth of Li metal owing to mechanical strength, high ion, 
+and poor electron conductivities. Other factors that also make 
+important contributions and should not be overlooked are the 
+flowability of LM and facile fabrication via the wetting-tuning 
+transfer technology because only the dense, even, and sand-
+wiched structure made the above advantages possible.
+3. Conclusion
+We have developed an artificial hybrid solid electrolyte by sand-
+wiching LM between LiF and oxides via a wettability-tuning 
+strategy. To successfully transfer a dense, continuous, and uni-
+form LM, our DFT modeling and molecular dynamic simula-
+tion was first conducted to reveal that the wetting properties 
+on SS are appropriate for spreading and detaching LM film 
+at the same time because the medium interaction between SS 
+and LM is neither strong nor weak. Such a sandwich structure 
+takes advantage of the high ion conductivity and flowability 
+of LM and meanwhile passivates LM to eliminate its electron 
+conduction and catalytic effects. The resultant HSE offers high 
+ion conductive, electron insulating, and mechanical supporting 
+properties as an ideal solid electrolyte layer for Li-metal anodes. 
+Therefore, the HSE-coated Li-metal composite anodes exhibit 
+superior cycling performance for over 4000 h at 0.5 mA cm−2 
+and 1 mAh cm−2 in a symmetric cell. The high stability of the 
+HSE was also demonstrated in LiFePO4 and Li–S batteries to 
+enhance their specific energy and cyclability.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+The authors thank the financial support of the National Key Research 
+and Development Program of China (2020YFA0406104), National 
+Natural Science Foundation of China (22075131), and State Key 
+Laboratory of Multiphase Complex Systems (No. MPCS-2021-A). The 
+numerical calculations were carried out at the computing facilities in 
+the High-Performance Computing Center (HPCC) of Nanjing University. 
+Work at Argonne National Laboratory was supported from Clean 
+Vehicles, US-China Clean Energy Research Centre (CERC-CVC2) under 
+US DOE EERE Vehicle Technologies Office. Argonne National Laboratory 
+is operated for DOE Office of Science by UChicago Argonne, LLC, under 
+contract number DE-AC02-06CH11357.
+Conflict of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+The data that support the findings of this study are available from the 
+corresponding author upon reasonable request.
+Keywords
+Li-metal anodes, liquid metals, solid electrolyte, transfer technology, 
+wettability
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (10 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+Adv. Mater. 2022, 34, 2200181
+Received: January 7, 2022
+Revised: February 21, 2022
+Published online: March 21, 2022
+[1]	 P. Albertus, S. Babinec, S. Litzelman, A. Newman, Nat. Energy 2018, 
+3, 16.
+[2]	 D. Lin, Y. Liu, Y. Cui, Nat. Nanotechnol. 2017, 12, 194.
+[3]	 Y. Li, Y. Li, A. Pei, K. Yan, Y. Sun, C.-L. Wu, L.-M. Joubert, R. Chin, 
+A. L. Koh, Y. Yu, J. Perrino, B. Butz, S. Chu, Y. Cui, Science 2017, 358, 
+506.
+[4]	 A. Mukhopadhyay, M. K. Jangid, Science 2018, 359, 1463.
+[5]	 C. S.  Rustomji, Y.  Yang, T. K.  Kim, J.  Mac, Y. J.  Kim, E.  Caldwell, 
+H. Chung, Y. S. Meng, Science 2017, 356, eaal4263.
+[6]	 Y. He, W. Fan, Y. Zhang, Z. Wang, X. Li, Z.-G. Liu, Z. Lü, ACS Appl. 
+Mater. Interfaces 2020, 12, 22268.
+[7]	 C. Li, J. Wei, K. Qiu, Y. Wang, ACS Appl. Mater. Interfaces 2020, 12, 
+23010.
+[8]	 H. Ye, Y. Zhang, Y.-X. Yin, F.-F. Cao, Y.-G. Guo, ACS Central Sci 2020, 
+6, 661.
+[9]	 K.  Dong, Y.  Xu, J.  Tan, M.  Osenberg, F.  Sun, Z.  Kochovski, 
+D. T. Pham, S. Mei, A. Hilger, E. Ryan, Y. Lu, J. Banhart, I. Manke, 
+ACS Energy Lett. 2021, 6, 1719.
+[10]	 Q.  Li, H.  Pan, W.  Li, Y.  Wang, J.  Wang, J.  Zheng, X.  Yu, H.  Li, 
+L. Chen, ACS Energy Lett. 2018, 3, 2259.
+[11]	 P. Bai, J. Li, F. R. Brushett, M. Z. Bazant, Energy Environ. Sci. 2016, 
+9, 3221.
+[12]	 P.  Bai, J.  Guo, M.  Wang, A.  Kushima, L.  Su, J.  Li, F. R.  Brushett, 
+M. Z. Bazant, Joule 2018, 2, 2434.
+[13]	 H. Guo, Y. Yao, J. Cheng, L. Chen, L. Dai, L. Zhang, P. Si, L. Ci, ACS 
+Appl. Energy Mater 2020, 3, 7944.
+[14]	 T. Liu, J. Ge, H. Wang, Y. Zhang, Y. Wang, ACS Appl. Energy Mater. 
+2021, 4, 2838.
+[15]	 Y. Ouyang, C. Cui, Y. Guo, Y. Wei, T. Zhai, H. Li, ACS Appl. Mater. 
+Interfaces 2020, 12, 25818.
+[16]	 X. Ren, Y. Zhang, M. H. Engelhard, Q. Li, J.-G. Zhang, W. Xu, ACS 
+Energy Lett. 2018, 3, 14.
+[17]	 S.  Chen, Y.  Xiang, G.  Zheng, Y.  Liao, F.  Ren, Y.  Zheng, H.  He, 
+B. Zheng, X. Liu, N. Xu, M. Luo, J. Zheng, Y. Yang, ACS Appl. Mater. 
+Interfaces 2020, 12, 27794.
+[18]	 K.-H. Chen, A. J. Sanchez, E. Kazyak, A. L. Davis, N. P. Dasgupta, 
+Adv. Energy Mater. 2019, 9, 1802534.
+[19]	 E. Peled, J. Electrochem. Soc. 1979, 126, 2047.
+[20]	 J.  Xie, J.  Wang, H. R.  Lee, K.  Yan, Y.  Li, F.  Shi, W.  Huang, A.  Pei, 
+G. Chen, R. Subbaraman, J. Christensen, Y. Cui, Sci. Adv. 2018, 4, 
+eaat5168.
+[21]	 H. Lee, J. Song, Y.-J. Kim, J.-K. Park, H.-T. Kim, Sci. Rep. 2016, 6, 30830.
+[22]	 F.  Hu, Z.  Li, S.  Wang, W. E.  Tenhaeff, ACS Appl. Mater. Interfaces 
+2020, 12, 39674.
+[23]	 N.-W. Li, Y.-X. Yin, J.-Y. Li, C.-H. Zhang, Y.-G. Guo, Adv. Sci. 2017, 4, 
+1600400.
+[24]	 M. S. Ding, S. L. Koch, S. Passerini, Electrochim. Acta 2017, 240, 408.
+[25]	 H. Yue, Y. Yang, Y. Xiao, Z. Dong, S. Cheng, Y. Yin, C. Ling, W. Yang, 
+Y. Yu, S. Yang, J. Mater. Chem. A 2019, 7, 594.
+[26]	 K. Xu, Chem. Rev 2004, 104, 4303.
+[27]	 D. Aurbach, E. Zinigrad, Y. Cohen, H. Teller, Solid State Ionics 2002, 
+148, 405.
+[28]	 H. Dai, K. Xi, X. Liu, C. Lai, S. Zhang, J. Am. Chem. Soc. 2018, 140, 
+17515.
+[29]	 Z. Tu, P. Nath, Y. Lu, M. D. Tikekar, L. A. Archer, Acc. Chem. Res. 
+2015, 48, 2947.
+[30]	 T. T. Hagos, B. Thirumalraj, C.-J. Huang, L. H. Abrha, T. M. Hagos, 
+G. B.  Berhe, H. K.  Bezabh, J.  Cherng, S.-F.  Chiu, W.-N.  Su, 
+B.-J. Hwang, ACS Appl. Mater. Interfaces 2019, 11, 9955.
+[31]	 Y. Yang, J. Xiong, S. Lai, R. Zhou, M. Zhao, H. Geng, Y. Zhang, 
+Y.  Fang, C.  Li, J.  Zhao, ACS Appl. Mater. Interfaces 2019, 11, 
+6118.
+[32]	 R.  Xu, X.-B.  Cheng, C.  Yan, X.-Q.  Zhang, Y.  Xiao, C.-Z.  Zhao, 
+J.-Q. Huang, Q. Zhang, Matter 2019, 1, 317.
+[33]	 X.  Liang, Q.  Pang, I. R.  Kochetkov, M. S.  Sempere, H.  Huang, 
+X. Sun, L. F. Nazar, Nat. Energy 2017, 2, 17119.
+[34]	 M. Wan, S. Kang, L. Wang, H.-W. Lee, G. W. Zheng, Y. Cui, Y. Sun, 
+Nat. Commun. 2020, 11, 829.
+[35]	 Y.  Liu, D.  Lin, Y.  Li, G.  Chen, A.  Pei, O.  Nix, Y.  Li, Y.  Cui, Nat. 
+Commun. 2018, 9, 3656.
+[36]	 C.  Yan, X.  Cheng, Y.  Tian, X.  Chen, X.  Zhang, W.  Li, J.  Huang, 
+Q. Zhang, Adv. Mater. 2018, 30, 1707629.
+[37]	 K. Liao, S. Wu, X. Mu, Q. Lu, M. Han, P. He, Z. Shao, H. Zhou, Adv. 
+Mater. 2018, 30, 1705711.
+[38]	 F. Li, Y.-H. Tan, Y.-C. Yin, T.-W. Zhang, L.-L. Lu, Y.-H. Song, T. Tian, 
+B. Shen, Z.-X. Zhu, H.-B. Yao, Chem. Sci. 2019, 10, 9735.
+[39]	 L. Ma, M. S. Kim, L. A. Archer, Chem. Mater. 2017, 29, 4181.
+[40]	 H. Zhang, G. G. Eshetu, X. Judez, C. Li, L. M. Rodriguez-Martínez, 
+M. Armand, Angew. Chem., Int. Ed. 2018, 57, 15002.
+[41]	 O. Tiurin, N. Solomatin, M. Auinat, Y. Ein-Eli, J. Power Sources 2020, 
+448, 227373.
+[42]	 L.  Suo, W.  Xue, M.  Gobet, S. G.  Greenbaum, C.  Wang, Y.  Chen, 
+W. Yang, Y. Li, J. Li, Proc. Natl. Acad. Sci. USA 2018, 115, 1156.
+[43]	 C. Xiong, Z. Wang, X. Peng, Y. Guo, S. Xu, T. Zhao, J. Mater. Chem. 
+A 2020, 8, 14114.
+[44]	 J.  Holoubek, M.  Yu, S.  Yu, M.  Li, Z.  Wu, D.  Xia, P.  Bhaladhare, 
+M. S. Gonzalez, T. A. Pascal, P. Liu, Z. Chen, ACS Energy Lett. 2020, 
+5, 1438.
+[45]	 L.  Wang, L.  Zhang, Q.  Wang, W.  Li, B.  Wu, W.  Jia, Y.  Wang, J.  Li, 
+H. Li, Energy Storage Mater. 2018, 10, 16.
+[46]	 W. Chang, J. H. Park, D. A. Steingart, Nano Lett. 2018, 18, 7066.
+[47]	 S. Xia, X. Zhang, C. Liang, Y. Yu, W. Liu, Energy Storage Mater. 2020, 
+24, 329.
+[48]	 G.  He, Q.  Li, Y.  Shen, Y.  Ding, Angew. Chem., Int. Ed. 2019, 58, 
+18466.
+[49]	 Q. Pang, X. Liang, I. R. Kochetkov, P. Hartmann, L. F. Nazar, Angew. 
+Chem., Int. Ed. 2018, 57, 9795.
+[50]	 R. Guo, B. M. Gallant, Chem. Mater. 2020, 32, 5525.
+[51]	 Z. D. Hood, H. Wang, A. Samuthira Pandian, J. K. Keum, C. Liang, 
+J. Am. Chem. Soc. 2016, 138, 1768.
+[52]	 S. Qi, J. He, J. Liu, H. Wang, M. Wu, F. Li, D. Wu, X. Li, J. Ma, Adv. 
+Funct. Mater 2021, 31, 2009013.
+[53]	 G. Wang, X. Xiong, D. Xie, X. Fu, X. Ma, Y. Li, Y. Liu, Z. Lin, C. Yang, 
+M. Liu, Energy Storage Mater. 2019, 23, 701.
+[54]	 P.  Janssen, J.  Kasnatscheew, B.  Streipert, C.  Wendt, P.  Murmann, 
+M.  Ponomarenko, O.  Stubbmann-Kazakova, G.-V.  Röschenthaler, 
+M. Winter, I. Cekic-Laskovic, J. Electrochem. Soc. 2018, 165, A3525.
+[55]	 R. D. Deshpande, J. Li, Y.-T. Cheng, M. W. Verbrugge, J. Electrochem. 
+Soc. 2011, 158, A845.
+[56]	 H. Xie, H. Zhao, J. Wang, P. Chu, Z. Yang, C. Han, Y. Zhang, J. Power 
+Sources 2020, 472, 228634.
+[57]	 A. V. Churikov, K. I. Pridatko, A. V. Ivanishchev, I. A. Ivanishcheva, 
+I. M.  Gamayunova, K. V.  Zapsis, V. O.  Sycheva, Ehlektrokhimiya 
+2008, 44, 594.
+[58]	 F. Shi, P. N. Ross, H. Zhao, G. Liu, G. A. Somorjai, K. Komvopoulos, 
+J. Am. Chem. Soc. 2015, 137, 3181.
+[59]	 Y. Li, M. Liu, X. Feng, Y. Li, F. Wu, Y. Bai, C. Wu, ACS Energy Lett. 
+2021, 6, 3307.
+[60]	 P. M. Agrawal, B. M. Rice, D. L. Thompson, Surf. Sci. 2002, 515, 
+21.
+[61]	 M. I. Baskes, Phys. Rev. Lett. 1999, 83, 2592.
+[62]	 A. Avinc, V. I. Dimitrov, Comput. Mater. Sci. 1999, 13, 211.
+[63]	 B. Ni, S. B. Sinnott, P. T. Mikulski, J. A. Harrison, Phys. Rev. Lett. 
+2002, 88, 205505.
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+© 2022 Wiley-VCH GmbH
+2200181  (11 of 11)
+www.advmat.de
+www.advancedsciencenews.com
+Adv. Mater. 2022, 34, 2200181
+[64]	 M. Grujicic, G. Cao, B. Gersten, Mater. Sci. Eng., B 2004, 107, 204.
+[65]	 S. J.  Stuart, A. B.  Tutein, J. A.  Harrison, J. Chem. Phys 2000, 112, 
+6472.
+[66]	 L. Jelver, P. M. Larsen, D. Stradi, K. Stokbro, K. W. Jacobsen, Phys. 
+Rev. B 2017, 96, 085306.
+[67]	 a) H.  Okamoto, Bull. Alloy Phase Diagrams 1990, 11, 576; 
+b) H. Okamoto, J. Phase Equilib. Diffus. 2016, 37, 350.
+[68]	 G. Homann, L. Stolz, M. Winter, J. Kasnatscheew, iScience 2020, 23, 
+101225.
+[69]	 G.  Homann, L.  Stolz, J.  Nair, I. C.  Laskovic, M.  Winter, 
+J. Kasnatscheew, Sci. Rep. 2020, 10, 4390.
+[70]	 C.  Cui, R.  Zhang, C.  Fu, B.  Xie, C.  Du, J.  Wang, Y.  Gao, G.  Yin, 
+P. Zuo, ACS Appl. Mater. Interfaces 2021, 13, 28252.
+[71]	 X.-B.  Cheng, C.  Yan, X.  Chen, C.  Guan, J.-Q.  Huang, H.-J.  Peng, 
+R. Zhang, S.-T. Yang, Q. Zhang, Chem 2017, 2, 258.
+[72]	 S.  Jiao, X.  Ren, R.  Cao, M. H.  Engelhard, Y.  Liu, D.  Hu, D.  Mei, 
+J.  Zheng, W.  Zhao, Q.  Li, N.  Liu, B. D.  Adams, C.  Ma, J.  Liu, 
+J.-G. Zhang, W. Xu, Nat. Energy 2018, 3, 739.
+[73]	 J.  Alvarado, M. A.  Schroeder, T. P.  Pollard, X.  Wang, J. Z.  Lee, 
+M. Zhang, T. Wynn, M. Ding, O. Borodin, Y. S. Meng, K. Xu, Energy 
+Environ. Sci. 2019, 12, 780.
+[74]	 W.-K.  Shin, A. G.  Kannan, D.-W.  Kim, ACS Appl. Mater. Interfaces 
+2015, 7, 23700.
+[75]	 L.-N.  Wu, J.  Peng, Y.-K.  Sun, F.-M.  Han, Y.-F.  Wen, C.-G.  Shi, 
+J.-J.  Fan, L.  Huang, J.-T.  Li, S.-G.  Sun, ACS Appl. Mater. Interfaces 
+2019, 11, 18504.
+[76]	 Z.  Shen, M.  Cao, Z.  Zhang, J.  Pu, C.  Zhong, J.  Li, H.  Ma, F.  Li, 
+J. Zhu, F. Pan, H. Zhang, Adv. Funct. Mater. 2020, 30, 1906661.
+[77]	 S. Zhang, Q. Zhou, Z. Shen, X. Jin, Y. Zhang, M. Shi, J. Zhou, J. Liu, 
+Z. Lu, Y. Zhou, H. Zhang, Adv. Funct. Mater. 2021, 31, 2101922.
+ 15214095, 2022, 17, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202200181 by Tsinghua University Library, Wiley Online Library on [15/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

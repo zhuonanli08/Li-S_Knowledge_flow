@@ -1,0 +1,25 @@
+{
+  "source_sha256": "47d086cf2801f7680f348450c203511e723f0478740b97f470f7614c1d5a512f",
+  "raw_records": 39775,
+  "included": 12784,
+  "groups": {
+    "固态锂硫": {
+      "all": 572,
+      "recent": 289,
+      "strict": 348,
+      "strict_recent": 197
+    },
+    "固态锂金属": {
+      "all": 3829,
+      "recent": 2440,
+      "strict": 2496,
+      "strict_recent": 1708
+    },
+    "液态锂硫": {
+      "all": 8383,
+      "recent": 3109,
+      "strict": 8361,
+      "strict_recent": 3101
+    }
+  }
+}

@@ -1,0 +1,631 @@
+=== 第 1 页 ===
+as a cathode by themselves. Therefore, graphene has been exten-
+sively studied as the host material for inﬁltrating sulfur to improve
+the electronic pathways of various conductive carbon host materi-
+als such as porous carbon, carbon nanotubes, and ﬁbers [10,11].
+However, the utilization of sulfur cathode in all-solid-state Li-S
+batteries (ASSLSB) is hindered by slow redox kinetics of S/Li2S con-
+version, signiﬁcant volume expansion of sulfur, and very poor ini-
+tial
+coulombic
+efﬁciency
+(ICE)
+caused
+by
+the
+formation
+of
+irreversible by-products upon cycling [12–14].
+Journal of Energy Chemistry 103 (2025) 535–542 
+Contents lists available at ScienceDirect 
+Journal of Energy Chemistry 
+journal homepage: www.elsevier.com/locate/jechem 
+Perspective 
+Redox mediators for lithium sulﬁde cathodes in all-solid-state Li-S 
+batteries: Recent advantages and future perspective 
+S. Jayasubramaniyan a , 
+a Research Institute for Green Energy Convergence Technology, Gyeongsang National University, Jinju 52828, Republic of Korea 
+Seokjin Kim b , 
+b Department of Materials Engineering and Convergence Technology, Gyeongsang National University, Jinju 52828, Republic of Korea 
+Jaekyung Sung b,⇑ 
+a r t i c l e i n f o
+Article history: 
+Received 1 November 2024 
+Revised 1 December 2024 
+Accepted 2 December 2024 
+Available online 18 December 2024 
+Keywords: 
+All-solid-state Li-S batteries 
+Li2S cathode 
+Oxidation barrier 
+Conversion reaction 
+Redox mediator 
+a b s t r a c t 
+All-solid-state Li-S batteries (ASSLSBs) are more attractive owing to their achievable superior energy den-
+sity at a reasonable cost and the solid electrolyte (SE) utilization mitigating the widely recognized poly-
+sulﬁde shuttle problem. While the volume expansion ( 80%) that occurs during the initial transformation 
+of sulfur to lithium sulﬁde induces mechanical stress, this can be avoided by using Li2S as a cathode, 
+which also permits the anode-free cell design. However, the high oxidation energy barrier of Li2S cathode 
+during the charging step limits its application in commercial devices. Redox mediators have been exten-
+sively used to reduce the oxidation energy barrier of Li2S to the sulfur conversation and boost the rever-
+sible kinetics of the conversion reaction. In this review, we have summarized the available redox 
+mediators for Li2S cathode in ASSLSBs and its working mechanism. Moreover, we have proposed novel 
+strategies and guidelines for designing effective redox mediators to boost the reversible conversion 
+reaction.
+© 2024 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published 
+by Elsevier B.V. and Science Press. All rights are reserved, including those for text and data mining, AI 
+training, and similar technologies. 
+1. Introduction 
+The progression in electrical mobility has prompted the explo-
+ration of innovative energy storage systems that supersede the 
+capabilities of commercial lithium-ion batteries (LIBs) [1–3]. The 
+Li-S battery has been considered a suitable candidate owing to 
+its cost-effectiveness, and the high theoretical capacity of the sul-
+fur cathode (1672 mAh g 
+1 ) provides the possibility of achieving 
+a gravimetric energy density of 2600 Wh kg 
+1 , which is 5-fold 
+higher than the traditional LIBs [4,5]. However, the adaptation Li-
+S battery, which contains the ﬂowable organic liquid electrolyte 
+(LE), leads to serious problems such as polysulﬁde shutting, den-
+drite 
+formation, 
+and 
+higher 
+electrolyte/sulfur 
+ratios 
+( 15:1 lL mg 1 ), which leads to poor cyclability and reduces the 
+gravimetric energy density of Li-S battery [6,7]. Replacing LE with 
+non-ﬂowable and non-ﬂammable solid electrolytes could be a 
+promising way to overcome the challenges of polysulﬁde shuttling 
+and thermal runway concerns related to organic electrolyte-based 
+batteries [8,9]. However, the poor electronic (5 
+10 
+30 S cm 1 ) 
+and ionic conductivity of sulfur cathodes hinder its applicability
+⇑ Corresponding author. 
+E-mail address: jksung@gnu.ac.kr (J. Sung). 
+https://doi.org/10.1016/j.jechem.2024.12.007 
+2095-4956/© 2024 Science Press and Dalian Institute of Chemical Physics, Chinese Academy of Sciences. Published by Elsevier B.V. and Science Press. All rights are reserved, 
+including those for text and data mining, AI training, and similar technologies. 
+In this context, a fully lithiated Li2S cathode is considered to be 
+a viable candidate for ASSLSBs owing to its high speciﬁc capacity 
+and that it can be easily paired with Li metal-free anodes 
+(Fig. 1a–c), which improves the energy density and minimizes 
+the challenges associated with Li metal anode [15–17]. Moreover, 
+because of the stability of Li2S in dry air, a Li2S-based battery can 
+be produced in a dry environment without requiring separate lithi-
+ation of the negative electrode before cell assembly. However, the 
+Li2S cathode exhibited higher charging overpotential (>3 V) for its 
+activation during the ﬁrst charging, which causes solid electrolyte 
+(SE) decomposition, low energy efﬁciency, and cycle performance. 
+Also, it exhibits poor electrical conductivity, low initial columbic 
+efﬁciency (ICE), and signiﬁcant volume changes during cycling 
+(Fig. 1d–g). To surmount the challenges of Li2S cathode at higher
+
+=== 第 2 页 ===
+charging overpotential, researchers have been investigating the 
+possible application of metal catalysts and redox mediators 
+[18,19]. Redox mediators (RMs) play a vital role in many electro-
+chemical energy storage systems to achieve optimal performance 
+as they undergo reversible oxidation and reduction during electro-
+chemical cycling. RMs in LIBs exhibit redox behavior at a modestly 
+higher potential than the fully charged voltage of the cathode to 
+release extra energy and act as overcharge protection material 
+for the organic electrolyte in LIBs, enhancing battery safety 
+[20,21]. In addition, RMs have been extensively used in next-
+generation batteries like Li-O2 and Li-S batteries for improving 
+the charge transport at the electrode-electrolyte interface and acti-
+vating the redox kinetics of the insulating discharge products like 
+Li2O/Li2O2 and S/Li2S2 [18,21–23]. 
+S. Jayasubramaniyan, S. Kim and J. Sung
+Journal of Energy Chemistry 103 (2025) 535–542
+Fig. 1. Schematic representation of (a–c) advantages, (d–g) challenges of Li2S cathode, and (h, i) importance RM in ASSLSBs. 
+Moreover,therecentworksrelatedtotheutilizationofRMsuchas 
+imide-based copolymers, cobaltocene, and quinone-based RM have 
+proved that the usage of RM in organic electrolyte-based Li-S 
+batteries has signiﬁcantly improved the redox kinetics of the S/Li2S 
+conversion reaction [24–27]. More interestingly, Zhang et al. 
+reported a mixed redox mediator (mixed-RM) approach to signiﬁ-
+cantly improve sulfur redox kinetics in functioning Li-S batteries. 
+One mediator principally aids the liquid-solid reduction of polysul-
+ﬁdes (LiPSs) to Li2S during discharge, while the second mediator 
+enhances the solid-liquid conversion of Li2S to LiPSs and the subse-
+quent liquid-solid transformation of LiPSs to S8 during charge. The 
+2.5 Ah Li-S pouch cells utilizingthe mixed-RM demonstrate an initial 
+energy density of 354 Wh kg 
+1 and display stability over 20 cycles 
+[28]. Moreover, the utilization of RM in ASSLSBs could facilitate the 
+full utilization of Li2S cathode and enable the complete oxidation of 
+Li2S cathode. In contrast, without RM, the electrode particles near 
+the currentcollectoronly get activated foroxidation and the remains 
+are inactive which degrades the performance of ASSLSBs (Fig. 1h, i). 
+However, only a few reports are available on the utilization of RMs 
+in ASSLSB which implies a lack of information among the researchers 
+about the working principle of RMs, characteristics of RMs, and their 
+utilization.
+536
+
+=== 第 3 页 ===
+S. Jayasubramaniyan, S. Kim and J. Sung
+Journal of Energy Chemistry 103 (2025) 535–542
+In this review, we aimed to provide a piece of comprehensive 
+information about the RM working mechanism, the required char-
+acteristics of RMs, and its application in ASSLSBs. Also, we provide 
+a strategy for designing high-performance RMs to enhance the 
+redox kinetics of Li2S cathode including the proper selection of 
+RM, particle size of Li2S cathode, utilization methods of RM, and 
+active reaction sites of RM for achieving high electrochemical per-
+formance. Also, we highlighted the in-depth analysis of the work-
+ing mechanism of RM that needs to be performed to design 
+efﬁcient RMs. We believe this perspective will provide more 
+insightful information and design strategies for the researchers to 
+effectively create the RM for Li2S cathode for ASSLSBs. 
+2. Working principle of RMs 
+RMs in ASSLSBs serve as the carriers of the electrons that 
+enhance the transmission of electrons between the active material 
+and conducting agent, leading to enhanced battery performance 
+[29,30]. The working mechanism RM follows two steps during 
+the mediation process which are the chemical and electro-
+chemical process (Fig. 2a, b). During charging, the chemical reac-
+tion between RM and Li2S takes place, the oxidized RM (RMox) gets 
+reduced to RMred, and chemically oxidizes Li2S to lithium polysul-
+ﬁdes (LiPSs). Then, the reduced form of RMred returns to its initial 
+stage by releasing electrons to the current collector by undergoing 
+electrochemical reactions. Overall, the RMs facilitate the electron 
+transfer between the current collector and isolated Li2S particles, 
+enhancing the redox kinetics of the Li2S cathode. The important 
+requirement of the material to act as the RM is that the redox 
+potential of the RM should be higher than that of Li2S. RM is being 
+utilized in two distinct approaches for the Li2S cathode. The com-
+posite strategy involves the physical mixing of the redox mediator 
+(RM) with Li2S cathode particles resulting in a composite structure. 
+This approach is constrained by the limited contact area between 
+the RM and Li2S particles, impeding electronic transportation 
+within the composite and diminishing the Li2S conversion efﬁ-
+ciency. Conversely, the core-shell approach entails uniformly cov-
+ering the Li2S cathode with the RM. This approach improves the 
+effective contact area between Li2S and RM, hence considerably 
+enhancing the reversible conversion efﬁciency of the Li2S cathode 
+(Fig. 2c). 
+Fig. 2. Schematic representation of (a) all-solid-state lithium-sulfur battery with Li2S cathode and redox mediators (RMs). (b) The working mechanism of RM during the Li2S 
+oxidation. Different strategies of the utilization of RM (c) composite strategy and (d) core-shell strategy in ASSLSBs. 
+537
+3. Redox mediator for Li2S cathode in ASSLSBs 
+RMs have been utilized for Li2S cathode in ASSBs to improve the 
+sluggish reaction kinetics of Li2S oxidation during the initial
+
+=== 第 4 页 ===
+charge. For instance, Cui et al. have investigated the efﬁcacy of 
+quinone-based RM to enhance the redox chemistry of Li2S cathode 
+in ASSBS (Fig. 3). They observed that the soluble type 1,5-bis (2-(2-
+(2-methoxy 
+ethoxy)ethoxy)ethoxy) 
+antra-9-10-quinone 
+(AQT) 
+showed high redox potential and reversibility compared to AQC 
+and LiI RMs (Fig. 3a–c) in solid polymer electrolyte (SPE). Also, 
+operando XAS observation of sulfur species at the sulfur K-edge 
+indicated that the Li2S cathode without any RM showed the 
+restricted usage of sulfur during the redox conversion, exhibited 
+a high energy barrier for the solid-to-solid conversion, and showed 
+a high charging plateau of approximately 4 V. In contrast, in the 
+Li2S cathode with AQT RM (Li2S@AQT), the addition of AQT resulted 
+in the formation of polysulﬁdes during the ﬁrst charging process 
+and a conversion mechanism including solid-polysulﬁde-solid 
+transitions. Consequently, during the ﬁrst oxidation of Li2S, the Li2-
+S@AQT cell exhibited the lowest energy barrier with an average 
+oxidation potential of 2.4 V (Fig. 3d–f). As a result, Li2S@AQT cell 
+showed a discharge capacity of 1133 mAh g 
+1 and a rate of 0.1C 
+which is nearly double the capacity of bare Li2S (579 mAh g 
+1 ). 
+In addition, using AQT resulted in improved cycling stability, 
+reduced polarization, and higher Coulombic efﬁciency, with an 
+average of 98.9% after 150 cycles [31]. 
+S. Jayasubramaniyan, S. Kim and J. Sung
+Journal of Energy Chemistry 103 (2025) 535–542
+Recently, Nazar et al. designed a Li2S/LiVS2 core-shell cathode, 
+in which the LiVS2 (LVS) shell acts as the mediator for the 
+charge-carrier and electron transport layer during Li2S oxidation. 
+During the initial charging process, the outer shell of LiVS2 experi-
+ences delithaition and forms VS2 at the interface. Li2S is chemically 
+oxidized by this freshly generated VS2 at the core-shell interface, 
+producing elemental sulfur and regenerating LiVS2. At the same 
+time, the solid-state oxidation of Li2S generates the LixVS2 which 
+acts as the dual mixed conductor to support the solid-state conver-
+sion process (Fig. 4a). As a result, at a current density of 
+0.15 mA cm 
+2 , the LVS cathode has an initial capacity of 
+1.25 mAh cm 
+2 with a low polarization of 0.4 V. Moreover, at a 
+current density of 1 mA cm 
+2 , the LVS cathode achieves outstand-
+ing long-term cycling performance (Fig. 4b) with a high initial areal 
+capacity of 0.95 mAh cm 
+2 [32]. Similarly, Yang et al. used In2S3 as 
+the redox mediator for improving the redox kinetics of the Li2S 
+cathode. Initially, In2S3 was mixed with Li2S cathode through a ball 
+milling process to form LixIn2S3 on the surface of the Li2S, which 
+can serve as the mobility mediator for both charge carriers and 
+electrons. As a result, the Li2S-LixIn2S3 cathode delivered a high 
+areal capacity of 4.08 mAh cm 
+2 and a capacity retention of 
+74.01% over 50 cycles under a high loading of 6.6 mg cm 
+2 Li2S 
+at a current density of 0.192 mA cm 
+2 . Also, the GITT analysis 
+was utilized to investigate the Li-ion diffusion coefﬁcient (DLi+) in 
+Li2S cathode with and without In2S3. As expected, Li2S-0.1 In 
+showed higher DLi+ (4.3 
+10 
+10 cm2 S 
+1 ) than the Li2S cathode 
+(DLi+, 3.6 
+10 
+11 cm2 S 
+1 ), which further validates that the pres-
+ence of RM helps for the Li-ion transport [33].
+Fig. 3. Characterization of RMs for ASSLSBs. (a–c) Redox potentials of (a) AQT, (b) AQC, and (c) LiI in solid polymer electrolytes (SPEs). (d) GCD curves of Li2S cathodes without/ 
+with RMs. (e) Enlarge view of charge curves of (d) to display the Li2S activation barrier. (f) Discharge capacity and energy efﬁciency of Li2S cathodes for the ﬁrst activation 
+cycle at various RMs. Reprinted with permission from ref. [31]. Copyright 2021, American Chemical Society. 
+538
+Guo et al. used lithium phenyl selenide (PhSeLi) as a mediator to 
+effectively activate the oxidation process of the Li2S cathode during 
+the initial charging process. The composite cathode was fabricated 
+by mixing the Li2S and PhSeLi at a molar ratio of 4:1 (LSSe41). Cyc-
+lic voltammetric analysis was performed to validate the mediation 
+process of PhSeLi (Fig. 4c). The existence of oxidation peaks of pris-
+tine PhSeLi and Li2S at 2.30 and 2.70 V vs. Li/Li+ , respectively, in the 
+(LSSe41) conﬁrms the participation of PhSeLi in the Li2S oxidation 
+process. Thus, the PhSeLi was initially oxidized during the initial 
+stage of the charging process and facilitated the de-lithiation pro-
+cess of bulk Li2S. Further, density functional theory (DFT) calcula-
+tion was performed to verify the oxidation mediation process of 
+PhSeLi (Fig. 4d). The calculated Li dissociation reaction free energy 
+for the Li2S-PhSe composite and pure Li2S cathode are 4.81 and 
+7.39 eV, respectively. The observed lower free energy indicates a 
+loss of electron density in the S atom of Li2S-Phse. In addition, 
+the electrostatic potential distribution (ESP) counter-mapping of 
+the Li2S-PhSe composite exhibits more dispersed electron density
+
+=== 第 5 页 ===
+around the S atom, while the more concentrated electron density is 
+observed near the Se atom, which indicates that PhSe effectively 
+withdraws electrons from the S atom. Thus, the Li–S bond in the 
+Li2S-PhSe composite is very weak and undergoes easy dissociation 
+which facilitates the rapid oxidation of the Li2S cathode [34]. 
+S. Jayasubramaniyan, S. Kim and J. Sung
+Journal of Energy Chemistry 103 (2025) 535–542
+Fig. 4. (a) A graphical representation of the Li2S oxidation process mediated through VS2. (b) GCD curves of composite cathode without/with LVS and cycling stability 
+Reprinted with permission from ref. [32]. Copyright 2023, Royal Society of Chemistry. (c) Redox curves of the composite cathode in ASSLBs with blank, Li2S, PhSeLi, and 
+LSSe41 cathodes. (d) Theoretical calculations for the interactions between Li2S and PhSe . (d-a) The LiS bond lengths in Li2S (I) and Li2S-PhSe complexes (II); (d-b) reaction-
+free energies and optimized structures of the dissociation of Li ions in the Li2S monomers (I) and the Li2S-PhSe complexes (II). Er is the reaction-free energy for Li dissociation. 
+Reprinted with permission from ref. [34]. Copyright 2024, Wiley-VCH.
+4. Summary and future perspective 
+In this review, we summarized the applications of RMs for 
+improving the redox kinetics of Li2S cathode in ASSLSBs. The avail-
+able reports indicated that the utilization of RMs on the cathode 
+side effectively promotes the Li2S oxidation process by suppressing 
+the activation energy barrier of the Li2S oxidation during the initial 
+charging process and improves the reversibility of the redox reac-
+tion. However, the efﬁcacy of RMs in ASLSBs is not well addressed 
+for commercial application owing to the limited information avail-
+able about the practical application. Therefore, we proposed a few 
+important factors that need to be paid more attention to for 
+implementing the RMs widely in the practical consideration 
+(Fig. 5).
+539
+4.1. Design strategies of RMs for Li2S cathode for ASSLSBs 
+4.1.1. Redox mediator with suitable redox potential 
+The selection of RMs is crucial in achieving desirable perfor-
+mance in the ASSBs. Li2S electrodes encounter difﬁculties in activa-
+tion due to their inadequate electronic conductivity in the 
+composite cathode. The oxidation reaction is restricted to speciﬁc 
+regions of the active particles that are in direct contact with elec-
+tron and ion transfer channels. Consequently, this mechanism 
+requires a substantial overpotential, which leads to a cell capacity 
+signiﬁcantly lower than the theoretical value. The process of 
+selecting the proper RMs can be difﬁcult since many competing 
+demands must be met. The key requirements and justiﬁcation for 
+ﬁnding the RMs as follows. The equilibrium potential of RM is 
+important from a thermodynamic point of view when choosing 
+the proper RMs. Speciﬁcally, the thermodynamic oxidation poten-
+tial of RM should be higher than that of Li2S to ensure that it can 
+chemically oxidize the Li2S cathode. For effective oxidation of 
+Li2S, the redox potential of the RM is to be as close to 2.8 V vs.
+
+=== 第 6 页 ===
+Li/Li+ . Moreover, the RM must spontaneously involve the chemical 
+reaction with active material during charge-discharge. Further, the 
+ideal RM should possess high electrochemical reversibility and 
+minimized reactivity with other battery components. Moreover, 
+RMs should exhibit exceptional chemical stability against corro-
+sion caused by very reactive sulfur intermediates. Currently, the 
+selection of RMs in ASSLSBs is limited. The redox-active organic 
+and organometallic compounds, whose redox potential can be 
+modiﬁed via functional groups or structural design, need further 
+attention 
+as 
+prospective 
+RMs 
+for 
+designing 
+highly 
+efﬁcient 
+ASSLSBs. 
+S. Jayasubramaniyan, S. Kim and J. Sung
+Journal of Energy Chemistry 103 (2025) 535–542
+Fig. 5. Schematic representation of important strategies for designing highly efﬁcient redox mediators for Li2S cathode in ASSLSBs.
+Further, the RMs engineered for sulfur cathode processes 
+beyond Li2S oxidation, including the regulation of S8 deposition 
+and the conversion of intermediate polysulﬁdes, can substantially 
+enhance the performance of ASSLSBs. These mediators accelerate 
+reaction kinetics, stabilize intermediates, and ensure homogeneous 
+deposition and utilization of sulfur species. Designing multifunc-
+tional or hybrid redox mediators that target several stages of the 
+sulfur redox pathway presents a viable strategy to tackle the chal-
+lenges 
+in 
+ASSLSBs, 
+facilitating 
+the 
+advancement 
+of 
+high-
+performance, durable solid-state batteries. 
+540
+4.1.2. Stability of RMs 
+The chemical and electrochemical stability of RM in ASSLSBs is 
+critical for ensuring efﬁcient charge transfer, minimizing deteriora-
+tion, preserving compatibility with solid electrolytes, and sustain-
+ing long-term battery performance, safety, and reliability. The 
+electrochemical stability windows of solid electrolytes are con-
+strained. To prevent electrolyte deterioration or unfavorable side 
+effects, the redox potential of RMs must be within the range of 
+solid electrolyte. For instance, the RM needs to be chosen to func-
+tion below the oxidative potential of the sulﬁde solid electrolyte 
+because sulﬁde-based solid electrolytes are more susceptible to 
+oxidative degradation. Moreover, the RM must always be com-
+pletely regenerated following each charging or discharging cycle 
+and remain non-consumable. High stability should be exhibited 
+by their redox reactions, preventing any side reactions apart from
+
+=== 第 7 页 ===
+the designated chemical and electrochemical processes for achiev-
+ing stable and enhanced performance. 
+S. Jayasubramaniyan, S. Kim and J. Sung
+Journal of Energy Chemistry 103 (2025) 535–542
+4.1.3. Particle size 
+The particle size of Li2S cathode and RM plays a vital role in 
+determining the reversibility of the electrochemical process. Since 
+the electrical conductivity and Li-diffusion kinetics of the Li2S par-
+ticle is less, the large particle size could lead to the incomplete 
+extraction of Li from the Li2S particle during the initial charge pro-
+cess which reduces the complete utilization of the Li2S particle in 
+the electrochemical process. Moreover, the interaction between 
+the redox mediator and the electrode materials can be inﬂuenced 
+by the size and dispersion of the electrode particles. The electro-
+chemical performance of the mediator is improved when the par-
+ticles have a uniform distribution because it makes the mediator 
+more accessible to the active material. Therefore, ﬁnding the opti-
+mal size of Li2S is essential to completely utilize the capacity of the 
+Li2S cathode during the cycling process. 
+4.1.4. Active reaction sites 
+The reactive surface area of RM with the Li2S cathode material 
+impacts the Li2S oxidation performance during the initial charge 
+process. In general, the materials with a high surface area are more 
+suitable for improving the redox kinetics and electron transport 
+during the electrochemical reaction between Li2S and RM, activat-
+ing the redox process, and increasing the overall utilization of Li2S. 
+Also, a redox mediator with a greater surface area guarantees 
+improved contact with the Li2S particles. As Li2S has a low conduc-
+tivity, ensuring that a greater portion of its surface is in contact 
+with a redox mediator increases the amount of Li2S that can partic-
+ipate in the electrochemical reactions. This results in improved 
+overall energy density and a higher practical capacity. Moreover, 
+the increased surface area guarantees more efﬁcient redox reac-
+tions, which mitigates polarization within the Li2S cathode during 
+cycling. This reduces the overpotential and enhances energy efﬁ-
+ciency and density. Therefore, the RM with a high surface could 
+be designed to achieve high performance in Li2S cathode contain-
+ing ASSLSBs. 
+4.1.5. Utilization method of RMs in ASSLSBs 
+The utilization strategy of RMs plays a vital role in the electro-
+chemical reversibility of Li2S oxidation. The random distribution of 
+RM in the composite strategy of the Li2S cathode limits the avail-
+ability of the reaction sites for the electrochemical oxidation of 
+Li2S particles. Also, the insulating properties Li2S conﬁne their elec-
+troreduction and electrooxidation reactions to the active particle 
+areas that are intimately linked to electron and ion transfer chan-
+nels. There are particular difﬁculties in developing a sustained 
+cycle reaction bypass in ASSSBs when the RM and the electrode 
+active material are both solid. Innovative strategies are needed to 
+guarantee effective electron and ion movement while preserving 
+chemical compatibility and reactivity due to the immobility of 
+solid components. In solid-state systems, the redox mediator and 
+active material must interchange both electrons and ions. MIEC 
+materials offer dual conductivity to facilitate the RM redox mech-
+anism. In addition, the core-shell design strategy involves uni-
+formly coating the Li2S cathode with the RM which increases the 
+effective contact area between Li2S and RM, hence signiﬁcantly 
+improving the ionic/electronic transport and reversible conversion 
+efﬁciency of the Li2S cathode. Therefore, the adaptation core-shell 
+strategy could be a viable technique for improving the reversible 
+kinetics of the Li2S cathode. Although solid-state diffusion is intrin-
+sically slower than liquid-phase diffusion, it can be accelerated by 
+minimizing diffusion lengths and optimizing the intrinsic conduc-
+tivity of RMs. Overall, the above-mentioned design strategies 
+speciﬁcally address the issues associated with the immobility of 
+solid components, hence assuring efﬁcient and constant redox 
+cycling in ASSLSBs. 
+541
+4.1.6. Electrode composition 
+The composition of the electrode materials signiﬁcantly inﬂu-
+ences the electronic conductivity of the electrode. In sulfur cath-
+odes with low electronic conductivity, a high percentage of 
+conducting carbon (20%–40%) has been utilized to improve the 
+electronic conductivity of the electrode. However, the usage of 
+excess carbon triggers the side reaction and reduces the energy 
+density of the battery. On the other hand, the Li2S cathode exhibits 
+better electronic conductivity than the sulfur cathode. Thus, using 
+a similar electrode composition with a high percent of conductive 
+carbon is not ideal for Li2S cathode and the electrode composition 
+needs to be optimized to improve the energy density of the battery. 
+Also, when designing the RM, we need to consider and design it 
+with high electronic conductivity to mitigate the challenges of con-
+ducting carbon additives in ASSBs. 
+4.2. In-depth analysis of reaction mechanism RMs in ASSLSBs 
+RMs are improving the revisable redox kinetics of the Li2S cath-
+ode by undergoing an additional reaction pathway. This cyclic pro-
+cess enables RMs to behave as an electron carrier, which improves 
+electron transmission between active materials and conductive 
+substrates. However, the reaction mechanism of RM and its inﬂu-
+ence on the Li2S oxidation potential have not proved well. More-
+over, understanding the working mechanisms of RMs under 
+battery operating conditions is crucial for improving the long-
+term stability and efﬁciency of RMs in Li2S-based ASSLSBs. Using 
+modern in-situ characterization technologies for in-depth studies 
+can provide vital insights into the working mechanism of RMs 
+and their challenges. X-ray photoelectron spectroscopy (XPS), 
+time-of-ﬂight secondary ion mass spectrometry (TOF-SIMS), and 
+Raman spectroscopy have all proven useful for detecting degrada-
+tion mechanisms. Also, innovative methods such as cryogenic elec-
+tron microscopy (Cryo-EM), are especially signiﬁcant because they 
+reveal detailed interfacial processes while also minimizing electron 
+irradiation damage, maintaining the structural integrity of delicate 
+samples. In addition, the chemistry of the RM and the particular 
+impact of the RM on the Li2S oxidation are further conﬁrmed by 
+cryo-electron energy loss spectroscopy (cryo-EELS) mapping. Fur-
+thermore, in situ and operando investigations using modern tech-
+nologies such as scanning transmission electron microscopy 
+(STEM) combined with electron energy loss spectroscopy (EELS) 
+are critical. These approaches provide real-time insights into the 
+dynamic mechanisms that drive charge and discharge, resulting 
+in a comprehensive understanding of the working mechanism of 
+the RM. 
+Although the Li2S cathode addresses the volume expansion 
+issues of the sulfur cathode, the volume shrinkage of Li2S particles 
+during the initial charge can lead to contact loss between particles 
+in the composite cathode which could deteriorate the electro-
+chemical performance of the battery. Therefore, in-situ stress mon-
+itoring studies must be carried out to investigate the volume 
+variation induced problems. Also, more research attention needs 
+to be paid to designing a stress-free cell design for achieving 
+long-term performance. 
+4.3. Application of theoretical and simulation studies 
+Several factors, including stability, redox potentials, and cat-
+alytic activity of the RM are difﬁcult to evaluate because of the dif-
+ﬁcult experimental circumstances. Recently, density functional
+
+=== 第 8 页 ===
+theory (DFT) calculations have been extensively utilized in Li-S 
+batteries for the calculation of absorption properties of lithium 
+polysulﬁdes through adsorption energy calculation, catalytic prop-
+erties of polysulﬁde conversion material through activation energy 
+calculation, and the polysulﬁde diffusion kinetics through the Li2S 
+decomposition barrier. Using ﬁrst-principles-based high through-
+put computational screening with a narrow focus on physical fac-
+tors offers a feasible way to address the experimental issues. 
+Furthermore, it would be beneﬁcial to create more general design 
+guidelines for effective RM discovery, since this might streamline 
+and accelerate upcoming experiments. Therefore, more DFT calcu-
+lation is needed to ﬁnd the suitable RM for ASSLSBs. 
+S. Jayasubramaniyan, S. Kim and J. Sung
+Journal of Energy Chemistry 103 (2025) 535–542
+CRediT authorship contribution statement 
+S. Jayasubramaniyan: Conceptualization, Writing – original 
+draft, Writing – review & editing. Seokjin Kim: Writing – review 
+& editing. Jaekyung Sung: Writing – review & editing, Supervision, 
+Funding acquisition. 
+Declaration of competing interest 
+The authors declare that they have no known competing ﬁnan-
+cial interests or personal relationships that could have appeared 
+to inﬂuence the work reported in this paper. 
+Acknowledgments 
+This result was supported by the ‘‘Regional Innovation Strategy 
+(RIS)” through the National Research Foundation of Korea (NRF), 
+funded by the Ministry of Education (MOE) (2021RIS-003), South 
+Korea. This work was supported by the National Research Founda-
+tion of Korea (NRF) grant funded by the Korea government (MSIT) 
+(No. RS-2023-00241916), South Korea. Following are the results of 
+a study on the ‘‘Leaders in Industry-university Cooperation 3.0” 
+project, supported by the Ministry of Education and National 
+Research Foundation of Korea, South Korea. This research was sup-
+ported by the Basic Science Research Program through the National 
+Research Foundation of Korea (NRF), funded by the Ministry of 
+Education (2020R1A6A03038697), South Korea. This work was 
+supported by the National Research Foundation of Korea (NRF) 
+grant funded by the Korea government (MSIT) (IRIS RS-2024-
+00352303), South Korea. This research was supported by Learning 
+& Academic research institution for Master’s PhD students, and 
+Postdocs (LAMP) Program of the National Research Foundation of 
+Korea (NRF) grant funded by the Ministry of Education (No. RS-
+2023-00301974), South Korea. This work was supported by the 
+Technology Innovation Program (RS-2024-00432013) funded By 
+the Ministry of Trade, Industry & Energy(MOTIE, South Korea). 
+References 
+542
+[1] N. Kim, Y. Kim, J. Sung, J. Cho, Nat. Energy 8 (2023) 21–33. 
+[2] M. Ko, S. Jayasubramaniyan, S. Kim, J. Kim, D. Kim, N.S. Reddy, H. Ma, S.Y. Nam, 
+J. Sung, Carbon 219 (2024) 118808. 
+[3] S. Jayasubramaniyan, Y. Lee, J. Kim, S. Kim, D. Kim, M. Ko, N.S. Reddy, S.Y. Nam, 
+J. Sung, Energy Fuels 38 (2024) 18026–18034. 
+[4] Z.-C. Lv, P.-F. Wang, J.-C. Wang, S.-H. Tian, T.-F. Yi, J. Ind. Eng. Chem 124 (2023) 
+68–88. 
+[5] S. Kaskel, J.Q. Huang, H. Sakaebe, Batter. Supercaps 5 (2022) e202200467. 
+[6] W. Jan, A.D. Khan, F.J. Iftikhar, G. Ali, J. Energy Storage 72 (2023) 1008559. 
+[7] H. Shi, W. Sun, J. Cao, S. Han, G. Lu, Z.A. Ghazi, X. Zhu, H. Lan, W. Lv, Adv. Funct. 
+Mater. 33 (2023) 2306933. 
+[8] D. Wang, L.J. Jhang, R. Kou, M. Liao, S. Zheng, H. Jiang, P. Shi, G.X. Li, K. Meng, D. 
+Wang, Nat. Commun. 14 (2023) 1895. 
+[9] T. Jin, K. Liang, J.H. Yu, T. Wang, Y. Li, T.D. Li, S.P. Ong, J.S. Yu, Y. Yang, Nano Lett. 
+24 (2024) 6625–6633. 
+[10] X. Han, J. Cai, X. Wang, Y. Liu, H. Zhou, X. Meng, Mater.today Commun. 26 
+(2021) 101934. 
+[11] X. Jiao, A.V. Kirianova, X. Xu, O.O. Kapitanova, V.A. Krivchenko, F.S. Napolskiy, 
+V.S. Volkov, M.O. Gallyamov, Y. Liu, ACS Appl. Energy Mater. 6 (2023) 2855– 
+2862. 
+[12] J. Gu, H. Zhong, Z. Chen, J. Shi, Z. Gong, Y. Yang, Chem. Eng. J. 454 (2023) 
+139923. 
+[13] L. Du, R. Wu, Z. Wu, H. Huang, Y. Xia, Y. Gan, W. Zhang, X. Xia, X. He, J. Zhang, 
+Mater. Chem. Front. 7 (2023) 5760–5785. 
+[14] J. Yue, M. Yan, Y.X. Yin, Y.G. Guo, Adv. Funct. Mater. 28 (2018) 1707533. 
+[15] G. Gao, X. Yang, J. Bi, W. Guan, Z. Du, W. Ai, J. Mater. Chem. A 11 (2023) 26318– 
+26339. 
+[16] H. Kim, K.J. Min, S. Bang, J.Y. Hwang, J.H. Kim, C.S. Yoon, Y.K. Sun, Carbon 
+Energy 5 (2023) 308. 
+[17] H. Mollania, C. Zhang, R. Du, X. Qi, J. Li, S. Horta, M. Ibanez, C. Keller, P. 
+Chenevier, M. Oloomi-Buygi, A. Cabot, ACS Appl. Mater. Interfaces 15 (2023) 
+58462–58475. 
+[18] W. Jin, X. Zhang, M. Liu, Y. Zhao, P. Zhang, Energy Storage Mater. 67 (2024) 
+103223. 
+[19] M. Zhao, H.J. Peng, B.Q. Li, J.Q. Huang, Acc. Chem. Res. 57 (2024) 545–557. 
+[20] Z. Peng, Nat Chem 15 (2023) 1206–1208. 
+[21] E.J. Askins, M.R. Zoric, M. Li, R. Amine, K. Amine, L.A. Curtiss, K.D. Glusac, Nat. 
+Chem. 15 (2023) 1247–1254. 
+[22] J. Li, S. Ding, S. Zhang, W. Yan, Z.-F. Ma, X. Yuan, L. Mai, J. Zhang, Energy Storage 
+Mater. 43 (2021) 97–119. 
+[23] A.S. Jiangqi Zhou, Chem. Eng. J. 495 (2024) 153648. 
+[24] J. Xie, H.J. Peng, Y.W. Song, B.Q. Li, Y. Xiao, M. Zhao, H. Yuan, J.Q. Huang, Q. 
+Zhang, Angew Chem Int Ed Engl 59 (2020) 17670–17675. 
+[25] M. Zhao, Y.-Q. Peng, B.-Q. Li, X.-Q. Zhang, J.-Q. Huang, J Energy Chem 56 (2021) 
+203–208. 
+[26] C.X. Zhao, W.J. Chen, M. Zhao, Y.W. Song, J.N. Liu, B.Q. Li, T. Yuan, C.M. Chen, Q. 
+Zhang, J.Q. Huang, EcoMat 3 (2020) e12066. 
+[27] M. Zhao, H.J. Peng, J.Y. Wei, J.Q. Huang, B.Q. Li, H. Yuan, Q. Zhang, Small 
+Methods 4 (2019) 1900344. 
+[28] Y.Q. Peng, M. Zhao, Z.X. Chen, Q. Cheng, Y. Liu, C.X. Zhao, X. Ma, B.Q. Li, C.M. 
+Chen, J.Q. Huang, Q. Zhang, Batteries Supercaps 5 (2021) e202100359. 
+[29] T. Zhang, Q. Chen, X. Li, J. Liu, W. Zhou, B. Wang, Z. Zhao, W. Li, D. Chao, D. Zhao, 
+CCS Chem. 4 (2022) 2874–2887. 
+[30] Y.-Q. Peng, M. Zhao, Z.-X. Chen, Q. Cheng, Y. Liu, X.-Y. Li, Y.-W. Song, B.-Q. Li, J.-
+Q. Huang, Nano Res. 16 (2022) 8253–8829. 
+[31] X. Gao, X. Zheng, Y. Tsao, P. Zhang, X. Xiao, Y. Ye, J. Li, Y. Yang, R. Xu, Z. Bao, Y. 
+Cui, J. Am, Chem. Soc. 143 (2021) 18188–18195. 
+[32] C.Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, L.F. Nazar, Energy Environ. Sci. 16 
+(2023) 610–618. 
+[33] P. Yu, S. Sun, C. Sun, C. Zeng, Z. Hua, N. Ahmad, R. Shao, W. Yang, Adv. Funct. 
+Mater. 34 (2023) 2306939. 
+[34] J. Fan, W. Sun, Y. Fu, W. Guo, Adv. Funct. Mater. 34 (2024) 2407166.
+

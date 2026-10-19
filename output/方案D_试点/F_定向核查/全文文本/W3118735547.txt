@@ -1,0 +1,507 @@
+=== 第 1 页 ===
+Conﬁning Sulfur in Porous Carbon by Vapor
+Deposition to Achieve High-Performance
+Cathode for All-Solid-State Lithium−Sulfur
+Batteries
+Atif S. Alzahrani, Mitsutoshi Otaki, Daiwei Wang, Yue Gao, Timothy S. Arthur, Shuai Liu,
+and Donghai Wang*
+Cite This: ACS Energy Lett. 2021, 6, 413−418
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: All-solid-state lithium−sulfur batteries (ASLBs) have the
+potential to achieve high energy density because of sulfur’s high
+theoretical capacity (1672 mAh g−1) while alleviating persistent
+polysulﬁde shuttling inherent to lithium−sulfur batteries based on liquid
+organic electrolyte. However, the homogenization of sulfur, carbon, and
+solid electrolyte is a challenge to achieving high-performance cathodes
+for ASLBs. Herein, we demonstrate a promising sulfur−carbon composite
+with high sulfur content (71.4−83.3%) prepared using a sulfur vapor
+deposition (SVD) approach to show enhanced discharge speciﬁc
+capacities, rate performance, and cycling stability, outperforming
+conventional sulfur liquid deposition (SLD) and sulfur solid deposition
+(SSD) approaches. A higher discharge speciﬁc sulfur capacity of 1792.6
+mAh g−1 has been achieved at 0.1C and 60 °C with improvement ascribed
+to smaller particle size and more homogeneous and deeply conﬁned
+sulfur in sulfur−carbon composite, in contrast to 1619.2 and 1329.3 mAh g−1 for samples prepared by conventional SLD and
+SSD approaches, respectively.
+L
+ithium sulfur (Li−S) batteries are based on a high
+energy density chemistry that could potentially replace
+existing Li-ion batteries,1,2 achieving the gravimetric
+and volumetric energy densities of sulfur cathode (16Li + S8 ↔
+8Li2S) to 2596 Wh kg−1 and 2199 Wh L−1, respectively.3,4 As
+an added beneﬁt, sulfur is produced in large quantities as a
+byproduct of desulfurizing oil and natural gas, lowering the
+production cost and improving its global accessibility.5
+Traditional Li−S batteries based on liquid organic electro-
+lyte, however, are plagued with dissolution and shuttling eﬀect
+of sulfur discharge products (i.e., polysulﬁdes) in the organic
+electrolyte, causing self-discharge, low round-trip Coulombic
+eﬃciency, and irreversible capacity fade.6,7 Most eﬀorts to date
+have been focused on developing composite sulfur cathode to
+physically or chemically trap the generated polysulﬁdes.8
+Despite their limited success in improving the cyclability of
+Li−S batteries, these approaches do not remedy the shuttling
+eﬀect because the polysulﬁdes are inevitably soluble in organic
+electrolytes.
+The all-solid-state lithium−sulfur battery (ASLB), using a
+solid electrolyte, has been proposed to fundamentally resolve
+the polysulﬁde shuttling eﬀect.9,10 Recent advances in sulﬁde-
+based solid electrolytes have demonstrated ionic conductivities
+comparable to organic liquid electrolyte (∼10−2 S cm−1).11
+Additionally, sulﬁde-based solid electrolytes possess desirable
+mechanical properties and good chemical compatibility with
+sulfur.12 However, sulfur is an electrical insulator (∼5 × 10−30
+S cm−1) with very low ionic conductivity, making it diﬃcult to
+use as a cathode by itself.13 Henceforth, to provide electronic
+and ionic pathways for the cathode, sulfur must be mixed with
+an electrical conductor, such as carbon, and an ionic conductor
+(i.e., solid electrolyte). Therefore, it is critical to ensure proper
+homogenization between sulfur, carbon, and solid electrolyte
+for making a high-performance sulfur−carbon−solid electro-
+Received:
+September 13, 2020
+Accepted:
+September 30, 2020
+Published: January 6, 2021
+Letter
+http://pubs.acs.org/journal/aelccp
+© 2021 American Chemical Society
+413
+https://dx.doi.org/10.1021/acsenergylett.0c01956
+ACS Energy Lett. 2021, 6, 413−418
+Downloaded from pubs.​acs.​org/​aelccp/​article-pdf/​6/​2/​413/​14787667/​nz0c01956.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 2 页 ===
+lyte composite cathode suitable for ASLBs. One key step
+toward the three-component composite cathode is to prepare
+bicomponent sulfur−carbon composites with well-controlled
+sulfur distribution and particle sizes within the carbon matrix.
+Conventional approaches in the synthesis of sulfur−carbon
+composites for Li−S batteries based on liquid electrolyte are
+via depositing sulfur into porous carbon using sulfur liquid
+deposition (SLD) and sulfur solid deposition (SSD). However,
+the sulfur−carbon composite prepared by the conventional
+approaches falls short in achieving high-performance in ASLBs,
+in terms of low speciﬁc capacity and low rate performance as
+demonstrated in the literature14−17 as well as in this Letter.
+This account demonstrates a promising approach to achieve
+a homogeneous distribution of sulfur within a porous carbon
+matrix in the form of sulfur−carbon composites to enable a
+high-performance cathode for ASLBs. We applied a sulfur
+vapor deposition (SVD) approach to synthesize sulfur−carbon
+composites, departing from conventional SLD and SSD
+approaches. We show that this sulfur−carbon composite via
+SVD enables conﬁnement of both sulfur and the discharge
+product of Li2S mainly within porous carbon, reducing sulfur
+content outside porous carbon and improving interfacial
+contact between bicomponent composites with a solid-state
+electrolyte, to achieve superior electrochemical performance.
+Beneﬁting from the homogeneous distribution and physical
+conﬁnement of sulfur and Li2S, the high-performance sulfur−
+carbon composite delivers a discharge speciﬁc sulfur capacity
+of 1792 mAh g−1 at a high sulfur content of 71.4% at 0.1C at
+60 °C, while enjoying a capacity retention of 92% after 100
+cycles. Moreover, the sulfur−carbon composite also shows a
+high discharge speciﬁc sulfur capacity of 957.3 mAh g−1 even at
+a high sulfur mass loading of 4.5 mg cm−2 at 0.1C and 60 °C in
+ASLB, demonstrating the applicability of this approach for a
+high energy density ASLB.
+The vapor deposition approach is schematically illustrated in
+Figure 1a. In this approach, sulfur is ﬁrst evaporated under low
+pressure and then condensed and deposited inside porous
+carbon to achieve a complete impregnation of sulfur within
+porous carbon. In this manner, sulfur is homogeneously
+distributed and conﬁned within the porous carbon. Next, this
+sulfur−carbon composite is mechanically milled with glassy
+Li3PS4 solid-state electrolyte to fabricate three-component
+sulfur−carbon−solid electrolyte composite to serve as the
+ASLB cathode, with details described in Experimental Section
+in the Supporting Information.
+The sulfur−carbon composite was ﬁrst characterized by
+ﬁeld-emission scanning electron microscopy (FE-SEM) and
+transmission electron microscopy (TEM). The morphology of
+the sulfur−carbon composite prepared by SVD retains the
+original morphology of porous ketjen black (KB) carbon
+without observing large sulfur particles outside KB particles, as
+illustrated in Figures 1b,c and S3. High-angle annular dark-ﬁeld
+(HAADF) TEM imaging (Figure 1d) of sulfur−carbon
+composite and the corresponding electron energy loss
+spectroscopy (EELS) elemental mapping (Figure 1e) show
+overlapped sulfur and carbon traces, indicating homogeneous
+sulfur distribution within porous carbon at the nanoscale.
+Combined with FE-SEM and TEM studies, we conﬁrm the
+sulfur is impregnated and conﬁned within porous carbon and
+the absence of isolated sulfur particles within the sulfur−
+carbon composite.
+To quantify the amount of impregnated sulfur in porous
+carbon, thermal gravimetric analysis (TGA) was conducted,
+shown in Figure S4, and the measured sulfur content of
+sulfur−carbon composites is consistent with the designed
+sulfur-to-carbon ratios. The sulfur−carbon composite samples
+are designated as SVD 50−x (where sulfur:carbon ratios are
+50:x). Beneﬁting from the vapor deposition approach and high
+pore volume feature of KB carbon, the sulfur−carbon
+composite with high sulfur content (as high as 83.3%) can
+be synthesized and shows excellent electrochemical perform-
+ance in the ASLB.18,19
+Next, the as-synthesized sulfur−carbon−solid electrolyte
+composites were used to fabricate ASLB and evaluate their
+electrochemical performance. Figure 2a shows the discharge−
+charge proﬁles of sulfur−carbon composites prepared by SVD,
+SLD, and SSD approaches with a ﬁxed sulfur−carbon ratio of
+50:20 at 0.5C and 60 °C. Among the three samples, the
+composite sulfur cathode prepared by the SVD approach
+notably shows the highest discharge speciﬁc sulfur capacities at
+all current densities, demonstrating the advantage of the SVD
+method over conventional routes of SLD and SSD, as shown in
+Figure 2b. Alternatively, Figure 2c summarizes the discharge
+speciﬁc sulfur capacity retention after the third cycle at
+Figure 1. Schematic illustration of synthesis of three-component
+ASLB cathode using SVD method (a). FE-SEM images of 50−20
+sulfur−carbon composite using SVD (b and c). HAADF image and
+EELS elemental mapping of SVD 50−20 (d and e).
+ACS Energy Letters
+http://pubs.acs.org/journal/aelccp
+Letter
+https://dx.doi.org/10.1021/acsenergylett.0c01956
+ACS Energy Lett. 2021, 6, 413−418
+414
+Downloaded from pubs.​acs.​org/​aelccp/​article-pdf/​6/​2/​413/​14787667/​nz0c01956.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 3 页 ===
+diﬀerent current rates in Figure 2b, where 0.1C is 100% for all
+methods. The SVD approach is able to maintain high discharge
+speciﬁc sulfur capacities with retentions of 92.8%, 75.5%, and
+48.7%; the SLD comes second with 85%, 65.7%, and 39.2%;
+and last the SSD with the poorest performance of 63.2%,
+37.2%, and 11.9%, at 0.5C, 1C, and 2C, respectively. Note that
+the composite prepared using the SVD approach shows a high
+discharge speciﬁc sulfur capacity of 1792.6 mAh g−1 that is
+above the theoretical value at 0.1C and 60 °C. This is ascribed
+to the capacity contribution from the Li3PS4 solid-state
+electrolyte as shown in Figure S5.20 At room temperature,
+the composite prepared by the SVD approach still outperforms
+the SLD and SSD samples (Figure S6) and reaches discharge
+speciﬁc sulfur capacities of 1310 and 627 mAh g−1 at 0.1C and
+0.5C, respectively. In contrast, the SLD shows much lower
+discharge speciﬁc capacities, and the SSD sample was not even
+able to cycle at 0.5C at room temperature. The excellent
+performance of the composite cathode sample prepared by
+SVD over the SSD approach can be mainly ascribed to the
+homogeneous distribution of sulfur within the sulfur−carbon
+composite by SVD, in contrast to the large sizes of sulfur
+particles on carbon composites in the SSD sample as shown in
+Figure S7. The electrochemical evaluation of diﬀerent sulfur−
+carbon composites prepared by SVD, SLD, and SSD not only
+demonstrates the advantages of the SVD approach but also
+addresses the performance discrepancies of the sulfur−carbon
+composite prepared by diﬀerent approaches in reported ASLB
+performance.
+Figure 2. Third discharge−charge proﬁles of samples prepared by SVD, SLD, and SSD 50−20 at 60 °C and 0.5C (a). Rate performance of
+samples prepared by SVD, SLD, and SSD at a ratio of 50−20 (b). Capacity retention as a function of current densities for samples prepared
+by SVD, SLD, and SSD at a ratio of 50−20 (c). XRD pattern for sulfur−carbon composites prepared by using SSD, SLD, and SVD methods
+at a ratio of 50−20 (d). Magniﬁed TGA curve for SVD and SLD 50−20 sulfur−carbon composites (e). XPS spectra for 50−12 SLD and SVD
+sulfur−carbon composites (f). TEM images of sulfur−carbon composite prepared by SVD approach (g) and SLD approach (h).
+ACS Energy Letters
+http://pubs.acs.org/journal/aelccp
+Letter
+https://dx.doi.org/10.1021/acsenergylett.0c01956
+ACS Energy Lett. 2021, 6, 413−418
+415
+Downloaded from pubs.​acs.​org/​aelccp/​article-pdf/​6/​2/​413/​14787667/​nz0c01956.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 4 页 ===
+The underlying features for the higher performance of the
+SVD sample over the SLD is attributed to the uniform sulfur
+distribution, deep physical conﬁnement, and smaller sulfur
+particle sizes. First, the X-ray diﬀraction pattern of the SVD
+sample, as shown in Figure 2d, shows a broad amorphous peak
+between 20°and 30° and a couple of weak crystalline sulfur
+reﬂection peaks, in contrast to strong crystalline reﬂection
+sulfur peaks in the SLD and SSD samples. This indicates more
+uniform and conﬁned sulfur distribution within the KB carbon
+in the SVD sample compared to the SLD sample, despite
+having similar sulfur content in both.21−23 The uniform
+distribution can be further deduced from the TEM images
+(Figure 2g,h), as the deposited sulfur particles in the sulfur−
+carbon composite prepared by SVD are more homogeneously
+distributed and conﬁned within the carbon matrix compared to
+the sulfur−carbon composite prepared by SLD. Second,
+enlarged TGA curves (Figure 2e) show delayed weight loss
+response in the SVD sample compared to the SLD sample,
+which implies stronger physical interaction between carbon
+and sulfur; from X-ray photoelectron spectroscopy inves-
+tigation (Figure 2f), no chemical bonding feature is observed
+in both the SVD and SLD samples, implying deeper physical
+conﬁnement of sulfur in the SVD sample.24 Third, the SVD
+approach generates submicrometer sulfur particles as a result of
+vapor deposition. The morphology of the impregnated sulfur
+in KB could not be observed by FE-SEM because of the
+semiclosed architecture of KB (Figure S7a,b); however, smaller
+and homogeneous sulfur deposits are observed in SVD
+prepared samples by TEM images, compared with SLD
+prepared samples (Figure 2g,h). Nevertheless, to closely
+mimic the morphological features of the deposited sulfur
+particles prepared by diﬀerent approaches, we prepared
+sulfur−carbon composite using a carbon nanoﬁber (CNF) as
+a carbon host that has an open structure compared to KB.
+Sulfur particles synthesized by the SVD approach are
+submicrometer in size on CNF, while the SLD method
+generates larger microsized sulfur aggregate particles on CNF,
+as shown in Figure S8. These attributes contribute the
+improved electrochemical performance and lower overpoten-
+tial observed in the discharge−charge proﬁle of the samples
+prepared by SVD compared to SLD (Figure 1a−c).
+Furthermore, the overpotential diﬀerence at a 50% DOD
+was calculated to be 0.56 and 1.02 V for the samples prepared
+by SVD and SLD, respectively, at 0.5C and 60 °C.
+We further studied the sulfur−carbon composites with
+diﬀerent sulfur content prepared by the SVD approach. Figure
+3a illustrates the discharge−charge proﬁles of the composite
+sulfur cathode of SVD 50−20, SVD 50−12, and SVD 50−10 at
+0.1C and 60 °C (sulfur content corresponds to 71.4, 80.6, and
+83.3% respectively). Surprisingly, even at a sulfur content as
+high as 83.33%, the SVD 50−10 is still able to deliver a high
+third discharge capacity of 964 mAh g−1. Figure 3b shows the
+cycling performance for the SVD 50−20, SVD 50−12, and
+SVD 50−10 in ASLB at sulfur loadings of ∼1.5 mg cm−2.
+Figure 3. Third discharge−charge proﬁles of 50−20, 50−12, and 50−10 samples prepared by SVD at 0.1C and 60 °C (a). Cycling
+performance of 50−20, 50−12, and 50−10 samples prepared by SVD at 0.1C and 60 °C (b). Capacity retention of 50−20, 50−12 and 50−10
+SVD samples after 50 cycles at 0.1C and 60 °C (c). XRD patterns for 50−20, 50−12, and 50−10 SVD sulfur−carbon composites (d).
+Theoretical calculation of sulfur, Li2S, and ketjen black’s pores’ speciﬁc volume per unit mass of the composites, where ketjen black’s pore
+volume is measured to be 2.4 cm3 g−1 (Figure S9) and sulfur to Li2S volume increase is 80%28 (e). Long cycling performance SVD 50−20
+sample at a loading 1.5 mg cm−2 and 0.1C at 60 °C (f).
+ACS Energy Letters
+http://pubs.acs.org/journal/aelccp
+Letter
+https://dx.doi.org/10.1021/acsenergylett.0c01956
+ACS Energy Lett. 2021, 6, 413−418
+416
+Downloaded from pubs.​acs.​org/​aelccp/​article-pdf/​6/​2/​413/​14787667/​nz0c01956.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 5 页 ===
+Interestingly, it is found that increasing sulfur content results in
+lower capacity retention after 50 cycles (Figure 3c), with a
+capacity retention of 96.56% for the SVD 50−20 dropping to
+60.30% for the SVD 50−10 sample. This observation can be
+ascribed to more sulfur deposition on the outer surface of
+porous KB carbon as the sulfur content increases, as indicated
+by strong XRD reﬂection peaks in the SVD samples with
+higher sulfur content (Figure 3d). The sulfur deposited on the
+outer surface of the KB carbon may lose contact with it upon
+electrochemical cycling, resulting in the capacity fade. Upon
+the electrochemical conversion reaction of sulfur, the volume
+increases because of the conversion of sulfur to Li2S.
+Considering that the measured pore volume of KB carbon is
+larger than both the volume of sulfur and Li2S, as shown in
+Figure 3e, the SVD 50−20 sample thus can physically conﬁne
+not only the sulfur but also the discharge product of Li2S
+mainly within the porous carbon during the electrochemical
+cycling. Therefore, the SVD 50−20 sample shows optimal
+electrochemical performance with both higher discharge
+speciﬁc capacity and capacity retention in ASLB. Figure 3f
+shows long cycling performance of SVD 50−20 sulfur−carbon
+composite with a sulfur loading of 1.5 mg cm−2, exhibiting an
+84.5% capacity retention even after 100 cycles which
+corresponds to 0.16% capacity loss per cycle. The capacity
+loss is partially caused by mechanically induced loss of contact
+inside the ASLB cells during cycling because of volume
+pulverization22,25 and therefore can be recovered by repressing
+the cell. As demonstrated in Figure 3f, the discharge speciﬁc
+sulfur capacity of 1437 mAh g−1 after the 100th cycle can be
+increased to 1567 mAh g−1 after repressing the cells. The
+recovered discharge speciﬁc sulfur capacity of 130 mAh g−1,
+accounting for 48.8% of total lost capacity, makes the actual
+capacity retention 91.9% after 100 cycles.
+To demonstrate the advantages of the SVD method for
+fabrication of sulfur−carbon composites to be used in high-
+energy-density ASLB, the optimal SVD 50−20 sample was
+used to fabricate three-component sulfur−carbon−solid
+electrolyte composite cathodes with high sulfur mass loading
+for electrochemical evaluation. Figure 4a shows discharge−
+charge proﬁles for SVD 50−20 sample with an increased sulfur
+mass loading from 1.5 mg cm−2 to 4.5 mg cm−2. As shown,
+increasing the mass loading of the composite cathode lowers
+the discharge speciﬁc sulfur capacities. This is due to higher
+charge-resistance in the cathode layer as the cathode thickness
+increases.26,27 Promisingly, even at a high sulfur loading of 4.5
+mg cm−2, the ASLB still produces a discharge speciﬁc sulfur
+capacity of 957.3 mAh g−1. More importantly, after 50 cycles,
+similar capacity retention is observed among the three samples
+with diﬀerent mass loading, as shown in Figure 4b, which
+further cements the previous explanation that higher capacity
+retention is anticipated when the sulfur and Li2S are conﬁned
+within porous carbon.
+In summary, the vapor deposition of sulfur within porous
+carbon has been identiﬁed as a promising method for
+fabrication of sulfur−carbon composites for ASLBs, out-
+performing conventional liquid and solid sulfur deposition
+approaches. The improved electrochemical performance using
+the vapor deposition method has been attributed to the
+homogeneous distribution, the physical and deep conﬁnement
+of sulfur particles, and the smaller sulfur particle size in porous
+carbon. The capacity decay of the sulfur cathode has been
+discovered to be tightly related to the amount of sulfur
+deposited inside versus outside the porous carbon. The
+optimal performance can be achieved at the conditions with
+both sulfur and the discharge product Li2S being conﬁned
+within the porous carbon host during cycling.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsenergylett.0c01956.
+Experimental section for the synthesis of the developed
+sulfur−carbon composites and Li3PS4 electrolyte,
+chemical characterization and electrochemical testing
+procedure, supporting ﬁgures, and performance compar-
+ison between the ASLBs developed in this work and the
+literature are provided. (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Donghai Wang −Department of Mechanical Engineering, The
+Pennsylvania State University, University Park, Pennsylvania
+Figure 4. Third discharge−charge proﬁles of SVD 50−20 ASLBs with diﬀerent sulfur mass loading at 0.1C and 60 °C (a). Capacity retention
+of 50−20 SVD for diﬀerent sulfur mass loadings after 50 cycles at 0.1C and 60 °C with cycling is shown in Figure S10 (b).
+ACS Energy Letters
+http://pubs.acs.org/journal/aelccp
+Letter
+https://dx.doi.org/10.1021/acsenergylett.0c01956
+ACS Energy Lett. 2021, 6, 413−418
+417
+Downloaded from pubs.​acs.​org/​aelccp/​article-pdf/​6/​2/​413/​14787667/​nz0c01956.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 6 页 ===
+16802, United States;
+orcid.org/0000-0001-7261-8510;
+Email: dwang@psu.edu
+Authors
+Atif S. Alzahrani −Department of Material Science and
+Engineering, The Pennsylvania State University, University
+Park, Pennsylvania 16802, United States; Department of
+Mechanical Engineering, King Fahd University of Petroleum
+and Mineral, Dhahran, Saudi Arabia
+Mitsutoshi Otaki −Department of Mechanical Engineering,
+The Pennsylvania State University, University Park,
+Pennsylvania 16802, United States
+Daiwei Wang −Department of Mechanical Engineering, The
+Pennsylvania State University, University Park, Pennsylvania
+16802, United States
+Yue Gao −Department of Mechanical Engineering, The
+Pennsylvania State University, University Park, Pennsylvania
+16802, United States;
+orcid.org/0000-0001-7559-1288
+Timothy S. Arthur −Toyota Research Institute of North
+America, Ann Arbor, Michigan 48105, United States;
+orcid.org/0000-0003-4348-0756
+Shuai Liu −Department of Mechanical Engineering, The
+Pennsylvania State University, University Park, Pennsylvania
+16802, United States
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsenergylett.0c01956
+Notes
+The authors declare no competing ﬁnancial interest.
+■ACKNOWLEDGMENTS
+This work was supported by Toyota Motor Corporation.
+A.S.A. is grateful for the graduate fellowship provided by King
+Fahd University of Petroleum and Minerals (KFUPM),
+Dhahran, Saudi Arabia.
+■REFERENCES
+(1) Marmorstein, D.; et al. Electrochemical performance of lithium/
+sulfur cells with three different polymer electrolytes. J. Power Sources
+2000, 89, 219−226.
+(2) Thackeray, M. M.; Wolverton, C.; Isaacs, E. D. Electrical energy
+storage for transportationapproaching the limits of, and going
+beyond, lithium-ion batteries. Energy Environ. Sci. 2012, 5, 7854−
+7863.
+(3) Zheng, S.; et al. Copper-Stabilized Sulfur-Microporous Carbon
+Cathodes for Li-S Batteries. Adv. Funct. Mater. 2014, 24, 4156−4163.
+(4) Bruce, P. G.; Freunberger, S. a.; Hardwick, L. J.; Tarascon, J.-M.
+Li−O2 and Li−S batteries with high energy storage. Nat. Mater. 2012,
+11, 19−29.
+(5) U.S. Geological Survey, Mineral commodity summaries 2019: U.S.
+Geological Survey 2019. DOI: 10.3133/70202434.
+(6) Bugga, R. V.; et al. Metal Sulfide-Blended Sulfur Cathodes in
+High Energy Lithium-Sulfur Cells. J. Electrochem. Soc. 2017, 164,
+A265−A276.
+(7) Zhang, Q.; et al. Rational design of multi-channel continuous
+electronic/ionic conductive networks for room temperature vanadium
+tetrasulfide-based all-solid-state lithium-sulfur batteries. Nano Energy
+2019, 57, 771−782.
+(8) Song, J.; Yu, Z.; Gordin, M. L.; Wang, D. Advanced Sulfur
+Cathode Enabled by Highly Crumpled Nitrogen-Doped Graphene
+Sheets for High-Energy-Density Lithium-Sulfur Batteries. Nano Lett.
+2016, 16, 864−870.
+(9) Hayashi, A.; Ohtomo, T.; Mizuno, F.; Tadanaga, K.;
+Tatsumisago, M. All-solid-state Li/S batteries with highly conductive
+glass−ceramic electrolytes. Electrochem. Commun. 2003, 5, 701−705.
+(10) Zhang, Q.; et al. CNTs@S composite as cathode for all-solid-
+state lithium-sulfur batteries with ultralong cycle life. J. Energy Chem.
+2020, 40, 151−155.
+(11) Kamaya, N.; et al. A lithium superionic conductor. Nat. Mater.
+2011, 10, 682−686.
+(12) Tatsumisago, M.; Nagao, M.; Hayashi, A. Recent development
+of sulfide solid electrolytes and interfacial modification for all-solid-
+state rechargeable lithium batteries. J. Asian Ceram. Soc. 2013, 1, 17−
+25.
+(13) Wang, D.-W.; et al. Carbon−sulfur composites for Li−S
+batteries: status and prospects. J. Mater. Chem. A 2013, 1, 9382−9394.
+(14) Unemoto, A.; et al. Development of bulk-type all-solid-state
+lithium-sulfur battery using LiBH4 electrolyte. Appl. Phys. Lett. 2014,
+105, 083901−083901−4.
+(15) Agostini, M.; Aihara, Y.; Yamada, T.; Scrosati, B.; Hassoun, J. A
+lithium−sulfur battery using a solid, glass-type P2S5−Li2S electrolyte.
+Solid State Ionics 2013, 244, 48−51.
+(16) Chen, M.; Adams, S. High performance all-solid-state lithium/
+sulfur batteries using lithium argyrodite electrolyte. J. Solid State
+Electrochem. 2015, 19, 697−702.
+(17) Nagao, M.; Hayashi, A.; Tatsumisago, M. Sulfur-carbon
+composite electrode for all-solid-state Li/S battery with Li2S-P2S5
+solid electrolyte. Electrochim. Acta 2011, 56, 6055−6059.
+(18) Kobayashi, T.; et al. All solid-state battery with sulfur electrode
+and thio-LISICON electrolyte. J. Power Sources 2008, 182, 621−625.
+(19) Nagao, M.; et al. All-solid-state Li−sulfur batteries with
+mesoporous electrode and thio-LISICON solid electrolyte. J. Power
+Sources 2013, 222, 237−242.
+(20) Bonnick, P.; et al. A high performance all solid state lithium
+sulfur battery with lithium thiophosphate solid electrolyte. J. Mater.
+Chem. A 2019, 7, 24173−24179.
+(21) Umeshbabu, E.; et al. Stable Cycling Lithium-Sulfur Solid
+Batteries with Enhanced Li/Li10GeP2S12 Solid Electrolyte Interface
+Stability. ACS Appl. Mater. Interfaces 2019, 11, 18436−18447.
+(22) Han, Q.; et al. Outstanding cycle stability and rate capabilities
+of the all-solid-state Li−S battery with a Li 7 P 3 S 11 glass-ceramic
+electrolyte and a core−shell S@BP2000 nanocomposite. J. Mater.
+Chem. A 2019, 7, 3895−3902.
+(23) Zhang, S.; et al. Activated carbon with ultrahigh specific surface
+area synthesized from natural plant material for lithium-sulfur
+batteries. J. Mater. Chem. A 2014, 2, 15889−15896.
+(24) Sakuda, A.; Sato, Y.; Hayashi, A.; Tatsumisago, M. Sulfur-Based
+Composite Electrode with Interconnected Mesoporous Carbon for
+All-Solid-State Lithium−Sulfur Batteries. Energy Technol. 2019, 7,
+1900077.
+(25) Yao, X.; et al. High-Performance All-Solid-State Lithium-Sulfur
+Batteries Enabled by Amorphous Sulfur-Coated Reduced Graphene
+Oxide Cathodes. Adv. Energy Mater. 2017, 7, 1602923.
+(26) Yermukhambetova, A.; et al. Exploring 3D microstructural
+evolution in Li-Sulfur battery electrodes using in-situ X-ray
+tomography. Sci. Rep. 2016, 6, 35291.
+(27) Nagata, H.; Chikusa, Y. All-Solid-State Lithium-Sulfur Battery
+with High Energy and Power Densities at the Cell Level. Energy
+Technol. 2016, 4, 484−489.
+(28) Helen, M.; et al. Single step transformation of sulphur to
+Li2S2/Li2S in Li-S batteries. Sci. Rep. 2015, 5, 12146.
+ACS Energy Letters
+http://pubs.acs.org/journal/aelccp
+Letter
+https://dx.doi.org/10.1021/acsenergylett.0c01956
+ACS Energy Lett. 2021, 6, 413−418
+418
+Downloaded from pubs.​acs.​org/​aelccp/​article-pdf/​6/​2/​413/​14787667/​nz0c01956.​pdf by TSINGHUA UNIV user on 27 September 2026
+

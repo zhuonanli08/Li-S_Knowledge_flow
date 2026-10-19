@@ -1,0 +1,402 @@
+=== 第 1 页 ===
+Solid State Ionics 357 (2020) 115500
+Available online 23 October 2020
+0167-2738/© 2020 Elsevier B.V. All rights reserved.
+A new high-capacity cathode for all-solid-state lithium sulfur battery 
+Qing Wang a,b, Ya Chen a, Jun Jin a, Zhaoyin Wen a,* 
+a CAS Key Laboratory of Materials for Energy Conversion, Shanghai Institute of Ceramics, Chinese Academy of Sciences, Shanghai 200050, PR China 
+b Center of Materials Science and Optoelectronics Engineering, University of Chinese Academy of Sciences, Beijing 100049, PR China   
+A R T I C L E I N F O  
+Keywords: 
+Lithium sulfur battery 
+Composite cathode 
+In-situ coating 
+Sulfide electrolyte 
+Cotton fiber 
+A B S T R A C T  
+A new composite sulfur cathode with high sulfur loading for all-solid-state lithium sulfur (Li–S) battery, along 
+with an in-situ coating process for preparing this composite cathode, is proposed in this manuscript. This 
+composite cathode includes carbonized cotton fibers as the electron conductive skeleton, sulfide electrolyte 
+coating on the carbon fibers as the Li-ion conductor, and elemental sulfur as the active material. The in-situ 
+coating of sulfide electrolyte is carried out via a liquid-phase process, which results in a close contact be­
+tween carbon fiber and the sulfide electrolyte. The subsequent mixing and heating treatment with elemental 
+sulfur form a composite cathode with good electrochemical performance. In the assembled all-solid-state Li–S 
+battery with Li6PS5Cl electrolyte and lithium metal anode, the composite cathode delivers a super high discharge 
+capacity of 32.8 mAh.   
+1. Introduction 
+Conventional lithium ion battery is reaching its limits in terms of 
+safety and durability, posing a challenge for application in large scale 
+electrical equipment [1,2]. A shift to rechargeable lithium sulfur (Li–S) 
+battery with much higher theoretical capacity (1675 mAh g−1) and 
+energy density (2600 Wh kg−1) is a promising alternative to improve 
+safety, energy density, and durability. The natural abundance and 
+environmental friendliness of elemental sulfur make Li–S batteries 
+more likely to industrialize on a large scale [3–5]. Despite the attractive 
+promise, the development of Li–S batteries based on organic liquid 
+electrolyte still falls short of expectation largely due to the shuttle of 
+highly soluble polysulfides in liquid electrolyte and the growth of 
+lithium dendrites [6–8]. Moreover, in consideration of the electronically 
+and ionically insulating nature of active material sulfur, a large amount 
+of conducting additives such as carbon materials is necessary in the 
+composite cathode, thus significantly reducing the practical capacity. To 
+solve the problem of shuttle effect, using solid electrolytes such as oxide 
+ceramic electrolytes or sulfide glass-ceramic electrolytes in Li–S bat­
+teries appear to be a workable way [9,10]. However, the huge imped­
+ance caused by the solid-solid contact among particles in cathode, along 
+with the interfacial impedance between electrodes and solid electro­
+lytes, is still a big barrier to the application of this type of batteries [11]. 
+Although adding some liquid electrolyte into the cathode can solve the 
+impedance problems when using oxide ceramic electrolytes, we still 
+cannot avoid the dissolution of the polysulfides into the liquid electro­
+lyte, causing capacity fading [12]. In our previous research, a little 
+amount of solvent-in-salt (SIS) or fluorinated liquid electrolyte (FDE) 
+was used to wet the cathode/ceramic interface, resulting in very good 
+cycling stability, but after all, this method cannot completely avoid 
+safety issues [13,14]. 
+Sulfide electrolyte materials like Li2S-P2S5 and its derivatives possess 
+high lithium ion conductivity and natural softness, they can be densified 
+easily by cold processing and blended into S cathode of solid-state Li–S 
+batteries by ball-milling together with conductive carbon [15–18]. In 
+this case, the isolated granular carbon material will not form conductive 
+network within the composite cathode. Furthermore, it is crucial to 
+ensure that the active material sulfur has a close contact with the ion 
+conductor and the electron conductor. Here, a feasible solution is to 
+construct such a composite, in which carbon fiber works as the 
+conductive skeleton, and sulfide electrolyte is coated on the surface of 
+the carbon fiber via liquid-phase process. After mixing with elemental 
+sulfur and heating process, the composite sulfur cathode with close inner 
+contact is obtained. Thus, the carbon fiber functions to conduct electrons 
+rapidly, and the sulfide electrolyte coated thereon can rapidly conduct 
+lithium ions, and then the active substance sulfur forms good contact 
+with the electron conductor and the ion conductor both. 
+In this work, cotton fiber was chosen as the precursor of carbon fiber 
+conducting electron in the composite cathode. The first step is synthesis 
+of dispersed carbon fiber from cotton, in which concentrated sulfuric 
+* Corresponding author. 
+E-mail address: zywen@mail.sic.ac.cn (Z. Wen).  
+Contents lists available at ScienceDirect 
+Solid State Ionics 
+journal homepage: www.elsevier.com/locate/ssi 
+https://doi.org/10.1016/j.ssi.2020.115500 
+Received 26 September 2020; Received in revised form 16 October 2020; Accepted 18 October 2020   
+
+=== 第 2 页 ===
+Solid State Ionics 357 (2020) 115500
+2
+acid (c-H2SO4) was used to hydrolyze the cotton to form dispersed 
+cotton fiber (DCF). Then, carbonized dispersed cotton fiber (CDCF) was 
+obtained after drying and carbonization process at 1000 ◦C in an inert 
+atmosphere. In the next process, CDCF, lithium sulfide (Li2S) and 
+phosphorus pentasulfide (P2S5) were mixed in acetonitrile (ACN) sol­
+vent and then dried to form Li2S-P2S5 coated carbon fibers. A heat 
+treatment to 225 ◦C allowed Li2S and P2S5 to react in situ into Li7P3S11 
+and form CDCF@Li7P3S11 composite powder. This liquid-phase process 
+provided a uniform mixing of the two precursors and therefore promotes 
+the formation of Li7P3S11 phase with high ionic conductivity. Finally, the 
+CDCF@Li7P3S11 powder and elemental sulfur were mixed by hand- 
+grinding in an agate mortar followed by a heat treatment, forming the 
+final composite cathode (CDCF@S@Li7P3S11). An all-solid-state Li–S 
+battery based on this composite cathode, with lithium metal as the 
+anode and Li6PS5Cl as the electrolyte, was assembled and delivered an 
+extremely high capacity (22 mAh/cm2) at 60 ◦C. 
+2. Experimental section 
+2.1. Synthesis of dispersed cotton carbon fiber 
+Medical absorbent cotton (3 g) was immersed into 40 mL of deion­
+ized water dissolved with 20 mL of concentrated sulfuric acid (c-H2SO4) 
+and stirred for 10 min. The obtained slurry-like mixture was filtered, 
+thoroughly washed with deionized water and ethyl alcohol, and then 
+vacuum-dried overnight at 70 ◦C. The dried cotton fiber is placed in a 
+quartz crucible, and heated to 1000 ◦C at a rate of 5 ◦C min−1 in an Ar 
+atmosphere and held for 2 h, then naturally cooled to room temperature 
+to obtain the carbonized dispersed cotton fiber (CDCF). 
+2.2. In-situ coating of Li7P3S11 sulfide electrolyte 
+Considering the extreme sensitivity of sulfide electrolyte to moisture, 
+all the preparation processes were performed in an Ar-filled glovebox. 
+The Li7P3S11 electrolyte was synthesized from Li2S (Alfa Aesar, 99.9%) 
+and P2S5 (Sigma-Aldrich, 99%) in acetonitrile (Selectilyte BASF, battery 
+grade). Firstly, 0.1 g of CDCF powder was added into acetonitrile (ACN) 
+solvent (5 mL) and stirred thoroughly. Then Li2S and P2S5 were dis­
+solved into the solution with molar ratio of 7:3 and stirred for 24 h at 
+70 ◦C. The total mass of Li2S and P2S5 here is about 0.2 g. Containing 
+gray precipitates formed during the mixing process, the solution was 
+evaporated in vacuum at 50 ◦C in avoid of liquid boiling. The deposited 
+precursor powder was further heated under vacuum at 80 ◦C for 6 h to 
+remove the residual solvents completely. After drying, the powder was 
+heated at 225 ◦C in Ar atmosphere in order to crystallize into the 
+Li7P3S11 phase (the reason for choosing 225 ◦C is in Supplementary #1 
+in the Supporting Information). The final composite powder is herein­
+after referred to as CDCF@Li7P3S11. 
+2.3. Pure Li7P3S11 sulfide electrolyte preparation 
+Pure Li7P3S11 electrolyte was synthesized from Li2S and P2S5 in 
+acetonitrile (ACN) solvent. 0.06432 g of Li2S and 0.1334 g of P2S5 were 
+dissolved into 5 mL of CAN and then stirred for 24 h at 70 ◦C. Subse­
+quently, the solution containing white precipitate was evaporated in 
+vacuum at 50 ◦C in avoid of liquid boiling. The deposited precursor 
+powder was further heated under vacuum at 80 ◦C for 6 h to remove the 
+residual solvents completely. After drying, the powder was heated at 
+225 ◦C in Ar atmosphere in order to crystallize into the Li7P3S11 phase. 
+Thus, we obtained the pure Li7P3S11 electrolyte. 
+2.4. Composite sulfur cathode preparation 
+In order to mix the active material sulfur powder and 
+CDCF@Li7P3S11 thoroughly with a weight ratio of 1:1, the mixture was 
+ground by hand-grinding in an agate mortar for 1 h. Then the sieved 
+composite was sealed in crucible and heated at 155 ◦C for 12 h under 
+vacuum, forming CDCF@S@Li7P3S11. 
+2.5. Li6PS5Cl electrolyte synthesis 
+Dry LiCl, P2S5 and Li2S were weighed with molar ratio of 2:1:5. 
+Firstly, LiCl and P2S5 particles were thoroughly ground and mixed uni­
+formly. Then, Li2S was added and ground for 15 min to ensure a suffi­
+cient mixing of the three raw materials. Thereafter, the powder mixture 
+was heat-treated at 550 ◦C for 6 h in an inert atmosphere at a heating 
+rate of 5 ◦C min−1. After naturally cooled to room temperature, the 
+obtained agglomerate was pulverized and ground to obtain a Li6PS5Cl 
+powder. 
+2.6. Full battery assembly 
+The working electrode powder CDCF@S@Li7P3S11 (0.1 g) and solid 
+electrolyte powder Li6PS5Cl (0.2 g) were placed in a stainless steel 
+mould (14 mm diameter) and pressed together under 100 MPa at room 
+temperature. The lithium metal foil was placed on the surface of the 
+solid electrolyte side of the bilayer pellet, and pressed with 100 MPa 
+pressure again to obtain a tri-layered pellet. The tri-layered pellet was 
+finally sandwiched with two stainless-steel disks as current collectors. 
+All the cell preparation processes were conducted in a dry Ar-filled 
+glovebox. 
+2.7. Characterization 
+SEM images were obtained by scanning electron microscope (SEM, 
+Hitachi JSM 6700). Raman spectroscopy was done using Thermo Sci­
+entific DXR in order to verify the phosphorus-sulfide anion structure in 
+the obtained samples. Electrochemical impedance spectroscopy (EIS) 
+was carried out on an Autolab electrochemical workstation (ECO 
+CHEMIE B⋅V, Netherlands) with the Frequency Response Analyzer. The 
+charge and discharge curves for the solid-state lithium sulfur batteries 
+were measured with LAND CT2001A battery test system (China) in 
+voltage range from 3 V to 1.5 V under current density of 0.05 mA at 
+60 ◦C. 
+3. Results and discussion 
+To tackle the large interfacial resistance in the sulfur cathode of the 
+all-solid-state Li–S battery, a general strategy is to mix the elemental 
+sulfur with sulfide electrolyte and conductive carbon materials by ball 
+milling [19,20]. Nevertheless, the internal contact in this composite 
+cathode obtained by above traditional methods still falls short of 
+expectation largely. As shown in Fig. 1, a viable solution is to use 
+conductive carbon fibers as the conductive skeleton of the composite 
+cathode, in which an in-situ liquid-phase method and a melt diffusion 
+process guarantee a close contact among the sulfur, sulfide electrolyte 
+and the carbon fibers. In this case, the skeleton of the cotton carbon fi­
+bers plays a role in quickly conducting electrons, and the sulfide elec­
+trolyte Li7P3S11 coated thereon can quickly conduct lithium ions. After 
+mixing and heating with elemental sulfur, the composite cathode was 
+obtained finally. 
+Medical absorbent cotton was adopted as the natural carbon source 
+in the work. If directly carbonized at 1000 ◦C for 2 h in Ar atmosphere 
+without any hydrolysis pretreatment, the cotton formed a mass of cross- 
+linked carbon fiber (Fig. 2a), which is not suitable for subsequent 
+coating process. According to the SEM images of the directly carbonized 
+cotton fibers shown in Fig. 2b and Fig. 2c, in addition to a hollow 
+structure, the cotton carbon fibers has so many micro-wrinkles on the 
+surface caused by the volume shrinkage during the carbonization pro­
+cess, which is beneficial for subsequent adhesion of sulfide electrolyte 
+particles during the liquid coating process. 
+In order to obtain cotton fibers with excellent dispersibility, 
+Q. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 3 页 ===
+Solid State Ionics 357 (2020) 115500
+3
+concentrated sulfuric acid was used to hydrolyze the agglomerated 
+cotton into single fibers. Fig. 2d and Fig. S1 are the digital images of the 
+dispersed cotton fibers after hydrolysis by concentrated sulfuric acid, 
+forming a dilute suspension. Fig. S2 is the SEM image of the dried cotton 
+fiber after hydrolysis, which exhibited an excellent dispersibility of the 
+cotton fibers. After filtered, washed and dried, the dispersed cotton fi­
+bers were carbonized at 1000 ◦C in Ar atmosphere to obtain carbonized 
+dispersed cotton fiber (CDCF). Fig. 2e shows the morphology and good 
+dispersibility of the CDCF, accordingly, the cotton fibers retained hollow 
+structure and rough surface. 
+Fig. 3a is the SEM image of the cotton carbon fiber after in-situ 
+coating of Li7P3S11 electrolyte. No single sulfide electrolyte particles 
+were observed, indicating that almost all the electrolyte material was 
+uniformly coated on the surface of the carbon fiber. In addition, the 
+hollow structure of carbon fiber is still visible. Fig. 3b and Fig. 3c show 
+the Raman spectra of the cotton carbon fiber coated with Li7P3S11 
+electrolyte after heat treatment at 225 ◦C (CDCF@Li7P3S11). In Fig. 3b, 
+the G peak at 1585 cm−1 and the D peak at 1336 cm−1 indicate that a 
+certain degree of graphitized carbon appears in the cotton carbon fiber 
+after high temperature carbonization [21,22], which is favorable for 
+rapid conduction of electrons. In Fig. 3c, two peaks around 403 and 419 
+cm−1 can be ascribed to the stretching of P2S7
+4−and PS4
+3−, respectively 
+[23,24]. The intensity ratio of the two peaks confirms that the obtained 
+electrolyte phase is Li7P3S11. Since no P2S6
+4−peak at 380 cm−1 (a char­
+acteristic peak of the low ionic conductive phase Li4P2S6) is observed in 
+the Raman spectra, one can conclude that the high-conductivity Li7P3S11 
+is the main phase in the final sulfide electrolyte [23]. Armed with the 
+above results, we are confident that the composite CDCF@Li7P3S11 has 
+both good electronic conductivity and outstanding ionic conductivity. 
+A subsequent melt diffusion process turned the CDCF@Li7P3S11 into 
+the composite sulfur cathode CDCF@S@Li7P3S11. To construct an all- 
+solid-state Li–S battery with above cathode, it’s vital to adopt a sul­
+fide electrolyte with super high ionic conductivity. 
+Then the Li-argyrodite Li6PS5X (X = Cl, Br, and I) providing Li-ion 
+conductivities of up to 10−3 S cm−1 at room temperature became the 
+first choice [25,26]. The XRD pattern of the as-prepared Li6PS5Cl pow­
+der is given in Fig. 4a, apart from some weak peaks of Li2S and LiCl, the 
+overall diffraction pattern is well matched with that of Li7PS6 
+(PDF#34–0688), indicating that the Li6PS5Cl powder with high purity 
+has been successfully obtained by hand grinding and subsequent heat 
+treatment [27]. The Li6PS5Cl powder was pressed into pellets with a 
+pressure of 1 T, and then subjected to a heat treatment at 550 ◦C for 6 h. 
+According to the EIS spectrum of the Li6PS5Cl pellet at room tempera­
+ture (Fig. 4b), the calculated ionic conductivity is 5.24 × 10−3 S cm−1 
+(the calculation process is in Supplementary #2 in the Supporting In­
+formation), which is much higher than many reported results 
+[25,26,28,29]. The EIS spectra of the Li6PS5Cl pellet at gradient tem­
+peratures from −10 ◦C to 60 ◦C were shown in Fig. 4c, indicating that as 
+the temperature increases, the total impedance decreases significantly. 
+When the temperature exceeded 60 ◦C, the ionic conductivity reached 
+the order of 10−2 S cm−1. Fig. 4d is the Arrhenius plot of the Li6PS5Cl 
+pellet, the activation energy is calculated to be 0.277 eV (the calculation 
+process is in Supplementary #2 in the Supporting Information). 
+After assembly of all-solid-state Li–S battery based on the composite 
+cathode CDCF@S@Li7P3S11, Li6PS5Cl electrolyte and lithium metal 
+Fig. 1. Schematic diagram of preparation of the composite sulfur cathode CDCF@S@Li7P3S11.  
+Fig. 2. Digital images of (a) carbonized cotton and (d) dispersed cotton fiber in 
+the water; SEM images of (b) (c) the carbonized cotton fiber and (e) the 
+carbonized dispersed cotton fiber. 
+Q. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 4 页 ===
+Solid State Ionics 357 (2020) 115500
+4
+anode, the EIS spectrum of the full battery at 60 ◦C is shown in Fig. 5a. 
+The total impedance of the battery is only 10 Ω. This low impedance can 
+be ascribed to the high Li-ion conductivity of Li6PS5Cl electrolyte at 
+60 ◦C, and the pressure applied to the cell which significantly enhanced 
+the interfacial contact. Fig. 5b shows the first discharge curve of the full 
+battery working at 60 ◦C (current: 0.05 mA, or current density: 0.033 
+mA cm−2). With a long first discharge process for 656 h, the battery 
+exhibited a total capacity of 32.8 mAh, or 21.9 mAh cm−2, which is 
+much higher than the reported capacity in literatures [28,30–32]. 
+Followed by the first discharge stage, the cycling performance of the 
+battery is presented in Fig. 6. The capacity of the first charge step was 
+9.5 mAh, which was much lower than 32.8 mAh. The decrease in ca­
+pacity can be attributed to worse internal contact caused by the volume 
+change of the composite cathode during discharge. After an activation 
+process in the first 3 cycles, the coulombic efficiency of the battery 
+gradually exceeded 100%, indicating a slight overcharge. After 25 
+cycles, the charge/discharge capacity was about 1 mAh, declaring a 
+potential in large-scale usage. 
+4. Conclusion 
+In conclusion, a new composite cathode, containing elemental sulfur, 
+carbonized cotton fibers and Li7P3S11 sulfide electrolyte coated on the 
+fibers’ surface, is proposed for all-solid-state batteries. In this work, 
+concentrated sulfuric acid was adopted to hydrolyze the medical 
+absorbent cotton into single fibers. After carbonization, the obtained 
+carbonized dispersed cotton fibers were coated by sulfide electrolyte via 
+a liquid-phase process and subsequent heat treatment. Followed by a 
+melt diffusion process with elemental sulfur, an intimate contact was 
+achieved among the sulfur, the carbon fiber and the ion conductor. 
+Besides, Li6PS5Cl electrolyte with high ionic conductivity of 5.24 ×
+10−3 S cm−1 at room temperature is prepared by solid phase reaction. 
+Fig. 3. (a) SEM images and (b) (c) Raman spectra of the CDCF@Li7P3S11.  
+Fig. 4. (a) XRD pattern of the Li6PS5Cl powder; (b) EIS spectrum at room temperature of the pressed Li6PS5Cl electrolyte pellets; (c) EIS spectra at different tem­
+peratures and (d) Arrhenius plot of the pressed Li6PS5Cl electrolyte pellets. 
+Q. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 5 页 ===
+Solid State Ionics 357 (2020) 115500
+5
+When used in an all-solid-state Li–S battery with Li6PS5Cl as the main 
+electrolyte, the composite cathode delivered a super high initial 
+discharge capacity of 32.8 mAh, which indicates a super high sulfur 
+loading of the composite cathode. 
+Author statement 
+This work was under supervision by professor Zhaoyin Wen. The 
+main idea of this work was proposed by Qing Wang with the help of Ya 
+Chen. Qing Wang performed sample preparation and data analysis. Ya 
+Chen and Jun Jin helped to improve the preparation process of some 
+samples. All the authors read and contributed to the manuscript. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgements 
+This research was supported by the National Key R&D Program of 
+China (Grant No. 2018YFB0905400), the National Natural Science 
+Foundation of China (NSFC) project No. 51772315 and No. U1930208, 
+and the Science and Technology Commission of Shanghai Municipality 
+(Grant No. 18DZ2280800). Dr. Xiao Huang and Dr. Yang Lu are greatly 
+acknowledged for kind help. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.ssi.2020.115500. 
+References 
+[1] X. Yu, A. Manthiram, Energy Environ. Sci. 11 (2018) 527–543. 
+[2] M.M. Thackeray, C. Wolverton, E.D. Isaacs, Energy Environ. Sci. 5 (2012) 
+7854–7863. 
+[3] X. Zhang, H. Xie, C.S. Kim, K. Zaghib, A. Mauger, C.M. Julien, Mater. Sci. Eng. R. 
+Rep. 121 (2017) 1–29. 
+[4] J. Lochala, D. Liu, B. Wu, C. Robinson, J. Xiao, ACS Appl. Mater. Interfaces 9 
+(2017) 24407–24421. 
+[5] R. Fang, S. Zhao, Z. Sun, D.W. Wang, H.M. Cheng, F. Li, Adv. Mater. 29 (2017) 
+1606823. 
+[6] C. Li, Z. Xi, D. Guo, X. Chen, L. Yin, Small 14 (2018) 1701986. 
+[7] X. Yu, A. Manthiram, Acc. Chem. Res. 50 (2017) 2653–2660. 
+[8] C.J. Hart, M. Cuisinier, X. Liang, D. Kundu, A. Garsuch, L.F. Nazar, Chem. 
+Commun. 51 (2015) 2308–2311. 
+[9] Q. Wang, Z. Wen, J. Jin, J. Guo, X. Huang, J. Yang, C. Chen, Chem. Commun. 
+(2016) 52. 
+[10] Q. Wang, J. Jin, X. Wu, G. Ma, J. Yang, Z. Wen, Phys. Chem. Chem. Phys. 16 (2014) 
+21225–21229. 
+[11] J. Wu, S. Liu, F. Han, X. Yao, C. Wang, Adv. Mater. (2020) 2000751, n/a. 
+[12] Q. Wang, J. Guo, T. Wu, J. Jin, J. Yang, Z. Wen, Solid State Ionics 300 (2017) 
+67–72. 
+[13] Q. Wang, Y. Lu, J. Jin, C. Chen, Z. Wen, ChemElectroChem 7 (2020) 4093–4100. 
+[14] S. Gu, X. Huang, Q. Wang, J. Jin, Q. Wang, Z. Wen, R. Qian, J. Mater, Chem. A 5 
+(2017) 13971–13975. 
+[15] Y. Wang, D. Lu, M. Bowden, P.Z. El Khoury, K.S. Han, Z.D. Deng, J. Xiao, J.- 
+G. Zhang, J. Liu, Chem. Mater. 30 (2018) 990–997. 
+[16] H. Nagata, Y. Chikusa, J. Power Sources 263 (2014) 141–144. 
+[17] Y. Seino, T. Ota, K. Takada, A. Hayashi, M. Tatsumisago, Energy Environ. Sci. 7 
+(2014) 627–631. 
+[18] F. Mizuno, A. Hayashi, K. Tadanaga, M. Tatsumisago, Adv. Mater. 17 (2005) 
+918–921. 
+[19] M. Brinek, C. Hiebl, H.M.R. Wilkening, Chem. Mater. 32 (2020) 4754–4766. 
+[20] P. Bonnick, K. Niitani, M. Nose, K. Suto, T.S. Arthur, J. Muldoon, J. Mater, Chem. A 
+7 (2019) 24173–24179. 
+[21] Y. Zhang, K. Li, H. Li, Y. Peng, Y. Wang, J. Wang, J. Zhao, J. Mater, Chem. A 
+(2016), https://doi.org/10.1039/C6TA08264E. 
+[22] S. Lim, J.-H. Kim, Y. Yamada, H. Munakata, Y.-S. Lee, S.-S. Kim, K. Kanamura, 
+J. Power Sources 355 (2017) 164–170. 
+[23] M.R. Busche, D.A. Weber, Y. Schneider, C. Dietrich, S. Wenzel, T. Leichtweiss, 
+D. Schr¨oder, W. Zhang, H. Weigand, D. Walter, S.J. Sedlmaier, D. Houtarde, L. 
+F. Nazar, J. Janek, Chem. Mater. 28 (2016) 6152–6165. 
+[24] S. Ito, M. Nakakita, Y. Aihara, T. Uehara, N. Machida, J. Power Sources 271 (2014) 
+342–345. 
+[25] R. Schlenker, D. Stępie´n, P. Koch, T. Hupfer, S. Indris, B. Roling, V. Miß, A. Fuchs, 
+M. Wilhelmi, H. Ehrenberg, ACS Appl. Mater. Interfaces 12 (2020) 20012–20025. 
+Fig. 5. (a) EIS spectrum and (b) the first discharge curve (current density: 0.05 mA) of the all-solid-state full battery working at 60 ◦C.  
+Fig. 6. Cycling performance after the first discharge of the all-solid-state Li–S 
+battery at 60 ◦C. 
+Q. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 6 页 ===
+Solid State Ionics 357 (2020) 115500
+6
+[26] C. Yu, S. Ganapathy, J. Hageman, L. van Eijck, E.R.H. van Eck, L. Zhang, 
+T. Schwietert, S. Basak, E.M. Kelder, M. Wagemaker, ACS Appl. Mater. Interfaces 
+10 (2018) 33296–33306. 
+[27] H.-J. Deiseroth, S.-T. Kong, H. Eckert, J. Vannahme, C. Reiner, T. Zaiß, 
+M. Schlosser, Angew. Chem. Int. Ed. 47 (2008) 755–758. 
+[28] C. Yu, L. van Eijck, S. Ganapathy, M. Wagemaker, Electrochim. Acta 215 (2016) 
+93–99. 
+[29] J. Zhang, H. Zhong, C. Zheng, Y. Xia, C. Liang, H. Huang, Y. Gan, X. Tao, W. Zhang, 
+J. Power Sources 391 (2018) 73–79. 
+[30] X. Yao, N. Huang, F. Han, Q. Zhang, H. Wan, J.P. Mwizerwa, C. Wang, X. Xu, Adv. 
+Energy Mater. 7 (2017) 1602923. 
+[31] R. Xu, Z. Wu, S. Zhang, X. Wang, Y. Xia, X. Xia, X. Huang, J. Tu, Chem. Eur. J. 23 
+(2017) 13950–13956. 
+[32] H. Nagata, Y. Chikusa, Energy Technol. 4 (2016) 484–489. 
+Q. Wang et al.                                                                                                                                                                                                                                   

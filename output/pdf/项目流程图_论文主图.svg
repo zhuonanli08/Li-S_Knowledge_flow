@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1110" viewBox="0 0 1000 1110">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="47.0" font-family="Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#203448">三体系设计经验的复用、改造与组合：研究流程</text>
+<text x="40" y="78.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#596773">研究对象：以固态锂硫为目标，比较非硫固态与液态锂硫的相关设计经验</text>
+<rect x="40" y="104" width="300" height="102" fill="#F2F7FA" stroke="#236586"/>
+<text x="56" y="130.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">非硫固态</text>
+<text x="56" y="158.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">固态电解质 + 非硫正极</text>
+<text x="56" y="181.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">固态界面、传输、力学与加工</text>
+<rect x="350" y="104" width="300" height="102" fill="#F2F7FA" stroke="#236586"/>
+<text x="366" y="130.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">固态锂硫</text>
+<text x="366" y="158.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">固态电解质 + 硫基正极</text>
+<text x="366" y="181.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">目标体系；核实最终液相状态</text>
+<rect x="660" y="104" width="300" height="102" fill="#F2F7FA" stroke="#236586"/>
+<text x="676" y="130.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">液态锂硫</text>
+<text x="676" y="158.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">液态电解液 + 硫基正极</text>
+<text x="676" y="181.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">硫反应、物种调控与电极设计</text>
+<line x1="190" y1="206" x2="190" y2="222" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="206" x2="500" y2="222" stroke="#596773" stroke-width="1.2"/>
+<line x1="810" y1="206" x2="810" y2="222" stroke="#596773" stroke-width="1.2"/>
+<line x1="190" y1="222" x2="810" y2="222" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="222" x2="500" y2="244" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="244" x2="496.6440212297706" y2="237.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="244" x2="503.3559787702294" y2="237.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<rect x="180" y="244" width="640" height="100" fill="#F2F7FA" stroke="#236586"/>
+<text x="196" y="270.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">01  语料整理与质量控制</text>
+<text x="196" y="298.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">记录检索范围、日期、去重、文献类型及分组依据</text>
+<text x="196" y="321.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">核实主统计纳入条件；单列支撑研究、含液/凝胶与待核实记录</text>
+<line x1="500" y1="344" x2="500" y2="368" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="368" x2="496.6440212297706" y2="361.85692206676737" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="368" x2="503.3559787702294" y2="361.85692206676737" stroke="#596773" stroke-width="1.2"/>
+<rect x="180" y="368" width="640" height="100" fill="#F2F7FA" stroke="#236586"/>
+<text x="196" y="394.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">02  摘要层：识别跨体系分布差异</text>
+<text x="196" y="422.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">标注问题、策略、角色与位置；经独立人工验证后开展全量统计</text>
+<text x="196" y="445.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">按体系和时段比较比例与不确定性，形成问题/策略分布图</text>
+<line x1="500" y1="468" x2="500" y2="492" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="492" x2="496.6440212297706" y2="485.85692206676737" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="492" x2="503.3559787702294" y2="485.85692206676737" stroke="#596773" stroke-width="1.2"/>
+<rect x="180" y="492" width="640" height="100" fill="#F2F7FA" stroke="#236586"/>
+<text x="196" y="518.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">03  筛选具体功能问题</text>
+<text x="196" y="546.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">综合目标需求、两侧策略、已有证据、数据可得性与实验可区分性</text>
+<text x="196" y="569.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">选定主问题；全文范围聚焦正极、电解质及其相互作用界面</text>
+<line x1="500" y1="592" x2="500" y2="616" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="616" x2="496.6440212297706" y2="609.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="616" x2="503.3559787702294" y2="609.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<rect x="180" y="616" width="640" height="112" fill="#F2F7FA" stroke="#236586"/>
+<text x="196" y="642.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#236586">04  全文层：建立适用性证据与可检验假设</text>
+<text x="196" y="670.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">样品 → 测试 → 对照比较；区分实测观察、作者解释与新假设</text>
+<text x="196" y="693.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">判定单位：具体策略实现 × 明确的固态锂硫目标配置</text>
+<text x="196" y="716.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">材料/局部界面相近，或功能需求相近；逐项核对关键条件</text>
+<line x1="500" y1="728" x2="500" y2="741" stroke="#596773" stroke-width="1.2"/>
+<line x1="195" y1="741" x2="805" y2="741" stroke="#596773" stroke-width="1.2"/>
+<line x1="195" y1="741" x2="195" y2="760" stroke="#596773" stroke-width="1.2"/>
+<line x1="195" y1="760" x2="191.64402122977057" y2="753.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="195" y1="760" x2="198.35597877022943" y2="753.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="728" x2="500" y2="741" stroke="#596773" stroke-width="1.2"/>
+<line x1="195" y1="741" x2="805" y2="741" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="741" x2="500" y2="760" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="760" x2="496.6440212297706" y2="753.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="760" x2="503.3559787702294" y2="753.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="728" x2="500" y2="741" stroke="#596773" stroke-width="1.2"/>
+<line x1="195" y1="741" x2="805" y2="741" stroke="#596773" stroke-width="1.2"/>
+<line x1="805" y1="741" x2="805" y2="760" stroke="#596773" stroke-width="1.2"/>
+<line x1="805" y1="760" x2="801.6440212297706" y2="753.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="805" y1="760" x2="808.3559787702294" y2="753.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<rect x="40" y="760" width="310" height="102" fill="#F1F7F4" stroke="#287768"/>
+<text x="56" y="786.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#287768">复用候选</text>
+<text x="56" y="814.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">关键条件匹配</text>
+<text x="56" y="837.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">实验：基线 vs 策略</text>
+<rect x="365" y="760" width="270" height="102" fill="#F1F7F4" stroke="#287768"/>
+<text x="381" y="786.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#287768">改造候选</text>
+<text x="381" y="814.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">有证据显示条件不匹配</text>
+<text x="381" y="837.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">基线 / 原策略 / 改造后</text>
+<rect x="650" y="760" width="310" height="102" fill="#F1F7F4" stroke="#287768"/>
+<text x="666" y="786.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#287768">组合假设（有依据时）</text>
+<text x="666" y="814.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">文献支持互补或限制假设</text>
+<text x="666" y="837.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">基线 / 甲 / 乙 / 甲+乙</text>
+<line x1="195" y1="862" x2="195" y2="898" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="862" x2="500" y2="898" stroke="#596773" stroke-width="1.2"/>
+<line x1="805" y1="862" x2="805" y2="898" stroke="#596773" stroke-width="1.2"/>
+<line x1="195" y1="898" x2="805" y2="898" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="898" x2="500" y2="928" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="928" x2="496.6440212297706" y2="921.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<line x1="500" y1="928" x2="503.3559787702294" y2="921.8569220667674" stroke="#596773" stroke-width="1.2"/>
+<rect x="180" y="928" width="640" height="86" fill="#F1F7F4" stroke="#287768"/>
+<text x="196" y="954.96" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#287768">05  实验层：检验效果及机制</text>
+<text x="196" y="982.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">独立重复与不确定性 + 性能评价 + 界面、结构或反应表征</text>
+<text x="196" y="1005.32" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#203448">产出：分布图谱、适用性证据库、复用/改造原则及实验验证</text>
+<text x="40" y="1040.56" font-family="Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#596773">注：三组比较用于描述，不分离固态与硫的因果效应；相似策略不等于已发生知识迁移。</text>
+<text x="40" y="1060.56" font-family="Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#596773">组合实验以策略能独立操控为前提；图示为研究设计，不表示所有阶段已完成。</text>
+<text x="40" y="1080.56" font-family="Microsoft YaHei, sans-serif" font-size="12" font-weight="400" fill="#916126">证据不足：记适用性未知并补证据；明确不适用：不进入当前配置的实验验证。</text>
+</svg>

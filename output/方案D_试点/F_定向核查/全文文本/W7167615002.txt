@@ -1,0 +1,2221 @@
+=== 第 1 页 ===
+Advanced Energy Materials
+www.advenergymat.de
+REVIEW
+Beyond Boundaries: Redox Mediators as Dynamic Charge
+Carriers and Catalytic Hubs for Efficient Sulfur Conversion
+in Solid-State Lithium–Sulfur Batteries
+Hang Yang
+Libo Li
+Xiangrui Deng
+Suo Li
+Zhixuan Wang
+Wenhao Xu
+Wenyi Lu
+School of Materials Science and Chemical Engineering, Harbin University of Science and Technology, Harbin, China
+Correspondence: Libo Li (lilibo@hrbust.edu.cn)
+Received: 21 May 2026
+Revised: 21 June 2026
+Accepted: 24 June 2026
+Keywords: lithium–sulfur batteries | redox mediators | solid–state | sulfur conversion pathways
+ABSTRACT
+Despite the exceptionally high theoretical energy density of all-solid-state lithium–sulfur batteries (ASSLSBs), their practical
+performance is severely limited by discontinuous interfacial contact and sluggish transport of electrons and lithium ions. These
+issues cause accumulation of locally electrochemically inactive sulfur, resulting in electrode passivation and uneven reaction
+distribution, which are critical bottlenecks to performance improvement. In recent years, redox mediators (RMs) have garnered
+significant attention due to their ability to effectively regulate complex multiphase reaction processes in liquid-phase lithium–
+sulfur (Li–S) systems. However, whether RMs can enable efficient and closed-loop redox cycling under solid–state conditions
+remains a central challenge. To address this issue, this review systematically summarizes and compares sulfur conversion pathways
+across different electrolyte systems, with a particular focus on the mechanistic roles of RMs in regulating the transformation of
+sulfur species in ASSLSBs. It further discusses the relationship between the molecular structures of representative RMs and their
+electrochemical performance. The key scientific problems and engineering challenges currently facing the field are identified.
+The review outlines future directions for molecular designs of tunable RMs and a deeper understanding of redox mechanisms in
+solid–state environments to provide theoretical guidance and design strategies for high–performance ASSLSBs.
+1
+Introduction
+All-solid-state lithium–sulfur batteries (ASSLSBs) have attracted
+considerable attention as highly promising next-generation high-
+energy-density energy storage systems owing to the sulfur
+cathode’s ultrahigh theoretical capacity, natural abundance, and
+low cost [1–3]. However, their practical electrochemical perfor-
+mance still falls far short of theoretical expectations [4–10]. The
+fundamental bottleneck lies in the intrinsically sluggish redox
+kinetics under solid-state conditions and the severely constrained
+charge transport pathways.
+In liquid electrolyte lithium-sulfur batteries (LSBs), effective
+electrolyte wetting creates continuous electronic and lithium-
+ion transport pathways among the active materials, electronic
+conductors, and electrolytes. This enables efficient and homo-
+geneous utilization of sulfur species [11–17]. In contrast, solid
+electrolytes are unable to effectively infiltrate porous cathode
+architectures, confining sulfur conversion reactions to the three-
+phase boundaries where sulfur, conductive additives, and solid
+electrolytes coexist [18–22]. This solid-state reaction characteristic
+not only leads to pronounced polarization but also induces
+highly heterogeneous reaction distributions, thereby promoting
+the localized accumulation of electrochemically inactive sulfur or
+Li2S [23–28]. Such accumulation ultimately results in electrode
+passivation and reduced sulfur utilization [29–31]. Therefore,
+restricted charge transport and interfacial failure constitute the
+most fundamental scientific challenges governing solid-state
+© 2026 Wiley-VCH GmbH
+Advanced Energy Materials, 2026; 16:e71256
+https://doi.org/10.1002/aenm.71256
+1 of 27
+
+=== 第 2 页 ===
+FIGURE 1
+Mechanistic elucidation of RMs in solid-state lithium–sulfur batteries.
+sulfur conversion and remain the primary obstacles limiting the
+performance of all solid-state lithium–sulfur batteries.
+Although various strategies, including the construction of con-
+ductive networks, regulation of solid electrolyte particle size, and
+optimization of electrode microstructures, have been proposed
+to enhance local interfacial reactivity, these approaches are
+intrinsically limited to improving the reaction efficiency of a finite
+number of three-phase boundaries [32–34]. As a result, they are
+unable to substantially enhance overall sulfur conversion effi-
+ciency at the electrode scale or realize a spatially homogeneous
+distribution of reaction sites.
+In recent years, redox mediators (RMs) have attracted increas-
+ing attention as a promising strategy to address these kinetic
+bottlenecks in all-solid-state lithium–sulfur batteries by enabling
+indirect electron transfer and interface-confined catalytic cycles
+under solid-state constraints [35–37]. However, the functions,
+operating mechanisms, and design principles of RMs in all-
+solid-state lithium–sulfur batteries differ markedly from those
+established in liquid electrolyte systems [38–41]. Existing reviews
+on RMs mainly focus on liquid-state lithium–sulfur batteries,
+leaving critical knowledge gaps regarding how RMs operate
+and evolve in solid-state sulfur conversion systems. Therefore, a
+dedicated and mechanism-oriented review is urgently required to
+redefine the unique roles of RMs in all-solid-state lithium–sulfur
+batteries. Figure 1 and Movie S1 illustrate the working mech-
+anisms of RMs at the cathode, interfacial regions, and anode,
+highlighting their contributions to charge transfer, ion migration,
+interfacial stability, and the realization of high-energy-density
+performance.
+In this context, the review systematically summarizes the work-
+ing mechanisms and recent research progress of RMs in all-solid-
+state lithium–sulfur batteries. We first compare the thermody-
+namic and kinetic characteristics of sulfur conversion pathways
+in liquid, quasi-solid, and fully solid-state systems to elucidate the
+necessity of introducing RMs under solid-state conditions. Sub-
+sequently, we redefine the fundamental concept of RMs in solid-
+state environments and classify their mediation mechanisms into
+localized redox-state relay mediation and chemically regulated
+reaction pathway reconstruction. On this basis, representative
+organic and inorganic RMs are comprehensively discussed with
+particular emphasis on their structural characteristics, mediation
+2 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+FIGURE 2
+Comparison of sulfur electrochemistry between liquid and solid-state lithium–sulfur architectures [42]. Copyright 2024, Springer
+Nature America, Inc.
+behaviors, and compatibility with various solid-state lithium–
+sulfur battery systems. Finally, we propose key design principles
+and future research directions for RMs in all-solid-state lithium–
+sulfur batteries, aiming to provide theoretical guidance and
+rational design strategies for achieving efficient, reversible, and
+scalable solid-state sulfur conversion.
+2
+Sulfur Conversion Pathways in Liquid Versus
+Solid-State Lithium–Sulfur Batteries
+How can ASSLSBs truly realize their ultrahigh theoretical energy
+density when the sulfur conversion pathways under solid-state
+conditions remain unresolved? In liquid Li–S systems, the “solid–
+liquid–solid” reduction mechanism has been well established,
+corresponding to two typical voltage plateaus, but directly apply-
+ing this framework to solid-state batteries is questionable. The
+phase transition characteristics, stability of intermediates, and
+voltage responses in ASSLSBs differ fundamentally from those in
+liquid systems, yet current understanding remains highly limited.
+Unless these critical issues are addressed, the intrinsic energy
+advantage of ASSLSBs will be difficult to achieve in practice.
+From a thermodynamic perspective, the formation of voltage
+plateaus is primarily associated with phase transitions. During
+two-phase coexistence, the Gibbs free energy (ΔG) of the system
+remains nearly constant, leading to a stabilized voltage. In
+contrast, in solid-solution reactions, the free energy changes
+smoothly with ion concentration without distinct phase transi-
+tions, and thus voltage plateaus are generally absent. Therefore,
+the appearance of a voltage plateau is closely related to whether
+the material undergoes a pronounced phase transition and its
+associated thermodynamic behavior. Sun and colleagues pro-
+vided a fundamental overview of all-solid-state Li–S batteries
+through an in-depth study of the basic redox mechanisms of
+solid-state sulfur [42].
+Figure 2 systematically compares the differences in sulfur reduc-
+tion pathways and their corresponding thermodynamic behaviors
+between liquid and solid-state lithium–sulfur batteries. In con-
+ventional liquid Li–S batteries, sulfur reduction follows a typical
+“solid–liquid–solid” mechanism, characterized by a stepwise
+decrease in free energy. During discharge, elemental sulfur (S8)
+is gradually converted into a series of soluble lithium polysulfide
+(LiPS) intermediates (e.g., Li2S8, Li2S6, Li2S4, Li2S2), ultimately
+forming insoluble Li2S. Each key transformation approaches
+thermodynamic equilibrium, resulting in a relatively smooth
+change in ΔG and a distinct two-plateau voltage profile.
+In contrast, the sulfur conversion mechanism in ASSLSBs
+remains unclear. On the right side of the figure, a cubic “black
+box” represents the potentially complex and poorly understood
+reaction pathways in solid-state systems. Some intermediates
+(e.g., Li2S7, Li2S6, Li2S5) are illustrated in gray, indicating their
+Advanced Energy Materials, 2026
+3 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+FIGURE 3
+Comparison of key features between liquid and solid-state lithium–sulfur batteries. (a) Voltage plateau differences under different
+lithium–sulfur conversion pathways. (b) Energy density composition and lithium-ion transport pathway differences of various solid-state electrolytes.
+(c) Physical and electrochemical differences between LSBs and ASSLSBs.
+ambiguous reaction pathways or the lack of definitive exper-
+imental evidence confirming their existence. The presence of
+these intermediates depends on factors such as the type of solid
+electrolyte, ionic conductivity, and interfacial environment, and
+they are therefore categorized as “hypothetical species.”
+In certain solid-state systems, if the reaction tends toward a
+fully solid-phase pathway, sulfur is directly converted to Li2S
+through a “solid–solid” mechanism, accompanied by a single
+voltage plateau (∼2.1 V), indicative of a one-step phase tran-
+sition. Moreover, in the “quasi-solid” conversion pathway, the
+solubility of generated polysulfides lies between that of liquid
+and solid systems. During discharge, sulfur is primarily reduced
+to short-chain, low-solubility lithium polysulfides (e.g., Li2S4,
+Li2S2), which are then further reduced to Li2S. Due to the
+significant suppression of long-chain polysulfide formation, the
+corresponding voltage plateau becomes markedly shortened or
+even disappears entirely [43].
+To illustrate the impact of the different sulfur conversion mecha-
+nisms more intuitively on the electrochemical behavior of the bat-
+teries, Figure 3a depicts a comparison of typical capacity–voltage
+curves for solid-state, quasi-solid-state, and liquid lithium–
+sulfur batteries. The liquid system exhibits distinct dual voltage
+plateaus, reflecting the multi-step “solid–liquid–solid” phase
+transitions; the quasi-solid system shows shortened or absent
+plateaus due to the limited solubility of short-chain polysulfides;
+the solid system presents a single, smooth voltage plateau, indi-
+cating a one-step “solid–solid” phase transition. These differences
+in capacity–voltage curves reveal the varying sulfur conversion
+mechanisms across systems and provide valuable insights for the
+optimization of all-solid-state lithium–sulfur batteries. Figure 3b
+shows the lithium-ion transport characteristics of three types of
+electrolytes (liquid, quasi-solid, and all-solid) in lithium–sulfur
+battery systems, as well as the differences in their energy density
+composition. The liquid system employs ether-based electrolytes,
+where lithium ions diffuse freely in the solvent, resulting in
+relatively high ionic mobility [44]. The quasi-solid system utilizes
+gel polymer or inorganic composite electrolytes that form flexible
+network structures to facilitate lithium-ion transport. In contrast,
+the solid system relies on polymer or inorganic solid electrolytes,
+with ion migration dependent on polymer segmental motion or
+crystalline defect pathways [45–47]. The energy density compo-
+sition chart below compares the mass fractions of electrolyte,
+4 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+FIGURE 4
+Localized redox-state relay mediation mechanism in solid-state lithium–sulfur batteries. (a) Spatially confined RMox/RMred sites in the
+composite cathode construct localized redox-state relay channels between the conductive network and adjacent sulfur/Li2S regions, thereby accelerating
+sulfur conversion kinetics, lowering reaction barriers, expanding effective reaction interfaces, and enabling reversible redox-state cycling. (b) At the
+cathode–electrolyte interface, confined RM or redox-active interphases enhance local charge transfer, mitigate interfacial contact loss, reduce interfacial
+resistance, and promote S/Li2S conversion while avoiding the formation of continuous electronic conduction pathways across the solid electrolyte.
+cathode, anode, and other components across these systems [48].
+As the system evolves from liquid to solid, the proportion of
+electrolyte in the total mass and volume gradually increases.
+Nevertheless, all-solid-state lithium–sulfur batteries eliminate
+the need for separators and liquid electrolytes, and can be directly
+assembled via solid electrolytes, significantly simplifying the
+cell architecture and thereby offering greater energy storage
+potential [49]. In addition to differences in energy density, voltage
+profiles, and ion-transport mechanisms, Figure 3c compares the
+insulation performance, volume expansion, shuttle effect, and
+interface characteristics of conventional liquid-state lithium–
+sulfur batteries and ASSLSBs. Both systems exhibit extremely low
+conductivity (∼5 × 10−30 S/cm) and a similar volume expansion of
+approximately 80%. The pronounced differences between sulfur
+redox reactions in liquid-phase and solid-phase environments
+raise an important question: from a commercialization per-
+spective, which pathway offers greater advantages—solid-state
+sulfur conversion or liquid-phase sulfur conversion? Liquid-
+phase sulfur conversion benefits from solvent-mediated disso-
+lution, transport, and redeposition of polysulfides, enabling fast
+kinetics and high active-material utilization [50–52]. However,
+it inherently suffers from severe polysulfide shuttling, safety
+concerns, and the need for large electrolyte volumes, all of which
+limit its suitability for high-energy and long-life commercial
+cells [53, 54]. In contrast, solid-state sulfur conversion eliminates
+dissolution-driven shuttling and therefore provides intrinsic
+safety, higher theoretical energy density, and compatibility with
+lean electrolyte or electrolyte-free designs. Yet, the insulating
+nature of both sulfur and Li2S renders solid–solid conversion
+extremely sluggish, making interfacial engineering, charge/ion
+transport regulation, and RM design essential hurdles that must
+be overcome before industrial deployment. From a commercial
+standpoint, solid-state sulfur conversion offers superior theoret-
+ical advantages, but its success depends on achieving liquid-
+like kinetics and reversibility through material and structural
+innovations [55].
+3
+Basic Definition and Mediation Mechanisms
+of RM
+Redox mediators are a class of molecules, polymers, ions, or
+compounds that can undergo reversible redox transformations
+during electrochemical cycling [56–58]. Their core function is
+to mediate the transfer of electron or hole equivalents [59–61].
+Owing to their structural and functional regenerability, RMs
+generally do not alter the final reaction products, but they
+can effectively overcome the sluggish charge-transfer kinetics
+caused by the intrinsic insulating nature of sulfur species [62]. In
+addition, by regulating the reaction pathways and the conversion
+of sulfur intermediates, RMs can make the conversion process
+more controllable and lower the reaction energy barriers, thereby
+suppressing side reactions and improving the overall reversibility
+and structural stability of the system [63].
+Advanced Energy Materials, 2026
+5 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+Importantly, the mediation behavior of RMs is closely associated
+with their physical state within the battery system. In liquid
+electrolyte systems, soluble RMs can mediate the transfer of
+electron or hole equivalents between electronically accessible
+electrode surfaces and sulfur species through diffusion-assisted
+homogeneous reactions. In contrast, in solid-state lithium–sulfur
+batteries, the system lacks continuous liquid-phase mass trans-
+port and is constrained by limited solid–solid contact, restricted
+molecular diffusion, and interfacial charge-transfer resistance.
+Therefore, the liquid-phase picture that relies on macroscopically
+long-range diffusion of RM molecules cannot be directly applied
+to solid-state lithium–sulfur batteries. In solid-state environ-
+ments, RM mediation should instead be described as interfacial
+confinement and localized redox-state relay. Therefore, the medi-
+ation role of RMs must be reinterpreted by considering the
+specific constraints of solid-state electrochemical systems.
+3.1
+Solid-State Localized Redox-State Relay
+Mediation
+The incorporation of RMs into solid-state lithium–sulfur batteries
+can construct localized RMox/RMred redox-state relay channels at
+solid–solid reaction interfaces, thereby promoting the transfer of
+electron or hole equivalents between the conductive network and
+adjacent sulfur/Li2S domains [64]. This RM-mediated process
+should be clearly distinguished from the diffusion-dominated
+redox shuttle mechanism in liquid Li–S batteries. In solid-state
+cathodes, the absence of continuous liquid-phase mass transport
+makes it difficult for RMs to undergo macroscopically long-range,
+round-trip migration between the carbon matrix and sulfur or
+Li2S particle surfaces [65]. Therefore, RMs in ASSLSBs should
+be regarded as spatially confined redox-active sites rather than
+molecular shuttles capable of long-range migration.
+As shown in Figure 4a,b, this process can establish a localized
+redox-state relay chain among solid particles, thereby enhancing
+nanoscale charge coupling between the conductive network and
+neighboring sulfur/Li2S domains, while reducing the dependence
+on continuous three-phase boundaries and ideal intimate solid–
+solid contact [66]. Specifically, RM sites electronically coupled
+with the conductive network first undergo local electrochem-
+ical oxidation or reduction, forming RMox or RMred states
+[67]. Therefore, the truly transported species in this process
+are electron or hole equivalents, rather than RM molecules
+themselves.
+The localized redox-state regeneration of RMs can be generally
+expressed as:
+RMox + ne−⇌RMred
+In this configuration, RMs generally exist as insoluble, weakly
+soluble, polymer-immobilized, framework-confined, or solid-
+catholyte-integrated redox-active sites located inside the sulfur
+cathode, near conductive carbon domains, or at sulfur/solid-
+state electrolyte (SSE) interfaces. Through nanoscale solid–solid
+contact, interfacial redox-state relay, and localized electronic
+coupling, these RM sites promote cathode-side charge transfer
+[68]. This mechanism can effectively bypass the direct electron-
+injection barrier caused by the intrinsic insulating nature of
+sulfur and Li2S, while avoiding the uncontrolled shuttle behavior
+associated with long-range RM migration in liquid systems.
+To achieve efficient mediation, RMs should possess redox
+potentials matched with sulfur/Li2S conversion, strong electronic
+coupling with the conductive network, sufficient local contact
+with sulfur species, and good chemical compatibility with the
+SSE.
+It should be emphasized that the function of RMs is not to
+increase the electronic conductivity of the entire solid electrolyte,
+but to provide reversible RMox/RMred redox-state relay at cathode-
+side localized interfaces [69]. Properly designed RMs should
+remain spatially confined and maintain low bulk electronic
+conductivity, so that they only promote local charge transfer
+between conductive domains and adjacent sulfur/Li2S regions
+without forming continuous electronic pathways across the solid
+electrolyte. Therefore, under proper spatial confinement, RMs
+do not directly induce lithium dendrite formation. However, if
+RMs react with the SSE, exhibit excessive electronic conduc-
+tivity, or form continuous RM-derived electronic percolation
+pathways, interfacial electronic leakage may occur and indirectly
+disturb local Li+ deposition behavior. Accordingly, RM design
+in ASSLSBs should simultaneously consider redox reversibility,
+spatial confinement, interfacial compatibility, and suppression of
+electronic leakage.
+Therefore, to match the localized redox-state relay mediation
+mechanism in ASSLSBs, RMs are preferably located in cathode-
+side regions, including: (1) inside the sulfur composite cath-
+ode, where they bridge electronically inaccessible insulating
+domains and activate deeply embedded sulfur species; (2) at
+sulfur/SSE interfaces, where they improve solid–solid contact and
+lower interfacial electron-transfer barriers; (3) near conductive
+network/SSE contact regions, where they construct localized
+electron-ion coupling nodes and expand the effective reaction
+interface. Regardless of their specific location, the essential
+transport picture should be understood as localized RMox/RMred
+redox-state relay rather than macroscopic migration of RM
+molecules.
+3.2
+Chemical Mediation Mechanisms: Reactant
+Activation and Reaction Pathway Reconstruction
+In ASSLSBs, mediated electron transfer (MET) can only enable
+indirect electron transport but is fundamentally incapable of
+overcoming the intrinsically high reaction barriers of solid sulfur
+species or addressing the “pathway interruption” caused by
+product accumulation and the absence of soluble intermediates
+at solid–solid interfaces. Consequently, chemically regulated RMs
+have emerged as a key strategy to enhance the reaction kinetics
+of solid-state sulfur conversion. The essence of their chemi-
+cal mediation lies in enabling reaction pathway reconstruction
+through reversible chemical interactions between RMs and solid
+sulfur species. As shown in Figure 5, under this mechanism, the
+direct conversion of “solid sulfur species →targeted products” is
+replaced by a continuous sequence of “solid sulfur species→RM–
+sulfur composite intermediates→targeted products.” This not
+only weakens the structural stability of solid sulfur species
+through chemical bond activation and lowers the associated
+reaction barriers, but also introduces intermediate phases that
+6 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+FIGURE 5
+Schematic illustration of chemical mediation by RMs enabling sulfur reactant activation and low barrier pathway reconstruction in
+all-solid-state lithium–sulfur batteries.
+bridge otherwise discontinuous steps, thereby resolving the fun-
+damental issues of sluggish solid-state reactivity and pathway
+discontinuity in ASSLSBs [70].
+Reactant activation mediation focuses on enhancing the intrinsic
+reactivity of solid sulfur species, which otherwise cannot be
+efficiently oxidized or reduced along the conventional pathway.
+Through reversible coordination, hydrogen bonding interactions,
+polarization regulation, or electron density redistribution, RMs
+can modify the chemical state of sulfur species and substantially
+reduce the delithiation barrier of Li2S, thereby accelerating the
+conversion of solid sulfur phases [71, 72].
+In contrast, reaction pathway reconstruction mediation repre-
+sents a deeper level of chemical intervention. Because solid
+electrolytes cannot sustain the long-chain LiPSs commonly found
+in liquid systems, the traditional S8→Li2Sn→Li2S sequence often
+fails to proceed in the solid-state, leading to severely hindered
+sulfur conversion [73]. Through reversible reactions with sulfur-
+containing species, RMs generate new sulfur-based intermedi-
+ates, including thiosulfate or polythiosulfate species (S2O3
+2−),
+organic R-Sn-R intermediates, and small sulfur units (S2), thus
+constructing an alternative reaction pathway with a lower energy
+barrier that is better suited to solid-state environments [74]. This
+mechanism effectively “rewrites the sulfur conversion sequence,”
+bypassing the energy-intensive steps and solid-state diffusion
+constraints that otherwise hinder deep sulfur reduction and the
+reversible oxidation of Li2S.
+Overall, reactant activation mediation primarily addresses the
+poor intrinsic reactivity of solid sulfur species, whereas path-
+way reconstruction mediation resolves the inability of the
+solid-state system to sustain the conventional sulfur reaction
+sequence [75]. These two modes respectively target the core
+limitations of low intrinsic reactivity and missing interme-
+diates in ASSLSBs. In situations where MET cannot alter
+the chemical nature of solid sulfur species or overcome the
+interruption of the conversion pathway, these chemical medi-
+ation mechanisms provide indispensable means to improve
+solid–solid interfacial kinetics and enable high sulfur uti-
+lization, high reversibility, and long-term cycling stability in
+ASSLSBs.
+3.3
+Space-Charge Regulation and RM-Induced
+Interfacial Charge Redistribution
+In addition to localized redox-state relay, regulating space-charge
+effects at solid–solid interfaces is also important for understand-
+ing RM-mediated solid-state lithium–sulfur chemistry. When
+a solid electrolyte comes into contact with active materials,
+conductive phases, or interfacial components in a composite
+cathode, differences in electrochemical potential, Li+ chemi-
+cal potential, and interfacial electronic structure may induce
+the formation of a space charge layer (SCL), accompanied
+by Li+ enrichment or depletion, interfacial potential bending,
+and a built-in electric field [76, 77]. In particular, when a
+Li+-depleted SCL forms at the interface, the Li+ migration
+barrier across the cathode/electrolyte interface increases, which
+may further lead to nonuniform sulfur/Li2S conversion, espe-
+cially in poorly contacted S/Li2S–solid electrolyte interfacial
+regions [78].
+Advanced Energy Materials, 2026
+7 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+Previous studies on solid-state battery interface engineering
+have shown that SCL can be regulated by balancing interfa-
+cial electrochemical potentials, modulating interfacial electric
+fields, optimizing defect concentrations, and reconstructing Li+
+transport pathways. Among these strategies, studies on strong-
+dipole or polar groups have shown that local polar environments
+can regulate charge transfer, promote Li+ migration, and sta-
+bilize interfacial chemistry [79]. Based on this understanding,
+RMs containing strongly polar functional groups can reversibly
+interact with Li+ and influence the local Li+ coordination
+environment and migration behavior near solid-state interfaces,
+thereby synergistically promoting S/Li2S conversion [80]. Such
+molecular-scale Li+ coordination and migration regulation also
+provides design guidance for further modulating SCL-related
+interfacial Li+ redistribution.
+In addition, inorganic oxide doping or halogen-component incor-
+poration can regulate local defect chemistry, interfacial chemical
+potentials, and charge distribution from the perspective of mate-
+rial composition, thereby alleviating SCL-induced interfacial
+polarization [81, 82]. Unlike conventional inorganic doping, inor-
+ganic RMs or halogen-type redox-active components place greater
+emphasis on reversible valence-state evolution and local charge
+buffering. In spatially confined solid–solid interfacial environ-
+ments, these redox-active sites can realize local charge transfer
+through reversible redox-state cycling, thereby improving S/Li2S
+conversion. A typical example is the iodine/iodide system, in
+which reversible I−/I2/I3
+−redox chemistry can function as an
+RM at solid-state interfaces, promoting sluggish sulfur conversion
+reactions and providing design inspiration for further regulating
+interfacial charge distribution and SCL evolution.
+It should be emphasized that the goal of space-charge regulation
+should not be simply understood as the complete elimination of
+SCL. Instead, it should be to tune the Li+ enrichment/depletion
+state, carrier concentration, and potential gradient within the
+SCL, thereby mitigating its barrier effect and, where favorable,
+generating Li+-rich or low-barrier interfacial regions that facili-
+tate Li+ migration and reactant conversion. This understanding
+provides new insights into the molecular and structural design of
+strongly polar organic RMs, halogen-type RMs, and redox-active
+inorganic RMs for SCL-oriented regulation.
+4
+Differences Between Redox Mediators and
+Conventional Catalysts in Solid‑State
+Lithium–Sulfur Batteries
+All-solid-state lithium–sulfur batteries (ASSLSBs) face several
+critical challenges, including the low electrochemical activity
+of sulfur cathodes, the intrinsically poor electronic and ionic
+transport properties of both sulfur and lithium sulfide (Li2S), and
+sluggish electrochemical reaction kinetics at multiphase solid–
+solid interfaces. Conventional heterogeneous catalysts generally
+lower reaction barriers by regulating surface adsorption and
+the binding strength of reaction intermediates. However, the
+effectiveness of such “anchoring-type” catalysts is often limited
+in solid-state systems, not only because mass transport and
+interfacial contact are restricted, but also because fixed surface
+active sites cannot readily adapt to the continuously evolving
+interfacial structures and reaction environments during S/Li2S
+conversion [83].
+Unlike conventional catalysts, RMs can not only establish
+dynamic charge-transfer pathways within confined solid–solid
+interfacial environments through the reversible interconversion
+of RMox/RMred, but also undergo reversible chemical coupling
+with neighboring sulfur species to form short-lived RM–S inter-
+mediates, thereby reconstructing the S8/Li2S conversion pathway.
+Therefore, the essential role of RMs is to establish a closed “elec-
+trochemical regeneration-chemical mediation” cycle that trans-
+forms an originally direct, high-barrier solid–solid conversion
+into a reversible mediated pathway consisting of multiple lower-
+barrier steps, thereby alleviating reaction retardation caused by
+the limited availability of conventional triple-phase boundaries.
+From the perspective of electron-transfer mechanisms, RM-
+mediated processes can be understood in terms of inner-sphere
+and outer-sphere electron-transfer pathways (Figure 6a,b) [84,
+85]. During inner-sphere electron transfer, transient coordination
+structures, bridging configurations, or chemical bonds may form
+between the RM and sulfur species. Electrons are then transferred
+through the resulting bridging structure, often accompanied by
+bond formation or cleavage. This mechanism generally provides
+relatively strong orbital coupling, thereby enhancing electron
+transfer and facilitating Li2S decomposition or sulfur-species
+conversion.
+By contrast, outer-sphere electron transfer does not involve
+direct bond formation. When the energy levels of the donor
+and acceptor are appropriately matched, electron transfer can
+proceed through through-space tunneling or nonbonding orbital
+coupling, with the electrode or RM acting primarily as an electron
+donor or acceptor [87]. This process can generally be described
+using Marcus theory:
+Δ𝐺‡ = (𝜆+ Δ𝐺)
+2
+4𝜆
+(1)
+Accordingly, the electron transfer rate constant is expressed as:
+𝐾ET = 𝐴𝑒𝑥𝑝
+[
+−(𝜆+ Δ𝐺)
+2
+4𝜆𝐾B𝑇
+]
+(2)
+here, ΔG is the free energy change, λ is the reorganization
+energy, and A is related to electronic coupling. The rate is fastest
+when ΔG = −λ. This is a useful guide for designing RMs: putting
+more overpotential does not always speed up the reaction and
+may even cause side reactions.
+In solid-state lithium–sulfur systems, RMs can promote S/Li2S
+conversion through multiple mechanisms. For example, organic
+RMs with π-conjugated structures can enhance orbital coupling
+with sulfur species, thereby facilitating the localized transfer
+of electron or hole equivalents near electronically insulating
+sulfur species [86, 88]. RMs containing polar functional groups
+or cyclic coordination motifs may regulate the Li+ coordination
+environment and promote coupling between Li+ migration and
+electron transfer, namely coupled ion-electron transfer (CIET). In
+addition, short-lived RM–sulfur-species complexes may polarize
+S─S or Li─S bonds, thereby dividing high-barrier processes, such
+8 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+FIGURE 6
+Schematic illustration of the inner-sphere and outer-sphere electron-transfer pathways of redox mediators in all-solid-state lithium–
+sulfur batteries. (a) Inner-sphere electron transfer involving transient mediator-sulfur-species coordination or bridging structures, accompanied by bond
+formation or cleavage. (b) Outer-sphere electron transfer without direct bond formation, together with a schematic Marcus free-energy diagram and
+possible coupled ion-electron-transfer pathways [86]. Copyright 2025, Wiley-VCH GmbH.
+as Li2S decomposition, into multiple elementary steps with lower
+energy barriers [89].
+Therefore, the key distinction between RMs and conventional
+catalysts does not lie simply in whether they are “immobilized”
+or “mobile,” but rather in whether they can establish dynamic
+charge-transfer pathways through reversible redox-state cycling.
+Conventional catalysts primarily rely on fixed surface sites to
+regulate adsorption and reaction barriers, whereas RMs can
+extend the effective reaction region at solid–solid interfaces
+and promote sulfur-species conversion through localized redox
+relaying, inner-sphere or outer-sphere electron transfer, and CIET
+processes [90–95].
+5
+Types of Redox Mediators and Specific
+Catalytic Mechanisms
+Although RMs are often simply classified into organic and inor-
+ganic categories, their distinctions extend far beyond elemental
+composition. In fact, organic and inorganic RMs exhibit funda-
+mental differences in electronic structure, redox mechanisms,
+interaction modes with sulfur species, and chemical compat-
+ibility with solid electrolytes, all of which collectively dictate
+their specific mediation behaviors and practical advantages in
+lithium–sulfur systems.
+Organic RMs typically consist of redox-active functional groups
+such as carbonyls, imides, disulfide bonds, quinonoid units, and
+viologen moieties. Their redox activity originates from localized
+electron rearrangements at the molecular orbital level as well
+as the tunable electronic structures provided by π-conjugated
+frameworks. Through deliberate molecular design, the redox
+potential, molecular polarity, electron density distribution, and
+Li+ coordination capability of organic RMs can be precisely regu-
+lated. During electrochemical operation, organic RMs commonly
+interact with sulfur species through reversible coordination,
+hydrogen bonding, polarization effects, or dynamic covalent
+bond exchange, forming short-lived “RM–sulfur composite inter-
+mediates” that enable reactant activation or reaction-pathway
+reconstruction. These intermediates subsequently decompose
+after the reaction, allowing complete regeneration of the RM and
+constant cycling.
+In contrast, inorganic RMs such as I−/I3
+−, Br−/Br3
+−, multi-
+valent metal oxides, or polyoxoanionic clusters primarily rely
+on delocalized ionic states, variable valence metal centers, or
+multielectron disproportionation reactions to mediate electron
+transfer. Their operation generally does not involve molecular-
+Advanced Energy Materials, 2026
+9 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+FIGURE 7
+Classification of organic redox mediators and their mechanistic roles in lithium–sulfur batteries with (a) carbonyl-based RMs,
+(b) sulfur-containing RMs, and (c) other RMs. (d) Carbonyl-based RMs in lithium–sulfur batteries. (e) Sulfur-containing RMs in lithium–sulfur batteries.
+scale covalent bond reorganization or the formation of stable
+composite intermediates. Instead, electron transport in inor-
+ganic RMs is dominated by rapid charge exchange of ionic
+redox couples and Lewis acid-base interactions, enabling effi-
+cient interfacial electron transfer and charge compensation at
+electrode and interfacial regions. However, the chemical tun-
+ability of inorganic RMs is typically more limited, with their
+accessible potential windows and chemical stability largely con-
+strained by the intrinsic structural characteristics of the inorganic
+framework.
+Based
+on
+these
+distinctions,
+the
+following
+sections
+will
+systematically discuss the properties, mediation mechanisms,
+and application scenarios of different classes of RMs in
+lithium–sulfur systems, providing a theoretical foundation
+for the rational selection and design of high-performance
+RMs.
+5.1
+Organic Redox Mediators
+Organic RMs are primarily composed of organic molecules
+that often contain functional groups with strong electron affin-
+ity, such as quinones, ketones, alcohols, and disulfides. These
+molecules typically undergo electron exchange in redox reactions
+through covalent or non-covalent interactions. They can undergo
+reversible redox reactions within a certain potential range,
+facilitating electron transfer. This is typically manifested as the
+transformation of some functional groups within the molecule
+between their oxidized and reduced states. Additionally, organic
+RMs can effectively transfer electrons, enhance the efficiency of
+electrochemical reactions, and reduce energy loss [96].
+According to the differences in functional group structures,
+organic RMs can be mainly classified into three categories:
+carbonyl-based organic RMs, sulfur-containing organic RMs, and
+10 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+other types of organic RMs (Figure 7a–c) [97]. The mechanism of
+quinone-based RMs is illustrated in Figure 7d. Upon reduction,
+a quinone molecule (e.g., NQ or AQ) accepts an electron and
+coordinates with Li+ to form a monoanionic intermediate, in
+which each carbonyl group is converted into an ─O−species
+and stabilized through Li+ coordination, yielding a semiquinone
+structure [98]. Furthermore, these anionic intermediates can
+interact with lithium polysulfides (Li2Sx, x = 4–8) to form
+coordination complexes, thereby accelerating LiPS conversion
+kinetics, regulating deposition behavior, and suppressing the
+shuttle effect [99]. Figure 7e illustrates the mechanism of sulfur-
+containing RMs in lithium–sulfur batteries. During charge and
+discharge, these mediators enable efficient electron and lithium-
+ion transport through the reversible breaking and forming of S─S
+and C─S bonds, facilitating the conversion of polysulfides in the
+cathode and promoting uniform Li2S deposition. For example,
+Zhang et al. developed linear thiols as chemical energy transfer
+agents to regulate polysulfide conversion in lithium–sulfur batter-
+ies. Among them, 1,8-octanedithiol (1,8-OT) exhibits strong sulfur
+affinity and can bind polysulfides via S─S bonds, thereby accel-
+erating Li2S nucleation [100]. Additionally, RMs with dynamic
+sulfur chain structures possess self-healing properties. Huang
+et al. employed the self-healing properties of dynamic covalent
+disulfide bonds to design a polymer electrolyte with intrinsic self-
+repairing capability. The assembled solid-state lithium–sulfur
+batteries exhibited excellent interfacial self-healing ability and
+maintained stable interfacial contact [101]. These advantages
+make them widely applicable in both liquid and solid-state
+lithium–sulfur batteries.
+5.2
+Inorganic Redox Mediators
+In general, inorganic RMs (iRMs) are inorganic species pos-
+sessing reversible valence evolution or multielectron transfer
+capability, whose activity originates from reversible electronic
+rearrangements at anionic groups or metal centers during redox
+processes [102]. According to their chemical composition and
+reaction characteristics, iRMs can be broadly classified into three
+categories: halogen and polyhalide mediators, multivalent metal
+sulfide/oxide mediators, and polyanionic or composite inorganic
+framework mediators [103–105].
+Distinct from conventional solid-state catalysts that rely on fixed
+active sites to stabilize reaction transition states, the fundamental
+mechanism of iRMs is based on MET driven by reversible
+valence changes [106]. Through their intrinsic redox cycling,
+iRMs can act as dynamic electron or hole carriers between
+the electrode and sulfur species, thereby reconstructing electron
+transfer pathways and decomposing a single high-energy direct
+electron injection step into multiple consecutive steps with lower
+activation barriers [107–109]. Meanwhile, certain inorganic medi-
+ators generate short-lived oxidized or metastable intermediate
+species during cycling, which can directly activate elemental
+sulfur or Li2S via chemical oxidation or reduction, enabling
+chemical promotion of sulfur conversion rather than relying
+solely on direct electrochemical reactions at localized electrode
+interfaces. In addition, many iRMs intrinsically exhibit partial
+ionic or electronic conductivity, allowing them to simultane-
+ously mediate redox reactions and optimize interfacial charge
+transport networks, thereby effectively reducing polarization
+and suppressing continuous interfacial impedance accumulation
+[110].
+In ASSLSBs, the absence of liquid-phase diffusion fundamentally
+alters the function of iRMs compared with liquid systems. Under
+such conditions, iRMs typically exist in interfacially confined,
+locally distributed, or embedded forms within sulfur cathodes or
+at sulfur/solid–electrolyte interfaces, rather than acting as freely
+diffusing homogeneous electron shuttles. In this solid-state reac-
+tion environment, inorganic redox mediators can extend sulfur
+conversion reactions from the highly restricted “solid electrolyte
+| sulfur | conductive additive (SE|S|C)” three-phase interface
+to two-phase reaction interfaces such as “SE|Li2S” or “SE|S”,
+significantly increasing the accessibility of active reaction sites
+and activating sulfur domains that are otherwise electronically or
+ionically inaccessible [111]. By virtue of a coupled electrochemical
+oxidation/reduction chemical conversion mechanism, iRMs can
+effectively bypass the high activation barriers associated with
+direct Li2S oxidation or elemental sulfur reduction, thereby
+alleviating critical challenges in ASSLSBs, including difficult
+initial activation, severe polarization, and sluggish solid–solid
+conversion kinetics [112].
+Based on these characteristics, different classes of inorganic RMs
+exhibit distinct mediation behaviors and functional advantages
+in ASSLSBs. Specifically, halogen and polyhalide mediators (e.g.,
+I−/I2/I3
+−and Br−/Br3
+−couples) enable cross-interface electron
+transfer and chemical oxidation of Li2S through reversible halo-
+gen valence cycling, thereby overcoming three-phase interface
+limitations and accelerating solid-state sulfur conversion kinetics
+(Figure 8a,b) [113, 114]. Multivalent metal sulfide/oxide mediators
+(such as VS2, WS2, TiS2, In2S3, and metal halides) exploit metal
+center valence modulation and mixed ionic-electronic conduc-
+tivity to construct continuous charge transport networks within
+the cathode while catalyzing the transformation of insulating
+by-products into conductive phases, thus enhancing sulfur uti-
+lization and stabilizing solid electrolyte interfaces. In contrast,
+polyanionic or composite inorganic framework mediators (e.g.,
+LPSI, LBPSI) derive their redox activity from reversible structural
+units such as S─S, P─S, or X─S (X = I, Br) linkages and simulta-
+neously function as both solid electrolytes and RMs (Figure 8c).
+Through distributed interfacial activation and structural flexi-
+bility, these materials systematically improve sulfur conversion
+reversibility, cycling stability, and high-rate performance in solid-
+state systems [115–117].
+Notably, transition-metal-based inorganic RMs with relatively
+high electronic conductivity, such as VS2, WS2, and TiS2, also
+introduce a significant performance-safety trade-off. Moderate
+localized electronic conduction can improve interfacial charge
+transfer and expand the effective reaction region. However,
+when the RM loading is excessive or when a continuous elec-
+tronic percolation network forms at the cathode/solid–electrolyte
+interface, it may trigger solid–electrolyte decomposition and
+self-discharge [118]. More seriously, if the electronic conduction
+pathway extends into the solid electrolyte, it may induce local
+lithium deposition and increase the risk of soft short circuits,
+lithium filaments, or dendrite growth [119]. Therefore, the design
+of transition-metal-based inorganic RMs should balance localized
+charge-transfer capability with long-range electronic insulation.
+An ideal inorganic RM should provide sufficient localized elec-
+Advanced Energy Materials, 2026
+11 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 12 页 ===
+FIGURE 8
+(a) The role and mechanistic insights of redox mediators in reducing dead sulfur in lithium–sulfur batteries [115]. Copyright 2025,
+Wiley-VCH GmbH. (b) Advantages of RMs in suppressing lithium dendrite formation [116]. Copyright 2025, Wiley-VCH GmbH. (c) Advantages of RMs
+in enhancing reaction kinetics [117]. Copyright 2025, Wiley-VCH GmbH.
+tronic coupling and reversible redox activity at the cathode
+interface while avoiding the formation of long-range electronic
+conduction networks penetrating through the solid electrolyte.
+6
+Redox Mediators in All-Solid-State
+Lithium–Sulfur Batteries
+In all-solid-state systems, RMs no longer function as freely
+diffusing homogeneous electron shuttles [120, 121]. Owing to
+their reversible oxidized/reduced cycling and transient chemical
+or electrochemical interactions with sulfur species, RMs can
+effectively bypass the high-energy barrier associated with direct
+electron injection into electrically insulating sulfur or Li2S. In
+doing so, they activate kinetically hindered solid-state reactions
+and reconstruct electron-transfer pathways that are more compat-
+ible with solid-state environments. Consequently, compared with
+conventional solid-state catalysts that rely on surface adsorption
+and transition-state stabilization, RMs exhibit a distinctive advan-
+tage in alleviating the intrinsic kinetic limitations of all-solid-state
+lithium–sulfur systems.
+Notably, the mediation behavior of RMs in ASSLSBs strongly
+depends on the chemical starting point and conversion pathway
+of the cathode reaction. In conversion-type sulfur cathodes, RMs
+are primarily employed to facilitate the reduction of electrically
+insulating elemental sulfur and to regulate the multistep sulfur
+conversion process. In contrast, for lithium sulfide cathodes,
+where electrochemical reactions initiate from a fully reduced Li2S
+phase, RMs predominantly function as oxidative electron accep-
+tors or interfacial chemical activators to trigger and sustain the
+reversible oxidation of Li2S. Based on this fundamental distinc-
+12 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 13 页 ===
+tion, the following sections separately discuss the mechanisms,
+structural design principles, and application characteristics of
+RMs in conversion-type sulfur cathodes and lithium sulfide
+cathodes for ASSLSBs.
+6.1
+Redox Mediators in Lithium Sulfide
+Reaction Systems
+In ASSLSBs, Li2S cathodes suffer from intrinsically high activa-
+tion barriers and sluggish oxidation kinetics due to their fully
+reduced state, strong electronic insulation, and confined solid–
+solid interfacial reactions. The absence of liquid-phase transport
+further disrupts sulfur conversion pathways and limits active
+material utilization. Redox mediators fundamentally alleviate
+these bottlenecks by coupling reversible RMox/RMred cycling
+with chemical mediation, enabling stepwise, lower barrier Li2S
+oxidation via transient sulfur intermediates. By facilitating elec-
+tron extraction, promoting Li+ transport, and extending the
+effective reaction zone beyond the conventional junction of three
+phases, RMs markedly enhance Li2S activation, reversibility, and
+interfacial kinetics in the solid-state environments.
+In terms of mediator design and application, quinone-based
+compounds represent prototypical RMs for achieving low barrier
+activation of Li2S at an early stage. Cui et al. systematically
+screened anthraquinone derivatives with well-matched redox
+potentials and identified an optimized mediator (AQT) that
+reduced the initial activation potential of Li2S to 2.4 V. In situ
+sulfur K-edge X-ray absorption spectroscopy further revealed that
+AQT induces the formation of polysulfide intermediates, thereby
+replacing the conventional direct solid–solid conversion pathway
+with a “solid–polysulfide–solid” mechanism (Figure 9a). As a
+result, the Li2S cathode delivered an initial discharge capacity
+of 1133 mAh/g and maintained an average Coulombic efficiency
+of 98.9% over 150 cycles, providing the first direct evidence of
+RM-enabled Li2S conversion in a polymer-based all-solid-state
+system [122].
+Organic chalcogenide compounds further broaden the chemical
+scope of RMs. Guo et al. demonstrated that diphenyl ditel-
+luride (DPDTe) reacts with Li2S during ball milling to form
+lithium phenyl telluride (PhTeLi) and lithium phenyl thio-
+telluride (PhTeSLi), whose Li dissociation energies (5.69 and
+6.04 eV, respectively) are substantially lower than that of pristine
+Li2S (7.40 eV). This facilitates radical generation and effectively
+weakens the Li─S bond. Consequently, the Li2S cathode achieved
+a first-charge capacity of 963.1 mAh/g and retained an average
+areal capacity of 0.9 mAh/cm2 over 360 cycles at 0.2 mA/cm2
+[125]. In a follow-up study, the same group developed lithium
+phenyl selenide (PhSeLi), in which electrochemically generated
+phenyl selenyl radicals continuously promote electron extraction
+and Li─S bond weakening. The resulting Li2S-based cathode
+retained a reversible capacity of 615.9 mAh/g after 400 cycles
+and was successfully paired with a prelithiated silicon anode to
+assemble a full cell (Figure 9b–d) [123].
+By contrast, inorganic RMs exhibit unique advantages in inter-
+facial regulation and volumetric stabilization. Nazar and co-
+workers constructed a Li2S@LiVS2 core–shell architecture, where
+the LiVS2 shell simultaneously serves as a charge transport
+medium and an interfacial RM. Upon oxidation to VS2, the shell
+chemically activates Li2S through stepwise oxidation, enabling
+stable cycling for 1000 cycles at 1 mA/cm2 with nearly 80%
+capacity retention, as well as a high areal capacity of 5.3 mAh/cm2
+at a sulfur loading of 10 mg/cm2 (Figure 9e,f) [124]. Ahmad et al.
+incorporated In2S3 into Li2S cathodes, where the formation of
+LiXIn2S3 establishes a continuous charge transport network. This
+approach increased Li2S utilization to 78% and, as confirmed by in
+situ transmission electron microscopy, suppressed approximately
+70% of volume variation, delivering an initial areal capacity of
+4.08 mAh/cm2 at a loading of 6.6 mg/cm2 [126].
+In addition, decomposition products of sulfide solid electrolytes
+can themselves function as RMs. Gamo et al. found that par-
+tial oxidative decomposition of Li3PS4 during cycling generates
+thiophosphate species containing S─S bonds, which lower the
+activation barrier of Li2S. However, excessive decomposition
+leads to capacity fading; by tuning the ball-milling speed, a
+balance between mediation kinetics and cycling stability can
+be achieved at the Li2S/LPS interface [127]. Collectively, these
+studies comprehensively demonstrate the pivotal role of RMs in
+overcoming the intrinsic performance bottlenecks of Li2S-based
+all-solid-state lithium–sulfur batteries.
+6.2
+Redox Mediators in Conversion-Type Sulfur
+Reaction Systems
+In all-solid-state Li–S batteries, conversion–type sulfur cath-
+odes suffer from intrinsically sluggish solid–solid redox kinetics
+because both S and Li2S are electronically and ionically insu-
+lating, confining reactions to scarce triple-phase boundaries and
+leading to high polarization, poor rate capability, and severe
+activation barriers for Li2S oxidation. These limitations are
+further exacerbated by large volume changes and the narrow
+electrochemical stability window of sulfide solid electrolytes,
+resulting in interfacial degradation and rapid impedance growth.
+Redox mediators provide a distinct kinetic regulation pathway
+by enabling MET and chemically assisted sulfur conversion,
+effectively bypassing high-barrier direct solid–solid reactions.
+By expanding active reaction zones, constructing low-energy
+conversion pathways, and stabilizing interfacial charge transport,
+RMs fundamentally alleviate the intrinsic kinetic and interfacial
+bottlenecks of conversion-type sulfur cathodes in ASSLSBs.
+Specifically, Wang et al. constructed an amorphous lithium
+iodothiophosphate (LPSI) interlayer between the sulfur cathode
+and the Li6PS5Cl (LPSC) solid electrolyte via a mechanochemical
+approach. Acting as a permeable RM, LPSI enables chemical
+mediation of sulfur conversion (Figure 10a). Upon charging,
+LPSI is preferentially electrochemically oxidized at 2.83 V versus
+Li/Li+ to generate oxidized PxSy species and molecular I2, which
+subsequently chemically oxidize Li2S. This process effectively
+divides the high-energy barrier associated with direct solid–
+solid conversion into a multistep electrochemical and chemical
+pathway (Figure 10b). As a result, the active reaction sites are
+extended from the conventional three-phase boundaries to more
+abundant solid electrolyte–Li2S two-phase interfaces, thereby
+bypassing the intrinsic kinetic limitation of direct Li2S oxidation.
+Benefiting from this synergistic mechanism, the S@LPSI/LPSC
+cathode sustains a high areal capacity of 5.4 mAh/cm2 after 1600
+Advanced Energy Materials, 2026
+13 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 14 页 ===
+FIGURE 9
+Redox mediators in lithium sulfide reaction systems. (a) Role of RMs (RMs) for all-solid-state lithium–sulfur batteries (ASSLSBs) [122].
+Copyright 2021, American Chemical Society. (b) Charge and discharge processes of the RM cathode in the ASSLBs [123]. Copyright 2024 Wiley-VCH
+GmbH. (c) The reaction-free energies and optimized structures of the dissociation of Li ions in the Li2S monomers (I) and the Li2S–PhSe⋅complexes (II)
+[123]. Copyright 2024 Wiley-VCH GmbH. (d) Electrostatic potential distributions for Li2S (I), PhSe⋅(II), and Li2S–PhSe⋅complexes (III) [123]. Copyright
+2024 Wiley-VCH GmbH. (e) Transmission line model for the LVS cathode [124]. Copyright 2023, Royal Society of Chemistry. (f) T Schematic illustration
+of the VS2-mediated Li2S oxidation pathway [124]. Copyright 2025, Wiley-VCH GmbH.
+cycles at a sulfur loading of 6 mg/cm2, with a capacity retention of
+93.8%, clearly demonstrating the coupled advantages of interfacial
+transport enhancement and redox mediation in solid-state sulfur
+cathodes [128].
+Pang and co-workers designed a lithium borophosphoiodide
+(LBPSI) glassy solid electrolyte in which redox-active I−/I2/I3
+−
+species are directly incorporated into the electrolyte matrix,
+enabling LBPSI to simultaneously function as a superionic
+conductor and a surface RM in all-solid-state lithium–sulfur
+batteries. During charging, I−species located on the surface
+of LBPSI particles are first electrochemically oxidized at the
+solid electrolyte conductive carbon (SE|C) interface to generate
+oxidized iodine species such as I2 and I3
+−. These oxidized iodine
+species subsequently migrate through localized diffusion or
+vapor-phase transport to adjacent solid electrolyte–Li2S (SE|Li2S)
+two-phase interfaces, where they chemically oxidize Li2S. This
+synergistic electrochemical oxidation chemical transformation
+14 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 15 页 ===
+FIGURE 10
+(a) Material characterizations of S@LPSI/LPSC cathode [128]. Copyright 2025, Wiley-VCH GmbH. (b) Schematic illustration of the
+four stages in the S@LPSI/LPSC cathode [128]. Copyright 2025, Wiley-VCH GmbH. (c) Schematic illustration of the redox mechanism of the LPSC
+electrolytes over the charge/discharge in the voltage range of ASSLSBs [129]. Copyright 2025, Wiley-VCH GmbH.
+process effectively extends sulfur conversion reaction sites from
+intrinsically restricted three-phase boundaries to more abundant
+two-phase interfaces, thereby activating electrochemically inert
+Li2S regions that lack direct electronic contact. The I−species
+regenerated after the chemical oxidation step can be re-oxidized
+at the interface, forming a closed and reversible redox cycle that
+establishes a stable and efficient redox-mediated pathway under
+solid-state conditions. As a result, the redox-mediated all-solid-
+state lithium–sulfur battery exhibits ultrafast charging capability
+[130].
+Advanced Energy Materials, 2026
+15 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 16 页 ===
+Meanwhile, the same group further introduced tungsten dop-
+ing to construct an LPWSI solid catholyte, which preserves
+the kinetic advantages of iodine-based redox mediation while
+incorporating the mixed ionic-electronic conductivity of WS2
+to stabilize the interfacial reaction environment. In addition,
+this design promotes the reversible interfacial transformation of
+Li4P2S7 into Li3PS4, effectively preventing the irreversible accu-
+mulation of P2S4
+4−and limiting interfacial impedance growth
+to an increase from 30 to 54 Ω after 400 cycles, which is
+markedly lower than that observed in the undoped system,
+where the impedance increases from 38 to 392 Ω (Figure 10c).
+Furthermore, the Li+ intercalation and deintercalation behavior
+of WS2 within LPWSI mediates Li2S oxidation, further enhancing
+sulfur conversion kinetics and reversibility. Collectively, these
+studies demonstrate the critical role of RMs in overcoming
+the kinetic and interfacial bottlenecks of conversion-type sulfur
+cathodes [129]. In this architecture, WS2 acts as an interfacial
+redox modulator that complements iodine-based mediators, with
+the former primarily suppressing interfacial side reactions and
+ensuring long-term cycling stability, while the latter focuses on
+accelerating the kinetics under high-rate conditions.
+Table 1 summarizes the recent applications of RMs in both solid-
+state and liquid-phase lithium–sulfur (Li–S) batteries, including
+their basic properties and key electrochemical parameters. RMs
+play a significant role in enhancing the redox kinetics, sulfur uti-
+lization, and performance under high sulfur loading in different
+systems, providing valuable guidance for the molecular design of
+RMs and the further optimization of Li–S batteries.
+7
+Design Principles for Redox Mediators in
+Solid-State Lithium–Sulfur Batteries
+In solid-state environments, RMs are required to function within
+confined geometries and discontinuous interfacial contacts,
+where both electron and ion transport are highly localized.
+Their effectiveness, therefore, depends not only on their intrinsic
+redox activity, but also on their ability to sustain reversible
+redox cycling, interfacial regeneration, and chemical stability
+under solid-state constraints. Based on these considerations, the
+following sections summarize the key solid-state-specific design
+criteria for RMs in ASSLSBs.
+7.1
+Design Criteria for Redox Mediators—Redox
+Potential Matching
+Redox potential matching remains a necessary but insufficient
+criterion for the design of RMs in all-solid-state lithium–sulfur
+batteries. Unlike liquid systems, where appropriately matched
+redox potentials mainly ensure thermodynamic driving force and
+reaction selectivity, in solid-state systems, they additionally deter-
+mine whether RMs can undergo electrochemical regeneration at
+confined solid–solid interfaces [131].
+Specifically, the redox potential of an RM must be carefully
+positioned within the narrow electrochemical stability win-
+dow of solid electrolytes, particularly sulfide-based electrolytes,
+to avoid interfacial decomposition or parasitic side reactions.
+Moreover, excessively high or low redox potentials may induce
+irreversible oxidation or reduction of RMs at localized interfaces,
+thereby interrupting the closed redox cycle and leading to RM
+deactivation.
+Figure 11 presents a Sankey diagram summarizing representative
+RMs and their redox potential distribution relative to the sulfur
+redox couples [133]. Although an overall potential window of
+approximately 1.8–2.5 V is thermodynamically compatible with
+sulfur conversion reactions, only a subset of RMs simultaneously
+satisfies the requirements of solid electrolyte stability and inter-
+facial regenerability. In this context, RMs with relatively lower
+redox potentials are more suitable for promoting stepwise sulfur
+reduction during discharge, whereas those with moderately
+higher yet electrolyte-compatible potentials are more effective
+in facilitating Li2S oxidation during charging. Importantly, in
+ASSLSBs, redox potential matching must be evaluated in con-
+junction with interfacial electrochemical accessibility, rather
+than being treated as an isolated thermodynamic parameter
+[134]. Beyond static potential matching, emerging concepts
+such as electrochemical wavefunction engineering—tailoring the
+HOMO/LUMO of RMs to hybridize with sulfur p-orbitals—offer
+a promising direction for future design.
+7.2
+Design Criteria for Electrochemical Stability
+and Kinetics of Redox Mediators
+In all-solid-state lithium–sulfur batteries, the performance of
+RMs is critically governed by their regeneration kinetics and long-
+term stability under severely constrained molecular diffusion
+conditions. Unlike liquid electrolytes, where RMs can freely
+diffuse to access fresh reaction sites, the solid-state environment
+imposes strong spatial confinement, necessitating rapid and
+highly localized redox reactions.
+Accordingly, RMs must exhibit low activation energy barriers and
+fast electron transfer kinetics to ensure timely electrochemical
+regeneration within confined interfacial regions. Insufficient
+kinetics would lead to the accumulation of electrochemically
+inactive RM species, effectively terminating the mediated redox
+cycle and exacerbating interfacial polarization [135].
+Equally important is the chemical and electrochemical stability
+of RMs during repeated solid-state cycling. Given the limited
+electrochemical stability windows of most solid electrolytes,
+RM redox reactions must remain fully reversible and strictly
+confined within these windows to avoid electrolyte degradation
+or irreversible RM consumption. This requirement is particularly
+stringent for sulfide-based solid electrolytes, which are prone to
+oxidative decomposition at elevated potentials.
+Moreover, the diffusion-limited environment highlights the
+necessity of designing RMs capable of selectively interacting with
+solid sulfur species, such as S8 deposits and Li2S domains, to pro-
+mote localized activation and conversion. RMs that can stabilize
+intermediate species or facilitate homogeneous solid-phase trans-
+formations help mitigate reaction heterogeneity and suppress the
+formation of electrochemically isolated sulfur domains.
+In summary, the design of efficient RMs for ASSLSBs must
+prioritize solid-state compatibility rather than generic catalytic
+16 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 17 页 ===
+TABLE 1
+Summary of application parameters of redox mediators in solid-state and liquid-phase lithium–sulfur batteries.
+Li–S
+battery
+type
+RM name
+Electrolyte
+Sulfur
+loading
+(mg/cm2)
+Redox
+potential
+Initial
+discharge
+specific
+capacity
+(mAh/g)
+Rate
+Cycle
+number
+Mediation
+mecha-
+nism
+RMs concentration
+Refs.
+Liquid
+Li–S
+battery
+DODL
+1 m
+LiTFSI + 2 wt.%
+LiNO3 in
+DOL/DME
+1:1
+4
+∼2.15 V
+—
+—
+—
+Accelerate
+the
+conversion
+of
+polysulfides
+—
+[131]
+PU Se
+1 m LiTFSI in
+DME/DOL
+(1:1) + 1%
+LiNO3
+1.4
+—
+963.1
+1 C
+500
+Accelerate
+redox
+kinetics
+10 wt.% in cathode
+[132]
+tetrabutylammonium
+triiodide (TBAI3)
+—
+3.2
+—
+3 mAh/cm2
+0.2 C
+—
+Reduce the
+desolvation
+energy
+barrier
+0.1% to 2%
+[115]
+Solid Li–S
+battery
+(Li2S)
+LixIn2S3/In2S3
+Li7P3S11
+4
+—
+3.47 mAh/cm2
+0.64 mA/cm2
+30
+Improved
+the
+interfacial
+stability
+Li2S: In2S3
+(1 mol: 0.1 mol)
+[126]
+PhSeLi
+Li7P3S11
+1
+∼2.30 V;
+2.46 V/2.70 V
+1000
+0.2 A/g
+400
+Form inter-
+mediates
+and reduce
+the
+activation
+energy
+barrier
+—
+[123]
+Li2S/LiVS2
+Li5.5PS4.5Cl1.5
+2
+∼2.3 V
+∼1 mAh/cm2
+—
+1000
+Facilitates
+the
+reversible
+conversion
+of Li2S
+—
+[124]
+1,5-bis(2-(2-(2-
+methoxyethoxy)ethoxy)
+ethoxy)anthra-
+9,10-quinone
+(AQT)
+PEO-based
+electrolyte
+0.2–0.7
+2.4 V
+1133
+0.1 C
+30
+Fast
+lithium–
+sulfur
+reaction
+kinetics
+molar ratio of Li2S to
+RM (from 40:1 to
+10:1)
+[122]
+(Continues)
+Advanced Energy Materials, 2026
+17 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 18 页 ===
+TABLE 1
+(Continued)
+Li–S
+battery
+type
+RM name
+Electrolyte
+Sulfur
+loading
+(mg/cm2)
+Redox
+potential
+Initial
+discharge
+specific
+capacity
+(mAh/g)
+Rate
+Cycle
+number
+Mediation
+mecha-
+nism
+RMs concentration
+Refs.
+DPDTe
+Li7P3S11
+1
+∼2.5 V
+963.1
+0.2 mA/cm2
+360
+Facilitate
+the
+oxidation of
+Li2S at low
+potentials
+—
+[125]
+Solid Li–S
+battery(S8)
+Li2S–B2S3–P2S5–
+LiI(LiI serving as a
+RM)
+Li5.5PS4.5Cl1.5
+1
+—
+1110
+15 C
+10000
+Facilitates
+the sluggish
+reactions at
+the
+solid–solid
+two-phase
+boundaries
+—
+[130]
+I−/I2
+Li5.5PS4.5Cl1.5
+2
+—
+1434.8
+0.05 C
+1000(−10◦C,
+0.05 C,
+2 mg/cm2)
+The
+reversible
+redox of
+I−/I2 syner-
+gistically
+mediates
+the
+conversion
+of solid
+sulfur
+5 wt.%
+[128]
+WS2
+LPSI
+1.1
+∼2.3 V
+1735
+C/10
+400
+Facilitates
+the
+reversible
+conversion
+of Li2S
+Li2S:P2S5:WS2:LiI =
+13:2:1:5
+[129]
+18 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 19 页 ===
+FIGURE 11
+Redox potentials of different types of redox mediators.
+activity. Beyond conventional criteria such as fast kinetics and
+high stability, RMs should be engineered to sustain closed-
+loop redox cycling, tolerate solid–solid interfacial constraints,
+and operate within the electrochemical limits imposed by solid
+electrolytes.
+7.3
+Cross-System Insights for RM Design
+Recent studies on RM–electrolyte synergy in liquid Li–S batteries
+provide important cross-system insights for the rational screening
+of RMs and interface construction in ASSLSBs [136]. In liquid
+systems, the function of RMs is closely related to the electrolyte
+solvation structure, polysulfide reaction behavior, cathode-side
+sulfur conversion kinetics, and Li-metal anode stability [137].
+Therefore, RM design should not only focus on redox potential
+and electron-transfer capability, but also consider their synergy
+with the electrolyte environment, sulfur-species structure, and
+electrode interfaces.
+For example, weakly solvating electrolytes can suppress polysul-
+fide dissolution and shuttling, thereby mitigating side reactions
+at the Li anode, but they also slow cathode-side sulfur conversion
+kinetics. Jin et al. showed that capacity decay at high rates
+mainly originates from sluggish polysulfide oxidation during
+charging, while introducing a suitable RM can accelerate charge
+transfer and improve pouch-cell performance [138]. Similarly,
+the encapsulating polysulfide electrolyte proposed by Liu et al.
+can reduce polysulfide corrosion of the Li anode but sacri-
+fices cathode kinetics. After introducing dimethyl diselenide as
+a redox comediator, more reactive organopolysulfides can be
+generated, promoting both liquid–liquid and liquid–solid sulfur
+conversion while retaining the anode-protective function of the
+electrolyte [139].
+In addition, studies on the structure and properties of lithium
+polysulfides indicate that polysulfides are not only soluble inter-
+mediates, but also key active species affecting cathode kinetics,
+shuttle behavior, Li-anode corrosion, and solid electrolyte inter-
+phase evolution. Their dissociation/association, solvation struc-
+ture, Li+ coordination, and aggregation behavior can be regulated
+through electrolyte composition, ion coordination, molecular
+interactions, and redox mediation [140]. This suggests that RM
+screening should not rely only on redox-potential matching, but
+should also consider their effects on sulfur-species structure, Li+
+transport, and interfacial side reactions. Although long-range
+polysulfide dissolution and liquid-phase shuttling are largely sup-
+pressed in ASSLSBs, these principles remain instructive. Overall,
+as schematically summarized in Figure 12, the rational design
+of solid-state RMs should integrate redox-potential matching,
+dynamic RMox/RMred regeneration, interfacial compatibility, and
+cross-system electrolyte-inspired regulation to bridge solid-state
+reaction challenges with improved sulfur conversion kinetics and
+cycling stability.
+8
+Summary and Outlook
+When can all‑solid‑state lithium–sulfur batteries become com-
+mercially viable? As shown in Figure 13, despite their ultrahigh
+theoretical energy density and intrinsic safety, ASSLSBs remain
+far from practical application. The main bottlenecks include
+insufficient ionic conductivity of solid electrolytes, unstable
+electrode–electrolyte interfaces, limited cycling stability under
+high sulfur loading and harsh operating conditions, as well as
+the lack of scalable fabrication processes. The introduction of
+RMs offers a new opportunity to overcome kinetic and inter-
+facial challenges. Therefore, the commercialization of ASSLSBs
+will strongly depend on the synergistic progress of mechanistic
+breakthroughs and scalable engineering strategies.
+Advanced Energy Materials, 2026
+19 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 20 页 ===
+FIGURE 12
+Design principles and cross-system insights for redox mediators in all-solid-state lithium–sulfur batteries. (a) Redox-potential
+matching provides an appropriate thermodynamic driving force and helps reduce kinetic polarization during S/Li2S conversion. (b) A stable
+cathode/solid–electrolyte interface helps sustain localized RMox/RMred regeneration and improve long-term cycling stability. (c) Cross-system insights
+from liquid Li–S batteries provide guidance for rational RM screening and interface design in solid-state batteries [138]. Copyright 2025, Wiley-VCH
+GmbH.
+8.1
+Summary for Future Solid-State
+Lithium–Sulfur Batteries
+To address the critical challenges of electronic and ionic transport
+bottlenecks at solid–solid interfaces, this review emphasizes an
+emerging strategy that utilizes RMs to regulate sulfur redox
+pathways at the molecular and electronic levels. In solid-state
+environments, RMs can directly participate in the sulfur redox
+cycle, enabling cooperative transport of electrons and ions
+while effectively suppressing side reactions. This mechanism
+establishes a dynamic and self-sustaining conversion network
+that integrates electron mediation and ion conduction into a
+unified reaction framework, thereby expanding the electrochem-
+ically active regions and significantly enhancing charge transfer
+efficiency under solid-state conditions.
+This review systematically classifies and summarizes representa-
+tive RMs, providing a comprehensive analysis of the structure-
+function relationships between these RMs and solid-state sulfur
+conversion pathways. In addition, key design principles for effec-
+tive RMs in all-solid-state lithium–sulfur batteries are proposed,
+emphasizing the importance of redox potential, electrochemical
+stability, and interfacial compatibility for achieving robust cycling
+performance. Overall, this study highlights the critical role of
+RMs in improving the redox kinetics and interfacial reactivity of
+solid-state sulfur conversion, and the latest advances reviewed
+herein provide theoretical insights and strategic guidance for
+the development of high-performance and commercially viable
+all-solid-state lithium–sulfur batteries.
+8.2
+Outlook for Future Solid-State
+Lithium–Sulfur Batteries
+Although RMs have achieved significant progress in enhancing
+the electrochemical performance of all-solid-state lithium–sulfur
+batteries, their energy density and cycle life still fall short of
+the requirements for practical applications. Future development
+requires a coordinated approach involving molecular design,
+mechanistic investigation, and engineering optimization.
+1. Molecular design of tunable RMs. Ideal RMs should possess
+high electrochemical reversibility, stability toward lithium
+polysulfides, appropriate redox potentials, and good com-
+20 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 21 页 ===
+FIGURE 13
+Characteristics required for high-performance all-solid-state lithium–Sulfur Batteries.
+patibility with solid electrolytes, while also being low cost
+and non-toxic. Functionalizing RMs or anchoring them onto
+electrode surfaces, or incorporating them into polymeric or
+solid–electrolyte frameworks, can balance catalytic efficiency
+and structural stability, and improve the oxidation pathways
+of soluble intermediates toward Li2S.
+2. Mechanistic understanding through advanced characteriza-
+tion. In solid-state systems, the working processes of RMs
+occur at buried and highly heterogeneous solid–solid inter-
+faces, where their valence-state changes and intermediate
+evolution are usually transient, trace-level, and spatially
+heterogeneous [141]. Therefore, future studies should not
+only identify the final reaction products, but also dynamically
+visualize the reversible RMox/RMred conversion process and
+reveal its intrinsic correlation with S/Li2S conversion path-
+ways. Time-resolved in situ/operando spectroscopy, spatially
+resolved imaging, and cryogenic electron microscopy should
+be integrated to capture the dynamic evolution of RM valence
+states and local structures at solid–solid interfaces from
+the perspectives of temporal evolution, spatial distribution,
+local chemical states, and trace intermediate identification.
+First, time-resolved in situ/operando characterization can be
+used to track chemical-state evolution during the reaction.
+In situ/operando X-ray absorption spectroscopy, especially
+X-ray absorption near-edge structure/extended X-ray absorp-
+tion fine structure (XANES/EXAFS), can monitor sulfur-
+species conversion as well as the valence state and local
+coordination environment of RMs. When combined with
+in situ Raman/infrared spectroscopy to dynamically track
+S─S bonds, Li─S bonds, long-/short-chain sulfur species, and
+possible RM–sulfur intermediates, it can further determine
+whether RMs reconstruct the sulfur conversion pathway.
+For short-lived or low-concentration radicals and RM–sulfur
+intermediates, electron paramagnetic resonance and two-
+dimensional solid-state nuclear magnetic resonance (NMR)
+can improve the capture and identification of transient
+species. Second, spatially resolved characterization can clar-
+ify the spatial location and heterogeneous distribution of
+RM-related species and sulfur conversion reactions. Time-
+of-flight secondary ion mass spectrometry depth profiling
+can provide the three-dimensional distribution of RM-
+derived fragments and solid–electrolyte decomposition prod-
+ucts near the cathode/solid–electrolyte interface, thereby
+identifying RM-enriched regions and interfacial side-reaction
+sites. Meanwhile, cryogenic electron microscopy can bet-
+ter preserve air-sensitive, beam-sensitive, and metastable
+interfacial structures, making it useful for observing local
+evolution such as Li2S deposition morphology and interfacial
+cracking. Further coupling with cryogenic electron energy
+loss spectroscopy can resolve elemental distributions and
+local chemical states at the nanoscale, providing spatial
+and chemical-state evidence for identifying metastable RM
+intermediates and interfacial valence heterogeneity.
+More importantly, these techniques should be correlated and
+designed around specific RM working mechanisms. Time-
+resolved spectroscopy answers when RM valence-state conver-
+sion occurs, spatially resolved imaging answers where the redox-
+active regions are located, and synchronous electrochemical and
+Advanced Energy Materials, 2026
+21 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 22 页 ===
+FIGURE 14
+Future perspectives and development roadmap for all-solid-state lithium–sulfur batteries.
+impedance analyses determine whether these local changes truly
+improve ion–electron coupling and solid–solid interfacial stabil-
+ity. Through mechanism-oriented multimodal characterization,
+the intrinsic relationships among RM valence-state evolution,
+sulfur utilization, interfacial polarization, and cycling stability
+can be further established.
+1. Cell engineering and integration. Achieving high energy
+density, long cycle life, and fast rate performance requires
+optimization of electrodes, functional solid-state electrolytes,
+and overall cell design, while integrating battery state
+monitoring and lifetime prediction to enhance safety and
+controllability under extreme temperatures, pressures, and
+mechanical loads.
+Overall, while RMs cannot solve all challenges of lithium–sulfur
+batteries, they hold significant potential to overcome kinetic
+bottlenecks and improve energy utilization. Future research
+should integrate experimental validation, theoretical modeling,
+and application-level engineering to advance the practical devel-
+opment of high-performance RM-assisted ASSLSBs (Figure 14,
+Movie S2).
+Author Contributions
+Hang Yang: writing – original draft, conceptualization, investigation,
+methodology, data curation, visualization, validation, and formal anal-
+ysis; Libo Li: writing – review & editing, conceptualization, resources,
+supervision, funding acquisition, and project administration; Xiangrui
+Deng: investigation; Suo Li: software; Zhixuan Wang: software; Wen-
+hao Xu: methodology; Wenyi Lu: investigation. All authors have agreed
+to their contributions.
+Acknowledgements
+We acknowledge the funding support from Heilongjiang Provincial
+Natural Science Foundation of China (LH2024B017).
+Funding
+This work was supported by Heilongjiang Provincial Natural Science
+Foundation of China (LH2024B017).
+Conflicts of Interest
+The authors declare no conflicts of interest.
+Data Availability Statement
+Data sharing not applicable to this article as no datasets were generated
+or analysed during the current study.
+References
+1. P. G. Bruce, S. A. Freunberger, L. J. Hardwick, and J. M. Tarascon, “Li–
+O2 and Li–S Batteries With High Energy Storage,” Nature Materials 11
+(2012): 19–29, https://doi.org/10.1038/nmat3191.
+2. R. Götz, R. Streng, J. Sterzinger, et al., “All-Solid-State Li-Ion Batteries
+With Commercially Available Electrolytes: A Feasibility Review,” InfoMat
+6 (2024): 12627, https://doi.org/10.1002/inf2.12627.
+3. M. Li, J. Lu, Z. Chen, and K. Amine, “30 Years of Lithium-Ion
+Batteries,” Advanced Materials 30 (2018): 1800561, https://doi.org/10.1002/
+adma.201800561.
+4. J. T. Kim, X. Hao, C. Wang, and X. Sun, “Cathode Materials for Single-
+Phase Solid-Solid Conversion Li-S Batteries,” Matter 6 (2023): 316–343,
+https://doi.org/10.1016/j.matt.2022.11.019.
+5. X. Yang, J. Luo, and X. Sun, “Towards High-Performance Solid-State Li–
+S Batteries: From Fundamental Understanding to Engineering Design,”
+Chemical Society Reviews 49 (2020): 2140–2195, https://doi.org/10.1039/
+C9CS00635D.
+6. H. Lyu, X. Gao, L. Michalek, et al., “Stabilizing All-Solid-State Li–S Bat-
+teries by a Polysulfide-Repelling and Anode-Protecting Self-Segregated
+Trilayer Polymer Electrolyte,” Journal of the American Chemical Society
+148 (2026): 5275–5286, https://doi.org/10.1021/jacs.5c18042.
+7. J. Hassoun and B. Scrosati, “Moving to a Solid-State Configuration: A
+Valid Approach to Making Lithium-Sulfur Batteries Viable for Practical
+Applications,” Advanced Materials 22 (2010): 5198–5201, https://doi.org/
+10.1002/adma.201002584.
+22 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 23 页 ===
+8. Q. Lv, L. A. Li, X. Zhang, et al., “Developing Dynamic Ion Transport
+Channels in Polymer Solid Electrolytes for High-Performance Lithium
+Metal Batteries,” Journal of the American Chemical Society 147 (2025):
+27611–27623, https://doi.org/10.1021/jacs.5c05911.
+9. J. Janek and W. G. Zeier, “A Solid Future for Battery Development,”
+Nature Energy 1 (2016): 16141, https://doi.org/10.1038/nenergy.2016.141.
+10. C. Xu, L. Chen, and F. Wu, “Unveiling the Power of Sulfide Solid
+Electrolytes for Next-Generation All-Solid-State Lithium Batteries,” Next
+Materials 6 (2025): 100428, https://doi.org/10.1016/j.nxmate.2024.100428.
+11. H. Pan, Z. Cheng, Z. Zhou, et al., “Boosting Lean Electrolyte Lithium–
+Sulfur Battery Performance With Transition Metals: A Comprehensive
+Review,” Nano-Micro Letters 15 (2023): 165, https://doi.org/10.1007/
+s40820-023-01137-y.
+12. A. Li, H. Liu, Z. Wang, et al., “Dual-Anion Reinforced Cathode–
+Electrolyte Interphase for Stable Conversion-Type Cathode,” ACS Applied
+Materials & Interfaces 17 (2025): 33902–33911, https://doi.org/10.1021/
+acsami.5c03670.
+13. Z. Yu, B. Singh, Y. Yu, and L. F. Nazar, “Suppressing Argyrodite Oxida-
+tion by Tuning the Host Structure for High-Areal-Capacity All-Solid-State
+Lithium–Sulfur Batteries,” Nature Materials 24 (2025): 1082–1090, https://
+doi.org/10.1038/s41563-025-02238-2.
+14. H. Yang, L. Wang, C. Geng, et al., “Catalytic Solid-State Sulfur Con-
+version Confined in Micropores Toward Superhigh Coulombic Efficiency
+Lithium-Sulfur Batteries,” Advanced Energy Materials 14 (2024): 2400249,
+https://doi.org/10.1002/aenm.202400249.
+15. Y. Huang, L. Zhang, J. Ji, C. Cai, and Y. Fu, “Temperature-Dependent
+Viscoelastic Liquid MOFs Based Cellulose Gel Electrolyte for Advanced
+Lithium-Sulfur Batteries Over an Extensive Temperature Range,” Energy
+Storage Materials 64 (2024): 103065, https://doi.org/10.1016/j.ensm.2023.
+103065.
+16. Q. Qi, F. Shi, J. Yu, et al., “Understanding the Dynamics of Sulfur
+Droplets Formation in Lean-Electrolyte and Low-Temperature Lithium–
+Sulfur Batteries,” Advanced Science 12 (2025): 2410628, https://doi.org/10.
+1002/advs.202410628.
+17. S. Yari, A. C. Reis, Q. Pang, and M. Safari, “Performance Benchmark-
+ing and Analysis of Lithium-Sulfur Batteries for Next-Generation Cell
+Design,” Nature Communications 16 (2025): 5473, https://doi.org/10.1038/
+s41467-025-60528-4.
+18. C. Bai, Y. Li, G. Xiao, et al., “Understanding the Electrochemical
+Window of Solid-State Electrolyte in Full Battery Application,” Chem-
+ical Reviews 125 (2025): 6541–6608, https://doi.org/10.1021/acs.chemrev.
+4c01012.
+19. Y. Lu, X. Rong, Y. S. Hu, L. Chen, and H. Li, “Research and
+Development of Advanced Battery Materials in China,” Energy Storage
+Materials 23 (2019): 144–153, https://doi.org/10.1016/j.ensm.2019.05.019.
+20. H. Wang, J. Song, K. Zhang, et al., “A Strongly Complexed Solid
+Polymer Electrolyte Enables a Stable Solid State High-Voltage Lithium
+Metal Battery,” Energy & Environmental Science 15 (2022): 5149–5158,
+https://doi.org/10.1039/D2EE02904A.
+21. Y. Luo, S. Pan, J. Tian, et al., “Engineering Triple-Phase Interfaces With
+Hierarchical Carbon Nanocages for High-Areal-Capacity All-Solid-State
+Li-S Batteries,” Advanced Materials 36 (2024): 2413325, https://doi.org/10.
+1002/adma.202413325.
+22. L. Merola, V. K. Singh, M. Schäfer, et al., “Triple-Phase Boundary
+Instability as a Key Degradation Factor in Sulfide|(oxy)Halide Dual-
+Electrolyte Solid-State Batteries,” Joule (2026): 102444, https://doi.org/10.
+1016/j.joule.2026.102444.
+23. H. Zhong, Y. Su, R. Ma, et al., “Nano-Scale Interface Engineering
+of Sulfur Cathode to Enable High-Performance All-Solid-State Li–S
+Batteries,” Advanced Functional Materials 34 (2024): 2315925, https://doi.
+org/10.1002/adfm.202315925.
+24. Y. Su, S. Ren, Q. Lin, et al., “In Situ Solid Electrolyte Ionic Pathway
+Formation in High Sulfur Loading Cathodes for High-Performance All-
+Solid-State Lithium–Sulfur Batteries,” Advanced Energy Materials 15
+(2025): 2500363, https://doi.org/10.1002/aenm.202500363.
+25. Z. W. Seh, Y. Sun, Q. Zhang, and Y. Cui, “Designing High-Energy
+Lithium–Sulfur Batteries,” Chemical Society Reviews 45 (2016): 5605–5634,
+https://doi.org/10.1039/C5CS00410A.
+26. H. Li, H. Yang, and X. Ai, “Routes to Electrochemically Stable Sulfur
+Cathodes for Practical Li–S Batteries,” Advanced Materials 37 (2025):
+2305038, https://doi.org/10.1002/adma.202305038.
+27. S. Lou, F. Zhang, C. Fu, et al., “Interface Issues and Challenges in All-
+Solid-State Batteries: Lithium, Sodium, and Beyond,” Advanced Materials
+33 (2021): 2000721, https://doi.org/10.1002/adma.202000721.
+28. X. Kong, R. Gu, Z. Jin, et al., “Maximizing Interface Stability in All-
+Solid-State Lithium Batteries Through Entropy Stabilization and Fast
+Kinetics,” Nature Communications 15 (2024): 7247, https://doi.org/10.
+1038/s41467-024-51123-0.
+29. R. Zhang, A. Kondrakov, J. Janek, and T. Brezesinski, “Timescale
+Identification of Electrochemical Processes in All-Solid-State Batteries
+Using an Advanced Three-Electrode Cell Setup,” Energy Storage Materials
+75 (2025): 104000, https://doi.org/10.1016/j.ensm.2025.104000.
+30. Z. Deng, S. Chen, K. Yang, et al., “Tailoring Interfacial Structures to
+Regulate Carrier Transport in Solid-State Batteries,” Advanced Materials
+36 (2024): 2407923, https://doi.org/10.1002/adma.202407923.
+31. H. Liu, S. Wang, W. Kong, Y. Liu, W. Ren, and H. Wang, “Redox
+Mediator as Highly Efficient Charge Storage Electrode Additive for
+All-Solid-State Lithium Metal Batteries,” Advanced Energy Materials 15
+(2025): 2404046, https://doi.org/10.1002/aenm.202404046.
+32. Z. Wu, S. Chen, C. Yu, et al., “Engineering High Conductive Li7P2S8I
+via Cl-Doping for All-Solid-State Li-S Batteries Workable at Different
+Operating Temperatures,” Chemical Engineering Journal 442 (2022):
+136346, https://doi.org/10.1016/j.cej.2022.136346.
+33. E. Umeshbabu, B. Zheng, and Y. Yang, “Recent Progress in All-
+Solid-State Lithium−Sulfur Batteries Using High Li-Ion Conductive Solid
+Electrolytes,” Electrochemical Energy Reviews 2 (2019): 199–230, https://
+doi.org/10.1007/s41918-019-00029-3.
+34. T. Shigedomi, Y. Fujita, T. Kishi, et al., “Li2S–V2S3–LiI Bifunctional
+Material as the Positive Electrode in the All-Solid-State Li/S Battery,”
+Chemistry of Materials 34 (2022): 9745–9752, https://doi.org/10.1021/acs.
+chemmater.2c02645.
+35. G.-H. Lee, M.-C. Sung, and D.-W. Kim, “Synergistic Coupling
+of a Self-Defense Redox Mediator and Anti-Superoxide Dispropor-
+tionator in Lithium-Oxygen Batteries for High Stability,” Chemical
+Engineering Journal 453 (2023): 139878, https://doi.org/10.1016/j.cej.
+2022.139878.
+36. J. Zhou and A. Sun, “Redox Mediators for High Performance Lithium-
+Sulfur Batteries: Progress and Outlook,” Chemical Engineering Journal
+495 (2024): 153648, https://doi.org/10.1016/j.cej.2024.153648.
+37. Z. F. Wang, Z. Yi, S. C. Yu, et al., “High-Voltage Redox Mediator of an
+Organic Electrolyte for Supercapacitors by Lewis Base Electrocatalysis,”
+ACS Applied Materials & Interfaces 14 (2022): 24497–24508, https://doi.
+org/10.1021/acsami.2c05645.
+38. M. Mushtaq, X. Guo, Z. Zhang, et al., “Dual-Function Redox Mediator
+Enhanced Lithium-Oxygen Battery Based on Polymer Electrolyte,” Jour-
+nal of Materials Science & Technology 113 (2022): 199–206, https://doi.org/
+10.1016/j.jmst.2021.10.009.
+39. M. Guo, J. Zhan, Z. Wang, X. Wang, Z. Dai, and T. Wang, “Supercapaci-
+tors as Redox Mediators for Decoupled Water Splitting,” Chinese Chemical
+Letters 34 (2023): 107709, https://doi.org/10.1016/j.cclet.2022.07.052.
+40. S. Jayasubramaniyan, S. Kim, and J. Sung, “Redox Mediators for
+Lithium Sulfide Cathodes in All-Solid-State Li-S Batteries: Recent Advan-
+tages and Future Perspective,” Journal of Energy Chemistry 103 (2025):
+535–542, https://doi.org/10.1016/j.jechem.2024.12.007.
+41. T. Li, D. Liu, L. Gao, et al., “Novel Guidelines of Redox Mediators
+for Practical Lithium–Oxygen Batteries: Characterization Mechanisms,
+Advanced Energy Materials, 2026
+23 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 24 页 ===
+Design Principle, and Engineering Strategies,” Advanced Energy Materials
+15 (2025): 2403406, https://doi.org/10.1002/aenm.202403406.
+42. J. T. Kim, H. Su, Y. Zhong, et al., “All-Solid-State Lithium–
+Sulfur Batteries Through a Reaction Engineering Lens,” Nature Chem-
+ical Engineering 1 (2024): 400–410, https://doi.org/10.1038/s44286-024-
+00079-5.
+43. Y. T. Zhang, Z. X. Chen, Y. W. Song, et al., “Lithium (Poly)Sulfide
+Phase Conversion in Working Lithium–Sulfur Batteries: The Insight From
+the Equilibrium Potential Model,” ACS Energy Letters 8 (2023): 2674–2681,
+https://doi.org/10.1021/acsenergylett.3c00709.
+44. Y. K. Sun, “Emerging All-Solid-State Lithium–Sulfur Batteries: Holy
+Grails for Future Secondary Batteries,” ACS Energy Letters 9 (2024): 5092–
+5095, https://doi.org/10.1021/acsenergylett.4c02563.
+45. K. Miao, F. Chen, C. Ma, and J. Zhou, “Progresses and Outlooks
+of All-Solid-State Lithium-Sulfur Batteries for Practical Development,”
+Chemical Engineering Journal 512 (2025): 162173, https://doi.org/10.1016/j.
+cej.2025.162173.
+46. J. He, S. Wang, L. Liao, H. Duan, and Y. Deng, “Recent Developments
+in Addressing the Challenges Associated With Polymer-Based Solid-State
+Lithium–Sulfur Batteries,” Journal of Materials Chemistry A 13 (2025):
+27819–27854, https://doi.org/10.1039/D5TA03664J.
+47. T. Xu, M. Gu, Q. Sun, et al., “In-Built Intermolecular Hydrogen
+Bonds Enabling Stable Interfacial Chemistry for All-Solid-State Li Metal
+Batteries,” Nano Research 19 (2026): 94907769, https://doi.org/10.26599/
+NR.2025.94907769.
+48. H. Zhong and C. Zhu, “Carrier Transport in Sulfur Cathodes
+of All-Solid-State Lithium-Sulfur Batteries: Challenges, Strategies, and
+Characterizations,” Solid State Ionics 428 (2025): 116945, https://doi.org/
+10.1016/j.ssi.2025.116945.
+49. T. Pattanayak and D. Mavris, “Battery Technology for Sustainable
+Aviation: A Review of Current Trends and Future Prospects,” Applied
+Energy 397 (2025): 126356, https://doi.org/10.1016/j.apenergy.2025.126356.
+50. Y. Qi, P. Ren, and G. Cai, “Research Progress on Low-Temperature
+Solid-State Lithium Batteries and Solid-State Lithium Sulfur Batteries,”
+Materials Today Energy 52 (2025): 101966, https://doi.org/10.1016/j.mtener.
+2025.101966.
+51. Z. X. Chen, M. Zhao, L. P. Hou, X. Q. Zhang, B. Q. Li, and J. Q. Huang,
+“Toward Practical High-Energy-Density Lithium–Sulfur Pouch Cells: A
+Review,” Advanced Materials 34 (2022): 2201555, https://doi.org/10.1002/
+adma.202201555.
+52. C. X. Bi, M. Zhao, L. P. Hou, et al., “Anode Material Options Toward
+500 Wh Kg−1 Lithium–Sulfur Batteries,” Advanced Science 9 (2022):
+2103910, https://doi.org/10.1002/advs.202103910.
+53. R. Fang, K. Chen, Z. Sun, G. Hu, D. W. Wang, and F. Li, “Realizing
+High-Energy Density for Practical Lithium–Sulfur Batteries,” Interdisci-
+plinary Materials 2 (2023): 761–770, https://doi.org/10.1002/idm2.12118.
+54. Z. Yao, Y. Zou, S. Liu, et al., “Reactivity Descriptors for Sulfur
+Redox Kinetics in Lithium–Sulfur Batteries: From Mechanistic Insights
+to Machine Learning Driven Catalyst Design,” Chemical Society Reviews
+54 (2025): 9161–9191, https://doi.org/10.1039/D5CS00324E.
+55. H. Gan, H. Zhang, S. Ying, et al., “A Review of Composite Polymer
+Electrolytes With Fast Lithium-Ion Conductors for Rechargeable Lithium
+Batteries,” Chemical Engineering Journal 522 (2025): 167671, https://doi.
+org/10.1016/j.cej.2025.167671.
+56. H. Wu, X. Gao, X. Chen, et al., “Dual-Single-Atoms of Pt–Co Boost
+Sulfur Redox Kinetics for Ultrafast Li–S Batteries,” Carbon Energy 6
+(2024): 422, https://doi.org/10.1002/cey2.422.
+57. R. Wang, B. Sun, D. Xu, W. Zhang, W. Li, and H. Pang, “Electrolyte-
+Dependent Mechanism and Multifunctional Cathode Design for Li-Se
+Batteries and beyond,” Nano Energy 144 (2025): 111408, https://doi.org/10.
+1016/j.nanoen.2025.
+58. H. Cao, Y. Zhu, T. Jiang, et al., “Fundamental Understanding and
+Material Challenges in Rechargeable Magnesium–Sulfur Battery: Current
+Advances and Perspective,” Small 21 (2025): 07241, https://doi.org/10.
+1002/smll.202507241.
+59. M. Zhen, X. Wang, Q. Yang, et al., “Nitrogen-Doped TiO2−X(B)/MXene
+Heterostructures for Expediting Sulfur Redox Kinetics and Suppressing
+Lithium Dendrites,” Advanced Science 11 (2024): 2406475, https://doi.org/
+10.1002/advs.202406475.
+60. Y. C. Kim, P. Kulkarni, S. S. Kim, H. J. Kim, and H. Y. Jung,
+“Hybrid Interfacial Modulation for Stabilizing Anode-Less Lithium-
+Sulfur Batteries: Guided Lithium Nucleation and Polysulfide Regu-
+lation,” Small Methods 9 (2025): 01183, https://doi.org/10.1002/smtd.
+202501183.
+61. B. Li, W. Jiang, Y. Qu, et al., “Molecular Engineering of Polymer
+Brushes Enables Lithium–Sulfur Battery Stable Operation Under Ultra-
+Wide Temperature Range,” Advanced Materials 37 (2025): 2503482,
+https://doi.org/10.1002/adma.202503482.
+62. S. Yeom, H. Jo, H. Lee, and J. H. Moon, “Lithiating Cathodes for
+Li-S Batteries: Regulating Li2S Electrodeposition to Enhance Sulfur
+Utilization,” Energy Storage Materials 71 (2024): 103644, https://doi.org/
+10.1016/j.ensm.2024.103644.
+63. C. Jiang, L. Li, Q. Jia, et al., “In Situ Synthesis of Organopolysulfides
+Enabling Spatial and Kinetic Co-Mediation of Sulfur Chemistry,” ACS
+Nano 16 (2022): 9163–9171, https://doi.org/10.1021/acsnano.2c01390.
+64. S. Li, L. Li, H. Yang, et al., “Breaking the Boundaries of Li–
+S Batteries with Bigh-Entropy Engineered Multifunctional Materials,”
+Energy & Environmental Science 19 (2026): 1458–1496, https://doi.org/10.
+1039/d5ee05863e.
+65. L. Jiao, H. Jiang, Y. Lei, et al., ““Dual Mediator System” Enables
+Efficient and Persistent Regulation Toward Sulfur Redox Conversion in
+Lithium–Sulfur Batteries,” ACS Nano 16 (2022): 14262–14273, https://doi.
+org/10.1021/acsnano.2c04402.
+66. X. Wu, N. Liu, B. Guan, et al., “Redox Mediator: A New Strategy
+in Designing Cathode for Prompting Redox Process of Li–S Batter-
+ies,” Advanced Science 6 (2019): 1900958, https://doi.org/10.1002/advs.
+201900958.
+67. Y. Tsao, M. Lee, E. C. Miller, et al., “Designing a Quinone-Based Redox
+Mediator to Facilitate Li2S Oxidation in Li-S Batteries,” Joule 3 (2019): 872–
+884, https://doi.org/10.1016/j.joule.2018.12.018.
+68. Y. Ren, T. Zhao, M. Liu, Y. Zeng, and H. Jiang, “A Self-Cleaning
+Li-S Battery Enabled by a Bifunctional Redox Mediator,” Journal of
+Power Sources 361 (2017): 203–210, https://doi.org/10.1016/j.jpowsour.2017.
+06.083.
+69. W. Choi, D. Im, M. S. Park, et al., “Keggin-Type Polyoxometalates
+as Bidirectional Redox Mediators for Rechargeable Batteries,” Electro-
+chemistry 84 (2016): 882–886, https://doi.org/10.5796/electrochemistry.84.
+882.
+70. X. Liang, C. Y. Kwok, F. Lodi-Marzano, et al., “Tuning Transition
+Metal Oxide–Sulfur Interactions for Long Life Lithium Sulfur Batteries:
+The “Goldilocks” Principle,” Advanced Energy Materials 6 (2016): 1501636,
+https://doi.org/10.1002/aenm.201501636.
+71. X. Liang, C. Hart, Q. Pang, A. Garsuch, T. Weiss, and L. F. Nazar,
+“A Highly Efficient Polysulfide Mediator for Lithium–Sulfur Batter-
+ies,” Nature Communications 6 (2015): 5682, https://doi.org/10.1038/
+ncomms6682.
+72. Y. Song, W. Zhao, X. Zhu, et al., “Vanadium Dioxide-Graphene
+Composite With Ultrafast Anchoring Behavior of Polysulfides for
+Lithium–Sulfur Batteries,” ACS Applied Materials & Interfaces 10 (2018):
+15733–15741, https://doi.org/10.1021/acsami.8b02920.
+73. H. J. Kang, J. W. Park, H. J. Hwang, et al., “Electrocatalytic and
+Stoichiometric Reactivity of 2D Layered Siloxene for High-Energy-Dense
+Lithium–Sulfur Batteries,” Carbon Energy 3 (2021): 976–990, https://doi.
+org/10.1002/cey2.152.
+74. W.
+Zhang,
+F.
+Ma,
+Q.
+Wu,
+et
+al.,
+“Bifunctional
+Fluorinated
+Anthraquinone
+Additive
+for
+Improving
+Kinetics
+and
+Interfacial
+24 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 25 页 ===
+Chemistry in Rechargeable Li–S Batteries,” ACS Applied Energy
+Materials 5 (2022): 15719–15728, https://doi.org/10.1021/acsaem.2c03306.
+75. H. Li, S. Ma, J. Li, et al., “Altering the Reaction Mechanism to
+Eliminate the Shuttle Effect in Lithium-Sulfur Batteries,” Energy Stor-
+age Materials 26 (2020): 203–212, https://doi.org/10.1016/j.ensm.2020.
+01.002.
+76. C. X. Bi, Y. J. Zhu, X. Y. Li, et al., “Galvanic Corrosion of Lithium Metal
+Anodes in Lithium–Sulfur Batteries,” Journal of the American Chemical
+Society 147 (2025): 34632–34640, https://doi.org/10.1021/jacs.5c09705.
+77. H. Lai, J. Liu, Q. Huang, et al., “Band Alignment and Interfacial
+Electrostatics: Unraveling the Dynamic Space Charge Layer in All-Solid-
+State Batteries,” EES Batteries 2 (2026): 313–336, https://doi.org/10.1039/
+D5EB00244C.
+78. B. K. Park, H. Kim, K. S. Kim, et al., “Interface Design Considering
+Intrinsic Properties of Dielectric Materials to Minimize Space-Charge
+Layer Effect between Oxide Cathode and Sulfide Solid Electrolyte in
+All-Solid-State Batteries,” Advanced Energy Materials 12 (2022): 2201208,
+https://doi.org/10.1002/aenm.202201208.
+79. X. Y. Li, B. Q. Li, S. Feng, et al., “Two-Stage Solvation of Lithium
+Polysulfides in Working Lithium–Sulfur Batteries,” Journal of the Ameri-
+can Chemical Society 147 (2025): 15435–15447, https://doi.org/10.1021/jacs.
+5c01588.
+80. Y. Q. Peng, M. Zhao, Z. X. Chen, et al., “Boosting Sulfur Redox Kinetics
+by a Pentacenetetrone Redox Mediator for High-Energy-Density Lithium-
+Sulfur Batteries,” Nano Research 16 (2023): 8253–8259, https://doi.org/10.
+1007/s12274-022-4584-z.
+81. J. Wang, L. Jia, Y. Du, et al., “Space Charge Regulation for Ultra-
+stable All-Solid-State Lithium Batteries by Engineering of Argyrodite
+Electrolyte,” National Science Review 13 (2026): nwag015, https://doi.org/
+10.1093/nsr/nwag015.
+82. R. Fang, X. Fu, X. Wang, et al., “Harnessing High-Pressure CO2 for
+Molecular-Scale Interfacial Engineering in Sulfide-Based All‑Solid‑State
+Lithium Metal Batteries,” Advanced Materials (2026): 73554, https://doi.
+org/10.1002/adma.73554.
+83. D. Wang, B. Gwalani, D. Wierzbicki, et al., “Overcoming the Con-
+version Reaction Limitation at Three-Phase Interfaces Using Mixed
+Conductors Towards Energy-Dense Solid-State Li–S Batteries,” Nature
+Materials 24 (2025): 243–251, https://doi.org/10.1038/s41563-024-02057-x.
+84. J. R. Miller, J. V. Beitz, and R. K. Huddleston, “Effect of Free
+Energy on Rates of Electron Transfer Between Molecules,” Journal of the
+American Chemical Society 106 (1984): 5057–5068, https://doi.org/10.1021/
+ja00330a004.
+85. G. A. Parada, Z. K. Goldsmith, S. Kolmar, et al., “Concerted Proton-
+Electron Transfer Reactions in the Marcus Inverted Region,” Science 364
+(2019): 471–475, https://doi.org/10.1126/science.aaw4675.
+86. L. Peng, C. Geng, Y. He, et al., “Surface Charge-Modulated Electric-
+Double-Layer Structure on Pt Catalyst for Efficient and Durable Sulfur
+Reaction in Li–S Batteries,” Angewandte Chemie International Edition 65
+(2026): 23287, https://doi.org/10.1002/anie.202523287.
+87. Y. Zhang, D. Fraggedakis, T. Gao, et al., “Lithium-Ion Intercalation by
+Coupled Ion-Electron Transfer,” Science 390 (2025): adq2541, https://doi.
+org/10.1126/science.adq2541.
+88. J. A. Alatis, R. H. Stephenson, A. C. Wilcox, et al., “Driving
+Force Dependent Photoinduced Charge Transfer Dynamics in Polymer-
+Wrapped Semiconducting Single-Walled Carbon Nanotubes,” Journal of
+the American Chemical Society 147 (2025): 43822–43830, https://doi.org/
+10.1021/jacs.5c14868.
+89. R. Zhang, J. Guo, L. Chen, and F. Tao, “Adsorption and Decomposition
+Mechanisms of Li2S on 2D Thgraphene Modulated by Doping and
+External Electrical Field,” Materials 18 (2025): 3269, https://doi.org/10.
+3390/ma18143269.
+90. Y. R. Wang, M. Yue, G. Liu, et al., “Solid-Liquid-Gas Three-Phase
+Indirect Electrolysis Enabled by Affinity Auxiliary Imparted Covalent
+Organic Frameworks,” Angewandte Chemie International Edition 64
+(2024): 202413030, https://doi.org/10.1002/anie.202413030.
+91. T. Kawajiri, M. Hosoya, S. Goda, E. Sato, and S. Suga, “Electrochemical
+Oxidation of Benzyl Alcohols via Hydrogen Atom Transfer Mediated by
+2,2,2-Trifluoroethanol,” Organic Letters 27 (2025): 4737–4741, https://doi.
+org/10.1021/acs.orglett.5c01138.
+92. Y. Shan, H. Yang, L. Li, Y. Zhao, S. Fan, and S. Li, “Nd2O3 Composite
+Binder in Cathodes to Accelerate Li-Ion Transfer in Lithium-Sulfur
+Cathodes,” Chemical Engineering Journal 513 (2026): 162807, https://doi.
+org/10.1016/j.cej.2025.162807.
+93. C. Long, L. Li, M. Zhai, and Y. Shan, “Facile Preparation and
+Electrochemistry Performance of Quasi Solid-State Polymer Lithium–
+Sulfur Battery With High-Safety and Weak Shuttle Effect,” Journal of
+Physics and Chemistry of Solids 134 (2019): 255–261, https://doi.org/10.
+1016/j.jpcs.2019.06.017.
+94. J. Yan, J. Yao, J. Zhao, et al., “Revealing the Thermal Stability of
+the Li/Sulfide Solid Electrolyte Interface at Atomic Scale via Cryogenic
+Electron Microscopy,” Advanced Functional Materials 35 (2025): 2421918,
+https://doi.org/10.1002/adfm.202421918.
+95. H. Wang, G. Zhang, X. Ma, et al., “Boosting Electrochemical Ethylene
+Epoxidation via Ruthenium Valence State Stabilization,” Journal of the
+American Chemical Society 147 (2025): 30222–30229, https://doi.org/10.
+1021/jacs.5c08317.
+96. T. Zhang, Q. Chen, X. Li, et al., “Redox Mediator Chemistry Reg-
+ulated Aqueous Batteries: Insights Into Mechanisms and Prospects,”
+CCS Chemistry 4 (2022): 2874–2887, https://doi.org/10.31635/ccschem.022.
+202202125.
+97. S. Sreedhar, G. Shanmugam, C. Gunasekaran, J. Arumugam, and M.
+Venkatesan, “Efficiency Enhancement of Porous Coordination Polymers
+Based Supercapacitor by Implementation of Organic Redox Mediator,”
+Journal of Electroanalytical Chemistry 980 (2025): 118947, https://doi.org/
+10.1016/j.jelechem.2025.118947.
+98. Y. Kim, K. T. Wong, C. E. Choong, E. H. Choi, Y. Yoon, and M.
+Jang, “Defect-Mediated Intersystem Crossing in Poly (Heptazine Imide)
+for Singlet Oxygen-Accelerated Anthraquinone Redox Cycling,” Applied
+Catalysis B: Environment and Energy 382 (2026): 125835, https://doi.org/
+10.1016/j.apcatb.2025.125835.
+99. X. Zhu, X. Zhou, L. Cai, T. Heine, and Y. Jing, “Alkali Metalation
+Enables Natural Anthraquinone Derivatives as Sustainable Cathode
+Materials for Lithium-Ion Batteries,” Advanced Science 12 (2025): 13052,
+https://doi.org/10.1002/advs.202513052.
+100. W. Han, J. Hou, B. Zhang, et al., “Straight-Chain Thiols as Chemical
+Kinetic Transporters Accelerate Li2S3D Nucleation,” Journal of Materials
+Chemistry A 13 (2025): 3495–3505, https://doi.org/10.1039/D4TA07103D.
+101. F. Pei, L. Wu, Y. Zhang, et al., “Interfacial Self-Healing Polymer
+Electrolytes for Long-Cycle Solid-State Lithium-Sulfur Batteries,” Nature
+Communications
+15
+(2024):
+351,
+https://doi.org/10.1038/s41467-023-
+43467-w.
+102. W. Ma, J. Li, H. Wang, C. Lei, and X. Liang, “High Efficiency Alkaline
+Iodine Batteries With Multi-Electron Transfer Enabled by Bi/Bi2O3
+Redox Mediator,” Angewandte Chemie International Edition 63 (2024):
+202410994, https://doi.org/10.1002/anie.202410994.
+103. Y. Lee, Y. Kwon, Y. Cho, K.-S. Ahn, and Y. S. Han, “Novel Het-
+erologous Binary Redox Mediator Based on an Ionic Liquid and Cobalt
+Complex for Efficient Organic-Solvent-Free Dye-Sensitized Solar Cells,”
+Journal of Industrial and Engineering Chemistry 115 (2022): 263–271,
+https://doi.org/10.1016/j.jiec.2022.08.007.
+104. X. Xin, H. Pang, Y. She, and J. Hong, “Insights Into Redox
+Mediators-Resource Harvest/Application With Power Production From
+Waste Activated Sludge Through Freezing/Thawing-Assisted Anaerobic
+Acidogenesis Coupling Microbial Fuel Cells,” Bioresource Technology 311
+(2020): 123469, https://doi.org/10.1016/j.biortech.2020.123469.
+105. M. Rezki and S. Tsujimura, “Hybrid Bioelectronic Interfaces
+With Supramolecularly Immobilized Redox Mediators for Ultra-Stable
+Advanced Energy Materials, 2026
+25 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 26 页 ===
+and High-Performance Enzyme Electrodes,” ACS Applied Materials
+& Interfaces
+17
+(2025):
+44101–44111,
+https://doi.org/10.1021/acsami.
+5c06219.
+106. G. Ahmed, F. A. Butt, F. Raza, S. Hashmi, G. G. Kumar, and M.
+Christy, “The Study of Different Redox Mediators for Competent Li–Air
+Batteries,” Journal of Power Sources 538 (2022): 231379, https://doi.org/10.
+1016/j.jpowsour.2022.231379.
+107. A. L. Waldbusser and S. Hematian, “Electrocatalytic Anaerobic
+Oxidation of Benzylic Amines Enabled by Ferrocene-Based Redox Medi-
+ators,” Organometallics 43 (2024): 2557–2564, https://doi.org/10.1021/acs.
+organomet.4c00219.
+108. E. Hermosilla, M. Diaz, M. Pérez-Vélez, et al., “Redox Mediator
+System: Expanding the Potential of Laccase-Like Nanozymes Towards
+Pollutant Remediation,” Results in Engineering 26 (2025): 104656, https://
+doi.org/10.1016/j.rineng.2025.104656.
+109. N. Fujinuma, N. Page, A. G. Boddy, et al., “Synergistic Pd-Au Catalyst
+for Selective Electrosynthesis of Dimethyl Carbonate in Conjunction
+With High-Rate Redox System,” Advanced Functional Materials 35 (2025):
+2412402, https://doi.org/10.1002/adfm.202412402.
+110. S. R. Waldvogel and C. Streb, “Redox Mediators Facilitate Selective
+Electrocatalytic Nitroarene-to-Aniline Reduction,” Chemistry 8 (2022):
+2071–2073, https://doi.org/10.1016/j.chempr.2022.06.022.
+111. M. T. Amin, M. S. Hossain, M. M. Billah, and M. A. Rahman,
+“MBenes: A Comprehensive Review of Synthesis Techniques and Energy
+Storage Capabilities,” Global Challenges 9 (2025): 00245, https://doi.org/
+10.1002/gch2.202500245.
+112. Y.-H. Liu, W. Chang, J. Qu, et al., “A Polymer Organosulfur Redox
+Mediator for High-Performance Lithium-Sulfur Batteries,” Energy Stor-
+age Materials 46 (2022): 313–321, https://doi.org/10.1016/j.ensm.2022.01.
+021.
+113. X. Hu, Y. Zhao, S. J. Yoo, et al., “I3−/I−Redox Enhanced Sodium Metal
+Batteries by Using Graphene Oxide Encapsulated Mesoporous Carbon
+Sphere Cathode,” Advanced Functional Materials 31 (2021): 2101637,
+https://doi.org/10.1002/adfm.202101637.
+114. M. Cui, N. Ma, H. Lei, et al., “I3−/I−Redox Reaction-Mediated
+Organic Zinc-Air Batteries With Accelerated Kinetics and Long Shelf
+Lives,” Angewandte Chemie International Edition 62 (2023): 202303845,
+https://doi.org/10.1002/anie.202303845.
+115. Y. Jiang, Y. Liao, J. Yu, et al., “Multi-Effect Ionic Liquid Additives
+Achieve High Cycle Stability Lithium-Sulfur Batteries by Constructing an
+Electrostatic Shielding Layer and Eliminating “Dead Sulfur”,” Advanced
+Functional Materials 35 (2025): 2500077, https://doi.org/10.1002/adfm.
+202500077.
+116. P. Jia, J. Wang, T. Zheng, et al., “Boosting Cathode Activity and
+Anode Stability of Lithium–Sulfur Batteries With Vigorous Iodic Species
+Triggered by Nitrate,” Angewandte Chemie International Edition 63
+(2024): 202401055, https://doi.org/10.1002/anie.202401055.
+117. X. Lv, Z. Qian, X. Zhang, et al., “Enhancement of Overall Kinetics by
+Se−Br Chemistry in Rechargeable Li−S Batteries,” Angewandte Chemie
+International Edition 63 (2024): 202405880, https://doi.org/10.1002/anie.
+202405880.
+118. H. Liu, Y. Chen, P. H. Chien, et al., “Dendrite Formation in Solid-
+State Batteries Arising From Lithium Plating and Electrolyte Reduction,”
+Nature Materials 24 (2025): 581–588, https://doi.org/10.1038/s41563-024-
+02094-6.
+119. J. Liu, S. Song, J. Wang, X. Mei, and H. Zhao, “Electron Insulative
+Interface Based on Schottky Contact Enabling Dendrite-Free Solid-State
+Lithium Metal Batteries,” Advanced Functional Materials 35 (2025):
+2505836, https://doi.org/10.1002/adfm.202505836.
+120. Z. Wang, H. Yang, S. Li, et al., “Small Components Play a Big Role-
+Fillers in Composite Solid-State Electrolytes for Lithium Metal Batteries,”
+Energy Materials 4 (2024): 400080, https://doi.org/10.20517/energymater.
+2024.57.
+121. S. Li, H. Yang, H. Tong, et al., “Orbital-Tailoring Strategy via Dual-
+Defect Engineering in P-FeTe2-X@NC Synergizes Polysulfide Adsorption-
+Conversion for Lithium-Sulfur Batteries,” Advanced Materials 37 (2025):
+11910, https://doi.org/10.1002/adma.202511910.
+122. X. Gao, X. Zheng, Y. Tsao, et al., “All-Solid-State Lithium–Sulfur Bat-
+teries Enhanced by Redox Mediators,” Journal of the American Chemical
+Society 143 (2021): 18188–18195, https://doi.org/10.1021/jacs.1c07754.
+123. J. Fan, W. Sun, Y. Fu, and W. Guo, “Activation of Li2S Cathode
+by an Organoselenide Salt Mediator for All-Solid-State Lithium–Sulfur
+Batteries,” Advanced Functional Materials 34 (2024): 2407166, https://doi.
+org/10.1002/adfm.202407166.
+124. C. Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, and L. F. Nazar, “High-
+Performance All-Solid-State Li2S Batteries Using an Interfacial Redox
+Mediator,” Energy & Environmental Science 16 (2023): 610–618, https://doi.
+org/10.1039/D2EE03297J.
+125. C. Huang, J. Fan, W. Sun, Y. Fu, and W. Guo, “Li2S Cathode Mediated
+by Diphenyl Chalcogenides in All-Solid-State Batteries,” Small Methods 9
+(2025): 01077, https://doi.org/10.1002/smtd.202501077.
+126. P. Yu, S. Sun, C. Sun, et al., “Active Regulation Volume Change
+of Micrometer-Size Li2S Cathode With High Materials Utilization for
+All-Solid-State Li/S Batteries Through an Interfacial Redox Mediator,”
+Advanced Functional Materials 34 (2024): 2306939, https://doi.org/10.
+1002/adfm.202306939.
+127. H. Gamo, K. Hikima, and A. Matsuda, “Understanding Decom-
+position of Electrolytes in All-Solid-State Lithium–Sulfur Batteries,”
+Chemistry of Materials 34 (2022): 10952–10963, https://doi.org/10.1021/acs.
+chemmater.2c02926.
+128. M. Wang, H. Su, F. Zhao, et al., “Mechanically Induced Bridged
+Interlayer Enabling Highly Reversible All-Solid-State Sulfur Cath-
+odes,” Advanced Materials 38 (2026): 13336, https://doi.org/10.1002/adma.
+202513336.
+129. K. Shen, W. Shi, H. Song, et al., “Solid Catholyte With Regulated
+Interphase Redox for All-Solid-State Lithium-Sulfur Batteries,” Advanced
+Materials 37 (2025): 2417171, https://doi.org/10.1002/adma.202417171.
+130. H. Song, K. Münch, X. Liu, et al., “All-Solid-State Li–S Batteries With
+Fast Solid–Solid Sulfur Reaction,” Nature 637 (2025): 846–853, https://doi.
+org/10.1038/s41586-024-08298-9.
+131. J. Gu, C. Shi, Z. Li, et al., “Lithiated 3, 6-dioxa-1, 8-Octane Dithiol
+as Redox Mediator to Manipulate Polysulfides Conversion for High-
+Performance Lithium-Sulfur Batteries,” Chemical Engineering Journal
+432 (2022): 134379, https://doi.org/10.1016/j.cej.2021.134379.
+132. Z. Zhang, M. Zhang, G. Yan, et al., “Accelerated Oxidation-Reduction
+Kinetic Functional Polyurea Binders: Diselenide Building Block as Redox
+Co-Moderators,” Chemical EngineeringJournal 489 (2024): 151288, https://
+doi.org/10.1016/j.cej.2024.151288.
+133. S. Meini, R. Elazari, A. Rosenman, A. Garsuch, and D. Aurbach, “The
+Use of Redox Mediators for Enhancing Utilization of Li2S Cathodes for
+Advanced Li–S Battery Systems,” Journal of Physical Chemistry Letters 5
+(2014): 915–918, https://doi.org/10.1021/jz500222f.
+134. M. Zhao, H. J. Peng, J. Y. Wei, et al., “Dictating High-Capacity
+Lithium–Sulfur Batteries Through Redox-Mediated Lithium Sulfide
+Growth,” Small Methods 4 (2020): 1900344, https://doi.org/10.1002/smtd.
+201900344.
+135. Y. Q. Peng, M. Zhao, Z. X. Chen, et al., “Full-Range Redox Mediation
+on Sulfur Redox Kinetics for High-Performance Lithium-Sulfur Batter-
+ies,” Batteries & Supercaps 5 (2022): 202100359, https://doi.org/10.1002/
+batt.202100359.
+136. Z. Li, B. Q. Li, L. L. Chen, et al., “Regulating Lithium Bond to Reduce
+Polysulfide Parasitic Reactivity for High-Stability Lithium Metal Anode,”
+Angewandte Chemie International Edition 65 (2026): 22034, https://doi.
+org/10.1002/anie.202522034.
+137. Z. X. Chen, J. J. Zhao, G. Y. Fang, et al., “Accelerating the Sulfur
+Redox Kinetics in Weakly-Solvating Lithium‒Sulfur Batteries Under
+26 of 27
+Advanced Energy Materials, 2026
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 27 页 ===
+Lean-Electrolyte Conditions,” Energy Storage Materials 83 (2025): 104502,
+https://doi.org/10.1016/j.ensm.2025.104502.
+138. T. Jin, X. Y. Li, M. Zhao, et al., “Promoting the Rate Performances
+of Weakly Solvating Electrolyte-Based Lithium‒Sulfur Batteries,” Ange-
+wandte Chemie International Edition 64 (2025): 202504898, https://doi.
+org/10.1002/anie.202504898.
+139. Y. Liu, M. Zhao, L. P. Hou, et al., “An Organodiselenide Comediator
+to Facilitate Sulfur Redox Kinetics in Lithium–Sulfur Batteries With
+Encapsulating Lithium Polysulfide Electrolyte,” Angewandte Chemie
+International Edition 62 (2023): 202303363, https://doi.org/10.1002/anie.
+202303363.
+140. M. Zhao, B. Q. Li, and J. Q. Huang, “Research Progress of Structures
+and Properties of Lithium Polysulfides in Lithium–Sulfur Batteries,”
+Chinese Science Bulletin 71 (2026): 146–162, https://doi.org/10.1360/CSB-
+2025-0596.
+141. Q. Cheng, J. J. Zhao, Z. X. Chen, et al., “Unveiling the Capacity
+Enhancement Mechanism of Carbon Interlayers in Lithium–Sulfur Bat-
+teries,” Advanced Energy Materials 15 (2025): 2404757, https://doi.org/10.
+1002/aenm.202404757.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section.
+SupportingFile 1: aenm71256-sup-0001-MovieS1.mp4.
+SupportingFile 2: aenm71256-sup-0002-MovieS2.mp4.
+Advanced Energy Materials, 2026
+27 of 27
+ 16146840, 2026, 31, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71256 by Tsinghua University Library, Wiley Online Library on [12/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d9" for="edge" attr.name="lift" attr.type="double"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d7" for="edge" attr.name="count" attr.type="long"/>
+<key id="d6" for="node" attr.name="denominator" attr.type="long"/>
+<key id="d5" for="node" attr.name="prevalence" attr.type="double"/>
+<key id="d4" for="node" attr.name="count" attr.type="long"/>
+<key id="d3" for="node" attr.name="label" attr.type="string"/>
+<key id="d2" for="graph" attr.name="note" attr.type="string"/>
+<key id="d1" for="graph" attr.name="period" attr.type="string"/>
+<key id="d0" for="graph" attr.name="group" attr.type="string"/>
+<graph edgedefault="undirected"><data key="d0">固态锂金属</data>
+<data key="d1">2023-2026</data>
+<data key="d2">Abstract topic co-occurrence; not causality</data>
+<node id="P01">
+  <data key="d3">离子传输/电导</data>
+  <data key="d4">1576</data>
+  <data key="d5">0.6459016393442623</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P02">
+  <data key="d3">电子传输/电导</data>
+  <data key="d4">104</data>
+  <data key="d5">0.0426229508196721</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P03">
+  <data key="d3">反应/转化动力学</data>
+  <data key="d4">58</data>
+  <data key="d5">0.0237704918032786</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P04">
+  <data key="d3">界面接触/润湿</data>
+  <data key="d4">320</data>
+  <data key="d5">0.1311475409836065</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P05">
+  <data key="d3">界面阻抗/界面传输</data>
+  <data key="d4">266</data>
+  <data key="d5">0.1090163934426229</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P06">
+  <data key="d3">副反应/界面化学</data>
+  <data key="d4">854</data>
+  <data key="d5">0.35</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P07">
+  <data key="d3">电位稳定性/窗口</data>
+  <data key="d4">569</data>
+  <data key="d5">0.2331967213114754</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P08">
+  <data key="d3">体积变化/应力</data>
+  <data key="d4">134</data>
+  <data key="d5">0.0549180327868852</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P09">
+  <data key="d3">裂纹/孔洞/结构失效</data>
+  <data key="d4">144</data>
+  <data key="d5">0.0590163934426229</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P10">
+  <data key="d3">枝晶/不均匀沉积</data>
+  <data key="d4">803</data>
+  <data key="d5">0.3290983606557377</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P11">
+  <data key="d3">多硫化物溶解/穿梭</data>
+  <data key="d4">0</data>
+  <data key="d5">0.0</data>
+  <data key="d6">2440</data>
+</node>
+<node id="P12">
+  <data key="d3">活性物利用/转化程度</data>
+  <data key="d4">4</data>
+  <data key="d5">0.001639344262295</data>
+  <data key="d6">2440</data>
+</node>
+<edge source="P01" target="P06">
+  <data key="d7">665</data>
+  <data key="d8">0.5732111153618734</data>
+  <data key="d9">1.2055837563451777</data>
+</edge>
+<edge source="P01" target="P07">
+  <data key="d7">516</data>
+  <data key="d8">0.5448983111409573</data>
+  <data key="d9">1.40401273942173</data>
+</edge>
+<edge source="P01" target="P10">
+  <data key="d7">508</data>
+  <data key="d8">0.4515728606051514</data>
+  <data key="d9">0.9794488940584484</data>
+</edge>
+<edge source="P01" target="P04">
+  <data key="d7">191</data>
+  <data key="d8">0.2689554019697893</data>
+  <data key="d9">0.9240958121827412</data>
+</edge>
+<edge source="P01" target="P05">
+  <data key="d7">167</data>
+  <data key="d8">0.2579274391599466</data>
+  <data key="d9">0.972004885309721</data>
+</edge>
+<edge source="P01" target="P02">
+  <data key="d7">59</data>
+  <data key="d8">0.1457327752448105</data>
+  <data key="d9">0.8783190160093713</data>
+</edge>
+<edge source="P02" target="P10">
+  <data key="d7">50</data>
+  <data key="d8">0.1730197029446371</data>
+  <data key="d9">1.4608678992240636</data>
+</edge>
+<edge source="P04" target="P05">
+  <data key="d7">94</data>
+  <data key="d8">0.3221899920504105</data>
+  <data key="d9">2.694548872180451</data>
+</edge>
+<edge source="P04" target="P10">
+  <data key="d7">130</data>
+  <data key="d8">0.2564546573620567</data>
+  <data key="d9">1.2344333748443337</data>
+</edge>
+<edge source="P04" target="P06">
+  <data key="d7">112</data>
+  <data key="d8">0.2142466787239939</data>
+  <data key="d9">1.0</data>
+</edge>
+<edge source="P04" target="P09">
+  <data key="d7">35</data>
+  <data key="d8">0.1630466233593596</data>
+  <data key="d9">1.8532986111111112</data>
+</edge>
+<edge source="P05" target="P10">
+  <data key="d7">102</data>
+  <data key="d8">0.2206996176683659</data>
+  <data key="d9">1.1651794492457794</data>
+</edge>
+<edge source="P05" target="P06">
+  <data key="d7">101</data>
+  <data key="d8">0.2119100822858954</data>
+  <data key="d9">1.0848549946294308</data>
+</edge>
+<edge source="P05" target="P07">
+  <data key="d7">60</data>
+  <data key="d8">0.1542248295281876</data>
+  <data key="d9">0.9672687870819404</data>
+</edge>
+<edge source="P06" target="P07">
+  <data key="d7">412</data>
+  <data key="d8">0.591033567961426</data>
+  <data key="d9">2.068792367562139</data>
+</edge>
+<edge source="P06" target="P10">
+  <data key="d7">301</data>
+  <data key="d8">0.3634793875498742</data>
+  <data key="d9">1.0709838107098382</data>
+</edge>
+<edge source="P07" target="P10">
+  <data key="d7">161</data>
+  <data key="d8">0.2381836631389635</data>
+  <data key="d9">0.8597810933078285</data>
+</edge>
+<edge source="P08" target="P09">
+  <data key="d7">28</data>
+  <data key="d8">0.2015692993023173</data>
+  <data key="d9">3.540630182421227</data>
+</edge>
+<edge source="P08" target="P10">
+  <data key="d7">57</data>
+  <data key="d8">0.1737659519244627</data>
+  <data key="d9">1.292541030835858</data>
+</edge>
+<edge source="P09" target="P10">
+  <data key="d7">67</data>
+  <data key="d8">0.1970315546129968</data>
+  <data key="d9">1.413795489137955</data>
+</edge>
+</graph></graphml>

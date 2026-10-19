@@ -1,0 +1,4 @@
+R1=D:\Desktop\锂电催化\机器学习\skills\Open-Papertrail\Open-Papertrail\corpus\library\05_LiS_solid-state\2024_Zhong_AFM_Nano-Scale Interface Engineering of Sulfur Cathode to Enable High-Performance All-Solid-State Li-S Batteries.pdf
+R1_SI=D:\Desktop\锂电催化\机器学习\skills\Open-Papertrail\Open-Papertrail\corpus\library\05_LiS_solid-state\2024_Zhong_AFM_Nano-Scale Interface Engineering of Sulfur Cathode to Enable High-Performance All-Solid-State Li-S Batteries_SI.pdf
+R2=D:\Desktop\锂电催化\机器学习\skills\Open-Papertrail\Open-Papertrail\corpus\library\05_LiS_solid-state\2022_Sun_Small_High Surface Area N-Doped Carbon Fibers with Accessible Reaction Sites for All-Solid-State Lithium-Sulfur Batteries.pdf
+R2_SI=D:\Desktop\锂电催化\机器学习\skills\Open-Papertrail\Open-Papertrail\corpus\library\05_LiS_solid-state\2022_Sun_Small_High Surface Area N-Doped Carbon Fibers with Accessible Reaction Sites for All-Solid-State Lithium-Sulfur Batteries_SI.pdf

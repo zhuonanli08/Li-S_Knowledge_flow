@@ -1,0 +1,714 @@
+=== 第 1 页 ===
+Journal of Electroanalytical Chemistry 954 (2024) 118017
+Available online 28 December 2023
+1572-6657/© 2023 Elsevier B.V. All rights reserved.
+Novel PEO-based composite solid electrolytes for All-Solid-State 
+Li-S battery 
+Zhao Wang a, Basem Al Alwan b, Wissam Fawaz a, K.Y. Simon Ng a,* 
+a Department of Chemical Engineering and Materials Science, Wayne State University, Detroit, MI 48202, United States 
+b Chemical Engineering Department, College of Engineering, King Khalid University, Abha 61411, Saudi Arabia   
+A R T I C L E I N F O  
+Keywords: 
+Composite solid electrolyte 
+All-solid-state Li-S battery 
+Transition metal carbides over 
+Mesoporous silica (SBA-15) 
+A B S T R A C T  
+Solid polymer electrolytes (SPEs) were investigated for several decades due to their good compatibility with 
+electrodes. However, meeting the essential requirements for solid polymer electrolytes, including enhanced ionic 
+conductivity, superior solubility with conductive lithium salts, and robust interface stability when in contact with 
+a Li anode, remains a formidable challenge. In our work, we found that transition metal carbides (NiNbCeC) over 
+mesoporous silica (SBA-15) can be filled into the Polyethylene Oxide (PEO) matrix to form composite solid 
+electrolytes which can greatly improve the ionic conductivity of PEO. We investigate a series of transition metal 
+carbides with varying mass ratios of Cerium (5%, 10%, and 20%) to fabricate All-Solid-State Li-S batteries 
+(ASSLi-S). Our results demonstrate that different mass ratios of Cerium play a pivotal role in enhancing the ionic 
+conductivity of the composite solid electrolytes, reducing impedance levels from 9150 O (20% Ce) to 4000 O (5% 
+Ce) to 1730 O (10% Ce). At room temperature, the high initial specific capacity at 1C and reversible specific 
+capacity after 100 cycles are 525 and 363 mAh/g, 605 and 403 mAh/g, 246.3 mAh/g and 63.28 mAh/g for 5% 
+Ce, 10%, and 20%, respectively. Furthermore, long-term cycling tests of ASSLi-S cells at 0.5C reveal promising 
+performance, with the cell containing 10% Ce solid electrolytes delivering an initial specific capacity of 1165.7 
+mAh/g and maintaining 335 mAh/g after 200 cycles. This represents a significant breakthrough, demonstrating 
+that PEO-based solid electrolytes can achieve impressive electrochemical results at room temperature. SEM 
+characterization was employed to assess the volume change in the solid electrolyte layer and elemental distri­
+bution of solid electrolyte materials through cross-sectional analysis. This analysis revealed that the failure 
+modes of solid-state Li-S cells can also be attributed to the migration of sulfur elements from the cathode to the 
+solid electrolyte layer during the cycling process. XRD was utilized to study the crystallinity of composite solid 
+electrolytes. This study represents a significant stride in the progress of high-performance solid polymer elec­
+trolytes for All-Solid-State Li-S batteries, shedding light on the failure modes of such batteries. It underscores the 
+potential of composites based on transition metal carbides in addressing crucial challenges for their practical 
+implementation in Solid-State Lithium-Sulfur Batteries.   
+1. Introduction 
+Li-S batteries have emerged as a highly promising alternative to 
+traditional Li-ion batteries due to their owing to their exceptional 
+theoretical specific capacity (1675 mAh⋅g−1) and energy density of 2600 
+Wh⋅kg−1, coupled with their cost-effectiveness (abundance in earth) and 
+environmentally friendly nature (nontoxic of sulfur). [1–4] However, 
+the practical implementation of Li-S batteries was hindered by several 
+challenges such as the notorious shuttle effect of lithium polysulfides 
+(LPS), the formation of lithium dendrite, and the safety concerns 
+associated with liquid electrolytes solvent. [5–7] Consequently, 
+tremendous efforts have been devoted into surmounting these limita­
+tions inherent to Li-S batteries. Among all the strategies, the develop­
+ment of All-Solid-State Li-S batteries gained significant attention to 
+overcome the limitations of traditional Li-S batteries. [8–10]. 
+Generally, solid electrolytes can be categorized into inorganic solid 
+electrolytes (sulfide and oxide-based) and polymer electrolytes based on 
+their chemical composition. Inorganic solid electrolytes, especially 
+sulfide-based solid electrolytes, have been widely investigated due to 
+their high ionic conductivity (>10-3 S cm−1 at room temperature) and 
+* Corresponding author. 
+E-mail address: sng@wayne.edu (K.Y.S. Ng).  
+Contents lists available at ScienceDirect 
+Journal of Electroanalytical Chemistry 
+journal homepage: www.elsevier.com/locate/jelechem 
+https://doi.org/10.1016/j.jelechem.2023.118017 
+Received 29 October 2023; Received in revised form 8 December 2023; Accepted 25 December 2023   
+
+=== 第 2 页 ===
+Journal of Electroanalytical Chemistry 954 (2024) 118017
+2
+strong mechanical properties including Li10GeP2S12 (LGPS), Li7P3S11 
+(LPS), and Li6PS5Cl (LPSCl).[11–19] All of these materials have been 
+extensively explored. Additionally, the oxide electrolytes possess ad­
+vantages like excellent thermal stability, high ionic conductivity (10-6 S 
+cm−1 to 10-4S cm−1 at room temperature), and wide electrochemical 
+windows such as Li7La3Zr2O12 (LLZO), Li0.33La0.557TiO3 (LLTO) and 
+Li7La3Zr2TaxO12 (LLZTa).[20–25] However, their practical application 
+is impeded by their interfacial issues, instability under ambient condi­
+tions, chemically reactive with Li metal, poor electrochemical stability 
+window. [26,27]. 
+Besides the inorganic solid electrolytes, extensive research efforts 
+have been directed towards incorporating diverse inorganic fast ionic 
+conductors into the structure of organic polymers, along with various 
+lithium salts.[28,29] In recent years, there has been a surge in research 
+focused on exploring different solid polymer electrolytes (SPE) featuring 
+high molecular weight. These SPEs are predominantly based on dielec­
+tric polymer hosts, including poly (ethylene oxide) (PEO), poly (vinyl­
+idene fluoride) (PVDF), polyacrylonitrile (PAN), and poly (methyl 
+methacrylate) (PMMA).[30–40] Among the SPEs, particularly poly 
+(ethylene oxide) (PEO) has garnered significant attention due to its ionic 
+conducting property and its ability to interact with various lithium salts 
+through the ether oxygen bonds, facilitating cation solvation. [41] In 
+addition, PEO-based SPEs exhibit desirable qualities such as flexibility, 
+plasticity, excellent contact properties, and compatibility with electrode 
+interfaces. However, it’s important to note that PEO is inherently a 
+crystalline polymer, and the crystalline nature of PEO hinders the 
+migration of lithium ions because crystallization slows down the motion 
+of polymer chains.[42–44] Conversely, the amorphous phase, charac­
+terized by freely activated chain segments above its glass transition 
+temperature (Tg), is conducive to efficient ion transport. [45,46] Despite 
+these advantages, PEO-based SPEs face challenges due to their low ionic 
+conductivities at room temperature, limited thermal stability, mechan­
+ical properties, and narrow electrochemical stability windows. Conse­
+quently, the practical application of PEO-based SPEs in commercial 
+lithium-ion batteries has been limited.[47–49] As a result, extensive 
+research efforts have been devoted to mitigating PEO’s crystallinity and 
+enhancing the ion conductivity and mechanical properties of PEO-based 
+SPEs. [50–53]. 
+Various strategies have been employed to enhance the ionic con­
+ductivity of solid polymer electrolytes (SPEs) based on poly (ethylene 
+oxide) (PEO). These approaches encompass blending with other poly­
+mers, incorporating plasticizers and fillers, grafting, and crosslinking 
+modifications. Among these methods, the incorporation of granular 
+ceramic fillers into the PEO matrix has been extensively researched, as it 
+offers simultaneous improvements in ionic conductivity, mechanical 
+strength, and electrochemical stability. Ceramic fillers are believed to 
+impede the crystallization of the polymer, while also creating ion 
+transport pathways at the interface between the filler and polymer, 
+thereby augmenting ionic conductivity. Typically, fillers used in poly­
+mer matrices fall into two categories: inert fillers, such as Al2O3[54] and 
+SiO2,[55] and active fillers, such as Li3N[56,57] and Li6.4La3Zr1.4­
+Ta0.6O12 (LLZTO). [58] Inert fillers do not actively participate in the 
+migration of lithium ions, whereas active fillers play a role in facilitating 
+the movement of lithium ions. Furthermore, Metal–organic frameworks 
+(MOFs), constructed from metal ion clusters and organic linkers, have 
+demonstrated their effectiveness as filler materials when incorporated 
+into polymer matrices, achieving noteworthy success. Wu et al. utilized 
+the widely used MOF material, UIO-66, as an additive in the poly­
+ethylene oxide (PEO) matrix to develop novel solid electrolytes for 
+lithium-ion batteries. These solid-state lithium-ion batteries, featuring 
+the PEO-n-UIO solid electrolyte, demonstrated an initial discharge ca­
+pacity of 151 mAh/g. Notably, they exhibited remarkable capacity 
+retention, retaining 95 % of their capacity even after undergoing 100 
+charge–discharge cycles at 0.5C and 60 ◦C.[50]. 
+Our group investigated a number of Ni-based carbides as inert fillers 
+for PEO, leveraging its commendable thermal stability, electrical 
+conductivity, and mesoporous structure. Our early publication focused 
+on NiWC,[51] while this work focused on NiNbCeC. The inclusion of Ce 
+was a deliberate choice due to its impact on altering the size of primary 
+carbides. [59–61] This adjustment in carbide size is crucial, as smaller 
+carbides facilitate enhanced interaction with Li ions, thereby improving 
+the conductivity of the solid electrolytes. In this paper, we introduced 
+transition metal carbides (TMCs) (specifically NiNbCeC) over meso­
+porous silica (SBA-15) as fillers incorporated into the PEO matrix. This 
+innovative approach was aimed at augmenting the ionic conductivity 
+and subsequently utilized to develop composite solid electrolytes for 
+lithium-sulfur (Li-S) cells. Moreover, the effects of varying cerium (Ce) 
+ratios within the composite solid electrolyte were explored and ulti­
+mately the 10 % Ce was identified as the optimal choice. Eventually, the 
+Solid-State Li-S cells deliver an initial specific capacity as 1165.7 mAh/g 
+and maintain 335 mAh/g after 200 cycles at 0.5C at room temperature. 
+The outstanding performance of TMCs-PEO-LiTFSI-IL-LCO is evident 
+when compared with the data from the previous publications in Table 1. 
+The novel composite solid-state Li-S batteries demonstrate markedly 
+improved cycling stability at high C-rate and high specific capacity at 
+room temperature. 
+2. Experimental steps 
+2.1. Materials 
+Elemental Sulfur, N-methyl-2-pyrrolidone (NMP, 99.5 %), (Poly 
+(ethylene oxide) (PEO, average Mv = 300,000), lithium bis(tri­
+fluoromethanesulfonyl)imide (LiTFSI, 99.0 %), polyvinylidene fluoride 
+(PVDF, average Mw = 534,000), Anhydrous acetonitrile were purchased 
+from Sigma-Aldrich (St. Louis, MI, USA). Lithium cobalt (III) oxide (LCO, 
+97.0 %) was obtained from Alfa Aesar. 
+2.2. Preparation of NiNbCeC/SBA-15-IL 
+NiNbCeC/SBA-15-IL (Transition metal carbides: TMC) with different 
+content of Ce (5 %, 10 %, 20 %) were prepared by impregnation method 
+as reported previously.[64] 1-butyl-3-methylimidazolium bis(tri­
+fluoromethylsulfonyl imide) [BMIMTFSI], and N-butyl-N-methyl­
+pyrrolidinium bis(trifluoromethanesulfonyl) imide [PYR14TFSI] were 
+prepared and used as room-temperature ionic liquids as described pre­
+viously. [65] The prepared NiNbCeC/SBA-15 was mixed with the ionic 
+liquid (IL) with a weight ratio of 3:4 by ultrasonic for 10 min, and then 
+heated at 120℃ under a vacuum for 12 h to obtain the NiNbCeC/SBA- 
+15-IL (TMCs-IL). 
+Table 1 
+Comparison of the electrochemical performance among different PEO-based 
+composite solid electrolytes in Lithium batteries.  
+Solid 
+Electrolytes 
+Impedance 
+Cycling 
+performance 
+Testing 
+Condition 
+Reference 
+PEO-LiTFSI- 
+Al2O3 
+1 × 10–5S 
+cm−1 at 30 ◦C 
+Initial: 1445 
+mAh/g at C/20 
+8th Cycles: 901 
+mAh/g at C/20 
+Room 
+temperature 
+[62] 
+PEO-n-UIO 
+1.3 × 10−4S 
+⋅cm−1 at 30 ◦C 
+Initial: 151 
+mAh/g at 0.5C 
+100th Cycles: 
+143.45 mAh/g 
+60 ℃ 
+[50] 
+PEO-LiTFSI- 
+(ALD) 
+Al2O3 
+/ 
+Initial: 1415 
+mAh/g at 0.1C 
+120th Cycles: 
+640 mAh/g 
+60 ℃ 
+[63] 
+TMCs-PEO- 
+LiTFSI-IL- 
+LCO 
+1.2 × 10−4S 
+⋅cm−1 at 30 ◦C 
+Initial: 1165.7 
+mAh/g at 0.5C 
+200th Cycles: 
+335 mAh/g 
+Room 
+temperature 
+This work  
+Z. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 3 页 ===
+Journal of Electroanalytical Chemistry 954 (2024) 118017
+3
+2.3. Preparation of PEO based composites solid electrolytes 
+Initially, PEO and LiTFSI were vacuum-dried at 60 ◦C for 24 h prior 
+to usage. Subsequently, PEO and LiTFSI were dissolved in acetonitrile 
+under magnetic stirring at 60 ◦C for 2 h to create the PEO-LiTFSI solu­
+tion. The PEO-LiTFSI solution was then combined with TMCs-IL and 
+LCO, and the mixture was subjected to magnetic stirring at 60 ◦C for 24 h 
+to produce the composite solid electrolyte materials. 
+2.4. Materials characterizations 
+X-ray Diffraction (XRD) analysis was employed to characterize 
+crystallinity of the prepared materials, including TMCs, composite solid 
+electrolyte, and PEO. The instrument utilized for this purpose was the 
+Bruker D2 Phaser, operating with Cu Kα radiation at room temperature 
+from 10◦to 80◦. Field-emission scanning electron microscopy (JSM- 
+7600 FESEM) was employed to analyze the morphology and elemental 
+distribution of materials. 
+2.5. Preparation of sulfur cathode and assembly solid-state Li-S cells 
+Firstly, the cathode slurry was prepared by employing the melt- 
+diffusion method as previously reported, which involved mixing 
+elemental sulfur with CoS@MWCNT-20 % [1]. The composites consist of 
+CoS@MWCNT-20 %/S, solid electrolytes, super P, PVDF are mixed with 
+40 wt%, 40 wt%, 10 wt%, and 10 wt%, respectively. A proper amount of 
+NMP was added to form cathode slurry. In addition, LCO was introduced 
+into the slurry, followed by grinding in an agate mortar for 1 h. Subse­
+quently, the slurry was doctor-bladed onto an aluminum foil and 
+vacuum-dried at 60 ◦C for 6 h. After obtaining the cathode materials, a 
+solid electrolyte slurry was doctor-bladed onto the dried cathode sur­
+face. Both the cathode and solid electrolyte layers were then vacuum- 
+dried at 60 ◦C for 6 h. The cathode and solid electrolyte were subse­
+quently cut to a diameter of 14 mm, while the lithium foil was cut to 
+12 mm. Assembly of the all-solid-state Li-S coin cells took place within 
+an Ar-filled glovebox (with O2 < 0.1 ppm and H2O < 0.1 ppm). 
+2.6. Electrochemical measurements 
+The electrochemical impedance spectroscopy (EIS) and cyclic vol­
+tammetry (CV) experiments were tested by using a CH Instruments 
+CHI660D Electrochemical Workstation. Specifically, the scan rate of CV 
+is 0.1 mV/s and the frequency of EIS is from 0.1 to 1.0 MHz Galvano­
+static discharge–charge tests were conducted by a Maccor Model 4200 
+Automated Test System between a voltage range of 1.5–3.0 V (vs. Li/ 
+Li + ) at room temperature. 
+3. Results and discussion 
+In this study, we investigated the influence of different cerium (Ce) 
+content levels (5 %, 10 %, and 20 %) on the properties of composite solid 
+electrolytes based on NiNbCeC/SBA-15-IL. Our analysis aimed to 
+determine the optimal Ce content for enhancing ionic conductivity and 
+overall electrochemical performance. The electrochemical impedance 
+Fig. 1. A. eis spectra of the all-solid-state li-s batteries at room temperature before and after 100 cycles, b. cycling performance of all-solid-state li-s batteries at 1c, c. 
+coulombic efficiency of all-solid-state li-s batteries with different ratio of ce at 1c rate. 
+Z. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 4 页 ===
+Journal of Electroanalytical Chemistry 954 (2024) 118017
+4
+spectroscopy (EIS) results for the three different TMCs solid electrolytes 
+are illustrated in Fig. 1a. Analyzing the EIS data reveals that the 10 % Ce 
+TMCs exhibit the lowest impedance, measuring at 1730 Ω, whereas the 
+5 % Ce TMCs display a significant impedance of 4000 Ω. Conversely, the 
+20 % Ce TMCs demonstrate the highest impedance, reaching 9150 Ω. 
+This observation suggests that there is an optimal lower concentration of 
+Ce in the solid electrolytes that contributes to enhanced ion transport 
+within the material.[66] As detailed in the relevant literature, an 
+elevation in cerium content initially leads to a decrease in the size of 
+primary carbides, succeeded by subsequent enlargement.[59–61] Thus, 
+a cerium content of 20 % results in larger carbide sizes compared to 10 % 
+Ce. Moreover, the increased size of the carbides hinders effective contact 
+with Li ions, thereby elevating the impedance of solid-state Li-S cells. 
+Additionally, excessive cerium addition may contribute to poisoning 
+effects on active materials, such as elemental sulfur. [66] Consequently, 
+as the impedance of the 20 % Ce samples increases, the corresponding 
+specific capacity decreases. Fig. S1 presents the EIS of polymer elec­
+trolytes, measured at 6.07 × 105 Ω. The ionic conductivity (σ) of these 
+solid electrolytes can be calculated using Equation (1). Notably, the 
+novel solid electrolytes we synthesized exhibit an overall reduction in 
+impedance at room temperature. 
+σ = d/(R × A)
+(1)  
+σ: ionic conductivity; d: thickness; R: resistance; A: area. 
+Fig. 1b illustrates the cycling performance of 5 % Ce, 10 % Ce, and 
+20 % Ce solid electrolyte cells, conducted at 1C and room temperature 
+for 100 cycles. Among these, the 10 % Ce TMCs solid electrolyte dem­
+onstrates superior performance, showing an initial specific discharge 
+capacity of 605 mAh/g and a reversible specific discharge capacity of 
+403 mAh/g after 100 cycles, surpassing the other two cells. Following 
+100 cycles at a 1C rate, EIS testing was conducted on All-Solid-State Li-S 
+cells with different Ce ratios. Fig. 1a presents the impedance charac­
+teristics of these cells after 100 cycles. Evidently, post-cycling, there is a 
+substantial increase in the impedance of all the 3 types of solid-state 
+cells, reaching approximately 10,000 Ω. Moreover, two discernible 
+semicircles emerge after 100 cycles, a phenomenon attributable to the 
+formation of the Solid Electrolyte Interphase (SEI) layer in the All-Solid- 
+State Li-S cells during charge and discharge cycles. [67]. 
+Fig. 1C illustrates the coulombic efficiency (CE) of All-Solid-State 
+Lithium-Sulfur (Li-S) cells with varied Ce ratios at a 1C rate. Notably, 
+the cell with a 10 % Ce ratio exhibits optimal performance in terms of 
+CE, maintaining a stable value close to 100 %. This observation aligns 
+cohesively with the capacity data presented in Fig. 1a. Furthermore, all 
+three types of TMCs composite solid electrolytes underwent cycling at 
+0.1C. While the 20 % Ce cells failed to generate data, the 5 % Ce cell 
+initially exhibited an exceptionally high specific capacity of 1644 mAh/ 
+g, which decreased to 1254 mAh/g by the 6th cycle. In contrast, the 
+10 % Ce cell displayed an initial specific capacity of 1588 mAh/g and 
+maintained a favorable capacity of 322 mAh/g by the 70th cycle. 
+Detailed data can be found in Fig. S2. The impedance spectroscopy (EIS) 
+and cycling test outcomes collectively indicate the optimal performance 
+of the composite solid electrolytes can be achieved through the modu­
+lation of Ce content to 10 %. This observation finds its root in the in­
+fluence of varying cerium concentrations on the primary carbides’ 
+dimensions. As elaborated in the pertinent literature, an increase in 
+cerium content initially corresponds to a reduction in primary carbides’ 
+Fig. 2. A. cycling performance of 10 %Ce cells at different C rates, b. cyclic voltammetry of 10 % Ce s at 0.1 mV/s, c. Coulombic efficiency of All-Solid-State Li-S cells 
+with 10 % Ce at different C rates. 
+Z. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 5 页 ===
+Journal of Electroanalytical Chemistry 954 (2024) 118017
+5
+size, which is followed by subsequent enlargement [59–61]. 
+The 10 % Ce solid cells underwent further investigation due to their 
+remarkable electrochemical performance. Cycling tests for the 10 % Ce 
+solid electrolyte cells were conducted at varying C rates (0.1C, 0.5C, 1C, 
+and 2C) over 200 cycles at room temperature. As depicted in Fig. 2a, the 
+initial specific capacities and the corresponding reversible capacities 
+after 200 cycles are as follows: 1580 mAh/g and 0 mAh/g (degraded 
+after 163 cycles), 1165.7 mAh/g and 335 mAh/g, 624 mAh/g and 155 
+mAh/g, and 497 mAh/g and 50.4 mAh/g for the 10 % Ce cells at 0.1C, 
+0.5C, 1C, and 2C, respectively. The observed rapid capacity degradation 
+in the All-Solid-State Li-S cells can primarily be attributed to notable 
+volumetric variations and the migration of elemental sulfur into the 
+solid electrolyte matrix. This deduction is substantiated by the concur­
+rence found in the SEM images depicted in Figs. 3 and 4. Specifically, the 
+specific capacity of 10 % Ce sample at 0.1C is higher than at 0.5C for the 
+initial 25 cycles, as expected. However, the relatively sluggish and more 
+profound electrochemical reaction at 0.1C may cause more sulfur 
+migration, as indicated in the EDX-mapping (Fig. 4). Subsequently, after 
+25 cycles, the 0.5C exhibits higher capacity than the 0.1C. Nevertheless, 
+it is evident that achieving a notable improvement in the high-rate 
+performance of these All-Solid-State Li-S cells remain a crucial goal. 
+Fig. 2b presents the cyclic voltammetry (CV) curve of the 10 % Ce solid- 
+state cells, obtained by sweeping the voltage range from 1.5 V to 3.0 V at 
+a scan rate of 0.1 mV/s. The reduction peak of the 10 % Ce cell is 
+distinctly observed at 2.2 V. This single peak is postulated to be a result 
+of the merging of the typical reduction peaks at 1.9 V and 2.2 V, a hy­
+pothesis supported by the broad width of this peak extending from 1.8 V 
+to 2.3 V. This phenomenon implies the reduction process in solid-state 
+Li-S system is from S8 to Li2S, bypassing the formation of the 
+intermediate lithium polysulfides which might be catalyzed by the ex­
+istence of Ce element. [68,69] Conversely, the oxidation peak at 2.6 V 
+indicates the reaction from Li2S back to S8. Importantly, the positions of 
+these peaks closely correspond to the reduction and oxidation peaks 
+observed in typical liquid electrolyte Li-S cells. [5,70,71] Furthermore, 
+there is minimal alteration in the shapes (peak positions) of the CV curve 
+over the course of these three cycles. Particularly noteworthy, the CV 
+curves for the 2nd and 3rd cycles exhibit the same area, suggesting the 
+absence of capacity decay for the first 3 cycles.[72] Fig. 2C illustrates the 
+coulombic efficiency of All-Solid-State Li-S cells with 10 % Ce at various 
+C rates. Overall, the coulombic efficiency of 10 % Ce at different C rates 
+(0.1C, 0.5C, and 1C) demonstrates a notable consistency in 
+performance. 
+SEM characterizations were utilized to analyze the cross-section of 
+All-Solid-State Li-S cells and the morphology of the solid electrolyte 
+layer before and after cycling. The procedure involved disassembling the 
+All-Solid-state Li-S cells and precision-cutting them from the center of 
+the three-layer pallets to enable cross-sectional examination. Fig. 3a 
+presents the cross-section of the solid-state Li-S cells, depicting the 
+arrangement of lithium metal, solid electrolyte, and sulfur cathode. 
+Following 200 cycles, Fig. 3b portrays the modified cross-section of the 
+solid-state Li-S cells, revealing discernible cracks within the solid elec­
+trolyte layer. These cracks have led to the separation of the cathode layer 
+and lithium metal layer, a phenomenon contributing to the observed 
+capacity degradation in the All-Solid-State Li-S cells. Fig. S3 depicts 
+cross-sectional images captured at different magnifications. Notably, in 
+Fig. S3a and d, comprehensive views of the entire Li metal components 
+are evident. Upon disassembly of the all-solid-state Li-S cells, the lithium 
+metal was cautiously extracted from the solid electrolyte layer. 
+Fig. 3. SEM images of a. Cross-section of 10% Ce solid-state cells before cycling, b. cross-section of 10% Ce solid-state cells after cycling, c. morphology of solid 
+electrolyte before cycling, d) morphology of solid electrolyte after cycling. 
+Z. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 6 页 ===
+Journal of Electroanalytical Chemistry 954 (2024) 118017
+6
+Subsequently, SEM characterization was employed to examine the 
+morphology of the solid electrolyte. The results unveiled a smooth and 
+intact surface of the solid electrolyte before cycling. However, Fig. 3d 
+illustrates the deteriorated surface of the cycled solid electrolytes. 
+Overall, the SEM images show the failure modes of all-solid-state Li-S 
+cells. 
+Furthermore, the examination of the cross-sectional compositions, as 
+depicted in Fig. 3a and 3b, was expanded through the utilization of 
+Energy Dispersive X-ray Spectroscopy (EDS) mapping. This compre­
+hensive analysis unveiled a distinct migration pattern of sulfur (S8) el­
+ements from the cathode side towards the solid electrolyte layer within 
+the All-Solid-State Li-S system. Notably, a discernible migration of sulfur 
+elements was observed towards the solid electrolyte, contributing to an 
+increase in the impedance of the solid electrolytes. This migration aligns 
+coherently with the impedance data presented in both Fig. 1b and 
+Fig. S1, thus corroborating the observed impedance trends. Addition­
+ally, the migration of the cerium (Ce) element was witnessed, further 
+accentuating its role in the electrochemical reactions occurring within 
+the All-Solid-State Li-S cells. The migratory behavior of Ce, in 
+conjunction with the observed electrochemical performance disparities 
+among solid-state Li-S cells with distinct Ce concentrations, underscores 
+the multifaceted impact of this element on the solid-state Li-S cells’ 
+performance. Specifically, this observation was consistent with the 
+previous publication that the Ce element was utilized as catalyst and 
+adsorption for polysulfides in Li-S batteries. [68,69] What’s more, an 
+intriguing finding surfaces as the distribution of nickel (Ni) elements 
+remains unaffected before and after cycling. Nickel has been investi­
+gated in the previous publication by our group. [51] Moreover, there is 
+no obvious migration of nickel element observed by the SEM-Mapping 
+image in Fig. 4. Therefore, we conclude that nickel does not actively 
+participate in the electrochemical reactions within the solid-state Li-S 
+batteries. Concurrently, cerium (Ce) has been identified as an effective 
+catalyst in enhancing the performance of lithium-sulfur (Li-S) batteries, 
+as evidenced in references.[68,69] Based on these observations and 
+supporting literature, we hypothesize that cerium functions more effi­
+ciently as a catalyst for the conversion of lithium polysulfides compared 
+to nickel. This intricate interaction between element migration, elec­
+trochemical reactions, and compositional stability enriches our under­
+standing of the underlying mechanisms at play in the solid-state Li-S 
+system, thereby facilitating targeted enhancements in its overall 
+performance. 
+X-ray Diffraction (XRD) analysis was employed to investigate the 
+crystalline characteristics of the composite solid electrolyte. Fig. 5 il­
+lustrates the XRD patterns of three samples: pure Polyethylene Oxide 
+(PEO), PEO-NiNbCeC/SBA-15-IL composite, and NiNbCeC/SBA-15-IL. 
+The XRD profile of PEO reveals distinct peaks at 19.1◦and 23.3◦, indi­
+cating a notable crystalline structure within the PEO matrix (PDF#00- 
+057-1528). [34,73] In the XRD pattern of the composite solid electrolyte 
+(PEO-NiNbCeC/SBA-15-IL), the peak at 23.3◦is no longer observed, and 
+the intensity of the 19.1◦peak significantly diminishes. This observation 
+implies that the inclusion of transition metal carbides (NiNbCeC/SBA- 
+15) markedly reduces the crystallinity of PEO, thereby enhancing the 
+ionic conductivity of the polymer-based composite solid electrolyte. 
+[47,51] The XRD pattern of NiNbCeC/SBA-15 demonstrates prominent 
+peak positions in conjunction with the composite solid electrolyte at 45◦. 
+The XRD analyses substantiate that the observed decrease in Electro­
+chemical Impedance Spectroscopy (EIS) of the composite solid electro­
+lyte can be attributed to the disruption of the polymer’s crystallinity 
+(PEO) caused by the presence of NiNbCeC/SBA-15. 
+4. Conclusion 
+In conclusion, our study highlights the significant influence of 
+varying cerium (Ce) concentrations in NiNbCeC/SBA-15-IL-based 
+Fig. 4. EDX mapping of cross-section of solid electrolyte before and after cycling.  
+Fig. 5. XRD patterns of PEO, PEO-NiNbCeC/SBA-15-IL, and NiNbCeC/SBA- 
+15-IL. 
+Z. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 7 页 ===
+Journal of Electroanalytical Chemistry 954 (2024) 118017
+7
+composite solid electrolytes on their properties and electrochemical 
+performance. We identified the optimal Ce content for enhancing ion 
+transport and overall electrochemical performance as 10 %. This con­
+centration exhibited lower impedance, improved cycling stability, and 
+notable specific capacity in All-Solid-State Li-S cells. Our comprehensive 
+analysis using techniques such as electrochemical impedance spectros­
+copy (EIS), cyclic voltammetry (CV), and scanning electron microscopy 
+(SEM) provided valuable insights into the behavior of these composite 
+solid electrolytes during cycling. We observed visible cracks in the solid 
+electrolyte layer after cycling, which contributed to capacity degrada­
+tion in the cells. Energy Dispersive X-ray Spectroscopy (EDS) mapping 
+revealed the migration of sulfur and cerium elements within the solid 
+electrolyte, shedding light on their roles in the electrochemical reactions 
+occurring in the cells. Furthermore, X-ray Diffraction (XRD) analysis 
+confirmed that the presence of transition metal carbides disrupted the 
+crystallinity of the polymer matrix, resulting in enhanced ionic con­
+ductivity. This disruption of crystallinity is a key factor in improving the 
+performance of composite solid electrolytes. Our findings offer valuable 
+insights into the design and optimization of composite solid electrolytes 
+for advanced Li-S batteries. The multifaceted interactions and mecha­
+nisms identified in this study contribute to a deeper understanding of the 
+behavior of solid-state Li-S cells and provide a foundation for further 
+research in this field. As we look toward the future of energy storage, the 
+knowledge gained from this study will play a crucial role in the devel­
+opment of high-performance, stable, and safe solid-state Li-S batteries, 
+addressing the growing demand for efficient energy storage solutions in 
+various applications. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.jelechem.2023.118017. 
+References 
+[1] Z. Wang, W. Zeng, K.Y.S. Ng, Facile synthesis of CoS nanoparticles anchored on the 
+surface of functionalized multiwalled carbon nanotubes as cathode materials for 
+advanced Li–S batteries, Ind. Eng. Chem. Res. 61 (26) (2022) 9322–9330. 
+[2] R. Xu, J. Lu, K. Amine, Progress in mechanistic understanding and characterization 
+techniques of Li-S batteries, Adv. Energy Mater. 5 (16) (2015) 1500408. 
+[3] A. Eftekhari, D.-W. Kim, Cathode materials for lithium–sulfur batteries: a practical 
+perspective, J. Mater. Chem. A 5 (34) (2017) 17734–17776. 
+[4] S.K. Jeong, K.S. Nahm, A.M. Stephan, Synthesis of Li(Co0.8Ni0.2−yAly)O2 
+(y≤0.02) by combustion method as a possible cathode material for lithium 
+batteries, Mater. Sci. Eng. A 445–446 (2007) 657–662. 
+[5] Z. Wang, B. Al Alwan, K.Y. Simon Ng, Multi-functions of amino thiophenol 
+additives for shielding lithium metal anode in advanced Li-S battery, Mater. Sci. 
+Eng. B 297 (2023) 116727. 
+[6] Z. Hao, et al., TiN as a simple and efficient polysulfide immobilizer for 
+lithium–sulfur batteries, J. Mater. Chem. A 4 (45) (2016) 17711–17717. 
+[7] W. Zeng, et al., Structured titanium nitride nanotube arrays/sulfur composite as 
+cathode materials for advanced lithium sulfur battery, J. Electrochem. Soc. 165 (5) 
+(2018) A1011–A1018. 
+[8] D.A. Dornbusch, et al., Practical considerations in designing solid state Li-S cells for 
+electric aviation, Electrochim. Acta 403 (2022) 139406. 
+[9] X. Yang, J. Luo, X. Sun, Towards high-performance solid-state Li–S batteries: from 
+fundamental understanding to engineering design, Chem. Soc. Rev. 49 (7) (2020) 
+2140–2195. 
+[10] Y. Liu, P. He, H. Zhou, Rechargeable solid-state Li–Air and Li–S batteries: materials, 
+construction, and challenges, Adv. Energy Mater. 8 (4) (2018) 1701602. 
+[11] L. Ye, X. Li, A dynamic stability design strategy for lithium metal solid state 
+batteries, Nature 593 (7858) (2021) 218–222. 
+[12] S. Wang, et al., High-conductivity argyrodite Li6PS5Cl solid electrolytes prepared 
+via optimized sintering processes for all-solid-state lithium–sulfur batteries, ACS 
+Appl. Mater. Interfaces 10 (49) (2018) 42279–42285. 
+[13] E. Umeshbabu, et al., Stable cycling lithium–sulfur solid batteries with enhanced 
+Li/Li10GeP2S12 solid electrolyte interface stability, ACS Appl. Mater. Interfaces 11 
+(20) (2019) 18436–18447. 
+[14] J. Hassoun, et al., A structural, spectroscopic and electrochemical study of a 
+lithium ion conducting Li10GeP2S12 solid electrolyte, J. Power Sources 229 
+(2013) 117–122. 
+[15] J.A. Dawson, M.S. Islam, A nanoscale design approach for enhancing the Li-ion 
+conductivity of the Li10GeP2S12 solid electrolyte, ACS Mater. Lett. 4 (2) (2022) 
+424–431. 
+[16] X. Xu, et al., Li7P3S11/poly (ethylene oxide) hybrid solid electrolytes with 
+excellent interfacial compatibility for all-solid-state batteries, J. Power Sources 400 
+(2018) 212–217. 
+[17] X. Xu, et al., Boron nitride doped Li 7 P 3 S 11 solid electrolyte with improved 
+interfacial compatibility and application in all-solid-state Li/S battery, J. Mater. 
+Sci. Mater. Electron. 30 (2019) 19119–19125. 
+[18] M.K. Tufail, et al., Insight on air-induced degradation mechanism of Li7P3S11 to 
+design a chemical-stable solid electrolyte with high Li2S utilization in all-solid- 
+state Li/S batteries, Chem. Eng. J. 425 (2021) 130535. 
+[19] C. Yu, et al., Investigation of Li-ion transport in Li7P3S11 and solid-state lithium 
+batteries, J. Energy Chem. 38 (2019) 1–7. 
+[20] J. Wang, et al., Raising the intrinsic safety of layered oxide cathodes by surface re- 
+lithiation with LLZTO garnet-type solid electrolytes, Adv. Mater. 34 (19) (2022) 
+2200655. 
+[21] Q. Zhang, et al., Study of a composite solid electrolyte made from a new 
+pyrrolidone-containing polymer and LLZTO, J. Colloid Interface Sci. 580 (2020) 
+389–398. 
+[22] X. Yu, et al., Rationally designed PEGDA–LLZTO composite electrolyte for solid- 
+state lithium batteries, ACS Appl. Mater. Interfaces 13 (26) (2021) 30703–30711. 
+[23] X. Chen, et al., Synthesis of Ta and Ca doped Li7La3Zr2O12 solid-state electrolyte 
+via simple solution method and its application in suppressing shuttle effect of Li-S 
+battery, J. Alloy. Compd. 744 (2018) 386–394. 
+[24] M.M.U. Din, R. Murugan, Garnet structured solid fast Li+ conductor as polysulfide 
+shuttle inhibitor in Li-S battery, Electrochem. Commun. 93 (2018) 109–113. 
+[25] J. Bi, et al., A hybrid solid electrolyte Li0.33La0.557TiO3/poly(acylonitrile) 
+membrane infiltrated with a succinonitrile-based electrolyte for solid state lithium- 
+ion batteries, J. Mater. Chem. A 8 (2) (2020) 706–713. 
+[26] Y. Ren, et al., Oxide electrolytes for lithium batteries, J. Am. Ceram. Soc. 98 (12) 
+(2015) 3603–3623. 
+[27] Y.-Z. Sun, et al., A review of solid electrolytes for safe lithium-sulfur batteries, Sci. 
+China Chem. 60 (12) (2017) 1508–1526. 
+[28] M. Armand, Polymer solid electrolytes - an overview, Solid State Ion. 9–10 (1983) 
+745–754. 
+[29] G. Xi, et al., Polymer-based solid electrolytes: material selection, design, and 
+application, Adv. Funct. Mater. 31 (9) (2021) 2007598. 
+[30] T. Xu, et al., Environmental effects on the ionic conductivity of poly(methyl 
+methacrylate) (PMMA)-based quasi-solid-state electrolyte, Ionics 24 (9) (2018) 
+2621–2629. 
+[31] D. Yang, et al., An acetylene black modified gel polymer electrolyte for high- 
+performance lithium–sulfur batteries, J. Mater. Chem. A 7 (22) (2019) 
+13679–13686. 
+[32] J. Feng, et al., PEO based polymer-ceramic hybrid solid electrolytes: a review, 
+Nano Convergence 8 (1) (2021) 2. 
+[33] D. Zhang, et al., Research progress and application of PEO-based solid state 
+polymer composite electrolytes, Front. Energy Res. 9 (2021) 726738. 
+[34] G. Appetecchi, et al., PEO-LiN (SO 2 CF 2 CF 3) 2 Polymer Electrolytes: I. XRD, DSC, 
+and Ionic Conductivity Characterization. Journal of the Electrochemical Society, 
+2001. 148(10): p. A1171. 
+[35] T. Bandara, et al., Characterization of poly (vinylidene fluoride-co- 
+hexafluoropropylene)(PVdF-HFP) nanofiber membrane based quasi solid 
+electrolytes and their application in a dye sensitized solar cell, Electrochim. Acta 
+266 (2018) 276–283. 
+[36] H. Choe, et al., Preparation and characterization of poly (vinyl sulfone)-and poly 
+(vinylidene fluoride)-based electrolytes, Electrochim. Acta 40 (13–14) (1995) 
+2289–2293. 
+[37] E. Tsuchida, H. Ohno, K. Tsunemi, Conduction of lithium ions in polyvinylidene 
+fluoride and its derivatives—I, Electrochim. Acta 28 (5) (1983) 591–595. 
+[38] A.H.S. Iyer, et al., Measuring microscale mechanical properties of PVdF binder 
+phase and the binder-particle interface using micromechanical testing, Mater. Sci. 
+Eng. A 881 (2023) 145352. 
+[39] S. Luo, et al., Flexible, solid-state, fiber-network-reinforced composite solid 
+electrolyte for long lifespan solid lithium-sulfurized polyacrylonitrile battery, Nano 
+Res. 15 (4) (2022) 3290–3298. 
+[40] X. Zhang, et al., Effects of Li6.75La3Zr1.75Ta0.25O12 on chemical and 
+electrochemical properties of polyacrylonitrile-based solid electrolytes, Solid State 
+Ion. 327 (2018) 32–38. 
+[41] L. Zhu, et al., A novel solid PEO/LLTO-nanowires polymer composite electrolyte 
+for solid-state lithium-ion battery, Electrochim. Acta 292 (2018) 718–726. 
+[42] S. Cheng, D.M. Smith, C.Y. Li, How does nanoscale crystalline structure affect ion 
+transport in solid polymer electrolytes? Macromolecules 47 (12) (2014) 
+3978–3986. 
+[43] S.B. Aziz, Z.H.Z. Abidin, Ion-transport study in nanocomposite solid polymer 
+electrolytes based on chitosan: electrical and dielectric analysis, J. Appl. Polym. 
+Sci. 132 (15) (2015). 
+[44] S. Cheng, et al., Anisotropic ion transport in 2D polymer single crystal-based solid 
+polymer electrolytes, Giant 2 (2020) 100021. 
+Z. Wang et al.                                                                                                                                                                                                                                   
+
+=== 第 8 页 ===
+Journal of Electroanalytical Chemistry 954 (2024) 118017
+8
+[45] P. Johansson, First principles modelling of amorphous polymer electrolytes: Li+– 
+PEO, Li+–PEI, and Li+–PES complexes, Polymer 42 (9) (2001) 4367–4373. 
+[46] M. Marzantowicz, et al., Conductivity and dielectric properties of polymer 
+electrolytes PEO:LiN(CF3SO2)2 near glass transition, J. Non Cryst. Solids 353 (47) 
+(2007) 4467–4473. 
+[47] S. Suriyakumar, et al., Metal organic framework laden poly(ethylene oxide) based 
+composite electrolytes for all-solid-state Li-S and Li-metal polymer batteries, 
+Electrochim. Acta 285 (2018) 355–364. 
+[48] L. Han, et al., Recent developments and challenges in hybrid solid electrolytes for 
+lithium-ion batteries, Front. Energy Res. 8 (2020) 202. 
+[49] N. Molinari, J.P. Mailoa, B. Kozinsky, Effect of salt concentration on ion clustering 
+and transport in polymer solid electrolytes: a molecular dynamics study of 
+peo–litfsi, Chem. Mater. 30 (18) (2018) 6298–6306. 
+[50] J.-F. Wu, X. Guo, MOF-derived nanoporous multifunctional fillers enhancing the 
+performances of polymer electrolytes for solid-state lithium batteries, J. Mater. 
+Chem. A 7 (6) (2019) 2653–2659. 
+[51] B. Al Alwan, et al., Transition metal carbides filler-reinforced composite polymer 
+electrolyte for solid-state lithium-sulfur batteries at room temperature: 
+breakthrough, Energies 15 (21) (2022) 7827. 
+[52] B. Chen, et al., A new composite solid electrolyte PEO/Li10GeP2S12/SN for all- 
+solid-state lithium battery, Electrochim. Acta 210 (2016) 905–914. 
+[53] M. Li, et al., Investigation of polymer/ceramic composite solid electrolyte system: 
+the Case of PEO/LGPS composite electrolytes, ACS Sustain. Chem. Eng. 9 (34) 
+(2021) 11314–11322. 
+[54] X. Zhang, et al., Vertically aligned and continuous nanoscale ceramic-polymer 
+interfaces in composite solid polymer electrolytes for enhanced ionic conductivity, 
+Nano Lett. 18 (6) (2018) 3829–3838. 
+[55] D. Lin, et al., High ionic conductivity of composite solid polymer electrolyte via in 
+situ synthesis of monodispersed SiO2 nanospheres in poly(ethylene oxide), Nano 
+Lett. 16 (1) (2016) 459–465. 
+[56] A. Manuel Stephan, K.S. Nahm, Review on composite polymer electrolytes for 
+lithium batteries, Polymer 47 (16) (2006) 5952–5964. 
+[57] S. Malhotra, P.K. Varshney, Effect of fillers on composite polymer electrolytes-a 
+study, Int. J. Appl. Eng. Res. 10 (94) (2015) 2015. 
+[58] Y.-W. Song, et al., Lithium-ion transport in inorganic active fillers used in PEO- 
+based composite solid electrolyte sheets, RSC Adv. 11 (51) (2021) 31855–31864. 
+[59] Y. Huang, et al., Effect of cerium on the behavior of primary carbides in cast H13 
+steels, Metall. Mater. Trans. B 52 (2) (2021) 700–713. 
+[60] B. Al Alwan, S.O. Salley, K.Y.S. Ng, Hydrocracking of DDGS corn oil over transition 
+metal carbides supported on Al-SBA-15: Effect of fractional sum of metal 
+electronegativities, Appl. Catal. A 485 (2014) 58–66. 
+[61] X. Wang, et al., Cerium addition effect on modification of inclusions, primary 
+carbides and microstructure refinement of H13 die steel, ISIJ Int. 61 (6) (2021) 
+1850–1859. 
+[62] R. Elizalde-Segovia, et al., Solid-state lithium-sulfur battery based on composite 
+electrode and bi-layer solid electrolyte operable at room temperature, 
+J. Electrochem. Soc. 167 (14) (2020) 140529. 
+[63] Y. Shi, et al., Atomic-scale Al2O3 modified PEO-based composite polymer 
+electrolyte for durable solid-state Li −S batteries, J. Electroanal. Chem. 881 (2021) 
+114916. 
+[64] B. Al Alwan, et al., Effect of metal ratio and preparation method on nickel–tungsten 
+carbide catalyst for hydrocracking of distillers dried grains with solubles corn oil, 
+Ind. Eng. Chem. Res. 53 (17) (2014) 6923–6933. 
+[65] M. Ara, et al., Ternary imidazolium-pyrrolidinium-based ionic liquid electrolytes 
+for rechargeable Li-O2 batteries, J. Electrochem. Soc. 161 (14) (2014) A1969. 
+[66] W. Qi, et al., Improving confinement and redox kinetics of polysufides through 
+hollow NC@CeO2 nanospheres for high-performance lithium-sulfur batteries, 
+Chem. Eng. J. 382 (2020) 122852. 
+[67] P. Vadhva, et al., Electrochemical impedance spectroscopy for all-solid-state 
+batteries: theory, methods and future outlook, Chemelectrochem 8 (11) (2021) 
+1930–1947. 
+[68] X.-J. Hong, et al., Cerium based metal-organic frameworks as an efficient separator 
+coating catalyzing the conversion of polysulfides for high performance lithium- 
+sulfur batteries, ACS Nano 13 (2) (2019) 1923–1931. 
+[69] L. Ma, et al., Cerium oxide nanocrystal embedded bimodal micromesoporous 
+nitrogen-rich carbon nanospheres as effective sulfur host for lithium–sulfur 
+batteries, ACS Nano 11 (7) (2017) 7274–7283. 
+[70] Y. Li, et al., Electrochemical properties of the soluble reduction products in 
+rechargeable Li/S battery, J. Power Sources 195 (9) (2010) 2945–2949. 
+[71] Y.V. Mikhaylik, J.R. Akridge, Polysulfide shuttle study in the Li/S battery system, 
+J. Electrochem. Soc. 151 (11) (2004) A1969. 
+[72] J.F. Rusling, S.L. Suib, Characterizing materials with cyclic voltammetry, Adv. 
+Mater. 6 (12) (1994) 922–930. 
+[73] K. Ragavendran, et al., Characterization of plasticized PEO based solid polymer 
+electrolyte by XRD and AC impedance methods, Port. Electrochim. Acta 22 (2004) 
+149–159. 
+Z. Wang et al.                                                                                                                                                                                                                                   

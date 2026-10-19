@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1103.04pt" height="883.364889pt" viewBox="0 0 1103.04 883.364889" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-19T20:09:17.436754</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 883.364889 
+L 1103.04 883.364889 
+L 1103.04 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 444.96 605.039597 
+C 507.931821 605.039597 568.332957 580.020627 612.860758 535.492825 
+C 657.38856 490.965024 682.407529 430.563888 682.407529 367.592067 
+C 682.407529 304.620246 657.38856 244.219111 612.860758 199.691309 
+C 568.332957 155.163507 507.931821 130.144538 444.96 130.144538 
+C 381.988179 130.144538 321.587043 155.163507 277.059242 199.691309 
+C 232.53144 244.219111 207.512471 304.620246 207.512471 367.592067 
+C 207.512471 430.563888 232.53144 490.965024 277.059242 535.492825 
+C 321.587043 580.020627 381.988179 605.039597 444.96 605.039597 
+z
+" clip-path="url(#p7b071ee303)" style="fill: #087f8c; opacity: 0.09"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 314.92921 763.33795 
+C 377.901031 763.33795 438.302167 738.31898 482.829968 693.791178 
+C 527.35777 649.263377 552.376739 588.862241 552.376739 525.89042 
+C 552.376739 462.918599 527.35777 402.517464 482.829968 357.989662 
+C 438.302167 313.46186 377.901031 288.442891 314.92921 288.442891 
+C 251.957389 288.442891 191.556253 313.46186 147.028452 357.989662 
+C 102.50065 402.517464 77.481681 462.918599 77.481681 525.89042 
+C 77.481681 588.862241 102.50065 649.263377 147.028452 693.791178 
+C 191.556253 738.31898 251.957389 763.33795 314.92921 763.33795 
+z
+" clip-path="url(#p7b071ee303)" style="fill: #cb752d; opacity: 0.09"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 574.99079 763.33795 
+C 637.962611 763.33795 698.363747 738.31898 742.891548 693.791178 
+C 787.41935 649.263377 812.438319 588.862241 812.438319 525.89042 
+C 812.438319 462.918599 787.41935 402.517464 742.891548 357.989662 
+C 698.363747 313.46186 637.962611 288.442891 574.99079 288.442891 
+C 512.018969 288.442891 451.617833 313.46186 407.090032 357.989662 
+C 362.56223 402.517464 337.543261 462.918599 337.543261 525.89042 
+C 337.543261 588.862241 362.56223 649.263377 407.090032 693.791178 
+C 451.617833 738.31898 512.018969 763.33795 574.99079 763.33795 
+z
+" clip-path="url(#p7b071ee303)" style="fill: #7358a7; opacity: 0.09"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 444.96 605.039597 
+C 507.931821 605.039597 568.332957 580.020627 612.860758 535.492825 
+C 657.38856 490.965024 682.407529 430.563888 682.407529 367.592067 
+C 682.407529 304.620246 657.38856 244.219111 612.860758 199.691309 
+C 568.332957 155.163507 507.931821 130.144538 444.96 130.144538 
+C 381.988179 130.144538 321.587043 155.163507 277.059242 199.691309 
+C 232.53144 244.219111 207.512471 304.620246 207.512471 367.592067 
+C 207.512471 430.563888 232.53144 490.965024 277.059242 535.492825 
+C 321.587043 580.020627 381.988179 605.039597 444.96 605.039597 
+L 444.96 605.039597 
+z
+" clip-path="url(#p7b071ee303)" style="fill: none; opacity: 0.75; stroke: #087f8c; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 314.92921 763.33795 
+C 377.901031 763.33795 438.302167 738.31898 482.829968 693.791178 
+C 527.35777 649.263377 552.376739 588.862241 552.376739 525.89042 
+C 552.376739 462.918599 527.35777 402.517464 482.829968 357.989662 
+C 438.302167 313.46186 377.901031 288.442891 314.92921 288.442891 
+C 251.957389 288.442891 191.556253 313.46186 147.028452 357.989662 
+C 102.50065 402.517464 77.481681 462.918599 77.481681 525.89042 
+C 77.481681 588.862241 102.50065 649.263377 147.028452 693.791178 
+C 191.556253 738.31898 251.957389 763.33795 314.92921 763.33795 
+L 314.92921 763.33795 
+z
+" clip-path="url(#p7b071ee303)" style="fill: none; opacity: 0.75; stroke: #cb752d; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 574.99079 763.33795 
+C 637.962611 763.33795 698.363747 738.31898 742.891548 693.791178 
+C 787.41935 649.263377 812.438319 588.862241 812.438319 525.89042 
+C 812.438319 462.918599 787.41935 402.517464 742.891548 357.989662 
+C 698.363747 313.46186 637.962611 288.442891 574.99079 288.442891 
+C 512.018969 288.442891 451.617833 313.46186 407.090032 357.989662 
+C 362.56223 402.517464 337.543261 462.918599 337.543261 525.89042 
+C 337.543261 588.862241 362.56223 649.263377 407.090032 693.791178 
+C 451.617833 738.31898 512.018969 763.33795 574.99079 763.33795 
+L 574.99079 763.33795 
+z
+" clip-path="url(#p7b071ee303)" style="fill: none; opacity: 0.75; stroke: #7358a7; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #087f8c" x="444.96" y="114.899856" transform="rotate(-0 444.96 114.899856)">固态锂硫</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #cb752d" x="167.937882" y="766.730057" transform="rotate(-0 167.937882 766.730057)">液态锂硫</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7358a7" x="721.982118" y="766.730057" transform="rotate(-0 721.982118 766.730057)">固态锂金属</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="444.96" y="165.927535" transform="rotate(-0 444.96 165.927535)">仅固态锂硫达门槛</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="444.96" y="191.056974" transform="rotate(-0 444.96 191.056974)">无</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="173.591395" y="527.752342" transform="rotate(-0 173.591395 527.752342)">仅液态锂硫达门槛</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(145.252645 553.373031)">少电解液 /</text>
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(143.591395 575.096546)">非活性占比</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="716.328605" y="527.752342" transform="rotate(-0 716.328605 527.752342)">仅固态锂金属达门槛</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(681.87548 553.390843)">裂纹 / 孔洞 /</text>
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(692.328605 575.125609)">结构失效</text>
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(680.21423 596.877249)">热安全 / 易燃</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="297.968672" y="312.538736" transform="rotate(-0 297.968672 312.538736)">两类锂硫共同关注</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(257.79875 339.136148)">电子传输/电导</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(251.54875 361.849771)">反应/转化动力学</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(245.29875 384.465738)">多硫化物溶解/穿梭</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(239.04875 407.118814)">活性物利用/转化程度</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(257.79875 429.801187)">高载量/厚电极</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="591.951328" y="312.538736" transform="rotate(-0 591.951328 312.538736)">两类固态共同关注</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(551.781406 339.184977)">界面接触/润湿</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(551.781406 361.837076)">界面阻抗/传输</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(545.531406 384.490152)">副反应/界面化学</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(545.531406 407.130533)">电位稳定性/窗口</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(551.781406 429.783609)">压力/力学强度</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="444.96" y="651.749492" transform="rotate(-0 444.96 651.749492)">液态锂硫 + 固态锂金属</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="444.96" y="677.865459" transform="rotate(-0 444.96 677.865459)">无</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #193348" x="444.96" y="456.703307" transform="rotate(-0 444.96 456.703307)">三体系共同关注</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(404.790078 483.373962)">离子传输/电导</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(404.790078 506.026062)">体积变化/应力</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(398.540078 528.600036)">枝晶/不均匀沉积</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(404.790078 551.313659)">室温/温度条件</text>
+    <text style="font-size: 12.5px; font-family: 'Microsoft YaHei'; fill: #193348" transform="translate(411.040078 573.868103)">加工/规模化</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #193348" x="888.48" y="196.45038" transform="rotate(-0 888.48 196.45038)">先区分两种“重叠”</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #193348" x="888.48" y="255.942525" transform="rotate(-0 888.48 255.942525)">按至少检出1篇：</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 15px; font-family: 'Microsoft YaHei'; fill: #087f8c" transform="translate(888.48 294.86016)">18类主题</text>
+    <text style="font-size: 15px; font-family: 'Microsoft YaHei'; fill: #087f8c" transform="translate(888.48 320.480863)">三体系均有提及</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #536b7b" transform="translate(888.48 373.257981)">多硫化物溶解/穿梭</text>
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #536b7b" transform="translate(888.48 392.827747)">只在两类锂硫中检出；</text>
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #536b7b" transform="translate(888.48 412.437942)">固态锂金属为0篇。</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #193348" x="888.48" y="488.22135" transform="rotate(-0 888.48 488.22135)">主图按“较常关注”：</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #536b7b" transform="translate(888.48 528.727255)">组内提及率 ≥ 5%</text>
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #536b7b" transform="translate(888.48 549.517772)">且命中 ≥ 5篇。</text>
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #536b7b" transform="translate(888.48 570.357704)">圆外只表示未达门槛，</text>
+    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #536b7b" transform="translate(888.48 591.198534)">不表示没有该问题。</text>
+   </g>
+  </g>
+  <g id="text_24">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #193348" x="7.2" y="25.645625" transform="rotate(-0 7.2 25.645625)">三体系的问题关注在哪里重叠？</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #536b7b" x="7.2" y="62.513125" transform="rotate(-0 7.2 62.513125)">2023—2026年摘要；固态锂硫 n=289，液态锂硫 n=3,109，固态锂金属 n=2,440。</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #536b7b" x="7.2" y="820.9728" transform="rotate(-0 7.2 820.9728)">三组均未达5%门槛：空气/水稳定性（固态锂硫1.0%、液态锂硫0.1%、固态锂金属2.7%）。</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #536b7b" x="7.2" y="848.6208" transform="rotate(-0 7.2 848.6208)">集合表示主题类别，不是论文集合；圆面积不编码数量。副反应在液态锂硫为4.7%，接近门槛，不能解释成“没有”。</text>
+  </g>
+  <g id="text_28">
+   <text style="font-size: 10.5px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #536b7b" x="7.2" y="873.504" transform="rotate(-0 7.2 873.504)">阈值仅帮助阅读关注分布；1%、3%、5%、10%的归类对照随图提供。主题含机制问题及工况/工程约束。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7b071ee303">
+   <rect x="66.174655" y="113.184" width="757.570689" height="672.768"/>
+  </clipPath>
+ </defs>
+</svg>

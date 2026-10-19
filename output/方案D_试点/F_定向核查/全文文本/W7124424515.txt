@@ -1,0 +1,1328 @@
+=== 第 1 页 ===
+Advanced Functional Materials
+www.afm-journal.de
+RESEARCH ARTICLE
+Dual-Interface-Dominant Cathode Architectures Enabling
+Fast Sulfur Redox and Stable Interfaces in All-Solid-State
+Li-S Batteries
+Zhao Yang1
+Yuxiao Zhang1
+Yihong Liu2
+Geng Xie3
+Yu Dou1
+Jeremy Dawkins1
+Lijia Liu2
+Yixiang Wang4
+Lingzi Sang3
+Mohsen Shakouri5
+Sixu Deng1
+Karim Zaghib1
+Tsun-Kong Sham2
+Xia Li1
+1Department of Chemical and Materials Engineering, Concordia University, Montreal, Quebec, Canada
+2Department of Chemistry, Western University,
+London, Ontario, Canada
+3Department of Chemistry, University of Alberta, Edmonton, Alberta, Canada
+4Department of Food Science and Agricultural
+Chemistry, McGill University, Montreal, Quebec, Canada
+5Canadian Light Source Inc, Saskatoon, Saskatchewan, Canada
+Correspondence: Xia Li (xia.li@concordia.ca)
+Received: 6 October 2025
+Revised: 17 December 2025
+Accepted: 8 January 2026
+Keywords: all-solid-state lithium-sulfur batteries | carbon hosts | interfacial engineering | sulfide-based electrolytes | sulfur cathodes
+ABSTRACT
+All-solid-state lithium-sulfur batteries (ASSLSBs) offer exceptional promise for next-generation energy storage due to their high
+energy density and intrinsic safety. However, their practical application is hindered by sluggish sulfur redox kinetics and severe
+interfacial degradation. Here, we report a sulfur|carbon and sulfur|solid electrolytes (SEs) interfaces-dominant cathode structure
+that concurrently enhances sulfur redox kinetics and interfacial stability. Conventional sulfur cathodes rely on randomly mixed
+sulfur|carbon, sulfur|SEs, and carbon|SEs three-phase boundaries, which hinder efficient sulfur redox. This work presents an
+interfacial architecture that is realized through carbon host nanostructure engineering, where tailored surface area and porosity
+favor the spontaneous formation of sulfur|carbon and sulfur|SEs dual interfaces, thereby establishing complementary Li+ and e−
+pathways and reinforcing electrochemical performance. At the same time, this strategy alleviates the formation of carbon|SEs
+interfaces, thereby blocking the initiators of electrolyte decomposition. As a result, ASSLSBs employing the dual-interface-
+dominant architecture achieve a high initial capacity of 1111 mAh g−1 at 0.2 C with a sulfur loading of 5 mg cm−2, and exhibit
+long-term cycling stability, retaining 1234 mAh g−1 (93.3%) over 100 cycles at a 0.1 C rate. This work highlights the critical role of
+rational carbon host engineering in constructing well-defined interfaces for high-performance ASSLSBs.
+1
+Introduction
+Lithium-ion batteries (LIBs) based on intercalation-type elec-
+trodes are approaching their theoretical energy density limits
+(240–250 Wh kg−1), which are insufficient to meet the grow-
+ing demands of high-energy storage applications. In contrast,
+lithium-sulfur (Li-S) batteries offer a significantly higher the-
+oretical energy density of 2600 Wh kg−1 and specific capacity
+of 1672 mAh g−1, along with the advantages of low cost and
+natural abundance of sulfur, making them one of the most
+promising candidates for next-generation batteries [1–3]. Despite
+these advantages, the practical application of liquid-state Li-S bat-
+teries is plagued by lithium polysulfides (LiPSs) dissolution from
+sulfur cathodes [4–6]. Replacing the flammable liquid organic
+electrolyte with inorganic solid electrolytes (SEs) fundamentally
+alters the sulfur redox mechanism by enabling a direct solid-solid
+conversion between S8 and Li2S, thereby eliminating capacity loss
+associated with intermediate LiPSs shuttling [7–9]. Additionally,
+SEs greatly enhance the safety of Li-S batteries by mitigating
+flammability, high volatility, and leakage risks inherent to liquid
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly
+cited.
+© 2026 The Author(s). Advanced Functional Materials published by Wiley-VCH GmbH
+Advanced Functional Materials, 2026; 36:e26598
+https://doi.org/10.1002/adfm.202526598
+1 of 16
+
+=== 第 2 页 ===
+electrolytes, as well as the potential to safely use Li metal anode
+in batteries [10, 11].
+Among various SEs, the sulfide-based SEs, such as argyrodites
+Li6PS5Cl (LPSC), are considered very promising SEs for the
+development of ASSLSBs due to their high ionic conductivity,
+mechanical compliance, and chemical compatibility with sulfur
+cathodes [12–14]. On the other hand, the solid-state system also
+brings many challenges to the design of sulfur cathodes in the
+sulfide SEs-based ASSLSBs. The first challenge is the insulating
+nature of sulfur, a problem also encountered in liquid-based
+batteries [15, 16]. Therefore, sulfur needs to be accompanied by
+a large amount of electronic conductive agent, such as carbon
+materials [17, 18]. This challenge has been well studied for two
+decades in liquid-based Li-S batteries with the investigation
+of various nanostructured carbon materials. It is commonly
+agreed that a range of micro- to mesopores (< 10 nm) along
+with high surface area (hundreds to over thousands m2 g−1)
+of carbon nanomaterials is beneficial for sulfur cathodes with
+uniform distribution, sufficient electronic conductivity, and self-
+confinement in carbon matrix to avoid LiPSs dissolution [1,
+19–21]. Unfortunately, these experiences cannot directly apply
+to the sulfur cathodes in ASSLSBs with the new interfacial
+challenges [22]. Furthermore, most sulfide SEs possess a narrow
+electrochemical stability window in the range of 1.7–2.2 V vs.
+Li/Li+ [23–27]. Researchers have reported that the decomposition
+of LPSC typically occurs simultaneously with the redox of the
+active materials S8/Li2S [28–30]. This results in the continu-
+ous consumption of the electrolyte and the accumulation of
+unwanted decomposition products, which deteriorate the cell
+cycle life [31, 32]. More importantly, intimate contact between
+carbon and SEs exacerbates this decomposition, since carbon,
+as an electronic conductor, may further facilitate the SEs redox
+reactions [1, 33, 34] Considerable efforts have been devoted to
+resolving these issues, including interfacial engineering of the
+carbon surface and the intentional reduction of its electronic con-
+ductivity [35, 36], strategies that are conceptually straightforward
+and experimentally feasible. However, sacrificing the conduc-
+tivity of carbon is neither desirable nor necessary. Achieving a
+balance between efficient electron conduction and suppression of
+interfacial side reactions is therefore crucial. To this end, rational
+nanoscale engineering on the carbon|sulfur|SEs interfaces offers
+a promising approach to reconcile these competing requirements.
+In carbon, sulfur, and SEs three-component-based sulfur cath-
+odes, there are typically three types of interfaces: sulfur|carbon,
+sulfur|SEs, and carbon|SEs [37, 38], It is easy to understand that
+the interfaces of sulfur|carbon and sulfur|SEs are favorable to
+build an architecture that enables simultaneous and extensive
+contact of active materials with both Li+/e−conduction networks
+[39]. On the other hand, the interface of carbon|SEs is detrimen-
+tal because of SEs’ electrochemical degradation as mentioned
+before. However, the three types of boundaries—sulfur|carbon,
+sulfur|SEs, and carbon|SEs are generated randomly and uncon-
+trollably since the cathode composite is usually mixed using a
+rough traditional mechanical method. At the same time, carbon
+nanomaterials not only act as electronic conductors but also host
+materials that support sulfur uniform dispersion at the nanoscale
+and volume change compensator during cycling. Therefore, it is
+important to select suitable carbon hosts and rationally design
+the composite electrode architecture to limit unwanted side
+reactions, optimize the electrochemical activity of S8/Li2S, as well
+as provide uniform dispersion and volume buffering, which are
+critical but still remain unsolved in ASSLSBs.
+In this study, we investigate the nanostructure effect of carbon
+nanomaterials in sulfur cathodes to design a sulfur cathode
+with selective sulfur|carbon and sulfur|SEs interfaces while
+minimizing the carbon|SEs interface. Departing from con-
+ventional approaches that focus on constructing a complete
+sulfur|carbon|SEs three-phase boundary, our strategy restricts
+interfacial formation to two essential interfaces: sulfur|carbon
+and sulfur|SEs by employing a structured carbon host with
+an appropriate structure. This rational design facilitates the
+spontaneous formation of a sulfur-mediated interphase, in which
+the electrochemical transformation of elemental sulfur is driven
+by two electron- and ion-conductive frameworks, while the
+electrolyte decomposition is alleviated by reducing the formation
+of carbon|SEs boundary. Such an architecture ensures efficient
+dual-path transport, thereby accelerating sulfur redox kinetics. As
+a result, the ambient-temperature ASSLSBs with dual-interface-
+dominant architecture reach a high initial discharge capacity of
+1111 mAh g−1 at 0.2 C rate with a high sulfur loading of 5 mg cm−2.
+Additionally, the cells maintain a superior discharge capacity of
+1234 mAh g−1 (93.3%) at a 0.1 C rate over 100 cycles.
+2
+Results and Discussion
+2.1
+Structural Characterizations of Carbon Hosts
+and Carbon/Sulfur (C/S) Composites
+In ASSLSBs, carbon hosts are indispensable as electron conduc-
+tors and structural supports. To evaluate the effect of carbon
+structure on the performance of sulfur cathode in ASSLSBs,
+three types of porous carbon hosts with various specific surface
+areas and pore volumes were selected, including BP800 (214.9
+m2 g−1, 0.720 cm3 g−1 total pore volume), BP1300 (525.5 m2 g−1,
+0.826 cm3 g−1 total pore volume), and BP2000 with increased
+specific surface area and pore volume (1485.5 m2 g−1, 2.763
+cm3 g−1 total pore volume), as summarized in Table S1. Figure
+S1a displays the nitrogen adsorption/desorption isotherms for
+pristine carbon hosts. All the carbon hosts exhibit a typical IV
+type isotherm with a hysteresis loop at relatively high pressures,
+indicating the presence of mesopores. Among them, BP2000
+shows the highest sorption capacity, consistent with its excep-
+tionally large specific surface area and pore volume. Moreover,
+a sharp sorption increase at P/Po ∼0 for BP2000 reflects more
+extensive micropores filling than BP800 and BP1300. BP1300
+displays an intermediate sorption volume, whereas BP800 shows
+the lowest uptake, in line with its smallest specific surface area
+and pore volume. The corresponding pore size distributions
+(Figure S2a–c) further reveal the distinct hierarchical porosity of
+the three carbons. BP800 shows a dominant mesopore distribu-
+tion in the range of 10–50 nm, accompanied by a small percentage
+of micropores at around 0.6 nm. BP1300 exhibits a coexistence
+of micro- and mesopores with a wider distribution, reflecting its
+more developed internal porosity. In contrast, BP2000 is strongly
+enriched in micropores, as evidenced by the significant peaks
+at 0.5 nm and 0.6 nm, while also containing a percentage of
+macropores (> 50 nm), which is attributed to the inter-particle
+voids rather than intrinsic pores within the BP2000 matrix.
+2 of 16
+Advanced Functional Materials, 2026
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+Three C/S composites containing ∼70% sulfur were obtained by
+hand grinding followed by a melt-diffusion method. After sulfur
+infiltration, all three C/S composites (BP800/S, BP1300/S, and
+BP2000/S) exhibited significant decrease in specific surface area
+and pore volume (Table S1), together with a drastic reduction in
+sorption capacity of porous carbons across micro- and mesopores
+(as shown in Figures S1b and S2d–f), indicating that sulfur
+effectively penetrates and occupies the pores of carbon hosts,
+forming close surface-to-surface contact between sulfur and
+carbon [40]. It is worth noting that even after the encapsulation
+of sulfur, the specific surface area and pore volume of BP2000/S
+(44.4 m2 g−1, 0.449 cm3 g−1 total pore volume) are still much
+higher than those of BP800/S (3.7 m2 g−1, 0.055 cm3 g−1 total pore)
+and BP1300/S (3.9 m2 g−1, 0.104 cm3 g−1 total pore volume) (Figure
+S1b and Table S1), which indicates that more free surface area
+or voids still exist in the BP2000/S composites. In addition, the
+nanostructure of carbon hosts will also affect the porosity and
+thickness of the electrodes. Figure S3 demonstrates the cross-
+section of the pressed sulfur electrodes with the use of BP800/S
+and BP2000/S by scanning electron microscopy (SEM). It clearly
+illustrates that at the same mass, same component ratio, and the
+same pressure, the carbon host with higher porosity and surface
+area (BP2000/S) makes the electrode thicker, which is attributed
+to the void spaces within the electrodes, thereby reducing the
+volumetric energy density of ASSLSBs.
+The actual sulfur contents of BP800/S, BP1300/S, and BP2000/S
+composites were determined by thermogravimetric analysis
+(TGA) in N2 at a heating rate of 5 ◦C min−1, and the results
+are presented in Figure S4. For comparison, the evaporation
+behavior of elemental sulfur was also measured. The elemental
+sulfur starts to evaporate at ca. 130 ◦C and is complete at ca.
+250 ◦C. The measured sulfur contents of BP800/S, BP1300/S, and
+BP2000/S composites all agree with the nominal sulfur content of
+∼70 wt.%. However, the sulfur evaporation processes in BP800/S,
+BP1300/S, and BP2000/S exhibit two distinct weight loss steps.
+The first weight loss step ends at ca. 260 ◦C for BP800/S, ca.
+250 ◦C for BP1300/S, and ca. 231 ◦C for BP2000/S, respectively,
+which are almost overlapped with the evaporation curve of
+elemental sulfur. This is attributed to the evaporation of elemental
+sulfur without porous structure confinement (on carbon surface
+or in big pores). The second weight loss steps occur at much
+higher temperatures, ending at ca. 337 ◦C, 340 ◦C, and 363 ◦C
+for BP800/S, BP1300/S, and BP2000/S, respectively. Notably, the
+second evaporation stage is significantly slower than the first
+stage, as pore-confined sulfur is subject to the capillary force and
+therefore requires a larger driving force and a higher sublimation
+temperature [41, 42]. Based on the separation of evaporation
+processes, we estimated the contents of sulfur loss for each stage.
+The mass loss of sulfur in the first stage can be attributed to the
+sulfur content associated with the non-pore-confined sulfur, and
+the mass loss of sulfur in the second stage can be considered
+as pore-confined sulfur content. A comparison of the calculated
+results is shown in Figure S5. BP800/S shows the largest amount
+of non-pore-confined sulfur content, and BP2000/S shows the
+smallest amount of non-pore-confined sulfur content owing to its
+extensive porous structure. The reduced pore-confined sulfur in
+BP800/S is favorable for maximizing the formation of the desired
+sulfur|SEs interface, enhancing the fast sulfur redox reaction
+kinetics in sulfur cathodes.
+X-ray diffraction (XRD) was conducted to detect the crystal
+structure of sulfur in C/S composites. According to the XRD
+profiles of elemental sulfur, BP800/S, and BP2000/S in Figure
+S6, the relative peak intensity of sulfur in BP2000/S is much
+weaker than that of elemental sulfur and BP800/S, which might
+be due to the smaller crystallite size of sulfur in BP2000/S
+[43, 44]. Raman spectroscopy was also used to characterize the
+structure of three pure carbons and C/S composites (Figure
+S7). All Raman spectra of three carbons exhibit two peaks
+corresponding to the D band and G band. The intensity ratio of
+ID/IG is commonly used as an indicator of structural disorder in
+carbon materials and differs markedly among the three carbons.
+BP800 shows the lowest ID/IG ratio, whereas BP2000 exhibits the
+highest, with BP1300 lying in between. This indicates that BP2000
+contains a larger proportion of amorphous carbon structure,
+while BP800 possesses a more graphitized carbon structure. After
+the encapsulation of sulfur (Figure S7b), the Raman spectra of
+BP800/S exhibit pronounced peaks corresponding to crystalline
+sulfur in the range of 100–500 cm−1. In contrast, the intensities
+of those sulfur-related peaks for BP1300/S become weaker and
+are nearly absent in BP2000/S, indicating that the reduced sulfur
+crystallinity and successful deeper confinement of sulfur within
+the pores of BP1300 and BP2000 [44]. In addition, all three
+C/S composites exhibit an increased ID/IG ratio after sulfur
+loading, indicating that sulfur infiltration and thermal treatment
+introduce additional structural disorder in the carbon matrix.
+Nevertheless, BP800/S still maintains the lowest ID/IG value
+among the three composites, confirming that it retains the highest
+degree of graphitization even after sulfur encapsulation. The
+graphitized carbons exhibit more stable interfacial compatibility
+with sulfide SEs than amorphous carbon in solid-state batteries,
+as demonstrated by previous studies [40, 45, 46]. To identify
+the surface functional groups of the three carbon hosts, Fourier
+transform infrared (FT-IR) spectroscopy was conducted, as pre-
+sented in Figure S8. BP2000 shows FT-IR peaks at 1071, 1149,
+1380, 1556, 2883, and 2980 cm−1, corresponding to C─O, C─O─C,
+O─H, C═C, C─H, and C─H bonds [47–49]. In contrast, most of
+the FT-IR peaks assigned to C-H bond, and oxygen-containing
+C─O, C─O─C, O─H bonds observed in BP2000 are absent in
+BP800 and BP1300, indicating fewer surface functional groups
+for BP800 and BP1300. The fewer functional groups on BP800
+and BP1300 alleviated the occurrence of oxygen-containing func-
+tional groups-induced electrolyte decomposition and unstable
+interfaces, which is preferable for improved electrochemical
+performance [46, 50].
+In a liquid-state Li-S battery system, continuous Li+ transport
+is ensured by electrolyte wetting and infiltration, coupled with
+all these characteristics of BP2000/S composites, such as the
+high surface area of carbon, leading to highly dispersed sulfur
+into porous structure; and high porosity of electrodes, which
+facilitates the sulfur utilization, fast Li+/e−transport, and reduces
+the shuttle effect [51, 52]. However, in solid-state batteries, the
+inclusion of SEs in sulfur-based electrodes turns this story
+differently. Firstly, some reported literature has demonstrated
+that the use of different carbon materials may lead to varying
+degrees of sulfide SEs decomposition in solid-state Li-ion bat-
+teries [34, 53]. Also, there is the question of how the highly
+porous structure will affect the interface formation in the sulfur
+electrodes.
+Advanced Functional Materials, 2026
+3 of 16
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+FIGURE 1
+Comparison of the electrochemical performance of liquid and solid batteries with different carbon hosts at 0.1 C. (a,b) Cycling stability
+of (a) liquid-state and (b) solid-state Li-S cells with BP800, BP1300, and BP2000 as carbon hosts at 0.1 C, respectively. (c,d) Charge-discharge curves of
+(c) liquid-state and (d) solid-state Li-S cells with BP800, BP1300, and BP2000 as carbon hosts in the 1st, 4th, and 100th cycles, respectively.
+2.2
+Electrochemical Performance: Liquid vs.
+Solid-State Li-S Batteries at 0.1 C
+To demonstrate the effects of BP800, BP1300, and BP2000 on the
+electrochemical behaviors of sulfur in liquid-state and solid-state
+systems, liquid-state Li-S coin cells and solid-state Li-S model
+cells were assembled by using BP800, BP1300, and BP2000 as
+carbon hosts in sulfur cathodes, and the electrochemical perfor-
+mance was tested and compared under the same current density,
+as shown in Figure 1. Figure 1a–d show the cycling performance
+and the typical two-plateau and single-plateau charge-discharge
+curves of liquid-state and solid-state batteries at 0.1 C, respectively
+[54–57]. The BP2000-based liquid-state Li-S batteries exhibited
+the highest capacity compared with BP800- and BP1300-based
+Li-S batteries, which is attributed to the better distribution and
+decreased size of sulfur particles [58–60]. The capacity retention
+of BP2000/S electrode is 694 mAh g−1 after 100 cycles, which
+is higher than BP1300/S (468 mAh g−1) and BP800/S (292 mAh
+g−1), which suggests that BP2000’s smaller pore size is more
+suitable for the confinement of soluble LiPSs, the accommodation
+of volume change of S8/Li2S, and thus impeded the loss of active
+materials and capacity decay [61].
+Interestingly, the three C/S composites exhibit completely dif-
+ferent effects on electrochemical performance in solid-state
+Li-S systems (Figure 1b,d). In the initial cycles at 0.1 C, all
+three carbon hosts-based electrodes exhibit a ultra-high specific
+capacity which almost reach or exceeded the theoretical specific
+capacity of sulfur where BP2000/S (1788 mAh g−1 at the 4th cycle)
+> BP1300/S (1737 mAh g−1 at the 4th cycle) > BP800/S (1611
+mAh g−1 at the 4th cycle), which shares the trend from liquid-
+state Li-S batteries. However, the trend changed to BP800/S >
+BP1300/S > BP2000/S in subsequent cycles. After 100 cycles,
+BP800/S exhibited the most stable cycling performance and
+higher capacity retention (1234 mAh g−1, 93.3% capacity retention
+at the 100th cycle) compared to BP1300/S (985 mAh g−1, 63.6%
+capacity retention at the 100th cycle) and BP2000/S (916 mAh
+g−1, 58.5% capacity retention at the 100th cycle) electrodes. Since
+the electrode volume is one of the decisive factors governing
+volumetric energy density, we evaluated the volumetric energy
+densities of BP800/S and BP2000/S on the basis of their electrode
+thicknesses (Figure S3) and the corresponding specific capacities
+after 100 cycles. The resulting volumetric energy densities of
+BP800/S and BP2000/S cathodes were determined to be 441 and
+290 Wh L−1, respectively (Note S1). These results demonstrate
+that a highly porous carbon host, which is often considered
+advantageous in liquid systems, no longer confers benefits in
+the solid-state configuration. On the contrary, it directly leads
+to inferior volumetric energy density. From these results, several
+important questions are raised: 1. What are the reasons for
+the higher capacity of sulfur electrodes in solid-state batteries
+compared to liquid-state batteries? 2. What causes the electro-
+chemical performance differences with the use of different porous
+carbon? 3. Do different types of carbon materials exert distinct
+influences on the formation of the three interfaces (sulfur|carbon,
+sulfur|SEs, and carbon|SEs)?
+2.3
+Mechanistic Insights into Carbon Host
+Effects at 0.1 C in ASSLSBs
+The extra reversible capacity higher than the theoretical capacity
+of sulfur is derived from electrolyte decomposition, which is
+commonly seen in sulfide-based electrolytes due to their narrow
+4 of 16
+Advanced Functional Materials, 2026
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+electrochemical stability window [30, 62–64]. We hypothesize
+that the observed additional capacity relative to the theoretical
+specific capacity is due to carbon-induced partial electrolyte
+decomposition and that the three types of carbon|SEs interfaces
+(BP800|SEs, BP1300|SEs, and BP2000|SEs) cause various extents
+of electrolyte decomposition. To verify this hypothesis, sulfur-free
+cathodes fabricated with different carbon hosts (BP800, BP1300,
+and BP2000) were made, as shown in Figure S9. In the absence of
+sulfur, the cells still have a reversible capacity output. In addition,
+based on the capacities delivered by sulfur-containing cathodes
+and sulfur-free cathodes at the 1st, 4th, and 100th cycles (Figure
+S10), SEs decomposition with BP2000 contributes 8.9%, 20.9%,
+and 41.5% of the total capacity of sulfur-containing electrodes
+at the 1st, 4th, and 100th cycles, respectively. On the other hand,
+the SEs decomposition with BP800 and BP1300 contributes less,
+with 3.2%, 17.6%, and 27.5% (BP800) and 3.5%, 16.7%, and 37.0%
+(BP1300) of the total capacity of corresponding sulfur-containing
+electrodes at the 1st, 4th, and 100th cycles, respectively. The more
+severe electrolyte decomposition caused by BP2000 likely arises
+because of a higher specific surface area and lower volumetric
+density, which leads to more formation of carbon|SEs interfaces,
+thus more severe electrolyte decomposition and capacity decay.
+As discussed before, the surface area of the C/S composites is in
+the order of BP2000/S > BP1300/S > BP800/S. In other words,
+the BP2000/S composite still has extra unoccupied surface area
+and more free spaces, contributing to more carbon|SEs contacts.
+Hence, the initial high capacity caused by the BP2000/S cathodes
+under 0.1 C can be explained by the following reasons: 1. Similar
+to the liquid system, BP2000 facilitates a more homogeneous
+dispersion of sulfur, as well as the formation of smaller sulfur
+particles, thus enabling sufficient electron channels at the begin-
+ning of cycling. 2. Besides offering an electronic pathway for
+sulfur, the larger surface area of BP2000/S gives rise to more
+abundant carbon|SEs contacts, enabling a pathway for electrolyte
+decomposition.
+The evolution of interfacial chemistry of sulfur-free and sulfur-
+containing cathodes with BP800 and BP2000 at the fully dis-
+charged/charged states was investigated by X-ray adsorption
+spectroscopy (XAS). Sulfur-free electrodes are composed of car-
+bon hosts (BP800 or BP2000) mixed with acetylene black (AB)
+and LPSC electrolyte, and sulfur-containing electrodes are the
+same recipe but with the addition of sulfur. Firstly, XAS was con-
+ducted on the BP carbon|LPSC cathodes after discharge/charge
+cycling tests to reveal the intrinsic decomposition products and
+the effect of various BP carbon structures. Figure S11 shows
+the S K-edge and P K-edge X-ray absorption near-edge struc-
+ture (XANES) spectra of sulfur-free cathodes (BP800|LPSC and
+BP2000|LPSC) at the fully discharged and fully charged states
+of the 1st and 4th cycles. At the fully discharged state of the
+1st and 4th cycle, the S K-edge spectra of BP2000|LPSC shows
+feature at 2482.5 eV, which corresponds to the reduction product
+of Li2S (Figure S11b), and P K-edge spectra of BP2000|LPSC shows
+features at 2157.1, 2145.6, and 2142.8 eV (Figure S11d) at the fully
+discharged state of the 1st and 4th cycle, which correspond to the
+decomposition products of Li3PS4/Li4P2S6, and Li3P [9, 65, 66]
+Upon full charge, the features of reduction products disappeared,
+and the features at 2471.7 and 2477.1 eV of S K-edge, and 2146.9 eV
+of P K-edge emerge, which are attributed to oxidation products
+of elemental sulfur and P2S5, respectively [66]. These findings
+were proposed and illustrated in Figure S12, which agrees with
+previous studies [30, 67]. Interestingly, the S K-edge spectra of
+BP800|LPSC at the discharged state of the 1st cycle have no
+detectable Li2S signal (Figure 2a; Figure S11a). The difference is
+marked as a dashed circle in Figure S11a,b, which suggests that
+the electrochemical redox reaction of SEs is more difficult to be
+induced by BP800 than that of BP2000. A similar phenomenon
+was observed in the P K-edge spectra of BP800|LPSC at the
+discharged state of the 1st and 4th cycle (Figure 2b; Figure
+S11c,d), the features at 2142.8, 2145.4, and 2157.5 eV, which denote
+decomposition products of Li3P and Li3PS4/ Li4P2S6 offer weaker
+intensities than that of BP2000|LPSC, the differences are marked
+as dashed circles in Figure S11c,d, indicating the poor reaction
+kinetics of LPSC decomposition in BP800|LPSC half-cell. These
+results are consistent with the cycling performance shown in
+Figure S9, where fewer electrolyte decomposition products are
+induced by BP800, which implies that the BP2000 carbon host
+with a higher specific surface area and larger porosity increases
+the amount of carbon|SEs interface, which plays a determinant
+role in the electrochemical decomposition kinetics of the LPSC.
+Therefore, the abundant carbon|SEs contact favours electrolyte
+decomposition, as shown in Figure S13.
+In order to gain a better understanding of the effects of the
+different carbon hosts on the electrochemical behaviors of sulfur,
+XANES was carried out for BP800/S and BP2000/S cathodes
+in the 1st and 4th cycles at discharged and charged states, and
+the results are shown in Figure 2c–f. Figure 2c indicates that
+after the addition of sulfur, the cell demonstrates a typical
+S8/Li2S reversible conversion mechanism that occurs during the
+discharge/charge process. It is worth noting that due to the
+similarity of the discharge product of sulfur and the reduction
+decomposition product of LPSC SEs, it is hard to distinguish
+the decomposition of LPSC in the S K-edge spectra. In P K-edge
+spectra of BP800/S and BP2000/S cathodes at the discharged
+state (Figure 2d–f), the features of PS4
+2−/P2S6
+2−units and
+Li3P at 2145.3 and 2142.8 eV were detected, which correspond
+to the reduction products of LPSC. Furthermore, BP2000/S
+cathodes present stronger signal intensities (as shown in
+Figure 2d–f; Figure S14), indicating that BP2000 with a larger
+specific surface area, demonstrates a stronger ability to facilitate
+LPSC decomposition, from which it can be inferred that not
+only does the surface of BP2000 provide electron resource for
+sulfur, but the remaining BP2000 surface which has not been
+occupied by sulfur is in contact with LPSC, contributing to the
+extensive carbon|SEs boundaries, forming more active areas for
+electrolyte decomposition. This result explains the phenomenon
+observed in Figure 1b, where the high capacity caused by the
+BP2000/S electrodes in the early cycle stage is partly caused by
+electrolyte decomposition rather than the active material sulfur
+itself. More interestingly, as shown in Figure 2e, at the charged
+state of the 4th cycle for BP2000/S cathode, two additional features
+emerge near the expected sulfur oxidation peak (∼2472 eV). One
+possible explanation is incomplete oxidation, leaving residual
+Li2S from the preceding discharge state, which suggests hindered
+reversibility and sluggish reaction kinetics of sulfur occur in
+BP2000/S cathodes. For these results, we have the following
+speculations: 1. The capacity decay in cycling performance at 0.1
+C can be attributed to the interfacial degradation and increased
+resistance within the sulfur cathodes originating from the sulfide-
+based electrolytes decomposition [68]. 2. The electrochemical
+dynamics of the solid-state system are driven and accelerated by
+Advanced Functional Materials, 2026
+5 of 16
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+FIGURE 2
+Probing electrochemical behaviors of sulfur-free and sulfur-containing cathodes under 0.1 C with various carbon hosts. (a) S K-edge
+and (b) P K-edge XANES spectra of sulfur-free cathodes at fully discharged and charged states in the 1st and 4th cycles under 0.1 C, respectively. (c) S
+K-edge and (d) P K-edge XANES spectra of BP800/S cathodes after ball milling and at fully discharged and charged states in the 1st and 4th cycles under
+0.1 C. (e) S K-edge and (f) P K-edge XANES spectra of BP2000/S cathodes after ball milling and at fully discharged and charged states in the 1st and 4th
+cycles under 0.1 C.
+sulfur|carbon and sulfur|SEs interfaces. However, carbon hosts
+with high specific surface area, high porosity, and microporous
+structure seem not favorable to realize the extensive distribution
+of sulfur|carbon and sulfur|SEs interfaces but rather favour
+carbon|SEs interfaces, which restricts efficient sulfur conversion.
+Therefore, by controlling the specific surface area and pore
+structure of carbon hosts, electrolytes would have less exposure
+to carbon materials to reduce resistance and sufficient Li+/e−
+pathways for sulfur redox reaction.
+The morphology evolution of cathodes after cycling was further
+evaluated by SEM in Figure 3 and Figure S15. The cathode
+pellets with BP800/S and BP2000/S were pressed under the
+same pressure of 2 tons before cycling (Figure S15a,d). The
+surface of BP800/S and BP2000/S cathodes exhibits similar rough
+and porous morphology before cycling. After long cycling, the
+surface of the BP800/S cathode kept a smooth and compact
+structure (Figure 3a,b; Figure S15b,c), which corresponds to the
+fewer electrolyte decomposition products. In contrast, BP2000/S
+cathode pellets show a much rougher surface with a large
+number of agglomerated particles, suggesting an accumulation of
+electrolyte decomposition products (Figure 3c,d; Figure S15e,f).
+To verify the degree of electrolyte decomposition in BP800/S
+and BP2000/S composite cathodes after long cycles, X-ray photo-
+electron spectroscopy (XPS) was performed on pristine cathodes
+and the cathodes after 50th discharge at 0.1 C (Figure 3e,f). For
+pristine BP800/S and BP2000/S cathodes, the S 2p signals of bulk
+LPSC are described with terminal sulfur bonds of P─S─Li/P═S
+(around 162.3 eV) and Li2S (around 160.7 eV) [30, 62, 64], and
+the S 2p signal of sulfur is around 164.0 eV [69, 70]. In contrast,
+after long cycles, the relative intensity of doublet peaks around
+160.7 eV assigned to Li2S species is greatly enhanced in composite
+cathode with BP2000/S, and the signals of P─S─Li/P═S assigned
+to electrolyte LPSC are significantly reduced, demonstrating that
+the capacity decay of BP2000/S after long cycling ascribed to the
+accumulation of a large amount of low conductivity electrolyte
+decomposition products, a result that is also consistent with the
+SEM images [34].
+6 of 16
+Advanced Functional Materials, 2026
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+FIGURE 3
+Investigating the difference of cathode morphology and the extent of electrolyte decomposition between BP800/S and BP2000/S
+cathodes after long cycles under 0.1 C. SEM images of (a,b) BP800/S cathode pellets after cycling over 50 cycles at 0.1 C and (c,d) BP2000/S cathode
+pellets after cycling over 50 cycles at 0.1 C. (g,h) S 2p XPS spectra of BP800/S and BP2000/S cathodes at pristine and discharged states after 50 cycles.
+2.4
+Electrochemical Performance: Liquid vs.
+Solid-State Li-S Batteries at High Currents
+We then compared the rate performance of the three types of
+carbon hosts in liquid- and solid-state Li-S batteries, respectively.
+In liquid-state Li-S batteries, the BP2000/S consistently demon-
+strates the best rate performance at different current densities
+(Figure 4a–c), benefiting from a highly dispersion of sulfur and
+sufficient contact between the sulfur and liquid electrolyte, which
+is in line with the reported long-standing experience that the
+smaller pore size and larger specific surface area of carbon
+hosts are more likely to improve rate capabilities of liquid-
+state Li-S system. However, in ASSLSBs, the three carbon hosts
+present quite different rate performance results. As shown in
+Figure 4b,d, the BP2000/S demonstrated higher specific capacity
+at lower currents (e.g., 0.1 C, 0.2 C) in the initial cycles, which
+is consistent with the long-cycle performance results at 0.1 C.
+However, when increasing to a higher current rate, the capacity
+of the cells with BP2000/S electrodes drops faster than the other
+two electrodes. On the other hand, BP800/S electrodes exhibit
+the highest capacities at 1 C and 2 C than those of BP1300/S
+and BP2000/S. Figures 4e,f compared the long cycle performance
+of the electrodes at 1 C in both liquid- and solid-state batteries.
+Interestingly, the tendencies in the two battery systems are
+different. BP2000/S shows the best electrochemical performance
+in a liquid-state system (Figure 4e) but the worst cycling perfor-
+mance in a solid-state battery (Figure 4f). On the other hand,
+BP800/S in solid-state batteries exhibits superior electrochemical
+performance under fast charging/discharging conditions than
+others, which is consistent with rate performance, indicating that
+the large pore structure of BP800 is rather more conducive to the
+fast Li+/e−transfer than those of BP1300 and BP2000 in ASSLSBs.
+From these results, we find that under high-rate and thus strin-
+gent operating conditions, the influence of carbon nanostruc-
+tures on the electrochemical performance differs fundamentally
+Advanced Functional Materials, 2026
+7 of 16
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+FIGURE 4
+Comparison of electrochemical performance of liquid- and solid-batteries with different carbon hosts at high current densities. (a,b)
+Rate performance of (a) liquid-state and (b) solid-state Li-S cells with BP800, BP1300, and BP2000 as carbon hosts, respectively. (c,d) Charge-discharge
+curves of (c) liquid-state and (d) solid-state Li-S cells with BP800, BP1300, and BP2000 as carbon hosts at various rates, respectively. (e,f) Cycling stability
+of (e) liquid-state and (f) solid-state Li-S batteries at 1 C, respectively.
+between liquid and solid-state Li-S systems. In liquid cells,
+carbons with high specific surface area, high porosity, and small
+pore size are generally favorable for rate performance. However,
+this empirical rule does not hold in solid-state systems, where
+ionic and electronic transport is primarily governed by solid-solid
+interfacial charge-transfer kinetics. In principle, the greater the
+abundance of sulfur|carbon and sulfur|SEs contacts, the faster the
+reversible sulfur conversion, thus the better the rate performance.
+We hypothesize that carbons with relatively lower surface area
+and larger pore size, such as BP800, may be more favorable
+8 of 16
+Advanced Functional Materials, 2026
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+FIGURE 5
+P K-edge XANES spectra of (a) BP800/S and (b) BP2000/S cathodes collected at the fully discharged states of the 4th cycle at 0.1 C, and
+at the 4th, 20th, 50th, and 100th cycles under 1 C. S K-edge XANES spectra of (c) BP800/S and (d) BP2000/S cathodes collected at fully discharged and
+charged states in the 20th, 50th, and 100th cycles under 1 C.
+for forming abundant sulfur|carbon and sulfur|SEs interfaces
+while limiting the formation of detrimental carbon|SEs contacts,
+thereby facilitating faster and more reversible sulfur conversion
+in the solid-state batteries.
+2.5
+Mechanistic Insights into Carbon Host
+Effects at High Currents in ASSLSBs
+Different from the results observed in a liquid-state system,
+three types of carbon hosts show different effects on the electro-
+chemical kinetics of sulfur redox reaction under high currents
+(see Figure 4a,b). Despite the electrolyte decomposition bringing
+extra capacity contribution, this positive impact is short-lived.
+To understand more about the electrochemical mechanisms
+under high currents, XANES was performed in full cycles (dis-
+charge/charge) of ASSLSBs at 1 C during electrochemical cycling.
+The obtained results at the discharged state and charged state
+are illustrated in Figure 5, consisting of P K-edge and S K-edge
+XANES spectra of BP800/S and BP2000/S cathodes at the fully
+discharged/charged states of the 4th cycles at 0.1 C, and the
+20th, 50th, and 100th cycles at 1 C, respectively. In Figure 5a,b
+and Figure S16, the P K-edge XANES spectra of BP800/S and
+BP2000/S cathodes cycled at 0.1 C exhibit clear features of elec-
+trolyte decomposition products, including reduction species of
+Li3PS4/Li4P2S6 (Figure 5a,b) and oxidation species of P2S5 (Figure
+S16). In contrast, none of these decomposition-related features
+are observed at 1 C across all examined cycles (from 20th to
+100th) for either BP800/S or BP2000/S cathodes. Notably, even for
+BP2000/S, which shows pronounced electrolyte decomposition
+behavior at 0.1 C due to its extensive carbon|SEs interfaces, there
+are no detectable decomposition-related signals at 1 C. Therefore,
+from the P K-edge XANES results, we deduced that sulfide SEs
+exhibit sluggish redox kinetics under high-current conditions,
+because the shortened reaction timescale requires a rapid kinetic
+response from active materials under high currents. As a result,
+even if electrolyte decomposition occurs at 1 C, a negligible
+amount of decomposition products remains too small or too
+Advanced Functional Materials, 2026
+9 of 16
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+dispersed to be detected by XANES. Consequently, the observed
+spectra primarily reflect the intrinsic sulfur redox reaction rather
+than electrolyte decomposition.
+To further evaluate the sulfur redox behavior under high-current
+conditions, S K-edge XANES spectra were collected for BP800/S
+and BP2000/S cathodes at the 20th, 50th, and 100th cycles at 1 C
+(Figure 5c,d). Both cathodes exhibit the characteristic features
+of S and Li2S during charge and discharge, confirming that the
+solid-solid conversion between S and Li2S remains the dominant
+electrochemical process at 1 C. However, the evolution of the
+spectra indicates a gradual deterioration in sulfur reversibility
+and increasingly retarded electrochemical kinetics with extended
+cycling. For BP800/S, the spectra obtained at the fully discharged
+and charged states after the 20th cycle exhibit well-defined S
+and Li2S features, indicating that sulfur undergoes complete and
+reversible conversion during the early stage of high-rate cycling.
+At the following cycles, however (e.g., 50th charge), the charged-
+state spectra still retain features corresponding to the discharge
+product of Li2S, and the expected sulfur peak becomes less
+pronounced. This persistence of partial discharge products in the
+charged state suggests increasingly sluggish oxidation of Li2S and
+incomplete conversion to S. By the 100th cycle, BP800/S continues
+to exhibit incomplete S/Li2S conversion behavior, indicating a
+significant electrochemical kinetic limitation at high currents.
+BP2000/S cathodes exhibit a similar but significantly accelerated
+deterioration. As early as the 20th charged state, the S K-edge
+XANES spectra already show a clear characteristic feature of
+discharge products of Li2S, demonstrating that partial discharge
+products cannot be oxidized back to S under high current. This
+incomplete S/Li2S conversion becomes more evident at the 50th
+and 100th cycles for BP2000/S cathodes, consistent with the less
+favorable interfacial configuration and reduced Li+/e−accessibil-
+ity within BP2000/S cathodes. These results demonstrate that,
+at 1 C, the dominant limitation to electrochemical performance
+is not electrolyte decomposition, as confirmed by the P K-edge
+XANES spectra, but from the increasingly incomplete S/Li2S
+conversion caused by kinetic constraints. Taken together with
+the electrochemical performance and XANES analyses, BP800/S
+maintains higher sulfur utilization and delays the onset of
+conversion failure compared with BP2000/S, consistent with
+its more favorable distribution of sulfur|carbon and sulfur|SEs
+interfaces.
+2.6
+Carbon Nanostructure-Driven Formation of
+Distinct Interfaces
+Based on the obtained electrochemical performance and charac-
+terization results, we propose a schematic illustration (Figure 6)
+that highlights the nanostructure effect of carbon hosts on
+interfacial formation in sulfur cathodes of ASSLSBs. For the
+composite cathodes incorporating BP2000 with a high surface
+area and highly porous structure, a large number of micropores
+inside BP2000 form useless and space-wasting ineffective pores.
+Even when these pores are filled with sulfur, the deactivated
+sulfur is located deeply, rendering it electrochemically inacces-
+sible and hindering the establishment of simultaneously effective
+sulfur|carbon and sulfur|SEs reaction sites. Meanwhile, the extra
+carbon surface exposed to SEs, generates abundant carbon|SEs
+interfaces, which accelerate severe electrolyte decomposition.
+After long cycles, the accumulation of electrolyte decomposition
+products with low conductivity further blocks the charge-carrier
+transport pathways, ultimately leading to cathode degradation
+and capacity fading. Therefore, the corresponding cathodes con-
+structed based on carbon materials with high porosity and large
+specific surface area are more likely to produce dead sulfur,
+thereby reducing the electrochemical performance of the battery.
+In contrast to BP2000, the BP800 carbon host with relatively
+lower porosity and smaller specific surface area avoids the extra
+free space and pores, which benefits in promoting the domi-
+nant formation of dual interfaces (sulfur|carbon and sulfur|SEs),
+while effectively suppressing excessive carbon|SEs contacts. This
+dual-interface-dominated configuration provides abundant elec-
+trochemically active sites and facilitates efficient Li+/e−transport
+pathways. As a result, BP800/S cathode maintains a robust
+conductive network during cycling and minimizes electrolyte
+decomposition, ensuring superior long-term electrochemical sta-
+bility and excellent rate performance. This comparison highlights
+that whereas highly porous carbons favor liquid-state Li-S bat-
+teries, the same design principle does not directly apply to
+solid-state systems. Rather than simply maximizing surface area
+and porosity, rational tuning of carbon nanostructures is required
+to achieve multiple functions: capable of enabling uniform sulfur
+dispersion, accommodating volume changes, and, most impor-
+tantly, promoting the preferential formation of dual interfaces
+(sulfur|carbon and sulfur|SEs) while suppressing detrimental
+carbon|SEs interface. Such a selective formation strategy of the
+interface ultimately dictates the performance and durability of
+ASSLSBs. More importantly, we demonstrate that rational carbon
+host design provides a facile yet powerful route to regulate
+interfacial formation and markedly improve battery performance.
+2.7
+Electrochemical and High-Loading
+Performance of BP800/S and BP2000/S Cathodes
+Cyclic voltammetry (CV) was performed on BP800/S, BP1300/S,
+and BP2000/S-based ASSLSBs at the scan rate of 0.1 mV s−1, as
+shown in Figure S17a–c. All of the electrodes show typical profiles
+corresponding to redox reactions between sulfur and the final
+products Li2S. To further demonstrate the conversion kinetics
+of sulfur under the influence of various carbon hosts, CV tests
+with various scan rates were conducted (Figure S17d–f). The peak
+current exhibits a linear relationship with the square root scan
+rates, as depicted in Figure 7a,b, and the lithium ions diffusion
+coefficient can be determined by the slope of plots (Ip/ν0.5) based
+on the following Randles-Sevcik Equation (1) [67, 71], providing a
+direct insight into the conversion kinetics of sulfur.
+Ip =
+(
+2.69 × 105)
+n1.5AD0.5
+Li+CLi+𝜐0.5
+(1)
+where Ip refers to the peak current; n is the electron transfer num-
+ber of the redox reaction (here is 2); A represents the electrode
+area; DLi+ is on behalf of the lithium ions diffusion coefficient;
+CLi+ refers to the lithium ions concentration; 𝜐presents the
+voltage sweeping rate. Knowing the values of A, n, and CLi+, the
+DLi+ is directly linked to the slope of the Ip vs 𝜐0.5 plots [40]. The
+calculated slopes of the Ip vs 𝜐0.5 plots for BP800/S, BP1300/S, and
+BP2000/S electrodes are indicated in Figure 7a,b. Remarkably,
+the BP800/S electrode exhibits higher slope values than those of
+the BP1300/S and BP2000/S at both reduction/oxidation peaks.
+10 of 16
+Advanced Functional Materials, 2026
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+FIGURE 6
+Schematic diagram illustrating the advantages of BP800 with relatively lower specific surface area, lower porosity, and larger pore size
+over BP2000 in ASSLSBs.
+These findings are consistent with the rate performance discussed
+earlier, where BP800/S electrodes exhibit a faster Li+ diffusion
+and sulfur transformation under higher currents, highlighting
+the improved reaction kinetics due to the establishment of an
+efficient and abundant dual interface.
+Next, electrochemical impedance spectroscopy (EIS) was per-
+formed to investigate the impact of three types of carbon hosts
+on cell impedance before and after cycling (Figure 7c; Figure
+S18a–i, and Table S2). The equivalent circuit fitting (Figure
+S18j) of the EIS spectra using a circuit consisting of an ohmic
+resistance (Rs) in series with a parallel Rct-CPE1 element and an
+additional CPE2 at low frequency. In this model, Rs represents
+the ohmic impedance of the electrode, while Rct corresponds
+to the charge transfer resistance. Before cycling, the BP1300/S
+and BP2000/S electrodes exhibit only the typical bulk resistance
+of sulfide electrolytes without charge transfer resistance (Rct)
+(Figure 7c; Figure S18a–c). This can be attributed to the highly
+dispersed sulfur distribution in the BP1300 and BP2000 with
+high specific surface area, which generates disconnected and
+irregular sulfur|SEs interfaces and thereby limits the initial
+sulfur redox activity. In contrast, the BP800/S electrode exhibits
+a large Rct value (Table S2), attributed to its compact carbon
+structure with a lower specific surface area, which provides
+fewer accessible active reaction sites for both active materials,
+sulfur and LPSC. The impedance evolution of the three elec-
+trodes reveals distinctly different trends during cycling. For the
+BP800/S electrode, the initial cycles enhanced the consolidation
+of solid-solid contacts and formed a more continuous reaction
+interface. Consequently, both Rs and Rct decreased significantly
+during the early stages. After the 100th cycle, the impedance
+gradually increases, consistent with the accumulation of elec-
+trolyte decomposition products. BP1300/S exhibits a distinct
+evolution pathway: elevated impedance values observed after
+the 4th cycle indicate the presence of a thick, poorly connected
+electrolyte decomposition layer. Over prolonged cycling, this
+interface layer undergoes structural rearrangement, leading to
+reduced impedance values. However, the interface continues to
+pose a substantial obstacle to kinetic efficiency. BP2000/S exhibits
+distinctly different characteristics. Its initially low Rct value stems
+from the formation of a thin and porous interlayer by electrolyte
+decomposition, which temporarily supports mixed conduction.
+However, as cycling proceeds, this interlayer gradually densifies
+and fails to percolate Li+/e−, as evidenced by the significant
+increase in Rs and Rct at the 100th cycle.
+One of the most important key factors in achieving the commer-
+cialization of Li-S batteries is cells with high sulfur mass loading
+[72, 73]. Thus, the electrochemical performance of ASSLSBs with
+BP800/S and BP2000/S electrodes was evaluated under high
+Advanced Functional Materials, 2026
+11 of 16
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 12 页 ===
+FIGURE 7
+(a,b) Relationship between the square root of scan rates and peak currents of BP800/S, BP1300/S, and BP2000/S cathodes. (c) EIS of
+BP800/S, BP1300/S, and BP2000/S cathodes before cycling. (d) Cycling performance of BP800/S and BP2000/S cathodes under 0.3 C with a high sulfur
+loading of 3.5 mg cm−2. (e) Rate performance of BP800/S and BP2000/S cathodes with a high sulfur loading of 3.5 mg cm−2. (f) The 5th cycle charge-
+discharge curves of BP800/S and BP2000/S under 0.1 C, 0.2 C, 0.5 C, and 1 C, respectively. (g) Cycling performance of BP800/S and BP2000/S cathodes
+under 0.2 C with a high sulfur loading of 5 mg cm−2. (h) Rate performance of BP800/S and BP2000/S cathodes with a high sulfur loading of 5 mg cm−2.
+(i) High loading performance of BP800/S cathodes with high sulfur loading of 10.6, 8, and 6.1 mg cm−2 under 0.05 C, 0.1 C, and 0.1 C, respectively.
+sulfur loading. As shown in Figure 7d and Figure S19a, the
+BP800/S cathodes with a high sulfur loading of 3.5 mg cm−2
+yielded a high discharge capacity of 1160 mAh g−1 at 0.3 C (the
+12th cycles), and a capacity retention of 82.3% after 50 cycles,
+which is higher than that of BP2000/S cathodes (55.1% capacity
+retention after 50 cycles). In this result, BP2000/S shows higher
+initial capacity but worse cycling performance, which has also
+been proven in our earlier electrochemical tests, indicating more
+severe electrolyte decomposition and poor interfacial contact in
+the BP2000/S cathode, especially under high sulfur loading. The
+rate capability of BP800/S and BP2000/S electrodes under high
+loading is further evaluated (Figure 7e,f). The BP800/S delivered
+a slightly lower discharge capacity of 1470 mAh g−1 than that of
+BP2000/S (1524 mAh g−1) in the 5th cycle at 0.1 C, due to the large
+SEs decomposition contribution induced by BP2000. However,
+BP800/S exhibited higher discharge capacities of 1313, 700, and
+220 mAh g−1 at 0.2 C, 0.5 C, and 1 C, respectively. In Figure 7g,h,
+and Figure S19b, BP800/S with high sulfur loading of 5 mg
+cm−2 still delivered higher capacity and better rate performance
+than that of BP2000/S cathodes. To satisfy the demand for high-
+energy density in practical applications, BP800/S electrodes with
+higher sulfur loading of 6–10 mg cm−2 were assembled and
+tested. As shown in Figure 7i, BP800/S cathodes with a sulfur
+loading of 6.1 mg cm−2 achieve a high capacity of 1327 mAh
+g−1, corresponding to a high areal capacity of 6.4 mAh cm−2 at
+0.97 mA cm−2, and equivalent to a calculated energy density
+of 598 Wh kg−1 (based on the weight of sulfur cathode, Note
+S2). Also, it shows an excellent capacity retention of 87.9% after
+30 cycles. As the sulfur loading increases to 10.6 mg cm−2,
+the BP800/S cathodes still exhibit a high capacity of 891 mAh
+g−1 (areal specific capacity of 9.44 mAh cm−2, and an energy
+density of 529.1 Wh kg−1) at 0.85 mA cm−2. The superior high-rate
+performance achieved here surpasses that of previously reported
+interface-engineering strategies in ASSLSBs (Table S3). It shows
+12 of 16
+Advanced Functional Materials, 2026
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 13 页 ===
+that constructing sulfur cathodes dominated by sulfur|carbon
+and sulfur|SEs interfaces can effectively accelerate solid-solid
+sulfur redox reaction. This interfacial regulation is realized
+through tailoring the nanostructure of carbon hosts, thereby
+selectively promoting the spontaneous formation of beneficial
+interfaces while suppressing detrimental interfaces. More impor-
+tantly, unlike many previous approaches that involve elaborate
+synthesis procedures, our strategy employs conventional C/S
+composite preparation and simple mechanical mixing under mild
+reaction conditions, rendering it both experimentally accessible
+and practically feasible.
+3
+Conclusion
+A fast electron- and ion-transfer network and inhibited electrolyte
+decomposition in sulfur cathodes are the key to promoting elec-
+trochemical performance for ASSLSBs. In our study, the impact of
+carbon host structures in sulfur cathodes on the electrochemical
+performance was systematically investigated in both liquid-state
+and solid-state Li-S batteries. Unlike liquid systems, where high
+surface area carbons and highly porous structures are favored, we
+reveal that tailored nanostructures, such as BP800, promote the
+preferential formation of abundant sulfur|carbon and sulfur|SEs
+interfaces while intrinsically minimizing detrimental carbon|SEs
+contacts. This dual-interface-dominant architecture stabilizes the
+solid electrolyte and thus alleviates the buildup of insulating by-
+products, accelerates sulfur redox kinetics, thereby enhancing
+sulfur utilization. As a result, even at a practical sulfur loading
+of 5 mg cm−2, the cells deliver a high reversible capacity of 1110
+mAh g−1 at 0.2 C, and exhibit long-term cycling stability, retaining
+93.3% over 100 cycles at 0.1 C. These findings redefine the
+design principles for sulfur cathodes in solid-state Li-S batteries,
+establishing carbon nanostructure-driven interfacial regulation
+as a powerful strategy toward high-capacity, long-life solid-state
+batteries.
+4
+Experimental Section
+4.1
+Materials
+Sulfur (S8, 99.5%, Sigma–Aldrich), Black Pearls 800 (BP800, Cabot
+Corporation), Black Pearls 1300 (BP1300, Cabot Corporation),
+Black Pearls 2000 (BP2000, Cabot Corporation), Poly(vinylidene
+fluoride) (PVDF, MW = 534,000 g/mol, Sigma–Aldrich), and
+Acetylene Black (AB, MSE Supplies) were used before drying at
+60◦C. N-methyl-2-pyrrolidone (NMP, reagent Plus99%), lithium
+bis(trifluoromethane) sulfonamide (LiTFSI, 99%), lithium nitrate
+(LiNO3), 1,2-Dimethoxyethane (DME, anhydrous, 99.5%,), and
+1,3-dioxolane (DOL, 99%) were purchased from Sigma–Aldrich,
+Li6PS5Cl (LPSC, MSE Supplies) was used as received.
+4.2
+Preparation of BP800/S, BP1300/S, and
+BP2000/S Composites
+BP carbons were mixed with sulfur at a weight ratio of 3:7 first and
+then ground by hand for 50 min. Next, the powder mixture was
+transferred to a sealed steel reactor and heated to 155 ◦C for 12 h
+to prepare BP800/S, BP1300/S, and BP2000/S composites. In the
+BP800/S, BP1300/S, and BP2000/S composites, the sulfur content
+was estimated to be 70 wt.%.
+4.3
+Preparation of BP800/S, BP1300/S, and
+BP2000/S Cathodes for Liquid-State Li-S Batteries
+BP800/S, BP1300/S, and BP2000/S composites were mixed with
+AB and PVDF in a weight ratio of 7:2:1, and then NMP was added
+slowly drop by drop, the powder mixture was ground by hand for
+40 min to make a uniform slurry, firstly. Secondly, the slurry was
+coated onto carbon-coated aluminum foil and then dried at 60 ◦C
+overnight. After that, the dried foil was cut into circular disks with
+a diameter of 1.2 cm. The mass loading of sulfur is around 1.4 mg
+cm−2. The Li foil, polypropylene membrane (Celgard 2400), and
+the solvent with 1 m LiTFSI and 2 wt.% LiNO3 that were dissolved
+into a solvent mixture of DOL/DME (1:1, v/v) were used as an
+anode, separator, and electrolyte, respectively. The electrolyte
+amount was 30–45 µL mg−1 relative to the sulfur loading.
+4.4
+Preparation of BP800/S, BP1300/S, and
+BP2000/S Cathodes for Solid-State Li-S Batteries
+The prepared BP800/S, BP1300/S, and BP2000/S composites were
+mixed with solid electrolyte LPSC, and AB with a weight ratio
+of 4:4:2, and the mixture was transferred into sealed ZrO2 jars.
+The composite cathodes were prepared through a high-energy
+ball milling method at 250 rpm for 6 h. The prepared cathodes
+with BP800, BP1300, and BP2000 carbon hosts were labelled
+as BP800/S, BP1300/S, and BP2000/S, respectively. For sulfur-
+free electrodes, the recipe is the same but without the addition
+of sulfur, which are denoted as BP800|LPSC, BP1300|LPSC, and
+BP2000|LPSC.
+4.5
+Materials Characterization
+Nitrogen adsorption/desorption measurements were performed
+at 77 K on a Micromeritics ASAP 2460 analyzer, and the
+specific surface area and pore volume were calculated using
+the Brunauer-Emmett-Teller (BET) method. Scanning electron
+microscopy (SEM) and elemental mapping (Hitachi U3800) were
+conducted to analyze the morphologies and elemental composi-
+tion of the prepared carbon/sulfur composites and the surface of
+as-fabricated BP800/S, BP1300/S, and BP2000/S cathode pellets.
+SEM cross-sectional measurement was used to investigate the
+thickness of BP800/S and BP2000/S cathode pellets. The sulfur
+content of sulfur, BP800/S, BP1300/S, and BP2000/S was mea-
+sured by thermogrametric analysis (TGA) in a TA Instruments
+TGA 5500, equipped with an IR furnace. The samples were
+analyzed under N2 flow at a heating rate of 5 ◦C/min. The crystal
+structure of sulfur, BP800, BP1300, BP2000, BP800/S, BP1300/S,
+and BP2000/S composites was examined by X-ray diffraction
+(XRD) on a Rigaku SmartLab SE X-ray diffractometer with Cu Kα
+radiation. Raman scattering spectra were obtained on a Renishaw
+inVia Qontor Confocal Raman microscope with 532 nm (50 mW)
+excitation using a 50× magnification objective lens. Fourier trans-
+form infrared (FTIR) was carried out with a Thermo Scientific
+Nicolet 6700 Analytical FTIR spectrometer. X-ray photoelectron
+spectroscopy (XPS) was performed on a Thermo Scientific Theta
+Advanced Functional Materials, 2026
+13 of 16
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 14 页 ===
+Probe XPS spectrometer with a monochromatic Al Kα X-ray
+source at a spot area of 400 µm. The X-ray absorption near-edge
+structure (XANES) spectra at the P K-edge and the S K-edge
+were collected at the Canadian Light Source (CLS) by using
+fluorescence yield mode on the soft X-ray microcharacterization
+beamline (SXRMB).
+4.6
+Fabrication of Liquid-State Li-S Coin Cells
+and Electrochemical Measurements
+CR-2032-type coin cells were assembled in an Ar-filled glove
+box. For the cathodes, Galvanostatic charge-discharge (GCD)
+experiments were conducted in the range of 1.7–2.8 V versus
+Li/Li+ by using Neware battery test equipment.
+4.7
+Fabrication of Solid-State Li-S Batteries and
+Electrochemical Measurements
+The solid-state Li-S batteries were assembled and tested in a
+poly(ether ether ketone) (PEEK) cell die with Ti metal rods.
+First, 100 mg of LPSC powder was filled and cold-pressed into
+a PEEK cylinder at 2 tons (10 mm diameter). Then, ∼4 mg
+of composite cathode powders (corresponding to sulfur loading
+of 1.4 mg cm−2) were spread on one side of the LPSC pellet
+and pressed at 2 tons. On the other side of the LPSC pellet,
+Li-In anode was attached and pressed at 0.1 tons. The total
+solid-state Li-S batteries were subject to constant pressure at
+0.5 tons. GCD experiments were conducted in the voltage range
+of 0.5-2.5 V versus Li-In alloy, corresponding to about 1.1-3.1 V
+against Li/Li+. Cyclic voltammograms (CV) were performed on
+a versatile multichannel potentiostation 3/Z (VMP3) with scan
+rates from 0.1 mV s−1 to 0.4 mV s−1 under the voltage range of 0.5-
+2.5 V. Electrochemical impedance spectroscopy (EIS) was used
+at 7 MHz to 1000 mHz with potential polarization amplitude
+of 10 mV by using versatile multichannel potentiostation 3/Z
+(VMP3). The theoretical capacity of sulfur was taken as 1600 mAh
+g−1.
+Acknowledgements
+We⋅thank⋅the support from the Natural Sciences⋅and⋅Engineering
+Research Council of Canada (NSERC RGPIN/04105-2021, RGPAS/00041-
+2021), Canada First Research Excellence Fund (Concordia Volt-Age
+Seed and Volt-Age Impact), Fonds de recherche du Québec Nature
+et technologies (FRQNT 327052, FRQNT 203321), and Concordia
+University Research Chair Program (CURC). The synchrotron-related
+characterizations were completed at the SXRMB beamlines-in Canadian
+Light Source (CLS), a national research facility of the University of
+Saskatchewan, which is supported by the Canada Foundation for
+Innovation (CFI), the Natural Sciences and Engineering Research
+Council (NSERC), the National Research Council (NRC), Canadian
+Institutes of Health Research (CIHR), Government of Saskatchewan, and
+the University of Saskatchewan.
+Funding
+Natural Sciences and Engineering Research Council of Canada (NSERC
+RGPIN/04105-2021, RGPAS/00041-2021), Canada First Research Excel-
+lence Fund (Concordia Volt-Age Seed and Volt-Age Impact), Fonds de
+recherche du Québec Nature et technologies (FRQNT 327052, FRQNT
+203321).
+Conflicts of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+The data that support the findings of this study are available from the
+corresponding author upon reasonable request.
+References
+1. X. Ji, K. T. Lee, and L. F. Nazar, “A Highly Ordered Nanostruc-
+tured Carbon–Sulphur Cathode for Lithium–Sulphur Batteries,” Nature
+Materials 8 (2009): 500–506.
+2. X. Ji and L. F. Nazar, “Advances in Li–S Batteries,” Journal of Materials
+Chemistry 20 (2010): 9821–9826.
+3. D. Peramunage and S. Licht, “A Solid Sulfur Cathode for Aqueous
+Batteries,” Science 261 (1993): 1029–1032.
+4. L. Zhang, Y. Liu, Z. Zhao, et al., “Enhanced Polysulfide Regulation
+via Porous Catalytic V 2 O 3 /V 8 C 7 Heterostructures Derived From
+Metal–Organic Frameworks Toward High-Performance Li–S Batteries,”
+ACS Nano 14 (2020): 8495–8507.
+5. J. Li, L. Gao, F. Pan, et al., “Engineering Strategies for Suppressing the
+Shuttle Effect in Lithium–Sulfur Batteries,” Nano-Micro Letters 16 (2024):
+12.
+6. W. Ren, W. Ma, S. Zhang, and B. Tang, “Recent Advances in Shuttle
+Effect Inhibition for Lithium Sulfur Batteries,” Energy Storage Materials
+23 (2019): 707–732.
+7. C. Xing, H. Chen, S. Qian, et al., “Regulating Liquid and Solid-State
+Electrolytes for Solid-Phase Conversion in Li–S Batteries,” Chemistry 8
+(2022): 1201–1230.
+8. S. Li, W. Zhang, J. Zheng, M. Lv, H. Song, and L. Du, “Inhibition of
+Polysulfide Shuttles in Li–S Batteries: Modified Separators and Solid-State
+Electrolytes,” Advanced Energy Materials 11 (2021): 2000779.
+9. D. Cao, X. Sun, F. Li, et al., “Understanding Electrochemical Reaction
+Mechanisms of Sulfur in All-Solid-State Batteries through Operando and
+Theoretical Studies,” Angewandte Chemie International Edition 62 (2023):
+202302363.
+10. Z. Gao, H. Sun, L. Fu, et al., “Promises, Challenges, and Recent
+Progress of Inorganic Solid-State Electrolytes for All-Solid-State Lithium
+Batteries,” Advanced Materials 30 (2018): 1705702.
+11. Y. Guo, S. Wu, Y.-B. He, et al., “Solid-State Lithium Batteries: Safety
+and Prospects,” eScience 2 (2022): 138–163.
+12. P. Lu, D. Wu, L. Chen, H. Li, and F. Wu, “Air Stability of Solid-
+State Sulfide Batteries and Electrolytes,” Electrochemical Energy Reviews
+5 (2022): 3.
+13. J. Lau, R. H. DeBlock, D. M. Butts, D. S. Ashby, C. S. Choi, and B.
+S. Dunn, “Sulfide Solid Electrolytes for Lithium Battery Applications,”
+Advanced Energy Materials 8 (2018): 1800933.
+14. J. Wu, S. Liu, F. Han, X. Yao, and C. Wang, “Lithium/Sulfide All-Solid-
+State Batteries using Sulfide Electrolytes,” Advanced Materials 33 (2021):
+2000751.
+15. K. Chen, Z. Sun, R. Fang, Y. Shi, H. Cheng, and F. Li, “Metal–Organic
+Frameworks (MOFs)-Derived Nitrogen-Doped Porous Carbon Anchored
+on Graphene With Multifunctional Effects for Lithium–Sulfur Batteries,”
+Advanced Functional Materials 28 (2018): 1707592.
+16. L. Zhang, Y. Wang, Z. Niu, and J. Chen, “Advanced Nanostructured
+Carbon-Based Materials for Rechargeable Lithium-Sulfur Batteries,”
+Carbon 141 (2019): 400–416.
+14 of 16
+Advanced Functional Materials, 2026
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 15 页 ===
+17. A. Fu, C. Wang, F. Pei, J. Cui, X. Fang, and N. Zheng, “Recent Advances
+in Hollow Porous Carbon Materials for Lithium–Sulfur Batteries,” Small
+15 (2019): 1804786.
+18. Q. Pang, X. Liang, C. Y. Kwok, and L. F. Nazar, “Advances in Lithium–
+Sulfur Batteries Based on Multifunctional Cathodes and Electrolytes,”
+Nature Energy 1 (2016): 16132.
+19. M. Wang, X. Xia, Y. Zhong, et al., “Porous Carbon Hosts for Lithium–
+Sulfur Batteries,” Chemistry—A European Journal 25 (2019): 3710–3725.
+20. Z.-L. Xu, J.-K. Kim, and K. Kang, “Carbon Nanomaterials for
+Advanced Lithium Sulfur Batteries,” Nano Today 19 (2018): 84–107.
+21. J. S. Yeon, S. H. Park, J. Suk, H. Lee, and H. S. Park, “Confine-
+ment of Sulfur in the Micropores of Honeycomb-Like Carbon Derived
+From Lignin for Lithium-Sulfur Battery Cathode,” Chemical Engineering
+Journal 382 (2020): 122946.
+22. Z. Yang, Q. Yu, A. Thinphang-Nga, and X. Li, “Development of
+Carbon Materials for Sulfur Cathodes in Inorganic-Based Solid-State
+Lithium–Sulfur Batteries,” Canadian Journal of Chemistry 101 (2023): 829.
+23. K. N. Wood, K. X. Steirer, S. E. Hafner, et al., “Operando X-Ray Pho-
+toelectron Spectroscopy of Solid Electrolyte Interphase Formation and
+Evolution in Li2S-P2S5 Solid-State Electrolytes,” Nature Communications
+9 (2018): 2490.
+24. Y. Pang, J. Pan, J. Yang, S. Zheng, and C. Wang, “Electrolyte/Electrode
+Interfaces in All-Solid-State Lithium Batteries: A Review,” Electrochemi-
+cal Energy Reviews 4 (2021): 169–193.
+25. Y. Zhu, X. He, and Y. Mo, “Origin of Outstanding Stability in
+the Lithium Solid Electrolyte Materials: Insights From Thermodynamic
+Analyses Based on First-Principles Calculations,” ACS Applied Materials
+& Interfaces 7 (2015): 23685–23693.
+26. C. Cao, M. R. Carbone, C. Komurcuoglu, et al., “Atomic Insights Into
+the Oxidative Degradation Mechanisms of Sulfide Solid Electrolytes,” Cell
+Reports Physical Science 5 (2024): 101909.
+27. T. K. Schwietert, V. A. Arszelewska, C. Wang, et al., “Clarifying the
+Relationship Between Redox Activity and Electrochemical Stability in
+Solid Electrolytes,” Nature Materials 19 (2020): 428–435.
+28. G. Jarrold and A. Manthiram, “Delineating the Intricate Impact of
+Carbon in All-Solid-State Lithium-Sulfur Batteries,” Advanced Energy
+Materials 15 (2025): 02557.
+29. E. Lee, H. Kim, H. Choi, S. Y. Kim, and K. Y. Chung, “Unraveling
+the Reversible Redox Mechanism of Li 6 PS 5 Cl Solid Electrolyte in
+All-Solid-State Lithium–Sulfur Batteries,” Chemical Communications 60
+(2024): 14834–14837.
+30. D. H. S. Tan, E. A. Wu, H. Nguyen, et al., “Elucidating Reversible
+Electrochemical Redox of Li6PS5Cl Solid Electrolyte,” ACS Energy Letters
+4 (2019): 2418–2427.
+31. R. Koerver, F. Walther, I. Aygün, et al., “Redox-Active Cathode
+Interphases in Solid-State Batteries,” Journal of Materials Chemistry A 5
+(2017): 22750–22760.
+32. X. Hu, Z. Zhao, Y. Zhao, et al., “Interfacial Degradation of the NMC/Li
+6 PS 5 Cl Composite Cathode in All-Solid-State Batteries,” Journal of
+Materials Chemistry A 12 (2024): 3700–3710.
+33. F. Strauss, D. Stepien, J. Maibach, et al., “Influence of Electronically
+Conductive Additives on the Cycling Performance of Argyrodite-Based
+All-Solid-State Batteries,” RSC Advances 10 (2020): 1114–1119.
+34. X. Zhou, Y. Zhang, M. Shen, et al., “A Highly Stable Li-Organic
+All-Solid-State Battery Based on Sulfide Electrolytes,” Advanced Energy
+Materials 12 (2022): 2103932.
+35. N. Lee, J. Lee, T. Lee, et al., “Rationally Designed Solution-Processible
+Conductive Carbon Additive Coating for Sulfide-based All-Solid-State
+Batteries,” ACS Applied Materials & Interfaces 15 (2023): 34931–34940.
+36. S. Deng, X. Li, Z. Ren, et al., “Dual-Functional Interfaces for Highly
+Stable Ni-Rich Layered Cathodes in Sulfide All-Solid-State Batteries,”
+Energy Storage Materials 27 (2020): 117–123.
+37. S. Lou, F. Zhang, C. Fu, et al., “Interface Issues and Challenges in All-
+Solid-State Batteries: Lithium, Sodium, and Beyond,” Advanced Materials
+33 (2021): 2000721.
+38. D. Wang, B. Gwalani, and D. Wierzbicki, et al., “Overcoming the
+Conversion Reaction Limitation at Three-Phase Interfaces Using Mixed
+Conductors Towards Energy-Dense Solid-State Li–S Batteries,” Nature
+Materials 24 (2025): 243–251.
+39. X. Hao, Z. L. Dong, J. Ma, et al., “A Universal Solid Reaction
+Enabling Nanosized Li2S in an Amorphous Matrix for All-Solid-State Li-S
+Batteries,” Journal of the American Chemical Society 147 (2025): 18340.
+40. Y. Luo, S. Pan, J. Tian, et al., “Engineering Triple-Phase Interfaces
+With Hierarchical Carbon Nanocages for High-Areal-Capacity All-Solid-
+State Li-S Batteries,” Advanced Materials 36 (2024): 2413325.
+41. L. Yoshida, Y. Matsui, M. Deguchi, T. Hakari, M. Watanabe, and
+M. Ishikawa, “Improvement of Lithium–Sulfur Battery Performance by
+Porous Carbon Selection and LiFSI/DME Electrolyte Optimization,” ACS
+Applied Materials & Interfaces 15 (2023): 37467–37476.
+42. M. Xue, C. Chen, Y. Tan, Z. Ren, B. Li, and C. Zhang, “Mangosteen
+Peel-Derived Porous Carbon: Synthesis and Its Application in the Sulfur
+Cathode for Lithium Sulfur Battery,” Journal of Materials Science 53
+(2018): 11062–11077.
+43. G. Li, G. Li, S. Ye, and X. Gao, “A Polyaniline-Coated Sulfur/Carbon
+Composite with an Enhanced High-Rate Capability as a Cathode Material
+for Lithium/Sulfur Batteries,” Advanced Energy Materials 2 (2012): 1238–
+1245.
+44. Q. Zeng, D.-W. Wang, K.-H. Wu, et al., “Synergy of Nanoconfinement
+and Surface Oxygen in Recrystallization of Sulfur Melt in Carbon
+Nanocapsules and the Related Li–S Cathode Properties,” Journal of
+Materials Chemistry A 2 (2014) 6439–6447.
+45. J. H. Choi, K. Ko, S.-J. Won, et al., “Important Consideration
+for Interface Engineering of Carbon-Based Materials in Sulfide All-
+Solid Lithium-Ion Batteries,” Energy Storage Materials 71 (2024):
+103653.
+46. S. W. Park, G. Oh, J. Park, et al., “Graphitic Hollow Nanocarbon as a
+Promising Conducting Agent for Solid-State Lithium Batteries,” Small 15
+(2019): 1900235.
+47. Z. Zhai, Y. Lv, C. Qiu, et al., “Pyrolysis of Self-Assembled Iron(III)
+Porphyrin on Carbon Toward Efficient Oxygen Reduction Reaction,”
+Journal of The Electrochemical Society 166 (2019): F441.
+48. X. Han, S. Yuan, Z. Zhu, et al., “Hydrogen Peroxide Electrosynthesis
+Using Commercial Carbon Blacks as Catalysts: The Influence of Surface
+Properties and Adsorption Performance,” Journal of Chemical Technology
+& Biotechnology 99 (2024): 1788–1799.
+49. B. P. Vinayan, Z. Zhao-Karger, T. Diemant, et al., “Performance Study
+of Magnesium–Sulfur Battery Using a Graphene Based Sulfur Composite
+Cathode Electrode and a Non-Nucleophilic Mg Electrolyte,” Nanoscale 8
+(2016): 3296–3306.
+50. Y. Shi, L. Wen, H. Yang, Z. Sun, and F. Li, “Carbon-Based Materials for
+More Reliable Solid-State Li Batteries,” Journal of Materials Chemistry A
+13 (2025): 36802–36824.
+51. A. Li, Y. Tong, B. Cao, et al., “MOF-Derived Multifractal Porous Carbon
+with Ultrahigh Lithium-Ion Storage Performance,” Scientific Reports 7
+(2017): 40574.
+52. Z. Pan, J. Yang, J. Kong, X. J. Loh, J. Wang, and Z. Liu, ““Porous and
+Yet Dense” Electrodes for High-Volumetric-Performance Electrochemical
+Capacitors: Principles, Advances, and Challenges,” Advanced Science 9
+(2022): 2103953.
+53. W. Zhang, T. Leichtweiß, S. P. Culver, et al., “The Detrimental Effects
+of Carbon Additives in Li 10 GeP 2 S 12 -Based Solid-State Batteries,” ACS
+Applied Materials & Interfaces 9 (2017): 35888.
+54. B. Qi, X. Hong, Y. Jiang, et al., “A Review on Engineering Design for
+Enhancing Interfacial Contact in Solid-State Lithium–Sulfur Batteries,”
+Nano-Micro Letters 16 (2024): 71.
+Advanced Functional Materials, 2026
+15 of 16
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 16 页 ===
+55. S. Xin, L. Gu, N.-H. Zhao, et al., “Smaller Sulfur Molecules Promise
+Better Lithium–Sulfur Batteries,” Journal of the American Chemical
+Society 134 (2012): 18510–18513.
+56. J. Zhou, Y. Guo, C. Liang, et al., “A New Ether-Based Electrolyte
+for Lithium Sulfur Batteries Using a S@pPAN Cathode,” Chemical
+Communications 54 (2018): 5478–5481.
+57. Y. Lin, J. Zheng, C. Wang, and Y. Qi, “The Origin of the Two-Plateaued
+or One-Plateaued Open Circuit Voltage in Li–S Batteries,” Nano Energy
+75 (2020): 104915.
+58. C. Fu, M. B. Oviedo, Y. Zhu, et al., “Confined Lithium–Sulfur
+Reactions in Narrow-Diameter Carbon Nanotubes Reveal Enhanced
+Electrochemical Reactivity,” ACS Nano 12 (2018): 9775–9784.
+59. G. Li, J. Sun, W. Hou, S. Jiang, Y. Huang, and J. Geng, “Three-
+Dimensional Porous Carbon Composites Containing High Sulfur
+Nanoparticle Content for High-Performance Lithium–Sulfur Batteries,”
+Nature Communications 7 (2016): 10601.
+60. C. Luo, E. Hu, K. J. Gaskell, et al., “A Chemically Stabilized Sulfur
+Cathode for Lean Electrolyte Lithium Sulfur Batteries,” Proceedings of the
+National Academy of Sciences 117 (2020): 14712–14720.
+61. Z. Li, X. Li, Y. Liao, X. Li, and W. Li, “Sulfur Loaded in Micropore-
+Rich Carbon Aerogel as Cathode of Lithium-Sulfur Battery with Improved
+Cyclic Stability,” Journal of Power Sources 334 (2016): 23–30.
+62. S. Wang, X. Xu, X. Zhang, et al., “High-Performance Li 6 PS 5 Cl-Based
+All-Solid-State Lithium-Ion Batteries,” Journal of Materials Chemistry A 7
+(2019): 18612–18618.
+63. G.-L. Zhu, C.-Z. Zhao, H. Yuan, et al., “Interfacial Redox Behaviors
+of Sulfide Electrolytes in Fast-Charging All-Solid-State Lithium Metal
+Batteries,” Energy Storage Materials 31 (2020): 267–273.
+64. S. Wang, M. Tang, Q. Zhang, et al., “Lithium Argyrodite as Solid
+Electrolyte and Cathode Precursor for Solid-State Batteries with Long
+Cycle Life,” Advanced Energy Materials 11 (2021): 2101370.
+65. M. Li, W. Li, Y. Hu, et al., “New Insights Into the High-Performance
+Black Phosphorus Anode for Lithium-Ion Batteries,” Advanced Materials
+33 (2021): 2101259.
+66. X. Li, J. Liang, M. N. Banis, et al., “Totally Compatible P4S10+n Cath-
+odes with Self-Generated Li+ Pathways for Sulfide-Based All-Solid-State
+Batteries,” Energy Storage Materials 28 (2020): 325–333.
+67. H. Zhong, Y. Su, R. Ma, et al., “Nano-Scale Interface Engineering
+of Sulfur Cathode to Enable High-Performance All-Solid-State Li–S
+Batteries,” Advanced Functional Materials 34 (2024): 2315925.
+68. H. Kim, H.-N. Choi, J.-Y. Hwang, C. S. Yoon, and Y.-K. Sun, “Tailoring
+the Interface Between Sulfur and Sulfide Solid Electrolyte for High-Areal-
+Capacity All-Solid-State Lithium–Sulfur Batteries,” ACS Energy Letters 8
+(2023): 3971–3979.
+69. H. Li, R. Meng, Y. Guo, et al., “Reversible Electrochemical Oxidation
+of Sulfur in Ionic Liquid for High-Voltage Al−S Batteries,” Nature
+Communications 12 (2021): 5714.
+70. L. Qie, W. Chen, X. Xiong, et al., “Sulfur-Doped Carbon with Enlarged
+Interlayer Distance as a High-Performance Anode Material for Sodium-
+Ion Batteries,” Advanced Science 2 (2015): 1500195.
+71. R. Ma, Y. Fan, Y. Jin, et al., “Construction of Elastic and Conductive
+Channels for High-Rate and High-Areal-Capacity Sulfur Cathodes in
+All-Solid-State Lithium–Sulfur Batteries,” Advanced Energy Materials 14
+(2024): 2304412.
+72. M. Zhao, B.-Q. Li, X.-Q. Zhang, J.-Q. Huang, and Q. Zhang, “A
+Perspective Toward Practical Lithium–Sulfur Batteries,” ACS Central
+Science 6 (2020): 1095–1104.
+73. Y. Zhang, X. Zhang, S. R. P. Silva, B. Ding, P. Zhang, and G. Shao,
+“Lithium–Sulfur Batteries Meet Electrospinning: Recent Advances and
+the Key Parameters for High Gravimetric and Volume Energy Density,”
+Advanced Science 9 (2022): 2103879.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section.
+SupportingFile:adfm74027-sup-0001-SuppMat.docx
+16 of 16
+Advanced Functional Materials, 2026
+ 16163028, 2026, 34, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202526598 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

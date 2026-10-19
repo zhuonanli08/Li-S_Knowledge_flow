@@ -1,0 +1,1492 @@
+=== 第 1 页 ===
+Distinct Redox Chemistry in Solid-State Li−S Batteries Induced by
+Solid Electrolytes
+Published as part of Chemistry of Materials special issue “Honoring the Outstanding Scientific Contributions of
+Clare Grey”.
+Taehun Kim, Jake D. Huang, Marvin A. Kraft, Johannes Hartel, Martin A. Lange, and Wolfgang G. Zeier*
+Cite This: Chem. Mater. 2026, 38, 6974−6987
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: The sulfur redox mechanism in solid-state lithium−sulfur (Li−S)
+batteries remains unclear, as it has been reported to vary under different operating
+conditions due to sluggish reaction kinetics. Herein, we investigate sulfur reactions in
+solid-state batteries using solid electrolytes with high ionic conductivities to mitigate
+kinetic limitations. A solid-state Li−S cell employing Li5.5PS4.5Cl1.5 exhibits an
+asymmetric voltage profile at 25 °C, with two voltage plateaus during discharge and
+poorly separated oxidation reactions during charge. Ex situ X-ray absorption
+spectroscopy (XAS) elucidates that these poorly separated oxidation reactions consist
+of overlapping conversion reactions, in contrast to the clearly distinguishable two-step
+conversion from S8 to Li2S via Li2Sx during discharge. In addition, operando
+impedance evolution, analyzed using a combined distribution of relaxation times (DRT) and distribution of phasances (DOP)
+model, reveals distinct relaxation processes during discharge and charge that arise from differences in the transport properties of the
+reaction products. This work demonstrates an intrinsic asymmetric sulfur redox mechanism in solid-state batteries that is difficult to
+resolve by conventional electrochemical measurements alone but can be clarified by combining XAS with impedance analysis using
+the DRT-DOP model.
+1. INTRODUCTION
+Lithium−sulfur (Li−S) batteries have garnered extensive
+attention due to the high specific capacity (1675 mA h g−1),
+earth-abundance, and low cost of sulfur.1,2 Nevertheless, the
+development of conventional liquid electrolyte-based Li−S
+batteries has been hindered by severe performance degradation
+arising from the formation of soluble lithium polysulfide species
+(Li2Sx, 4 ≤x ≤8) and the associated shuttle effect.3,4 Solid-state
+Li−S batteries have been proposed as a solution to the shuttle
+issue, as solid electrolytes (SE) inherently prevent polysulfide
+dissolution.5 Despite this promising aspect, the sulfur redox
+mechanism in solid-state batteries (SSB) remains poorly
+understood due to the absence of dissolved long-chain lithium
+polysulfides.
+In conventional liquid electrolyte-based Li−S batteries, the
+sulfur redox reaction undergoes solid−liquid−solid conversion.
+Solid-phase sulfur is first reduced to long-chain lithium
+polysulfides dissolved in the liquid electrolyte, and the
+polysulfides are subsequently precipitated out of the liquid
+phase as insoluble Li2S2 and Li2S, giving rise to two voltage
+plateaus.6 In contrast, such solid−liquid conversion is physically
+impossible in SSB, leaving the formation of lithium polysulfides
+and their species unclear. A few studies have investigated the
+solid−solid conversion pathway in SSB. For instance, a
+symmetric sulfur conversion reaction from S8 to Li2S via a
+Li2S2 intermediate has been reported at 25 °C, with voltage
+profiles exhibiting a single voltage plateau during both discharge
+and charge.7 However, operation at elevated temperatures
+induces an asymmetric discharge−charge profile, in which two
+voltage plateaus are observed during discharge, whereas only a
+single voltage plateau appears during charge, suggesting an
+asymmetric reaction pathway under enhanced kinetics.8 Gu et
+al. demonstrated that, at high temperatures, sulfur is reduced
+from S8 to Li2S4 and subsequently to Li2S during discharge, while
+direct conversion of Li2S to S8 occurs during charge.9 These
+distinct sulfur redox behaviors under different cycling conditions
+highlight the importance of studying solid-state Li−S batteries
+under conditions where reaction kinetics are not the limiting
+factor.
+Solid-state Li−S batteries show a considerably higher
+overpotential than conventional liquid electrolyte-based Li−S
+batteries.10 While differences in the reaction pathway contribute
+to the high overpotential, the highly tortuous conduction
+Received:
+April 29, 2026
+Revised:
+June 15, 2026
+Accepted:
+June 29, 2026
+Published: July 4, 2026
+Article
+pubs.acs.org/cm
+© 2026 The Authors. Published by
+American Chemical Society
+6974
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 2 页 ===
+pathways in SSB impede the conversion reactions and can
+further alter the overall reaction mechanism.11 Unlike flowable
+liquid electrolytes with good wettability, SE require a
+homogeneous microstructural architecture to enable ionic
+percolation. This percolation network can be readily disrupted
+by the electronically and ionically insulating nature of sulfur.12
+While both ionic and electronic tortuosity factors in solid-state
+Li−S batteries are high, the ionic transport exhibits a higher
+tortuosity and acts as a bottleneck.11 Therefore, mechanical ball
+milling is a common method to prepare sulfur composite
+cathode.13 Ball milling reduces the particle size of cathode
+components and increases the interfacial contact area between
+sulfur and the SE, thereby improving the ionic percolation
+pathways within the composite.14 However, despite these
+advantages, the crystallinity and ionic conductivity are
+substantially decreased upon the ball-milling process.15−17
+Under harsh milling conditions, the ionic conductivity can
+decrease by approximately 1 order of magnitude.15,17 Consid-
+ering the high ionic tortuosity in SSB and the conductivity
+decrease induced by ball milling, the use of highly conductive SE
+is needed to investigate solid-state Li−S batteries under practical
+operating conditions with favorable reaction kinetics.
+In this work, we investigate the reactions of sulfur in SSB using
+two chemically different but highly conductive SE, Li5.5PS4.5Cl1.5
+and Li6PSe5Br. The solid-state Li−S cell employing
+Li5.5PS4.5Cl1.5 delivers 81% of the theoretical capacity and
+exhibits an asymmetric redox behavior in the voltage profiles and
+the differential capacity (dQ/dV) curves at 25 °C, enabled by the
+high ionic conductivity of Li5.5PS4.5Cl1.5. Ex situ S K-edge X-ray
+absorption spectroscopy (XAS) reveals the asymmetric redox
+pathway, in which sulfur undergoes a two-step conversion from
+S8 to Li2Sx and subsequently to Li2S during discharge, whereas
+Li2S is converted back to Li2Sx and then to S8 through
+overlapping conversion reactions during charge. In order to
+trace the evolution of electrochemical processes, operando time-
+and frequency- domain impedance spectroscopy is performed,
+and the collected impedance data are analyzed using a combined
+distribution of relaxation times (DRT) and distribution of
+phasances (DOP) model.18 The DRT-DOP indicates that
+ionically and electronically insulating reaction product S8
+impedes electrochemical processes during charge more
+considerably than the discharge intermediate and product,
+Li2Sx and Li2S. In contrast, a composite cathode prepared with
+sulfur and Li6PSe5Br exhibits a distinctly different electro-
+chemical behavior. The quasi open-circuit voltage (QOCV)
+curves show two redox couples during discharge and charge. To
+further examine this behavior, ex situ XAS, X-ray photoelectron
+spectroscopy (XPS), X-ray diffraction (XRD) and Raman
+spectroscopy are used. Substantial changes occur in the PSe4
+3−
+tetrahedra, the oxidation state of sulfur, and the structure of
+Li6PSe5Br, indicating that planetary ball milling, which is
+necessary for the Li−S cathode preparation, induces an
+unintended Se−S exchange reaction between sulfur and
+Li6PSe5Br. Amorphous selenium is formed by this reaction,
+and both the resulting selenium and excess unreacted sulfur are
+electrochemically active during cycling, as characterized by ex
+situ XAS and XPS. This work demonstrates the intrinsic
+asymmetric sulfur redox pathway in SSB and its influence on the
+electrochemical processes during cycling. Moreover, the Se−S
+exchange reaction reveals the significance of both SE choice and
+the essential ball-milling process in determining chalcogen
+chemistries. These findings provide insights into the intrinsic
+limitations of solid-state Li−S batteries and the approaches
+required to improve their performance.
+2. EXPERIMENTAL SECTION
+Synthesis
+Precursors and SE were handled in an Ar-filled glovebox to avoid air
+exposure. Lithium sulfide (Sigma-Aldrich, 99.98%), lithium selenide,
+red phosphorus (Thermo Fisher, 99.999%), selenium (Thermo Fisher,
+99.5%), phosphorus pentasulfide (Sigma-Aldrich, 99%), lithium
+chloride (Sigma-Aldrich, 99%), and lithium bromide (Alfa Aesar,
+99%) were mixed in stoichiometric ratios corresponding to each SE.
+The powders were hand-ground using an agate mortar and pestle and
+pressed into pellets. The pellets were then sealed under vacuum in
+carbon-coated ampules, which were vacuum-dried at 800 °C for 2 h
+prior to use. The ampule containing precursors for Li5.5PS4.5Cl1.5 was
+heated to 450 °C at 100 °C h−1 in a tube furnace and annealed at the
+same temperature for 72 h, followed by natural cooling. The annealed
+pellets were hand-ground and subjected again to the same pressing and
+annealing process. The ampules containing precursors for Li6PSe5Br
+and Li6PS5Br were heated to 550 °C at 100 °C h−1 and annealed at the
+same temperature for 2 weeks, followed by liquid-nitrogen quenching
+to obtain a highly disordered phase which offers high ionic
+conductivity.19 All obtained SE pellets were hand-ground.
+The precursor lithium selenide was prepared using a stoichiometric
+amount of selenium powder and metallic lithium (abcr, 99.8%) by gas-
+phase reaction. Metallic lithium was cut into small pieces and placed in a
+graphite crucible. The crucible and selenium powder were placed in a
+predried ampule, separated by small indentations in the ampule wall.
+The ampule was sealed under vacuum and heated to 400 °C at 12 °C
+h−1 in a tube furnace, followed by annealing at the same temperature for
+48 h. The annealed sample was allowed to cool naturally and
+subsequently hand-ground.
+Composite Preparation
+All samples were handled under an Ar atmosphere to avoid air exposure.
+S−C−Li5.5PS4.5Cl1.5 and S−C−Li6PSe5Br composites were prepared by
+a two-step ball-milling process. First, 1.05 g of elemental sulfur
+(Thermo Fisher, 99.999%) and 0.45 g of carbon black (ECP600JD,
+ANR Technologies) were ball-milled using a Fritsch PULVERISETTE
+7 premium line, resulting in a weight ratio of 7:3. The powders were
+placed in an 80 mL ZrO2 cup with 30 g of 5 mm ZrO2 milling media.
+Ball milling was performed at 500 rpm for 12 cycles, each consisting of
+10 min milling followed by 10 min break. Then, 100 mg of the S−C
+mixture was ball-milled with 100 mg of Li5.5PS4.5Cl1.5 or 200 mg of
+Li6PSe5Br to account for the difference in SE mass density. Ball milling
+was conducted using the same method used for the S−C mixture
+preparation, except that the number of milling cycles was increased to
+24.
+Se−C−Li5.5PS4.5Cl1.5 and Se−C−Li6PS5Br composite were also
+prepared by a two-step ball-milling process. The ball-milling conditions
+were the same as those used for S−C−Li5.5PS4.5Cl1.5 and S−C−
+Li6PSe5Br composites. For the Se−C−Li5.5PS4.5Cl1.5 composite, 1.278 g
+of selenium powder and 0.222 g of carbon black were ball-milled. Then,
+202.4 mg of the Se−C mixture was ball-milled with 100 mg of
+Li5.5PS4.5Cl1.5. For the Se−C−Li6PS5Br composite, 1.242 g of selenium
+powder and 0.258 g of carbon black were ball-milled. Then, 181.2 mg of
+the Se−C mixture was ball-milled with 118.8 mg of Li6PS5Br.
+The C−Li5.5PS4.5Cl1.5 composite was prepared by ball milling 20 mg
+of carbon black with 180 mg of Li5.5PS4.5Cl1.5 under the same conditions
+used for the S−C−Li5.5PS4.5Cl1.5 composite. For the preparation of the
+S−Li6PSe5Br composite, 70 mg of sulfur and 200 mg of Li6PSe5Br was
+ball-milled under the same conditions used for the S−C−Li6PSe5Br
+composite.
+Cell Fabrication
+Half-cells were fabricated using a customized press-cell setup (10 mm
+diameter) reported elsewhere.20 90 mg of Li5.5PS4.5Cl1.5 was manually
+pressed as a separator layer using a screw press. For the S−C−
+Li5.5PS4.5Cl1.5 and S−C−Li6PSe5Br half-cells, 9 mg of S−C−
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6975
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 3 页 ===
+Li5.5PS4.5Cl1.5 (mass ratio S:C:SE = 7:3:10) or 13.5 mg of S−C−
+Li6PSe5Br (mass ratio S:C:SE = 7:3:20) composite was evenly
+distributed onto one side of the separator layer, resulting in an areal
+capacity of 6.72 mA h cm−2 calculated based on the theoretical capacity
+of sulfur (1675 mA h g−1). For the Se−C−Li5.5PS4.5Cl1.5 and Se−C−
+Li6PS5Br half-cells, 13.6 mg of Se−C−Li5.5PS4.5Cl1.5 (mass ratio
+Se:C:SE = 17.2:3:10) or 15.5 mg of Se−C−Li6PS5Br (mass ratio
+Se:C:SE = 50:10.4:39.6) composite was used to achieve the same areal
+capacity, calculated based on the theoretical capacity of selenium. For
+the C−Li5.5PS4.5Cl1.5 half-cell, 10 mg of C−Li5.5PS4.5Cl1.5 (mass ratio
+C:SE = 1:9) was used. After distributing composite cathode powders,
+cathode and separator layers were uniaxially pressed together under a
+load of 3 tons for 3 min. Indium foil (Haines & Maassen, 99.999%, 100
+μm thickness, 9 mm diameter) was attached to the other side of the
+separator layer, and Li foil (2.0 mg) was stacked on the indium foil to
+form an In/LiIn anode.
+For the In | Li5.5PS4.5Cl1.5 | In/LiIn cell, 90 mg of Li5.5PS4.5Cl1.5 was
+manually pressed using a screw press, followed by uniaxial pressing
+under a load of 3 tons for 3 min. An indium foil (100 μm thickness, 9
+mm diameter) was attached to both sides of the separator layer, and 2.0
+mg of Li foil was stacked on one side of the indium foil to form an In/
+LiIn anode.
+All cells were tightly closed using a wrench and placed in a metal
+frame maintaining a stack pressure of ≈50 MPa during electrochemical
+measurements.
+Electrochemical Characterization
+S−C−Li5.5PS4.5Cl1.5, S−C−Li6PSe5Br, and Se−C−Li6PS5Br half-cells
+were discharged and charged using a Maccor Series 4000 in the voltage
+range from 1.0 to 2.4 V vs In/LiIn at a C-rate of 0.1C, corresponding to
+an areal current density of 0.672 mA cm−2. Rate performance tests on
+S−C−Li6PSe5Br and Se−C−Li6PS5Br half-cells were performed at
+various current densities of 0.05C (0.336 mA cm−2), 0.1C (0.672 mA
+cm−2), 0.2C (1.344 mA cm−2), 0.5C (3.358 mA cm−2), and 1C (6.717
+mA cm−2) at 25 °C. For the cycling and rate performance tests on S−
+C−Li6PSe5Br and Se−C−Li6PS5Br, triplicates of half-cells were
+evaluated. C−Li5.5PS4.5Cl1.5 half-cell was discharged and charged in
+the same voltage range at an areal current density of 0.498 mA cm−2 at
+25 °C. The current was determined to match the carbon-based specific
+current (390.8 mA gC
+−1) used for the S−C−Li5.5PS4.5Cl1.5 half-cell.
+Galvanostatic intermittent titration technique (GITT) measurements
+were conducted on S−C−Li5.5PS4.5Cl1.5, Se−C−Li5.5PS4.5Cl1.5, and S−
+C−Li6PSe5Br half-cells in the voltage range from 1.0−2.4 V vs In/LiIn
+with a pulse current of 0.672 mA cm−2 for 15 min, followed by
+relaxation for 10 h at 25 °C.
+X-ray Absorption Spectroscopy
+Ex situ samples were discharged/charged to specific depth of discharge/
+state of charge (DOD/SOC) levels at 0.672 mA cm−2 in the voltage
+range of 1.0−2.4 V vs In/LiIn at 25 °C. The cell configuration and
+assembly process were the same as those used for electrochemical
+characterization. Cathodes were carefully retrieved from the cells in an
+Ar-filled glovebox after discharging/charging. Measurements were
+performed at the S K-edge in fluorescence yield (FY) mode at beamline
+B18 of Diamond Light Source. Samples were mounted on a holder in an
+Ar-filled glovebox and transferred to the chamber using an airtight
+shuttle. The obtained spectra were processed using an Athena software
+package.21
+Operando Hybrid Electrochemical Impedance
+Spectroscopy
+S−C−Li5.5PS4.5Cl1.5, S−C−Li6PSe5Br, and Se−C−Li6PS5Br half-cells
+were discharged and charged at a constant current of 0.1C (0.672 mA
+cm−2) in the voltage range from 1.0−2.4 V vs In/LiIn using a BioLogic
+VMP-300 potentiostat at 25 °C. Operando impedance spectra were
+collected during cycling using an accelerated time- and frequency-
+domain (“hybrid”) measurement technique described previously.22
+Measurements alternated between 60 s intervals of constant current and
+hybrid impedance measurements, which lasted for approximately 70 s.
+After each constant current discharge/charge for 60 s, hybrid
+impedance spectroscopy was conducted. Time-domain measurements
+probing the frequency range 20 Hz to 10 mHz were carried out by
+maintaining a DC current of 0.1C while superimposing biphasic current
+steps of amplitude equivalent to 0.01C for time intervals of 0.16, 1.6,
+and 16 s, thereafter returning to the 0.1C DC current for 16 s.
+Subsequently, galvanostatic electrochemical impedance spectroscopy
+(GEIS) was employed for frequency-domain measurements while
+maintaining the DC current of 0.1C. The measurements were
+performed using potentiostatic amplitude selection with an AC root-
+mean-square excitation amplitude of 7.071 mV, 6 points per frequency
+decade from 2 MHz to 20 Hz, and 2 cycles per frequency.
+The obtained time- and frequency-domain data were jointly
+transformed into the two-dimensional (2D) distribution of relaxation
+times (DRT) and distribution of phasances (DOP), allowing
+impedance and DRT-DOP analysis over the full frequency range 2
+MHz to 10 mHz. We employed a self-tuning hierarchical Bayesian
+model for DRT-DOP fitting. This approach reduces subjective
+parameter selection and performs favorably relative to methods such
+as cross-validation, as reported previously.23 The model uses
+hierarchical Tikhonov-like regularization to address the ill-posed
+inversion problem, with weaker regularization applied to the DOP
+than to the DRT. This allows the DOP to capture constant-phase
+impedance features (e.g., diffusion) that would otherwise generate
+diverging long-time scale DRT peaks. Nonetheless, some ambiguity in
+the DRT-DOP deconvolution is unavoidable because the distributions
+can interact, potentially leading to small DRT pseudopeaks at long time
+scales. Consequently, the DRT-DOP framework is best regarded as a
+semiquantitative tool for visualizing dominant processes and guiding
+the development of quantitative models, such as equivalent circuit
+models. Further details and a free Python package are available in
+previous studies.18,22
+For the In | Li5.5PS4.5Cl1.5 | In/LiIn cell, the indium working electrode
+was discharged at a constant current of 0.672 mA cm−2 to an areal
+capacity of 5.76 mA h cm−2 and then charged at the same current to an
+upper cutoff voltage of 0.2 V vs In/LiIn. The operando hybrid
+measurement was performed using the same parameters as for the S−
+C−Li5.5PS4.5Cl1.5 half-cell. Only the DRT model (without the DOP
+complement) was applied to transform the time- and frequency-domain
+data for this cell, as no constant-phase processes were observed in the
+low-frequency range.
+Raman Spectroscopy
+Raman spectroscopy was carried out using a Bruker Senterra II Raman
+microscope equipped with a 532 nm laser. All samples were mounted
+on a customized holder with a quartz window to prevent air exposure.
+Raman spectra were collected in a wavenumber range of 50−1425 cm−1
+with an integration time of 5 s at a laser power of 2.5 mW, unless
+otherwise stated. A 1200 grating, providing a resolution of 1.5 cm−1, and
+a 20x objective lens were used.
+Powder X-ray Diffraction
+XRD measurements were conducted using a STOE STADIP
+diffractometer with Mo Kα1 radiation (λ = 0.70930 Å) in Debye−
+Scherrer geometry. Samples were sealed in glass capillaries (Hilgenberg,
+0.5 mm diameter). The diffraction patterns were collected with a step
+size of 0.015°.
+X-ray Photoelectron Spectroscopy
+XPS measurements were carried out using a PHI GENESIS
+spectrometer. Ex situ samples were prepared following the same
+procedure used for XAS. The samples were mounted on a holder in an
+Ar-filled glovebox and transferred to the instrument using an airtight
+transfer shuttle. Monochromatic Al Kα radiation (1486.6 eV) was used
+with a power of 25 W and an accelerating voltage of 15 kV. The beam
+diameter was 100 μm, and the pass energy was set to 27 eV. To clean the
+surface, the samples were sputtered using an Ar+ sputter gun with a
+raster size of 3 × 3 mm2 at an energy of 0.5 kV for 30 s prior to
+measurements. The samples were neutralized using a charge
+neutralizer.
+Data evaluation was performed using CasaXPS software. The
+binding energies were calibrated by taking the C 1s signal of
+adventitious carbon (284.8 eV) as the reference. Afterward, the S 2p
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6976
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 4 页 ===
+and Se 3p spectra of the S−C−Li6PSe5Br cathodes were calibrated
+using the S 2p PS4
+3−component as an internal reference. Peak fitting
+was conducted using a Shirley background and GL(30) line shapes,
+constraining fwhm. The spin−orbit splittings for Se 3p and S 2p were
+set to 5.8 and 1.16 eV, respectively. The area ratio of S 2p1/2 to S 2p3/2
+doublet was constrained to 1:2. The theoretical area ratio of 0.5 for the
+Se 3p doublet did not provide a satisfactory fit for the Li2Se and
+elemental selenium reference spectra. Instead, an empirical area ratio of
+0.41 has been reported in a previous study.24 Therefore, the area ratio of
+the Se 3p doublet was first left unconstrained and evaluated, and the
+resulting values were 0.378 and 0.382 for Li2Se and elemental selenium,
+respectively. Based on these values, the area ratio of Se 3p1/2 to Se 3p3/2
+was fixed at 0.38 for all samples.
+3. RESULTS
+3.1. Asymmetric Sulfur Redox Behavior with a Highly
+Conductive Sulfide SE
+A solid-state Li−S cell employing Li5.5PS4.5Cl1.5 as the catholyte
+is constructed and its redox mechanism is investigated using
+electrochemical and spectroscopic characterization methods. A
+S−C−Li5.5PS4.5Cl1.5 composite cathode was prepared through
+an intensive ball-milling process to enable high sulfur utilization
+and allow investigation under realistic Li−S cell operating
+conditions. The voltage window was set to achieve a high
+specific capacity while minimizing contributions from SE
+decomposition. Argyrodite sulfide SE are known to undergo
+phosphorus reduction when cells are discharged below 0.6 V vs
+In/LiIn.25,26 Therefore, the lower cutoff voltage of 1.0 V vs In/
+LiIn was employed, and the upper cutoff voltage of 2.4 V vs In/
+LiIn was used to enable reversible cycling. To assess the
+contribution of SE decomposition, a C−Li5.5PS4.5Cl1.5 half-cell
+was cycled within this voltage window and exhibits a negligible
+initial discharge capacity (Figure S1a), indicating that SE
+decomposition is minimal during the initial discharge under
+these cycling conditions.
+Figure 1a,b shows the voltage profile of the S−C−
+Li5.5PS4.5Cl1.5 half-cell and corresponding dQ/dV plot in the
+voltage range of 1.0−2.4 V vs In/LiIn during the initial discharge
+and charge at 25 °C. The sulfur loading was 4.0 mg cm−2, which
+is within the range of practical electrode loadings for solid-state
+Li−S batteries. The cell delivered a specific capacity of 1352 mA
+h g−1 during first discharge, corresponding to 81% of the
+theoretical capacity of sulfur (1675 mA h g−1). Notably, the
+voltage profile exhibits asymmetry between discharge and
+charge, which is characterized by two voltage plateaus during
+discharge and a single plateau during charge. Since the C−
+Li5.5PS4.5Cl1.5 cell delivered a negligible capacity during the
+initial discharge, the two observed voltage plateaus during
+discharge can be attributed to sulfur reduction reactions. This
+asymmetric redox behavior is further evidenced by the dQ/dV
+plot exhibiting two reduction peaks at 1.37 and 1.27 V and a
+single oxidation peak at 1.77 V, in which the single oxidation
+peak appears to consist of a small shoulder and large peak
+overlapping. Under slower kinetics at 0 °C, the oxidation peaks
+are more separated and become distinguishable, as shown in
+Figure S1b,c. These low-temperature data suggest that there
+may be at least two processes during charge, contrary to a
+previous suggestion,9 although they cannot be readily
+distinguished using only galvanostatic discharge−charge tests.
+Figure 1. (a) Initial discharge−charge voltage profile and (b) corresponding dQ/dV plot of the S−C−Li5.5PS4.5Cl1.5 half-cell at 0.1C and 25 °C. GITT
+curves during the initial (c) discharge and (d) charge, obtained with a pulse current of 0.1C for 15 min, followed by 10 h relaxation period at 25 °C. (e)
+Initial discharge−charge voltage profiles and (f) corresponding dQ/dV curves of the S−C−Li5.5PS4.5Cl1.5 half-cells at 0.1C operated at 25, 40, 60, and
+80 °C.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6977
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 5 页 ===
+To examine whether these two processes during charge could
+be resolved by overpotential relaxation or by enhanced reaction
+kinetics, galvanostatic intermittent titration technique (GITT)
+measurements and high-temperature discharge−charge tests
+were performed. Figure 1c,d shows QOCV curves obtained
+from GITT measurements at 25 °C. Although overpotentials of
+approximately 0.2 V are relaxed during both discharge and
+charge, the QOCV curves still exhibit two voltage plateaus
+during discharge and only a single plateau during charge. High
+temperature discharge−charge profiles at 40, 60, and 80 °C are
+shown in Figure 1e,f. Increasing temperature reduces polar-
+ization, as indicated by the smaller voltage gap between
+discharge and charge, while the asymmetric redox behavior
+observed at room temperature is maintained. These electro-
+chemical results support the notion that the S−C−Li5.5PS4.5Cl1.5
+half-cell undergoes an intrinsically asymmetric reaction pathway
+rather than just having a large degree of polarization that could
+be mitigated by relaxation or enhanced kinetics at elevated
+temperatures.
+To further elucidate this asymmetric reaction pathway and
+sulfur intermediate species in SSB, ex situ XAS was carried out on
+S−C−Li5.5PS4.5Cl1.5 cathodes retrieved at various depth of
+discharge (DOD) and state of charge (SOC) levels. Reference S
+K-edge XAS spectra of elemental sulfur (S8), Li2S, and
+Li5.5PS4.5Cl1.5 were collected to assign sulfur-containing species
+in the composite cathode (Figure S2a). Elemental sulfur exhibits
+a characteristic absorption feature at 2472 eV, corresponding to
+the transition from S 1s to S−S π* state.27 Li2S is characterized
+by two main absorption peaks at 2473 and 2475.5 eV, and the
+absorption edge of Li5.5PS4.5Cl1.5 SE appears at 2471 eV. Figure
+2a,b presents the ex situ S K-edge spectra of the S−C−
+Li5.5PS4.5Cl1.5 cathode during the initial discharge and charge.
+The pristine cathode spectrum is dominated by the absorption
+feature of elemental sulfur at 2472 eV. Upon discharge to
+DOD50, the contribution from elemental sulfur decreases,
+accompanied by the emergence of a pre-edge peak at 2470 eV,
+which is attributed to reduced terminal sulfur in lithium
+polysulfide (Li2Sx) species.28 The pre-edge feature is clearly
+observable in the overlaid XAS spectra in Figure S2b,c.
+Additionally, the absorption feature of the Li5.5PS4.5Cl1.5 SE,
+whose absorption edge partially overlaps with elemental sulfur,
+becomes more distinguishable as the sulfur contribution
+decreases. With further discharge, the pre-edge peak of Li2Sx
+disappears and the characteristic features of Li2S at 2473 and
+2475.5 eV grow in intensity. At the fully discharged state
+(DOD100), the spectrum is dominated by contributions from
+Li2S and Li5.5PS4.5Cl1.5, indicating high sulfur utilization,
+consistent with the high discharge capacity observed by
+electrochemical characterization. In the early stage of charge,
+from SOC0 to SOC25, Li2S is partially converted to Li2Sx.
+Unlike discharge, further charging from SOC25 to SOC50 leads
+to the simultaneous formation of Li2Sx and elemental sulfur.
+Notably, elemental sulfur begins to reappear at low SOC levels
+before Li2S is fully oxidized to Li2Sx. Upon continued charging,
+the absorption peaks of Li2S and Li2Sx diminish, accompanied by
+the growth of the elemental sulfur feature. At SOC100, the
+spectrum becomes similar to that of the pristine cathode.
+The distinct evolution of sulfur species during discharge and
+charge is shown in the contour plot of ex situ XAS spectra
+(Figure 2c). During discharge, elemental sulfur undergoes a two-
+step conversion to Li2S via Li2Sx intermediates, whereas charging
+proceeds through overlapping reactions rather than discrete
+steps. This result further clarifies that, although the asymmetric
+sulfur reaction pathway is evident in the galvanostatic
+discharge−charge profiles, the seemingly single reaction during
+charge consists of two largely overlapping reactions correspond-
+ing to the two distinct reduction steps observed during
+discharge.
+Since all lithium polysulfide species (Li2Sx, x = 2−8) exhibit a
+pre-edge feature at 2470 eV, S K-edge XAS alone is insufficient
+to distinguish specific lithium polysulfide species.29 Therefore,
+Raman spectroscopy was employed as a complementary method
+to further identify sulfur species in the composite cathode
+(Figure S3). The pristine S−C−Li5.5PS4.5Cl1.5 cathode exhibits
+weak vibrational features of elemental sulfur, while no
+characteristic Raman modes of Li5.5PS4.5Cl1.5 are detected.
+Notably, no features of elemental sulfur are observed for the C−
+Li5.5PS4.5Cl1.5 (mass ratio C:SE = 1:9) sample at low laser power,
+whereas characteristic sulfur peaks appear at high laser power
+despite the absence of sulfur in the composite. These
+observations may be attributed to strong light absorption by
+the carbon black additive and the resulting local thermal
+decomposition, indicating that Raman spectroscopy may
+introduce measurement artifacts in carbon-containing compo-
+sites. Because of these spectral artifacts, it was difficult to identify
+the lithium polysulfide species in the cathode after discharge/
+charge.
+Electrochemical impedance spectroscopy (EIS) is an effective
+technique for characterizing electrochemical processes in
+battery systems. To investigate the evolution of impedance
+during cycling of solid-state Li−S batteries, operando frequency-
+and time-domain (hybrid) impedance spectroscopy was
+performed. EIS is typically carried out in frequency-domain,
+which provides high accuracy but requires long acquisition
+Figure 2. Ex situ S K-edge XAS spectra of S−C−Li5.5PS4.5Cl1.5 cathodes
+recovered at various DOD and SOC states during the initial (a)
+discharge and (b) charge. The spectrum at SOC0 in (b) corresponds to
+the fully discharged state (DOD100) shown in (a). (c) Contour map
+showing the evolution of the ex situ S K-edge XAS spectra during the
+initial discharge and charge.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6978
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 6 页 ===
+times, particularly in the low frequency range. In contrast, time-
+domain approaches offer rapid measurement time but are
+limited by poor accuracy at high frequencies. By applying two
+techniques in different frequency ranges, the hybrid measure-
+ment combines the strengths of both methods while mitigating
+measurement noise with DRT-assisted data transformation,
+enabling rapid and reliable EIS over a broad frequency
+range.18,22 Figure 3a shows the time-domain measurement
+with step current excitation and the conventional galvanostatic
+EIS (GEIS) in the frequency-domain, both implemented
+operando during constant-current discharge and charge.
+The acquired data were analyzed using a combined DRT and
+DOP model.18,22 The DRT represents the impedance as an
+infinite series of parallel resistor-capacitor (RC) elements,
+corresponding to relaxation processes γ(ln τ) distributed over
+log-time scales ln τ. The relationship between the impedance
+and DRT is given by eq 1.
+Z
+j
+( )
+(ln )
+1
+dln
+=
++
+(1)
+However, when the system includes non-RC type responses,
+such as Warburg diffusion or capacitance, the DRT may fit the
+data poorly and/or provide misleading interpretations due to the
+appearance of multiple peaks for a single process. Therefore, the
+DOP has been introduced as a complementary model by a
+previous study.18,22 DOP describes the impedance as an infinite
+series of constant phase elements (CPE), representing
+phasances ρ(ν) over their orders ν, which can be converted
+into phase angles θ = νπ/2. The CPE-type impedance is
+correlated to the phasances according to eq 2.
+Z
+j
+( )
+( )(
+) d
+1
+1
+=
+(2)
+The combined DRT-DOP model allows the separation of
+impedance into RC- and CPE-type contributions as expressed in
+eq 3, where R0 represents the ohmic resistance.
+Z
+R
+Z
+Z
+( )
+( )
+0
+=
++
++
+(3)
+The separation of RC- and CPE-type processes is illustrated
+using an exemplary Nyquist plot (Figure 3b). Both the
+conventional DRT and the DRT-DOP transforms were applied
+to the impedance data corresponding to the Nyquist plot
+showing a semicircle followed by a diffusion tail, which can be
+approximately interpreted using an electrochemical equivalent
+circuit model consisting of R//CPE and CPE elements in series.
+Multiple overlapping relaxation processes distributed over a
+broad frequency range are observed in the conventional DRT
+transform. In contrast, the DRT-DOP model shows a significant
+relaxation process at τ ≈10−5 s in the DRT plot, which is
+attributed to the semicircle in the Nyquist plot, while a peak at
+−θ ≈42° in the DOP plot corresponds to the diffusion tail. The
+interpretation based on the DRT-DOP model is consistent with
+the conventional understanding of the system derived from
+electrochemical equivalent circuit model, demonstrating the
+utility of the DRT-DOP transformation for interpretable
+impedance analysis.
+The DRT-DOP model was applied to the operando
+impedance data of S−C−Li5.5PS4.5Cl1.5 half-cell during the
+Figure 3. (a) Operando impedance spectroscopy using time- and frequency-domain measurements with accelerated acquisition time. (b) Schematic
+illustration of the DRT-DOP model, demonstrating the separation of constant-phase processes from the conventional DRT model. 2D DRT-DOP
+mapping of the S−C−Li5.5PS4.5Cl1.5 half-cell during the initial (c) discharge and (d) charge, with the corresponding conversion reactions characterized
+by ex situ S K-edge XAS represented in the insets. In both (c) and (d), the left and right panels represent the 2D DRT and DOP plots, respectively.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6979
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 7 页 ===
+initial discharge and charge at 0.1C and 25 °C. To evaluate the
+contribution from the In/LiIn anode, the two-dimensional (2D)
+DRT plots of the In | Li5.5PS4.5Cl1.5 | In/LiIn cell are analyzed
+(Figure S4). The relaxation processes from the In/LiIn anode
+shows γ values below 10 Ω, indicating insignificant contributions
+to the total impedance of the S−C−Li5.5PS4.5Cl1.5 half-cell.
+Nevertheless, at the end of charge, a resistive relaxation process
+is observed at τ ≈10−1 s, which can be attributed to the
+dealloying process and the depletion of Li in the In/LiIn
+anode.30 Figure 3c,d shows the evolution of resistance in the S−
+C−Li5.5PS4.5Cl1.5 half-cell represented in the 2D DRT and DOP
+plots. During discharge, a dominant process is observed in the
+2D DRT plot, which shifts to longer time scales while
+maintaining a nearly constant resistance until the middle of
+discharge. The detailed one-dimensional (1D) DRT and DOP
+plots extracted from the 2D mapping for 20% DOD and SOC
+intervals are shown in Figure S5. The 1D DRT plots at 0%, 20%,
+and 40% DOD exhibit a dominant relaxation at τ ≈1−10 s and
+less pronounced processes at shorter time scales. While it is
+difficult to unambiguously resolve overlapping electrochemical
+processes, we interpreted the underlying processes based on
+their characteristic time scales. Typically, in the time scale range
+of 10−2−10 s, the observed processes include charge transport
+through the solid-electrolyte interface and charge transfer at the
+cathode and anode, as well as diffusion.31,32 As CPE-type
+contributions are separately assessed in the DOP model, the
+impedance features in the DRT plot are mainly derived from
+RC-type processes other than diffusion. Furthermore, as
+previously discussed and supported by Figure S4, the impedance
+contribution of the In/LiIn anode is insignificant relative to the
+overall cell impedance. Therefore, the processes at long time
+scales τ ≈10−2−10 s can be reasonably attributed to the
+impedance of the cathode−electrolyte interface (CEI) and the
+charge transfer at the cathode active material.32−34 The process
+at τ ≈10 s becomes less resistive after the middle of discharge.
+Based on the two-step sulfur conversion during discharge
+identified by XAS, the conversion from sulfur to Li2Sx
+corresponds to a highly resistive process during the first
+reduction step due to the electronically and ionically insulating
+character of S8 (conductivity of ∼10−30 S cm−1).4 In contrast, the
+reaction product of the subsequent conversion, Li2S, is still
+poorly conducting but exhibits a conductivity several orders of
+magnitude higher (conductivity of 10−14−10−10 S cm−1)35−37
+than S8, thereby mitigating the CEI impedance and/or the
+charge transfer resistance at the cathode active material. At the
+end of discharge, a substantial resistive process emerges at τ ≈
+10−1 s, which is attributed to relaxation processes from the In/
+LiIn anode, as previously detected in the In | Li5.5PS4.5Cl1.5 | In/
+LiIn cell presented in Figure S4. Throughout discharge, a single
+process is consistently observed in the 2D DOP plot at −θ ≈
+42°, which is close to the 45° phase angle of a Warburg element
+and can likely be attributed to Li+ diffusion process at the
+cathode.22
+During charge, two major processes are observed in the 2D
+DRT plot. One process at τ ≈10 s appears from the beginning of
+charge, and an additional process emerges at τ ≈1 s. These
+processes also can be attributed to the CEI impedance and/or
+the charge transfer resistance at the cathode active material.
+Upon continued charging, two resistive processes merge into
+one and exhibit increased resistance. Based on the XAS results,
+the increased resistance observed in the DRT plot can be
+correlated with the formation of insulating sulfur. Meanwhile,
+the lack of significant DOP peaks indicates that there is
+insignificant diffusion contribution to impedance.
+The conventional DRT model was not well suited for
+analyzing the operando hybrid impedance data of solid-state Li−
+S batteries, as indicated by the 2D DRT plots obtained without
+the DOP model (Figure S6). The overall resistances of the
+relaxation processes are comparable during discharge and
+charge, which is clearly inconsistent with the DRT-DOP results.
+The origin of this misleading interpretation can be understood
+from comparison with the Nyquist spectra calculated from the
+DRT-DOP plots over the frequency range from 1 MHz to 10
+mHz (Figure S7). During discharge, a low frequency tail
+gradually appears in addition to the semicircular response,
+whereas during charge the spectra maintain a semicircular shape.
+Because the conventional DRT model artificially transforms
+these diffusion processes during discharge into relaxation
+processes, the relaxation process resistance in the conventional
+DRT plot is overestimated. This discrepancy between the DRT-
+DOP and conventional DRT models indicates that the DRT-
+DOP model is more suitable for electrochemical systems
+involving diffusion processes.
+Since sulfur is ionically and electronically insulating, sulfur
+conversion reactions can occur only at the triple-phase
+boundaries between sulfur, SE, and carbon additives. This
+concept has been utilized to improve the electrochemical
+performance of solid-state Li−S batteries, for instance, by
+employing mixed ionic−electronic conductors or surficial redox
+mediators.38−40 In addition to improving performance, further
+insight into the reaction mechanism in solid-state Li−S batteries
+can be proposed by correlating these triple-phase boundary
+constraints with the impedance data and the intermediate
+reaction products. The limitation in reaction sites suggests that
+the conversion products likely nucleate and grow from the triple-
+phase boundaries. XAS results reveal that Li2Sx and Li2S are
+formed stepwise during discharge, whereas the formation of
+Li2Sx and sulfur overlaps during charge. In both cases, the sulfur
+conversion products are expected to progressively passivate the
+unreacted active material at the triple-phase boundary, as
+conceptually illustrated in Figure 4. These reaction products
+Figure 4. Schematic illustration of conversion reaction products
+propagating from the triple-phase boundary. This conceptual CEI-like
+passivation model is proposed by correlating the triple-phase boundary
+constraints with asymmetric sulfur conversion pathways and impedance
+evolution, observed in ex situ XAS and operando impedance
+spectroscopy results. Each conversion reaction step is represented on
+the corresponding dQ/dV peak.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6980
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 8 页 ===
+exhibit different resistive behaviors during discharge and charge
+depending on their transport properties, which are reflected in
+the impedance evolution characterized by operando impedance
+spectroscopy combined with the DRT-DOP model. Notably,
+the charge transport through the CEI and/or charge transfer at
+the cathode exhibit higher resistance during charge than during
+discharge. This observation can be attributed to the formation of
+insulating sulfur at low SOCs during charging, which impedes
+the conversion reactions more severely than the discharge
+products, Li2S and Li2Sx. These behaviors support the proposed
+model where the accumulated products between the unreacted
+active material and the triple-phase boundary act as a CEI-like
+layer.
+3.2. Se−S Exchange Reaction-Driven Formation of Li−Se
+SSB
+When sulfur is present in the SE of solid-state Li−S batteries, the
+identification of intermediate species becomes challenging. For
+sulfur-specific spectroscopic methods such as XPS and XAS, the
+spectra contain sulfur signals from the SE in addition to those
+from the active material sulfur. Moreover, since SE are prone to
+decompose within the operating voltage range of typical Li−S
+cells, their decomposition products may share common
+intermediate species with sulfur redox products. Therefore, if
+sulfur-free SE exhibit sufficiently high ionic conductivity and
+compatibility with sulfur, they possess the potential to facilitate
+sulfur-specific spectroscopic investigation without the spectral
+overlap between the SE and the active material sulfur.
+Furthermore, they provide the opportunity to estimate the
+respective capacity contributions from SE decomposition and
+active material redox.
+Therefore, another sulfur composite cathode was prepared
+using Li6PSe5Br, which contains selenium substituting for sulfur
+in argyrodite sulfide SE and exhibits a high ionic conductivity of
+5 mS cm−1.41 The composite cathode was prepared with the
+same procedure used for the S−C−Li5.5PS4.5Cl1.5, except that
+the amount of Li6PSe5Br was increased to account for its higher
+mass density compared to Li5.5PS4.5Cl1.5, ensuring comparable
+volumetric phase fractions. Figure 5a,b shows the voltage profile
+of the S−C−Li6PSe5Br half-cell and corresponding dQ/dV plot
+in the voltage range of 1.0−2.4 V vs In/LiIn during the initial
+discharge and charge at 25 °C. The S−C−Li6PSe5Br half-cell
+delivered an areal capacity of 5.23 mA h cm−2, corresponding
+78% of the calculated theoretical capacity. The dQ/dV plot
+exhibits a small shoulder reduction peak at 1.40 V and a large
+reduction peak at 1.33 V during discharge. Upon subsequent
+charging, a single oxidation peak appears at 1.68 V, which is
+approximately 0.1 V lower than that observed for the S−C−
+Li5.5PS4.5Cl1.5 half-cell, suggesting a different redox mechanism.
+Nevertheless, the asymmetric feature, characterized by two
+reduction peaks and a single oxidation peak, is similar to that of
+the S−C−Li5.5PS4.5Cl1.5 half-cell. To examine the equilibrium
+potential under reduced polarization, QOCV curves were
+obtained using GITT (Figure 5c,d). The QOCV curves differ
+from the galvanostatic discharge−charge profiles. While the
+discharge QOCV curve consistently exhibits two voltage
+plateaus at 1.46 and 1.41 V, the charge QOCV curve shows
+two distinct plateaus at 1.52 and 1.62 V, representing one
+additional plateau compared to that observed in the
+galvanostatic discharge−charge profiles. This difference is
+more clearly presented by comparing the galvanostatic
+discharge−charge profiles with the QOCV curves extracted
+from GITT profiles (Figure S8). These results indicate that the
+redox mechanism of the S−C−Li6PSe5Br half-cell is distinct
+from that of the S−C−Li5.5PS4.5Cl1.5 half-cell.
+To investigate the origin of the distinct chemistry in the S−
+C−Li6PSe5Br cathode composite, XAS, Raman spectroscopy,
+XRD, and XPS analyses were performed. Figure 6a presents the
+S K-edge XAS spectrum of the pristine S−C−Li6PSe5Br cathode
+together with reference spectra. The spectrum of the pristine
+cathode closely matches the Li5.5PS4.5Cl1.5 SE rather than
+elemental sulfur, in contrast to the pristine S−C−Li5.5PS4.5Cl1.5
+spectrum, which is dominated by the elemental sulfur feature.
+This indicates that most of sulfur exists in reduced sulfur species,
+such as PS4
+3−and S2−, with an oxidation state of −II, rather than
+in form of elemental sulfur S(0). To gain further insight into the
+sulfur chemical states, Raman spectroscopy was conducted on
+the S−Li6PSe5Br composite instead of the S−C−Li6PSe5Br
+cathode composite due to the above-mentioned difficulty in
+acquiring reliable Raman spectra from carbon-containing
+samples (Figure 6b). The S−Li6PSe5Br composite was prepared
+through the same ball-milling process used for the S−C−
+Li6PSe5Br cathode, except that carbon black was excluded.
+Li6PSe5Br SE exhibits a symmetric stretching mode of the
+PSe4
+3−unit at 236 cm−1.41,42 However, the ball-milled S−
+Li6PSe5Br composite shows a broad peak at 256 cm−1, implying
+a substantial structural change in Li6PSe5Br during the ball-
+milling process with elemental sulfur. This broad peak is a main
+feature of ball-milled selenium, as shown in Figure S9, indicating
+that amorphous selenium was formed.43 Furthermore, a peak
+located at 418 cm−1 matches the symmetric stretching mode of
+the PS4
+3−tetrahedra in the Li6PS5Br sulfide SE.44 The
+disappearance of the PSe4
+3−unit, along with the emergence of
+the PS4
+3−unit and amorphous selenium, suggests substitution of
+selenium by sulfur within the PSe4
+3−unit during the ball-milling
+process, leading to the formation of PS4
+3−tetrahedra and
+amorphous selenium.
+Figure 5. (a) Initial discharge−charge voltage profile and (b)
+corresponding dQ/dV plot of a half-cell incorporating the S−C−
+Li6PSe5Br cathode at 0.1C and 25 °C. For comparison, the
+corresponding data for the S−C−Li5.5PS4.5Cl1.5 half-cell are included
+in (a) and (b). GITT curves during the initial (c) discharge and (d)
+charge, obtained with a pulse current of 0.1C for 15 min, followed by 10
+h relaxation period at 25 °C.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6981
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 9 页 ===
+We examined this structural change using XRD. Figure 6c
+shows the XRD pattern of the ball-milled S−Li6PSe5Br
+composite. The diffraction peaks are significantly broadened
+due to the harsh ball-milling conditions. However, characteristic
+reflections corresponding to the argyrodite structure are still
+observed. Notably, the peak positions are identical to those of
+Li6PS5Br, implying that most of selenium in Li6PSe5Br, including
+free Se2−and selenium in PSe4
+3−units, was substituted by sulfur
+during ball milling, which is consistent with the XAS and Raman
+results. Additionally, to increase the crystallinity of the SE and
+compare its diffractogram with the reference material, the ball-
+milled S−Li6PSe5Br composite was annealed in a carbon-coated
+ampule at 300 and 400 °C for 5 h under vacuum (Figure S10).
+After annealing, the reflections exhibited increased intensities
+while maintaining their positions, supporting that most of
+selenium was replaced by sulfur during the ball-milling process.
+Taken together, these observations suggest that sulfur is
+thermodynamically more stable than selenium in the argyrodite
+structure. Because sulfur has a higher electronegativity (2.58)
+and a smaller ionic radius for S2−(1.84 Å) than selenium (EN =
+2.55 and r(Se2−) = 1.98 Å),45,46 the P−S covalent bond and the
+Coulombic interaction between Li+ and S2−are expected to be
+stronger than their selenium counterparts. Furthermore,
+formation energies obtained from the Open Quantum Materials
+Database (OQMD) and the Materials Project support the
+higher stability of sulfur in SE structures. For instance, the
+formation energy of Li3PS4 (−1.112 eV/atom, Pnma, OQMD-
+687436) is lower than Li3PSe4 (−0.810 eV/atom, Pnma,
+OQMD-1345149),47,48 and the formation energy of Li7PS6
+(−1.287 eV/atom, Pna21, mp-1211324) is also lower than
+Li7PSe6 (−1.118 eV/atom, Pna21, mp-1211446).49 Therefore,
+the energy generated during ball milling induces an Se−S
+exchange reaction between elemental sulfur and selenide SE due
+to the higher thermodynamic stability of sulfide SE.
+To evaluate whether the atomic percentage of sulfur in the S−
+C−Li6PSe5Br composite was sufficient to fully replace selenium
+in Li6PSe5Br, the elemental composition of the S−C−Li6PSe5Br
+composite was calculated, as summarized in Table S1. The
+atomic percentage of sulfur (23.2%) is higher than that of
+selenium (19.4%), indicating that a sufficient amount of sulfur is
+present to enable the near-complete Se−S exchange reaction.
+Moreover, because the sulfur amount exceeds that of selenium,
+excess elemental sulfur (corresponding to 16.2 at% of the total
+sulfur in the composite cathode) remains unincorporated into
+the Li6PS5Br structure and can contribute to redox reactions as
+an active material during discharge and charge. The resulting
+composition of the electrochemically active chalcogen species is
+83.8 at% selenium and 16.2 at% sulfur, based on complete Se−S
+exchange. Due to the complex Se−S exchange reaction as well as
+the presence of residual sulfur, it is impossible to accurately
+determine the mass of electrochemically active materials in the
+S−C−Li6PSe5Br composite. Therefore, the specific capacity of
+the S−C−Li6PSe5Br half-cell cannot be determined. Instead, the
+areal capacity was used, because the total molar amount of
+chalcogen species in the cathode remains constant despite the
+Se−S exchange reaction.
+The residual sulfur redox behavior was examined by ex situ S
+K-edge XAS during initial discharge and charge (Figure 7a,b).
+The pristine cathode spectrum has dominant Li5.5PS4.5Cl1.5-like
+features, which are attributed to Li6PS5Br formed by the Se−S
+exchange reaction, as previously observed by XRD. Because the
+amount of residual sulfur is smaller compared to that of sulfur
+Figure 6. (a) S K-edge XAS spectrum of the pristine S−C−Li6PSe5Br cathode along with reference spectra of Li5.5PS4.5Cl1.5, Li2S, and elemental sulfur.
+(b) Raman spectrum and (c) XRD pattern of the ball-milled S−Li6PSe5Br composite along with reference Raman spectra and diffraction patterns of
+Li6PSe5Br and Li6PS5Br, respectively.
+Figure 7. Ex situ S K-edge XAS spectra of S−C−Li6PSe5Br cathodes
+recovered at various DOD and SOC states during initial (a) discharge
+and (b) charge. The spectrum at SOC0 in (b) corresponds to the fully
+discharged state (DOD100) shown in (a). (c) Contour map showing
+the evolution of the ex situ S K-edge XAS spectra during the initial
+discharge and charge.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6982
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 10 页 ===
+incorporated in the SE, its contribution to the spectrum is
+difficult to distinguish in the pristine state. During discharge,
+sulfur is converted into Li2S via Li2Sx intermediates. This
+conversion reaction is evidenced by the decreased intensity at
+2472 eV and the appearance of the pre-edge peak of Li2Sx at
+DOD25, along with the increased features of Li2S at DOD50.
+The changes in the spectra are significant from DOD0 to
+DOD50, whereas the subsequent discharge and charge lead to
+minor spectral changes until SOC50. From SOC50 to SOC100,
+Li2S is converted back into sulfur.
+The overall sulfur redox behavior is shown in the contour plot
+of ex situ S K-edge XAS spectra (Figure 7c). The spectral
+changes corresponding to the conversion reaction between S8
+and Li2S are most pronounced at the beginning of discharge and
+the end of charge, both of which lie in the high potential range.
+Moreover, the QOCV curves of the S−C−Li5.5PS4.5Cl1.5 half-
+cell exhibit higher potentials than the Se−C−Li5.5PS4.5Cl1.5 half-
+cell during both discharge and charge, demonstrating the higher
+potential of sulfur conversion reaction compared to that of
+selenium (Figure S11). These results further account for the two
+distinct redox couples observed in the QOCV curves of the S−
+C−Li6PSe5Br half-cell (Figure 5c,d), which correspond to sulfur
+redox at higher potentials and selenium redox at lower
+potentials. The relative capacity ratio at each voltage plateau is
+close to the relative amount of each active material (atomic ratio
+Se:S = 83.8:16.2) calculated based on a near-complete Se−S
+exchange. These redox reactions of sulfur and selenium become
+distinguishable in the voltage profiles under high-temperature
+discharge−charge conditions (Figure S12).
+The redox activity of chemically formed selenium was
+investigated by ex situ XPS at the pristine, fully discharged,
+and fully charged states over the binding energy range of 154−
+170 eV, which includes both the S 2p and Se 3p regions (Figure
+S13). For the pristine S−C−Li6PSe5Br cathode, S 2p signals
+show a main component at 161.6 eV attributed to the PS4
+3−
+unit50,51 formed via the Se−S exchange reaction. Another S 2p
+peak at 163.2 eV can be assigned to bridging sulfur atoms in
+polysulfides52,53 or S−S species in SexS8−x.54 A peak located at
+161.1 eV corresponds to the Se 3p3/2 component of Se0,
+accompanied by the corresponding Se 3p1/2 peak at 166.9 eV,
+with a spin−orbit splitting of 5.8 eV. At the fully discharged
+state, the Se0 peak disappears, accompanied by the emergence of
+a signal at 159.2 eV assigned to Li2Se. Residual S0 also
+participates in the reduction reaction, as evidenced by the peak
+at 160.3 eV assigned to Li2S.53 Upon subsequent charging, the
+spectrum returns to that of the pristine cathode, with the
+reappearance of Se0 and sulfur (−S0−) signals. During
+discharging and charging, the PS4
+3−signal is consistently
+observed, implying that the SE formed via the exchange reaction
+is electrochemically stable within the applied voltage window.
+These observations reveal that selenium formed by the Se−S
+exchange reaction significantly contributes the delivered
+capacity.
+The evolution of electrochemical processes in the S−C−
+Li6PSe5Br half-cell was examined at 0.1 C and 25 °C using
+operando hybrid impedance spectroscopy combined with the
+DRT-DOP transformation (Figure 8a,b). The detailed 1D DRT
+and DOP plots extracted from the 2D mapping for 20% DOD
+Figure 8. 2D DRT-DOP mapping of the S−C−Li6PSe5Br half-cell during the initial (a) discharge and (b) charge. In both (a) and (b), the left and right
+panels represent the 2D DRT and DOP plots, respectively. (c) Voltage profiles and (d) corresponding cycling performance of S−C−Li6PSe5Br half-
+cells at 0.1C and 25 °C. For comparison, the cycling performance of Se−C−Li6PS5Br half-cells is shown in (d). Data points and error bars in (d)
+represent the average and maximum/minimum values, respectively.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6983
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 11 页 ===
+and SOC intervals are shown in Figure S14. At the beginning of
+discharge, a significant relaxation process appears in the 2D
+DRT plot at τ ≈1 s and shifts to longer time scales as discharge
+proceeds. With continued discharge, the γ value of this process
+varies while its time scale remains nearly constant. Additional
+less resistive processes are observed in the time scale range of
+10−3−1 s, and the pronounced resistive process at the end of
+discharge appears at τ ≈10−1 s, which can be attributed to the
+In/LiIn dealloying process.30 The overall resistance in the DRT
+plot during discharge is much lower than that of the S−C−
+Li5.5PS4.5Cl1.5 half-cell, with γ values below 30 Ω. This is because
+the conversion product Li2Se is more electronically and ionically
+conductive than Li2S owing to its smaller band gap and lower Li+
+migration energy.55−58 The higher conductivity of Li2Se
+facilitates the charge transport through the CEI-like layer and/
+or the charge transfer at the cathode active material. Throughout
+discharge, the 2D DOP plot shows a single process that can be
+assigned to Li+ diffusion process at the cathode, similar to that
+observed for the S−C−Li5.5PS4.5Cl1.5 half-cell. During charge,
+the 2D DRT plot shows a process at τ ≈10 s in the early stage of
+charge, and an additional process appears at τ ≈1 s. As charge
+proceeds, these two processes merge into one that becomes
+highly resistive. This resistive process is likely attributed to the
+charge transport through the CEI and/or the charge transfer at
+the cathode active material, impeded by the conversion product
+selenium, which is more electronically conductive than sulfur4,59
+but likely lacks appreciable ionic conductivity due to the absence
+of Li+ ions. The higher resistance of the relaxation processes
+during charge than during discharge in the S−C−Li6PSe5Br half-
+cell indicates, as in the S−C−Li5.5PS4.5Cl1.5 half-cell, that the
+discharge and charge products of the selenium conversion
+reaction influence the cell impedance differently.
+For comparison, a Se−C−Li6PS5Br half-cell was assembled
+using elemental selenium, Li6PS5Br sulfide SE, and carbon black,
+and its impedance evolution was examined. The composition of
+the Se−C−Li6PS5Br cathode was determined by excluding
+excess sulfur in the S−C−Li6PSe5Br cathode and directly
+employing elemental selenium and Li6PS5Br. The Se−C−
+Li6PS5Br half-cell also exhibits impedance evolution similar to
+that of the S−C−Li6PSe5Br half-cell, although the resistance of
+the electrochemical processes is slightly lower at the beginning
+of discharge and at the end of charge (Figure S15). The higher
+resistance of the S−C−Li6PSe5Br half-cell in these regions is
+attributed to the more resistive sulfur conversion reaction arising
+from residual sulfur after the Se−S exchange reaction during ball
+milling, as identified by ex situ S K-edge XAS (Figure 7c).
+Figure 8c,d presents the discharge−charge profiles and
+corresponding cycling performance of the S−C−Li6PSe5Br
+half-cell over 100 cycles at 0.1C in the voltage range of 1.0−2.4 V
+vs In/LiIn. The cycling performance of the Se−C−Li6PS5Br
+half-cell is also presented for comparison. The voltage profiles
+during cycling test and the rate performance of both cells are
+shown in Figure S16. The initial discharge capacities of the S−
+C−Li6PSe5Br and Se−C−Li6PS5Br half-cells are comparable,
+delivering 5.57 and 5.68 mA h cm−2, respectively. Notably, the
+capacity retention of S−C−Li6PSe5Br half-cell after 100 cycles is
+85%, which is higher than the Se−C−Li6PS5Br half-cell (28%).
+The Li−Se SSB formed via the Se−S exchange reaction during
+ball milling demonstrated good capacity and cycling stability.
+4. CONCLUSIONS
+This work explored distinct sulfur reactions in solid-state Li−S
+batteries employing two different highly conductive SE. For the
+solid-state Li−S cell using Li5.5PS4.5Cl1.5, an asymmetric redox
+pathway was revealed at 25 °C. During discharge, sulfur is
+converted from S8 to Li2Sx and then to Li2S through a two-step
+reaction, while the reverse conversion from Li2S to Li2Sx and
+from Li2Sx to S8 overlap during charge. Operando hybrid
+impedance spectroscopy suggests that elemental S8, formed at
+low SOC levels during charge through these overlapping
+reactions, significantly impedes the charge transport through
+the CEI and/or the charge transfer at the cathode during charge.
+In contrast, the discharge intermediate and product, Li2Sx and
+Li2S, hinder electrochemical processes to a lesser extent, owing
+to differences in conductivities of the reaction products.
+For the composite cathode using Li6PSe5Br as the catholyte, a
+selenium composite cathode is formed by the Se−S exchange
+reaction during planetary ball milling. As Li6PS5Br is
+thermodynamically more stable than Li6PSe5Br, ball milling
+leads to the substitution of selenium in Li6PSe5Br by elemental
+sulfur, resulting in the formation of amorphous selenium,
+Li6PS5Br, and unreacted residual sulfur in the composite
+cathode. Both selenium and sulfur undergo reversible
+conversion between their original states and Li2Se/Li2S during
+discharge and charge. Consistent with the S−C−Li5.5PS4.5Cl1.5
+half-cell, the conversion reaction products influence the
+electrochemical processes differently depending on their
+transport properties. The resulting S−C−Li6PSe5Br half-cell
+exhibits a high areal capacity of 5.57 mA h cm−2 and good cycling
+stability (85% after 100 cycles).
+Overall, these results provide insights into the role of
+conversion products in SSB, as well as the potential chemical
+reactions induced by the ball-milling process and the SE
+selection. The intrinsic asymmetric sulfur redox pathway and the
+chalcogen chemistry demonstrated in this study contributes to
+the development of novel approaches for improving the
+electrochemical performance of solid-state Li−S batteries.
+■ASSOCIATED CONTENT
+Data Availability Statement
+Data supporting the findings in this study are available at
+https://datastore.uni-muenster.de/records/s6zvs-
+1 f 0 6 8 ? p r e v i e w = 1 & a m p ; t o k e n =
+eyJhbGciOiJIUzUxMiIsImlhdCI6MTc4MzAwNzk5OSwiZXh
+w I j o x N z g z M j A 5 N T k 5 f Q .
+eyJpZCI6IjA4MDBmOGUyLWRmMzctNGY2Yi04Z
+GYwLWMwNDNkNmU1MmRjYiIsImRhdGEiOnt9LC
+JyYW5kb20iOiIzZTFmNjM4YmQ1MDc1YjQ1NTY4NTN
+m O G Y 3 M j l h M z U 5 N y J 9 . c I z P V W q h T I q O a C n -
+QcPgl1ReLCAdNoX_LRa6GtuiDxdwvEX4r9Q3f-
+HaQdE5VlW5Oj5MaQtCnw2gjiFQDtqFUQ and are provided
+through the Universität Münster datastore.
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.chemmater.6c01252.
+Voltage profile of the C−Li5.5PS4.5Cl1.5 half-cell; voltage
+profile and dQ/dV plot of the S−C−Li5.5PS4.5Cl1.5 half-
+cell at 0 °C; XAS spectra of reference materials; overlaid
+ex situ S K-edge XAS spectra of S−C−Li5.5PS4.5Cl1.5
+cathodes; Raman spectra of carbon-containing compo-
+sites; 2D DRT mapping of the In | Li5.5PS4.5Cl1.5 | In/LiIn
+cell; 1D DRT and DOP curves of S−C−Li5.5PS4.5Cl1.5 and
+S−C−Li6PSe5Br half-cells; 2D DRT mapping of the S−
+C−Li5.5PS4.5Cl1.5 half-cell obtained using the conven-
+tional DRT model; Nyquist plots calculated from the 2D
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6984
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 12 页 ===
+DRT-DOP plots for the S−C−Li5.5PS4.5Cl1.5 half-cell;
+comparison of QOCV curves and voltage profiles for the
+S−C−Li6PSe5Br half-cell; Raman spectra of Se powder
+and ball-milled Se; XRD patterns of the ball-milled S−
+Li6PSe5Br composite before and after annealing;
+elemental composition of the pristine S−C−Li6PSe5Br
+cathode; GITT curves of the Se−C−Li5.5PS4.5Cl1.5 half-
+cell; voltage profiles and dQ/dV plots of S−C−Li6PSe5Br
+half-cells at elevated temperatures; XPS spectra of S−C−
+Li6PSe5Br cathodes; 2D DRT-DOP mapping of the Se−
+C−Li6PS5Br half-cell; and voltage profiles and rate
+performance of Se−C−Li6PS5Br and S−C−Li6PSe5Br
+half-cells (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Wolfgang G. Zeier −Institute of Energy Materials and Devices,
+Helmholtz-Institute Münster (IMD-4), Forschungszentrum
+Jülich GmbH, Münster 48149, Germany; Institute of Inorganic
+and Analytical Chemistry, University of Münster, Münster
+48149, Germany;
+orcid.org/0000-0001-7749-5089;
+Email: wzeier@uni-muenster.de
+Authors
+Taehun Kim −Institute of Energy Materials and Devices,
+Helmholtz-Institute Münster (IMD-4), Forschungszentrum
+Jülich GmbH, Münster 48149, Germany
+Jake D. Huang −Institute of Inorganic and Analytical
+Chemistry, University of Münster, Münster 48149, Germany;
+orcid.org/0000-0002-9487-5128
+Marvin A. Kraft −Institute of Energy Materials and Devices,
+Helmholtz-Institute Münster (IMD-4), Forschungszentrum
+Jülich GmbH, Münster 48149, Germany
+Johannes Hartel −Institute of Inorganic and Analytical
+Chemistry, University of Münster, Münster 48149, Germany
+Martin A. Lange −Institute of Energy Materials and Devices,
+Helmholtz-Institute Münster (IMD-4), Forschungszentrum
+Jülich GmbH, Münster 48149, Germany; Institute of Inorganic
+and Analytical Chemistry, University of Münster, Münster
+48149, Germany
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.chemmater.6c01252
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+This work was financially supported by the German Federal
+Ministry of Research, Technology, and Space (BMFTR) within
+the AReLiS-3 project −13XP0595B. XAS measurements were
+carried out with the support of Diamond Light Source at
+beamline B18 under proposal SP41187. We acknowledge that
+the XPS instrument employed in this work was funded by the
+German Research Foundation (DFG) −525733742. J.D.H.
+further thanks the Alexander von Humboldt Foundation.
+■REFERENCES
+(1) Busche, M. R.; Adelhelm, P.; Sommer, H.; Schneider, H.; Leitner,
+K.; Janek, J. Systematical electrochemical study on the parasitic shuttle-
+effect in lithium-sulfur-cells at different temperatures and different
+rates. J. Power Sources 2014, 259, 289−299.
+(2) Ji, X.; Lee, K. T.; Nazar, L. F. A highly ordered nanostructured
+carbon−sulphur cathode for lithium−sulphur batteries. Nat. Mater.
+2009, 8 (6), 500−506.
+(3) Seh, Z. W.; Sun, Y.; Zhang, Q.; Cui, Y. Designing high-energy
+lithium−sulfur batteries. Chem. Soc. Rev. 2016, 45 (20), 5605−5634.
+(4) Manthiram, A.; Chung, S.-H.; Zu, C. Lithium−Sulfur Batteries:
+Progress and Prospects. Adv. Mater. 2015, 27 (12), 1980−2006.
+(5) Janek, J.; Zeier, W. G. Challenges in speeding up solid-state battery
+development. Nat. Energy 2023, 8 (3), 230−240.
+(6) Bruce, P. G.; Freunberger, S. A.; Hardwick, L. J.; Tarascon, J.-M.
+Li−O2 and Li−S batteries with high energy storage. Nat. Mater. 2012,
+11 (1), 19−29.
+(7) Cao, D.; Sun, X.; Li, F.; Bak, S.-M.; Ji, T.; Geiwitz, M.; Burch, K. S.;
+Du, Y.; Yang, G.; Zhu, H. Understanding Electrochemical Reaction
+Mechanisms of Sulfur in All-Solid-State Batteries through Operando
+and Theoretical Studies. Angew. Chem., Int. Ed. 2023, 62 (20),
+No. e202302363.
+(8) Kim, J. T.; Rao, A.; Nie, H.-Y.; Hu, Y.; Li, W.; Zhao, F.; Deng, S.;
+Hao, X.; Fu, J.; Luo, J.; Duan, H.; Wang, C.; Singh, C. V.; Sun, X.
+Manipulating Li2S2/Li2S mixed discharge products of all-solid-state
+lithium sulfur batteries for improved cycle life. Nat. Commun. 2023, 14
+(1), 6404.
+(9) Gu, J.; Hu, W.; Wu, Y.; Ren, F.; Liang, Z.; Zhong, H.; Zheng, X.;
+Ma, R.; Luo, Y.; Chen, X.; Shi, J.; Yang, Y. Asymmetric Sulfur Redox
+Paths in Sulfide-Based All-Solid-State Lithium−Sulfur Batteries. Chem.
+Mater. 2024, 36 (9), 4403−4416.
+(10) Ohno, S.; Rosenbach, C.; Dewald, G. F.; Janek, J.; Zeier, W. G.
+Linking Solid Electrolyte Degradation to Charge Carrier Transport in
+the Thiophosphate-Based Composite Cathode toward Solid-State
+Lithium-Sulfur Batteries. Adv. Funct. Mater. 2021, 31 (18),
+No. 2010620.
+(11) Dewald, G. F.; Ohno, S.; Hering, J. G. C.; Janek, J.; Zeier, W. G.
+Analysis of Charge Carrier Transport Toward Optimized Cathode
+Composites for All-Solid-State Liâ’S Batteries. Batteries & Supercaps
+2021, 4 (1), 183−194.
+(12) Whang, G.; Zeier, W. G. Transition Metal Sulfide Conversion: A
+Promising Approach to Solid-State Batteries. ACS Energy Lett. 2023, 8
+(12), 5264−5274.
+(13) Du, L.; Wu, R.; Wu, Z.; Huang, H.; Xia, Y.; Gan, Y.; Zhang, W.;
+Xia, X.; He, X.; Zhang, J. Research progress of all-solid-state lithium−
+sulfur batteries with sulfide solid electrolytes: materials, interfaces,
+challenges, and prospects. Mater. Chem. Front. 2023, 7 (22), 5760−
+5785.
+(14) Ohno, S.; Koerver, R.; Dewald, G.; Rosenbach, C.; Titscher, P.;
+Steckermeier, D.; Kwade, A.; Janek, J.; Zeier, W. G. Observation of
+Chemomechanical Failure and the Influence of Cutoff Potentials in All-
+Solid-State Li−S Batteries. Chem. Mater. 2019, 31 (8), 2930−2940.
+(15) Tran, Q.-A.; Agrawal, M.; Häusler, M.; Hörmann, J.; Moqadam,
+M. S.; Redhammer, G. J.; Sellæg Ellingsen, I.; Din, M. M. U.; Vullum, P.
+E.; Zettl, R.; Danner, T.; Latz, A.; Hennige, V.; Brunner, R.;
+Rettenwander, D. Uni-Axial Densification of Slurry-Casted Li6PS5Cl
+Tapes: The Role of Particle Size Distribution and Densification
+Pressure. Adv. Mater. 2025, 37 (30), No. 2501592.
+(16) Cronau, M.; Duchardt, M.; Szabo, M.; Roling, B. Ionic
+Conductivity versus Particle Size of Ball-Milled Sulfide-Based Solid
+Electrolytes: Strategy Towards Optimized Composite Cathode
+Performance in All-Solid-State Batteries. Batteries & Supercaps 2022,
+5 (6), No. e202200041.
+(17) Schweiger, L.; Hogrefe, K.; Gadermaier, B.; Rupp, J. L. M.;
+Wilkening, H. M. R. Ionic Conductivity of Nanocrystalline and
+Amorphous Li10GeP2S12: The Detrimental Impact of Local Disorder on
+Ion Transport. J. Am. Chem. Soc. 2022, 144 (22), 9597−9609.
+(18) Huang, J. D.; Meisel, C.; Sullivan, N. P.; Zakutayev, A.; O’Hayre,
+R. Rapid mapping of electrochemical processes in energy-conversion
+devices. Joule 2024, 8 (7), 2049−2072.
+(19) Gautam, A.; Sadowski, M.; Prinz, N.; Eickhoff, H.; Minafra, N.;
+Ghidiu, M.; Culver, S. P.; Albe, K.; Fässler, T. F.; Zobel, M.; Zeier, W. G.
+Rapid Crystallization and Kinetic Freezing of Site-Disorder in the
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6985
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 13 页 ===
+Lithium Superionic Argyrodite Li6PS5Br. Chem. Mater. 2019, 31 (24),
+10178−10185.
+(20) Zhang, W.; Weber, D. A.; Weigand, H.; Arlt, T.; Manke, I.;
+Schröder, D.; Koerver, R.; Leichtweiss, T.; Hartmann, P.; Zeier, W. G.;
+Janek, J. Interfacial Processes and Influence of Composite Cathode
+Microstructure Controlling the Performance of All-Solid-State Lithium
+Batteries. ACS Appl. Mater. Interfaces 2017, 9 (21), 17835−17845.
+(21) Ravel, B.; Newville, M. ATHENA, ARTEMIS, HEPHAESTUS:
+data analysis for X-ray absorption spectroscopy using IFEFFIT. J.
+Synchrotron Radiat. 2005, 12 (4), 537−541.
+(22) Huang, J. D.; Zeier, W. G. Joint-Domain Impedance Spectros-
+copy for Solid-State Batteries: Enabling Accelerated Characterization
+and Data-Driven Insights. ACS Energy Lett. 2026, 11, 986−994.
+(23) Huang, J.; Sullivan, N. P.; Zakutayev, A.; O’Hayre, R. How
+reliable is distribution of relaxation times (DRT) analysis? A dual
+regression-classification perspective on DRT estimation, interpretation,
+and accuracy. Electrochim. Acta 2023, 443, No. 141879.
+(24) Li, W.; Seal, S.; Rivero, C.; Lopez, C.; Richardson, K.; Pope, A.;
+Schulte, A.; Myneni, S.; Jain, H.; Antoine, K.; Miller, A. C. Role of S/Se
+ratio in chemical bonding of As−S−Se glasses investigated by Raman, x-
+ray photoelectron, and extended x-ray absorption fine structure
+spectroscopies. J. Appl. Phys. 2005, 98 (5), 53503.
+(25) Wang, S.; Tang, M.; Zhang, Q.; Li, B.; Ohno, S.; Walther, F.; Pan,
+R.; Xu, X.; Xin, C.; Zhang, W.; Li, L.; Shen, Y.; Richter, F. H.; Janek, J.;
+Nan, C.-W. Lithium Argyrodite as Solid Electrolyte and Cathode
+Precursor for Solid-State Batteries with Long Cycle Life. Adv. Energy
+Mater. 2021, 11 (31), No. 2101370.
+(26) Tan, Darren H. S.; Wu, E. A.; Nguyen, H.; Chen, Z.; Marple, M.
+A. T.; Doux, J.-M.; Wang, X.; Yang, H.; Banerjee, A.; Meng, Y. S.
+Elucidating Reversible Electrochemical Redox of Li6PS5Cl Solid
+Electrolyte. ACS Energy Lett. 2019, 4 (10), 2418−2427.
+(27) Xiao, Y.; Yamamoto, K.; Matsui, Y.; Watanabe, T.; Sakuda, A.;
+Nakanishi, K.; Uchiyama, T.; Hayashi, A.; Shingubara, S.; Tatsumisago,
+M.; Ishikawa, M.; Watanabe, M.; Uchimoto, Y. Comparison of Sulfur
+Cathode Reactions between a Concentrated Liquid Electrolyte System
+and a Solid-State Electrolyte System by Soft X-Ray Absorption
+Spectroscopy. ACS Appl. Energy Mater. 2021, 4 (1), 186−193.
+(28) Dominko, R.; Patel, M. U. M.; Lapornik, V.; Vizintin, A.; Koželj,
+M.; N. Tušar, N.; Arčon, I.; Stievano, L.; Aquilanti, G. Analytical
+Detection of Polysulfides in the Presence of Adsorption Additives by
+Operando X-ray Absorption Spectroscopy. J. Phys. Chem. C 2015, 119
+(33), 19001−19010.
+(29) Patel, M. U. M.; Arčon, I.; Aquilanti, G.; Stievano, L.; Mali, G.;
+Dominko, R. X-ray Absorption Near-Edge Structure and Nuclear
+Magnetic Resonance Study of the Lithium−Sulfur Battery and its
+Components. ChemPhysChem 2014, 15 (5), 894−904.
+(30) Whang, G.; Huang, J.; Le Pham, P. N.; Kraft, M. A.; Zeier, W. G.
+Not All Lithium−Indium Counter Electrodes Are Made Equal: Probing
+the Inhomogeneities and Kinetics of Uniaxially Pressed Li−In Counter
+Electrodes in All Solid-State Batteries. ACS Electrochem. 2025, 1 (2),
+249−262.
+(31) Lu, P.; Wu, Y.; Wu, D.; Song, F.; Ma, T.; Yan, W.; Zhu, X.; Guo,
+F.; Lu, J.; Peng, J.; Chen, L.; Li, H.; Wu, F. Rate-limiting mechanism of
+all-solid-state battery unravelled by low-temperature test-analysis flow.
+Energy Stor. Mater. 2024, 67, No. 103316.
+(32) Yu, C.-Y.; Choi, J.; Dunham, J.; Ghahremani, R.; Liu, K.;
+Lindemann, P.; Garver, Z.; Barchiesi, D.; Farahati, R.; Kim, J.-H. Time-
+resolved impedance spectroscopy analysis of aging in sulfide-based all-
+solid-state battery full-cells using distribution of relaxation times
+technique. J. Power Sources 2024, 597, No. 234116.
+(33) Soni, R.; Robinson, J. B.; Shearing, P. R.; Brett, D. J.; Rettie, A. J.;
+Miller, T. S. Lithium-sulfur battery diagnostics through distribution of
+relaxation times analysis. Energy Stor. Mater. 2022, 51, 97−107.
+(34) Truong, T. K.; Whang, G.; Huang, J.; Sandoval, S. E.; Zeier, W. G.
+Probing solid-state battery aging: evaluating calendar vs. cycle aging
+protocols via time-resolved electrochemical impedance spectroscopy. J.
+Mater. Chem. A 2025, 13 (23), 17261−17270.
+(35) Hakari, T.; Hayashi, A.; Tatsumisago, M. Li2S-Based Solid
+Solutions as Positive Electrodes with Full Utilization and Superlong
+Cycle Life in All-Solid-State Li/S Batteries. Adv. Sustain. Syst. 2017, 1
+(6), No. 1700017.
+(36) Han, F.; Yue, J.; Fan, X.; Gao, T.; Luo, C.; Ma, Z.; Suo, L.; Wang,
+C. High-Performance All-Solid-State Lithium−Sulfur Battery Enabled
+by a Mixed-Conductive Li2S Nanocomposite. Nano Lett. 2016, 16 (7),
+4521−4527.
+(37) Alt, C. D.; Kessler-Kühn, J.; Eckhardt, J. K.; Stein, M.; Chatterjee,
+S.; Elm, M. T.; Janek, J. The partial electronic conductivity of lithium
+halides and their role in SEI formation in solid-state batteries −Hebb-
+Wagner-type measurements. Solid State Ionics 2025, 429, No. 116991.
+(38) Song, H.; Münch, K.; Liu, X.; Shen, K.; Zhang, R.; Weintraut, T.;
+Yusim, Y.; Jiang, D.; Hong, X.; Meng, J.; Liu, Y.; He, M.; Li, Y.; Henkel,
+P.; Brezesinski, T.; Janek, J.; Pang, Q. All-solid-state Li−S batteries with
+fast solid−solid sulfur reaction. Nature 2025, 637 (8047), 846−853.
+(39) Wang, L.; Yin, X.; Li, B.; Zheng, G. W. Mixed Ionically/
+Electronically Conductive Double-Phase Interface Enhanced Solid-
+State Charge Transfer for a High-Performance All-Solid-State Li−S
+Battery. Nano Lett. 2022, 22 (1), 433−440.
+(40) Wang, D.; Gwalani, B.; Wierzbicki, D.; Singh, V.; Jhang, L.-J.;
+Rojas, T.; Kou, R.; Liao, M.; Ye, L.; Jiang, H.; Shan, S.; Silver, A.; Ngo,
+A. T.; Du, Y.; Li, X.; Wang, D. Overcoming the conversion reaction
+limitation at three-phase interfaces using mixed conductors towards
+energy-dense solid-state Li−S batteries. Nat. Mater. 2025, 24 (2), 243−
+251.
+(41) Hartel, J.; Banik, A.; Gerdes, J. M.; Wankmiller, B.; Helm, B.; Li,
+C.; Kraft, M. A.; Hansen, M. R.; Zeier, W. G. Understanding Lithium-
+Ion Transport in Selenophosphate-Based Lithium Argyrodites and
+Their Limitations in Solid-State Batteries. Chem. Mater. 2023, 35 (12),
+4798−4809.
+(42) Schlem, R.; Ghidiu, M.; Culver, S. P.; Hansen, A.-L.; Zeier, W. G.
+Changing the Static and Dynamic Lattice Effects for the Improvement
+of the Ionic Transport Properties within the Argyrodite Li6PS5−xSexI.
+ACS Appl. Energy Mater. 2020, 3 (1), 9−18.
+(43) Goldan, A. H.; Li, C.; Pennycook, S. J.; Schneider, J.; Blom, A.;
+Zhao, W. Molecular structure of vapor-deposited amorphous selenium.
+J. Appl. Phys. 2016, 120 (13), No. 135101.
+(44) Shen, K.; Shi, W.; Song, H.; Zheng, C.; Yan, Y.; Hong, X.; Liu, X.;
+An, Y.; Li, Y.; Ye, F.; He, M.; Ye, G.; Ma, C.; Zheng, L.; Gao, P.; Pang, Q.
+Solid Catholyte with Regulated Interphase Redox for All-Solid-State
+Lithium-Sulfur Batteries. Adv. Mater. 2025, 37 (11), No. 2417171.
+(45) Shannon, R. Revised effective ionic radii and systematic studies of
+interatomic distances in halides and chalcogenides. Acta Cryst. A 1976,
+32 (5), 751−767.
+(46) Pauling, L. The nature of the chemical bond. IV. The energy of
+single bonds and the relative electronegativity of atoms. J. Am. Chem.
+Soc. 1932, 54 (9), 3570−3582.
+(47) Saal, J. E.; Kirklin, S.; Aykol, M.; Meredig, B.; Wolverton, C.
+Materials Design and Discovery with High-Throughput Density
+Functional Theory: The Open Quantum Materials Database
+(OQMD). JOM 2013, 65 (11), 1501−1509.
+(48) Kirklin, S.; Saal, J. E.; Meredig, B.; Thompson, A.; Doak, J. W.;
+Aykol, M.; Rühl, S.; Wolverton, C. The Open Quantum Materials
+Database (OQMD): assessing the accuracy of DFT formation energies.
+npj Comput. Mater. 2015, 1 (1), 15010.
+(49) Jain, A.; Ong, S. P.; Hautier, G.; Chen, W.; Richards, W. D.;
+Dacek, S.; Cholia, S.; Gunter, D.; Skinner, D.; Ceder, G.; Persson, K. A.
+Commentary: The Materials Project: A materials genome approach to
+accelerating materials innovation. APL Mater. 2013, 1 (1), 11002.
+(50) Walther, F.; Randau, S.; Schneider, Y.; Sann, J.; Rohnke, M.;
+Richter, F. H.; Zeier, W. G.; Janek, J. Influence of Carbon Additives on
+the Decomposition Pathways in Cathodes of Lithium Thiophosphate-
+Based All-Solid-State Batteries. Chem. Mater. 2020, 32 (14), 6123−
+6136.
+(51) Walther, F.; Strauss, F.; Wu, X.; Mogwitz, B.; Hertle, J.; Sann, J.;
+Rohnke, M.; Brezesinski, T.; Janek, J. The Working Principle of a
+Li2CO3/LiNbO3 Coating on NCM for Thiophosphate-Based All-Solid-
+State Batteries. Chem. Mater. 2021, 33 (6), 2110−2125.
+(52) Walther, F.; Koerver, R.; Fuchs, T.; Ohno, S.; Sann, J.; Rohnke,
+M.; Zeier, W. G.; Janek, J. Visualization of the Interfacial
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6986
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 14 页 ===
+Decomposition of Composite Cathodes in Argyrodite-Based All-Solid-
+State Batteries Using Time-of-Flight Secondary-Ion Mass Spectrom-
+etry. Chem. Mater. 2019, 31 (10), 3745−3755.
+(53) Auvergniot, J.; Cassel, A.; Ledeuil, J.-B.; Viallet, V.; Seznec, V.;
+Dedryvère, R. Interface Stability of Argyrodite Li6PS5Cl toward
+LiCoO2, LiNi1/3Co1/3Mn1/3O2, and LiMn2O4 in Bulk All-Solid-State
+Batteries. Chem. Mater. 2017, 29 (9), 3883−3890.
+(54) Fan, H.-N.; Chen, S.-L.; Chen, X.-H.; Tang, Q.-L.; Hu, A.-P.;
+Luo, W.-B.; Liu, H.-K.; Dou, S.-X. 3D Selenium Sulfide@Carbon
+Nanotube Array as Long-Life and High-Rate Cathode Material for
+Lithium Storage. Adv. Funct. Mater. 2018, 28 (43), No. 1805018.
+(55) Eithiraj, R. D.; Jaiganesh, G.; Kalpana, G.; Rajagopalan, M. First-
+principles study of electronic structure and ground-state properties of
+alkali-metal sulfides −Li2S, Na2S, K2S and Rb2S. Phys. Status Solidi B
+2007, 244 (4), 1337−1346.
+(56) Eithiraj, R. D.; Jaiganesh, G.; Kalpana, G. FIRST-PRINCIPLES
+STUDY OF ELECTRONIC STRUCTURE AND GROUND-STATE
+PROPERTIES OF ALKALI-METAL SELENIDES AND TELLUR-
+IDES (M2A)[M: Li, Na, K; A: Se, Te]. Int. J. Mod. Phys. B 2009, 23
+(25), 5027−5037.
+(57) Koyama, Y.; Yamada, Y.; Tanaka, I.; Nishitani, S.; Adachi, H.;
+Murayama, M.; Kanno, R. Evaluation of Migration Energy of Lithium
+Ions in Chalcogenides and Halides by First Principles Calculation.
+Mater. Trans. 2002, 43 (7), 1460−1463.
+(58) Lee, J. T.; Kim, H.; Oschatz, M.; Lee, D.-C.; Wu, F.; Lin, H.-T.;
+Zdyrko, B.; Cho, W. I.; Kaskel, S.; Yushin, G. Micro- and Mesoporous
+Carbide-Derived Carbon−Selenium Cathodes for High-Performance
+Lithium Selenium Batteries. Adv. Energy Mater. 2015, 5 (1),
+No. 1400981.
+(59) Xu, G.-L.; Sun, H.; Luo, C.; Estevez, L.; Zhuang, M.; Gao, H.;
+Amine, R.; Wang, H.; Zhang, X.; Sun, C.-J.; Liu, Y.; Ren, Y.; Heald, S.
+M.; Wang, C.; Chen, Z.; Amine, K. Solid-State Lithium/Selenium−
+Sulfur Chemistry Enabled via a Robust Solid-Electrolyte Interphase.
+Adv. Energy Mater. 2019, 9 (2), No. 1802235.
+Chemistry of Materials
+pubs.acs.org/cm
+Article
+https://doi.org/10.1021/acs.chemmater.6c01252
+Chem. Mater. 2026, 38, 6974−6987
+6987
+Downloaded from pubs.​acs.​org/​cmatex/​article-pdf/​38/​13/​6974/​65775148/​acs.​chemmater.​6c01252.​pdf by TSINGHUA UNIV user on 28 September 2026
+

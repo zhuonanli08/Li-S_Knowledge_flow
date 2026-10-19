@@ -1,0 +1,1128 @@
+=== 第 1 页 ===
+Advanced Functional Materials
+www.afm-journal.de
+RESEARCH ARTICLE
+Electrolyte-Free Cathode Design for High-Sulfur-Loading
+All-Solid-State Li-S Batteries
+Mingqi Xu1
+Bibo Cai2
+Wei Liu2
+Xinghui Liang2
+Xinyou He2
+Baishan Chen3
+Tai Peng1
+Xing Ou1
+1College of Materials Science & Engineering, Jiamusi University, Jiamusi, Heilongjiang, P. R. China
+2School of Metallurgy and Environment, Engineering
+Research Center of the Ministry of Education for Advanced Battery Materials, Central South University, Changsha, P. R. China
+3Institute for Advanced Study,
+Central South University, Changsha, P. R. China
+Correspondence: Xinghui Liang (liangxh@csu.edu.cn)
+Baishan Chen (221333@csu.edu.cn)
+Tai Peng (pt@jmsu.edu.cn)
+Xing Ou (ouxing@csu.edu.cn)
+Received: 27 January 2026
+Revised: 25 March 2026
+Accepted: 10 April 2026
+Keywords: all-solid-state Li-S batteries | CMC-Li/SBR binder | electrolyte -free cathode | high concentration polymer electrolyte | high sulfur loading | ionic
+transport
+ABSTRACT
+All-solid-state lithium-sulfur batteries (ASSLSBs) with polymer electrolytes have high theoretical energy density and improved
+safety, providing appealing potential for next-generation energy storage. However, limiting the dissolution of long-chain
+polysulfides (LiPSs) in polymer electrolyte and achieving high S loading in cathodes remains a challenge. To tackle this issue,
+we demonstrate a 3D electrode composed of a mixture of styrene butadiene rubber and lithium carboxyl methyl cellulose as
+the binder, equipped with a high concentration of all-solid-state polyethylene oxide (PEO) -based electrolyte filled with LLZTO
+(Li6.5La3Zr1.5Ta0.5O12) and LiPSs (named LiPS/LLZTO-CL/S). The synergistic design exhibits outstanding structural stability,
+preventing the dissolution of long-chain LiPSs, enhancing the kinetics of short-chain LiPSs, alleviating volume expansion, and
+offering pathways for ion/electron transport. The battery possesses attractive cycling stability and can maintain high capacity
+retention (1106 mAh g−1 even after 500 cycles) at 0.2 C. Its structural and electrochemical advantages enable stable cycling at
+a high sulfur loading of 7.0 mg cm−2 and 0.5 C without electrolyte in the cathode. This work proposes a novel strategy for the
+structural design of high-loading polymer ASSLSBs.
+1
+Introduction
+Lithium-sulfur (Li-S) batteries with polymer solid electrolytes can
+suppress uncontrollable Li dendrites, and the flammability of liq-
+uid electrolytes originates from their high flexibility and reliable
+safety [1, 2]. Beyond that, polymer solid electrolytes exhibit good
+interfacial compatibility with electrodes compared to inorganic
+solid electrolytes [3, 4]. Designing ideal polymer all-solid-state
+lithium-sulfur batteries (ASSLSBs) can accommodate the ever-
+growing demand for advanced batteries with increased energy
+storage. However, it remains difficult to limit the dissolution
+of long chain polysulfides (LiPSs) in polymer electrolytes and
+achieve high S loading in cathodes [5, 6].
+Up to now, the hosts for sulfur routinely used in polymer ASSLSBs
+are nonpolar carbon materials, which exhibit neither the capabil-
+ity to effectively immobilize liquid-phase LiPSs nor the catalytic
+activity to facilitate LiPSs conversion kinetics [7–9]. Particularly,
+low-polarity carbon materials as hosts cannot sufficiently confine
+the dissolution of LiPSs; the LiPSs could be dissolved in polyethy-
+lene oxide (PEO)-based solid electrolytes during the discharging
+process, which resulted in lower utilization of sulfur and deterio-
+rated cycling performance of the battery. Whereas the materials
+with the capability to adsorb and catalyze LiPSs typically used
+in liquid-state Li-S batteries, such as metal oxides [10–12], metal
+sulfides [13], heterostructures [14, 15], and metal/covalent organic
+frameworks (MOFs) structures [16–18], suffer low electrical
+© 2026 Wiley-VCH GmbH
+Advanced Functional Materials, 2026; 36:e75442
+https://doi.org/10.1002/adfm.75442
+1 of 13
+
+=== 第 2 页 ===
+conductivity, restricting their utilization in all-solid-state bat-
+teries. Various strategies such as functionalizing the carbon
+materials hosts (including grafted EMIM+-Br−to carbon nan-
+otube [19] and hollow carbon/Li1.4Al0.4Ti1.6(PO4)3 nanosphere
+[20]) and adding fillers (including ceramic or inorganic nanopar-
+ticles [21], polymer composites [22] and quasi-ionic liquids [23])
+in electrolyte have been explored, which contributes significantly
+to suppression of shuttle effect and enhanced reaction kinetics.
+However, it is crucial to note that the cathodes in these battery
+systems still have low S loading. To date, even though some
+polymer-based Li-S batteries have achieved a high sulfur loading
+of around 5 mg cm−2, the incorporation of electrolyte in the
+electrode formulation to improve ionic transport properties and
+interfacial compatibility significantly increases the fabrication
+cost [1, 20].
+The key to preparing stable high-loading ASSLSBs lies in the
+construction of the cathode and electrolyte, as well as the degree
+of coordination between the cathode and electrolyte, which
+is crucial for enabling the active materials of the battery to
+undergo multiple and fully reversible reactions. First, selecting
+a fitting binder for the sulfur-carbon cathode is instrumental
+in optimizing the electrochemical performance of the battery.
+Polyvinylidene fluoride (PVDF) is currently the most widely used
+binder for lithium batteries, featuring excellent electrochemical
+stability and binding performance [24, 25]. However, the dis-
+solution of PVDF during the preparation of electrode slurries
+requires the use of N-methylpyrrolidone, a toxic organic solvent
+[26]. In Li-S batteries with PEO-based electrolytes, the mixture
+of PEO and LiTFSI is the most commonly used component for
+electrode fabrication [27–29]. Despite its advantages in improving
+ionic conductivity and interfacial compatibility, the use of a
+PEO-LiTFSI composite binder in PEO-based ASSLSBs inevitably
+involves toxic organic solvents and requires relatively stringent
+environmental conditions during electrode fabrication. More
+unfortunately, the mechanical strength of PEO and PVDF is
+insufficient to withstand the severe volume change of electrodes
+with high sulfur loading [30]. Hence, using elastic-structured
+composite sulfur cathodes would serve to mitigate mechani-
+cal breakdown caused by the intrinsic volumetric expansion
+throughout the sulfur redox process [31]. Carboxymethyl cel-
+lulose (CMC) integrated with styrene-butadiene rubber (SBR)
+applied as a water-soluble binder in sulfur cathode enables to
+form a 3D conducting network, thus contributing to stabilizing
+the cathode electrode during repeated electrochemical cycles.
+Specifically, the elastomeric CMC-SBR binder rendered the sulfur
+electrode with a high areal loading because of its high mechanical
+strength [32–35]. Nevertheless, reports on the advantages of
+employing CMC-SBR in PEO-based ASSLSBs remain extremely
+scarce at present. Second, adding appropriate additives into PEO-
+based electrolytes not only disrupts the crystalline regions of
+PEO but also effectively suppresses the loss of active material
+caused by LiPSs dissolution [36]. Goodenough’s group has pre-
+pared Li2S6-integrated PEO-based all-solid-state electrolytes for
+lithium-metal batteries; the relevant experimental results verify
+that the introduction of Li2S6 lowers the crystallinity of PEO,
+thereby promoting Li+ migration [37]. In addition, when the sat-
+urated LiPSs present in the PEO electrolyte of Li-S batteries may
+effectively prevent further dissolution of LiPSs of the electrode.
+However, it is still difficult for Sx
+2−of long-chain LiPSs to separate
+from Li+ and thus inhibits the conductivity [38, 39]. To construct
+Li+ conduction pathways, reduce the crystallinity of PEO, and
+avoid the loss of LiPSs on the cathode, the incorporation of LLZTO
+(Li6.5La3Zr1.5Ta0.5O12) and LiPSs into PEO-based solid electrolytes
+effectively enhances ionic conductivity and sulfur utilization.
+Based on the above analysis, here we demonstrate a 3D electrode
+prepared by CMC-Li/SBR (CL/S) coordinated high concentration
+PEO-based electrolyte to limit the dissolution of long-chain LiPSs
+in polymer electrolyte and achieve high S loading in cathodes.
+Notably, electrolytes are avoided in the cathode of this work,
+which not only simplifies the electrode fabrication process but
+also significantly reduces material costs. Additionally, the entire
+battery system can facilitate the conversion of short-chain LiPSs,
+prevent the large-scale deposition of short-chain LiPSs, and alle-
+viate sulfur volume expansion, thereby demonstrating excellent
+recovery capability. Therefore, the resulting Li-S battery possesses
+attractive performance, a high capacity retention (1106 mAh g−1
+even after 500 cycles) at 0.2 C. Its structural and electrochemical
+advantages enable it to maintain a specific capacity of 444 mAh
+g−1 after 250 cycles at 0.5 C, even under a high sulfur loading of
+7.0 mg cm−2.
+2
+Results and Discussion
+2.1
+Characterization of CL/S Cathodes
+To evaluate the suitability of CL/S as a binder, it was mixed with
+Ketjenblack and the sulfur active material to prepare the cathode.
+For comparison, PVDF and PEO, which are commonly used
+binders in solid-state batteries, were selected. Notably, LiTFSI
+was incorporated into the PVDF and PEO binders to enable
+ionic conductivity. In contrast, the CL/S cathode was fabricated
+without the addition of any lithium salts or electrolytes. The
+morphology of electrodes using different binders was examined
+using SEM, the results can be found in Figure S1. When CL/S
+is used as the composite binder, the sulfur-based composite elec-
+trode exhibits a uniform and compact 3D network structure. The
+conductive carbon, sulfur active materials, and solid electrolyte
+particles are tightly bonded. The CL/S binder forms a contin-
+uous fibrous and film-like coating on the surface of electrode
+particles, constructing a robust 3D conductive and ion-transport
+framework [31]. The unique 3D network formation arises from
+its molecular architecture and intermolecular interactions. On
+the one hand, as an ion-conducting polymer with charged car-
+boxylate groups, the CMC-Li component undergoes electrostatic
+repulsion in the dispersion medium, promoting chain extension
+and the formation of a continuous network upon drying. On the
+other hand, the elastomeric SBR provides flexibility and forms
+filamentous connections between particles, creating a resilient
+3D skeleton that maintains structural integrity. Therefore, the
+combination of rigid CMC-Li and SBR enables the formation of
+an interconnected network through physical entanglement. In
+contrast, the PVDF- and PEO-based electrodes exhibit a powdery
+and severely aggregated structure, implying their insufficient
+ability to buffer the drastic volume variation of sulfur upon
+cycling. This is because PVDF is a linear, semi-crystalline polymer
+that tends to form isolated domains rather than a continuous
+network, while PEO is also linear and tends to crystallize, lacking
+the charged functional groups that drive network formation. It is
+worth noting that there are cracks in the PVDF-electrodes and
+2 of 13
+Advanced Functional Materials, 2026
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+PEO-electrodes, and the cracks on PVDF-electrodes are larger
+and more numerous than those on PEO-electrodes, which are
+generated upon solvent evaporation from the slurry [40]. By
+comparison, at an identical magnification, the cross-linked CL/S
+based electrode is flat and crack-free, exhibiting the mechanical
+stability of the CL/S-cathodes. The ionic conductivities of pure
+binder membranes and the electronic conductivities of composite
+cathodes prepared with different binders were evaluated using
+electrochemical impedance spectroscopy (EIS) and chronoam-
+perometry, respectively; the results are summarized in Figures
+S2–S4. Notably, the CL/S binder system exhibits the highest
+values, achieving an ionic conductivity of 0.25 mS cm−1 and
+an electronic conductivity of 80 mS cm−1, outperforming PVDF
+(0.15 and 39 mS cm−1) and PEO (0.20 and 42 mS cm−1). Conse-
+quently, the CL/S composite cathode enables efficient ion and
+electron transport pathways, representing a key advantage for
+ASSLSBs.
+Further research was conducted on the interaction between
+binders and lithium polysulfides. For visualized adsorption tests,
+the electrodes with different binders added to orange-colored
+Li2S6 were incubated for 12 h, and the result is shown in Figure 1a.
+In all cases, the solution color faded to varying extents, whereas
+the solution containing the CL/S electrode became significantly
+lighter, appearing almost colorless. Furthermore, the UV–vis
+absorption spectra of the solutions were detected (Figure 1b), and
+the adsorption of the Li2S6 decreased in the order: CL/S-cathodes
+> PVDF-cathodes >PEO-cathodes. In addition, theoretical cal-
+culations reveal that the CL/S binder has the strongest binding
+energy with LiPSs, explaining the optimal ability of CL/S binder
+for trapping LiPSs, which is essential for suppressing the shuttle
+effect effectively (Figure 1c).
+To verify the catalytic effect of binders toward LiPSs conversion,
+symmetric batteries were assembled with different cathodes
+(Figure 1d). The battery with CL/S binder exhibits two pairs
+of redox peaks at −0.05/0.05 V and −0.57/0.57 V in the cyclic
+voltammetry (CV) curve, which belong to the reversible inter-
+conversions among S8 to Li2S6 and Li2S6 to Li2S, respectively.
+Only a pair of redox peaks exists derived from the transformation
+of S8 to Li2S6 in batteries with PVDF (−0.01/0.01 V) and PEO
+(−0.17/0.17 V) binder. This indicates that, compared with PVDF
+and PEO, the CL/S binder is more conducive to facilitating the
+conversion of insulating Li2S. Additionally, the battery with PEO
+cathode displays the lowest response current and the largest
+peak potential separation; the peak values and responses of the
+CL/S cathode are the largest, and the PVDF cathode shows
+the smallest peak separation. This may be attributed to the
+inherently stable 3D conductive network structure and catalytic
+capability of the CL/S binder, which provides strong driving
+forces for promoting the conversion of sulfur species. Meanwhile,
+the smaller peak separation observed for the PVDF-based cathode
+may originate from its superior ability to reduce Li2S6 to Li2S4.
+This result demonstrated the excellent ability of CL/S binder
+to catalyze the conversion of long-chain LiPSs and its superior
+catalytic capability for the conversion of short-chain LiPSs [14,
+15]. Li2S nucleation experiments were conducted to identify
+the catalytic effect of binders during the soluble LiPSs to solid
+Li2S conversion (Figure 1e). The CL/S-cathodes display a Li2S
+precipitation capacity of ∼107 mAh g−1, which is significantly
+higher than PVDF-cathodes (64 mAh g−1) and PEO-cathodes
+(51 mAh g−1). Moreover, the responsivity of Li2S nucleation was
+earlier on CL/S-cathodes (1005 s) than on PVDF-cathodes (1705
+s) and PEO-cathodes (2097 s). Furthermore, potentiostatic charge
+experiments were also carried out to study the dissolution kinetics
+of Li2S. As shown in Figure S5, the CL/S-cathodes shows higher
+oxidation current density (1.62 mA) and earlier rinsing time (439
+s) than PVDF-cathodes (0.91 mA and 697 s) and on PEO-cathodes
+(0.82 mA and 827 s), which indicates the best electrocatalytic
+activity of CL/S toward the oxidation of Li2S. These results clearly
+confirmed the rapid kinetics of promoting Li2S precipitation and
+dissolution for the CL/S binder. The Gibbs free energy from S
+to Li2S on binders was calculated and compared to evaluate the
+electrocatalytic effect of binders (Figure 1g). All the reduction on
+PEO possesses the highest reaction free energy, demonstrating
+the slow sulfur redox kinetics. The reaction free energy of CL/S
+is just a little higher than that of PVDF during the conversion
+process of liquid LiPSs, indicating that PVDF has the greatest
+ability to catalyze the conversion of liquid LiPSs, which is in
+good agreement with the smallest peak separation recorded in
+the CV results of the PVDF-based symmetric cell. Interestingly,
+the reaction free energy for the conversion of Li2S2 to Li2S on
+CL/S is only −0.59, which is much lower than that on PEO and
+PVDF, indicating that the CL/S binder can lower the energy
+barrier associated with this conversion, which is a key factor in
+improving sulfur utilization and discharge capacity. The promis-
+ing performance of CL/S toward LiPSs may originate from the
+abundant hydroxyl groups on its surface [41]. These functional
+groups immobilize polysulfide intermediates via ion-dipole or
+Lewis acid-base interactions while facilitating fast Li+ transport.
+Consequently, this synergistic effect lowers the energy barrier
+for sulfur redox reactions, leading to enhanced electrochemical
+performance.
+2.2
+Characterization of LiPS/LLZTO Electrolyte
+While the cathode modification effectively provides a stable 3D
+conductive structure and functions to regulate the intermediate
+products, further improvements in overall cell stability and
+ion transport depend largely on the properties of the solid
+electrolyte. Therefore, the subsequent work focused on analyzing
+the PEO-based solid electrolyte with the introduction of LiPSs
+and LLZTO (Figure S6). Specifically, the incorporation of LiPSs
+is intended to prevent the LiPSs generated on the cathode
+from migrating into the electrolyte, which would otherwise lead
+to capacity degradation. The introduction of LLZTO serves to
+provide conductive pathways for Li+ transport, thus facilitating
+ionic conductivity. Differential scanning calorimetry (DSC) was
+utilized to probe the mechanism underlying the improved Li+
+conductivity. PEO-electrolyte with and without LiPS, LLZTO,
+and LiPS/LLZTO were measured (Figure S7a). The melting
+points of the bare, LiPS, LLZTO, and LiPS/LLZTO electrolytes
+are 65◦C, 58◦C, 57◦C, and 41◦C, respectively. The addition of
+additives increases the concentration of electrolytes, which in
+turn inhibits the crystallization of PEO. The reduced intensity
+of the PEO peak in the powder diffraction pattern further
+confirms the disruption of PEO crystallinity (Figure S7b). All
+results show that the high-concentration electrolytes containing
+LiPS and LLZTO are most effective at destroying the crys-
+talline region of PEO and promoting the movement of PEO
+segments.
+Advanced Functional Materials, 2026
+3 of 13
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+FIGURE 1
+(a) Digital images of solution Li2S6 solution with freshly added CL/S-, PVDF- and PEO-cathodes and after 12 h. (b) UV–vis absorption
+spectra of Li2S6 solution mixed with CL/S-, PVDF- and PEO-cathodes for 12 h. (c) Binding energy of long chains LiPSs (Li2S8, Li2S6 and Li2S4) adsorption
+on CL/S-, PVDF- and PEO-cathodes. (d) Curves at a scan rate of 5 mV s−1 for CL/S-, PVDF-, and PEO-cathodes of Li2S6 symmetric cells. (e) Potentiostatic
+discharge curves of Li2S8/tetraglyme solution at 2.02 V on CL/S-, PVDF-, and PEO-cathodes. (f) Optimized adsorption structures of different polysulfide
+species on the surface of CL/S, PVDF, and PEO binders. (g) Calculated Gibbs free energy for the stepwise S species reduction on CL/S-, PVDF-, and
+PEO-cathodes. (h) Chronoamperometric curves and EIS Nyquist plots of LiPS/LLZTO polymer electrolytes at 60◦C. (i) Galvanostatic plating/stripping
+profiles in Li//Li symmetric batteries with LiPS, LLZTO, and LiPS/LLZTO electrolyte at 0.3 mA with areal capacity fixed at 0.3 mAh cm−2; the test
+conditions were set at 60◦C.
+The ionic conductivities of electrolytes were evaluated at different
+temperatures (i.e., 30◦C, 40◦C, 50◦C, 60◦C, 70◦C, 80◦C, and
+90◦C), and the results are shown in Figure S8 and Table S1.
+Compared with LiPSs electrolyte and the LLZTO electrolyte,
+the LiPS/LLZTO composite electrolyte exhibits the highest ionic
+conductivity at all temperatures. Meanwhile, the Li+ transference
+number (tLi+), a vital parameter for SSE, was evaluated by
+chronoamperometry along with EIS. Figure S9 and Figure 1h
+show that the tLi+ value for LiPS, LLZTO, and LiPS/LLZTO
+electrolytes is 0.42, 0.69, and 0.91. Taken together, LiPS/LLZTO
+electrolyte with high ionic conductivity, low activation energy,
+and high tLi+ value collectively contribute to reducing interfacial
+4 of 13
+Advanced Functional Materials, 2026
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+resistance and polarization voltage in batteries, while enhancing
+structural stability and improving rate capability.
+The Li stripping and plating dynamics were studied by assem-
+bling Li//Li symmetric cells containing LiPSs, LLZTO, and
+LiPS/LLZTO electrolyte. As depicted in Figure 1i, at a current
+density of 0.3 mA cm−2 and a capacity of 0.3 mA h cm−2,
+severe voltage fluctuations are observed in the Li//Li symmetric
+cell with the LiPS electrolyte, a consequence of uneven lithium
+deposition and inadequate contact. Conversely, the LLZTO-
+based cell achieves superior cycling stability, maintaining stable
+overpotentials and a lifespan of over 1800 h, thus surpassing
+the performance enabled by the LiPS electrolyte. Moreover,
+Li//Li symmetric battery with LiPS/LLZTO electrolyte maintains
+a stable voltage hysteresis of 17 mV under 2000 h cycling,
+which is inferior to that of LLZTO electrolyte (31 mV). The
+introduction of LiPSs disrupts the crystalline structure of PEO
+and develops a stable interface layer at the electrode/electrolyte
+interface [37], thereby increasing its amorphous phase content
+and enhancing Li+ mobility. Meanwhile, the LLZTO particles
+construct inorganic pathways that further facilitate rapid Li+
+transport. The synergistic effect of the two enables Li+ to migrate
+swiftly through the polymer electrolyte, leading to a reduction
+in overpotential. The rate performance of the Li||Li symmetric
+batteries with LiPS/LLZTO electrolyte under the current density
+varying from 0.1 to 0.5 mA cm−2 in Figure S10 exhibits stable
+operation at different current densities, which demonstrates the
+interface stability between LiPS/LLZTO electrolyte and Li foil.
+The electrochemical stability windows of different batteries
+assembled by various cathodes matched with various electrolytes
+were characterized by linear sweep voltammetry (LSV) at 60◦C.
+Figure S11 shows that the electrolytes in the LiPS/LLZTO-
+PVDF, LiPS/LLZTO-PEO, LLZTO-CL/S, and LiPS-CL/S systems
+decompose at approximately 5.4, 4.5, 4.1, and 3.5 V (vs. Li+/Li),
+respectively, whereas the LiPS/LLZTO–CL/S system exhibits a
+much wider electrochemical window exceeding 6 V, which fully
+meets the operating voltage range of Li-S batteries (1.7–2.8 V).
+The positive shift in the oxidation onset potential and the broad-
+ening of the electrochemical stability window observed for the
+LiPS/LLZTO-CL/S battery can be attributed to the high oxidative
+stability of LLZTO and the strong interaction between polysulfide
+ions and CL/S. This enhanced oxidation resistance contributes to
+improved interfacial stability during battery operation.
+2.3
+ASSLSBs Assembly and Testing
+Electrochemical tests were conducted to demonstrate the prac-
+tical application of CL/S binder and LiPS/LLZTO electrolyte
+in PEO-based ASSLSBs (Figure S12). As shown in Figure 2a,
+after activation at 0.1 C (1 C = 1672 mAh g−1) between 1.7
+and 2.8 V, the CL/S-LiPS/LLZTO system delivered an initial
+discharge capacity of 1106 mAh g−1 at 0.2 C. After 500 cycles,
+the discharge capacities were 808, 412, and 305 mAh g−1 for
+the LiPS/LLZTO-CL/S system, LiPS/LLZTO-PVDF system, and
+LiPS/LLZTO-PEO system, which represented 73.5%, 39.2%, and
+39.1% of their initial capacities, respectively. However, LLZTO-
+CL/S system and LiPS-CL/S system show less than 200 cycles of
+poor lifespan. Additionally, the corresponding charge–discharge
+profiles of first cycle at 0.2 C reveal that the CL/S-LiPS/LLZTO
+battery exhibits the smallest voltage hysteresis and the highest
+Q2/Q1 ratio (The Q1 and Q2 refer to the capacity of the high and
+low discharge voltage plateaus, respectively, Q2/Q1 ratio is an
+index to evaluate the LiPSs redox kinetics), indicating minimal
+electrochemical polarization and maximum LiPSs conversion
+efficiency in contrast to the other counterparts (Figure S13).
+Furthermore, after 50 cycles, the Q2/Q1 ratios of LiPS/LLZTO-
+PVDF (2.75 to 1.7), LiPS/LLZTO-PEO (2.20–1.4), LLZTO-CL/S
+(2.57–1.6) and LiPS-CL/S (2.61–1.1) battery decrease significantly,
+while the LiPS/LLZTO-CL/S system maintains a high value of
+2.3, demonstrating its superior cycling stability (Figure S14).
+The rate performance of the LiPS/LLZTO-CL/S system was
+further evaluated (Figure 2b; Figure S15), and the discharge
+capacities of the LiPS/LLZTO-CL/S battery from 0.1 to 2.0 C
+were 1438, 1011, 904, 799, and 642 mAh g−1, respectively. When
+the current density was switched back from 2.0 C to 0.1 C, the
+high discharge capacity was recovered to 798, 1011, 894, 989, and
+1092 mAh g−1, respectively, and the performance was significantly
+better than those of the LiPS/LLZTO-PVDF system, LiPS/LLZTO-
+PEO system, LLZTO-CL/S system, and LiPS-CL/S system at all
+tested rates. Notably, the charge–discharge profiles at various C-
+rates demonstrate that the LiPS/LLZTO-PEO system maintains
+observable solid-phase LiPSs conversion plateaus even at high
+discharge current, evidencing its exceptional sulfur utilization
+efficiency under high-rate operation (Figure S15a,b). Thus, the
+battery with the LiPS/LLZTO-CL/S also demonstrated stable
+cycling capacity at 1 C and 2 C (Figure 2c). It delivered an initial
+capacity of 815 mAh g−1 and sustained an average coulombic
+efficiency of 99.89% over 300 cycles. Even under 2 C high current,
+the LiPS/LLZTO-CL/S battery exhibited a high capacity retention
+of 597 mAh g−1 after 120 cycles. Besides, the LiPS/LLZTO-CL/S
+battery discharged 250 cycles at 0.5 C, the sulfur loads of 1.2,
+4.0, and 7.0 mg cm−2 maintain the discharge capacity of 853, 637,
+and 444 mAh g−1, respectively (Figure 2d). Unlike studies that
+incorporate additional electrolytes into the composite cathode to
+enhance ion transport, this work introduces no extra electrolyte
+into the cathode, which is beneficial for improving the overall
+energy density. Although LiPS/LLZTO-CL/S exhibits a relatively
+low initial specific capacity under high mass loading due to
+limitations in ion transport kinetics, its specific capacity gradually
+increases upon progressive cathode activation during charge–
+discharge cycling, ultimately enabling stable cycling under
+high‑loading conditions. Therefore, the battery system in this
+work features a simpler structure and lower cost, demonstrating
+promising prospects for practical applications. Among those of
+ASSLSBs (Table S2; Figure 2e) reported in recent years [1, 20, 42–
+46], the comprehensive performance of the LiPS/LLZTO-CL/S
+battery is one of the finest. The outstanding electrochemical
+behavior primarily arises from the improved ionic conductivity
+and effective control of LiPSs enabled by the unique design of
+LiPS/LLZTO electrolyte and CL/S electrode.
+For the purpose of understanding the interaction between the
+CL/S cathode and the LiPS/LLZTO electrolyte inside the battery
+from a structural perspective, the SEM was performed to analyze
+the morphology changes of a CL/S-LiPS/LLZTO battery system
+at different discharge voltages. Figure 3a-i,n–p exhibit the cross-
+section of the cathode and electrolyte from different batteries.
+For pristine battery, the CL/S-cathode formed a larger bulk than
+PVDF and PEO-cathode, and it is inevitable that the CL/S-
+cathode (33 µm) is thicker than the PVDF-cathode (31 µm) and
+Advanced Functional Materials, 2026
+5 of 13
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+FIGURE 2
+(a) Cycle performance of LiPS/LLZTO-CL/S, LiPS/LLZTO-PVDF, LiPS/LLZTO-PEO, LLZTO-CL/S, and LiPS-CL/S system batteries
+at 0.2 C at 60◦C. (b) Rate performance of LiPS/LLZTO-CL/S, LiPS/LLZTO-PVDF, LiPS/LLZTO-PEO, LLZTO-CL/S, and LiPS-CL/S system batteries
+at different rates from 0.1 C to 2 C at 60◦C. (c) Cycle performance of LiPS/LLZTO-CL/S system batteries at 1 C (specific current density value: 2.01
+mAh cm−2) and 2 C (4.01 mAh cm−2) at 60◦C. (d) Cycle performance of LiPS/LLZTO-CL/S system batteries at 0.5 C for 250 cycles with sulfur loading
+of 1.2, 4.0, and 7.0 mg cm−2 at 60◦C. (e) Comparison of the LiPS/LLZTO-CL/S system battery with other works.
+PEO-cathode (27 µm). When discharged to 2.1 V, the battery
+system produced long-chain LiPSs. Because the CL/S cathode
+reduces LiPSs accumulation by enhancing reaction kinetics,
+and its elastic 3D structure effectively buffers volume changes,
+no significant structural changes were observed in either the
+composite electrolyte or the CL/S cathode during electrochemical
+cycling. In contrast, pronounced cracks appeared in the elec-
+trolyte layers of the PEO‑LiPS/LLZTO and PVDF‑LiPS/LLZTO
+systems. This is mainly attributed to the insufficient anchoring
+ability of the PEO and PVDF cathodes toward long‑chain LiPSs,
+6 of 13
+Advanced Functional Materials, 2026
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+FIGURE 3
+SEM of cross-section views of the LiPS/LLZTO-CL/S (a,d,g,n), LiPS/LLZTO-PEO (b,e,h,n), LiPS/LLZTO-PVDF (c,f,i,p) system battery
+in discharge–charge to different voltages along the first cycle. (j-l) SEM images of top-views of the sulfur cathodes with different binders in discharge to
+1.7 V along the first cycle. XRD patterns of cathodes in LiPS/LLZTO-CL/S, LiPS/LLZTO-PEO, LiPS/LLZTO-PVDF system battery in discharge to 1.7 V
+(m) and charge to 2.8 V (q).
+leading to LiPSs precipitation and localized stress generation,
+coupled with their inability to accommodate volume changes and
+stress accumulation, ultimately resulting in mechanical failure
+of the electrolyte membrane. Subsequently discharged to 1.7 V
+and produced an insoluble Li2S on the positive electrode. We
+can observe that the Li2S grow on CL/S-cathode dispersedly
+and irregularly (Figure 3g), the Li2S morphologies of the PVDF-
+cathode and PEO-cathode exhibited 2D film-like deposition
+and covered the electrode conformally in Figure 3h,i, which is
+consistent with top-view SEM images of Figure 3j–l and Figure
+S16. The top-view SEM images show that the surfaces of all
+three electrodes are covered with a layer of Li2S. Compared
+with the CL/S cathodes, the PVDF cathodes and PEO cathodes
+surface covered by Li2S (or Li2S2) is much denser and more
+congregative, which will result in incomplete contact between
+the active material on the electrode and the electrolyte, leading
+to incomplete sulfur conversion. The scheme in Figure S17 effec-
+tively depicts and elucidates this phenomenon; the unique 3D
+structure increases the deposition area of Li2S, allowing them to
+grow in a dispersed manner on the electrode while leaving some
+pores on the surface for electrolyte contact. In contrast, electrodes
+prepared with PVDF and PEO binders are fully covered by
+insulating Li2S, hindering further reactions and reducing sulfur
+utilization (Figure 3k,l). The XRD diffraction peak observed
+at 26.4◦conclusively confirms Li2S formation across all cath-
+odes, with the CL/S-LiPS/LLZTO system exhibiting the highest
+peak intensity. This result provides definitive evidence for the
+superior capability of CL/S-LiPS/LLZTO system to facilitate the
+Li2S precipitation kinetics (Figure 3m). Continue charging these
+batteries to 2.8 V to see the recovery capacity of the electrodes and
+Advanced Functional Materials, 2026
+7 of 13
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+electrolytes. The morphology of CL/S-LiPS/LLZTO shows little
+difference from the original. In contrast, for PEO-LiPS/LLZTO
+and PVDF-LiPS/LLZTO, the electrode exhibits separation from
+the electrolyte due to volume expansion. With the blending
+of elastic CL/S, this issue was prevented in CL/S-LiPS/LLZTO
+system, demonstrating its superior structural stability. In contrast
+to the PEO-LiPS/LLZTO and PVDF-LiPS/LLZTO battery, the
+XRD pattern of the CL/S-LiPS/LLZTO battery demonstrates
+relatively intense S8 diffraction peaks and comparatively weaker
+residual Li2S peak (Figure 3q), further illustrating that the
+structural advantages and the accelerated conversion kinetics
+of the CL/S binder provide the battery with excellent recovery
+capability. Thus, the outstanding structural recovery ability of
+CL/S-LiPS/LLZTO battery system enables it to maintain stable
+high specific capacity cycling. Next, we observed the effect of
+adding only the electrolyte of LiPSs; the structure of the pristine
+battery is similar to that of the CL/S-LiPS/LLZTO battery system,
+except for the existence of LLZTO in the electrolyte. During the
+subsequent discharge and charge cycle, irreversible crystalliza-
+tion appears in the electrolyte, which will hinder the transport
+of ions and electrons in the battery (Figure S18). As for PEO-
+electrolytes with LLZTO alone, the LLZTO electrolyte matched
+with the electrodes of the CL/S binder was loaded into the battery,
+and the battery was disassembled after cycling for 100th, and
+the digital photo shows the cathode/electrolyte/lithium foils, and
+it can be clearly seen that the lithium polysulfide is dissolved
+into the LLZTO electrolyte, which indicates that the limited
+adsorption capacity of a small amount of binder alone cannot
+confine all long-chain LiPSs to the cathode (Figure S19).
+A galvanostatic intermittent titration technique (GITT) was
+applied to elucidate the discharge reaction mechanism of the
+solid-state battery system (Figure 4a–e). The reaction over poten-
+tials (the upper discharge plateau) of the LiPS/LLZTO-CL/S,
+LiPS/LLZTO-PVDF, LiPS/LLZTO-PEO, LLZTO-CL/S, and LiPS-
+CL/S battery systems are 0.02, 0.05, 0.07, 0.13, and 0.04 V,
+respectively, which illustrates that the introduction of LLZTO
+has increased the chemical activity [47]. In addition, the average
+open circuit voltages (OCVs) measured before reaching the
+quasi‑equilibrium potentials revealed that the LiPS/LLZTO-CL/S
+battery system exhibits the highest value, further confirming that
+the soluble LiPSs are effectively stabilized during the reaction.
+The GITT results prove that the enhanced chemical activity and
+stability of soluble LiPSs in LiPS/LLZTO-CL/S battery during
+the discharge step are inseparable from the combined effect
+of the fillers in the electrolyte and CL/S binder. Based on the
+GITT curves, Li-ion diffusion coefficient (DLi+) is calculated
+(Figures S20–S24) [48]. The DLi+ of LiPS/LLZTO-CL/S and
+LLZTO-CL/S batteries are larger than those of LiPS/LLZTO-
+PVDF, LiPS/LLZTO-PEO, and LiPS-CL/S batteries, resulting
+from the synergistic effect between the ion transport pathways
+provided by LLZTO in the electrolyte and the enhanced LiPSs
+redox kinetics promoted by the CL/S binder. It is noteworthy
+that LLZTO alone cannot prevent LiPSs dissolution, leading to
+capacity loss. The co-addition of LiPSs and LLZTO effectively sup-
+presses LiPSs dissolution while promoting Li+ migration across
+the concentrated electrolyte and interfaces. Then, the in situ EIS
+serves to deeply analyze the changes in the internal resistance
+during the discharge process (Figure 4f). Internal resistance is
+closely related to interfacial compatibility, ion/electron transport,
+structural stability, and reaction kinetics. All five battery systems
+manifest two distinct semicircular features in their Nyquist plots
+(Figure 4g; Figure S25). The high- and mid-frequency semicircles
+correspond to the ion transport resistance through the electrolyte
+(R2) and the charge-transfer resistance (R3), respectively. Fur-
+ther, the ultrahigh-frequency region reveals the intrinsic ohmic
+resistance from components like current collectors (R1), while the
+low-frequency region shows a Warburg impedance (W1) related
+to ion diffusion [45]. All EIS data were fitted using an equivalent
+circuit model (Figure 4h) to extract these frequency-dependent
+physical parameters. Notably, the R2 values for the pristine
+LiPS/LLZTO-CL/S, LiPS/LLZTO-PVDF, and LiPS/LLZTO-PEO
+batteries were 21.6, 25.6, and 26.6 Ω, respectively (Figure 4i).
+The lower ionic resistance of the CL/S-based electrode indicates
+superior ion conduction kinetics over those with PVDF and
+PEO binders, confirming the formation of a more efficient 3D
+network for ion transport by the CL/S composite binder. By
+correlating the reduction peak potentials in the CV curves with
+the corresponding voltage ranges, the resistance evolution trends
+during LiPSs conversion at different stages can be analyzed
+(Figure S26). Specifically, the voltage range of peak A corresponds
+to the process of S8 converted to liquid LiPSs, during which the
+LiPS-CL/S battery has the largest R2 value and shows an unstable
+trend; R3 gradually increases throughout the process. This is
+because ion/electron transport is hindered and enhanced by
+reaction polarization. The R2 in LiPS/LLZTO-PEO, LiPS/LLZTO-
+PVDF first decreases and then increases; R3 shows a negligible
+increase. During discharge, LiPSs generated in the cathode act
+as an in situ wetting agent, where their fluid nature enables
+effective wetting of the cathode surface and fills voids between
+the cathode and the LiPS/LLZTO electrolyte, thereby creating
+a physically intimate and chemically compatible interface with
+reduced resistance. However, as LiPSs fully form, the breakdown
+of the electrolyte negatively impacts the reaction. In contrast, the
+R2 of LiPS/LLZTO-CL/S and LLZTO-CL/S continues to decrease,
+and the R3 only has a little change. This phenomenon benefits
+from the remarkable structural stability provided by the binder,
+which has been verified by SEM. It also shows that the generation
+of long-chain LiPSs does not hinder ion migration in the presence
+of LLZTO. As stated in the previous literature, LLZTO provides
+transport pathways and enhances ionic conductivity.
+When the liquid-phase LiPSs transformed to solid-phase Li2S,
+accompanied by the generation of insulating material and vol-
+ume expansion, R2 of LiPS/LLZTO-PVDF, LiPS/LLZTO-PEO,
+and LiPS-CL/S battery systems increased significantly while
+R3 rose gradually. In contrast, both R2 and R3 in LLZTO-
+CL/S and LiPS/LLZTO-CL/S decrease. This is related to the 3D
+structure of CL/S cathode conductive to Li2S deposition and
+the enhanced kinetics for the conversion of short-chain LiPSs.
+When LiPSs is the only filler in the electrolyte, it cannot form
+a conductive pathway. Strikingly, the LiPS/LLZTO-CL/S battery
+demonstrates highly stable resistance characteristics throughout
+multiple charge–discharge cycles in Figure S27. Then, the peaks
+in corresponding differential capacity (dQ/dV) curves, depicted in
+Figure 4l–p, interpret the redox reactions during the charging and
+discharging processes of batteries. The position and height of the
+peaks in the dQ/dV can indicate degradation phenomena in the
+battery. LiPS/LLZTO-CL/S exhibits the minimum polarization
+and the highest peak position, corresponding to its high specific
+capacity and low impedance, which gives LiPS/LLZTO-CL/S
+excellent cycle life. In addition, the CV curves in Figure S26
+8 of 13
+Advanced Functional Materials, 2026
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+FIGURE 4
+(a–e) GITT results of the ASSLSBs with LiPS/LLZTO-CL/S, LiPS/LLZTO-PVDF, LiPS/LLZTO-PEO, LLZTO-CL/S, and LiPS-CL/S
+configurations at 60◦C (applied current density: 0.05 C; pulse duration: 20 min; relaxation time: 2 h). (g) In situ EIS of LiPS/LLZTO-CL/S system battery
+at different discharge voltages (f) at 60◦C. (h) Equivalent circuit model for fitting all EIS data. (i–k) Comparison of R2 and R3 between LiPS/LLZTO-CL/S,
+LiPS/LLZTO-PVDF, LiPS/LLZTO-PEO, LLZTO-CL/S, and LiPS-CL/S system batteries. (l–p) DQ/DV curves of LiPS/LLZTO-CL/S, LiPS/LLZTO-PVDF,
+LiPS/LLZTO-PEO, LLZTO-CL/S, and LiPS-CL/S system batteries at 60◦C.
+provide a more intuitive comparison of the polarization degree
+in each battery, which displays that the polarization voltages of
+the LiPS/LLZTO-CL/S, LiPS/LLZTO-PVDF, LiPS/LLZTO-PEO,
+LLZTO-CL/S, and LiPS-CL/S system batteries are 0.47, 0.65, 0.52,
+0.74, and 0.48 V, consistent with the R2 and R3 magnitude.
+Although LLZTO-CL/S has a lower impedance and polarization
+than that of LiPS/LLZTO-PVDF, LiPS/LLZTO-PEO, and LiPS-
+CL/S system batteries, its overall performance, including capacity
+retention and cycling stability, is inferior. The relatively lower
+impedance and polarization are due to the 3D conductive net-
+work structure afforded by the CL/S electrode, the capability to
+regulate intermediate product (as verified in the previous UV–
+vis absorption spectra, CV curves of symmetric batteries, Li2S
+nucleation/dissolution experiments, and theoretical calculation),
+and the provision of Li+ conduction pathways. Besides, the
+unsatisfactory cycling performance is mainly attributed to the
+irreversible dissolution of S8 on the electrode into the electrolyte
+in the form of LiPSs after repeated charge–discharge cycles,
+which results in significant capacity decay and has been con-
+firmed by the previous result presented in the digital image of
+LLZTO-CL/S-lithium foils after 100th cycles state.
+2.4
+Analysis of the Discharge Mechanism of
+ASSLSBs
+With the aim of understanding the discharge reaction mechanism
+of ASSLSBs, a scheme of the proposed electrochemical reaction
+for five different batteries was outlined in Figure 5. In the
+electrolyte membrane with the simple addition of LiPSs, the
+electrolyte exhibits high viscosity, which hinders ion transport
+and leads to high resistance and polarization. This is also the
+reason for its poor electrochemical performance. When LLZTO
+is added to the electrolyte, the interfaces of the LLZTO particles
+provide pathways for lithium-ion transport. Moreover, LLZTO
+also has a catalytic effect on lithium-sulfur battery systems,
+thereby enhancing their electrochemical performance. However,
+adding LLZTO alone still results in the dissolution of LiPSs
+Advanced Functional Materials, 2026
+9 of 13
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+FIGURE 5
+Scheme of the discharge reaction mechanism of ASSLSBs.
+formed on the electrode into the electrolyte, causing capacity
+loss. The simultaneous addition of both LiPSs and LLZTO not
+only avoids the dissolution of LiPSs into the electrolyte but
+also promotes Li+ migration through the high-concentration
+electrolyte and interface (Figure S28). For electrodes prepared
+using LiPS/LLZTO electrolytes matched with three different
+binders, the cracks on PEO and PVDF-based electrodes increased
+the impedance during cycling. While PEO-based electrodes show
+relatively fewer cracks and better affinity with electrolyte than
+PVDF-based ones, both of their 2D electrodes suffer from two
+inherent limitations: (1) weak adsorption of long-chain LiPSs,
+leading to severe shuttle effects, and (2) sluggish conversion
+kinetics of short-chain LiPSs, resulting in large polarization.
+Meanwhile, the deposition of short‑chain LiPSs covers the entire
+2D layer, hindering contact between the electrode and electrolyte
+and resulting in poor reversible capacity during prolonged cycling
+in PEO‑ and PVDF‑based cathodes. Moreover, the rigid 2D
+structure cannot effectively accommodate volume expansion,
+triggering mechanical failure at the electrode/electrolyte inter-
+face and eventual rupture of the electrolyte membrane. The
+unique 3D structure of CL/S forms efficient ionic/electronic
+pathways and can better: CMC-Li serves as an ion‑conducting
+binder, with its ─COOLi groups providing continuous pathways
+for lithium‑ion transport. Upon dissociation, the fixed ─COO−
+groups on the polymer chains form negatively charged channels,
+along which Li+ migrates via a hopping mechanism [49–56].
+The combination of rigid CMC‑Li and flexible SBR enables the
+formation of an interconnected ion‑conducting network through
+physical entanglement. Furthermore, CL/S cannot only confine
+long-chain LiPSs on the cathode but also promote the conversion
+of short-chain LiPSs and partially deposit them through the bulk
+3D structure. The elasticity of CL/S also mitigates the sulfur
+volume expansion issue, allowing for high sulfur loading in CL/S.
+3
+Conclusion
+Herein, we demonstrate a 3D electrode prepared by CL/S binder
+coordinated high concentration PEO-based electrolyte filled with
+10 of 13
+Advanced Functional Materials, 2026
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+LLZTO and LiPSs (named LiPS/LLZTO-CL/S) to limit the disso-
+lution of long-chain LiPSs in polymer electrolyte and achieve high
+S loading in cathodes. The SEM results show that the 3D electrode
+exhibits a complete structure, suitable for the deposition of short-
+chain LiPSs in a dispersed form. Visualization experiments,
+UV experiments, and DFT calculations confirm the excellent
+adsorption capability of the CL/S binder for long-chain LiPSs.
+The Gibbs free energy calculations reveal that the binder can
+catalyze the rapid conversion of short-chain LiPSs. The ionic and
+electronic conductivity results of electrode ionic show that the
+CL/S binder can establish an efficient carrier-transport pathway
+within the sulfur cathode. High-concentration electrodes prevent
+the generated long-chain LiPSs from dissolving in the electrolyte,
+while the LLZTO interface provides ion transport pathways.
+Experimental calculations show that the electrolyte has outstand-
+ing activation energy, ionic conductivity, and Li+ transference
+number (tLi+). The SEM, in situ EIS, GITT, and CV results
+during the charge–discharge procedure of the LiPS/LLZTO-
+CL/S battery demonstrate its lower impedance, polarization, and
+higher stability. The resulting Li-S battery possesses attractive
+performance, a high capacity retention (1106 mAh g−1 even after
+500 cycles) at 0.2 C. Its structural and electrochemical advantages
+enable it to maintain a specific capacity of 444 mAh g−1 after
+250 cycles at 0.5 C, even with a high sulfur loading of 7.0 mg
+cm−2. This study introduces a novel structural design strat-
+egy of high-loading ASSLSBs, demonstrating significant poten-
+tial in applications of high-safety, high-energy-density storage
+systems.
+4
+Experimental Section
+4.1
+Preparation of CL/S Based Cathodes
+To evaluate the suitability of CL/S as a binder for cathodes,
+the binder, Ketjenblack, and the sulfur active material were
+mixed in a mass ratio of 1:1:8. The sulfur active material was
+prepared by mixing Ketjenblack and sublimed sulfur powders at
+a mass ratio of 1:4 and heating the mixture in a sealed Teflon
+bottle at 155◦C for 12 h. The resulting mixture was dispersed
+in water, coated onto aluminum foil, and dried to form the
+cathode. For comparison, two additional cathodes were prepared
+using the same procedure, with PEO/LiTFSI (mass ratio 10:1)
+and PVDF/LiTFSI (mass ratio 10:1) serving as the binders,
+respectively.
+4.2
+Preparation of Solid-State Composite
+Polymer Electrolytes
+A total of 200 mg LLZTO, 4 mM Li2S8, 750 mg PEO (Mn =
+600 000, Aladdin, 99.9%), and 500 mg LiTFSI (Aladdin, 99%) were
+added into a 9 g anhydrous acetonitrile (Aladdin, 99%) solution.
+After stirring for 12 h at 60◦C, LiPS/LLZTO electrolyte solutions
+were obtained. Finally, a LiPS/LLZTO electrolyte membrane was
+obtained through casting the LiPS/LLZTO electrolyte solutions
+into a polytetrafluoroethylene round mold with a diameter of
+16 mm and drying under vacuum at 60◦C for 48 h. Specifi-
+cally, adding 0.04 mL of LiPS/LLZTO electrolyte solution to
+each mold will yield a LiPS/LLZTO electrolyte film with a
+thickness of approximately 80 µm and an area of 2.01 cm2.
+For LiPS electrolyte and LLZTO electrolyte, the other steps
+are the same as the preparation of LiPS/LLZTO electrolyte,
+except for not adding LLZTO and LiPS, respectively. In all of
+our tests, the electrolyte membranes used were about 80 µm
+thick.
+4.3
+Preparation of LiPS/LLZTO-CL/S Full
+Batteries
+The LiPS/LLZTO-CL/S full batteries were assembled in CR2032
+coin cells within an Ar-filled glovebox. The batteries were
+fabricated by sandwiching the polymer electrolyte membrane
+between the CL/S cathode (diameter of 12 mm, area of 1.13
+cm2) and a lithium metal anode (diameter of 15.6 mm, area
+of 1.91 cm2). A stainless steel spacer and spring were placed
+on the anode side to ensure good internal contact. Then,
+the cells were sealed using a coin cell crimping machine.
+To
+ensure
+optimal
+interfacial
+contact
+between
+the
+solid
+electrolyte
+and
+the
+electrodes,
+the
+assembled
+cells
+were
+thermally treated at 60◦C for 6 h prior to electrochemical
+testing.
+4.4
+Electrochemical Measurements
+The blocking battery, Li-Li symmetrical battery, Li-stainless steel
+(Li-SS) battery, and Li-S battery were assembled respectively for
+testing different electrochemical parameters. All of the above
+batteries are assembled using CR2032 coin-type batteries and
+were disassembled and assembled in the glove box. The ionic
+conductivity (σ) was calculated by testing the EIS of the blocking
+batteries over the frequency range of 10−1–106 Hz using the
+following formula:
+𝜎= 𝐿∕𝑆𝑅
+(1)
+where L is the distance between stainless steels, S is the area of
+the stainless steel, and R is the impedance.
+The Li+ transference number was tested and calculated by
+assembling Li-Li symmetric batteries with the following formula:
+𝑡Li+ = 𝐼s (Δ𝑉−𝐼0𝑅0) ∕𝐼0 (Δ𝑉−𝐼s𝑅s)
+(2)
+where I0, Is, R0, and Rs are the initial current, steady-state current,
+initial resistance, and steady-state resistance, respectively, and ΔV
+is the fixed potential value (10 mV). The electrochemical stability
+of the electrolyte was assessed by assembling Li-S batteries to test
+linear scanning voltammetry (LSV). The parameters and change
+states related to lithium deposition and stripping were evaluated
+by assembling a Li-Li symmetric cell. Different Li-S batteries can
+be assembled by changing different cathodes and electrolytes
+while ensuring that Li metal is used as the s anode. CV curves
+were tested on the CHI 660E over a range of 1.7 to 2.8 V. The in-
+suit EIS was likewise accomplished on the CHI 660E by setting
+up the charge–discharge and EIS curves. The cycle and rate
+performance of batteries were tested by LAND CT2001A battery
+test instruments. All the above electrochemical measurements
+were performed at 60◦C.
+Advanced Functional Materials, 2026
+11 of 13
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 12 页 ===
+Acknowledgements
+This work was financially supported by National Key R&D Program
+of China (2024YFC2910800), Guizhou Provincial Major Scientific and
+Technological Program ([2024]019), Heilongjiang Provincial Natural
+Science Foundation of China (Grant Number PL2025E023), Guangxi
+Key Laboratory of Low Carbon Energy Materia (2024GXKLLCEM0104),
+National Natural Science Foundation of China (52522408), The science
+and technology innovation Program of Hunan Province (2023RC3041).
+Conflicts of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+The data that support the findings of this study are available on request
+from the corresponding author. The data are not publicly available due to
+privacy or ethical restrictions.
+References
+1. J. Shao, Y. Li, J. Guo, et al., “Solid Polymer Electrolytes for All-Solid-
+State Lithium–Sulfur Batteries: Different Designs Dependent on Their
+Interaction With Sulfur Cathodes,” Advanced Materials 37 (2025): 2415864,
+https://doi.org/10.1002/adma.202415864.
+2. N. Zhang, S.-H. Tian, X.-Q. Chen, et al., “Enhancing Carrier Dynam-
+ics Through Ordered-MOF-Based Solid Electrolyte to Construct High-
+Energy Li-S Batteries,” Chemical Engineering Journal 524 (2025): 169591,
+https://doi.org/10.1016/j.cej.2025.169591.
+3. X. Li, D. Wang, H. Wang, H. Yan, Z. Gong, and Y. Yang,
+“Poly(ethylene
+oxide)–Li10SnP2S12
+Composite
+Polymer
+Electrolyte
+Enables High-Performance All-Solid-State Lithium Sulfur Battery,”
+ACS
+Applied
+Materials
+&
+Interfaces
+11
+(2019):
+22745–22753,
+https://doi.org/10.1021/acsami.9b05212.
+4. X. Meng, Y. Liu, Y. Ma, et al., “Diagnosing and Correcting the Failure
+of the Solid-State Polymer Electrolyte for Enhancing Solid-State Lithium–
+Sulfur Batteries,” Advanced Materials 35 (2023): 2212039, https://doi.org/
+10.1002/adma.202212039.
+5. H. Zhang, U. Oteo, X. Judez, et al., “Designer Anion Enabling Solid-
+State Lithium-Sulfur Batteries,” Joule 3 (2019): 1689–1702, https://doi.org/
+10.1016/j.joule.2019.05.003.
+6. H. Liang, L. Wang, A. Wang, et al., “Tailoring Practically Accessible
+Polymer/Inorganic Composite Electrolytes for All-Solid-State Lithium
+Metal Batteries: A Review,” Nano-Micro Letters 15 (2023): 42, https://doi.
+org/10.1007/s40820-022-00996-1.
+7. S. Yu, C. Zhang, J. Feng, et al., “Synergistic Electric-Spin-Dipole
+Modulation for Bidirectional Polysulfide Conversion toward Reliable
+Lithium-Sulfur Batteries,” Advanced Functional Materials 38 (2026):
+10516.
+8. M. Bi, S. Yao, C. Zhang, et al., “Hybrid of Spinel Zinc-Cobalt Oxide
+Nanospheres Combined With Nitrogen-Containing Carbon Nanofibers
+as Advanced Electrocatalyst for Redox Reaction in Lithium/Polysulfides
+Batteries,” Advanced Powder Technology 33 (2022): 103710, https://doi.org/
+10.1016/j.apt.2022.103710.
+9. M. Bi, M. Chao, C. Zhang, et al., “Self-Assembled Flower-Like Structure
+of Copper Cobaltate Nanosheets Supported on Nitrogen-Doped Carbon
+Nanofibers as Functional Electrocatalyst for Lithium/Polysulfides Batter-
+ies,” Journal of Alloys and Compounds 934 (2023): 167916, https://doi.org/
+10.1016/j.jallcom.2022.167916.
+10. H. Zhang, M. Zhang, R. Liu, et al., “Fe3O4-Doped Mesoporous Carbon
+Cathode With a Plumber’s Nightmare Structure for High-Performance Li-
+S Batteries,” Nature Communications 15 (2024): 5451, https://doi.org/10.
+1038/s41467-024-49826-5.
+11. G. Wen, Q. Qiao, Y. Wang, et al., “Oxygen Vacancies-Rich CeO2–X
+Nanocrystalline Embedded in N-Doped Carbon Matrix Toward High-
+Performance Lithium–Sulfur Batteries,” Small 21 (2025): 2500848, https://
+doi.org/10.1002/smll.202500848.
+12. V. P. Nguyen, D. Kim, J. Kang, et al., “Heterostructured Sn:SnO2
+Nanodots for High-Performance Li–S Batteries With Kinetics-Enhanced
+Cathode and Dendrite-Free Anode,” Advanced Functional Materials 35
+(2025): 2507991, https://doi.org/10.1002/adfm.202507991.
+13. Q. He, W. Chen, B. Fan, Q. Wei, and Y. Zou, “Abundant Adsorption and
+Catalytic Sites of the CoS2/MoS2 Heterostructure for Enhanced Reversible
+Kinetics in Polysulfide Conversion,” Journal of Energy Chemistry 107
+(2025): 570–581, https://doi.org/10.1016/j.jechem.2025.03.050.
+14. H. Yang, Y. Lei, Q. Yang, et al., “Cobalt-Induced Highly-Electroactive
+Li2S Heterostructured Cathode for Li-S Batteries,” Electrochimica Acta
+439 (2023): 141652, https://doi.org/10.1016/j.electacta.2022.141652.
+15. C. Wang, P. Zhang, J. Li, et al., “Metallic WO2-Promoted CoWO4/WO2
+Heterojunction With Intercalation-Mediated Catalysis for Lithium–
+Sulfur Batteries,” Nano-Micro Letters 18 (2026): 7, https://doi.org/10.1007/
+s40820-025-01849-3.
+16. Y. Dong, Z. Jin, H. Peng, et al., “Size Effect and Interfacial Synergy
+Enhancement of 2D Ultrathin Co x Zn1−x -MOF/rGO for Boosting
+Lithium–Sulfur Battery Performance,” Small 21 (2025): 2412186, https://
+doi.org/10.1002/smll.202412186.
+17. W. Meng, Y. Wang, X. Zhou, et al., “Azo-Bridged Metal–Organic
+Frameworks With Robust Zr6 -Cluster Nodes: A Dual-Functional Design
+for Suppressing Polysulfide Shuttling in Lithium–Sulfur Batteries,” Jour-
+nal of the American Chemical Society 147 (2025): 44479–44491, https://doi.
+org/10.1021/jacs.5c16469.
+18. J. Liu and Z. Liu, “Rational Construction of Br/N Active-Site Covalent-
+Organic Frameworks as a Dual-Functional Host for High-Performance
+Li–S Full Batteries,” Small 21 (2025): 10154, https://doi.org/10.1002/smll.
+202510154.
+19. W. Li, P. Wang, M. Zhang, et al., “Functional CNTs@EMIM+ -Br −
+Electrode Enabling Polysulfides Confining and Deposition Regulating for
+Solid-State Li-Sulfur Battery,” Small 19 (2023): 2205809, https://doi.org/
+10.1002/smll.202205809.
+20. M. Wang, H. Su, Y. Zhong, et al., “Localized S-Li2s Conversion
+With Accelerated Kinetics Mediated by Mixed Conductive Shell for
+High-Performance Solid-State Lithium-Sulfur Battery,” Advanced Energy
+Materials 14 (2024): 2302255, https://doi.org/10.1002/aenm.202302255.
+21. W. Kou, J. Wang, W. Li, et al., “Asymmetry-Structure Electrolyte With
+Rapid Li+ Transfer Pathway Towards High-Performance All-Solid-State
+Lithium–Sulfur Battery,” Journal of Membrane Science 634 (2021): 119432,
+https://doi.org/10.1016/j.memsci.2021.119432.
+22. J. Sheng, Q. Zhang, C. Sun, et al., “Crosslinked Nanofiber-Reinforced
+Solid-State Electrolytes With Polysulfide Fixation Effect Towards High
+Safety Flexible Lithium–Sulfur Batteries,” Advanced Functional Materials
+32 (2022): 2203272, https://doi.org/10.1002/adfm.202203272.
+23. O. Sheng, C. Jin, J. Luo, et al., “Ionic Conductivity Promotion Of
+Polymer Electrolyte With Ionic Liquid Grafted Oxides For All-Solid-State
+Lithium–Sulfur Batteries,” Journal of Materials Chemistry A 5 (2017):
+12934–12942, https://doi.org/10.1039/C7TA03699J.
+24. Z. Xiao, X. He, F. Zheng, et al., “Origin and Suppression of Intragran-
+ular Cracks for Long-Cycling High-Ni Co-Free Cathodes,” Angewandte
+Chemie International Edition 64 (2025): 202513818, https://doi.org/10.
+1002/anie.202513818.
+25. X. Wang, B. Zhang, Z. Xiao, et al., “Enhanced Rate Capability and Mit-
+igated Capacity Decay of Ultrahigh-Nickel Cobalt-Free LiNi0.9Mn0.1O2
+Cathode at High-Voltage by Selective Tungsten Substitution,” Chinese
+Chemical Letters 34 (2023): 107772, https://doi.org/10.1016/j.cclet.2022.
+107772.
+26. J.-Y. Hwang, S.-T. Myung, and Y.-K. Sun, “Sodium-Ion Batteries:
+Present and Future,” Chemical Society Reviews 46 (2017): 3529–3614,
+https://doi.org/10.1039/C6CS00776G.
+12 of 13
+Advanced Functional Materials, 2026
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 13 页 ===
+27. Y. Wang, H. Ji, X. Zhang, et al., “Cyclopropenium Cationic-Based
+Covalent Organic Polymer-Enhanced Poly(Ethylene Oxide) Composite
+Polymer Electrolyte For All-Solid-State Li–S Battery,” ACS Applied Mate-
+rials & Interfaces 13 (2021): 16469–16477, https://doi.org/10.1021/acsami.
+1c02309.
+28. R. Fang, H. Xu, B. Xu, X. Li, Y. Li, and J. B. Goodenough, “Reaction
+Mechanism Optimization of Solid-State Li–S Batteries With a PEO-Based
+Electrolyte,” Advanced Functional Materials 31 (2021): 2001812, https://
+doi.org/10.1002/adfm.202001812.
+29. Y. Liu, H. Liu, Y. Lin, et al., “Mechanistic Investigation of Polymer-
+Based All-Solid-State Lithium/Sulfur Battery,” Advanced Functional
+Materials 31 (2021): 2104863, https://doi.org/10.1002/adfm.202104863.
+30. M. Lécuyer, J. Gaubicher, M. Deschamps, B. Lestriez, T. Brousse, and
+D. Guyomard, “Structural Changes of a Li/S Rechargeable Cell in Lithium
+Metal Polymer Technology,” Journal of Power Sources 241 (2013): 249.
+31. H. Yuan, J.-Q. Huang, H.-J. Peng, et al., “A Review of Functional
+Binders in Lithium-Sulfur Batteries,” Advanced Functional Materials 34
+(2024): 2307108.
+32. J. Guo and C. Wang, “A Polymer Scaffold Binder Structure for High
+Capacity Silicon Anode of Lithium-ion Battery,” Chemical Communica-
+tions 46 (2010): 1428, https://doi.org/10.1039/b918727h.
+33. B. Lestriez, S. Bahri, I. Sandu, L. Roué, and D. Guyomard, “On
+the Binding Mechanism of CMC in Si Negative Electrodes for Li-ion
+Batteries,” Electrochemistry Communications 9 (2007): 2801–2806, https://
+doi.org/10.1016/j.elecom.2007.10.001.
+34. M. Yoshio, T. Tsumura, and N. Dimov, “Silicon/Graphite Composites
+as an Anode Material for Lithium Ion Batteries,” Journal of Power Sources
+163 (2006): 215–218, https://doi.org/10.1016/j.jpowsour.2005.12.078.
+35. D. Lv, J. Zheng, Q. Li, et al., “High Energy Density Lithium–
+Sulfur Batteries: Challenges of Thick Sulfur Cathodes,” Advanced Energy
+Materials 5 (2015): 1402290, https://doi.org/10.1002/aenm.201402290.
+36. D. Zhang, X. Meng, W. Hou, et al., “Solid Polymer Electrolytes: Ion
+Conduction Mechanisms and Enhancement Strategies,” Nano Research
+Energy 2 (2023): 9120050, https://doi.org/10.26599/NRE.2023.9120050.
+37. R. Fang, B. Xu, N. S. Grundish, et al., “Li2S6 -Integrated PEO-
+Based Polymer Electrolytes for All-Solid-State Lithium-Metal Batteries,”
+Angewandte Chemie International Edition 60 (2021): 17701–17706, https://
+doi.org/10.1002/anie.202106039.
+38. N. N. Rajput, V. Murugesan, Y. Shin, et al., “Elucidating the Solvation
+Structure and Dynamics of Lithium Polysulfides Resulting From Com-
+petitive Salt and Solvent Interactions,” Chemistry of Materials 29 (2017):
+3375–3379, https://doi.org/10.1021/acs.chemmater.7b00068.
+39. C. Park, A. Ronneburg, S. Risse, M. Ballauff, M. Kanduč, and J.
+Dzubiella, “Structural and Transport Properties of Li/S Battery Elec-
+trolytes: Role of the Polysulfide Species,” Physical Chemistry Chemical
+Physics 123 (2019): 10167.
+40. H. Wang, Y. Wang, G. Zhang, et al., “Water-Based Dual-Network
+Conductive Polymer Binders For High-Performance Li–S Batteries,”
+Electrochimica Acta 371 (2021): 137822, https://doi.org/10.1016/j.electacta.
+2021.137822.
+41. F. Zhou, Y. Mei, Q. Wu, et al., “Lewis Acid-Optimized Hydrolysable
+Catalytic Binder With Dynamic Hydrogen-Bonded Framework For
+Durable Lithium-Sulfur Batteries,” Chemical Engineering Journal 507
+(2025): 160009, https://doi.org/10.1016/j.cej.2025.160009.
+42. S. Wang, M. Li, G. Yan, et al., “Squaraine-Linked Zwitterionic COF
+Modified LLZTO Nanoparticles For High Performance Polymer Com-
+posite Electrolytes in Li–S Batteries,” Nanoscale 15 (2023): 12961–12971,
+https://doi.org/10.1039/D3NR01942J.
+43. J. Zhou, M. L. Holekevi Chandrappa, S. Tan, et al., “Healable And
+Conductive Sulfur Iodide For Solid-State Li–S Batteries,” Nature 627
+(2024): 301–305, https://doi.org/10.1038/s41586-024-07101-z.
+44. X. Zhu, W. Jiang, L. Wang, and J. Lu, “Constructing Resilient Cross-
+Linked Network Toward Stable All-Solid-State Lithium-Sulfur Batteries,”
+Advanced Energy Materials 14 (2024): 2304244, https://doi.org/10.1002/
+aenm.202304244.
+45. Z. Song, L. Wang, W. Jiang, et al., “Like Compatible Like″ Strat-
+egy Designing Strong Cathode-Electrolyte Interface Quasi-Solid-State
+Lithium–Sulfur Batteries,” Advanced Energy Materials 13 (2023): 2302688.
+46. Z. Ao, Y. Zou, H. Zou, Y. Huang, and N. Chen, “Enhanced Cycling
+Performance of All-Solid-State Li-S Battery Enabled by PVP-Blended
+PEO-Based Double-Layer Electrolyte,” Chemistry—A European Journal
+28 (2022): 202200543, https://doi.org/10.1002/chem.202200543.
+47. H. Chu, J. Jung, H. Noh, et al., “Unraveling the Dual Functionality
+of High-Donor-Number Anion in Lean-Electrolyte Lithium-Sulfur Bat-
+teries,” Advanced Energy Materials 10 (2020): 2000493, https://doi.org/10.
+1002/aenm.202000493.
+48. Q. Guo, C. Wang, J. Shang, et al., “A Freestanding, Dissolution-
+and Diffusion-Limiting, Flexible Sulfur Electrode Enables High Specific
+Capacity at High Mass Loading,” Advanced Materials 36 (2024): 2400041.
+49. J. Li, X. Pei, G. He, and W. Wei, “Enhancing Li-ion Transport by
+Creating Continuous Channels and Improving the Decomposition of
+Lithium Salts in Composite Polymer Electrolytes,” Journal of Materiomics
+11 (2025): 100897, https://doi.org/10.1016/j.jmat.2024.05.007.
+50. M. Casalegno, F. Castiglione, M. Passarello, A. Mele, S. Passerini, and
+G. Raos, “Association and Diffusion of Li+ in Carboxymethylcellulose
+Solutions for Environmentally Friendly Li-ion Batteries,” Chemsuschem
+9 (2016): 1804–1813, https://doi.org/10.1002/cssc.201600160.
+51. D. O. Shin, H. Kim, S. Jung, et al., “Electrolyte-Free Graphite Electrode
+With Enhanced Interfacial Conduction Using Li+-Conductive Binder For
+High-Performance All-Solid-State Batteries,” Energy Storage Materials 49
+(2022): 481–492, https://doi.org/10.1016/j.ensm.2022.04.029.
+52. Y. Gao, L. Ma, X. Zeng, et al., “Efficient Lithium Extraction From Salt
+Lakes Brine Via Regulating The Electric Double-Layer Interface Of High-
+Loading Film Electrodes With CMC Li,” Desalination 616 (2025): 119395,
+https://doi.org/10.1016/j.desal.2025.119395.
+53. Y. Guo, X. Li, Z. Wang, et al., “Accelerating the Li-ion Transmission
+of Free-Standing Thick Electrodes by Using CMC-Li as Ion-Conducting
+Binder,” Materials Today Sustainability 21 (2023): 100304, https://doi.org/
+10.1016/j.mtsust.2022.100304.
+54. C. Hu, A. Wu, F. Zhu, et al., “Lithium-Ion Modified Cellulose as a
+Water-Soluble Binder for Li-O2 Battery,” Frontiers in Energy 16 (2022):
+502–508, https://doi.org/10.1007/s11708-021-0750-3.
+55. R. Zhou, X. Gui, Z. Gong, et al., “The Rational Design of an Ion-
+Conducting and Interface-Optimized Acrylate-based Network Binder
+Employed in a Silicon/Graphite Anode for Li-ion Batteries,” Journal
+of Materials Chemistry A 14 (2026): 6913–6924, https://doi.org/10.1039/
+D5TA07627G.
+56. L. Qiu, Z. Shao, D. Wang, F. Wang, W. Wang, and J. Wang, “Novel
+Polymer Li-ion Binder Carboxymethyl Cellulose Derivative Enhanced
+Electrochemical Performance for Li-Ion Batteries,” Carbohydrate Poly-
+mers 112 (2014): 532–538, https://doi.org/10.1016/j.carbpol.2014.06.034.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section.
+SupportingFile: adfm75442-sup-0001-SuppMat.docx.
+Advanced Functional Materials, 2026
+13 of 13
+ 16163028, 2026, 46, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.75442 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

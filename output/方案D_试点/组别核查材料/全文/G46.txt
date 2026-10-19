@@ -1,0 +1,1550 @@
+=== 第 1 页 ===
+Developing Preparation Craft Platform for Solid Electrolytes
+Containing Volatile Components: Experimental Study of
+Competition between Lithium Loss and Densification in Li7La3Zr2O12
+Xiao Huang, Jiawen Tang, Yongjian Zhou, Kun Rui, Xin Ao, Yan Yang, and Bingbing Tian*
+Cite This: ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: Li7La3Zr2O12 (LLZO) is one of the most promising
+candidate solid electrolytes for high-safety solid-state batteries.
+However, similar to other solid electrolytes containing volatile
+components during high-temperature sintering, the preparation of
+densified LLZO with high conductivity is challenging involving the
+complicated gas−liquid−solid sintering mechanism. Further attention
+on establishing low-cost laborastory-scale preparation craft platform of
+LLZO ceramic is also required. This work demonstrates a “pellet on
+gravel” sintering strategy, which is performed in a MgO crucible and box
+furnace under ambient air without any special equipment or expensive
+consumables. In addition, the competition between lithium loss from
+the sintering system and internal grain densification is critically studied,
+whereas the influences of particle surface energy, Li-loss amount, and
+initial excess Li2O amount are uncovered. Based on the sintering behavior and mechanism, optimized craft platform for preparing
+dense LLZO solid electrolytes including mixing, calcination, particle tailoring and sintering is provided. Finally, exemplary Ta-doped
+LLZO pellets with 2 wt % La2Zr2O7 additives sintered at 1260−1320 °C for 20 min deliver Li+ conductivities of ∼9 × 10−4 S cm−1 at
+25 °C, relative densities of >96%, and a dense cross-sectional microstructure. As a practical demonstration, LLZO solid electrolyte
+with optimized performance is applied in both Li−Li symmetric cells and Li−S batteries. This work sheds light on the practical
+production of high-quality LLZO ceramics and provides inspiration for sintering ceramics containing volatile compounds.
+KEYWORDS: Li7La3Zr2O12, solid electrolyte, volatile Li-loss, densification, craft platform
+1. INTRODUCTION
+Solid-state batteries (SSBs) based on metallic Li anode and solid
+electrolyte are next-generation alternatives to commercial Li-ion
+batteries (LiBs), because of their safety and potential high
+energy density.1 Garnet-type Li7La3Zr2O12 (LLZO) is one of the
+few electrolytes that are electrochemically stable against Li
+metal.2,3 LLZO allows the preparation into pellets, tapes, and
+films under ambient air via low-cost conventional solid-state
+reaction methods.4 Garnet-type Li-stuffed solid electrolyte
+[Li+]3+2x[Ln3+]3[M(6−x)+]2O12 is first reported at 2003 by
+Thangadurai et al. in the composition of M = Nb, Ta
+(Li5La3Nb2O12 and Li5La3Ta2O12, Li5-garnet).5 The Li-ion
+conductivity of Li5-garnet is 10−6−10−5 S cm−1 at room
+temperature, which is far from practical application demand.6−9
+Four years later, Li7La3Zr2O12 (Li7-Garnet), with a room-
+temperature conductivity of 3 × 10−4 S cm−1, is reported by the
+same group.10 Ta-doped LLZO (Ta-LLZO) with conductivity
+∼1 × 10−3 cm−1 is reported by Li et al. in 2012, which shed light
+on the application of Li-Garnets in solid-state batteries.
+Therefore, numerous attempts on LLZO have been reported
+in recent years,11 focusing on the structure, doping, sintering,
+chemical stability/interfacial resistance against humidity/Li
+anode, and battery fabrication.
+However, obtaining dense LLZO ceramics with favorable
+conductivity remains a challenge. Huang et al. proposed a gas−
+liquid−solid sintering mechanism for Zr-site doped LLZO.12
+Similar to volatile Na2O in Na-β″-Al2O3, respectively, the Li2O/
+Li gas evaporates from LLZO bed powder to fulfill the sintering
+container, and then condenses to a liquid phase at the particle
+surfaces to enhance the material transportation between solid-
+phase raw grains.13,14 The key in the LLZO sintering is
+manipulating the highly reactive Li2O/Li gas atmosphere, which
+can be hardly restricted during high-temperature sintering
+followed by unsatisfactory Li-loss. Sustained efforts have been
+made to tackle the serious Li-loss issue. First, green pellets are
+Received:
+May 12, 2022
+Accepted:
+July 7, 2022
+Published: July 15, 2022
+Research Article
+www.acsami.org
+© 2022 American Chemical Society
+33340
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 2 页 ===
+usually buried in a large amount of mother powder with the same
+composition.10,15−22 Typically, the green body (1−10 g)
+contains 10%−15% excess Li (vs Li composition in chemical
+formula) and the mother powder (2−40 g) contains 10%−40%
+excess Li. Although the mother powder provides a rich Li2O/Li
+gas atmosphere during sintering and shrinks to be a tight
+container to inhibit the Li loss, the consumption of mother
+powders containing La or Ta/Ga elements is rather costly.
+Besides, pressure applied and sealed-chamber involved sintering
+techniques such as hot pressing, field-assisted sintering, and
+spark plasma sintering has been developed.23−29 Yet, costive
+equipment with chamber in regulated shapes is required, which
+is not suitable for thin tape-cast samples. Furthermore, Pt
+crucible has been adopted, which is softened at a high sintering
+temperature (>1100 °C) and reacts with Li2O and O2 gases to
+form adhesive LixPtOy compounds, affording a semi-sealed
+chamber inside the crucible.30 Also, Pt weaves was involved to
+separate the green bodies from the mother powder.12,31−33
+Although the mother powder can be inexpensive Li-containing
+compounds, such as LixZrOy or Nb doped LLZO,31 inevitable Pt
+loss substantially increases the cost. Typically, Pt crucible and
+weaves in total weight of 500 g would lose ∼40 g (8%) after
+150−200 times of sintering process in one year. Therefore,
+developing highly efficient but low-cost sintering strategy for
+LLZO is needed.
+Fortunately, the densification speed of LLZO is fast that dense
+ceramics can be obtained after sintering at 1250 °C for only 1
+min with a fast heating rate of 5 °C min−1.12 If the densification
+speed of LLZO is faster than that of Li loss in green bodies,
+ceramics can reach the final sintering stage without using the
+mother powder. Hu et al. developed a flash sintering method for
+LLZO ceramic densification in seconds,34−38 which can be
+realized without any external mother powder or Li source under
+ultrahigh heating speed and temperatures. However, the
+conductivity and relative density of the LLZO electrolyte by
+flash sintering require further optimization, compared to
+conventional solid-state reactions or hot pressing.39−41 Wen et
+al. provided a non-mother-powder sintering strategy using a
+small-volume MgO crucible and Pt support to decrease the
+serious Li loss and Pt loss.42 Dense Li6.4La3Zr1.4Ta0.6O12 samples
+were obtained inside Φ30 mm (diameter) × H 27 mm (height)
+MgO crucible with 10% excess Li inside the green body.
+However, Pt is still applied to separate the LLZO green pellet
+from the MgO crucible.43−45 On the other hand, the sintering
+behavior and mechanism in the conventional solid-state reaction
+preparation of LLZO or other ceramics containing volatile
+components is scarcely studied.46 In particular, the competition
+between densification speed and Li loss is the key issue in
+sintering LLZO via conventional methods, which requires more
+attention.
+This work aims to develop repeatable and reliable laboratory-
+scale ceramic preparation process platform for LLZO solid
+electrolytes containing volatile components. First, primary
+“pellet-on-gravel” sintering architecture without any Pt usage
+is demonstrated for sintering Ta-doped LLZO solid electrolytes.
+Second, in order to solve the poor consistency of LLZO
+ceramics prepared with pellet-on-gravel architecture, detailed
+study on the influence of particle size (surface energy), ramping
+rate (Li-loss amount before densification), weight of green pellet
+(initial excess Li2O amount), and temperature (thermal drive
+force) on the sintering results was conducted to understand the
+behavior of the competition between Li-loss from sintering
+system and internal grain densification. Third, optimized
+operation procedure including raw material mixing, cubic
+LLZO phase powder calcination, particle top-down tailoring,
+and green pellet sintering is provided for the preparation of
+dense LLZO ceramics based on the understanding of the
+sintering behavior and mechanism. Orthogonal experiments
+applying optimized process platform for Ta-doped LLZO with
+0−3 wt % La2Zr2O7 additives sintered at 1320−1220 °C are
+conducted to determine the best composition and sintering
+conditions. Finally, Li−Li symmetric and Li−S cells are
+fabricated to evaluate the electrochemical application of Ta-
+LLZO ceramics produced on a laboratory scale.
+2. EXPERIMENTAL SECTION
+2.1. Powders. Ta-LLZO, Nb-LLZO, and La2Zr2O7 (LZO)
+powders were prepared via a conventional solid-state reaction method.
+Taking Li6.5La3Zr2Ta0.5O12 with 10% excess Li (Ta5Li10) as an
+example, starting precursors (200 g in total, as-designed product 160 g)
+of LiOH·H2O (Aladdin, AR, 98%, 10% excess), La2O3 (SCRC, AR,
+99.95%), ZrO2 (Aladdin, AR, 99%), and Ta2O5 (Aladdin, AR, 99.5%)
+were planetary-milled (MITR, Model YXQM-8L) with the stochio-
+metric ratio inside a nylon tank (MITR, Model MC-1L, internal
+dimensions Φ 11 cm × H 10 cm) at 200 rpm (revolution speed,
+rotation speed = 400 rpm) for 8 h, during which 700 g of yttrium-
+stabilized ZrO2 (YSZ) balls (Φ 10 mm 100 g + Φ 5 mm 600 g) were
+used as the milling media and 300 g isopropanol (IPA) was applied as
+the solvent. The resulting viscous slurry was dried at 55−65 °C for 12 h
+and the dried powder was sieved over 20 grit. 80 g of as-sieved raw
+powder were calcinated at 950 °C for 6 h with 2 °C min−1 heating rate in
+a Al2O3 crucible (Φ 8 cm × H 8 cm) without lid for facile evaporation of
+solvents and H2O gas. As-synthesized Ta5Li10 powder were sieved
+over 80 grit and restored in polypropylene bottles. Detailed preparation
+procedure for Ta5Li6 (Li6.5La3Zr2Ta0.5O12 with 6% excess Li),
+Nb5Li15, and LZO can be found in section SI_0.1 in the Supporting
+Information.
+2.2. Gravels. The detailed preparation of MgO lid for MgO crucible
+is available in Figure S1 and section SI_0.2 in the Supporting
+Information. Six grams (6 g) of Nb5Li15 was put in a new MgO crucible
+(internal dimensions of Φ 26 mm × H 33 mm) and then sintered at
+1280−1340 °C for 20−120 min and sealed with MgO lid. As shown in
+Figure S2b in the Supporting Information, the powder was densified to
+a block after sintering. The block was crashed by agate mortar and
+pestle, and then sieved over 20 grits and 80 grits, respectively. Particles
+in sizes smaller than 80 grit were collected and denoted as Gravel_80,
+which were used as fine particles to separate stacked green pellets.
+Particles in sizes >80 grit and <20 grit are collected and denoted as
+Gravel_20, which were used as coarse particles to separate green pellets
+from the bottom of the MgO crucible.
+2.3. Ceramics: Consistency Test. Four batches of 20 g Ta5Li10
+powder (prepared in section 2.1) added with 2 wt % LZO (denoted as
+Ta5Li10L2) and 60 g of IPA were ball-milled (3SP2) at 125 rpm
+(revolution) for 12 h inside MC-500 mL nylon tank. Four slurries were
+dried at 60 °C for 6 h and then sieved over 200 grit. Three grams (3 g)
+and 2 g of fine powder was pressed into Φ 19 mm pellets at 5 tons (170
+MPa) and Φ 13 mm pellets at 3 tons (220 MPa), respectively, which
+were denoted as Φ 19_1−4 and Φ 13_1−4, respectively. Nb5Li15
+gravels applied in this section were particles only sieved over P20 grit.
+These pellets were sintered upon gravel inside a MgO crucible at 1340
+°C for 2, 10, and 20 min in a box furnace (Model NBD-M1500−12IT).
+The relative density and Li+ conductivity of these pellets was tested to
+evaluate the consistency of powder preparation and ceramic sintering
+procedures.
+The detailed experiments of studying the influences of particle size,
+heating rate, weight, and optimizing the preparation craft for
+Ta5Li10L0−3 can be found in section SI_0.4−0.7 in the Supporting
+Information.
+2.4. Batteries and Characterization. The detailed assembly
+procedures and characterizations of Li−Li/Li-S batteries based on
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33341
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 3 页 ===
+optimized Ta5Li10L2 ceramics can be found in section SI_0.8−0.9 in
+the Supporting Information.
+3. RESULTS AND DISCUSSION
+3.1. Primary Pellet-on-Gravel Sintering Architecture
+and Poor Consistency of Obtained Ceramic Pellets.
+Figure 1a shows the sintering architecture. The phase of
+Nb5Li15 bed powder is cubic LLZO, as shown in Figure S2(a)
+in the Supporting Information. The new MgO crucibles are
+pretreated with 6 g of Nb5Li15 powder at 1280−1340 °C for
+20−120 min to saturate the trace amount impurity materials
+such as Al2O3 and SiO2 on the internal surfaces. Gravel_20
+crashed from sintered Nb5Li15 block (Figure S2(b) in the
+Supporting Information) contains much less Li2O/Li than
+pristine Nb5Li15 powder, exhibiting no shrinkage after further
+sintering with Ta5Li10L2 green pellets. This readily avoids
+curvature of ceramic pellets after sintering. Only one green pellet
+was placed in one MgO crucible, to avoid the undesired
+adhesion of stacked pellets after sintering. In this primary
+architecture, the bottom of the upper crucible was used as the lid
+upon the lower one. Therefore, the preparation of LLZO
+ceramics can be achieved by employing the multilayer stacks of
+MgO crucibles inside the box furnace. Despite the fact that the
+MgO crucible requires new substitute ones after several tens of
+sintering, because of the inevitable rupture with the presence of
+Li2O (Li+ penetration in MgO lattice: Li2O →2LiMg
+′
++ VO
+••)47
+and moisture, the sintering cost can be significantly reduced in
+comparation with Pt crucibles.
+However, the consistency of as-sintered Ta5Li10L2 pellets
+was unsatisfactory (see Figure 1b, as well as Figure S3 in the
+Supporting Information). Φ19 and Φ13 pellets sintered at 1340
+°C for 10 min both delivered various colors in terms of
+appearance. Brown areas might be attributed to the residual Li-
+containing compounds at LLZO grain boundaries.48 White
+areas might be related to the Li-exhaust at grains and grain
+boundaries. Hence, the spatial distribution of the Li2O/Li
+atmosphere inside green pellets was different in each MgO
+crucible. Nyquist plots also varied for these parallel ceramic
+pellets (see Figure S4 in the Supporting Information). Relative
+densities and Li+ conductivities of Ta5Li10L2 ceramics sintered
+at 1340 °C for 2, 10, and 20 min deliver a certain dispersion, as
+shown in Figures 1c and 1d and Table 1, which further indicate
+the poor consistency. Therefore, detailed study on the sintering
+behavior is highly desired to optimize the primary craft
+procedure and sintering architecture.
+Figure 1. Primary pellet-on-gravel sintering method and poor consistency of as-obtained LLZO ceramics without any optimization: (a) the pellet-on-
+gravel sintering architecture, (b) appearance of Ta5Li10 pellets with original green pellet sizes of 19 and 13 mm sintered at 1340 °C for 10 min (a
+significant color difference is observed for parallel samples), (c) relative densities of parallel pellets, and (d) Li+ conductivities of parallel pellets.
+Table 1. Statistic Data for Relative Density (RD) and
+Conductivity (σLi) Values of Ceramic Samples
+Φ19 and Φ13 Green Pellets
+parameter
+@1340 °C ×
+2 min
+@1340 °C ×
+10 min
+@1340 °C ×
+20 min
+mean relative density
+94.7%
+95.2%
+95.6%
+mean porosity
+5.3%
+4.8%
+4.4%
+SDa of RD and porosity
+0.92%
+0.80%
+0.78%
+SDa of mean porosity
+17.2%
+16.8%
+17.9%
+mean of σLi
+(× 10−4 S cm−1)
+7.15
+7.28
+7.53
+SDa of σLi
+(×10−4 S cm−1)
+0.33
+0.79
+0.57
+SDa of the mean σLi
+4.6%
+10.9%
+7.6%
+aSD = standard deviation.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33342
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 4 页 ===
+3.2. Competition between Li Loss and Densification.
+The vapor pressure of gaseous Li2O and Li at high temperature
+in vacuum is estimated to be the order of 1−10 Pa (Table 2),
+according to the Clapeyron equations (eqs 1−3). This is
+determined by Knudsen cell test of the sublimation and
+decomposition reactions of Li2O (eqs 4 and 5).49,50 In addition,
+Li loss from Schottky-type vacancies in the LLZO lattice also
+exist during high-temperature sintering (eq 6).
+=
+×
++
+P
+T
+log
+19.86
+1000
+13.09
+10
+Li O
+2
+(1)
+=
+×
++
+P
+T
+log
+18.81
+1000
+12.36
+10
+Li
+(2)
+=
+×
++
+P
+T
+log
+17.22
+1000
+11.0
+10
+O2
+(3)
+s
+g
+Li O( )
+Li O( )
+2
+2
+(4)
++
+s
+g
+g
+Li O( )
+Li( )
+O ( )
+2
+2
+(5)
++
++
+s
+s
+x
+g
+x
+g
+Li La Zr O ( )
+Li
+La Zr O
+( )
+2 Li( )
+2 O ( )
+x
+x
+7
+3
+2
+12
+7
+2
+3
+2
+12
+2
+(6)
+The O2 atmosphere effectively suppresses the “Li-loss” problem,
+as reported in the published literature.51,52 The main escaping
+composition from the semiopen MgO crucible with MgO lid is
+suggested to be Li and Li2O gases (see Scheme 1), which is soon
+exhausted after its reaction with the Al2O3 substrate and the
+Al2O3 refractory brick/inner-wall inside the box furnace. On the
+other hand, the Li2O/Li gas among the raw grains inside the
+green pellet is the key sintering aid for the densification of
+LLZO.12 Hence, the successful preparation of LLZO ceramic is
+highly dependent on the competition between the densification
+against Li-loss. If the densification is faster than Li loss, namely,
+the green pellet reaches the final sintering stage before
+substantial Li-loss occurs, a densified LLZO ceramic with high
+conductivity can be obtained. Otherwise, the LLZO green pellet
+only reaches the intermediate sintering stage.
+3.2.1. Influence of Particle Size and Sintering Temperature.
+Figure 2 systematically demonstrates the impact of particle size
+(surface energy) and sintering temperature on the sintering
+results of Ta5Li6 ceramic pellets. As shown in Figure S5 in the
+Supporting Information, bimodal size distributions of Ta5Li6
+powders milled for short durations (20 min and 1 h) are
+obtained with peaks at 0.7 and 7 μm. With prolonged milling
+durations of 3 and 9 h, three peaks at 0.2, 0.7, and 2 μm can be
+observed. Accordingly, the particle size of D10 and D50 sharply
+decrease as the milling time increases from 20 min to 3 h, and
+then remain constant for longer durations, while D90 displays
+consistently decreasing particle size as the duration prolonged
+(Figure 2a). The evolution of D50 and D90 is consistent with
+particle morphology at the cross sections of green pellets (Figure
+2b), where big particles were gradually crashed into smaller ones
+(Figure S6 in the Supporting Information). Specific surface areas
+calculated according to laser granularity distributions for Ta5Li6
+particles were 0.878, 1.27, 3.24, and 3.29 m2 g−1 after milling
+process for durations of 20 min, 1 h, 3 h, and 9 h, respectively.
+Surface area is determined by the ratio of small particles, which
+corresponds to D10 and D50. Larger surface area provides
+higher surface energy during sintering, resulting in promoted
+densification of Ta5Li6. Appearance and cross-sectional images
+of as-sintered Ta5Li6 pellets clearly demonstrate increased
+densification speed for powders with larger surface area (Figure
+2c−e). As the specific surface area increases after 20 min, 1 h,
+and 3 h of milling, ceramics sintered at 1200 °C deliver white to
+brown color variations. When the temperature increases from
+1200 °C to 1340 °C, Ta5Li6 milled for 20 min delivers white to
+dark brown colors. In the case of the powders milled for 9 h and
+Table 2. Calculated Vapor Pressures of Li2O, Li, and O2 for
+Li2O Solid in Vacuum at Typical Temperature Points
+According to eqs 1−3
+temperature
+(°C)
+comments
+Li2O (gas,
+Pa)
+Li (gas,
+Pa)
+O2 (gas,
+Pa)
+1250
+typical ceramic
+sintering
+1.12
+1.02
+0.49
+950
+typical powder
+calcination
+7.1 × 10−4
+9.6 ×
+10−4
+8.3 ×
+10−4
+1438
+Li2O melting point
+30.4
+23.3
+8.6
+Scheme 1. Competition between “Li Loss” and “Densification”a
+aFaster Li loss results in loose grain boundaries. Fortunately, the densification of LLZO can be fast enough so that ceramic sintering can reach the
+final stage before Li is exhausted under optimized conditions.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33343
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 5 页 ===
+3 h with similar surface area, as-sintered ceramics deliver similar
+appearances. According to the cross-sectional view, rough
+surface with noncrystallized glassy species as well as plenty of
+pores are observed for 20 min sample sintered at 1200 °C
+(Figure 2d). While the 1 h sample just reaches the final sintering
+stage with loose grain boundaries and fewer pores, the 3 h
+sample has been fully densified with tight grain boundaries.
+However, abnormal grain growth (AGG) occurs in the 9 h
+sample. As for 20 min to 9 h samples sintered at elevated
+temperatures of 1280 and 1340 °C (Figures S7 and S8 in the
+Supporting Information), 1−9 h samples all reach the final
+sintering stage with similar cross-sectional microstructures. As
+shown in Figure 2e, somewhat rough grain surfaces are observed
+for the 20 min sample sintered at 1280 °C, which becomes
+smooth with tight grain boundaries at an elevated sintering
+temperature of 1340 °C. All ceramics are indexed to cubic LLZO
+phase with negligible impurities (see Figure 2f, as well as Figure
+S9 in the Supporting Information). On the other hand, striking
+differences should be taken into account based on Nyquist plots
+of ceramic pellets sintered at 1200 °C for 20 min and 1 h samples
+Figure 2. Influence of surface energy and sintering temperature. (a) Particle size of Ta5Li6 powders ball-milled at low-energy rotation speed for 20
+min, 1 h, 3 h, and 9 h (smaller particles provide higher surface energy during sintering process, increasing the densification speed). (b) Cross-sectional
+SEM images of green pellets compressed from Ta5Li10 powders with prolonged milling duration. (c) Appearance of Ta5Li10 ceramics sintered at
+elevated temperatures. Higher temperature dramatically increases the thermal drive force for densification. (d) Cross-sectional microstructures, (f)
+PXRD patterns, and (g) Nyquist plots (25 °C, normalized to diameter and thickness. Fitting data: Table S1 in the Supporting Information of Ta5Li6
+pellets sintered at 1200 °C for 4 h. (e) Cross-sectional microstructures of 20 min sample sintered at 1280 and 1340 °C. (h) Li+ conductivities (25 °C)
+and relative densities of all Ta5Li6 ceramic samples.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33344
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 6 页 ===
+(Figure 2g). Specifically, the frequencies of inflection points
+before diffusion tail increase from 800 Hz to 63.1 kHz with a
+stark decrease in the total impedance from 47 kΩ cm to 1.7 kΩ
+cm. Overlapped Nyquist plots of 3 and 9 h ceramics display a
+total impedance which further decreases to 1.5 kΩ·cm.
+Furthermore, ceramics sintered at 1280 °C show similar
+decreasing trend in total impedance for 20 min−9 h samples,
+while samples sintered at 1340 °C deliver almost identical
+Nyquist plots (Figure S10 in the Supporting Information).
+Figure 2h summarizes the conductivities and relative densities of
+ceramics against milling duration. Conductivity as well as
+relative density increases as the milling duration is prolonged for
+samples sintered at 1200 and 1280 °C, reaching a stable state
+after 3 h of milling. However, no difference is noticed for all
+samples prepared at the ultrahigh temperature of 1340 °C.
+The Gravel_20 and Gravel_80 applied in this experiment had
+been used 5−10 times to evaporate all excess volatile Li-
+containing compounds to diminish the influence of external Li
+source. In addition, the same MgO crucible with the same Li-
+exhausted gravels was applied in three sintering experiments
+under different conditions. Specifically, the 20 min, 1 h, 3 h, and
+9 h green pellets were stacked sequentially upon the Gravel_20
+using Li-exhausted Gravel_80 as the separator. Hence, the
+excess Li2O inside this setup is critically controlled at the same
+level for all green pellets sintered at 1200−1340 °C, ensuring
+constant Li-loss under specific sintering conditions. Meanwhile,
+densification speed is mainly determined by the surface energy
+of particles and applied sintering temperature. At a low
+temperature of 1200 °C, as the surface area increases from 20
+min to 3 h powders, the densification speed gradually surpasses
+that of the constant Li loss, yielding densified LLZO (6.5 × 10−4
+S cm−1, 92%) for the 3 h sample. Besides, the 9 h ceramic pellet
+delivers almost the same performance, as the surface area is
+almost identical to the 3 h one. Once the particle sizes are
+tailored down below the “threshold”, in other words, surface
+energy increases upon the “critical value”, LLZO ceramics can be
+densified before the Li exhaust. On the other hand, the 20 min
+powder in low surface area can be densified at an ultrahigh
+temperature of 1340 °C. Although both Li-loss and densification
+are accelerated with the increasing temperature, the acceleration
+amplitude for densification is larger than Li-loss. This behavior is
+the key for the rapid ultrahigh-temperature sintering strategy in
+the reported literature.27,43,44 Highly reactive liquid-phase
+material can strongly favor the densification of traditional
+structural
+ceramics.53,54
+The
+melting
+point
+for
+Li6.5La3Zr1.5Ta0.5O12 with 10% excess Li is estimated near
+1400 °C, according to the presence of bubbles in a pellet
+sintered at 1400 °C. The transportation of liquid and solid
+materials among raw grains is starkly accelerated at ultrahigh
+temperature, resulting in much faster densification than the Li
+loss.
+3.2.2. Influence of Ramping Rate. Pellets deliver a gradual
+color change from white to dark brown (Figure 3a), which is
+caused by shortening the heating duration and increasing the
+amount of Li2O residual at grain boundaries. The cross-section
+of 30 °C h−1 sample contains lots of pores and polyhedral small
+Figure 3. Influence of the amount of Li loss. (a) Appearance and cross-sectional microstructures of Ta5Li10 ceramics with sintering conditions of 5 °C
+min−1 to 1000 °C, then 30−480 °C h−1 to 1240 °C for 1 h. Slow heating rate between 1000 and 1240 °C increases the Li2O/Li dissipation from MgO
+crucible. (b, c) Normalized Nyquist plots (fitting data given in Table S2 in the Supporting Information), (d) Li+ conductivities (25 °C) and relative
+densities of Ta5Li10 ceramics sintered with a ramping rate of 30−480 °C h−1 from 1000 °C to 1240 °C.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33345
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 7 页 ===
+particles at the grain boundaries (see magnified SEM images in
+Figure S11 in the Supporting Information). All ceramics are
+cubic LLZO without detectable impurity phases (Figure S12 in
+the Supporting Information). The small polyhedrons at grain
+boundaries might be Li-deficient LLZO particles, which cannot
+be densified with prolonged heating. Lots of isolated pores are
+observed for the 40 and 60 °C h−1 samples. No obvious
+differences in the cross sections are observed for the ceramic
+pellets sintered with heating rates higher than 80 °C h−1.
+Nyquist plots for all ceramics contain a semicircle corresponding
+to grain boundaries and a tail related to blocking Ag electrode
+(Figures 3b and 3c). The frequencies of inflection point change
+from 500 kHz to 0.5 kHz for pellets sintered with a ramping rate
+from 30 to 80 °C h−1, indicating faster Li+ transport across the
+grain boundaries. Accordingly, the Li+ conductivities of Ta5Li10
+pellets significantly increase from ∼10−5 S cm−1 at 30 °C h−1,
+reaching the peak value of 6.92 × 10−4 S cm−1 at 80 °C h−1 with
+slight variations at further increased ramping rate (Figure 3d). A
+similar trend for relative density of samples was also observed.
+The gravels applied in this experiment were Li-exhausted. The
+same MgO crucible with the same gravel was used. Two
+Ta5Li10 green pellets were stacked for each sintering experi-
+ments. The Ta5Li10 powders were ball-milled for 9 h to achieve
+the desirable surface energy of particles. Since the heating
+duration from 1000 °C to 1240 °C is longer, the amount of Li
+loss for the specific sintering crucible with two green pellets will
+be larger. The densification speed is mainly determined by the
+final sintering temperature, and, hence, remains almost constant
+in these experiments. Low heating rate leads to plenty of Li-loss
+during the ramping process, resulting in poor densification for
+Ta5Li10 ceramics with a ramping rate of 30−40 °C h−1. In
+comparison, the high rate sharply diminishes the Li-loss and
+results in good densification. As for the sintering of Al2O3 and
+ZrB2−SiC-Yb2O3 traditional structural ceramics without any
+volatile compounds, a lower heating rate results in better
+densification.55,56 In comparison, a higher heating rate favors
+densifying lead zirconate titanate (PZT) ceramics with PbO
+volatilization.57 In the case of LLZO, Li2O/Li gas is provided by
+the internal excess Li source within LLZO raw particles and
+external bed powder below the green pellets. When the heating
+rate is too low, LLZO fails to reach the final densification stage.
+When the rate is too high, Li2O/Li gas provided by the excess Li
+source among LLZO grains will condense to Li-rich compounds
+at grain boundaries after sintering, thus decreasing the relative
+density and conductivity of LLZO (Figure 3d). A balance
+between adjusting heating rate for controlling the competition of
+Li loss and densification speed should be well-addressed.
+3.2.3. Influence of Initial Amount of Excess Li Source in the
+Sintering System. Ta5Li10 pellets in weights of 1−3 g are all
+densified in tan color after sintering using a heating rate of 8 °C
+min−1, while they deliver loose to tight grain boundaries with
+white to tan colors in appearance using 0.5 °C min−1 (see Figure
+Figure 4. Influence of excess Li2O amount. (a) Appearances of Ta5Li10/6 samples in 1.0−3.0 g weights sintered under fast/slow ramping conditions.
+Heavier green pellets provide more excess Li2O for evaporation during high temperature sintering. (b) (c) Cross-sectional SEM images, (d) (e)
+Normalized Nyquist plots (fitting circuit: Rg(RgbQgb)(RelQel); Fitting data given from Table S3 in the Supporting Information), (f) Li+ conductivities
+(25 °C) and relative densities of Ta5Li10 pellets in 1−3 g sintered at fast/slow (8/0.5 °C min−1) heating conditions.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33346
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 8 页 ===
+4a−c, as well as Figures S13 and S14 in the Supporting
+Information). As for Ta5Li6 with less excess Li source, all pellets
+are tan-colored with dense cross sections after high-heating-rate
+sintering (8 °C min−1; see Figure 4a, as well as Figure S15 in the
+Supporting Information). However, most Ta5Li6 pellets are
+white and the 2 g sample is cracked after low-heating-rate
+sintering (0.5 °C min−1, Figure S16 in the Supporting
+Information), which is related to the exhaust of Li2O/Li gas
+inside the ceramic. All ceramic samples are cubic LLZO phase,
+according to XRD analysis (Figure S17 in the Supporting
+Information). The total impedance of Ta5Li10 pellets sintered
+at 0.5 °C min−1 gradually decreases from 10 MΩ cm, to 25 kΩ
+cm, to 1.3 kΩ cm for sample weights of 1−3 g (see Figures 4d
+and 4e), corresponding to the gradually densified cross-sectional
+microstructures as shown in Figure 4c. In contrast, Nyquist plots
+of the Ta5Li10 pellets sintered at 8 °C min−1 are similar to each
+other and the total impedance gradually decreases as the weight
+increases except for the 3 g sample, which shows a slightly larger
+total impedance (Figure S18a in the Supporting Information).
+Ta5Li6 in sample weights of 1−3 g sintered at a high heating rate
+show almost overlapped Nyquist plots (Figure S18b in the
+Supporting Information), while Ta5Li6 samples sintered at a
+low rate show sharply decreasing total impedance (Figures
+S18(c) and S18(d) in the Supporting Information). Calculated
+relative densities and conductivities of Ta5Li10/6 ceramics
+sintered at 0.5 °C min−1 both deliver an increasing trend as the
+weight of green pellets increases (see Figure 4f, as well as Figure
+S19 in the Supporting Information). 2 g and 3 g samples are
+required for densifying individual Ta5Li10 and Ta5Li6 green
+pellet inside MgO crucibles with a low heating rate, respectively.
+Importantly, high heating rate eliminates the weight difference
+for densifying Ta5Li10/6 green pellets, whose relative densities
+and conductivities thereof are similar to each other.
+A single Ta5Li10/6 green pellet in sample weight of 1−3 g
+was set upon the exhausted gravels for excluding other external
+Li sources. Five MgO crucibles with the same sintering behavior
+were rationally selected. The initial excess amount of Li source is
+determined by the weight of green pellet with a specific
+composition. The volume of MgO is ∼7.2 mL, and the
+calculated excess Li2O inside the 1 g Ta5Li10 pellet is ca. 10.1
+mg (0.367 mmol). Assuming that all the excess Li2O is
+transferred to an ideal gas inside the perfectly sealed MgO
+crucible; the vapor pressure of the corresponding Li2O gas is
+estimated to be ca. 590 kPa at a high temperature of 1120 °C
+inside the sintering system, according to the equation
+=
+pV
+n T
+R
+where p is the gas pressure (Pa), V the volume (m3), n the
+number of moles (mol) present, R the universal gas constant (R
+= 8.314 J mol−1 K−1), and T the temperature (K). This value is
+much higher than the actual pressure (<1 Pa) calculated from eq
+1. The excess Li2O amount is sufficient to densify the 1 g
+Ta5Li10/6 pellet under high-heating-rate sintering. Unfortu-
+nately, the MgO crucible with a MgO lid is a semi-open system
+where the Li2O/Li gas escapes from the 7.2 mL volume during
+high-temperature sintering. As a result, 1 g Ta5Li10 green pellet
+fails to reach the final stage given a slow 480 min ramping. The
+amount of escaped Li2O/Li gas in the 480 min heating process
+from the specific 7.2 mL MgO crucible should be a constant.
+The heavier the green pellet inside the 7.2 mL MgO crucible, the
+more residual Li2O/Li gas is present when reaching the
+densification temperature of 1240 °C. The “just enough” weight
+for Ta5Li10 and Ta5Li6 was 2 and 2.5 g, respectively, which
+delivered relative densities of >90% and conductivities >6 ×
+10−4 S cm−1. Specifically, the excess Li2O in the 2 g Ta5Li10
+sample is 0.734 mmol, which is similar to the value in the 2.5 g
+Ta5Li6 sample (0.552 mmol). In addition, the initial amount of
+excess Li2O can be elevated by stacking green pellets inside one
+crucible, which is equivalent to increasing the weight of single
+green pellet.
+3.2.4. Summary: Key Parameters in Practical LLZO
+Sintering. Table 3 summaries the main factors influencing the
+Li-loss and densification during LLZO sintering. Since a larger
+MgO crucible volume would result in more-severe Li-loss,42 a
+MgO crucible with internal dimensions of Φ20 × 23 mm (7.2
+mL) is applied in this section. Although smaller particle sizes
+shall provide increased surface area and energy for grain
+densification, the Li-loss during sintering is hardly affected. Both
+higher sintering temperature and longer sintering duration bring
+accelerated Li-loss and favor the densification process. On the
+other hand, fast heating rate would inhibit the Li-loss while the
+densification speed of LLZO is mainly determined by
+temperature. Besides, the presence of initial excess Li
+compounds inside green pellet and external gravels can also
+effectively delay the exhaust of Li2O, and thus promote the
+densification.
+The sintering result is determined by the competition
+between Li-loss and densification, which is influenced by a
+series of parameters. Herein, three key parameters for densifying
+LLZO should be noted. The first one is the particle size
+distribution, which is related to the surface energy. Fine powder
+provides high activity during sintering, promoting the
+densification over Li-loss effectively. The second one is the
+volume of MgO crucible, specifically, the cross-sectional area
+parallel to the bottom and the height. Apparently, less slit
+between crucible and lid, together with longer stroke from the
+bottom to the slit, shall contribute to delayed Li-loss. However,
+Al2O3, SiO2 and other reactive impurities can be easily
+diminished by sintering Nb5Li15 powder at high temperatures,
+which eliminates the quality variation concerning MgO crucibles
+provided by different suppliers. The third one is the initial total
+amount of excess Li2O inside the sintering container. Li2O is
+provided by all the stacked green pellets and the Gravel_20 at
+the bottom, which contain Li2O, LiOH, Li2CO3, LiOH·H2O, or
+other Li-rich compounds. Apart from the above three
+parameters, the sintering condition concerning temperature
+and heating rate is also important, which can be easily controlled
+in practical experiments. Nevertheless, dense LLZO ceramics
+can be repeatably prepared in laboratory scale by addressing the
+five parameters discussed above.
+3.3. The Laboratory-Scale Production Craft Platform
+and Optimizing the Performance of Ta-LLZO. An example
+Table 3. Influences of Factors on the Li Loss and
+Densification during Sintering Inside MgO Crucible.a
+Correlation
+factor
+Li loss
+dense
+suggestion
+crucible volume
++
+N
+slender small
+particle size
+N
+−
+D90 = 1.1−2.0 μm
+temperature
++
++
+1260−1320 °C
+heating rate
+−
+N
+3−8 °C min−1
+primary excess Li
+−
++
+moderate
+sintering duration
++
++
+1−30 min
+aLegend: (+) positive, (−) negative, and (N) none.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33347
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 9 页 ===
+of laboratory-scale production craft for preparing Ta-LLZO
+solid electrolyte is shown in Figures 5a and 5b, analyzed in Table
+4 and demonstrated in Figures S20−S22 in the Supporting
+Information. To begin with, homogeneous mixing of multiple
+raw reagents is required with big particles smashed under ball
+milling (S1). The IPA solvent should be anhydrous to avoid the
+dissolution of LiOH·H2O in H2O. A yogurt-like slurry is
+obtained after milling, which can be further transformed to big
+blocks after drying (S2), as shown in Figure S20. Ta5Li10
+powder precursors (∼100 g) were then calcinated (S3) in open
+Al2O3 crucibles without lids (Figure S21). In brief, LiOH·H2O
+decomposes to LiOH at ∼100 °C, and LiOH decomposes to
+Li2O above 475 °C. Meanwhile, La2O3 and ZrO2 react to
+generate La2Zr2O7 at 500−800 °C, followed by further reaction
+with Li2O-containing melts to form cubic LLZO.58−60
+Importantly, gas or liquid H2O residues within precursors
+would hamper the reaction between La2Zr2O7 and Li2O melts to
+yield Li6.5La3Zr1.5Ta0.5O12. Therefore, an open crucible enables
+the fast exhaust of H2O gas, promoting the formation of cubic
+LLZO phase (see Figure S24 in the Supporting Information). In
+terms of the particle size tailoring (S4) and second slurry drying
+(S5) process, moisture should also be carefully avoided. A
+cheeselike slurry is obtained after tailoring and the dried powder
+agglomerate into small polygons (Figure S22). Rational tailoring
+Figure 5. Optimization in process, sintering architecture, composition, and conditions for high-quality LLZO preparation. (a) Typical preparation
+process for LLZO. (b) Optimized sintering architecture. (c) Phases of key precursor materials. (d) Appearance, (e) phases, (f) cross-sectional
+microstructures, and (g) relative densities and conductivities (25 °C) of Ta5Li10L0−3 ceramics sintered at 1320−1220 °C for 20 min.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33348
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 10 页 ===
+of Ta5Li10 particles with proper surface area shall benefit the
+pressing of green pellets and ceramic sintering. As a result, the
+D90 is usually controlled in the range of 1.1−2.0 μm in our case,
+while further tailoring particles into nanoscale D90 is not
+desired. Finally, green pellets are stacked inside MgO crucibles
+and sintered with MgO lid (S6).
+Figure 5b demonstrates the pellet sintering procedure (S6) in
+detail. The Nb5Li15 coarse gravels (Gravel_20) are set upon the
+bottom of MgO crucible and can be reused tens of times. After
+placing one green pellet on the bottom Gravel_20, fine grits
+(Gravel_80) are scattered upon the upside surface of the green
+pellet, followed by the repeated stacking of rest pellets.
+Afterward, the MgO crucible sealed with a MgO lid is sintered
+at high temperature. Obtained ceramic pellets can be easily
+separated by lancet due to the loose contact between Li-
+exhausted Gravel_80 and ceramics. Otherwise, ceramics will
+attach to each other without Gravel_80. In comparison to the
+initial sintering strategy as shown in Figure 1, where only one
+ceramic pellet is sintered inside one crucible, this optimized
+method enables the sintering of up to 8 pellets (2 mm thickness)
+inside one MgO crucible (23 mm height). This lab-scale
+production craft platform is also applicable for LLZO solid
+electrolytes with other compositions and alkali ion solid
+electrolytes (e.g., Na-β″-Al2O3) containing volatile components.
+Pure-phase La2Zr2O7 with good crystallinity was synthesized
+according to XRD analysis (Figure 5c). Importantly, Ta2O5 with
+good crystallinity is hard to smash during the mixing step (S1),
+giving rise to the existence of La2Zr2O7 and Li2ZrO3 impurity
+phases in as-calcinated Ta5Li10 powder (Figure S23 in the
+Supporting Information). In contrast, Ta5Li10 powder by
+employing weak crystallized Ta2O5 as precursor contains mainly
+LLZO phase without any detectable impurities (Figure 5d and
+Figure S24 in the Supporting Information). The particle
+morphologies of tailored Ta5Li10L0−3 are all in irregular
+shapes (Figure S25 in the Supporting Information), exhibiting
+average and maximum sizes of ca. 0.5 and 2 μm, respectively
+(Figure S26 in the Supporting Information). Particle sizes are in
+the optimum range that favors the pressing of green pellets as
+well as ceramic sintering (D90 = 1.1−2.0 μm). As shown in
+Figure 5e, AGG becomes severe in ceramics sintered at high
+temperatures of 1320 and 1300 °C as the amount of LZO
+increases with the aid effect of La2Zr2O7.59 The color of ceramics
+becomes lighter as the sintering temperature decreases and the
+amount of LZO increases. As the darkening of Ta-LLZO might
+be ascribed to the presence of defects in lattice and Li-rich
+residues at the grain boundaries,12,48 the lighter color would
+therefore result from the consumption of residues by LZO. All
+the ceramics were cubic LLZO phase despite varied LZO
+Table 4. Detailed Parameters of the Preparation Procedure for Ta-Doped LLZO Solid Electrolyte (Powder →Ceramic)
+parameter
+details
+designed
+composition
+Li6.5La3Zr1.5Ta0.5O12 with 10% excess Li
+additive
+La2Zr2O7
+reagent quotes
+La2O3: > 3.5N, primary particle size (PPS) ≈3 μm,a e.g., SCRC 52003866; Ta2O5: > 2.5N, PPS 100−500 nm, weak crystallinity,b e.g., Aladdin
+T104746; ZrO2: > 2N, PPS 50−100 nm),c e.g., SCRC 20046619; LiOH·H2O: > 98%,d e.g. Aladdin L104907
+tank material and
+inner dimensions
+Nylon,e A, ∼Φ110 (rtank) × H100 mm, 1 L
+grinding media
+YSZ, Φ10 mm × 100 g, Φ5 mm × 600 gf (mmedia)
+planetary milling
+machine
+MITR Co., Ltd., YXQM-8L. main disk, Φ420 mmg (rmd)
+mixing weight
+∼202 g (mmater) @300 g IPA
+revolution/rotation
+(mixing)
+180/360 rpm × 8 hg (ωre/ωro× t)
+drying (mixing)
+55 °C × 12 h
+loading in Φ80 ×
+H80 mm Al2O3
+100 gh
+calcination
+open crucible,h 2 °C min−1, 950 °C × 6 h
+tailoring weight
+40 g Ta5Li6 + 0.8 g La2Zr2O7, 120 g IPAi
+revolution/rotation
+(tailoring)
+120/240 rpm × 6 hi (ωre/ωro× t)
+drying (tailoring)
+55 °C × 6 h
+sieving
+200 grit, stainless steel screen mesh
+formation
+Φ16 mm, 1.5−2.0 g, 3 tons (∼150 MPa)
+bed and separator
+powders
+Li-exhausted Li6.5La3Zr1.5Nb0.5O12, (1280−1320 °C > 3 times)j
+sintering
+Φ25 × H28 mm MgO crucible and lid, 6−8 pcs stack, 5 °C min−1, 1300 °C × 20 min
+aLa2O3 does not influence the crystallization behavior of LLZO powders; however, it does strongly affect the sintering results. Low-purity La2O3
+still results in pure cubic phase, but in poor sintered ceramics with low relative density and conductivity. bTa2O5 strongly affects the powder
+crystallization and ceramic sintering. High-purity strong crystallinity Ta2O5 result in impurity phases in powder and ceramic (see Figure 23 in the
+Supporting Information). cZrO2 is applied in industry in tremendous scale for >20 years. Low-cost monoclinic phase ZrO2 via wet chemical route is
+enough. dLiOH·H2O was provided by a few suppliers, such as Adams, which resulted in low sintering activity. eHard Nylon with high rigidity
+provides more elastic impacting during milling, which shows more efficiency than that of soft PTFE, polyurethane tanks. f500 mL nylon tank needs
+half beads. gThe linear velocity of beads is largely affected by the diameter of main disk and the speed. The total milling energy (efficiency) can be
+experiencedly described as E ∝A × (ωrermd)2 × (ωro rtank)2 × t × mmedia/mmater. hThe evaporation of IPA, H2O, CO2 is affected by the filling rate in
+the crucible and the ventilation rate of the box furnace. These byproducts delay the reaction of the main phase. iLow filling rate and low speed in
+tailoring enables uniform particle sizes distribution, which benefits the sintering. In addition, IPA is suggested to be immediately used after opening
+due to strong moisture adsorption. jThese powders can also be Ta-LLZO. In addition, Nb-LLZO with 0% excess Li sintered at high temperatures is
+more suitable than Nb5Li15 applied in this work.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33349
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 11 页 ===
+additive amounts and sintering temperatures (see Figure 5d, as
+well as Figure S27 in the Supporting Information). Figure 5f, as
+well as Figures S28−S31 in the Supporting Information show
+the cross-sectional microstructures of Ta5Li10L0−3 pellets at
+high (32k×), medium (4k×), and low (500×) magnifications,
+which are equally important for evaluating the properties of
+ceramics. Although the morphology of grains and grain
+boundaries in L0 (Ta5Li10L0) and L1 sintered at 1320−1220
+°C are similar at high magnification (Figure 5f), huge grains
+(>100 μm) occur in L0 sintered at 1320−1300 °C and in L1
+sintered at 1320 °C at low magnification (Figures S28 and S29 in
+the Supporting Information). Moreover, the grain sizes of L2
+and L3 are obviously bigger than that of L0 and L1 at all sintering
+temperatures, where huge grains (>200 μm, AGG) occur in L2−
+L3 samples sintered above 1280 °C. As the amount of LZO
+increases, the sintering aid effect dramatically improves the grain
+sizes. Glassy residues appear at the grain boundaries in L0@
+1300&1200 (L0 sintered at 1320 and 1300 °C), L2@1320 and
+L3@1320&1300. The articular-shaped residues in L0 might be
+assigned to Li2O or Li-rich derivatives, while the irregular
+jellylike residues in L2 and L3 might be Li2ZrO3 or Li7La3Zr2O12
+condensates.12,59 Usually, LZO at the grain boundaries reacts
+with excess Li2O to form Li2ZrO3 and Li7La3Zr2O12, and thus
+the Li2O at L0 disappears in L1 when the LZO amount is small.
+Plenty of LZO would introduce a large amount of highly reactive
+glassy materials at high temperature, which remain at the
+adjacent (grain surface) and triangular grain boundaries.
+Nevertheless, L0−L3 ceramics sintered at 1300−1280 °C
+deliver dense cross-sectional properties.
+Figure 5g and Table 5 summarize the performances of L0−L3
+ceramics. Interestingly, the conductivities of L0 samples are
+maintained at the same level against the sintering temperature,
+although the relative densities gradually decrease from 95.9% to
+93.8%. It seems that the conductivity reaches a stable level for
+pure Ta-LLZO samples when the relative density reaches 94%,
+which is also reported in other work.61 L1−3 pellets with LZO
+additive deliver slightly higher relative densities (∼0.5%) and
+much higher conductivities (∼10%) than that of L0. L1@1280,
+L2@1300−1280, L3@1300−1260 samples reach relative
+densities of >96%. The conductivities of L1−L3 sintered at
+1260−1300 °C are greater than 9 × 10−4 S cm−1, which is
+comparable to the value of Ta-LLZO ceramics prepared via hot
+pressing methods39 or inside a Pt crucible.12 Conductivities of
+L2−L3 dramatically decrease when the sintering temperature is
+lower than 1260 °C, due to the insufficient reaction between
+LZO and Li2O gas. The average mass loss of L0−3 samples are
+10.0−11.7%, which is caused by the evaporation of IPA solvents
+and the exhaust of Li2O/Li gas. Considering the appearance, the
+cross-sectional morphology, the relative density, and the
+conductivity, the optimum composition and sintering temper-
+ature were Ta5Li10L2 and 1280 °C, respectively. It should be
+addressed that the screened optimum values are strongly related
+to the compositions of LLZO with different doping cations,
+doping level, excess amount of Li, and additives. Principle
+instructions for laboratory-scale production of Al-, Ga-, Nb-, and
+Ta-doped LLZO with different excess Li and MgO/LZO
+additives are also available in section SI_5 in the Supporting
+Information.
+3.4. Application of Laboratory-Scale Produced Ta-
+LLZO Ceramic. Li−Li batteries were assembled to verify the
+application of these Ta-LLZO ceramics. The inflection
+frequencies corresponding to grain boundaries observed in
+Nyquist plots of Ag−Ag symmetric cell is 40 kHz (Figure 6a),
+and the total impedance provided by the L2 ceramic pellet in a
+LiAg−LiAg symmetric cell is inferred to be ∼224.2 Ω according
+to the Z′ value of the point at 40 kHz. The quasi-semicircle
+within the 500 to 1 Hz in LiAg-symmetric cell is assumed to the
+polarization impedance of reversible electrode (Li ↔Li+ + e−)
+under the amplitude voltage of 10 mV. The total impedance
+provided by ceramic and interface is determined to be 232.4 Ω,
+according to the Z′ value of the inflection point at 500 Hz. The
+interfacial charge transfer resistance of Li|LLZO wetted by Ag is
+∼4.1 Ω cm2 (Li electrode area: 1 cm2), which is comparable to
+the value in published works.45,62−65 The rate performance of
+LiAg symmetric cell is shown in Figure 6b. The voltage decreases
+slightly at 0.45 mA cm−2, indicating a partial penetration by
+lithium dendrites,66 which sharply decreases to ∼0.02 V at 0.75
+mA cm−2 after the short circuit. The DC impedance calculated
+by voltage and current is 26.7 Ω cm2 rather than 0 Ω cm2,
+because of the filament-shaped lithium densities.67 The critical
+current density and specific capacity are 0.75 mA cm−2 and 0.75
+mAh cm−2, respectively, which is comparable to the state-of-the-
+art highly densified LLZO ceramics.68 Figures 6c and 6d show
+the stable cycling performance of LiAg-symmetric cell at 0.2 mA
+cm−1 for 600 h with slight polarization. Enhanced performance
+of symmetric cell cycled at 60 °C is also achieved, as displayed in
+Figure S33 in the Supporting Information.
+The electrochemical performance of a LiAg|S battery
+assembled with Ta5Li10L2 solid electrolyte was further
+evaluated. The flattened semicircle within 316 kHz to 126 Hz
+might be attributed to the Li|LLZO and S−C(liquid electro-
+lyte)|LLZO interfaces, respectively (Figure 6e). The presence of
+following horizontal line (126−5 Hz) and upward tail (5−1 Hz)
+is likely related to the sluggish charge transfer of S + Li+ + e−↔
+Li2Sx at the carbon−sulfur-electrolyte interfaces. The hybrid Li−
+S battery delivered an initial discharge specific capacity of >1000
+mAh g−1 and high Coulombic efficiency of 100% for 200 cycles
+(Figures 6f and 6g). The capacity fading should be ascribed to
+the dead S deposition upon the LLZO ceramic. The perform-
+ance of hybrid Li−S batteries with high loading S−C cathode (6
+mg cm−2) was also examined at 60 °C (see Figure S34 in the
+Supporting Information). Despite the polarization and capacity
+fading, for high loading, a high initial capacity of 7.4 mAh,
+corresponding to a specific capacity of 1233 mAh g−1, was
+readily achieved. The results of Li−Li symmetric cell and hybrid
+Table 5. Relative Density, Conductivity (25 °C, According to
+Nyquist Plots, As Shown in Figure S32 in the Supporting
+Information), Average Mass Loss, and Average Shrinkage of
+L0, L1, L2 and L3 Ceramics
+Relative Density (%)/Conductivity (× 10−4 S cm−1)
+temperature (°C)
+L0
+L1
+L2
+L3
+1320
+95.6/8.34
+95.5/9.26
+95.9/9.46
+96.4/9.55
+1300
+95.9/8.29
+95.2/9.97
+96.5/9.31
+96.5/9.77
+1280
+95.8/8.00
+96.2/9.26
+96.4/9.57
+96.2/9.89
+1260
+95.2/8.58
+94.9/9.29
+95.0/8.99
+96.5/9.24
+1240
+94.7/8.80
+95.0/9.55
+95.3/8.48
+95.1/8.05
+1220
+93.8/8.38
+93.1/7.34
+94.4/6.63
+93.9/7.51
+Mass Loss and Shrinkage
+mass loss (%)
+11.0
+11.7
+10.5
+10.0
+shrinkage (%)
+Φ
+19.6
+20.2
+19.6
+20.1
+H
+17.2
+18.2
+17.8
+17.1
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33350
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 12 页 ===
+Li−S battery prove the application of the laboratory-scale
+produced Ta5Li10L2 ceramics.
+4. CONCLUSION
+Achieving densified LLZO ceramics with high repeatability
+results from the precise control over almost all procedure details
+from the raw material mixing to green pellet sintering. The
+sintering results of LLZO ceramics are dependent on many
+factors, including the crystallinity of raw materials, the
+crystallinity of calcinated powder in cubic LLZO phase, the
+moisture control during milling/drying, the particle size
+distribution after tailoring, the dimensions of MgO crucible,
+the initial excess Li2O inside the sintering furniture, the
+composition of LLZO, and the sintering condition. To
+summarize, the critical point lies in the competition between
+Li loss and densification. The three most important factors are
+listed as follows:
+• Particle size distribution. Small particles greatly improve
+the surface area and the surface energy, thus increasing the
+densification speed over Li loss.
+• MgO crucible. Crucible should not contain impurities such
+as SiO2 and Al2O3. A small crucible with an internal
+diameter just larger than the target green pellet can
+effectively delay the Li loss from the sintering system,
+which enables the densification before Li-exhaust.
+• Initial total amount of excess Li inside the crucible. Enough
+excess Li-rich compounds continuously provide Li2O/Li
+gas against the Li escaping.
+A high sintering temperature is desired for providing enough
+thermal driving force toward boosted densification speed. The
+ramping speed should be fast to decrease the total Li-loss before
+reaching the sintering temperature.
+Moreover, the production craft platform involving powder
+treatment and ceramic sintering procedure is provided. The
+optimum composition and sintering condition for Ta-doped
+LLZO with La2Zr2O7 additive is explored based on this
+platform. Densified (>96%) Ta-LLZO with high conductivity
+(>9 × 10−4 S cm−1) and high repeatability can be produced.
+These ceramics are tested and examined in Li−Li and Li−S
+batteries.
+Figure 6. Cell evaluation for Ta5Li10L2 solid electrolyte. (a) Nyquist plots of Ag|Ag and LiAg|AgLi symmetric cells at 25 °C. (b−d) Rate and cycling
+performance of LiAg|AgLi cell tested at 30 °C. (e−g) Nyquist plots (fitting circuit RΩ(RQ)Li|LLZO(RQ)LLZO|S+C+Liquid Electrolyte(RQ)el; Fitting data: see
+Table S4 in the Supporting Information), discharge−charge profiles and cycling performance of Li−S battery.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33351
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 13 页 ===
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsami.2c08442.
+Preparation methods of Ta-LLZO, La2Zr2O7, Nb-LLZO,
+MgO lid, optimized Ta-LLZO + LZO ceramics, Li|Li and
+Li|S batteries, characterizations, guides for the preparation
+of Al/Ga/Nb-doped LLZO ceramics; influences of
+sintering aids, and detailed procedure and descriptions
+for preparing Ta-LLZO powders and ceramics (PDF)
+■AUTHOR INFORMATION
+Corresponding Author
+Bingbing Tian −International Collaborative Laboratory of 2D
+Materials for Optoelectronics Science and Technology of
+Ministry of Education, Institute of Microscale Optoelectronics,
+Shenzhen University, Shenzhen 518060, China;
+orcid.org/
+0000-0003-1508-6217; Email: tianbb2011@szu.edu.cn
+Authors
+Xiao Huang −International Collaborative Laboratory of 2D
+Materials for Optoelectronics Science and Technology of
+Ministry of Education, Institute of Microscale Optoelectronics,
+Shenzhen University, Shenzhen 518060, China
+Jiawen Tang −International Collaborative Laboratory of 2D
+Materials for Optoelectronics Science and Technology of
+Ministry of Education, Institute of Microscale Optoelectronics,
+Shenzhen University, Shenzhen 518060, China
+Yongjian Zhou −International Collaborative Laboratory of 2D
+Materials for Optoelectronics Science and Technology of
+Ministry of Education, Institute of Microscale Optoelectronics,
+Shenzhen University, Shenzhen 518060, China
+Kun Rui −Key Laboratory of Flexible Electronics (KLOFE) &
+Institute of Advanced Materials (IAM), Nanjing Tech
+University (NanjingTech), Nanjing 211816, People’s Republic
+of China;
+orcid.org/0000-0002-9921-5284
+Xin Ao −International Collaborative Laboratory of 2D
+Materials for Optoelectronics Science and Technology of
+Ministry of Education, Institute of Microscale Optoelectronics,
+Shenzhen University, Shenzhen 518060, China
+Yan Yang −Collaborative Innovation Center for Vessel Pollution
+Monitoring and Control, Dalian Maritime University, Dalian
+116026, China
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsami.2c08442
+Author Contributions
+X.H. was responsible for concentration, methodology, formal
+analysis, data collection, writing (original draft), and inves-
+tigation. J.T. and Y.Z. were responsible for basic characterization
+and data collection. K.R. was responsible for the writing (review
+and editing). X.A. and Y.Y. was responsible for financial support.
+B.T. was responsible for laboratory platform, supervision, and
+writing (review and editing).
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+The authors gratefully acknowledge the financial support from
+the National Key R&D Project (No. 2018YFE0181300),
+National Natural Science Foundation of China (No.
+52102284), and China Postdoctoral Science Foundation (No.
+2020M682871), Guangdong Natural Science Funds (No.
+2019A1515010675) and the Science and Technology Project
+of Shenzhen (Nos. JCYJ20190808142209376 and
+JCYJ20210324094206019).
+■REFERENCES
+(1) Wang, M. J.; Kazyak, E.; Dasgupta, N. P.; Sakamoto, J.
+Transitioning Solid-State Batteries From Lab to Market: Linking
+Electro-Chemo-Mechanics with Practical Considerations. Joule 2021, 5
+(6), 1371−1390.
+(2) Ma, C.; Cheng, Y. Q.; Yin, K. B.; Luo, J.; Sharafi, A.; Sakamoto, J.;
+Li, J. C.; More, K. L.; Dudney, N. J.; Chi, M. F. Interfacial Stability of Li
+Metal-Solid Electrolyte Elucidated via in Situ Electron Microscopy.
+Nano Lett. 2016, 16 (11), 7030−7036.
+(3) Zhu, Y. S.; Connell, J. G.; Tepavcevic, S.; Zapol, P.; Garcia-
+Mendez, R.; Taylor, N. J.; Sakamoto, J.; Ingram, B. J.; Curtiss, L. A.;
+Freeland, J. W.; Fong, D. D.; Markovic, N. M. Dopant-Dependent
+Stability of Garnet Solid Electrolyte Interfaces with Lithium Metal. Adv.
+Energy Mater. 2019, 9 (12), 1803440.
+(4) Ramakumar, S.; Deviannapoorani, C.; Dhivya, L.; Shankar, L. S.;
+Murugan, R. Lithium Garnets: Synthesis, Structure, Li+ Conductivity,
+Li+ Dynamics and Applications. Prog. Mater. Sci. 2017, 88, 325−411.
+(5) Thangadurai, V.; Kaack, H.; Weppner, W. J. F. Novel Fast Lithium
+Ion Conduction in Garnet-type Li5La3M2O12 (M = Nb, Ta). J. Am.
+Ceram. Soc. 2003, 86 (3), 437−440.
+(6) Narayanan, S.; Thangadurai, V. Effect of Y Substitution for Nb in
+Li5La3Nb2O12 on Li Ion Conductivity of Garnet-type Solid Electrolytes.
+J. Power Sources 2011, 196 (19), 8085−8090.
+(7) Percival, J.; Kendrick, E.; Slater, P. R. Synthesis and Conductivities
+of the Gamet-related Li Ion Conductors, Li5Ln3Sb2O12 (Ln = La, Pr,
+Nd, Sm, Eu). Solid State Ionics 2008, 179 (27−32), 1666−1669.
+(8) Peng, H. J.; Wu, Q.; Xiao, L. H. Low Temperature Synthesis of
+Li5La3Nb2O12 with Cubic Garnet-type Structure by Sol-gel Process. J.
+Sol-Gel Sci. Technol. 2013, 66 (1), 175−179.
+(9) Mariappan, C. R.; Gnanasekar, K. I.; Jayaraman, V.; Gnanasekaran,
+T. Lithium ion Conduction in Li5La3Ta2O12 and Li7La3Ta2O13 Garnet-
+type Materials. J. Electroceram. 2013, 30 (4), 258−265.
+(10) Murugan, R.; Thangadurai, V.; Weppner, W. Fast Lithium ion
+Conduction in Garnet-type Li7La3Zr2O12. Angew. Chem., Int. Ed. 2007,
+46 (41), 7778−7781.
+(11) Wang, C.; Fu, K.; Kammampata, S. P.; McOwen, D. W.; Samson,
+A. J.; Zhang, L.; Hitz, G. T.; Nolan, A. M.; Wachsman, E. D.; Mo, Y.;
+Thangadurai, V.; Hu, L. Garnet-Type Solid-State Electrolytes:
+Materials, Interfaces, and Batteries. Chem. Rev. 2020, 120 (10),
+4257−4300.
+(12) Huang, X.; Lu, Y.; Song, Z.; Rui, K.; Wang, Q.; Xiu, T.; Badding,
+M. E.; Wen, Z. Manipulating Li2O Atmosphere for Sintering Dense
+Li7La3Zr2O12 Solid Electrolyte. Energy Storage Mater. 2019, 22, 207−
+217.
+(13) Wen, Z.; Hu, Y.; Wu, X.; Han, J.; Gu, Z. Main Challenges for
+High Performance NAS Battery: Materials and Interfaces. Adv. Funct.
+Mater. 2013, 23 (8), 1005−1018.
+(14) Lu, X.; Xia, G.; Lemmon, J. P.; Yang, Z. Advanced Materials for
+Sodium-beta Alumina Batteries: Status, Challenges and Perspectives. J.
+Power Sources 2010, 195 (9), 2431−2442.
+(15) Rettenwander, D.; Redhammer, G.; Preishuber-Pflugl, F.; Cheng,
+L.; Miara, L.; Wagner, R.; Welzl, A.; Suard, E.; Doeff, M. M.; Wilkening,
+M.; Fleig, J.; Amthauer, G. Structural and Electrochemical Con-
+sequences of Al and Ga Cosubstitution in Li7La3Zr2O12 Solid
+Electrolytes. Chem. Mater. 2016, 28 (7), 2384−2392.
+(16) Buannic, L.; Orayech, B.; Lopez Del Amo, J. M.; Carrasco, J.;
+Katcho, N. A.; Aguesse, F.; Manalastas, W.; Zhang, W.; Kilner, J.;
+Llordes, A. Dual Substitution Strategy to Enhance Li+ Ionic
+Conductivity in Li7La3Zr2O12 Solid Electrolyte. Chem. Mater. 2017,
+29 (4), 1769−1778.
+(17) Bernuy-Lopez, C.; Manalastas, W.; Lopez del Amo, J. M.;
+Aguadero, A.; Aguesse, F.; Kilner, J. A. Atmosphere Controlled
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33352
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 14 页 ===
+Processing of Ga-Substituted Garnets for High Li-Ion Conductivity
+Ceramics. Chem. Mater. 2014, 26 (12), 3610−3617.
+(18) Dhivya, L.; Murugan, R. Effect of Simultaneous Substitution of Y
+and Ta on the Stabilization of Cubic Phase, Microstructure, and Li+
+Conductivity of Li7La3Zr2O12 Lithium Garnet. ACS Appl. Mater.
+Interfaces 2014, 6 (20), 17606−17615.
+(19) Zhang, K. K.; Xu, T.; Zhao, H. L.; Zhang, S. S.; Zhang, Z. J.;
+Zhang, Y.; Du, Z. H.; Li, Z. L. Unveiling the Roles of Alumina as a
+Sintering Aid in Li-Garnet Solid Electrolyte. Int. J. Energy Res. 2020, 44
+(11), 9177−9184.
+(20) Li, C. L.; Ishii, A.; Roy, L.; Hitchcock, D.; Meng, Y. Q.; Brinkman,
+K. Solid-State Reactive Sintering of Dense and Highly Conductive Ta-
+doped Li7La3Zr2O12 Using CuO as a Sintering Aid. J. Mater. Sci. 2020,
+55 (35), 16470−16481.
+(21) Qin, Z. W.; Xie, Y. M.; Meng, X. C.; Qian, D. L.; Li, J. C.; Li, C.;
+Cao, J.; Wan, L.; Huang, Y. X. Oriented Attachment Strategy Toward
+Enhancing Ionic Conductivity in Garnet-Type Electrolytes for Solid-
+State Lithium Batteries. ACS Appl. Mater. Interfaces 2021, 13 (29),
+34385−34396.
+(22) Rosero-Navarro, N. C.; Watanabe, H.; Miura, A.; Tadanaga, K.
+Synthesis of Highly Li-ion Conductive Garnet-type Solid Ceramic
+Electrolytes by Solution-process-derived Sintering Additives. J. Eur.
+Ceram. Soc. 2021, 41 (13), 6767−6771.
+(23) Wolfenstine, J.; Sakamoto, J.; Allen, J. L. Electron Microscopy
+Characterization of Hot-pressed Al Substituted Li7La3Zr2O12. J. Mater.
+Sci. 2012, 47 (10), 4428−4431.
+(24) Baek, S.-W.; Lee, J.-M.; Kim, T. Y.; Song, M.-S.; Park, Y. Garnet
+Related Lithium Ion Conductor Processed by Spark Plasma Sintering
+for All Solid State Batteries. J. Power Sources 2014, 249 (0), 197−206.
+(25) David, I. N.; Thompson, T.; Wolfenstine, J.; Allen, J. L.;
+Sakamoto, J. Microstructure and Li-Ion Conductivity of Hot- Pressed
+Cubic Li7La3Zr2O12. J. Am. Ceram. Soc. 2015, 98 (4), 1209−1214.
+(26) Zhang, Y.; Chen, F.; Tu, R.; Shen, Q.; Zhang, L. Field Assisted
+Sintering of Dense Al-Substituted Cubic Phase Li7La3Zr2O12 Solid
+Electrolytes. J. Power Sources 2014, 268, 960−964.
+(27) Avila, V.; Yoon, B.; Ghose, S.; Raj, R.; Jesus, L. M. Phase
+Evolution During Reactive Flash Sintering of Li6.25Al0.25La3Zr2O12
+Starting From a Chemically Prepared Powder. J. Eur. Ceram. Soc.
+2021, 41 (8), 4552−4557.
+(28) Nonemacher, J. F.; Arinicheva, Y.; Yan, G.; Finsterbusch, M.;
+Kruger, M.; Malzbender, J. Fracture Toughness of Single Grains and
+Polycrystalline Li7La3Zr2O12 Electrolyte Material Based on a Pillar
+Splitting Method. J. Eur. Ceram. Soc. 2020, 40 (8), 3057−3064.
+(29) Li, J.; Zhang, J. X.; Zhai, H. Y.; Tang, X. F.; Tan, G. J. Rapid
+Synthesis of Garnet-type Li7La3Zr2O12 Solid Electrolyte with Superior
+Electrochemical Performance. J. Eur. Ceram. Soc. 2022, 42 (4), 1568−
+1575.
+(30) O’Malley, M. J.; Verweij, H.; Woodward, P. M. Structure and
+Properties of Ordered Li2IrO3 and Li2PtO3. J. Solid State Chem. 2008,
+181 (8), 1803−1809.
+(31) Huang, X.; Song, Z.; Xiu, T.; Badding, M. E.; Wen, Z. Searching
+for Low-cost LixMOy Compounds for Compensating Li-loss in
+Sintering of Li-Garnet Solid Electrolyte. J. Materiomics 2019, 5 (2),
+221−228.
+(32) Zhuang, L. B.; Huang, X.; Lu, Y.; Tang, J. W.; Zhou, Y. J.; Ao, X.;
+Yang, Y.; Tian, B. B. Phase Transformation and Grain-Boundary
+Segregation in Al-Doped Li7La3Zr2O12 Ceramics. Ceram. Int. 2021, 47
+(16), 22768−22775.
+(33) Yang, L.; Tao, X. Y.; Huang, X.; Zou, C. F.; Yi, L. G.; Chen, X. Y.;
+Zang, Z. H.; Luo, Z. G.; Wang, X. Y. Efficient Mutual-Compensating Li-
+Loss Strategy toward Highly Conductive Garnet Ceramics for Li-Metal
+Solid-State Batteries. ACS Appl. Mater. Interfaces 2021, 13 (47),
+56054−56063.
+(34) Wang, C.; Ping, W.; Bai, Q.; Cui, H.; Hensleigh, R.; Wang, R.;
+Brozena, A. H.; Xu, Z.; Dai, J.; Pei, Y.; Zheng, C.; Pastel, G.; Gao, J.;
+Wang, X.; Wang, H.; Zhao, J.-C.; Yang, B.; Zheng, X.; Luo, J.; Mo, Y.;
+Dunn, B.; Hu, L. A General Method to Synthesize and Sinter Bulk
+Ceramics in Seconds. Science 2020, 368 (6490), 521−526.
+(35) Ping, W. W.; Wang, C. W.; Wang, R. L.; Dong, Q.; Lin, Z. W.;
+Brozena, A. H.; Dai, J. Q.; Luo, J.; Hu, L. B. Printable, High-
+Performance Solid-State Electrolyte Films. Sci. Adv. 2020, 6 (47), 9.
+(36) Hong, M.; Dong, Q.; Xie, H.; Wang, X. Z.; Brozena, A. H.; Gao, J.
+L.; Wang, C. W.; Chen, C. J.; Rao, J. C.; Luo, J.; Hu, L. B. Tailoring
+Grain Growth and Densification Toward a High-Performance Solid-
+State Electrolyte Membrane. Mater. Today 2021, 42, 41−48.
+(37) Wang, R. L.; Dong, Q.; Wang, C. W.; Hong, M.; Gao, J. L.; Xie,
+H.; Guo, M.; Ping, W. W.; Wang, X. Z.; He, S. M.; Luo, J.; Hu, L. B.
+High-Temperature Ultrafast Sintering: Exploiting a New Kinetic
+Region to Fabricate Porous Solid-State Electrolyte Scaffolds. Adv.
+Mater. 2021, 33 (34), 2100726.
+(38) Ihrig, M.; Mishra, T. P.; Scheld, W. S.; Hauschen, G.;
+Rheinheimer, W.; Bram, M.; Finsterbusch, M.; Guillon, O.
+Li7La3Zr2O12 Solid Electrolyte Sintered by the Ultrafast High-
+Temperature Method. J. Eur. Ceram. Soc. 2021, 41 (12), 6075−6079.
+(39) Thompson, T.; Sharafi, A.; Johannes, M. D.; Huq, A.; Allen, J. L.;
+Wolfenstine, J.; Sakamoto, J. A Tale of Two Sites: On Defining the
+Carrier Concentration in Garnet-Based Ionic Conductors for Advanced
+Li Batteries. Adv. Energy Mater. 2015, 5 (11), 1500096.
+(40) Guo, H. J.; Su, J. M.; Zha, W. P.; Xiu, T. P.; Song, Z.; Badding, M.
+E.; Jin, J.; Wen, Z. Y. Achieving High Critical Current Density in Ta-
+doped Li7La3Zr2O12/MgO Composite Electrolytes. J. Alloys Compd.
+2021, 856, 157222.
+(41) Huang, X.; Lu, Y.; Song, Z.; Xiu, T.; Badding, M. E.; Wen, Z.
+Preparation of dense Ta-LLZO/MgO Composite Li-ion Solid
+Electrolyte: Sintering, Microstructure, Performance and the Role of
+MgO. J. Energy Chem. 2019, 39, 8−16.
+(42) Huang, X.; Lu, Y.; Guo, H.; Song, Z.; Xiu, T.; Badding, M. E.;
+Wen, Z. None-Mother-Powder Method to Prepare Dense Li-Garnet
+Solid Electrolytes with High Critical Current Density. ACS Appl. Energy
+Mater. 2018, 1 (10), 5355−5365.
+(43) Yang, L.; Dai, Q. S.; Liu, L.; Shao, D. S.; Luo, K. L.; Jamil, S.; Liu,
+H.; Luo, Z. G.; Chang, B. B.; Wang, X. Y. Rapid Sintering Method for
+Highly Conductive Li7La3Zr2O12 Ceramic Electrolyte. Ceram. Int.
+2020, 46 (8), 10917−10924.
+(44) Yang, L.; Huang, X.; Zou, C. F.; Tao, X. Y.; Liu, L.; Luo, K. L.;
+Zeng, P.; Dai, Q. S.; Li, Y. F.; Yi, L. G.; Luo, Z. G.; Wang, X. Y. Rapid
+Preparation and Performances of Garnet Electrolyte with Sintering Aids
+for Solid-State Li-S Battery. Ceram. Int. 2021, 47 (13), 18196−18204.
+(45) Zheng, C. J.; Ruan, Y. D.; Su, J. M.; Song, Z.; Xiu, T. P.; Jin, J.;
+Badding, M. E.; Wen, Z. Y. Grain Boundary Modification in Garnet
+Electrolyte to Suppress Lithium Dendrite Growth. Chem. Eng. J. 2021,
+411, 128508.
+(46) Zheng, H.; Li, G.; Liu, J.; Wu, S.; Zhang, X.; Wu, Y.; Zhu, H.;
+Huang, X.; Liu, H.; Duan, H. A Rational Design of Garnet-type
+Li7La3Zr2O12 with Ultrahigh Moisture Stability. Energy Storage Mater.
+2022, 49, 278−290.
+(47) Richter, N. A.; Stavale, F.; Levchenko, S. V.; Nilius, N.; Freund,
+H. J.; Scheffler, M. Defect Complexes in Li-doped MgO. Phys. Rev. B
+2015, 91 (19), 195305.
+(48) Chen, Y.-T.; Jena, A.; Pang, W. K.; Peterson, V. K.; Sheu, H.-S.;
+Chang, H.; Liu, R.-S. Voltammetric Enhancement of Li-Ion
+Conduction in Al-Doped Li7‑xLa3Zr2O12 Solid Electrolyte. J. Phys.
+Chem. C 2017, 121 (29), 15565−15573.
+(49) Kudo, H.; Wu, C. H.; Ihle, H. R. Mass-spectrometric Study of the
+Vaporization of Li2O(s) and Thermochemistry of Gaseous LiO, Li2O,
+Li3O, and Li2O2. J. Nucl. Mater. 1978, 78 (2), 380−389.
+(50) Ikeda, Y.; Ito, H.; Matsumoto, G.; Nasu, S. A Mass Spectrometric
+Study of Vaporization of Li2O with Some Refractory Metal Cells. J.
+Mass Spectrom. Soc. Jpn. 1979, 27 (4), 263−273.
+(51) Li, Y.; Wang, Z.; Li, C.; Cao, Y.; Guo, X. Densification and Ionic-
+Conduction Improvement of Lithium Garnet Solid Electrolytes by
+Flowing Oxygen Sintering. J. Power Sources 2014, 248 (0), 642−646.
+(52) Shen, F.; Guo, W.; Zeng, D.; Sun, Z.; Gao, J.; Li, J.; Zhao, B.; He,
+B.; Han, X. A Simple and Highly Efficient Method toward High-Density
+Garnet-Type LLZTO Solid-State Electrolyte. ACS Appl. Mater.
+Interfaces 2020, 12 (27), 30313−30319.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33353
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026
+
+=== 第 15 页 ===
+(53) Liang, H.; Yao, X.; Huang, Z.; Zeng, Y.; Su, B. Effect of Sintering
+Techniques on the Microstructure of Liquid-Phase-Sintered SiC
+Ceramics. J. Eur. Ceram. Soc. 2016, 36 (8), 1863−1871.
+(54) MARION, J. E.; HSUEH, C. H.; EVANS, A. G. Liquid-Phase
+Sintering of Ceramics. J. Am. Ceram. Soc. 1987, 70 (10), 708−713.
+(55) Kim, B.-N.; Hiraga, K.; Morita, K.; Yoshida, H. Effects of Heating
+Rate on Microstructure and Transparency of Spark-Plasma-Sintered
+Alumina. J. Eur. Ceram. Soc. 2009, 29 (2), 323−327.
+(56) Guo, W.-M.; Vleugels, J.; Zhang, G.-J.; Wang, P.-L.; Van der
+Biest, O. Effect of Heating Rate on Densification, Microstructure and
+Strength of Spark Plasma Sintered ZrB2-Based Ceramics. Scr. Mater.
+2010, 62 (10), 802−805.
+(57) Ryu, J.; Choi, J.-J.; Kim, H.-E. Effect of Heating Rate on the
+Sintering Behavior and the Piezoelectric Properties of Lead Zirconate
+Titanate Ceramics. J. Am. Ceram. Soc. 2001, 84 (4), 902−904.
+(58) Rao, R. P.; Gu, W.; Sharma, N.; Peterson, V. K.; Avdeev, M.;
+Adams, S. In Situ Neutron Diffraction Monitoring of Li7La3Zr2O12
+Formation: Toward a Rational Synthesis of Garnet Solid Electrolytes.
+Chem. Mater. 2015, 27 (8), 2903−2910.
+(59) Huang, X.; Shen, C.; Rui, K.; Jin, J.; Wu, M. F.; Wu, X. W.; Wen,
+Z. Y. Influence of La2Zr2O7 Additive on Densification and Li+
+Conductivity for Ta-Doped Li7La3Zr2O12 Garnet. JOM 2016, 68
+(10), 2593−2600.
+(60) Huang, C.-Y.; Tseng, Y.-T.; Lo, H.-Y.; Chang, J.-K.; Wu, W. -W.
+In situ Atomic Scale Investigation of Li7La3Zr2O12-Based Li+-
+Conducting Solid Electrolyte During Calcination Growth. Nano Energy
+2020, 71, 104625.
+(61) Wang, Y. X.; Lai, W. High Ionic Conductivity Lithium Garnet
+Oxides of Li7‑xLa3Zr2‑xTaxO12 Compositions. Electrochem. Solid State
+Lett. 2012, 15 (5), A68−A71.
+(62) Ruan, Y. D.; Lu, Y.; Huang, X.; Su, J. M.; Sun, C. Z.; Jin, J.; Wen,
+Z. Y. Acid induced conversion towards a robust and lithiophilic
+interface for Li-Li7La3Zr2O12 solid-state batteries. J. Mater. Chem. A
+2019, 7 (24), 14565−14574.
+(63) Ruan, Y. D.; Lu, Y.; Li, Y. P.; Zheng, C. J.; Su, J. M.; Jin, J.; Xiu, T.
+P.; Song, Z.; Badding, M. E.; Wen, Z. Y. A 3D Cross-Linking
+Lithiophilic and Electronically Insulating Interfacial Engineering for
+Garnet-Type Solid-State Lithium Batteries. Adv. Funct. Mater. 2021, 31
+(5), 2007815.
+(64) Lu, Y.; Zhao, C.-Z.; Zhang, R.; Yuan, H.; Hou, L.-P.; Fu, Z.-H.;
+Chen, X.; Huang, J.-Q.; Zhang, Q. The Carrier Transition From Li
+Atoms to Li Vacancies in Solid-state Lithium Alloy Anodes. Sci. Adv.
+2021, 7 (38), No. eabi5520.
+(65) Niu, Y.; Yu, Z.; Zhou, Y.; Tang, J.; Li, M.; Zhuang, Z.; Yang, Y.;
+Huang, X.; Tian, B. Constructing Stable Li-Solid electrolyte Interphase
+to Achieve Dendrites-free Solid-state Battery: A Nano-Interlayer/Li
+Pre-reduction Strategy. Nano Res. 2022, DOI: 10.1007/s12274-022-
+4362-y.
+(66) Kazyak, E.; Garcia-Mendez, R.; LePage, W. S.; Sharafi, A.; Davis,
+A. L.; Sanchez, A. J.; Chen, K.-H.; Haslam, C.; Sakamoto, J.; Dasgupta,
+N. P. Li Penetration in Ceramic Solid Electrolytes: Operando
+Microscopy Analysis of Morphology, Propagation, and Reversibility.
+Matter 2020, 2 (4), 1025−1048.
+(67) Lu, Y.; Zhao, C. Z.; Yuan, H.; Cheng, X. B.; Huang, J. Q.; Zhang,
+Q. Critical Current Density in Solid-State Lithium Metal Batteries:
+Mechanism, Influences, and Strategies. Adv. Funct. Mater. 2021,
+2009925.
+(68) Sharafi, A.; Haslam, C. G.; Kerns, R. D.; Wolfenstine, J.;
+Sakamoto, J. Controlling and Correlating the Effect of Grain Size with
+the Mechanical and Electrochemical Properties of Li7La3Zr2O12 Solid-
+state Electrolyte. J. Mater. Chem. A 2017, 5 (40), 21491−21504.
+ACS Applied Materials & Interfaces
+www.acsami.org
+Research Article
+https://doi.org/10.1021/acsami.2c08442
+ACS Appl. Mater. Interfaces 2022, 14, 33340−33354
+33354
+Downloaded from pubs.​acs.​org/​aamick/​article-pdf/​14/​29/​33340/​16782917/​am2c08442.​pdf by TSINGHUA UNIV user on 29 September 2026

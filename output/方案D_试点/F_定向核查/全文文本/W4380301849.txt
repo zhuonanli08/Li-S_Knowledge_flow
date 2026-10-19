@@ -1,0 +1,1877 @@
+=== 第 1 页 ===
+OPEN ACCESS | Award lecture
+Development of carbon materials for sulfur cathodes in
+inorganic-based solid-state lithium–sulfur batteries
+Zhao Yang, Qihang Yu, Anna Thinphang-nga, and Xia Li
+Department of Chemical and Materials Engineering, Concordia University, Montreal, QC, Canada
+Corresponding author: Xia Li (email: xia.li@concordia.ca)
+Abstract
+Inorganic-based solid-state lithium–sulfur batteries (SSLSBs) with high energy density and high safety have attracted wide
+attention as they are one of the most promising energy storage devices to meet future market requirements. However, the
+development of SSLSBs faces various challenges due to the unreasonable structural design in sulfur cathodes. Carbon is one
+of the indispensable components in sulfur cathodes. The rational design of carbon materials becomes an important strategy
+to address the challenges in sulfur cathodes. This review summarizes recent literature about the design and application of
+carbon materials for sulfur cathodes in inorganic-based SSLSBs. It starts with the introduction of different carbon materials
+from zero-dimensional to three-dimensional carbon materials. Particularly, this review paper highlights the structural design
+of carbon materials and the cathode fabrication methods, toward improving the conductivity of cathodes, buffering volume
+changes in cathodes, reducing interfacial resistance among cathode components, and increasing the mass loading of active
+materials. Finally, the existing challenges and promising solutions for carbon materials in the cathodes are discussed and
+proposed.
+Key words: carbon materials, sulfur cathodes, solid-state lithium–sulfur batteries, structural design, cathode fabrication meth-
+ods
+1. Introduction
+The increasing fossil fuel consumption and rapid economic
+development have ignited global interest in renewable en-
+ergy technologies, such as solar and wind energy sources.
+Electrochemical energy storage devices are essential for the
+power supply system to achieve an efficient and sustainable
+supply of these intermittent clean energy sources. Among
+various rechargeable batteries, lithium-ion batteries (LIBs),
+with lithium metal oxides (e.g., LiCoO2) as the cathodes and
+graphite as the anodes, have been commercialized and ap-
+plied in electric vehicles and portable electric devices for
+decades.1,2 However, with years of research and develop-
+ment, the performance of LIBs has almost reached the theo-
+retical limits of their electrode materials, which inhibits the
+applications of LIBs, especially where high energy density (in-
+cluding the gravimetric and volumetric energy densities) or
+high power density are required.3 Therefore, searching for
+an alternative to LIBs to break through the bottleneck has
+attracted unprecedented attention.4,5
+Beyond LIBs, lithium–sulfur (Li–S) batteries have been
+considered one of the most promising candidates among
+various explored batteries due to their excellent superior-
+ity. Sulfur cathode and lithium anode of the Li–S battery
+have ultrahigh theoretical gravimetric capacities of 1672
+and 3860 mAh g−1; thus, the Li–S battery is capable of de-
+livering much higher energy densities (2500 W h kg−1 and
+2800 W h L−1) than insertion-type electrodes-based LIBs (typi-
+cal theoretical energy densities are 420 W h kg−1 and 1400 W
+h L−1, respectively) even at a relatively lower working volt-
+age (average cell voltage of 2.15 V) than conventional LIBs
+(3.7 V).6–9 In addition, the abundance, cost-effectiveness, and
+nontoxicity of sulfur in nature make it promising for large-
+scale application. In recent years, tremendous accomplish-
+ment has been achieved by organic liquid electrolyte-based
+Li–S batteries. Some literature reported the liquid-based Li–S
+batteries with a very promising battery life,10–12 as well as a
+good performance with high sulfur loading for practical ap-
+plications.13,14
+Nevertheless, the development of safe and high-energy Li–S
+batteries still faces many challenges. The use of organic liquid
+electrolytes brings severe concern in practical applications.
+What’s worse, the dissolution of intermediate product poly-
+sulﬁdes in the liquid electrolyte will migrate from cathode to
+anode, and react with the lithium metal anode, resulting in
+the severe loss of sulfur active materials as well as the highly
+insulated interface at the anode. In addition, the lithium den-
+drite induced by the uneven deposition of lithium ions is an-
+other severe issue that needs to be addressed.
+In the past few years, many strategies have been devoted
+to addressing the aforementioned challenges, such as the ap-
+plication of polar catalysts in the cathodes,15,16 the develop-
+ment of novel interface materials,17 and the fabrication of
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+829
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 2 页 ===
+Canadian Science Publishing
+830
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+advanced electrolytes.18–20 In addition to that, the utiliza-
+tion of solid-state electrolytes (SSEs), especially the inorganic-
+based SSEs with high ionic conductivity, is one of the
+promising ways to solve the issues fundamentally.21,22 Non-
+ﬂammable SSEs are capable to circumvent the safety issues of
+battery explosion, reducing the occurrence of short circuits,
+avoiding the hazard of leakage, and having high robustness
+to suppress lithium dendrite and deformation. Furthermore,
+the dissolution issue of polysulﬁdes can be eliminated with
+the use of inorganic-based SSEs. However, despite these su-
+perior advantages and promising prospects, solid-state Li–S
+batteries (SSLSBs) still face many challenges and the commer-
+cialization of SSLSBs still has a long way to go. Especially some
+intractable drawbacks of sulfur cathodes severely inhibit the
+improvement of SSLSBs performance, including (1) the insu-
+lating nature of S and Li2S. Both the charging product S and
+discharging product Li2S have low electrical conductivity (5
+× 10−30 and 3.6 × 10−7 S cm−1) and slow Li+ transport, lead-
+ing to low active materials utilization and limited reaction
+kinetics.23 (2) Large volume change (>80%) of S/Li2S will oc-
+cur during the charge/discharge process, due to different den-
+sities of S and Li2S (2.07 and 1.66 g cm−3).23 The cathode is
+composed of active materials (typically S or Li2S), electronic
+conductors (typically carbon materials), and Li-ion conductor
+SSEs. The severe volume change will cause the detachment of
+active materials from carbon materials and SSEs and result
+in the blockage of electrons and Li+ transport paths, lead-
+ing to severe polarization and capacity decay. (3) High inter-
+facial resistance between active materials and electronic and
+ionic conductors. To achieve fast electronic and ionic trans-
+port in cathodes, a large contact area and intimate solid–solid
+contact in S (or Li2S)/carbon materials/SSEs triple phases are
+required. However, in the cathode of SSLSBs, the contact be-
+tween the three components is point-to-point contact, which
+greatly limits the electrochemical kinetics. For this reason,
+constructing an intimate contact in S (or Li2S)/carbon mate-
+rials/SSEs triple-phase mixture is one of the most effective
+strategies.
+Carbon materials have become the most popular host ma-
+terials for sulfur-based cathodes, owing to their high elec-
+tronic conductivity, large pore volume for buffering the volu-
+metric changes of S/Li2S, and enabling high sulfur mass load-
+ing. Furthermore, the shuttle effect of polysulﬁdes can be
+effectively avoided thanks to the physical/chemical conﬁne-
+ment effect of carbon materials on polysulﬁdes. Therefore,
+the design of carbon materials in sulfur cathodes is essen-
+tial for the development of SSLSBs. In this review, we sum-
+marized recent progress on the classiﬁcation, functions, and
+effects of various carbon materials for the sulfur-based cath-
+odes in the inorganic SSEs-based SSLSBs. First, we brieﬂy dis-
+cussed the carbon materials applied in the electrochemical
+energy storage ﬁeld and in conventional liquid electrolyte-
+based Li–S batteries. After that, the recent progress of carbon
+materials applied in SSLSBs is summarized and highlighted.
+Especially, we put emphasis on the functional and rational
+design of carbon materials toward the challenges of sulfur
+cathodes, such as the improvement of electronic conductiv-
+ity, the accommodation of volumetric changes, and the de-
+crease of interfacial resistance in the cathodes; related re-
+search works are discussed in detail. Furthermore, the chal-
+lenges of carbon materials in the application of SSLSBs are
+discussed. Finally, we concluded with a summary and pro-
+vided our perspectives on the future directions of sulfur cath-
+odes in SSLSBs. We hope this review can bring comprehensive
+insights into the design and application of carbon materials
+for the development of solid-state batteries.
+2. Carbon materials in batteries
+Carbon materials have been widely used in energy stor-
+age and conversion devices, such as the electronic conductors
+in supercapacitors, and functional catalysts and catalyst sup-
+port materials in fuel cells.24–26 Carbon materials have also
+been widely investigated and applied in battery devices. Fur-
+thermore, especially in LIBs, graphite carbon materials are
+the most important and popular anode materials in the mar-
+ket due to their high electron conductivity, high Li-ion stor-
+age capacity, and low cost in fabrication.24,27 In addition to
+graphite anode materials, advanced carbon materials have
+also been widely applied in next-generation batteries beyond
+LIBs. For instance, carbon materials have been widely em-
+ployed in Li–S batteries from cathodes, separators, to an-
+odes.28,29 In the cathodes of Li–S batteries, the carbon mate-
+rials are the most potential sulfur host materials due to their
+high conductivity, various pore structure, and high surface
+areas. Many research works have been devoted to investigat-
+ing and optimizing the pore structure, pore size, composi-
+tion, and surface modiﬁcation of carbon materials to achieve
+physical/chemical conﬁnement/adsorption of lithium poly-
+sulﬁdes and volumetric buffering of S/Li2S.28,29 Moreover, the
+rational structural design of carbon materials is essential to
+achieve high-loading sulfur cathodes.30 For the anodes of Li–S
+batteries, while ensuring fast lithium ions transport, carbon
+materials are used to protect the lithium anode from side re-
+actions with the organic electrolyte and polysulﬁdes to avoid
+insulating layers and lithium dendrite.31 The carbon materi-
+als with high surface area and tunable pore size can be con-
+tributed to modiﬁed separators,29 thus preventing dissolved
+lithium polysulﬁdes from shuttling from cathode to anode.
+Recently, the development of SSLSBs has been increasing
+extensive attention due to their potential to achieve high
+safety and high energy density over conventional liquid-state
+Li–S batteries. Carbon materials are one of the most impor-
+tant components in both liquid and SSLSBs. However, the
+structural design strategies of carbon materials are signiﬁ-
+cantly different in both. Liquid-state Li–S batteries suffer from
+severe lithium polysulﬁde shuttling problems; thus, appro-
+priate porous carbon structures are designed to physically
+conﬁne the diffusion of soluble lithium polysulﬁdes. Also,
+the carbon hosts with polar surfaces have been developed to
+chemically anchor lithium polysulﬁdes. Nevertheless, SSLSBs
+are exempt from this problem because of the use of SSEs.
+Compared to liquid-state Li–S batteries, SSLSBs face new chal-
+lenges. In the absence of liquid-state electrolytes as the inter-
+facial modiﬁcation layer, the rigid SSEs contact with cathode
+materials and cathode by point-to-point contacts. The Li+/e−
+transformation across the interfaces is limited, leading to low
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 3 页 ===
+Canadian Science Publishing
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+831
+Fig. 1. Schematic illustration of challenges in sulfur cathodes of SSLSBs, carbon materials with different dimensions applied to
+solve the issues in the cathodes of SSLSBs, and various carbon structural design strategies for improving the electrochemical
+performance of SSLSBs. Reproduced with permission.32 Copyright. 2017, Wiley, Ltd. Reproduced with permission.33 Copy-
+right. 2019, Elsevier, Ltd. Reproduced with permission.34 Copyright. 2018, American Chemical Society. Reproduced with per-
+mission.35 Copyright. 2016, American Chemical Society. Reproduced with permission.36 Copyright. 2019, American Chemical
+Society. Reproduced with permission.37 Copyright. 2020, Wiley, Ltd. Reproduced with permission.38 Copyright. 2018, Fron-
+tiers Media As. Reproduced with permission.39 Copyright. 2020, Elsevier, Ltd. Reproduced with permission.40 Copyright. 2019,
+Royal Society of Chemistry. Reproduced with permission.23 Copyright. 2020, Royal Society of Chemistry. Reproduced with
+permission.41 Copyright. 2021, American Chemical Society.
+electrochemical reaction kinetic. Therefore, researchers pre-
+ferred to synthesize sulfur–carbon–electrolyte composites by
+one-step liquid-phase synthesis method or in situ synthesis
+methods to obtain a large three-phase contact area. It is im-
+portant to note that the scope of this review is limited to the
+discussion of carbon materials utilized in the sulfur cathodes
+of SSLSBs, including common carbon material structural de-
+sign strategies toward the same issues encountered by both
+liquid and SSLSBs, such as the low conductivity of S/Li2S and
+large volume change. Speciﬁcally, carbon material structural
+design strategies aimed at solving the exclusive problems of
+SSLSBs are also proposed and discussed in detail, as shown
+in Fig. 1. Table 1 summarizes and compared the challenges
+of sulfur cathodes in liquid-state Li–S batteries and SSLSBs,
+along with the corresponding structural design strategies of
+carbon materials to tackle these challenges.
+Carbon materials can be classiﬁed into three categories
+by dimension, from zero-dimensional (0D), one-dimensional
+(1D), two-dimensional (2D), to three-dimensional (3D). These
+various nanostructured carbons have been demonstrated as
+excellent components to serve high-performance Li–S batter-
+ies, including liquid-state and SSLSBs.
+2.1. 0D carbon materials
+0D materials refer to materials with all dimensions at the
+nanoscale, and 0D carbon materials used in SSLSBs, generally,
+refer to porous carbon particles/spheres, which are capable to
+conﬁne active materials within pores to improve the utiliza-
+tion of active materials. Also, the pore size and morphologies
+of porous carbon materials can be manipulated to achieve
+better performance. Porous carbon materials can be classi-
+ﬁed into microporous (<2 nm), mesoporous (2–50 nm), and
+macroporous (>50 nm) carbon materials according to their
+different pore size.
+2.1.1. Sulfur hosts
+In liquid-state Li–S batteries, microporous carbon materi-
+als42–44 act as the physical barrier that can restrict the dis-
+solution of polysulﬁdes into electrolytes.29 Carbon materials
+with mesopores45 and macropores46,47 can afford high sulfur
+loading and are more conducive to providing sufficient space
+for lithium ions transport due to their larger pore size.48 As
+a result, hierarchical pores49 with multifunction have been
+proven to have a great beneﬁt in improving electrochemical
+performance, and thus have been widely studied.50,51
+2.1.2. Coating materials
+0D conductive carbon powder is favourable as a coating
+layer for separators to prevent the migration of polysulﬁdes.
+Cui et al. developed a carbon super P conductive coating layer
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 4 页 ===
+Canadian Science Publishing
+832
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+Table 1. Summary and comparison of carbon structural design strategies in sulfur cathodes.
+Challenges in sulfur cathodes
+Liquid-state Li–S batteries
+SSLSBs
+Insulation of S/Li2S
+1. The introduction of 0D, 1D, 2D, 3D carbon materials with high conductivity as electron supplier
+2. Carbon materials with high speciﬁc surface area enable large contact areas with S by advanced
+synthesis methods
+Volume change
+1. Carbon materials with open structure that provides free space to buffer volumetric changes
+2. Carbon materials with compact structure in which S is tightly enclosed to avoid volumetric changes
+Shuttle effect
+1. Porous carbon structures physically conﬁne
+the diffusion of polysulﬁdes
+N/A
+2. Carbon hosts with polar surfaces chemically
+anchor the polysulﬁdes
+Poor interfacial contact
+N/A
+The sulfur–carbon–electrolyte composites with
+intimate three-phase contact are designed by
+liquid-phase and in situ synthesis methods
+on separators, which signiﬁcantly improved the cycling per-
+formance of Li–S batteries.52 Porous carbon materials can also
+be employed as a freestanding interlayer between the cath-
+ode and separator, which allow smooth Li-ion transfer and
+localize the soluble polysulﬁdes.53
+2.1.3. Carbon-conductive additives
+The adoption of carbon-conductive additives is to ensure
+good electron percolation in sulfur cathodes. The 0D carbon
+materials, such as carbon black, acetylene black (AB), and su-
+per P are conventional conductive additives in Li–S batteries,
+due to their low cost and high electronic conductivity. The
+conducting networks are dominated by the degree of inter-
+particle contact.
+The same as liquid-state Li–S batteries, in SSLSBs, the pore
+structure effect of carbon materials on the electrochemical
+performance of sulfur cathodes has also been investigated.
+Early work of 0D porous carbon materials for the cathode of
+SSLSBs was conducted by Kanno et al., who reported the use
+of porous AB with pore sizes ranging from 1 to 100 nm. Low
+resistance for the sulfur/AB composite electrode has been
+achieved by using the gas/solid mixing method. Tatsumisago
+et al.54 reported a carbon material composed of large quan-
+tities of 5-nm diameter interconnected mesopores, and they
+demonstrated that the interconnected pores enabled highly
+electronic and ionic conductivity network and a larger sul-
+fur/carbon contact area, which delivered a high discharge ca-
+pacity of 110 mAh g−1 after 400 cycles at a high current den-
+sity of 1.3 mA cm−2. In the same year, Zhang et al.40 reported
+porous BP2000 carbon material with a pore size of about 5 nm
+to form a core-shell sulfur@BP2000 nanocomposite. The au-
+thors proposed that this mesoporous structure can act as a
+conductive network to facilitate the electron transfer in the
+cathode and alleviate the large volumetric changes from sul-
+fur to Li2S. High-rate performance of 678.6 mAh g−1 at 4 C
+and outstanding cycling performance of nearly 100% capacity
+retention after 1200 cycles at room temperature can be ob-
+tained. As mentioned before, the inorganic-based SSLSBs typ-
+ically eliminate the formation of soluble polysulﬁdes. There-
+fore, the design of porous carbon materials does not require
+the function to conﬁne the polysulﬁdes, which is different
+from liquid-state Li–S batteries. Hayashi et al.55 investigated
+the carbon materials containing multiple types of porous
+structures, mesopores, and micropores less than 1 nm and
+examined the effect of micropores on cycling performance.
+The results showed that the cycle performance of SSLSBs us-
+ing microporous carbon is worse than that of using intercon-
+nected mesoporous carbon, indicating the advantages of in-
+terconnected mesopores in SSLSBs. In addition to the porous
+structure, other properties of 0D carbon materials, such as
+the wall thickness, the conductivities, and the mixing meth-
+ods with sulfur, have also been investigated in pioneer re-
+search works.56,57
+2.2. 1D carbon materials
+1D carbon materials, such as carbon nanotubes (CNTs)58
+and ﬁbers,59 have been widely studied in Li–S batteries due
+to the following advantages: (1) fast and continuous elec-
+tron and ion transport pathways with a large aspect ra-
+tio, which facilitate the construction of the conductive net-
+work; (2) high mechanical strength, which is excellent to
+tolerate the stress and strain in the cathode caused by
+volume changes of sulfur; and (3) high surface area to
+offer more active space for sulfur loading and the con-
+struction of S (or Li2S)/SSEs/carbon materials triple-phase
+interfaces. In addition to that, 1D carbon materials have
+the advantages of lightweight and high chemical/thermal
+stability.60,61
+2.2.1. Sulfur hosts
+The addition of non-conducting binder results in extra
+weight and decreases the continuous Li-ions and electrons
+transfer. Thus, the application of 1D carbon materials as
+sulfur hosts is beneﬁcial for providing continuous Li-ions
+and electron transfer networks.62 Moreover, the long length–
+diameter ratios of 1D carbons are beneﬁcial for assembling
+freestanding cathodes.63 In addition, 1D carbons/other car-
+bon composites and heteroatoms-doped 1D carbons are also
+applied as sulfur hosts.64
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 5 页 ===
+Canadian Science Publishing
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+833
+2.2.2. Coating materials
+1D carbon materials, such as CNTs, are employed as coat-
+ing materials applied to separators in Li–S batteries.65,66 In
+addition to bare CNTs, surface-modiﬁed CNTs with excel-
+lent polysulﬁde-trapping ability have been developed. Man-
+thiram et al.67 presented boron-doped CNTs-coated separa-
+tors in Li–S batteries, which exhibit effective trapping of poly-
+sulﬁdes. Carbon nanoﬁbers (CNFs) and multiwalled CNTs, as
+freestanding interlayers, have also been developed for trap-
+ping polysulﬁdes, channelling Li-ions, and facilitating charge
+transfer.68,69
+2.2.3. Carbon-conductive additives
+The 1D carbon materials include CNF and CNTs with high
+length–diameter ratios. The conductive networks formed by
+them are less sensitive to interparticle contact, and thus are
+more efficient in forming a network with high conductivity.
+1D carbon materials have also been used in SSLSBs. Vapour
+grown ﬁber (VGCF) is a type of 1D carbon material about
+150 nm in diameter and 15 μm in length.60 Kinoshita et al.70
+ﬁrst reported the use of VGCF in the cathode for SSLSBs.
+In the synthetic process, the sulfur/VGCF composites were
+prepared through a high-energy ball milling method. The
+composites showed high discharge capacity with 1300 mAh
+g−1 at room temperature and kept high capacity retention
+with 1200 mAh g−1 after 50 cycles. CNF is another promising
+1D carbon material with high electrical conductivity from
+10−7 to 103 S cm−1.61 The merits of high surface area with
+20–2500 m2 g−1 and large porosity, as well as the large-scale
+mass production, make CNF a favourable candidate in both
+liquid-state and SSLSBs.60 An early work employing CNF in
+sulfur/carbon composite was reported by Aihara’s group.71
+In this study, the authors illustrate that an intimate three-
+phase contact structure with CNF as the conductive skele-
+ton, electrolyte as the ion-conducting network, and sulfur
+as active materials can be built by optimizing the cathode
+synthetic process. A similar concept has also been demon-
+strated by Wen’s group72 by in situ coating Li7P3S11 elec-
+trolyte on the surface of carbonized dispersed cotton ﬁbre
+via a liquid-phase strategy to obtain a three-phase interface
+contact structure. CNTs are one of the most widely used
+1D carbon materials as carbon additives and sulfur hosts
+in the cathode for SSLSBs, contributing to their extremely
+high electrical conductivity (102–106 S cm−1), the large as-
+pect ratio of 1.3 × 108, and outstanding mechanical/chemical
+stability and ﬂexible features.60 Yao et al.73 designed sul-
+fur/carbon composites using CNT as sulfur host through the
+liquid method. The intercrossed CNT not only created inte-
+gral conductive pathways but also realized an improved uti-
+lization of sulfur. High discharge capacity with 660.3 mAh
+g−1 after 400 cycles and 100% columbic efficiency have been
+achieved. Recently, Chen et al.74 prepared a sulfur/multiwall
+CNTs (MWCNTs)/Li7La3Zr2O12 (LLZO) network by thermal dif-
+fusion method, which delivered high capacity retention of
+72.62% after 50 cycles. Nan et al.75 applied MWCNT and
+Li6PS5Cl as sulfur hosts and electrolytes, taking advantage
+of the high electronic conductivity of MWCNT and the high
+ionic conductivity of Li6PS5Cl electrolyte; the excellent dis-
+charge capacity of 1850 mAh g−1 at room temperature and
+1393 mAh g−1 after 50 cycles have been shown.
+2.3. 2D and 3D carbon materials
+In liquid-state Li–S batteries, 2D 76,77 and 3D carbon mate-
+rials 78 have been employed as sulfur hosts and coating ma-
+terials.
+2.3.1. Sulfur hosts
+In addition to pure 2D graphene, the pre-prepared 2D
+graphene ﬁlm with good ﬂexibility and 2D/3D graphene
+foams/sponges with large surface area and abundant pore
+size distribution are directly used as sulfur cathodes. These
+freestanding materials possess high strength, ﬂexible proper-
+ties, and well-deﬁned interpenetrating structures, which en-
+able good electronic and ionic conductivity.79,80
+2.3.2. Coating materials
+Graphene
+with
+2D
+structure,
+high
+conductivity,
+lightweight, high surface area, and chemical and phys-
+ical stabilities are very promising candidates as coating
+materials for sulfur cathodes. The graphene coating layers
+are proposed to improve the conductivity of sulfur cathodes
+81 and trap polysulﬁdes via oxo groups.82 Graphene can also
+be used as a coating layer on separators. Beneﬁting from the
+high conductivity and low weight of graphene, the separators
+with graphene coating layer serve as a reservoir to facilitate
+the transformation of accumulated polysulﬁdes on separa-
+tors, while maintaining high energy density.83 Graphene and
+nitrogen-doped graphene have been studied as freestanding
+interlayers between the cathode and separator.84
+With
+the
+properties
+of
+high
+electrical
+conductivity
+(106 S cm−1), large surface area (2600 m2 g−1), and excellent
+mechanical strength and ﬂexibility, 2D graphene materials
+are also employed in SSLSBs as sulfur hosts.85,86 Xu et al.32
+constructed a sulfur/reduced graphene oxide (rGO) compos-
+ite by heating treatment method. The results showed a high
+reversible capacity of 827 mAh g−1 after 60 cycles, attributed
+to the high electrical conductivity of rGO and intimate con-
+tact among sulfur/rGO and electrolyte. 3D carbon materials
+are attractive 37,87 due to the 3D porous structure could act as
+a freestanding electrode without any conductive agent and
+can effectively establish an intimate sulfur/carbon/electrolyte
+interface. Kanno et al.57 developed a 3D carbon replica with
+pore size ranging from 8 to 100 nm for sulfur/carbon com-
+posites. The performance of sulfur/carbon replica composites
+with different sizes is characterized. Optimized pore size
+and carbon wall thickness were found to be 8.6 and 4.7 nm,
+respectively. The ﬁrst discharge capacity was 1944 mAh g−1
+at 0.065 mA cm−2, and 366 mAh g−1 capacity retention after
+20 cycles. The carbon replicas with smaller pore sizes can
+avoid the capacity decay in carbon replicas with larger pore
+sizes, such as pore sizes of 40.2 and 117.2 nm because large
+vacant space cannot be used to contribute to electronic
+conduction.
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 6 页 ===
+Canadian Science Publishing
+834
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+In addition to using a single type of carbon materials in
+sulfur cathodes, hybrid carbon materials have been applied
+to achieve enhanced electrochemical performance. Nan’s
+group88 prepared nanohybrid composites with different di-
+mensions of carbon materials (1D MWCNT, 0D super P, and
+1D VGCF) by the solvent exchange method. The multifunc-
+tion of these three types of carbon materials gave rise to a
+high discharge capacity of 1140.9 mAh g−1 and 100% capacity
+retention after 400 cycles were achieved.
+3. Design strategies of carbon materials
+for sulfur cathodes in SSLSBs
+The structural design of carbon materials plays an im-
+portant role to overcome the challenges in sulfur cathodes
+with the following main strategic goals: (1) improving the
+electrical conductivity of sulfur and discharge product Li2S;
+(2) accommodating the volume change of sulfur and Li2S
+and reducing the stress/strain at the interface of the compo-
+nents in the cathodes (sulfur, SSEs, and conductive carbon);
+(3) decreasing the interfacial resistance of sulfur–carbon–
+electrolyte three phases; and (4) achieving high active ma-
+terial loading to approach practical applications. In the fol-
+lowing section, the carbon structural design strategies and
+corresponding research work to achieve these goals will be
+introduced.
+3.1. Improvement of electronic conductivity
+Carbon materials are acting as electron suppliers for sul-
+fur cathodes due to their promising electronic conductiv-
+ity and have become the most popular materials as sulfur
+hosts in SSLSBs. Synthesis methods are essential to deter-
+mine the formed sulfur–carbon composite structures to ful-
+ﬁll the following requirements: (1) enabling a uniform dis-
+persion of active materials in the pores of carbon materials
+while maintaining sufficient active material mass loading,
+so as to realize a large contact area between active materi-
+als and carbon materials and (2) minimizing the size of ac-
+tive materials into nanoscale to gain shorter electrons/ions
+transport pathways. In the following sections, various syn-
+thetic strategies combined with different carbon structures
+are discussed. In Table 2, the studies using various syn-
+thetic methods for carbon/sulfur composites to improve elec-
+tronic conductivity of sulfur cathodes are summarized and
+compared.
+3.1.1. Ball milling method
+The mechanical mixing method generally includes hand
+grinding and ball milling.89,90 Tatsumisago et al.89 compared
+the synthetic methods of sulfur/AB composites by hand grind-
+ing with a mortar and ball milling with a planetary ball mill
+apparatus. The results showed that the sulfur/carbon compos-
+ites mixed by the ball milling method can deliver higher ca-
+pacity due to the reduced particle size and better contact be-
+tween sulfur and carbon materials. Later, this research group
+reported a Li2S/AB composite90 with 500 nm Li2S and AB par-
+ticles; they emphasized the reduced particle size and uniform
+distribution of sulfur in the composites are the reason for the
+improved battery performance. The operating time for the
+mechanical mixing method has also been studied by Kanno’s
+group91 from 10 to 600 min. The authors demonstrated that
+sulfur/AB composites delivered a high initial discharge ca-
+pacity (>1100 mAh g−1) with a long milling time of 300 min.
+However, the capacity faded severely during 30 cycles be-
+cause of the side reaction and increased interfacial resistance
+between sulfur and electrolyte. Temperature is another im-
+portant parameter in the ball milling process. As shown in
+Fig. 2A, Yamamoto et al.87 designed sulfur/3D graphene com-
+posites via high-temperature ball milling at 170 ◦C. Beneﬁt-
+ing from the unique structure and high-temperature milling
+method, they achieved a high speciﬁc capacity of 716 mAh
+g−1 at 4.6 mAh cm−2 with high sulfur loading (50 wt %). Com-
+pared with the room temperature ball milling process, this
+optimized ball milling method resulted in smaller sulfur
+particle size and large contact area, which lead to excel-
+lent cycling performance (above 800 mAh g−1 after 40 cy-
+cles) and good rate capability. There is other research work
+that investigated the temperature effect of the ball milling
+process.92
+3.1.2. Liquid-phase deposition method
+It is widely used in the preparation of sulfur/carbon com-
+posites to synthesize nano-sized sulfur particles. During the
+liquid-phase deposition process, the nano-sized sulfur will be
+ﬁrst dispersed in a liquid solution, along with the deposition
+process on the carbon materials. By minimizing the size of
+sulfur particles, the electrons/Li+ pathways can be shortened
+and the utilization of sulfur in the electrochemical reaction
+can be improved. As reported by Yao’s group,73 sulfur/CNTs
+composites were prepared by depositing nano-sized sulfur
+on the surface of CNTs using the thiamine method. SSLSBs
+with this sulfur/carbon composites delivered a high capacity
+of 660.3 mAh g−1 after 400 cycles at 1.0 C with 100% coulom-
+bic efficiency. Wang et al.93 reported a sulfur/CMK-3 com-
+posite by mixing sulfur–tetrahydrofuran solvent and CMK-3-
+tetrahydrofuran solvent. After stirring and drying, the sulfur
+could uniformly disperse into the pores of CMK-3. As shown
+in Fig. 2B left, Zhang et al.33 used the liquid-phase deposition
+method that dropped sulfur/CS2 solution onto the CNF mat
+surface. The thickness of sulfur layer was tailored to 8–18 nm
+by optimizing the ratio of sulfur/CS2. Wang et al.86 also em-
+ployed the liquid-phase deposition method that uses an an-
+hydrous ethylenediamine solution to deposit sulfur onto the
+surface of rGO, as shown in Fig. 2B right. The thickness of sul-
+fur layer can be controlled within 2 nm, which increased the
+contact area between sulfur and rGO, and could shorten the
+electrons/ions transfer pathways. As reported by the authors,
+the developed sulfur cathode exhibited a high capacity of 830
+mAh g−1 after 750 cycles at 1.0 C in SSLSBs.
+3.1.3. Thermal treatment method
+It is a widely used method for compositing sulfur and
+carbon materials in both liquid-state Li–S batteries and
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 7 页 ===
+Canadian Science Publishing
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+835
+Table 2. Summary of SSLSBs based on various synthetic methods of sulfur cathodes for the improvement of electronic conduc-
+tivity (the values outside brackets in the performance columns are the discharge capacity after cycling. If there is no cycling
+number information, the values are initial capacity before cycling. The temperature values in the brackets in the performance
+columns are the operating temperatures. If there is no operating temperature information in the column of performance, the
+cells are operated at RT).
+Synthetic
+methods
+Active materials–carbon
+materials
+Active material
+content (wt%)
+Areal
+loading
+SSE
+Mass
+(diameter)
+Performance
+Ref.
+Ball milling
+Li2S–AB
+25
+3.18 mg cm−2
+80Li2S · 20P2S5
+80 mg
+(10 mm)
+1000 mAh g−1 (0.064 mA
+cm−2)
+89
+S–AB
+25
+Not
+mentioned
+80Li2S · 20P2S5
+Not
+mentioned
+(10 mm)
+850 mAh g−1 (1.3 mA
+cm−2, 200 cycles)
+90
+S–AB
+25
+1.59 mg cm−2
+Li3.25Ge0.25P0.75S4
+80 mg
+(10 mm)
+∼500 mAh g−1 (0.13 mA
+cm−2, 30 cycles)
+91
+S–single-walled 3D
+graphene
+50
+3.18 mg
+cm−2
+Li10GeP2S12
+80 mg
+(10 mm)
+1432 mAh g−1 (1.0 mA
+cm−2)
+87
+S–AB
+25
+1.59 mg
+cm−2
+Li3.25Ge0.25P0.75S4
+70 mg
+(10 mm)
+>800 mAh g−1 (0.13 mA
+cm−2, 40 cycles)
+92
+Liquid-phase
+deposition
+S–CNTs
+26.7
+0.4–0.5 mg
+cm−2
+Li10GeP2S12
+100 mg (not
+mentioned)
+660.3 mAh g−1 (2.72 mA
+cm−2, 400 cycles)
+73
+S–ordered mesoporous
+carbon (CMK-3)
+25.8
+1.64 mg
+cm−2
+Li3PS4
+150 mg
+(10 mm)
+1025 mAh g−1 (0.33 mA
+cm−2, 50 cycles)
+(60 ◦C)
+93
+S–CNFs
+Not mentioned
+1.27 mg
+cm−2
+Li0.33La0.557TiO3
+(LLTO) nanoﬁber–
+poly(ethylene
+oxide) (PEO)
+Not
+mentioned
+415 mAh g−1 (0.084 mA
+cm−2, 50 cycles)
+33
+S–rGO
+12
+0.4–0.5 mg
+cm−2
+Li10GeP2S12
+100 mg (not
+mentioned)
+830 mAh g−1 (1.21 mA
+cm−2, 750 cycles)
+86
+Heat
+treatment
+S–CNTs
+10
+1.3 mg cm−2
+Li10GeP2S12
+100 mg
+(10 mm)
+998.5 mAh g−1 (0.21 mA
+cm−2, 200 cycles)
+94
+Li2S–PAN-derived carbon
+31.25
+2.33 mg
+cm−2
+80Li2S · 20P2S5
+150 mg
+(16 mm)
+730 mAh g−1 (g of
+carbon-coated Li2S)
+(0.05 mA cm−2, 25
+cycles)
+95
+S–PAN and MaPC
+11.88
+1 mg cm−2
+Li6PS5Cl
+120 mg
+(10 mm)
+715.5 mAh g−1 (0.17 mA
+cm−2, 200 cycles)
+96
+Li2S–VGCF
+29.41
+2.2 mg cm−2
+78Li2S · 22P2S5
+150 mg
+(16 mm)
+600 mAh g−1 (0.05 mA
+cm−2, 20 cycles)
+97
+Electrostatic
+assembly
+S–CNF
+13
+Not
+mentioned
+0.67Li3PS4–0.33LiI
+Not
+mentioned
+>1500 mAh g−1
+(0.19 mA cm−2, 20
+cycles) (60 ◦C)
+98
+Gas-phase
+deposition
+S–KB
+38.5
+1.5 mg cm−2
+Li3PS4
+100 mg (not
+mentioned)
+1437 mAh g−1 (0.24 mA
+cm−2, 100 cycles)
+(60 ◦C)
+99
+SSLSBs.32,54,100 Typically, the heat treatment at 155 ◦C makes
+sulfur having the lowest viscosity and high mobility, and
+therefore it is favourable to impregnate sulfur into the pores
+of carbon materials to achieve a uniform distribution. After
+the 155 ◦C heating treatment, some research works also in-
+volve the second-step heating treatment at about 300 ◦C to
+further gasify the sulfur.23 In Fig. 2C left, Zhang et al.94 re-
+ported a sulfur/CNTs composite by ball milling with a fol-
+lowed heat treatment at 155 ◦C. A surface-to-surface interface
+between sulfur and CNTs was formed to make sure a large
+contact area and fast electron transfer. Sulfur/carbon com-
+posites employing PAN as an electronic conductor are often
+generated by the thermal treatment method. Liu’s group101
+ﬁrst used PAN in SSLSBs. The authors developed a PAN–sulfur
+composite under 300 ◦C to create a uniform distribution of
+sulfur in PAN. Shin’ s group95 mixed Li2S with carbonized PAN
+source at 600 ◦C. Beneﬁting from the intimate carbon coating
+layer on the Li2S particles, the electronic conductivity of Li2S
+was improved to 2.39 × 10−2 S cm−1 from 9.21 × 10−9 S cm−1.
+Liu’s group96 synthesized a sulfurized PAN@macroporous car-
+bon (SPAN@MaPC) composite after ball milling and heat treat-
+ment at 350 ◦C, and the sulfur was successfully chemically
+bonded to carbon conﬁrmed by Raman spectra, as shown in
+Fig. 2C right. The assembled SSLSBs achieved high capacity
+retention of 715.5 mAh g−1 after 200 cycles, contributed by
+the uniform distribution of sulfur at the atomic level in PAN,
+and the intimate contact between sulfur and electronic con-
+ductor through the covalent bonds. Shin et al.97 prepared a
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 8 页 ===
+Canadian Science Publishing
+836
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+Fig. 2. Improvement of electronic conductivity for sulfur cathodes via different synthetic methods. (A) Ball milling. Reproduced
+with permission.87 Copyright. 2021, American Chemical Society. (B) Liquid-phase deposition. Reproduced with permission.33
+Copyright. 2019, Elsevier, Ltd. Reproduced with permission.86 Copyright. 2017, Wiley, Ltd. (C) Heat treatment. Reproduced with
+permission.94 Copyright. 2019, Elsevier, Ltd. Reproduced with permission.96 Copyright. 2021, Royal Society of Chemistry. (D)
+Electrostatic assembly. Reproduced with permission.102 Copyright. 2020, American Chemical Society. (E) Gas-phase deposition.
+Reproduced with permission.99 Copyright. 2021, American Chemical Society.
+Li2S/VGCF composite by heat treatment, and they employed
+different synthetic temperatures (300–700 ◦C) to control the
+formation of Li2S crystals. They found that the composite syn-
+thesized at 400, 500, and 600 ◦C exhibited lower charge trans-
+fer resistance due to the improved crystallization of Li2S and
+uniform distribution without agglomeration.
+3.1.4. Electrostatic assembly method
+It enables a thinner sulfur layer that can be formed on
+the surface of carbon materials due to the electrostatic ad-
+sorption of fewer atoms. Matsuda et al.102 formed thin sul-
+fur nanosheets on the surface of CNF through an electro-
+static reaction between positively charged CNF and nega-
+tively charged sulfur precursor, as shown in Fig. 2D. High-rate
+performance of 600 mAh g−1 at 1.77 mA cm−2 was obtained,
+contributed by the shortened electrons/ions transfer distance
+in thin sulfur nanosheets.
+3.1.5. Gas-phase deposition method
+It refers to the sulfur/carbon composites synthesized
+when the sulfur is gas-state. The gaseous sulfur could be
+fully impregnated into the pores of carbon materials, re-
+sulting in a more uniform distribution of sulfur in the
+composites.56,57,103 Recently, Wang’s group99 prepared a
+sulfur/Ketjenblack (KB) with high sulfur content (71.4%–
+83.3%) using sulfur vapour deposition approach. The assem-
+bled SSLSBs obtained a high discharge speciﬁc capacity of
+1792.6 mAh g−1 ascribed to the small particle size of sulfur.
+(Fig. 2E).
+3.2. Accommodation of volume change
+Sulfur cathodes in SSLSBs suffer from the problem of
+large volume expansion (approximately 80%) during lithia-
+tion, which leads to the severe detachment of sulfur from
+the electrical conductor and SSEs, and ﬁnally the pulveriza-
+tion of cathodes, resulting in the severe capacity degradation
+with limited battery life. As a result, most of the reported
+SSLSBs required external pressure control during the battery
+operation, which is a big challenge for practical applications.
+In this respect, carbon materials have the potential to over-
+come this challenge based on their tunable morphologies and
+structures. Based on the structural design, two main concepts
+of carbon materials are summarized to mitigate the sulfur
+volumetric expansion, (1) open structure of carbon materials
+with free space for sulfur volume expansion and (2) encap-
+sulation of nano-sized sulfur in compact carbon structures.
+In Table 3, the studies based on two carbon structural design
+strategies to accommodate volume change of sulfur cathodes
+are summarized.
+3.2.1. Open structure
+The volume expansion of sulfur in cathodes without any
+free space will cause the fracture and cracks of cathodes.
+The advantage of carbon materials with open structure re-
+lies on the existence of internal free space for the sulfur
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 9 页 ===
+Canadian Science Publishing
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+837
+Table 3. Summary of SSLSBs based on two carbon structural design strategies for the accommodation of sulfur cathodes
+(the values outside brackets in the performance columns are the discharge capacity after cycling. If there is no cycling number
+information, the values are initial capacity before cycling. The temperature values in the brackets in the performance columns
+are the operating temperatures. If there is no operating temperature information in the column of performance, the cells are
+operated at RT).
+Carbon
+structure
+Active materials–carbon
+materials
+Active material
+content (wt%)
+Areal
+loading
+SSE
+Mass
+(diameter)
+Performance
+Ref.
+Open
+structure
+S–BP2000
+30
+0.6 mg cm−2
+Li7P3S11
+120 mg
+(10 mm)
+985.3 mAh g−1 (2.88 mA
+cm−2, 1200 cycles)
+40
+Li2S–CNT
+12–21
+1.27 mg cm−2
+Li10GeP2S12
+100 mg (not
+mentioned)
+651.4 mAh g−1 (2.13 mA
+cm−2, 300 cycles) (60 ◦C)
+41
+VS4–rGO
+40.5
+1–1.26 mg cm−2
+Li10GeP2S12
+100 mg
+(10 mm)
+611 mAh g−1 (0.1 mA
+cm−2, 100 cycles)
+85
+Compact
+structure
+Li2S–CS2-derived carbon
+38
+1.75 mg cm−2
+Li7P3S11
+100 mg
+(10 mm)
+644 mAh g−1 (2 mA cm−2,
+700 cycles) (60 ◦C)
+36
+Li2S–N-doped carbons
+42.9
+8.2 mg cm−2
+Li7P3S11
+100 mg
+(10 mm)
+937 mAh g−1 (0.2 mA
+cm−2, 50 cycles) (60 ◦C)
+39
+volume expansion and reduces the stress/strain at the sul-
+fur/carbon interfaces, thus preserving the structural integrity
+of the cathode. Some carbon materials are with free space,
+such as porous carbon materials, 1D CNTs, and 2D graphene.
+As shown in Fig. 3A-a, Zhang et al.40 employed BP2000 as sul-
+fur host with a high total surface area (1739 m2 g−1) and to-
+tal pore volume (2.747 cm3 g−1), the unique porous structure
+provided space for the volume buffering of sulfur, which re-
+sulted in ultrahigh cycling performance of nearly 100% capac-
+ity retention after 1200 cycles at 3 C. Yao’s group 41 employed
+CNTs with an open structure to load ultrasmall sulfur parti-
+cles (∼15 nm); beneﬁted from sufficient buffering space and
+reduced particle size of sulfur, the assembled SSLSBs showed
+a high reversible capacity of 651.4 mAh g−1 after 300 cycles
+at 1.0C (Fig. 3A-b). As shown in Fig. 3A-c, Yao et al.85 used
+2D rGO to anchor linear-chain compound VS4, ascribed to
+the ﬂexible structure and high surface area of rGO, and the
+cathode with rGO was capable of resisting the stress/strain
+generated by the transformation of VS4 to V/Li2S in the ﬁrst
+discharge process and subsequent sulfur/Li2S transformation.
+A high capacity of 333 mAh g−1 after 500 cycles at 0.5 A g−1
+is obtained. It should be noted that although carbon mate-
+rials with open structures possess the abovementioned ad-
+vantages, the surplus space causes a larger tap density of the
+cathode, which results in lower volumetric energy density. In
+addition, the sulfur/carbon composites without compact en-
+capsulation tend to render sulfur to lose its interfacial con-
+nection with electrical conductors during frequent volume
+changes and eventually become “dead sulfur”, which causes
+severe capacity degradation of batteries.
+3.2.2. Compact structure
+Contrary to the open structure, the design and construc-
+tion of a compact structure in which sulfur is tightly en-
+closed with carbon hosts and SSEs is also a promising strat-
+egy. This is highly related to the particle size of sulfur and
+the morphology and ﬂexibility of carbon hosts. Yang et al.36
+reported a Li2S@C nanocomposite with compact encapsula-
+tion structure. In the synthetic process, the authors mixed
+lithium metal foil and CS2, and then heated them at 300 ◦C;
+after the combustion reaction, Li2S@C nanocomposites with
+uniform distribution of Li2S in carbon matrix can be obtained
+(Fig. 3B-d). Notably, the grain boundaries of sulfur and car-
+bon materials were fused (Fig. 3B-e), which resulted in a tight
+adherence between sulfur and carbon materials. Beneﬁting
+from this unique structure, the assembled SSLSBs exhibited a
+high initial capacity of 1067 mAh g−1 and outstanding capac-
+ity retention (nearly 100%) after 30 cycles even at high Li2S
+mass loading of 7 mg cm−2, as shown in Fig. 3B-f. In 2020,
+the same group39 used nitrogen-doped carbon (NC) to act as
+a carbon layer to coat Li2S particles by pyrolysis deposition
+approach. The TEM images (Fig. 3B-g) of Li2S@carbon showed
+that the thin carbon layer intimately covered Li2S particles,
+which formed a compact Li2S@NC structure. This Li2S@NC
+composite delivered a high capacity even under a high Li2S
+mass loading from 2.83 to 10.4 mg cm−2 (as shown in Figs. 3B-
+h and 3B-i). In addition to supplying a high strength barrier
+against stress/stain caused by the volume change of sulfur,
+the achievement of this compact structure is generally ac-
+companied by a high active material mass loading due to
+its unique preparation method, which will be discussed in
+Section 3.4.
+3.3. Reduction of resistance at
+sulfur–carbon–electrolyte three-phase
+interfaces
+In the cathode of Li–S batteries, creating fast electron and
+ion transport pathways for the active materials is one of the
+most essential strategies to improve battery performance. In
+the liquid-state Li–S batteries, the liquid electrolytes can fully
+immerse into the cathodes. Different from liquid-based Li–
+S batteries, the active materials (S/Li2S), carbon, and SSEs in
+SSLSBs are point-to-point connections through the solid–solid
+phases, thus resulting in considerable interfacial resistance,
+which greatly hinders the transport of electrons and ions
+in the cathodes.23 As a result, the construction of intimate
+and stable active materials/carbon/electrolyte three-phase in-
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 10 页 ===
+Canadian Science Publishing
+838
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+Fig. 3. Schematic ﬁgures of the strategies to accommodate volume change in sulfur cathodes. (A) Open structure. (A-a)
+Schematic diagram of the S@BP2000 composite. Reproduced with permission.40 Copyright. 2019, Royal Society of Chemistry.
+(A-b) Schematic illustration of the preparation process for the Li2S–CNT cathode and the cycling stability of the Li2S–53%CNT
+cathode. Reproduced with permission.41 Copyright 2021, American Chemical Society. (A-c) Schematic illustration of the synthe-
+sis process and the reaction mechanisms of 10%rGO–VS4@Li7P3S11 nanocomposites. Reproduced with permission.85 Copyright
+2019, Elsevier, Ltd. (B) Compact structure. (B-d) Schematic illustration of Li2S@C structure and the reaction process. (B-e) HRTEM
+image of the as obtained Li2S@C nanocomposite. (B-f) Cycling performances of the Li2S@C nanocomposite under Li2S loading
+of 7 mg cm−2. Reproduced with permission.36 Copyright 2019, American Chemical Society. (B-g) SEM, TEM images and ele-
+mental mapping images of the Li2S@NC composite. (B-h) Discharge–charge curves under different mass loading. (B-i) Cycling
+performance of Li2S@NC and commercial Li2S. Reproduced with permission.39 Copyright 2020, Elsevier, Ltd.
+terfaces with a large contact area is the most promising ap-
+proach to achieve a continuous electron/ion transport net-
+work for long-lasting operation. To realize this purpose, many
+strategies are presented to enhance the solid–solid interface
+contact.104–107
+(1) Design ideal sulfur–carbon–electrolyte interfacial mi-
+crostructures by optimizing the macroscopic parameters,
+including composition, porosity, particle size, and overall
+thickness.
+(2) Utilization of external pressure can avoid contact loss and
+poor Li-ion and electron transfer caused by cyclical expan-
+sion and contraction of S/Li2S.
+(3) The application of soft SSEs with low Young’s moduli and
+hardness can accommodate the mismatching derived by
+volume change in sulfur cathodes.
+(4) The development of interlayer coatings with acceptable
+Li-ions and electron conductivities is a successful ap-
+proach that not only can alleviate the high interfa-
+cial resistance caused by side reactions, but also can
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 11 页 ===
+Canadian Science Publishing
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+839
+Table 4. Summary of SSLSBs based on two synthetic methods of sulfur cathodes for the reduction of resistance at sulfur–
+carbon–electrolyte three-phase interfaces (the values outside brackets in the performance columns are the discharge capacity
+after cycling. If there is no cycling number information, the values are initial capacity before cycling. The temperature values
+in the brackets in the performance columns are the operating temperatures. If there is no operating temperature information
+in the column of performance, the cells are operated at RT).
+Synthetic
+methods
+Active materials–carbon
+materials
+Active material
+content (wt%)
+Areal
+loading
+SSE
+Mass
+(diameter)
+Performance
+Ref.
+Liquid-phase
+synthetic
+method
+S–3D graphene
+55
+2.48 mg
+cm−2
+Small molecule
+complex
+electrolyte
+Li3I3(HPN)2
+Not
+mentioned
+450 mAh g−1 (0.52 mA
+cm−2, 20 cycles)
+37
+Li2S–PVP-derived carbon
+24
+3.6 mg cm−2
+80Li2S · 20P2S5
+150 mg
+(13 mm)
+830 mAh g−1 (0.18 mA
+cm−2, 60 cycles)
+35
+S–LLZO-doped carbon
+foam
+61–64
+0.54–0.87 mg
+cm−2
+LLZO–PEO–
+LiClO4
+Not
+mentioned
+>900 mAh g−1 (0.05 mA
+cm−2, 200 cycles) (37 ◦C)
+108
+In situ
+synthetic
+method
+Li2S–AB
+38.8
+5.78 mg
+cm−2
+Li3PS4
+100 mg
+(10 mm)
+908.9 mAh g−1 (1.16 mA
+cm−2, 30 cycles) (60 ◦C)
+109
+Li2S–AB
+56.3
+4.65 mg
+cm−2
+Li3PS4
+100 mg
+(10 mm)
+741 mAh g−1 (0.2 mA
+cm−2, 30 cycles) (60 ◦C)
+110
+serve as both an electron supplier and Li-ion transfer
+mediator.
+(5) The fabrication of porous electrolytes and electrodes with
+a high speciﬁc area, which is expected to exhibit high in-
+teraction areas.
+In addition, the structural design of carbon materi-
+als also enables to enhance the contact at three-phase
+interfaces, which is achieved by two cathode synthetic
+methods, (1) the liquid-state synthetic method and (2)
+the
+in
+situ
+synthetic
+method.
+In
+Table
+4,
+the
+stud-
+ies based on two synthetic methods for sulfur cathodes
+to reduce the resistance of three-phase interfaces are
+summarized.
+3.3.1. Liquid-phase synthetic method
+Fu et al.37 prepared a 3D graphene foam with ultra-
+high sulfur and electrolyte dispersion (Fig. 4A-a), which can
+be directly used as a cathode in batteries. The sulfur/3D
+graphene was generated by a redox process and thermal
+treatment of Na2S or Na2Sx and oxidized GO. Then, the au-
+thors soaked synthesized sulfur/3D graphene with molten
+small molecule complex (SMC) Li3I3(HPN)2 electrolyte solu-
+tion, and good sulfur–carbon–electrolyte contact interfaces
+can be obtained. The assembled SSLSBs delivered a high
+rate performance of 410 mAh g−1 at 4 C. Wang et al.35 fabri-
+cated a sulfur–carbon–electrolyte nanocomposite consisting
+of homogeneous-distributed sulfur and electrolyte with a par-
+ticle size of 4 nm by liquid-phase synthetic process and car-
+bonization process (Fig. 4A-b). The TEM images (Fig. 4A-c) of
+the obtained composite showed that nano-sized sulfur and
+electrolyte were uniformly embedded into the carbon ma-
+trix at the nanoscale, and the crystal boundaries of sulfur,
+carbon, and electrolyte were fused, which guaranteed an in-
+timate and compact interfacial structure. This composite de-
+livered a high reversible capacity of 830 mAh g−1 at 50 mA
+g−1 after 60 cycles at room temperature. To reduce the inter-
+facial resistance between sulfur and the carbon/electrolyte,
+Cui’s group108 (Fig. 4A-d) ﬁrst synthesized LLZO electrolyte
+particles-doped carbon matrix (LLZO@C) by Pechini sol-gel ap-
+proach, and the sulfur@LLZO@C composites were obtained
+by thermal diffusion method at 155 ◦C. From the TEM im-
+ages of LLZO@C sample (Figs. 4A-e, 4A-f, and 4A-g), the par-
+ticles of LLZO and carbon matrix were connected through
+crystal boundaries, which leads to the minimization of in-
+terfacial resistance. The SSLSBs exhibited a high speciﬁc ca-
+pacity of 900 mAh g−1 at 37 ◦C and remarkable stable cycling
+performance. By utilizing the liquid-phase synthetic method,
+the three components could be mixed more uniformly at the
+nano-sized scale, followed by the heat treatment process, a
+porous carbon matrix with sulfur and electrolyte particles
+doped will be formed accompanied by a three-phase contact
+interface.
+3.3.2. In situ synthetic method
+Different from the method above, the key of the in situ
+synthetic method is to form the SSEs during the mixing pro-
+cess. The formed SSEs can be rationally designed in mor-
+phology and dimension to achieve intimate contact with sul-
+fur/carbon composites. Recently, Xie’s group 109 (Fig. 4B-h)
+prepared a Li2S–AB–Li3PS4 (LPS) composite cathode through
+an in situ synthetic method. The SSLSBs showed a high
+areal capacity of 5.52 mAh cm−2 with high Li2S mass load-
+ing of 5.78 mg cm−2. Xie et al.110 constructed a Li2S–LPS–
+(AB + CNT) composite; in the synthetic process, the LPS
+electrolyte and mixture of AB, CNT were in situ formed
+simultaneously on the surface of Li2S particles at 300 ◦C,
+as shown in Fig. 4B-i. The battery showed a high speciﬁc
+capacity of 741 mAh g−1 after 30 cycles at 0.2 mA cm−1
+current density. Compared with the traditional mechani-
+cal mixing method, this in situ composite method facili-
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 12 页 ===
+Canadian Science Publishing
+840
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+Fig. 4. Reduction of resistance at sulfur–carbon–SSE three-phase interfaces. (A) Liquid-phase synthetic method. (A-a) Diagram
+illustration and reaction process of S–3DG@SMC electrode. Reproduced with permission.37 Copyright 2020, Wiley, Ltd. (A-
+b and A-c) The TEM image of the Li2S–Li6PS5Cl–C nanocomposite. Reproduced with permission.35 Copyright 2016, American
+Chemical Society. (A-d) Schematic illustration of an SSLSB with LLZO SSE. (A-e, A-f, and A-g) TEM images of the LLZO@C samples.
+Reproduced with permission.108 Copyright 2017, American Chemical Society. (B) In situ synthetic method. (B-h) Synthesis
+schematic of Li2S–AB–LPS and Li2S–AB + LPS. Reproduced with permission.109 Copyright 2021, Elsevier, Ltd. (i) Schematic
+illustration of the synthesis strategy for Li2S composite. Reproduced with permission.110 Copyright 2020, Springer Nature.
+tates the formation of intimate contact between sulfur and
+carbon/electrolyte.
+3.4. Increase mass loading of active materials
+Active materials’ areal mass loading is essential to deter-
+mine the energy density of battery devices.4,5 Based on the
+calculation results from other review papers, the areal load-
+ing should be at least reach to 4 mg cm−2 toward the energy
+density of 500 Wh kg−1.111 It should be noted that the devel-
+opment of SSLSBs is still in the early stage, and therefore most
+of the research papers reported relatively low areal mass load-
+ing of active materials (mostly below 2 mg cm−2). Addition-
+ally, several challenges are suffered by SSLSBs, such as capac-
+ity decay, short life, and low active material utilization, which
+will become more serious when active materials’ mass load-
+ing increases to a practically accepted level (>4 mg cm−2).23
+Accordingly, the construction of a reasonable carbon struc-
+ture for cathodes is essential to achieve a balance between
+high active materials’ areal loading and ideal electrochemical
+performance. Taking advantage of the unique porous struc-
+ture of most carbon materials, and the property that melting
+or gaseous sulfur can be fully injected into the pores of the
+carbon matrix, Fu et al.37 prepared a sulfur/3D graphene free-
+standing cathode by using a liquid-phase method and the fol-
+lowing heat treatment, the ultimate sulfur-loading reached
+8.0 mg cm−2, and the assembled battery realized 88% sulfur
+utilization and an extraordinary energy density of 588.8 Wh
+kg−1. Also, high mass loading and good electrochemical per-
+formance can be achieved by the in situ synthesis method.
+Xie’s group109 immersed AB and Li2S precursor (Li2SO4) into
+CH3CH3OH solvent and water; after a thermal process, an
+Li2S–AB composite with 5.78 mg cm−2 Li2S loading was ob-
+tained, and the battery delivered a high speciﬁc discharge
+capacity of 908.9 mAh g−1 after 30 cycles. Yang et al.112 uti-
+lized Li foil as a precursor, and then mixed Li foil with CS2,
+followed by a combustion process, the carbon matrix was in
+situ formed and wrapped the Li2S particles with compact en-
+capsulation. The battery delivered a high speciﬁc capacity at
+high Li2S mass loading of 7 mg cm−1. An ultrahigh Li2S mass
+loading was achieved by Yang’s group.39 The authors heated
+the mixture of Li2S and C2H3N at 600 ◦C, a nitrogen-doped-
+carbon layer was in situ formed around Li2S particles. Out-
+standing electrochemical performance with a high speciﬁc
+capacity of 931 mAh g−1 was achieved even at high areal Li2S
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 13 页 ===
+Canadian Science Publishing
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+841
+Table 5. Comparison of the electrochemical performance of SSLSBs with high active material loading.
+Active
+material
+Carbon material
+Electrolyte
+Synthesized
+method
+Operation
+temperature
+(◦C)
+Mass
+loading
+(mg/cm2)
+Electrochemical performance
+Ref.
+Sulfur
+Carbon
+nanotubes
+Li10Ge2PS12
+Ball milling
+under 155 oC
+60
+5.9
+Speciﬁc capacity 1012.9 mAh/g at 0.01 C
+94
+Cycling stability
+576.7 mAh/g at 0.01 C
+after 20 cycles
+Sulfur
+3D graphene
+Small
+molecule
+complex
+In situ
+synthesis
+25
+8
+Energy density
+588.8 Wh/kg
+37
+Li2S
+Acetylene black
+Li3PS4
+In situ
+synthesis
+60
+5.78
+Speciﬁc capacity 1044.3 mAh/g at 0.06 C
+109
+Cycling stability
+908.9 mAh/g at 0.12 C
+after 30 cycles
+Li2S
+Carbon matrix,
+acetylene black
+Li7P3S11
+In situ
+synthesis
+60
+7
+Speciﬁc capacity 1066 mAh/g at
+0.2 mA/cm2
+112
+Cycling stability
+∼1000 mAh/g at
+0.2 mA/cm2 after 30
+cycles
+Li2S
+Carbon
+nanotubes,
+acetylene black
+Li10Ge2PS12
+In situ
+synthesis
+60
+5.08
+Speciﬁc capacity 654 mAh/g at 0.1 C
+41
+Cycling stability
+559 mAh/g at 0.1 C after
+20 cycles
+Li2S
+N-doped carbon,
+acetylene black
+Li7P3S11
+Pyrolysis
+deposition
+60
+8.2/10.4
+Speciﬁc capacity 931 mAh/g at
+0.2 mA/cm2
+(10.4 mg/cm2)
+39
+Cycling stability
+937 mAh/g at
+0.2 mA/cm2 after 50
+cycles (8.2 mg/cm2)
+loading of 10.4 mg cm−1. The research works reported high
+active materials mass loading above 4 mg cm−2 are summa-
+rized in Table 5.
+4. Challenges of carbon materials
+4.1. Decomposition of SSEs
+In addition to the advantages and design strategies of car-
+bon materials in sulfur cathodes, carbon materials also face
+challenges in SSLSBs. A phenomenon is commonly observed
+in SSLSBs, where the capacity in the ﬁrst charge/discharge
+cycle is higher than the theoretical speciﬁc capacity of sul-
+fur and Li2S.113,114 The extra capacity is contributed by the
+reversible SSEs decomposition process occurring simultane-
+ously during charge/discharge cycles. Researchers indicate
+that the origin of the SSEs decomposition is due to the elec-
+tron supplier by carbon materials along with SSEs (electron
+insulator) together. The mechanisms of SSE decomposition
+were investigated in depth by using various advanced char-
+acterizations, such as time-of-ﬂight secondary ion mass spec-
+trometry, X-ray photoelectron spectroscopy, X-ray diffraction,
+solid-state nuclear magnetic resonance, and electrochemical
+tests.115 Meng116 took the sulﬁde electrolyte Li6PS5Cl as an
+example. As shown in Fig. 5A-a, the operating voltage range
+of Li–S batteries precisely occupies part of the oxidative and
+reductive decomposition voltage range of Li6PS5Cl, result-
+ing in reversible electrolyte decomposition-derived capacity.
+The authors proposed the reversible electrochemical reaction
+pathways of Li6PS5Cl based on the analysis of the characteri-
+zation results motioned, as illustrated in Fig. 5A-b.
+4.2. Effect of carbon on electrolytes
+decomposition
+Zeier et al.117 (Fig. 5B-c) compared the ﬁrst charging curves
+of solid-state LIBs with (red) and without (blue) carbon. Com-
+pared to the carbon-free batteries, the overpotential was
+growing in the battery with carbon additives due to the
+larger interfacial resistance at the carbon/Li10GeP2S12 inter-
+faces caused by the generation and accumulation of insulat-
+ing decomposition products S0 or polysulﬁdes, leading to iso-
+lated lithium ion transportation pathways and capacity de-
+cay. Later, Zeier et al.115 (Fig. 5B-d) studied the effect of VGCF
+as carbon additives on the decomposition of LPS by assem-
+bling a solid-state LIB with LiNi0.6Co0.2Mn0.2O2/LPS/VGCF com-
+posite cathode. The results indicated lower capacity reten-
+tion after 100 cycles by using VGCF, contributed by the im-
+proved electrical conductivity of active materials and extra
+capacity contribution by the electrochemical reaction of LPS.
+These studies give promising insights into the SSE decom-
+position process along with carbon materials. It should be
+noted that the mentioned references only use small amounts
+of carbon materials as an additive in solid-state LIBs. There-
+fore, this challenge will be more severe in SSLSBs with
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 14 页 ===
+Canadian Science Publishing
+842
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+Fig. 5. Challenges of carbon materials in sulfur cathodes of SSLSBs. (A) Decomposition of solid-state electrolytes. (A-a) Illustra-
+tion of electrochemical operating windows for Li6PS5Cl, Li–S, and Li-ion chemistries. (A-b) Redox reaction pathway of Li6PS5Cl
+for the ﬁrst charge and subsequent cycles. Reproduced with permission.116 Copyright 2019, American Chemical Society. (B)
+Effect of carbon on electrolytes decomposition. (B-c) Comparison of the ﬁrst charge curves of carbon-free (blue) and carbon-
+containing (red) SSBs. Reproduced with permission.117 Copyright 2017, American Chemical Society. (B-d) Cycling performance
+of carbon-free and carbon-containing SSBs. Reproduced with permission.115 Copyright 2020, American Chemical Society.
+the use of a large number of carbon materials. To over-
+come this challenge, the modiﬁcation and design of the car-
+bon hosts and electronic conductive pathways in the sul-
+fur cathodes are important. Furthermore, deepening the
+understanding of the failure mechanisms of sulfur cath-
+odes to avoid undesirable electrochemical reactions is highly
+essential.115
+5. Conclusion and perspectives
+SSLSBs have become important on the road to achieving
+high-performance energy storage devices, attributed to their
+high energy density, low cost, and superiority in solving the
+severe shuttle effect issue and safety concerns of SSLSBs. Car-
+bon materials with diverse geometries and functional capa-
+bilities play an important role in addressing the challenges of
+the sulfur cathodes, which hinder the development of SSLSBs.
+This review summarized carbon materials employed in the
+cathodes of SSLSBs. The review introduced the structural fea-
+tures of different carbon materials, and the corresponding
+functions and design strategies of carbon materials in cath-
+odes. Some important conclusions and insights can be drawn
+from this review.
+(1) Carbon materials always play the role of electron conduc-
+tors for sulfur-based species. Proper structural design of
+carbon materials and reasonable synthetic methods are
+the keys to a highly conductive network, such as ball
+milling, heat treatment, liquid-based deposition, etc. The
+key strategies behind the different synthetic methods are
+(a) larger sulfur/carbon contact area and (b) nanosized
+particles of sulfur/Li2S, resulting in shorter electron/ion
+diffusion pathways.
+(2) Volume change of sulfur cathodes is one of the main
+challenges in the SSLSBs’ long-life operation. As summa-
+rized from the literature, we deﬁned two structural de-
+sign strategies for carbon materials that can effectively
+mitigate the volume changes in cathodes, (a) open struc-
+ture that provides free space for volumetric changes to
+avoid cathode cracks and (b) compact structure in which
+sulfur is tightly enclosed with carbon host and SSEs to
+avoid the volumetric change of S/Li2S. Interestingly, the
+two concepts are in opposite directions for the design of
+sulfur cathodes and both are demonstrated as effective
+ways to overcome the challenges of volume change. It
+should be noted that these reported strategies are highly
+related to the particle sizes of sulfur/Li2S, the selection
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 15 页 ===
+Canadian Science Publishing
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+843
+of carbon materials, the synthetic methods, and the load-
+ing within the cathode parts. Therefore, more in-depth in-
+vestigations, such as the mechanics failure of sulfur cath-
+odes, are highly required for practical application in the
+near future.
+(3) A
+compact
+and
+stable
+three-phase
+sul-
+fur/carbon/electrolyte
+interface
+is
+highly
+desired
+to
+overcome the high interfacial resistance in sulfur cath-
+odes. Researchers have demonstrated some promising
+designs via nanomaterials synthesis, such as the liquid-
+phase synthetic composite method along with heat
+treatment, and the in situ coating composite method,
+which are effective ways to reduce interfacial resistance.
+It should be noted that the mostly used sulﬁde-based SSEs
+are highly reactive in ambient environments. Therefore,
+exploring proper synthetic ways for stable interfaces in
+sulfur cathodes is still essential.
+(4) Carbon material structures and composite methods to
+achieve high active materials mass loading are proposed,
+in which the in situ synthesis method realizes the in situ
+formation of carbon materials and the construction of a
+compact coating layer on the surface of active materials,
+enabling higher active materials mass loading above 4 mg
+cm−2 that are acceptable for practical applications.
+(5) The high electronic conductivity of carbon materials is
+a double-edged sword in SSLSBs since it brings the elec-
+trons to the cathode and SSEs simultaneously, leading to
+the decomposition of SSEs. To date, there are still many
+unrevealed questions behind the use of carbon materi-
+als in SSBs. Advanced characterization, especially in situ
+characterization, is essential to understand the reaction
+mechanism and bring insights for the development of
+SSBs.
+Acknowledgement
+This work was supported by Natural Sciences and Engineer-
+ing Research Council of Canada (NSERC), University of Con-
+cordia.
+Article information
+History dates
+Received: 14 January 2023
+Accepted: 28 April 2023
+Accepted manuscript online: 12 June 2023
+Version of record online: 31 July 2023
+Copyright
+© 2023 The Author(s). This work is licensed under a Creative
+Commons Attribution 4.0 International License (CC BY 4.0),
+which permits unrestricted use, distribution, and reproduc-
+tion in any medium, provided the original author(s) and
+source are credited.
+Data availability
+This manuscript does not report data.
+Author information
+Author ORCIDs
+Xia Li https://orcid.org/0000-0003-3509-1494
+Author contributions
+Conceptualization: ZY
+Funding acquisition: XL
+Investigation: ZY
+Methodology: ZY
+Project administration: XL
+Resources: XL
+Supervision: XL
+Validation: XL
+Writing – original draft: ZY
+Writing – review & editing: ZY, QY, AT, XL
+Competing interests
+The authors have no competing interests to declare.
+References
+(1) Goodenough, J. B.; Park, K.-S. J. Am. Chem. Soc. 2013, 135, 1167.
+doi:10.1021/ja3091438.
+(2) Dunn, B.; Kamath, H.; Tarascon, J.-M. Science, 2011, 334, 928.
+doi:10.1126/science.1212741.
+(3) Evers, S.; Nazar, L. F. Acc. Chem. Res. 2013, 46, 1135. doi:10.1021/
+ar3001348.
+(4) Hagen, M.; Hanselmann, D.; Ahlbrecht, K.; Maça, R.; Gerber, D.;
+Tübke, J. Adv. Energy Mater. 2015, 5, 1401986. doi:10.1002/aenm.
+201401986.
+(5) Rosenman, A.; Markevich, E.; Salitra, G.; Aurbach, D.; Garsuch, A.;
+Chesneau, F. F. Adv. Energy Mater. 2015, 5, 1500212. doi:10.1002/
+aenm.201500212.
+(6) Manthiram, A.; Fu, Y.; Chung, S.-H.; Zu, C.; Su, Y.-S. Chem. Rev.
+2014, 114, 11751. doi:10.1021/cr500062v.
+(7) Li, T.; Bai, X.; Gulzar, U.; Bai, Y.-J.; Capiglia, C.; Deng, W.; Zhou, X.;
+Liu, Z.; Feng, Z.; Proietti Zaccaria, R. Adv. Funct. Mater. 2019, 29,
+1901730. doi:10.1002/adfm.201901730.
+(8) Kang, W.; Deng, N.; Ju, J.; Li, Q.; Wu, D.; Ma, X.; Li, L.; Naebe, M.;
+Cheng, B. Nanoscale, 2016, 8, 16541. doi:10.1039/C6NR04923K.
+(9) Seh, Z. W.; Sun, Y.; Zhang, Q.; Cui, Yi Chem. Soc. Rev. 2016, 45, 5605.
+doi:10.1039/C5CS00410A.
+(10) Moon, S.; Jung, Y. H.; Jung, W. K.; Jung, D. S.; Choi, J. W.; Kim, D. K.
+Adv. Mater. 2013, 25, 6547. doi:10.1002/adma.201303166.
+(11) Pang, Q.; Nazar, L. F. ACS Nano, 2016, 10, 4111. doi:10.1021/
+acsnano.5b07347.
+(12) Lu, S.; Cheng, Y.; Wu, X.; Liu, J. Nano Lett.. 2013, 13, 2485. doi:10.
+1021/nl400543y.
+(13) Yang, X.; Zhang, H.; Chen, Y.; Yu, Y.; Li, X.; Zhang, H. Nano Energy,
+2017, 39, 418. doi:10.1016/j.nanoen.2017.07.028.
+(14) Chung, S.-H.; Chang, C.-H.; Manthiram, A. ACS Nano, 2016, 10,
+10462. doi:10.1021/acsnano.6b06369.
+(15) Wang, Z.-Y.; Wang, L.; Liu, S.; Li, G.-R.; Gao, X.-P. Adv. Funct. Mater.
+2019, 29, 1901051. doi:10.1002/adfm.201901051.
+(16) Yang, X.; Gao, X.; Sun, Q.; Jand, S. P.; Yu, Y.; Zhao, Y.; Li, X.; Adair,
+K.; Kuo, L.-Y.; Rohrer, J.; Liang, J.; Lin, X.; Banis, M. N.; Hu, Y.; Zhang,
+H.; Li, X.; Li, R.; Zhang, H.; Kaghazchi, P.; Sham, T. -K.; Sun, X. Adv.
+Mater. 2019, 31, 1901220. doi:10.1002/adma.201901220.
+(17) Li, X.; Sun, X. Adv. Funct. Mater. 2018, 28, 1801323. doi:10.1002/
+adfm.201801323.
+(18) Chiu, L.-L; Chung, S.-H. J. Mater. Chem. A, 2022, 10, 13719. doi:10.
+1039/D2TA01867E.
+(19) Yen, Y.-J.; Chung, S.-H. J. Mater. Chem. A, 2023, 11, 4519. doi:10.
+1039/D2TA07806F.
+(20) Jeon, E. J.; Jean-Fulcrand, A.; Kwade, A.; Garnweitner, G. Nano En-
+ergy, 2022, 104, 107912. doi:10.1016/j.nanoen.2022.107912.
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 16 页 ===
+Canadian Science Publishing
+844
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+(21) Batzer, M.; Heck, C.; Michalowski, P.; Kwade, A. Batter. Supercaps,
+2022, 5, e202200328. doi:10.1002/batt.202200328.
+(22) Takada, K. J. Power Sources, 2018, 394, 74–85. doi:10.1016/j.
+jpowsour.2018.05.003.
+(23) Yang, X.; Luo, J.; Sun, X. Chem. Soc. Rev. 2020, 49, 2140. doi:10.1039/
+C9CS00635D.
+(24) Aravindan, V.; Lee, Y.-S.; Madhavi, S. Adv. Energy Mater. 2015, 5,
+1402225. doi:10.1002/aenm.201402225.
+(25) Kumar, S.; Saeed, G.; Zhu, L.; Hui, K. N.; Kim, N. H.; Lee, J. H. Chem.
+Eng. J. 2021, 403, 126352. doi:10.1016/j.cej.2020.126352.
+(26) Hwang, S.; Park, G.-G.; Yim, S.-D.; Park, S.-H.; Yang, T.-H.; Kim, H.;
+Kim, C.-S. Fuel Cells, 2010, 10, 245. doi:10.1002/fuce.200900140.
+(27) Li, P.; Hwang, J.-Y.; Sun, Y.-K. ACS Nano, 2019, 1
+(28) Xu, Z.-L.; Kim, J.-K.; Kang, K. Nano Today, 2018, 19, 84. doi:10.1016/
+j.nantod.2018.02.006.
+(29) Zhang, L.; Wang, Y.; Niu, Z.; Chen, J. Carbon, 2019, 141, 400. doi:10.
+1016/j.carbon.2018.09.067.
+(30) Wang, M.; Bai, Z.; Yang, T.; Nie, C.; Xu, X.; Wang, Y.; Yang, J.; Dou, S.;
+Wang, N. Adv. Energy Mater. 2022, 12, 2201585. doi:10.1002/aenm.
+202201585.
+(31) Zhao, Y.; Sun, Q.; Li, X.; Wang, C.; Sun, Y.; Adair, K. R.; Li, R.; Sun,
+X. Nano Energy, 2018, 43, 368. doi:10.1016/j.nanoen.2017.11.032.
+(32) Xu, R.; Wu, Z.; Zhang, S.; Wang, X.; Xia, Y.; Xia, X.; Huang, X.; Tu, J.
+Chem. Eur. J. 2017, 23, 13950. doi:10.1002/chem.201703116.
+(33) Zhu, P.; Yan, C.; Zhu, J.; Zang, J.; Li, Ya; Jia, H.; Dong, X.; Du, Z.;
+Zhang, C.; Wu, N.; Dirican, M.; Zhang, X. Energy Storage Mater.
+2019, 17, 220. doi:10.1016/j.ensm.2018.11.009.
+(34) Zhang, Y.; Chen, R.; Liu, T.; Xu, B.; Zhang, X.; Li, L.; Lin, Y.; Nan, C.-
+W.; Shen, Y. ACS Appl. Mater. Interfaces, 2018, 10, 10029. doi:10.
+1021/acsami.7b18211.
+(35) Han, F.; Yue, J.; Fan, X.; Gao, T.; Luo, C.; Ma, Z.; Suo, L.; Wang, C.
+Nano Lett. 2016, 16, 4521. doi:10.1021/acs.nanolett.6b01754.
+(36) Yan, H.; Wang, H.; Wang, D.; Li, X.; Gong, Z.; Yang, Y. Nano Lett.
+2019, 19, 3280. doi:10.1021/acs.nanolett.9b00882.
+(37) Zhu, R.; Liu, F.; Li, W.; Fu, Z. ChemistrySelect, 2020,
+(38) Nie, K.; Hong, Y.; Qiu, J.; Li, Q.; Yu, X.; Li, H.; Chen, L. Front. Chem.
+2018, 6, 616. doi:10.3389/fchem.2018.00616.
+(39) Wang, D.; Wu, Y.; Zheng, X.; Tang, S.; Gong, Z.; Yang, Y. J. Power
+Sources, 2020, 479, 228792. doi:10.1016/j.jpowsour.2020.228792.
+(40) Han, Q.; Li, X.; Shi, X.; Zhang, H.; Song, D.; Ding, F.; Zhang, L. J.
+Mater. Chem. A, 2019, 7, 3895. doi:10.1039/C8TA12443D.
+(41) Jiang, M.; Liu, G.; Zhang, Q.; Zhou, D.; Yao, X. ACS Appl. Mater. In-
+terfaces, 2021, 13, 18666. doi:10.1021/acsami.1c00511.
+(42) Hayashi, J..; Kazehaya, A.; Muroyama, K.; Watkinson, A. P. Carbon,
+2000, 38, 1873. doi:10.1016/S0008-6223(00)00027-0.
+(43) Xin, S.; Gu, L.; Zhao, N.-H.; Yin, Y.-X.; Zhou, L.-J.; Guo, Y.-G.; Wan,
+L.-J. J. Am. Chem. Soc. 2012, 134, 18510. doi:10.1021/ja308170k.
+(44) Zhang, B.; Qin, X.; Li, G. R.; Gao, X. P. Energy Environ. Sci. 2010, 3,
+1531. doi:10.1039/c002639e.
+(45) Schuster, J.; He, G.; Mandlmeier, B.; Yim, T.; Lee, K. T.; Bein, T.;
+Nazar, L. F. Angew. Chem., Int. Ed. 2012, 51, 3591. doi:10.1002/anie.
+201107817.
+(46) Lee, J.; Kim, J.; Hyeon, T. Adv. Mater. 2006, 18, 2073. doi:10.1002/
+adma.200501576.
+(47) Tian, W.; Zhang, H.; Duan, X.; Sun, H.; Shao, G.; Wang, S. Adv. Funct.
+Mater. 2020, 30, 1909265. doi:10.1002/adfm.201909265.
+(48) Fu, A.; Wang, C.; Pei, F.; Cui, J.; Fang, X.; Zheng, N. Small, 2019, 15,
+1804786. doi:10.1002/smll.201804786.
+(49) Li, Z.; Jiang, Y.; Yuan, L.; Yi, Z.; Wu, C.; Liu, Y.; Strasser, P.; Huang, Y.
+ACS Nano, 2014, 8, 9295. doi:10.1021/nn503220h.
+(50) He, G.; Ji, X.; Nazar, L. Energy Environ. Sci. 2011, 4, 2878. doi:10.
+1039/c1ee01219c.
+(51) Li, Z.; Jiang, Y.; Yuan, L.; Yi, Z.; Wu, C.; Liu, Y.; Strasser, P.; Huang, Y.
+ACS Nano, 2014, 8, 9295. doi:10.1021/nn503220h.
+(52) Yao, H.; Yan, K.; Li, W.; Zheng, G.; Kong, D.; Seh, Z. W.; Narasimhan,
+V. K.; Liang, Z.; Cui, Y. Energy Env. Sci. 2014, 7, 3381. doi:10.1039/
+C4EE01377H.
+(53) Su, Y.-S.; Manthiram, A. Nat. Commun. 2012, 3, 1166. doi:10.1038/
+ncomms2163.
+(54) Sakuda, A.; Sato, Y.; Hayashi, A.; Tatsumisago, M. Energy Technol.
+2019, 7, 1900077. doi:10.1002/ente.201900077.
+(55) Ando, T.; Sato, Y.; Matsuyama, T.; Sakuda, A.; Tatsumisago, M.;
+Hayashi, A. J. Ceram. Soc. Jpn. 2020, 128, 233. doi:10.2109/jcersj2.
+20003.
+(56) Nagao, M.; Imade, Y.; Narisawa, H.; Kobayashi, T.; Watanabe, R.;
+Yokoi, T.; Tatsumi, T.; Kanno, R. J. Power Sources, 2013, 222, 237.
+doi:10.1016/j.jpowsour.2012.08.041.
+(57) Nagao, M.; Suzuki, K.; Imade, Y.; Tateishi, M.; Watanabe, R.; Yokoi,
+T.; Hirayama, M.; Tatsumi, T.; Kanno, R. J. Power Sources, 2016, 330,
+120. doi:10.1016/j.jpowsour.2016.09.009.
+(58) De Volder, M. F. L.; Tawﬁck, S. H.; Baughman, R. H.; Hart, A. J. Sci-
+ence, 2013, 339, 535. doi:10.1126/science.1222453.
+(59) Zhou, X.; Wang, Y.; Gong, C.; Liu, B.; Wei, G. Chem. Eng. J. 2020,
+402, 126189. doi:10.1016/j.cej.2020.126189.
+(60) Gu, X.; Lai, C. Energy Storage Mater. 2019, 23, 190. doi:10.1016/j.
+ensm.2019.05.013.
+(61) Xu, Z.-L.; Kim, J.-K.; Kang, K. Nano Today, 2018, 19, 84. doi:10.1016/
+j.nantod.2018.02.006.
+(62) Fang, R.; Li, G.; Zhao, S.; Yin, L.; Du, K.; Hou, P.; Wang, S.; Cheng, H.-
+M.; Liu, C.; Li, F. Nano Energy, 2017, 42, 205. doi:10.1016/j.nanoen.
+2017.10.053.
+(63) Sun, Li; Wang, D.; Luo, Y.; Wang, Ke; Kong, W.; Wu, Y.; Zhang, L.;
+Jiang, K.; Li, Q.; Zhang, Y.; Wang, J.; Fan, S. ACS Nano, 2016, 10,
+1300. doi:10.1021/acsnano.5b06675.
+(64) Jin, C.; Zhang, W.; Zhuang, Z.; Wang, J.; Huang, H.; Gan, Y.; Xia, Y.;
+Liang, C.; Zhang, J.; Tao, X. J. Mater. Chem. A, 2017, 5, 632. doi:10.
+1039/C6TA07620C.
+(65) Chang, C.-H.; Chung, S.-H.; Manthiram, A. J. Mater. Chem. A, 2015,
+3, 18829. doi:10.1039/C5TA05053G.
+(66) Chung, S.-H.; Manthiram, A. J. Phys. Chem. Lett. 2014, 5, 1978.
+doi:10.1021/jz5006913.
+(67) Chung, S.-H.; Han, P.; Manthiram, A. ACS Appl. Mater. Interfaces,
+2016, 8, 4709. doi:10.1021/acsami.5b12012.
+(68) Singhal, R.; Chung, S.-H.; Manthiram, A.; Kalra, V. J. Mater. Chem.
+A, 2015, 3, 4530. doi:10.1039/C4TA06511E.
+(69) Su, Y.-S.; Manthiram, A. Chem. Commun. 2012, 48, 8817. doi:10.
+1039/c2cc33945e.
+(70) Kinoshita, S.; Okuda, K.; Machida, N.; Naito, M.; Sigematsu, T. Solid
+State Ion. 2014, 256, 97. doi:10.1016/j.ssi.2013.12.045.
+(71) Yamada, T.; Ito, S.; Omoda, R.; Watanabe, T.; Aihara, Y.; Agostini,
+M.; Ulissi, U.; Hassoun, J.; Scrosati, B. J. Electrochem. Soc. 2015, 162,
+A646. doi:10.1149/2.0441504jes.
+(72) Wang, Q.; Chen, Y.; Jin, J.; Wen, Z. Solid State Ion. 2020, 357, 115500.
+doi:10.1016/j.ssi.2020.115500.
+(73) Zhang, Q.; Huang, N.; Huang, Z.; Cai, L.; Wu, J.; Yao, X. J. Energy
+Chem. 2020, 40, 151. doi:10.1016/j.jechem.2019.03.006.
+(74) Chen, F.; Zhang, Y.; Hu, Q.; Cao, S.; Song, S.; Lu, X.; Shen, Q. J. Solid
+State Chem. 2021, 301, 122341. doi:10.1016/j.jssc.2021.122341.
+(75) Wang, S.; Zhang, Y.; Zhang, X.; Liu, T.; Lin, Y. -. H.; Shen, Y.; Li,
+L.; Nan, C.-W. ACS Appl. Mater. Interfaces, 2018, 10, 42279. doi:10.
+1021/acsami.8b15121.
+(76) Huang, X.; Qi, X.; Boey, F.; Zhang, H. Chem. Soc. Rev. 2012, 41, 666.
+doi:10.1039/C1CS15078B.
+(77) Chen, D.; Feng, H.; Li, J. Chem. Rev. 2012, 112, 6027. doi:10.1021/
+cr300115g.
+(78) Cao, X.; Yin, Z.; Zhang, H. Energy Env. Sci. 2014, 7, 1850. doi:10.
+1039/C4EE00050A.
+(79) Chen, H.; Wang, C.; Dai, Y.; Qiu, S.; Yang, J.; Lu, W.; Chen, L. Nano
+Lett. 2015, 15, 5443. doi:10.1021/acs.nanolett.5b01837.
+(80) Zhou, G.; Li, L.; Ma, C.; Wang, S.; Shi, Y.; Koratkar, N.; Ren, W.; Li,
+F.; Cheng, H.-M. Nano Energy, 2015, 11, 356. doi:10.1016/j.nanoen.
+2014.11.025.
+(81) Wang, H.; Yang, Y.; Liang, Y.; Robinson, J. T.; Li, Y.; Jackson, A.; Cui,
+Yi; Dai, H. Nano Lett. 2011, 11, 2644. doi:10.1021/nl200658a.
+(82) Evers, S.; Nazar, L. F. Chem. Commun. 2012, 48, 1233. doi:10.1039/
+C2CC16726C.
+(83) Zhou, G.; Li, L.; Wang, D.-W.; Shan, X.-Y.; Pei, S.; Li, F.; Cheng, H.-M.
+Adv. Mater. 2015, 27, 641. doi:10.1002/adma.201404210.
+(84) Li, C.; Dong, S.; Guo, D.; Zhang, Z.; Wang, M.; Yin, L. Electrochim.
+Acta, 2017, 251, 43. doi:10.1016/j.electacta.2017.07.164.
+(85) Zhang, Q.; Wan, H.; Liu, G.; Ding, Z.; Mwizerwa, J. P.; Yao, X. Nano
+Energy, 2019, 57, 771. doi:10.1016/j.nanoen.2019.01.004.
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+
+=== 第 17 页 ===
+Canadian Science Publishing
+Can. J. Chem. 101: 829–845 (2023) | dx.doi.org/10.1139/cjc-2023-0012
+845
+(86) Yao, X.; Huang, N.; Han, F.; Zhang, Q.; Wan, H.; Mwizerwa, J. P.;
+Wang, C.; Xu, X. Adv. Energy Mater. 2017, 7, 1602923. doi:10.1002/
+aenm.201602923.
+(87) Yamamoto, M.; Goto, S.; Tang, R.; Nomura, K.; Hayasaka, Y.;
+Yoshioka, Y.; Ito, M.; Morooka, M.; Nishihara, H.; Kyotani, T.
+ACS Appl. Mater. Interfaces, 2021, 13, 38613. doi:10.1021/acsami.
+1c10275.
+(88) Zhang, Y.; Liu, T.; Zhang, Q.; Zhang, X.; Wang, S.; Wang, X.; Li, L.;
+Fan, L.-Z.; Nan, C.-W.; Shen, Y. J. Mater. Chem. A, 2018, 6, 23345.
+doi:10.1039/C8TA08420C.
+(89) Nagao, M.; Hayashi, A.; Tatsumisago, M. J. Mater. Chem. 2012, 22,
+10015. doi:10.1039/c2jm16802b.
+(90) Nagao, M.; Hayashi, A.; Tatsumisago, M. Electrochim. Acta, 2011,
+56, 6055. doi:10.1016/j.electacta.2011.04.084.
+(91) Suzuki,
+K.;
+Kato,
+D.;
+Hara,
+K.;
+Yano,
+T.-A.;
+Hirayama,
+M.;
+Hara, M.; Kanno, R. Electrochemistry, 2018, 86, 1. doi:10.5796/
+electrochemistry.17-00055.
+(92) Suzuki, K.; Kato, D.; Hara, K.; Yano, T.-A.; Hirayama, M.; Hara, M.;
+Kanno, R. Electrochim. Acta, 2017, 258, 110. doi:10.1016/j.electacta.
+2017.09.156.
+(93) Yue, J.; Huang, Y.; Liu, S.; Chen, J.; Han, F.; Wang, C. ACS Appl. Mater.
+Interfaces, 2020, 12, 36066. doi:10.1021/acsami.0c08564.
+(94) Hou, L.-P.; Yuan, H.; Zhao, C.-Z.; Xu, L.; Zhu, G.-L.; Nan, H.-X.; Cheng,
+X.-B.; Liu, Q.-B.; He, C.-X.; Huang, J.-Q.; Zhang, Q. Energy Storage
+Mater. 2020, 25, 436. doi:10.1016/j.ensm.2019.09.037.
+(95) Choi, S.; Yoon, I.; Nichols, W. T.; Shin, D. Ceram. Int. 2018, 44, 7450.
+doi:10.1016/j.ceramint.2018.01.104.
+(96) Sun, Z.; Hu, Y.; Qin, F.; Lv, N.; Li, B.; Jiang, L.; Zhang, Z.; Liu, F. Sus-
+tain. Energy Fuels, 2021, 5, 5603. doi:10.1039/D1SE01187A.
+(97) Eom,
+M.;
+Son,
+S.;
+Park,
+C.;
+Noh,
+S.;
+Nichols,
+W.
+T.;
+Shin, D. Electrochim. Acta, 2017, 230, 279. doi:10.1016/j.electacta.
+2017.01.155.
+(98) Phuc, N. H. H.; Takaki, M.; Muto, H.; Reiko, M.; Kazuhiro, H.;
+Matsuda, A. ACS Appl. Energy Mater. 2020, 3, 1569. doi:10.1021/
+acsaem.9b02062.
+(99) Alzahrani, A. S.; Otaki, M.; Wang, D.; Gao, Y.; Arthur, T. S.; Liu, S.;
+Wang, D. ACS Energy Lett. 2021, 6, 413. doi:10.1021/acsenergylett.
+0c01956.
+(100) Liang, X.; Wen, Z.; Liu, Y.; Zhang, H.; Huang, L.; Jin, J. J. Power
+Sources, 2011, 196, 3655. doi:10.1016/j.jpowsour.2010.12.052.
+(101) Trevey, J. E.; Gilsdorf, J. R.; Stoldt, C. R.; Lee, S.-H.; Liu, P. J. Elec-
+trochem. Soc. 2012, 159, A1019. doi:10.1149/2.052207jes.
+(102) Phuc, N. H. H.; Takaki, M.; Muto, H.; Reiko, M.; Kazuhiro, H.;
+Matsuda, A. ACS Appl. Energy Mater. 2020, 3, 1569. doi:10.1021/
+acsaem.9b02062.
+(103) Nagao, M.; Imade, Y.; Narisawa, H.; Watanabe, R.; Yokoi, T.; Tat-
+sumi, T.; Kanno, R. J. Power Sources, 2013, 243, 60. doi:10.1016/j.
+jpowsour.2013.05.037.
+(104) Kwok, C. Y.; Xu, S.; Kochetkov, I.; Zhou, L.; Nazar, L. F. Energy Envi-
+ron. Sci. 2023, 16, 610. doi:10.1039/D2EE03297J.
+(105) Lu, P.; Wu, D.; Chen, L.; Li, H.; Wu, F. Electrochem. Energy Rev.
+2022, 5, 3. doi:10.1007/s41918-022-00149-3.
+(106) Deshmukh, A.; Thripuranthaka, M.; Chaturvedi, V.; Das, A. K.;
+Shelke, V.; Shelke, M. V. Prog. Energy, 2022, 4, 042001. doi:10.1088/
+2516-1083/ac78bd.
+(107) Pang, Y.; Pan, J.; Yang, J.; Zheng, S.; Wang, C. Electrochem. Energy
+Rev. 2021, 4, 169. doi:10.1007/s41918-020-00092-1.
+(108) Tao, X.; Liu, Y.; Liu, W.; Zhou, G.; Zhao, J.; Lin, D.; Zu, C.; Sheng,
+O.; Zhang, W.; Lee, H.-W.; Cui, Y. Nano Lett. 2017, 17, 2967. doi:10.
+1021/acs.nanolett.7b00221.
+(109) Jiang, H.; Han, Y.; Wang, H.; Zhu, Y.; Guo, Q.; Jiang, H.; Sun, W.;
+Zheng, C.; Xie, K. J. Alloys Compd. 2021, 874, 159763. doi:10.1016/
+j.jallcom.2021.159763.
+(110) Jiang, H.; Han, Y.; Wang, H.; Zhu, Y.; Guo, Q.; Jiang, H.; Zheng, C.;
+Xie, K. Ionics, 2020, 26, 4257. doi:10.1007/s11581-020-03591-9.
+(111) Yang, X.; Luo, J.; Sun, X. Chem. Soc. Rev. 2020, 49, 2140. doi:10.1039/
+C9CS00635D.
+(112) Yan, H.; Wang, H.; Wang, D.; Li, X.; Gong, Z.; Yang, Y. Nano Lett.
+2019, 19, 3280. doi:10.1021/acs.nanolett.9b00882.
+(113) Wang, S.; Zhang, Y.; Zhang, X.; Liu, T.; Lin, Y.-H.; Shen, Y.; Li, L.;
+Nan, C.-W. ACS Appl. Mater. Interfaces, 2018, 10, 42279. doi:10.
+1021/acsami.8b15121.
+(114) Suzuki, K.; Mashimo, N.; Ikeda, Y.; Yokoi, T.; Hirayama, M.; Kanno,
+R. ACS Appl. Energy Mater. 2018, 1, 2373. doi:10.1021/acsaem.
+8b00227.
+(115) Walther, F.; Randau, S.; Schneider, Y.; Sann, J.; Rohnke, M.; Richter,
+F. H.; Zeier, W. G.; Janek, J. Chem. Mater. 2020, 32, 6123. doi:10.
+1021/acs.chemmater.0c01825.
+(116) Tan, D. H. S.; Wu, E. A.; Nguyen, H.; Chen, Z.; Marple, M. A. T.; Doux,
+J.-M.; Wang, X.; Yang, H.; Banerjee, A.; Meng, Y. S. ACS Energy Lett.
+2019, 4, 2418. doi:10.1021/acsenergylett.9b01693.
+(117) Zhang, W.; Leichtweiß, T.; Culver, S. P.; Koerver, R.; Das, D.; Weber,
+D. A.; Zeier, W. G.; Janek, J. ACS Appl. Mater. Interfaces, 2017, 9,
+35888. doi:10.1021/acsami.7b11530.
+Can. J. Chem. Downloaded from cdnsciencepub.com by 47.156.116.107 on 10/14/26
+

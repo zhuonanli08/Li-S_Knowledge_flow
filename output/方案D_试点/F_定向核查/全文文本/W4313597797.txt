@@ -1,0 +1,823 @@
+=== 第 1 页 ===
+610 | Energy Environ. Sci., 2023, 16, 610–618
+This journal is © The Royal Society of Chemistry 2023
+Cite this: Energy Environ. Sci.,
+2023, 16, 610
+High-performance all-solid-state Li2S batteries
+using an interfacial redox mediator†
+Chun Yuen Kwok,
+‡ Shiqi Xu,‡ Ivan Kochetkov,
+Laidong Zhou
+and
+Linda F. Nazar
+*
+All-solid-state Li–S batteries based on lithium sulfide cathodes have generated much excitement as pos-
+sible next-generation energy storage candidates because they can offer a high theoretical energy
+density exceeding that of lithium-ion batteries, and the possibility of ‘‘anode-less’’ cell designs. However,
+solid-state Li2S cathode kinetics are hindered by both limited ionic and electronic transport and a high
+activation barrier on charge. Here we report a Li2S/LiVS2 core–shell cathode architecture design,
+whereby the shell serves as both a charge-carrier transport vehicle and electron transfer mediator for
+Li2S during oxidation. With an argyrodite-type solid electrolyte, the solid-state Li2S cell exhibits very
+good rate capability up to 3 mA cm2 at room temperature, and nearly 80% capacity retention up to
+1000 cycles at a moderate current density of 1 mA cm2. High active material loading (4 and 6 mg cm2) is
+demonstrated in this configuration with stable capacity retention. High areal capacity up to 5.3 mA h cm2
+with a very high active material loading of 10 mg cm2 is also reported, albeit with limited cycle life.
+Broader context
+All-solid-state Li–S batteries are appealing due to their high theoretical energy density at low cost, while employing solid inorganic Li-ion conducting
+electrolytes eliminate the notorious polysulfide shuttle problem. Although the initial conversion of sulfur to lithium sulfide creates mechanical stress owing to
+volume expansion, this can be mitigated by starting with a Li2S cathode which also allows for anode-less cell designs. However, Li2S suffers from a high
+activation energy barrier on oxidation. Here, we report a strategy that reduces such sluggish kinetics by wrapping a Li2S core with a metallic LixVS2 shell that
+serves as an interfacial solid redox mediator to facilitate Li2S 2 S conversion. The improved cathode kinetics enables charging at relatively high current
+densities up to 3 mA cm2. Furthermore, cells operating at room temperature at 1 mA cm2 and active material loading of 2.0 mg cm2 retain 80% initial
+capacity over 1000 cycles. The cells also show very long-cycle life at moderate cathode loadings of 4 and 6 mg cm2 with close to 100% coulombic efficiency.
+Higher loading cells exhibit areal capacities of 45 mA h cm2 at 60 1C, albeit with reduced cycle life. This work demonstrates an approach to resolve inherent
+kinetic barriers in all-solid-state batteries by microstructural design.
+Introduction
+The advance in electromobility has triggered a quest for novel
+battery systems that go beyond lithium-ion batteries. The Li–S
+battery is one candidate that could fulfill this demand because
+it offers a higher theoretical energy density at a relatively low
+cost. The practicality and cycling stability of this promising
+technology in liquid electrolytes, however, is hampered by a
+multitude of factors such as the need for high electrolyte/sulfur
+ratios, the polysulfide shuttle, and lithium dendrite growth.1,2
+Much
+research
+effort
+has
+been
+devoted
+to
+sulfur
+host
+development,3,4 electrolyte formulation,5,6 and lithium anode
+protection7,8 with some success. However, the intrinsic issues related
+to the polysulfide transport mechanism remain unresolved.9
+Substitution of the organic electrolyte for a solid-state
+lithium-ion conductor may be the ultimate solution to this
+decades-old problem.10–14 However, the fabrication of all-solid-
+state Li–S batteries necessitates the construction of efficient
+charge transfer pathways within the cathode due to the poor
+electronic (e) and ionic (Li+) conductivities of the sulfur and
+Li2S redox-end members.15–18 Forming sulfur composites with
+high surface area carbon11,15 or substituting sulfur with other
+elements such as Se19 and Al20 can improve the cathode’s
+electronic conductivity. However – unlike a conventional Li–S
+cell where the flowable liquid electrolyte can easily infiltrate the
+pores of the S/C composite – in a solid state configuration there
+Department of Chemistry and Waterloo Institute for Nanotechnology, University of
+Waterloo, 200 University Ave. W., Waterloo, Ontario, N2L 3G1, Canada.
+E-mail: lfnazar@uwaterloo.ca
+† Electronic supplementary information (ESI) available. See DOI: https://doi.org/
+10.1039/d2ee03297j
+‡ These authors contributed to the work equally.
+Received 12th October 2022,
+Accepted 6th January 2023
+DOI: 10.1039/d2ee03297j
+rsc.li/ees
+Energy &
+Environmental
+Science
+PAPER
+Published on 06 January 2023
+Licence and permissions
+
+=== 第 2 页 ===
+This journal is © The Royal Society of Chemistry 2023
+Energy Environ. Sci., 2023, 16, 610–618 | 611
+are only very limited contact points that constitute a triple
+phase boundary (active material, electron conduit, and solid-
+state electrolyte (SSE)) where there is simultaneous electronic
+and ionic conductivity (Fig. 1A),15,16,21 All-in-one electronic–ionic
+dual-carrier conducting frameworks (mixed-conductors) can
+thus be regarded as better sulfur hosts because electrons and
+ions share the same transport matrix in the host material.12,22–24
+For example, in our previous report on a rationally designed
+sulfur/VS2 hybrid cathode, we demonstrated that the LixVS2
+formed midway through the (dis)charge process serves as an
+additional Li-ion charge-carrier delivery vehicle.25
+Another challenge inherent to a solid-state sulfur cathode is
+the volume expansion of S 2 Li2S during cell cycling (80%)
+that places a large stress on a rigid SSE material. This can lead to
+cracking and detachment of active material from the electronic/
+ionic conduit.26 In this respect, Li2S may pose an advantage
+because the cathode architecture can be more easily tailored
+to accommodate contraction on charge. Furthermore, a fully
+lithiated cathode has the potential to be coupled with anode-less
+designs to further boost energy density at the cell level.27–29
+However, solid-state Li2S cathodes have been shown to suffer
+from a high activation energy barrier on initial charge (43 V vs.
+Li+/Li), in addition to higher cell polarization and lower material
+utilization in comparison with their fully oxidized counterparts.
+This can be ascribed to poor cathode kinetics.11,15,30 One
+approach to the problem is encapsulation of the active material
+using a mixed-conductor to enhance the charge-transfer effi-
+ciency. Cui et al. recently showed that coating a thin nanolayer of
+TiS2 on the surface of Li2S lowers the initial activation energy
+barrier to 2.5 V.31 These cells used a LiTFSI/PEO electrolyte,
+necessitating operation at 80 1C and exhibited an areal capacity
+of 0.6 mA h cm2 in long-term cycling at a Li2S loading of
+1 mg cm2. Another approach is the use of a redox mediator
+to faciliate Li2S oxidation. Conventional redox mediators are
+soluble electrolyte additives that can easily diffuse and shuttle
+back and forth between the current collector and the isolated
+active materials.32 While the diffusivity of a molecular mediator
+is negligible in a true all-solid-state configuration (i.e., using an
+inorganic, not polymer electrolyte),33 there are limited reports of
+interfacial redox mediators.34,35
+Here, we report on an encapsulated Li2S cathode design, in
+which the outer 30 nm-thick LiVS2 shell serves as a charge-
+carrier (Li+ and e) transport vehicle for the Li2S core. We show
+that VS2 (once delithiated at the outer surface) serves as a solid-
+solid interfacial mediator for Li2S 2 S conversion. By adopting
+such a core–shell morphology, intimate contact between the
+quasi-metallic, ion-conductive LiVS2 shell and insulating Li2S
+core is realized (Fig. 1B). This helps permeate the cathode
+composite with electronic and ionic pathways after it is blended
+with a superionic argyrodite electrolyte. The bifunctional behavior
+offered by LiVS2 improves the cathode kinetics in solid-state sulfur
+electrochemistry and enables Li2S batteries that can be charged at
+reasonably high current densities (up to 3 mA cm2). Using this
+approach, an all-solid-state Li2S cell operating at a moderate
+current density of 1 mA cm2 and active material loading of 2.0
+mgLi2S+LiVS2 cm2 can be cycled for over 1000 cycles while retaining
+nearly 80% of its initial capacity at room temperature. The cells
+also show exceptionally long-cycle life at moderate loading of
+4 and 6 mgLi2S+LiVS2 cm2. High loading cells (10mg cm2) exhibit
+areal capacities of 45 mA h cm2 at 60 1C, albeit with limited
+cycle life. These studies provide insight for the tailored design of
+all-solid-state Li–S cathode architectures.
+Results and discussion
+Physical characterization of the solid-state Li2S cathode
+The Li2S–LiVS2 (LVS) core–shell composite was prepared by
+reacting Li2S nanocubes B60 nm (Fig. S1, ESI†) with VCl4 in
+tetrahydrofuran.36,37 While it was previously reported37 that the
+reaction between Li2S and VCl4 yields VS2 (eqn (1)), our X-ray
+diffraction (XRD) pattern in Fig. 2A confirms that LiVS2 (JCPSD-
+98-001-6303) is formed instead, and that it is the other major phase
+in the core–shell composite along with Li2S (JCPSD-98-005-6023).38
+Li2S can be oxidized by transition metal oxides,39 suggesting a
+similar reaction takes place between Li2S and the newly formed VS2
+to afford LiVS2 as the final product (eqn (2)). Because the soluble
+by-products (LiCl and S) in eqn (1) and (2) were washed away in the
+purification step, they are not evident in the XRD pattern (Fig. 2A),
+while the XRD pattern of the solids recovered from mixing our lab-
+prepared VS2
+25 and commercial Li2S (Fig. 2, ESI†) is the same as
+that of Fig. 2A. These findings confirm VS2 can be reduced by Li2S
+at room temperature and show that VS2 can serve as an interfacial
+mediator for Li2S oxidation as we discuss further below.
+2Li2S + VCl4 - VS2 + 4LiCl
+(1)
+2VS2 + Li2S - 2LiVS2 + S
+(2)
+The scanning electron microscopy (SEM, Fig. 2B) and TEM
+images (Fig. 2C) of Li2S–LiVS2 suggest the B60 nm core–shell
+particles are agglomerated to form larger aggregates. The expanded
+Fig. 1
+All-solid-state
+Li–S
+cathode
+architecture.
+Illustration
+of
+the
+charge-carrier transport process for (A) a typical three-boundary interface
+and (B) a two-phase dual-carrier conductor. The purple color in both
+schemes outlines the location where electrochemical reaction would take
+place. The use of a mixed conductor in (B) allows 2D reaction zones and
+straightforward charge transport path throughout the cathode, in contrast
+to the one-dimensional points in (A).
+Paper
+Energy & Environmental Science
+
+=== 第 3 页 ===
+612 | Energy Environ. Sci., 2023, 16, 610–618
+This journal is © The Royal Society of Chemistry 2023
+TEM image in Fig. 2D reveals the nanoparticle is encapsulated
+by a layer of LiVS2 with a thickness of o 30 nm. Semi-
+quantitative energy dispersive X-ray (EDX) analysis of the
+composite indicates the Li2S content is B60 wt% based on
+the V/S ratio (Fig. 2E). This yields a theoretical capacity of
+750 mA h g1 based on both Li2S and LiVS2 acting as the active
+materials. We note that better electronic conductivity could be
+obtained by increasing the thickness of the LiVS2 shell but at
+the expense of capacity. Moreover, there is a constraint to the
+maximum thickness achievable because the solution-mediated
+reaction is surface-limited. The electrochemical performance
+and the thickness of the LiVS2 is optimized in the present
+study. The superionic argyrodite (Li5.5PS4.5Cl1.5 (Fig. S3, ESI:†
+6 mS cm1)40 acted as the Li-ion conducting solid electrolyte.
+The LVS cathode composite was prepared by mixing the SSE
+powders with the core–shell LVS materials via physical blending
+of LVS: Li5.5PS4.5Cl1.5 at a 1 : 1 weight ratio. SEM and EDX
+analysis (Fig. S4, ESI†) demonstrates that all three components
+are evenly distributed. The overall morphology of the LVS is kept
+intact in the composite, while the SSE forms a percolating
+network between individual core–shell particles. These are ben-
+eficial to the electrochemical performance as we discuss below.
+Electrochemistry at low-material loadings
+All-solid-state Li–S cells were cycled between 1.5 V and 3.1 V vs.
+Li+/Li at room temperature, utilizing In/Li alloy as the anode
+and Li5.5PS4.5Cl1.5 as the separator. Cathodes with an areal
+mass loading of 2 mg cm2 (based on LVS) demonstrate good
+cycling stability and charging capability. The LVS cathode
+operating at a low current density of 0.15 mA cm2 exhibits
+an initial capacity of 1.2 mA h cm2 on charge and an areal
+capacity of 1.25 mA h cm2 (Fig. 3A) in subsequent cycles with a
+low polarization of 0.4 V (measured at the half-way point on the
+charge–discharge profile). The Coulombic efficiency is close to
+100%, corresponding to a material utilization of 83%. This
+electrochemical behavior is quite different from Li2S cathodes
+operating in liquid and polymer electrolytes that generally
+suffer from a high initial activation barrier, resulting in high
+cell polarization and low initial capacity.29,31,37 Notably, Li–S
+cells fabricated with carbon black (Vulcan XC-72) and Li2S as a
+physical composite – operating under identical conditions –
+only exhibit B30% Li2S utilization (0.45 mA h cm2), accom-
+panied by a two-fold higher polarization of 0.8 V (Fig. 3B). In
+comparison, Li2S utilization in the LVS cathode is fairly high,
+namely 77% (Li2S Utilization Calculation, ESI†).
+The rate capability was evaluated by cycling the cell at
+diﬀerent current densities (Fig. 3C). At a high current density
+of 3 mA cm2, the cell still delivers 50% material utilization
+(0.75 mA h cm2). Such a modest drop in capacity (30%) with a
+15-fold increase in current density (0.2 mA cm2 vs. 3 mA cm2)
+can be attributed to the intimate contact between LiVS2 and
+Li2S that shortens the Li+/e transport pathway. Employing Li2S
+as the starting active material should lower the chance of
+cathode deterioration from mechanical stress due to volume
+expansion, because Li2S shrinks upon conversion to sulfur on
+charge. This suggestion is supported by the cell capacity
+recovery to B1.1 mA h cm2 when the current density reverts
+to 0.2 mA cm2 after cycling the cell at 3 mA cm2 for 14 cycles
+(Fig. 3D), further highlighting the ability of the LVS cathode to
+withstand high-rate cycling. At a moderate current density of
+1 mA cm2, excellent long-term cycling performance of the
+LVS cathode is attained at a high initial areal capacity of
+0.95 mA h cm2 (Fig. 3E). The cell experiences some polariza-
+tion during deep cycling (Fig. S5, ESI†), but a very low decay rate
+of 0.02% per cycle is achieved nonetheless (Fig. 3E). This is the
+lowest reported in all-solid-state Li–S batteries to the best of our
+knowledge.
+Charge-carrier transport within LVS
+To shed some light on why the core–shell nanoarchitecture is
+beneficial to the promising cathode kinetics (Fig. 3D), the
+charge-carrier transport properties of the LVS (Li2S + LiVS2 +
+SSE) and Li2S/Vulcan carbon (Li2S + VC + SSE) cathodes were
+quantified and compared using the direct-current (DC) polariza-
+tion technique (Fig. 4 and Table 1). While conventional impe-
+dance analysis cannot distinguish between ionic and electronic
+Fig. 2
+Characterization of the Li2S–LiVS2 core–shell nanocomposite.
+(A) XRD pattern; the peaks at 2y = 141, 31, 341, 431, 541, 561, 601, and
+651 are assigned to the (001), (010), (011), (012), (110), (111), (004) and (201)
+reflections of LiVS2. The remaining peaks are assigned to Li2S. (B) SEM and
+(C) TEM image of the LVS active material. (D) Expanded TEM image
+showing the LiVS2 coating on the surface of the Li2S. (E) EDX analysis of
+the same material confirming its composition. The unlabeled signals
+between 1–2 keV are ascribed to traces of decomposed THF from the
+preparation process.
+Energy & Environmental Science
+Paper
+
+=== 第 4 页 ===
+This journal is © The Royal Society of Chemistry 2023
+Energy Environ. Sci., 2023, 16, 610–618 | 613
+contributions in a mixed-ion conductor, the ion-blocking or
+electron-blocking configurations17 employed here allows this
+separation. This methodology is applicable because the solids
+were mixed by a physical blending process that creates a homo-
+genous material.17,41 Fig. 4A and D display the schematics of the
+symmetric cells used to conduct these experiments under ion and
+electron blocking conditions, respectively. By applying a constant
+voltage across the sample for a period of time, the total electronic
+(Fig. 4B and C) and ionic (Fig. 4E and F) resistance of the cathode
+composites can be obtained via Ohm’s law (Rk, k = e or Li+).
+Fig. 3
+Electrochemical performance of the all-solid-state Li2S battery at an active material loading of 2 mg cm2. (A) Electrochemical profiles of the (A)
+Li2S/LiVS2 and (B) Li2S/VC cathodes at a current density of 0.15 mA cm2. (C and D) Voltage profile and rate performance of the LVS cathode as a function
+of current density. (E) Long-term cycling stability of the same electrode at 1 mA cm2.
+Fig. 4
+Charge-carrier transport in the solid-state Li2S cathode composites. Eﬀective (A–C) electronic and (D and E) ionic conductivity determination by
+DC polarization. The thickness of the LVS and Li2S specimens are 500 and 600 mm. Schematic of the experimental setup under (A) ion-blocking
+conditions, and data for (B) LVS and (C) the Li2S cathode composite. Similarly, (D) shows the electron-blocking measurement setup while (E and F)
+present the results. The resistance for each of the composites is shown in the panel.
+Paper
+Energy & Environmental Science
+
+=== 第 5 页 ===
+614 | Energy Environ. Sci., 2023, 16, 610–618
+This journal is © The Royal Society of Chemistry 2023
+The applied voltage was maintained for 1 h to ensure the cell
+polarization reached equilibrium, evidenced by the flat current
+response (Fig. S6, ESI†). Knowledge of the argyrodite solid electro-
+lyte bulk resistance (Fig. S3, ESI†), interfacial resistance between
+the anode and SSE (Fig. S7, ESI†), geometric area (A = 0.785 cm2)
+and thickness of the electrode (d = 500–600 mm) enables the
+determination of the effective charge carrier conductivities (sk) in
+the composite materials (both the LVS and Li2S/VC cathode) by
+eqn (3). The effective electronic and ionic conductivities of only
+the core–shell LVS active material itself were also measured
+(Fig. S8, ESI†). The effective conductivity values are summarized
+in Table 1.
+sk ¼ d
+A
+1
+Rk
+(3)
+Not surprisingly, there is a 13-order of magnitude increase in
+the electronic conductivity of the LVS composite material in
+comparison with insulating Li2S42 (5.5 vs. 1013 S cm1). This
+owes to the fact that LiVS2 is a highly conductive small band-gap
+semiconductor that transforms to a metal just above room tem-
+perature (30 1C).43,44 While blending the LVS composite with the
+argyrodite solid electrolyte results in a 10-fold reduction in electro-
+nic conductivity, nonetheless it is still 50 times higher than that of
+the Li2S cathode prepared with a nanocarbon host (0.5 vs. 1.1 
+102 S cm1). Similarly, the ionic conductivity of the LVS/SSE
+cathode composite is 20-fold higher than that of the Li2S/VC/SSE
+cathode (1.5  104 vs.7.1  106 S cm1).45,46 We further note
+that the electronic conductivity of our tailored designed cathode
+(LVS + SSE) is not only much higher than recently reported
+materials with similar architecture,21,22 but also its Li-ion conduc-
+tivity is comparable to some lithium fast-ion conductors.47,48
+To further showcase the promising charge-carrier transport
+in
+the
+LVS
+cathode
+under
+realistic
+cycling
+conditions,
+electrochemical impedance spectroscopy (EIS) analysis was
+carried out on a symmetric solid-state cell (Fig. 5A) at an active
+material loading of 2 mg cm2. The impedance response was
+fit with the equivalent circuit shown in Fig. 5B.49 Because
+the EIS response of the cathode composite layer stems from
+its
+complex
+microstructure
+–
+which
+includes
+electronic
+(Rcathode,e), ionic (Rcathode,Li+), and interfacial (Rcathode,int) com-
+ponents – a transmission line model (TLM) with blocking
+boundary conditions was used to fit the experimental data.50
+The total cathode resistance (Rcathode) is expressed as the
+geometric mean of the (Rcathode,e + Rcathode,Li+) and Rcathode,int
+(eqn (4)):
+Rcathode ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+Rcathode;int  Rcathode;e þ Rcathode;Liþ
+
+
+q
+(4)
+Rcath is B25 O cm2 at the initial state. The onset of the sharp
+capacitance tail at B20 mHz indicates efficient charge trans-
+port within the cathode. Thus, in contrast to the traditional
+three-phase boundary in a conventional all-solid-state cathode, the
+two-phase boundary created by the core–shell cathode architecture
+offers well-connected electronic and ionic pathways around the
+active material for much-improved conductivity (Fig. 1).
+Redox mechanism in LVS
+In our previous report on a S/VS2 hybrid cathode, we proposed
+that VS2 and S undergo a simultaneous intercalation/conver-
+sion process based on ex situ XRD measurements and the
+electrochemical profile.25 However, unlike that case, the LVS
+cathode in Fig. 3A shows multiple features during the initial
+charge process. Galvanostatic intermittent titration technique
+(GITT) analysis on the LVS cathode provides some insight to the
+mechanism (Fig. 6). The first charge and discharge profiles of
+the LVS cathode are shown in Fig. 6A and B, respectively. The
+electrochemical profiles of both stages under closed-circuit
+voltage (CCV, non-equilibrium) and open-circuit voltage (OCV,
+quasi-equilibrium) conditions are highlighted in grey and
+green, respectively. These (dis)charge profiles are consistent
+with the electrochemical data in Fig. 3A. The cell exhibits two
+slopes on charge: the first at B2.3 V vs. Li+/Li corresponds to an
+areal capacity of B0.4 mA h cm2, followed by a much longer
+capacity slope above 2.5 V (Fig. 6A). We note that the cell
+polarization – denoted by the voltage difference between the
+CCV and OCV curves – in the early stage of charge is signifi-
+cantly lower than that of the late stage (60 vs. 220 mV). The first
+Table 1
+Summary of the eﬀective electronic and ionic conductivities of
+LVS and Li2S cathodes, measured by the DC polarization technique. The
+electronic and ionic conductivities of Li2S are obtained from the
+literature42,45
+se [S cm1]
+sLi+ [S cm1]
+Li2S
+1013
+109
+Li2S cathode (Li2S + VC + SSE)
+1.1  102
+7.1  106
+LVS (Li2S + LiVS2)
+5.5
+1.3  105
+LVS cathode (Li2S + LiVS2+ SSE)
+5.1  101
+1.5  104
+Fig. 5
+Transmission line model for the LVS cathode. The resistance for the components is shown in each figure. (A) Nyquist plot and (B) schematic
+diagram and equivalent circuit for the impedance data, respectively.
+Energy & Environmental Science
+Paper
+
+=== 第 6 页 ===
+This journal is © The Royal Society of Chemistry 2023
+Energy Environ. Sci., 2023, 16, 610–618 | 615
+charge stage is ascribed to the co-oxidation of LiVS2 and Li2S.
+Here, LiVS2 likely undergoes delithiation first because of its
+inherently ionic/electronic conductive nature and proximity to
+the argyrodite electrolyte. Because VS2
+51 has a thermodynamic
+potential slightly higher than Li2S33 (2.3 vs. B2.1 V), lithium
+sulfide then can be chemically oxidized by the newly formed
+VS2 following the scheme presented in eqn (2). Here, VS2 acts as
+a solid-solid interfacial mediator for Li2S whereby it chemically
+oxidizes the latter to form sulfur at the LiVS2/Li2S interface. The
+key property of such a mediator, aside from exhibiting excellent
+electrochemical redox reversibility, is that its redox potential
+should be close to that of the active material34 (Li2S) – a
+property exhibited by VS2. Importantly, TiS2 – another common
+sulfide-based host material for Li2S cathodes – is not able to
+engage in redox mediation synergy with Li2S because of its
+lower potential relative to that of Li2S.51 Instead, it may aid Li2S
+oxidation by lowering the cathode charge-transfer resistance.31
+As these processes – co-oxidation of Li2S and LiVS2 and
+chemical oxidation of Li2S by the newly formed VS2 – continue,
+there will be an accumulation of sulfur that sits between the
+VS2 and Li2S interface that eventually restricts VS2 from acces-
+sing the inner core Li2S materials. This could account for the
+larger cell polarization observed at the latter stage of charge
+(Z2.5 V) because of poor mass-transport within the cathode. In
+the subsequent discharge process, the cell polarization consistently
+remains at B70 mV. Furthermore, a two-plateau-like feature is not
+evident in Fig. 6B, in accord with our previous report showing that
+VS2 and S engage in a simultaneous conversion/lithiation process
+on discharge.25
+In summary, we propose a VS2 solid-solid interfacial-
+mediated pathway for Li2S oxidation, as illustrated in Fig. 6
+and outlined below:
+Delithiation of LiVS2
+Upon
+initial
+charge,
+the
+outer
+LiVS2
+shell
+undergoes
+delithiation:
+LiVS2 - VS2 + Li+ + e
+(5)
+(Electro)chemical oxidation of Li2S
+The newly formed VS2 chemically oxidizes Li2S at the core–shell
+interface to form elemental sulfur while LiVS2 is regenerated.
+Meanwhile, Li2S undergoes conventional solid-state oxidation.
+In that process, the LixVS2 that forms mid-way serves as a dual
+mixed conductor to support the solid-state conversion process.
+Li2S + 2VS2 - S + 2LiVS2
+(6)
+Li2S - S + 2Li+ + 2e
+(7)
+Sulfur layer
+The accumulation of insulating sulfur between the VS2 and Li2S
+forms a double core–shell structure (Li2S/S/LiVS2) that even-
+tually restricts the facile Li+/e transport afforded by the LiVS2.
+In this step, Li2S and LiVS2 follow a simultaneous conversion/
+delithiation process, and the LixVS2 serves as a dual mixed
+conductor to further support the solid-state conversion process.
+Li2S - S + 2Li+ + 2e
+(8)
+LiVS2 - VS2 + Li+ + e
+(9)
+High-loading performance
+To evaluate the eﬃciency of the core–shell architecture design,
+the electrochemical performance of high sulfur loading elec-
+trodes was examined.
+Fig. 7A presents the electrochemical profile of the cell at a
+moderate active material loading of 4.0 mg cm2. Over long-
+term cycling at 1 mA cm2, the cell delivers a promising areal
+capacity of B1.8 mA h cm2, corresponding to an active
+material utilization of 60%. Excellent capacity retention was
+achieved over more than 500 cycles at room temperature
+(Fig. 7B). At higher loading, the Li2S/VS2 cathode delivers a
+stable capacity of 2.60 mA h cm2 over 50 cycles at 6 mg cm2
+Fig. 6
+Lithium sulfide redox in the presence of LiVS2. (A and B) GITT profiles of the same electrode under first (A) charge and (B) discharge at a current
+density of 0.15 mA cm2 (C/10) for 30 min with a rest time of 2.5 h between pulses. The voltage profiles under closed- and open-circuit voltage
+conditions are marked by grey and green traces, respectively. (C) Schematic illustration of the VS2-mediated Li2S oxidation pathway.
+Paper
+Energy & Environmental Science
+
+=== 第 7 页 ===
+616 | Energy Environ. Sci., 2023, 16, 610–618
+This journal is © The Royal Society of Chemistry 2023
+(Fig. 7C). Importantly, there is minimal gravimetric capacity
+penalty associated with the increased areal loading in both
+the activation cycle (Fig. S9A, ESI†) and in long-term cycling at
+1 mA cm2 (Fig. S9B, ESI†).
+While these all-solid-state Li2S batteries exhibit excellent
+electrochemical performance in terms of material utilization,
+cell overpotential, and cycling stability, it is still necessary to
+increase the active material loading to provide areal capacities
+comparable to commercial lithium-ion batteries (typically
+43 mA h cm2). Fig. S10, ESI† shows the voltage profile of
+the ASSB cell at a high loading of 10 mg cm2 and a current
+density of 0.25 mA cm2. At room temperature, the cell delivers
+a discharge capacity of 3 mA h cm2, albeit with a moderately
+high overpotential as expected under these aggressive cycling
+conditions. Generally, problems related to mass transport and
+volume expansion/contraction are aggravated at higher load-
+ing, and consequently cycle life was limited. The same cell
+operated at 60 1C delivers, however, almost double the rever-
+sible capacity (5.3 mA h cm2) due to improved kinetics of Li2S
+conversion and charge transport within the cathode. Table 2
+summarizes and compares the areal capacities of recently
+reported all-solid-state Li–S cells, showing that the excellent
+cycling stability achieved in this work is one of the best to date.
+Conclusions
+Solid state batteries based on Li2S present advantages over
+those based on sulfur because the lithiated cathode is at
+maximum volume, and it also has the potential to be coupled
+with anode-less designs to further boost energy density. Our
+nanostructured cathode architecture for an all-inorganic-solid
+state Li2S battery accommodates volume contraction on charge,
+and reduces the sluggish kinetics involved in conversion of Li2S
+to sulfur by adopting multifunctional metallic LiVS2 as a host
+material. The hLi2S core – LiVS2 shelli design enables LixVS2 to
+(a) serve as interfacial redox mediator and (b) infiltrate the
+cathode with charge-carrier (Li+ and e) transport channels. We
+propose that on initial charge, the LiVS2 shell first undergoes
+Fig. 7
+Electrochemical performance of the core–shell LVS cathode at high active material loading. (A) Electrochemical profile and (B and C) long-term
+cycling profile at an active loading of (A and B) 4 mg cm2 and (C) 6 mg cm2. All cells were conditioned at 0.25 mA cm2 for a few activation cycles (not
+shown) before undergoing long-term cycling at 1 mA cm2.
+Table 2
+Selection of long-term cycling performance of recent solid-state Li–S batteries
+Positive electrode
+Solid
+electrolyte
+Negative
+electrode
+Active material
+loading
+[mg cm2]
+Current
+density
+[mA cm2]
+Capacity
+retention
+[%/cycle]
+Ref.
+Li2S/LiI : VGCF : SE (75(58 : 42) : 10 : 15)
+Li3PS4
+Li
+2.54
+0.6
+63%/100
+11
+S/Nb18W16O93/CNT : Super P : SE (3(3 : 1 : 1) : 5 :2)
+Li7P3S11
+In/Li
+0.8
+0.67
+78%/1000
+23
+Li2S/NC : AB : SE (3(43 : 57) : 1 : 3)
+Li7P3S11
+In/Li
+2.45
+0.5 (60 1C)
+80%/1000
+30
+Li2S/TiS2 : SuperP : PEO: LiTFSI (60(75 : 25) : 15 : 10 : 15)
+PEO/LiTFSI
+Li
+1.2
+1.1 (80 1C)
+70%/150
+31
+S/CNT: CNT: SE (30(70 : 30): 10 : 40)
+Li10GeP2S12
+Al/Li
+3.00
+0.25
+87%/100
+52
+Li2S/C : AB : SE (3(88 : 12): 1 : 3)
+Li7P3S11
+In/Li
+1.75
+0.5
+94%/100
+53
+Li2S : LiVS2: SE (30 : 20: 50)
+Li5.5PS4.5Cl1.5
+In/Li
+2.00
+1
+77%/1000
+This work
+4.00
+90%/500
+Note: VGCF = vaper grown carbon fiber; AB = acetylene black; NC = nitrogen-doped carbon; CNT = carbon nanotubes; and PVDF = poly(vinylidene
+fluoride); and SE = solid electrolyte. Unless specified, the solid-state electrolyte used in the positive electrode is the same as that of the separator
+and cells were operated at room temperature.
+Energy & Environmental Science
+Paper
+
+=== 第 8 页 ===
+This journal is © The Royal Society of Chemistry 2023
+Energy Environ. Sci., 2023, 16, 610–618 | 617
+delithiation to VS2 because of its inherently ionic/electronic
+conductive nature and proximity to the argyrodite solid state
+electrolyte. The metallic VS2 then acts as a solid-solid interfacial
+mediator for Li2S whereby it chemically oxidizes the latter to
+form sulfur at the VS2/Li2S interface and reforms LiVS2. The key
+property of such a mediator is that its redox potential should be
+close to and slightly above that of the active material (Li2S) – a
+property exhibited by VS2.
+Our work further shows that the kinetic barrier in all-solid-
+state Li–S batteries can be reduced with tailored cathode
+microstructure design. In contrast to the traditional three-
+phase boundary in a conventional all-solid-state cathode, the
+two-phase boundary created by the core–shell cathode archi-
+tecture offers well-connected electronic and ionic pathways
+surrounding
+the
+active
+material.
+This
+results
+in
+much-
+improved mixed electronic–ionic conductivity as demonstrated
+by DC polarization and electrochemical impedance studies
+using transmission line modelling. Practical current density
+and active material loading of 1 mA cm2 and 4 mg cm2,
+respectively, are achievable at room temperature. By operating
+the cell at 60 1C, a high areal capacity of 5.3 mA h cm2 is
+achieved with a material loading of 10 mg cm2. While this is
+only the first step towards practical realization, we anticipate
+these approaches to cathode design will inform future step-
+change improvements in all-solid-state Li2S batteries.
+Conflicts of interest
+The authors declare no competing financial interest.
+Acknowledgements
+This research was financially supported by Conamix, Inc. LFN
+also gratefully acknowledges funding by NSERC through a
+Canada Research Chair, and the Ontario Research Fund
+(ORF-RE program). The authors graciously thank Dr Jason
+Tam and Dr Peter Brodersen at the University of Toronto for
+carrying out the TEM study.
+References
+1 Q. Pang, X. Liang, C. Y. Kwok and L. F. Nazar, Nat. Energy,
+2016, 1, 16132.
+2 S. Do¨rfler, H. Althues, P. Ha¨rtel, T. Abendrouth, B. Schumm
+and S. Kaskel, Joule, 2020, 4, 539–554.
+3 M. Liu, S. Jhulki, Z. Sun, A. Magasinski, C. Hernrix and
+G. Yushin, Nano Energy, 2021, 79, 105428.
+4 A. Yang, G. Zhou, X. Kong, R. A. Vila´, A. Pei, Y. Wu, X. Yu,
+X. Zheng, C.-L. Wu, B. Liu, H. Chen, Y. Xu, D. Chen, Y. Li,
+S. Fakra, H. Y. Hwang, J. Qin, S. Chu and Y. Cui, Nat.
+Nanotechnol., 2020, 15, 231–237.
+5 F. Wu, F. Chum, G. A. Ferrero, M. Sevilla, A. B. Fuestes,
+O. Borodin, Y. Yu and G. Yushin, Nano Lett., 2020, 20,
+5391–5399.
+6 Y. Liu, Y. Elias, J. Meng, D. Aurbach, R. Zou, D. Xia and
+Q. Pang, Joule, 2021, 5, 2323–2364.
+7 H. Xie, C. Yang, Y. Ren, S. Xu, T. R. Hamann, D. W. McOwen,
+E. D. Wachman and L. Hu, Nano Lett., 2021, 21, 6163–6170.
+8 S. Nanda and A. Manthiram, Energy Environ. Sci., 2020, 13,
+2501–2514.
+9 P. Bonnick and J. Muldoon, Energy Environ. Sci., 2020, 13,
+4808–4833.
+10 E. Umeshbabu, B. Zheng and Y. Yang, Electrochem. Energy
+Rev., 2019, 2, 199–230.
+11 R. Xu, J. Yue, S. Liu, J. Tu, F. Han, P. Liu and C. Wang, ACS
+Energy Lett., 2019, 4, 1073.
+12 S. M. Hosseini, A. Varzi, S. Ito, Y. Aihara and S. Passerini,
+Energy Storage Mater., 2020, 27, 61–68.
+13 K. Fu, Y. Gong, G. T. Hitz, D. W. McOwen, Y. Li, S. Xi,
+Y. Wen, L. Zhang, C. Wang, G. Pastel, J. Dai, B. Liu, H. Xie,
+Y. Yao, E. D. Wachsman and L. Hu, Energy Environ. Sci.,
+2017, 10, 1568–1575.
+14 L. Wang, Y. Wang and Y. Xia, Energy Environ. Sci., 2015, 8,
+1551–1558.
+15 G. Tan, R. Xu, Z. Xing, Y. Yuan, J. Lu, J. Wen, C. Liu, L. Ma,
+C. Zhan, Q. Liu, T. Wu, Z. Jian, R. Shahbazian-Yassar,
+Y. Ren, D. J. Miller, L. A. Curtiss, X. Ji and K. Amine, Nat.
+Energy, 2017, 2, 17090.
+16 G. F. Dewald, S. Ohno, J. G. C. Hering, J. Janek and
+W. G. Zeier, Batteries Supercaps, 2021, 4, 183–194.
+17 S. Ohno and W. G. Zeier, Acc. Mater. Res., 2021, 2, 869–880.
+18 L. Zhou, C. Y. Kwok, A. Shyamsunder, Q. Zhang, X. Wu and
+L. F. Nazar, Energy Environ. Sci., 2020, 13, 2056–2063.
+19 C. Zhao, A. Daali, I. Hwang, T. Li, X. Huang, D. Robertson,
+Z. Yang, S. Trask, W. Xu, C.-J. Sun, G.-L. Xu and K. Amine,
+Angew. Chem., Int. Ed., 2022, 61, e202203466.
+20 N. H. H. Phuc, M. Takaki, M. Hiroyuki and A. Atsunori,
+Front. Energy Res., 2021, 8, 606023.
+21 T. Hakari, Y. Fujita, M. Deguchi, Y. Kawasaki, M. Otoyama,
+Y. Yoneda, A. Sakuda, M. Tatsumisago and A. Hayashi, Adv.
+Funct. Mater., 2022, 32, 2106174.
+22 M. Li, H. Pan, T. Liu, X. Xiong, X. Yu, S.-S. Hu, H. Li, X. Huang,
+L. Suo and L. Chen, ACS Energy Lett., 2022, 7, 766–772.
+23 B.-S. Zhao, L. Wang, S. Liu, G.-R. Li and X.-P. Gao, ACS Appl.
+Mater. Interfaces, 2022, 14, 1212–1221.
+24 C. Wang, L. Zhang, H. Xie, G. Pastel, J. Dai, Y. Gong, B. Liu,
+E. D. Wachsman and L. Hu, Nano Energy, 2018, 50, 393–400.
+25 X. Xu, C. Y. Kwok, L. Zhou, Z. Zhang, I. Kochetkov and
+L. F. Nazar, Adv. Funct. Mater., 2021, 31, 2004239.
+26 S. Ohno, R. Koerever, G. Dewald, C. Rosenbach, P. Titscher,
+D. Steckermeier, A. Kwade, J. Janek and W. G. Zeier, Chem.
+Mater., 2019, 31, 2930–2940.
+27 D. H. S. Tan, Y.-T. Chen, H. Yang, W. Bao, B. Sreenarayanan,
+J.-M. Doux, W. Li, B. Lu, S.-Y. Ham, B. Sayahpour, J. Scharf,
+E. A. Wu, H. E. Han, H. J. Hah, H. Jeong, J. B. Lee, Z. Chen
+and Y. S. Meng, Science, 2022, 373, 1494–1499.
+28 Y.-G. Lee, S. Fujiki, C. Jung, N. Suzuki, N. Yashiro,
+R. Omoda, D.-S. Ko, T. Shiratsuchi, T. Sugimoto, S. Ryu,
+J. H. Ki, T. Watanabe, Y. Park, Y. Aihara, D. Im and
+D. I. T. Han, Nat. Energy, 2022, 5, 348.
+Paper
+Energy & Environmental Science
+
+=== 第 9 页 ===
+618 | Energy Environ. Sci., 2023, 16, 610–618
+This journal is © The Royal Society of Chemistry 2023
+29 R. B. Cervera, N. Suzuki, T. Ohnishi, M. Osada, K. Mitsuishi,
+T. Kambara and K. Takada, Energy Environ. Sci., 2014, 7,
+662–666.
+30 D. Wang, Y. Wu, X. Zhang, S. Tang, Z. Gong and Y. Yang,
+J. Power Sources, 2020, 479, 228792.
+31 X. Gao, X. Zheng, J. Wang, Z. Zhang, X. Xiao, J. Wan, Y. Ye,
+L.-Y. Chou, H. K. Lee, J. Wang, R. A. Vila´, Y. Yang, P. Zhang,
+L.-W. Wang and Y. Cui, Nano Lett., 2020, 20, 5496–5503.
+32 S. Meini,
+R. Elazari, A. Rosenman, A. Garsuch and
+D. Aurbach, J. Phys. Chem. Lett., 2014, 5, 915–918.
+33 X. Gao, X. Zheng, Y. Tsao, P. Zhang, X. Xiao, Y. Ye, J. Li,
+Y. Yang, R. Xu, Z. Bao and Y. Cui, J. Am. Chem. Soc., 2021,
+143, 18188–18195.
+34 A. G. Tamirat, X. Guan, J. Liu, J. Luo and Y. Xia, Chem. Soc.
+Rev., 2020, 49, 7454–7478.
+35 Q. Wang, N. Evans, S. M. Zakeeruddin, I. Exnar and
+M. Gra¨tzel, J. Am. Chem. Soc., 2007, 129, 3163–3167.
+36 R. R. Chianelli and M. B. Dines, Inorg. Chem., 1978, 17,
+2758–2762.
+37 Z. W. Seh, J. H. Yu, W. Li, P.-C. Hsu, H. Wang, Y. Sun,
+H. Yao, Q. Zhang and Y. Cui, Nat. Commun., 2014, 5, 5017.
+38 D. W. Murphy, C. Cros, F. J. di Salvo and J. V. Waszczak,
+Inorg. Chem., 1977, 16, 3027–3031.
+39 F. Wu, T. P. Pollard, E. Zhao, Y. Xiao, M. Olguin and
+G. Yushin, Energy Environ. Sci., 2018, 11, 807.
+40 P. Adeli, J. D. Bazak, K. H. Park, I. Kochetkov, A. Huq,
+G. R. Goward and L. F. Nazar, Angew. Chem., Int. Ed., 2019,
+58, 8681–8686.
+41 S. Ohno, C. Rosenbach, G. F. Dewland, J. Janek and
+W. G. Zeier, Adv. Funct. Mater., 2021, 31, 2010620.
+42 J. Speight, Lange’s Handbook of Chemistry, McGraw-Hill
+Education, New York, 16th edn, 2005.
+43 Z.-M. Xu, S.-H. Bo and H. Zhu, ACS Appl. Mater. Interfaces,
+2018, 10, 36941–36953.
+44 N.
+Katayama,
+K.
+Kojima,
+T.
+Yamaguchi,
+S.
+Hattori,
+S. Tamura, K. Ohara, S. Kobayashi, K. Sugimoto, Y. Ohta,
+K. Saitoh and H. Sawa, npj Quantum Mater., 2021, 6, 16.
+45 F. Altorfer, et al., Lithium diﬀusion in the superionic con-
+ductor Li2S, Phys. B, 1992, 180, 795–797.
+46 F. Altorfer, W. Bu¨hreraI, I. Anderson, O. Scha¨rpf, H. Bill,
+P. L. Carron and H. G. Smith, Phys. B, 1992, 180, 795–797.
+47 Z. Liu, W. Fu, E. A. Payzant, X. Yu, Z. Wu, N. J. Dudney,
+J. Kiggans, K. Hong, A. J. Rondinone and C. Liang, J. Am.
+Chem. Soc., 2013, 135, 975–978.
+48 S. Y. Kim, K. Kaup, K.-H. Park, A. Assoud, L. Zhou, J. Liu,
+X. Wu and L. F. Nazar, ACS Mater. Lett., 2021, 3, 930.
+49 J. Mosˇkon, J. Zˇuntar, S. D. Talian, R. Dominko and
+M. Gabersˇcˇek, J. Electrochem. Soc., 2020, 167, 140539.
+50 P. Braun, C. Uhlmann, M. Weiss, A. Weber and E. Ivers-
+Tiﬀe´e, J. Power Sources, 2018, 393, 119–127.
+51 D. W. Murphy, F. J. di Salvo and J. N. Carides, J. Solid State
+Chem., 1979, 29, 339–343.
+52 H. Pan, M. Zhang, Z. Cheng, H. Jiang, P. Wang, P. He and
+H. Zhou, Sci. Adv., 2022, 8, eadc9516.
+53 H. Yan, H. Wang, D. Wang, X. Li, Z. Gong and Y. Yang, Nano
+Lett., 2019, 19, 3280–3287.
+Energy & Environmental Science
+Paper
+

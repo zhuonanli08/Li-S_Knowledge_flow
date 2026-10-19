@@ -1,0 +1,933 @@
+=== 第 1 页 ===
+Research Papers
+Regulation of ionic conduction and sulfur conversion kinetics in PEO/ 
+PVDF-HFP solid electrolyte by dual-functional fillers for high-performance 
+solid-state lithium-sulfur batteries
+Hengtong Han a, Jia Song b, Cong Wang c, Yawen Li a, Xueying Zhou a, Ying Li a, Jing Liu a,  
+Weimeng Si a, Qiaoling Li a, Feng Wang d, Qiuhong Li a, Dong Wang a, Guangwu Wen a,  
+Jun Cao a,*
+a Discipline and Technology Center for High Temperature Functional Ceramics, Shandong Key Laboratory of Functional-Structural Integrated Ceramics, School of 
+Materials Science and Engineering, Shandong University of Technology, Zibo, 255000, PR China
+b Shandong Head Group Co., Ltd, Zibo, 255049, Shandong, PR China
+c School of Chemical Safety, North China Institute of Science and Technology, Beijing, 101601, PR China
+d Guangxi Linglong Tire Co., Ltd, Liuzhou, Guangxi, 545000, PR China
+A R T I C L E I N F O
+Keywords:
+Dual-functional fillers
+Composite solid electrolyte
+All-solid-state
+Lithium-sulfur batteries
+A B S T R A C T
+Poly(ethylene oxide) (PEO)-based all-solid-state lithium‑sulfur batteries have attracted considerable attention 
+recently. However, the inherently low Li+ ion transport efficiency of PEO-based electrolytes, combined with the 
+inevitable complex polysulfide shuttle effects, significantly impedes sulfur redox kinetics and results in sub­
+stantial loss of active materials. Herein, a composite solid electrolyte (CSE) is developed by integrating TiO2 and 
+a high-entropy Prussian blue analog (HEPBA) as dual-functional fillers into a PVDF-HFP/PEO copolymer matrix. 
+Intertwined polymer network improves mechanical robustness and reduces PEO crystallinity, facilitating Li+
+migration. Moreover, the interfacial regions between the inorganic fillers and the polymer matrix establish 
+additional Li+ conduction pathways. Importantly, both TiO2 and HEPBA effectively immobilize lithium poly­
+sulfides (LiPSs) via strong chemisorption, thereby suppressing the shuttle effect. HEPBA further contributes 
+through catalytic conversion of trapped LiPSs. Benefiting from this synergistic design, the PPHTH-4 CSE exhibits 
+a high ionic conductivity of 8.9 × 10−4 S cm−1 at 60 ◦C. Assembled solid-state lithium‑sulfur battery deliver an 
+initial discharge capacity of 918 mAh g−1 and delivers a superior cycle stability over 500 cycles at 0.2C (with a 
+capacity decay of only 0.0671% per cycle) with an average Coulombic efficiency exceeding 98.6%. This work 
+provides a feasible strategy for high-performance all-solid-state lithium‑sulfur batteries.
+1. Introduction
+The rapid advancement of portable electronics and electric vehicles 
+has intensified the demand for high-performance energy storage sys­
+tems. Traditional lithium-ion batteries are increasingly inadequate to 
+meet these growing requirements, constrained by limitations such as 
+high cost, safety concerns, and relatively low theoretical energy density 
+[1,2]. Lithium‑sulfur batteries have attracted widespread attention due 
+to their high theoretical specific capacity (1675 mAh g−1) and theoret­
+ical energy density (~2600 Wh kg−1). The low cost and natural abun­
+dance of sulfur further enhance their appeal [3,4]. However, the 
+commercialization of lithium‑sulfur batteries faces significant obstacles, 
+including the polysulfide shuttle effect, lithium dendrite growth leading 
+to internal short circuits, and the flammability of conventional liquid 
+electrolytes [5–7]. To address these issues, a variety of approaches have 
+been employed, including advanced cathode architecture design, sepa­
+rator modification, electrolyte additives, and the adoption of solid-state 
+electrolytes [8,9]. The utilization of solid-state electrolytes offers a 
+fundamental solution due to its non-flammable and superior mechanical 
+strength, which can not only address the issue of safety hazards but also 
+suppresses the growth of lithium dendrites [10,11]. Particularly, solid 
+polymer electrolytes offer advantages like better processability, flexi­
+bility to accommodate electrode volume changes and favorable inter­
+facial contact [12].
+* Corresponding author.
+E-mail address: juncao@sdut.edu.cn (J. Cao). 
+Contents lists available at ScienceDirect
+Journal of Energy Storage
+journal homepage: www.elsevier.com/locate/est
+https://doi.org/10.1016/j.est.2026.123829
+Received 30 April 2026; Received in revised form 29 June 2026; Accepted 19 July 2026  
+Journal of Energy Storage 178 (2026) 123829 
+Available online 23 July 2026 
+2352-152X/© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+=== 第 2 页 ===
+Among various polymer matrices, polyethylene oxide (PEO) has 
+been widely investigated for solid polymer electrolytes due to its high 
+safety, good film-forming ability and compatibility with electrodes 
+[13,14]. However, PEO-based all-solid-state lithium‑sulfur batteries 
+suffer from critical drawbacks. The high crystallinity of PEO impedes the 
+formation of continuous Li+ conduction pathways, leading to a low 
+room-temperature Li+ conductivity of PEO (10−8 to 10−6 S cm−1) 
+severely limits charge transfer, resulting in sluggish sulfur redox kinetics 
+[15]. Furthermore, the ether oxygen groups in PEO exhibit solubility 
+toward lithium polysulfides (LiPSs), failing to effectively prevent the 
+detrimental shuttle effect. Moreover, this phenomenon becomes more 
+pronounced when operating at medium-to-high temperatures [16,17]. 
+Additionally, electrolytes based on PEO suffer from inadequate me­
+chanical strength, which limits their ability to effectively suppress 
+lithium dendrite growth [18]. To address these drawbacks, several 
+modification strategies have been developed. One common approach 
+involves incorporating functional fillers: Li+-inert substances can 
+enhance ionic conductivity by promoting lithium salt dissociation and 
+increasing the population of free Li+ ions, while Li+-conducting mate­
+rials can reduce PEO crystallinity and provide additional transport 
+pathways for Li+ migration [19,20]. Moreover, polymer modification 
+techniques such as blending [21], crosslinking [22], and copolymeri­
+zation [23,24] have been employed to improve the ionic conductivity 
+and mechanical strength of PEO-based electrolytes by developing 
+composite solid electrolytes (CSEs). In recent years, dual-functional 
+inorganic composite fillers have become a mainstream modification 
+route for PEO-based solid electrolytes applied in all-solid-state lith­
+ium‑sulfur batteries. Conventional single ceramic fillers (TiO2 [25], 
+Al2O3 [26], LLZO [27]) only slightly reduce PEO crystallinity and 
+strengthen films, but lack polysulfide catalytic activity and strong 
+anchoring capacity, so they cannot fundamentally resolve shuttle- 
+induced capacity fading. Porous framework materials such as mono- 
+metal Prussian blue analogs and MOFs possess moderate LiPS adsorp­
+tion capacity, yet severe particle agglomeration occurs when high 
+loading is applied, deteriorating membrane mechanical integrity and 
+bulk ionic conductivity. To overcome these defects, researchers have 
+proposed hybrid filler systems like MOF-ceramic and metal sulfide- 
+ceramic composites. Nevertheless, existing dual-filler designs generally 
+face a performance trade-off of improving catalysis often sacrifices 
+mechanical/conductivity performance and vice versa. Zhang et al. [28]
+incorporated MOF-5 filler into a PEO/LAGP/LGPS composite electrolyte 
+via solution casting. The abundant Lewis acidic sites within MOF-5 
+could coordinate with the PEO matrix, effectively reducing its crystal­
+linity, which subsequently enhanced the oxidation stability and 
+increased the lithium-ion transference number of the composite elec­
+trolyte. Ao et al. [29] prepared a solid electrolyte by cross-linking 
+PEGDMA with PEO through ultraviolet light curing. The incorporation 
+of PEGDMA not only reduced the crystallinity of PEO but also provided 
+ester groups capable of binding with LiPSs, thus alleviating the shuttle 
+effect in lithium‑sulfur batteries. However, despite these enhancements, 
+it remains challenging for a single solid electrolyte to simultaneously 
+achieve high ionic conductivity, excellent mechanical properties, and 
+effective suppression of the polysulfide shuttle effect, which is essential 
+for meeting the demanding performance requirements of lithium‑sulfur 
+batteries. Consequently, the design and fabrication of optimal fillers are 
+crucial for achieving high-performance PEO-based all-solid-state lith­
+ium‑sulfur batteries.
+Herein, we designed and fabricated a novel CSE by blending PEO 
+with poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) as a 
+polymer matrix, reinforced with dual-functional inorganic fillers: tita­
+nium dioxide (TiO2) and a high-entropy Prussian blue analog (HEPBA) 
+(Scheme 1). The incorporation of semi-crystalline PVDF-HFP disrupts 
+the ordered arrangement of PEO chains, suppressing crystallization and 
+creating more amorphous regions for rapid ion transport. In addition, 
+the polar C–F bonds in PVDF-HFP can also facilitate the dissociation of 
+lithium salts, further enhancing ionic conductivity. The nano-TiO2 dis­
+rupts ordered PEO chain stacking, reduces matrix crystallinity and cre­
+ates abundant inorganic-polymer interfaces for rapid Li+ transport. It 
+Scheme 1. Schematic illustration of the PPHTH-4 CSE enhancing the performance of all-solid-state lithium-sulfur batteries.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+2 
+
+=== 第 3 页 ===
+also provides moderate chemical adsorption toward LiPSs via its surface 
+polar sites. HEPBA features interconnected cubic porous frameworks 
+loaded with unsaturated Co/Ni/Cu/Mn/Zn multi-metal active sites. 
+Incorporated into the polymer matrix, HEPBA immobilizes free TFSI−
+anions to raise the Li+ transference number and mitigate concentration 
+polarization at the Li metal interface. In lithium‑sulfur batteries, its 
+porous skeleton firmly restrains soluble LiPSs, while multi-metal sites 
+catalyze sequential LiPSs redox to eliminate intermediate accumulation 
+and boost sulfur utilization. Electrolytes with TiO2 alone suffer severe 
+shuttle effects and sluggish sulfur redox kinetics; single HEPBA filler 
+tends to aggregate, impairing mechanical properties and ionic conduc­
+tivity. Thus, the total filler loading is fixed at 5 wt%, with TiO2 partially 
+substituted by HEPBA rather than fully replaced to achieve multidi­
+mensional synergy in ion conduction, mechanical performance and 
+LiPSs suppression. This dual trapping-catalysis coupling system reduces 
+redox polarization and alleviates capacity decay originating from the 
+shuttle effect. Benefiting from the synergistic interactions among PEO, 
+PVDF-HFP, TiO2 and HEPBA, the optimized CSE (denoted as PPHTH-4) 
+achieves a high ionic conductivity of 8.9 × 10−4 S cm−1 at 60 ◦C and 
+exhibits enhanced mechanical properties. Impressively, the 1900 h long- 
+term galvanostatic cycling test of PPHTH-4 Li symmetric cells was 
+conducted at a constant temperature of 60 ◦C, and the critical current 
+density can reach up to 0.60 mA cm−2. Furthermore, the assembled all- 
+solid-state lithium‑sulfur batteries enables an initial discharge capacity 
+of 918 mAh g−1 and delivers a superior cycle stability over 500 cycles at 
+0.2C with a capacity decay of only 0.0671% per cycle. Therefore, these 
+findings could pave the way for developing safer and high-performance 
+solid-state lithium‑sulfur batteries.
+2. Experimental
+2.1. Preparation of TiO2
+A calculated amount of TiCl4 (99%, Adamas), deionized water, urea 
+and ethanol were mixed and stirred for 15 min with the temperature 
+maintained below 5 ◦C. Urea was first dissolved in ethanol, followed by 
+mixing with the precursor solution. The resulting solution was stirred for 
+15 min, then transferred into a Teflon-lined autoclave, sealed and heated 
+in an oven at 200 ◦C for 2 h. The product was centrifuged, washed with 
+deionized water and ethanol, then oven dried under vacuum overnight.
+2.2. Synthesis of HEPBA
+Solution A was prepared by dissolving 0.4 mmol each of Co 
+(NO3)2⋅6H2O, Ni(NO3)2⋅6H2O, Cu(NO3)2⋅3H2O, Mn(NO3)2⋅3H2O, Zn 
+(NO3)2⋅6H2O and 2.25 mmol of Na3C6H5O7⋅2H2O in 50 mL deionized 
+water. Solution B was prepared by dissolving 2 mmol of K3[Fe(CN)6] in 
+50 mL deionized water. At room temperature, Solution B was poured 
+into Solution A under stirring. After continuously stirring for 10 min, the 
+obtained mixed solution was aged at room temperature for 24 h. The 
+resulting product was centrifuged, washed with deionized water and 
+ethanol, and oven dried under vacuum overnight.
+2.3. Preparation of PEO-based CSEs
+The PEO/PVDF-HFP/LiTFSI CSE, denoted as PPH-30, was prepared 
+by a solution casting method. Typically, 0.1 g of PVDF-HFP (MW =
+450,000) was dissolved in N, N-Dimethylformamide (DMF) under stir­
+ring at 60 ◦C for 1 h. Subsequently, 0.9 g of PEO (MW = 600,000) and 
+0.3 g of LiTFSI (EO: Li+ = 20:1) were added to the solution and stirred at 
+60 ◦C for 12 h to form a homogeneous slurry. The slurry was then cast 
+onto a polytetrafluoroethylene (PTFE) mold and dried at 60 ◦C for 24 h. 
+The designation PPH-30 indicates the mass ratio of LiTFSI to the poly­
+mer blend (PEO/PVDF-HFP) is 30:100. To incorporate TiO2, a series of 
+PEO/PVDF-HFP/TiO2/LiTFSI CSEs (denoted as PPHT-X) were synthe­
+sized by adding X wt% (X = 2.5, 5, 7.5, 10) of TiO2 relative to the total 
+mass of the polymers during the slurry preparation. A series of PPHT-L 
+composite electrolytes was developed by co-doping HEPBA and TiO2 
+(total 5 wt%) based on the optimal PPHT-5 formulation, where L stands 
+for mass percentage of HEPBA among total inorganic fillers (L = 1, 2, 3, 
+4, 5), and the residual (5-L) wt% filler is TiO2. A pure HEPBA (5 wt%) 
+control was also prepared for synergistic comparison. Thickness mea­
+surements from five independent membranes per group (Table S1) 
+ensured reliable ionic conductivity calculations.
+2.4. Preparation of sulfur cathodes
+The sulfur cathode was prepared by mixing sulfur, conductive car­
+bon, and polyvinylidene fluoride (PVDF) binder in a mass ratio of 7:2:1. 
+First, sulfur and conductive carbon were thoroughly ground in an agate 
+mortar. Separately, PVDF was dissolved in an appropriate amount of N- 
+methyl-2-pyrrolidone (NMP) under stirring to form a homogeneous so­
+lution. The ground powder was then added to the PVDF/NMP solution 
+and stirred at room temperature for 4 h to form a uniform slurry. The 
+resulting slurry was coated onto an aluminum foil current collector 
+using a doctor blade, followed by drying in a vacuum oven at 60 ◦C for 
+12 h. Finally, the dried electrode was cut into 12 mm diameter discs, 
+with a sulfur loading of 0.8 mg cm−2, 1.5 mg cm−2 and 2 mg cm−2, 
+respectively.
+2.5. Electrochemical characterization
+Symmetric cells with the configuration SS//CSE//SS (SS = stainless 
+steel) were assembled by sandwiching the CSE between two SS sheets. 
+Electrochemical impedance spectroscopy (EIS) was used for the mea­
+surement of impedance (R), then calculating the lithium-ion conduc­
+tivity. The test was conducted on a CHI660E electrochemical 
+workstation over a frequency range from 106 Hz to 1 Hz with an AC 
+amplitude of 10 mV. The ionic conductivity (σ, in S cm−1) was calcu­
+lated from the obtained impedance (R) using the following equation: 
+σ =
+L
+R × S
+(1) 
+where σ represents the conductivity (S cm−1), R is the resistance of the 
+CSE determined by EIS test (Ω), L is the thickness of the CSE (cm), and S 
+is the effective area of the electrode (cm2).
+Activation energy (Ea) of the reaction is calculated using the 
+Arrhenius curve and eq. (2): 
+σ(T) = Aexp
+(
+−Ea
+RT
+)
+(2) 
+where A is the frequency factor, Ea is the activation energy required to 
+activate the ion to undergo the lepton conduction process, R is the molar 
+gas constant, and T is the thermodynamic temperature [30].
+A Li//CSE//SS cell was assembled by sandwiching the CSE between 
+a lithium metal anode and an SS sheet (cathode) to determine the 
+electrochemical window. The electrochemical stability window was 
+tested using linear sweep voltammetry (LSV) in the voltage range of 2 to 
+6 V at a scan rate of 1 mV s−1.
+A Li//CSE//Li symmetric cell was assembled by placing lithium 
+metal on both sides of the CSE to determine the lithium-ion transference 
+number (tLi+) of the CSE. The tLi+ of the CSE is calculated by using a 
+combined EIS and direct current polarization tests on an electrochemical 
+workstation and eq. (3): 
+tLi+ = IS(ΔV −IoRo)
+Io(ΔV −ISRS)
+(3) 
+where ΔV is the applied voltage (10 mV), IS is the steady-state current, Io 
+is the initial current, Ro is the initial resistance at the interface and RS 
+denotes the resistance at the interface after reaching a steady state.
+Li//CSE//S cell with CR2032-type coin cells casing was assembled 
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+3 
+
+=== 第 4 页 ===
+by sandwiching the CSE between a lithium metal anode and a sulfur 
+cathode to determine the cycle performance of all-solid-state lith­
+ium‑sulfur batteries. The cycle performance was tested in LAND test 
+system under conditions of 60 ◦C and 0.2C. The rate performance was 
+tested after an initial activation process consisting of 10 cycles at 0.05C 
+and the cells were tested at incremental current rates (10 cycles per 
+rate).
+2.6. Characterization and DFT theoretical calculations
+The phase compositions of the CSEs were tested by X-ray diffraction 
+(XRD, Rigaku MiniFlex600) with a scanning range of 10◦to 80◦. The 
+morphology of the CSEs was characterized by scanning electron mi­
+croscopy (SEM, TESCAN MIRA3) and energy-dispersive X-ray spectros­
+copy (EDS). Fourier transform infrared spectroscopy (FTIR) spectra were 
+performed on a Nicolet iS50. The thermal stability of the CSEs was 
+measured by thermogravimetric analysis (TG) and differential scanning 
+calorimetry (DSC) (SDT 650, TA) in a nitrogen atmosphere. The chem­
+ical composition of the lithium surface after cycling was detected by X- 
+ray photoelectron spectroscopy (XPS) (Thermo Fisher Escalab 250 Xi).
+The inhibitory effect of the membrane on the shuttle effect was 
+studied by density functional theory (DFT) calculations. The generalized 
+gradient approximation with the Perdew-Burke-Ernzerhof (PBE) ex­
+change correlation functional was used. For the plane wave calculations, 
+a cut-off energy of 500 eV was applied, total energies were converged to 
+within 10−5 eV, while structural optimization minimized the forces on 
+all atoms to below 0.03 eV Å−1. In this calculation, a 2 × 2 × 1 k-point 
+mesh was used to achieve the actual spacing less than 0.05 Å−1. To 
+explore the interactions, the adsorption energies of Li2Sn were calculated 
+on PEO, PVDF-HFP, anatase-TiO2 (101), and HEPBA (220). Here the 
+adsorption energy is defined as the change in the potential energy E of 
+the system (substrate + adsorbate) on adsorption. The adsorption en­
+ergies (ΔELi2Sn) were calculated using the following formula: 
+ΔELi2Sn = Esubstrate+Li2Sn −Esubstrate −ELi2Sn
+(4) 
+where Esubstrate+Li2Sn is the energy of Li2Sn adsorbed on the substrate, 
+Esubstrate is the energy of the substrate, and ELi2Sn is the energy of the Li2Sn.
+3. Result and discussion
+Inorganic filler high-entropy Prussian blue analog (HEPBA) was 
+synthesized via a coprecipitation method, and titanium dioxide (TiO2) 
+was obtained through a hydrothermal process. The prepared samples 
+were characterized by scanning electron microscopy (SEM) and X-ray 
+diffraction (XRD). HEPBA displays a regular nano cubic morphology 
+(Fig. S1a), which aligns with previous reports [31], while TiO2 appears 
+as nanoparticles (Fig. S1b). XRD analysis further confirms the successful 
+synthesis of both materials. The diffraction pattern of HEPBA (Fig. S2a) 
+exhibits peaks consistent with the reported research, and the XRD pat­
+terns in Fig. S2b confirm the synthesized TiO2 belongs to pure anatase 
+phase (PDF #21–1272). The PEO/PVDF-HFP/TiO2/ HEPBA /LiTFSI 
+(PPHTH-4) composite solid electrolyte (CSE) was fabricated using a 
+facile solution-casting method, as illustrated in Fig. S3.
+Fig. 1a-d shows the macroscopic appearance of the prepared elec­
+trolyte membranes. The pure PEO membrane is transparent and uniform 
+(Fig. 1a). Upon blending with PVDF-HFP (PPH-30), the membrane be­
+comes translucent (Fig. 1b). The incorporation of TiO2 renders the 
+PPHT-5 CSE white and opaque (Fig. 1c). Finally, the incorporation of 
+HEPBA results in a brown, opaque appearance for the PPHTH-4 mem­
+brane (Fig. 1d). As shown in the insets in Fig. 1, all CSEs exhibit excellent 
+flexibility and can be bent without cracking, which is beneficial for 
+maintaining stable interfacial contact with electrodes during battery 
+cycling. Fig. 1e-h shows surface SEM images of the PEO, PPH-30, PPHT- 
+5 and PPHTH-4 CSEs, respectively. The PEO CSE exhibits a relatively 
+smooth surface. The introduction of PVDF-HFP leads to blocky distri­
+bution. This blocky distribution becomes more pronounced with the 
+addition of TiO2, accompanied by the appearance of white streaks be­
+tween the blocks. After adding HEPBA, PPHTH-4 CSE exhibits more and 
+smaller blocky distributions as well as more and denser white streaks. 
+This morphological evolution is likely attributed to the incorporation of 
+Fig. 1. Photographs of (a) PEO, (b) PPH-30, (c) PPHT-5 and (d) PPHTH-4. SEM images of (e) PEO, (f) PPH-30, (g) PPHT-5 and (h) PPHTH-4. (i) Cross-section SEM 
+image and (j) EDS element mapping of PPHTH-4.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+4 
+
+=== 第 5 页 ===
+PVDF-HFP, TiO2, and HEPBA, which disrupt the orderly arrangement of 
+PEO chains and increase the proportion of the amorphous region within 
+the electrolyte. Fig. 1i presents the cross-sectional SEM image of the 
+PPHTH-4 CSE, indicating a uniform thickness of approximately 92.5 μm. 
+Energy-dispersive X-ray spectroscopy (EDS) elemental mapping of the 
+PPHTH-4 CSE (Fig. 1j) reveals a homogeneous distribution of C, O, F, S, 
+Ti, Mn, Fe, Co, Ni, Cu, and Zn throughout the PPHTH-4 CSE. This result 
+confirms the uniform dispersion of LiTFSI, TiO2, and HEPBA within the 
+composite electrolyte matrix.
+The incorporation of PVDF-HFP, TiO2, and HEPBA into PEO signif­
+icantly alters the phase composition and crystallinity of the resulting 
+CSEs, as determined by XRD, Fourier transform infrared spectroscopy 
+(FTIR) and differential scanning calorimetry (DSC) analyses (Fig. 2) 
+[30]. XRD patterns (Fig. 2a) reveal that pure PEO exhibits two charac­
+teristic peaks at 19◦and 23◦, which are associated with the (120) and 
+(112) crystal planes, respectively. Upon the addition of PVDF-HFP (PPH- 
+30) and further fillers (PPHT-5, PPHTH-4), the intensity of these PEO 
+diffraction peaks markedly decreases. This reduction indicates a sub­
+stantial decline in PEO crystallinity, which is conducive to enhanced 
+ionic conductivity, as the fillers disrupt the orderly arrangement of PEO 
+polymer chains [32,33]. To further elucidate the impact of filler addition 
+on the crystallinity of PEO, the crystal structure of the CSEs with varying 
+filler contents was analyzed. As provided in Fig. S4, the addition of 
+varying fillers significantly weakens the characteristic diffraction peaks 
+of PEO, indicating a reduction in crystallinity. This transformation of 
+crystalline regions into amorphous domains facilitates Li+ migration, 
+thereby contributing to the enhanced ionic conductivity.
+To further elucidate the structural interactions between fillers and 
+the polymer matrix, FTIR spectroscopy was conducted. Fig. 2b presents 
+the FTIR spectra of PEO, PPH-30, PPHT-5, and PPHTH-4 CSEs. The three 
+characteristic peaks at 1060 cm−1, 1110 cm−1, and 1150 cm−1 corre­
+spond to the stretching vibrations of the C-O-C ether bond in PEO [34]. 
+Compared with pure PEO, the triplet peak profile of the C-O-C stretching 
+vibration in PPH-30, PPHT-5, and PPHTH-4 broadens due to the intro­
+duction of PVDF-HFP, indicating that PVDF-HFP influences the 
+morphology of the PEO framework [35–38]. The peak at 880 cm−1, 
+absent in pure PEO, appears in PPH-30, PPHT-5, and PPHTH-4, which is 
+attributed to the amorphous phase of PVDF-HFP [39–42]. The peak at 
+1195 cm−1 corresponds to the stretching vibration of CF3 groups in 
+LiTFSI [43]. Additionally, peaks at 1360 cm−1 and 1340 cm−1 are 
+assigned to CH2 wagging vibrations, while those at 1280 cm−1 and 1240 
+cm−1 correspond to CH2 twisting vibrations, and peaks at 960 cm−1 and 
+845 cm−1 are attributed to CH2 rocking vibrations [44,45]. Notably, the 
+dichotomous peaks at 1340 cm−1 and 1360 cm−1 (recognized as key 
+indicators of crystallinity) merge into a single peak at 1350 cm−1 in PPH- 
+30, PPHT-5, and PPHTH-4. This merged peak is characteristic of 
+amorphous PEO. The merging effect is more pronounced in PPHT-5 and 
+PPHTH-4, suggesting that the introduction of TiO2 and HEPBA further 
+reduces the crystallinity of PEO. These changes, together with the 
+broadening of the C-O-C triplet peaks, indicate that the incorporation of 
+LiTFSI, PVDF-HFP, TiO2, and HEPBA promotes a transition of PEO from 
+a crystalline to an amorphous state [34,46,47]. DSC measurements 
+(Fig. 2c) quantitatively confirm this effect. The melting transition tem­
+perature (Tm) of pure PEO electrolytes is 65.99 ◦C. With the addition of 
+fillers, the Tm values for PPH-30, PPHT-5, and PPHTH-4 CSEs decrease 
+to 58.36 ◦C, 56.54 ◦C, and 55.08 ◦C, respectively. A lower Tm indicates 
+reduced crystallinity of PEO, attributed to the disruption of PEO chain 
+ordering by PVDF-HFP, TiO2, and HEPBA. This disruption promotes 
+segmental motion of the PEO chains, which is beneficial for Li+ transport 
+within the electrolyte [48]. Moreover, the thermal stability of the CSEs 
+was evaluated by thermogravimetric (TG) analysis (Fig. 2d). The 
+PPHTH-4 CSE demonstrates good thermal stability up to 350 ◦C. Initial 
+weight loss (room temperature to 200 ◦C) is attributed to water vola­
+tilization and residual solvent evaporation. A rapid weight loss between 
+350 and 440 ◦C results from the thermal decomposition of the polymer 
+matrix and LiTFSI [49]. Mechanical properties are another critical 
+aspect for CSE performance. Tensile tests (Fig. 2e) show that the PPHTH- 
+4 CSE membrane possesses a favorable combination of ductility (5170% 
+elongation) and tensile strength (2.68 MPa), outperforming pure PEO 
+and PPH-30 CSEs. Although its strength is slightly lower than that of 
+PPHT-5 CSE (3.12 MPa, 5290% elongation), the mechanical properties 
+of PPHTH-4 are considered adequate to alleviate the volumetric 
+Fig. 2. (a) XRD patterns of PEO, PPH-30, PPHT-5 and PPHTH-4. (b) FTIR spectra of PEO, PPH-30, PPHT-5 and PPHTH-4. (c) DSC curves of PEO, PPH-30, PPHT-5 and 
+PPHTH-4. (d) TG curves of PEO, PPH-30, PPHT-5 and PPHTH-4. (e) Mechanical properties of PEO, PPH-30, PPHT-5 and PPHTH-4. (f) Photographs of PEO, PPH-30, 
+PPHT-5 and PPHTH-4 heated at different temperatures for 1 h.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+5 
+
+=== 第 6 页 ===
+expansion of the sulfur cathode during cycling, thereby helping to 
+maintain a stable electrode-electrolyte interface and achieving excellent 
+long-term cycling performance. Furthermore, the thermal dimensional 
+stability of the CSEs was investigated by heating them at various tem­
+peratures for 60 min. As shown in Fig. 2f, the PPHTH-4 CSE maintains its 
+shape integrity well with increasing temperature, while other CSEs un­
+dergo noticeable deformation. These results collectively indicate that 
+the PPHTH-4 CSE exhibits superior overall performance compared to the 
+other formulations.
+To evaluate the impact of the crosslinked filler structure on elec­
+trochemical performance, stainless steel (SS) symmetric cells using PEO, 
+PPH-30, PPHT-5, and PPHTH-4 CSEs were assembled and characterized. 
+EIS was conducted at various temperatures to assess their ionic transport 
+properties. The impedance behavior of other CSEs was also examined 
+(Figs. S5-S7). Among the PPH series with varying LiTFSI content (15–40 
+wt%), PPH-40 exhibited the lowest resistance but poor mechanical 
+integrity, thus, PPH-30 was selected for further modification. Its re­
+sistances were 814, 282, 74, and 18 Ω at 30–60 ◦C, yielding an ionic 
+conductivity of resistances 3.3 × 10−4 S cm−1 at 60 ◦C. PPHT-5 showed 
+optimal performance within its series, with resistances of 148, 67, 28, 
+and 12 Ω and a conductivity of 5 × 10−4 S cm−1 at 60 ◦C. In contrast, 
+pure PEO exhibited significantly higher resistance (5764, 2619, 509, 
+and 137 Ω) and lower conductivity (8.4 × 10−5 S cm−1 at 60 ◦C) in 
+Fig. S8a. As shown in Fig. 3a, the resistances of the PPHTH-4 CSE de­
+creases progressively as the temperature increases from 30 ◦C to 60 ◦C, 
+with measured resistances of 38, 20, 12, and 6 Ω at 30, 40, 50, and 60 ◦C, 
+respectively. Correspondingly, the ionic conductivity rises from re­
+sistances 1.6 × 10−4 S cm−1 at 30 ◦C to 8.9 × 10−4 S cm−1 at 60 ◦C. This 
+enhancement is attributed to the thermal activation of Li+ mobility, 
+where elevated temperatures weaken the coordination between Li+ and 
+PEO chains as well as the Li+-TFSI−
+interaction [30]. The ionic con­
+ductivity of electrolyte membranes with different components at various 
+temperatures was calculated using the ionic conductivity formula 
+(Table S2). The results indicate that the incorporation of PVDF-HFP, 
+TiO2, and HEPBA progressively enhances ionic conductivity. PPHTH-4 
+consistently displayed the lowest impedance and highest conductivity 
+at each temperature, attributable to its inhibited crystallinity and 
+crosslinked structure. Moreover, Arrhenius plots of ion conductivity for 
+Fig. 3. (a) Impedance diagrams of PPHTH-4 at different temperatures. (b) Arrhenius plots of the ionic conductivities of PEO, PPH-30, PPHT-5 and PPHTH-4. (c) 
+Polarization curve and impedance spectrum of PPHTH-4. (d) LSV curves of PEO, PPH-30, PPHT-5 and PPHTH-4. (e) CCD of PEO, PPH-30, PPHT-5 and PPHTH-4. (f) 
+Rate capability of Li symmetric cells using PEO, PPH-30, PPHT-5 and PPHTH-4. (g) Cycling performance of Li symmetric cells using PEO PPH-30, PPHT-5 and 
+PPHTH-4 at 0.2 mA cm−2.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+6 
+
+=== 第 7 页 ===
+electrolyte membranes with different components are shown in Fig. 3b 
+and Fig. S9. Fig. 3b presents the Arrhenius plot of ionic conductivity (σ), 
+and the activation energy (Ea) of Li+ migration is calculated using the 
+Arrhenius equation. PPHTH-4 CSE exhibits the lowest Ea (0.21 eV) of 
+Li+ migration, which enables faster Li+ transport, indicating the lower 
+crystallinity in PPHTH-4. Moreover, the Li+ transference number (tLi
++) 
+was evaluated via Bruce-Vincent-Evans (BVE) equation. PPHTH-4 
+showed the highest tLi
++ of 0.55 (with Is = 116.2 μA, Io = 179.2 μA, Ro 
+= 37.15 Ω, Rs = 52.35 Ω, Fig. 3c), compared to 0.28, 0.32, and 0.47 for 
+PEO, PPH-30, and PPHT-5, respectively (Fig. S8b, and Figs. S10-S12). 
+This improvement is ascribed to the synergistic effect of PVDF-HFP and 
+the fillers (TiO2 and HEPBA), which restrict TFSI−
+anion mobility 
+[45,50]. Additionally, LSV revealed that PPHTH-4 possesses the highest 
+electrochemical stability, with an onset potential of 5.2 V, surpassing 
+those of PEO (4.7 V), PPH-30 (5.0 V), and PPHT-5 (5.1 V) (Fig. 3d). This 
+enhanced stability further verified the beneficial interactions among the 
+polymer matrix and fillers.
+To evaluate the interface stability and compatibility of CSE with Li 
+metal anode, Li symmetric cells using PEO, PPH-30, PPHT-5, and 
+PPHTH-4 CSEs were constructed for Li deposition and stripping tests. 
+PPHTH-4 achieved a critical current density (CCD) of 0.60 mA cm−2, 
+outperforming PEO (0.24 mA cm−2), PPH-30 (0.28 mA cm−2), and 
+PPHT-5 (0.36 mA cm−2) (Fig. 3e). During stepwise current increase 
+(0.02–0.20 mA cm−2), PPHTH-4 maintained stable polarization without 
+short-circuiting and exhibited lower overpotentials compared to the 
+other CSEs (Fig. 3f). This behavior indicates enhanced electrochemical 
+kinetics and a high Li+ transference number, which can be attributed to 
+the high ionic conductivity of the PPHTH-4 CSE [51–53]. Long-term 
+cycling at 0.20 mA cm−2 further confirmed the superior interfacial 
+stability of PPHTH-4. PPHTH-4 achieves stable cycling for more than 
+1900 h with a low overpotential of ~0.078 V. In contrast, PEO, PPH-30, 
+and PPHT-5 cells quickly decayed after 78 h, 204 h and 864 h, respec­
+tively (Fig. 3g). This result demonstrates that the incorporation of 
+HEPBA in PPHTH-4 introduces porous frameworks and abundant metal 
+active sites that effectively anchor anions and elevate the Li+ trans­
+ference number. This fundamentally homogenizes Li+ deposition and 
+suppresses interfacial side reactions [54]. SEM images of cycled anodes 
+further confirm this mechanism. As shown in Fig. S13, the lithium sur­
+face in the PPHTH-4 cell remains relatively smooth and dense, whereas 
+the cell using pure PEO exhibits a porous and dendritic morphology. 
+These morphological observations provide direct visual evidence that 
+the HEPBA-enabled anion confinement is critical for stabilizing the 
+lithium metal interface. In summary, the PPHTH-4 CSE demonstrates 
+optimized ionic conductivity, Li+ transference number, electrochemical 
+stability, and interfacial compatibility, affirming the positive effect of its 
+crosslinked filler-modified structure on overall electrolyte performance. 
+In order to investigate the stability of Li//PPHTH-4//Li at different 
+temperatures, cycling charge-discharge tests were conducted at various 
+temperatures [55,56]. The results indicating stable operation within the 
+range of 50–65 ◦C, with no significant polarization (Fig. S14).
+Fig. 4. (a) First cycle CV curve and (b) First cycle charge-discharge curve of Li//PEO//S, Li//PPH-30//S, Li//PPHT-5//S and Li//PPHTH-4//S cells. (c) Rate 
+capability of Li//PEO//S, Li//PPH-30//S, Li//PPHT-5//S and Li//PPHTH-4//S cells. (d) Charge-discharge curves of Li//PPHTH-4//S cell at different rates. (e) 
+Charge-discharge curves of Li //PPHTH-4//S cell. (f) Nyquist plots of Li//PEO//S, Li//PPH-30//S, Li//PPHT-5//S and Li//PPHTH-4//S after 20 cycles at 0.2C. (g) 
+Long-term cyclic performance of the Li//PEO//S, Li//PPH-30//S, Li//PPHT-5//S and Li//PPHTH-4//S cells at 0.2C and 60 ◦C.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+7 
+
+=== 第 8 页 ===
+To verify the improved electrochemical performance of PPHTH-4 
+CSEs, these samples were used in the lithium‑sulfur cells and tested at 
+60 ◦C. Cyclic voltammetry (CV) measurements were conducted at a scan 
+rate of 0.1 mV s−1 to investigate the redox behavior of the solid elec­
+trolytes. As shown in Fig. 4a, all CSEs display one oxidation peak and 
+two reduction peaks. The PPHTH-4-based cell exhibits the lowest 
+oxidation peak potential (2.54 V) and the highest reduction peak po­
+tential (1.90 V), resulting in the smallest redox potential gap (0.64 V), 
+significantly lower than those of PEO (0.78 V), PPH-30 (0.74 V), and 
+PPHT-5 (0.74 V). This reduced polarization indicates enhanced kinetics 
+of the sulfur redox reactions and improved conversion efficiency of LiPSs 
+during cycling [57–59]. First-cycle galvanostatic charge-discharge pro­
+files further confirmed these advantages as shown in Fig. 4b. The 
+PPHTH-4 cell exhibited a lower charge plateau and a higher discharge 
+plateau compared to the other CSEs, along with the smallest polarization 
+voltage (225 mV) and the highest initial discharge capacity (901 mAh 
+g−1). These features suggest effective suppression of the polysulfide 
+shuttle effect and improved active material utilization, attributable to 
+the incorporation of HEPBA filler, which enhances redox kinetics and 
+promotes LiPSs conversion.
+Rate capability tests were further subjected to evaluate the electro­
+chemical performance of the composite electrolyte membranes 
+composed of various components in lithium‑sulfur batteries. The 
+PPHTH-4 cell exhibited superior performance, delivering reversible 
+capacities of 1037, 907, 795, 655, and 411 mAh g−1 at current rates of 
+0.1C to 2C, respectively (Fig. 4c). When the current rate was returned to 
+0.1C, a high reversible capacity of 917 mAh g−1 was restored, indicating 
+excellent rate recoverability. In contrast, cells with PEO, PPH-30, and 
+PPHT-5 exhibited fading or disappearing charge-discharge plateaus at 
+elevated rates (Fig. S15), whereas PPHTH-4 maintained distinct plateaus 
+even at 2C (Fig. 4d). The Li//PPHTH-4//S cell exhibited exceptional 
+long-term cycling stability, delivering discharge capacities of 901, 865, 
+799, and 732 mAh g−1 at the 1 st, 10 th, 50 th, and 100 th cycles, 
+respectively, while maintaining a well-defined and stable discharge 
+plateau even after 100 cycles (Fig. 4e). In contrast, cells employing other 
+CSEs suffered pronounced capacity fading and progressive degradation 
+of the discharge plateau (Fig. S16). EIS was performed on the four types 
+of cells before and after 20 cycles to evaluate interfacial evolution. The 
+charge transfer resistances of Li//PEO//S, Li//PPH-30//S, Li//PPHT- 
+5//S, and Li//PPHTH-4//S cells before cycling were 208, 134, 98, and 
+90 Ω, respectively (Fig. S17). After cycling, these values decreased to 
+173, 107, 81, and 77 Ω, respectively (Fig. 4f). The PPHTH-4 cell 
+exhibited the lowest interfacial resistance both before and after cycling. 
+The general reduction in impedance is attributed to the formation of a 
+stable SEI/CEI layer at the electrode-electrolyte interface, which im­
+proves interfacial ion transport [29]. Long-term cycling performance 
+further confirmed the superiority of the PPHTH-4 CSE. As shown in 
+Fig. 4g, the Li//PPHTH-4//S cell achieves an initial discharge capacity 
+of 918 mAh g−1, outperforming the Li//PEO//S (687 mAh g−1), Li// 
+PPH-30//S (805 mAh g−1), and Li//PPHT-5//S (851 mAh g−1) cells. 
+After 500 cycles at 0.2C, the capacity decay of PPHTH-4 cell is only 
+0.0671% per cycle, lower than PEO (0.19%) and PPH-30 (0.14%), and 
+the Li//PEO//S cell failed after only 170 cycles. These results collec­
+tively confirm that the PPHTH-4 CSE significantly enhances electro­
+chemical performance through improved reaction kinetics, effective 
+LiPSs trapping, and stable interfacial properties. To evaluate the prac­
+tical viability, cells with elevated sulfur loadings (1.5 and 2.0 mg cm−2) 
+were assembled and tested at 0.2C and 60 ◦C (Fig. S18). The cell with a 
+1.5 mg cm−2 loading maintained a capacity of >412 mAh g−1 after 100 
+cycles (CE > 98%), retaining ~58% of its initial capacity (~710 mAh 
+g−1). Even at a high loading of 2.0 mg cm−2, the cell delivered an initial 
+capacity of ~670 mAh g−1 and retained >362 mAh g−1 without sig­
+nificant degradation. These results confirm that the synergistic effect of 
+TiO2 and HEPBA enables effective polysulfide confinement and stable 
+interfacial contact even under severe volume fluctuation and heavy LiPS 
+accumulation, revealing the broad applicability of the composite 
+electrolyte beyond low sulfur loading. Furthermore, the superiority of 
+the optimized PPHTH-4 formulation is further corroborated in Table S3, 
+which illustrates that PPHTH-4 delivers the most balanced and superior 
+overall performance among all compositions.
+To investigate the inhibitory effect of the CSEs on the polysulfide 
+shuttle effect, XPS analysis was performed on the lithium anodes of 
+lithium‑sulfur batteries after cycling [20]. As shown in Fig. 5a and b, the 
+S 2p XPS spectra of the Li anodes in Li//PEO//S and Li//PPHTH-4//S 
+cells after five cycles can be deconvoluted into two main regions: 
+peaks at higher binding energies are attributed to LixSOy and TFSI−
+species, while those at lower binding energies correspond to LiPSs 
+[21,30]. Specifically, peaks at 164.1 eV and 162.4 eV are correspond to 
+Li2Sx, while peaks at 165.9 eV and 167.1 eV ascribed to LixSOy. Peaks 
+observed at 168.2 eV and 169.6 eV originate from TFSI−anions [60,61]. 
+Notably, the intensity of LiPSs-related signals on the Li anode surface in 
+the PEO-based cell is significantly higher than that of the PPHTH-4 CSE- 
+based cell, indicating more severe polysulfide shuttling in PEO-based 
+cell. To further investigate the reaction kinetics, galvanostatic inter­
+mittent titration technique (GITT) measurements were performed on the 
+Li//PPHTH-4//S cell (Fig. 5c and Fig. S19). GITT measurement was 
+conducted to quantitatively evaluate the dynamic redox kinetics of 
+lithium polysulfides for all four electrolyte-based lithium‑sulfur batte­
+ries. The quasi-equilibrium charge and discharge potentials extracted 
+from GITT profiles are fixed at 2.24 V and 2.16 V for every sample, since 
+these two plateaus correspond to the inherent thermodynamic equilib­
+rium potentials of sulfur species reduction/oxidation and will not 
+change with different electrolyte fillers. In contrast, the practical dy­
+namic polarization overpotential (ΔVp), defined as the voltage gap be­
+tween quasi-equilibrium plateau and transient working voltage during 
+galvanostatic pulse, varies remarkably across samples. The PPHTH-4 
+cell possesses the smallest (ΔVp) of 170 mV, which is lower than PEO 
+(300 mV), PPH-30 (200 mV) and PPHT-5 (180 mV). This striking 
+reduction of polarization overpotential verifies that the HEPBA filler 
+introduces abundant surface catalytic active sites to facilitate fast con­
+version of soluble lithium polysulfide intermediates. Moreover, internal 
+resistance during charge/discharge was calculated for all cells (Fig. 5d). 
+The Li//PPHTH-4//S cell demonstrated the lowest resistance, particu­
+larly during Li2S activation and nucleation, indicating a reduced energy 
+barrier for polysulfide conversion and accelerated redox kinetics. 
+Variable-scan-rate CV measurements were performed to prove active 
+catalysis of HEPBA (Fig. S20). For the PPHTH-4 cell, the b-values for 
+Peak C1 (2.4 V) and Peak C2 (1.9 V) were determined to be 0.639 and 
+0.618, respectively. Situated between the theoretical limits of diffusion 
+control (0.5) and surface control (1.0), these values indicate that HEPBA 
+shifts the LiPS redox kinetics toward a mixed diffusion-catalysis regime 
+[62,63]. For the PPHT-5 electrolyte filled with TiO2, the b-values drop to 
+0.517 (Peak C1) and 0.501 (Peak C2), close to 0.5, which corresponds to 
+pure diffusion-controlled kinetics without obvious surface catalytic ef­
+fects. The CV results dynamically prove that the TiO2 primarily opti­
+mizes ionic conductivity and mechanical properties, offering only 
+moderate LiPS anchoring, while multi-metal centers in HEPBA enable 
+simultaneous immobilization and electrocatalytic conversion. To pro­
+vide a more intuitive proof of the inhibitory effect of the CSEs on the 
+shuttle effect, LiPSs permeation tests were implemented using H-type 
+electrolytic cells. The left chamber was filled with 12 mL of 0.03 M Li2S6 
+solution, and the right chamber contained an equal volume of DOL/DME 
+(v/v = 1:1). As shown in Fig. 5e, the right-chamber solution turned light 
+yellow within 1 h and dark yellow after 12 h when PEO or PPH-30 CSE 
+was used as the separator. The cell using PPHT-5 CSE as the separator 
+showed only slight yellow discoloration after 3 h and turned light yellow 
+after 12 h. In contrast, the solution separated by PPHTH-4 CSE remained 
+virtually colorless even after 12 h, demonstrating effective suppression 
+of LiPSs shuttle effect. These visual observations were verified by 
+UV–Vis spectroscopy, which showed significantly lower absorption in­
+tensity in the 260–340 nm range for the PPHTH-4 group (Fig. 5f), con­
+firming minimal polysulfide diffusion.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+8 
+
+=== 第 9 页 ===
+Density functional theory (DFT) calculations were employed to 
+further elucidate the adsorption behavior of LiPSs on different filler 
+materials. The adsorption configurations of Li2S2, Li2S4, Li2S6, and Li2S8 
+on PEO, PVDF-HFP, TiO2, and HEPBA are illustrated in Fig. 5g and 
+Fig. S21. The corresponding adsorption energies are compared in 
+Fig. 5h. HEPBA and TiO2 exhibited strong adsorption toward LiPSs, 
+showing high adsorption energies for Li2S2, Li2S4, Li2S6, and Li2S8, with 
+values of −3.86 eV and −
+3.67 eV for Li2S6, respectively. Higher 
+adsorption energy means that Li2S6 molecules are more likely to be fixed 
+on the cathode side, thereby inhibiting the polysulfide shuttling [22]. In 
+contrast, PEO and PVDF-HFP show lower adsorption energies for Li2S2, 
+Li2S4, Li2S6, and Li2S8, making it difficult to adsorb lithium polysulfides, 
+allowing polysulfide migration and exhibiting a significant shuttle ef­
+fect. These results confirm that the TiO2 and HEPBA fillers in PPHTH-4 
+CSE effectively anchor soluble polysulfides, thereby inhibiting their 
+shuttling and enhancing battery performance.
+4. Conclusion
+In this work, a high-performance CSE (PPHTH-4) was successfully 
+Fig. 5. XPS S 2p spectra of lithium anode obtained from (a) Li//PEO//S and (b) Li//PPHTH-4//S cells after five cycles. (c) GITT charge-discharge curves of Li// 
+PPHTH-4//S cell. (d) Internal resistances relative to the normalized discharge-charge time. (e) Permeation experiments with an H type of permeation device for 
+PEO, PPH-30, PPHT-5 and PPHTH-4. (f) UV–vis absorption spectra of the LiPSs solution after 12 h of permeation tests of PEO, PPH-30, PPHT-5, and PPHTH-4. (g) The 
+adsorption configuration of Li2S6 on PEO, PVDF-HFP, TiO2 and HEPBA. (h) Adsorption energies of lithium polysulfide (Li2S2, Li2S4, Li2S6 and Li2S8) with PEO, PVDF- 
+HFP, TiO2 and HEPBA.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+9 
+
+=== 第 10 页 ===
+fabricated via a simple solution-casting method for application in all- 
+solid-state lithium‑sulfur batteries. By incorporating TiO2 and HEPBA 
+fillers into a PEO/PVDF-HFP matrix, the PPHTH-4 CSE exhibits a syn­
+ergistic combination of high ionic conductivity, enhanced mechanical 
+strength, and effective suppression of the shuttle effect of LiPSs. The 
+TiO2 filler mainly contributes to improved ionic conductivity, mechan­
+ical properties, and moderate chemical adsorption toward LiPSs. 
+Whereas the HEPBA filler plays a critical role in inhibiting LiPSs shut­
+tling through strong adsorption and catalytic conversion. Consequently, 
+the Li//PPHTH-4//Li achieves stable cycling for over 1900 h at 0.20 mA 
+cm−2, when deployed in a solid-state lithium‑sulfur battery, the PPHTH- 
+4 electrolyte enables an initial discharge capacity of 918 mAh g−1 and 
+delivers a superior cycle stability over 500 cycles at 0.2C with a capacity 
+decay of only 0.0671% per cycle. This dual-functional filler strategy 
+offers a promising and effective approach for developing durable, high- 
+performance all-solid-state lithium‑sulfur batteries.
+CRediT authorship contribution statement
+Hengtong Han: Writing – original draft, Investigation, Formal 
+analysis. Jia Song: Writing – review & editing. Cong Wang: Software. 
+Yawen Li: Methodology, Investigation. Xueying Zhou: Formal analysis, 
+Data curation. Ying Li: Visualization, Methodology. Jing Liu: Valida­
+tion. Weimeng Si: Resources. Qiaoling Li: Software, Resources. Feng 
+Wang: Validation, Resources. Qiuhong Li: Writing – review & editing, 
+Funding acquisition. Dong Wang: Resources. Guangwu Wen: Re­
+sources. Jun Cao: Writing – review & editing, Project administration, 
+Funding acquisition, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper.
+Acknowledgements
+This work was financially supported by the Natural Science Foun­
+dation of Shandong Province (No. ZR2023MB054), Key R&D Plan of 
+Guangxi Province (GuikeAB23026145). The authors would also like to 
+acknowledge material characterizations from the Analytical & Testing 
+Center of Shandong University of Technology.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.est.2026.123829.
+Data availability
+Data will be made available on request.
+References
+[1] X. Yu, J. Deng, R. Lv, et al., A compact 3D interconnected sulfur cathode for high- 
+energy, high-power and long-life lithium-sulfur batteries, Energy Storage Mater. 20 
+(2019) 14–23.
+[2] L. Huang, J. Li, B. Liu, et al., Electrode design for lithium-sulfur batteries: problems 
+and solutions, Adv. Funct. Mater. 30 (22) (2020) 1910375.
+[3] Y. Li, D. Lei, T. Jiang, et al., P-doped Co9S8 nanoparticles embedded on 3D spongy 
+carbon-sheets as electrochemical catalyst for lithium-sulfur batteries, Chem. Eng. J. 
+426 (2021) 131798.
+[4] Y. Jiang, Y. Li, F. Dong, et al., Hollow mesoporous SiO2 submicro-spheres enabling 
+PEO-based electrolytes with superior electrochemical performance for Li metal 
+batteries, J. Energy Storage 88 (2024) 111558.
+[5] S. D¨orfler, H. Althues, P. H¨artel, et al., Challenges and key parameters of lithium- 
+sulfur batteries on pouch cell level, Joule 4 (3) (2020) 539–554.
+[6] C. Choi, D.Y. Lee, J.B. Park, et al., Separators modified using MoO2@carbon 
+nanotube nanocomposites as dual-mode Li-polysulfide anchoring materials for 
+high-performance anti-self-discharge lithium-sulfur batteries, ACS Sustain. Chem. 
+Eng. 8 (40) (2020) 15134–15148.
+[7] X.B. Cheng, R. Zhang, C.Z. Zhao, et al., Toward safe lithium metal anode in 
+rechargeable batteries: a review, Chem. Rev. 117 (15) (2017) 10403–10473.
+[8] H. Wang, X. Cao, W. Liu, et al., Research progress of the solid state lithium-sulfur 
+batteries, Front. Energy Res. 7 (2019) 00112.
+[9] S. Li, L. Li, H. Yang, et al., A review of composite polymer electrolytes for solid- 
+state lithium-sulfur batteries: synthesis methods, optimal design, and critical 
+challenges, Chem. Eng. J. 484 (2024) 149433.
+[10] K. Miao, F. Chen, C. Ma, et al., Progresses and outlooks of all-solid-state lithium- 
+sulfur batteries for practical development, Chem. Eng. J. 512 (2025) 162173.
+[11] H. Song, K. Münch, X. Liu, et al., All-solid-state Li-S batteries with fast solid-solid 
+sulfur reaction, Nature 637 (8047) (2025) 846–853.
+[12] Z. Zhang, X. Wang, X. Li, et al., Review on composite solid electrolytes for solid- 
+state lithium-ion batteries, Mater. Today Sustain. 21 (2023) 100316.
+[13] L. Zhao, M. Hou, D. Zhang, et al., Poly(ethylene oxide)-based solid polymer 
+electrolytes for solid-state sodium ion batteries, Prog. Chem. 35 (11) (2023) 
+1625–1637.
+[14] H.M. Wang, M.d. Geng, J. Bai, et al., Comb-like poly(β-amino ester)-integrated 
+PEO-based self-healing solid electrolytes for fast ion conduction in lithium-sulfur 
+batteries, Mater. Horiz. 12 (1) (2025) 141–149.
+[15] P. Zhu, C. Yan, M. Dirican, et al., Li0.33La0.557TiO3 ceramic nanofiber-enhanced 
+polyethylene oxide-based composite polymer electrolytes for all-solid-state lithium 
+batteries, J. Mater. Chem. A 6 (10) (2018) 4279–4285.
+[16] Z. Fan, B. Ding, T. Zhang, et al., Solid/solid interfacial architecturing of solid 
+polymer electrolyte-based all-solid-state lithium-sulfur batteries by atomic layer 
+deposition, Small 15 (46) (2019).
+[17] M. Wang, X. Hu, H. Su, et al., Modulating ionic conduction and accelerating sulfur 
+conversion kinetics through oxygen vacancy engineering for high-performance 
+solid-state lithium-sulfur batteries, Adv. Funct. Mater. 34 (44) (2024) 2407549.
+[18] H. Duan, J. Liu, J. He, et al., High-modulus solid electrolyte interphase layer with 
+gradient composition enables long-cycle all-solid-state lithium-sulfur batteries, 
+J. Energy Chem. 98 (2024) 87–95.
+[19] Z. Hu, C. Geng, J. Shi, et al., In situ welding ionic conductive breakpoints for highly 
+reversible all-solid-state lithium-sulfur batteries, J. Am. Chem. Soc. 146 (49) 
+(2024) 34023–34032.
+[20] X.L. Zhang, H.Y. Zhang, Y.a. Geng, et al., A multifunctional nano filler for solid 
+polymer electrolyte toward stable cycling for lithium-metal anodes in lithium- 
+sulfur batteries, Chem. Eng. J. 444 (2022) 136328.
+[21] Y. Ji, K. Yang, M. Liu, et al., PIM-1 as a multifunctional framework to enable high- 
+performance solid-state lithium-sulfur batteries, Adv. Funct. Mater. 31 (47) (2021) 
+2104830.
+[22] J. Sheng, Q. Zhang, C. Sun, et al., Crosslinked nanofiber-reinforced solid-state 
+electrolytes with polysulfide fixation effect towards high safety flexible lithium- 
+sulfur batteries, Adv. Funct. Mater. 32 (40) (2022) 2203272.
+[23] Y. Hu, T. Wang, C. Cheng, et al., Skeleton of PVDF-HFP/PEO for high-performance 
+lithium-sulfur battery cathode, J. Energy Storage 100 (2024) 113631.
+[24] Y. Sun, X. Zhang, C. Ma, et al., Fluorine-containing triblock copolymers as solid- 
+state polymer electrolytes for lithium metal batteries, J. Power Sources 516 (2021) 
+230686.
+[25] F. Lee, M.C. Tsai, M.H. Lin, et al., Capacity retention of lithium sulfur batteries 
+enhanced with nano-sized TiO2-embedded polyethylene oxide, J. Mater. Chem. A 5 
+(14) (2017) 6708–6715.
+[26] J. Li, H. Zhang, Y. Cui, et al., Constructing robust cathode/Li interfaces and 
+intensifying ion transport kinetics for PEO-based solid-state lithium-sulfur 
+batteries, Chem. Eng. J. 454 (2023) 140385.
+[27] B.A. Tappan, K. Geng, D. Vivona, et al., Investigation of charge transfer kinetics in 
+multilayer PEO/LLZO solid-state batteries, ACS Appl. Mater. Interfaces 17 (12) 
+(2025) 18255–18267.
+[28] N. Zhang, S.H. Tian, X.Q. Chen, et al., Enhancing carrier dynamics through 
+ordered-MOF-based solid electrolyte to construct high-energy Li-S batteries, Chem. 
+Eng. J. 524 (2025) 169591.
+[29] Z.R. Ao, Y.l. Zou, H.Y. Li, et al., Introduction of UV-cured interpenetrating polymer 
+network in PEO-based all-solid-state Li-S battery, Sustain. Mater. Technol. 38 
+(2023) e00712.
+[30] X. Liu, D. Wang, X. Wang, et al., Designing compatible ceramic/polymer composite 
+solid-state electrolyte for stable silicon nanosheet anodes, Small 20 (25) (2024) 
+2309724.
+[31] M. Du, P. Geng, C. Pei, et al., High-entropy prussian blue analogues and their oxide 
+family as sulfur hosts for lithium-sulfur batteries, Angew. Chem. Int. Ed. 61 (41) 
+(2022) e2209350.
+[32] L. Han, J. Wang, X. Mu, et al., Controllable magnetic field aligned sepiolite 
+nanowires for high ionic conductivity and high safety PEO solid polymer 
+electrolytes, J. Colloid Interface Sci. 585 (2021) 596–604.
+[33] T. Subhani, S. Khademolqorani, S.N. Banitaba, et al., Advancements in battery 
+materials: bio-based and mineral fillers for next-generation solid polymer 
+electrolytes, ACS Appl. Mater. Interfaces 16 (46) (2024) 63089–63108.
+[34] I. Puci´c, T. Jurkin, FTIR assessment of poly(ethylene oxide) irradiated in solid 
+state, melt and aqeuous solution, Radiat. Phys. Chem. 81 (9) (2012) 1426–1429.
+[35] S. Su, Y. Shi, J. Zhang, et al., Structural reconfiguration of PEO frameworks via 
+β-cyclodextrin as solid polymer electrolyte for superior all-solid-state lithium-sulfur 
+batteries, J. Power Sources 631 (2025) 236205.
+[36] R. Fang, B. Xu, N.S. Grundish, et al., Li2S6-integrated PEO-based polymer 
+electrolytes for all-solid-state lithium-metal batteries, Angew. Chem. Int. Ed. 60 
+(32) (2021) 17701–17706.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+10 
+
+=== 第 11 页 ===
+[37] Y. Liang, F.A.C. Apfelbeck, K. Sun, et al., Unveiling the Li/electrolyte interface 
+behavior for dendrite-free all-solid-state lithium metal batteries by operando nano- 
+focus WAXS, Adv. Sci. 12 (12) (2025) 2414714.
+[38] R. Li, H. Hua, X. Yang, et al., The deconstruction of a polymeric solvation cage: a 
+critical promotion strategy for PEO-based all-solid polymer electrolytes, Energy 
+Environ. Sci. 17 (15) (2024) 5601–5612.
+[39] G. Zhou, Y. Ma, B. Wei, et al., Sustainable self-powered PVDF fibrous filter medias 
+based on triboelectric nanogenerator with efficient dust collection for personal 
+occupational protection, J. Colloid Interface Sci. 696 (2025) 137871.
+[40] H.B. Nguyen, L. Ding, B. Pohle, et al., Ternary PEO/PVDF-HFP-based polymer 
+electrolytes for Li-ion batteries, Batteries 11 (2) (2025) 45.
+[41] P.V. Zanotto, E.G. Fernandes, V.L. Martins, Study of solvent effect on PVDF-HFP gel 
+polymer electrolyte containing ionic liquid Pyr1,4TFSI for lithium batteries 
+application, Macromol. Rapid Commun. 47 (5) (2026) e00767.
+[42] Z. Yao, F. Qi, L. Ye, et al., Composite polymer electrolyte based on poly(vinylidene 
+fluoride-hexafluoropropylene) (PVDF-HFP) for solid-state batteries, Heliyon 10 (6) 
+(2024).
+[43] I. Rey, P. Johansson, J. Lindgren, et al., Spectroscopic and theoretical study of 
+(CF3SO2)2N−
+(TFSI−) and (CF3SO2)2NH (HTFSI), J. Phys. Chem. A 102 (19) 
+(1998) 3249–3258.
+[44] S.A.M. Noor, A. Ahmad, I.A. Talib, et al., Morphology, chemical interaction, and 
+conductivity of a PEO-ENR50 based on solid polymer electrolyte, Ionics 16 (2) 
+(2010) 161–170.
+[45] Z. Shen, Y. Cheng, S. Sun, et al., The critical role of inorganic nanofillers in solid 
+polymer composite electrolyte for Li+ transportation, Carbon Energy 3 (3) (2021) 
+482–508.
+[46] J. Xi, X. Tang, Novel composite polymer electrolyte comprising poly(ethylene 
+oxide) and triblock copolymer/mesostructured silica hybrid used for lithium 
+polymer battery, Electrochim. Acta 50 (27) (2005) 5293–5304.
+[47] Z. Tang, J. Wang, Q. Chen, et al., A novel PEO-based composite polymer electrolyte 
+with absorptive glass mat for Li-ion batteries, Electrochim. Acta 52 (24) (2007) 
+6638–6643.
+[48] R.r. Chang, Y.k. Liu, Y.g. Zhang, et al., Weakening lithium-ion coordination in poly 
+(ethylene oxide)-based solid polymer electrolytes for high performance solid-state 
+batteries, Adv. Energy Mater. 15 (26) (2025).
+[49] L. Zou, K. Shi, H. Liu, et al., Polybenzimidazole-reinforced polyethylene oxide- 
+based polymer-in-salt electrolytes enabling excellent structural stability and 
+superior electrochemical performance for lithium metal batteries, Chem. Eng. J. 
+465 (2023).
+[50] K. Sun, C. Wang, Y. Dong, et al., Ion-selective covalent organic framework 
+membranes as a catalytic polysulfide trap to arrest the redox shuttle effect in 
+lithium-sulfur batteries, ACS Appl. Mater. Interfaces 14 (3) (2022) 4079–4090.
+[51] K. Wu, A. Li, J. Tan, et al., SnF2-catalyzed lithiophilic-lithiophobic gradient 
+interface for high-rate PEO-based all-solid-state batteries, Angew. Chem. Int. Ed. 63 
+(44) (2024) e202410347.
+[52] C. He, H. Ying, L. Cai, et al., Tailoring stable PEO-based electrolyte/electrodes 
+interfaces via molecular coordination regulating enables 4.5 V solid-state lithium 
+metal batteries, Adv. Funct. Mater. 34 (51) (2024) 2410350.
+[53] Z. Zhang, L.c. Cai, P.f. Huang, et al., Effect of organic functional groups on poly 
+(ethylene oxide) electrolytes for high-performance solid-state lithium-metal 
+batteries, ACS Appl. Eng. Mater. 1 (8) (2023) 2163–2173.
+[54] N. Shen, T. Li, B. Li, et al., Dual-functional mediators of high-entropy Prussian blue 
+analogues for lithiophilicity and sulfiphilicity in Li-S batteries, Nanoscale 16 (15) 
+(2024) 7634–7644.
+[55] D. Zhou, Y. Wang, Y. Li, et al., N-type small molecule electrolyte cathode interface 
+layer with thickness insensitivity for organic solar cells, Nano Energy 128 (2024) 
+109890.
+[56] S. Lan, D. Zhou, L. Hu, et al., Subtly modulating bay sites of perylene diimide 
+cathode interface layer for high-performance and high-stability non-fullerene 
+organic solar cells, Adv. Funct. Mater. 35 (19) (2025) 2419205.
+[57] J. Ao, Y. Xie, Y. Lai, et al., CoSe2 nanoparticles-decorated carbon nanofibers as a 
+hierarchical self-supported sulfur host for high-energy lithium-sulfur batteries, Sci. 
+China-Mater. 66 (8) (2023) 3075–3083.
+[58] L. Wang, X. Meng, X. Wang, et al., Dual-conductive CoSe2@TiSe2-C 
+heterostructures promoting overall sulfur redox kinetics under high sulfur loading 
+and lean electrolyte, Small 19 (21) (2023) 2300089.
+[59] K. Wen, L. Huang, L. Qu, et al., g-C3N4/MoO3 composite with optimized crystal 
+face: a synergistic adsorption-catalysis for boosting cathode performance of 
+lithium-sulfur batteries, J. Colloid Interface Sci. 649 (2023) 890–899.
+[60] H. Duan, L. Li, K. Zou, et al., Cyclodextrin-integrated PEO-based composite solid 
+electrolytes for high-rate and ultrastable all-solid-state lithium batteries, ACS Appl. 
+Mater. Interfaces 13 (48) (2021) 57380–57391.
+[61] H. Duan, L. Li, X. Fu, et al., A functional additive to in-situ construct stable cathode 
+and anode interfaces for all-solid-state lithium-sulfur batteries, Chem. Eng. J. 450 
+(2022) 138208.
+[62] J. Ji, M. Park, M. Kim, et al., Accelerated conversion of polysulfides for ultra long- 
+cycle of Li-S battery at high-rate over cooperative cathode electrocatalyst of 
+Ni0.261Co0.739S2/N-doped CNTs, Adv. Sci. 11 (32) (2024) 2402389.
+[63] W.J. Lee, P. Mehra, J.R. Thurston, et al., Robust fast-switching black 
+electrochromic windows based on solution-processed n-doped transparent organic 
+conductor, Nat. Commun. 17 (1) (2025) 575.
+H. Han et al.                                                                                                                                                                                                                                     
+Journal of Energy Storage 178 (2026) 123829 
+11 

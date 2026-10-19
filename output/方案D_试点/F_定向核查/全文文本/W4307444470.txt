@@ -1,0 +1,1058 @@
+=== 第 1 页 ===
+Tailored Li7P3S11 Electrolyte by In2S3 Doping Suppresses
+Electrochemical Decomposition for High-Performance All-Solid-
+State Lithium−Sulfur Batteries
+Peiwen Yu, Niaz Ahmad, Chaoyuan Zeng,* Lu Lv, Qinxi Dong, and Wen Yang*
+Cite This: ACS Appl. Energy Mater. 2022, 5, 13429−13438
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: The retentive functional intimate contact at the
+solid electrolyte/cathode interface and among the cathode
+components, for example, solid electrolyte, a conductive additive,
+and active material (S/Li2S), is essential for high-performance
+solid-state lithium−sulfur batteries. Currently, thiophosphate-based
+electrolytes are plagued by failure at the interfaces due to the
+intrinsically narrow electrochemical stability window, which in
+principle, derive uneven irreversible redox reactions at the triple
+point of contact, which result in sulfur- and phosphorus-enriched
+interphases (e.g., Li3P, P2SX, S, Li2Sn, etc.), retard Li+ conduction,
+and increase the interface resistance. Herein, structural tuning of
+Li7P3S11 was done using the In2S3 dopant, and the designed Li6.93P2.97In0.02S10.92 electrolyte presented better σLi+ of 2.9 mS cm−1 and
+enhanced air stability @ RT. Furthermore, In2S3 broadened the electrochemical stability window and suppressed the redox
+decomposition of Li7P3S11 at the interface in the Li2S-composite cathode layer, ensuring effective (ionic/electronic) conduction.
+Therefore, the Li2S/Li6.93P2.97In0.02S10.92/Li−In cell offers a high discharge capacity of 946.75 mA h g−1 with an ∼100% average
+Coulombic efficiency over 30 cycles. Moreover, the cell with Li6.93P2.97In0.02S10.92 presented a low interfacial resistance of 127
+compared to 383 Ω for counterparts over 30 cycles, which could be benefitted from suppressed redox decomposition of the solid
+electrolyte and long-lasting intimate contact at the triple point of contact. Thus, the projected doping strategy developed a sulfide
+electrolyte to address the chemical/electrochemical stabilities and redox decomposition of sulfide electrolytes for the next-generation
+all-solid-state technologies.
+KEYWORDS: Li6.93P2.97In0.02S10.92 glass ceramic, air stability, low redox decomposition, stable solid electrolyte/cathode interface,
+all-solid-state lithium−sulfur batteries
+1. INTRODUCTION
+Worldwide electrification requires a green energy-storage
+system to realize high energy density, longer cycle life, and
+superior intrinsic safety. Therefore, rechargeable batteries or
+fuel cells are promising next-generation battery technologies.1
+Among battery technologies, lithium−sulfur (Li/S) batteries
+with high energy density2 are acknowledged as one of the most
+promising candidates to ensure the power starting from low to
+heavy locomotives. However, the commercialization of Li/S
+cells is yet restricted by some problems, for example, shuttling
+of polysulfide intermediates (Li2Sx: 4 ≤x ≤8) declines the
+cyclic performance and Coulombic efficiency of the Li/S cells
+badly. In this regard, numerous strategies have been
+endeavored to alleviate the abovementioned issues. Therefore,
+the installation of inorganic superionic conductors would
+finally eliminate the polysulfide shuttling and in principle could
+enhance the capacity and performance of Li/S batteries.3
+The solid electrolytes (SEs) are a vital element of solid-state
+batteries (SSBs) and can be classified as follows: (1) solid
+polymer electrolytes and (2) inorganic electrolytes.4−7
+However, SEs have not been widely employed due to their
+low σLi+, narrow electrochemical voltage window, and high
+electrode/electrolyte interface resistance.8 Thus, an ideal SE
+must have high σLi+ (>1 mS cm−1), broad electrochemical
+voltage window, and chemical/electrochemical stability with
+electrodes.9,10 Among the inorganic superionic conductors,
+s u l fi d e
+e l e c t r o l y t e s
+( L i 7 P 3 S 1 1 ,
+L i 1 0 G e P 2 S 1 2 ,
+Li9.54Si1.74P1.44S11.7CIl0.3, etc.) were extensively studied to
+design SSBs due to their high σLi+ (1−25 mS cm−1) and
+appropriate mechanical properties (Young’s moduli from 18 to
+25 GPa).1,4,9−12
+Received:
+July 5, 2022
+Accepted:
+October 17, 2022
+Published: October 27, 2022
+Article
+www.acsaem.org
+© 2022 American Chemical Society
+13429
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 2 页 ===
+However, almost all kinds of thiophosphate-based SSEs
+suffer from two serious issues: (1) structural hydrolysis in the
+ambient environment and (2) narrow electrochemical stability
+window and thus have limited potential for large-scale
+manufacturing for high energy density ASSLBs.13,14 For the
+former, even a trace amount of moisture can hydrolyze the
+basic structural/conductive (PS4
+3−and P2S7
+4−) units and
+release toxic H2S gas, deteriorating the battery performance
+except for safety concerns.15,16 For the latter one, recent
+experimental and theoretical studies (density functional theory
+calculations) evaluated the actual electrochemical stability
+voltage window (1.71−2.31 V vs Li/Li+), which led to redox
+decomposition of sulfide SSEs even in the cathode composites.
+The decomposition products at high and low potentials form a
+passivation layer that affects ion transport and degrades the full
+battery performance.17−19
+Inspired by ionic conductivity enhancement approaches by
+doping heterogeneous elements,3,20−24 we used In2S3 as a
+dopant to synthesize new SSEs Li7P3S11-xIn2S3 (x = 0, 0.005,
+0.01, and 0.02) in a sample ball mill approach. It is confirmed
+that with appropriate In-substitution, high σLi+ 2.9 mS cm−1 at
+room
+temperature
+and
+decent
+air
+stability
+of
+Li6.93P2.97In0.02S10.92 could be achieved. Additionally, the
+incorporated
+indium
+not
+only
+suppresses
+the
+Li6.93P2.97In0.02S10.92 electrolyte decomposition but also ensures
+its reversibility, tunes the Li+ ion transport in the cathode
+mixture, and avoids the blocking of conduction channels due
+to the undesirable side product accumulation. Finally,
+ASSLSBs equipped with Li6.93P2.97In0.02S10.92 electrolyte dem-
+onstrated charge/discharge performance excellently.
+2. EXPERIMENTAL SECTION
+2.1. Material Preparation. Li7P3S11-xIn2S3 (x = 0, 0.005, 0.01,
+and 0.02) glass ceramics were designed by ball-milling (Fritsch,
+Pulverisette 7) and a subsequent heating strategy. P2S5 (99%,
+Macklin), Li2S (99.9%, Alfa Aesar), and In2S3 (99%, Macklin) were
+added to an Ar gas-filled 45 mL zirconia pot with 5 zirconia balls (4
+mm in diameter) in the proper molar ratio. The milling operation was
+executed for 45 h @ 510 rpm. Overheating was avoided by topping
+the machine for an appropriate time. The milled amorphous powders
+were heated @ 280 °C for 2 h to obtain glass-ceramic electrolytes. All
+the experimental steps were performed in an argon-filled glovebox
+(H2O < 0.1 ppm, O2 < 0.1 ppm).
+2.2. Structure Characterization. Powder X-ray diffraction
+(XRD) was carried out using a Bruker D8 instrument with Cu Kα
+radiation (1.54 Å at 45 kV and 40 mA) from 10 to 60° @ 5° min−1.
+The Raman spectroscopic experiment was conducted on a Thermo
+Fisher XDR at a 532 nm wavelength from 200 to 600 cm−1. The
+element analysis was carried out with X-ray photoelectron spectros-
+copy (XPS) (ESCALAB-250Xi) with Al Kα X-ray. The XPS data were
+analyzed using XPS Peak software, and the binding energies were
+revised based on the C 1s peak at 284.8 eV. Solid-state nuclear
+magnetic resonance (SS-NMR) spectra were conducted on a Bruker
+Ascend 700M spectrometer and a 4 mm probe was operated at
+different frequencies to the structural environment of lithium and
+phosphorus atoms. Sulfide electrolytes (about 100 mg) were packed
+into a 1.9 mm cylindrical zirconia MAS rotor in a glovebox (argon-
+filled) to avoid the reaction with oxygen and moisture and revolved at
+15,000 Hz. The recycle delay was 60 s to get the quantitative spectra
+of glass-ceramic SEs. The amount of hydrogen sulfide (H2S)
+produced from solid-state samples was measured against the relative
+humidity of 20%. SE powder (0.1 g) and H2S gas sensor (GX-2009,
+Riken Keiki Co, Ltd, Japan) were packed in a jar of volume ∼2880
+cm3 filled with moisture @ 25 °C.
+2.3. Electrochemical Characterization. The ionic conductiv-
+ities of cold-pressed solid electrolytes were measured on a Solartron
+1400/1470E cell test system. Stainless steel disks were used as the
+blocking electrodes on both sides of the pellets, and the alternating
+current (AC) impedance method was performed in the frequency
+range of 0.1 Hz to 1 MHz with an amplitude of 10 mV. The
+electrochemical window of electrolytes was evaluated by cyclic
+voltammetry (CV). The test was conducted on a Li/SE/SE-
+conductive carbon (VGCF) cell (75:25 wt %) on a multichannel
+electrochemical workstation (Solartron 1470E). The CV curves were
+recorded in the potential range from 0 to 5.0 V with the sweep rate of
+0.1 mV s−1. Electrochemical performances of ASSLBs were
+Figure 1. (a) XRD pattern of samples; (b−e) solid NMR spectrum of Li7P3S11 with different dopants; and (f) ratio of crystal units from NMR.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13430
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 3 页 ===
+investigated by galvanostatic charge−discharge at a current density of
+0.064 mA cm−2 by a multichannel test system LAND CT-2001A
+(Wuhan Land Testing Equipment Co., Ltd). The cut-off potential of
+0.1−3.0 V versus the Li−In anode was employed for galvanostatic
+charge−discharge testing. All the characterization processes were
+conducted at room temperature.
+2.4. Preparation of the Li2S-Composite Cathode. The Li2S-
+composite cathode was synthesized by the two-step ball-milling
+process. First step: Li2S and VGCF powders were mixed in a 3:1 (wt
+%) ratio and ball-milled for 17 h @ 370 rpm. Second step: The Li2S-
+VGCF composite and Li6.93P2.97In0.02S10.92 were mixed in a 4:6 (wt %)
+ratio and ball-milled for 1 h @ 150 rpm just for homogeneous mixing.
+2.5. Fabrication of the All-Solid-State Battery. To integrate an
+all-solid-state cell, 150 mg of solid−electrolyte powder was pelletized
+under 360 MPa in a polyvinylidene difluoride model (φ = 12.7 mm).
+Then, the Li2S-composite cathode (10 mg) was homogeneously
+spread onto the surface of the solid−electrolyte pellet under 240 MPa.
+After that, the Li−In alloy anode was attached to the opposite side
+and pressed again at 120 MPa. Thus, the produced triple-layer cell
+was sandwiched between stainless steel current collectors. The
+loading of active Li2S is ∼2.5 mg cm−2.
+3. RESULTS AND DISCUSSION
+The structure of the as-synthesized Li7P3S11-xIn2S3 (x = 0,
+0.005, 0.01, and 0.02) glass ceramics is characterized by
+powder XRD and is presented in Figure 1a. As illustrated, the
+XRD patterns were dominated by the metastable Li7P3S11
+structure (ICSD:157614) since they were annealed at 280 °C
+for 2 h, and no other impurity phase was observed, implying
+that In2S3 was doped into the LPS matrix successfully.25 Unlike
+XRD, which is only sensitive to crystalline materials, the solid-
+state nuclear magnetic resonance (SS-NMR) is extremely
+sensitive to the nuclear environment, whether it is in the
+crystalline or non-crystalline phase, and so, the 7Li and 31P
+solid NMR spectroscopic experiments are carried out to check
+the local chemical composition of a series of electrolytes. As
+displayed in Figure S1a, the 31P NMR spectra of Li7P3S11-
+xIn2S3 (x = 0, 0.005, 0.01, and 0.02) exhibit two main peaks at
+90.6 and 86.3 ppm, associated with the P2S7
+4−and PS4
+3−
+structural units in the electrolyte, respectively.26,27 Beyond
+that, there is a weak peak at about 104 ppm, consistent with
+structural units P2S6
+4−.28 The evolution of P2S7
+4−to P2S6
+4−can
+be induced at elevated temperatures or with longer
+annealing.29,30 The NMR pattern shows that no obvious
+change happens in the framework of LPS before and after
+doping, suggesting that In2S3 doped into the LPS matrix did
+not destroy the original structure. Nevertheless, the relative
+intensity of each peak is different with the increase in the
+amount of In2S3. It is worth mentioning that the amorphous
+electrolytes without annealing exhibit lower conductivity,
+which could be attributed to the extremely low crystallinity.
+In sharp contrast, σLi+ of the Li2S−P2S5 system could be further
+enhanced by glass crystallization at high temperatures.26 Above
+all, the degree of crystallinity strongly influences electrolyte
+conductivity.26,27,31 Therefore, it is of great interest to quantify
+the relative amount of the crystalline phase in the structure of
+different electrolytes. Figure 1b−e shows deconvoluted 31P
+MAS-NMR spectra of the Li7P3S11-xIn2S3 (x = 0, 0.005, 0.01,
+and 0.02) glass-ceramic electrolytes. It is quite obvious that all
+these spectra can be fitted into five peaks. The peaks at 104
+(P2S6
+4−, purple), 90.6 (P2S7
+4−, navy), and 86.3 ppm (PS4
+3−,
+olive), respectively, reflect the structural units of the
+amorphous phase in the glass-ceramic matrix. In addition,
+the chemical shift at 90.4 (P2S7
+4−, violet) and 86.3 ppm (PS4
+3−,
+magenta) separately represents the ceramic’s nucleated
+conductive crystalline phase.26 Then, the ratio of the
+conductive crystalline phase in the structure can be obtained
+according to the following eq 1.
+X
+(mol %)
+(
+)/
+)
+100
+C
+c PS4
+c
+P2S7
+total
+=
++
+×
+(1)
+where ΦPS4 and ΦP2S7 denote the intensity of the crystalline
+conducting phase, while Φtotal denotes the overall intensity of
+Figure 2. (a−c) XPS spectra of Li6.93P2.97In0.02S10.92; (d) Raman data of different electrolytes; (e) ionic conductivity at different amounts of In2S3;
+and (f) active energy of Li7P3S11 and Li6.93P2.97In0.02S10.92.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13431
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 4 页 ===
+the resonances. The degree of crystallization ΧC calculated for
+Li7P3S11-xIn2S3 (x = 0, 0.005, 0.01, and 0.02) glass-ceramic
+electrolytes is 25.6, 25.8, 41.4, and 33.1%, respectively. The
+relationship between the crystallinity and molar ratio of In2S3 is
+further illustrated, as shown in Figure 1f. Notably, the highest
+crystallinity at x = 0.01, suggests that an optimized In2S3 can
+significantly increase the proportion of the metastable Li7P3S11
+crystalline phase glass ceramic.32 Additionally, 7Li MAS-NMR
+measurements were further carried out for Li7P3S11-xIn2S3 (x =
+0, 0.005, 0.01, and 0.02) glass-ceramic electrolytes (Figure
+S1b), at which a narrow and sharp peak at 0.6 ppm stems from
+the Li sites of the conductive phase.31 Moreover, the identical
+peak position for all the samples suggests that the chemical
+environment of Li for the conductive phase is not changed by
+the In2S3 dopant.
+XPS was further carried out to evaluate the binding energies
+due to In2S3 incorporation. High-resolution S 2p spectra of
+newly designed Li6.93P2.97In0.02S10.92 also fitted the fundamental
+binding energies (e.g., 163.1, 162.2, and 161.7 eV attributed to
+the P−S−P, PS, and P−S−Li), as shown in Figure 2a.
+Noticeably, the peak at 162 eV is also related to the In−S bond
+simultaneously, demonstrating that the indium atom has
+successfully been substituted into the LPS crystal.33 In
+addition, the P 2p spectra emerged with two prominent
+peaks for P2S7
+4−(132.5 eV) and PS4
+3−(134 eV) in Figure 2b.
+The low binding energy of P2S7
+4−could be attributed to its
+high polarity compared to PS4
+3−, which in principle can attract
+the density of electronic cloud around the P atom in P2S7
+4−.34
+For In 3d spectra (Figure 2c), two signals at 444.5 and 451.8
+eV
+indexed
+to
+the
+In−S
+binding
+energy
+for
+Li6.93P2.97In0.02S10.92.24 Both the binding energies show the
+band moving toward the higher energy from 444.3 eV for
+In2S3, suggesting that In2S3 was successfully doped into the
+original structure of the electrolyte. In contrast, binding
+energies of S 2p and P 2p spectra of pristine Li7P3S11 (Figure
+S2ab) reflect the basic structural/conductive units without
+tuning, which agrees with the prior literature.13,29,35−38
+Moreover, the Raman spectroscopic testing was performed
+further to investigate the structural changes of glass ceramics.
+Figure 2d shows the deconvoluted Raman spectra from 300 to
+500 cm−1. The peaks centered at 405 and 419 cm−1 are
+attributed to P2S7
+4−and PS4
+3−units.39,40 This result suggests
+that doping a minor In2S3 dopant into Li7P3S11 does not
+change the original structure, and In2S3 has been dissolved into
+the LPS matrix. The Raman analysis is consistent with the
+results of XRD.
+The ionic conductivity is a key parameter for estimating the
+applicability of SEs. The σLi+ of the Li7P3S11-xIn2S3 (x = 0,
+0.005, 0.01, and 0.02) glass ceramics were evaluated by AC
+impedance spectroscopy. Therefore, Li+ conductivities and the
+corresponding Arrhenius plots of the Li7P3S11 and
+Li6.93P2.97In0.02S10.92 electrolytes are equated, as shown in
+Figure 2e,f, respectively. σLi+ of pristine Li7P3S11 was about
+1.5 mS cm−1 at R.T. Next, increasing the amount of In2S3 (X =
+0.005) enhances the σLi+ up to 2.2 mS cm−1, reaching the
+maximum value of 2.9 mS cm−1 against x = 0.01 and then
+decreasing to 1.3 mS cm−1 on further increasing In2S3 up to x
+= 0.02. It is noteworthy that the σLi+ of Li6.93P2.97In0.02S10.92 is
+∼2 times higher than the pristine of Li7P3S11. The superior σLi+
+is attributed to a bigger ionic radius, In3+ (0.92 Å), in sharp
+contrast to P5+ (0.35 Å), expanding the transport channel for
+Li-ion migration.25,41 Meanwhile, the transfer ability of Li+ in
+units can be strengthened owing to the substitution of P5+ by
+In3+ with the lower valence, implying better σLi+. Besides, the
+In−S bond is longer compared to P−S bonding, which would
+further expand the Li+ conduction path to ease Li+ conduction.
+Since the incorporated In2S3 achieves a certain level (x = 0.02),
+the available free space for Li+ passage would be lessened,
+which may reduce ionic conductivity. The σLi+ of the
+electrolytes was measured by the equation given below
+d
+S
+R
+/(
+)
+Li
+total
+=
+×
+(2)
+Moreover, the activation energy (Ea) of Li7P3S11-xIn2S3 (x =
+0, 0.005, 0.01, and 0.02) electrolytes can be calculated from the
+slope of the Arrhenius equation
+A
+E
+KT
+exp(
+/
+)
+a
+=
+(3)
+Here, σ, A T, and k represent lithium ionic conductivity, pre-
+exponential factor, absolute temperature, and Boltzmann
+constant. Interestingly, it is observed that Li6.93P2.97In0.02S10.92
+presents the lowest Ea of 21.2 kJ mol−1 among the electrolytes,
+while the pristine Li7P3S11 electrolyte offers the highest Ea of
+25.9 kJ mol−1. The lowest Ea could be credited to the
+uppermost amount of the crystalline phase in the
+Li6.93P2.97In0.02S10.92 electrolyte.
+Due to their low chemical stability in the air, Li2S−P2S5
+electrolytes must be treated in a dry atmosphere. Structural
+hydrolysis of sulfide electrolytes in the humid air generates
+harmful H2S gas.15,42 Therefore, it is vital to increase the
+chemical stability of sulfide SEs in the presence of moisture. To
+further investigate the structural stability in the ambient
+environment, Li7P3S11-xIn2S3 (x = 0 and 0.01) SSE powders
+Figure 3. (a) H2S amount generated from Li7P3S11 and Li6.93P2.97In0.02S10.92 exposed to moist air for 60 min; (b) XRD patterns of samples after
+exposing to moist air.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13432
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 5 页 ===
+were exposed to air to 20% humid air in a desiccator (2800
+cm3) desiccator @ R.T. As depicted in Figure 3a, undoped
+Li7P3S11 reacts with H2O immediately and releases H2S gas,
+while Li6.93P2.97In0.02S10.92 remains stable until 10 min with the
+incorporation of the indium element. The amount of H2S
+generated from both powders begins to rise as the exposure
+time increases. The total amount of H2S released by
+Li6.93P2.97In0.02S10.92 is 0.5 cm3 g−1 when exposed to air for an
+hour; it is almost half compared to the undoped electrolyte,
+implying that In-doping can increase the air stability of
+Li7P3S11-based electrolyte. The better air stability is ascribed to
+the replacement of P5+ (hard acid) by In3+ (soft acid), which
+form a stable bond with S (soft base) compared to that of O
+(hard base), hence stabilizes the structure significantly, and
+suppresses the rate and amount of toxic H2S.43 Furthermore,
+XRD in Figure 3b was applied to explore the structural changes
+after exposure to air. The peaks at 22, 24, and 26° almost
+disappear for pristine Li7P3S11. On the contrary, there is very
+little change in the diffraction peaks of Li6.93P2.97In0.02S10.92,
+except the intensity of peaks becoming weaker. It further
+proves that the electrolyte structure can be well preserved by
+replacing P5+ with In3+ and suppressing the production of H2S
+to a certain extent.
+Subsequently, we also investigated the redox mechanism of
+Li7P3S11 from 0 to 5.0 V (vs Li/Li+), evaluating the
+compatibility voltage range against the existing respective
+electrodes for half and full batteries. CV was tested to
+characterize
+the
+voltage
+window
+of
+Li7P3S11
+and
+Li6.93P2.97In0.02S10.92 and it was carried out for lithium half-
+batteries. The positive electrodes are a mixture of 25% VGCF
+and 75% sulfide electrolytes to intensify the extent of the
+reaction for a more accessible study of the reaction
+products.13,37 As shown in Figure 4a, oxidative decomposition
+occurs gradually from Li7P3S11 when the voltage is over 2.37 V.
+It can be reduced when the voltage drops to 1.75 V. This result
+is consistent with the DFT calculations that the sulfide SSEs
+have a relatively narrow electrochemical voltage window
+(1.71−2.31 V vs Li/Li+).44 Obviously, there is a pair of
+small redox peaks at 1.5 and 2.4 V for Li7P3S11, corresponding
+to the transformation of S and S2−. In addition, additional
+redox peaks ∼0.5 V relating to P5+/P5−x occur for Li7P3S11.45,46
+On the contrary, decomposition of Li6.93P2.97In0.02S10.92 begins
+to occur outside 1.2−2.4 V with the disappearance of the peaks
+at 0.5 V, as presented in Figure 4b. Both mean that the
+electrochemical window is broadened when doping the proper
+proportion of In2S3 into initial Li7P3S11.
+Although the electrochemical window of electrolytes is
+improved by doping, the voltage range of the actual charging
+and discharging process still exceeds its intrinsic stability
+window. That is, electrolyte degradation is inevitable during
+the subsequent battery cycle. The redox reactions of sulfide
+SEs in composite cathodes significantly influence the electronic
+and ionic conduction at the triple-phase interface among active
+materials, conductive additives, and SEs.47 Therefore, it is
+critical to explore the decomposition behavior of sulfide
+electrolytes. Figure S3ab shows the initial five charge/discharge
+curves when Li7P3S11 and Li6.93P2.97In0.02S10.92 as cathodes
+between 0.1 and 3.0 V, respectively. As for Li6.93P2.97In0.02S10.92,
+the first cycle delivers a discharge capacity of 241 mA h g−1.
+Also, after five cycles, the capacity remains at 169 mA h g−1.
+Conversely, the discharge capacity of the first cycle with the
+Li7P3S11 cathode is 131 mA h g−1. Unfortunately, the discharge
+capacity of the Li7P3S11 cathode decays to 41% after five cycles.
+The significant difference in capacity retention resulted from
+Figure 4. (a,b) CV of Li7P3S11 and Li6.93P2.97In0.02S10.92 SSE at a sweep rate of 0.1 mV/s from 0 to 5 V; (c,d) dQ/dV curves of Li7P3S11 and
+Li6.93P2.97In0.02S10.92 SSE with the VGCF composition cathode; (e,f) EIS data of SSE-C//Li−In cells with Li7P3S11 and Li6.93P2.97In0.02S10.92 SSE
+before and after five cycles.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13433
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 6 页 ===
+the different behavior of electrolyte decomposition. Con-
+sequently, dQ/dV analysis (Figure 4c,d) at the first, second,
+third, and fifth cycle is performed to evaluate the electrolyte
+structure as the cathode during working. The dQ/dV plots
+overlap the cathodic and anodic transformations during
+charge/discharge operation, and two strong peaks can be
+recognized in curves. An oxidation peak [1] is detected at ∼1.8
+V, accompanied by a reduction peak [1′] at ∼1.5 V. These
+potentials are consistent with the redox potentials of Li/S cells
+(Sx + 2xLi+ + 2xe−⇌xLi2S), stemmed from the reduction of
+S0 to S2−species. Noticeably, a positive current peak [2] at
+∼2.4 V remains even after the peak of Li2S is exceeded, which
+could present a redox process of the PS4
+3−units. The PS4
+3−
+units can be bond together with releasing sulfur or polysulfides
+(e.g., 2PS4
+3−⇌P2S7
+4−+ S +2e−⇌P2S6
+2−+ 2S + 4e−and even
+possibly ⇌P2S5 +3S + 6e−).18,48−50 It is noticeable that the
+apparent redox activity of the PS4
+3−unit occurs at a slightly
+higher redox potential compared to elemental S.51 Beyond
+that, there is an additional reduction peak at 0.5 V [3] upon
+further reduction, which assigns to the reduction of P (+5),
+from PS4
+3−tetrahedron, result in the formation of reduced
+phosphorous compounds such as Li3P, LiP, Li3P7, or LiP7, and
+the accompanying formation of Li2S. The magnitude of
+oxidation peak 1 and reduction 3 decreased sharply with
+cycles and almost disappeared after five cycles in the pristine
+electrolyte cathode, proving the grave structural degradation,
+which corresponds well to the critical capacity loss at a cycling
+period. As predictable, the redox peaks are still obviously
+recognizable under the same working conditions with the In2S3
+additive,
+reflecting
+the
+stable
+cyclability
+of
+the
+Li6.93P2.97In0.02S10.92 electrode, which also explains why capacity
+is well maintained.
+To explore the internal resistance changes during cycling,
+electrochemical impedance spectroscopy (EIS) was performed
+on the Li7P3S11 and Li6.93P2.97In0.02S10.92 electrodes before and
+after five cycles at the fully discharged state. The EIS data for
+both samples before charge and discharged over five cycles are
+shown in Figure 4e,f. The interfacial resistance of the cell with
+Li6.93P2.97In0.02S10.92 ∼47 Ω is significantly smaller than the
+battery with Li7P3S11 (77 Ω), which could be credited to the
+high conductivity of indium doping. After five subsequent
+cycles, the interfacial resistance of the battery with
+Figure 5. S 2p and P 2p XPS spectra of the SSE-VGCF composite electrode at the states: (a,b) original; (c,d) charged to 3.0 V; and (e,f)
+discharged to 0.1 V. (g,h) The type of the reaction product under different discharge and charge states.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13434
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 7 页 ===
+Li6.93P2.97In0.02S10.92 increases to about 65 Ω, which is much
+lower than the cell of Li7P3S11 (96 Ω). The variation of the
+interfacial resistance related to the composite decomposition
+comes from the electrolyte. The higher impedance of Li7P3S11
+after five cycles may be ascribed to a detrimental degradation
+that occurred at the cathode, attributed to the irreversible
+structural changes and accumulation of byproducts during the
+lithiation and de-lithiation process as indicated by dQ/dV
+profiles. Although the impedance values of the doping sample
+get increased, it shows a slighter increment. As the rate of the
+deterioration of the interfacial impedance remains slow, the
+ionic and electronic conductivities can be held in the
+electrolyte structure by reversible decomposition, and so, the
+cell can successfully maintain a high capacity after cycling.
+The electrolyte−conductive carbon composites were inves-
+tigated using XPS under different stages to corroborate specific
+decomposition products. The decomposition products were
+examined, and their S 2p and P 2p XPS spectra were fitted
+corresponding to 2p3/2 and 2p1/2 doublets. As for the Li7P3S11
+and Li6.93P2.97In0.02S10.92 composite electrode in Figure 5a,
+there are two pairs of peaks at the fresh electrode, which are
+correlated to the bridging sulfur −[S]n−(162.3 eV) and
+terminal S (161.6 eV), separately. Those two XPS peaks are
+considered characteristic of the pristine Li7P3S11 materials. It is
+worth noting that there is an extra pair of peaks at the lower
+binding energy (159.8 eV), which comes from the electron-
+rich S2−species in Li2S. The additional formation of Li2S at the
+initial stage without applying a current or potential may result
+from the small amounts of oxidized species when mechanical
+dispersion of the electrolyte with conductive carbon by ball-
+milling.48,52 The same phenomenon also appears in the
+corresponding P 2p spectrum in Figure 5b, and additional
+reduced P species also appear at lower binding energy in the
+initial state. It means that the structure of pure Li7P3S11 is
+unstable, and it is easy to decompose once it comes into
+contact with the conductive agent. As it happens, the modified
+electrolyte material improves the stability of the electrolyte
+structure. Upon the full charge of both cells to 3.0 V, the
+electrolyte decomposes to form oxidized products of elemental
+S (Figure 5c,d) and P2Sx.
+Nevertheless, in the spectrum of the Li7P3S11 composite, the
+peaks still exist at the lower-binding energy side (159.8 eV) for
+S 2p and 130.1 eV for P 2p, corresponding to the residual Li2S
+and reduced P species discretely. For the Li6.93P2.97In0.02S10.92
+composite cathode, all peaks about S and P2SX disappear at the
+fully discharged state, accompanied by peaks for Li2S and
+reduced P or Li3P (Figure 5e,f). Interestingly, oxidized
+elemental sulfur and P2Sx are also present, although these
+contents decrease with the rise of reduction degree in the
+Li7P3S11 composite, along with the intensification of Li2S and
+reduced P or Li3P peaks. These findings agree with the
+literature on the redox behavior of sulfide SSEs. Moreover,
+DFT calculation discloses that sulfide electrolytes can be
+oxidized to sulfurous components (e.g., S and P2S5) and
+reduced to Li3P and Li2S; however, most offer very low σLi+
+and prevent interfacial charge transportation.53 Besides, the
+continuous growth of irreversible species at LPS/conductive
+carbon interfaces can produce a thick insulating layer and
+eventually can block interfacial charge transport. The reactants
+formed at different states are summarized in Figure 5g,h. Due
+to the accumulation of side reaction products with poor
+conductivity in the Li7P3S11 composite, ion transport is
+Figure 6. Electrochemical performance of full cells. (a) Initial charge/discharge curves of cells with Li7P3S11 and Li6.93P2.97In0.02S10.92 electrolytes;
+(b) long-term cyclic performance of the Li2S/Li6.93P2.97In0.02S10.92/Li−In cell; (c) rate capabilities of Li2S/Li7P3S11/Li−In and Li2S/
+Li6.93P2.97In0.02S10.92/Li−In cells; (d) AC impedance spectra of ASSLBs after 30th cycles; (e,f) schematic illustration of redox reactions during
+charge/discharge operation.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13435
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 8 页 ===
+blocked, and the battery performance is significantly degraded.
+Thankfully, the reversibility of the electrolyte decomposition
+can be maintained by adding In2S3. Not only does it ensure ion
+transport, but other than that, each redox reaction in the
+electrode will contribute to enhancing the total capacity for
+each cycle.
+To further explore the performance of electrolytes that are
+applied in a full battery, all-SSBs based on Li7P3S11 and
+Li6.93P2.97In0.02S10.92 in combination with the Li2S as the active
+material and Li−In alloy as an anode. The galvanostatic
+charge−discharge measurements were carried out from 0.1 to
+3.0 V at 0.064 mA cm−2 @ RT. As displayed in Figure 6a, the
+initial discharge capacities of cells with Li7P3S11 and
+Li6.93P2.97In0.02S10.92 are 468.2 and 585.7 mA h g−1, respectively.
+Compared with Li7P3S11, the cell with Li6.93P2.97In0.02S10.92
+exhibits relatively small voltage polarization, which can be
+attributed to greatly enhance the conductivity and largely
+extend the Li-ion transport pathway promoting Li+ transport
+ability. For long-term cycling performance (Figure 6b), the
+reversible capacity of the Li2S/Li6.93P2.97In0.02S10.92/Li−In cell
+continuously increases up to 10 cycles and remains stable. The
+increase in the reversible capacity could be attributed to the
+activation process of Li2S. Moreover, the cell delivers an
+excellent discharge capacity of 946.75 mA h g−1 compared to
+its counterpart (588.6 mA h g−1) over 30 cycles with ∼100%
+average Coulombic efficiency. The electrochemical properties
+of Li6.93P2.97In0.02S10.92 SE are better than or comparable to
+other Li7P3S11-based SEs, as listed in Table S1. Furthermore,
+concerning the rate performance of both batteries, as
+illustrated in Figure 6c, the cell with Li6.93P2.97In0.02S10.92
+exhibits much better rate capability in sharp contrast to
+Li2S/Li7P3S11/Li−In. Specifically, the former displays high
+discharge capacities of 954.9, 843.6, 724.9, 622.6, and 613.1
+mA h g−1 at 0.064, 0.192, 0.32, 0.448, and 0.64 mA cm−2,
+respectively. When the rate recovers to 0.064 mA cm−2, the cell
+successfully recovers the initial discharge capacity.
+To further understand the influence of interfacial resistances
+on cycle performance, EIS was conducted on Li2S/Li7P3S11-
+xIn2S3 (x = 0, 0.01)/Li−In cells before and after 30 cycles. As
+shown in Figure S4, both electrodes in their original state
+exhibit similar ohmic resistance curves using the same
+electrolyte and electrode layers. Unlike a battery with pure
+Li7P3S11 (109 Ω), it shows a smaller intercept (74 Ω) due to
+the higher ionic conductivity of Li6.93P2.97In0.02S10.92 for the
+Li2S/Li−In cell. After 30 cycles, the interface impedance for all
+Li2S/Li7P3S11-xIn2S3 (x = 0, 0.01) increased, as seen in Figure
+6d. For the Li2S/Li6.93P2.97In0.02S10.92/Li−In cell, the interfacial
+impedance of the Li2S/SE only increased to 127 Ω, smaller
+than 383 Ω of the Li2S/Li7P3S11/Li−In cell. The intercept at
+the X-axis in the high frequency corresponds to the ohmic
+resistance of the cell, which originated from the resistance of
+the SE layer and electrode layers.54 The semicircle in the
+middle frequency range corresponds to the interfacial
+resistance in the cathode layer. The interfacial resistance in
+this work mainly originates from the redox activity of sulfide
+electrolytes in the cathode mixture, leading to the formation of
+side reaction products at the interface with high interfacial
+resistance. For cathode electrodes composed of Li2S and
+Li6.93P2.97In0.02S10.92 nanocomposites, an appropriate amount of
+doping helps stabilize the interface between the cathode and
+the solid sulfide electrolyte during the long cycle, especially
+when the indium (In) doping amount is 0.01. Clearly, the Li2S
+and Li6.93P2.97In0.02S10.92 composites show remarkable electro-
+chemical performances in all-solid-state batteries, which could
+benefit from the following aspects: (i) improved ionic
+conductivity could provide fast lithium ion diffusion, leading
+to excellent power and cyclic performances; (ii) the doped
+Li7P3S11 not only provides a stable interface between Li2S and
+sulfide electrolyte but also ensures the reversibility of
+electrolyte decomposition, thus avoiding the accumulation of
+poor conductivity byproducts and maintaining high cycling
+stability.
+The interfacial stability between the Li6.93P2.97In0.02S10.92
+electrolyte and Li metal was evaluated by the galvanostatic
+charge/discharge test of Li symmetric cells. As depicted in
+Figure S5, the Li/Li6.93P2.97In0.02S10.92/Li symmetric cell can
+deliver a relatively stable cycle for 100 h, although the
+polarization voltage gradually increases with the cycle time. It
+can also explain the slightly higher inhibition of lithium
+dendrite because the pure Li/Li7P3S11/Li battery will short-
+circuit immediately.
+4. CONCLUSIONS
+In summary, we have demonstrated that enhanced chemical
+and electrochemical stability of SEs could be achieved via
+replacing P5+ with In3+ in the structure of Li7P3S11. In
+particular, Li6.93P2.97In0.02S10.92 electrolyte offers high σLi+ 2.9
+mS cm−1 at room temperature and better air stability. Next, the
+indium dopant incorporation broadened the electrochemical
+stability window of pristine Li7P3S11 and suppressed its redox
+decomposition significantly. XPS was employed to quantify the
+redox products at the interface of the electrolyte−carbon
+composite. It is worth noting that Li7P3S11 decomposes
+irreversibly to form an interphase enriched with sulfur and
+phosphorus species (S, P2Sx, or Li3P) and the insulating nature
+retards ionic transport in the cathode, thus affecting the cycle
+performance
+of
+the
+battery.
+Thus,
+the
+Li 2S/
+Li6.93P2.97In0.02S10.92/Li−In cell shows outstanding electro-
+chemical performance and delivers a superior discharge
+capacity of 946.75 mA h g−1 over 30 cycles with ∼100%
+efficiency. Next, the cell presented an excellent rate perform-
+ance from 0.064 to 0.64 mA cm−2 @ RT, which is associated
+with the excellent transport property after doping. Our results
+show that regulating electrolytes’ decomposition behavior in
+the electrode can ensure enough ion conduction paths,
+effectively promoting the goal of all-solid-state lithium-sulfur
+batteries.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsaem.2c02110.
+31P and 7Li NMR, XPS (S 2p and P 2p) of Li7P3S11,
+cycling performance of Li7P3S11-VGCF/Li7P3S11/Li−In
+and Li6.93P2.97In0.02S10.92-VGCF/Li6.93P2.97In0.02S10.92/Li−
+In, AC impedance, galvanostatic Li plating/stripping on
+the Li/Li7P3S11/Li and Li/Li6.93P2.97In0.02S10.92/Li sym-
+metric cell at a current density of 0.1 mA cm−2/0.1 mA h
+cm−2, and electrochemical properties of the Li7P3S11-
+based SEs (PDF)
+■AUTHOR INFORMATION
+Corresponding Authors
+Chaoyuan Zeng −Hainan Provincial Key Lab of Fine
+Chemistry, School of Chemical Engineering and Technology,
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13436
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 9 页 ===
+Collaborative Innovation Center of Ecological Civilization,
+Hainan University, Haikou 570228, China;
+orcid.org/
+0000-0001-7032-6004; Email: zengchaoyuan@
+hainanu.edu.cn
+Wen Yang −Key Laboratory of Cluster Science of Ministry of
+Education Beijing Key Laboratory of Photoelectronic/
+Electrophotonic Conversion Materials School of Chemistry
+and Chemical Engineering, Beijing Institute of Technology,
+Beijing 100081, P. R. China;
+orcid.org/0000-0003-2444-
+3300; Email: wenyang@bit.edu.cn
+Authors
+Peiwen Yu −Key Laboratory of Cluster Science of Ministry of
+Education Beijing Key Laboratory of Photoelectronic/
+Electrophotonic Conversion Materials School of Chemistry
+and Chemical Engineering, Beijing Institute of Technology,
+Beijing 100081, P. R. China
+Niaz Ahmad −Key Laboratory of Cluster Science of Ministry
+of Education Beijing Key Laboratory of Photoelectronic/
+Electrophotonic Conversion Materials School of Chemistry
+and Chemical Engineering, Beijing Institute of Technology,
+Beijing 100081, P. R. China; Hainan Provincial Key Lab of
+Fine Chemistry, School of Chemical Engineering and
+Technology, Collaborative Innovation Center of Ecological
+Civilization, Hainan University, Haikou 570228, China
+Lu Lv −Key Laboratory of Cluster Science of Ministry of
+Education Beijing Key Laboratory of Photoelectronic/
+Electrophotonic Conversion Materials School of Chemistry
+and Chemical Engineering, Beijing Institute of Technology,
+Beijing 100081, P. R. China
+Qinxi Dong −Hainan Provincial Key Lab of Fine Chemistry,
+School of Chemical Engineering and Technology,
+Collaborative Innovation Center of Ecological Civilization,
+Hainan University, Haikou 570228, China
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsaem.2c02110
+Author Contributions
+P.Y. conceptualization, methodology, experimentation, data
+curation, software, and wrote the original draft. N.A.
+investigation, formal analysis, data curation, software, graphics,
+and revised the final draft. C.Z. methodology and investigation,
+L.L. investigation, Q.D. investigation, and W.Y. conceptualiza-
+tion, supervised, revised the final draft, and funded resources.
+All authors have approved the final version of the manuscript.
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+The authors appreciate the financial supports from The Nature
+Science Foundation of China (nos. 21203008 and 21975025)
+and The Key Research and Development Plan of Hainan
+Province (ZDYF2021SHFZ067 and ZDYF2020023) sup-
+ported this work.
+■REFERENCES
+(1) Kudu, Ö. U.; Famprikis, T.; Fleutot, B.; Braida, M.-D.; Le
+Mercier, T.; Islam, M. S.; Masquelier, C. A Review of Structural
+Properties and Synthesis Methods of Solid Electrolyte Materials in the
+Li2S−P2S5 Binary System. J. Power Sources 2018, 407, 31−43.
+(2) Zhou, L.; Zhang, W.; Wang, Y.; Liang, S.; Gan, Y.; Huang, H.;
+Zhang, J.; Xia, Y.; Liang, C. Lithium Sulfide as Cathode Materials for
+Lithium-Ion Batteries: Advances and Challenges. J. Chem. 2020, 2020,
+1−17.
+(3) Han, F.; Yue, J.; Zhu, X.; Wang, C. Suppressing Li Dendrite
+Formation in Li2S-P2S5 Solid Electrolyte by LiI Incorporation. Adv.
+Energy Mater. 2018, 8, 1703644.
+(4) Lian, P.-J.; Zhao, B.-S.; Zhang, L.-Q.; Xu, N.; Wu, M.-T.; Gao,
+X.-P. Inorganic Sulfide Solid Electrolytes for All-Solid-State Lithium
+Secondary Batteries. J. Mater. Chem. A 2019, 7, 20540−20557.
+(5) Bachman, J. C.; Muy, S.; Grimaud, A.; Chang, H.; Pour, N.; Lux,
+S. F.; Paschos, O.; Maglia, F.; Lupart, S.; Lamp, P.; Giordano, L.;
+Shao-Horn, Y. Inorganic Solid-State Electrolytes for Lithium Batteries
+: Mechanisms and Properties Governing Ion Conduction. Chem. Rev.
+2016, 116, 140−162.
+(6) Mizuno, F.; Hayashi, A.; Tadanaga, K.; Tatsumisago, M. New,
+Highly Ion-Conductive Crystals Precipitated from Li2S-P2S5 Glasses.
+Adv. Mater. 2005, 17, 918−921.
+(7) Seino, Y.; Ota, T.; Takada, K.; Hayashi, A.; Tatsumisago, M. A
+Sulphide Lithium Super Ion Conductor Is Superior to Liquid Ion
+Conductors for Use in Rechargeable Batteries. Energy Environ. Sci.
+2014, 7, 627−631.
+(8) Luntz, A. C.; Voss, J.; Reuter, K. Interfacial Challenges in Solid-
+State Li Ion Batteries. J. Phys. Chem. Lett. 2015, 6, 4599−4604.
+(9) Zhang, B.; Tan, R.; Yang, L.; Zheng, J.; Zhang, K.; Mo, S.; Lin,
+Z.; Pan, F. Mechanisms and Properties of Ion-Transport in Inorganic
+Solid Electrolytes. Energy Storage Mater. 2018, 10, 139−159.
+(10) Yue, J.; Yan, M.; Yin, Y.-X.; Guo, Y.-G. Progress of the Interface
+Design in All-Solid-State Li−S Batteries. Adv. Funct. Mater. 2018, 28,
+1707533.
+(11) Sakuda, A.; Hayashi, A.; Tatsumisago, M. Sulfide Solid
+Electrolyte with Favorable Mechanical Property for All-Solid-State
+Lithium Battery. Sci. Rep. 2013, 3, 2261.
+(12) Sakuda, A.; Hayashi, A.; Takigawa, Y.; Higashi, K.;
+Tatsumisago, M. Evaluation of Elastic Modulus of Li2S-P2S5 Glassy
+Solid Electrolyte by Ultrasonic Sound Velocity Measurement and
+Compression Test. J. Ceram. Soc. Jpn. 2013, 121, 946−949.
+(13) Ahmad, N.; Sun, S.; Yu, P.; Yang, W. Design Unique Air-Stable
+and Li−Metal Compatible Sulfide Electrolyte via Exploration of
+Anion Functional Units for All-Solid-State Lithium−Metal Batteries.
+Adv. Funct. Mater. 2022, 32, 2201528.
+(14) Zhu, Y.; Mo, Y. Materials Design Principles for Air-Stable
+Lithium/Sodium Solid Electrolytes. Angew. Chem., Int. Ed. 2020, 59,
+17472−17476.
+(15) Muramatsu, H.; Hayashi, A.; Ohtomo, T.; Hama, S.;
+Tatsumisago, M. Structural Change of Li2S−P2S5 Sulfide Solid
+Electrolytes in the Atmosphere. Solid State Ionics 2011, 182, 116−119.
+(16) Lau, J.; DeBlock, R. H.; Butts, D. M.; Ashby, D. S.; Choi, C. S.;
+Dunn, B. S. Sulfide Solid Electrolytes for Lithium Battery
+Applications. Adv. Energy Mater. 2018, 8, 1800933.
+(17) Walther, F.; Randau, S.; Schneider, Y.; Sann, J.; Rohnke, M.;
+Richter, F. H.; Zeier, W. G.; Janek, J. Influence of Carbon Additives
+on the Decomposition Pathways in Cathodes of Lithium Thio-
+phosphate-Based All-Solid-State Batteries. Chem. Mater. 2020, 32,
+6123−6136.
+(18) Auvergniot, J.; Cassel, A.; Foix, D.; Viallet, V.; Seznec, V.;
+Dedryvère, R. Redox Activity of Argyrodite Li6PS5Cl Electrolyte in
+All-Solid-State Li-Ion Battery: An XPS Study. Solid State Ionics 2017,
+300, 78−85.
+(19) Walther, F.; Koerver, R.; Fuchs, T.; Ohno, S.; Sann, J.; Rohnke,
+M.; Zeier, W. G.; Janek, J. Visualization of the Interfacial
+Decomposition of Composite Cathodes in Argyrodite-Based All-
+Solid-State Batteries Using Time-of-Flight Secondary-Ion Mass
+Spectrometry. Chem. Mater. 2019, 31, 3745−3755.
+(20) Wang, S.; Wu, Y.; Li, H.; Chen, L.; Wu, F. Improving Thermal
+Stability of Sulfide Solid Electrolytes: An Intrinsic Theoretical
+Paradigm. InfoMat 2022, 4, No. e12316.
+(21) Song, R.; Xu, R.; Wang, Z.; Yang, M.; Yan, X.; Yu, C.; Zhang, L.
+Oxide Doping Improving Interface Performance for Li7P3S11 Solid
+Electrolytes. J. Alloys Compd. 2022, 921, 166125.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13437
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+
+=== 第 10 页 ===
+(22) Lv, L.; Ahmad, N.; Zeng, C.; Yu, P.; Song, T.; Dong, Q.; Yang,
+W. Enhanced Air and Electrochemical Stability of Li 7 P 2.9 Ge 0.05 S
+10.75 O 0.1 Electrolytes with High Ionic Conductivity for
+Thiophosphate-Based All-Solid-State Batteries. ACS Appl. Mater.
+Interfaces 2022, 14, 39985−39995.
+(23) Chen, S.; Xie, D.; Liu, G.; Mwizerwa, J. P.; Zhang, Q.; Zhao, Y.;
+Xu, X.; Yao, X. Sulfide Solid Electrolytes for All-Solid-State Lithium
+Batteries: Structure, Conductivity, Stability and Application. Energy
+Storage Mater. 2018, 14, 58−74.
+(24) Ren, H. T.; Zhang, Z. Q.; Zhang, J. Z.; Peng, L. F.; He, Z. Y.;
+Yu, M.; Yu, C.; Zhang, L.; Xie, J.; Cheng, S. J. Improvement of
+Stability and Solid-State Battery Performances of Annealed 70Li2S−
+30P2S5 Electrolytes by Additives. Rare Met. 2022, 41, 106−114.
+(25) Xu, R.; Xia, X.; Wang, X.; Xia, Y.; Tu, J. Tailored Li2S−P2S5
+Glass-Ceramic Electrolyte by MoS2 Doping, Possessing High Ionic
+Conductivity for All-Solid-State Lithium-Sulfur Batteries. J. Mater.
+Chem. A 2017, 5, 2829−2834.
+(26) Seino, Y.; Nakagawa, M.; Senga, M.; Higuchi, H.; Takada, K.;
+Sasaki, T. Analysis of the Structure and Degree of Crystallisation of
+70Li2S−30P2S5 Glass Ceramic. J. Mater. Chem. A 2015, 3, 2756−
+2761.
+(27) Ahmad, N.; Zhou, L.; Faheem, M.; Tufail, M. K.; Yang, L.;
+Chen, R.; Zhou, Y.; Yang, W. Enhanced Air Stability and High Li-Ion
+Conductivity of Li6.988P2.994Nb0.2S10.934O0.6 Glass−Ceramic
+Electrolyte for All-Solid-State Lithium−Sulfur Batteries. ACS Appl.
+Mater. Interfaces 2020, 12, 21548−21558.
+(28) Minami, K.; Mizuno, F.; Hayashi, A.; Tatsumisago, M.
+Structure and Properties of the 70Li2S·(30−x)P2S5·xP2O5 Oxy-
+sulfide Glasses and Glass−Ceramics. J. Non-Cryst. Solids 2008, 354,
+370−373.
+(29) Zhang, N.; Ding, F.; Yu, S.; Zhu, K.; Li, H.; Zhang, W.; Liu, X.;
+Xu, Q. Novel Research Approach Combined with Dielectric Spectrum
+Testing for Dual-Doped Li7P3S11 Glass-Ceramic Electrolytes. ACS
+Appl. Mater. Interfaces 2019, 11, 27897−27905.
+(30) Huang, B.; Yao, X.; Huang, Z.; Guan, Y.; Jin, Y.; Xu, X.
+Li3PO4-Doped Li7P3S11 Glass-Ceramic Electrolytes with Enhanced
+Lithium Ion Conductivities and Application in All-Solid-State
+Batteries. J. Power Sources 2015, 284, 206−211.
+(31) Zhou, L.; Tufail, M. K.; Yang, L.; Ahmad, N.; Chen, R.; Yang,
+W. Cathode-Doped Sulfide Electrolyte Strategy for Boosting All-
+Solid-State Lithium Batteries. Chem. Eng. J. 2019, 391, 123529.
+(32) Zhou, L.; Tufail, M. K.; Ahmad, N.; Song, T.; Chen, R.; Yang,
+W. Strong Interfacial Adhesion between the Li2S Cathode and a
+Functional Li7P2. 9Ce0. 2S10. 9Cl0. 3 Solid-State Electrolyte
+Endowed Long-Term Cycle Stability to All-Solid-State Lithium−
+Sulfur Batteries. ACS Appl. Mater. Interfaces 2021, 13, 28270−28280.
+(33) Choi, J.; Myung, Y.; Kim, S.-K. Flexible Sodium-Ion Battery
+Anodes Using Indium Sulfide-Based Nanohybrid Paper Electrodes.
+Appl. Surf. Sci. 2019, 467−468, 1040−1045.
+(34) Wang, Z.; Jiang, Y.; Wu, J.; Jiang, Y.; Huang, S.; Zhao, B.; Chen,
+Z.; Zhang, J. Reaction Mechanism of Li2S-P2S5 System in
+Acetonitrile Based on Wet Chemical Synthesis of Li7P3S11 Solid
+Electrolyte. Chem. Eng. J. 2020, 393, 124706.
+(35) Wenzel, S.; Weber, D. A.; Leichtweiss, T.; Busche, M. R.; Sann,
+J.; Janek, J. Interphase Formation and Degradation of Charge Transfer
+Kinetics between a Lithium Metal Anode and Highly Crystalline
+Li7P3S11 Solid Electrolyte. Solid State Ionics 2016, 286, 24−33.
+(36) Tufail, M. K.; Ahmad, N.; Zhou, L.; Faheem, M.; Yang, L.;
+Chen, R.; Yang, W. Insight on Air-Induced Degradation Mechanism
+of Li7P3S11 to Design a Chemical-Stable Solid Electrolyte with High
+Li2S Utilization in All-Solid-State Li/S Batteries. Chem. Eng. J. 2021,
+425, 130535.
+(37) Li, Y.; Li, J.; Cheng, J.; Xu, X.; Chen, L.; Ci, L. Enhanced Air
+and Electrochemical Stability of Li7P3S11−Based Solid Electrolytes
+Enabled by Aliovalent Substitution of SnO2. Adv. Mater. Interfaces
+2021, 8, 2100368.
+(38) Jiang, Z.; Liang, T.; Liu, Y.; Zhang, S.; Li, Z.; Wang, D.; Wang,
+X.; Xia, X.; Gu, C.; Tu, J. Improved Ionic Conductivity and Li
+Dendrite Suppression Capability toward Li7P3S11-Based Solid
+Electrolytes Triggered by Nb and O Cosubstitution. ACS Appl.
+Mater. Interfaces 2020, 12, 54662−54670.
+(39) Xu, R. C.; Xia, X. H.; Yao, Z. J.; Wang, X. L.; Gu, C. D.; Tu, J.
+P. Preparation of Li7P3S11 Glass-Ceramic Electrolyte by Dissolution-
+Evaporation Method for All-Solid-State Lithium Ion Batteries.
+Electrochim. Acta 2016, 219, 235−240.
+(40) Ito, S.; Nakakita, M.; Aihara, Y.; Uehara, T.; Machida, N. A
+Synthesis of Crystalline Li7P3S11 Solid Electrolyte from 1,2-
+Dimethoxyethane Solvent. J. Power Sources 2014, 271, 342−345.
+(41) Wang, Z.; Jiang, Y.; Wu, J.; Jiang, Y.; Ma, W.; Shi, Y.; Liu, X.;
+Zhao, B.; Xu, Y.; Zhang, J. Doping Effects of Metal Cation on Sulfide
+Solid Electrolyte/Lithium Metal Interface. Nano Energy 2021, 84,
+105906.
+(42) Kim, J.-S.; Jung, W. D.; Shin, S. S.; Yang, S.; Park, S.; Lee, J.-H.;
+Kim, B.-K.; Lee, J.-H.; Kim, H. Roles of Polymerized Anionic Clusters
+Stimulating for Hydrolysis Deterioration in Li7P3S11. J. Phys. Chem.
+C 2021, 125, 19509−19516.
+(43) Jiang, Z.; Peng, H.; Liu, Y.; Li, Z.; Zhong, Y.; Wang, X.; Xia, X.;
+Gu, C.; Tu, J. A. Versatile Li6.5In0.25P0.75S5I Sulfide Electrolyte
+Triggered by Ultimate-Energy Mechanical Alloying for All-Solid-State
+Lithium Metal Batteries. Adv. Energy Mater. 2021, 11, 2101521.
+(44) Zhu, Y.; He, X.; Mo, Y. First Principles Study on
+Electrochemical and Chemical Stability of Solid Electrolyte−
+Electrode Interfaces in All-Solid-State Li-Ion Batteries. J. Mater.
+Chem. A 2016, 4, 3253−3266.
+(45) Dewald, G. F.; Ohno, S.; Kraft, M. A.; Koerver, R.; Till, P.;
+Vargas-Barbosa, N. M.; Janek, J.; Zeier, W. G. Experimental
+Assessment of the Practical Oxidative Stability of Lithium
+Thiophosphate Solid Electrolytes. Chem. Mater. 2019, 31, 8328−
+8337.
+(46) Swamy, T.; Chen, X.; Chiang, Y.-M. Electrochemical Redox
+Behavior of Li Ion Conducting Sulfide Solid Electrolytes. Chem.
+Mater. 2019, 31, 707−713.
+(47) Banerjee, A.; Wang, X.; Fang, C.; Wu, E. A.; Meng, Y. S.
+Interfaces and Interphases in All-Solid-State Batteries with Inorganic
+Solid Electrolytes. Chem. Rev. 2020, 120, 6878−6933.
+(48) Koerver, R.; Walther, F.; Aygün, I.; Sann, J.; Dietrich, C.; Zeier,
+W. G.; Janek, J. Redox-Active Cathode Interphases in Solid-State
+Batteries. J. Mater. Chem. A 2017, 5, 22750−22760.
+(49) Dietrich, C.; Koerver, R.; Gaultois, M. W.; Kieslich, G.; Cibin,
+G.; Janek, J.; Zeier, W. G. Spectroscopic Characterization of Lithium
+Thiophosphates by XPS and XAS−a Model to Help Monitor
+Interfacial Reactions in All-Solid-State Batteries. Phys. Chem. Chem.
+Phys. 2018, 20, 20088−20095.
+(50) Dietrich, C.; Weber, D. A.; Sedlmaier, S. J.; Indris, S.; Culver, S.
+P.; Walter, D.; Janek, J.; Zeier, W. G. Lithium Ion Conductivity in
+Li2S−P2S5 Glasses −Building Units and Local Structure Evolution
+during the Crystallization of Superionic Conductors Li3PS4,
+Li7P3S11 and Li4P2S7. J. Mater. Chem. A 2017, 5, 18111−18119.
+(51) Hakari, T.; Nagao, M.; Hayashi, A.; Tatsumisago, M. All-Solid-
+State Lithium Batteries with Li3PS4 Glass as Active Material. J. Power
+Sources 2015, 293, 721−725.
+(52) Hakari, T.; Deguchi, M.; Mitsuhara, K.; Ohta, T.; Saito, K.;
+Orikasa, Y.; Uchimoto, Y.; Kowada, Y.; Hayashi, A.; Tatsumisago, M.
+Structural and Electronic-State Changes of a Sulfide Solid Electrolyte
+during the Li Deinsertion−Insertion Processes. Chem. Mater. 2017,
+29, 4768−4774.
+(53) Zhu, G.-L.; Zhao, C.-Z.; Yuan, H.; Zhao, B.-C.; Hou, L.-P.;
+Cheng, X.-B.; Nan, H.-X.; Lu, Y.; Zhang, J.; Huang, J.-Q.; Liu, Q.-B.;
+He, C.-X.; Zhang, Q. Interfacial Redox Behaviors of Sulfide
+Electrolytes in Fast-Charging All-Solid-State Lithium Metal Batteries.
+Energy Storage Mater. 2020, 31, 267−273.
+(54) Yao, X.; Liu, D.; Wang, C.; Long, P.; Peng, G.; Hu, Y.-S.; Li, H.;
+Chen, L.; Xu, X. High-Energy All-Solid-State Lithium Batteries with
+Ultralong Cycle Life. Nano Lett. 2016, 16, 7148−7154.
+ACS Applied Energy Materials
+www.acsaem.org
+Article
+https://doi.org/10.1021/acsaem.2c02110
+ACS Appl. Energy Mater. 2022, 5, 13429−13438
+13438
+Downloaded from pubs.​acs.​org/​aaemcq/​article-pdf/​5/​11/​13429/​4459066/​ae2c02110.​pdf by TSINGHUA UNIV user on 28 September 2026
+

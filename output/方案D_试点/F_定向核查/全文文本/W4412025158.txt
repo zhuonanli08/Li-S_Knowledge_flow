@@ -1,0 +1,1243 @@
+=== 第 1 页 ===
+Carrier transport in sulfur cathodes of all-solid-state lithium-sulfur 
+batteries: Challenges, strategies, and characterizations
+Haoyue Zhong a,b, Changbao Zhu a,b,*
+a Guangdong Provincial Key Laboratory of Sensing Physics and System Integration Applications, Guangdong University of Technology, Guangzhou 510006, China
+b School of Physics and Optoelectronic Engineering, Guangdong University of Technology, Guangzhou 510006, China
+A R T I C L E I N F O
+Keywords:
+Carrier transport
+Sulfur cathodes
+All-solid-state lithium‑sulfur batteries
+A B S T R A C T
+All-solid-state lithium‑sulfur batteries (ASSLSBs) have emerged as promising candidates for next-generation 
+energy storage systems due to their high energy density, excellent safety, and low cost. However, the inher­
+ently low electronic and ionic conductivity of sulfur, as well as inadequate solid-solid interfacial contact, leads to 
+sluggish electrochemical reaction kinetics, severely impacting the electrochemical performance of ASSLSBs. To 
+address these challenges, various modification strategies have been developed, focusing on improving charge 
+carrier transport to enhance electrochemical activity and stability of the sulfur cathode. Here, we present a 
+comprehensive review of the key electronic and ionic transport limitations in the sulfur cathode of ASSLSBs, 
+along with the modification strategies and advanced characterization techniques. Finally, we highlight future 
+research directions for the development of sulfur cathodes in realizing high-performance ASSLSBs.
+1. Introduction
+Lithium‑sulfur (Li −
+S) batteries, owing to their exceptionally high 
+energy density, abundant sulfur resource reserves, and low-cost raw 
+materials, have emerged as one of the most promising candidates for 
+next-generation high-energy storage systems [1]. Unlike conventional 
+lithium-ion batteries that rely on the intercalation reaction mechanisms 
+of metal oxide cathodes, where each transition metal ion typically fa­
+cilitates the transfer of 0.5 to 1 electron, sulfur cathodes operate via a 
+distinct two-electron conversion reaction (S8 + 16Li → 8Li2S) [2]. This 
+reaction enables a theoretical specific capacity of 1675 mAh g−1, nearly 
+7 times higher than that of traditional LiFePO4 cathode [3]. However, 
+the commercialization of Li −
+S batteries faces several significant chal­
+lenges. In traditional liquid electrolyte systems, sulfur cathode un­
+dergoes a multiphase redox transformation, progressing from solid 
+sulfur to soluble lithium polysulfides (LiPSs, Li2Sn, 4 ≤n ≤8) in the 
+liquid phase and eventually to solid lithium sulfide (Li2S2/Li2S) [4]. The 
+high solubility of LiPSs in ether-based electrolytes induces a problematic 
+shuttle effect that arises from the migration of LiPSs between the sulfur 
+cathode and the lithium anode, driven by concentration gradients. The 
+shuttle effect leads to the irreversible loss of active materials, degrada­
+tion of the lithium anode, and severe self-discharge issues, all of which 
+severely impair battery performance. Additionally, the use of flammable 
+organic solvents in liquid electrolyte systems increases safety risks, 
+posing further obstacles to the practical application of Li −
+S batteries 
+[5,6].
+All-solid-state Li −
+S batteries (ASSLSBs) based on sulfide solid 
+electrolytes achieve a solid-solid conversion of S ↔ Li2S, fundamentally 
+eliminating the shuttle effect caused by LiPSs [7]. Sulfide solid elec­
+trolytes (SSEs) are widely recognized as one of the most promising 
+candidate materials for ASSLSBs due to their exceptional advantages in 
+ionic transport and interface stability [8,9]. The ability of Li+ to migrate 
+between stable sites in the sulfide lattice enables these electrolytes to 
+achieve ionic conductivities as high as 10−2 S cm−1. Additionally, SSEs 
+exhibit outstanding mechanical strength and excellent chemical stabil­
+ity, along with high chemical compatibility with active sulfur and its 
+discharge product Li2S. Through process optimizations, such as cold- 
+pressing, close contact can be established between the cathode mate­
+rial and SSEs, forming a highly chemically compatible interface that 
+enhances system stability and efficiency.
+Despite these promising attributes, sulfide-based ASSLSBs face sig­
+nificant scientific and technological challenges in practical applications, 
+primarily concerning charge carrier transport dynamics [10]. The 
+inherently low electronic/ionic conductivities of both S8 and Li2S 
+* Corresponding author at: Guangdong Provincial Key Laboratory of Sensing Physics and System Integration Applications, Guangdong University of Technology, 
+Guangzhou 510006, China.
+E-mail address: zhuchangbao123@gmail.com (C. Zhu). 
+Contents lists available at ScienceDirect
+Solid State Ionics
+journal homepage: www.elsevier.com/locate/ssi
+https://doi.org/10.1016/j.ssi.2025.116945
+Received 29 March 2025; Received in revised form 22 May 2025; Accepted 27 June 2025  
+Solid State Ionics 428 (2025) 116945 
+Available online 4 July 2025 
+0167-2738/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+=== 第 2 页 ===
+severely impede charge transport within cathode composites [11]. 
+Moreover, the inadequate contact at solid-solid interface further com­
+promises the effective pathways for both electronic and ionic transport 
+processes. This results in reduced sulfur utilization and significantly 
+hinders the reaction kinetics of the sulfur cathode during charge and 
+discharge processes. The interface instability negatively impacts the 
+cycling life and overall electrochemical performance of ASSLSBs. 
+Therefore, from the perspective of solid-state ionic, elucidating the 
+fundamental mechanisms governing electron and ion transport within 
+cathode composites is imperative for rational cathode design and per­
+formance optimization in ASSLSBs.
+In this review, we systematically examine the intrinsic limitations, 
+critical challenges, and strategic solutions associated with carrier 
+transport dynamics in composite sulfur cathodes for ASSLSBs. The 
+comprehensive analysis encompasses multiple aspects, including elec­
+tronic 
+conduction 
+mechanisms, 
+ionic 
+transport 
+phenomena, 
+electrochemical-mechanical coupling failures during cycling, and the 
+application of advanced characterization techniques to elucidate carrier 
+transport behavior (Fig. 1). Finally, we offer a perspective on promising 
+research directions and strategic pathways for the future development of 
+high-performance sulfur cathodes in ASSLSBs.
+2. Fundamentals of ASSLSBs
+ASSLSBs have garnered significant research interest due to their 
+unique capability to mitigate the polysulfide shuttle effect and battery 
+safety concerns. Table 1 summarizes the state-of-the-art electrochemical 
+performance of sulfide-based ASSLSBs as reported in recent literature. 
+Despite these encouraging developments, several fundamental chal­
+lenges persist in achieving commercially viable ASSLSBs, including solid 
+electrolytes, Li anode, and sulfur cathode.
+2.1. Sulfide solid electrolytes
+Sulfide solid electrolytes can be classified into three categories based 
+on their structural characteristics: amorphous glassy, glass-ceramic, and 
+crystal. The typical Li2S-P2S5 glassy electrolytes are prepared by me­
+chanical ball milling or melt quenching methods, exhibiting local 
+structural units such as PS4
+3−(orthothio-phosphate), P2S7
+4−(metathio- 
+phosphate), P2S6
+2−
+(orthothio-diphosphate), and P2S6
+4−
+(metathio- 
+diphosphate) [15]. Notably, 75Li2S-25P2S5 composition exhibits the 
+superior conductivity of 2.8 × 10−4 S cm−1, attributed to its unique Li+
+conduction pathways through isolated PS4
+3−
+polyhedral [16]. Glass- 
+ceramic electrolytes are synthesized through controlled thermal treat­
+ment (<300 ◦C) of glassy precursors, resulting in nanocomposites that 
+contain both amorphous and crystalline phases. Owing to their pro­
+pensity to form metastable crystalline phases, the ionic conductivity of 
+glass-ceramic SSEs can reach the order of ~10−3 S cm−1. For exam–ple, 
+the Li7P3S11 glass-ceramic sulfide obtained by calcining 70Li2S-30P2S5 
+glassy sulfide at 360 ◦C for 2 h exhibits a high ionic conductivity of 3.2 ×
+10−3 S cm−1 [37]. For crystalline SSEs requiring high-temperature sin­
+tering (>400 ◦C), three major structural families dominate: Thio- 
+LISICON, LGPS, and Argyrodite. Among them, the solid electrolyte 
+with the configuration of Li9.54[Si1−δMδ]1.74P1.44S11.1Br0.3O0.6 (M = Ge, 
+Sn; 0 ≤δ ≦ 1) achieves exceptional ionic conductivity (3.2 × 10−2 S 
+cm−1) [38]. However, SSEs suffer from chemical and electrochemical 
+instability issues, which severely hinder their practical implementation. 
+Most SSEs exhibit spontaneous hydrolysis reactions upon exposure to 
+ambient moisture, resulting in structural collapse and severe ionic 
+conductivity reduction [39]. Another critical characteristic is their sta­
+bility in solvents, which is crucial during solution-processed of SSEs. 
+Regrettably, the sensitivity of sulfide SSEs to common organic solvents 
+induces irreversible structural damage and dramatic conductivity dete­
+rioration [40]. The electrochemical stability window (ESW), a key 
+parameter for evaluating SSEs stability, has been systematically char­
+acterized through cyclic voltammetry (CV) measurements using Li/ 
+SSEs/SSEs‑carbon three-electrode cells. These studies consistently 
+reveal a narrow ESW ranging from 1.7 to 2.1 V vs. Li+/Li [41], indi­
+cating limited electrochemical stability. The electrochemical decompo­
+sition behavior of SSEs leads to multiple detrimental effects, such as 
+compromised interface contact, degraded electronic/ionic transport ki­
+netics, and deteriorated battery capacity and cycling performance.
+2.2. Challenges of anodes in ASSLSBs
+Lithium metal has emerged as the most promising anode material for 
+ASSLSBs owing to its exceptional properties: low density (0.59 g cm−3), 
+the lowest potential (−3.04 V vs standard hydrogen electrode), and 
+Fig. 1. Schematic illustration of the research on carrier transport in the sulfur positive electrode of ASSLSBs. Reprint with permission from [12–14].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+2 
+
+=== 第 3 页 ===
+ultra-high theoretical specific capacity (3860 mAh g−1). Nevertheless, 
+the practical application of ASSLSBs is hindered by critical challenges at 
+the Li/SSEs interface, including chemical/electrochemical instability, 
+dendrite formation, and mechanical instability. The chemical instability 
+primarily originates from the relatively weak P–S bonds and M-S bonds 
+(M = Si, Sn, Ge, Al) in SSEs, which undergo spontaneous reactions with 
+Li metal to form interfacial by-products such as Li2S, Li3P and Li-M al­
+loys, resulting in severe interfacial polarization and a dramatic increase 
+in interfacial impedance [42]. Furthermore, the inherent microscopic 
+defects (e.g., voids, cracks, and protrusions) at the Li/SSEs interface 
+result in nonuniform current distribution, promoting localized lithium 
+deposition and rapid dendrite growth. Notably, even at low current 
+densities (<0.1 mA cm2), Li dendrites preferentially nucleate at these 
+interfacial defects and propagate along grain boundaries and pores, ul­
+timately causing interfacial contact failure. Compounding these chal­
+lenges, the substantial volume changes of the sulfur cathode during 
+cycling induce significant stress concentration at the interface [43]. This 
+mechanical stress accelerates grain boundary fracture in SSEs particles, 
+exacerbating dendrite penetration and leading to rapid capacity fading 
+and premature battery failure. To address these challenges, current 
+research efforts primarily focus on two strategies: constructing artificial 
+interface modification layers and developing novel lithium-based alloy 
+anodes. Nevertheless, critical limitations persist in achieving high cur­
+rent density and low potential alloy anode, which remains a funda­
+mental bottleneck for practical applications.
+2.3. Challenge of carrier transport based on solid-solid sulfur conversion
+In traditional liquid-phase Li −S batteries, the redox reactions of the 
+sulfur cathode follow a multiphase conversion pathway, characterized 
+by discharge/charge voltage profiles with two distinct plateaus (Fig. 2a). 
+The dissolution-precipitation mechanism enhances reaction kinetics by 
+leveraging liquid-phase diffusion [44,45]. In contrast, ASSLSBs exhibit a 
+single plateau during cycling, achieving solid-solid conversion that 
+eliminates the shuttle effect caused by LiPSs dissolution and improves 
+cycling stability. Despite the high ionic conductivity of SSEs, ASSLSBs 
+suffer from high overpotential due to the sluggish kinetics of the solid- 
+phase conversion reactions. Recent studies reveal that the sulfur reac­
+tion does not proceed through direct S8-to-Li2S conversion but involves 
+the formation of Li2S2 intermediate, requiring substantial activation 
+energy. [46]. Moreover, both Li2S2 and Li2S are electronically insu­
+lating, and their discontinuous deposition leads to severe interface 
+passivation, restricting ion/electron transport and limiting active sulfur 
+utilization [23]. Furthermore, the significant local structural recon­
+struction during transformation reactions exacerbates kinetic barriers 
+[47]. Thus, developing deeper understanding of the carrier transport 
+mechanisms and optimizing electron/ion migration within the sulfur 
+cathode are critical for improving the electrochemical performance of 
+ASSLSBs.
+To address these challenges, common strategies include introducing 
+conductive additives (e.g., carbonaceous materials) and ionic conduc­
+tors (e.g., functionalized solid electrolytes) into composite sulfur cath­
+odes (Fig. 2b) to construct continuous mixed electronic-ionic transport 
+networks essential for sulfur redox reactions [48]. The interfacial con­
+tact between the components in these multiphase composites de­
+termines ion/electron transport behavior and the electrochemical 
+performance of ASSLSBs. However, the inclusion of a large amount of 
+non-active additives inevitably dilutes the active sulfur content, 
+reducing the energy density of the cathode [49]. Furthermore, the 
+substantial volumetric changes during Li2S formation/decomposition 
+cause interfacial deterioration, obstructing carrier transport and 
+compromising reaction reversibility [50]. Additionally, the high-activity 
+three-phase interfaces (comprising the sulfur, carbon, and SSEs) are 
+prone to accelerate the electrochemical decomposition of the SSEs [51]. 
+The decomposition products are electronically and ionically insulating, 
+forming inert layers over the active interfaces. This degradation 
+Table 1 
+Electrochemical performance of sulfide based ASSLSBs in the recent literature.
+Cathode
+Electrolyte
+Anode
+Active material content wt%
+Active material loading (mg cm¡2)
+Initial capacity (mAh g¡1) @ rate
+Capacity @ rate @ cycling number
+Ref.
+S-VGCF
+LiInPSI
+Li
+70
+1.8
+954 @ 0.05C
+390 @ 0.5C @ 200
+[17]
+S-PPCF
+Li6PS5Cl
+Li-In
+40
+4.5
+1166 @ 0.05C
+710 @ 0.1C @ 200
+[18]
+S-MoS2@PPCF
+Li5.4PS4.4Cl1.6
+Li-In
+36
+3
+1456 @ 0.05C
+1209 @ 0.1C @ 220
+[19]
+S-super P
+Li7P3S11
+Li-In
+30
+1.2
+1542.6 @ 0.1C
+881.3 @ 0.5C @ 100
+[20]
+Co@AB/S
+Li6PS5Cl
+Li-In
+40
+1.5
+1295 @ 0.2C
+565 @ 0.5C @ 1000
+[21]
+S@hCNC39
+Li6PS5Cl
+Li-In
+40
+1.5
+1514 @ 0.1C
+1109 @ 0.2C @ 300
+[22]
+S-LiI
+LGPS
+Li-In
+36
+0.65
+933 @ 0.1C
+979 @ 1C @ 1500
+[23]
+S/NiNC@SSE
+LPSCl
+Li-In
+30
+1
+1506.9 @ 0.05C
+402 @ 2C @ 800
+[24]
+S-EVA
+LGPS
+Li-In
+40
+1.2
+1192.3 @ 0.1C
+1049.2 @ 0.1C @ 100
+[25]
+S9.3I
+Li6PS5Cl
+Li
+40
+3
+811.8 @ 0.1C
+701 @ 0.1C @ 400
+[26]
+S7Se0.5Te0.5
+Li6PS5Cl
+Li-In
+42
+1.34
+1293.9 @ 0.1C
+1033.3 @ 0.5C @ 400
+[27]
+S-C-MIEC20
+Li2S⋅P2S5–TiS2
+Li-In
+50
+1.5
+1471.1 @ 0.1C
+1370.6 @ 0.3C @ 400
+[13]
+S
+Li2S–B2S3–LiI,
+Li-In
+30
+1.1
+1497 @ 1C
+660 @ 5C @ 25,000
+[28]
+S@CNTs
+LGPS
+Li0.8Al
+21
+1.07
+1237 @ 0.2C
+1153 @ 0.2C @ 200
+[29]
+S
+LGPS
+Li2S-Li
+26.2
+0.45
+1117.1 @ 0.1C
+836.8 @ 0.3C @ 200
+[30]
+Li2S-NbSe2
+Li5.25PS4.25ClBr0.75
+Li-In
+21.4
+2.4
+1432 @ 0.1C
+1046 @ 0.5C @ 200
+[31]
+Li2S-0.1In
+Li7P3S11
+Li-In
+17.5
+2.5
+612 @ 0.1C
+504 @ 0.1C @ 200
+[32]
+Li2S + LiVS2
+Li5.5PS4.5Cl1.5
+Li-In
+2
+625 @ 0.1C
+365 @ 1C @ 1000
+[33]
+MoS6
+Li6PS5Cl
+Li
+29.2
+1034.3 @ 0.1 A g−1
+550 @ 0.5 A g−1 @ 1000
+[34]
+CuSC
+LiI–Li3PS4
+Li
+30
+1
+480 @ 0.2 A g−1
+970 @ 0.2 A g−1 @ 800
+[35]
+Co0.1Fe0.9S2
+LGPS, Li2S −
+P2S5 −
+P2O5
+Li
+40
+2
+800 @ 0.5 A g−1
+543.5 @ 0.5 A g−1 @ 100
+[36]
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+3 
+
+=== 第 4 页 ===
+undermines the structural and functional integrity of the three-phase 
+interfaces, ultimately leading to reduced sulfur utilization and aggra­
+vated capacity fading. Therefore, enhancing the carrier transport capa­
+bilities within the sulfur cathode, while stabilizing the cathode- 
+electrolyte interfaces is crucial for overcoming the kinetic and cycling 
+stability challenges in ASSLSBs.
+3. Optimization strategy of the carrier transport in sulfur 
+cathode
+3.1. Electronic conduction
+3.1.1. Sulfur
+Elemental sulfur typically exists in the form of S8 cyclic molecules 
+with intrinsically low electronic conductivity, leading to sluggish reac­
+tion kinetics during the sulfur redox process, significant polarization 
+voltage during charge/discharge, and low active material utilization. 
+For active materials, sufficient electronic and Li+ conductivity is 
+essential to enable efficient redox reactions. Thus, modifying the band 
+structure of sulfur through external doping to enhance its intrinsic 
+electronic conductivity has become a research focus. Among potential 
+dopants, group VI elements such as selenium (Se) and tellurium (Te) are 
+promising dopants due to their electrochemical similarity to sulfur and 
+superior electronic conductivity. Sun et al. introduced Se to form Se–S 
+solid solutions (Fig. 3a), significantly enhancing both the electronic and 
+ionic conductivity of sulfur, which in turn improved the utilization of the 
+active material in the sulfur cathode [52]. This incorporation also soft­
+ened the electrolyte structure, reduced Li+ migration activation energy 
+barrier, and increased the interfacial ionic conductivity to 10−6 S cm−1. 
+Hong et al. studied the intrinsic relationship between chemical hardness 
+and phase transformation kinetics, finding that Se-substituted Li2S 
+cathodes exhibit a low chemical hardness for Li-X bonds, while Te-Li2S 
+cathodes show an even faster reduction in chemical hardness (Fig. 3b). 
+The Te-Li2S cathodes exhibit significant increases in bond/volume strain 
+and more stabilized vacancy formation energies, thereby greatly 
+enhancing Li+ transport efficiency and lowering the phase trans­
+formation barriers during solid-state conversion reactions of crystalline 
+Li2S [53]. More recently, Liu et al. reported a novel approach to regulate 
+Fig. 2. (a) Comparison of charge and discharge curves of ASSLSBs and liquid Li −S batteries. Reprint with permission from [12]. (b) Schematic diagram of the sulfur 
+positive electrode of ASSLSBs and its challenges including mechanical failure, electrolyte degradation, and distorted carrier transport paths. Reprint with permission 
+from [14].
+Fig. 3. (a) Electron densities of S8 and Se2S6, along with DFT calculations of bond cleavage and lithiation reactions in Se2S6 intermediates. Reprint with permission 
+from [52]. (b) Crystal structure models of Li2S, Se-Li2S, and Te-Li2S. Reprint with permission from [53]. (c) Diagram for the preparation of S9.3I. Reprint with 
+permission from [26].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+4 
+
+=== 第 5 页 ===
+sulfur properties by inserting iodine (I2) into the crystalline sulfur lattice 
+to form S9.3I molecular crystals (Fig. 3c). At 25 ◦C, the S9.3I molecular 
+crystal demonstrated a semiconductor-grade conductivity of 5.9 × 10−7 
+S cm−1, which is 11 orders of magnitude higher than that of elemental 
+sulfur. The intercalation of I2 introduced new electronic states within the 
+sulfur band gap, significantly promoting the formation of highly active 
+polysulfides during the electrochemical process and substantially 
+enhancing the electrochemical performance of ASSLSBs [26]. These 
+strategies ranging from band structure modification to structural opti­
+mization effectively improve the electrochemical behavior of sulfur 
+cathode materials.
+3.1.2. Metal sulfide
+Li2S, as a pre-lithiated material, exhibits an electronic conductivity 
+of 3.6 × 10−13 S cm−1, enhancing charge transfer capabilities and pro­
+moting solid-phase sulfur conversion reactions [30]. Yan et al. utilized 
+the combustion reaction of metallic lithium in CS2 to synthesize Li2S@C 
+nanocomposite materials [54]. As shown in Fig. 4a, this approach 
+created a unique structure in which Li2S nanocrystals are uniformly 
+embedded within a conductive carbon matrix, significantly improving 
+electronic conductivity by five orders of magnitude. Fujita et al. devel­
+oped an anti-fluorite structured Li2S-LiI solid solution and investigated 
+its charge-discharge mechanism of Li2S-LiI-C cathodes without addi­
+tional SSEs [55]. The cathode exhibited high reversible capacity due to 
+the formation of LiI-rich phases during charging, which maintained 
+stable ionic conductivity (Fig. 4b). This electrode design eliminated the 
+SSEs interference and removed overlapping peaks in X-ray photoelec­
+tron spectroscopy analysis, facilitating the mechanistic studies of sulfur 
+cathode conversion reactions. Wu et al. adopted a Cu+ and I−co-doping 
+strategy (Fig. 4c), which increased the electronic conductivity and 
+lithium-ion diffusion coefficient of Li2S by five and two orders of 
+magnitude, respectively. Notably, Cu+ acted as a bulk-phase redox 
+mediator, significantly improving the electrochemical reaction kinetics 
+and overall electrochemical performance of the Li2S cathode [56].
+Many transition metal sulfides (Fig. 4d), such as CuS, FeS2, and 
+MoS6, exhibit intrinsic electrical conductivities several orders of 
+magnitude higher than those of S8 and Li2S, enhancing the utilization of 
+active sulfur [34,35,57]. However, due to their high atomic weights, 
+metal sulfide electrodes generally lack a substantial energy density 
+advantage. To address this limitation, researchers have proposed hy­
+bridizing metal sulfides with S8 or designing high‑sulfur-content tran­
+sition metal sulfides to increase the proportion of active material in the 
+composite cathode. Ulissi et al. prepared a carbon-pyrrhotite‑sulfur- 
+based composite via a ball-milling process. Their study revealed that the 
+introduction of sulfur suppressed the formation of the defective pyr­
+rhotite phase, and fully oxidized state of iron improved electrochemical 
+reaction reversibility. The pyrrhotite‑sulfur ratio significantly influ­
+enced the synergistic effects of the material [57]. Additionally, ternary 
+metal sulfides (e.g., Li2TiS3, NiCo5S8, and Mo0.5Ti0.5S4) exhibit superior 
+charge transport properties due to the introduction of cooperative multi- 
+metallic effects [58–60]. However, challenges with transition metal 
+sulfides persist, including their relatively low sulfur content, uneven 
+Fig. 4. (a) Structure diagram of Li2S@C synthesized by the reaction of lithium metal and CS2. Reprint with permission from [54]. (b) Schematic diagram of the 
+charging and discharging mechanism of the Li2S-LiI solid solution. Reprint with permission from [55]. (c) Frame structure diagram of Cu and I doped Li2S. Reprint 
+with permission from [56]. (d) Average output voltage, reversible capacity, and energy density of the positive electrode of various transition metal sulfides. Reprint 
+with permission from [34].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+5 
+
+=== 第 6 页 ===
+distribution of transition metals during electrochemical reactions, and 
+the restructuring of charge transport pathways. These issues lead to poor 
+interfacial stability, impairing the energy density and cycling stability of 
+solid-state batteries.
+3.1.3. Carrier material
+Carbon materials, with high electronic conductivity (>102 S cm−1) 
+and tunable pore structures, serve as the core carrier for cathode ma­
+terial design in ASSLSBs. Zhang et al. proposed a quantitative indicator 
+Carbon Carrier Sensitivity (SA), used to dynamically track pressure and 
+stability induced changes in the carbon‑sulfur network (Fig. 5a) [61]. 
+Their study demonstrated that composite cathodes made from C-811 
+carbon material, a mixture of AB, KB, and VGCFs in an 8:1:1 ratio, 
+exhibited excellent pressure stability, maintained effective electronic 
+pathways, and enabled ASSLSBs with outstanding rate performance, 
+high capacity, and reliable cycling stability. However, in ASSLSBs, sulfur 
+embedded inside the conductive carbon pores fails to fully interact with 
+SSEs, reducing active material utilization. To address this issue, Zhu 
+et al. designed a nitrogen-doped carbon fiber structure with surface 
+micropores [18]. This structure provided excellent electronic conduc­
+tivity, while the abundant surface micropores ensured efficient contact 
+between the active material and the SSE, thereby significantly 
+enhancing battery performance. Additionally, Luo et al. developed a 
+sulfur‑carbon composite cathode material with a hierarchical carbon 
+nanocage structure [62]. As shown in Fig. 5b, this design achieved high 
+sulfur encapsulation and promoted charge transport efficiency through a 
+continuous three-dimensional conductive network, delivering remark­
+able areal capacity under high sulfur loading.
+Furthermore, transition metal‑nitrogen catalysts including TM-N- 
+OMCs, NiNC, and CoNC have been extensively employed to enhance 
+sulfur cathode redox reaction kinetics in ASSLSBs [24,63,64]. He et al. 
+demonstrated that single-atom nickel catalysts significantly accelerated 
+sulfur reduction kinetics. As illustrated in Fig. 5c, the d-orbitals of nickel 
+underwent pronounced vertical hybridization, transforming from the 
+inert dsp2 hybrid state to the active d2sp3 configuration [24]. This 
+electronic reconfiguration substantially improved the reduction effi­
+ciency of Li2S2 to Li2S (Fig. 5d). Zhong et al. synthesized Co-N4-modified 
+carbon materials via a facile ball-milling process to support sublimed 
+sulfur, achieving exceptional electrochemical performance in ASSLSBs 
+[21]. The catalytic mechanism involves d-p orbital hybridization be­
+tween Co–N4 and sulfur species. During discharge, the strong electron 
+transfer facilitated by the Co–S bond effectively weaken S–S bonds, 
+promoting the conversion of sulfur to Li2S (Fig. 5e). During charging, 
+electrons are conducted via the Co–N4 structure to the external circuit 
+while simultaneously weakening Li–S bond strength, thereby reducing 
+the energy barrier for Li2S oxidation (Fig. 5f). These advantages enabled 
+the assembled ASSLSBs to deliver a reversible specific capacity of 993 
+mAh g−1 with a superior capacity retention of 89.6 % after 300 cycles at 
+0.2C (Fig. 5g). Nevertheless, as the sulfur conversion reaction in 
+ASSLSBs significantly differs from that in conventional liquid-state Li −
+S batteries, the precise catalytic pathways and interfacial phenomena 
+warrant further in-depth investigation to fully elucidate their role in 
+Fig. 5. (a) SA measuring dynamic changes in the carbon‑sulfur network. Reprint with permission from [61]. (b) Schematic diagram of hCNC and AB conducting 
+networks. Reprint with permission from [62]. (c) Hybrid orbital and spatial morphology of d2sp3 Ni. (d) Schematic diagram of the catalytic process of NiNC on the 
+sulfur positive electrode. Reprint with permission from [24]. XANES spectral image of Co k-edge at Co@AB/S electrode under different (e) discharge and (f) charge 
+states. (g) Cyclic performance of Co@AB/S and AB/S cathodes at 0.2C. Reprint with permission from [21].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+6 
+
+=== 第 7 页 ===
+enhancing conversion efficiency.
+Recent advances in sulfur cathode design have developed several 
+effective strategies for enhancing electronic conductivity, such as 
+interconnected structures, defect engineering, and electroactive addi­
+tives [65–68]. These approaches significantly improve electron trans­
+port pathways within the cathode architecture, thereby enhancing sulfur 
+utilization and electrochemical reaction kinetics. However, excessive 
+incorporation of conductive additives inherently dilutes the active sulfur 
+content in the cathode, substantially compromising the energy density 
+of ASSLSBs. Therefore, the design of sulfur cathodes necessitates a 
+precise balance among electronic conductivity, sulfur content, and sul­
+fur loading to realize ASSLSBs with both exceptional cycling perfor­
+mance and commercially viable energy densities.
+3.2. Ionic diffusion
+3.2.1. Bulk ionic diffusion
+Despite the excellent ionic conductivity of SSEs, the inherently low 
+ionic conductivity of sulfur and Li2S significantly constrains the overall 
+ionic conductivity of composite cathodes, thereby limiting reaction ki­
+netics in ASSLSBs. To address this issue, Zhao et al. have adopted a 
+multi-chalcogen element synergy strategy with entropy engineering to 
+optimize the sulfur chain structure, successfully constructing short- 
+chain molecular cathodes (Fig. 6a). These innovative short-chain 
+cathodes effectively shorten the sulfur reduction pathway and lower 
+the binding energy of lithium ions, thereby accelerating reaction rates 
+(Fig. 6b). Moreover, the mismatched lithiation lattice reduces the 
+decomposition energy barrier of Li2S, enabling rapid redox kinetics and 
+enhanced electrochemical reversibility at low temperatures. As shown in 
+Fig. 6c, the short-chain cathodes exhibit remarkable performance, 
+achieving a discharge capacity of 579.6 mAh g−1 at −40 ◦C and a ca­
+pacity retention of 98.4 % after 100 cycles at −20 ◦C, with an electrode 
+energy density of 394.9 Wh kg−1 [27]. Additionally, Wang et al. syn­
+thesized a glass-ceramic solid electrolyte, Li3PS4-2LiBH4 (LPB), via a 
+liquid-phase method (Fig. 6d). This advanced electrolyte features low 
+density (1.491 g cm−3), high ionic conductivity (6.0 mS cm−1 at 25 ◦C), 
+and small particle size (~500 nm). As shown in Fig. 6e, the low-density 
+characteristic of LPB increases the electrolyte volume ratio in sulfur 
+cathodes, thereby reducing the proportion of inert bulk sulfur and 
+enhancing the compositional homogeneity of sulfur-based cathodes. 
+Furthermore, the high ionic conductivity of LPB provides reduced in­
+ternal resistance and facilitates excellent ionic transport kinetics, 
+enabling high sulfur utilization efficiency even undern challenging 
+conditions of high sulfur content and high mass loading [69].
+3.2.2. Ionic diffusion at interface
+In ASSLSBs, the sulfur conversion reactions predominantly occur at 
+solid-solid interfaces, rendering interfacial ion diffusion kinetics the 
+Fig. 6. (a) Schematic diagram illustrating the increase in local conformational entropy through the implementation of short-chain cathodes with Se and Te. (b) 
+Schematic diagram of short-chain molecules improving cathode utilization. (c) Cycling performance of ASSLSBs at 0.1C and −
+20 ◦C. Reprint with permission from 
+[27]. (d) Schematic diagram of the liquid phase synthesis of LPB solid electrolyte. (e) Schematic diagram of the impact of solid electrolyte volume content on the 
+transfer of Li+ between particles. Reprint with permission from [69].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+7 
+
+=== 第 8 页 ===
+determining factor in electrochemical performance. In recent years, 
+researchers have significantly improved interfacial ion transport 
+through strategies such as functional electrolyte design, interfacial en­
+gineering, and optimization of composite cathode architectures. Func­
+tional electrolyte design has emerged as a particularly promising 
+approach. As shown in Fig. 7a, Song et al. synthesized an innovative 
+functionalized glass-phase sulfide electrolyte, Li2S-B2S3-P2S5-LiI [28]. 
+The introduction of a surface redox pair (I−/I2/I3
+−) as an electron-ion 
+transport bridge improves the charge transfer efficiency at the Li2S/ 
+SSE interface, thereby accelerating sulfur conversion reaction kinetics. 
+The battery achieved a high specific capacity of 784 mAh g−1 under high 
+charging rates of 20C (1C discharge) and retained 80.2 % capacity 
+retention after 25,000 cycles at 5C, demonstrating excellent cycling 
+stability. To further enhance interfacial ion transport, Shen et al. syn­
+thesized a novel glass-ceramic sulfide electrolyte, Li6.2P0.8W0.2S5I 
+(LPWSI), exhibiting high ionic conductivity of 1.2 mS cm−1 [70]. During 
+the initial charging process, LPWSI undergoes primary decomposition 
+upon contact with the active materials, forming a composite reaction 
+layer (Fig. 7b). Notably, the mixed electronic-ionic conductor WS2 
+within this interfacial layer not only improves the electronic and Li+
+transport pathways at the interface but also facilitates the conversion of 
+Li4P2S7 to Li3PS4. This process effectively prevents the irreversible 
+accumulation of decomposition products, thereby enhancing the redox 
+reversibility and overall performance of the sulfur cathode.
+Fig. 7. (a) Schematic diagram of the mechanism of fast charging by redox medium. Reprint with permission from [28]. (b) Diagram of interfacial decomposition 
+products and their effects on LPWSI and LPSI catholytes. Reprint with permission from [70]. (c) The diagram of S8 and LPSCl interface and electrochemical per­
+formance in different mixing methods. Reprint with permission from [71]. (d) Schematic diagram depicting the formation of SSEs in the composite sulfur positive 
+electrode. Reprint with permission from [72].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+8 
+
+=== 第 9 页 ===
+In terms of interfacial engineering, Kim et al. employed a sophisti­
+cated solvent-mediated approach utilizing isopropyl acetate as a weakly 
+polar solvent to induce interfacial reactions between S8 and Li6PS5Cl 
+(LPSC) [71]. This process facilitated the formation of a Li+-conductive 
+intermediate phase composed of polysulfides (3Li+-PS4
+4−), enhancing 
+the interfacial contact and ionic conductivity of the sulfur cathode, 
+thereby improving the electrochemical performance of ASSLSBs 
+(Fig. 7c). Furthermore, Peng et al. adopted a mechanical ball-milling 
+technique to in-situ generate the ionic conductor Li3PS4 on the surface 
+of Li2S active materials (Fig. 7d), fabricating an 85(92 Li2S-8P2S5)-15AB 
+composite cathode. The resulting in-situ coating structure significantly 
+enhanced the interfacial contact between the cathode materials and the 
+electrolyte, establishing an efficient ion transport network that greatly 
+improved the reaction kinetics and cycling performance of ASSLSBs 
+[72]. These pioneering interfacial optimization strategies have notably 
+enhanced the structural stability and interfacial ionic conductivity of 
+sulfur composite cathodes.
+3.3. Hybrid electronic/ionic transport
+In the traditional design of composite sulfur cathodes, the limited 
+triple-phase interface between sulfur, carbon, and SSEs restricts the 
+accessibility of sulfur to both electronic and ionic conductive pathways. 
+This results in the formation of “dead sulfur” domains that cannot 
+participate in electrochemical reactions, thereby substantially reducing 
+cathode utilizing efficiency. To overcome this limitation, the strategic 
+development of mixed ionic and electronic conductors (MIECs) has 
+emerged as a promising strategy to break the constraints of traditional 
+triple-phase interfaces. These bifunctional materials provide simulta­
+neous pathways for both ionic and electronic transport, dramatically 
+enhancing active material accessibility and utilization. As shown in 
+Fig. 8a, Wang et al. demonstrated an amorphous Li-Ti-P-S material as an 
+effective MIEC [13]. This material demonstrated ionic conductivity 
+comparable to conventional SSEs. Moreover, the incorporation of TiS2 
+significantly reduced the bandgap of the material, leading to an 
+impressive electronic conductivity of up to 10−2 S cm−1 at room tem­
+perature. The assembled ASSLSBs with Li-Ti-P-S material achieved un­
+precedented electrochemical performance: 87.3 % sulfur utilization 
+Fig. 8. (a) Diagram of traditional three-phase structure and two-phase structure using MIEC in ASSLSBs. Reprint with permission from [13]. (b) Diagram of charge- 
+carrier transport process for the three-phase interface and two-phase interface in the Li2S positive electrodes. Reprint with permission from [33]. (c) Comparison of 
+the three-phase electrode and the integrated two-phase electrode, including diagrams of Li+ and e−transport paths, as well as electrochemical reaction locations. 
+Reprint with permission from [73].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+9 
+
+=== 第 10 页 ===
+efficiency, impressive specific discharge capacity of 1450 mAh g−1, 
+conversion efficiency exceeding 94 %, and excellent long-term cycling 
+stability exceeding 1000 cycles, demonstrating the effectiveness of the 
+mix conductor design. Additionally, Nazar et al. reported a sophisticated 
+Li2S/LiVS2 core-shell composite cathode, wherein the LiVS2 shell func­
+tions as a solid-state redox mediator at the interface [33]. This shell 
+provided efficient dual electron/ion transport pathways and optimized 
+the interfacial reaction kinetics (Fig. 8b). The assembled ASSLSBs, 
+operating at room temperature with a current density of 1 mA cm−2 and 
+an active material loading of 4 mg cm−2, achieved a capacity retention 
+of 77 % after 1000 cycles.
+Further research has introduced a novel concept of all electro­
+chemically active (AEA) electrodes composed entirely of MIEC mate­
+rials. This innovative design aims to directly replace conventional 
+conductive carbon and SSEs, thereby reducing the proportion of inactive 
+components in the electrode. As shown in Fig. 8c, Li et al. utilized Mo6S8 
+(Chevrel phase) as an MIEC material to design AEA electrodes [73]. The 
+electronic/ionic co-conductive network in the cathode eliminates the 
+imbalances and uneven reactions observed in traditional triple-phase 
+interfaces, enhancing electrode reaction kinetics. These studies 
+emphasize that the rational design and implementation of advanced 
+MIEC materials can not only provide efficient electron/ion transport 
+pathways for sulfur cathodes, significantly improving reaction kinetics; 
+but also reduce the proportion of inactive components in cathodes, 
+which contribute to the development of high-energy-density ASSLSBs.
+4. Challenges and strategies of carrier transport during the 
+electrochemical reaction
+4.1. Mechanical-electrochemical failure
+The pronounced mechanical property mismatch between S8 and 
+SSEs, particularly in elastic modulus and bulk modulus, leads to triple- 
+phase interface contact failure during the charge/discharge process in 
+ASSLSBs [74,75]. Masanori et al. conducted post-mortem analysis 
+revealing the occurrence of micro-scale phase segregation phenomena 
+on the surface of sulfur cathodes in ASSLSBs [47]. This interfacial 
+degradation obstructs electron and ion transport pathways, severely 
+reducing active material utilization. To address this issue, a three- 
+dimensional conductive graphene structure with a large pore network 
+was employed as a sulfur host material. This structure not only accom­
+modated substantial sulfur content (50 %) but also effectively suppresses 
+the phase segregation through spatial confinement and strong surface 
+interactions, enhancing interfacial contact stability and electrochemical 
+performance.
+In addition, sulfur-based active materials undergo dramatic volu­
+metric changes during electrochemical processes. The complete lith­
+iation of S8 to Li2S induces a substantial volume expansion of 6.09 cm3 
+Fig. 9. (a) Schematic diagram of contact and diffusion loss, and In modification at the three-phase interface in ASSLSBs under low stacking pressure. Reprint with 
+permission from [76]. (b) Schematic diagram of the conversion reaction of Li2S-LixIn2S3 in ASSLSBs. Reprint with permission from [32]. (c) Schematic diagram of the 
+structure of the S-EVA composite sulfur positive electrode. Reprint with permission from [25]. (d) Schematic diagram of the change in the conductive network with 
+volume change in the PPy@NCNT and AB positive electrodes. (e) Cyclic performance of PPy@NCNT and AB cathodes at 0.2C and 30 ◦C. Reprint with permission 
+from [77].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+10 
+
+=== 第 11 页 ===
+mol−1, corresponding to an increase of 80 % [50]. These volume 
+changes cause voids on the surface of cathode, disrupt electronic/ionic 
+transport pathways, and accumulate internal stress, ultimately causing 
+cathode structure collapse and cycling performance deterioration. Un­
+like liquid electrolytes, rigid SSEs in ASSLSBs cannot buffer these stress 
+changes. To mitigate the mechanical and electrochemical challenges 
+associated with performance degradation in sulfur cathodes, researchers 
+have made significant progress through the design of efficient sulfur host 
+materials, flexible conductive networks, and elastic buffering structures. 
+Chen et al. proposed an innovative decoupling strategy separating 
+electrochemical contact area (ECA) losses from diffusion kinetics losses 
+[76]. Their findings revealed that ECA losses primarily occur during the 
+charging process, while the diffusion kinetics are limited by stack 
+pressure variation during discharge (Fig. 9a). They introduced indium 
+(In) as an additive, which undergoes in-situ transformation to In2S3/InS 
+during cycling, effectively stabilizing sulfur cathode volumetric fluctu­
+ations and improving interfacial stability. The assembled ASSLSBs 
+delivered a specific capacity of 810 mAh g−1 under 1 MPa pressure, 
+increasing to 1198 mAh g−1 under 7 MPa pressure, with excellent 
+cycling performance across various compaction pressures. Yu et al. 
+synthesized a Li2S-LiIn2S3 composite cathode using high-energy ball 
+milling. As shown in Fig. 9b, LiIn2S3 serves as both a charge carrier 
+transfer medium and a Li-activating redox mediator, ensuring efficient 
+electron/ion transport at the cathode interface while mitigating up to 
+70 % of the relative cathode volume change [32]. Incorporating a charge 
+carrier redox mediator in the cathode alleviates the volume change 
+stress, enhances reaction kinetics, and secures the superior electro­
+chemical performance of ASSLSBs.
+Flexible polymers with mechanical buffering properties have shown 
+remarkable promise in preventing electrochemical-mechanical failure. 
+Lu et al. constructed a composite sulfur cathode using thermoplastic 
+elastomer ethylene vinyl acetate (EVA) to form a mechanically elastic 
+cross-linked structure [25]. As shown in Fig. 9c, the ethylene component 
+provides a rigid framework to enhance adhesion strength, while the 
+vinyl acetate component offers a flexible buffering structure to absorb 
+volumetric expansion and maintain continuous pathways for electron/ 
+ion transport. This elastic cross-linked structure reduced pressure fluc­
+tuations by 33.7 % during charge/discharge and delivered a high areal 
+capacity of 3.0 mAh cm−2 at a sulfur loading of 7.5 mg cm−2. Moreover, 
+Ma et al. developed a continuous flexible conductive network by coating 
+polypyrrole (PPy) onto nitrogen-doped carbon nanotubes (NCNTs), 
+providing a mechanically robust electron transport pathway for sulfur 
+cathodes [77]. As shown in Fig. 9d, the PPy coating deformed elastically 
+along with the volume changes of active materials, maintaining effective 
+electrical contact throughout cycling. This flexible electrode achieved a 
+high areal capacity of 6 mAh cm−2 at 0.1C (1348 mAh g−1) and retained 
+excellent capacity retention after 300 cycles at 0.2C (Fig. 9e). These 
+innovative approaches have proven effective in suppressing volumetric 
+effects 
+and 
+enhancing 
+interfacial 
+stability, 
+and 
+alleviating 
+electrochemical-mechanical challenges in sulfur cathode.
+4.2. Electrochemical decomposition failure
+Sulfur and SSEs within composite cathodes exhibit excellent chem­
+ical compatibility, effectively reducing interfacial impedance. However, 
+the decomposition voltage window of SSEs overlaps with the operating 
+voltage range of ASSLSBs [51]. The inevitable electrolyte decomposition 
+results in the formation of inert phases that severely compromise the 
+Fig. 10. (a) The effect of compatibility between different SSEs and sulfur cathode on the interface after cycling. Reprint with permission from [20]. (b) Schematic 
+diagram of charge and discharge of lithium salts with OOV above and below 2.6 V in the Li2S positive electrode. Reprint with permission from [81]. (c) Effect of 
+adding highly conductive carbon to electrodes on capacity and stability. Reprint with permission from [12]. (d) Schematic diagram of the introduction of ALD 
+derived coating strategies in sulfur composites for ASSLSBs. Reprint with permission from [82].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+11 
+
+=== 第 12 页 ===
+electrochemical reactivity of sulfur cathode. As shown in Fig. 10a, Zhu 
+et al. systematically investigated the impact of three typical SSEs 
+including 0.7Li3PS4⋅0.3LiI, Li10GeP2S12, and Li7P3S11, used as ionic 
+conductors in composite cathodes on the electrochemical performance 
+of ASSLSBs [20]. Among these, Li7P3S11 exhibited superior reaction ki­
+netics and electrochemical stability, indicating excellent interfacial 
+compatibility. Based on this, researchers have developed a variety of 
+novel SSEs with high ionic conductivity and improved electrochemical 
+stability, such as Li7P2.9Mn0.1S10.7I0.3, Li7P2.9Y0.1S10.8I0.2 and Li7P2­
+S8I0.5Cl0.5 [78–80].
+Additionally, researchers have explored interfacial modification 
+strategies by incorporating ionic conductor additives with high elec­
+trochemical stability. As shown in Fig. 10b, Hayashi et al. revealed that 
+the electrochemical decomposition window of the ionic conductor ad­
+ditives had a significant effect on the interface stability between the 
+active material and electrolyte [81]. When oxidation onset voltage 
+(OOV) of Li salt additives is below 2.6 V, an unstable interface forms, 
+causing significant capacity fading of the Li2S cathode. In contrast, OOV 
+above 2.6 V improve cathode capacity due to the high ionic conductivity 
+of the additives. Based on these findings, they designed a Li3PO4-Li2SO4 
+ionic conductor with a high oxidative decomposition voltage (2.7 V) and 
+excellent interfacial stability. This material provided a stable nanoscale 
+ionic conduction network, enabling effective ionic transport in the 
+cathode. ASSLSBs incorporating Li3PO4-Li2SO4 ionic conductors ach­
+ieved an initial capacity of 1000 mAh g−1 at a sulfur loading of 10 mg 
+cm−2 and at 25 ◦C, with stable cycling over 100 cycles. More important, 
+the extensive use of conductive carbon materials in composite cathodes 
+can trigger the electrochemical decomposition of SSEs (Fig. 10c), dete­
+riorating cycling stability [12]. Zhong et al. proposed an interfacial 
+engineering strategy involving the coating of nano-sized Li3PO4 on 
+carbon/sulfur particles (Fig. 10d) [82]. This interfacial modification 
+effectively prevented electronic conduction between the carbon matrix 
+and the electrolyte, suppressing SSE decomposition and enhancing 
+interfacial stability. ASSLSBs with coating layer achieved an initial 
+specific capacity of 1322 mAh g−1 at 0.2C, with a capacity retention of 
+86.4 % over 300 cycles. Therefore, reasonable interfacial engineering 
+strategies can mitigate electrochemical degradation and maintain 
+effective Li+ transport in ASSLSBs.
+5. Characterization of carrier transport properties
+The characterization of carrier transport in composite cathode ma­
+terials is crucial for understanding their electrochemical behavior in 
+ASSLSBs. Cyclic voltammetry is widely employed to evaluate the elec­
+trochemical stability window of SSEs [14]. A battery system with sulfide 
+electrolytes as the cathode and Li–In as the anode shows that (Fig. 11a), 
+without conductive carbon, current signals are extremely weak, indi­
+cating limited electrolyte decomposition. However, with conductive 
+carbon, distinct redox peaks reveal the decomposition behavior of SSEs, 
+depending on the electronic contact area. Fig. 11b illustrates different 
+battery configurations for assessing the effective conductivity of com­
+posite cathodes. Battery configuration (I) is used to measure the ionic 
+conductivity of composite materials. Under a bias voltage, the total 
+impedance of the battery is obtained, and by decoupling the resistance at 
+the LiIn anode/SSE interface and the ionic conduction impedance of the 
+electrolyte, the ionic transport resistance of the composite cathode and 
+its corresponding ionic conductivity can be determined. Battery 
+configuration (II) enables the direct measurement of electronic con­
+ductivity in composite cathodes via DC testing combined with Ohm’s 
+law. Meanwhile, configuration (III) utilizes AC impedance spectroscopy 
+to evaluate the effective ionic transport properties of the composite 
+cathode, and configuration (IV) assesses the effective Li+ transport 
+under an applied voltage. For instance, Kumar et al. used the trans­
+mission line model (TLM) to analyze the impedance evolution of sulfur 
+Fig. 11. (a) Cyclic voltammetry curves of SSE and SSE-C electrodes, and schematic diagram of electrolyte degradation. (b) Battery structure for various measure­
+ments. Reprint with permission from [14]. (c) Schematic diagram of a transmission line model for the kinetic study of the sulfur positive electrode. Reprint with 
+permission from [83].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+12 
+
+=== 第 13 页 ===
+cathodes during cycling (Fig. 11c), revealing that the electrochemical 
+reaction kinetics were significantly limited by ionic diffusion and 
+migration [83]. Zeier et al. employed TLM to study the ionic transport 
+activation energy of LPSC-C composite materials, proposing the concept 
+of a “stability window for effective conductivity” to regulate the 
+decomposition behavior of SSEs [12]. By optimizing the voltage range, 
+the assembled ASSLSBs achieved a high discharge capacity of 1350 mAh 
+g−1, an areal capacity of 4.5 mAh cm−2, and retained 80 % of their ca­
+pacity after 100 cycles.
+Nuclear magnetic resonance (NMR) spectroscopy is a powerful 
+technique for the quantitative analysis of interfacial ionic transport. As 
+shown in Fig. 12a, Yu et al. employed NMR to investigate the Li+
+migration behavior differences between the interface region and the 
+bulk phase of SSEs [84]. One-dimensional (1D) NMR exchange 
+Fig. 12. (a) Comparison of the volume and interfacial conductivity of Li+ obtained by NMR. Reprint with permission from [84]. (b) Two-dimensional exchange 
+spectra of LPSC and Li2S-LiI mixtures. Reprint with permission from [85]. (c) Schematic illustration of in-situ neutron imaging for the study of ion transport in sulfur 
+cathode. Reprint with permission from [86]. (d) In situ TEM observation scheme of the solid cell using MEMS heating device. Reprint with permission from [87]. (e) 
+Theoretical calculation of thermodynamics and kinetics of the cathode-electrolyte interface in ASSLSBs. Reprint with permission from [88].
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+13 
+
+=== 第 14 页 ===
+experiments revealed that the self-diffusion coefficient of Li+ at the 
+LPSC-Li2S interface at room temperature was 1 × 10−11 cm2 s−1, several 
+orders of magnitude lower than that in the LPSC bulk phase. Optimizing 
+the interface through techniques such as ball milling, nano scaling, or 
+coating, significantly enhanced Li+ exchange behavior at the interface, 
+while simple material mixing exhibited poor performance. Furthermore, 
+Two-dimensional (2D) NMR exchange spectra confirmed the impor­
+tance of interface modification in composite cathode materials. As 
+shown in Fig. 12b, Liu et al. used 2D NMR spectroscopy to quantify Li+
+diffusion at the Li2S, LiI, and LPSC interfaces within composite cathodes, 
+confirming that the inorganic LiI coating on the surface of Li2S materials 
+reduced interfacial diffusion barriers and stabilized Li+ transport [85].
+Studying the phase transition behavior of composite cathode mate­
+rials during charge and discharge is also crucial. To visualize Li+
+transport behavior, Ohno et al. used in-situ neutron radiography and in- 
+situ neutron tomography to investigate Li+ migration characteristics 
+during cycling (Fig. 12c) [86]. During discharge, the peak attenuation 
+rate propagated from the SSE layer toward the current collector, high­
+lighting the detrimental effects of low ionic conductivity. During 
+charging, residual non-reversible Li near the current collector revealed 
+irreversible loss mechanisms caused by sluggish ionic transport. As 
+shown in Fig. 12d, Huang et al. employed a microelectromechanical 
+system (MEMS)-based heating device combined with in-situ trans­
+mission electron microscopy (TEM) to dynamically observe the 
+decomposition process of Li2S [87]. During charging, Li2S underwent 
+phase transitions from an amorphous state to nanocrystalline and 
+eventually to a polycrystalline state, controlled by Li+ migration rate. 
+Higher temperatures significantly promoted the reversibility of decom­
+position, resulting in higher diffusion rates and superior electrochemical 
+cycling performance. These studies demonstrate that the slow Li+
+transport in sulfur cathodes is a critical barrier to electrochemical re­
+action kinetics, significantly reducing the charge-discharge capacity and 
+reversibility in ASSLSBs.
+Computational modeling based on DFT and machine learning has 
+further advanced the understanding of carrier transport and interfacial 
+stability. As shown in Fig. 12e, Chandrappa et al. employed DFT cal­
+culations to predict that SSEs exhibit the highest chemical stability with 
+sulfur cathodes among major solid electrolytes such as oxides, sulfides, 
+nitrides, and halides. They developed a highly accurate machine- 
+learning interatomic potential to studyβ-Li3PS4/S interface using 
+active learning. The matrix tensor potential enabled large-scale molec­
+ular dynamics simulations involving thousands of atoms, revealing that 
+the most stable Li3PS4 (100) surface tends to form an interface with S8 
+featuring 2D channels and exhibits a low activation barrier for Li+
+diffusion [88]. These multi-dimensional characterizations provide 
+crucial insights into the carrier transport mechanisms in composite 
+sulfur cathodes and underscore the importance of optimizing interface 
+design to enhance Li+ migration efficiency for high-performance 
+ASSLSBs.
+6. Conclusions and perspectives
+The development of various electronic conductors and SSEs has 
+significantly accelerated the advancement of ASSLSBs. However, the 
+inherent properties of sulfur materials and challenges associated with 
+solid-solid contact interfaces result in suboptimal electrochemical per­
+formance, particularly under conditions of high sulfur content and 
+loading. Recently, functional electrolytes have garnered increasing 
+attention for overcoming these limitations by enhancing the carrier 
+transport properties in composite cathodes. As a result, ASSLSBs achieve 
+excellent specific capacity, rate performance, and cycling stability even 
+with high sulfur content and loading. To build on the high energy 
+density advantage of ASSLSBs, sulfur cathode design should focus on the 
+following aspects:
+6.1. Development of new MIECs
+MIECs provide coexisting pathways for both ionic and electronic 
+transport, effectively reducing interfacial impedance and significantly 
+improving the utilization of active sulfur materials. In addition, MIECs 
+facilitate rapid conversion reactions at the two-phase interface, effi­
+ciently preventing SSE decomposition and improving structural stabil­
+ity, ultimately enhancing battery cycling stability. Furthermore, the 
+incorporation of MIECs can partially replace conductive carbon and 
+SSEs, reducing the proportion of inactive components, improving energy 
+density, and simplifying the electrode fabrication process. However, 
+practical challenges such as insufficient ionic conductivity and poor 
+structural stability need to be addressed through material innovations, 
+interface engineering, and structural design. With these advancements, 
+MIECs have immense potential for widespread application in ASSLSBs.
+6.2. Practical application requirements
+At present, research on sulfur cathodes predominantly focuses on the 
+performance verification under laboratory conditions, such as low sulfur 
+content, low loading, and high stack pressure. However, when the sulfur 
+content of the cathode increases to 50 wt%, the reduction in solid-solid 
+contact area significantly decreases electrochemical efficiency and in­
+creases the proportion of inactive sulfur. When the sulfur loading ex­
+ceeds 6 mg cm−2, carrier transport pathways become longer and more 
+complex, drastically reducing rate performance. Additionally, during 
+the operation of sulfur cathodes, high stack pressure must be maintained 
+to compensate for solid contact losses induced by volume changes, 
+thereby ensuring effective carrier transport. To meet the practical re­
+quirements for high energy density and operational feasibility, it is 
+imperative to strike a balance between high sulfur content, high loading, 
+and low stack pressure conditions. Moreover, systematic investigations 
+into the electron/ion transport mechanisms at Li/SSEs interfaces, com­
+bined with the development of ultrathin lithium anodes through inter­
+face engineering and alloying strategies, are critically important for 
+achieving ASSLSBs with high current density, high areal capacity, and 
+high energy density.
+6.3. Sulfur conversion mechanisms and carrier transport dynamics
+In ASSLSBs, sulfur conversion occurs through a solid-phase trans­
+formation process, which is restricted by slow ionic transport, and its 
+underlying mechanisms remain insufficiently understood. Furthermore, 
+sulfur conversion reactions occur at solid-solid interfaces, where inter­
+facial contact area and carrier transport pathways play vital roles in 
+controlling reaction efficiency. To address these issues, advanced in-situ 
+characterization techniques combined with multi-scale modeling are 
+essential to elucidate the reaction pathways of solid-phase sulfur con­
+version and the dynamics of ion transport. These efforts will provide the 
+fundamental understanding for the design of high-performance sulfur 
+cathodes and the further development of ASSLSBs.
+CRediT authorship contribution statement
+Haoyue Zhong: conceptualization, writing – original draft. 
+Changbao Zhu: conceptualization, funding acquisition, supervision.
+Declaration of competing interest
+The authors declare no conflict of interest.
+Acknowledgements
+This work was financially supported by the National Natural Science 
+Foundation of China (Grant No. 22075331).
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+14 
+
+=== 第 15 页 ===
+Data availability
+No data was used for the research described in the article.
+References
+[1] W. Yao, K. Liao, T. Lai, H. Sul, A. Manthiram, Chem. Rev. 124 (2024) 4935.
+[2] L. Zhou, D.L. Danilov, F. Qiao, J. Wang, H. Li, R.A. Eichel, P.H.L. Notten, Adv. 
+Energy Mater. 12 (2022) 2202094.
+[3] D. Meggiolaro, M. Agostini, S. Brutti, ACS Energy Lett. 8 (2023) 1300.
+[4] H. Hao, T. Hutter, B.L. Boyce, J. Watt, P. Liu, D. Mitlin, Chem. Rev. 122 (2022) 
+8053.
+[5] Y.L. Lin, S. Huang, L. Zhong, S.J. Wang, D.M. Han, S. Ren, M. Xiao, Y.Z. Meng, 
+Energy Storage Mater. 34 (2021) 128.
+[6] C. Li, H. Xu, L. Ni, B. Qin, Y. Ma, H. Jiang, G. Xu, J. Zhao, G. Cui, Adv. Energy 
+Mater. 13 (2023) 2301758.
+[7] J.U. Lee, C. Zhao, C.H. Wang, A.N. Chen, X.L. Sun, K. Amine, G.L. Xu, Chem. Soc. 
+Rev. 53 (2024) 5264.
+[8] J. Wu, S. Liu, F. Han, X. Yao, C. Wang, Adv. Mater. 33 (2021) 2000751.
+[9] L. Cui, S. Zhang, J. Ju, T. Liu, Y. Zheng, J. Xu, Y. Wang, J. Li, J. Zhao, J. Ma, 
+J. Wang, G. Xu, T.-S. Chan, Y.-C. Huang, S.-C. Haw, J.-M. Chen, Z. Hu, G. Cui, Nat. 
+Energy (2024) 1084.
+[10] Z. Zhang, Y. Wang, T. Liu, G. Li, J. Ma, J. Zhang, P. Han, S. Dong, X. Yan, Y. Tang, 
+G. Cui, Nano Res. 16 (2023) 8139.
+[11] Y. Zhou, D. Chen, X. Ren, Y. Hu, W. Chen, C. Yan, T. Lei, Adv. Energy Mater. (2025) 
+202500061.
+[12] S. Ohno, C. Rosenbach, G.F. Dewald, J. Janek, W.G. Zeier, Adv. Funct. Mater. 31 
+(2021) 2010620.
+[13] D. Wang, B. Gwalani, D. Wierzbicki, V. Singh, L.-J. Jhang, T. Rojas, R. Kou, 
+M. Liao, L. Ye, H. Jiang, S. Shan, A. Silver, A.T. Ngo, Y. Du, X. Li, D. Wang, Nat. 
+Mater. (2025) 243.
+[14] S. Ohno, W.G. Zeier, Acc. Mater. Res. 2 (2021) 869.
+[15] ¨O.U. Kudu, T. Famprikis, B. Fleutot, M.-D. Braida, T. Le Mercier, M.S. Islam, 
+C. Masquelier, J. Power Sources 407 (2018) 31.
+[16] C. Dietrich, D.A. Weber, S.J. Sedlmaier, S. Indris, S.P. Culver, D. Walter, J. Janek, 
+W.G. Zeier, J. Mater. Chem. A 5 (2017) 18111.
+[17] Z. Jiang, H. Peng, Y. Liu, Z. Li, Y. Zhong, X. Wang, X. Xia, C. Gu, J. Tu, Adv. Energy 
+Mater. 11 (2021) 2101521.
+[18] X. Sun, Q. Li, D. Cao, Y. Wang, A. Anderson, H. Zhu, Small 18 (2022) e2105678.
+[19] X. Sun, D. Cao, Y. Wang, T. Ji, W. Liang, H. Zhu, Adv. Mater. Interfaces 9 (2022) 
+2200539.
+[20] X. Zhu, W. Jiang, S. Zhao, R. Huang, M. Ling, C. Liang, L. Wang, Nano Energy 96 
+(2022) 107093.
+[21] H. Zhong, Y. Su, Y. Wu, J. Gu, R. Ma, Y. Luo, H. Lin, M. Tao, J. Chen, Z. Liang, 
+K. Wang, X. Zheng, Z. Chen, J. Peng, Z. Lv, Z. Gong, J. Huang, Y. Yang, Adv. Energy 
+Mater. 13 (2023) 2300767.
+[22] Y. Luo, S. Pan, J. Tian, Y. Liang, H. Zhong, R. Ma, J. Gu, Y. Wu, H. Zhang, H. Lin, 
+W. Huang, Y. Deng, Y. Su, Z. Gong, J. Huang, Z. Hu, Y. Yang, Adv. Mater. 36 (2024) 
+2413325.
+[23] J.T. Kim, A. Rao, H.-Y. Nie, Y. Hu, W. Li, F. Zhao, S. Deng, X. Hao, J. Fu, J. Luo, 
+H. Duan, C. Wang, C.V. Singh, X. Sun, Nat. Commun. 14 (2023) 6404.
+[24] M. He, Y. Fan, S. Liu, S. Wang, T. Wu, D. Chen, A. Hu, C. Yan, Y. Yan, J. Long, 
+Y. Hu, T. Lei, P. Li, W. Chen, Adv. Energy Mater. (2025) 2405642.
+[25] X. Zhu, W. Jiang, L. Wang, J. Lu, Adv. Energy Mater. 14 (2024) 2304244.
+[26] J. Zhou, M.L. Holekevi Chandrappa, S. Tan, S. Wang, C. Wu, H. Nguyen, C. Wang, 
+H. Liu, S. Yu, Q.R.S. Miller, G. Hyun, J. Holoubek, J. Hong, Y. Xiao, C. Soulen, 
+Z. Fan, E.E. Fullerton, C.J. Brooks, C. Wang, R.J. Clement, Y. Yao, E. Hu, S.P. Ong, 
+P. Liu, Nature 627 (2024) 301.
+[27] W. Zhao, Y. Zhang, Q. Liu, Y. Song, X. Li, L. Ren, G. Yin, S. Lou, J. Wang, Angew. 
+Chem. Int. Ed. 64 (2025) e202413670.
+[28] H. Song, K. Münch, X. Liu, K. Shen, R. Zhang, T. Weintraut, Y. Yusim, D. Jiang, 
+X. Hong, J. Meng, Y. Liu, M. He, Y. Li, P. Henkel, T. Brezesinski, J. Janek, Q. Pang, 
+Nature 637 (2025) 846.
+[29] H. Pan, M. Zhang, Z. Cheng, H. Jiang, J. Yang, P. Wang, P. He, H. Zhou, Sci. Adv. 8 
+(2022) eabn4372.
+[30] X. Wu, H. Pan, M. Zhang, H. Zhong, Z. Zhang, W. Li, X. Sun, X. Mu, S. Tang, P. He, 
+H. Zhou, Adv. Sci. 11 (2024) 2308604.
+[31] Y. Hu, Y. Liu, Y. Lu, Z. Zhang, S. Liu, F. He, Y. Liu, Y. Chen, F. Liu, Adv. Funct. 
+Mater. 35 (2024) 412070.
+[32] P. Yu, S. Sun, C. Sun, C. Zeng, Z. Hua, N. Ahmad, R. Shao, W. Yang, Adv. Funct. 
+Mater. 34 (2023) 2306939.
+[33] C.Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, L.F. Nazar, Energy Environ. Sci. 16 (2023) 
+610.
+[34] M. Yang, Y. Yao, M. Chang, F. Tian, W. Xie, X. Zhao, Y. Yu, X. Yao, Adv. Energy 
+Mater. 13 (2023) 2300962.
+[35] S.M. Hosseini, A. Varzi, S. Ito, Y. Aihara, S. Passerini, Energy Storage Mater. 27 
+(2020) 61.
+[36] H. Wan, G. Liu, Y. Li, W. Weng, J.P. Mwizerwa, Z. Tian, L. Chen, X. Yao, ACS Nano 
+13 (2019) 9551.
+[37] H. Yamane, M. Shibata, Y. Shimane, T. Junke, Y. Seino, S. Adams, K. Minami, 
+A. Hayashi, M. Tatsumisago, Solid State Ionics 178 (2007) 1163.
+[38] Y. Li, S. Song, H. Kim, K. Nomoto, H. Kim, X. Sun, S. Hori, K. Suzuki, N. Matsui, 
+M. Hirayama, T. Mizoguchi, T. Saito, T. Kamiyama, R. Kanno, Science 381 (2023) 
+50.
+[39] X. Chen, Z. Guan, F. Chu, Z. Xue, F. Wu, Y. Yu, InfoMat 4 (2021) e12248.
+[40] Y. Nikodimos, C.-J. Huang, B.W. Taklu, W.-N. Su, B.J. Hwang, Energy Environ. Sci. 
+15 (2022) 991.
+[41] F. Han, Y. Zhu, X. He, Y. Mo, C. Wang, Adv. Energy Mater. 6 (2016) 1501590.
+[42] S. Wenzel, S. Randau, T. Leichtweiß, D.A. Weber, J. Sann, W.G. Zeier, J. Janek, 
+Chem. Mater. 28 (2016) 2400.
+[43] J. Gu, X. Chen, Z. He, Z. Liang, Y. Lin, J. Shi, Y. Yang, Adv. Energy Mater. 13 
+(2023) 2302643.
+[44] G. Li, S. Wang, Y. Zhang, M. Li, Z. Chen, J. Lu, Adv. Mater. 30 (2018) 1705590.
+[45] H. Qu, J. Zhang, A. Du, B. Chen, J. Chai, N. Xue, L. Wang, L. Qiao, C. Wang, 
+X. Zang, J. Yang, X. Wang, G. Cui, Adv. Sci. 5 (2018) 1700503.
+[46] D. Cao, X. Sun, F. Li, S.M. Bak, T. Ji, M. Geiwitz, K.S. Burch, Y. Du, G. Yang, H. Zhu, 
+Angew. Chem. Int. Ed. Eng. 62 (2023) e202302363.
+[47] M. Yamamoto, S. Goto, R. Tang, K. Nomura, Y. Hayasaka, Y. Yoshioka, M. Ito, 
+M. Morooka, H. Nishihara, T. Kyotani, A.C.S. Appl, Mater. Interfaces 13 (2021) 
+38613.
+[48] G.F. Dewald, S. Ohno, J.G.C. Hering, J. Janek, W.G. Zeier, Batteries Supercaps 4 
+(2020) 183.
+[49] X. Yang, J. Luo, X. Sun, Chem. Soc. Rev. 49 (2020) 2140.
+[50] S. Ohno, R. Koerver, G. Dewald, C. Rosenbach, P. Titscher, D. Steckermeier, 
+A. Kwade, J. Janek, W.G. Zeier, Chem. Mater. 31 (2019) 2930.
+[51] T. Swamy, X. Chen, Y.-M. Chiang, Chem. Mater. 31 (2019) 707.
+[52] X. Li, J. Liang, J. Luo, C. Wang, X. Li, Q. Sun, R. Li, L. Zhang, R. Yang, S. Lu, 
+H. Huang, X. Sun, Adv. Mater. 31 (2019) 1808100.
+[53] T.H. Hong, W. Min, G. Choi, J.D. Kim, J.T. Lee, D. Kim, Adv. Energy Mater. 13 
+(2023) 2300636.
+[54] H. Yan, H. Wang, D. Wang, X. Li, Z. Gong, Y. Yang, Nano Lett. 19 (2019) 3280.
+[55] Y. Fujita, T. Hakari, A. Sakuda, M. Deguchi, Y. Kawasaki, H. Tsukasaki, S. Mori, 
+M. Tatsumisago, A. Hayashi, A.C.S. Appl, Energy Mater. 5 (2022) 9429.
+[56] J. Gao, Y. Gao, J. Hao, X. Sun, F. Zhao, Y. Zhang, W. Si, J. Wu, Small 20 (2024) 
+e2404171.
+[57] U. Ulissi, S. Ito, S.M. Hosseini, A. Varzi, Y. Aihara, S. Passerini, Adv. Energy Mater. 
+8 (2018) 1801462.
+[58] Y. Hu, Z. Sun, Z. Zhang, S. Liu, F. He, Y. Liu, Z. Zhuang, F. Liu, Adv. Energy Mater. 
+13 (2022) 2202756.
+[59] A. Kızılaslan, A. Waleed Majeed, Al-Ogaili, H. Akbulut, Chem. Eng. J. 450 (2022) 
+138050.
+[60] P. Lu, S. Gong, F. Guo, X. Zhu, Y. Huang, Y. Wang, W. He, M. Yang, L. Chen, H. Li, 
+F. Wu, Nano Energy 118 (2023) 109029.
+[61] Y. Zhang, M. Lv, Y. Chen, L. Zhou, J. Zhuo, J. Zhang, E. Fu, P. Chen, X. Gao, Cell 
+Rep. Phys. Sci. 5 (2024) 102293.
+[62] Y. Luo, S. Pan, J. Tian, Y. Liang, H. Zhong, R. Ma, J. Gu, Y. Wu, H. Zhang, H. Lin, 
+W. Huang, Y. Deng, Y. Su, Z. Gong, J. Huang, Z. Hu, Y. Yang, Adv. Mater. 36 (2024) 
+e2413325.
+[63] H. Li, J. Song, F. Wu, R. Wang, D. Liu, H. Tang, Nano Res. 16 (2023) 10956.
+[64] Y. Shou, J. Ou, C. Li, J. Huang, T. Zhao, Y. Fang, Y. Kang, Y. Zhao, M. Huang, 
+C. Zhao, ACS Mater. Lett. 6 (2024) 4545.
+[65] H.N. Choi, H. Kim, M.J. Kim, Y.K. Sun, A.C.S. Appl, Mater. Interfaces 16 (2024) 
+11076.
+[66] C. Wang, Y. Wu, J. Gao, X. Sun, Q. Zhao, W. Si, Y. Zhang, K. Wang, F. Zhao, 
+T. Ohsaka, F. Matsumoto, C. Huang, J. Wu, A.C.S. Appl, Mater. Interfaces 15 
+(2023) 40496.
+[67] B.S. Zhao, L. Wang, S. Liu, G.R. Li, X.P. Gao, A.C.S. Appl, Mater. Interfaces 14 
+(2022) 1212.
+[68] W. Pan, T. Watanabe, T. Matsunaga, M. Kumar, N. Thakur, K. Yamamoto, 
+M. Uesugi, A. Takeuchi, A. Sakuda, A. Hayashi, M. Tatsumisago, Y. Uchimoto, 
+Solid State Ionics 406 (2024) 116479.
+[69] D. Wang, L.J. Jhang, R. Kou, M. Liao, S. Zheng, H. Jiang, P. Shi, G.X. Li, K. Meng, 
+D. Wang, Nat. Commun. 14 (2023) 1895.
+[70] K. Shen, W. Shi, H. Song, C. Zheng, Y. Yan, X. Hong, X. Liu, Y. An, Y. Li, F. Ye, 
+M. He, G. Ye, C. Ma, L. Zheng, P. Gao, Q. Pang, Adv. Mater. 37 (2025) 2417171.
+[71] H. Kim, H.-N. Choi, J.-Y. Hwang, C.S. Yoon, Y.-K. Sun, ACS Energy Lett. 8 (2023) 
+3971.
+[72] J. Peng, X. Zheng, Y. Wu, C. Li, Z. Lv, C. Zheng, J. Liu, H. Zhong, Z. Gong, Y. Yang, 
+A.C.S. Appl, Mater. Interfaces 15 (2023) 20191.
+[73] M. Li, H. Pan, T. Liu, X. Xiong, X. Yu, Y.-S. Hu, H. Li, X. Huang, L. Suo, L. Chen, ACS 
+Energy Lett. 7 (2022) 766.
+[74] K.J. Kim, M. Balaish, M. Wadaguchi, L. Kong, J.L.M. Rupp, Adv. Energy Mater. 11 
+(2021) 2002689.
+[75] Q. Guo, K.C. Lau, R. Pandey, J. Phys. Chem. C 123 (2019) 4674.
+[76] P. Chen, H. Qu, D. Zheng, X. Zhang, D. Qu, Adv. Funct. Mater. (2025) 2423633.
+[77] R. Ma, Y. Fan, Y. Jin, S. Pan, H. Zhong, Y. Luo, J. Gu, M. Luo, Y. Wu, W. Hu, 
+P. Chen, Y. Su, G. Wu, J. Yan, J. Gao, Z. Gong, Y. Yang, Adv. Energy Mater. 14 
+(2024) 2304412.
+[78] R.-C. Xu, X.-H. Xia, S.-H. Li, S.-Z. Zhang, X.-L. Wang, J.-P. Tu, J. Mater. Chem. A 5 
+(2017) 6310.
+[79] B. Zhao, C. Zhou, P. Chen, X. Gao, A.C.S. Appl, Mater. Interfaces 16 (2024) 4679.
+[80] Z. Wu, S. Chen, C. Yu, C. Wei, L. Peng, H.-L. Wang, S. Cheng, J. Xie, Chem. Eng. J. 
+442 (2022) 136346.
+[81] T. Hakari, Y. Fujita, M. Deguchi, Y. Kawasaki, M. Otoyama, Y. Yoneda, A. Sakuda, 
+M. Tatsumisago, A. Hayashi, Adv. Funct. Mater. (2021) 2106174.
+[82] H. Zhong, Y. Su, R. Ma, Y. Luo, H. Lin, J. Gu, Z. Gong, Y. Yang, Adv. Funct. Mater. 
+34 (2024) 2315925.
+[83] Y. Wang, T. Liu, L. Estevez, J. Kumar, Energy Storage Mater. 27 (2020) 232.
+[84] C. Yu, S. Ganapathy, E. Eck, H. Wang, S. Basak, Z. Li, M. Wagemaker, Nat. 
+Commun. 8 (2017) 1086.
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+15 
+
+=== 第 16 页 ===
+[85] M. Liu, C. Wang, C. Zhao, E. van der Maas, K. Lin, V.A. Arszelewska, B. Li, 
+S. Ganapathy, M. Wagemaker, Nat. Commun. 12 (2021) 5943.
+[86] R. Bradbury, G.F. Dewald, M.A. Kraft, T. Arlt, N. Kardjilov, J. Janek, I. Manke, W. 
+G. Zeier, S. Ohno, Adv. Energy Mater. 13 (2023) 2203426.
+[87] Z. Wang, Y. Tang, L. Zhang, M. Li, Z. Shan, J. Huang, Small 16 (2020) e2001899.
+[88] M.L. Holekevi Chandrappa, J. Qi, C. Chen, S. Banerjee, S.P. Ong, J. Am. Chem. Soc. 
+144 (2022) 18009.
+H. Zhong and C. Zhu                                                                                                                                                                                                                          
+Solid State Ionics 428 (2025) 116945 
+16 
+

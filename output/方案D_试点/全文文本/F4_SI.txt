@@ -1,0 +1,662 @@
+=== 第 1 页 ===
+S-1 
+ 
+Supporting Information 
+ 
+Influence of Carbon Additives on the Decomposition 
+Pathways in Cathodes of Lithium Thiophosphate-Based 
+All-Solid-State Batteries 
+ 
+Felix Walther a,b, Simon Randau a,b, Yannik Schneider a,b, Joachim Sann a,b, 
+Marcus Rohnke a,b, Felix H. Richter a,b, Wolfgang G. Zeier a,b and  
+Jürgen Janeka,b,* 
+ 
+aInstitute of Physical Chemistry, Justus-Liebig-University Giessen,  
+Heinrich-Buff-Ring 17, D-35392 Giessen, Germany. 
+bCenter for Materials Research (LaMa), Justus-Liebig-University Giessen, 
+Heinrich-Buff-Ring 16, D-35392 Giessen, Germany. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 2 页 ===
+S-2 
+ 
+Table of Contents 
+    
+Scanning Electron Microscopy (SEM) ............................................................................ S-3 
+Electrochemical Cell Performance .................................................................................. S-4 
+X-ray Photoelectron Spectroscopy (XPS) ....................................................................... S-5 
+(Un)cycled Composite Cathodes and β-Li3PS4 Reference ........................................... S-5 
+Cyclic Voltammetry Experiment ...................................................................................... S-8 
+VGCF/β-Li3PS4 Composite and Cell Assembly ............................................................ S-8 
+Cyclic Voltammetry ...................................................................................................... S-8 
+XP Spectra of the VGCF/SE Composite Before and After the CV Experiment ............. S-9 
+Time-of-Flight Secondary Ion Mass Spectrometry (ToF-SIMS) ................................... S-11 
+Depth Profiling – Exemplary Negatively Charged Fragments..................................... S-11 
+Surface Measurements - Li− and Sx− Fragments ........................................................ S-13 
+ToF-SIMS Analysis on FIB Crater Sidewalls – Single-Pixel Normalization Approach . S-14 
+Reaction Scheme with Formation of a Rock-Salt Like NiO Phase .............................. S-17 
+Supplementary References ........................................................................................... S-18 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 3 页 ===
+S-3 
+ 
+Scanning Electron Microscopy (SEM) 
+ 
+Figure S1. Scanning electron micrographs showing the microstructure and the morphology of 
+the solid electrolyte β-Li3PS4 and the active material NCM622. A) Overview image of the solid 
+electrolyte, B) Large-magnification image of the solid electrolyte, C) Overview image showing 
+the particle size distribution, D) Large-magnification image of single NCM622 secondary 
+particles formed by several primary particles. 
+ 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 4 页 ===
+S-4 
+ 
+Electrochemical Cell Performance 
+ 
+ 
+ 
+ 
+Figure 
+S2. 
+Charge 
+and 
+discharge 
+curve 
+for 
+the 
+first 
+cycle 
+of 
+a  
+Li | β-Li3PS4 | LiNi0.6Co0.2Mn0.2/β-Li3PS4 ASSB cell with 3.8 wt % VGCF in the composite 
+cathode. The slope at the beginning of the first charge curve is smaller compared to the 
+reference without VGCF, indicating an increase in side reactions. Additionally, the charge and 
+discharge capacity are further increased compared to the sample with 3 wt % VGCF, 
+supporting the hypothesis of further capacity contributions due to decomposition reactions.  
+ 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 5 页 ===
+S-5 
+ 
+X-ray Photoelectron Spectroscopy (XPS) 
+ 
+(Un)cycled Composite Cathodes and β-Li3PS4 Reference 
+ 
+Figure S3 shows the XP detail spectra of the O 1s, Li 1s and C 1s signals of the (un)cycled 
+composite cathodes and the β-Li3PS4 reference. The O 1s and the C 1s signal were measured 
+using a pass energy of 23.50 eV, the Li 1s signal with a pass energy of 29.35 eV. The energy 
+calibration procedure is described in the manuscript and further discussed below in the context 
+of the C 1s signal.  
+The oxygen species of the β-Li3PS4 reference can probably be attributed to minor impurities of 
+Li3PO4 and Li2SO4 (cannot be seen in the S 2p signal due to low concentrations and the XPS 
+detection limit), which can be formed in contact with water. Oxygen-containing adsorbates on 
+the surface (e.g., C=O-type bonds) can also be found in this binding energy range, making a 
+clear assignment often challenging. However, all experiments were done under inert gas 
+atmosphere (Ar) and vacuum conditions. Therefore, we assume Li3PO4 and Li2SO4 to be more 
+reasonable. The P 2p detail spectra support this assumption, since a component can be found 
+in the binding energy range of Li3PO4.1,2 For the β-Li3PS4 reference, the signal ratio of the 
+components we assign to Li3PO4 is 1.0:4.2 (P:O) showing a high degree of conformity to the 
+theoretical ratio for Li3PO4. The origin of water traces can have various reasons. Conceivable 
+are water residues in the glovebox atmosphere (even if in the ppm-range), water residues from 
+the chamber walls in the transfer vessel and in the XPS instrument, degassing of the adhesive 
+tape for sample holder and sample fixation. However, the total amount is rather low (6.1 at % 
+of oxygen in the sample). Both species slightly increase for both uncycled composite cathodes, 
+indicating that the mere NCM622/SE contact leads to the formation of phosphates and sulfates 
+such as Li3PO4 and Li2SO4, respectively. Again, reactions with oxygen-containing adsorbates 
+and water residues on the NCM622 secondary particle surface (despite drying) are reasonable 
+explanations. Secondary ion images derived from ToF-SIMS analysis on FIB crater sidewalls 
+show local phosphate fragment enrichments in the NCM622/SE interfacial region, further 
+supporting this assumption. However, the surface species on the NCM surface (and those on 
+the VGCF surface) can also contribute to these signals themselves. Besides oxygen-
+containing adsorbates on the surface (e.g. indicate by C=O-type bonds as described above), 
+Li2CO3 is also conceivable for NCM materials, which can be found in this binding energy 
+range.3 In case of Li2SO4, the concentration seems to be near the XPS detection limit in the 
+S 2p signal, making a further verification and quantification impossible. Nevertheless, 
+semiquantitative analysis by using ToF-SIMS is possible (see manuscript). In the case of the 
+composite cathodes, a further O 1s component can be seen at 529.4 eV, which we attribute to 
+NCM622 lattice oxygen.4,5  
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 6 页 ===
+S-6 
+ 
+Battery cycling leads to an increase of signals in the binding energy range of phosphates such 
+as Li3PO4 and transition-metal phosphates and sulfates, supporting the conclusions drawn 
+from the P 2p detail spectra and ToF-SIMS measurements (see manuscript). Parallel to this, 
+the NCM622 lattice oxygen signal almost disappears. This indicates the formation of a 
+degradation layer in the NCM622/SE interfacial region, covering the secondary particles.6 Due 
+to the surface sensitivity of XPS, the lattice oxygen signal cannot be detected above a certain 
+degradation layer thickness (roughly ~ 10 nm), which explains the weakening of the signal. 
+Interestingly, the lattice oxygen signal is weaker in the case of the cycled composite cathode 
+with VGCF compared to the cycled composite cathode without VGCF. We assume, that this is 
+due to the higher utilization of active material by using VGCF. Accordingly, the probability to 
+find non-connected (non-active) NCM622 secondary particles within the analysis area is 
+reduced, which in turns leads to a higher probability of seeing degradation layer formation on 
+every NCM622 secondary particle.  
+The Li 1s signals do not show a significant influence of battery cycling. The binding energy of 
+the main component fits well to the β-Li3PS4 reference. A small signal shoulder at lower binding 
+energies can be attributed to the NCM material.7 Due to the relatively low signal-to-noise ratio, 
+a further detailed analysis is not recommended.  
+The C 1s detail spectra show binding energy shifts, which can be attributed to detrimental 
+surface effects.8,9 As Maibach et al. pointed out, surface layers can cause potential gradients 
+which can lead to relative signal shifts of surface and bulk signals.8 Since the binding energies 
+of the main components of the bulk material (in the S 2p, the P 2p and the Li 1s signal) should 
+not change systematically, we assume that the deviations in the binding energy of the C 1s 
+signal are due to such a surface layer. An energy calibration in relation to the signal of 
+adventitious carbon would have led to a systematic shift of the bulk signals. This can easily 
+lead to misinterpretations and must therefore be carefully considered, as Maibach et al. 
+revealed.8 Therefore, a further analysis of the C 1s detail spectra is not possible, since the 
+relative binging energy shift due to detrimental surface layer species cannot be easily 
+determined and corrected. Consequently, a further analysis would lead to misleading 
+conclusions. 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 7 页 ===
+S-7 
+ 
+ 
+Figure S3. XP spectra of the O 1s, Li 1s and C 1s signals of a β-Li3PS4 reference and the 
+(un)cycled composite cathodes. The pass energies ranged between 23.50 eV (O 1s, C 1s) and 
+29.35 eV (Li 1s). Signal fitting was performed using a Shirley background and GL(30) line-
+shapes. 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 8 页 ===
+S-8 
+ 
+Cyclic Voltammetry Experiment 
+To investigate possible degradation reactions in the conductive additive/SE interfacial region, 
+a cyclic voltammetry (CV) experiment was performed with a VGCF/SE composite. The aim of 
+the experiment was to test whether an applied potential leads to decomposition reactions at 
+the VGCF/SE interface. The decomposition products were then investigated using XPS. 
+VGCF/β-Li3PS4 Composite and Cell Assembly 
+β-Li3PS4 and VGCF (dried in a Büchi furnace at 200 °C over night) were mixed in the same 
+mass ratio as in the composite cathode, corresponding to a VGCF/β-Li3PS4 composite with 
+9.1 mass-% VGCF. The composite was mixed with an agate mortar for 15 min. For cell 
+assembly (cell set up is described in the manuscript), 30 mg of the β-Li3PS4 was placed at the 
+bottom of the inner PEEK cylinder first and then manually compressed with both steel stamps. 
+30 mg of the VGCF/SE composite was added as working electrode. Afterward, the pellet was 
+compressed uniaxially at 30 kN (approx. 380 MPa) for three minutes. An indium foil (chemPUR) 
+with a diameter of 8 mm was used as counter electrode (CE), to exclude decomposition 
+reactions at the CE/SE interface. A pressure of approximately 50 MPa was applied using an 
+external frame around the cell casing.  
+Cyclic Voltammetry  
+Cyclic voltammetry (CV) experiments were carried out using VMP-300 and SP-150 Biologic 
+potentiostats. Starting from the OCV, the first sweep (oxidative sweep) was carried out to 5.5 V 
+versus In/InLi. Due to the 2-point cell set-up, the anode also acts as reference electrode. The 
+reverse sweep was carried out from 5.5 V to 0 V (versus the reference potential) followed by 
+an OCV step. The scan speed was 1 mV·s-1. Figure S4 shows the cyclic voltammogram. The 
+currents measured during CV indicate decomposition/degradation reactions. The 
+decomposition products are further characterized by using XPS.  
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 9 页 ===
+S-9 
+ 
+ 
+Figure S4. Cyclic voltammogram for a In | β-Li3PS4 | VGCF/β-Li3PS4 cell.  
+ 
+XP Spectra of the VGCF/SE Composite Before and After the CV Experiment 
+Figure S5 shows the XP spectra of the S 2p, the P 2p and the O 1s signal of a VGCF/SE 
+composite before and after the CV experiment (described in the manuscript). It is evident that 
+sulfur and phosphorous signals appear at higher binding energies during the CV experiment. 
+Before the CV experiment, all detail spectra show a high degree of similarity compared to the 
+signals of the uncycled composite cathodes (see Figure 2 in the manuscript). Only the NCM 
+signal is missing in the O 1s spectrum since the VGCF/SE composite does not contain NCM.   
+Accordingly, a slight increase in oxidized species can be seen in the S 2p and P 2p detail 
+spectra compared to the β-Li3PS4 reference. We assume that oxygen-containing surface 
+groups or water residuals on the VGCF surface can lead to the formation of phosphates such 
+as Li3PO4. This is supported by a study by Park et al. which reveals that functional groups on 
+carbon additives can lead to side reactions with thiophosphate-based SEs.10 Although the data 
+indicate the formation of species in the binding energy range of polysulfides, we cannot prove 
+this here.  
+After the CV experiment, the signals intensities of oxidized species are increased. The S 2p 
+signal shows a high degree of similarity compared to the S 2p signal of the cycled composite 
+cathode without VGCF, indicating polysulfide formation (see Figure 2 in the manuscript). In 
+contrast, the P 2p signal shows only a slight increase in oxidized species, which is not as high 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 10 页 ===
+S-10 
+ 
+as in the case of the cycled composite cathodes. Basically, P2Sn and phosphates such as 
+Li3PO4 can be found in this binding energy range.1,2,11 The latter compound can be formed by 
+the reaction of SE with oxygen-containing surface species on the VGCF surface. We assume 
+that such reactions were not fully completed by the mere VGCF/SE contact. The CV 
+experiment enforces the reaction with the remaining surface species until almost no further 
+oxygen source is present. At the same time, the anion lattice can be damaged leading to the 
+formation of P2Sn species. In the case of the composite cathode, the NCM622 particles 
+continue to serve as an oxygen source, allowing the formation of additional phosphate species 
+in the higher binding energy range. In contrast to the cycled composite cathodes, no species 
+were observed for the VGCF/SE composite at binding energies of ~134.0 eV. Since transition 
+metal phosphates are found in this binding energy range, it seems plausible that these species 
+are observed in the case of the composite cathodes (containing NCM622) but not in the case 
+of the VGCF/SE composite (no transition metal species present). This supports our hypothesis 
+of formation of transition metal phosphates in the NCM/SE interfacial region.  
+Overall, the data shows that decomposition reactions occur at the VGCF/SE interface, which 
+seems to be mainly dominated by the formation of polysulfides.  
+ 
+ 
+ 
+Figure S5. XP spectra of the S 2p, P 2p and O 1s signals of the VGCF/SE composite before 
+and after the CV experiment. The pass energy was 23.50 eV in all cases. A Shirley background 
+and GL(30) line shapes were used for signal fitting. The XP spectra were normalized by the 
+respective signal maximum in order to be able to compare the contributions of the signal 
+components more easily. 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 11 页 ===
+S-11 
+ 
+Time-of-Flight Secondary Ion Mass Spectrometry (ToF-SIMS) 
+ 
+Depth Profiling – Exemplary Negatively Charged Fragments 
+ 
+Figure S6 shows exemplary negatively charged fragments for phosphates, sulfates/sulfites 
+and polysulfides derived from depth profiling experiments. Phosphate fragments (PO2−, PO3−) 
+increase along with battery cycling, supporting the conclusions drawn from XPS depth profiling 
+experiments and ToF-SIMS surface analysis. At the same time, the PS− fragments decrease, 
+indicating damage of the SE anion lattice. It seems that both effects (POx− signal increase and 
+PS− signal decrease) are more pronounced in electrodes with VGCF. On the one hand, this is 
+due to the higher utilization of the active material by using VGCF. Accordingly, the degradation 
+layer forms on almost every NCM622 secondary particle surface, leading to the detection of 
+more decomposition products. On the other hand, a further contribution (also to the phosphate 
+formation, see Figure S5) comes from the VGCF/SE composite itself. Next to phosphate 
+fragments, battery cycling leads (with and without VGCF) by trend to an increase in long-chain 
+polysulfide fragments such as S2−, S2O− and S3O−. In contrast to ToF-SIMS surface analysis, 
+polysulfide fragments with longer S-chains such as S6− and S8− (see Figure S7) could not be 
+detected anymore due to the enhanced fragmentation induced by the sputter species (Cs+, 
+2 keV). Nevertheless, the trend can be clearly identified, supporting the XPS and the ToF-SIMS 
+surface analysis data. Interestingly, sulfate/sulfite fragments (SO2−, SO3−) increase only in the 
+case of the cycled composite cathode without VGCF significantly. These observations are 
+consistent with the surface analysis. These results indicate that sulfate/sulfite formation is not 
+preferred in the case with VGCF, whereas polysulfide formation seems dominant. 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 12 页 ===
+S-12 
+ 
+ 
+ 
+Figure S6. Negatively charged fragments from depth profiles measured with the primary ion 
+gun operated in spectrometry mode (25 keV Bi3+) and Cs+ (2 keV) as sputter species. The 
+intensities are normalized to the total ion signal. 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 13 页 ===
+S-13 
+ 
+Surface Measurements - Li− and Sx− Fragments  
+Figure S7 shows exemplary negatively charged fragments for lithium species and polysulfides. 
+The mass spectra were obtained from surface measurements. The Li− fragment reveals that 
+the cycled composite cathodes were measured in the delithiated state, since the Li− signal is 
+weaker in both cases compared to the uncycled references. Interestingly, with VGCF, the signal 
+intensity is much lower compared to the cycled sample without VGCF. Also, the dependence 
+on the analysis spot position appears smaller (recognized by the average signal deviations). 
+Both indicate a higher utilization of the active material with VGCF, which causes more mobile 
+lithium species and leads to a decrease of the Li− signal. In addition to the fragments for 
+polysulfides in the manuscript, Figure S7 shows the long-chain Sx− fragments S6− and S8−. 
+Taking the fragments in the manuscript (Figure 4) and in Figure S7 into account, we concluded 
+that by using VGCF the amount of polysulfides and also the mean chain-length of the -[S]n- 
+units increases. These observations are consistent with the conclusions drawn from XPS 
+analysis (see Figure 2). 
+ 
+ 
+ 
+Figure S7. Li−, S3O−, S6− and S8− fragments from surface spectra measured with the primary 
+ion gun operated in spectrometry mode using 25 keV Bi3+ primary ions. For each sample, five 
+mass spectra were measured at different surface positions to ensure reproducibility of the 
+results. The intensities are normalized to the total ion signal.  
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 14 页 ===
+S-14 
+ 
+ToF-SIMS Analysis on FIB Crater Sidewalls – Single-Pixel Normalization Approach 
+Region-of-interest (ROI) analysis was performed in order to determine the influence of the 
+carbon additive VGCF and battery cycling. A direct comparison of the secondary ion images 
+and the corresponding signal intensities is not possible since the FIB cut planes reveal 
+scattering of features such as different number of NCM622 particles and different NCM622/SE 
+area ratios within the analysis area. For this reason, we performed a ROI analysis. A scheme 
+of the procedure is shown in Figure S8. A ROI is defined using a signal threshold (5% - 100% 
+in this case). Afterward, the number of the pixels within this threshold and the signal intensities 
+of signals of interest are extracted. By normalizing the signal intensities to the number of pixels, 
+deviations such as different NCM622/SE ratios within the analysis area are minimized. For the 
+ROI analysis, we used secondary ion images, which were normalized to the total secondary 
+ion image to compensate topographic effects of the FIB crater. The signal intensity of all signals 
+(and thus the total ion signal) decrease with increasing distance from the sample surface / the 
+focus height (down the crater). Under the assumption that the signal decrease is approximately 
+the same for all secondary ions, normalizing the secondary ion images to the total secondary 
+ion image compensates topographic effects due to the FIB crater to some extent.  
+In order to analyze phosphate formation within the bulk, we used the multiplied (PO2−·PO3−) 
+secondary ion image. Multiplying both secondary ion images minimizes the influence of mass 
+interference and helps to achieve more reliable results.6  
+To study polysulfide formation in more detail, we used the S3− and the S4− signals due to 
+relatively small mass interference with neighboring signals compared to other Sx− signals. In 
+addition, Sx− signals with x > 4 could not unambiguously identified due to the FIB damage (high 
+fragmentation of long-chain polysulfides).  
+Regarding SOx− fragments, this approach was not suitable, since the original data showed too 
+weak signals and strong mass interferences (multiplication approach could not be satisfactorily 
+used). This indicates only small amounts of sulfates/sulfites, since ToF-SIMS typically has high 
+sensitivities for such compounds. Therefore, it was not possible to get further insights about 
+the location of sulfate/sulfite formation with ToF-SIMS measurements on FIB crater sidewalls 
+in this study.  
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 15 页 ===
+S-15 
+ 
+ 
+Figure S8. Scheme of the region-of-interest (ROI) analysis procedure for the multiplied 
+(PO2−· PO3−) signal. After defining a threshold in the (PO2−·PO3−) secondary ion image (middle 
+picture), the number of pixels within this threshold and the signal intensities of interest were 
+determined and semiquantitative analysis was performed afterward.  
+ 
+Table 1. ROI analysis results for the FIB crater sidewalls. The multiplied (PO2−·PO3−) secondary 
+ion image normalized to the total ion secondary ion image was used with a signal threshold of 
+5% - 100%. The number of pixels and the total counts (TC) within this threshold were 
+determined. The results show that the signal intensity of phosphate fragments increases due 
+to battery cycling with and without VGCF confirming the XPS results and the ToF-SIMS surface 
+analysis and depth profiling results. 
+ 
+ 
+normalized to the total ion signal SI 
+w/o VGCF 
+with VGCF 
+0 Cycles 
+100 Cycles 
+0 Cycles 100 Cycles 
+TC (PO2− · PO3−) 
+129.6 
+3114 
+268.4 
+2490 
+Pixels 
+35856 
+187140 
+71078 
+175676 
+TC / pixel 
+0.004 
+0.017 
+0.004 
+0.014 
+ 
+factor 4.6 
+factor 3.8 
+ 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 16 页 ===
+S-16 
+ 
+Table 2. ROI analysis results for the FIB crater sidewalls. The S3− (A) and the multiplied 
+(S3−· S4−) (B) secondary ion image normalized to the total ion secondary ion image was used 
+with a signal threshold of 5% - 100%. The number of pixels and the total counts (TC) within 
+this threshold were determined. The results show the tendency of an increase in polysulfide 
+fragments due to battery cycling. Due to the FIB damage, the increase is not very strong (factor 
+1.1 – 1.7). Nevertheless, the data suggest that polysulfide formation is more pronounced with 
+VGCF further supporting the XPS and ToF-SIMS results.  
+ 
+(A) 
+normalized to the total ion signal SI 
+ 
+w/o VGCF 
+with VGCF 
+ 
+0 Cycles 
+100 Cycles 
+0 Cycles 100 Cycles 
+TC (S3−) 
+987.1 
+1837 
+1712 
+2763 
+Pixels 
+74560 
+130711 
+125517 
+120004 
+TC / pixel 
+1.3E-02 
+1.4E-02 
+1.4E-02 
+2.3E-02 
+ 
+factor 1.1 
+factor 1.7 
+ 
+ 
+(B) 
+normalized to the total ion signal SI 
+ 
+w/o VGCF 
+with VGCF 
+ 
+0 Cycles 
+100 Cycles 
+0 Cycles 100 Cycles 
+TC (S3− · S4−) 
+0.5474 
+2.545 
+1.692 
+3.11 
+Pixels 
+4824 
+18970 
+12074 
+14113 
+TC / pixel 
+1.1E-04 
+1.3E-04 
+1.4E-04 
+2.2E-04 
+ 
+factor 1.2 
+factor 1.6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 17 页 ===
+S-17 
+ 
+Reaction Scheme with Formation of a Rock-Salt Like NiO Phase  
+Figure S9 shows a reaction scheme for the NCM/SE interfacial reaction during charging with 
+formation of a rock-salt like NiO phase. These equations must be seen as a simplified 
+degradation scheme that can describe our experimental results. We assume that the 
+thermodynamically preferred reaction path involves the formation of transition metal sulfides 
+as intermediate products, as suggested by calculations.12–14 However, it is also possible to 
+describe the experimental results with a direct formation of a rock-salt like NiO phase. For 
+simplification, we choose M3(PO4)2 for transition metal phosphates and MSO4 for transition 
+metal sulfates, although other stoichiometries and oxidation states are conceivable as well. In 
+addition, we consider the reaction products Li3PO4 and Li2SO4 in our reaction scheme, which 
+are also suggested by calculations.12–14 We hypothesize equations with different polysulfide 
+species, since we cannot distinguish experimentally between the polysulfides P2Sn, Li2Sn and 
+(Li3PS4)2Sn. Combinations of the equations can lead to an increase in polysulfide chain length, 
+which corresponds to our experimental observation. 
+ 
+ 
+ 
+Figure S9. Reaction scheme for the electrochemically driven NCM/SE interfacial reaction 
+during battery charging under the formation of a rock-salt like NiO phase. Basic assumptions 
+for the reaction equations are given on the top. Reactions of the SE with the NCM material can 
+lead to the formation of different phosphates, sulfates as well as polysulfides. For the 
+polysulfides (marked in green), various combinations with different sulfur chain length Sn are 
+often possible to meet the stoichiometry. If this is the case, these species are labeled with the 
+term "mixture of". 
+ 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 18 页 ===
+S-18 
+ 
+Supplementary References  
+ 
+(1)  
+Wang, B.; Liu, J.; Sun, Q.; Li, R.; Sham, T.-K.; Sun, X. Atomic Layer Deposition of Lithium 
+Phosphates 
+as 
+Solid-State 
+Electrolytes 
+for 
+All-Solid-State 
+Microbatteries. 
+Nanotechnology 
+2014, 
+25 
+(50), 
+504007. 
+https://doi.org/10.1088/0957-
+4484/25/50/504007. 
+(2)  
+Appapillai, A. T.; Mansour, A. N.; Cho, J.; Shao-Horn, Y. Microstructure of LiCoO2 with 
+and without “AlPO4” Nanoparticle Coating: Combined STEM and XPS Studies. Chem. 
+Mater. 2007, 19 (23), 5748–5757. https://doi.org/10.1021/cm0715390. 
+(3)  
+An, S. J.; Li, J.; Sheng, Y.; Daniel, C.; Wood, D. L. Long-Term Lithium-Ion Battery 
+Performance Improvement via Ultraviolet Light Treatment of the Graphite Anode. J. 
+Electrochem. 
+Soc. 
+2016, 
+163 
+(14), 
+A2866–A2875. 
+https://doi.org/10.1149/2.0171614jes. 
+(4)  
+Bodenes, L.; Dedryvère, R.; Martinez, H.; Fischer, F.; Tessier, C.; Pérès, J.-P. Lithium-
+Ion Batteries Working at 85°C: Aging Phenomena and Electrode/Electrolyte Interfaces 
+Studied 
+by 
+XPS. 
+J. 
+Electrochem. 
+Soc. 
+2012, 
+159 
+(10), A1739–A1746. 
+https://doi.org/10.1149/2.061210jes. 
+(5)  
+Kosova, N. V.; Devyatkina, E. T.; Kaichev, V. V. Optimization of Ni2+/Ni3+ Ratio in Layered 
+Li(Ni,Mn,Co)O2 Cathodes for Better Electrochemistry. J. Power Sources 2007, 174 (2), 
+965–969. https://doi.org/10.1016/j.jpowsour.2007.06.051. 
+(6)  
+Walther, F.; Koerver, R.; Fuchs, T.; Ohno, S.; Sann, J.; Rohnke, M.; Zeier, W. G.; Janek, 
+J. Visualization of the Interfacial Decomposition of Composite Cathodes in Argyrodite-
+Based All-Solid-State Batteries Using Time-of-Flight Secondary-Ion Mass Spectrometry. 
+Chem. 
+Mater. 
+2019, 
+31 
+(10), 
+3745–3755. 
+https://doi.org/10.1021/acs.chemmater.9b00770. 
+(7)  
+Andreu, N.; Flahaut, D.; Dedryvère, R.; Minvielle, M.; Martinez, H.; Gonbeau, D. XPS 
+Investigation of Surface Reactivity of Electrode Materials: Effect of the Transition Metal. 
+ACS 
+Appl. 
+Mater. 
+Interfaces 
+2015, 
+7 
+(12), 
+6629–6636. 
+https://doi.org/10.1021/am5089764. 
+(8)  
+Maibach, J.; Lindgren, F.; Eriksson, H.; Edström, K.; Hahlin, M. Electric Potential 
+Gradient at the Buried Interface between Lithium-Ion Battery Electrodes and the SEI 
+Observed Using Photoelectron Spectroscopy. J. Phys. Chem. Lett. 2016, 7 (10), 1775–
+1780. https://doi.org/10.1021/acs.jpclett.6b00391. 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026
+
+=== 第 19 页 ===
+S-19 
+ 
+(9)  
+Lindgren, F.; Rehnlund, D.; Källquist, I.; Nyholm, L.; Edström, K.; Hahlin, M.; Maibach, 
+J. Breaking Down a Complex System: Interpreting PES Peak Positions for Cycled Li-
+Ion Battery Electrodes. J. Phys. Chem. C 2017, 121 (49), 27303–27312. 
+https://doi.org/10.1021/acs.jpcc.7b08923. 
+(10)  Park, S. W.; Oh, G.; Park, J.; Ha, Y.; Lee, S.; Yoon, S. Y.; Kim, B. G. Graphitic Hollow 
+Nanocarbon as a Promising Conducting Agent for Solid‐State Lithium Batteries. Small 
+2019, 15 (18), 1900235. https://doi.org/10.1002/smll.201900235. 
+(11)  Auvergniot, J.; Cassel, A.; Ledeuil, J. B.; Viallet, V.; Seznec, V.; Dedryvère, R. Interface 
+Stability of Argyrodite Li6PS5Cl toward LiCoO2, LiNi1/3Co1/3Mn1/3O2, and LiMn2O4 in Bulk 
+All-Solid-State 
+Batteries. 
+Chem. 
+Mater. 
+2017, 
+29 
+(9), 
+3883–3890. 
+https://doi.org/10.1021/acs.chemmater.6b04990. 
+(12)  Richards, W. D.; Miara, L. J.; Wang, Y.; Kim, J. C.; Ceder, G. Interface Stability in Solid-
+State 
+Batteries. 
+Chem. 
+Mater. 
+2016, 
+28 
+(1), 
+266–273. 
+https://doi.org/10.1021/acs.chemmater.5b04082. 
+(13)  Nolan, A. M.; Zhu, Y.; He, X.; Bai, Q.; Mo, Y. Computation-Accelerated Design of 
+Materials and Interfaces for All-Solid-State Lithium-Ion Batteries. Joule 2018, 2 (10), 
+2016–2046. https://doi.org/10.1016/j.joule.2018.08.017. 
+(14)  Xiao, Y.; Miara, L. J.; Wang, Y.; Ceder, G. Computational Screening of Cathode Coatings 
+for 
+Solid-State 
+Batteries. 
+Joule 
+2019, 
+3 
+(5), 
+1252–1275. 
+https://doi.org/10.1016/j.joule.2019.02.006. 
+ 
+Downloaded from pubs.​acs.​org/​cmatex/​article-supplement/​1289262/​pdf/​cm0c01825_si_001/​ by TSINGHUA UNIV user on 18 October 2026

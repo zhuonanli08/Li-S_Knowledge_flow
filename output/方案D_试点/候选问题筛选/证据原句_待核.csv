@@ -1,0 +1,40 @@
+证据号,候选,论文号,体系,来源,原句,用途,证据类型
+A1,A,W7214937317,固态锂硫,全文,"stack pressure (typically > 80 MPa and in some cases exceeding 120 MPa) has been widely adopted as an operational parameter in ASSLSBs",困境,综述陈述
+A2,A,W4406704722,固态锂硫,全文,"74% retention after 100 cycles at high pressure, while only 6% capacity retention was observed at low pressure",困境,直接实验
+A3,A,W7220709382,固态锂硫,全文,"Test conditions differ among studies, so the entries are not directly comparable and are not ranked",未决判断,综述陈述
+A4,A,W7214937317,固态锂硫,全文,"The extent to which stack pressure selects a fundamentally different sulfur reaction pathway nevertheless remains unclear.",未决判断,综述陈述
+A5,A,W7162501480,固态锂硫,全文,"the CSE-based ASSBs achieved stable long-term cycling (over 1000 cycles without capacity decay) under low pressure (12.5 MPa), and retained 78% capacity after 300 cycles at 5 MPa",已有方案,直接实验
+A6,A,W7165555257,固态锂硫,全文,"low-pressure all-solid-state pouch cells achieve stable cycling over 500 cycles at 15 MPa",已有方案,直接实验
+A7,A,W7139977491,固态锂硫,摘要,"The hybrid cathode in ASSLSB exhibits outstanding capacity retention of ~83% with maintained discharge capacity of 831 mAh g −1 after 50 cycles, particularly under low pressure (~0.3 MPa) and at room temperature (25 °C)",已有方案,直接实验
+A8,A,W4415411530,固态锂硫,标题,"Realizing Low‐Pressure Operation of All‐Solid‐State Lithium–Sulfur Batteries Enabled by Carbon‐Coated Current Collectors",已有方案,直接实验（只读标题）
+A9,A,W7162652379,非硫固态,标题,"A viscoelastic oxyhalide catholyte for 4.5 V all-solid-state batteries under low stack pressures",跨体系线索,来源体系实验（只读标题，未读全文）
+A10,A,W7165620135,非硫固态,标题,"Powdery oxychloride solid electrolytes enabling low-pressure all-solid-state batteries",跨体系线索,来源体系实验（只读标题，未读全文）
+A11,A,W4405443748,固态锂硫,摘要,"Despite its high oxidation stability, Li3InCl6 exhibited rapid degradation due to electrolyte reduction.",前提核对,直接实验
+A12,A,—,固态锂硫,检索记录,"本地 828 篇固态锂硫全文按 viscoelastic|oxychloride|oxyhalide|LiTaOCl|LiNbOCl 检索：卤氧化物只出现在展望和综述段落（W4409591689、W4414553751），没有把它用作硫正极电解质的实验；viscoelastic 命中多为聚合物或 PPy 网络、干法加工",跨体系线索,检索结果
+A13,A,W4409591689,固态锂硫,全文,"recent studies on oxyhalide solid electrolytes (SEs), which exhibit significant amorphous phases, have demonstrated breakthroughs in achieving superionic conductivities exceeding 10 mS cm−1,[19] and enabling pressure-less operation in solid-state batteries",跨体系线索（目标体系已注意到）,作者展望
+A14,A,W4393342138,固态锂硫,全文,"the flexible and viscoelastic structure of PPy@NCNT can alleviate local stress",已有方案,直接实验
+F1,F,W3132091411,固态锂硫,全文,"The theoretical stability windows of Li6PS5Cl and Li10GeP2S12, for instance, are reported to be 1.71–2.01 V and 1.71– 2.14 V versus Li+/Li, respectively.",困境,作者引述的文献值
+F2,F,W3132091411,固态锂硫,全文,"successful enhancement of the capacity retention of SSLSBs is demonstrated by balancing between the attainable capacity and effective carrier transport",已有方案（抑制：限电位）,直接实验
+F3,F,W4311764535,固态锂硫,全文,"Thus, sulfide SEs can serve as a redox mediator in ASSLSBs owing to their electrolyte decomposition behavior, in addition to their role as conduction pathways.",已有方案（利用）,作者解释
+F4,F,W4311764535,固态锂硫,全文,"The cell exhibits an extremely low capacity of less than 100 mAh g−1, although the ionic conductivity of Li3YCl6",已有方案（利用）,直接实验
+F5,F,W4311764535,固态锂硫,全文,"The severe decomposition of electrolytes causes cycle fading instead of increasing the electrochemical redox activity in the early period.",未决判断,直接实验
+F6,F,W4311764535,固态锂硫,全文,"Li2S/SE interface modification by different rotation speeds of ball milling in SE mixing allows us to control the decomposition kinetics of electrolytes",已有方案（抑制：控工艺）,直接实验
+F7,F,W7128180073,固态锂硫,全文,"Although redox mediation has been considered effective only in liquid-electrolyte-based systems, where dissolved mediators exhibit fast diffusion",跨体系线索,作者陈述（液态锂硫做法已移入）
+F8,F,W7128180073,固态锂硫,全文,"However, not all iodine-containing SEs exhibit distinct redox-mediating behavior",未决判断,作者陈述
+F9,F,W7169438107,固态锂硫,摘要,"While catalysis is effective in accelerating these reactions, we reveal for the first time that under overlapping potentials, such catalytic acceleration inevitably triggers severe parasitic decomposition of sulfide solid-state electrolytes (SSEs)",困境,直接实验
+F10,F,W7169438107,固态锂硫,全文,"the moderate-sized Co clusters (∼0.6 nm) effectively reduce the energy barrier for sulfur conversion while minimizing catalytic side reactions",最接近已有工作,直接实验
+F11,F,—,固态锂硫,检索记录,"本地固态锂硫全文中，正文出现 catalyst/catalytic/electrocatalysis 不少于 10 次的论文 76 篇；正文提到电解质分解的 32 篇，另 44 篇没提（关键词判断，未逐篇读）",未决判断,检索结果
+F12,F,—,液态锂硫,检索记录,"液态锂硫摘要中同时出现 mediator 与 Li2S 的 24 篇（例：W4404562223 蒽醌作氧化还原介体调控 LiPSs 与 Li2S 双向转化）",跨体系线索,检索结果（摘要级）
+F13,F,—,非硫固态,内部记录,"设计决策案例_D01.md §5：不含硫时，碳/电解质界面同样分解，而且与碳比表面积相关（F4-C7、F5-C1a–c）",跨体系线索,已读全文（D01 开发材料）
+B1,B,W7164742609,固态锂硫,全文,"Increasing sulfur content to improve energy density simultaneously lengthens and increases the tortuosity of the ionic transport pathways within the composite, raising overpotential and limiting rate capability",困境,综述陈述
+B2,B,W4327970430,固态锂硫,全文,"Observing a reaction front propagating from the separator side toward the current collector confirms the detrimental influence of a low effective ionic conductivity.",困境,直接实验
+B3,B,W3086469215,固态锂硫,全文,"Although both the effective electronic and ionic conductivities indicate high tortuosity factors, ionic transport is identified as a critical bottleneck.",已有答案,直接实验
+B4,B,W4415543410,固态锂硫,全文,"gradient cathode architectures comprising three and five layers are designed, in which catholyte concentrations are strategically varied to optimize Li-ion flux",已有方案,直接实验
+B5,B,W7130661640,固态锂硫,全文,"From the separator side to the current collector, SE concentration is decreased from 65 to 55 wt.%",已有方案,直接实验
+B6,B,W7166647466,固态锂硫,全文,"Two-length-scale carbon-host design for solid sulfur cathodes",已有方案,直接实验
+C1,C,W4405443748,固态锂硫,摘要,"Three halides were employed as model electrolytes: Li3InCl6, Li3YCl6, and Li3YBr6.",已有答案,直接实验
+C2,C,W4405443748,固态锂硫,摘要,"In contrast, Li3YBr6 demonstrated superior performance, maintaining a capacity of 1100 mAh g S –1 for 20 cycles",已有答案,直接实验
+C3,C,W7220709382,固态锂硫,全文,"A wide electrochemical window, however, does not guarantee chemical compatibility with the sulfur",已有答案,综述陈述
+E1,E,W4392776338,固态锂硫,摘要,"A dilemma arises when striving to balance the maximum desired ion conductivity and minimize the undesired lithium polysulfide shuttling effect for all–solid-state lithium-sulfur batteries (ASSLSBs).",困境,作者陈述
+E2,E,W3186831656,固态锂硫,全文,"In addition to polysulfides, it is found that the initial elemental sulfur can also dissolve into and diffuse through the SPE to reach the anode.",已有答案,直接实验
+E3,E,W4372204484,固态锂硫,全文,"Therefore, LiPSs can dissolve in the PEO matrix via complexation, driving capacity degradation with an adverse shuttle effect.",已有答案,作者解释

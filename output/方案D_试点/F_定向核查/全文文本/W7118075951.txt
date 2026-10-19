@@ -1,0 +1,650 @@
+=== 第 1 页 ===
+Advanced Materials
+www.advmat.de
+RESEARCH ARTICLE
+Dual-Conductivity Optimization Toward High-Rate and
+Ultralong Life All-Solid-State Lithium-Sulfur Batteries
+XinXu Wang1
+Ruyi Fang1,2
+Jinsen Zhang1
+Rui Wu1
+Ruojian Ma1
+Yao Wang1
+Min Fan1
+Hui Huang1
+Jun Zhang1,3
+Xinhui Xia1,3
+Xinyong Tao1,2
+Yang Xia1,3
+Wenkui Zhang1
+1College of Materials Science and Engineering, Zhejiang University of Technology, Hangzhou, China
+2State Key Laboratory of Green Chemical Synthesis and
+Conversion, Zhejiang University of Technology, Hangzhou, China
+3State Key Laboratory of Advanced Separation Membrane Materials, Zhejiang University of
+Technology, Hangzhou, China
+Correspondence: Ruyi Fang (friesfang@zjut.edu.cn)
+Xinyong Tao (tao@zjut.edu.cn)
+Yang Xia (nanoshine@zjut.edu.cn)
+Received: 18 November 2025
+Revised: 26 December 2025
+Keywords: all-solid-state lithium-sulfur batteries | dual-conductivity | electronic structure restructuring | Li2SexS1–x reaction kinetics | sulfide-based solid
+electrolyte
+ABSTRACT
+All-solid-state lithium-sulfur batteries (ASSLSBs) hold great promise as next-generation energy storage systems due to their
+high energy density. However, the practical application of sulfur-based cathodes are largely hampered by their sluggish reaction
+kinetics, especially under high current densities and long-term cycling. Herein, by employing electronic structure modulation
+via same-group element doping, we successfully engineer lithium sulfide to concurrently facilitate ionic diffusion and electronic
+conduction, thereby significantly boosting its reaction kinetics. The formation of Se─S bonds, achieved by partial Se substitution,
+reorganizes the electronic structure of Li2S. This effect concurrently weakens sulfur’s electronegativity to facilitate Li+ diffusion
+and narrows the bandgap to boost electronic conduction. As a result, the Li2Se0.2S0.8 cathode exhibits remarkable high-rate
+capability, retaining 97.5% of its capacity after 1000 cycles at 1 A g−1. Moreover, a full cell combining Li2Se0.2S0.8 with a Si anode
+delivers a high energy density of 1324 Wh kg−1, highlighting the feasibility of high-specific-energy and high safety ASSLSBs. This
+work provides an effective strategy toward high-energy and high-power solid-state batteries.
+1
+Introduction
+Nowadays, rechargeable batteries with high energy density and
+enhanced safety are in urgent demand as next-generation energy
+storage solutions for low-altitude aviation applications [1]. All–
+solid–state lithium–sulfur batteries (ASSLSBs), which employ
+non–flammable solid–state electrolytes (SSEs) in place of conven-
+tional organic liquid electrolytes, effectively mitigate the shuttle
+effect and align well with the requirements for high energy
+density, improved safety, and long cycle life [2–4]. However, the
+absence of soluble polysulfide intermediates and the obstructed
+or tortuous transport pathways for both Li+ and electrons within
+the S or Li2S cathode result in sluggish reaction kinetics. This
+limitation hinders the practical realization of their theoretically
+high energy density in ASSLSBs [5].
+In fact, numerous strategies have been employed to enhance reac-
+tion kinetics, including size control [6–7], structural design [8–
+10], and applied pressure [11, 12]. Nevertheless, these approaches
+have encountered significant limitations [13–15]. For example,
+nanoparticles, despite their small size, are prone to agglom-
+eration, which compromises the dispersion homogeneity of
+X.X.W., R.F., and J.Z. contributed equally to this work.
+© 2026 Wiley-VCH GmbH
+Advanced Materials, 2026; 38:e22976
+https://doi.org/10.1002/adma.202522976
+1 of 9
+
+=== 第 2 页 ===
+FIGURE 1
+Schematic illustration the evolution of the cathode microstructure during charging for (a) a conventional Li2S cathode and (b) the
+proposed Li2SexS1−x (x = 0.1–0.3) composite cathode.
+cathode materials [16]. Similarly, while applying pressure can
+improve physical contact between active materials and conduc-
+tive additives, thereby enhancing cathode conductivity, excessive
+pressure may induce internal stress within ASSLSBs and promote
+the deposition of metallic lithium inside the SSEs, ultimately
+accelerating battery degradation [17, 18]. To establish efficient
+Li+/e−transport pathways, sulfur-based cathodes mainly rely
+on substantial amounts of conductive additives or other con-
+ductive materials to improve conductivity [13, 19]. However,
+this inevitably introduces additional heterogeneous interfaces
+[10], and the conduction networks formed by these additives
+are often highly tortuous (Figure 1a), which prolongs ion and
+electron transport distances and reduces reaction rates. More
+critically, lithium insertion/extraction reactions tend to occur
+preferentially at the interface between SSEs and conductive
+additives, leading to the formation of insulating compounds
+that passivate the reaction interface and severely inhibit fur-
+ther utilization of sulfur. Enhancing the intrinsic conductivity
+of cathode materials offers a promising path forward. This
+approach not only shortens Li+/e−transport distance, thereby
+accelerating reaction kinetics, but also reduces the reliance
+on conductive additives, which helps improve interfacial sta-
+bility and overall energy density, as well as extend cycling
+life [5]. Therefore, increasing the intrinsic conductivity of sul-
+fur represents a crucial and effective strategy for realizing
+ASSLSBs with high energy density, superior safety, and long cycle
+life.
+Previous studies have explored the strategies of introducing
+highly conductive atoms into sulfur and elucidated the underly-
+ing conversion mechanisms in both liquid and solid electrolyte
+systems [10, 20, 21]. However, they remain based on sulfur-based
+cathodes, and the problem of volume expansion of sulfur during
+cycling and the consequent poor cycling stability are inadequately
+addressed. Therefore, to address this issue, we propose an
+electronic structure reorganization of Li2S via same-group ele-
+ment doping. This approach enhances its intrinsic ion/electron
+conductivity, thereby accelerating the electrode reaction kinetics
+(Figure 1b). This is a novel system that directly optimizes
+the lithium content, which can more effectively improve ion
+transport efficiency compared to traditional SeSx. In addition,
+Li2SexS1-x can be directly matched with lithium-free anodes such
+as silicon/graphite, making the overall battery design safer and
+more feasible.
+The Li2SexS1−x (x = 0–0.3) cathode materials were synthesized
+via a solid-state reaction involving ball milling and subsequent
+heat treatment of Se, S, and LiH. All obtained compounds
+maintain the face-centered cubic structure, with a continuous
+lattice expansion observed as the Se content increases—the
+lattice parameter rises from 5.72 Å (x = 0) to 5.79 Å (x = 0.3),
+and the unit cell volume increases from 187.12 to 194.06 Å3.
+Moreover, the formation of Se─S bonds, which modulate the
+electronic structure of Li2S: (1) Reduces the electronegativity of
+sulfur, weakening its interaction with Li+ and thus facilitating
+Li+ diffusion; (2) Narrows the bandgap from 3.418 to 3.391 eV,
+enhancing electronic conduction of Li2S. As a result, the Li+
+migration barrier drops significantly from 0.42 to 0.22 eV, and
+the Li+ conductivity increases nearly threefold. In all-solid-
+state lithium–sulfur batteries, the Li2Se0.2S0.8 cathode exhibits a
+2 of 9
+Advanced Materials, 2026
+ 15214095, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202522976 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+FIGURE 2
+(a) XRD patterns of Li2SexS1−x (x = 0.1–0.3). (b) Rietveld refinement profile for Li2Se0.2S0.8. (c) SEM image and corresponding EDS
+elemental maps of Li2Se0.2S0.8. (d) XPS spectra of Li2Se0.2S0.8. (e) 7Li MAS NMR spectra of Li2Se0.2S0.8 and Li2S. (f) Ionic conductivity for Li2Se0.2S0.8
+and Li2S. (g) Charge-discharge profiles of Li2SexS1−x (x = 0–0.3) cathodes at a current density of 200 mA g−1. (h) Fitted slope values of the reduction
+and oxidation peaks for Li2SexS1−x (x = 0–0.3) cathodes. (i) Average Li+ diffusion coefficients in Li2SexS1−x (x = 0–0.3) cathodes.
+fivefold enhancement in Li+ transport capability. These kinetic
+benefits lead to a more than twofold increase in discharge
+capacity utilization and a remarkable improvement in cycle life
+under high current, from 31.79% (1 A g−1 for 89 cycles) to 74.41%
+(1 A g−1 for 1000 cycles), demonstrating substantially enhanced
+electrochemical performance.
+2
+Results and Discussion
+Figure 2a, presents the X‑ray diffraction (XRD) patterns used
+to investigate the phase and structure of the Li2SexS1−x (x = 0–
+0.3) composite cathodes. Although Li2S (JCPDS No. 23‑0369)
+and Li2Se (JCPDS No. 23–0072) exhibit similar XRD patterns,
+their peak positions differ due to the distinct atomic radii of
+S and Se [22]. The diffraction profiles of Li2SexS1−x (x = 0.1–
+0.3) closely resemble that of Li2S. Notably, the (111) diffraction
+peak shifts gradually from 26.8◦to 26.4◦with increasing Se
+content, confirming the successful incorporation of Se into the
+Li2S crystal lattice. In contrast, a physical mixture of Li2S and
+Li2Se simply shows superimposed diffraction patterns of the two
+phases (Figure S1), further verifying the formation of a solid
+solution in the synthesized Li2SexS1−x (x = 0.1–0.3) composites.
+To further examine the effect of Se doping on the microstructure,
+Rietveld refinement was performed on the XRD data. The
+refinement result for Li2Se0.2S0.8 is shown in Figure 2b (see
+Figure S2 for other cathodes). As summarized in Table S1, the
+lattice parameters and unit cell volumes of Li2SexS1−x (x = 0–
+0.3) increase systematically with higher Se content, which can
+be attributed to the partial substitution of smaller S atoms by
+larger Se atoms. Scanning electron microscopy (SEM) and energy
+dispersive spectroscopy (EDS) mapping results (Figure 2c) reveal
+that the Li2Se0.2S0.8 composite consists of uniformly distributed
+fine particles, with S and Se signals overlapping homogeneously,
+indicating a solid-solution structure with well-dispersed ele-
+ments. X-ray photoelectron spectroscopy (XPS) analysis was used
+to probe the chemical bonding environment. The S 2p spectrum
+Advanced Materials, 2026
+3 of 9
+ 15214095, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202522976 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+of the Li2S shows characteristic Li─S bonds at 160.2 eV, while
+the Se 3d spectrum of Li2Se exhibits Li─Se signals at 52.7 eV
+(Figure S3a,b) [23]. For Li2Se0.2S0.8, the S 2p and Se 3d XPS
+spectra jointly confirm the presence of S─Se hybrid bonds,
+indicating the formation of a chemically integrated structure
+(Figure 2d) [24]. Further structural insight was provided by 7Li
+Magic Angle Spinning Nuclear Magnetic Resonance (MAS-NMR)
+spectroscopy (Figure 2e). The NMR signal of Li2S appears at
+1.87 ppm with a full width at half maximum (FWHM) of 227.3 Hz.
+In contrast, the 7Li resonance in Li2Se0.2S0.8 shifts downfield
+to 2.38 ppm and broadens significantly to 301.5 Hz, indicating
+reduced electron density around Li nuclei due to Se substitution.
+This provides strong evidence for the incorporation of Se into
+the Li2S framework. Additional support comes from Raman spec-
+troscopy (Figure S4), the Raman signals of Li2Se0.2S0.8 (located
+at 255 and 360 cm−1) are positioned between the characteristic
+peaks of Li2S and Li2Se, which can be attributed to the vibration of
+Se─S bonds formed by the substitution of S atoms with Se atoms.
+Notably, the intensity of the 255 cm−1 peak is significantly higher
+in the doped sample than in pure Li2Se and Li2S, indicating that
+the doping enhances the Raman activity of this vibrational mode.
+Additionally, the baseline above 360 cm−1 is markedly elevated
+with a broadened peak shape, which may be attributed to the non-
+uniformity in lattice vibrations caused by the random distribution
+of Se and S atoms. The composition of Li2Se0.2S0.8 was quantified
+via XPS peak fitting using standard sensitivity factors, yielding a
+Se atomic ratio of 0.22 (Table S2), in good agreement with the
+nominal value. Transmission Electron Microscope (TEM) and
+high‑resolution TEM (HRTEM) images (Figure S5a–e) show that
+the material is composed of nanocrystalline particles with lattice
+fringes of 0.281 and 0.331 nm, corresponding to the (200) and (111)
+planes of Li2Se0.2S0.8, respectively [22, 25].
+The ion and electronic conductivities of Li2Se0.2S0.8 and Li2S were
+evaluated, as shown in Figures 2f and S6. The Li+ conductivity
+of Li2Se0.2S0.8 at room temperature reached 4.80 × 10−6 S cm−1,
+nearly three times that of Li2S (1.64 × 10−6 S cm−1). In addition,
+the electronic conductivity of Li2S is 2.26 × 10−9 S cm−1, while
+that of Li2Se0.2S0.8 (4.58 × 10−9 S cm−1) is approximately twice as
+high. This indicates that the introduction of Se not only effectively
+enhances Li+ conduction but also concurrently improves the elec-
+tron transport capability of the material, leading to a significant
+improvement in its overall conductivity. In ASSLSBs with the
+configuration Li2SexS1−x|Li6PS5Cl|Li, the polarization voltages of
+the Li2SexS1−x (x = 0.1–0.3) cathodes decreased significantly. The
+minimum polarization voltage, observed at x = 0.2, was 0.38 V
+at a current density of 200 mA g−1 (Figure 2g). Especially, the
+Li2Se0.2S0.8 cathode delivered a high initial discharge capacity of
+1000 mA h g−1 at 50 mA g−1, substantially exceeding that of the
+undoped Li2S cathode (Figure S7).
+To probe the influence of selenium to reaction kinetics, cyclic
+voltammogram (CV) was employed to estimate the Li+ diffusion
+coefficients in Li2SexS1−x (x = 0–0.3) cathodes. As depicted in
+Figure S8, the peak currents increased with scan rate, and both
+oxidation and reduction peaks exhibited a linear relationship
+with the square root of the scan rate, indicating a diffusion-
+controlled process. According to the Randles-Sevcik equation, the
+Li+ diffusion coefficient is positively correlated with the slope
+of the peak current versus scan rate1/2 [26]. The slopes for the
+anodic and cathodic peaks of all Li2SexS1−x (x = 0.1–0.3) cathodes
+were higher than that of pristine Li2S cathode. In particular,
+the values for Li2Se0.2S0.8 were 1.82 (anodic) and 1.66 (cathodic),
+more than four times that of the Li2S cathode, confirming that
+the introduction of Se effectively enhances the Li+ diffusion rate
+(Figure 2h).
+Further analysis via Galvanostatic Intermittent Titration Tech-
+nique (GITT) provided quantitative values of the Li+ diffusion
+coefficients (Figures 2i; S9). The average Li+ diffusion coefficients
+for Li2Se0.3S0.7, Li2Se0.2S0.8, Li2Se0.1S0.9, and Li2S were calculated to
+be 2.21 × 10−12, 3.72 × 10−12, 1.31 × 10−12, and 8.28 × 10−13 cm2 s−1,
+respectively. Notably, the value for Li2Se0.2S0.8 is approximately
+five times greater than that of the undoped sample. The enhanced
+Li+ migration kinetics and ionic conductivity can be attributed
+to the introduction of partial Se, which replaces S in the lattice
+to form S─Se bonds, reorganizes the electronic structure of Li2S,
+the overall electrostatic binding of Li+ in the doped lattice is
+weakened, facilitating more efficient Li+ deintercalation and
+migration during charge and discharge processes. Furthermore,
+due to Se with a larger atomic radius, leading to expanded
+interplanar spacing and widened Li+ transport channels.
+To elucidate the conversion mechanism of Se in Li2SexS1−x
+cathodes, ex situ XPS and XRD measurements were performed
+on the Li2Se0.2S0.8 cathode at different stages of the first charge–
+discharge cycle (Figure 3a–d). In the S 2p spectrum, the main
+doublet at 161.28 eV is assigned to S in argyrodite-type Li6PS5Cl
+(P─S─Li) at the Li2Se0.2S0.8/Li6PS5Cl interface [27]. Simultane-
+ously, Additional signals at 166.98 and 168.08 eV correspond to
+sulfate and sulfite species, respectively, resulting from surface
+oxidation. At the pristine state, both S 2p and Se 3d spectra show
+clear signals of Li─S─Se and Se─S bonds. Upon charging, the
+intensity of the Li─S─Se signal decreases while that of Se─S sig-
+nals increases. During discharge, these signals gradually revert to
+their original intensities, indicating a reversible transformation.
+This reversibility is corroborated by ex situ XRD patterns of the
+Li2Se0.2S0.8 (Figure 3d), confirming that the conversion pathway
+of Li2SexS1−x is analogous to that of Li2S, with Se remaining
+incorporated in the structure throughout cycling.
+In situ EIS was conducted at 50 mA h g−1 interval under a
+current density of 100 mA g−1 to monitor interfacial resistance
+evolution in the Li2Se0.2S0.8|Li6PS5Cl|Li cell. The Nyquist plots
+exhibit semicircles in the high-frequency region and sloping
+lines in the low-frequency region (Figure S10). Given the high
+compatibility between the argyrodite electrolyte and the Li-metal
+anode [28], the impedance changes mainly reflect processes at
+the cathode/SSE interface. During charging, both the charge
+transfer resistance (Rct) and diffusion resistance increase steadily.
+This rise can be attributed to two factors: (1) the conversion of
+highly conductive Li2Se0.2S0.8 phase into less conductive product
+(Se0.2S0.8), and (2) volumetric change that degrade electrical
+contact within the cathode. Upon discharge, re‑lithiation restores
+conductive pathways, leading to a progressive reduction in both
+interfacial and diffusion resistances.
+Distribution of relaxation times (DRT) analysis of the in situ EIS
+data further resolves the underlying processes. During charging,
+two prominent peaks appear at time constants of 0.1 and 3.2
+s, corresponding to cathode/SSE interface resistance and intra-
+cathode diffusion resistance, respectively [27]. The peak at 3.2
+4 of 9
+Advanced Materials, 2026
+ 15214095, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202522976 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+FIGURE 3
+(a) Initial charge-discharge profile of the Li2Se0.2S0.8 cathode at 50 mA g−1. (b,c) Ex situ XPS analysis of the Li2Se0.2S0.8 cathode
+at different discharge-charge states. (d) Ex situ XRD patterns of the Li2Se0.2S0.8 cathode at different discharge-charge status. In situ electrochemical
+impedance spectroscopy analysis presented as Nyquist plots with corresponding distribution of relaxation times (DRT) curves during (e) the first charge
+and (f) first discharge.
+s increases from 86 to 328 Ω (Figure 3e), reflecting hindered
+ion transport at the cathode interface. During discharging, both
+the charge transfer resistance and diffusion resistance gradually
+decrease (Figure 3f), which indicates the improved interfacial
+reaction kinetics and enhanced lithium-ion diffusion efficiency
+at the electrode interface.
+To further elucidate the origin of the enhanced electrochemical
+performance, the first-cycle CV activation charging curves of
+Li2S and Li2Se0.2S0.8 were compared. As shown in Figure 4a,
+Li2S exhibits a maximum current response of 0.19 mA with
+a peak potential at 2.86 V. In contrast, Li2Se0.2S0.8 shows
+a significantly higher current response of 0.5 mA and a
+lower peak potential of 2.57 V, indicating reduced polariza-
+tion and faster electrochemical kinetics. In addition, under the
+same mass loading, the initial charging curve of Li2S demon-
+strates higher polarization voltage and lower reversible capacity,
+whereas Li2Se0.2S0.8 presents a lower activation potential and
+higher reversible capacity (Figure 4b). These results consis-
+tently demonstrate that the introduction of selenium markedly
+enhances the electrochemical kinetics of the Li2S oxidation
+process.
+To verify this hypothesis, density functional theory (DFT) calcu-
+lations were performed. Figure 4c–e illustrate the Li+ migration
+pathway between adjacent sites along the stable Li2→Li1→Li2
+route [29]. The energy barrier for Li+ diffusion in pristine Li2S
+is calculated to be 0.42 eV, indicating limited Li+ mobility. In
+contrast, Se doping reduces the barrier to 0.22 eV in Li2Se0.2S0.8.
+This reduction is primarily attributed to the lattice expansion
+Advanced Materials, 2026
+5 of 9
+ 15214095, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202522976 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+FIGURE 4
+(a) Initial CV activation profiles of Li2S and Li2Se0.2S0.8 at a scan rate of 0.1 mV s−1. (b) Initial charge profiles and schematic illustration
+of Li2S and Li2Se0.2S0.8 cathodes. (c) Crystal structure and its Li+ migration pathway of Li2S. (d) Li+ migration energy barrier of Li2S and Li2Se0.2S0.8.
+(e) Crystal structure and its Li+ migration pathway of Li2Se0.2S0.8.
+and the weakened electronegativity of sulfur induced by Se
+incorporation, both of which effectively widen the Li+ migration
+channels and facilitate ion transport. Band structure analy-
+sis reveals similar electronic characteristics between Li2S and
+Li2Se0.2S0.8 (Figure S11), though the Se-doped material exhibits
+band overlap and splitting in specific energy ranges. Notably, the
+bandgap narrows from 3.418 eV in Li2S to 3.391 eV in Li2Se0.2S0.8
+(Table S3), consistent with the improved electronic conductivity
+observed experimentally. Additionally, the volume expansion
+during lithiation is significantly lower in Li2Se0.2S0.8 than in pure
+Li2S (Figure S12), contributing to enhanced cycling stability and
+prolonged battery life.
+To further evaluate the electrochemical performance of the
+Li2SexS1−x cathodes, ASSLSBs were assembled using lithium
+metal as the anode, the corresponding battery assembly
+schematic diagram is shown in Figure S13. For comparison, a
+bare Li2S cathode was also tested under identical conditions. As
+shown in Figure 5a, the Li2Se0.2S0.8 cathode exhibits excellent
+capacity utilization and cycling stability. After 140 cycles, the
+capacity retention rates for Li2Se0.1S0.9, Li2Se0.2S0.8, and Li2Se0.3S0.7
+are 81.54%, 94.86%, and 88.54%, respectively, significantly higher
+than the 68.10% retention of the Li2S cathode. The capacity
+contribution of the Li6PS5Cl solid electrolyte was also evaluated
+under the same voltage range (1.5–3.0 V) and current density
+(200 mA g−1), as shown in Figure S14, its contribution is negligible
+and decays continuously.
+In addition, selenium doping increases the discharge capacity
+utilization of the Li2Se0.2S0.8 cathode from 31.79% to 74.41%
+(Figure 5b). Notably, at a mass loading of 5 mg cm−2 and a
+current density of 200 mA g−1, the Li2Se0.2S0.8 cathode maintains
+outstanding cycling stability over 120 cycles, delivering an initial
+discharge specific capacity of 434.8 mA h g−1 and retaining a
+reversible capacity of 398.4 mA h g−1 (Figure S15). Furthermore, it
+demonstrates superior long-term cycling performance over 1000
+cycles at a high current density of 1000 mA g−1, with an initial
+capacity of 559.5 mA h g−1 and a retained reversible capacity of
+545.7 mA h g−1 after 1000 cycles. In contrast, the bare Li2S cathode
+suffers from severe capacity fading, maintaining only 146.5 mA
+h g−1 after 89 cycles (Figure 5c). Compared with the cathodes
+reported in published ASSLSBs literature, the Li2SexS1−x cathodes
+exhibit superior cycling performance at high current densities
+(Figure 5d) [30–34].
+As depicted in Figure 5e, after activation, the Li2Se0.2S0.8 cathode
+delivers discharge capacities of 986.6, 860.3, 691.7, and 603.2 mA
+h g−1at current densities of 50, 100, 500, and 1000 mA g−1,
+respectively. The corresponding charge–discharge profiles are
+shown in Figure 5f. By comparison, the Li2S reference cell
+exhibits a much lower capacity of 563.5 mA h g−1 at 50 mA g−1,
+which rapidly declines to 228.9 mA h g−1 at 1000 mA g−1. In
+addition, to improve the practical application value, we increased
+the proportion of Li2Se0.2S0.8 to 48 wt.% and conducted rate
+performance tests (Figure S16). The results indicate that even with
+a reduced amount of conductive additives, Li2Se0.2S0.8 still exhibit
+excellent rate performance. Specifically, it maintains a reversible
+capacity of 457.06 mA h g−1 at a current density of 1 A g−1, and the
+capacity recovers to 910.79 mA h g−1 when the current density is
+returned to 0.05 A g−1. These results clearly indicate that selenium
+doping not only significantly enhances the rate capability but
+also improves the capacity utilization of Li2Se0.2S0.8 cathode. This
+6 of 9
+Advanced Materials, 2026
+ 15214095, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202522976 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+FIGURE 5
+Electrochemical performance of Li2SexS1−x|Li6PS5Cl|Li cells. (a) Long-term cycling performance. (b) Actual and theoretical specific
+capacity. (c) High current density cycling performance. (d) Performance comparisons between this work and the reference works. (e) Rate performance.
+(f) Charge–discharge profiles of Li2Se0.2S0.8|Li6PS5Cl|Li cell at different current density. (g) Charge–discharge profiles of Li2Se0.2S0.8|Li6PS5Cl|Si cell.
+phenomenon stems from the incorporation of more conductive Se
+into the Li2S lattice, which reorganizes the electronic structure of
+Li2S, effectively supplying extra free charge carriers and lowering
+the electron density around lithium nuclei. However, cyclic
+stability is compromised when the selenium content is either
+too low or too high. This can be attributed to an insufficient
+number of active sites when too few Se atoms substitute for S,
+whereas excessive substitution with larger Se atoms exacerbates
+volume expansion during cycling, leading to accelerated capacity
+decay. These findings underscore the critical influence of atomic-
+level composition on the electrochemical stability and reaction
+efficiency of Li2SexS1−x cathodes. In addition, an all-solid-state
+battery was constructed using a Li2Se0.2S0.8 cathode and a pure
+silicon anode, instead of potentially hazardous lithium metal, to
+enhance safety. For practical implementation, the silicon anode
+generally requires pre-lithiation to establish a stable interface.
+After this treatment, the pre-lithiated silicon anode exhibits a
+capacity of approximately 3200 mA h g−1 (Figure S17). As shown
+in Figure 5g, when charged to 3.0 V at 50 mA g−1, the full
+cell delivered an initial charge capacity of 1040.1 mA h g−1 and
+a discharge capacity of 638.6 mA h g−1 at 1.5 V, correspond-
+ing to an electrode energy density of 1324.9 Wh kg−1 versus
+Li+/Li. After 50 cycles, the discharge specific capacity remained
+at 195.6 Wh kg−1. These results demonstrate the feasibility of
+assembling ASSLSBs with high energy density and improved
+safety (Figure S18). The significant capacity fading observed in the
+Li2Se0.2S0.8|Li6PS5Cl|Si full cell is mainly due to interface damage
+of the silicon anode caused by pressing during cycling. As such,
+the interfacial stability of silicon anodes remains a key challenge
+that demands further investigation for their practical application
+in all-solid-state batteries.
+3
+Conclusion
+To address the sluggish kinetics of sulfur cathodes in all-solid-
+state lithium-sulfur batteries, we have successfully engineered the
+electronic structure of Li2S. This restructuring enhances the dual
+conductivity of ions and electrons, thereby accelerating the over-
+all reaction kinetics. The Li2SexS1−x (x = 0–0.3) was successfully
+Advanced Materials, 2026
+7 of 9
+ 15214095, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202522976 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+prepared using a combination of ball milling and heat treatment.
+The introduction of Se─S bonds successfully lowers the Li+
+migration barrier from 0.42 to 0.22 eV and narrows the bandgap
+from 3.418 to 3.391 eV. Consequently, the Li+ conductivity is
+enhanced by nearly threefold, and the electronic conductivity
+has increased by two times. The Li+ diffusion coefficient of the
+Li2Se0.2S0.8 cathode is significantly increased to 3.72 × 10−12 cm2
+s−1, which is approximately five times that of the pristine Li2S
+cathode (8.28 × 10−13 cm2 s−1). These improvements collectively
+enhance the Li+/e−transport dynamics. Hence, the all-solid-
+state Li2Se0.2S0.8|Li6PS5Cl|Li cell not only delivers a satisfactory
+reversible discharge capacity of 721.1 mA h g−1 and remarkable
+capacity retention as high as 94.86% after 140 cycles at a current
+density of 200 mA g−1, but also exhibits excellent rate capability
+(603.2 mA h g−1 at a high current density of 1000 mA g−1). After
+1000 charge–discharge cycles at current density of 1 A g−1, the
+electrode material maintained a specific capacity of 545.7 mA
+h g−1 with a high capacity retention rate of 97.5%. This work
+provides new insights on addressing the inherently low Li+/e−
+reaction kinetics and inferior rate capability of Li2S cathode in
+ASSLSBs.
+Author Contributions
+R.Y.F., Y.X., W.K.Z. designed the experiments. X.X.W and R.Y.F. wrote
+the manuscript. X.X.W., R.W., and R.M. performed this experiment. Y.W.
+and J.S.Z. conducted DFT calculations. M.F., H.H., J.Z., X.H.X., and
+X.Y.T. performed the structural characterization and analysis. All authors
+discussed these results and commented on the paper.
+Acknowledgements
+The authors gratefully acknowledge financial supports from Natural Sci-
+ence Foundation of Zhejiang Province (LQ24E020012 and LD25E020003),
+National Natural Science Foundation of China (22509187, 52225208,
+22309188, 22279116 and U20A20253), Department of Science and Tech-
+nology Zhejiang Province (2024C01095), the Baima Lake Laboratory
+Joint Funds of the Zhejiang Provincial Natural Science Foundation
+(LBMHD24E020001).
+Conflicts of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+The data that support the findings of this study are available from the
+corresponding author upon reasonable request.
+References
+1. J. Wu, T. Ye, Y. Wang, et al., “Understanding the Catalytic Kinetics
+of Polysulfide Redox Reactions on Transition Metal Compounds in Li–
+S Batteries,” ACS Nano 16 (2022): 15734–15759, https://doi.org/10.1021/
+acsnano.2c08581.
+2. L. Hu, T. Yang, X. Yan, et al., “In Situ Construction of LiF–Li 3 N-Rich
+Interface Contributed to Fast Ion Diffusion in All-Solid-State Lithium–
+Sulfur Batteries,” ACS Nano 18 (2024): 8463–8474, https://doi.org/10.1021/
+acsnano.4c00267.
+3. Y. Xia, J. Li, Z. Xiao, et al., “Argyrodite Solid Electrolyte-Integrated
+Ni-Rich Oxide Cathode With Enhanced Interfacial Compatibility for All-
+Solid-State Lithium Batteries,” ACS Applied Materials & Interfaces 14
+(2022): 33361–33369, https://doi.org/10.1021/acsami.2c08940.
+4. J. Zhang, C. Zheng, L. Li, et al., “Unraveling the Intra and Intercycle
+Interfacial Evolution of Li6PS5Cl-Based All-Solid-State Lithium Batter-
+ies,” Advanced Energy Materials 10 (2020): 1903311, https://doi.org/10.
+1002/aenm.201903311.
+5. K. Shen, W. Shi, H. Song, et al., “Solid Catholyte With Regulated
+Interphase Redox for All-Solid-State Lithium-Sulfur Batteries,” Advanced
+Materials 37 (2025): 2417171, https://doi.org/10.1002/adma.202417171.
+6. Y. Yang, G. Zheng, S. Misra, J. Nelson, M. F. Toney, and Y. Cui,
+“High-Capacity Micrometer-Sized Li2S Particles as Cathode Materials
+for Advanced Rechargeable Lithium-Ion Batteries,” Journal of the Amer-
+ican Chemical Society 134 (2012): 15387–15394, https://doi.org/10.1021/
+ja3052206.
+7. F. Wan, L. Fang, X. Zhang, C. A. Wolden, and Y. Yang, “Lithium Sulfide
+Nanocrystals as Cathode Materials for Advanced Batteries,” Journal
+of Energy Chemistry 63 (2021): 138–169, https://doi.org/10.1016/j.jechem.
+2021.09.028.
+8. J. Zhang, J. Wang, M. Qian, et al., “Lithiothermic-Synchronous
+Construction of Mo-Li2S-Graphene Nanocomposites for High-Energy
+Li2S//Si–C Battery,” Advanced Functional Materials 32 (2022): 2108305,
+https://doi.org/10.1002/adfm.202108305.
+9. S. H. Kang, W.-G. Lim, L. Xu, D. Son, Y.-G. Lee, and J. Lee, “Approach-
+ing High Rate All-Solid-State Lithium-Sulfur Batteries via Promoted
+Sulfur Conversion With Nickel Oxide Nanoparticle Electrocatalyst,”
+Chemical Engineering Journal 490 (2024): 151489, https://doi.org/10.1016/
+j.cej.2024.151489.
+10. Z. Li, J. Zhang, H. B. Wu, and X. W. Lou, “An Improved Li–SeS2
+Battery With High Energy Density and Long Cycle Life,” Advanced
+Energy Materials 7 (2017): 1700281, https://doi.org/10.1002/aenm.20170
+0281.
+11. W. Zhang, D. Schröder, T. Arlt, et al., “(Electro)Chemical Expansion
+During Cycling: Monitoring the Pressure Changes in Operating Solid-
+State Lithium Batteries,” Journal of Materials Chemistry A 5 (2017):
+9929–9936, https://doi.org/10.1039/C7TA02730C.
+12. Y.-T. Chen, J. Jang, J. A. S. Oh, et al., “Enabling Uniform and
+Accurate Control of Cycling Pressure for All-Solid-State Batteries,”
+Advanced Energy Materials 14 (2024): 2304327, https://doi.org/10.1002/
+aenm.202304327.
+13. A. S. Alzahrani, M. Otaki, D. Wang, et al., “Confining Sulfur in
+Porous Carbon by Vapor Deposition to Achieve High-Performance
+Cathode for All-Solid-State Lithium–Sulfur Batteries,” ACS Energy
+Letters
+6
+(2021):
+413–418,
+https://doi.org/10.1021/acsenergylett.0c0
+1956.
+14. X. Qi, F. Yang, P. Sang, et al., “Electrochemical Reactivation of
+Dead Li2S for Li−S Batteries in Non-Solvating Electrolytes,” Angewandte
+Chemie International Edition 62 (2023): 202218803, https://doi.org/10.
+1002/anie.202218803.
+15. T. Lai, A. Bhargav, and A. Manthiram, “Lithium Tritelluride as an
+Electrolyte Additive for Stabilizing Lithium Deposition and Enhancing
+Sulfur Utilization in Anode-Free Lithium–Sulfur Batteries,” Advanced
+Functional Materials 33 (2023): 2304568, https://doi.org/10.1002/adfm.
+202304568.
+16. Y. Xie, F. Wu, W. Zheng, H. Zhang, and X. Wang, “Mitigating
+Li2S Agglomeration in Lithium-Sulfur Batteries With Hierarchically
+Structured CNT/Ni-Ni0.85Se Sulfur Hosts,” Science China Materials 68
+(2025): 1–9, https://doi.org/10.1007/s40843-024-3259-x.
+17. C. Lee, S. Y. Han, J. A. Lewis, et al., “Stack Pressure Measurements
+to Probe the Evolution of the Lithium–Solid-State Electrolyte Inter-
+face,” ACS Energy Letters 6 (2021): 3261–3269, https://doi.org/10.1021/
+acsenergylett.1c01395.
+18. H. Ren, Y. Zhong, X. Lin, et al., “Unraveling Soft Breakdown in Solid-
+State Electrolytes,” Nano Energy 140 (2025): 111044, https://doi.org/10.
+1016/j.nanoen.2025.111044.
+19. Y. Luo, S. Pan, J. Tian, et al., “Engineering Triple-Phase Interfaces With
+Hierarchical Carbon Nanocages for High-Areal-Capacity All-Solid-State
+8 of 9
+Advanced Materials, 2026
+ 15214095, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202522976 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+Li-S Batteries,” Advanced Materials 36 (2024): 2413325, https://doi.org/10.
+1002/adma.202413325.
+20. Y. Cui, A. Abouimrane, J. Lu, et al., “(De)Lithiation Mechanism of
+Li/SeSx ( x = 0–7) Batteries Determined by in Situ Synchrotron X-ray
+Diffraction and X-ray Absorption Spectroscopy,” Journal of the American
+Chemical Society 135 (2013): 8047–8056, https://doi.org/10.1021/ja402597g.
+21. X. Li, J. Liang, J. Luo, et al., “High-Performance Li–SeS x All-Solid-
+State Lithium Batteries,” Advanced Materials 31 (2019): 1808100, https://
+doi.org/10.1002/adma.201808100.
+22. C. Lu, W. Zhang, R. Fang, et al., “Facile and Efficient Synthesis of Li2Se
+Particles Towards High-Areal Capacity Li2Se Cathode for Advanced Li–Se
+Battery,” Sustainable Materials and Technologies 29 (2021): 00288, https://
+doi.org/10.1016/j.susmat.2021.e00288.
+23. B. Guo, Z. Wang, J. Chen, et al., “Cryo-EM Revealing the Origin of
+Excessive Capacity of the Se Cathode in Sulfide-Based All-Solid-State Li–
+Se Batteries,” ACS Nano 16 (2022): 17414–17423, https://doi.org/10.1021/
+acsnano.2c08558.
+24. T. H. Hong, W. Min, G. Choi, J. D. Kim, J. T. Lee, and D. Kim, “Unified
+Interplay of Chemical Bond and Solid-State Kinetics in Lithium–Sulfur
+Batteries,” Advanced Energy Materials 13 (2023): 2300636, https://doi.org/
+10.1002/aenm.202300636.
+25. F. Han, J. Yue, X. Fan, et al., “High-Performance All-Solid-State
+Lithium–Sulfur Battery Enabled by a Mixed-Conductive Li2S Nanocom-
+posite,” Nano Letters 16 (2016): 4521–4527, https://doi.org/10.1021/acs.
+nanolett.6b01754.
+26. B. Chen, S. Deng, M. Jiang, M. Wu, J. Wu, and X. Yao, “Intimate Triple
+Phase Interfaces Confined in Two-Dimensional Ordered Mesoporous
+Carbon Towards High-Performance All-Solid-State Lithium-Sulfur Bat-
+teries,” Chemical Engineering Journal 448 (2022): 137712, https://doi.org/
+10.1016/j.cej.2022.137712.
+27. Z. Wu, W. Zhang, Y. Xia, et al., “A Comprehensive Cognition for the
+Capacity Fading Mechanism of FeS2 In Argyrodite-Based All-Solid-State
+Lithium Battery,” EcoMat 5 (2023): 12327, https://doi.org/10.1002/eom2.
+12327.
+28. Y. Kato, S. Hori, T. Saito, et al., “High-Power All-Solid-State Batteries
+Using Sulfide Superionic Conductors,” Nature Energy 1 (2016): 1–7,
+https://doi.org/10.1038/nenergy.2016.30.
+29. J. Gao, Y. Gao, J. Hao, et al., “Activating Redox Kinetics of Li2S via
+Cu + , I −Co-Doping Toward High-Performance All-Solid-State Lithium
+Sulfide-Based Batteries,” Small 20 (2024): 2404171, https://doi.org/10.
+1002/smll.202404171.
+30. T. Shigedomi, Y. Fujita, D. Horiuchi, et al., “High-Capacity and
+Long-Cycle Life Li2S−V2S3−V2O3−LiI Bifunctional Materials for All-
+Solid-State Li/S Batteries,” Journal of Power Sources 629 (2025): 235831,
+https://doi.org/10.1016/j.jpowsour.2024.235831.
+31. Y. Hu, Y. Liu, Y. Lu, et al., “Conductive Li2S-NbSe2 Cathode Material
+Capable of Bidirectional Self-Activation for High-Performance All-Solid-
+State Lithium Metal Batteries,” Advanced Functional Materials 35 (2025):
+2412070, https://doi.org/10.1002/adfm.202412070.
+32. Y. Yu, B. Singh, Z. Yu, C. Y. Kwok, I. Kochetkov, and L. F. Nazar,
+“A Nanocrystallite CuS/Nitrogen-Doped Carbon Host Improves Redox
+Kinetics in All-Solid-State Li2S Batteries,” Advanced Energy Materials 14
+(2024): 2400845, https://doi.org/10.1002/aenm.202400845.
+33. C. Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, and L. F. Nazar, “High-
+Performance All-Solid-State Li2S Batteries Using an Interfacial Redox
+Mediator,” Energy & Environmental Science 16 (2023): 610–618, https://doi.
+org/10.1039/D2EE03297J.
+34. R. Xu, J. Yue, S. Liu, et al., “Cathode-Supported All-Solid-State
+Lithium–Sulfur Batteries With High Cell-Level Energy Density,” ACS
+Energy Letters 4 (2019): 1073–1079, https://doi.org/10.1021/acsenergylett.
+9b00430.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section.
+SupportingInformation: adma72066-sup-0001-SuppMat.docx
+Advanced Materials, 2026
+9 of 9
+ 15214095, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202522976 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

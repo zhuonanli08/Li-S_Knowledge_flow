@@ -1,0 +1,476 @@
+=== 第 1 页 ===
+COMMUNICATION
+1700017  (1 of 6)
+© 2017 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advsustainsys.com
+Li2S-Based Solid Solutions as Positive Electrodes with  
+Full Utilization and Superlong Cycle Life in All-Solid-State 
+Li/S Batteries
+Takashi Hakari, Akitoshi Hayashi,* and Masahiro Tatsumisago*
+DOI: 10.1002/adsu.201700017
+stability for evaluating the sulfur elec-
+trode although Li–In alloy is heavy weight 
+and high voltage operation. On the other 
+hand, the all-solid-state Li metal cells have 
+showed extremely low areal capacity of 
+0.1 to 0.2 mAh cm−2.[2] It is thus difficult 
+to construct all-solid-state full cells with Li 
+metal at the present stage.
+Li2S, which is a discharge reaction 
+product of Li/S batteries, is a promising 
+positive electrode because it has a high theo-
+retical specific capacity (1167 mAh g−1) and 
+can be coupled with Li-free high capacity 
+negative electrode materials[3] such as 
+Sn,[3a] Si–Sn alloy,[3b] black P,[3c] and 
+Sn4P3.[3d] To achieve the Li/S cells with 
+high energy density, not only increase of 
+the Li2S active material content in a posi-
+tive electrode but also improvement of the 
+Li2S utilization (the ratio of the obtained 
+capacity to the theoretical capacity) are 
+required.[4] However, the increase of the Li2S content in a 
+composite electrode leads to a decrease of the Li2S utilization 
+because of less electrical conduction paths in the electrode. 
+The improvement of Li2S utilization is an important issue for 
+achieving cells with high energy density. The utilizations of 
+Li2S have remained only 70% even though many efforts[5] have 
+been paid such as the use of several mixing techniques,[5a,b] the 
+preparation of nanoparticles of Li2S,[5c,d] and a balanced ionic/
+electronic conducting matrix.[5d] Moreover, in batteries with 
+organic liquid electrolytes, the highest reversible utilization is 
+75% although extensive studies such as mixing techniques with 
+carbon and development of carbon matrix have been done.[6] 
+Therefore, effective approach which is entirely different from 
+previous conventional techniques should be investigated for the 
+full utilization of Li2S. Recently, reaction mechanism of lithium 
+and sulfur has been investigated by using in-situ transmission 
+electron microscope.[7] These researches have suggested a new 
+lithiation process, where electronic conduction paths are not 
+only in carbon but also at the interface between Li2S and S. On 
+the other hand, an ionic conduction path is only in Li2S, but 
+it has a quite low ionic conductivity of 10−13 S cm−1. An ionic 
+conduction path in a bulk Li2S is important for increasing the 
+utilization of Li2S and improving the rate capability. In our pre-
+vious work, an increase of the ionic conductivity of Li2S itself 
+has been investigated by preparing solid solutions composed of 
+Li2S and LiI.[8] The all-solid-state cells with Li2S–LiI solid solu-
+tion have showed the highest reversible capacity of 920 mAh g−1 
+All-solid-state Li/S batteries have received a lot of attention in the view 
+point of high safety and long cycle life. However, the all-solid-state Li/S cells 
+have suffered from the low utilization of Li2S. In this study, for improving 
+the utilization and understanding the conversion reaction of Li2S/S in the 
+all-solid-state cells, Li2S-based solid solutions composed of Li2S and one of 
+lithium halides of LiCl, LiBr, and LiI are applied as active materials to the all-
+solid-state cells. Capacity of the cells with 80Li2S·20LiI (mol%) reaches more 
+than 1100 mAh g−1 at 0.5 C, corresponding to 95% of theoretical capacity. 
+The reversible full utilization of Li2S is first demonstrated in this work. The 
+significantly improved utilization of Li2S is originated by the increase of 
+electrochemical reaction sites rather than the ionic conductivities of Li2S-
+based solid solutions. Furthermore, the cell retains the capacity of 980 mAh 
+g−1 at 2 C for 2000 cycles without capacity degradation. These are the best 
+cycling performances in the reported Li2S cells with not only solid electrolytes 
+but also organic liquid electrolytes.
+Dr. T. Hakari, Prof. A. Hayashi, Prof. M. Tatsumisago
+Department of Applied Chemistry
+Osaka Prefecture University
+1-1 Gakuen-cho, Naka-ku, Sakai, Osaka 599-8531, Japan
+E-mail: hayashi@chem.osakafu-u.ac.jp; tatsu@chem.osakafu-u.ac.jp
+Li-S Batteries
+All-solid-state Li/S batteries have received a lot of attention 
+from the viewpoint of high safety and long cycle life because 
+of eliminating the dissolution of lithium polysulfides species 
+to organic liquid electrolyte. However, the all-solid-state Li/S 
+cells have suffered from low utilization of Li2S. In this study, 
+Li2S–LiCl, Li2S–LiBr, and Li2S–LiI solid solutions are applied as 
+active materials to the all-solid-state cells. Capacity of the cells 
+with Li2S–LiI is gradually increased during electrochemical 
+cycling and reaches more than 1100 mAh g−1 at 0.5 C, cor-
+responding to 95% of theoretical capacity. Furthermore, the 
+cells retain the capacity of 980 mAh g−1 at 2 C for 2000 cycles 
+without capacity degradation. To our best knowledge, the cells 
+with Li2S–LiI show the highest utilization and best cycling per-
+formances in not only all-solid-state cells but also liquid type 
+cells using a Li2S active material reported so far.
+All-solid-state Li/S batteries have intensively been inves-
+tigated in the view point of high safety and long cycle life.[1] 
+However, in these cells, Li–In alloy has been used as counter 
+and reference electrode because of high reversibility and 
+Adv. Sustainable Syst. 2017, 1, 1700017
+
+=== 第 2 页 ===
+www.advancedsciencenews.com
+© 2017 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1700017  (2 of 6)
+www.advsustainsys.com
+in all-solid-state cells with the Li2S active material reported so 
+far.[8] However, we have not understood why the Li2S–LiI solid 
+solution showed the high utilization. Li2S is converted to com-
+pletely different sulfur species during charging process, where 
+the solid solutions would be decomposed, leading to decrease 
+in conductivity.
+In this study, for understanding the conversion reaction 
+Li2S/S, the effects of the ionic conductivity and type of Li2S-
+based solid solutions on the Li2S utilization have been inves-
+tigated. Solid solutions in the systems Li2S–LiCl and Li2S–LiBr 
+with ionic conductivities comparable to Li2S–LiI are prepared 
+and then applied to the all-solid-state cells.
+Li2S–LiX(X = Cl, Br, and I) solid solutions are prepared by 
+ball-milling. X-ray diffraction (XRD) patterns of the obtained 
+samples are shown in Figure 1a–c. Si powder is added as an 
+internal standard for calculating lattice constants of the pre-
+pared samples. In all the prepared samples, all the diffraction 
+peaks are indexed by the cubic structure of Li2S. In the Li2S–
+LiCl and Li2S–LiBr samples, the peaks attributable to LiCl and 
+LiBr disappear in the compositions of x ≤ 30. On the other 
+hand, in the Li2S–LiI sample, the peaks attributable to LiI are 
+observed at x = 25. For the region in which the diffraction 
+peaks attributable to lithium halides disappear, average lat-
+tice constants of the prepared samples are calculated from the 
+(111), (200), (220), and (311) peaks. The composition depend-
+ence of the lattice constants is shown in Figure 1d. The lattice 
+constants of Li2S–LiCl solid solutions are not changed signifi­
+cantly from that of Li2S. On the other hand, the lattice con-
+stants of Li2S–LiBr and Li2S–LiI solid solutions are increased 
+with an increase of the lithium halide contents. In particular, 
+the change of lattice constants for Li2S–LiI solid solutions is 
+the most remarkable in the prepared samples, suggesting that 
+the lattice constants are affected with an ionic radius of anions 
+(S2−:184 pm, Cl−:181 pm, Br−:195 pm, and I−:216 pm).[9] The 
+disappearance of the diffraction peaks attributable to lithium 
+halides and the changes of lattice constants indicate that the 
+Li2S-based solid solutions are formed.
+Ionic conductivities of the prepared solid solutions are 
+measured by using impedance measurements. The composi-
+tion dependence of ionic conductivities for the prepared solid 
+solutions is shown in Figure 1e. The ionic conductivities of the 
+solid solutions are increased with an increase of the content for 
+lithium halides regardless of the kind of lithium halides. These 
+results suggest that the defects of Li+ ions are introduced by 
+charge compensation accompanied with the substitution of 
+anions. The Li2S–LiI solid solutions show relatively high ionic 
+conductivities compared to other solid solutions in the same 
+contents of lithium halides. This would be because the lat-
+tice constant of the Li2S–LiI solid solutions is larger than that 
+of other solid solutions. Almost the same ionic conductivities 
+Adv. Sustainable Syst. 2017, 1, 1700017
+Figure 1.  XRD patterns of the prepared samples for a) (100 - x) Li2S·xLiCl, b) (100 - x) Li2S·xLiBr, and c) (100 - x)Li2S·xLiI (0 ≤ x ≤ 30). d) Lattice constants 
+and e) ionic conductivities of the prepared solid solutions for (100 - x) Li2S·xLiCl, (100 - x) Li2S·xLiBr, and (100 - x) Li2S·xLiI (0 ≤ x ≤ 30).
+ 23667486, 2017, 6, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.201700017 by Tsinghua University Library, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+www.advancedsciencenews.com
+© 2017 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1700017  (3 of 6)
+www.advsustainsys.com
+of over 10−6 S cm−1 are obtained in the compositions of 
+70Li2 S·30LiCl, 70Li2 S·30LiBr, and 80Li2 S·20LiI. These solid 
+solutions are applied as active materials to all-solid-state cells.
+Charge–discharge curves of the cells with Li2S, 70Li2 
+S·30LiCl, 70Li2 S·30LiBr, and 80Li2 S·20LiI for 50 cycles are 
+shown in Figure 2a–d, respectively. The charge–discharge 
+measurements are controlled with the initial charge capacities. 
+An overpotential for the curves is relatively large at the initial 
+cycle and decreased for first 10 cycles. One plateau is observed 
+during charge–discharge processes; the observed discharge 
+potential at around 1.8 V versus Li+/Li is in accordance to the 
+lithiation potential of the small sulfur allotropes such as S4, S3, 
+and S2.[10] The conversion reaction of Li2S/S without forming 
+liquid electrolyte-soluble polysulfides (Li2Sx, x = 4–8) proceeds 
+in the all-solid-state Li/S cell.
+The cells with Li2S, 70Li2 S·30LiCl, 70Li2 S·30LiBr, and 
+80Li2 S·20LiI show the capacities of 500, 600, 600, 900 mAh 
+per gram of Li2S at the 50th cycle, respectively. The cells with 
+Li2S, 70Li2 S·30LiCl, and 70Li2 S·30LiBr exhibit the almost 
+same reversible capacities, indicating that the ionic conductivity 
+of Li2S-based solid solutions does not affect the utilization of 
+Li2S. The cell with 80Li2 S·20LiI exhibits the highest utilization, 
+suggesting that the charged 80Li2 S·20LiI has a higher ionic 
+conductivity than the other charged solid solutions. On charge 
+process, the 80Li2 S·20LiI solid solution may be decomposed to 
+form LiI dispersed in Li2S matrix. The formation of LiI would 
+provide electrochemical reaction sites because LiI has relative 
+high ionic conductivity in the other lithium halides. It is note-
+worthy that the transformation of Li2S-based solid solutions is 
+reversible during charge–discharge process.
+In the cell with 80Li2 S·20LiI, charge potential at an end 
+of charging is gradually decreased with the cycling as shown 
+in Figure 2e. The charge–discharge measurements are cut off 
+with the initial charge capacities as mentioned above. At the 
+51th cycle, the cell with 80Li2 S·20LiI is charged at the cut 
+off voltage of 3.6 V versus Li+/Li without the limitation of the 
+initial charge capacity. A reversible capacity is increased to 
+1000 mAh g−1 at the 51th cycle. For the cell with 70Li2 S·30LiCl 
+as shown in Figure 2b, overpotentials at the end of charge 
+during steady cycles are lower than that of the initial cycle. At 
+the 51th cycle, the cell with 70Li2 S·30LiCl is charged in the 
+same way of the cell with 80Li2 S·20LiI. The cell capacity is 
+increased, however the overpotential is still large. Charge–dis-
+charge curves of the cell with 80Li2 S·20LiI charged at the cut 
+off voltage of 3.6 V versus Li+/Li for each 10 cycles are shown 
+in Figure 2f. The reversible capacity is gradually increased and 
+then achieved to the almost theoretical value of 1100 mAh g−1. 
+The reversible full utilization of Li2S has been first demon-
+strated here in the reported Li2S cells with not only solid elec-
+trolytes but also organic liquid electrolytes.[11]
+Rate performance of the cells with Li2S and 80Li2 S·20LiI 
+at different current densities is shown in Figure 3a. The cell 
+with Li2S shows the capacity of 525, 480, and 380 mAh g−1 at 
+0.5, 1, and 2 C, respectively. On the other hand, the cell with 
+80Li2S·20LiI shows the capacity of 1130 mAh g−1 at 0.5 C 
+and retains its capacity at 1 C. Moreover, the cell can deliver 
+a capacity of 970 mAh g−1 even at a high current of 2 C. The 
+capacities of the cell with 80Li2 S·20LiI are more than two 
+times higher than that of the cell with Li2S in any rates. Average 
+discharge potentials of the cell with 80Li2 S·20LiI at 0.5 and 
+2 C are respectively 1.7 and 1.3 V versus Li+/Li as shown in 
+Figure 3b. The difference of the average discharge potentials 
+is 400 mV, which is attributable to the difference of an over-
+potential between 2 and 0.5 C. The total resistance of both the 
+solid electrolyte layer and the positive electrode determined by 
+the impedance measurements is 240 Ω, which will give the 
+overpotential difference of 360 mV between 2 and 0.5 C. The 
+90% of the overpotential is thus attributable to the resistance of 
+Adv. Sustainable Syst. 2017, 1, 1700017
+Figure 2.  Charge–discharge curves of the cells with a) Li2S, b) 70Li2 S·30LiCl, c) 70Li2 S·30LiBr, and d) 80Li2 S·20LiI electrode materials at a current of 
+0.5 C (1 C = 1167 mA g−1). The magnified charge curves for the cell with e) 80Li2 S·20LiI and f) the following cycle behavior in the cell.
+ 23667486, 2017, 6, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.201700017 by Tsinghua University Library, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+www.advancedsciencenews.com
+© 2017 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1700017  (4 of 6)
+www.advsustainsys.com
+the two components mentioned above. The residual 10% of the 
+overpotential would be attributable to a charge transfer and/or 
+diffusion resistance. Thus, further improvement of rate capa-
+bility is expected by increasing the electronic conductivity of 
+positive electrode and using a thinner SE layer with high ionic 
+conductivities.
+The charge–discharge profiles of the cells with Li2S and 
+80Li2 S·20LiI are compared as a function of capacity reten-
+tion ratios and are shown in Figure 3c. The capacity reten-
+tion ratios are calculated with the discharge capacity at 0.5 C 
+as 100%. Interestingly, the discharge potential profiles are not 
+significantly different between Li2S and 80Li2 S·20LiI at any 
+discharge depth even though the utilization of 80Li2 S·20LiI 
+is two times larger than that of Li2S. On the charging process, 
+overpotential is also same degree although potential profiles are 
+slightly different. These results suggest that the electrochemical 
+resistances are almost same between Li2S and 80Li2 S·20LiI 
+even though the utilization is significantly different. The differ-
+ence of utilization would be attributable to simple increase of 
+electrochemical reaction sites.
+Discharge capacities and Coulombic efficiencies of the cells 
+with Li2S and 80Li2 S·20LiI at 1 C for 300 cycles are shown 
+in Figure 3d. The cells with Li2S and 80Li2 S·20LiI show ini-
+tial capacity of 470 and 1090 mAh g−1, respectively, and then 
+100% of the initial capacities are maintained after 300 cycle. 
+Long-term cycle performance of the cell with 80Li2 S·20LiI at 
+2 C is shown in Figure 3e. Remarkably, the cell with the 80Li2 
+S·20LiI electrode shows a capacity retention of 100% for the 
+initial capacity after the 2000th cycle and Coulumbic efficiency 
+close to 100%. In the batteries with organic liquid electrolytes, 
+long-term cycle tests for 400 to 1500 cycles have been investi-
+gated and these cells have retained only 30–80% of their initial 
+capacities after cycling.[12] Therefore, the all-solid-state cell with 
+the 80Li2 S·20LiI electrode exhibits the best cycle performances 
+in the reported cells with Li2S as an active material. As shown 
+in Figure 3f, an operating voltage slightly changes of about 
+50 mV from the 50th to 2000th cycles, indicating that an 
+increase of resistances caused by side reactions during cycling 
+is ignored and the all-solid-state Li/S batteries with sulfide-
+based SEs have the excellent stability.
+In conclusion, Li2S–LiX (X = Cl, Br, and I) solid solutions 
+were prepared and then applied to the all-solid-state cells. The 
+utilization of Li2S did not depend on the ionic conductivities of 
+the Li2S-based solid solutions and the difference of utilization 
+was based on the electrochemical reaction sites. It is expected 
+that solid solutions were decomposed on the charge process, 
+and LiI dispersed in Li2S matrix would provide electrochem-
+ical reaction sites. The all-solid-state cells with 80Li2 S·20LiI 
+exhibited the capacity of more than 1100 mAh g−1 at 0.5 C, 
+corresponding to the utilization of 95%. Furthermore, the cell 
+retained the capacity of 980 mAh g−1 at 2 C for 2000 cycles. 
+The cells with 80Li2 S·20LiI showed the highest utilization 
+and best cycling performances in not only all-solid-state cells 
+but also liquid type Li/S cells reported so far. This work dem-
+onstrates that the all-solid-state cell with Li2S-based solid solu-
+tions is a promising high energy storage system and provides 
+new insight to improve the Li2S utilization for high-peformance 
+Li/S batteries.
+Experimental Section
+Synthesis of Li2S Solid Solutions: To prepare the Li2S–LiX (X = Cl, 
+Br, and I) solid solutions, a mixture of reagent-grade Li2S (Mitsuwa 
+Chemicals Co., Ltd.) and one of lithium halides of LiCl (Aldrich, 99.9%), 
+LiBr (Aldrich, 99.9%), and LiI (Aldrich, 99.9%) powders was placed into 
+a ZrO2 pot (45 mL) with 160 ZrO2 balls (diameter: 4 mm). It was then 
+mechanically milled with a planetary ball mill (Fritsch Pulverisette 7) for 
+10 h at 510 rpm in Ar atmosphere.
+Adv. Sustainable Syst. 2017, 1, 1700017
+Figure 3.  a) Rate performance of the all-solid-state cells with Li2S and 80Li2 S·20LiI at several current densities and b) the charge–discharge curves 
+of the cell with 80Li2 S·20LiI. c) Voltage profile of the cells with Li2S and 80Li2 S·20LiI as a function of capacity retention ratios. d) Cycle performance 
+of the cells with Li2S and 80Li2 S·20LiI for 300 cycles at 1C. e) Long-term cycle performance of the cell with 80Li2 S·20LiI electrode materials for 
+2000 cycles at 2C and f) its charge–discharge curves.
+ 23667486, 2017, 6, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.201700017 by Tsinghua University Library, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+www.advancedsciencenews.com
+© 2017 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1700017  (5 of 6)
+www.advsustainsys.com
+Adv. Sustainable Syst. 2017, 1, 1700017
+Characterizations of Li2S-Based Solid Solutions: X-ray diffraction 
+measurements (Cu Kα) were performed for the obtained solid solutions 
+using a diffractometer (UltimaIV, Rigaku) to identify crystalline phases 
+and calculate lattice constants. Ionic conductivities of the solid solutions 
+were measured for the pellets with 10 mm in diameter pressed under 
+360 MPa sandwiched between stainless-steel disks with an impedance 
+analyzer (Solartron, 1260) in dry Ar atmosphere. The frequency range is 
+0.1 Hz to 8 MHz, and the applied voltage is 100 mV.
+Preparation of the Composite Electrodes: The 75Li2S·25P2S5 (mol%) 
+glass solid electrolyte prepared by mechanical milling was used as solid 
+electrolyte layers for all-solid-state cells. Its lithium ion conductivity 
+was over 10−4 S cm−1 at 25 °C. The composite electrodes consisted of 
+Li2S–LiX (X = Cl, Br, and I), vaper grown carbon fiber (VGCF, Showa 
+Denko), and solid electrolyte (SE) in a weight ratio of 50:10:40. The 
+mixture of the 70Li2 S·30LiCl, 70Li2 S·30LiBr, or 80Li2 S·20LiI (mol%) and 
+VGCF as a conductive additive were mechanically milled at 510 rpm for 
+10 h in a ZrO2 pot (45 mL) with 160 ZrO2 balls (diameter: 4mm) to form 
+electron conduction paths to the solid solutions. The prepared Li2S–LiX 
+(X = Cl, Br, and I)-VGCF powder and SE powder were softly milled at 
+150 rpm for 0.5 h to avoid a function of SE as an active material in a 
+dry Ar-filled glove box. The obtained composite electrode powders were 
+used as working electrodes in all-solid-state cells.
+Construction of All-Solid-State Cells and Their Electrochemical 
+Measurements: Electrode properties of the solid solutions were 
+investigated in all-solid-state electrochemical cells. The all-solid-state 
+cells of LiIn/70Li2 S·30LiCl, 70Li2 S·30LiBr, or 80Li2 S·20LiI composite 
+electrodes were fabricated as follows. The prepared composite electrodes 
+were directly used as a working electrode, and the SE was used as a solid 
+electrolyte separate layer. The obtained working electrode (3 mg cm−2), 
+corresponding to 0.9–1.1 mg cm−2 of Li2S mass, and the solid electrolyte 
+layer (80 mg) were set in a polycarbonate tube (diameter: 10 mm) and 
+pressed together under 360 MPa. An indium foil with a thickness of 
+300 µm and a lithium foil with a thickness of 250 µm were then placed 
+on the surface of the SE side of the bilayer pellet as a counter-reference 
+electrode. The three-layered pellet was then sandwiched between two 
+stainless-steel disks as a current collector. Finally, electrochemical solid-
+state cells were obtained by pressing under 72 MPa. Electrochemical 
+tests of the cells tightened constantly are conducted at various current 
+densities at 25 °C in Ar atmosphere using a charge–discharge measuring 
+device (BTS-2004, Nagano Co.). The voltage range was 1.2–3.6 V (vs Li). 
+The SE in the composite electrodes did not act as an active material 
+because only one plateau attributable to Li2S active material appeared in 
+the charge–discharge profile as shown in Figure 2.
+Acknowledgements
+This work was carried out under financial support from JST, the 
+Advanced Low Carbon Technology Research and Development Program 
+(ALCA), Specially Promoted Research for Innovative Next Generation 
+Batteries (SPRING) project. T.H. is grateful for a Grant-in-Aid and a 
+fellowship from the Japan Society for the Promotion of Science (JSPS).
+Conflict of Interest
+The authors declare no conflict of interest.
+Keywords
+all-solid-state batteries, lithium sulfide active materials, lithium–sulfur 
+batteries
+Received: February 20, 2017
+Revised: April 13, 2017
+Published online: May 24, 2017
+[1]	 a) M. Nagao, A. Hayashi, M. Tatsumisago, Electrochim. Acta 2011, 
+56, 6055; b) T.  Takeuchi, H.  Kageyama, K.  Nakanishi, T.  Ohta, 
+A. Sakuda, H. Sakaebe, H. Kobayashi, K. Tatsumi, Z. Ogumi, ECS 
+Electrochem. Lett. 2014, 3, A31; c) T.  Yamada, S.  Ito, R.  Omoda, 
+T.  Watanabe, Y.  Aihara, M.  Agostini, U.  Ulissi, J.  Hassoun, 
+B.  Scrosati, J. Electrochem. Soc. 2015, 162, A646; d) S.  Kinoshita, 
+K. Okuda, N. Machida, M. Naito, T. Shigematsu, J. Power Sources 
+2014, 269, 727; e) Z.  Lin, Z.  Liu, W.  Fu, N. J.  Dudney, C.  Liang, 
+Angew. Chem., Int. Ed. 2013, 52, 7460; f) M.  Nagao, K.  Suzuki, 
+Y. Imade, M. Tateishi, R. Watanabe, T. Yokoi, T. Tatsumi, R. Kanno, 
+J. Power Sources 2016, 330, 120; g) H. Nagata, Y. Chikusa, J. Power 
+Sources 2016, 329, 268; h) M.  Chen, S.  Adams, J. Solid State 
+Electrochem. 2015, 19, 692; i) C.  Yu, L. V.  Eijck, S.  Ganapathy, 
+M.  Wagemaker, Electrochim. Acta 2013, 215, 48; j) A.  Unemoto, 
+S.  Yasaku, G.  Nogami, M.  Tazawa, M.  Taniguchi, M.  Matsuo, 
+T.  Ikeshoji, S.  Orimo, Appl. Phys. Lett. 2014, 105, 083901;  
+k) S. Das, P. Ngene, P. Norby, T. Vegge, P. E. de jongh, D. Blanchard, 
+J. Electrochem. Soc. 2016, 163, A2029.
+[2]	 a) Z.  Liu, W.  Fu, E. A.  Payzant, X.  Yu, Z.  Wu, J. N.  Dudney, 
+J.  Kiggans, K.  Hong, A. J.  Rondinone, C.  Liang, J. Am. Chem. 
+Soc. 2013, 135, 975; b) M.  Nagao, A.  Hayashi, M.  Tatsumisago, 
+Electrochem. Commun. 2012, 22, 177; c) Y.  Tao, S.  Chen, D.  Liu, 
+G.  Peng, X.  Yao, X.  Xu, J. Electrochem. Soc. 2016, 163, A96;  
+d) U. Ulissi, M. Agostini, S. Ito, Y. Aihara, J. Hassoun, Solid State 
+Ionics 2016, 296, 13; e) E.  Rangasamy, Z.  Liu, M.  Gobet, K.  Pilar, 
+G. Sahu, W. Zhou, H. Wu, S. Greenbaum, C. Liang, J. Am. Chem. 
+Soc. 2015, 137, 1384; f) G. Sahu, Z. Lin, J. Li, Z. Liu, N. Dudney, 
+C. Liang, Energy Environ. Sci. 2014, 7, 1053.
+[3]	 a) J. M.  Whiteley, J. W.  Kim, C. S.  Kang, J. S.  Cho, K. H.  Oh, 
+S.-H.  Lee, J. Electrochem. Soc. 2015, 162, A771; b) J. M.  Whiteley, 
+J. W.  Kim, D. M.  Piper, S.-H.  Lee, J. Electrochem. Soc. 2016, 163, 
+A251; c) M. Nagao, A. Hayashi, M. Tatsumisago, J. Power Sources 
+2011, 196, 6902; d) A.  Ueda, M.  Nagao, A.  Inoue, A.  Hayashi, 
+Y.  Seino, T.  Ota, M.  Tatsumisago, J. Power Sources 2013, 244, 
+597.
+[4]	 C. 
+Li, 
+H. 
+Zhang, 
+L. 
+Otaegui, 
+G. 
+Singh, 
+M. 
+Armand, 
+L. M. Rodriguez-Martinez, J. Power Sources 2016, 326, 1.
+[5]	 a) T. Takeuchi, H. Kageyama, K. Nakanishi, M. Tabuchi, H. Sakaebe, 
+T. Ohta, H. Senoh, T. Sakai, K. Tatsumi, J. Electrochem. Soc. 2010, 
+157, A1196; b) M.  Nagao, A.  Hayashi, M.  Tatsumisago, J. Mater. 
+Chem. 2012, 22, 10015; c) Z.  Lin, Z.  Liu, N. J.  Dudney, C.  Liang, 
+ACS Nano 2013, 7, 2829; d) F. Han, J. J. Yue, X. Fan, T. Gao, C. Luo, 
+Z. Ma, L. Suo, C. Wang, Nano Lett. 2016, 16, 4521.
+[6]	 a) Y.  Son, J.-S.  Lee, Y.  Son, J.-H.  Jang, J.  Cho, Adv. Energy Mater. 
+2015, 5, 1500110; b) S.-K. Lee, Y. J. Lee, Y.-K. Sun, J. Power Sources 
+2016, 323, 174.
+[7]	 a) H.  Kim, J. T.  Lee, A.  Magasinski, K.  Zhao, Y.  Liu, G.  Yushin, 
+Adv. Energy Mater. 2015, 5, 1501306; b) Z.  Yang, Z.  Zhu, J.  Ma, 
+D.  Xiao, X.  Kui, Y.  Yao, R.  Yu, X.  Wei, L.  Gu, Y.-S.  Hu, H.  Li, 
+X. Zhang, Adv. Energy Mater. 2016, 6, 1600806.
+[8]	 T.  Hakari, M.  Nagao, A.  Hayashi, M.  Tatsumisago, Chem. Lett. 
+2015, 44, 1664.
+[9]	 L.  Pauling, The Nature of the Chemical Bond, Cornell University 
+Press , Ithaca, NY, USA,  1960.
+[10]	 a) S.  Xin, L.  Gu, N.-H.  Zhao, Y.-X.  Yin, L.-J.  Zhou, Y.-G.  Guo, 
+L.-J.  Wan, J. Am. Chem. Soc. 2012, 134, 18510; b) Z.  Li, L.  Yuan, 
+Z. Yi, Y. Sun, Y. Liu, Y. Jiang, Y. Shen, Y. Xin, Z. Zhang, Y. Huang, 
+Adv. Energy Mater. 2014, 4, 1301473; c) M.  Helen, M. A.  Reddy, 
+T. Diemant, U. Golla-Schindler, R. J. Behm, U. Kaiser, M. Fichtner, 
+Sci. Rep. 2015, 5, 12416.
+[11]	 a) K. Cai, M.-K. Song, E. J. Cairns, Y. Zhang, Nano Lett. 2012, 12, 
+6474; b) K.  Zhang, L.  Wang, Z.  Hu, F.  Cheng, J.  Chen, Sci. Rep. 
+2014, 4, 6467; c) L.  Chen, Y.  Liu, M.  Ashuri, C.  Liu, L. L.  Shaw, 
+J. Mater. Chem. A 2014, 2, 18026; d) F. Wu, J. T. Lee, F. Fan, N. Nitta, 
+ 23667486, 2017, 6, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.201700017 by Tsinghua University Library, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+www.advancedsciencenews.com
+© 2017 WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+1700017  (6 of 6)
+www.advsustainsys.com
+Adv. Sustainable Syst. 2017, 1, 1700017
+H. Kim, T. Zhu, G. Yushin, Adv. Mater. 2015, 27, 5579; e) C. Wang, 
+X. Wang, Y. Yang, A. Kushima, J. Chen, Y. Huang, J. Li, Nano Lett. 
+2015, 15, 1796; f) L.  Chen, Y.  Liu, F.  Zhang, C.  Liu, L. L.  Shaw, 
+ACS Appl. Mater. Interfaces 2015, 7, 25748.
+[12]	 a) Z. W.  Seh, H.  Wang, P.-C.  Hsu, Q.  Zhang, W.  Li, G.  Zheng, 
+H.  Yao, Y.  Cui, Energy Environ. Sci. 2014, 7, 672; b) Z. W.  Seh, 
+J. H. Yu, W. Li, P.-C. Hsu, H. Wang, Y. Sun, H. Yao, Q. Zhang, Y. Cui, 
+Nat. Commun. 2014, 5, 5017; c) C. Nan, Z. Lin, H. Liao, M.-K. Song, 
+Y.  Li, E. J.  Cairns, J. Am. Chem. Soc. 2014, 136, 4659; d) Y.  Hwa, 
+J. Zhao, E. J. Cairns, Nano Lett. 2015, 15, 3479; e) Y. Qiu, G. Rong, 
+J.  Yang, G.  Li, S.  Ma, X.  Wang, Z.  Pan, Y.  Hou, M.  Liu, F.  Ye, 
+W.  Li, Z. W.  Seh, X.  Tao, H.  Yao, N.  Liu, R.  Zhang, G.  Zhou, 
+J.  Wang, S.  Fan, Y.  Cui, Y.  Zhang, Adv. Energy Mater. 2015, 5, 
+1501369.
+ 23667486, 2017, 6, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsu.201700017 by Tsinghua University Library, Wiley Online Library on [24/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

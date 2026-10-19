@@ -1,0 +1,11 @@
+import fs from "node:fs/promises";
+import { SpreadsheetFile, Workbook } from "@oai/artifact-tool";
+const data = JSON.parse(await fs.readFile("../全库文献索引_中间数据.json", "utf8"));
+const wb = Workbook.create();
+const sh = wb.worksheets.add("Test");
+const records = [...data.solid_lis_records, ...data.transfer_records.slice(0, 3000)];
+const rows = records.map(r => [r.编号, r.标题, r.摘要]);
+sh.getRangeByIndexes(0, 0, rows.length + 1, 3).values = [["id", "title", "abstract"], ...rows];
+console.log("before-export", rows.length);
+const blob = await SpreadsheetFile.exportXlsx(wb);
+console.log("after-export", blob ? "ok" : "no-blob");

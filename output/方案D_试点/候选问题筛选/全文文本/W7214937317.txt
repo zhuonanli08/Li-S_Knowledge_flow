@@ -1,0 +1,1670 @@
+=== 第 1 页 ===
+Interdisciplinary Materials  
+PERSPECTIVE
+Low‐Pressure All‐Solid‐State Lithium–Sulfur Batteries: 
+Challenges and Design Principles 
+Xiaowei Liu1,2 | Yanqiu Zhu1 | Xinxin Zhu1 | Dashan Ye1 | Tianshu Huang1 | Zhipeng Sun3 | Bowen Wang3 |
+Zhuangnan Li1,2
+| Jun Lu1,2
+1College of Chemical and Biological Engineering, Zhejiang University, Hangzhou, China | 2Quzhou Institute of Power Battery and Grid Energy Storage, 
+Quzhou, China | 3FAW‐Volkswagen Automotive Co. Ltd., Changchun, China
+Correspondence: Zhuangnan Li (zhuangnanli@zju.edu.cn) | Jun Lu (junzoelu@zju.edu.cn)
+Received: 12 May 2026 | Revised: 11 August 2026 | Accepted: 31 August 2026
+Funding: National Natural Science Foundation of China, Grant/Award Numbers: 22679175, U25A20243, 92372207; Leading Innovative and Entrepreneur 
+Team Introduction Program of Zhejiang, Grant/Award Number: 2023R01007
+Keywords: all‐solid‐state electrolytes | external pressure | interfacial contact | lithium–sulfur batteries | sulfur conversion reactions
+ABSTRACT
+All‐solid‐state lithium–sulfur batteries (ASSLSBs) are promising for high‐energy and safe energy storage, yet their practical 
+operation remains constrained by the reliance on external stack pressure (usually > 80 MPa, even exceeding 120 MPa). While 
+pressure can improve solid–solid contact, it primarily acts as a compensatory component rather than a fundamental solution, 
+and introduces substantial penalties in cell‐level energy density and engineering complexity. Here, we present a pressure‐ 
+centered perspective and show that the degradation of ASSLSBs under low‐pressure (< 0.1 MPa) conditions originates from a 
+chemo‐mechanical mismatch among reaction‐induced volume change, interfacial chemistry, charge transport, and mechanical 
+response. This mismatch is commonly reflected as cathode contact loss, interphase growth, and lithium anode instability. On 
+this basis, we outline key challenges and design principles for low‐pressure ASSLSBs, focusing on maintaining reaction 
+accessibility, constructing adaptive ion‐conducting phases, and stabilizing solid–solid interfaces. Eliminating pressure depen­
+dence, rather than accommodating it, is essential for translating ASSLSBs into practical energy storage systems.
+1
+|
+Introduction 
+Lithium–sulfur batteries offer a promising route toward next‐ 
+generation energy storage [1–4]. However, translating their high 
+theoretical energy density into practical performance remains a 
+persistent challenge. This gap is further amplified in all‐solid‐ 
+state lithium–sulfur batteries (ASSLSBs), where the absence of 
+liquid electrolyte eliminates the self‐adjusting nature of inter­
+facial contact and exposes fundamental limitations in solid– 
+solid reaction systems [5–8].
+To compensate for the lack of interfacial adaptability, stack 
+pressure (typically > 80 MPa and in some cases exceeding 
+120 MPa) has been widely adopted as an operational parameter 
+in ASSLSBs [9–12]. High pressure can improve solid–solid 
+contact and reduce interfacial resistance, enabling considerable 
+battery performance under laboratory conditions [13–16]. 
+However, this strategy fundamentally relies on external 
+mechanical constraint rather than intrinsic material and inter­
+facial stability. As a result, performance achieved under high 
+pressure does not necessarily reflect the intrinsic stability of the 
+system. More importantly, from a practical perspective, such 
+pressure dependence introduces substantial penalties in system‐ 
+level energy density, mechanical complexity, and scalability. 
+Considering the mechanical constraints of practical battery 
+modules, we define application‐oriented low‐pressure ASSLSBs 
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided 
+the original work is properly cited. 
+© 2026 The Author(s). Interdisciplinary Materials published by Wuhan University of Technology and John Wiley & Sons Australia, Ltd. 
+Xiaowei Liu and Yanqiu Zhu contributed equally to this study.
+1 
+Interdisciplinary Materials, 2026; 1–18 
+https://doi.org/10.1002/idm2.70086
+
+=== 第 2 页 ===
+as cells that can maintain stable cycling under an external stack 
+pressure of < 0.1 MPa [17, 18] (the specific definition and esti­
+mation basis can be found in Note S1).
+Limitations mentioned above indicate that the central challenge 
+of ASSLSBs should not be defined as achieving high perform­
+ance under high pressure, but rather as enabling stable opera­
+tion without relying on it. In this context, pressure‐dependent 
+performance may be sufficient for laboratory demonstration, 
+but it is fundamentally incompatible with practical battery 
+design. Once external pressure is reduced, the system can no 
+longer rely on mechanical constraint to sustain contact and 
+transport continuity, thereby directly revealing the intrinsic 
+interaction between electrochemical processes and mechanical 
+response.
+Here, we present a pressure‐centered perspective on ASSLSBs 
+and argue that the degradation of low‐pressure systems origi­
+nates from a chemo‐mechanical mismatch among reaction‐ 
+induced volume evolution, interfacial chemistry, charge trans­
+port, and mechanical response. Based on this framework, we 
+analyze the fundamental failure mechanisms and propose 
+design principles toward practical low‐pressure ASSLSBs. To 
+provide an overview of the current state of low‐pressure 
+ASSLSBs, representative studies reported in the literature are 
+summarized in Table S1. The information summarized in this 
+table indicates that research on low‐pressure ASSLSBs is still 
+relatively scarce.
+2
+|
+The Role of Stack Pressure in ASSLSBs 
+2.1
+|
+Solid–Solid Contact and Its Reliance on 
+Pressure 
+In ASSLSBs, stack pressure primarily acts by improving 
+physical contact among solid particles and across electrode/ 
+electrolyte interfaces [19–22]. In sulfur composite cathodes, ion 
+transport relies on the solid electrolyte network, whereas elec­
+tron transport is provided by conductive carbon [23, 24]. Sulfur 
+conversion can proceed efficiently only when active sulfur 
+species remain simultaneously connected to both pathways. 
+Because sulfur and Li2S are intrinsically poor ion/electron 
+conductors [25, 26], any local loss of contact can rapidly isolate 
+active material from the electrochemical reaction.
+Applying stack pressure compacts the composite cathode and 
+reduces unfilled voids between particles. For relatively soft 
+sulfide electrolytes, pressure can also promote local deforma­
+tion, thereby increasing the true contact area among sulfur 
+particles, carbon additives, and electrolyte particles [27, 28]. 
+This improves initial sulfur utilization by lowering contact 
+resistance and establishing more continuous ion/electron 
+transport pathways. In this sense, pressure is effective because 
+the reaction topology in conventional ASSLSB cathodes is 
+inherently contact‐dependent [29–31].
+However, this pressure‐induced contact is intrinsically 
+unstable during cycling. The sulfur cathode undergoes large 
+volume changes during repeated S8/Li2S conversion, which 
+continuously perturbs the originally compacted particle 
+network [32–34]. For this reason, mechanically enforced 
+contact cannot be reliably maintained once the system 
+evolves beyond its initial state. If the applied pressure is 
+insufficient, newly formed gaps, particle separation, and 
+local delamination progressively reduce the triple‐phase 
+contact area [35, 36]. As a result, part of the sulfur may 
+become electron‐accessible but ion‐inaccessible, or ion‐ 
+accessible but electron‐inaccessible. Therefore, the role of 
+stack pressure is not simply to increase electrode density, 
+but to maintain reaction‐accessible contact during dynamic 
+volume evolution. More fundamentally, it acts as a tempo­
+rary means of sustaining contact, reflecting the intrinsic 
+fragility of contact‐dependent reaction networks rather than 
+providing a robust solution for practical operation.
+2.2
+|
+Pressure‐Modulated Interfacial Impedance 
+and Reaction Boundaries 
+Beyond particle‐level contact, stack pressure also influences 
+interfacial impedance and the spatial distribution of reaction 
+boundaries. In ASSLSBs, charge transfer occurs mainly at solid– 
+solid interfaces, including the internal interfaces of the com­
+posite cathode (sulfur/carbon, sulfur/electrolyte, carbon/ 
+electrolyte), cathode/electrolyte, electrolyte layers, and Li/solid‐ 
+state electrolyte (SSE) interfaces [37–39]. These interfaces 
+are fundamentally different from liquid–electrolyte systems 
+because they cannot be continuously wetted or repaired by 
+electrolyte infiltration [40, 41]. Their electrochemical behavior, 
+therefore, depends strongly on the real contact area established 
+by mechanical compression [42, 43].
+Stack pressure can increase the true contact area at these in­
+terfaces and reduce local constriction resistance [44]. This helps 
+distribute current more uniformly, mitigate local polarization, 
+and improve interfacial charge‐transfer kinetics. At the 
+cathode/electrolyte and Li/SSE interfaces, better mechanical 
+contact can facilitate Li+ transport [45, 46]. Within the cathode, 
+improved particle contact can expand the effective reaction 
+region from a few isolated contact points to a more connected 
+interfacial network [47]. On the anode side, enhanced Li/SSE 
+contact can also homogenize Li+ flux and reduce local current 
+concentration, thereby mitigating void formation during 
+Li stripping and unstable Li deposition during subsequent 
+plating [48, 49].
+Nevertheless, stack pressure does not eliminate interfacial 
+instability, but only mechanically suppresses its expression. If 
+the interfacial chemistry is unstable or if the electrode under­
+goes repeated volume change, high pressure may temporarily 
+mask contact degradation rather than solve it. In addition, since 
+each solid material has its own pressure tolerance limit, overly 
+constrained interfaces may accumulate local stress, which 
+can promote microcracking, delamination, or heterogeneous 
+current distribution during cycling [50, 51]. Thus, the interfacial 
+role of pressure should be understood as a trade‐off, 
+where reduced impedance is achieved at the expense of mask­
+ing intrinsic instability. More fundamentally, the apparent 
+improvement in interfacial kinetics under pressure arises from 
+externally enforced contact rather than intrinsically stable in­
+terfaces, and therefore cannot be sustained under practical low‐ 
+pressure operation.
+2 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+2.3
+|
+The Effect of Stack Pressure on Sulfur 
+Conversion 
+The influence of stack pressure on sulfur conversion is pri­
+marily kinetic and interfacial rather than thermodynamic. Stack 
+pressure is not expected to fundamentally redefine the intrinsic 
+sulfur redox sequence. Instead, it regulates the mechanical 
+and transport environment in which successive conversion 
+reactions proceed. By increasing the effective contact area, 
+homogenizing the local overpotential distribution, and reducing 
+interfacial resistance, appropriate pressure can lower polariza­
+tion and improve the practical utilization of sulfur [52, 53]. This 
+is especially important in solid‐state systems, where sulfur 
+conversion is restricted by sluggish Li+ transport, limited elec­
+tron access, and narrow solid–solid reaction boundaries [54].
+Current evidence suggests that solid‐state sulfur conversion can 
+involve complex discharge products, including mixed Li2S2/Li2S 
+phases [9, 55, 56]. However, this behavior may not be universal, 
+as the sulfur‐conversion pathway depends on the electrolyte 
+chemistry, interface structure, and operating conditions 
+[57–59]. The distribution of these products is strongly influ­
+enced by factors such as cutoff voltage, catalytic environment, 
+and interfacial chemistry [60–62]. The extent to which stack 
+pressure selects a fundamentally different sulfur reaction 
+pathway nevertheless remains unclear. Nevertheless, stack 
+pressure may influence the apparent reaction pathway by al­
+tering the continuity of solid–solid reaction boundaries, the 
+spatial distribution of local overpotentials, and the electro­
+chemical accessibility of intermediate sulfur species.
+Accordingly, reducing the stack pressure from a high value, 
+such as 100 MPa, to below 0.1 MPa may increase reaction het­
+erogeneity and restrict the completion of successive reduction 
+steps. This could decrease the overall conversion depth and 
+increase the apparent fraction of kinetically trapped Li2S2‐like 
+species relative to fully reduced Li2S. However, direct pressure‐ 
+resolved measurements of the Li2S2/Li2S ratio under otherwise 
+identical cell conditions remain scarce. This possibility should 
+therefore be regarded as a plausible pressure‐dependent kinetic 
+effect rather than an established universal trend.
+This pressure‐dependent kinetic effect is particularly relevant 
+for Li2S‐based cathodes. During charging, the conversion of Li2S 
+to S is accompanied by volume shrinkage [63–65]. When the 
+stack pressure is insufficient, volume shrinkage during charging 
+can generate gaps within the cathode or at the cathode/current‐ 
+collector interface, leading to disrupted electronic percolation 
+and reduced reversible capacity [66, 67]. This again highlights 
+that the apparent improvement in sulfur utilization under 
+pressure originates from mechanically maintained contact and 
+transport pathways, rather than from a direct alteration of the 
+intrinsic thermodynamics of sulfur redox chemistry. Conse­
+quently, sulfur‐conversion behavior observed under high stack 
+pressure may partly reflect pressure‐assisted interfacial contact 
+and transport kinetics and may not fully represent the apparent 
+redox pathway under application‐oriented low‐pressure condi­
+tions. Overall, stack pressure primarily regulates the accessi­
+bility and completeness of successive solid‐state conversion 
+steps rather than fundamentally changing the intrinsic sulfur 
+redox sequence.
+2.4
+|
+Pressure Trade‐Off Between Sulfur Cathode 
+and Li‐Metal Anode 
+Although stack pressure is beneficial for maintaining cathode 
+contact and promoting sulfur utilization, its effect on the Li‐ 
+metal anode is more complex and can even become detrimental. 
+In sulfur cathodes, external pressure compensates for the loss of 
+solid–solid contact caused by conversion‐induced volume 
+changes. However, at the Li/SSE interface, excessive pressure 
+may intensify Li creep, interfacial deformation, and local stress 
+concentration [68, 69]. Because Li metal is mechanically soft, 
+sustained pressure can drive plastic flow of Li into defects, 
+pores, grain boundaries, or mechanically weak regions of the 
+solid electrolyte [70, 71]. This behavior may increase the risk of 
+short circuits, especially when local current concentration and 
+interfacial flaws coexist.
+This creates an intrinsic pressure dilemma in ASSLSBs. The 
+sulfur cathode requires sufficient pressure to preserve reaction‐ 
+accessible contact, whereas the Li‐metal anode requires limited 
+and homogeneous pressure to avoid pressure‐driven deforma­
+tion and interfacial instability. Therefore, the optimal stack 
+pressure cannot be determined solely from cathode utilization 
+or initial impedance reduction. It must reflect a full‐cell com­
+promise among cathode contact retention, Li/SSE interfacial 
+stability, Li creep resistance, and system‐level energy density. 
+Increasing pressure may improve the cathode‐side reaction 
+environment but simultaneously narrow the mechanical safety 
+margin of the Li‐metal anode. This trade‐off further supports 
+the necessity of low‐pressure ASSLSBs.
+2.5
+|
+The Hidden Costs and Defects of Excessive 
+Pressure 
+Although high stack pressure can improve solid–solid contact 
+and reduce interfacial resistance in the short term, it may also 
+lead to an overestimation of the intrinsic stability of ASSLSBs. A 
+cell that delivers higher capacity under high pressure does not 
+necessarily possess robust materials or stable interfaces, but 
+rather reflects the effectiveness of external mechanical con­
+straint, thereby introducing hidden mechanistic costs. External 
+pressure can artificially suppress pore expansion, particle sep­
+aration, and localized contact loss, thereby concealing the un­
+derlying chemo‐mechanical incompatibility between electrodes 
+and solid electrolytes [72–74]. Once the pressure is reduced or 
+once cycling‐induced volume changes accumulate during long‐ 
+term operation, these masked failure processes can re‐emerge. 
+Therefore, performance obtained only under high stack pres­
+sure should be interpreted with caution, as it may reflect the 
+effectiveness of external mechanical constraint rather than the 
+true durability of the cell chemistry and architecture.
+From a practical perspective, this pressure dependence also 
+introduces a substantial system‐level penalty. In ideal labora­
+tory configurations, stack pressure is often treated as a simple 
+operating parameter for compacting composite cathodes, 
+maintaining interparticle contact and sustaining sulfur con­
+version (Figure 1A). However, in pouch cells or modules, 
+pressure is not a free parameter, meaning the existence of 
+hidden engineering‐related costs. Maintaining a constant load 
+3 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+requires pressure plates, bolts, frames, springs, or other 
+mechanical components (Figure 1B) [75]. These inactive com­
+ponents add additional mass and volume. For lithium–sulfur 
+(Li–S) systems, this penalty is particularly critical because 
+additional mechanical hardware can directly offset the energy‐ 
+density advantage expected from sulfur chemistry.
+This discrepancy becomes even more pronounced when eval­
+uating system‐level energy density beyond idealized assump­
+tions. As shown in Figure 1C, the calculated energy density of 
+an ASSLSB pouch cell can exceed 1200 Wh kg−1 and 1200 Wh 
+L−1 under favorable laboratory assumptions. However, once a 
+representative 100 MPa external pressure fixture is included, 
+the system‐level energy density decreases dramatically, with 
+the gravimetric energy density falling to below 100 Wh kg−1 in 
+the calculated cases (Figure 1D). The specific calculation 
+formulas and key parameters are shown in Note S2 and 
+Table S2. This comparison shows that pressure dependence is 
+not only an electrochemical or mechanical issue, but also a 
+direct system‐level penalty. It should be noted that the above 
+analysis adopts an idealized foil‐free cell configuration to isolate 
+the effect of external pressure fixtures on system‐level energy 
+density. Although the inclusion of practical current collectors 
+would reduce the absolute energy density, the overall trend and 
+conclusions remain unchanged.
+Therefore, stack pressure is not a fundamental solution to interfacial 
+failure, but an external compensation for insufficient contact, lim­
+ited reaction topology, and poor chemo‐mechanical adaptability. 
+Low‐pressure operation should thus be viewed not merely as a 
+testing condition, but as a practical engineering constraint. The 
+central challenge is therefore not to optimize performance under 
+pressure, but to develop electrode and interfacial architectures that 
+can preserve contact, transport continuity, and sulfur conversion 
+with minimal reliance on external mechanical constraint.
+3
+|
+Failure Mechanisms Under Low‐Pressure 
+Conditions 
+The failure of low‐pressure ASSLSBs should not be understood as a 
+simple collection of isolated problems, such as cathode contact loss, 
+interphase growth, kinetic polarization, or Li anode void formation. 
+These phenomena are not independent, but represent different 
+FIGURE 1 | Comparing different operation configurations of ASSLSB (A) without external pressure and (B) under external pressure of 100 MPa. 
+Gravimetric energy density and volumetric energy density of ASSLSB operated under (C) laboratory and (D) practical configurations as a function of 
+the cathode loading (bottom) and sulfur content (top) in a pouch‐cell. N/P, negative‐to‐positive capacity ratio; SSE, solid‐state electrolyte thickness; 
+simulation here adopted an Al‐foil‐free assumption, in which the volume and mass of the Al foil were not included in the calculation. 
+4 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+manifestations of a single underlying issue: chemo‐mechanical 
+mismatch. In ASSLSBs, both electrodes experience large and 
+repeated structural changes during cycling [76, 77]. The sulfur 
+cathode undergoes substantial volume evolution during the S8/Li2S 
+conversion, while the Li metal anode experiences repeated dimen­
+sional changes during Li stripping and deposition. However, the 
+surrounding solid‐state components comprising inorganic electro­
+lytes, conductive networks, and interfacial layers often cannot relax 
+stress or reconstruct contact at the same rate and magni­
+tude [78, 79].
+Under high stack pressure, this mismatch can be partly masked by 
+external mechanical constraint. The applied pressure forces solid 
+particles and interfaces to remain in contact, even when intrinsic 
+mechanical compatibility is poor. Under low‐pressure conditions, 
+this external compensation is weakened. As a result, the ASSLSBs 
+must rely entirely on intrinsic structural adaptability and interfacial 
+stability. To avoid treating chemo‐mechanical mismatch as an 
+overly generalized explanation, it should be resolved across mea­
+surable length scales. At the material level, relevant descriptors 
+include reaction‐induced volumetric strain, elastic or shear modu­
+lus, yield behavior, and fracture toughness, which determine 
+whether deformation is accommodated or released through crack­
+ing and particle rearrangement. At the interface level, adhesion 
+strength, interfacial fracture energy, true contact‐area fraction, 
+reaction‐layer thickness, and interfacial impedance describe the 
+evolution of contact and chemical stability. At the cell level, 
+stack‐pressure 
+evolution, 
+cell 
+displacement, 
+polarization, 
+impedance growth, capacity retention, and void fraction provide 
+experimentally accessible manifestations of the underlying 
+mismatch.
+Once reaction‐induced volume evolution cannot be accommo­
+dated by the solid framework, stress accumulation, contact loss, 
+void formation, interphase growth, and current‐density local­
+ization emerge in a coupled manner. Therefore, low pressure is 
+not the root cause of degradation. It reveals and amplifies the 
+intrinsic mismatch between electrochemical conversion, inter­
+facial chemistry, and mechanical response.
+From this perspective, the major failure mechanisms in low‐ 
+pressure ASSLSBs can be unified within a multiscale and ex­
+perimentally testable framework. On the cathode side, chemo‐ 
+mechanical mismatch manifests as contact loss and sulfur 
+underutilization. At reactive interfaces, it appears as interphase 
+growth and kinetic polarization. On the anode side, it is ex­
+pressed as void formation, unstable Li stripping/deposition, and 
+dendrite‐related risks. These processes are strongly inter­
+dependent (Figure 2), but each can be associated with specific 
+mechanical, structural, and electrochemical observables. Con­
+tact loss constricts the available transport pathways, leading to 
+intensified local polarization and accelerated interphase 
+growth. The resulting interphase further impedes Li+ transport 
+and deteriorates interfacial contact, thereby driving a self‐ 
+reinforcing degradation loop.
+3.1
+|
+Contact Loss and Sulfur Underutilization 
+On the cathode side, chemo‐mechanical mismatch first appears 
+as the inability of the composite sulfur electrode to maintain 
+continuous solid–solid contact during repeated conversion 
+reactions. Sulfur and Li2S are both poor ionic and electronic 
+conductors, so their reversible utilization strongly depends on 
+continuous triple‐phase contact among active material, solid 
+electrolyte, and conductive carbon [80, 81]. During cycling, the 
+large volume change associated with sulfur conversion contin­
+uously perturbs this contact network. Whether this deformation 
+can be accommodated depends on the effective modulus, yield 
+behavior, and fracture toughness of the composite cathode. If 
+the cathode framework lacks sufficient compliance, particle 
+separation and interfacial delamination occur more readily. 
+Once the ion or electron pathway is locally disrupted, the cor­
+responding sulfur species become electrochemically isolated, 
+even if they remain physically present in the electrode.
+This issue becomes more severe in high‐sulfur‐loading and 
+high‐areal‐capacity cathodes. Thicker electrodes create longer 
+ion‐transport pathways and more uneven pressure distribution 
+[82]. Under low pressure, surface regions may still remain 
+partially active, whereas the inner regions are more prone to ion 
+depletion, stress accumulation, and contact loss. Therefore, the 
+decrease in sulfur utilization is not only related to sluggish 
+Li2S2/Li2S conversion, but also to the growing fraction of 
+inactive sulfur caused by insufficient triple‐phase contact. The 
+severity of this degradation can be evaluated through changes in 
+electrode thickness, porosity, true contact‐area fraction, inter­
+facial gap or void fraction, ionic and electronic conductivity, 
+and cell impedance. Moreover, contact loss exhibits a self‐ 
+reinforcing behavior. Once local contact is degraded, current 
+and electrochemical reactions are redistributed to the remain­
+ing connected regions, leading to increased local reaction het­
+erogeneity and stress concentration. This further accelerates 
+delamination and pore growth, thereby amplifying structural 
+instability during cycling. Thus, contact loss is not merely a 
+static mechanical defect. It is the cathode‐side expression of 
+chemo‐mechanical mismatch. This can be verified by the pro­
+gressive loss of contact area, growth of internal gaps, increased 
+transport resistance, and spatially heterogeneous sulfur utili­
+zation. For low‐pressure ASSLSBs, the key design target should 
+shift from maximizing initial sulfur utilization to maintaining a 
+cathode topology that can preserve ion, electron, and active‐ 
+material connectivity throughout cycling.
+3.2
+|
+Interphase Growth and Kinetic Polarization 
+The same mismatch also appears at reactive solid–solid inter­
+faces as interphase growth and kinetic polarization. Sulfide 
+solid electrolytes are widely used in ASSLSBs because of their 
+high Li+ conductivity and good compactability [83–85]. How­
+ever, their electrochemical stability window is limited. When 
+sulfide electrolytes are mixed with sulfur species and conduc­
+tive carbon, numerous chemically active interfaces are formed 
+[86]. These interfaces are exposed to local potential gradients, 
+nonuniform current distributions, and repeated mechanical 
+disturbance during cycling. Consequently, interfacial reactions 
+become strongly coupled with mechanical instability.
+Under low pressure, the loss of true contact area exacerbates 
+local electrochemical inhomogeneity. The true contact‐area 
+fraction, therefore, provides a direct structural descriptor 
+5 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+linking mechanical separation to electrochemical heterogeneity. 
+As charge transfer becomes confined to fewer active contact 
+points, ionic and electronic transport is concentrated within 
+limited pathways, resulting in current constriction, increased 
+local current density, and enhanced polarization. The elevated 
+local polarization can accelerate electrolyte decomposition and 
+interphase formation. The resulting interphase further consumes 
+active components, blocks Li+ transport, increases charge‐ 
+transfer resistance, and may weaken mechanical adhesion at the 
+interface. Its evolution can be evaluated through interphase 
+thickness and composition, impedance growth, and changes in 
+interfacial fracture or adhesion behavior.
+Therefore, interphase growth under low pressure should not be 
+regarded solely as a consequence of the limited electrochemical 
+stability of sulfide electrolytes. Rather, it represents a chemical 
+manifestation of chemo‐mechanical mismatch. Contact loss 
+induces current constriction, thereby intensifying local polariza­
+tion and accelerating interphase growth. The newly formed 
+interphase subsequently impedes ion transport and further dete­
+riorates interfacial contact. This self‐reinforcing feedback loop 
+couples chemical degradation with mechanical instability and 
+explains why rapid capacity decay under low pressure cannot be 
+attributed simply to insufficient external pressure. Experimentally, 
+this coupling can be examined by correlating impedance evolution 
+and polarization with cross‐sectional imaging of contact loss and 
+spectroscopic analysis of interphase growth. Accordingly, a stable 
+low‐pressure sulfur cathode must not only suppress parasitic 
+reactions but also maintain a mechanically robust and chemically 
+compatible reaction interface.
+3.3
+|
+Li Anode Void Formation and Instability 
+On the anode side, chemo‐mechanical mismatch mainly man­
+ifests as void formation, unstable Li stripping/deposition, and 
+dendrite‐related safety risks. During Li stripping, Li atoms are 
+removed from the Li/SSE interface. If interfacial adhesion is 
+insufficient or Li replenishment from the bulk metal is too slow, 
+voids form at the interface [87–89]. These voids sharply reduce 
+the true contact area between the Li anode and SSE. The degree 
+of anode‐side mismatch can therefore be described using the 
+interfacial void fraction, interfacial resistance, local pressure 
+distribution, and critical current density. The remaining contact 
+FIGURE 2 | Illustration of failure mechanisms under low‐pressure conditions. 
+6 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+points then carry higher local current density, leading to cur­
+rent constriction and promoting nonuniform Li deposition 
+during subsequent plating, thereby increasing the risk of den­
+drite penetration. Operando or post‐mortem measurements of 
+void evolution, impedance, and Li‐deposition morphology can 
+be used to verify this process.
+This failure is strongly coupled with cathode evolution in 
+ASSLSBs. The large volume fluctuation of the sulfur cathode 
+changes the internal stress distribution of the full cell. Under low 
+pressure, these stress fluctuations cannot be fully compensated by 
+external compression, so the Li/SSE interface experiences more 
+pronounced local pressure variation. At the same time, cathode‐ 
+side contact loss and interphase growth increase full‐cell polar­
+ization, which further aggravates nonuniform stripping and dep­
+osition at the Li anode. Therefore, anode voiding is not an isolated 
+Li‐metal problem. It is the anode‐side expression of the same 
+chemo‐mechanical mismatch.
+This issue becomes more critical as ASSLSBs move toward 
+high‐energy‐density designs, including thin Li, Li‐deficient, 
+alloyed, or anode‐free configurations. These configurations 
+represent distinct design routes and differ in their technological 
+maturity in ASSLSBs. Thin Li and Li‐deficient designs pri­
+marily reduce the excess lithium inventory. Alloy anodes rely 
+on alternative lithium‐storage mechanisms, and anode‐free 
+cells depend on reversible in situ lithium plating, which 
+imposes particularly stringent requirements on interfacial sta­
+bility and cycling reversibility. However, all of them reduce 
+inactive Li inventory but make the anode more sensitive to void 
+formation and irreversible Li loss [90–92]. Increasing stack 
+pressure can temporarily improve physical contact, but it 
+cannot fundamentally eliminate void formation. The critical 
+conditions are governed by interfacial adhesion, Li vacancy 
+migration, Li bulk diffusion, local current density, and the 
+mechanical compliance of the interfacial layer. These factors 
+can be assessed through adhesion or interfacial‐fracture mea­
+surements, pressure‐displacement behavior, interfacial imped­
+ance, void‐fraction evolution, and plating/stripping efficiency. 
+Therefore, alloyed anodes, Li‐affinitive coatings, artificial SEI 
+layers, and multilayer functional interlayers are essential not 
+only for suppressing side reactions but also for mitigating the 
+mismatch between Li volume evolution, interfacial mechanics, 
+and Li+ transport. The preferred stack pressure is system‐ 
+dependent and should be optimized according to the specific 
+cell chemistry, architecture, and operating conditions.
+4
+|
+Design Principles for Low‐Pressure ASSLSBs 
+via Regulating Chemo‐Mechanical Mismatch 
+4.1
+|
+Preserving Reaction Accessibility in Sulfur 
+Cathodes 
+The first failure under low pressure typically manifests in the 
+sulfur cathode, where chemo‐mechanical mismatch reduces 
+reaction accessibility. In this work, reaction accessibility refers 
+to the ability of sulfur species to maintain continuous ionic and 
+electronic transport pathways throughout cycling. It can be 
+evaluated through sulfur utilization, dQ/dV peak retention, 
+impedance evolution, and the spatial homogeneity of sulfur‐ 
+conversion products.
+Conventional S/C/SSE composite cathodes rely heavily on dis­
+crete triple‐phase contact points among sulfur, conductive car­
+bon, and solid electrolyte, making the reaction topology 
+intrinsically fragile [93]. The preservation of triple‐phase con­
+tact can be assessed through conductivity measurements, in­
+terfacial impedance, and structural characterization of contact‐ 
+area evolution. During cycling, sulfur conversion induces large 
+volume changes, and even minor particle separation can disrupt 
+either ion or electron transport pathways. Once this occurs, 
+sulfur may remain physically present but becomes electro­
+chemically isolated. Therefore, the key design principle is not 
+merely to increase conductive carbon or solid electrolyte con­
+tent, but to preserve continuous ion/electron accessibility 
+within a mechanically stable reaction network throughout cy­
+cling. Here, a mechanically stable reaction network denotes a 
+cathode architecture that accommodates reaction‐induced 
+deformation without disrupting transport continuity. Its effec­
+tiveness can be evaluated through electrode‐thickness variation, 
+contact retention, internal‐gap formation, and long‐term elec­
+trochemical performance.
+Porous and confined cathode architectures address this failure 
+by stabilizing sulfur within a structurally resilient conductive 
+framework [94]. When sulfur or Li2S is embedded within me­
+soporous hosts, the electron‐transport distance is shortened, 
+and the active material is more likely to remain physically 
+integrated with the conductive framework during volume evo­
+lution [95–97]. Such designs effectively couple transport path­
+ways with mechanical confinement, reducing the probability of 
+active‐material isolation. Consequently, preserved reaction 
+accessibility should be reflected not only by high sulfur utili­
+zation but also by limited impedance growth and sustained 
+electrochemical signatures during prolonged cycling. This 
+concept is exemplified by the Li2S‐LiI composite infiltrated into 
+a mesoporous carbon framework reported by Jiang et al. [98] 
+(Figure 3A), where ion transport, electron conduction, and 
+structural retention are integrated within a three‐dimensional 
+mixed‐conductive network. Importantly, the value of this 
+approach lies not in maximizing initial capacity, but in main­
+taining reaction accessibility under repeated deformation.
+However, preserving reaction accessibility cannot be achieved 
+by maximizing electronic conductivity alone. Highly conductive 
+carbon improves electron percolation, but can also accelerate 
+sulfide electrolyte decomposition at reactive interfaces. Ex­
+cessive electronic connectivity enlarges electrochemically active 
+carbon/sulfide contact areas and facilitates electron leakage into 
+the sulfide electrolyte, thereby promoting parasitic reduction 
+reactions, interphase growth, and local polarization. The work 
+by Jin et al. [99], employing polar yet electronically insulating 
+mesoporous hosts, demonstrates that chemical affinity toward 
+S/Li2S is equally critical (Figure 3B). This highlights that cath­
+ode design must balance transport accessibility, interfacial 
+chemical compatibility, and structural stability against contact 
+loss, rather than optimizing conductivity in isolation.
+A more fundamental route is to directly reduce the reliance on 
+the narrow triple‐phase boundaries of the cathode. Mixed ion‐ 
+electron conductor (MIEC), as demonstrated by Wang et al. 
+[93], extends sulfur conversion from isolated S/C/SSE junctions 
+to broader sulfur‐MIEC interfaces (Figure 3C). This shifts the 
+7 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+reaction mode from point‐limited conversion to interface‐ 
+mediated conversion, thereby significantly relaxing the depen­
+dence on mechanically enforced contact. Under low‐pressure 
+conditions, such architectures enable sulfur utilization that is 
+no longer constrained by a limited number of compressed 
+contact points.
+Overall, cathode design for low‐pressure ASSLSBs should pri­
+oritize reaction accessibility under dynamic structural evolu­
+tion. The key criterion is whether sulfur remains continuously 
+connected to Li+ and electron pathways during cycling, rather 
+than whether the pristine cathode exhibits high conductivity 
+under compression.
+4.2
+|
+Building Adaptive Ion‐Conducting Phases to 
+Prevent Deformation‐Induced Transport Failure 
+Electrolyte‐related failure under low pressure is not simply caused 
+by insufficient bulk ionic conductivity [100]. More fundamentally, 
+it arises from the inability of the ion‐conducting phase to maintain 
+continuous contact with deforming electrodes and evolving solid– 
+solid interfaces [101–103]. During sulfur conversion, the cathode 
+experiences large and heterogeneous volume changes, while Li 
+stripping/deposition on the anode side also alters local interfacial 
+pressure [104]. If the solid electrolyte is too rigid, these dimen­
+sional changes can be converted into cracks, voids, delamination, 
+and discontinuous Li+ pathways. Therefore, the design principle 
+of the electrolyte in low‐pressure ASSLSBs is that it should not be 
+regarded only as a Li+ conductor. It must also function as a 
+mechanical buffer and interfacial adaptor that preserves transport 
+continuity during cycling.
+This requirement explains why sulfide electrolytes are widely 
+used in ASSLSBs. Compared with oxide electrolytes, sulfides are 
+softer and more easily compacted, which helps establish better 
+solid–solid contact during cell assembly [105, 106]. However, 
+low modulus alone does not guarantee low‐pressure stability 
+[107]. The deformation of both the sulfur cathode and Li‐metal 
+anode is dynamic, spatially heterogeneous, and cyclically 
+accumulated. As a result, an electrolyte that forms good initial 
+contact may still progressively lose adhesion during operation. 
+Thus, an effective electrolyte under low pressure must combine 
+sufficient room‐temperature Li+ conductivity with local de­
+formability, interfacial adhesion, and chemical compatibility 
+toward sulfur species and discharge products.
+Polymer‐modified sulfide electrolytes represent one route to 
+this design principle. The disulfide‐linked Li3PS4 polymer 
+electrolyte developed by Kato et al. [108] illustrates that sulfide‐ 
+based ion conductors can be structurally modified to introduce 
+flexibility without completely sacrificing Li+ transport. More 
+importantly, this demonstrates that ion‐conducting networks 
+can be designed to accommodate interfacial deformation 
+rather than acting as brittle, pressure‐dependent components 
+(Figure 4A). Though it shows a Li‐In/Li3PS4/NMC cell rather 
+than an ASSLSB, it is included to illustrate how polymer 
+modification can enhance the mechanical compliance and in­
+terfacial adaptability of sulfide electrolytes, offering a transfer­
+able design concept for low‐pressure ASSLSBs.
+Halide electrolytes and halide‐based composites provide a 
+complementary approach. Although their greatest advantages 
+in low‐pressure ASSLSBs lie in their use as localized functional 
+phases at present, recent developments suggest that broader 
+FIGURE 3 | Design strategies for contact‐retaining sulfur cathodes enabling low‐pressure operation in all‐solid‐state lithium–sulfur batteries. 
+(A) Fabrication of a three‐dimensional mixed‐conductive network. Reproduced under terms of the CC‐BY license [98]. Copyright 2024, The Authors, 
+published by Springer Nature (B) Interface chemistry‐regulated host design. Reproduced from with permission [99]. Copyright 2024, American 
+Chemical Society. (C) Reaction topology reconstruction via mixed ion‐electron conductor (MIEC) cathodes. Reproduced under terms of the CC‐BY 
+license [93]. Copyright 2025, The Authors, published by Springer Nature. 
+8 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+electrolyte architectures based on halides may also become 
+feasible in the future [111]. Their relatively high oxidative sta­
+bility makes them suitable for regions where sulfur cathodes 
+require stable Li+ transport, chemical tolerance, and interfacial 
+buffering [112–114]. Fang et al. [109] showed that incorporating 
+a halide catholyte into the sulfur composite cathode can 
+improve ion transport and alleviate interfacial degradation 
+(Figure 4B). Yanagihara et al. [110] further demonstrated that 
+the performance of halide electrolytes depends strongly on their 
+chemical stability toward sulfur species and discharge products 
+(Figure 4C). These results highlight that targeted local inte­
+gration currently represents the most mature strategy for em­
+ploying halides in ASSLSBs. Thus, halide electrolytes are 
+presently most effective as localized functional phases on the 
+cathode side, particularly within selected regions of the sulfur 
+cathode composite or near cathode–electrolyte interfaces. In 
+these locations, they can provide locally stable ion‐conduction 
+pathways and mitigate interfacial reactions without replacing 
+the bulk sulfide electrolyte. Meanwhile, advances in membrane 
+fabrication and interfacial engineering have recently stimulated 
+interest in standalone halide membranes and bulk halide– 
+electrolyte frameworks. Although further improvements in 
+ionic conductivity and mechanical robustness remain neces­
+sary, these developments suggest that the role of halides may 
+gradually extend beyond localized interfacial functions in future 
+ASSLSB designs.
+From the perspective of chemo‐mechanical mismatch, the ideal 
+electrolyte is not the one with the highest single performance 
+metric. A highly conductive but rigid electrolyte may intensify 
+cracking and contact loss, while a highly deformable electrolyte 
+may compromise transport or chemical stability [115]. The 
+more relevant design target is an adaptive ion‐conducting phase 
+that balances conductivity, mechanical compliance, interfacial 
+adhesion, processability, and chemical compatibility. Such 
+phases should maintain Li+ pathways even when the electrode 
+stack undergoes local deformation and stress redistribution.
+Thus, electrolyte design for low‐pressure ASSLSBs should move 
+from maximizing bulk ionic conductivity to preventing 
+deformation‐induced transport failure. The central objective is 
+to construct adaptive ion‐conducting phases that sustain Li+ 
+FIGURE 4 | Representative electrolyte design strategies for maintaining interfacial contact and electrochemical stability. (A) Exhibition of sulfide 
+polymer electrolyte with disulfide‐linked PS4 tetrahedra and related cycling performance of an all‐solid‐state Li‐In/Li3PS4/NMC cell. Reproduced 
+with permission [108]. Copyright 2021, Springer Nature. (B) Representative halide electrolyte (Li3YCl6) crystal framework and Li+ migration energy 
+landscape. Reproduced under terms of the CC‐BY license [109]. Copyright 2025, The Authors, published by American Chemical Society. 
+(C) Interfacial compatibility comparison of halide electrolytes with sulfur cathodes. Reproduced under terms of the CC‐BY license [110]. Copyright 
+2024, The Authors, published by American Chemical Society. 
+9 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+transport and interfacial integrity under repeated chemo‐ 
+mechanical perturbation [116, 117].
+4.3
+|
+Stabilizing Solid–Solid Interfaces for 
+Sustained Interfacial Reactions 
+At low stack pressure, solid–solid interfaces are no longer 
+passively held together by external compression, making in­
+terfacial stability the primary determinant of sustained 
+electrochemical reactions. Once adhesion is weakened or 
+resistive products accumulate at local interfaces, the reaction 
+is forced to proceed through fewer remaining contact points, 
+leading to current constriction, increased local current 
+density, and accelerated polarization [118–120]. Therefore, 
+the key design principle is to stabilize and maintain 
+continuous interfacial contact so that ion transport, chemical 
+compatibility, and mechanical integrity are preserved 
+throughout cycling.
+On the cathode side, this principle first applies to the active 
+material/SSE interface. In mechanically mixed sulfur cathodes, 
+sulfur or Li2S particles contact the solid electrolyte through 
+discontinuous junctions, which are highly susceptible to dis­
+ruption under conversion‐induced volume changes. Peng et al. 
+[121] addressed this issue by forming an in‐situ Li3PS4 layer on 
+Li2S particles through the interfacial reaction between Li2S and 
+P2S5 (Figure 5A). This surface layer provides a more continuous 
+Li+‐transport pathway around the active particles and trans­
+forms random particle‐level contacts into a more integrated 
+Li2S/SSE interface. The key function of this design is to preserve 
+reaction continuity after structural perturbation, rather than 
+merely reducing initial impedance.
+Another useful strategy is to introduce reconfigurable inter­
+facial phases that can recover after contact damage. Liu's sulfur 
+iodide cathode provides such an example [122]. Because of its 
+relatively low melting point, the sulfur iodide phase can par­
+tially repair damaged interfaces through periodic melting 
+FIGURE 5 | Functional interfacial and intermediate layer engineering strategies for low‐pressure all‐solid‐state lithium–sulfur batteries. 
+(A) In situ formation of a Li3PS4 glassy ion‐conductive layer on Li2S particles through the interfacial reaction. Reproduced under terms of the CC‐BY 
+license [121]. Copyright 2023, The Authors, published by American Chemical Society. (B) Self‐healing interfacial demonstration via reheating process 
+and related improved cycling performance. Reproduced under terms of the CC‐BY license [122]. Copyright 2024, The Authors, published by Springer 
+Nature. (C) Schematic diagram of the introduction of a polysulfide‐related Li+‐conductive intermediate phase at the S8/Li6PS5Cl interface. Re­
+produced under terms of the CC‐BY license [123]. Copyright 2023, The Authors, published by American Chemical Society. (D) Schematic diagram of 
+in situ construction of a densely interwoven nano‐LiI artificial SEI layer on Li metal via chemical iodine‐vapor deposition. Reproduced under terms 
+of the CC‐BY license [124]. Copyright 2022, The Authors, published by Royal Society of Chemistry. 
+10 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+during cycling (Figure 5B). Unlike static coatings, dynamic in­
+terfacial phases can restore transport pathways after mechanical 
+interruption, which is particularly important under low‐ 
+pressure conditions where interfaces are repeatedly disrupted 
+by expansion and shrinkage. It should be noted that the inter­
+facial recovery does not occur spontaneously during normal 
+room‐temperature cycling. Instead, an additional reheating step 
+is required to remelt the sulfur iodide cathode and partially 
+restore the damaged interface.
+Preconstructed ion‐conductive phases at the S/SSE boundary 
+also follow this design principle. In high‐areal‐capacity cath­
+odes, insufficient ionic contact between S8 and sulfide electro­
+lytes can strongly limit sulfur utilization [125]. Kim et al. [123] 
+introduced a polysulfide‐related inorganic Li+‐conductive phase 
+at the S8/Li6PS5Cl interface to improve ionic contact and 
+reaction accessibility in thick electrodes (Figure 5C). This 
+strategy effectively converts the S/SSE boundary into a sus­
+tained ion‐accessible interface, reducing the likelihood of local 
+sulfur isolation during cycling, rather than simply acting as a 
+kinetic promoter.
+At the Li/SSE interface, contact degradation mainly appears as 
+void formation and unstable Li stripping/deposition. Duan et al. 
+[124] constructed an interwoven nano‐LiI artificial SEI at the 
+Li/LGPS interface through chemical iodine vapor deposition 
+(Figure 5D). This LiI layer improves chemical compatibility 
+between Li metal and LGPS, while its nanostructured mor­
+phology provides a tougher transitional interface. Its primary 
+role is to stabilize interfacial contact during dynamic stripping 
+and deposition, rather than solely suppressing side reactions. 
+Related bulk/interface co‐design strategies further suggest that 
+Li inventory, Li+ flux, interfacial adhesion, and mechanical 
+buffering must be regulated in a coordinated manner.
+The electrolyte strategies discussed above differ substantially in 
+their physicochemical properties and functional roles. To 
+facilitate comparison, Table S3 summarizes representative 
+characteristics of the major electrolyte systems, including ionic 
+conductivity, mechanical properties, and interfacial stability. 
+The comparison highlights that each strategy addresses chemo‐ 
+mechanical mismatch through distinct yet complementary 
+mechanisms.
+In summary, solid–solid interfaces in low‐pressure ASSLSBs 
+must be designed as adaptive and resilient reaction zones rather 
+than static contact boundaries. A useful interfacial layer should 
+not only passivate side reactions, but also maintain Li+ trans­
+port, contact integrity, and reaction continuity under chemo‐ 
+mechanical perturbation.
+5
+|
+Outlook 
+Overall, research on low‐pressure ASSLSBs is moving from 
+electrochemical feasibility demonstration toward practical 
+chemo‐mechanical design. Early studies often relied on high 
+stack pressure to maintain contact, reduce polarization, and 
+improve sulfur utilization [13, 126, 127]. However, such 
+pressure‐assisted performance does not necessarily prove 
+that the cell architecture is intrinsically compatible with 
+low‐pressure operation. In fact, it may obscure the very failure 
+mechanisms that determine whether an ASSLSB can operate 
+under practical conditions. The key limitation is not a single 
+material property, but the chemo‐mechanical mismatch among 
+reaction‐induced volume evolution, solid–solid contact, charge 
+transport, interphase chemistry, and cell‐level mechanical 
+constraints. Under reduced pressure, these factors no longer 
+remain independently limiting, but instead reinforce one 
+another, leading to cathode contact loss, sulfur underutilization, 
+interphase 
+growth, 
+kinetic 
+polarization, 
+and 
+Li‐anode 
+instability. Therefore, future research should move beyond 
+optimizing isolated materials under externally constrained 
+conditions. Low‐pressure operation should instead be treated as 
+a defining engineering constraint that guides material selection, 
+interfacial regulation, and electrode construction. Only by 
+designing materials and architectures around this constraint 
+can ASSLSBs move from pressure‐assisted laboratory perform­
+ance toward intrinsically sustainable cell operation. Based on 
+this perspective, several key directions deserve focused atten­
+tion (Figure 6).
+5.1
+|
+Spatially Regulated Sulfur Conversion for 
+Reducing Local Chemo‐Mechanical Strain 
+An advanced future direction is to regulate not only the 
+chemical identity of sulfur discharge products, but also their 
+spatial distribution within thick composite cathodes. Previous 
+work has demonstrated that the discharge product of ASSLSBs 
+is a Li2S2/Li2S mixture rather than pure Li2S, and that pro­
+moting a Li2S2‐dominant product can improve reversibility and 
+cycling stability [9, 55, 128]. This finding provides an important 
+mechanistic basis while raising a new question that is highly 
+relevant to low‐pressure operation: Is the desired Li2S2/Li2S 
+distribution maintained uniformly across a thick, high‐loading 
+sulfur cathode?
+Under low‐pressure conditions, sulfur conversion is unlikely to 
+proceed homogeneously throughout the electrode. In thick 
+cathodes, Li+/electron transport and local contact pressure are 
+unevenly distributed across the electrode thickness [129, 130]. 
+Regions close to the solid electrolyte layer may experience faster 
+lithiation, while regions close to the current collector may suffer 
+from ion limitation. Localized current constriction and inter­
+facial polarization can further promote nonuniform Li2S2/Li2S 
+formation. Therefore, even if the overall discharge product is 
+Li2S2‐dominant, local regions may still undergo excessive con­
+version to Li2S, generating larger local volume expansion and 
+stronger chemo‐mechanical strain. These local Li2S‐rich 
+domains may become the initiation sites for contact loss, 
+interphase thickening, and irreversible sulfur isolation. There­
+fore, controlling the spatial distribution of sulfur conversion 
+may be more important than optimizing the average redox 
+pathway alone.
+Future research should thus move from average redox‐pathway 
+control to spatially resolved conversion management. The key 
+objective is to construct sulfur cathodes in which the depth of 
+conversion and the Li2S2/Li2S ratio are spatially regulated to 
+minimize local strain concentration. This can be implemented 
+by designing cathodes with gradient catalytic activity, gradient 
+11 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 12 页 ===
+ionic conductivity, or gradient sulfur accessibility. For example, 
+multilayer slurry coating or dry‐electrode lamination can reg­
+ulate the through‐thickness distribution of solid electrolyte and 
+catalyst content, whereas layer‐by‐layer powder deposition and 
+localized infiltration enable selective modification of local cat­
+alytic activity or ionic transport pathways. Three‐dimensional 
+printing offers additional flexibility to simultaneously tailor 
+local composition, porosity, and reaction topology. Catalyst or 
+redox mediator concentration could be higher in ion‐transport‐ 
+limited regions to promote reversible conversion without 
+allowing excessive local Li2S accumulation. Similarly, the solid 
+electrolyte fraction and pore structure could be adjusted along 
+the electrode thickness to balance Li+ flux and reaction rate. 
+However, gradient architectures should be carefully optimized. 
+Excessively steep catalyst or conductivity gradients may accel­
+erate localized sulfur conversion, resulting in current concen­
+tration and new sites for interfacial degradation.
+The proposed gradient architectures and their associated 
+chemo‐mechanical evolution can be experimentally validated 
+using advanced spatially and temporally resolved characteriza­
+tion techniques. The spatial distribution of discharge products 
+can be probed by depth‐resolved XAS, TOF‐SIMS, Raman 
+mapping, cryo‐FIB/SEM, or XPS depth profiling after controlled 
+states of discharge. Operando pressure tracking, dilatometry, 
+and X‐ray tomography can further visualize electrode breathing, 
+contact degradation, interfacial void formation, and stress evolu­
+tion during low‐pressure cycling. Combined with electrochemical 
+measurements, these techniques provide a practical route for 
+correlating structural evolution with electrochemical degradation, 
+thereby validating the proposed chemo‐mechanical mismatch 
+framework. Such spatially resolved understanding will be essential 
+for designing high‐loading sulfur cathodes that remain mechani­
+cally stable under low stack pressure.
+5.2
+|
+Stress‐Regulated Interphase Chemistry  
+at S/C/SSE Interfaces 
+A critical but underexplored direction is to understand how 
+mechanical stress regulates interphase chemistry inside sulfur 
+composite cathodes. In sulfide‐based ASSLSBs, interphase for­
+mation at S/C/SSE interfaces is usually discussed as an elec­
+trochemical stability issue [131, 132]. However, under low‐ 
+pressure operation, these interfaces never evolve under 
+mechanically neutral conditions. Local pressure, particle 
+rearrangement, contact loss, and current constriction continu­
+ously change the chemical environment of the interface 
+[15, 133, 134]. Therefore, interphase growth should be regarded 
+as a stress‐dependent interfacial reaction, rather than a purely 
+chemical decomposition reaction.
+This topic is distinct from conventional cathode‐architecture 
+optimization. The key question is not only whether sulfide 
+electrolytes decompose in contact with sulfur or carbon, but 
+how their decomposition pathways and products are altered by 
+local mechanical states. Highly compressed contact points may 
+exhibit lower transport resistance but higher local current 
+FIGURE 6 | Outlook towards advanced practical low‐pressure ASSLSBs. 
+12 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 13 页 ===
+density and stronger stress concentration. In contrast, partially 
+detached regions may show poor charge transfer but more 
+severe chemical inhomogeneity. These different mechanical 
+states may lead to different interphase compositions, ionic 
+conductivities, electronic leakage pathways, and mechanical 
+properties. Once formed, the interphase can further alter local 
+stiffness and transport continuity, turning from a passive 
+decomposition product into an active contributor to chemo‐ 
+mechanical mismatch.
+This direction can be implemented using pressure‐controlled 
+model cathodes. Model S/C/SSE composite electrodes can be 
+cycled under different fixed pressures, pressure‐release proto­
+cols, or dynamic pressure conditions. A particularly useful ex­
+periment would be to compare interphase evolution at 
+compressed regions and deliberately introduced micro‐gaps 
+within the same electrode. This would help determine whether 
+interphase growth is mainly governed by electrochemical 
+potential, true contact area, local stress, or their coupling. 
+Another feasible route is to construct simplified bi‐layer or tri‐ 
+layer model interfaces, such as S/LPSCl, S/C/LPSCl, Li2S/ 
+LPSCl, and S/halide/sulfide interfaces, then apply controlled 
+normal pressure during electrochemical polarization. By com­
+paring the interphase composition and impedance under iden­
+tical electrochemical conditions but different mechanical 
+boundary conditions, the stress sensitivity of interphase chem­
+istry can be quantitatively evaluated. Such studies could further 
+be supported by finite‐element modeling that couples local 
+stress, current distribution, and interphase resistance.
+The practical outcome of this direction would be a stress‐aware 
+interphase design principle. From the perspective of chemo‐ 
+mechanical 
+mismatch, 
+suppressing 
+low‐pressure 
+failure 
+requires not only maintaining contact, but also ensuring that 
+the interphase formed at the remaining contact points does not 
+become a new source of stiffness mismatch or local polariza­
+tion. In this sense, future interphase design should aim not only 
+to suppress decomposition, but also to control how interphases 
+form, where they form, and how they mechanically interact 
+with evolving solid–solid contacts.
+5.3
+|
+Full‐Cell‐Coupled Li Anode Design Based on 
+Vacancy Flux and Stress Fluctuation 
+The Li anode in ASSLSBs should no longer be studied as an 
+isolated Li/SSE interface. Under low‐pressure conditions, anode 
+failure is strongly coupled with full‐cell volume evolution and 
+polarization. During discharge, sulfur lithiation causes cathode 
+expansion, whereas Li stripping leads to an even more pro­
+nounced volume loss at the Li‐metal anode. Although the exact 
+efficiency of stress transfer between the two electrodes remains 
+unclear, the overall stack pressure often decreases during dis­
+charge, indicating that cathode breathing and Li consumption 
+do not mechanically compensate each other in a simple 
+manner [135, 136]. Instead, their asynchronous volume changes 
+redistribute stress throughout the cell stack and generate local 
+pressure heterogeneity at both electrode/electrolyte interfaces. 
+Meanwhile, cathode contact loss and interphase growth 
+increase full‐cell polarization, further amplifying current 
+inhomogeneity at the Li anode. As a result, void formation at 
+the Li/SSE interface is not simply an anode‐local problem, nor 
+is it solely induced by cathode‐side degradation. It should be 
+viewed as the anode‐side manifestation of full‐cell chemo‐ 
+mechanical mismatch, where coupled cathode expansion, Li‐ 
+metal volume loss, interfacial stress redistribution, and polar­
+ization jointly destabilize Li stripping/deposition.
+A key future direction is therefore to regulate Li vacancy flux 
+under realistic full‐cell operating conditions. During Li strip­
+ping, voids form as Li removal at the interface is faster than Li 
+replenishment from the bulk metal, or when the Li/SSE inter­
+face lacks sufficient adhesion. The critical parameters include 
+interfacial adhesion, Li vacancy migration and aggregation, Li 
+self‐diffusion, local current density, and interlayer compliance. 
+Although these factors have been individually studied, they are 
+rarely considered under coupled conditions of sulfur cathode 
+volume fluctuation and low‐pressure operation, which ulti­
+mately define practical performance.
+Several experimentally feasible strategies can be considered. 
+First, ultrathin lithiophilic interfacial layers (e.g., Ag, Zn, Mg, or 
+Sn nanolayers) should be designed as flux‐regulation layers 
+rather than bulk alloy anodes, enabling uniform Li stripping/ 
+deposition without introducing excessive voltage penalty or 
+inactive mass. Second, adhesive ion‐conducting interlayers with 
+moderate mechanical compliance can stabilize Li/SSE contact 
+during stripping while avoiding brittle fracture. Third, light­
+weight three‐dimensional Li‐host architectures may provide 
+lateral Li redistribution pathways, thereby reducing local 
+vacancy accumulation and current constriction. Crucially, these 
+strategies must be evaluated under limited Li inventory rather 
+than thick‐Li conditions to reflect realistic cell operation.
+As ASSLSBs' designs move toward thin Li, Li‐deficient, or 
+anode‐free configurations, the tolerance for void formation 
+becomes much lower. In such systems, stable operation cannot 
+rely on excess Li inventory or high external pressure. The anode 
+must intrinsically maintain interfacial contact, homogeneous Li 
+flux, and sufficient Li replenishment during stripping. From the 
+perspective of chemo‐mechanical mismatch, future Li anode 
+design should shift from static interfacial stabilization to 
+dynamic vacancy‐flux regulation under full‐cell stress coupling.
+5.4
+|
+Internal Stress‐Compensating Composites to 
+Replace External Pressure Fixtures 
+Building on the above discussion of external pressure fixtures, a 
+more targeted future direction is to develop cell architectures 
+with intrinsic stress‐compensating capability. The aim is not 
+simply to reduce the nominal stack pressure, but to internalize 
+pressure regulation within the cell architecture itself. Unlike 
+externally applied pressure, which provides a global constraint, 
+internal stress‐compensating components could respond more 
+locally to cathode shrinkage/expansion, Li stripping‐induced 
+void formation, and heterogeneous stress evolution during cy­
+cling. Such an approach enables pressure to be dynamically 
+redistributed within the cell, rather than externally imposed. 
+Therefore, lightweight elastic or recoverable components inte­
+grated into the cell stack may offer a more practical route to 
+maintaining interfacial contact under low stack pressure.
+13 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 14 页 ===
+The central concept is to design cell components that can store 
+and release elastic deformation in response to chemo‐ 
+mechanical perturbation. Ultrathin compressible current col­
+lectors, wavy metal foils, elastic conductive meshes, porous 
+metallic interlayers, or spring‐like polymer/metal hybrid spac­
+ers could be integrated into the pouch cell. These components 
+should not be viewed as passive structural elements, but as 
+active mechanical regulators that provide a restoring force 
+during cycling. When the cathode shrinks, the Li anode forms 
+voids, or the electrode stack undergoes local thickness fluctu­
+ations, these structures can partially compensate for the 
+resulting stress imbalance and help maintain local contact 
+pressure.
+Furthermore, replacing a flat Al current collector with a micro‐ 
+corrugated or wavy Al foil on the cathode side is also theoretically 
+feasible. During sulfur conversion, the corrugated structure could 
+partially deform and recover, compensating for cathode thickness 
+changes while preserving electronic contact. Another approach is 
+to introduce a thin, lightweight, ionically inactive but mechani­
+cally elastic buffer layer outside the electrochemically active stack, 
+such as a porous polymer film, elastic carbon framework, or metal 
+mesh. The target is not to increase the electrochemical reaction 
+area directly, but to stabilize the mechanical boundary condition 
+of the pouch cell. In this case, the role of the component is not to 
+enhance electrochemical activity but to stabilize the mechanical 
+boundary conditions of the cell.
+This strategy differs from conventional interlayer or coating 
+strategies. Its purpose is not mainly to suppress side reactions or 
+improve initial interface impedance, but to embed a mechanical 
+regulation function directly into the cell architecture. If suc­
+cessful, this approach could reduce the need for external pres­
+sure hardware and preserve the practical energy‐density 
+advantage of ASSLSBs. From the perspective of chemo‐ 
+mechanical mismatch, this approach redefines pressure man­
+agement as an intrinsic property of the cell, rather than an 
+external constraint imposed during operation.
+6
+|
+Conclusion 
+In summary, stack pressure plays an important role in 
+ASSLSBs, but should be regarded as a compensatory parameter 
+rather than a fundamental solution for sustaining cell opera­
+tion. Recent advances indicate that ASSLSBs are transitioning 
+from pressure‐assisted laboratory demonstrations toward 
+intrinsically stable chemo‐mechanical systems capable of 
+operating under low pressure with high areal capacity and 
+practical cell configurations.
+The key to low‐pressure operation does not lie in simply reducing 
+external pressure, but in designing materials, interfaces, and cell 
+architectures that can maintain reaction accessibility and inter­
+facial integrity under minimal mechanical constraint. Perform­
+ance degradation under low pressure originates from the coupled 
+effects of cathode contact loss, interphase growth, and lithium 
+anode void formation, all governed by chemo‐mechanical mis­
+match. Accordingly, contact‐preserving cathodes, adaptive ion‐ 
+conducting phases, stabilized interfaces, and stress‐regulated cell 
+architectures represent the core design directions.
+Importantly, the viability of ASSLSBs should no longer be 
+evaluated by capacity alone, but by their ability to deliver stable 
+cycling at room temperature under low stack pressure with 
+realistic electrode loading and cell configurations. Looking 
+forward, progress will depend on integrated design frameworks 
+that couple materials, interfaces, and mechanics. Ultimately, 
+eliminating the reliance on external pressure, rather than 
+accommodating it, will be essential for realizing practical 
+ASSLSBs.
+Acknowledgments 
+This study acknowledges the support from the National Natural Science 
+Foundation of China (Grant numbers 22679175, U25A20243, 92372207) 
+and the Leading Innovative and Entrepreneur Team Introduction Pro­
+gram of Zhejiang (Grant number 2023R01007).
+Conflicts of Interest 
+The authors declare no conflicts of interest.
+Data Availability Statement 
+The data that support the findings of this study are available from the 
+corresponding author upon reasonable request.
+References 
+1. Z. Li, I. Sami, J. Yang, J. Li, R. V. Kumar, and M. Chhowalla, “Li­
+thiated Metallic Molybdenum Disulfide Nanosheets for High‐ 
+Performance Lithium‐Sulfur Batteries,” Nature Energy 8 (2023): 84–93.
+2. R. Bi, J. Wang, J. Wan, et al., “Spatially Coupled Adsorption and 
+Catalysis for Sustainable Lithium‐Sulfur Batteries,” Nature Sustainability 9 
+(2026): 763–773, https://doi.org/10.1038/s41893-026-01794-y.
+3. Z. Cheng, P. Wu, W. X. Dong, et al., “Biomimetic Gradient‐Porous 
+Carbon Enables Sustainable High‐Loading Lithium‐Sulfur Batteries by 
+Regulating Polysulfide Chemistry,” Angewandte Chemie International 
+Edition 65 (2026): e5836599.
+4. K. Mi, S. Chen, B. Xi, et al., “Sole Chemical Confinement of Poly­
+sulfides on Nonporous Nitrogen/Oxygen Dual‐Doped Carbon at 
+the Kilogram Scale for Lithium‐Sulfur Batteries,” Advanced Functional 
+Materials 27 (2016): 1604265.
+5. X. Zhu, W. Jiang, L. Wang, and J. Lu, “Constructing Resilient Cross‐ 
+Linked Network Toward Stable All‐Solid‐State Lithium‐Sulfur Batte­
+ries,” Advanced Energy Materials 14 (2024): 202304244.
+6. H. Song, K. Münch, X. Liu, et al., “All‐Solid‐State Li‐S Batteries With 
+Fast Solid‐Solid Sulfur Reaction,” Nature 637 (2025): 846–853.
+7. K. Miao, F. Chen, C. Ma, and J. Zhou, “Progresses and Outlooks of 
+All‐Solid‐State Lithium‐Sulfur Batteries for Practical Development,” 
+Chemical Engineering Journal 512 (2025): 162173.
+8. R. Fang, K. Chen, Z. Sun, et al., “Realizing High‐Energy Density for 
+Practical Lithium‐Sulfur Batteries,” Interdisciplinary Materials 2 (2023): 
+761–770.
+9. J. T. Kim, A. Rao, H. Y. Nie, et al., “Manipulating Li2S2/Li2S Mixed 
+Discharge Products of All‐Solid‐State Lithium Sulfur Batteries for Im­
+proved Cycle Life,” Nature Communications 14 (2023): 6404.
+10. D. Wang, L. J. Jhang, R. Kou, et al., “Realizing High‐Capacity All‐ 
+Solid‐State Lithium‐Sulfur Batteries Using a Low‐Density Inorganic 
+Solid‐State Electrolyte,” Nature Communications 14 (2023): 1895.
+11. J. Park, J. Jung, S. Yang, et al., “Realizing Low‐Pressure Operation of 
+All‐Solid‐State Lithium‐Sulfur Batteries Enabled by Carbon‐Coated 
+Current Collectors,” Advanced Energy Materials 16 (2025): e04272.
+14 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 15 页 ===
+12. K. Shen, W. Shi, H. Song, et al., “Solid Catholyte With Regulated 
+Interphase Redox for All‐Solid‐State Lithium‐Sulfur Batteries,” 
+Advanced Materials 37 (2025): e2417171.
+13. S. Puls, E. Nazmutdinova, F. Kalyk, et al., “Benchmarking the 
+Reproducibility of All‐Solid‐State Battery Cell Performance,” Nature 
+Energy 9 (2024): 1310–1320.
+14. X. Zhang, Q. Wang, K. Harrison, et al., “Pressure‐Driven Interface 
+Evolution in Solid‐State Lithium Metal Batteries,” Cell Reports Physical 
+Science 1 (2020): 100012.
+15. M. J. Wang, R. Choudhury, and J. Sakamoto, “Characterizing the Li‐ 
+Solid‐Electrolyte Interface Dynamics as a Function of Stack Pressure 
+and Current Density,” Joule 3 (2019): 2165–2178.
+16. M. Tufail, P. Zhai, W. Khokar, et al., “Evaluation of Solid Electro­
+lytes: Development of Conventional and Interdisciplinary Approaches,” 
+Interdisciplinary Materials 2 (2023): 529–568.
+17. A. S. Mussa, M. Klett, G. Lindbergh, and R. W. Lindström, “Effects 
+of External Pressure on the Performance and Ageing of Single‐Layer 
+Lithium‐Ion Pouch Cells,” Journal of Power Sources 385 (2018): 18–26.
+18. A. Aufschläger, A. Durdel, L. Kraft, and A. Jossen, “Optimizing 
+Mechanical Compression for Cycle Life and Irreversible Swelling of 
+High Energy and High Power Lithium‐Ion Pouch Cells,” Journal of 
+Energy Storage 76 (2024): 109883.
+19. X. Zhu, L. Wang, Z. Bai, J. Lu, and T. Wu, “Sulfide‐Based All‐Solid‐ 
+State Lithium‐Sulfur Batteries: Challenges and Perspectives,” Nano‐ 
+Micro Letters 15 (2023): 75–106.
+20. A. Cronk, X. Wang, J. A. S. Oh, et al., “A Highly Utilized and 
+Practical Lithium‐Sulfur Positive Electrode Enabled in All‐Solid‐State 
+Batteries,” Nature Communications 17 (2026): 3298.
+21. A. Banerjee, X. Wang, C. Fang, E. A. Wu, and Y. S. Meng, “Inter­
+faces and Interphases in All‐Solid‐State Batteries With Inorganic Solid 
+Electrolytes,” Chemical Reviews 120 (2020): 6878–6933.
+22. T. Famprikis, P. Canepa, J. A. Dawson, M. S. Islam, and 
+C. Masquelier, “Fundamentals of Inorganic Solid‐State Electrolytes for 
+Batteries,” Nature Materials 18 (2019): 1278–1291.
+23. Y. Li, J. Li, Y. Xu, et al., “Insight Into All‐Solid‐State Lithium‐Sulfur 
+Batteries: Challenges and Interface Engineering at the Electrode‐Sulfide 
+Solid Electrolyte Interface,” Advanced Energy Materials 16 (2025): 04926.
+24. G. Jarrold and A. Manthiram, “Delineating the Intricate Impact of 
+Carbon in All‐Solid‐State Lithium‐Sulfur Batteries,” Advanced Energy 
+Materials 15 (2025): 2502557.
+25. Y. Chen, T. Wang, H. Tian, D. Su, Q. Zhang, and G. Wang, “Ad­
+vances in Lithium‐Sulfur Batteries: From Academic Research to Com­
+mercial Viability,” Advanced Materials 33 (2021): e2003666.
+26. A. Manthiram, Y. Fu, S. H. Chung, C. Zu, and Y. S. Su, “Rechargeable 
+Lithium‐Sulfur Batteries,” Chemical Reviews 114 (2014): 11751–11787.
+27. M. Diallo, T. Shi, Y. Zhang, et al., “Effect of Solid‐Electrolyte Pellet 
+Density on Failure of Solid‐State Batteries,” Nature Communications 15 
+(2024): 858.
+28. J. Lee, K. Lee, T. Lee, et al., “In Situ Deprotection of Polymeric 
+Binders for Solution‐Processible Sulfide‐Based All‐Solid‐State Batte­
+ries,” Advanced Materials 32 (2020): e2001702.
+29. J. Kim, H. Su, Y. Zhong, et al., “All‐Solid‐State Lithium‐Sulfur 
+Batteries Through a Reaction Engineering Lens,” Nature Chemical 
+Engineering 1 (2024): 400–410.
+30. Y. Cao, C. Geng, C. Bai, et al., “Integrating Solid Interfaces for 
+Catalysis in All‐Solid‐State Lithium‐Sulfur Batteries,” Energy & 
+Environmental Science 18 (2025): 3795–3806.
+31. H. Ge, Y. Long, D. Huang, et al., “Exploiting Deep Sulfur Conversion 
+by Tandem Catalysis for All‐Solid‐State Lithium‐Sulfur Batteries,” 
+National Science Review 13 (2026): nwaf525.
+32. G. Zhou, H. Chen, and Y. Cui, “Formulating Energy Density for 
+Designing Practical Lithium‐Sulfur Batteries,” Nature Energy 7 (2022): 
+312–319.
+33. Y. K. Sun, “Emerging All‐Solid‐State Lithium‐Sulfur Batteries: Holy 
+Grails for Future Secondary Batteries,” ACS Energy Letters 9 (2024): 
+5092–5095.
+34. Y. Fujita, K. Münch, T. Asakura, et al., “Dynamic Volume Change of 
+Li2S‐Based Active Material and the Influence of Stacking Pressure on 
+Capacity in All‐Solid‐State Batteries,” Chemistry of Materials 36 (2024): 
+7533–7540.
+35. Y. Luo, S. Pan, J. Tian, et al., “Engineering Triple‐Phase Interfaces 
+With Hierarchical Carbon Nanocages for High‐Areal‐Capacity All‐ 
+Solid‐State Li‐S Batteries,” Advanced Materials 36 (2024): e2413325.
+36. R. Ma, Y. Fan, Y. Jin, et al., “Construction of Elastic and Conductive 
+Channels for High‐Rate and High‐Areal‐Capacity Sulfur Cathodes in 
+All‐Solid‐State Lithium‐Sulfur Batteries,” Advanced Energy Materials 14 
+(2024): 2304412.
+37. C. Yu, S. Ganapathy, E. Eck, et al., “Accessing the Bottleneck in All‐ 
+Solid State Batteries, Lithium‐Ion Transport Over the Solid‐Electrolyte‐ 
+Electrode Interface,” Nature Communications 8 (2017): 1086.
+38. L. P. Hou, H. Yuan, C. Z. Zhao, et al., “Improved Interfacial Elec­
+tronic Contacts Powering High Sulfur Utilization in All‐Solid‐State 
+Lithium‐Sulfur Batteries,” Energy Storage Materials 25 (2020): 436–442.
+39. L. Xu, S. Tang, Y. Cheng, et al., “Interfaces in Solid‐State Lithium 
+Batteries,” Joule 2 (2018): 1991–2015.
+40. S. Xia, X. Wu, Z. Zhang, Y. Cui, and W. Liu, “Practical Challenges 
+and Future Perspectives of All‐Solid‐State Lithium‐Metal Batteries,” 
+Chem 5 (2019): 753–785.
+41. A. Manthiram, X. Yu, and S. Wang, “Lithium Battery Chemistries En­
+abled by Solid‐State Electrolytes,” Nature Reviews Materials 2 (2017): 16103.
+42. X. Xiong, T. Lin, C. Tian, et al., “Creep‐Type All‐Solid‐State Cathode 
+Achieving Long Life,” Nature Communications 15 (2024): 3706.
+43. J. Kasemchainan, S. Zekoll, D. Spencer Jolly, et al., “Critical Strip­
+ping Current Leads to Dendrite Formation on Plating in Lithium Anode 
+Solid Electrolyte Cells,” Nature Materials 18 (2019): 1105–1111.
+44. M. Cronau, M. Szabo, C. König, T. B. Wassermann, and B. Roling, 
+“How to Measure a Reliable Ionic Conductivity? The Stack Pressure 
+Dilemma of Microcrystalline Sulfide‐Based Solid Electrolytes,” ACS 
+Energy Letters 6 (2021): 3072–3077.
+45. M. Liu, C. Wang, C. Zhao, et al., “Quantification of the Li‐Ion Dif­
+fusion Over an Interface Coating in All‐Solid‐State Batteries via NMR 
+Measurements,” Nature Communications 12 (2021): 5943.
+46. X. Han, Y. Gong, K. Fu, et al., “Negating Interfacial Impedance in 
+Garnet‐Based Solid‐State Li Metal Batteries,” Nature Materials 16 
+(2017): 572–579.
+47. Y. Su, S. Ren, Q. Lin, et al., “In Situ Solid Electrolyte Ionic Pathway 
+Formation in High Sulfur Loading Cathodes for High‐Performance All‐ 
+Solid‐State Lithium‐Sulfur Batteries,” Advanced Energy Materials 15 
+(2025): 2500363.
+48. J. A. Lewis, F. J. Q. Cortes, Y. Liu, et al., “Linking Void and Inter­
+phase Evolution to Electrochemistry in Solid‐State Batteries Using 
+Operando X‐Ray Tomography,” Nature Materials 20 (2021): 503–510.
+49. Y. Lu, C. Z. Zhao, J. K. Hu, et al., “The Void Formation Behaviors in 
+Working Solid‐State Li Metal Batteries,” Science Advances 8 (2022): 0510.
+50. Z. Ning, D. S. Jolly, G. Li, et al., “Visualizing Plating‐Induced 
+Cracking in Lithium‐Anode Solid‐Electrolyte Cells,” Nature Materials 
+20 (2021): 1121–1129.
+51. Y. Feng, Z. Wang, G. Luo, et al., “Exploring Stacking Pressure‐ 
+Induced Mechanical Failure of a Ni‐Rich Cathode in Sulfide Solid‐State 
+Batteries,” Chemical Science 17 (2026): 4601–4611.
+15 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 16 页 ===
+52. G. Jarrold and A. Manthiram, “Electrolyte Strategies for Practically 
+Viable All‐Solid‐State Lithium‐Sulfur Batteries,” Communications 
+Materials 6 (2025): 240.
+53. Z. Wu, S. He, C. Zheng, et al., “Fabrication Pressures and Stack 
+Pressures in Solid‐State Battery,” eScience 4 (2024): 100247–100260.
+54. J. Lee, C. Zhao, C. Wang, et al., “Bridging the Gap Between Academic 
+Research and Industrial Development in Advanced All‐Solid‐State Lithium‐ 
+Sulfur Batteries,” Chemical Society Reviews 53 (2024): 5264–5290.
+55. D. Cao, X. Sun, F. Li, et al., “Understanding Electrochemical 
+Reaction Mechanisms of Sulfur in All‐Solid‐State Batteries Through 
+Operando and Theoretical Studies,” Angewandte Chemie International 
+Edition 62 (2023): e202302363.
+56. J. Gu, W. Hu, Y. Wu, et al., “Asymmetric Sulfur Redox Paths in 
+Sulfide‐Based All‐Solid‐State Lithium–Sulfur Batteries,” Chemistry of 
+Materials 36 (2024): 4403–4416.
+57. Y. An, Z. Zhang, H. Fei, S. Xiong, B. Ji, and J. Feng, “Ultrafine TiO2 
+Confined in Porous‐Nitrogen‐Doped Carbon From Metal‐Organic Fra­
+meworks for High‐Performance Lithium Sulfur Batteries,” ACS Applied 
+Materials & Interfaces 9 (2017): 12400–12407.
+58. N. Song, Y. Liang, S. Xiong, et al., “Origin of Synergy in 
+Bicomponent Metal Nitride‐Metal Single Atom Catalysts for Advanced 
+Lithium‐Sulfur Batteries,” Advanced Materials 37 (2025): e08903.
+59. Z. Wang, H. Jiang, C. Wei, et al., “Ultrasmall Cofe Bimetallic Alloy 
+Anchored on Fluoride‐Free MXene by One‐Pot Etching Strategy for the 
+Barrier‐Adsorption‐Catalyst Functions of Polysulfides in Lithium‐Sulfur 
+Batteries,” Advanced Functional Materials 34 (2024): 2315178.
+60. S. Ohno, R. Koerver, G. Dewald, et al., “Observation of Chemo­
+mechanical Failure and the Influence of Cutoff Potentials in All‐Solid‐ 
+State Li–S Batteries,” Chemistry of Materials 31 (2019): 2930–2940.
+61. H. Wan, B. Zhang, S. Liu, J. Zhang, X. Yao, and C. Wang, “Un­
+derstanding LiI‐LiBr Catalyst Activity for Solid State Li2S/S Reactions in 
+an All‐Solid‐State Lithium Battery,” Nano Letters 21 (2021): 8488–8494.
+62. W. Yan, X. Wu, S. Tan, et al., “Chemical Processes in All‐Solid‐State 
+Li‐S and Na‐S Batteries: A Perspective,” Advanced Energy Materials 16 
+(2026): 2504832.
+63. Y. Zhou, D. Chen, X. Ren, et al., “Reliable Sulfur Cathode Design for 
+All‐Solid‐State Lithium Metal Batteries Based on Sulfide Electrolytes,” 
+Advanced Energy Materials 15 (2025): 2500061.
+64. Q. Pang, X. Liang, C. Y. Kwok, and L. F. Nazar, “Advances in 
+Lithium‐Sulfur Batteries Based on Multifunctional Cathodes and Elec­
+trolytes,” Nature Energy 1 (2016): 16132.
+65. W. Tian, B. Xi, H. Mao, J. Zhang, J. Feng, and S. Xiong, “Systematic 
+Exploration of the Role of a Modified Layer on the Separator in the 
+Electrochemistry of Lithium‐Sulfur Batteries,” ACS Applied Materials & 
+Interfaces 10 (2018): 30306–30313.
+66. P. Chen, H. Qu, D. Zheng, X. Zhang, and D. Qu, “Long Cycle Sta­
+bility of All‐Solid‐State Lithium‐Sulfur Batteries at Low Pressure and 
+Ambient Temperature: Addressing Contact and Diffusion Kinetics,” 
+Advanced Functional Materials 35 (2025): 2423633.
+67. S. Ohno and W. G. Zeier, “Toward Practical Solid‐State Lithium‐ 
+Sulfur Batteries: Challenges and Perspectives,” Accounts of Materials 
+Research 2 (2021): 869–880.
+68. Y. Luo, Z. Rao, X. Yang, et al., “Safety Concerns in Solid‐State 
+Lithium Batteries: From Materials to Devices,” Energy & Environmental 
+Science 17 (2024): 7543–7565.
+69. W. Chang, R. May, M. Wang, et al., “Evolving Contact Mechanics 
+and Microstructure Formation Dynamics of the Lithium Metal‐ 
+Li7La3Zr2O12 Interface,” Nature Communications 12 (2021): 6369.
+70. Y. Zhang, S. Motahari, E. V. Woods, et al., “Mechanically Driven Li 
+Dendrite Penetration in Garnet Solid Electrolyte,” Nature 652 (2026): 
+912–918.
+71. L. Porz, T. Swamy, B. W. Sheldon, et al., “Mechanism of Lithium 
+Metal Penetration Through Inorganic Solid Electrolytes,” Advanced 
+Energy Materials 7 (2017): 1701003.
+72. R. Koerver, W. Zhang, L. de Biasi, et al., “Chemo‐Mechanical Ex­
+pansion of Lithium Electrode Materials – On the Route to Mechanically 
+Optimized All‐Solid‐State Batteries,” Energy & Environmental Science 11 
+(2018): 2142–2158.
+73. H. Huo, M. Jiang, Y. Bai, et al., “Chemo‐Mechanical Failure 
+Mechanisms of the Silicon Anode in Solid‐State Batteries,” Nature 
+Materials 23 (2024): 543–551.
+74. C. Lee, J. Y. Kim, K. Y. Bae, et al., “Enhancing Electro­
+chemomechanics: How Stack Pressure Regulation Affects All‐Solid‐ 
+State Batteries,” Energy Storage Materials 66 (2024): 103196.
+75. F. Dai and M. Cai, “Best Practices in Lithium Battery Cell Prepa­
+ration and Evaluation,” Communications Materials 3 (2022): 64.
+76. Q. Li, C. Xie, X. Jiang, et al., “Catalytic Solder Fuses Solid‐Solid 
+Interfaces for All‐Solid‐State Lithium‐Sulfur Batteries,” Advanced 
+Materials 37 (2025): 2507308.
+77. T. Wang, B. Chen, Y. Liu, et al., “Fatigue of Li Metal Anode in Solid‐ 
+State Batteries,” Science 388 (2025): 311–316.
+78. C. Liu, F. Roters, and D. Raabe, “Role of Grain‐Level Chemo‐ 
+Mechanics in Composite Cathode Degradation of Solid‐State Lithium 
+Batteries,” Nature Communications 15 (2024): 7970.
+79. M. G. Jeong, K. G. Naik, Y. Zheng, et al., “Operando Investigation on 
+the Role of Densification and Chemo‐Mechanics on Solid‐State Cath­
+odes,” Advanced Energy Materials 14 (2024): 2304544.
+80. J. Wu, S. Liu, F. Han, X. Yao, and C. Wang, “Lithium/Sulfide All‐ 
+Solid‐State Batteries Using Sulfide Electrolytes,” Advanced Materials 33 
+(2021): e2000751.
+81. X. Hao, Z. L. Dong, J. Ma, et al., “A Universal Solid Reaction Enabling 
+Nanosized Li2S in an Amorphous Matrix for All‐Solid‐State Li‐S Batteries,” 
+Journal of the American Chemical Society 147 (2025): 42184–42193.
+82. Y. Kuang, C. Chen, D. Kirsch, and L. Hu, “Thick Electrode Batteries: 
+Principles, Opportunities, and Challenges,” Advanced Energy Materials 
+9 (2019): 1901457.
+83. N. Kamaya, K. Homma, Y. Yamakawa, et al., “A Lithium Superionic 
+Conductor,” Nature Materials 10 (2011): 682–686.
+84. Y. Kato, S. Hori, T. Saito, et al., “High‐Power All‐Solid‐State Batteries 
+Using Sulfide Superionic Conductors,” Nature Energy 1 (2016): 16030.
+85. M. Liu, J. J. Hong, E. Sebti, et al., “Surface Molecular Engineering to 
+Enable Processing of Sulfide Solid Electrolytes in Humid Ambient Air,” 
+Nature Communications 16 (2025): 213.
+86. H. Gamo, K. Hikima, and A. Matsuda, “Understanding Decompo­
+sition of Electrolytes in All‐Solid‐State Lithium‐Sulfur Batteries,” 
+Chemistry of Materials 34 (2022): 10952–10963.
+87. M. Yang, Y. Liu, A. M. Nolan, and Y. Mo, “Interfacial Atomistic 
+Mechanisms of Lithium Metal Stripping and Plating in Solid‐State 
+Batteries,” Advanced Materials 33 (2021): e2008081.
+88. Z. X. Wang, Y. Lu, C. Z. Zhao, et al., “Suppressing Li Voids in All‐ 
+Solid‐State Lithium Metal Batteries Through Li Diffusion Regulation,” 
+Joule 8 (2024): 2794–2810.
+89. M. Li, S. Yang, and B. Li, “Advances in Electrolyte‐Anode Interface 
+Engineering of Solid‐State Lithium Metal Batteries,” Interdisciplinary 
+Materials 3 (2024): 805–834.
+90. M. Burton, S. Narayanan, B. Jagger, et al., “Techno‐Economic 
+Assessment of Thin Lithium Metal Anodes for Solid‐State Batteries,” 
+Nature Energy 10 (2024): 135–147.
+91. S. E. Sandoval, C. G. Haslam, B. S. Vishnugopi, et al., “Electro‐ 
+Chemo‐Mechanics of Anode‐Free Solid‐State Batteries,” Nature 
+Materials 24 (2025): 673–681.
+16 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 17 页 ===
+92. S. E. Sandoval, J. A. Lewis, B. S. Vishnugopi, et al., “Structural and 
+Electrochemical Evolution of Alloy Interfacial Layers in Anode‐Free 
+Solid‐State Batteries,” Joule 7 (2023): 2054–2073.
+93. D. Wang, B. Gwalani, D. Wierzbicki, et al., “Overcoming the Con­
+version Reaction Limitation at Three‐Phase Interfaces Using Mixed 
+Conductors Towards Energy‐Dense Solid‐State Li‐S Batteries,” Nature 
+Materials 24 (2025): 243–251.
+94. X. Yao, N. Huang, F. Han, et al., “High‐Performance All‐Solid‐State 
+Lithium‐Sulfur Batteries Enabled by Amorphous Sulfur‐Coated 
+Reduced Graphene Oxide Cathodes,” Advanced Energy Materials 7 
+(2017): 1602923.
+95. F. Han, J. Yue, X. Fan, et al., “High‐Performance All‐Solid‐State 
+Lithium‐Sulfur 
+Battery 
+Enabled 
+by 
+a 
+Mixed‐Conductive 
+Li2S 
+Nanocomposite,” Nano Letters 16 (2016): 4521–4527.
+96. J. Yue, Y. Huang, S. Liu, J. Chen, F. Han, and C. Wang, “Rational 
+Designed Mixed‐Conductive Sulfur Cathodes for All‐Solid‐State 
+Lithium Batteries,” ACS Applied Materials & Interfaces 12 (2020): 
+36066–36071.
+97. M. Yamamoto, S. Goto, R. Tang, et al., “Nano‐Confinement of 
+Insulating Sulfur in the Cathode Composite of All‐Solid‐State Li–S 
+Batteries Using Flexible Carbon Materials With Large Pore Volumes,” 
+ACS Applied Materials & Interfaces 13 (2021): 38613–38622.
+98. P. Jiang, H. Zhou, S. Song, et al., “A Composite Cathode With a Three‐ 
+Dimensional 
+Ion/Electron‐Conducting 
+Structure 
+for 
+All‐Solid‐State 
+Lithium–Sulfur Batteries,” Communications Materials 5 (2024): 105.
+99. T. Jin, K. Liang, J. H. Yu, et al., “Enhanced Cycling Stability of 
+All‐Solid‐State Lithium–Sulfur Battery Through Nonconductive Polar 
+Hosts,” Nano Letters 24 (2024): 6625–6633.
+100. G. Wang, Y. Liang, H. Liu, C. Wang, D. Li, and L. Z. Fan, “Scalable, 
+Thin Asymmetric Composite Solid Electrolyte for High‐Performance 
+All‐Solid‐State Lithium Metal Batteries,” Interdisciplinary Materials 1 
+(2022): 434–444.
+101. W. Zhao, Y. Zhang, N. Sun, et al., “Maintaining Interfacial 
+Transports for Sulfide‐Based All‐Solid‐State Batteries Operating at Low 
+External Pressure,” ACS Energy Letters 8 (2023): 5050–5060.
+102. X. Gao, B. Liu, B. Hu, et al., “Solid‐State Lithium Battery Cathodes 
+Operating at Low Pressures,” Joule 6 (2022): 636–646.
+103. S. Moradi, B. Zahiri, and P. V. Braun, “Cathode Chemomechanics 
+Controls Li Metal Solid‐State Battery Performance Under Low Stack 
+Pressures,” Nature Communications 16 (2025): 9266.
+104. Q. Pang, A. Shyamsunder, B. Narayanan, C. Y. Kwok, L. A. Curtiss, 
+and L. F. Nazar, “Tuning the Electrolyte Network Structure to Invoke 
+Quasi‐Solid State Sulfur Conversion and Suppress Lithium Dendrite 
+Formation in Li‐S Batteries,” Nature Energy 3 (2018): 783–791.
+105. K. J. Kim, M. Balaish, M. Wadaguchi, L. Kong, and J. L. M. Rupp, 
+“Solid‐State Li‐Metal Batteries: Challenges and Horizons of Oxide and 
+Sulfide Solid Electrolytes and Their Interfaces,” Advanced Energy 
+Materials 11 (2020): 2002689.
+106. H. D. Lim, J. H. Park, H. J. Shin, et al., “A Review of Challenges 
+and Issues Concerning Interfaces for All‐Solid‐State Batteries,” Energy 
+Storage Materials 25 (2020): 224–250.
+107. Y. Zhao, Z. Qiang, Y. Ning, D. Li, T. Jiang, and S. Lou, “Mechanical 
+Issues in Sulfide‐Based All‐Solid‐State Batteries: Origin, Monitoring, 
+and Intelligent Analysis,” Nano Energy 131 (2024): 110295.
+108. A. Kato, M. Yamamoto, F. Utsuno, H. Higuchi, and M. Takahashi, 
+“Lithium‐Ion‐Conductive Sulfide Polymer Electrolyte With Disulfide Bond‐ 
+Linked PS4 Tetrahedra for All‐Solid‐State Batteries,” Communications 
+Materials 2 (2021): 112.
+109. X. Fang, Y. Fu, S. Sun, et al., “Halide as Catholyte in Composite 
+Cathode to Enhance Cycling Stability of All‐Solid‐State Lithium‐Sulfur 
+Batteries,” Nano Letters 25 (2025): 3843–3850.
+110. S. Yanagihara, J. Huebner, Z. Huang, et al., “Compatibility of 
+Halide Electrolytes in Solid‐State Li‐S Battery Cathodes,” Chemistry of 
+Materials 37 (2024): 109–118.
+111. W. Ren, Y. Li, X. Peng, et al., “Promoting Ion Conduction and Li 
+Metal Compatibility Through Nb5+‐Substituted Zirconium‐Based 
+Chlorides for All‐Solid‐State Batteries,” Interdisciplinary Materials 4 
+(2025): 914–926.
+112. J. Lee, S. Zhou, V. C. Ferrari, et al., “Halide Segregation to Boost 
+All‐Solid‐State Lithium‐Chalcogen Batteries,” Science 388 (2025): 
+724–729.
+113. X. Shi, Z. Zeng, M. Sun, et al., “Fast Li‐Ion Conductor of Li3HOBr6 
+for Stable All‐Solid‐State Lithium‐Sulfur Battery,” Nano Letters 21 
+(2021): 9325–9331.
+114. C. Rosenbach, F. Walther, J. Ruhl, et al., “Visualizing the Chemical 
+Incompatibility of Halide and Sulfide‐Based Electrolytes in Solid‐State 
+Batteries,” Advanced Energy Materials 13 (2022): 2203673.
+115. D. Li, Y. Li, H. Liu, et al., “Constructing Uniform Ionic Conductor 
+Coatings on LiCoO2 Cathode to Realize 4.6 V High‐Voltage All‐Solid‐ 
+State Lithium Batteries,” Interdisciplinary Materials 4 (2025): 775–785.
+116. Y. Liu, Y. An, C. Fang, et al., “Surface‐Localized Phase Mediation 
+Accelerates Quasi‐Solid‐State Reaction Kinetics in Sulfur Batteries,” 
+Nature Chemistry 17 (2025): 614–623.
+117. G. Ye, X. Hong, M. He, et al., “All‐Solid‐State Lithium Metal Bat­
+teries With Microdomain‐Regulated Polycationic Solid Electrolytes,” 
+Advanced Materials 37 (2025): 2417829.
+118. B. S. Vishnugopi, E. Kazyak, J. A. Lewis, et al., “Challenges and 
+Opportunities for Fast Charging of Solid‐State Lithium Metal Batteries,” 
+ACS Energy Letters 6 (2021): 3734–3749.
+119. J. K. Eckhardt, P. J. Klar, J. Janek, and C. Heiliger, “Interplay of 
+Dynamic Constriction and Interface Morphology Between Reversible 
+Metal Anode and Solid Electrolyte in Solid State Batteries,” ACS Applied 
+Materials & Interfaces 14 (2022): 35545–35554.
+120. Y. Fu, G. Shao, and Y. Lei, “Interface Engineering in Solid‐State 
+Sodium Batteries: Advances in Materials Design, Interfacial Strategies, 
+and Multiscale Characterization,” Interdisciplinary Materials 5 (2025): 
+5–84.
+121. J. Peng, X. Zheng, Y. Wu, et al., “Li2S‐Based Composite Cathode 
+With in Situ‐Generated Li3PS4 Electrolyte on Li2S for Advanced All‐ 
+Solid‐State Lithium‐Sulfur Batteries,” ACS Applied Materials & 
+Interfaces 15 (2023): 20191–20199.
+122. J. Zhou, M. L. Holekevi Chandrappa, S. Tan, et al., “Healable and 
+Conductive Sulfur Iodide for Solid‐State Li–S Batteries,” Nature 627 
+(2024): 301–305.
+123. H. Kim, H. N. Choi, J. Y. Hwang, C. S. Yoon, and Y. K. Sun, 
+“Tailoring the Interface Between Sulfur and Sulfide Solid Electrolyte for 
+High‐Areal‐Capacity All‐Solid‐State Lithium–Sulfur Batteries,” ACS 
+Energy Letters 8 (2023): 3971–3979.
+124. C. Duan, Z. Cheng, W. Li, et al., “Realizing the Compatibility of a 
+Li Metal Anode in an All‐Solid‐State Li–S Battery by Chemical Iodine‐ 
+Vapor Deposition,” Energy & Environmental Science 15 (2022): 
+3236–3245.
+125. C. Yan, Y. Zhou, H. Cheng, et al., “Interconnected Cathode‐ 
+Electrolyte Double‐Layer Enabling Continuous Li‐Ion Conduction 
+Throughout Solid‐State Li–S Battery,” Energy Storage Materials 44 
+(2022): 136–144.
+126. R. Xu, J. Yue, S. Liu, et al., “Cathode‐Supported All‐Solid‐State 
+Lithium–Sulfur Batteries With High Cell‐Level Energy Density,” ACS 
+Energy Letters 4 (2019): 1073–1079.
+127. S. Randau, D. A. Weber, O. Kötz, et al., “Benchmarking the Per­
+formance of All‐Solid‐State Lithium Batteries,” Nature Energy 5 (2020): 
+259–270.
+17 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 18 页 ===
+128. X. Gao, X. Zheng, Y. Tsao, et al., “All‐Solid‐State Lithium–Sulfur 
+Batteries Enhanced by Redox Mediators,” Journal of the American 
+Chemical Society 143 (2021): 18188–18195.
+129. Y. Kato, S. Shiotani, K. Morita, K. Suzuki, M. Hirayama, and 
+R. Kanno, “All‐Solid‐State Batteries With Thick Electrode Configura­
+tions,” Journal of Physical Chemistry Letters 9 (2018): 607–613.
+130. A. L. Davis, V. Goel, D. W. Liao, et al., “Rate Limitations in 
+Composite Solid‐State Battery Electrodes: Revealing Heterogeneity 
+With Operando Microscopy,” ACS Energy Letters 6 (2021): 2993–3003.
+131. D. H. S. Tan, E. A. Wu, H. Nguyen, et al., “Elucidating Reversible 
+Electrochemical Redox of Li6PS5Cl Solid Electrolyte,” ACS Energy 
+Letters 4 (2019): 2418–2427.
+132. T. K. Schwietert, V. A. Arszelewska, C. Wang, et al., “Clarifying the 
+Relationship Between Redox Activity and Electrochemical Stability in 
+Solid Electrolytes,” Nature Materials 19 (2020): 428–435.
+133. C. Park, J. Choi, S. Park, et al., “Interfacial Chemistry‐Driven 
+Reaction Dynamics and Resultant Microstructural Evolution in 
+Lithium‐Based All‐Solid‐State Batteries,” Nature Communications 16 
+(2025): 8838.
+134. S. G. Yoon, B. S. Vishnugopi, D. L. Nelson, et al., “Interface Mor­
+phogenesis With a Deformable Secondary Phase in Solid‐State Lithium 
+Batteries,” Science 388 (2025): 1062–1068.
+135. H. Qu, T. Ding, X. Zhang, et al., “Deciphering Volume Changes in 
+Li–S Solid‐State Battery Components During Cycling: Implication for 
+Advanced Battery Design,” Nano Energy 138 (2025): 110887.
+136. C. G. Haslam, J. K. Eckhardt, A. Ayyaswamy, et al., “Evaluating 
+Pressure‐Dependent Discharge Behavior of Foil Versus in Situ Plated 
+Lithium Metal Anodes in Solid‐State Batteries,” Advanced Energy 
+Materials 15 (2024): 2403614.
+Supporting Information 
+Additional supporting information can be found online in the 
+Supporting Information section.
+Supporting File: idm270086-sup-0001-Supporting_Information.docx.  
+18 
+Interdisciplinary Materials, 2026
+ 2767441x, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/idm2.70086 by Tsinghua University Library, Wiley Online Library on [13/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

@@ -1,0 +1,707 @@
+=== 第 1 页 ===
+ORIGINAL PAPER
+Electrochemical evaluation of different graphene/sulfur composite
+synthesis routes in all-solid-state lithium-sulfur batteries
+Abdulkadir Kızılaslan1,2 & Şükran Efe3 & Hatem Akbulut1,2
+Received: 19 April 2020 /Revised: 16 June 2020 /Accepted: 17 June 2020
+# Springer-Verlag GmbH Germany, part of Springer Nature 2020
+Abstract
+The preparation of different cathode composites with intimate contact between the components is of great importance to obtain
+batteries with better electrochemical performance. Among different cathode systems, graphene-sulfur composites are widely
+utilized in lithium-sulfur batteries and their electrochemical performances are directly linked to syntheses methods. In this study,
+graphene-sulfur composite cathodes were prepared by three distinct routes and their performances were evaluated in all-solid-
+state lithium-sulfur batteries where the lithium and Li7P3S11 were utilized as anode and solid electrolyte, respectively. Our results
+indicate that cathodes prepared by solution-based techniques were found to impart higher capacity and cycling stability compared
+with cathode prepared by the melt-diffusion method. Better performance was attributed to fine and homogeneously distributed
+particles obtained in cathodes prepared by solution-based techniques. Besides, higher capacity was acquired in the cathodes
+where the sulfur was obtained through reduction from Na2S2O3 instead of utilizing sulfur in elemental powder form. Among
+three different cathodes synthesized by different routes, the best performance was gained in the cathode prepared by sulfur-amine
+chemistry method where the sulfur was obtained by reduction from Na2S2O3 with 970 mAh g-1 and 795 mAh g-1 initial and after
+200 cycles discharge capacity respectively. Our results indicate the significance of particle size and intimate contact between
+components on the electrochemical performance of the sulfur-based cathodes and the synthesis route to follow for high-
+performance all-solid-state lithium-sulfur batteries.
+Keywords All-solid-state lithium-sulfur battery . Graphene/sulfur cathode . Li7P3S11
+Introduction
+In the last few decades, commercial lithium-ion batteries
+(LIBs) utilizing graphite anode and oxide cathode have been
+widely commercialized on electronic devices. However, as
+getting close to the edge in the theoretical limits of Li-ion
+batteries, lithium-sulfur batteries (LSBs) have attracted great
+interest. With the theoretical capacity of 1672 mAh g-1, LSBs
+can deliver eight times more energy compared with traditional
+lithium-ion batteries. Despite their charming capacities,
+traditional lithium-sulfur batteries with liquid electrolytes
+have major challenges to be adopted into high energy de-
+manding systems due to well-known polysulfide shuttling
+[1–5], volumetric expansion of sulfur upon lithiation/
+delithiation [6, 7] and lithium dendrite formation problems
+[8–10]. While great strides have been achieved, LSBs with
+liquid electrolytes have not yet been emerged into the market.
+Lithium-sulfur batteries with solid electrolytes are consid-
+ered the next-generation batteries to overcome the aforemen-
+tioned problems encountered in batteries with liquid electro-
+lytes. Compared with complex reduction reactions in LSBs
+with liquid electrolytes [11–13], all-solid-state LSBs are
+governed solely by the reaction S+2Li++2e- ↔Li2S which
+practically inhibits the formation of soluble Li2Sx (x> 2)
+polysulfides and lithium dendrites.
+On the cathode side, an intimate contact between all cath-
+ode components is vital to ensure continuous charge transfer.
+Various carbonaceous materials, e.g., CNTs [14–16], carbon
+black [17–19], and graphene [20–22] composited with sulfur,
+have been widely used in LSBs. In preparing carbon-sulfur(C-
+* Abdulkadir Kızılaslan
+akizilaslan@sakarya.edu.tr
+1
+Metallurgy and Materials Science Department, Sakarya University,
+Esentepe Campus, 54187 Sakarya, Turkey
+2
+Research, Development and Application Center (SARGEM),
+Sakarya University, Sakarya, Turkey
+3
+Atatürk Universitesi, 25240 Yakutiye, Erzurum, Turkey
+https://doi.org/10.1007/s10008-020-04734-8
+/ Published online: 29 June 2020
+Journal of Solid State Electrochemistry (2020) 24:2279–2288
+
+=== 第 2 页 ===
+S) composites, broadly two techniques have been utilized.
+One way to deposit sulfur onto graphene is carried out by
+impregnating melted sulfur into aggregated graphene sheets
+to take advantage of the fact that sulfur interacts strongly with
+carbon. In this technique, where the sulfur used in elemental
+powder form, thoroughly mixed sulfur and carbonaceous ma-
+terials were directly heat-treated at 155 °C. Sulfur having the
+lowest viscosity at this temperature melts and decorates onto
+carbonaceous material in the composite. Although the method
+is facile and easy to be implemented in large scales, it suffers
+the fine and homogenous distribution of sulfur particles.
+Considering the insulating nature of sulfur, coarse particulates
+cause very low utilization of the active material. Recently,
+solution-based techniques where the sulfur reduced from dif-
+ferent species (e.g., Na2S2O3, Na2S, Na2SO4, C14H14S2) and
+decorated onto graphene have attracted much interests. By
+carefully controlling the reaction parameters, sulfur size, and
+load in the composite can be well controlled in solution-based
+techniques [23]. Several studies revealed that C-S composites
+prepared by solution deposition methods surpass the perfor-
+mance of composites synthesized by melt deposition [24] in
+LSBs with liquid electrolytes. Many studies discussed the
+electrochemical performance of graphene-sulfur composite
+cathodes synthesized by various techniques [4, 25–28].
+Although the performance limits of the abovementioned
+cathodes have been thoroughly investigated separately in
+LSBs with liquid electrolytes, a careful analysis of different
+cathode chemistries has not yet been investigated in all-solid-
+state batteries.
+In this study, three different quaternary cathode composites
+with the same components, namely, reduced graphene oxide
+(rGO), conductive carbon (CB), solid electrolyte (SE), and
+sulfur, were synthesized by different syntheses routes. Three
+cathodes differ from each other in the way rGO/S composites
+were prepared and subsequently each rGO/S mixed with CB
+and SE. The first rGO/S composite was synthesized through
+the melt diffusion technique and denoted as cathode no. 1. The
+second composite was synthesized from sulfur-ethylene
+diamine(S/EDA) complex precursor where elemental sulfur
+powder was utilized as sulfur source and denoted as cathode
+no. 2. The last composite was also synthesized through sulfur-
+amine chemistry where the sulfur obtained through reduction
+from Na2S2O3 and denoted as cathode no. 3. Synthesis
+methods and sulfur source of cathodes were given in Table 1.
+After the synthesis of three different cathodes, their elec-
+trochemical performances were evaluated in assembled all-
+solid-state batteries where lithium and Li7P3S11 were utilized
+as anode and solid electrolyte respectively.
+Experimental
+The synthesis of solid electrolyte used in this study was re-
+ported in our previous study [29]. Powder XRD analysis of the
+cathodes was carried out by Rigaku D/MAX 2000 type X-ray
+spectrometer with Cu Kα radiation between 10° and 50° with
+1°min-1 scan rate. The morphologies and elemental mapping
+of the cathode composites were observed with field emission
+scanning electron microscope (FESEM, FEI Quanta FEG
+450). To calculate the active mass load on cathode compos-
+ites, thermal gravimetry analysis was carried out using
+Netzsch DSC200 F3 under a nitrogen atmosphere with a
+heating rate of 10 °C min-1. Transmission electron microscopy
+(TEM) analysis was performed to characterize the size and
+morphology of graphene-sulfur composites. Fourier transform
+infrared (FTIR) analysis was carried out in attenuated total
+reflection (ATR) mode with 4 cm-1 resolutions between 400
+and 4000 cm-1 wavenumbers to characterize the graphene
+oxide and reduced graphene-oxide/sulfur composites.
+The electrochemical measurements of cathodes were con-
+ducted on all-solid-state PEEK insulated battery cell (ø10
+mm) where Li and Li7P3S11 were utilized as anode and solid
+electrolyte respectively. Typically, 100 mg solid electrolyte
+was pressed under 340 MPa to obtain solid electrolyte pellet.
+Four milligrams of cathode powder was then spread on one
+side of the pellet and pressed under 240 MPa. Finally, lithium
+chip was attached to the other side of the pellet and pressed
+under 120 MPa to get the three-layered cell. Stainless steel
+punches of the battery mold act as a pressure transmitting
+media along with current collectors in the cell. Cyclic volt-
+ammetry analysis was conducted in Gamry Ref1000
+galvanostat between 1.2 and 2.8 V at a scan rate of 0.5 mV
+s-1. The galvanostatic charge-discharge tests were carried out
+between 1.4–2.8 V with a current density of 0.4 mA cm-2 at 40
+Table 1 Cathodes utilized in this
+study, synthesis methods and
+sulfur sources
+Synthesis method
+Sulfur source
+Cathode no.
+1
+Melt-diffusion technique
+Elemental sublimed sulfur
+powder
+Cathode no.
+2
+Solution-based technique (sulfur-ethylene diamine
+chemistry)
+Elemental sublimed sulfur
+powder
+Cathode no.
+3
+Solution-based technique (sulfur-ethylene diamine
+chemistry)
+Reducing sulfur from Na2S2O3
+2280
+J Solid State Electrochem (2020) 24:2279–2288
+
+=== 第 3 页 ===
+°C. Electrochemical impedance spectroscopy (EIS) tests were
+carried out at frequency between 1 MHz and 1 Hz with 10-mV
+amplitude.
+Cathode no. 1: composite cathode synthesis by melt
+diffusion
+Graphene oxide was synthesized by the modified Hummers
+method and thermally reduced at 800 °C under Ar/H2 flow to
+obtain reduced graphene oxide (rGO). High-purity sublimed
+sulfur and rGO was mixed in agate mortar (4/1, wt./wt.) and
+subsequently heat-treated at 155 °C for 10 h in a sealed glass
+tube. After heat treatment, sulfur was impregnated into rGO
+and black-colored rGO/S composite was obtained. rGO/S
+composite was then composited with carbon black (CB)
+(3/1, wt./wt.) through ball milling at 400 rpm for 10 h.
+Ternary rGO/S/CB composite was then mixed with Li7P3S11
+(3/2, wt./wt.) in Ar-filled glove box and ball milled at 200 rpm
+for 10 h to obtain the final composite. In order to preserve the
+synthesized graphene/sulfur morphology, mild milling was
+carried out.
+Cathode no. 2: sulfur-amine chemistry composite
+cathode synthesis from elemental sulfur powder
+Fifty milligrams of rGO was dispersed in distilled water/
+ethanol (10/1, volume/volume) under ultrasonication for 1 h.
+In total, 200-mg sublimed sulfur, dried at 50 °C, was dissolved
+in 10-mL ethylenediamine (EDA) solution. S/EDA precursor
+solution was then mixed dropwise into dispersed rGO under
+vigorous stirring. After 2-min stirring, rGO/S composite was
+obtained through filtering and rinse with distilled water. rGO/
+Fig. 1 Schematic synthesis routes
+of three cathodes. a Melt-
+diffusion technique (cathode no.
+1) and b, c solution-based tech-
+niques (cathode no. 2 and cathode
+no. 3 respectively)
+2281
+J Solid State Electrochem (2020) 24:2279–2288
+
+=== 第 4 页 ===
+S composites were then composited with CB and Li7P3S11 as
+the same procedure mentioned above to get the quaternary
+cathode composition.
+Cathode no. 3: sulfur-amine chemistry composite
+cathode synthesis from Na2S2O3 precursor
+Graphene oxide of 270 mg (GO) was dispersed in 270-mL
+distilled water for 2 h under ultrasonication to obtain GO
+solution followed by adding 0.4-mL ethylenediamine
+(EDA). GO/EDA precursor was then sealed into a glass jar
+and heat-treated at 75 °C for 10 h in a water bath to reduce the
+GO into rGO. In another beaker, Na2S2O3 was dissolved in
+distilled water which was subsequently added into rGO solu-
+tion and ultrasonicated for 1 h. Dilute hydrochloric acid was
+then added dropwise into the rGO/Na2S2O3 solution and
+stirred for 1 h. rGO/S composite was obtained through filter-
+ing and rinse with distilled water. After drying overnight at 60
+°C, obtained composite was heat treated at 155 °C under Ar
+flow in a sealed glass jar for 12 h. rGO/S composite was then
+composited with CB and Li7P3S11 as the same procedure
+mentioned above to get the quaternary cathode composition.
+A schematic illustration of cathode syntheses is given in
+Fig. 1.
+Results and discussion
+Phase analysis of cathodes
+Phase analysis of the rGO/S cathodes synthesized by different
+routes was analyzed by XRD and the results are given in Fig. 2.
+Main diffraction peaks located at 2θ = 15.59°, 22.16°, 23.41°,
+26.16°, 26.90°, 28.07°, 29.01°, and 31.73° were indexed to or-
+thorhombic sulfur peaks (JCPDS card no. 78-1889). A large
+amorphous peak at around 26° testifies the existence of rGO in
+the composite. XRD analysis of cathode no. 1 displays sulfur
+peaks having high intensity which stands for the existence of the
+crystalline sulfur particles with coarse grains decorated onto the
+rGO matrix. On cathode no. 2 and cathode no. 3, diffraction
+peaks of sulfur are much weaker in intensity and broader which
+show that sulfur particles are much smaller in size. Besides, there
+is no peak at 2θ = 11° on cathode no. 3 which testifies that
+graphene oxide was completely reduced by EDA
+functionalization at 75 °C. The effect of EDA on the reduction
+of graphene oxide was evidenced by treating dispersed graphene
+oxide solution with EDA at different times. As shown in Fig. 3,
+the existence of strong peak at 2θ = 11° which stands for the
+(001) plane of graphene oxide shows that graphene oxide does
+Fig. 2 XRD analysis of rGO/S composites synthesized by different
+routes. Characteristic orthorhombic sulfur peaks are denoted with bars
+on the x-axis
+Fig. 3 XRD analysis of the GO dispersion reduced with ethylenediamine
+(EDA), with EDA at 75 °C for 5 h (red), with EDA at 75 °C for 10 h
+(black), and GO solution kept at 75 °C for 10 h without the addition of
+EDA (blue)
+Fig. 4 FTIR analysis of graphene oxide and the synthesized graphene-
+sulfur cathodes
+2282
+J Solid State Electrochem (2020) 24:2279–2288
+
+=== 第 5 页 ===
+not reduce after kept at 75 °C in the solution without EDA.
+However, graphene oxide was completely reduced in the solu-
+tion with EDA after kept for 10 h at 75 °C. As shown in Fig. 3,
+the strong peak at about 2θ = 11° was completely transformed
+into a broad peak at about 2θ = 26° due to the removal of oxygen
+functional groups in the graphene oxide. Besides, graphene oxide
+was just partly reduced after reduction at 75 °C for 5 h which
+shows that the reduction process is time-dependent. The optical
+image given in the Fig. 3 displays the stable dispersion of
+graphene oxide on the right, whereas the reduced graphene oxide
+dispersion obtained with EDA treatment at 75 °C for 10 h does
+not suspend and precipitates in pure water [30].
+XRD analysis reveals that rGO/S composites with smaller
+sulfur size can be synthesized through solution-based tech-
+niques unless the reaction time prolonged. Besides, cathode
+composites prepared by sulfur-amine chemistry resulted in
+smaller sulfur size when the sulfur precursor was Na2S2O3
+instead of elemental sulfur. Considering the insulating nature
+of sulfur, reduction in the size of sulfur particulates increases
+active mass utilization which is expected to enhance the elec-
+trochemical performance of the cathode.
+In order to further characterize the graphene oxide and
+rGO/S composites, we have carried out FTIR analysis.
+Figure 4 displays the presence of different functional groups
+in graphene oxide and the removal of certain peaks upon the
+reduction and impregnation of sulfur into the matrix.
+Hydroxyl and carboxyl functional groups are observed at ~
+1630 cm-1 (C=C), ~ 1720 cm-1 (C=O), ~ 1250 cm-1 (C–OH),
+and ~ 2750 cm-1 (C–H) [31, 32]. Reduction of graphene oxide
+and impregnation of sulfur led to a decrease in the intensities
+of the peaks which stands for the existence of graphene oxide
+functional groups and a new peak at about 1150 cm-1 emerged
+which was attributed to the formation of C–S bonds. [33].
+Structural analysis and sulfur load of cathodes
+Figure 5 shows the morphological analysis of the cathodes
+observed by FESEM at high magnifications. In Fig. 5a, tiny
+sulfur particulates with an average particle size of about 50 nm
+were observed to be distributed on the rGO matrix. On the
+contrary, no crystalline sulfur particulates were observed even
+at high magnifications in cathode no. 2 and cathode no. 3
+given in Fig. 5 b and c respectively. On cathode no. 2, trans-
+lucent rGO nanosheet structure was observed. Although ho-
+mogeneous distribution of sulfur particles was achieved in
+cathode no. 2, the size and distribution of sulfur particles are
+highly dependent on experimental parameters, e.g., pH, reac-
+tion time, and stirring speed. Chen et al. [23] showed the effect
+of reaction time and pH on sulfur particle size in rGO/S com-
+posites. On cathode no. 3, where the graphene oxide was
+Fig. 6 TEM images of graphene-sulfur composites; a Cathode no. 1, b cathode no. 2, and c cathode no. 3. Scale bar is 200 nm
+Fig. 5 FESEM images of the synthesized cathodes; a cathode no. 1, b cathode no. 2, and c cathode no. 3. Scale bar is 500 nm
+2283
+J Solid State Electrochem (2020) 24:2279–2288
+
+=== 第 6 页 ===
+reduced by EDA, rGO with wrinkled morphology without any
+crystalline sulfur particles was obtained as shown in Fig. 3c.
+The lack of any well-defined crystalline sulfur peaks is due to
+the confinement of sulfur within the pores of rGO [31, 34].
+Figure 6 displays the TEM images of the synthesized cath-
+odes. In Fig. 6a, cathode no. 1 shows the graphene-sulfur
+composite where relatively large irregular shaped sulfur nano-
+particles were embedded into the graphene matrix. However,
+in Fig. 6b, on cathode no. 2, sulfur particles are smaller and
+homogeneously distributed, compared with the sulfur parti-
+cles existing in cathode no. 1. For cathode no. 3, sulfur parti-
+cles have the smallest size among all cathodes and well-
+distributed in the graphene matrix.
+Thermogravimetric analysis was carried out to calculate the
+sulfur load in rGO/S composites where the results were given
+in Fig. 7. Abrupt weight loss between the 150 and 320 °C
+range was attributed to the sublimation of sulfur in the com-
+posite. The amount of sulfur in the rGO/S composites was
+found to be 67.6%, 67.8%, and 65.1% for cathode no. 1,
+cathode no. 2, and cathode no. 3 respectively and the overall
+sulfur content in the quaternary cathode composites was cal-
+culated as 30.4%, 30.5%, and 29.3% respectively. Keeping in
+mind that active material load profoundly affects the perfor-
+mance of the cell, we have designated cathodes having the
+approximately same amount of sulfur load [35, 36].
+Electrochemical evaluation of cathodes
+Cyclic voltammetry (CV) analysis was carried out to charac-
+terize electrochemical reactions and corresponding voltages in
+which the reactions take place. Figure 8 displays the CV anal-
+ysis of assembled all-solid-state batteries for each cathode. It
+can be observed that each cell driven by the same electro-
+chemical reactions and these reactions are different from typ-
+ical LSBs with organic liquid electrolytes [11, 12]. On the
+cathodic scan, one reduction peak at around 1.75 V was ob-
+served which stands for the reduction of S8 into Li2S where
+the corresponding reaction was observed in anodic scan at
+around 2.4 V which is due to oxidation of Li2S reverse back
+into S8. The overall reaction governing all-solid-state LSBs
+was confirmed as S+2Li++2e-↔Li2S.
+Figure 9 displays the galvanostatic charge-discharge anal-
+ysis of cells utilizing different cathode chemistries along with
+Li7P3S11 and lithium as solid electrolyte and anode respective-
+ly. Cathode no. 1, cathode no. 2, and cathode no. 3 exhibited
+an initial discharge capacity of 930, 1010, and 970 mAh g-1
+and after 200 cycles, cells display discharge capacities of
+543.9, 740, and 795 mAh g-1 respectively.
+Figure 10 displays the cyclic performance of the cells as-
+sembled with different cathodes. After 200 cycles, cathode no.
+1, cathode no. 2, and cathode no. 3 have the capacity fade of
+41.6%, 26.7%, and 18% respectively.
+Fig. 8 Cyclic-voltammetry analysis of assembled all-solid-state batteries with a cathode no. 1, b cathode no. 2, and c cathode no. 3
+Fig. 7 Thermogravimetry analysis of rGO/S cathodes prepared by differ-
+ent synthesis routes
+2284
+J Solid State Electrochem (2020) 24:2279–2288
+
+=== 第 7 页 ===
+Cathodes prepared by solution-based techniques were
+found to having higher discharge capacity and better cycling
+stability which can be attributed to the smaller particulate size
+of active materials and intimate contact between cathode com-
+ponents. Small initial discharge capacity difference between
+cathode no. 2 and cathode no. 3 may be due to the slight active
+material difference in composites as verified by thermal gravi-
+metric analysis. However, on cathode no. 1, in which the
+composite synthesized through the melt-diffusion method,
+the initial capacity is lower despite the higher sulfur load. As
+displayed in Fig. 11a, large sulfur particles in the composite
+were precipitated if the reaction time extended into 10 min
+(instead of 2 min) in the synthesis of cathode no. 2 as in the
+case of cathode no. 1. As illustrated in Fig. 11b, during dis-
+charge, lithium ions react with sulfur particulates which form
+an insulating Li2S layer on sulfur yields an active material loss
+in cathodes. Hence, materials with smaller particulates allow
+higher capacities due to the increased number of surface atoms
+in active materials.
+Cathode composites prepared by solution-based techniques
+where sulfur-amine chemistry utilized yield higher discharge
+capacities and cycling stability independent of sulfur source
+e.g. elemental sulfur powder or Na2S2O3. Although sulfur
+exists as octatomic (S8) form in natural powder form, it was
+revealed that it resides as polysulfide ions and sulfur radicals
+in amine solutions [37]. In sulfur-amine chemistry where sul-
+fur in elemental powder form, sulfur–ethylenediamine com-
+plex decomposes and sulfur attaches onto graphene due to
+strong affinity between sulfur and graphene. On cathode no.
+3, graphene oxide initially functionalized through EDA moi-
+eties which were then reduced into graphene through the re-
+moval of oxygen functional groups in graphene oxide at mod-
+erately high temperatures. The amine groups with high reac-
+tivity strongly bind polar lithium sulfide with non-polar
+graphene surface which promotes the contact between rGO-
+Li2S during discharge. In fact, strong interaction between Li2S
+and functionalized rGO was verified by density-functional
+theory-based calculations [24]. Such interaction between the
+rGO and sulfur not only enhances electronic conductivity in
+cathode but also suppresses the volumetric change of sulfur
+during charge and discharge. Sulfur is loaded into this cathode
+through the disproportionation reaction of Na2S2O3 with HCl
+as a reducing agent. Although cathode no. 2 and cathode no. 3
+serve the same reaction chemistry, kinetics of sulfur-amine
+chemistry with elemental sulfur is hard to control due to the
+rapid crystallization of sulfur on graphene. Precise control
+over reaction time is required to control sulfur crystallite size
+which may inhibit to scale-up the production for cathode no.
+2. However, on cathode no. 3, reaction kinetics can be well-
+controlled which offers feasible paths to produce such cath-
+odes in large amounts.
+Electrochemical impedance spectroscopy (EIS) measure-
+ments were conducted in the cells before and after the cycling
+tests as given in Fig. 12. The Nyquist plots reveal an incom-
+plete semicircle in the high-frequency region due to lower
+resistance with a capacitive linear spike at low frequencies
+due to which is common in all-solid-state batteries with
+sulfur-based solid electrolytes where the total impedance of
+the cell was calculated from the intercept of linear spike and
+real part of the impedance plot [22, 38–41]. Our results indi-
+cate that the cell assembled with the cathode no. 3 yields the
+lowest total impedance and the trend in the impedance spec-
+trum of each cathode is in line with the electrochemical per-
+formance of the cathodes.
+Fig. 9 Galvanostatic charge-discharge analysis of assembled all-solid-state batteries with a cathode no. 1, b cathode no. 2, and c cathode no. 3
+Fig. 10 Capacity decays of cells with different cathodes upon cycling
+2285
+J Solid State Electrochem (2020) 24:2279–2288
+
+=== 第 8 页 ===
+Conclusions
+All-solid-sate lithium-sulfur batteries were assembled with
+three different graphene-sulfur composite cathodes each syn-
+thesized through different routes and Li7P3S11 utilized as a
+solid electrolyte. Cathodes prepared by solution-based sul-
+fur-amine chemistry method were found to surpass the elec-
+trochemical performance of cathode produced by melt-
+diffusion in terms of capacity and cycling stability. Among
+the cathodes prepared by sulfur-amine chemistry, better per-
+formance was obtained in the cathode where sulfur was re-
+duced from Na2S2O3 instead of utilizing an elemental sulfur
+powder. Better electrochemical performance was attributed to
+the slower reaction kinetics in the reduction process which
+inhibits the crystallization and grain growth of the sulfur par-
+ticulates in the composite cathode. Besides, coarse sulfur par-
+ticles with highly crystalline nature were obtained in case
+elemental sulfur powder was utilized in the cathode synthesis.
+Our results put forward a strong correlation between the active
+material size in cathode and the cycle stability of the
+ASSLSBs, where the capacity loss was obtained as 18%,
+26.7%, and 41.6% with increasing sulfur size in the cathode.
+Our results indicate that the performance of all-solid-state
+LSBs is highly dependent on the particle size of sulfur in the
+cathode and the solution-based techniques yield finer active
+materials in cathodes which promotes the electrochemical per-
+formance of cathodes.
+Funding information This work was supported by the Research Fund of
+the Sakarya University under project no: 2019-8-28-31.
+References
+1.
+Jin Q, Li L, Wang H, Gao H, Zhu CC, Zhang XT (2019) Dual
+effects of the carbon fibers/Ti3C2Tx interlayer on retarding shuttle
+of polysulfides for stable lithium-sulfur batteries. Electrochim Acta
+312:149–156. https://doi.org/10.1016/j.electacta.2019.04.182
+2.
+Zheng D, Wang G, Liu D, Harris JB, Ding T, Si J, Qu D, Yang XQ,
+Qu D (2018) Systematic and rapid screening for the redox shuttle
+inhibitors in lithium-sulfur batteries. Electrochim Acta 282:687–
+693. https://doi.org/10.1016/j.electacta.2018.06.117
+3.
+Kim HS, Jeong C-S, Kim Y-T (2012) Shuttle inhibitor effect of
+lithium perchlorate as an electrolyte salt for lithium–sulfur batteries.
+J Appl Electrochem 42(2):75–79. https://doi.org/10.1007/s10800-
+011-0373-1
+4.
+Ren W, Ma W, Zhang S, Tang B (2019) Recent advances in shuttle
+effect inhibition for lithium sulfur batteries. Energy Storage Mater
+23:707–732. https://doi.org/10.1016/j.ensm.2019.02.022
+5.
+Xu N, Qian T, Liu X, Liu J, Chen Y, Yan C (2017) Greatly sup-
+pressed shuttle effect for improved lithium sulfur battery perfor-
+mance through short chain intermediates. Nano Lett 17(1):538–
+543. https://doi.org/10.1021/acs.nanolett.6b04610
+6.
+Waluś S, Offer G, Hunt I, Patel Y, Stockley T, Williams J,
+Purkayastha R (2018) Volumetric expansion of lithium-sulfur cell
+during operation – fundamental insight into applicable characteris-
+tics. Energy Storage Mater 10:233–245. https://doi.org/10.1016/j.
+ensm.2017.05.017
+7.
+Zhang Y, Luo Y, Fincher C, McProuty S, Swenson G, Banerjee S,
+Pharr M (2019) In-situ measurements of stress evolution in com-
+posite sulfur cathodes. Energy Storage Mater 16:491–497. https://
+doi.org/10.1016/j.ensm.2018.10.001
+8.
+Zhang P, Zhu J, Wang M, Imanishi N, Yamamoto O (2018)
+Lithium dendrite suppression and cycling efficiency of lithium an-
+ode. Electrochem Commun 87:27–30. https://doi.org/10.1016/j.
+elecom.2017.12.012
+Fig. 11 a FESEM image of rGO/S composite prepared by the route of cathode no. 2 with prolonged reaction time (10 min), precipitated large sulfur
+particles were shown by arrows. b Schematic illustration of active material loss in cathodes with coarse grains
+Fig. 12 Impedance analysis of the synthesized cathodes before and after
+the galvanostatic charge-discharge
+2286
+J Solid State Electrochem (2020) 24:2279–2288
+
+=== 第 9 页 ===
+9.
+Takeda Y, Yamamoto O, Imanishi N (2016) Lithium dendrite for-
+mation on a lithium metal anode from liquid, polymer and solid
+electrolytes. Electrochemistry 84(4):210–218. https://doi.org/10.
+5796/electrochemistry.84.210
+10.
+Xu X, Wang S, Wang H, Xu B, Hu C, Jin Y, Liu JB, Yan H (2017)
+The suppression of lithium dendrite growth in lithium sulfur batte-
+ries: a review. J Energy Storage 13:387–400. https://doi.org/10.
+1016/j.est.2017.07.031
+11.
+Zhang X, Xie H, Kim C-S, Zaghib K, Mauger A, Julien CM (2017)
+Advances in lithium—sulfur batteries. Mater Sci Eng R Rep 121:1–
+29. https://doi.org/10.1016/j.mser.2017.09.001
+12.
+Manthiram A, Fu Y, Chung S-H, Zu C, Su YS (2014) Rechargeable
+lithium–sulfur batteries. Chem Rev 114(23):11751–11787. https://
+doi.org/10.1021/cr500062v
+13.
+Lin Z, Liang C (2015) Lithium–sulfur batteries: from liquid to solid
+cells. J Mater Chem A 3(3):936–958. https://doi.org/10.1039/
+C4TA04727C
+14.
+Yuan J, Zheng X, Jiang L, Yao D, He G, Chen H, Che J (2018)
+CNT-intercalated rGO/sulfur laminated structure for high-rate and
+long-life lithium-sulfur batteries. Mater Lett 219:68–71. https://doi.
+org/10.1016/j.matlet.2018.02.054
+15.
+Zhang Q, Huang N, Huang Z, Cai L, Wu J, Yao X (2020) CNTs@S
+composite as cathode for all-solid-state lithium-sulfur batteries with
+ultralong cycle life. J Energy Chem 40:151–155. https://doi.org/10.
+1016/j.jechem.2019.03.006
+16.
+Qu L, Liu P, Zhang P, Wang T, Yi Y, Yang P, Tian X, Li M, Yang
+B (2019) Carbon-nanotube/sulfur cathode with in-situ assembled
+Si3N4/graphene interlayer for high-rate and long cycling-life lithi-
+um-sulfur batteries. Electrochim Acta 296:155–164. https://doi.org/
+10.1016/j.electacta.2018.11.040
+17.
+Rajkumar P, Diwakar K, Radhika G, Krishnaveni K, Subadevi R,
+Sivakumar M (2019) Effect of silicon dioxide in sulfur/carbon
+black composite as a cathode material for lithium sulfur batteries.
+Vacuum 161:37–48. https://doi.org/10.1016/j.vacuum.2018.12.
+016
+18.
+Sun Z, Xiao M, Wang S, Han D, Song S, Chen G, Meng Y (2015)
+Specially designed carbon black nanoparticle-sulfur composite
+cathode materials with a novel structure for lithium–sulfur battery
+application. J Power Sources 285:478–484. https://doi.org/10.1016/
+j.jpowsour.2015.03.138
+19.
+Xu R, Xia X, Li S, Zhang SZ, Wang XL, Tu JP (2017) All-solid-
+state lithium–sulfur batteries based on a newly designed Li 7 P 2.9
+Mn 0.1 S 10.7 I 0.3 superionic conductor. J Mater Chem A 5(13):
+6310–6317. https://doi.org/10.1039/C7TA01147D
+20.
+Li H, Sun L, Zhao Y, Tan T, Zhang Y (2019) Blackberry-like
+hollow graphene spheres synthesized by spray drying for high-
+performance lithium-sulfur batteries. Electrochim Acta 295:822–
+828. https://doi.org/10.1016/j.electacta.2018.11.012
+21.
+Kim J, Kang Y, Song S-W, Suk J (2019) Freestanding sulfur-
+graphene oxide/carbon composite paper as a stable cathode for high
+performance lithium-sulfur batteries. Electrochim Acta 299:27–33.
+https://doi.org/10.1016/j.electacta.2018.12.165
+22.
+Xu R, Wu Z, Zhang S, Wang X, Xia Y, Xia X, Huang X, Tu J
+(2017) Construction of all-solid-state batteries based on a sulfur-
+graphene composite and Li 9.54 Si 1.74 P 1.44 S 11.7 Cl 0.3 Solid
+Electrolyte. Chem - A Eur J 23(56):13950–13956. https://doi.org/
+10.1002/chem.201703116
+23.
+Chen H, Wang C, Dong W, Lu W, du Z, Chen L (2015)
+Monodispersed sulfur nanoparticles for lithium–sulfur batteries
+with theoretical performance. Nano Lett 15(1):798–802. https://
+doi.org/10.1021/nl504963e
+24.
+Wang Z, Dong Y, Li H, Zhao Z, Bin Wu H, Hao C, Liu S, Qiu J,
+Lou XW (2014) Enhancing lithium–sulphur battery performance
+by strongly binding the discharge products on amino-
+functionalized reduced graphene oxide. Nat Commun 5(1):5002.
+https://doi.org/10.1038/ncomms6002
+25.
+Wang Z, Xu X, Ji S, Liu Z, Zhang D, Shen J, Liu J (2019) Recent
+progress of flexible sulfur cathode based on carbon host for lithium-
+sulfur batteries. J Mater Sci Technol. https://doi.org/10.1016/j.jmst.
+2019.09.037
+26.
+Rana M, Luo B, Kaiser MR, Gentle I, Knibbe R (2020) The role of
+functional materials to produce high areal capacity lithium sulfur
+battery. J Energy Chem 42:195–209. https://doi.org/10.1016/j.
+jechem.2019.06.015
+27.
+Wu S, Ge R, Lu M, Xu R, Zhang Z (2015) Graphene-based nano-
+materials for lithium–sulfur battery and sodium-ion battery. Nano
+Energy 15:379–405. https://doi.org/10.1016/j.nanoen.2015.04.032
+28.
+Xu Z-L, Kim J-K, Kang K (2018) Carbon nanomaterials for ad-
+vanced lithium sulfur batteries. Nano Today 19:84–107. https://doi.
+org/10.1016/j.nantod.2018.02.006
+29.
+Kızılaslan A, Akbulut H (2019) Assembling all-solid-state lithium-
+sulfur batteries with Li 3 N-protected anodes. Chempluschem
+84(2):183–189. https://doi.org/10.1002/cplu.201800539
+30.
+Konios D, Stylianakis MM, Stratakis E, Kymakis E (2014)
+Dispersion behaviour of graphene oxide and reduced graphene ox-
+ide. J Colloid Interface Sci 430:108–112. https://doi.org/10.1016/j.
+jcis.2014.05.033
+31.
+Vinayan BP, Zhao-Karger Z, Diemant T, Chakravadhanula VSK,
+Schwarzburger NI, Cambaz MA, Behm RJ, Kübel C, Fichtner M
+(2016) Performance study of magnesium–sulfur battery using a
+graphene based sulfur composite cathode electrode and a non-
+nucleophilic Mg electrolyte. Nanoscale 8(6):3296–3306. https://
+doi.org/10.1039/C5NR04383B
+32.
+Tian Z, Li J, Zhu G, Lu J, Wang Y, Shi Z, Xu C (2016) Facile
+synthesis of highly conductive sulfur-doped reduced graphene ox-
+ide sheets. Phys Chem Chem Phys 18(2):1125–1130. https://doi.
+org/10.1039/C5CP05475C
+33.
+Shervedani RK, Amini A (2014) Carbon black/sulfur-doped
+graphene composite prepared by pyrolysis of graphene oxide with
+sodium polysulfide for oxygen reduction reaction. Electrochim
+Acta 142:51–60. https://doi.org/10.1016/j.electacta.2014.07.108
+34.
+Yao X, Huang N, Han F, Zhang Q, Wan H, Mwizerwa JP, Wang C,
+Xu X (2017) High-performance all-solid-state lithium-sulfur batte-
+ries enabled by amorphous sulfur-coated reduced graphene oxide
+cathodes. Adv Energy Mater 7(17):1602923. https://doi.org/10.
+1002/aenm.201602923
+35.
+Leng S, Chen C, Liu J, Wang S, Yang J, Shan S, Gong F, Guo Y,
+Wu M (2019) Optimized sulfur-loading in nitrogen-doped porous
+carbon for high-capacity cathode of lithium–sulfur batteries. Appl
+Surf Sci 487:784–792. https://doi.org/10.1016/j.apsusc.2019.05.
+206
+36.
+Rana M, Ahad SA, Li M, Luo B, Wang L, Gentle I, Knibbe R
+(2019) Review on areal capacities and long-term cycling perfor-
+mances of lithium sulfur battery at high sulfur loading. Energy
+Storage Mater 18:289–310. https://doi.org/10.1016/j.ensm.2018.
+12.024
+37.
+Wang C, Chen H, Dong W, Ge J, Lu W, Wu X, Guo L, Chen L
+(2014) Sulfur–amine chemistry-based synthesis of multi-walled
+carbon nanotube–sulfur composites for high performance Li–S bat-
+teries. Chem Commun 50(10):1202–1204. https://doi.org/10.1039/
+C3CC47223J
+38.
+Calpa M, Rosero-Navarro NC, Miura A, Tadanaga K (2018)
+Preparation of sulfide solid electrolytes in the Li 2 S–P 2 S 5 system
+by a liquid phase process. Inorg Chem Front 5(2):501–508. https://
+doi.org/10.1039/C7QI00737J
+39.
+Inada R, Yasuda S, Tojo M, Tsuritani K, Tojo T, Sakurai Y (2016)
+Development of lithium-stuffed garnet-type oxide solid electrolytes
+with high ionic conductivity for application to all-solid-state batte-
+ries. Front Energy Res 4:4. https://doi.org/10.3389/fenrg.2016.
+00028
+40.
+Wenzel S, Randau S, Leichtweiß T, Weber DA, Sann J, Zeier WG,
+Janek J (2016) Direct observation of the interfacial instability of the
+2287
+J Solid State Electrochem (2020) 24:2279–2288
+
+=== 第 10 页 ===
+fast ionic conductor Li 10 GeP 2 S 12 at the lithium metal anode.
+Chem Mater 28(7):2400–2407. https://doi.org/10.1021/acs.
+chemmater.6b00610
+41.
+Calpa M, Rosero-Navarro NC, Miura A, Tadanaga K (2019)
+Electrochemical performance of bulk-type all-solid-state batteries
+using small-sized Li7P3S11 solid electrolyte prepared by liquid
+phase as the ionic conductor in the composite cathode.
+Electrochim Acta 296:473–480. https://doi.org/10.1016/j.
+electacta.2018.11.035
+Publisher’s note Springer Nature remains neutral with regard to jurisdic-
+tional claims in published maps and institutional affiliations.
+2288
+J Solid State Electrochem (2020) 24:2279–2288

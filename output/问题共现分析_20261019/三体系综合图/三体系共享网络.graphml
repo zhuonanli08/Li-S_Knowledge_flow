@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d18" for="edge" attr.name="固态锂金属达门槛" attr.type="boolean"/>
+<key id="d17" for="edge" attr.name="固态锂金属cosine" attr.type="double"/>
+<key id="d16" for="edge" attr.name="固态锂金属共现篇数" attr.type="long"/>
+<key id="d15" for="edge" attr.name="液态锂硫达门槛" attr.type="boolean"/>
+<key id="d14" for="edge" attr.name="液态锂硫cosine" attr.type="double"/>
+<key id="d13" for="edge" attr.name="液态锂硫共现篇数" attr.type="long"/>
+<key id="d12" for="edge" attr.name="固态锂硫达门槛" attr.type="boolean"/>
+<key id="d11" for="edge" attr.name="固态锂硫cosine" attr.type="double"/>
+<key id="d10" for="edge" attr.name="固态锂硫共现篇数" attr.type="long"/>
+<key id="d9" for="edge" attr.name="体系数" attr.type="long"/>
+<key id="d8" for="edge" attr.name="达门槛体系" attr.type="string"/>
+<key id="d7" for="edge" attr.name="主题B" attr.type="string"/>
+<key id="d6" for="edge" attr.name="主题A" attr.type="string"/>
+<key id="d5" for="node" attr.name="固态锂金属_提及率" attr.type="double"/>
+<key id="d4" for="node" attr.name="液态锂硫_提及率" attr.type="double"/>
+<key id="d3" for="node" attr.name="固态锂硫_提及率" attr.type="double"/>
+<key id="d2" for="node" attr.name="y" attr.type="double"/>
+<key id="d1" for="node" attr.name="x" attr.type="double"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="P01">
+  <data key="d0">离子传输/电导</data>
+  <data key="d1">-0.826</data>
+  <data key="d2">0.35</data>
+  <data key="d3">0.4775086505190311</data>
+  <data key="d4">0.1637182373753618</data>
+  <data key="d5">0.6459016393442623</data>
+</node>
+<node id="P02">
+  <data key="d0">电子传输/电导</data>
+  <data key="d1">0.531</data>
+  <data key="d2">-2.3</data>
+  <data key="d3">0.1453287197231834</data>
+  <data key="d4">0.1264072048890318</data>
+  <data key="d5">0.0426229508196721</data>
+</node>
+<node id="P03">
+  <data key="d0">反应/转化动力学</data>
+  <data key="d1">-1.888</data>
+  <data key="d2">-2.5</data>
+  <data key="d3">0.2249134948096885</data>
+  <data key="d4">0.4721775490511418</data>
+  <data key="d5">0.0237704918032786</data>
+</node>
+<node id="P04">
+  <data key="d0">界面接触/润湿</data>
+  <data key="d1">0.59</data>
+  <data key="d2">2.4</data>
+  <data key="d3">0.1245674740484429</data>
+  <data key="d4">0.0260533933740752</data>
+  <data key="d5">0.1311475409836065</data>
+</node>
+<node id="P05">
+  <data key="d0">界面阻抗/界面传输</data>
+  <data key="d1">-1.534</data>
+  <data key="d2">3.2</data>
+  <data key="d3">0.0519031141868512</data>
+  <data key="d4">0.0238018655516243</data>
+  <data key="d5">0.1090163934426229</data>
+</node>
+<node id="P06">
+  <data key="d0">副反应/界面化学</data>
+  <data key="d1">3.658</data>
+  <data key="d2">0.8</data>
+  <data key="d3">0.1660899653979238</data>
+  <data key="d4">0.0469604374396912</data>
+  <data key="d5">0.35</data>
+</node>
+<node id="P07">
+  <data key="d0">电位稳定性/窗口</data>
+  <data key="d1">3.186</data>
+  <data key="d2">3.0</data>
+  <data key="d3">0.0726643598615917</data>
+  <data key="d4">0.0128658732711482</data>
+  <data key="d5">0.2331967213114754</data>
+</node>
+<node id="P08">
+  <data key="d0">体积变化/应力</data>
+  <data key="d1">-3.776</data>
+  <data key="d2">1.8</data>
+  <data key="d3">0.1141868512110726</data>
+  <data key="d4">0.0733354776455452</data>
+  <data key="d5">0.0549180327868852</data>
+</node>
+<node id="P09">
+  <data key="d0">裂纹/孔洞/结构失效</data>
+  <data key="d1">3.7169999999999996</data>
+  <data key="d2">-2.7</data>
+  <data key="d3">0.0173010380622837</data>
+  <data key="d4">0.016403988420714</data>
+  <data key="d5">0.0590163934426229</data>
+</node>
+<node id="P10">
+  <data key="d0">枝晶/不均匀沉积</data>
+  <data key="d1">1.4749999999999999</data>
+  <data key="d2">-0.55</data>
+  <data key="d3">0.1280276816608996</data>
+  <data key="d4">0.1045352203280797</data>
+  <data key="d5">0.3290983606557377</data>
+</node>
+<node id="P11">
+  <data key="d0">多硫化物溶解/穿梭</data>
+  <data key="d1">-3.54</data>
+  <data key="d2">-0.7</data>
+  <data key="d3">0.1660899653979238</data>
+  <data key="d4">0.5332904470890961</data>
+  <data key="d5">0.0</data>
+</node>
+<node id="P12">
+  <data key="d0">活性物利用/转化程度</data>
+  <data key="d1">-3.54</data>
+  <data key="d2">-3.2</data>
+  <data key="d3">0.1038062283737024</data>
+  <data key="d4">0.093277581215825</data>
+  <data key="d5">0.001639344262295</data>
+</node>
+<edge source="P01" target="P02">
+  <data key="d6">离子传输/电导</data>
+  <data key="d7">电子传输/电导</data>
+  <data key="d8">固态锂硫</data>
+  <data key="d9">1</data>
+  <data key="d10">23</data>
+  <data key="d11">0.3021089890583219</data>
+  <data key="d12">True</data>
+  <data key="d13">76</data>
+  <data key="d14">0.1699254489128546</data>
+  <data key="d15">False</data>
+  <data key="d16">59</data>
+  <data key="d17">0.1457327752448105</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P01" target="P03">
+  <data key="d6">离子传输/电导</data>
+  <data key="d7">反应/转化动力学</data>
+  <data key="d8">固态锂硫 + 液态锂硫</data>
+  <data key="d9">2</data>
+  <data key="d10">35</data>
+  <data key="d11">0.369548822509971</data>
+  <data key="d12">True</data>
+  <data key="d13">272</data>
+  <data key="d14">0.3146639463656617</data>
+  <data key="d15">True</data>
+  <data key="d16">35</data>
+  <data key="d17">0.1157646441141942</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P01" target="P04">
+  <data key="d6">离子传输/电导</data>
+  <data key="d7">界面接触/润湿</data>
+  <data key="d8">固态锂硫 + 固态锂金属</data>
+  <data key="d9">2</data>
+  <data key="d10">18</data>
+  <data key="d11">0.2553769592276246</data>
+  <data key="d12">True</data>
+  <data key="d13">33</data>
+  <data key="d14">0.1625221426319099</data>
+  <data key="d15">False</data>
+  <data key="d16">191</data>
+  <data key="d17">0.2689554019697893</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P01" target="P05">
+  <data key="d6">离子传输/电导</data>
+  <data key="d7">界面阻抗/界面传输</data>
+  <data key="d8">固态锂金属</data>
+  <data key="d9">1</data>
+  <data key="d10">9</data>
+  <data key="d11">0.1978141420187361</data>
+  <data key="d12">False</data>
+  <data key="d13">24</data>
+  <data key="d14">0.1236620639424812</data>
+  <data key="d15">False</data>
+  <data key="d16">167</data>
+  <data key="d17">0.2579274391599466</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P01" target="P06">
+  <data key="d6">离子传输/电导</data>
+  <data key="d7">副反应/界面化学</data>
+  <data key="d8">固态锂硫 + 固态锂金属</data>
+  <data key="d9">2</data>
+  <data key="d10">36</data>
+  <data key="d11">0.4423258684646914</data>
+  <data key="d12">True</data>
+  <data key="d13">43</data>
+  <data key="d14">0.1577368401171554</data>
+  <data key="d15">False</data>
+  <data key="d16">665</data>
+  <data key="d17">0.5732111153618734</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P01" target="P07">
+  <data key="d6">离子传输/电导</data>
+  <data key="d7">电位稳定性/窗口</data>
+  <data key="d8">固态锂硫 + 固态锂金属</data>
+  <data key="d9">2</data>
+  <data key="d10">18</data>
+  <data key="d11">0.3343669275452117</data>
+  <data key="d12">True</data>
+  <data key="d13">15</data>
+  <data key="d14">0.1051241197351884</data>
+  <data key="d15">False</data>
+  <data key="d16">516</data>
+  <data key="d17">0.5448983111409573</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P01" target="P10">
+  <data key="d6">离子传输/电导</data>
+  <data key="d7">枝晶/不均匀沉积</data>
+  <data key="d8">固态锂硫 + 固态锂金属</data>
+  <data key="d9">2</data>
+  <data key="d10">28</data>
+  <data key="d11">0.391847992462668</data>
+  <data key="d12">True</data>
+  <data key="d13">84</data>
+  <data key="d14">0.2065278930094001</data>
+  <data key="d15">False</data>
+  <data key="d16">508</data>
+  <data key="d17">0.4515728606051514</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P01" target="P11">
+  <data key="d6">离子传输/电导</data>
+  <data key="d7">多硫化物溶解/穿梭</data>
+  <data key="d8">固态锂硫 + 液态锂硫</data>
+  <data key="d9">2</data>
+  <data key="d10">29</data>
+  <data key="d11">0.3563180607076681</data>
+  <data key="d12">True</data>
+  <data key="d13">320</data>
+  <data key="d14">0.348336371831161</data>
+  <data key="d15">True</data>
+  <data key="d16">0</data>
+  <data key="d17">0.0</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P02" target="P03">
+  <data key="d6">电子传输/电导</data>
+  <data key="d7">反应/转化动力学</data>
+  <data key="d8">固态锂硫 + 液态锂硫</data>
+  <data key="d9">2</data>
+  <data key="d10">16</data>
+  <data key="d11">0.3062236009403811</data>
+  <data key="d12">True</data>
+  <data key="d13">221</data>
+  <data key="d14">0.2909597873954006</data>
+  <data key="d15">True</data>
+  <data key="d16">3</data>
+  <data key="d17">0.0386269651968453</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P02" target="P04">
+  <data key="d6">电子传输/电导</data>
+  <data key="d7">界面接触/润湿</data>
+  <data key="d8">固态锂硫</data>
+  <data key="d9">1</data>
+  <data key="d10">11</data>
+  <data key="d11">0.2828894749305018</data>
+  <data key="d12">True</data>
+  <data key="d13">12</data>
+  <data key="d14">0.0672577696407091</data>
+  <data key="d15">False</data>
+  <data key="d16">20</data>
+  <data key="d17">0.1096322524133786</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P02" target="P11">
+  <data key="d6">电子传输/电导</data>
+  <data key="d7">多硫化物溶解/穿梭</data>
+  <data key="d8">液态锂硫</data>
+  <data key="d9">1</data>
+  <data key="d10">4</data>
+  <data key="d11">0.0890870806374748</data>
+  <data key="d12">False</data>
+  <data key="d13">282</data>
+  <data key="d14">0.3493498571646276</data>
+  <data key="d15">True</data>
+  <data key="d16">0</data>
+  <data key="d17">0.0</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P03" target="P11">
+  <data key="d6">反应/转化动力学</data>
+  <data key="d7">多硫化物溶解/穿梭</data>
+  <data key="d8">固态锂硫 + 液态锂硫</data>
+  <data key="d9">2</data>
+  <data key="d10">15</data>
+  <data key="d11">0.2685430777647873</data>
+  <data key="d12">True</data>
+  <data key="d13">990</data>
+  <data key="d14">0.6345705365403161</data>
+  <data key="d15">True</data>
+  <data key="d16">0</data>
+  <data key="d17">0.0</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P03" target="P12">
+  <data key="d6">反应/转化动力学</data>
+  <data key="d7">活性物利用/转化程度</data>
+  <data key="d8">液态锂硫</data>
+  <data key="d9">1</data>
+  <data key="d10">9</data>
+  <data key="d11">0.2038098661460272</data>
+  <data key="d12">False</data>
+  <data key="d13">182</data>
+  <data key="d14">0.2789390781190197</data>
+  <data key="d15">True</data>
+  <data key="d16">0</data>
+  <data key="d17">0.0</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P04" target="P05">
+  <data key="d6">界面接触/润湿</data>
+  <data key="d7">界面阻抗/界面传输</data>
+  <data key="d8">固态锂硫 + 固态锂金属</data>
+  <data key="d9">2</data>
+  <data key="d10">6</data>
+  <data key="d11">0.2581988897471611</data>
+  <data key="d12">True</data>
+  <data key="d13">5</data>
+  <data key="d14">0.064582021524344</data>
+  <data key="d15">False</data>
+  <data key="d16">94</data>
+  <data key="d17">0.3221899920504105</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P04" target="P10">
+  <data key="d6">界面接触/润湿</data>
+  <data key="d7">枝晶/不均匀沉积</data>
+  <data key="d8">固态锂金属</data>
+  <data key="d9">1</data>
+  <data key="d10">8</data>
+  <data key="d11">0.2191986497404764</data>
+  <data key="d12">False</data>
+  <data key="d13">25</data>
+  <data key="d14">0.1540833878403414</data>
+  <data key="d15">False</data>
+  <data key="d16">130</data>
+  <data key="d17">0.2564546573620567</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P06" target="P07">
+  <data key="d6">副反应/界面化学</data>
+  <data key="d7">电位稳定性/窗口</data>
+  <data key="d8">固态锂硫 + 液态锂硫 + 固态锂金属</data>
+  <data key="d9">3</data>
+  <data key="d10">14</data>
+  <data key="d11">0.4409585518440984</data>
+  <data key="d12">True</data>
+  <data key="d13">36</data>
+  <data key="d14">0.4710815303311924</data>
+  <data key="d15">True</data>
+  <data key="d16">412</data>
+  <data key="d17">0.591033567961426</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P06" target="P10">
+  <data key="d6">副反应/界面化学</data>
+  <data key="d7">枝晶/不均匀沉积</data>
+  <data key="d8">固态锂硫 + 固态锂金属</data>
+  <data key="d9">2</data>
+  <data key="d10">11</data>
+  <data key="d11">0.2610184488319372</data>
+  <data key="d12">True</data>
+  <data key="d13">33</data>
+  <data key="d14">0.1514941391056132</data>
+  <data key="d15">False</data>
+  <data key="d16">301</data>
+  <data key="d17">0.3634793875498742</data>
+  <data key="d18">True</data>
+</edge>
+<edge source="P07" target="P10">
+  <data key="d6">电位稳定性/窗口</data>
+  <data key="d7">枝晶/不均匀沉积</data>
+  <data key="d8">固态锂硫</data>
+  <data key="d9">1</data>
+  <data key="d10">7</data>
+  <data key="d11">0.2511236011669613</data>
+  <data key="d12">True</data>
+  <data key="d13">5</data>
+  <data key="d14">0.0438529009653514</data>
+  <data key="d15">False</data>
+  <data key="d16">161</data>
+  <data key="d17">0.2381836631389635</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P08" target="P11">
+  <data key="d6">体积变化/应力</data>
+  <data key="d7">多硫化物溶解/穿梭</data>
+  <data key="d8">液态锂硫</data>
+  <data key="d9">1</data>
+  <data key="d10">5</data>
+  <data key="d11">0.1256297269074015</data>
+  <data key="d12">False</data>
+  <data key="d13">158</data>
+  <data key="d14">0.256978861280181</data>
+  <data key="d15">True</data>
+  <data key="d16">0</data>
+  <data key="d17">0.0</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P10" target="P11">
+  <data key="d6">枝晶/不均匀沉积</data>
+  <data key="d7">多硫化物溶解/穿梭</data>
+  <data key="d8">液态锂硫</data>
+  <data key="d9">1</data>
+  <data key="d10">10</data>
+  <data key="d11">0.2372894989381247</data>
+  <data key="d12">False</data>
+  <data key="d13">202</data>
+  <data key="d14">0.2751803545342103</data>
+  <data key="d15">True</data>
+  <data key="d16">0</data>
+  <data key="d17">0.0</data>
+  <data key="d18">False</data>
+</edge>
+<edge source="P11" target="P12">
+  <data key="d6">多硫化物溶解/穿梭</data>
+  <data key="d7">活性物利用/转化程度</data>
+  <data key="d8">液态锂硫</data>
+  <data key="d9">1</data>
+  <data key="d10">1</data>
+  <data key="d11">0.0263523138347364</data>
+  <data key="d12">False</data>
+  <data key="d13">180</data>
+  <data key="d14">0.2595859860551665</data>
+  <data key="d15">True</data>
+  <data key="d16">0</data>
+  <data key="d17">0.0</data>
+  <data key="d18">False</data>
+</edge>
+</graph></graphml>

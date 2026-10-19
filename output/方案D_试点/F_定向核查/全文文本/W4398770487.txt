@@ -1,0 +1,800 @@
+=== 第 1 页 ===
+Enhanced Cycling Stability of All-Solid-State Lithium−Sulfur Battery
+through Nonconductive Polar Hosts
+Tianwei Jin, Keyue Liang, Jeong-Hoon Yu, Ting Wang, Yihan Li, Tai-De Li, Shyue Ping Ong,
+Jong-Sung Yu,* and Yuan Yang*
+Cite This: Nano Lett. 2024, 24, 6625−6633
+Read Online
+ACCESS
+Metrics & More
+Article Recommendations
+*
+sı
+Supporting Information
+ABSTRACT: All-solid-state lithium−sulfur batteries (ASSLSBs)
+are promising next-generation battery technologies with a high
+energy density and excellent safety. Because of the insulating nature
+of sulfur/Li2S, conventional cathode designs focus on developing
+porous hosts with high electronic conductivities such as porous
+carbon. However, carbon hosts boost the decomposition of sulfide
+electrolytes and suffer from sulfur detachment due to their weak
+bonding with sulfur/Li2S, resulting in capacity decays. Herein, we
+propose a counterintuitive design concept of host materials in
+which nonconductive polar mesoporous hosts can enhance the
+cycling life of ASSLSBs through mitigating the decomposition of
+adjacent electrolytes and bonding sulfur/Li2S steadily to avoid
+detachment. By using a mesoporous SiO2 host filled with 70 wt %
+sulfur as the cathode, we demonstrate steady cycling in ASSLSBs with a capacity reversibility of 95.1% in the initial cycle and a
+discharge capacity of 1446 mAh/g after 500 cycles at C/5 based on the mass of sulfur.
+KEYWORDS: all-solid-state lithium−sulfur batteries, nonconductive hosts, polarity, silica, sulfur detachment
+L
+ithium−sulfur batteries (LSBs) have attracted substantial
+attention as a promising next-generation energy storage
+solution due to the ultrahigh specific capacity, high natural
+abundance, and environment friendliness of sulfur.1−3
+However, the development of LSBs with liquid electrolytes is
+hindered by several key challenges. First, organic solvents in
+LSBs, which are highly flammable, dissolve intermediate
+lithium polysulfides, and the consequent shuttle effect results
+in low Coulombic efficiencies (CE) and short lifespan.4
+Second, the electrically and ionically insulating nature of sulfur
+and Li2S leads to sluggish cathode kinetics.5 Third, the large
+volume change of ∼80% from sulfur to Li2S causes them to
+lose contact with carbon additives and electrolytes, resulting in
+a substantial capacity loss.6,7 Recently, all-solid-state lithium−
+sulfur batteries (ASSLSBs) have attracted increasing attention
+as a potential solution.8,9 By adopting inorganic sulfide solid-
+state electrolytes (SSEs), such as Li6PS5Cl (LPSC) and
+Li10GeP2S12 (LGPS) with high ionic conductivities (10−3−
+10−2 S cm−1) and favorable mechanical properties, the shuttle
+effect can be eliminated together with greatly elevated battery
+safety.10−12
+To enhance the reaction kinetics in LSBs, high-surface-area
+conductive carbon hosts are often used.13,14 Unfortunately,
+sulfide electrolytes in ASSLSBs usually have narrow electro-
+chemical stability windows, and Meng et al. have revealed that
+the oxidation and reduction decomposition of sulfides will be
+accelerated when they are exposed to electronic conduc-
+tors.15−17 Therefore, though nanoporous carbon hosts enhance
+the electron transfer to sulfur, their high electronic
+conductivities could also boost the decomposition of adjacent
+sulfide SSEs into insulating components (Figure 1a), which
+consequently impede the ion transport for the S/Li2S redox.18
+As a result, the cathode kinetics deteriorates over successive
+cycles and cell capacities accordingly diminish.19,20 Alter-
+natively, various nanoporous oxides are nonconductive so that
+they are expected to suppress the decomposition of
+neighboring SSEs and retain the cycling stability, and the
+electronic conduction could be fulfilled by other strategies,
+such as reduced sulfur sizes and proper carbon additives with
+low specific surface areas (Figure 1b).
+The other potential advantage of oxides over carbon as hosts
+for sulfur is their strong bonding with active materials. Carbon
+hosts have weak bonding with sulfur and Li2S due to its
+nonpolarity, and previous works showed the active material
+would detach from the carbon hosts upon volume expansion
+Received:
+March 11, 2024
+Revised:
+May 21, 2024
+Accepted:
+May 22, 2024
+Published: May 24, 2024
+Letter
+pubs.acs.org/NanoLett
+© 2024 American Chemical Society
+6625
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 2 页 ===
+and contraction (Figure 1a), leading to loss in conduction
+pathway and capacity.21−24 In contrast, oxides are found to
+have strong chemisorption toward lithium sulfides out of their
+high polarities, making them good candidates as sulfur hosts or
+separator coatings in the LSBs with liquid electrolytes to
+mitigate the shuttle effect.25−32 Such superior bindings indicate
+that oxide hosts could potentially solve the sulfur detaching
+issue in carbon hosts and allow ASSLSBs to achieve better
+cycling performance.
+Based on these hypotheses, herein, we propose a counter-
+intuitive concept that nonconductive polar hosts can
+substantially enhance the performance of ASSLSBs. As a
+demonstration, we synthesized a platelet ordered mesoporous
+silica (pOMS, Figure 1b) and a platelet ordered mesoporous
+carbon (pOMC, Figure 1a) as model systems for insulating
+oxide hosts and conductive carbon hosts, respectively. The
+platelet-shaped OMS and OMC feature structural advantages
+over conventional rod-like ones, such as much shorter
+mesopore nanochannels for homogeneous sulfur loading and
+shorter pathways for ions and electrons during cycling.33
+The pOMS/S composite with 70 wt % sulfur showed an
+excellent cycling performance, which presented a capacity
+reversibility of 95.1% in the initial cycle and delivered a steady
+discharge capacity of 1446 mAh/g after 500 cycles at C/5 at
+room temperature. In contrast, the pOMC/S composite with
+70 wt % sulfur showed a poor capacity reversibility of 75.7% in
+the initial cycle, probably due to electrolyte decomposition and
+sulfur detachment, with a fast capacity decay from 1430 mAh/
+g in cycle 1 to 649 mAh/g in cycle 50 at C/10 at room
+temperature. Further postcycling characterizations based on
+FIB-EDS mapping and XPS revealed that the insulating SiO2
+host significantly suppresses solid electrolyte decomposition
+and enhances sulfur/host binding. With all of those findings,
+this work unveiled an unexpected strategy to accelerate the
+ASSLSB development to achieve high-energy-density lithium
+batteries.
+To study the effects of nonconductive polar hosts in
+ASSLSBs, pOMC and pOMS particles with similar morphol-
+ogy and pore structures were synthesized via a precipitation
+method based on our previous reports.26,34 Sulfur then
+infiltrated into the open mesopore nanochannels of the hosts
+by sulfur vapor deposition in a weight ratio of 70:30
+(sulfur:host), named as pOMC/S70 and pOMS/S70. As
+scanning electron microscopy (SEM) images showed, pOMC/
+S70 (Figure 2a) and pOMS/S70 (Figure 2e) both have a thin
+hexagonal prism morphology with a thickness of ∼250 nm and
+an edge length of 500−1000 nm. Transmission electron
+microscopy (TEM) images showed the open mesopores
+through the prism thickness of pOMC/S70 (Figure 2b) and
+pOMS/S70 (Figure 2f), and the corresponding high-angle
+annular dark-field scanning transmission electron microscopy
+(HAADF-STEM) element mapping images confirmed the
+uniform sulfur infusion in pOMC/S70 (Figure 2c,d) and
+pOMS/S70 (Figure 2g,h).
+X-ray diffraction (XRD) patterns in Figure 2i further showed
+that pOMC and pOMS were amorphous,35,36 and sulfur was
+amorphous or partially crystalline in pOMC/S70 and pOMS/
+S70. In addition, small-angle XRD results of pOMS (Figure
+S1a) and pOMC (Figure S1b) indicated the presence of a
+strong (100) and two weak (110) and (200) diffraction peaks,
+verifying a 2D hexagonal p6mm pore structure.37 The
+corresponding spacing between pores is ∼9.8 nm in both
+pOMS and pOMC. The diminishment of the (100), (110),
+and (200) peaks after the sulfur infusion denoted that sulfur
+indeed infiltrated into the pores.
+In terms of pore structures, Brunauer−Emmett−Teller
+(BET) analysis (Figure 2j) showed that pOMC and pOMS
+have specific surface areas of 1643 and 864 m2/g, respectively.
+The corresponding pore size distributions centered at 4.2 nm
+for pOMC and 7.3 nm for pOMS, respectively (Figure S2).
+After loading with sulfur, the surface area of pOMC/S70 and
+pOMS/S70 sharply decreased to 45 and 15 m2/g (Figure 2j),
+respectively, with very low pore volumes (Figure S2),
+consistent with XRD confirmation. In addition, the 70 wt %
+sulfur loading was confirmed by thermogravimetric analysis
+(TGA) in Figure S3, a high value that is needed to increase the
+energy density of ASSLSBs.
+Though pOMS/S70 and pOMC/S70 present similar
+physical properties, they behave chemically distinctly in
+terms of the sulfur interaction, as revealed by X-ray
+photoelectron spectroscopy (XPS). pOMC/S70 displayed
+almost the identical S 2p spectrum as elemental sulfur,
+deconvoluted into a spin−orbit doublet (S 2p1/2 at 164.9 eV
+and 2p3/2 at 163.7 eV) with an intensity ratio of 1:2 (Figure
+2k), indicating no or weak interaction between sulfur and the
+carbon host.38 In contrast, the S 2p spectrum of pOMS/S70 in
+Figure 2l was remarkedly different, and the new peaks at 163.2
+and 164.4 eV were identified to be Si−S bond,39,40 and such
+interaction with sulfur was also observed in other polysulfide
+trapping hosts.41,42
+To elucidate the interfacial interactions between sulfur/Li2S
+and the host, density functional theory (DFT) calculations
+were performed. In Figure 2m, the calculated adhesion energy
+for the C−Li2S interface is −0.25 J/m2 with a negligible
+interaction tendency observed at the interface. Conversely, the
+adhesion energy for the SiO2−Li2S interface is −0.93 J/m2
+with Si−S and Li−O distances of 0.22 and 0.20 nm,
+Figure 1. Schematics of cathodes in ASSLSBs with (a) a carbon host
+(platelet ordered mesoporous carbon, pOMC) and (b) a non-
+conductive polar host (platelet ordered mesoporous silica, pOMS),
+respectively. The highly conductive carbon host promotes the
+decomposition of adjacent electrolytes, and sulfur filled in the carbon
+host suffers from the detachment issue during cycling.21 In contrast,
+the polar silica host bonds strongly to the active materials, and its low
+electronic conductivity accordingly suppresses the electrolyte
+decomposition.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+6626
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 3 页 ===
+respectively, indicating strong interaction and even bond
+formation. The distinct adhesion energies are in consistent
+with prior reports that Li2S bonds weakly with carbon but
+strongly with silica, thereby implying the potential of silica
+hosts to mitigate sulfur detachment issues observed with
+carbon hosts.22,25,26,43
+Regarding interactions with sulfur (Figure S4), the adhesion
+energy for the C−S interface is determined to be 9.15 J/m2.
+This positive and high value indicates a significant challenge
+for sulfur wetting on the carbon surface. On the other hand,
+the adhesion energy for the SiO2−S interface is only 0.50 J/m2.
+Although it remains positive, the significantly lower value
+suggests that sulfur exhibits a much stronger affinity for SiO2
+than for carbon. These DFT calculations suggest that silica
+hosts are capable of better fixing sulfur and Li2S spatially to
+facilitate their robust contacts with SSEs and carbon additives
+during volume changes, thus enhancing the sulfur utilization
+and cycling stability of ASSLSBs relative to carbon hosts.
+The discrepancy between the positive adhesion energy value
+for the SiO2−S contact in the DFT calculation and the XPS
+result, indicating a strong Si−S bond, may be attributed to the
+presence of defects, such as oxygen vacancies, in silica. These
+defects in practical scenarios, particularly on the surface, could
+facilitate the formation of Si−S bonds. However, in DFT
+calculations, interfaces are typically modeled between perfect
+materials at 0 K without any vacancies, which does not favor
+bond formation and can account for the positive adhesion
+energy value.
+To illustrate the impact of polarity and nonconductivity of
+sulfur hosts on the electrochemical performances in ASSLSBs,
+40 wt % pOMS/S70 and pOMC/S70 were respectively mixed
+with 40 wt % LPSC and 20 wt % carbon additives (8 wt % C65
+carbon black, 8 wt % vapor-grown carbon fiber, and 4 wt %
+carbon nanotube) to build cathodes. The integration of such
+three carbon additives provided a sufficient electronic
+conduction network with a limited surface area to reduce
+electrolyte decomposition.15 The cathode was then paired with
+an LPSC electrolyte and an Li−In anode and cycled within
+1.2−3.0 V vs Li/Li+. The corresponding cycling performance is
+displayed in Figure 3a, and the voltage profiles are shown in
+Figure 3b,c. Although pOMC/S70 exhibited a high specific
+capacity of 1430 mAh/g in the initial discharge at C/10 with
+1C defined as 1000 mA/g for all cells, only 1082 mAh/g
+(75.7%) was recovered in the subsequent charge (Figure 3b).
+Figure 2. Physical and chemical properties of pOMS and pOMC hosts. (a−d) pOMC/S70: (a) SEM image, (b) TEM image, and (c, d)
+corresponding HAAD-STEM element mapping of (c) C and (d) S. (e−h) pOMS/S70: (e) SEM image, (f) TEM image, (g, h) corresponding
+HAAD-STEM element mapping of (g) Si and (h) S. (i) XRD patterns of elemental sulfur, pOMC, pOMC/S70, pOMS, and pOMS/S70. (j)
+Nitrogen adsorption/desorption isothermal profiles of pOMC, pOMC/S70, pOMS, and pOMS/S70. (k, l) Deconvoluted high-resolution S 2p XPS
+spectra of (k) pOMC/S70 and (l) pOMS/S70 with elemental sulfur as the reference. (m) DFT calculation of the interface structures of SiO2−Li2S
+and C−Li2S.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+6627
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 4 页 ===
+Such a low reversibility could be caused by the electrolyte
+decomposition and sulfur detachment from the nonpolar
+carbon host, leading to a low sulfur utilization in the following
+cycles.21
+In contrast, pOMS/S70 delivered a specific capacity of 1087
+mAh/g in the initial discharge, and 1034 mAh/g was recovered
+in the subsequent charge (Figure 3c), corresponding to a
+reversibility of 95.1%. Such a high specific capacity also
+indicates that a conductive host is not the only option for
+ASSLSBs, and reasonable electronic transport can be achieved
+by a proper amount of carbon additives and reduced sulfur
+nanoparticle sizes to shorten the conducting pathway. As
+pOMS/S70 shares analogous morphological properties with
+pOMC/S70, the substantial enhancement in initial reversibility
+should not arise from morphological difference but could be
+attributed to the suppressed electrolyte decomposition and
+robust bonding of polar silica with sulfur/Li2S, ensuring well-
+preserved electronic and ionic conduction of sulfur.
+In addition to the improved reversibility in the first cycle,
+pOMS/S70 also demonstrated significantly enhanced long-
+term cycling performance compared to that of pOMC/S70.
+pOMS/S70 exhibited a distinct activation stage where the
+specific capacity substantially increased from 1087 mAh/g in
+the first cycle to 1318 mAh/g in the 40th cycle and to 1446
+mAh/g in the 500th cycle at C/5, whose cycling stability is
+among the best results in reported ASSLSB works (Table S2).
+In contrast, the specific capacity of pOMC/S70 rapidly
+decreased from 1430 to 649 mAh/g after 50 cycles at C/10.
+Moreover, sulfur cathodes without nanoporous hosts showed
+markedly reduced specific capacities of less than 300 mAh/g
+(Figure S5), which arises from compromised kinetics and
+sulfur utilization due to a smaller contact area with LPSC/
+carbon and a longer transport pathway.20
+We think that the gradual capacity increase in pOMS/S70
+arose from the increasing contacts between S/Li2S and carbon
+additives/SSEs during volume expansion and contraction in
+cycling. Similar behaviors have also been reported in other
+works on ASSLSBs.44,45 Moreover, the insulating nature of
+SiO2 also minimized the decomposition of sulfide electrolytes,
+and the strong bonding between S/Li2S and SiO2 anchored the
+active materials to avoid detachment from the hosts and the
+loss of conducting contact. On the contrary, the sulfur
+Figure 3. Electrochemical performance of all-solid-state Li−S batteries with a carbon host and a silica host, respectively. (a) Cycling performance of
+Li−In|LPSC|pOMS/S70 and Li−In|LPSC|pOMC/S70 cells with a mass loading of 1 mg/cm2 sulfur and (b, c) their corresponding voltage profiles
+for (b) pOMC/S70 and (c) pOMS/S70. (d) Rate performance of a Li−In|LPSC|pOMS/S70 cell after 150 cycles (see Figure S6 for the full cycling
+performance). (e) Cycling performance of a Li−In|LPSC|pOMS/S70 cell with a higher mass loading of 1.7 mg/cm2 sulfur. All cells underwent an
+initial cycle at C/20, followed by subsequent cycles at C/10 or C/5 with a constant-voltage step with a current cutoff of C/20. 1C is defined as
+1000 mA/g for all cells based on the average specific capacity in the first cycle. All of the cells were cycled at room temperature.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+6628
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 5 页 ===
+utilization in the carbon host would deteriorate at each cycle
+due to the decomposition of electrolyte and detachment from
+carbon, resulting in capacity decay.
+Besides the steady long-term cycling performance, pOMS/
+S70 also exhibited satisfying rate performance at current rates
+from C/10 to 1 C (Figure 3d). pOMS/S70 exhibited an
+average discharge capacity of 1356 mAh/g at C/5, 1228 mAh/
+g at C/2, 1011 mAh/g at 1 C. The capacities recovered to
+1431 mAh/g at C/10 and 1375 mAh/g at C/5, highlighting its
+outstanding rate performance and stability (see Figure S6 for
+the full cycling performance). It further validates that the
+electronic conduction can be satisfied in an insulating host
+with reduced sulfur sizes and a limited amount of carbon
+additives.
+Based on all benefits of silica hosts shown above, we further
+demonstrated a long cycle life with a higher loading of 1.7 mg/
+cm2 sulfur. As shown in Figure 3e, the cathode delivered a
+specific capacity of 978 mAh/g in the first cycle, which
+increased to 1467 mAh/g after 40 cycles and was maintained at
+1317 mAh/g after 300 cycles with an average CE of 100.3%.
+To demonstrate the reproducibility of our proposed design,
+more Li−In|LPSC|pOMS/S70 cells with similar cycling
+performance are shown in Figure S7. Cycling performance of
+a cathode with a higher sulfur content of 35 wt % is also
+demonstrated (Figure S8), illustrating that the cycling is still
+stable with higher sulfur contents thanks to the nonconductive
+polar host. All cycling results above show that nonconductive
+polar sulfur hosts can enable the excellent performance of
+ASSLSBs.
+It is worth mentioning that though nonconductive polar
+hosts could allow a better cycling life via suppressing SSE
+decomposition and sulfur detachment, the cathode kinetics
+was inferior to those with a conductive carbon host, as the
+voltage hysteresis of pOMS/S70 was larger than pOMC/S70
+(0.59 V vs 0.36 V in the initial cycle, Figure 3b,c). It suggests
+that the host conductivity should be carefully designed to be
+moderate to simultaneously meet the criteria of both power
+capability and cycling life of ASSLSBs, which may also allow
+higher sulfur contents for high energy densities.
+To elucidate the origin of the distinct electrochemical
+performance of pOMS/S70 and pOMC/S70 cathodes, SEM
+and energy dispersive spectroscopy (EDS) were employed to
+analyze their morphological and chemical changes after cycling.
+As shown in Figure 4a, numerous micrometer-sized agglom-
+erates appeared in the pOMC/S70 cathode after 10 cycles,
+which was also reported in other ASSLSB studies.46 Further
+EDS mapping elucidated that P signals overlapped well with S
+but complementary to Cl, whose signals concentrated in the
+agglomerate areas (Figure 4c). Such a separation of Cl from P
+and S agreed well with the previous studies that LPSC
+decomposes into LiCl, P2S5, Li2S, P during cycling, indicating a
+severe LPSC decomposition in the pOMC/S70 cathode after
+10 cycles.17 The fine structure of the agglomerates was further
+revealed by focused ion beam (FIB) milling. As shown in
+Figure 4. Morphological and chemical evolution of pOMS/S70 and pOMC/S70 cathodes. (a) SEM images of the pOMC/S70 cathode before and
+after 10 cycles. (b) SEM images of the pOMS/S70 cathode before and after 10 cycles. (c) SEM image of the pOMC/S70 cathode after 10 cycles
+and the corresponding EDS elemental mapping of Cl, S, and P. (d) FIB-SEM image of the pOMC/S70 cathode after 10 cycles and the
+corresponding EDS elemental mapping of Cl, S, and P. (e) SEM image of the pOMS/S70 cathode after 10 cycles and the corresponding EDS
+elemental mapping of Cl, S, and P. All cathodes after cycling were retrieved from all-solid-state cells at 3 V vs Li/Li+ with a mass loading of 1 mg/
+cm2 sulfur, cycled at C/20 for the first cycle and at C/10 for the following nine cycles at room temperature.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+6629
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 6 页 ===
+Figure 4d, the agglomerates had a shell structure with the EDS
+mapping of P overlapping with S but complementary to Cl,
+and scattered ∼1 μm Cl-rich domains were observed. Such
+results suggested that the LPSC decomposition, which would
+expand in volume, in the pOMC/S70 cathode might cause
+chemical redistribution, and the electronic and ionic
+conduction pathways of sulfur could be blocked when
+pOMC/S70 particles were surrounded by the insulating LiCl
+and P2S5.16,47
+In contrast, LPSC decomposition was well alleviated in the
+pOMS/S70 cathode. As shown in Figure 4b, the morphology
+of the pOMS/S70 cathode remained intact after 10 cycles, and
+the corresponding EDS elemental mapping in Figure 4e also
+showed a uniform distribution of Cl, P, and S without
+separation, indicating that the LPSC remained essentially
+intact. The stable chemical distribution in the cathode ensured
+robust electronic and ionic conduction in the cathode and
+excellent electrochemical performance.
+X-ray photoelectron spectroscopy (XPS) was further
+employed to elucidate chemical changes of cathodes in
+ASSLSBs. Figure 5a−c shows the XPS spectra of S, P, and
+Cl in pOMC/S70 cathodes before cycling and after 10 cycles.
+The S 2p spectrum of the pristine pOMC/S70 cathode had
+peaks at 161.8 and 163.70 eV with their spin−orbit doublets (S
+2p1/2 and 2p3/2), corresponding to the PS4
+3+ in LPSC
+electrolyte and elemental sulfur, respectively (Figure 5a).38,48
+However, a strong new peak at 160.1 eV with its spin−orbit
+doublet from Li2S and appreciable new peaks at 162.70 and
+163.50 with their spin−orbit doublets from P2S5 appeared at
+the charged state after 10 cycles,48,49 which were from the
+irreversible lithiation of sulfur during cycles and LPSC
+decomposition.21 The P 2p spectrum of the pristine pOMC/
+S70 cathode had a peak at 131.70 eV with its spin−orbit
+doublet from the PS4
+3+ in LPSC and very weak elemental P
+peak at 130.0 eV which came from the electrolyte impurity
+(Figure 5b). After 10 cycles, significant peaks at 132.40 eV
+from P2S5 and 130.0 eV from P with their spin−orbit doublets
+were observed, which were the LPSC decomposition
+products.15,48 The Cl 2p spectrum had no change after 10
+cycles because the Cl bonding energy in LPSC and LiCl were
+the same (Figure 5c).50
+On the contrary, the LPSC degradation in pOMS/S70
+cathodes after 10 cycles was significantly suppressed. As shown
+in Figure 5d, the S 2p spectrum of the pOMS/S70 cathode
+remained basically the same as the pristine state expect for a
+small peak of Li2S that might come from the irreversible
+lithiation of the sulfur during cycling. The P 2p spectrum in
+Figure 5e also showed that the only decomposition product
+was a small amount of elemental P at a much lower level than
+that of the pOMC/S70 cathode after cycling. The Cl 2p
+spectrum also remained the same as shown in Figure 5f.
+Besides after 10 cycles, we further studied the XPS spectra of
+the pOMS/S70 cathode after 300 cycles (Figure S9), which
+showed that the electrolyte decomposition catalyzed by the
+carbon additives is substantially slower and less than the
+decomposition catalyzed by pOMC/S70. This indicates that an
+appreciable amount of the electrolyte decomposition in the
+pOMC/S70 cathode is caused by the carbon mesoporous
+hosts and thus is adjacent to S/Li2S, which will severely block
+the conduction pathway of Li+ and e−to S/Li2S and lead to
+capacity decay. In contrast, decomposition from carbon
+additives (e.g., VGCF) is less and has a smaller impact on
+the conduction pathways. In summary, the XPS results above
+illustrated that the electrolyte decomposition was successfully
+restrained by using a nonconductive SiO2 host compared to
+carbon hosts.
+In conclusion, we innovatively proposed a new design
+concept for the sulfur hosts in ASSLSBs that low conductivities
+Figure 5. Deconvoluted high-resolution XPS spectra of the pOMS/S70 and pOMC/S70 cathodes. (a) S 2p, (b) P 2p, and (c) Cl 2p XPS spectra of
+the pOMC/S70 cathodes before and after 10 cycles. (d) S 2p, (e) P 2p, and (f) Cl 2p XPS spectra of the pOMS/S70 cathodes before and after 10
+cycles. All cathodes after cycling were retrieved from all-solid-state cells at 3 V vs Li/Li+ with a mass loading of 1 mg/cm2 sulfur, cycled at C/20 for
+the first cycle and at C/10 for the following nine cycles at room temperature.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+6630
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 7 页 ===
+could suppress the adjacent electrolyte decomposition and
+high polarities could mitigate the sulfur detachment issue,
+thereby enhancing the cycling performance of ASSLSBs. The
+adequate electronic conduction of sulfur can be realized with
+reduced sulfur nanoparticle sizes and proper choices of carbon
+additives rather than merely replying on conductive hosts.
+Accordingly, a silica host for sulfur which has strong bonding
+with sulfur and Li2S was demonstrated. The SiO2/S composite
+delivered a discharge capacity of 1087 mAh/g in cycle 1, 95.1%
+of which was reversible in the following charging and 1446
+mAh/g after 500 cycles at C/5. In contrast, C/S composite
+delivered a discharge specific capacity of 1430 mAh/g in cycle
+1, 75.7% of which was reversible in the following charging, and
+only 649 mAh/g after 50 cycles at C/10. The excellent
+performance of the SiO2/S composite is attributed to reduced
+electrolyte decomposition and better attachment between SiO2
+and active materials, which are confirmed by FIB-SEM-EDS
+and XPS analysis. This study unveils that nonconductive polar
+hosts could be attractive for ASSLSBs because of the mitigated
+electrolyte decomposition, stabilized cycling, and satisfying
+power density.
+■ASSOCIATED CONTENT
+*
+sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.nanolett.4c01210.
+Experimental section, additional figures of material
+characterizations, DFT calculations, and cycling per-
+formance (Figures S1−S9), and tables of DFT
+information and cycling performance comparison with
+literature (Tables S1 and S2) (PDF)
+■AUTHOR INFORMATION
+Corresponding Authors
+Jong-Sung Yu −Department of Energy Science and
+Engineering, Daegu Gyeongbuk Institute of Science and
+Technology, Daegu 42988, Republic of Korea; Energy Science
+and Engineering Research Center, Daegu Gyeongbuk Institute
+of Science and Technology, Daegu 42988, Republic of Korea;
+orcid.org/0000-0002-8805-012X; Email: jsyu@
+dgist.ac.kr
+Yuan Yang −Program of Materials Science and Engineering,
+Department of Applied Physics and Applied Mathematics,
+Columbia University, New York, New York 10027, United
+States;
+orcid.org/0000-0003-0264-2640;
+Email: yy2664@columbia.edu
+Authors
+Tianwei Jin −Program of Materials Science and Engineering,
+Department of Applied Physics and Applied Mathematics,
+Columbia University, New York, New York 10027, United
+States;
+orcid.org/0000-0002-4355-5474
+Keyue Liang −Program of Materials Science and Engineering,
+Department of Applied Physics and Applied Mathematics,
+Columbia University, New York, New York 10027, United
+States
+Jeong-Hoon Yu −Department of Energy Science and
+Engineering, Daegu Gyeongbuk Institute of Science and
+Technology, Daegu 42988, Republic of Korea
+Ting Wang −Department of NanoEngineering, University of
+California, San Diego, La Jolla, California 92093-0448,
+United States
+Yihan Li −Program of Materials Science and Engineering,
+Department of Applied Physics and Applied Mathematics,
+Columbia University, New York, New York 10027, United
+States
+Tai-De Li −Nanoscience Initiative at Advanced Science
+Research Center, Graduate Center of the City University of
+New York, New York, New York 10031, United States;
+Department of Physics, City College of New York, City
+University of New York, New York, New York 10031, United
+States
+Shyue Ping Ong −Department of NanoEngineering,
+University of California, San Diego, La Jolla, California
+92093-0448, United States
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.nanolett.4c01210
+Notes
+The authors declare no competing financial interest.
+■ACKNOWLEDGMENTS
+The authors greatly appreciate the funding support from
+AFOSR (Grants FA9550-22-1-0226 and FA9550-23-1-0071)
+and Korea Research Foundation (Grant RS-2023-00223196)
+and valuable discussions with Xiao Sun at Northeastern
+University. The computational studies were supported by the
+National Science Foundation Materials Research Science and
+Engineering Center program through the UC Irvine Center for
+Complex and Active Materials (Grant DMR-2011967). The
+computation work used Expanse at San Diego Supercomputer
+Center through Allocation DMR150014 from the Advanced
+Cyberinfrastructure Coordination Ecosystem: Services &
+Support (ACCESS) program, which is supported by National
+Science Foundation Grants 2138259, 2138286, 2138307,
+2137603, and 2138296.
+■REFERENCES
+(1) Pang, Q.; Liang, X.; Kwok, C. Y.; Nazar, L. F. Advances in
+lithium−sulfur batteries based on multifunctional cathodes and
+electrolytes. Nat. Energy 2016, 1 (9), No. 16132.
+(2) Manthiram, A.; Fu, Y.; Chung, S.-H.; Zu, C.; Su, Y.-S.
+Rechargeable Lithium−Sulfur Batteries. Chem. Rev. 2014, 114 (23),
+11751−11787.
+(3) Yang, X.; Li, X.; Adair, K.; Zhang, H.; Sun, X. Structural Design
+of Lithium−Sulfur Batteries: From Fundamental Research to Practical
+Application. Electrochemical Energy Reviews 2018, 1 (3), 239−293.
+(4) Lei, T.; Chen, W.; Lv, W.; Huang, J.; Zhu, J.; Chu, J.; Yan, C.;
+Wu, C.; Yan, Y.; He, W.; Xiong, J.; Li, Y.; Yan, C.; Goodenough, J. B.;
+Duan, X. Inhibiting Polysulfide Shuttling with a Graphene Composite
+Separator for Highly Robust Lithium-Sulfur Batteries. Joule 2018, 2
+(10), 2091−2104.
+(5) Ye, H.; Li, M.; Liu, T.; Li, Y.; Lu, J. Activating Li2S as the
+Lithium-Containing Cathode in Lithium−Sulfur Batteries. ACS
+Energy Letters 2020, 5 (7), 2234−2245.
+(6) Wei Seh, Z.; Li, W.; Cha, J. J.; Zheng, G.; Yang, Y.; McDowell,
+M. T.; Hsu, P.-C.; Cui, Y. Sulphur−TiO2 yolk−shell nanoarchitecture
+with internal void space for long-cycle lithium−sulphur batteries. Nat.
+Commun. 2013, 4 (1), 1331.
+(7) Fu, K.; Gong, Y.; Hitz, G. T.; McOwen, D. W.; Li, Y.; Xu, S.;
+Wen, Y.; Zhang, L.; Wang, C.; Pastel, G.; Dai, J.; Liu, B.; Xie, H.; Yao,
+Y.; Wachsman, E. D.; Hu, L. Three-dimensional bilayer garnet solid
+electrolyte based high energy density lithium metal−sulfur batteries.
+Energy Environ. Sci. 2017, 10 (7), 1568−1575.
+(8) Ding, B.; Wang, J.; Fan, Z.; Chen, S.; Lin, Q.; Lu, X.; Dou, H.;
+Kumar Nanjundan, A.; Yushin, G.; Zhang, X.; Yamauchi, Y. Solid-
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+6631
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 8 页 ===
+state lithium−sulfur batteries: Advances, challenges and perspectives.
+Mater. Today 2020, 40, 114−131.
+(9) Xu, R.; Yue, J.; Liu, S.; Tu, J.; Han, F.; Liu, P.; Wang, C.
+Cathode-Supported All-Solid-State Lithium−Sulfur Batteries with
+High Cell-Level Energy Density. ACS Energy Letters 2019, 4 (5),
+1073−1079.
+(10) Park, K. H.; Bai, Q.; Kim, D. H.; Oh, D. Y.; Zhu, Y.; Mo, Y.;
+Jung, Y. S. Design Strategies, Practical Considerations, and New
+Solution Processes of Sulfide Solid Electrolytes for All-Solid-State
+Batteries. Adv. Energy Mater. 2018, 8 (18), No. 1800035.
+(11) Kwok, C. Y.; Xu, S.; Kochetkov, I.; Zhou, L.; Nazar, L. F. High-
+performance all-solid-state Li2S batteries using an interfacial redox
+mediator. Energy Environ. Sci. 2023, 16 (2), 610−618.
+(12) Han, F.; Yue, J.; Fan, X.; Gao, T.; Luo, C.; Ma, Z.; Suo, L.;
+Wang, C. High-Performance All-Solid-State Lithium−Sulfur Battery
+Enabled by a Mixed-Conductive Li2S Nanocomposite. Nano Lett.
+2016, 16 (7), 4521−4527.
+(13) Bandyopadhyay, S.; Nandan, B. A review on design of cathode,
+anode and solid electrolyte for true all-solid-state lithium sulfur
+batteries. Materials Today Energy 2023, 31, No. 101201.
+(14) Du, L.; Wu, R.; Wu, Z.; Huang, H.; Xia, Y.; Gan, Y.; Zhang, W.;
+Xia, X.; He, X.; Zhang, J. Research progress of all-solid-state lithium−
+sulfur batteries with sulfide solid electrolytes: materials, interfaces,
+challenges, and prospects. Materials Chemistry Frontiers 2023, 7 (22),
+5760−5785.
+(15) Tan, D. H. S.; Wu, E. A.; Nguyen, H.; Chen, Z.; Marple, M. A.
+T.; Doux, J.-M.; Wang, X.; Yang, H.; Banerjee, A.; Meng, Y. S.
+Elucidating Reversible Electrochemical Redox of Li6PS5Cl Solid
+Electrolyte. ACS Energy Letters 2019, 4 (10), 2418−2427.
+(16) Schwietert, T. K.; Arszelewska, V. A.; Wang, C.; Yu, C.;
+Vasileiadis, A.; de Klerk, N. J. J.; Hageman, J.; Hupfer, T.; Kerkamm,
+I.; Xu, Y.; van der Maas, E.; Kelder, E. M.; Ganapathy, S.; Wagemaker,
+M. Clarifying the relationship between redox activity and electro-
+chemical stability in solid electrolytes. Nat. Mater. 2020, 19 (4), 428−
+435.
+(17) Zhu, Y.; He, X.; Mo, Y. Origin of Outstanding Stability in the
+Lithium Solid Electrolyte Materials: Insights from Thermodynamic
+Analyses Based on First-Principles Calculations. ACS Appl. Mater.
+Interfaces 2015, 7 (42), 23685−23693.
+(18) Sun, X.; Cao, D.; Wang, Y.; Ji, T.; Liang, W.; Zhu, H. All-Solid-
+State Li−S Batteries Enhanced by Interface Stabilization and Reaction
+Kinetics Promotion through 2D Transition Metal Sulfides. Adv.
+Mater. Interfaces 2022, 9 (20), No. 2200539.
+(19) Wang, D.; Jhang, L.-J.; Kou, R.; Liao, M.; Zheng, S.; Jiang, H.;
+Shi, P.; Li, G.-X.; Meng, K.; Wang, D. Realizing high-capacity all-solid-
+state lithium-sulfur batteries using a low-density inorganic solid-state
+electrolyte. Nat. Commun. 2023, 14 (1), 1895.
+(20) Sun, X.; Li, Q.; Cao, D.; Wang, Y.; Anderson, A.; Zhu, H. High
+Surface Area N-Doped Carbon Fibers with Accessible Reaction Sites
+for All-Solid-State Lithium-Sulfur Batteries. Small 2022, 18 (6),
+No. 2105678.
+(21) Zheng, G.; Zhang, Q.; Cha, J. J.; Yang, Y.; Li, W.; Seh, Z. W.;
+Cui, Y. Amphiphilic Surface Modification of Hollow Carbon
+Nanofibers for Improved Cycle Life of Lithium Sulfur Batteries.
+Nano Lett. 2013, 13 (3), 1265−1270.
+(22) Zhang, Q.; Wang, Y.; Seh, Z. W.; Fu, Z.; Zhang, R.; Cui, Y.
+Understanding the Anchoring Effect of Two-Dimensional Layered
+Materials for Lithium−Sulfur Batteries. Nano Lett. 2015, 15 (6),
+3780−3786.
+(23) Nagao, M.; Imade, Y.; Narisawa, H.; Kobayashi, T.; Watanabe,
+R.; Yokoi, T.; Tatsumi, T.; Kanno, R. All-solid-state Li−sulfur
+batteries with mesoporous electrode and thio-LISICON solid
+electrolyte. J. Power Sources 2013, 222, 237−242.
+(24) Zhang, Q.; Huang, N.; Huang, Z.; Cai, L.; Wu, J.; Yao, X.
+CNTs@S composite as cathode for all-solid-state lithium-sulfur
+batteries with ultralong cycle life. Journal of Energy Chemistry 2020,
+40, 151−155.
+(25) Lee, B.-J.; Zhao, C.; Yu, J.-H.; Kang, T.-H.; Park, H.-Y.; Kang,
+J.; Jung, Y.; Liu, X.; Li, T.; Xu, W.; Zuo, X.-B.; Xu, G.-L.; Amine, K.;
+Yu, J.-S. Development of high-energy non-aqueous lithium-sulfur
+batteries via redox-active interlayer strategy. Nat. Commun. 2022, 13
+(1), 4629.
+(26) Lee, B.-J.; Kang, T.-H.; Lee, H.-Y.; Samdani, J. S.; Jung, Y.;
+Zhang, C.; Yu, Z.; Xu, G.-L.; Cheng, L.; Byun, S.; Lee, Y. M.; Amine,
+K.; Yu, J.-S. Revisiting the Role of Conductivity and Polarity of Host
+Materials for Long-Life Lithium−Sulfur Battery. Adv. Energy Mater.
+2020, 10 (22), No. 1903934.
+(27) Li, Z.; Zhang, J.; Guan, B.; Wang, D.; Liu, L.-M.; Lou, X. W. A
+sulfur host based on titanium monoxide@carbon hollow spheres for
+advanced lithium−sulfur batteries. Nat. Commun. 2016, 7 (1),
+No. 13065.
+(28) Li, S.; Zhang, W.; Zheng, J.; Lv, M.; Song, H.; Du, L. Inhibition
+of Polysulfide Shuttles in Li−S Batteries: Modified Separators and
+Solid-State Electrolytes. Adv. Energy Mater. 2021, 11 (2),
+No. 2000779.
+(29) Zheng, Y.; Yi, Y.; Fan, M.; Liu, H.; Li, X.; Zhang, R.; Li, M.;
+Qiao, Z.-A. A high-entropy metal oxide as chemical anchor of
+polysulfide for lithium-sulfur batteries. Energy Storage Materials 2019,
+23, 678−683.
+(30) Liu, X.; Huang, J.-Q.; Zhang, Q.; Mai, L. Nanostructured Metal
+Oxides and Sulfides for Lithium−Sulfur Batteries. Adv. Mater. 2017,
+29 (20), No. 1601759.
+(31) Zhu, Y.; Wang, S.; Miao, Z.; Liu, Y.; Chou, S.-L. Novel Non-
+Carbon Sulfur Hosts Based on Strong Chemisorption for Lithium−
+Sulfur Batteries. Small 2018, 14 (40), No. 1801987.
+(32) Liu, T.; Zhang, Y.; Li, C.-H.; Marquez, M. D.; Tran, H.-V.;
+Robles Hernández, F. C.; Yao, Y.; Lee, T. R. Semihollow Core−Shell
+Nanoparticles with Porous SiO2 Shells Encapsulating Elemental
+Sulfur for Lithium−Sulfur Batteries. ACS Appl. Mater. Interfaces 2020,
+12 (42), 47368−47376.
+(33) Lee, B.-J.; Park, H.-Y.; Yang, D.-S.; Kang, T.-H.; Hwang, S.; Yu,
+J.-S. Mesopore Channel Length Control in Ordered Mesoporous
+Carbon Hosts for High Performance Lithium-Sulfur Batteries. J.
+Electrochem. Soc. 2019, 166 (3), A5244.
+(34) Yang, D.-S.; Bhattacharjya, D.; Song, M. Y.; Yu, J.-S. Highly
+efficient metal-free phosphorus-doped platelet ordered mesoporous
+carbon for electrocatalytic oxygen reduction. Carbon 2014, 67, 736−
+743.
+(35) Rajan, A. S.; Sampath, S.; Shukla, A. K. An in situ carbon-
+grafted alkaline iron electrode for iron-based accumulators. Energy
+Environ. Sci. 2014, 7 (3), 1110−1116.
+(36) Deshmukh, P.; Bhatt, J.; Peshwe, D.; Pathak, S. Determination
+of Silica Activity Index and XRD, SEM and EDS Studies of
+Amorphous SiO2 Extracted from Rice Husk Ash. Transactions of the
+Indian Institute of Metals 2012, 65 (1), 63−70.
+(37) Maria Chong, A. S.; Zhao, X. S. Functionalization of SBA-15
+with APTES and Characterization of Functionalized Materials. J. Phys.
+Chem. B 2003, 107 (46), 12650−12657.
+(38) Major, G. H.; Pinder, J. W.; Austin, D. E.; Baer, D. R.; Castle, S.
+L.; Čechal, J.; Clark, B. M.; Cohen, H.; Counsell, J.; Herrera-Gomez,
+A.; Govindan, P.; Kim, S. H.; Morgan, D. J.; Opila, R. L.; Powell, C. J.;
+Průša, S.; Roberts, A.; Rocca, M.; Shirahata, N.; Šikola, T.; Smith, E.
+F.; So, R. C.; Stovall, J. E.; Strunk, J.; Teplyakov, A.; Terry, J.; Weber,
+S. G.; Linford, M. R. Perspective on improving the quality of surface
+and material data analysis in the scientific literature with a focus on x-
+ray photoelectron spectroscopy (XPS). J. Vac. Sci. Technol., A 2023,
+41 (3), 038501.
+(39) Foix, D.; Gonbeau, D.; Taillades, G.; Pradel, A.; Ribes, M. The
+structure of ionically conductive chalcogenide glasses: a combined
+NMR, XPS and ab initio calculation study. Solid State Sci. 2001, 3 (1),
+235−243.
+(40) Lai, Y.-H.; Yeh, C.-T.; Lin, Y.-H.; Hung, W.-H. Adsorption and
+thermal decomposition of H2S on Si(100). Surf. Sci. 2002, 519 (1),
+150−156.
+(41) Liang, X.; Garsuch, A.; Nazar, L. F. Sulfur Cathodes Based on
+Conductive MXene Nanosheets for High-Performance Lithium−
+Sulfur Batteries. Angew. Chem., Int. Ed. 2015, 54 (13), 3907−3911.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+6632
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+
+=== 第 9 页 ===
+(42) Pan, H.; Huang, X.; Zhang, R.; Zhang, T.; Chen, Y.; Hoang, T.
+K. A.; Wen, G. Reduced graphene oxide-encapsulated mesoporous
+silica as sulfur host for lithium−sulfur battery. J. Solid State
+Electrochem. 2018, 22 (11), 3557−3568.
+(43) Liu, Y.; Chen, M.; Hu, M.; Gao, Y. f.; Zhang, Y.; Long, D. In-
+situ anchoring sulfiphilic silica nanoparticles onto macro-mesoporous
+carbon framework for cost-effective Li-S cathodes. Chemical Engineer-
+ing Journal 2021, 406, No. 126781.
+(44) Peng, J.; Zheng, X.; Wu, Y.; Li, C.; Lv, Z.; Zheng, C.; Liu, J.;
+Zhong, H.; Gong, Z.; Yang, Y. Li2S-Based Composite Cathode with
+in Situ-Generated Li3PS4 Electrolyte on Li2S for Advanced All-Solid-
+State Lithium−Sulfur Batteries. ACS Appl. Mater. Interfaces 2023, 15
+(16), 20191−20199.
+(45) Kim, J. T.; Rao, A.; Nie, H.-Y.; Hu, Y.; Li, W.; Zhao, F.; Deng,
+S.; Hao, X.; Fu, J.; Luo, J.; Duan, H.; Wang, C.; Singh, C. V.; Sun, X.
+Manipulating Li2S2/Li2S mixed discharge products of all-solid-state
+lithium sulfur batteries for improved cycle life. Nat. Commun. 2023,
+14 (1), 6404.
+(46) Wang, C.; Wu, Y.; Gao, J.; Sun, X.; Zhao, Q.; Si, W.; Zhang, Y.;
+Wang, K.; Zhao, F.; Ohsaka, T.; Matsumoto, F.; Huang, C.; Wu, J.
+Synergistic Defect Engineering and Interface Stability of Activated
+Carbon Nanotubes Enabling Ultralong Lifespan All-Solid-State
+Lithium−Sulfur Batteries. ACS Appl. Mater. Interfaces 2023, 15
+(34), 40496−40507.
+(47) Sung, J.; Kim, S. Y.; Harutyunyan, A.; Amirmaleki, M.; Lee, Y.;
+Son, Y.; Li, J. Ultra-Thin Lithium Silicide Interlayer for Solid-State
+Lithium-Metal Batteries. Adv. Mater. 2023, 35 (22), No. 2210835.
+(48) Liu, Y.; Su, H.; Li, M.; Xiang, J.; Wu, X.; Zhong, Y.; Wang, X.;
+Xia, X.; Gu, C.; Tu, J. In situ formation of a Li3N-rich interface
+between lithium and argyrodite solid electrolyte enabled by nitrogen
+doping. Journal of Materials Chemistry A 2021, 9 (23), 13531−13539.
+(49) Dietrich, C.; Koerver, R.; Gaultois, M. W.; Kieslich, G.; Cibin,
+G.; Janek, J.; Zeier, W. G. Spectroscopic characterization of lithium
+thiophosphates by XPS and XAS −a model to help monitor
+interfacial reactions in all-solid-state batteries. Phys. Chem. Chem. Phys.
+2018, 20 (30), 20088−20095.
+(50) Auvergniot, J.; Cassel, A.; Foix, D.; Viallet, V.; Seznec, V.;
+Dedryvère, R. Redox activity of argyrodite Li6PS5Cl electrolyte in all-
+solid-state Li-ion battery: An XPS study. Solid State Ionics 2017, 300,
+78−85.
+Nano Letters
+pubs.acs.org/NanoLett
+Letter
+https://doi.org/10.1021/acs.nanolett.4c01210
+Nano Lett. 2024, 24, 6625−6633
+6633
+Downloaded from pubs.​acs.​org/​nalefd/​article-pdf/​24/​22/​6625/​14976346/​nl4c01210.​pdf by TSINGHUA UNIV user on 27 September 2026
+

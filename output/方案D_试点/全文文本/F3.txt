@@ -1,0 +1,732 @@
+=== 第 1 页 ===
+Journal of Energy Storage 88 (2024) 111585
+Available online 12 April 2024
+2352-152X/© 2024 Elsevier Ltd. All rights reserved.
+Research Papers 
+Synergistic effect of 3D-electrode architecture and FeS2 decorated graphene 
+sheet as a catalytic cathode in lithium-sulfur battery 
+J. Priscilla Grace , Surendra K. Martha * 
+Department of Chemistry, Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana 502284, India   
+A R T I C L E I N F O  
+Keywords: 
+FeS2 
+3D-carbon fiber 
+Cathode (FRHS@CF) 
+Polysufide shuttle effect 
+Electrochemical performance 
+Lithium-sulfur batteries 
+A B S T R A C T  
+Lithium‑sulfur batteries (LSBs) show a five times higher energy density of 2600 W h kg−1 than the conventional 
+Li-ion battery cathodes, thus satisfying the growing energy demand. The main challenge in LSBs is the polysulfide 
+shuttle effect, causing severe capacity fade. Combining physical and chemical interactions to capture polysulfides 
+can improve the long-term cycling performance and high sulfur utilization in LSBs. This work represents a 
+rational design of FeS2-reduced graphene oxide (RGO) with high surface area carbon and sulfur composite 
+(FRHS) onto a 3-dimensional (3D)‑carbon fiber (CF) electrode as an efficient electrocatalyst and the conductive 
+network for LSBs. The FRHS@CF electrodes deliver an excellent initial discharge capacity of 1165 mAh g−1 at 
+100 mA g−1, and even at 500 mA g−1, it exhibits an initial discharge capacity of 740 mAh g−1 and maintains a 
+stable capacity of 400 mAh g−1 with 73 % capacity retention at 325 cycles. The RGO and CF effectively shorten 
+the path of Li-ion migration, improve electron transfer, and accommodate the volume effect of polysulfides with 
+good electrolyte penetration. FeS2 effectively catalyzes the reaction kinetics of lithium polysulfides, thereby 
+improving the reversibility with sulfur utilization.   
+1. Introduction 
+Rechargeable Li-ion batteries (LIBs) have gravimetric energy den­
+sities of ~250 Wh kg−1. They are the choice of energy storage systems 
+for various applications, including consumer electronics, telecommuni­
+cations, grids, and even electric vehicles [1,2]. Conventional Li-ion 
+batteries work by Li+ intercalation mechanisms. There is a demand in 
+LIBs to force energy densities as high as ⁓ 500 Wh kg−1 and > 1000 Wh 
+L−1, which is essential for portable electronics and electric vehicles 
+[3,4]. The energy requirement in the LIB technology has been regained 
+in the lithium‑sulfur battery (LSB), which could be a promising alter­
+native to LIBs [5]. LSBs show a five times higher energy density (2600 
+Wh kg−1 and 2800 Wh L−1) than conventional LIBs, satisfying the 
+growing energy demand at a lower cost [6]. Sulfur is the most available 
+element on the earth’s crust and is more environmentally friendly and 
+cost-effective than conventional LIBs, delivering 1675 mAh g−1 theo­
+retical capacity [7,8]. A lithium‑sulfur battery consists of sulfur as a 
+cathode and Li metal as an anode. LSB can gain three times the energy 
+density of 400–600 Wh kg−1 than the current LIBs [9,10]. Even though 
+LSBs have a high theoretical capacity and energy density, their practical 
+applications are still hindered due to their several challenges. The main 
+issues that arise during the charge-discharge cycling of LSBs are pri­
+marily due to the low electronic conductivity of sulfur (5 × 10−30 S 
+cm−1) and its discharged products Li2S2/Li2S, which need the incorpo­
+ration of conductive carbon additives to improve its conductivity. Be­
+sides, the intermediate solubilized polysulfides formed during the 
+conversion reaction account for the polysulfide shuttle effect, which 
+results in the severe loss of active materials from the cathode, which 
+corrodes the lithium metal. Finally, these structural changes cause ⁓ 80 
+% volume expansion of the cathode upon cycling, resulting in poor 
+mechanical stability and rapid capacity fading. These issues mentioned 
+above gradually make LSB incapable, shortening the cycle life and 
+reducing the coulombic efficiency and the overall energy density of the 
+battery [11–13]. 
+To uplift the practical application of LSBs, several research studies 
+have been developed on improving the conductivity of sulfur by syn­
+thesizing a composite of sulfur with conductive carbon additives [14], 
+such as graphene, carbon nanotubes, and porous carbons. Nevertheless, 
+carbon materials are nonpolar and have feeble interactions with the 
+highly polar lithium polysulfides [15]. Therefore, polysulfides diffuse 
+into the electrolyte due to the weak confinement of carbon-based ma­
+terials, giving rise to more capacity decay and less capacity retention. 
+* Corresponding author. 
+E-mail address: martha@chy.iith.ac.in (S.K. Martha).  
+Contents lists available at ScienceDirect 
+Journal of Energy Storage 
+journal homepage: www.elsevier.com/locate/est 
+https://doi.org/10.1016/j.est.2024.111585 
+Received 2 December 2023; Received in revised form 30 March 2024; Accepted 3 April 2024   
+
+=== 第 2 页 ===
+Journal of Energy Storage 88 (2024) 111585
+2
+Recently, polar materials have been introduced into the carbon ad­
+ditive to improve the interaction of polysulfide. In general, polar mol­
+ecules interact through dipole-dipole interactions. The chemical 
+interaction between polar-polar is much stronger than the polar­
+–nonpolar interactions [16]. The formation of insoluble Li2S/Li2S2 from 
+the soluble polysulfides forms solid particles on the surface cathode/Li 
+anode [17], and the transformation of solid Li2S/Li2S2 requires signifi­
+cant activation energy, leading to slow reaction kinetics and less energy 
+efficiency. Intending to suppress the shuttling of lithium polysulfides, 
+polar molecules make strong chemical interactions with the polysulfides 
+by decreasing the energy barriers of redox reactions, which assists in the 
+catalytic conversion of lithium sulfides [18,19]. Polar materials such as 
+metal oxides, sulfides, carbides, and nitrides provide strong polysulfide 
+anchoring sites. Besides, according to the hard-soft acid-base theory, 
+transition metal sulfides (TMSs) have soft basic S2−/S2
+2−instead of hard 
+basic O2−ions in the metal oxides showing more covalent properties, 
+making better interaction between TM atom and the soft basic S2−/S2
+2−
+[20]. Over other materials, TMSs gained interest as an excellent sulfur 
+host due to their high electrical conductivity (more conductive than 
+oxides) and strong chemical affinity towards the adsorptions of poly­
+sulfide (enhanced polysulfide redox reaction) and work in low lithiation 
+voltages (vs. Li/Li+) which doesn’t overlap in the voltage window of 
+LSBs. This increases the overall tap density and volumetric energy 
+density of LSBs [21–23]. 
+Among metal sulfides, pyrite - FeS2 (iron disulfide), also known as 
+fools gold, is an efficient catalyst in LSBs. Since FeS2 is a naturally 
+available mineral, environmentally friendly and cheaper material has 
+many applications in energy storage, photocatalytic, and photovoltaics 
+[24]. FeS2 has a 3D network of metal with discrete S2
+2−units and ⁓1.5 V 
+lithiation potential [6,25]. Since FeS2 is semi-conductive and sulfiphilic 
+in nature, it can form a chemical bond with lithium polysulfides (FeS2- 
+Li2Sn) through S–S covalent bonds, which reduces the dissolution of 
+polysulfide and also as a buffer upon volume change [26]. For example, 
+it has been reported that the 3D- flower-like FeS/carbon assembly ma­
+terial (FeS/C-S) shows 600 mAh g−1 with 66 % capacity retention after 
+100 cycles at a 0.1C rate [27]. It is also reported that the monodispersed 
+FeS2 electrocatalyst anchored nitrogen-doped carbon (S/CPC@FeS2) 
+exhibits excellent initial discharge capacity of 1459 mAh g−1 at 0.1C 
+with 60 % capacity retention till 900 cycles [28]. Similarly, the FeS2- 
+decorated carbon nanofibers display 448 mAh g−1 initial discharge ca­
+pacity at a 2C rate with 87 % capacity retention till 300 cycles [29]. 
+In this work, a nanocomposite of metal sulfide (FeS2) decorated with 
+carbon materials and sulfur is designed to mitigate the low conductivity 
+of sulfur and to immobilize the polysulfide shuttling. Further, metal 
+sulfide‑carbon‑sulfur composite is coated onto the 3D- carbon fiber (CF) 
+electrode architecture as a current collector by replacing the conven­
+tional 2D- aluminum current collector. This 3D‑carbon framework ac­
+commodates volume expansion during polysulfide conversion, 
+providing enough electrolytes into its matrix, high active material 
+loading, and a short path for charge transport [30]. Thereby, the ver­
+satile approach of sulfur-embedded carbon with metal sulfide composite 
+onto the 3D-CF network as a promising cathode material provides a high 
+surface area with a 3D-network structure, and metal sulfides provide the 
+active sites, which improves the overall electrochemical performance in 
+LSBs. 
+Hereby, we synthesized FeS2-decorated-reduced graphene oxide 
+(FeS2-RGO) by in situ hydrothermal method, followed by the synthesis 
+of FeS2-RGO with high surface area carbon and sulfur composite (FRHS) 
+by melt diffusion process. The FRHS slurry is coated onto the 3D‑carbon 
+fiber (FRHS@CF) electrode to study the electrochemical performance of 
+the electrode. The RGO and CF ensure fast electron transport by 
+improving the conductivity and accommodating volume changes of 
+sulfur during charge-discharge cycling. The decorated polar FeS2 
+nanoparticles benefit from good chemical adsorption with sulfur, alle­
+viating the dissolution of polysulfides. The FRHS@CF electrodes show 
+excellent electrochemical performances (Cycling, C-rate, different 
+loading). The detailed study of this cathode work denotes the symbiotic 
+effect of FeS2 decorated-conductive RGO with sulfur and 3D electrode 
+architecture, which is an impressive path for modifying catalytic cath­
+odes in LSBs. 
+2. Experimental 
+2.1. Materials 
+Iron III nitrate nonahydrate and Sulfur (Sigma Aldrich), thiourea and 
+NMP(SRL), ethanol (99.9 % purity), High surface area carbon (2500 
+m2g−1 from china steel, Taiwan), Carbon fiber (surface area ⁓1 m2g−1; 
+TFP Global, UK; Optimat@20301 A; 80 g m−2 carbon felt), were used as 
+received. 
+2.2. Synthesis of FeS2-RGO hybrid and FRHS composite 
+The graphene oxide is synthesized by Hummer’s method, followed 
+by thermal heating at 500 ◦C in a tubular furnace under a nitrogen at­
+mosphere for 30 min to synthesize reduced graphene oxide (RGO). 
+To synthesize the FeS2- RGO (40:60) hybrid, 1 mmol iron III nitrate 
+nonahydrate (Fe (NO3)3.9H2O) and 2 mmol thiourea (CH4N2S) pre­
+cursors are dissolved in 100 ml ethanol. Then, 400 mg of RGO is added 
+to the dissolved solution and sonicated. The resultant solution is trans­
+ferred to the hydrothermal jar and heated at 150 ◦C for 12 h. Further, it 
+is then dried overnight to get the powdered FeS2-RGO hybrid (Supple­
+mentary information Fig. S1a). 
+The FeS2-RGO-high surface area carbon (HSAC)-S (FRHS) composite 
+is synthesized by the melt-diffusion method. For instance, 60 % sulfur, 
+20 % FeS2- RGO, and 10 % HSAC are ground in a mortar pestle, then 
+transferred to the Ar gas-filled Schlenk tube and heated at 150 ◦C for 6 h 
+to get the FRHS composite (Supplementary information Fig. S1b and 
+Scheme 1). 
+2.3. Fabrication of FRHS@CF electrodes 
+The slurry is prepared by mixing 90 % FRHS composite with 10 % 
+PVDF binder dissolved in an NMP solvent. The prepared slurry is coated 
+onto a CF mat and then dried at 70 ◦C in a vacuum oven overnight [31]. 
+12 mm FRHS@CF electrodes are punched and calendered for the elec­
+trochemical study. The average active material loading of the electrode 
+is 2.5 mg cm−2. Besides, a high sulfur loading of 4 mg cm−2 has been 
+tested. 
+2.4. Physical and morphological characterizations 
+X-ray diffraction (XRD), Raman spectroscopy, SEM, TEM, and X-ray 
+photoelectron spectroscopy (XPS) were analyzed for the FRHS material 
+and FRHS@CF electrode. The XRDs were performed in the 2θ range of 
+100–800, Cukα λ = 1.5406 Å using (40 mA, 40 kV) by X’Pert Pro 
+diffractometer (Netherlands). Raman analysis was analyzed using a 
+Witec Raman confocal spectrometer. XPS was examined using ESCA+
+(Kratos AXIS Nova, Shimadzu, Japan) combined with monochromic 
+AlKα (1486.6 eV) and analyzed using Gaussian functions in Origin 
+software (9.0). The morphologies of the samples were analyzed by SEM 
+and TEM using JEOL-2011 (200 kV) and JEM-F200 microscopes. Ther­
+mogravimetric analysis was conducted using an SDT Q600, Germany 
+instrument to calculate the weight loss under nitrogen atmosphere at a 
+heating rate of 10 ◦C min−1. 
+2.5. Electrochemical characterizations 
+The CR2032 coin cells were fabricated inside the Ar-filled glove box 
+(mBraun, Germany) to test the electrochemical performance of the 
+FRHS@CF electrodes. The H2O and O2 levels in the glove box are 
+maintained at ≤1 ppm. The cells were fabricated using FRHS@CF as a 
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  
+
+=== 第 3 页 ===
+Journal of Energy Storage 88 (2024) 111585
+3
+working electrode, Li metal as a reference and counter electrode, and 
+GF/D as a separator with 1 M LITFSI salt (lithium bis-trifluoromethane 
+sulfonimide), 0.1 M LiNO3 additive and (1:1 v/v) DOL: DME (dioxolane 
+and dimethyl ether) as electrolyte. A Biologic BCS-805 battery tester is 
+used for the charge-discharge cycling tests in the voltage range of 
+1.5–2.8 V. Solartron multi-channel cell test system (1470 multi-channel 
+potentiostat coupled with 1455 A series frequency response analyzers) 
+was used to conduct CV at a scan rate of 0.05 mV s−1 (1.5–2.8 V) and EIS 
+in the frequency range of 1 MHz to 0.01 Hz with voltage perturbation of 
+5 mV. 
+3. Results and discussion 
+The XRD pattern in Fig. 1a and b depicts the diffraction pattern of 
+RGO, FeS2-RGO, and FRHS (FeS2-RGO with high surface area carbon 
+and sulfur composite). The characteristic peak of the (002) plane at 260 
+is for the synthesized reduced graphene sheets (RGO). In FeS2-RGO, the 
+reduced diffraction peak at 250 for RGO is observed due to the increased 
+interlayer distance between the graphene sheets, which is ascribed to 
+the embedded FeS2 in between the layers of RGO and the pyrite FeS2 
+peaks (JCPDS card: 42–1340) [32]. After the infusion of sulfur, the FRHS 
+composite shows the intensive peaks of sulfur and FeS2 followed by the 
+hump for high surface area carbon (HSAC) and RGO, confirming the 
+well-dispersed sulfur in the composite. The pure sulfur patterns are 
+displayed in Fig. 1b; the peaks at 23.2, 26, 26.9, and 27.8 are assigned to 
+the (222), (026), (206), and (311) planes for the orthorhombic crystal 
+structure of sulfur (JCPDS card: 08–0247). 
+Fig. 1c, d depicts the Raman spectra of FeS2-RGO, FRHS, and sulfur. 
+In Fig. 1c, FeS2-RGO shows two firm peaks for the D and G bands of RGO 
+at 1357 and 1588 cm−1, followed by the three weak peaks corre­
+sponding to Eg, Ag, and Tg for the vibrational modes of FeS2. The Eg is for 
+the vibrational mode of sulfur atoms, Ag is for the S–S bond stretching, 
+and Tg is for S-S′ coupled vibration and stretching [33]. Raman spectra of 
+the FRHS composite show D and G bands similar to FeS2-RGO, and no 
+peaks are observed for the sulfur and FeS2, which may be due to the 
+successful loading of sulfur and FeS2 into the carbon host and masking of 
+sulfur. 
+The XPS analysis (Fig. 2) was carried out to understand the formed 
+elements in the composite and its chemical bond on the surface of the 
+3D-CF (FRHS@CF) electrode. The survey scan (Fig. 2a) of the FRHS@CF 
+electrode shows the presence of S2p, S2s, C1s, O1s, and Fe2p, confirming 
+the formation of the composite, which is consistent with the XRD. 
+Fig. 2b, Fe2p shows the peaks at 711.4, 725, and 732.1 eV related to 
+Fe2p3/2, Fe2p1/2, and Fe satellite peak; therefore, it exists as Fe2+ in the 
+FRHS composite. Fig. 2c, S2p spectra show the existence of sulfur at 
+163.9, 165, 168.5, and 169 eV, representing the S2p3/2 elemental sulfur/ 
+S2
+2−in the FeS2, S2p1/2 (S–S) and S–O bonds. C 1 s spectra (Fig. 2d) 
+depict C=C/C-C, C–S, and C––O bonds at 284.8, 285.5, and 287.9 eV; 
+this shows the oxygen-containing functional groups are less for the 
+reduced graphene oxide. The C–S bond in the C 1 s spectra shows the 
+strong interaction between the sulfur and RGO, which is essential for the 
+Scheme 1. Schematic illustration for the overall synthesis of FRHS composite.  
+Fig. 1. XRD of (a) RGO, FeS2-RGO, FRHS, and (b) pure sulfur; (c) Raman 
+spectra of FeS2-RGO, FRHS, and (d) pure sulfur patterns. 
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  
+
+=== 第 4 页 ===
+Journal of Energy Storage 88 (2024) 111585
+4
+electronic conduction of cathode material since the FeS2 could benefi­
+cially interact with sulfur, thus kinetically helping in the catalytic con­
+version of polysulfides. This clearly shows the chemical composition in 
+the FRHS@CF electrode that may directly influence the electrochem­
+istry of LSBs. 
+The sulfur content in the FRHS composite is investigated by ther­
+mogravimetric analysis in N2 atmosphere at 10 ◦C min−1 (Supplemen­
+tary information Fig. S2). The weight loss of the FRHS composite below 
+180 ◦C is due to moisture removal from the sample. The weight loss from 
+180 ◦C to 360 ◦C is due to the decomposition of sulfur. The FRHS 
+composite overall contains 67 wt% of sulfur. 
+The micro and nanostructures of the synthesized materials are 
+analyzed by SEM and TEM (Fig. 3), showing that the FeS2-RGO (Fig. 3a, 
+b) have spheres of FeS2 (Supplementary information Fig. S3) decorated 
+between the sheets of RGO. After the infusion of sulfur by melt diffusion, 
+Fig. 3c, d depicts the mixed structure of sulfur and HSAC with the FeS2- 
+RGO hybrid layers. Fig. 3e FRHS@CF shows the composite of FRHS 
+slurry is coated evenly onto the 3D-CF mat, and Fig. 3f is the zoomed 
+image of the FRHS particle, which is adhered to the CF strand. 
+Furthermore, EDS mapping analysis (Fig. 3g–j) manifests the uniform 
+distribution of C, Fe, and S elements on the strands of the CF network. 
+TEM images of FeS2-RGO (Fig. 3k–m) illustrate the morphology of 
+spherical FeS2 implanted in between the reduced graphene oxide sheets 
+since the functional groups on the RGO would anchor Fe2+ and provide 
+active sites to form FeS2 nanoparticles [34]. The particle sizes of FeS2 are 
+in the range of ~50 nm. FeS2 is crystalline with an interlayer spacing of 
+0.19 nm, which matches the (220) plane in the XRD pattern of FeS2 
+(Fig. 3m). The morphologies of SEM and TEM depict the as-formed FeS2 
+decorated reduced graphene oxide (FeS2-RGO), which is an ion- 
+electronic network and the composite of sulfur upon melt diffusion. 
+The FRHS onto 3D-CF network (FRHS@CF) displays an internal space of 
+effective sulfur utilization, high sulfur loading, and good infiltration of 
+electrolyte into its matrices, which could effectively benefit the elec­
+trochemical performance of FRHS@CF electrodes in LSBs. 
+The redox processes of the FRHS@CF composite electrodes in CV 
+curves of Fig. 4a show two cathodic peaks at 2.3 V and 2.0 V for the 
+reduction of higher-order polysulfides (Li2S8) to soluble polysulfides 
+(Li2S6/Li2S4) and insoluble lower polysulfides (Li2S2/Li2S). Similarly, 
+the anodic peak at 2.46 V corresponds to the oxidation of Li2S to sulfur. 
+Thus, the higher peak current, sharp peaks, and overlapping of the CV 
+curves reveal lower polarization, rapid polysulfide conversion kinetics, 
+and higher reversibility of the FRHS@CF electrode in LSBs. Therefore, 
+the FeS2 relieves the stress of polysulfide shuttling by promoting the 
+nucleation ability of Li2S, which enhances the reaction kinetics for more 
+conversion of soluble polysulfides to insoluble lithium polysulfides 
+[35,36]. The 3D carbon fiber enhances active material utilization, thus 
+making the FRHS@CF cathode a more stable electrode, consistent with 
+the galvanostatic charge-discharge (GCD) cycling discussed below. 
+Similar to the CV curves, the GCD cycling curves show a multistep 
+mechanism of sulfur. The reduction at an upper plateau at 2.4 V is 
+assigned for the conversion of Li2S8/Li2S6 to Li2S4 and the lower plateau 
+at 2.15 V for the conversion of Li2S4 to Li2S2/Li2S. The cycling profile of 
+the 3D-CF-based FRHS electrode (FRHS@CF) delivers a remarkable 
+capacity of 1165, 1134, and 1074 mAh g−1 in their initial three cycles at 
+100 mA g−1 (Fig. 4b) compared to the conventional carbon‑sulfur 
+cathodes (Supplementary information Fig. S4) [14]. From Fig. 4c, it is 
+observed that the voltage gap (ΔV) between the charge and discharge 
+cycle of 1st cycle is 200 mV; thus, the lower potential gap between the 
+charge-discharge cycling shows the lower polarization, therefore man­
+ifesting the effective electrolyte penetration and the stability of the 
+FRHS@CF electrode. The integration of the area under the discharge 
+curve of the initial cycle shows an energy density of 2414 Wh kg−1 
+(Fig. 4d) for the LSBs (considering the cathode mass alone). 
+The long-term cycling (Fig. 5a–d) of the FRHS@CF is carried out at 
+different current densities. In Fig. 5a, FRHS@CF at 300 mA g−1 delivers 
+an initial discharge capacity of 886 mAh g−1, 662 mAh g−1 at the 25th 
+cycle, and maintains 520 mAh g−1 until 200 cycles. The polarization 
+effect (Supplementary information Fig. S5a) has been analyzed from the 
+initial and the 200th cycle of charge curves, revealing that the hump in 
+the 1st cycle at 2.4 V is reduced to 2.2 V at the 200th cycle, showing the 
+decrease in polarization effect upon cycling. The voltage gap (Supple­
+mentary information Fig. S5b) in the first cycle is 0.23 V and is reduced 
+to 0.17 V at the 200th cycle. This shows that the more reductive sulfur 
+species formed initially enhance the conversion of Li2S [28]. The 
+excellent electrocatalysis of polar FeS2 helps significantly to reduce 
+electrochemical polarization. 
+Similarly, at a high current density of 500 mA g−1, it delivers the 
+initial discharge capacity of 740 mAh g−1, 547 mAh g−1 at its 25th cycle, 
+and retains 420 mAh g−1 even at 200 cycles. The capacity retention is 73 
+% at the end of 325 cycles (considering 25th cycle capacity) with 99 % 
+coulombic efficiency. The capacity decline in the initial cycles at 300 
+and 500 mA g−1 (Fig. 5b, d), followed by stable cycle stability after 25 
+cycles. The early capacity fading in the first 25 cycles is due to the 
+incomplete electronic contact of sulfur, resulting in less sulfur utilization 
+[27]. However, the FeS2 could improve the cycling stability by chemi­
+cally adsorbing lithium polysulfides, accelerating the cleavage of long- 
+chain polysulfides more effectively [37]. This enhances the electronic 
+conductivity and exhibits a stable capacity even after 300 cycles. In 
+contrast, the cyclic stability plot of the RGO-S@CF electrode at 500 mA 
+g−1 with 2.5 mg cm−2 loading of sulfur delivers an initial capacity of 504 
+mAh g−1 with 65 % capacity retention at the end of 130 cycles (Sup­
+plementary information Fig. S6). 
+The rate capability plot of FRHS@CF (Fig. 5e, f) from low to high 
+current densities shows a discharge capacity of 1300, 1165, 973, 857, 
+750, 654, and 529 mAh g−1 at 50, 100, 200, 300, 500, 1000, and 1500 
+mA g−1 current densities. The FRHS@CF displays stable rate capability 
+with improved capacities at all current densities by enhancing the re­
+action kinetics [38], depicting good stability of the FRHS@CF electrode. 
+At high sulfur loading, the concentration of sulfur increases, blocking 
+the transition of soluble sulfides. Therefore, the resistance of the battery 
+is increased. To utilize the full capacity of sulfur, FeS2-RGO is imple­
+mented to improve faster redox kinetics [20,39]. Even at a higher sulfur 
+loading of 4 mg cm−2 (Fig. 6a), the cyclic stability plot reveals that the 
+electrode performs well and delivers a stable capacity of 550 mAh g−1 
+till 120 cycles at 400 mA g−1. The area-specific capacity plot is provided 
+in Supplementary information. Fig. S7 indicates an average capacity of 
+1.8 mAh cm−2 for 120 cycles. 
+To understand the advantage of the FRHS@CF cells, a self-discharge 
+study was performed after a fully charged condition followed by 170 h in 
+open circuit condition at 25 ◦C (Supplementary information Fig. S8a). 
+Fig. 2. The XPS analysis of FRHS@CF electrode (a) survey scan, (b) Fe 2p, (c) S 
+2p, and (d) C 1s spectra. Binding energy is calibrated to C–C of 284.8 eV. 
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  
+
+=== 第 5 页 ===
+Journal of Energy Storage 88 (2024) 111585
+5
+The FRHS@CF cathode exhibits a stable OCV of ~2.4 V during storage 
+due to a reduction in the polysulfide shuttle effect. The capacities of the 
+cell before and after the self-discharge are 1154 and 870 mAh g−1, 
+respectively (Supplementary information Fig. S8b). 
+The above electrochemical studies reveal that the FRHS@CF elec­
+trode shows stable electrochemical performance. The FeS2 decorated 
+RGO effectively increases the electronic conductivity and reduces the 
+polysulfide shuttle effect by catalyzing the lithium polysulfides to Li2S/ 
+Li2S2 by the continuous breaking of the bond between Fe and sulfur 
+species and reforming again and again during the electrochemical 
+reaction, fast redox kinetics, and more sulfur utilization. The intense 
+interaction between the FeSx and S maintains a firm solid-solid interface 
+even at volume expansion during cycling, improving cycling stability 
+[40]. The 3D-CF increases the Li+ transport path and maintains the 
+structural integrity of the sulfur electrode upon cycling. The improved 
+electrochemical performance and cycling stability of FRHS@CF elec­
+trode are due to the effective adsorption of polysulfides, good Li-ion 
+kinetics due to the porous network that has a successful electrolyte 
+infiltration, and productive utilization of sulfur, simultaneously elevated 
+cycling performance with good reversibility and stability [41]. With 
+Fig. 3. SEM images of (a, b) FeS2-RGO, (c, d) FRHS composite, (e, f) FRHS@CF electrode; EDX images of (g) C, S, Fe in FRHS@CF, (h) C, (i) Fe, (j) S; and (k–m) TEM 
+images of FeS2-RGO. 
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  
+
+=== 第 6 页 ===
+Journal of Energy Storage 88 (2024) 111585
+6
+respect to the specific capacity, cycle number, and capacity retention of 
+FeS2 with carbon‑sulfur composites, the literature is compared to our 
+work in Supplementary information Table T1. 
+The EIS has been studied before and after the cycling of FRHS@CF 
+electrodes (Fig. 6b-c). From Fig. 6b, the charge transfer resistance (Rct) 
+value in the 1st cycle is ⁓ 3.4 Ω.cm2, and in the 200th cycle is ⁓ 8.23 Ω. 
+cm2 (Table 1). The low Rct value in the 1st cycle indicates the uniform 
+attachment of FeS2 onto the 3D-CF, which could confirm the fast Li+
+diffusion. A slight increase of Rct in the 200th cycle is due to the redis­
+tribution of sulfur and the accumulation of lithium sulfide (Li2S/Li2S2) 
+in the 3D CF network, which further ensures that it can effectively ease 
+the accumulation of lithium polysulfides and improves the utilization of 
+more sulfur active material [42]. The CF matrix could stabilize the sulfur 
+conversion in its void matrices, and sufficient electrolyte infiltration 
+gradually provides a stable electrode-electrolyte interface, decreasing 
+the cell’s impedance. The fitted curves of EIS and its equivalent circuit 
+are given in Supplementary information Fig. S9. 
+The Li+ ion diffusion coefficient corresponds to the low-frequency 
+straight line (Warburg factor Wo) and is calculated by, DLi+ =
+R2T2
+2A2N2F4C2σ2 [35]; R is the gas constant, T is the absolute temperature in 
+kelvin, A is the area of the electrode, N is the number of electrons 
+transferred in the redox reaction, F is the Faraday’s constant, C is the 
+molar concentration of Li+ ions, and σ refers to the Warburg impedance 
+Fig. 4. (a) Cyclic voltammetry at 0.05 mV s−1 in the voltage range of 1.5 and 
+2.8 V; (b) charge-discharge cycling of FRHS@CF at 100 mA g−1, (c) voltage 
+plateau, and (d) energy density of 1st cycle at 100 mA g−1. 
+Fig. 5. (a) Galvanostatic charge-discharge (GCD) profiles, (b) corresponding cycle stability plot of FRHS@CF composite electrode at 300 mA g−1; (c) GCD profiles, 
+(d) corresponding cycle stability plot of FRHS@CF composite electrode at 500 mA g−1; (e) and (f) is the rate capability plot of FRHS@CF composite electrode at 
+different current densities. 
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  
+
+=== 第 7 页 ===
+Journal of Energy Storage 88 (2024) 111585
+7
+factor. The plot (Fig. 6c) of the inverse of the square root of the angular 
+frequency (ω1/2) vs. the slope of real resistance (Z’) provides the value of 
+σ. The σ value of the 200th cycle (8.3 Ω s−1/2) is lesser than the 1st cycle 
+(12.3 Ω s−1/2), manifests higher diffusion of Li+ and a shorter Li+
+transfer pathway. The DLi+ of the 1st and 200th cycle is 4.8 × 10−15 and 
+1.05 × 10−14 cm2 s−1, showing that the FeS2 and CF paved the way for 
+an effective diffusion kinetics of Li+ [35]. The above results show that 
+the FRHS@CF can manifest sufficient redox electrochemical reactions at 
+higher current density. 
+Visual adsorption studies (Supplementary information Fig. S10a) are 
+conducted to understand the role of the FeS2-containing sulfur com­
+posite cathode in the FRHS@CF electrode. Li2S6 solution is prepared by 
+mixing sulfur and Li2S powders by dissolving in Li–S electrolyte under 
+50 ◦C continuous stirring for 12 h. Subsequently, the Li2S6 solution (dark 
+yellow color) is diluted in the electrolyte and taken in the vials con­
+taining the FRHS@CF electrode. With time, the visible change in the 
+Li2S6 solution from dark yellow color to pale yellow to colorless is 
+observed, and its corresponding UV–visible absorption spectra (Sup­
+plementary information Fig. S10b) show the strong peak for Li2S6 so­
+lution and the faded solution shows less peak intensity. This depicts the 
+strong chemical interaction of FeS2 with the lithium polysulfides. 
+XPS of the postmortem cycled (after 200 cycles) FRHS@CF elec­
+trodes (Fig. 7a–e) were carried out to understand the surface adsorption 
+of lithium polysulfides at discharged state. The survey scan (Fig. 7a) of 
+the cycled FRHS@CF electrode confirms the presence of S 2p, S 2 s, C 1 s, 
+O 1 s, Fe 2p, and Li 1 s elements. Fig. 7b, Fe 2p shows the shift in peak for 
+Fe 2p3/2 and Fe 2p1/2. Compared to the pristine Fe 2p (FRHS@CF), the 
+cycled electrode manifests a strong interaction and chemical affinity 
+between polar FeS2 and polysulfides. This has been further supported by 
+the S2p XPS spectrum in Fig. 7c. The S2p (Fig. 7c) spectrum shows the 
+peak at 160.2, 161.7, 162.9, 168, and 169 eV for the corresponding Li2S, 
+FeS-S/S2−, Fe–S, sulfates and TFSI−bonds. Fig. 7d, C 1 s spectra show 
+that the peaks at 284.6, 285.4, and 289.8 eV correspond to the C–C, 
+C–S, and O-C=O bonds. As the C–S physical force is weaker than the 
+strong chemical bond between Fe–S, it helps to improve the reduction 
+of the polysulfides. Fig. 7e shows that the Li1s spectrum shows the Li–S 
+bond at 54.6 eV and Li2S. The presence of the Li–S bond is attributed to 
+the elemental sulfur and Li2S deposition; the sulfate (SO3
+2−) and S–O 
+bonds are responsible for the impregnation of electrolytes in the elec­
+trode during the charge-discharge cycles. 
+SEM analysis is carried out to understand the morphology of the 
+cycled postmortem FRHS@CF electrode. Fig. 7f–h manifests that the 
+morphology of the cycled FRHS@CF electrode maintains its integrity. 
+The sulfur particles are uniformly deposited on the electrode’s surface, 
+improving sulfur utilization. It keeps its structural morphology un­
+changed after 200 cycles [43,44]. Thereby, FeS2 provided a selective site 
+for the chemical interaction with polysulfides. The RGO offers a good 
+network structure, thereby preventing lithium polysulfide from 
+collapsing, and no aggregates are seen on the CF matrix. Further, it is 
+confirmed by EDX mapping (Fig. 7i–l), representing a uniform distri­
+bution of C, Fe, and S elements on the surface of the CF matrix, which 
+confirms the structural stability and integrity of the FRHS@CF elec­
+trode. The SEM images of the cycled high sulfur loading electrodes in 
+Supplementary information Fig. S11 show the Li2S deposition under 
+high mass loading of cycled electrodes is quite more on the surface of the 
+CF (Supplementary information Fig. S11a–d); the agglomeration of 
+sulfur particles is observed in the EDAX images (Supplementary infor­
+mation Fig. S11g). A potentiostatic discharge plot of Li2S deposition is 
+provided in Supplementary information Fig. S12. For this purpose, the 
+cell was galvanostatically charged to 2.8 V and then potentiostatically 
+discharged at 2.05 V till the current reached 30 μA (5 h).The capacity of 
+Li2S precipitation for FRHS@CF is high, up to 1011 mAh g−1, which 
+indicates the fast conversion of lithium polysulfides to Li2S [45]. 
+Overall, the balanced adsorption and catalytic effect are essential 
+factors in improving electrochemical performance. An efficient 
+Fig. 6. (a) Cycling at higher loading of sulfur 4 mg cm2, (b) EIS of FRHS@CF at 1st and 200th cycle, and (c) the plot of Z’ vs. ω−1/2 in the low-frequency region.  
+Table 1 
+Electrochemical impedance parameters of FRHS@CF electrode for 1st and 200th 
+cycle.  
+FRHS@CF 
+RS (Ω⋅cm2) 
+Rct (Ω⋅cm2) 
+σ (Ω s−1/2) 
+DLi
++ (cm2 s−1) 
+1st  
+3.46  
+3.4  
+12.3 
+4.8 × 10−15 
+200th  
+3.87  
+8.23  
+8.3 
+1.05 × 10−14  
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  
+
+=== 第 8 页 ===
+Journal of Energy Storage 88 (2024) 111585
+8
+electrocatalyst and conductive network in the FRHS@CF electrode 
+suppresses the soluble polysulfides and reduces the capacity decay. 
+FeS2-RGO confines sulfur species by forming stable chemical interac­
+tion, thus converting higher order polysulfides to lower order poly­
+sulfides, and the 3D-CF and RGO provide rapid electron transfer and 
+good electrolyte infiltration, reduce the cell’s impedance upon cycling, 
+provide good Li-ion transport, and maintains structural integrity. This 
+has been further observed from the visual adsorption studies, EIS, 
+postmortem of XPS, and SEM analysis. This work demonstrates that the 
+FRHS@CF electrode provides an advanced practical modification 
+approach to 3D electrode architecture with metal sulfides as a promising 
+catalytic cathode for LSBs. 
+4. Conclusion 
+This work presents FeS2 decorated RGO - HSAC (high surface area 
+carbon) with sulfur-infused (FRHS) composite onto the 3D‑carbon fiber 
+(FRHS@CF) electrode as a cathode for LSBs. The FRHS@CF electrode 
+delivers the initial high discharge capacity of 1165 mAh g−1 at 100 mA 
+g−1. At 500 mA g−1, it exhibits an initial discharge capacity of 740 mAh 
+g−1 and maintains a stable capacity of 400 mAh g−1 with 73 % capacity 
+retention after 300 cycles. Even at a high current density of 1 and 1.5 A 
+g−1 shows a better capacity of 654 and 529 mAh g−1. The FRHS@CF 
+electrode displays a stable electrochemical performance attributed to 
+the rational design of the ion-electron conductive network [46]. The 
+RGO and CF effectively shorten the path of ion migration (fast Li+
+transport, reduce the cell impedance upon cycling) and provide space 
+Fig. 7. XPS analysis of the cycled FRHS@CF electrode (a) survey scan, (b) Fe 2p, (c) S 2p, (d) C 1s, and (e) Li 1s spectra; (f–h) Postmortem SEM images of the cycled 
+FRHS@CF electrode and the EDX mapping images of (i) C, Fe, and S, (j) C, (k) Fe, and (l) S. 
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  
+
+=== 第 9 页 ===
+Journal of Energy Storage 88 (2024) 111585
+9
+for the volume effect of polysulfides with good electrolyte penetration. 
+The charge transfer resistance (Rct) value in the 200th cycle is ⁓ 8.23 Ω. 
+cm2 compared to 1st cycle of ⁓ 3.4 Ω.cm2. FeS2 effectively anchors the 
+catalytic reaction kinetics of lithium polysulfides, thus strengthening the 
+reversibility of the reaction and utilization of sulfur. The overall syner­
+gistic effect of the FRHS@CF electrode with a unique 3D network 
+structure of carbon, metal sulfide, and sulfur provides a multi-benefit 
+that lays out a practical approach for the catalytic cathodes as 
+advanced research towards the next generation LSBs. 
+CRediT authorship contribution statement 
+J. Priscilla Grace: Conceptualization, Data curation, Formal anal­
+ysis, Software, Writing – original draft. Surendra K. Martha: Formal 
+analysis, Investigation, Supervision, Validation, Visualization, Writing – 
+review & editing. 
+Declaration of competing interest 
+The authors declare that they have no known competing financial 
+interests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Data availability 
+Data will be made available on request. 
+Acknowledgments 
+JPG acknowledges DST-INSPIRE (code: IF 190016), Govt. of India, 
+for the fellowship. SKM acknowledges SERB-IRHPA file no. IPA/2021/ 
+000007, Govt. of India, for financial support of the work. 
+Appendix A. Supplementary data 
+Supplementary data to this article can be found online at https://doi. 
+org/10.1016/j.est.2024.111585. 
+References 
+[1] T. Kim, W. Song, D.-Y. Son, L.K. Ono, Y. Qi, Lithium-ion batteries: outlook on 
+present, future, and hybridized technologies, J. Mater. Chem. A 7 (2019) 
+2942–2964. 
+[2] D. Deng, Li-ion batteries: basics, progress, and challenges, Energy Sci. Eng. 3 
+(2015) 385–418. 
+[3] A. Manthiram, An outlook on lithium ion battery technology, ACS Cent. Sci. 3 
+(2017) 1063–1069. 
+[4] T. Maiyalagan, P. Elumalai, Rechargeable Lithium-ion Batteries: Trends and 
+Progress in Electric Vehicles, CRC Press, 2020. 
+[5] T. Li, X. Bai, U. Gulzar, Y. Bai, C. Capiglia, W. Deng, X. Zhou, Z. Liu, Z. Feng, 
+R. Proietti Zaccaria, A comprehensive understanding of lithium–sulfur battery 
+technology, Adv. Funct. Mater. 29 (2019) 1901730. 
+[6] X. Liu, J. Huang, Q. Zhang, L. Mai, Nanostructured metal oxides and sulfides for 
+lithium–sulfur batteries, Adv. Mater. 29 (2017) 1601759. 
+[7] M. Zhao, B.-Q. Li, X.-Q. Zhang, J.-Q. Huang, Q. Zhang, A perspective toward 
+practical lithium–sulfur batteries, ACS Cent. Sci. 6 (2020) 1095–1104. 
+[8] Z. Han, S. Li, Y. Wu, C. Yu, S. Cheng, J. Xie, Challenges and key parameters in 
+exploring the cyclability limitation of practical lithium–sulfur batteries, J. Mater. 
+Chem. A 9 (2021) 24215–24240. 
+[9] A. Manthiram, Y. Fu, Y.-S. Su, Challenges and prospects of lithium–sulfur batteries, 
+Acc. Chem. Res. 46 (2013) 1125–1134. 
+[10] G. Benveniste, H. Rallo, L. Canals Casals, A. Merino, B. Amante, Comparison of the 
+state of lithium-sulphur and lithium-ion batteries applied to electromobility, 
+J. Environ. Manag. 226 (2018) 1–12. 
+[11] G. Xu, B. Ding, J. Pan, P. Nie, L. Shen, X. Zhang, High performance lithium–sulfur 
+batteries: advances and challenges, J. Mater. Chem. A 2 (2014) 12662–12676. 
+[12] S. Feng, Z. Fu, X. Chen, Q. Zhang, A review on theoretical models for lithium–sulfur 
+battery cathodes, InfoMat 4 (2022) e12304. 
+[13] A. Manthiram, S. Chung, C. Zu, Lithium–sulfur batteries: progress and prospects, 
+Adv. Mater. 27 (2015) 1980–2006. 
+[14] J.P. Grace, M. Bhar, S. Ghosh, S.K. Martha, 3D electrode architecture of high 
+surface area carbon-sulfur composite as high energy density cathode for lithium- 
+sulfur battery, J. Alloys Compd. 969 (2023) 172341. 
+[15] J. He, A. Manthiram, A review on the status and challenges of electrocatalysts in 
+lithium-sulfur batteries, Energy Storage Materials 20 (2019) 55–70. 
+[16] H. Wang, W. Zhang, J. Xu, Z. Guo, Advances in polar materials for lithium–sulfur 
+batteries, Adv. Funct. Mater. 28 (2018) 1707520. 
+[17] D. Aurbach, E. Pollak, R. Elazari, G. Salitra, C.S. Kelley, J. Affinito, On the surface 
+chemical aspects of very high energy density, rechargeable Li–sulfur batteries, 
+J. Electrochem. Soc. 156 (2009) A694. 
+[18] D. Liu, C. Zhang, G. Zhou, W. Lv, G. Ling, L. Zhi, Q. Yang, Catalytic effects in 
+lithium–sulfur batteries: promoted sulfur transformation and reduced shuttle 
+effect, Adv. Sci. 5 (2018) 1700270. 
+[19] G. Zhou, H. Tian, Y. Jin, X. Tao, B. Liu, R. Zhang, Z.W. Seh, D. Zhuo, Y. Liu, J. Sun, 
+J. Zhao, C. Zu, D.S. Wu, Q. Zhang, Y. Cui, Catalytic oxidation of Li2S on the surface 
+of metal sulfides for Li−S batteries, Proc. Natl. Acad. Sci. USA 114 (2017) 840–845. 
+[20] J.-H. Zuo, Y.-J. Gong, Applications of transition-metal sulfides in the cathodes of 
+lithium–sulfur batteries, Tungsten 2 (2020) 134–146. 
+[21] G. Zhu, Q. Wu, X. Zhang, Y. Bao, X. Zhang, Z. Shi, Y. Zhang, L. Ma, Designing metal 
+sulfide-based cathodes and separators for suppressing polysulfide shuttling in 
+lithium–sulfur batteries, Nano Res. (2023). 
+[22] L. Chen, X. Li, Y. Xu, Recent advances of polar transition-metal sulfides host 
+materials for advanced lithium–sulfur batteries, Funct. Mater. Lett. 11 (2018) 
+1840010. 
+[23] S. Kim, K. Kim, J. Park, Y. Sung, Role and potential of metal sulfide catalysts in 
+lithium-sulfur battery applications, ChemCatChem 11 (2019) 2373–2387. 
+[24] H. Qin, J. Jia, L. Lin, H. Ni, M. Wang, L. Meng, Pyrite FeS2 nanostructures: 
+synthesis, properties and applications, Mater. Sci. Eng. B 236 (2018) 104–124. 
+[25] K. Zhang, F. Chen, H. Pan, L. Wang, D. Wang, Y. Jiang, L. Wang, Y. Qian, Study on 
+the effect of transition metal sulfide in lithium–sulfur battery, Inorganic Chemistry, 
+Frontiers 6 (2019) 477–481. 
+[26] B. Yan, X. Li, W. Xiao, J. Hu, L. Zhang, X. Yang, Design, synthesis, and application 
+of metal sulfides for Li–S batteries: progress and prospects, J. Mater. Chem. A 8 
+(2020) 17848–17882. 
+[27] Q. Yuan, Y. Chen, A. Li, Y. Li, X. Chen, M. Jia, H. Song, Polysulfides anchoring and 
+enhanced electrochemical kinetics of 3D flower-like FeS/carbon assembly 
+materials for lithium-sulfur battery, Appl. Surf. Sci. 508 (2020) 145286. 
+[28] W. Sun, S. Liu, Y. Li, D. Wang, Q. Guo, X. Hong, K. Xie, Z. Ma, C. Zheng, S. Xiong, 
+Monodispersed FeS2 electrocatalyst anchored to nitrogen-doped carbon host for 
+lithium–sulfur batteries, Adv. Funct. Mater. 32 (2022) 2205471. 
+[29] J. Jacas Biendicho, P. Mazaira, H. Avireddy, C. Zhang, P. Tang, A. Missyul, 
+L. Trilla, J. Arbiol, J.R. Morante, A. Cabot, FeS2-decorated carbon nanofiber as 
+solid phase conversion-type cathode for Li-S batteries, Energies 16 (2023) 4496. 
+[30] J. Wang, G. Yang, J. Chen, Y. Liu, Y. Wang, C. Lao, K. Xi, D. Yang, C.J. Harris, W. 
+Yan, S. Ding, R.V. Kumar, Flexible and high-loading lithium–sulfur batteries 
+enabled by integrated three-in-one fibrous membranes, Adv. Energy Mater. 9 
+(2019) 1902001. 
+[31] M. Bhar, V. Vishwakarma, K. Yalamanchili, S.K. Martha, Unravelling Li-ion storage 
+capability of cobalt oxide anode recovered from spent LiCoO2 cathode via 
+carbothermal reduction, J. Electrochem. Soc. 170 (2023) 090507. 
+[32] X. Ding, C. Du, J. Li, X. Huang, FeS2 microspheres wrapped by N-doped rGO from 
+an Fe-based ionic liquid precursor for rechargeable lithium ion batteries, 
+Sustainable, Energy Fuel 3 (2019) 701–708. 
+[33] Q.-T. Xu, H.-G. Xue, S.-P. Guo, FeS2 walnut-like microspheres wrapped with rGO as 
+anode material for high-capacity and long-cycle lithium-ion batteries, Electrochim. 
+Acta 292 (2018) 1–9. 
+[34] Y. Chen, J. Qin, J. You, X. Chi, C. Du, S. Cheng, rGO@ S aerogel cathode for high 
+performance lithium-sulfur batteries, Int. J. Electrochem. Sci. 17 (2022) 220251. 
+[35] F. Xie, C. Xu, Y. Liang, Z. Tian, C. Ma, S. Xu, Z. Li, Z.U. Rehman, S. Yao, Cubic FeS2 
+enabling robust polysulfide adsorption and catalysis in lithium/sulfur batteries, 
+Journal of Energy Storage 72 (2023) 108712. 
+[36] J. Feng, Y. Li, J. Yuan, Y. Zhao, J. Zhang, F. Wang, J. Tang, J. Song, Energy-saving 
+synthesis of functional CoS2/rGO interlayer with enhanced conversion kinetics for 
+high-performance lithium-sulfur batteries, Front. Chem. 9 (2022) 830485. 
+[37] K. Xi, D. He, C. Harris, Y. Wang, C. Lai, H. Li, P.R. Coxon, S. Ding, C. Wang, R.V. 
+Kumar, Enhanced sulfur transformation by multifunctional FeS2/FeS/S composites 
+for high-volumetric capacity cathodes in lithium–sulfur batteries, Advanced 
+Science 6 (2019) 1800815. 
+[38] A. Raulo, A. Gupta, R. Srivastava, B. Nandan, Cotton cloth templated in situ 
+encapsulation of sulfur into carbon fibers for lithium–sulfur batteries, Chem. 
+Commun. 57 (2021) 544–547. 
+[39] Y. Luo, Y. Fan, S. Wang, Q. Chen, A. Ali, J. Zhu, P.K. Shen, Cobalt phosphide 
+embedded in a 3D carbon frame as a sulfur carrier for high-performance lithium- 
+sulfur batteries, J. Electroanal. Chem. 912 (2022) 116202. 
+[40] J.P. Mwizerwa, Q. Zhang, F. Han, H. Wan, L. Cai, C. Wang, X. Yao, Sulfur- 
+embedded FeS2 as a high-performance cathode for room temperature all-solid-state 
+lithium–sulfur batteries, ACS Appl. Mater. Interfaces 12 (2020) 18519–18525. 
+[41] Y. Zhang, Z. Bakenov, Y. Zhao, A. Konarov, Q. Wang, P. Chen, Three-dimensional 
+carbon fiber as current collector for lithium/sulfur batteries, Ionics 20 (2014) 
+803–808. 
+[42] X. Zhao, D.-A. Zhang, C. Sun, J. Liu, T. Zhao, M. Wang, Y. Song, H. Xu, Q. Wang, 
+Synthesis of hollow S/FeS2@ carbon nanotubes microspheres and their long-term 
+cycling performances as cathode material for lithium-sulfur batteries, 
+J. Electroanal. Chem. 922 (2022) 116724. 
+[43] Q. Wang, C. Guo, Y. Zhu, J. He, H. Wang, Reduced graphene oxide-wrapped FeS2 
+composite as anode for high-performance sodium-ion batteries, Nano-Micro Lett. 
+10 (2018) 30. 
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  
+
+=== 第 10 页 ===
+Journal of Energy Storage 88 (2024) 111585
+10
+[44] Z. Zhang, L. Kong, S. Liu, G. Li, X. Gao, A High-efficiency sulfur/carbon composite 
+based on 3D graphene nanosheet@carbon nanotube matrix as cathode for 
+lithium–sulfur battery, Adv. Energy Mater. 7 (2017) 1602543. 
+[45] C. Zhang, C. Ma, W. Zhang, Y. Wang, Z.U. Rehman, X. Shen, S. Yao, CoFe2O4 
+nanoparticles modified amidation of N-doped carbon nanofibers hybrid catalysts to 
+accelerate electrochemical kinetics of Li-S batteries with high sulfur loading, Chem. 
+Eng. J. 481 (2024) 148374. 
+[46] C. Shen, Y. Liu, Y. Shi, X. Liu, Y. Jiang, S. Huang, J. Zhang, B. Zhao, Construction of 
+ion–electron conduction network on FeS2 as high-performance cathodes enables 
+all-solid-state lithium batteries, J. Colloid Interface Sci. 653 (2024) 85–93. 
+J.P. Grace and S.K. Martha                                                                                                                                                                                                                  

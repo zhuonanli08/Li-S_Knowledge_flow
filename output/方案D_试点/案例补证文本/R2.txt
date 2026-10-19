@@ -1,0 +1,645 @@
+=== 第 1 页 ===
+2105678  (1 of 9)
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+Research Article
+High Surface Area N-Doped Carbon Fibers with Accessible 
+Reaction Sites for All-Solid-State Lithium-Sulfur Batteries
+Xiao Sun, Qiang Li, Daxian Cao, Ying Wang, Alexander Anderson, and Hongli Zhu*
+X. Sun, Q. Li, D. Cao, Y. Wang, A. Anderson, H. Zhu
+Department of Mechanical and Industrial Engineering
+Northeastern University
+360 Huntington Avenue, Boston, MA 02115, USA
+E-mail: h.zhu@neu.edu
+DOI: 10.1002/smll.202105678
+the pulverization of the electrodes and 
+induce fast capacity decay.[5] Besides these 
+challenges, point-point contact in solid 
+electrolyte can also render poor lithium-ion 
+transfer both inside the sulfur electrode 
+and at the sulfur/electrolyte interface, 
+representing another main limitation of 
+ASSLSBs.[6] Therefore, it is crucial to create 
+advanced cathode electrode with improved 
+electron and ion transfer in ASSLSBs.[2,4]
+In liquid cells, the highly porous carbon 
+with a large specific surface area has been 
+widely employed to address the chal-
+lenges in electrical conductivity, because 
+the porous carbon can provide sufficient 
+reaction sites for sulfur, accommodate 
+the volume change during cycling, and 
+confine the sulfur to address the shuttle 
+effect.[7,8] Attributed to the excellent flowa-
+bility and the endowed capillary effects, 
+liquid electrolytes have high accessibility to 
+most sulfur that has been confined in the 
+porous carbon and even the pores buried 
+deep inside the carbon, which results in high utilization of sulfur. 
+Different from the liquid Li-S batteries that the liquid electrolyte 
+can access pores inside due to its superior mobility and capillary 
+effect, ASSLSBs required more elaborate design of porous carbon 
+structure beyond the high electrical conductivity and high surface 
+area, because SEs can only contact the sulfur located at the out-
+side surface of porous carbon and the sulfur confined deep in 
+the pores inside the carbon is generally inaccessible for SEs. The 
+sulfur hosted in these inaccessible pores is ionically insulated 
+resulting in low reaction kinetic and poor active material utiliza-
+tion. Ideally, in the ASSLSBs, the pores should be located on the 
+surface of the porous carbon to ensure the approachability of the 
+SEs, while the carbon used should also have high electrical con-
+ductivity. However, such structural design of porous carbon fiber 
+has not been reported for ASSLSBs yet, though some porous car-
+bons have been used for ASSLSBs.[5,9]
+Traditionally carbon fibers are made from polyacrylonitrile 
+(PAN) polymers through spinning, thermostabilization and 
+carbonization. The PAN-derived porous carbon fibers (PPCF) 
+has high Young's modulus (230–588  GPa) and high electrical 
+conductivity (55–143 kS m–1).[10] In this work, based on the PAN 
+carbon fiber, we developed a porous carbon fiber with a core-
+shell structure and employed it in the ASSLSBs as an electrically 
+conductive additive in the cathode for the first time. A sulfide 
+electrolyte, Li6PS5Cl, was used because of high ionic conduc-
+tivity (2  mS  cm–1).[11] The fabricated porous carbon fiber has 
+addressed the abovementioned requirements of carbon for the 
+Porous carbon plays a significant role in all-solid-state lithium-sulfur batteries 
+(ASSLSBs) to enhance the electronic conductivity of sulfur. However, the 
+conventional porous carbon used in cell with liquid electrolyte exhibits low 
+efficiency in ASSLSBs because the immobile solid electrolyte (SE) cannot reach 
+sulfur confined in the deep pores. The structure and distribution of pores in 
+carbon highly impact the electrochemical performance of ASSLSBs. Herein, a 
+N-doped carbon fiber with micropores located only at the surface with an  
+ultrahigh surface area of 1519 m2 g–1 is designed. As the porous layer is only  
+on the surface, the sulfur hosted in the pores can effectively contact SE; mean-
+while the dense core provides excellent electrical conductivity. Therefore, this 
+structurally designed carbon fiber enhances both electron and ion accessibili-
+ties, promotes charge transfer, and thus dramatically improves the reaction 
+kinetic in the ASSLSBs and boosts sulfur utilization. Compared to the vapor 
+grown carbon fibers, the ASSLSBs using PAN-derived porous carbon fibers 
+exhibit three times enhancement in the initial capacity of 1166 mAh g–1 at C/20. 
+An exceedingly cycling stability of 710 mAh g–1 is maintained after 220 cycles at 
+C/10, and satisfactory rate capability of 889 mAh g–1 at C/2 is achieved.
+The ORCID identification number(s) for the author(s) of this article 
+can be found under https://doi.org/10.1002/smll.202105678.
+1. Introduction
+All-solid-state lithium sulfur batteries (ASSLSBs) have attracted 
+extensive attention because of their remarkable safety and 
+ultrahigh theoretical energy density (2600  Wh  kg–1), which is 
+tenfold higher than that of current commercial lithium-ion bat-
+teries.[1] In comparison with Li-S batteries using organic liquid 
+electrolyte, ASSLSBs successfully avoid the active material loss 
+caused by shuttle effects of polysulfides, which can signifi-
+cantly improve cycling stability.[2] However, the energy densities 
+of current ASSLSBs are still much lower than the theoretical 
+value. The most significant challenge in ASSLSBs is the slug-
+gish charge transfer, including electrons and ions, which can 
+render high overpotential, low voltage efficiency, poor energy 
+efficiency, and low sulfur utilization.[3,4] More importantly, owing 
+to the huge volume expansion and shrinking of sulfur in the 
+cathode during cycling, the sluggish charge transfer can cause 
+Small 2022, 18, 2105678
+
+=== 第 2 页 ===
+2105678  (2 of 9)
+www.advancedsciencenews.com
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+ASSLSBs. Systematical analyses of the fiber morphology, surface 
+area, pore size distribution, and chemical composition of the 
+PPCF revealed that our porous carbon fiber had an ultrahigh-
+specific surface area after a solid potassium hydroxide (KOH) 
+activation process, which is highly desired in the sulfur cathode 
+to provide enough reaction sites. More importantly, the pores of 
+the PPCF only distributed on the surface after solid-state activa-
+tion, enabling a good contact with SEs. Besides the high sur-
+face area, the one-dimensional (1D) structure of PPCF benefits 
+the building of a low percolation threshold of carbon additives 
+to facilitate electron transfer in the entire electrodes. All these 
+merits of our PPCF make it a highly promising carbon additive 
+for ASSLSBs. Additionally, as compared to a most widely used 
+commercial carbon additive, vapor grown carbon fibers (VGCF), 
+which shows a typical 1D fibrous morphology, our designed 
+porous carbon fiber has exceeded performance. This work sheds 
+light on the development of advanced carbon additives for high-
+performance ASSLSBs.
+2. Results and Discussion
+As the only electron conductor in the cathode, carbon additive 
+plays a critical role in determining the electrochemical perfor-
+mance of ASSLSBs. The carbon additive is desired for its large 
+specific surface area on the outside surface to enable sufficient 
+electron accessibility to sulfur and non-block to ion conduc-
+tion. Here, PPCF and VGCF, which own 1D morphology, were 
+compared. As illustrated in Figure 1a, VGCF exhibited a dense 
+fibrous morphology with limited surface pores resulting in a 
+low specific surface area. The sulfur was mostly in a bulky state 
+under the limited surface area and no porous confinement in 
+VGCF. When composited with SE in the cathode, the three com-
+ponents (VGCF, sulfur, and SE) were randomly distributed with 
+insufficient contact (Figure 1b). Considering the surface area of 
+VGCF was very low, the contact area between sulfur and VGCF 
+was limited. Therefore, only a tiny fraction of sulfur contacted 
+both the VGCF and SE to be utilized in the electrochemical reac-
+tion, which led to a low sulfur utilization and capacity (Figure 1c).
+In comparison, the PPCF with high specific surface area and 
+core-shell structure was designed to address the above challenges 
+in VGCF. Figure  1d illustrates the morphology of PPCF-S. The 
+PPCF showed a similar fibrous morphology but with a larger 
+diameter compared to VGCF. More interestingly, the PPCF 
+owned a unique core-shell structure where a porous layer covered 
+the dense core, which contributed to a large outer specific surface 
+area. The surface pores were generated during the solid etching 
+process by solid KOH. After the sulfur infiltration, the PPCF-S 
+maintained its fibrous morphology where the sulfur was confined 
+in the micropores on the porous surface layer. Figure 1e illustrates 
+the distribution of sulfur, PPCF, and SE in the cathode. Attrib-
+uting to the high surface area, PPCF functioned not only as the 
+electron conductor but also as the host for sulfur. The dense core 
+of PPCF provided fast electron conduction, while the sulfur was 
+confined in the micropores on the surface, avoiding the formation 
+of bulky sulfur. More importantly, this unique structure enabled 
+sulfur to have good contact with both carbon and SEs. As depicted 
+in Figure  1f, the confined sulfur exhibited high electrons and 
+ions accessibility, contributing to remarkable sulfur utilization in 
+the solid-state batteries. The micropores could also alleviate the 
+volume change of sulfur during cycling. All these features ena-
+bled PPCF a promising conductive additive for ASSLSBs.
+Figure 1.  Schematic illustration of the structural effect of carbon additive in the cathode. The morphology of a) VGCF and d) PPCF, and corresponding 
+effects on sulfur deposition. The distributions of sulfur, carbon additive, and SE in the cathodes using b) VGCF and e) PPCF as carbon additives in 
+ASSLSBs, individually. The scenarios that the electrons and ions access to the sulfur in cathodes using c) VGCF and f) PPCF as carbon additives, 
+individually.
+Small 2022, 18, 2105678
+ 16136829, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smll.202105678 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+2105678  (3 of 9)
+www.advancedsciencenews.com
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+The preparation of the porous PPCF fiber was conducted 
+with electrospinning followed by stabilization, carbonization, 
+and activation processes in sequence, as depicted in Figure 2a. 
+The PAN powder was dissolved in the N, N-dimethylforma-
+mide (DMF) to form a 15 wt% solution. When extruded from 
+the needle, the PAN solution droplet experienced electrification 
+and formed a jet.[12] After stretching and elongation, the fibers 
+were collected on aluminum (Al) foil. Before the carboniza-
+tion, the as-spun PAN fibers experienced a stabilization process 
+in the air at 250 °C, where the CN was converted into CN 
+(accompanied by the formation of the cyclic structure). After fur-
+ther annealing process in an inert nitrogen (N2) atmosphere at 
+1000 °C, the PAN was carbonized into the pre-graphitic carbon 
+structure to prepare a PAN-derived carbon fiber (PCF). To obtain 
+the porous structure with enlarged surface area, an activation 
+treatment with solid KOH was applied. In this process, the 
+carbon fiber was mixed with KOH powder and then treated at 
+1000 °C in an inert N2 atmosphere. The carbon fiber was etched 
+by KOH through the chemical activation, physical activation, 
+and the intercalation of metallic potassium simultaneously (the 
+detailed reaction is listed in Equation (S1)–(S5), Supporting 
+Information).[13] Because KOH surrounded the surface of the 
+carbon initially, only the surface of the carbon fiber was etched 
+through the solid reaction, and a unique core-shell structure that 
+a porous carbon layer covered on the dense core was success-
+fully prepared.
+Figure 2.  The morphology comparison between PPCF and VGCF. a) The preparation of PPCF through electrospinning, stabilization, carbonization, 
+and activation processes. b–d) SEM images of PPCF under different magnifications to show the core-shell structure. e) SEM image of PPCF and cor-
+responding EDX mapping of f) carbon and g) nitrogen elements. h–j) SEM images of VGCF under different magnification.
+Small 2022, 18, 2105678
+ 16136829, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smll.202105678 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+2105678  (4 of 9)
+www.advancedsciencenews.com
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+Scanning electron microscopy (SEM) was employed to 
+investigate the morphology evolution of PPCF. The as-spun 
+PAN showed a fibrous morphology with length in hundreds 
+of micrometers and a diameter of around one micrometer 
+(Figure S1, Supporting Information). After the stabilization, car-
+bonization, and grinding processes, the fiber length of PCF was 
+reduced to ≈50 µm and the surface was very smooth, demon-
+strating a nonporous structure (Figure S2, Supporting Informa-
+tion). After the activation process, the PCF turned to be PPCF, 
+the surface of which became coarse and was anchored with 
+abundant nanoparticles (Figure S3, Supporting Information). 
+These particles could be the reaction products of KOH, like 
+K2O and K2CO3 (Equations (S1)–(S5), Supporting Information). 
+After being treated with dialysis, the PPCF exhibited a unique 
+core-shell structure, as shown in Figure 2b–d. The PPCF main-
+tained the 1D fibrous morphology well. The average length was 
+still over 50 µm, and the diameter did not change (Figure 2b). 
+When further magnified and depicted in Figure 2c, the surface 
+of PPCF was covered by a rough layer and the dense core fiber 
+was observed in some bare regions. Figure 2d shows the cross-
+section morphology of PPCF, where the dense fiber core was 
+conformally covered by a thin, porous layer. The surface porous 
+layer originated from the activation by KOH. Due to the solid 
+reactions, the porous layer mainly existed on the surface of the 
+carbon (Figure S4, Supporting Information). The dense core 
+fiber could contribute to excellent electron conduction while the 
+porous shell provides enlarged surface area to host sulfur.
+In addition, SEM Energy Dispersive X-ray analysis (EDX) 
+elemental mapping of PPCFs (Figure  2e) revealed that there 
+were uniform C (Figure  2f) and N elements (Figure  2g) dis-
+tribution in PPCFs. The N element arose from the remaining 
+N-containing groups, like pyrrolic N, graphitic N, pyridine N, 
+oxidized N, which were formed in the dehydrogenation process. 
+For comparison, VGCF, which is a commercial carbon additive 
+with a 1D structure, was also investigated as a control sample, 
+as shown in Figure 2h–j. Obviously, the VGCF exhibited a typ-
+ical fibrous morphology, but the fiber length and diameter were 
+much lower than PPCF. The length was around 10 µm and the 
+diameter was 200 nm. In comparison with the straight PPCF, 
+the VGCF tangled with each other. More importantly, the VGCF 
+was a dense fiber with a smooth surface without pores, which 
+has limited surface area.
+As aforementioned, carbon additives with a large specific 
+surface area are desired to provide sufficient reaction sites for 
+sulfur. The specific surface area and pore structure of both 
+PPCF and VGCF were investigated by Brunauer–Emmett–
+Teller (BET) via N2 adsorption-desorption isotherms. Figure 3a 
+displays the N2 adsorption/desorption isothermal profiles of 
+PPCF and VGCF. The PPCF possessed an ultrahigh BET spe-
+cific surface area of 1519  m2  g–1, while the VGCF exhibited 
+much lower value of 191 m2 g–1. The profile of VGCF showed 
+a typical type III shape indicating a nonporous or micropo-
+rous structure, based on the International Union of Pure and 
+Applied Chemistry (IUPAC) classification.[14] In contrast, 
+the N2 adsorption isotherm of PPCF has displayed the type I 
+shape, where the N2 adsorption mainly happened at the rela-
+tive pressures lower than 0.1 attributing to the wide presence 
+of micropores (<2  nm). No hysteresis cycle was found, fur-
+ther suggesting the PPCF is predominantly populated with 
+micropores. The pore size distribution of both PPCF and VGCF 
+are compared in Figure 3b. It is evident that the predominant 
+pores exhibited a small size lower than ten angstroms. In com-
+parison, there are only a negligible fraction of pores in VGCF. 
+The numerous micropores explained the ultrahigh-specific area 
+of PPCF in the surface layer that originated from the activation 
+process by solid KOH.
+X-ray photoelectron spectra (XPS) was used to compare the 
+chemical structures of PPCF and VGCF. Figure 3c displays the 
+survey spectra of PPCF and VGCF with the characteristic peaks 
+of O 1s and C 1s, with a tiny peak attributed to N 1s observed 
+in PPCF, indicating that N atoms were doped in the PPCF. The 
+N derived from PAN and the content was determined to be 
+1.27 at%. The high-resolution XPS spectra of C 1s, N 1s, and O 
+1s of PPCF and VGCF were further analyzed to investigate the 
+bonding configuration. The C 1s spectrum of PPCF was decon-
+voluted into peaks located at 284.5, 285.9, and 288.9 eV, which 
+can be indexed to CC, CN/COC, and CO, respec-
+tively, as depicted in Figure 3d.[15,16] The main peak located at 
+284.5  eV demonstrated that there was a large proportion of 
+sp2-C, suggesting a high degree of graphitization. The presence 
+of COC and CO bonds supported the activation process 
+by the KOH as introduced. The high-resolution N 1s spectra 
+shown in Figure 3e reveals that the N atoms in PPCF were in 
+the form of pyrrolic N (399.9 eV), quaternary N (401.0 eV), and 
+oxidized N (402.8 eV).[15] It has been reported that the quater-
+nary N could enhance the electron conduction and the oxidized 
+N show an excellent catalytic effect on oxygen redox catalysis.[17] 
+Figure  3f displays the deconvoluted peaks of O 1s located at 
+531.7, 533.1, and 535.4 eV corresponding to CO, COC, and 
+HOH from adsorbed water, respectively.[18] For comparison, 
+the surface chemistry of VGCF was also investigated. Figure 3g 
+shows the C 1s spectrum of VGCF where peaks located at 284.4, 
+285.6, 287.3, and 290.8  eV are attributed to CC, COC, 
+CO, and π–π* bonding, respectively.[19] Moreover, there was 
+no detected signal of N atoms as depicted in Figure 3h, which 
+was the largest difference between VGCF and PPCF in chem-
+ical structure. Similarly, the O 1s spectrum of VGCF shown 
+in Figure  3i was deconvoluted into peaks at 531.7, 533.4, and 
+536.2 eV belonging to the CO, COC, and HOH from 
+adsorbed water, respectively.[18]
+The cathodes using PPCF and VGCF as carbon additives 
+were prepared through a ball milling mixing method fol-
+lowed with an annealing process. Based on the composition, 
+the cathode using PPCF and VGCF as carbon additives were 
+named S-PPCF-SE and S-VGCF-SE. Figure 4a,b compare the 
+SEM images of S-PPCF-SE and S-VGCF-SE cathodes. It is clear 
+that the length of both PPCF and VGCF were reduced to around 
+5 µm after the ball milling process. However, the distribution of 
+sulfur, SE, and carbon additives in these two cathodes are dif-
+ferent. In S-PPCF-SE, the PPCF was uniformly dispersed with 
+particles in size of around one micrometer. It was easy to iden-
+tify these particles. In comparison, the VGCF was embedded 
+into a muddy matrix and no obvious particles were observed. 
+Considering the sulfur was generally in a muddy morphology 
+and SE had its own particle shape, the particles observed in 
+S-PPCF-SE were mainly the SE particles. The muddy matrix 
+in S-VGCF-SE should be the sulfur. Therefore, in S-VGCF-SE, 
+the sulfur was randomly distributed. In contrast, the sulfur 
+Small 2022, 18, 2105678
+ 16136829, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smll.202105678 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+2105678  (5 of 9)
+www.advancedsciencenews.com
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+in S-PPCF-SE was not clearly detected. During the annealing 
+process, the melted sulfur could infiltrate the porous layer on 
+PPCF. Figure S5 (Supporting Information) displays the mor-
+phologies of the S-PPCF-SE before annealing. The sample was 
+covered by a muddy matrix which was electron charging sug-
+gesting very poor electronic conductivity. These results demon-
+strated that demonstrates the S was randomly distributed in the 
+sample. In comparison, sulfur can infiltrate the micropores in 
+PPCF during the following annealing process.
+Figure  4c shows the X-ray diffraction patterns of PPCF, 
+Li6PS5Cl, and S-PPCF-SE before and after annealing. The 
+PPCF showed a broad peak located at 24°. Meanwhile, the 
+Li6PS5Cl exhibited a high degree of crystallization, and all the 
+peaks could be indexed to the cubic space groups for argyro-
+dite types, F-43m. After the ball milling process, there were 
+some new sharp peaks observed in S-PPCF-SE in comparison 
+with pure Li6PS5Cl. These peaks were attributed to the sulfur 
+(PDF#83-2284),[20] demonstrating the sulfur was still in the 
+crystalline state. However, after further annealing treatment, 
+the intensity of the peak located at 23° was reduced consid-
+erably. This phenomenon also happened in S-VGCF-SE, as 
+depicted in Figure S6 (Supporting Information). This phenom-
+enon was also observed in other porous carbon and explained 
+by the crystalline sulfur was incorporated in the carbon frame-
+work after melting infiltration process.[8]
+Raman spectra were utilized to further analyze the S-PPCF-
+SE, as shown in Figure 4d. Two prominent peaks at 1378 and 
+1591  cm–1 belonged to the D and G bands of PPCF, respec-
+tively.[21] The D and G bands corresponded to the disordered 
+structures of sp3 carbon and the stretching mode of sp2 carbon. 
+The intensity ratio of the D band and G band (ID/IG) was often 
+used to evaluate the crystallization degree of carbon. Here the 
+ID/IG was 0.93 demonstrating the formation of a large pro-
+portion of graphitic carbon during the carbonization process. 
+Figure 3.  Specific surface area and chemical structure comparisons between PPCF and VGCF. a) N2 adsorption/desorption isothermal profiles and 
+b) pore size distributions of PPCF and VGCF. c) Survey X-ray photoelectron spectra of both PPCF and VGCF. High-resolution XPS spectra of d) C 1s, 
+e) N 1s and f) O 1s in PPCF, g) C 1s, h) N 1s, and i) O 1s in VGCF.
+Small 2022, 18, 2105678
+ 16136829, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smll.202105678 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+2105678  (6 of 9)
+www.advancedsciencenews.com
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+Meanwhile, the peaks located at 203, 268, and 428 cm–1 belong 
+to the tetrahedra PS43– unit in Li6PS5Cl, while the peaks at 154, 
+225, and 478 cm–1 were attributed to the SS bond in sulfur.
+Figure  4e displays the thermogravimetric analysis (TGA) 
+profiles of S-PPCF-SE, sulfur, and SE to confirm the exact ratio 
+of sulfur in cathode. The Li6PS5Cl shows a high stability from 
+room temperature to 800 °C, further confirming the excellent 
+thermal stability of sulfide SE. It is obvious that S-PPCF-SE, 
+and sulfur, showed a huge weight loss at around 300 °C attrib-
+uting to the sublimation of sulfur. The sulfur mass loading in 
+S-PPCF-SE is 36%.
+The distribution of sulfur in the cathode highly impacted 
+the performance of the entire battery. Figure  4f–i show the 
+SEM images of the PPCF fiber in the S-PPCF-SE and the cor-
+responding EDX element mapping of C, P, and S. Compared 
+with the pristine PPCF, the surface of PPCF in S-PPCF-SE 
+was relatively smooth, explained by the infiltration of sulfur in 
+the porous structure of PPCF. The distribution of sulfur and 
+Li6PS5Cl can be distinguished by the element mapping of P. 
+As shown in Figure 4h, there was no P element on the PPCF, 
+but the S element presented, suggesting that the S element on 
+PPCF was derived from the sulfur, not the Li6PS5Cl. It proved 
+that the sulfur was successfully infiltrated in PPCF. To further 
+prove this conclusion, PPCF and sulfur were directly mixed and 
+annealed. As displayed in Figure S7 (Supporting Information), 
+there was no aggregation of sulfur observed and the PPCF was 
+clearly distinguished, demonstrating sulfur was all infiltrated in 
+the PPCF.
+To evaluate the electrochemical performances of S-PPCF-SE 
+and S-VGCF-SE, ASSLSBs coupling these two cathodes with an 
+In-Li anode was investigated in the voltage range of 0.7-2.7 V 
+(vs, In-Li). Figure 5a displays the galvanostatic charge/dis-
+charge profiles of ASSLSBs using S-PPCF-SE, S-PCF-SE, and 
+S-VGCF-SE as cathodes at the current rate of C/20 in the ini-
+tial cycle. Obviously, as depicted in the inset figure, the S-PCF-
+SE delivered a negligible capacity of 0.2  mAh  g–1, suggesting 
+a poor reaction kinetic and low sulfur utilization. In a signifi-
+cant contrast, S-PPCF-SE showed a high charge (delithiation) 
+capacity of 1061 mAh g–1 and discharge (lithiation) capacity of 
+1166 mAh g–1 initially. The greatly enhanced capacity was attrib-
+uted to the enlarged specific surface area of PPCF. In contrast, 
+S-VGCF-SE delivered a charge capacity of 242 mAh g–1 and dis-
+charge capacity of 269 mAh g–1, which are dramatically reduced. 
+The unique core-shell structure of PPCF contributes to the 
+higher utilization of sulfur and the enhancement in capacity. 
+In addition, S-PPCF-SE and S-VGCF-SE showed only one pair 
+of discharge/charge plateau demonstrating one-step conver-
+sion between sulfur and Li2S in cycling. This direct conversion 
+Figure 4.  Characterization of cathodes utilizing PPCF and VGCF. SEM images of a) S-PPCF-SE and b) S-VGCF-SE cathodes. c) XRD patterns of S-PPCF-
+SE before and after annealing, PPCF, Li6PS5Cl and sulfur d) Raman spectra of S-PPCF-SE, and e) TGA of S-PPCF-SE, sulfur, and Li6PS5Cl. f) SEM image 
+and EDX elemental mapping of g) C, h) P, and i) S of the S-PPCF-SE.
+Small 2022, 18, 2105678
+ 16136829, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smll.202105678 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+2105678  (7 of 9)
+www.advancedsciencenews.com
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+(excluding the formation of lithium polysulfides) contributes to 
+the solid reaction.[22] The potentials in both cells at 50% of the 
+state of charge (SOC) and depth of discharge (DOD) are utilized 
+to evaluate the reaction kinetics. As shown in Figure  5a, the 
+voltage gap of S-VGCF-SE is 748 mV (2.194 V at 50% of SOC 
+and 1.446 V at 50% of DOD). In comparison, the voltage gap of 
+S-PPCF-SE is 599 mV (2.102 V at 50% of SOC and 1.503 V at 
+50% of DOD), which is 149 mV smaller than S-VGCF-SE. The 
+reduced overpotential explains the faster reaction kinetic and 
+higher voltage efficiency in S-PPCF-SE.
+The dramatic capacity difference was highly related to the 
+carbon additives. The differential capacity (dQ/dV) curves of 
+the ASSLSBs in the first cycle were compared in Figure  5b 
+to analyze the reaction kinetic. Both cells displayed only one 
+pair of reduction/oxidation peaks during charge and dis-
+charge, aligning with the plateaus in charge/discharge pro-
+files. S-VGCF-SE sample had the reduction/oxidation peaks at 
+1.56/2.20 V (vs In-Li). In comparison, S-PPCF-SE showed the 
+reduction peak at 1.52 V and the oxidation peak at 2.08 V. The 
+peaks separation between oxidation and reduction onset poten-
+tial in S-VGCF-SE is 0.64  V and 0.56  V in S-PPCF-SE, dem-
+onstrating the S-PPCF-SE owns much faster reaction kinetic. 
+Notably, the S-PPCF-SE showed an anodic peak with a high 
+intensity of 3156 mAh g–1 V–1 and a cathodic peak with an inten-
+sity of 4367 mAh g–1 V–1. In comparison, the S-VGCF-SE shows 
+a weak anodic peak with an intensity of 1010 mAh g–1 V–1 and 
+a cathodic peak with an intensity of 1268 mAh g–1 V–1. Though 
+the reduction potential is lower, S-PPCF-SE showed an ear-
+lier reduction and much larger discharge capacity than those 
+of S-VGCF-SE, demonstrating the utilization of sulfur in the 
+S-PPCF-SE cathode was much better than S-VGCF-SE. When 
+further oxidized, the S-PPCF-SE showed earlier oxidation and 
+higher capacity than S-VGCF-SE further suggesting enhanced 
+reaction kinetics.
+Figure  5c displays the rate performances of the ASSLSBs 
+utilizing PPCF and VGCF as carbon additives, respectively. 
+Obviously, the ASSLSB using PPCF exhibited much higher 
+capacities than the one using VGCF under the same rate. 
+Remarkable rate capacities of 1117, 1364, 1129, and 873 mAh g–1 
+(on average) at current rates of C/20, C/10, C/5, and C/2, respec-
+tively. Moreover, the capacity recovered to 1021 mAh g–1 when 
+the current rates changed from C/2 to C/20, demonstrating out-
+standing rate performance. In comparison, the ASSLSB using 
+VGCF delivered a very low capacity of 250 mAh g–1 even at a 
+low current rate of C/20. The capacity dropped to 100 mAh g–1 
+when cycled at C/2. The distinctly boosted rate performance 
+was attributed to the enhanced electron and ion accessibilities 
+derived from the unique core-shell structure of PPCF. The slug-
+gish reaction kinetics in ASSLSB using VGCF explained the 
+poor performance.
+The cycling performance of S-PPCF-SE and S-VGCF-SE 
+were further investigated in the ASSLSBs measured at C/10, 
+as displayed in Figure  5d. Both cells were activated for three 
+cycles at C/20 before cycling. It is impressive that a high initial 
+charge capacity of 1166  mAh  g–1 was achieved in S-PPCF-SE, 
+in contrast to the low capacity of 252 mAh g–1 in S-VGCF-SE. 
+During cycling, the capacity of S-PPCF-SE gradually decreased 
+to 710 mAh g–1 in the initial 50 cycles and then kept stable for 
+over 200 cycles. The initial capacity loss may be attributed to 
+the sulfur in S-PPCF-SE that was dislodged from the PPCF. In 
+Figure 5.  Electrochemical performance evaluation. a) Galvanostatic charge/discharge profiles of ASSLSBs using S-PPCF-SE, S-PCF-SE, and S-VGCF-SE 
+as cathodes at the current rate of C/20. b) Comparison of dQ/dV profiles for the first cycle in ASSLSBs. c) Performances at rates ranging from C/20 to 
+C/2. d) Long-term cycling performance comparison at the rate of C/10. All the cells are tested at room temperature.
+Small 2022, 18, 2105678
+ 16136829, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smll.202105678 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+2105678  (8 of 9)
+www.advancedsciencenews.com
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+the ball milling and following annealing processes, not all the 
+sulfur was embedded inside the PPCF.
+To further investigate the stability of the PPCF, the mor-
+phology of S-PPCF-SE after cycling was presented in Figure S8 
+(Supporting Information). Compared with an electrode prior to 
+cycling, the cycled electrode showed decreased surface rough-
+ness and became even denser. It was interesting that the size of 
+the PPCF slightly increased and was surrounded by the amor-
+phous-like matrix. Considering the volume expansion of sulfur 
+during cycling and the pressure generated by the pressurized 
+cell, the structure of PPCF broke to some extent, in agreement 
+with the slow capacity degradation in initial cycles.
+3. Conclusion
+In summary, an advanced porous carbon fiber, highlighted with 
+a unique core-shell structure, was employed in the cathode of 
+ASSLSBs. With an activation process by solid KOH, an ultra-
+high specific surface area of 1519  m2  g–1 was obtained, with 
+the pores were mainly located at the outer surface of the fiber. 
+This unique structure promotes the contact of sulfur with both 
+electron conductive carbons and ion conductive SEs, enhancing 
+the charge transfer and electrochemical reaction kinetics. The 
+ultrahigh-specific surface area enabled sufficient area to host 
+sulfur, addressing the low electronic conductivity of sulfur. The 
+confinement of sulfur in the micropores avoided the formation 
+of bulky sulfur and therefore improved sulfur utilization. Mean-
+while, the percolation of the 1D fibers accelerated the electron 
+conduction in the entire electrode. All of these merits explain 
+the remarkable rate performances and cycling performance of 
+ASSLSBs utilizing PPCF as carbon additives. Compared with 
+S-VGCF-SE, the S-PPCF-SE showed an overpotential greatly 
+reduced by 149  mV. In the dQ/dV measurement, S-PPCF-SE 
+showed strong anodic and cathodic peaks with high intensity of 
+3156 and 4367 mAh g–1 V–1 individually which are significantly 
+higher than 1010 and 1268  mAh  g–1  V–1 in S-VGCF-SE, dem-
+onstrating a greatly improved reaction kinetics. A remarkable 
+rate performance of 889  mAh  g–1 at C/2 for S-PPCF-SE was 
+achieved. When cycled at C/10, an exceedingly high capacity of 
+710 mAh g–1 was maintained after 220 cycles. In comparison, 
+the ASSLSBs using VGCF as carbon additive delivered a low-
+rate capacity of 100  mAh  g–1 at C/2. The structural design in 
+this work will inspire future research for designing porous 
+carbon additives in high energy density ASSLSBs.
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+X.S., Q.L., and D.C. contributed equally to this work. H.Z. and X.S. 
+acknowledge the financial support from National Science Foundation 
+under Award Number CBET-ES-1924534. The authors thank Dr. Joshua 
+Gallaway in Chemical Engineering at Northeastern University for the 
+sharing of Raman measurement. The authors also acknowledge the 
+Northeastern University Center for Renewable Energy Technology 
+(NUCRET) for the using of SEM. The authors acknowledge the Kostas 
+Nanomanufacturing Research Center for sharing the XRD. The authors 
+also extend their gratitude to the Center for Nanoscale Systems (CNS) 
+Harvard for providing access to XPS and BET.
+Conflict of Interest
+The authors declare no conflict of interest.
+Data Availability Statement
+Research data are not shared.
+Keywords
+polyacrylonitrile-derived carbon fibers, porous structure, reaction 
+kinetics, solid-state batteries, sulfur cathodes, surface area
+Received: September 16, 2021
+Revised: October 19, 2021
+Published online: December 1, 2021
+[1]	 a) T. Placke, R. Kloepsch, S. Dühnen, M. Winter, J. Solid State Elec-
+trochem. 2017, 21, 1939; b) W. Kang, N. Deng, J. Ju, Q. Li, D. Wu, 
+X. Ma, L. Li, M. Naebe, B. Cheng, Nanoscale 2016, 8, 16541.
+[2]	 X. Yang, J. Luo, X. Sun, Chem. Soc. Rev. 2020, 49, 2140.
+[3]	 H. Pan, Z. Cheng, P. He, H. Zhou, Energy Fuels 2020, 34, 11942.
+[4]	 D.  Cao, Y.  Zhao, X.  Sun, A.  Natan, Y.  Wang, P.  Xiang, W.  Wang, 
+H. Zhu, ACS Energy Lett. 2020, 5, 3468.
+[5]	 X.  Yao, N.  Huang, F.  Han, Q.  Zhang, H.  Wan, J. P.  Mwizerwa, 
+C. Wang, X. Xu, Adv. Energy Mater. 2017, 7, 1602923.
+[6]	 a) E. Umeshbabu, B. Zheng, Y. Yang, Electrochem. Energy Rev. 2019, 
+2, 199; b) C. Yu, S. Ganapathy, E. R. H. v. Eck, H. Wang, S. Basak, 
+Z. Li, M. Wagemaker, Nat. Commun. 2017, 8, 1086.
+[7]	 D. Cao, Y. Jiao, Q. Cai, D. Han, Q. Zhang, Y. Ma, A. Dong, H. Zhu, 
+J. Mater. Chem. A 2019, 7, 3289.
+[8]	 X. Ji, K. T. Lee, L. F. Nazar, Nat. Mater. 2009, 8, 500.
+[9]	 a) T.  Kobayashi, Y.  Imade, D.  Shishihara, K.  Homma, M.  Nagao, 
+R.  Watanabe, T.  Yokoi, A.  Yamada, R.  Kanno, T.  Tatsumi, J. Power 
+Sources 2008, 182, 621; b) L.-P.  Hou, H.  Yuan, C.-Z.  Zhao, L.  Xu, 
+G.-L. Zhu, H.-X. Nan, X.-B. Cheng, Q.-B. Liu, C.-X. He, J.-Q. Huang, 
+Q.  Zhang, Energy Storage Mater. 2020, 25, 436; c) S.  Kinoshita, 
+K.  Okuda, N.  Machida, M.  Naito, T.  Sigematsu, Solid State Ionics 
+2014, 256, 97; d) H. Nagata, Y. Chikusa, J. Power Sources 2014, 263, 
+141; e) P. Zhu, C. Yan, J. Zhu, J. Zang, Y. Li, H. Jia, X. Dong, Z. Du, 
+C. Zhang, N. Wu, M. Dirican, X. Zhang, Energy Storage Mater. 2019, 
+17, 220.
+[10]	 a) H. Khayyam, R. N. Jazar, S. Nunna, G. Golkarnarenji, K. Badii, 
+S. M. Fakhrhoseini, S. Kumar, M. Naebe, Prog. Mater. Sci. 2020, 107, 
+100575; b) B. A. Newcomb, Composites, Part A 2016, 91, 262.
+[11]	 D.  Cao, Y.  Zhang, A. M.  Nolan, X.  Sun, C.  Liu, J.  Sheng, Y.  Mo, 
+Y. Wang, H. Zhu, Nano Lett. 2019, 20, 1483.
+[12]	 J. Xue, T. Wu, Y. Dai, Y. Xia, Chem. Rev. 2019, 119, 5298.
+[13]	 J. Wang, S. Kaskel, J. Mater. Chem. 2012, 22, 23710.
+[14]	 a) Z. A.  ALOthman, Materials 2012, 5, 2874; b) J.  Rouquerol, 
+D. Avnir, C. W. Fairbridge, D. H. Everett, J. M. Haynes, N. Pernicone, 
+J. D. F. Ramsay, K. S. W. Sing, K. K. Unger, Pure Appl. Chem. 1994, 
+66, 1739.
+Small 2022, 18, 2105678
+ 16136829, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smll.202105678 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+2105678  (9 of 9)
+www.advancedsciencenews.com
+© 2021 Wiley-VCH GmbH
+www.small-journal.com
+[15]	 W.  He, C.  Jiang, J.  Wang, L.  Lu, Angew. Chem., Int. Ed. 2014, 53, 
+9503.
+[16]	 H. Tang, W. Chen, J. Wang, T. Dugger, L. Cruz, D. Kisailus, Small 
+2018, 14, 1703459.
+[17]	 R. Li, Z. Wei, X. Gou, ACS Catal. 2015, 5, 4133.
+[18]	 Y.  Yang, X.  Sun, Z.  Cheng, A.  Mukhopadhyay, A.  Natan, C.  Liu, 
+D. Cao, H. Zhu, ACS Appl. Energy Mater. 2020, 3, 6249.
+[19]	 D. W. Porter, M. Orandle, R. R. Mercer, N. Wu, P. Zheng, B. T. Chen, 
+A. Holian, M. Andrew, S. Leonard, M. Wolfarth, S. Friend, L. Battelli, 
+R. F. Hamilton, Y. Hagiwara, T. Koyama, V. Castranova, NanoImpact 
+2017, 6, 1.
+[20]	 M. Chen, Z. Zhang, X. Liu, Y. Li, Y. Wang, H. Fan, X. Liang, Q. Chen, 
+RSC Adv. 2020, 10, 31773.
+[21]	 M. Inagaki, Y. Yang, F. Kang, Adv. Mater. 2012, 24, 2547.
+[22]	 X.  Li, M.  Banis, A.  Lushington, X.  Yang, Q.  Sun, Y.  Zhao, C.  Liu, 
+Q.  Li, B.  Wang, W.  Xiao, C.  Wang, M.  Li, J.  Liang, R.  Li, Y.  Hu, 
+L. Goncharova, H. Zhang, T.-K. Sham, X. Sun, Nat. Commun. 2018, 
+9, 4509.
+Small 2022, 18, 2105678
+ 16136829, 2022, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/smll.202105678 by Tsinghua University Library, Wiley Online Library on [28/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

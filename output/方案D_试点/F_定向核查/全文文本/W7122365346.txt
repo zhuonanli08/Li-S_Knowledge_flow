@@ -1,0 +1,1324 @@
+=== 第 1 页 ===
+Advanced Energy Materials
+www.advenergymat.de
+PERSPECTIVE
+Chemical Processes in All-Solid-State Li─S and Na─S
+Batteries: A Perspective
+Wenlin Yan1,2
+Xinru Wu1
+Shuangjie Tan1
+Jiaxu Zhang1
+Qiushi Miao1,2
+Jaejun Lee1,2
+Ping Liu1
+1Aiiso Yufeng Li Family Department of Chemical and Nano Engineering, University of California San Diego, La Jolla, California, USA
+2Program in Materials
+Science and Engineering, University of California San Diego, La Jolla, California, USA
+Correspondence: Ping Liu (piliu@ucsd.edu)
+Received: 28 August 2025
+Revised: 20 December 2025
+Accepted: 5 January 2026
+Keywords: All-solid-state Li–S and Na–S batteries| solid-solid conversion of sulfur| sulfide electrolyte decomposition| sulfide solid state electrolytes| Sulfur/SSE
+interactions
+ABSTRACT
+All-solid-state Li–S and Na–S batteries (ASSSBs) employing highly conductive sulfide solid electrolytes combine high energy
+density with improved safety by enforcing solid–solid sulfur conversion and eliminating polysulfide shuttling. However, sulfide
+electrolytes possess narrow electrochemical stability windows, while sulfur’s low conductivity, sluggish redox kinetics, and ∼80%
+volume change further challenge high-loading (>30 wt.% S, or > 3 mg cm−2) operation under practical stack pressures. This
+perspective adopts an intrinsic chemical framework to dissect sulfur conversion in ASSSBs, emphasizing the coupled chemistry of
+sulfur, conductive carbon, and sulfide electrolytes during both fabrication and cycling. Sulfur redox pathways in liquid versus solid-
+state systems are compared, followed by an analysis of electrolyte stability, S/electrolyte interactions, and interphase evolution.
+The differences in redox pathways for Li–S vs Na–S are discussed. Strategies to enhance sulfur reactivity and to tailor electrolyte
+behavior are then evaluated, culminating in design principles for high-loading, low-pressure ASSSBs capable of meeting practical
+performance targets.
+1
+Introduction
+Sulfur (S) is an attractive cathode for rechargeable batteries
+owing to its abundance, low cost, and high theoretical capacity
+(1676 mAh g−1) [1–3]. In conventional Li–S and Na–S cells
+with liquid electrolytes, sulfur undergoes a solid–liquid–solid
+conversion via soluble polysulfides, which enables fast kinetics
+but induces the shuttle effect, rapid capacity decay, and safety
+concerns associated with flammable electrolytes [2–5]. Replacing
+the liquid with a solid-state electrolyte enforces a solid–solid
+conversion, suppressing polysulfide dissolution while improving
+safety. Among solid-state electrolytes, sulfide-based solid state
+electrolytes (SSEs) combine high ionic conductivity (surpassing
+that of liquid electrolytes, LiSiCePSBr [6]: 32 mS cm−1, argyrodite
+[7]: >10 mS cm−1) with good processability and mechanical com-
+pliance, making them leading candidates for high-performance
+solid-state sulfur batteries [8, 9].
+Unlike in liquid systems, sulfur redox in solid-state cathodes is
+intimately coupled to the electrochemical and chemical behavior
+of the SSE. As shown in Figure 1, the conversion involves
+three interacting components—sulfur, conductive carbon (C),
+and the solid electrolyte—linked through reversible S ↔Li2S
+transformations, electrolyte decomposition, and S/SSE interfacial
+reactions. These processes occur across S–SSE, S–C, and SSE–
+C contacts, as well as at S–SSE–C triple-phase boundaries.
+Wenlin Yan and Xinru Wu contributed equally to this work
+© 2026 Wiley-VCH GmbH
+Advanced Energy Materials, 2026; 16:e04832
+https://doi.org/10.1002/aenm.202504832
+1 of 14
+
+=== 第 2 页 ===
+FIGURE 1
+Schematic illustration of multiple interfacial interaction mechanisms within the composite cathode of all-solid-state Li–S batteries.
+Left bottom schematic: representative structure of a composite electrode, where sulfur (yellow) and carbon (black) are dispersed within the SSE matrix
+(blue) on top of the anode and SSE. Central schematic: triangular scheme highlighting the key interfacial interactions: S–SSE, S–C, and SSE–C, as well
+as their coupled three-phase interactions (S–SSE–C). (a) S–SSE Interactions: Depicts the chemical reaction between the sulfur and the sulfide solid-state
+electrolyte (e.g., LPSCl). the formation of P–S species (PS3−
+4
++ S →PS4 + n) [11], accompanied by phase segregation at the S/SSE interface [12]. (b) S–C
+Interactions: sulfur anchoring and redistribution on conductive carbon frameworks [13], long-chain sulfur may transform into short-chain sulfur [14].
+(c) SSE–C Interactions: electronic leakage at the SSE/carbon interface that triggers SSE decomposition into Li3PS4 and other interphases (e.g., LiX,
+Transition Metal Sulfide (TMS) [15–17]. These interfacial reactions can further proceed via reductive (Re) pathways to form Li2S + Li3P or oxidative
+(Ox) pathways yielding S + P2S5 [15, 18]. Copyright 2023, American Chemical Society; Copyright 2025, AAAS; Copyright 2016, Wiley-VCH; Copyright
+2018, Wiley-VCH; Copyright 2019, American Chemical Society; Copyright 2025, Wiley-VCH; Copyright 2017, Elsevier; Copyright 2017, Royal Society of
+Chemistry.
+Conductive carbon facilitates electron transport but can also
+accelerate SSE redox. Importantly, these reactions are not only
+initiated during electrochemical cycling but can be precondi-
+tioned by electrode fabrication: high-energy ball milling [10] or
+wet processing [11] may induce mechanochemical or solvation-
+driven reactions, phase transformations, and interfacial recon-
+struction prior to the first cycle. As a result, the initial chemical
+state of the cathode can differ significantly from that of the
+starting materials.
+During operation, the narrow stability window of most sulfide
+SSEs [15, 19–21] means that sulfur reduction/oxidation and elec-
+trolyte decomposition proceed concurrently, generating evolving
+interfaces enriched in decomposition products, radical or poly-
+sulfide intermediates, and mechanical stresses. These interfacial
+phases can act as ionic/electronic conductors/insulators [22–25],
+or catalytic sites [26], thereby altering sulfur reaction pathways
+and reversibility.
+Recent reviews have already summarized the chemistry of poly-
+sulfides [3], S/C composites [27], and the properties of solid state
+electrolytes [20, 28]. They have also discussed the state-of-the-
+art Li–S [5, 29–31] and Na–S [4] systems, offering perspectives
+on their development from both chemical engineering [32]
+and industrialization [2] viewpoints. However, the underlying
+chemical mechanisms governing sulfur transformation in the
+presence of sulfide SSEs, particularly the coupled chemistry
+of sulfur, conductive carbon, and sulfide electrolytes during
+manufacturing and cycling processes remain poorly understood.
+Here, we adopt an intrinsic chemical perspective to dissect solid-
+state sulfur conversion, focusing on i) solid-solid conversion of S;
+ii) the (electro)chemical stability and decomposition chemistry of
+sulfide electrolytes, iii) S–SSE interface transformations induced
+during cathode fabrication, and iv) the coupled evolution of S–
+SSE interfaces during cycling. Building on these insights, we
+examine current Li–S and Na–S all-solid-state battery technolo-
+gies and highlight opportunities for advancing their performance
+and longevity.
+2
+Solid-Solid Conversion of Sulfur
+Elemental sulfur (S8) consists of crown-shaped eight-membered
+rings with weak polarity and a melting point of 115.2◦C. Upon
+heating to ∼159 ◦C, S8 undergoes ring-opening to form free-radical
+chains that readily polymerize, increasing viscosity [39, 40]. In the
+2 of 14
+Advanced Energy Materials, 2026
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 3 页 ===
+FIGURE 2
+Phase behavior of M–S systems and sulfur conversion pathways in M–S systems. (a) Li–S phase diagram showing stable phases and
+detected Li2Sx intermediates during electrochemical process; (b) Na–S phase diagram showing stable phases and detected Na2Sx intermediates during
+electrochemical process; Blue stars and yellow dots in (a, b) indicate solid–liquid–solid and solid–solid conversion routes, respectively. (c) schematic of
+stable phases in Li–S and Na–S systems; (d) Phases observed during solid–liquid–solid conversion in liquid-electrolyte M–S cells; (e) Phases observed
+during solid–solid conversion pathway characteristic of solid-state M–S cells, governed by kinetic constraints. Reproduced with permission [4, 33–38]. (f)
+S–C interactions. S–C interactions enable enhanced electronic conductivity, enhanced reactivity, and transform S8 into short-chain S). Copyright 1995,
+Springer Nature; Copyright 1997, Springer Nature; Copyright 2017, Springer Nature; Copyright 2024, Springer Nature; Copyright 2024, Springer Nature;
+Copyright 2020, Royal Society of Chemistry; Copyright 2020, Springer Nature.
+Li–S phase diagram (Figure 2a), there are only two stable phases:
+S and lithium sulfide (Li2S) [33]. In the Na–S phase diagram
+(Figure 2b), there are several stable phases, including S, Na2S,
+Na2S2, Na2S4, and Na2S5 [34] (Figure 2c). Notably, many lithium
+polysulfides (e.g. Li2S4, Li2S6 etc.) and some sodium polysulfides
+(e.g. Na2S3, etc.) are thermodynamically unstable yet persistent in
+solution [41], presumably stabilized by the solvent ligands.
+Electrochemical discharge is initiated when electrophilic alkali
+cations (Li+, Na+, K+) attack electron-rich sulfur atoms, cleaving
+S–S bonds to form high-order polysulfides(M2S8). Progressive
+reduction shortens the sulfur chain length until monosulfide
+(M2S) is obtained [3]. Despite involving the same reactants
+and products, the phases observed during solid-liquid-solid con-
+version differ from those in solid-solid conversion, revealing
+fundamentally distinct sulfur conversion mechanisms in liquid
+and solid states (Figure 2d,e).
+In liquid Li–S batteries (Figure 2d), the conversion of S8 to
+dissolved high-order polysulfides (Li2S8) produces the first volt-
+age plateau [36], followed by a sloping potential during the
+reduction to lower-order species (Li2S6, Li2S4) and a second
+plateau upon Li2S2 precipitation. This solid-liquid-solid process
+and the corresponding intermediates have been characterized by
+Raman spectroscopy [37], UV–vis [36], XAS [42], and TEM [43,
+44]. The final Li2S2 →Li2S step, hindered by the poor conductivity
+Advanced Energy Materials, 2026
+3 of 14
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 4 页 ===
+of Li2S, is often rate-limiting [35–37]. Due to the electronic
+insulating nature of Li2S, the transformation of Li2S2 to Li2S is
+considered the rate-limiting step in liquid electrolyte batteries.
+While dissolved polysulfides facilitate fast electron transfer across
+multiple interfaces, their mobility causes the shuttle effect. In
+parallel, Li2S6 ↔Li2S3∙reaction generates S3∙−free radicals,
+which was identified [37] by the Raman peak at 531 cm−1. The
+reaction pathway in Na–S liquid electrolyte batteries (Figure 2d)
+is similar to that in Li–S batteries, involving a transition from S8
+to soluble higher-order polysulfides (Na2S8, Na2S6, Na2S5, Na2S4)
+and then to insoluble lower-order polysulfides (Na2S3, Na2S2,
+Na2S) [4, 38].
+In solid-state Li–S cells (Figure 2e), sulfur is reduced via solid–
+solid pathways, producing broad, monotonic discharge profiles
+without distinct liquid–solid nucleation plateaus [1, 45], consis-
+tent with the Gibbs phase rule and phase-diagram predictions.
+The lack of liquid-to-solid nucleation may contribute to faster
+sulfur transformation, which is consistent with the unexpectedly
+high-rate performance reported by Song et al., [46]. Transmission
+Electron Microscopy (TEM) observations in carbon-coated S
+electrodes with a native Li2O solid-electrolyte layer have revealed
+direct S →Li2S conversion without detectable lithium polysul-
+fides [13, 47]. However, in cells using sulfide SSEs (e.g., Li6PS5Cl,
+Li10GeP2S12, Li7P3S11), Li2S2 is often identified as an intermediate
+during both lithiation and delithiation [26, 45]. At elevated
+temperatures (60◦C), an asymmetric redox pathway emerges:
+lithiation proceeds via S8 →Li2S4 →Li2S, while delithiation
+occurs directly from Li2S to S8 [48]. Density functional theory
+(DFT) calculations predict that these SSEs are prone to decompo-
+sition into Li3PS4, Li2S, and other phases such as LiCl [22, 49, 50],
+and interfacial reactions between sulfur and SSEs have been
+experimentally confirmed [11, 51, 52]. However, the impact of such
+reactions on conversion kinetics and reversibility remains poorly
+understood.
+Solid-state Na–S cells (Figure 2e) operate under kinetic con-
+trol [53]. At elevated temperatures and low current densities,
+they often exhibit multiple discharge plateaus, indicative of
+intermediate-phase participation. Na2S2 and Na2Sx (x = 4–5) are
+typically observed prior to Na2S formation. In contrast, at low
+temperatures or under high current densities, the Na2S2 step is
+kinetically bypassed, leading to a single discharge plateau dom-
+inated by direct Na2S formation [54]. When Na3PS4 is replaced
+by Na4(B10H10)(B12H12) as the electrolyte, both crystalline and
+amorphous sodium polysulfides were detected, including phases
+from the Na–S phase diagram (Na2S5, Na2S4, Na2S2, Na2S), higher-
+order species (Na2Sx, x = 6–8) and Na2S3 (appears only under
+high-temperature or high-pressure conditions) [55]. Note the
+use of the boride electrolytes facilitates the identification of the
+polysulfides by avoiding the overlapping peaks from Na3PS4. The
+formation of diverse intermediates underscores the critical role of
+diffusion kinetics and pressure in dictating reaction pathways.
+Due to the ubiquitous presence of carbon, S–C interactions
+strongly influence sulfur and its solid–solid conversion. Given
+the electronic insulating nature of sulfur, carbon has been intro-
+duced to create S/C composites that exhibit enhanced electronic
+conductivity and reactivity [56–65] through various methods,
+including mechanical mixing [61], liquid-phase infusion (melting
+sulfur at 150–160◦C into the micropores of carbon), and vapor-
+phase deposition (sublimation of sulfur above 300◦C) [57, 63].
+The fabrication process of S/C composites allows for the tailoring
+of sulfur morphology based on the microstructure of the host
+carbon, as molten or vaporized sulfur can diffuse into the carbon
+framework, adsorb, and recrystallize [62, 64]. Classical molecular
+dynamics simulations have predicted that this encapsulation of
+sulfur induces the ring opening of S8 molecules, facilitating their
+transformation into short-chain structures via interactions with
+graphene edge sites [14, 66]. This process contributes to improved
+reaction kinetics and sulfur utilization. Despite these advantages,
+S/C interactions may also introduce potential trade-offs. Owing
+to the mechanical mismatch between sulfur and carbon, the
+large volume change of sulfur during cycling can induce stress
+within S/C composites, potentially leading to microstructural
+disruption and sulfur redistribution. Moreover, S@C composites
+often employ high–surface-area carbons, which increase the
+exposed carbon–electrolyte interfacial area and may accelerate
+electrolyte decomposition. These considerations highlight the
+need to balance electronic conductivity, sulfur reactivity and
+confinement, and interfacial stability in the rational design of S/C
+composite cathodes.
+In liquid electrolyte systems, the effect of S/C composites on
+sulfur conversion has been determined to be related with the
+interaction between the carbon host and polysulfides [14, 27]. In
+contrast, in solid-state configurations—where sulfur conversion
+proceeds predominantly through kinetically controlled solid–
+solid pathways—the specific role of S–C interactions remain less
+well defined, in part due to the absence of thermodynamically
+stable lithium polysulfide phases and the difficulty in resolving
+structurally similar, poorly crystalline intermediates. Neverthe-
+less, variations in S–C interactions provide an important oppor-
+tunity to probe changes in solid-state sulfur conversion pathways
+and to establish related structure–performance correlations. At
+present, the effects of S–C interactions are most readily inferred
+from apparent electrochemical metrics, such as sulfur utilization,
+cycling stability, and the evolution of redox features in voltage
+profiles, complemented by spectroscopic techniques including
+X-ray absorption spectroscopy (XAS), Raman spectroscopy, and
+X-ray photoelectron spectroscopy (XPS). The nature of S–C
+interactions is highly dependent on carbon properties, including
+carbon type (e.g., amorphous versus graphitic), morphology (e.g.,
+dot, fibrous, or nanowire architectures), specific surface area,
+defect density, and heteroatom doping. In addition, the S/C
+ratio governs sulfur distribution on carbon surfaces and thereby
+modulates interfacial interactions. It is acknowledged that high-
+surface-area carbons, such as Ketjen black (KB) and acetylene
+black (AB), were commonly used, as they exhibit higher reactivity
+compared to vapor-grown carbon fibers (VGCF) [67], whereas
+reports utilizing graphitic carbons remain scarce. Systematic
+studies are still required to establish clear correlations among S-
+C interactions and sulfur solid-state conversion behavior, which
+will be essential for guiding the rational design of sulfur cathodes
+in practical all-solid-state lithium–sulfur batteries.
+3
+Chemical and Electrochemical Stability of
+Sulfide Electrolytes
+Sulfide-based solid-state electrolytes provide high ionic con-
+ductivity but are often constrained by limited electrochemical
+4 of 14
+Advanced Energy Materials, 2026
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 5 页 ===
+TABLE 1
+Summary of chemical and electrochemical stability of common sulfide all solid-state electrolytes.
+Electrolyte
+E above hull
+(meVper atom) Phase equilibria
+Refs.
+Electrochemical
+window (V)
+Oxidation
+Reduction
+Li3PS4 [69, 70]
+0
+Li3PS4
+mp-985583
+1.71-2.31
+P2S5+S
+P+Li2S
+Li7P3S11 [49]
+20
+Li3PS4+P2S5
+mp-641703
+2.28-2.31
+P2S5+S
+Li3PS4+P4S9
+Li6PS5Cl [15, 24]
+83
+Li3PS4+Li2S+LiCl
+mp-985592
+1.71-2.01
+Li3PS4+LiCl+S
+P+Li2S+LiCl
+Li10Ge2PS12 [25, 50, 71]
+19
+Li4GeS4+Li3PS4
+mp-696138
+1.71-2.14
+Li3PS4+GeS2+S P+Li4GeS4+Li2S
+Na3PS4 [72, 73]
+0
+Na3PS4
+mp-1101885
+1.39-2.45
+P2S5+S
+Na2S+P
+stability, an aspect that has been widely studied [22, 68]. In
+contrast, their intrinsic chemical stability has received far less
+attention. In particular, phase transformations induced by ther-
+mal treatment and mechanical milling remain poorly understood,
+despite their critical implications for processing and long-term
+stability.
+As summarized in Table 1, DFT calculations indicate that most
+sulfide electrolytes, except Li3PS4 (Na3PS4), are thermodynami-
+cally metastable at 0 K and might decompose into Li3PS4 (Na3PS4)
+and other phases to achieve phase equilibrium [22, 68, 72, 73].
+In practice, the phases synthesized at high temperature may be
+stabilized by entropy contributions [74]. Upon heating, LiCl can
+be generated from Li6PS5Cl (LPSCl) in the presence of carbon
+composites [12], while Li10Ge2PS12(LGPS) tends to decompose
+into Li4GeS4 and γ-Li3PS4 [74]. Overall, studies on phase trans-
+formations and phase separation in sulfide electrolytes remain
+limited, and the mechanisms of phase transitions associated with
+defect formation and amorphization during mechanical milling
+are still poorly resolved.
+Under an applied potential, sulfide SSEs typically exhibit narrow
+electrochemical stability windows—for example, 1.7–2.1 V for
+LGPS and argyrodites, and 1.7–2.3 V for Li3PS4 [75–79]. For Li3PS4,
+oxidation above ∼2.1 V yields Li4P2S8, Li4P2S7 and Li2P2S6, which
+subsequently transform into S and P2S5 [18, 80]. Reduction below
+∼1.7 V produces Li2S and elemental P [22, 68], with the latter
+giving rise to a characteristic lithiation plateau at ∼1.1 V [15,
+81]. Theoretically, these decomposition reactions can contribute
+significant capacity, as S and Li2S are electrochemically active [21,
+25, 80], allowing theoretical decomposition capacities of:
+During charge:
+Li3PS4 →2
+3S + 1
+2P2S5 + 3Li
++ + 3e−446.68 ⋅mAh ⋅g−1
+(1)
+During discharge:
+Li3PS4 + 5Li
++ + 5e−→4Li2S + P 744.47 ⋅mAh ⋅g−1
+(2)
+Li3PS4 + 8Li
++ + 8e−→4Li2S + Li2P 1191.15 ⋅mAh ⋅g−1
+(3)
+In most SSEs, initial decomposition produces Li3PS4, Li2S, and
+other phases, which may subsequently undergo further redox
+[12, 16, 71]. Li2S serves as the main active species, explaining
+the reversible capacity demonstrated in SSE–carbon composites
+[21, 25]. In practice, decomposition is kinetically hindered
+because both the SSEs and many of their products (Li2S, LiCl,
+elemental P) are electronically insulating [22]. Early Li/SE/Pt
+measurements suggested wide stability windows (0–5 V), but
+this overestimated true stability due to limit interfacial contact
+and negligible electron transport [69, 71]. Introducing conductive
+carbon enlarges the electrochemically active interfacial area,
+accelerating decomposition and making it detectable [69, 71].
+This implies that redox primarily occurs at SSE–carbon interfaces
+rather than uniformly in the bulk. As a result, in practical Li–
+S and Na–S solid-state cells, carbon dispersion and connectivity
+strongly influence measured capacity, which reflects contribu-
+tions from both the nominal active material (S or Li2S) and
+the redox-active SSE. Importantly, partial overlap between SSE
+redox and sulfur redox complicates quantitative separation of
+their individual electrochemical roles. Moreover, SSE redox is
+intrinsically coupled with electrolyte degradation, leading to a
+progressive decrease in effective ionic conductivity.
+The contribution of SSE redox in sulfur composite cathodes is
+commonly evaluated using SSE–C model electrodes. As sum-
+marized in Supporting Table S1, typical sulfide SSEs exhibit
+reversible capacities of ∼300 mAh g−1, corresponding to ∼150
+mAh g−1 when incorporated into cathode composites containing
+50 wt.% SSE. In S–SSE–C cathodes, differential capacity (dQ/dV)
+and cyclic voltammetry (CV) analyses reveal characteristic SSE-
+derived features, with oxidation typically observed at near ∼2.8 V
+and a reduction feature near at ∼1.0 V.
+Transport degradation associated with SSE–carbon interac-
+tions can be quantified by transmission-line-model analysis of
+impedance spectra [80] or by direct current polarization measure-
+ments using electron-blocking electrodes [82]. SSE–C interac-
+tions induce progressive electrolyte decomposition accompanied
+by reduced effective ionic conductivity. Although reductive SSE
+degradation can deliver an apparent high initial capacity, it gener-
+ally exhibits poor capacity retention, consistent with irreversible
+electrolyte breakdown.
+The effect of SSE–C interactions in S–SSE–C cathodes further
+depends on electrolyte composition and carbon characteristics.
+While most sulfide SSEs decompose into electronically insulat-
+ing products, SSEs containing transition metals such as Ti or
+W may form ionic/electronic conductive sulfide phases (e.g.,
+TiS2 [83] or WS2 [16]), which can enhance charge and mass
+transport at the sulfur–SSE–carbon three-phase interface, thereby
+improving sulfur reactivity and reversibility. Carbon morphology
+Advanced Energy Materials, 2026
+5 of 14
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 6 页 ===
+FIGURE 3
+Chemical reactions between S and LPSCl during mechanical and wet milling processes. (a) Schematic of mechanical milling; (b)
+ionic conductivity gradient across a mechanically milled composite (LPSCl/Li3PS4+n/S); Reproduced with permission [52]. Copyright 2024, Archive;
+(c) HAADF image with elemental mappings of composite S/LPSCl/C cathode prepared with an ultrahigh-speed mixing, showing in situ segregated
+lithium halide interfacial layers; Reproduced with permission [12]. Copyright 2025, AAAS; (d) schematic of wet milling; (e) formation of polysulfido–
+intermediate compounds between S8 and LPSCl during wet milling; Reproduced with permission [11]. Copyright 2023, American Chemical Society; (f)
+representative chemical reaction of sulfur with LPS in THF [86]/isopropyl acetate [11], yielding polysulfido–intermediates. Reproduced with permission
+[11, 86]. Copyright 2023, American Chemical Society; Copyright 2013, Wiley-VCH.
+and specific surface area [84] critically regulate interfacial reac-
+tivity, and carbons with lower electronic conductivity [23] can
+effectively suppress carbon-activated SSE redox. Sulfur–carbon
+(S/C) composites can further modulate SSE–carbon interactions.
+When sulfur is adsorbed on the carbon surface, the effective
+electronic conductivity of carbon is reduced, while direct contact
+between SSE and carbon is simultaneously limited. Both effects
+can suppress carbon-activated SSE redox and mitigate electrolyte
+decomposition. Accordingly, increasing the S/C ratio has been
+shown to alleviate SSE degradation in sulfur composite cathodes
+[85].
+Overall, SSE–C interactions in S–SSE–C composite cathodes
+cannot be classified as purely beneficial or detrimental. While
+carbon-activated SSE decomposition increases apparent capac-
+ity, it simultaneously compromises ionic transport and raises
+concerns regarding long-term stability and safety.
+4
+S/Solid-State Electrolyte Interactions
+4.1
+During Cathode Fabrication
+Mechanical milling (Figure 3a) is a common method for prepar-
+ing composite sulfur cathodes with intimate contact between
+S, SSE, and conductive carbon. The intense mechanical forces
+generated during milling reduce particle size, expose fresh
+surfaces, and can induce mechanochemical reactions [7, 87].
+For sulfur, local temperature at the contact points may exceed
+200◦C, promoting ring-opening reactions and the formation
+of sulfur radicals [7, 61]. For sulfide SSEs, milling enhances
+amorphization [88] and increases reactivity, which may accelerate
+their decomposition during subsequent cycling [7, 88, 89].
+Mechanochemical reactions between S and argyrodite-type SSEs
+such as Li6PS5Cl have been reported, yielding polysulfidophos-
+phate intermediates (Li3PS4+n, Figure 3b) [11, 52] and in situ–
+segregated LiCl layers (Figure 3c) [12]. The formation of Li3PS4+n
+improves interfacial contact between sulfur and the electrolyte
+[11, 52], while LiCl layers enhance ionic transport and help
+accommodate the volumetric changes of chalcogen cathodes [12].
+Ball milling sulfur, AB, and Na3PS4 (NPS) induces interfacial
+reactions between NPS and sulfur, although the specific reaction
+products have not yet been conclusively identified [53]. Compared
+with mild mixing, high-energy milling generally improves S
+utilization and conversion efficiency [10, 51, 53, 58], but may
+also introduce pre-existing interfacial phases that complicate the
+electrochemical pathway.
+Solution-assisted processing (Figure 3d) provides an alternative
+route for forming S/SSE composites [90–92]. In lithium–sulfur
+systems, S and Li2S can react in solvents at moderate temperatures
+(50–70◦C) to form polysulfides, and S radicals can be stabi-
+lized in high-donor-number solvents such as dimethyl sulfoxide
+(DMSO) via S–S bond homolytic cleavage [3, 93]. In 1884, sodium
+polysulfide was synthesized from sulfur and Na2S in a water-
+ethanol environment [94]. Solvent-mediated mechanisms have
+been exploited to synthesize sulfide SSEs (e.g., Li3PS4 [95],
+Li7P3S11, LGPS, LPSCl [96]). Organic solvents such as tetrahydro-
+furan (THF), acetonitrile (ACN), and dimethoxyethane (DME)
+can promote the dissolution and reaction of precursors, offering
+a versatile liquid-phase alternative to conventional high-energy
+mechanical milling routes [97].
+6 of 14
+Advanced Energy Materials, 2026
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 7 页 ===
+FIGURE 4
+Electrochemical evolution of dynamic interphases in S/SSE/C composite cathodes. Left: schematic of the composite electrode
+configuration consisting of sulfur (yellow), solid-state electrolyte (blue), and conductive carbon (black) on top of the anode and SSE separator. Top:
+illustration of sulfur conversion accompanied by the formation of dynamic interphases under applied voltage. Bottom: representative electrochemical
+decomposition and interfacial reaction pathways of various sulfide solid electrolytes (Li10GeP2S12, Li6PS5Cl, Li3PS4, Na3PS4, etc.), showing the products
+and corresponding reaction potentials versus M/M+. Reproduced with permission [22, 72]. Copyright 2015, American Chemical Society; Copyright 2019,
+Royal Society of Chemistry.
+When applied to the preparation of sulfur composite cathodes,
+solvent-mediated interactions not only promote uniform mixing
+of components but also induce interfacial reactions between
+sulfur and the electrolyte (Figure 3e,f). For example, S and
+Li3PS4 can react in THF at room temperature to yield lithium
+polysulfidophosphate after solvent removal [86], whereas wet
+mixing S with LPSCl in weakly polar isopropyl acetate can trigger
+beneficial interfacial chemistry and enhance the wettability of
+the electrolyte toward S8 [11]. However, solvent molecules that
+coordinate with the electrolyte cannot be completely removed
+during the drying process [95].
+4.2
+During Electrochemical Process
+As shown in Figure 4, during cycling, the interfacial chemistry
+between sulfur and SSEs is governed by the co-evolution of
+both components. Sulfur undergoes S–S bond cleavage, chain-
+length shortening, and eventual conversion to Li2S (Na2S),
+while the SSE can electrochemically decompose into Li3PS4
+(Na3PS4), Li2S (Na2S), Li3P (Na3P), halides, and other secondary
+phases. The in situ reaction of lithiated sulfur with P2S5 to
+form Li3PS4 (Na3PS4) has already been demonstrated [76–79,
+98]. These transformations often occur concurrently, with pre-
+existing interfacial phases formed during electrode fabrication
+further evolving under electrochemical bias, leading to dynam-
+ically changing interfaces. The S reaction pathways are highly
+sensitive to kinetic conditions—current density and temperature
+can determine which radical or polysulfide intermediates emerge,
+and these species may display reactivity distinct from both S8
+and Li2S. Decomposition products of electrolytes such as Li2S,
+LiCl, or P-rich phases may function as ionic or electronic insu-
+lators, thereby modulating sulfur redox kinetics and reversibility.
+Furthermore, large volume changes during (de)lithiation impose
+localized interfacial stresses that can alter S reaction pathway
+[55] and even extend the apparent electrochemical stability
+window of the SSE [99–101]. Chemical modification of either
+the sulfur or the SSE—such as halogen or metal-ion doping—
+introduces additional variables, potentially tuning interphases
+composition [102], or introducing catalytic activity [102–104],
+ultimately shaping sulfur conversion kinetics and long-term
+stability.
+5
+All-Solid-State Li–S and Na–S Batteries
+Sulfur’s inherently low electronic conductivity and ∼80% volume
+change upon (de)lithiation impose severe constraints on ASSSBs
+[105]. Presently, as summarized in Supporting Table S2 and Sup-
+porting Table S3, stable long-term cycling at high sulfur loading
+(>30 wt.% S or > 3 mg cm−2) and low stack pressure remains
+elusive. Most reported electrodes rely on excessive SE and con-
+ductive carbon to improve S utilization, reducing electrode-level
+capacities to <300 mAh g−1, with part of the capacity potentially
+originating from SE decomposition. Moreover, stack pressures
+exceeding 30 MPa—often >100 MPa—are required, precluding
+practical application.
+Building on previous analysis, advancing ASSLSBs requires
+deliberate modifications of sulfur, SSE, and conductive additives.
+Central to these efforts is tuning the intrinsic properties of sulfur
+and the coupled S–C, SSE–C, and S–SSE interactions to rationally
+engineer the S–SSE–C three-phase interface. Promising strategies
+include: i) enhancing the intrinsic conductivity and reactivity
+of sulfur, ii) tailoring carbon additives, iii) modifying SSE com-
+positions, and iv) incorporating mixed conductive components.
+Ultimately, progress may hinge on tailoring the interactions
+between sulfur and the SSE.
+Advanced Energy Materials, 2026
+7 of 14
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 8 页 ===
+FIGURE 5
+Strategies for regulating S–SSE interfacial chemistry in all-solid-state sulfur batteries. (a) S/C composite: sulfur nanostructuring via
+melt diffusion into hierarchical carbon nanocages (hCNC) improves electronic pathways and controls sulfur morphology. Reproduced with permission
+[64]. Copyright 2024, Wiley; (b) halogen doping (e.g., iodine incorporation into S9.3I) enhances electronic conductivity, generates radical intermediates,
+and provides self-healable interfaces through low-melting phases. Reproduced with permission [105]. Copyright 2024, Springer Nature; (c) Carbon
+nitride–graphene (CNG) hosts suppress SSE oxidation. Reproduced with permission [23]. Copyright 2025, Springer Nature; (d) Conventional SSEs often
+deactivate the two-phase boundary, whereas redox-mediating SSEs (e.g., I2/I3−redox couples) activate the boundary to accelerate sulfur conversion.
+Reproduced with permission [46]. Copyright 2025, Springer Nature.
+For sulfur modification, as mentioned before, S/carbon com-
+posites (Figure 5a) improve electron transport and reactivity
+of S [56–65]. However, the influence of S–C interactions on
+S–SSE interfacial chemistry remains largely unexplored. These
+interactions are expected to depend strongly on the carbon
+structure: ordered versus disordered domains exhibit distinct
+affinities for sulfur, while sulfur deposition within micropores
+enables nanostructuring, and defect sites can adsorb sulfur or
+polysulfides. Moreover, heteroatom functionalization on carbon
+surface, including single-atom Ni or Co sites with strong S affinity,
+lowers activation barriers, and accelerates S conversion [104,
+106]. Such interactions may, in principle, regulate the conversion
+pathway and alter the distribution of polysulfide intermediates,
+thereby influencing subsequent S–SSE interfacial reactions and
+overall battery performance. Encapsulation of sulfur within car-
+bon micropores not only nanostructures sulfur but also directly
+modifies its contact with the electrolyte, tuning the extent and
+nature of the S–SSE interaction.
+Halogen doping (Figure 5b) provides a molecular-level conduc-
+tivity boost: iodine-doped S9.3I crystals exhibit ∼5.9 × 10−7 S cm−1
+at 25◦C (∼11 orders higher than S), promote reactive polysulfide
+formation, and possess a low melting point (∼65◦C), enabling
+thermal crack self-healing, thereby improving reversibility and
+cycling stability. During electrochemical cycling, S9.3I generates
+radical intermediates, which contribute to enhanced sulfur reac-
+tivity and facilitate polysulfide conversion [105]. Incorporating
+LiI (80Li2S–20LiI) or NaI (85Na2S–15NaI) increases the ionic con-
+ductivity of Li2S or Na2S by more than two orders of magnitude,
+enabling Li–S ASSBs to deliver 980 mAh g−1 at 2 C for 2000
+cycles without capacity degradation [89], and Na–S ASSBs to
+sustain stable cycling for over 100 cycles [107]. Mechanistically,
+LiI-assisted catalytic activation favoring Li2S2 intermediate for-
+mation, thereby improving reversibility and cycling stability [26].
+While these findings highlight the catalytic role of halogens in
+promoting sulfur conversion and free radical formation, their
+impact on S–SSE interactions remain unclear and requires further
+investigation. Transition metal sulfides (e.g., VS2 [108], TiS2
+[102, 109], FeS2 [110–112], CuS, InS [113]) provide mixed ionic–
+electronic conduction, contribute additional reversible capacity,
+and buffer the large volume changes of sulfur. In most cases, they
+form interphases between sulfur and the electrolyte, offering elec-
+tronic conduction and thereby modulating S–SSE interactions,
+though these effects remain to be further elucidated.
+8 of 14
+Advanced Energy Materials, 2026
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 9 页 ===
+For SSE modification, the narrow electrochemical stability win-
+dow of most sulfide electrolytes leads to decomposition during
+cycling. Two main approaches have been pursued: i) Suppressing
+decomposition (Figure 5d) – Li6PS5Cl has emerged as a bench-
+mark SSE for sulfur cathodes due to its high ionic conductivity
+and ready availability. Wide-bandgap carbon nitride–graphene
+hosts have been introduced to restrict electronic transport at
+the S/SE interface, suppressing decomposition and enabling a
+capacity of ∼2.1 mAh cm−2 with 92% retention over 235 cycles
+without impedance growth [23]. Comparing the electrochemical
+behavior of modified electrodes (with suppressed decomposition)
+to that of unmodified ones provides valuable insights into how
+both pristine and decomposition-derived SE phases influence
+sulfur conversion. However, since the referenced study did not
+further characterize the sulfur conversion pathway, the pre-
+cise role of SE decomposition in governing S–SSE interactions
+remains to be elucidated. ii) Utilizing decomposition products
+to tailor interphases – Tailored SE chemistries such as Li2S–
+B2S3–P2S5–LiI (I2/I3
+−-mediated ultrafast solid–solid sulfur redox
+reaction, Figure 5c) [46], amorphous Li–Ti–P–S mixed ionic–
+electronic conductors (expanded active interfacial area beyond
+conventional triple-phase boundaries) [114], and Li6+xP1-xWxS5I
+(WS2-contained ionic/electronic conductive interphases forma-
+tion) [16] have been shown to enhance sulfur conversion kinetics.
+By rationally tuning the electrolyte composition, the chemistry
+of decomposition-derived interphases can be controlled, thereby
+modulating S–SSE interactions and ultimately governing the
+sulfur conversion pathway.
+In summary, both sulfur and electrolyte modifications highlight
+the central role of S–SSE interfacial chemistry in dictating
+electrochemical performance. Strategies such as engineered S/C
+composites, halogen doping, transition metal sulfide incorpora-
+tion, and controlled SSE decomposition have all demonstrated the
+potential to enhance conductivity, stabilize interfaces, and accel-
+erate sulfur conversion. Nevertheless, these advances remain
+fragmented, and the fundamental mechanisms governing S–SSE
+interactions are still not fully resolved. This underscores the need
+for an integrated framework that bridges materials design with
+interfacial understanding.
+6
+Conclusion and Outlook
+ASSSBs integrate high-capacity sulfur cathodes with highly con-
+ductive sulfide solid electrolytes, offering a pathway toward high-
+energy, safe, and sustainable electrochemical storage. However,
+as revealed in this work, the coupled chemical–electrochemical
+processes involving sulfur, conductive carbon, and sulfide elec-
+trolytes fundamentally govern performance from electrode fab-
+rication to long-term cycling. Sulfur’s intrinsically low conduc-
+tivity, sluggish redox kinetics, and large volume change intersect
+with the narrow electrochemical stability windows of sulfide
+SSEs, producing complex and dynamic interphase chemistries
+that dictate reversibility and rate capability.
+Mechanistic insights obtained so far include:
+Distinct solid–solid conversion pathways – In contrast to liquid
+systems, solid-state cells exhibit direct S →Li2S/Na2S trans-
+formations or polysulfides-mediated routes, strongly modulated
+by temperature, current density, and pressure; the mechanistic
+landscape remains incompletely resolved.
+Concurrent SSE decomposition – Electrolyte breakdown accom-
+panies sulfur redox, generating interfacial products, such as Li2S
+(Na2S), LiCl, P-rich phases that may serve as additional active
+materials, electronic/ionic conductors or isolators, catalytic sites,
+or insulating barriers, thereby influencing reaction pathways and
+reversibility.
+Fabrication-induced preconditioning - High-energy milling and
+solution processing can trigger interfacial reactions and phase
+segregation before cycling, altering initial reaction pathways.
+Dynamic interphase evolution – Electrochemical bias, mechan-
+ical stress, and chemical reactivity jointly reshape interfaces
+during cycling, with halide segregation and conductive decom-
+position phases emerging as recurring motifs.
+Avenues for deeper mechanistic exploration:
+Development of advanced characterization – Because sulfur
+is sensitive to high-vacuum environments, techniques such as
+TEM are often challenging to apply directly [13, 37, 43]. In all-
+solid-state Li–S batteries, sulfur ring-opening and polysulfide
+formation typically yield poorly crystalline, glassy phases with
+highly similar local structures, and no thermodynamically stable
+lithium polysulfide phases exist. Moreover, many of the reaction
+intermediates are likely transient in nature. These factors make
+it difficult to unambiguously resolve the conversion process.
+Progress will require characterization tools capable of probing
+amorphous and metastable chalcogenide structures. Low-dose,
+cryo-SEM/TEM [3], together with operando characterizations are
+essential to unveil the real-time transition of these air-sensitive
+materials and to decouple complex interactions. Time-resolved
+X-ray/neutron scattering, spectro-microscopy, and strain map-
+ping under realistic cycling conditions will be essential to
+capture transient intermediates, monitor interphase evolution,
+and correlate stress–reaction coupling in operando [19, 32, 55].
+Deciphering chemo-mechanical coupling – The pronounced vol-
+ume changes accompanying sulfur conversion (≈80% for S →Li2S
+[105] and ≈160% for S →Na2S [4]), when accommodated within
+solid electrolyte framework, gives rise to significant stress and
+strain due to mechanical mismatch among sulfur, its conversion
+products, and the SSE. The resulting stress evolution can pro-
+gressively deteriorate solid–solid contact and transport pathways,
+thereby influencing reaction kinetics, reversibility, and long-
+term cell stability. Quantitative measurement of internal stress
+evolution during cycling is therefore essential for disentangling
+electrochemical and mechanical effects and for informing sulfur
+cathode capable of maintaining stability under reduced external
+pressure [115–117].
+Using multiscale-modelling to bridge mechanics and chemistry
+– Given that the exact crystal structures and intermediate phases
+remain experimentally elusive, we turn to computational model-
+ing and simulation. However, a critical gap exists between atomic-
+scale Density Functional Theory (DFT) [118] and continuum-level
+Finite Element Analysis (FEA). To address this, mesoscale mod-
+eling (such as the Phase-Field Method) will be pivotal. It serves
+Advanced Energy Materials, 2026
+9 of 14
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 10 页 ===
+as a necessary bridge to visualize microstructural evolution—
+specifically, to simulate how void formation, stress generation,
+and interface exfoliation propagate within the composite cathode
+under realistic operating pressures [119].
+Realizing practical ASSSBs—with high sulfur loading (>30 wt.%
+S or > 3 mg cm−2), low stack pressure (<5 MPa), long cycle life
+(>1000 cycles), and minimal reliance on excess electrolyte or
+carbon—will require coordinated advances in:
+Molecular-level
+sulfur
+modification
+–Modifying
+S/Li2S
+to
+enhance intrinsic electronic conductivity and redox reactivity,
+while elucidating the correlation between sulfur ring-opening
+processes, the formation of radicals and polysulfides, and their
+impact on electrochemical performance. Building on progress in
+understanding solid-state sulfur conversion reactions, molecular
+modification of S/Li2S to suppress volume expansion and
+enable low-pressure operation is also critical for the practical
+implementation of sulfur cathodes.
+Chemical modification of electrolytes – SSEs provide the primary
+Li+ transport pathways within sulfur cathodes, making their
+chemical design critical for improving electrode kinetics and
+stability. SSEs with high intrinsic ionic conductivity can signif-
+icantly enhance the effective ionic conductivity of composite
+cathodes. In addition, tuning electrolyte composition to modulate
+SSE–sulfur interactions are essential for governing solid-state
+sulfur conversion. The net effect of electrolyte decomposition is
+governed by a delicate balance between enhanced local inter-
+facial reactivity and compromised bulk ionic transport. While
+electrolyte decomposition is typically associated with structural
+degradation and a decline in ionic conductivity, its products can,
+in some cases, play a non-negligible role in sulfur cathodes.
+For example, the formation of S/Li2S may directly contribute
+to the measured capacity, and the generation of mixed ionic–
+electronic conducting phases can facilitate mass and charge
+transport between sulfur and the electrolyte, thereby enhancing
+sulfur solid-state conversion. From a mechanical perspective,
+SSEs also act as structural frameworks that host sulfur and buffer
+the stress–strain evolution associated with sulfur lithiation and
+delithiation. Developing softer and more deformable electrolytes
+is therefore essential to enhance cathode integrity and long-term
+stability.
+Optimizing electrode microstructure –Future microstructure
+design must move beyond random agglomeration toward hierar-
+chical architectures [120] that maximize the triple-phase interface
+between active sulfur species, conductive carbon, and solid-
+state electrolytes. Precise matching of particle sizes between
+active materials and electrolytes is essential to shorten ion-
+transport tortuosity, improve interfacial contact uniformity, and
+enable homogeneous reaction propagation throughout the elec-
+trode [52]. Meanwhile, mitigating the severe chemo-mechanical
+degradation induced by sulfur’s large volume expansion requires
+the integration of compliant, self-healing binders or void-
+engineered frameworks capable of accommodating repeated
+breathing stresses without disrupting ionic and electronic perco-
+lation pathways or promoting parasitic side reactions.
+By integrating intrinsic chemical understanding with S, sulfide
+electrolyte and interactions between them, ASSSBs can transition
+from laboratory demonstrations to commercially relevant sys-
+tems, retaining the inherent safety and energy-density advantages
+of the solid-state architecture while achieving the durability and
+scalability required for grid and mobility applications.
+Acknowledgements
+This work was supported by the Breakthrough Energy Fellows Program
+(to P. L.) and Honda Research Institute USA, Inc. (to P.L.).
+Conflicts of Interest
+The authors declare no conflicts of interest.
+Data Availability Statement
+The data that support the findings of this study are available from the
+corresponding author upon reasonable request.
+References
+1. Q. Miao, N. Solan, G. Hyun, J. Holoubek, and P. Liu, “Electrolyte
+Engineering for Long-Life Li-SPAN Batteries,” ACS Energy Letters 8
+(2023): 4818–4830, https://doi.org/10.1021/acsenergylett.3c01711.
+2. J. Lee, C. Zhao, C. Wang, et al., “Bridging the gap Between academic
+research and industrial development in advanced all-solid-state lithium–
+sulfur batteries,” Chemical Society Reviews 53 (2024): 5264–5290, https://
+doi.org/10.1039/d3cs00439b.
+3. X. Li, M. Zhao, Y. Song, et al., “Polysulfide chemistry in metal–sulfur
+batteries,” Chemical Society Reviews 54 (2025): 4822–4873, https://doi.org/
+10.1039/d4cs00318g.
+4. Y. Wang, D. Zhou, V. Palomares, et al., “Revitalising sodium–sulfur
+batteries for non-high-temperature operation: A crucial review,” Energy
+& Environmental Science 13 (2020): 3848–3879, https://doi.org/10.1039/
+d0ee02203a.
+5. F. Liang, S. Wang, Q. Liang, et al., “Insight Into All-Solid-State Li–S Bat-
+teries: Challenges, Advances, and Engineering Design,” Advanced Energy
+Materials 14 (2024): 2401959, https://doi.org/10.1002/aenm.202401959.
+6. Y. Li, S. Song, H. Kim, et al., “A Lithium Superionic Conductor for
+Millimeter-thick Battery Electrode,” Science 381 (2023): 50–53, https://doi.
+org/10.1126/science.add7138.
+7. O. Maus, M. A. Lange, F. Frankenberg, et al., “Influence of Post-
+Synthesis Processing on the Structure, Transport, and Performance of
+the Solid Electrolyte Li 5.5 PS 4.5 Cl 1.5 in All-Solid-State Batteries,”
+Advanced Energy Materials 15 (2024): 2403291, https://doi.org/10.1002/
+aenm.202403291.
+8. J. Janek and W. G. Zeier, “Challenges in Speeding up Solid-state Battery
+Development,” Nature Energy 8 (2023): 230–240, https://doi.org/10.1038/
+s41560-023-01208-9.
+9. X. Yang, J. Luo, and X. Sun, “Towards high-performance solid-state
+Li–S batteries: From fundamental understanding to engineering design,”
+Chemical Society Reviews 49 (2020): 2140–2195, https://doi.org/10.1039/
+c9cs00635d.
+10. S. Ohno, R. Koerver, G. Dewald, et al., “Observation of Chemomechan-
+ical Failure and the Influence of Cutoff Potentials in All-Solid-State Li–S
+Batteries,” Chemistry of Materials 31 (2019): 2930–2940, https://doi.org/10.
+1021/acs.chemmater.9b00282.
+11. H. Kim, H. Choi, J. Hwang, C. S. Yoon, and Y. Sun, “Tailoring the
+Interface Between Sulfur and Sulfide Solid Electrolyte for High-Areal-
+Capacity All-Solid-State Lithium–Sulfur Batteries,” ACS Energy Letters 8
+(2023): 3971–3979, https://doi.org/10.1021/acsenergylett.3c01473.
+10 of 14
+Advanced Energy Materials, 2026
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 11 页 ===
+12. J. Lee, S. Zhou, V. C. Ferrari, et al., “Halide Segregation to Boost all-
+solid- state Lithium- chalcogen Batteries,” Science 388 (2025): 724–729,
+https://doi.org/10.1126/science.adt1882.
+13. Z. Yang, Z. Zhu, J. Ma, et al., “Phase Separation of Li 2 S/S at
+Nanoscale During Electrochemical Lithiation of the Solid-State Lithium–
+Sulfur Battery Using In Situ TEM,” Advanced Energy Materials 6 (2016):
+1600806, https://doi.org/10.1002/aenm.201600806.
+14. S. Perez Beltran and P. B. Balbuena, “Formation of Multilayer
+Graphene
+Domains
+With
+Strong
+Sulfur–Carbon
+Interaction
+and
+Enhanced
+Sulfur
+Reduction
+Zones
+for
+Lithium–Sulfur
+Battery
+Cathodes,”
+Chemsuschem
+11
+(2018):
+1970–1980,
+https://doi.org/10.
+1002/cssc.201702446.
+15. D. H. S. Tan, E. A. Wu, H. Nguyen, et al., “Elucidating Reversible
+Electrochemical Redox of Li6PS5Cl Solid Electrolyte,” ACS Energy Letters
+4 (2019): 2418–2427, https://doi.org/10.1021/acsenergylett.9b01693.
+16. K. Shen, W. Shi, H. Song, et al., “Solid Catholyte With Regulated
+Interphase Redox for All-Solid-State Lithium-Sulfur Batteries,” Advanced
+Materials 37 (2025): 2417171, https://doi.org/10.1002/adma.202417171.
+17. J. Auvergniot, A. Cassel, D. Foix, V. Viallet, V. Seznec, and R.
+Dedryvère, “Redox Activity of Argyrodite Li6PS5Cl Electrolyte in all-solid-
+state Li-ion Battery: An XPS Study,” Solid State Ionics 300 (2017): 78–85,
+https://doi.org/10.1016/j.ssi.2016.11.029.
+18. R. Koerver, F. Walther, I. Aygün, et al., “Redox-active Cathode
+Interphases in Solid-state Batteries,” Journal of Materials Chemistry A 5
+(2017): 22750–22760, https://doi.org/10.1039/C7TA07641J.
+19. A. Banerjee, X. Wang, C. Fang, E. A. Wu, and Y. S. Meng, “Interfaces
+and Interphases in all-Solid-State Batteries With Inorganic Solid Elec-
+trolytes,” Chemical Reviews 120 (2020): 6878–6933, https://doi.org/10.1021/
+acs.chemrev.0c00101.
+20. C. Bai, Y. Li, G. Xiao, et al., “Understanding the Electrochemical
+Window of Solid-State Electrolyte in Full Battery Application,” Chem-
+ical Reviews 125 (2025): 6541–6608, https://doi.org/10.1021/acs.chemrev.
+4c01012.
+21. J. Wu, S. Liu, F. Han, X. Yao, and C. Wang, “Lithium/Sulfide All-Solid-
+State Batteries using Sulfide Electrolytes,” Advanced Materials 33 (2021):
+2000751, https://doi.org/10.1002/adma.202000751.
+22. Y. Zhu, X. He, and Y. Mo, “Origin of Outstanding Stability in
+the Lithium Solid Electrolyte Materials: Insights From Thermodynamic
+Analyses Based on First-Principles Calculations,” ACS Applied Materials
+& Interfaces 7 (2015): 23685–23693, https://doi.org/10.1021/acsami.5b07517.
+23. Z. Yu, B. Singh, Y. Yu, and L. F. Nazar, “Suppressing argyrodite
+oxidation by tuning the host structure for high-areal-capacity all-solid-
+state lithium–sulfur batteries,” Nature Materials 24 (2025): 1082–1090,
+https://doi.org/10.1038/s41563-025-02238-2.
+24. T. K. Schwietert, V. A. Arszelewska, C. Wang, et al., “Clarifying the
+Relationship Between Redox Activity and Electrochemical Stability in
+Solid Electrolytes,” Nature Materials 19 (2020): 428–435, https://doi.org/
+10.1038/s41563-019-0576-0.
+25. F. Han, T. Gao, Y. Zhu, K. J. Gaskell, and C. Wang, “A Battery Made
+From a Single Material,” Advanced Materials 27 (2015): 3473–3483, https://
+doi.org/10.1002/adma.201500180.
+26. J. T. Kim, A. Rao, H. Nie, et al., “Manipulating Li2S2/Li2S mixed
+discharge products of all-solid-state lithium sulfur batteries for improved
+cycle life,” Nature Communications 14 (2023): 6404, https://doi.org/10.
+1038/s41467-023-42109-5.
+27. A. Manthiram, Y. Fu, S. H. Chung, C. Zu, and Y. S. Su, “Recharge-
+able Lithium–Sulfur Batteries,” Chemical Reviews 114 (2014): 11751–11787,
+https://doi.org/10.1021/cr500062v.
+28. X. Song, X. Liang, J. Eko, et al., “Toward Practical Li–S Batteries: On
+the Road to a New Electrolyte,” Advanced Energy Materials 14 (2024):
+2402506, https://doi.org/10.1002/aenm.202402506.
+29. T. Liu, R. Liu, C. Lu, and W. Song, “Progress and Prospects of
+Inorganic Solid-State Electrolyte-Based All-Solid-State Li–S Batteries,”
+Advanced Sustainable Systems 9 (2024): 2400555, https://doi.org/10.1002/
+adsu.202400555.
+30. Y. Zhou, D. Chen, X. Ren, et al., “Reliable Sulfur Cathode Design for
+All-Solid-State Lithium Metal Batteries Based on Sulfide Electrolytes,”
+Advanced Energy Materials 15 (2025): 15, https://doi.org/10.1002/aenm.
+202500061.
+31. J. T. Kim, X. Hao, C. Wang, and X. Sun, “Cathode Materials for Single-
+phase Solid-solid Conversion Li-S Batteries,” Matter 6 (2023): 316–343,
+https://doi.org/10.1016/j.matt.2022.11.019.
+32. J. T. Kim, H. Su, Y. Zhong, et al., “All-solid-state lithium–sulfur batter-
+ies Through a reaction engineering lens,” Nature Chemical Engineering 1
+(2024): 400–410, https://doi.org/10.1038/s44286-024-00079-5.
+33. H. Okamoto, “The Li-S (Lithium-Sulfur) System,” Journal of Phase
+Equilibria 16 (1995): 94–97.
+34. J. Sangster and A. D. Pelton, “The Na-S (Sodium-Sulfur) System,”
+Journal of Phase Equilibria 18 (1997): 89–96, https://doi.org/10.1007/
+BF02646762.
+35. J. Conder, R. Bouchet, S. Trabesinger, C. Marino, L. Gubler, and C.
+Villevieille, “Direct observation of lithium polysulfides in lithium–sulfur
+batteries using operando X-ray diffraction,” Nature Energy 2 (2017): 17069,
+https://doi.org/10.1038/nenergy.2017.69.
+36. H. Li, R. Meng, C. Ye, et al., “Developing High-power Li||S Batteries via
+Transition Metal/Carbon Nanocomposite Electrocatalyst Engineering,”
+Nature Nanotechnology 19 (2024): 792–799, https://doi.org/10.1038/s41565-
+024-01614-4.
+37. R. Liu, Z. Wei, L. Peng, et al., “Establishing Reaction Networks in
+the 16-electron Sulfur Reduction Reaction,” Nature 626 (2024): 98–104,
+https://doi.org/10.1038/s41586-023-06918-4.
+38. M. K. Aslam, I. D. Seymour, N. Katyal, et al., “Metal Chalcogenide
+Hollow Polar Bipyramid Prisms as Efficient Sulfur Hosts for Na-S
+Batteries,” Nature Communications 11 (2020): 5242, https://doi.org/10.
+1038/s41467-020-19078-0.
+39. Y. Sakaguchi and K. Tamura, “Photo-induced Metastable State of S8
+Clusters in Liquid Sulfur,” MRS Proceedings 918 (2006): 302, https://doi.
+org/10.1557/PROC-0918-H03-02.
+40. T. Rauchfuss, “Under sulfur’s spell,” Nature Chemistry 3 (2011): 648,
+https://doi.org/10.1038/nchem.1100.
+41. H. Ryu, T. Kim, K. Kim, et al., “Discharge reaction mechanism
+of room-temperature sodium–sulfur battery With tetra ethylene glycol
+dimethyl ether liquid electrolyte,” Journal of Power Sources 196 (2011):
+5186–5190, https://doi.org/10.1016/j.jpowsour.2011.01.109.
+42. Y. Yan, C. Cheng, L. Zhang, Y. Li, and J. Lu, “Deciphering the
+Reaction Mechanism of Lithium–Sulfur Batteries by In Situ/Operando
+Synchrotron-Based Characterization Techniques,” Advanced Energy
+Materials 9 (2019): 1900148, https://doi.org/10.1002/aenm.201900148.
+43. S. Zhou, J. Shi, S. Liu, et al., “Visualizing interfacial collective reaction
+behaviour of Li–S batteries,” Nature 621 (2023): 75–81, https://doi.org/10.
+1038/s41586-023-06326-8.
+44. R. Xu, J. Lu, and K. Amine, “Progress in Mechanistic Understanding
+and Characterization Techniques of Li-S Batteries,” Advanced Energy
+Materials 5 (2015): 1500408, https://doi.org/10.1002/aenm.201500408.
+45. D. Cao, X. Sun, F. Li, et al., “Understanding Electrochemical Reaction
+Mechanisms of Sulfur in All-Solid-State Batteries Through Operando
+and Theoretical Studies **,” Angewandte Chemie International Edition 62
+(2023): 202302363, https://doi.org/10.1002/anie.202302363.
+46. H. Song, K. Münch, X. Liu, et al., “All-solid-state Li–S batteries With
+fast solid–solid sulfur reaction,” Nature 637 (2025): 846–853, https://doi.
+org/10.1038/s41586-024-08298-9.
+47. Z. Wang, Y. Tang, L. Zhang, M. Li, Z. Shan, and J. Huang, “In
+Situ TEM Observations of Discharging/Charging of Solid-State Lithium-
+Sulfur Batteries at High Temperatures,” Small 16 (2020): 2001899, https://
+doi.org/10.1002/smll.202001899.
+Advanced Energy Materials, 2026
+11 of 14
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 12 页 ===
+48. J. Gu, W. Hu, Y. Wu, et al., “Asymmetric Sulfur Redox Paths in
+Sulfide-Based All-Solid-State Lithium–Sulfur Batteries,” Chemistry of
+Materials 36 (2024): 4403–4416, https://doi.org/10.1021/acs.chemmater
+.3c03317.
+49. I. Chu, H. Nguyen, S. Hy, et al., “Insights Into the Performance Limits
+of the Li7P3S11 Superionic Conductor: A Combined First-Principles and
+Experimental Study,” ACS Applied Materials & Interfaces 8 (2016): 7843–
+7853, https://doi.org/10.1021/acsami.6b00833.
+50. Y. Mo, S. P. Ong, and G. Ceder, “First Principles Study of the
+Li10GeP2S12 Lithium Super Ionic Conductor Material,” Chemistry of
+Materials 24 (2011): 15–17, https://doi.org/10.1021/cm203303y.
+51. H. Gamo, K. Hikima, and A. Matsuda, “Understanding Decom-
+position of Electrolytes in All-Solid-State Lithium–Sulfur Batteries,”
+Chemistry of Materials 34 (2022): 10952–10963, https://doi.org/10.1021/acs.
+chemmater.2c02926.
+52. A. Cronk, X. Wang, J. A. S. Oh, et al., “A Highly Utilized and
+Practical Lithium-sulfur Cathode Enabled in Allsolid-state Batteries,”
+Archive (2024), https://doi.org/10.26434/chemrxiv-2024-hj829.
+53. N. Tanibata, M. Deguchi, A. Hayashi, and M. Tatsumisago, “All-
+Solid-State Na/S Batteries With a Na3PS4 Electrolyte Operating at Room
+Temperature,” Chemistry of Materials 29 (2017): 5232–5238, https://doi.
+org/10.1021/acs.chemmater.7b01116.
+54. T. Ji, Q. Tu, Y. Zhao, et al., “Three-step Thermodynamic vs. two-
+step Kinetics-limited Sulfur Reactions in all-solid-state Sodium Batteries,”
+Energy & Environmental Science 17 (2024): 9255–9267, https://doi.org/10.
+1039/d4ee03160a.
+55. H. Q. Nguyen, M. D. Kanedal, J. Todt, et al., “Revealing the Hidden
+Polysulfides in Solid-State Na–S Batteries: How Pressure and Electrical
+Transport Control Kinetic Pathways,” Journal of the American Chemical
+Society 147 (2025): 23492–23503, https://doi.org/10.1021/jacs.5c00465.
+56. X. Ji, K. T. Lee, and L. F. Nazar, “A highly ordered nanostructured
+carbon–sulphur cathode for lithium–sulphur batteries,” Nature Materials
+8 (2009): 500–506, https://doi.org/10.1038/nmat2460.
+57. T. Kobayashi, Y. Imade, D. Shishihara, et al., “All Solid-state Battery
+With Sulfur Electrode and Thio-LISICON Electrolyte,” Journal of Power
+Sources 182 (2008): 621–625, https://doi.org/10.1016/j.jpowsour.2008.03.
+030.
+58. M. Nagao, A. Hayashi, and M. Tatsumisago, “Sulfur–carbon com-
+posite electrode for all-solid-state Li/S battery With Li2S–P2S5 solid
+electrolyte,” Electrochimica Acta 56 (2011): 6055–6059, https://doi.org/10.
+1016/j.electacta.2011.04.084.
+59. M. Nagao, A. Hayashi, and M. Tatsumisago, “Electrochemical Per-
+formance of All-Solid-State Li/S Batteries With Sulfur-Based Composite
+Electrodes Prepared by Mechanical Milling at High Temperature,” Energy
+Technology 1 (2013): 186–192, https://doi.org/10.1002/ente.201200019.
+60. M.
+Chen
+and
+S.
+Adams,
+“High
+Performance
+all-solid-state
+Lithium/Sulfur
+Batteries
+Using
+Lithium
+Argyrodite
+Electrolyte,”
+Journal
+of
+Solid
+State
+Electrochemistry
+19
+(2014):
+697–702,
+https://doi.org/10.1007/s10008-014-2654-1.
+61. S. Kinoshita, K. Okuda, N. Machida, M. Naito, and T. Sigematsu, “All-
+solid-state Lithium Battery With Sulfur/Carbon Composites as Positive
+Electrode Materials,” Solid State Ionics 256 (2014): 97–102, https://doi.org/
+10.1016/j.ssi.2013.12.045.
+62. X. Y. Yao, N. Huang, F. D. Han, et al., “High-Performance all-Solid-
+State Lithium-Sulfur Batteries Enabled by Amorphous Sulfur-Coated
+Reduced Graphene Oxide Cathodes,” Advanced Energy Materials 7 (2017):
+1602923.
+63. A. S. Alzahrani, M. Otaki, D. Wang, et al., “Confining Sulfur in Porous
+Carbon by Vapor Deposition to Achieve High-Performance Cathode for
+All-Solid-State Lithium–Sulfur Batteries,” ACS Energy Letters 6 (2021):
+413–418, https://doi.org/10.1021/acsenergylett.0c01956.
+64. Y. Luo, S. Pan, J. Tian, et al., “Engineering Triple-Phase Interfaces
+With Hierarchical Carbon Nanocages for High-Areal-Capacity All-Solid-
+State Li-S Batteries,” Advanced Materials 36 (2024): 2413325, https://doi.
+org/10.1002/adma.202413325.
+65. R. Ma, Y. Fan, Y. Jin, et al., “Construction of Elastic and Conductive
+Channels for High-Rate and High-Areal-Capacity Sulfur Cathodes in
+All-Solid-State Lithium–Sulfur Batteries,” Advanced Energy Materials 14
+(2024): 2304412, https://doi.org/10.1002/aenm.202304412.
+66. M. V. Coulet, L. Gourmellen, and R. Denoyel, “Energetics of Sulfur-
+Carbon Interaction,” Chemphyschem 23 (2022): 202200416, https://doi.
+org/10.1002/cphc.202200416.
+67. Y. Zhang, M. Lv, Y. Chen, et al., “Aggregation Sensitivity of Carbon
+Host as an Indicator for Designing all-solid-state Lithium-sulfur Batter-
+ies,” Cell Reports Physical Science 5 (2024): 102293, https://doi.org/10.1016/
+j.xcrp.2024.102293.
+68. Y. Zhu, X. He, and Y. Mo, “First principles study on electrochemical
+and chemical stability of solid electrolyte–electrode interfaces in all-solid-
+state Li-ion batteries,” Journal of Materials Chemistry A 4 (2016): 3253–
+3266, https://doi.org/10.1039/c5ta08574h.
+69. T. Swamy, X. Chen, and Y. Chiang, “Electrochemical Redox Behavior
+of Li Ion Conducting Sulfide Solid Electrolytes,” Chemistry of Materials 31
+(2019): 707–713, https://doi.org/10.1021/acs.chemmater.8b03420.
+70. Y. Yang, Q. Wu, Y. Cui, et al., “Elastic Properties, Defect Thermo-
+dynamics, Electrochemical Window, Phase Stability, and Li + Mobility
+of Li 3 PS 4: Insights From First-Principles Calculations,” ACS Applied
+Materials & Interfaces 8 (2016): 25229–25242, https://doi.org/10.1021/
+acsami.6b06754.
+71. F. Han, Y. Zhu, X. He, Y. Mo, and C. Wang, “Electrochemical Stability
+of Li10GeP2S12 and Li7La3Zr2O12 Solid Electrolytes,” Advanced Energy
+Materials 6 (2016): 1501590, https://doi.org/10.1002/aenm.201501590.
+72. V. Lacivita, Y. Wang, S. Bo, and G. Ceder, “Ab Initioinvestigation
+of the Stability of Electrolyte/Electrode Interfaces in all-solid-state Na
+Batteries,” Journal of Materials Chemistry A 7 (2019): 8144–8155, https://
+doi.org/10.1039/c8ta10498k.
+73. Y. Tian, T. Shi, W. D. Richards, et al., “Compatibility Issues Between
+Electrodes and Electrolytes in Solid-state Batteries,” Energy & Environ-
+mental Science 10 (2017): 1150–1166, https://doi.org/10.1039/c7ee00534b.
+74. S. Hori, M. Kato, K. Suzuki, M. Hirayama, Y. Kato, and R. Kanno,
+“Phase Diagram of the Li 4 GeS 4 –Li 3PS4 Quasi-Binary System
+Containing the Superionic Conductor Li 10 GeP 2 S 12,” Journal of the
+American Ceramic Society 98 (2015): 3352–3360, https://doi.org/10.1111/
+jace.13694.
+75. J. Peng, X. Zheng, Y. Wu, et al., “Li 2 S-Based Composite Cathode With
+in Situ-Generated Li 3 PS 4 Electrolyte on Li 2 S for Advanced All-Solid-
+State Lithium–Sulfur Batteries,” ACS Applied Materials & Interfaces 15
+(2023): 20191–20199, https://doi.org/10.1021/acsami.3c02732.
+76. H. Nagata and Y. Chikusa, “Transformation of P 2 S 5 Into a Solid
+Electrolyte With Ionic Conductivity at the Positive Composite Electrode
+of All-Solid-State Lithium–Sulfur Batteries,” Energy Technology 2 (2014):
+753–756, https://doi.org/10.1002/ente.201402040.
+77. X. Li, J. Liang, M. N. Banis, et al., “Totally compatible P4S10+n cath-
+odes with self-generated Li+ pathways for sulfide-based all-solid-state
+batteries,” Energy Storage Materials 28 (2020): 325–333.
+78. Y. Su, S. Ren, Q. Lin, et al., “In Situ Solid Electrolyte Ionic Pathway
+Formation in High Sulfur Loading Cathodes for High-Performance All-
+Solid-State Lithium–Sulfur Batteries,” Advanced Energy Materials 15
+(2025): 2500363, https://doi.org/10.1002/aenm.202500363.
+79. H. Nagata and Y. Chikusa, “Activation of sulfur active material in an
+all-solid-state lithium–sulfur battery,” Journal of Power Sources 263 (2014):
+141–144, https://doi.org/10.1016/j.jpowsour.2014.04.032.
+80. S. Ohno, C. Rosenbach, G. F. Dewald, J. Janek, and W. G. Zeier,
+“Linking Solid Electrolyte Degradation to Charge Carrier Transport in the
+Thiophosphate-Based Composite Cathode Toward Solid-State Lithium-
+Sulfur Batteries,” Advanced Functional Materials 31 (2021): 2010620,
+https://doi.org/10.1002/adfm.202010620.
+12 of 14
+Advanced Energy Materials, 2026
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 13 页 ===
+81. M. Nagao, A. Hayashi, and M. Tatsumisago, “All-solid-state Lithium
+Secondary Batteries With High Capacity Using Black Phosphorus Nega-
+tive Electrode,” Journal of Power Sources 196 (2011): 6902–6905, https://
+doi.org/10.1016/j.jpowsour.2010.12.055.
+82. Y. Fujita, T. Hakari, A. Sakuda, et al., “Li 2 S–LiI Solid Solutions With
+Ionic Conductive Domains for Enhanced All-Solid-State Li/S Batteries,”
+ACS Applied Energy Materials 5 (2022): 9429–9436, https://doi.org/10.
+1021/acsaem.2c00978.
+83. D. Wang, B. Gwalani, D. Wierzbicki, et al., “Overcoming the conver-
+sion reaction limitation at three-phase interfaces using mixed conductors
+towards energy-dense solid-state Li–S batteries,” Nature Materials 24
+(2025): 243–251, https://doi.org/10.1038/s41563-024-02057-x.
+84. G. Jarrold and A. Manthiram, “Delineating the Intricate Impact of
+Carbon in All-solid-state Lithium-Sulfur Batteries,” Advanced Energy
+Materials 15 (2025): 2502557, https://doi.org/10.1002/aenm.202502557.
+85. M. Iwao, S. Ohsaki, S. Watano, and H. Nakamura, “Correlation
+Between Sulfur-existing Regions in Sulfur/Porous-carbon Composite
+Particles and Electrochemical Performance of all-solid-state Lithium-
+sulfur Batteries,” Journal of Power Sources 663 (2026): 238866, https://doi.
+org/10.1016/j.jpowsour.2025.238866.
+86. Z. Lin, Z. Liu, W. Fu, N. J. Dudney, and C. Liang, “Lithium Polysulfi-
+dophosphates: A Family of Lithium-Conducting Sulfur-Rich Compounds
+for Lithium–Sulfur Batteries,” Angewandte Chemie International Edition
+52 (2013): 7460–7463, https://doi.org/10.1002/anie.201300680.
+87. Y. Wang, H. Hao, K. G. Naik, et al., “Mechanical Milling—Induced
+Microstructure Changes in Argyrodite LPSCl Solid-State Electrolyte
+Critically Affect Electrochemical Stability,” Advanced Energy Materials 14
+(2024): 2304530, https://doi.org/10.1002/aenm.202304530.
+88. L. Schweiger, K. Hogrefe, B. Gadermaier, J. L. M. Rupp, and H. M. R.
+Wilkening, “Ionic Conductivity of Nanocrystalline and Amorphous Li 10
+GeP 2 S 12: The Detrimental Impact of Local Disorder on Ion Transport,”
+Journal of the American Chemical Society 144 (2022): 9597–9609, https://
+doi.org/10.1021/jacs.1c13477.
+89. T. Hakari, A. Hayashi, and M. Tatsumisago, “Li 2 S-Based Solid
+Solutions as Positive Electrodes With Full Utilization and Superlong Cycle
+Life in All-Solid-State Li/S Batteries,” Advanced Sustainable Systems 1
+(2017): 1700017, https://doi.org/10.1002/adsu.201700017.
+90. H. Lim, H. Lim, X. Xing, et al., “Solid Electrolyte Layers by Solution
+Deposition,” Advanced Materials Interfaces 5 (2018): 701328, https://doi.
+org/10.1002/admi.201701328.
+91. H. Lim, X. Yue, X. Xing, et al., “Designing solution chemistries for
+the low-temperature synthesis of sulfide-based solid electrolytes,” Journal
+of Materials Chemistry A 6 (2018): 7370–7374, https://doi.org/10.1039/
+c8ta01800f.
+92. Y. Li, X. Wang, H. Zhou, et al., “Thin Solid Electrolyte Layers Enabled
+by Nanoscopic Polymer Binding,” ACS Energy Letters 5 (2020): 955–961,
+https://doi.org/10.1021/acsenergylett.0c00040.
+93. G. Li, S. Wang, Y. Zhang, M. Li, Z. Chen, and J. Lu, “Revisiting the
+Role of Polysulfides in Lithium–Sulfur Batteries,” Advanced Materials 30
+(2018): 1705590, https://doi.org/10.1002/adma.201705590.
+94. H. X. Böttger, “Untersuchungen über Schwefelverbindungen. I. Ueber
+die Polysulfide Des Natriums,” Justus Liebigs Annalen der Chemie 223
+(1884): 335–342.
+95. M. Calpa, H. Nakajima, S. Mori, et al., “Formation Mechanism of β-
+Li 3 PS 4 Through Decomposition of Complexes,” Inorganic Chemistry 60
+(2021): 6964–6970, https://doi.org/10.1021/acs.inorgchem.1c00294.
+96. J. Xu, L. Liu, N. Yao, et al., “Liquid-involved Synthesis and Pro-
+cessing of Sulfide-based Solid Electrolytes, Electrodes, and all-solid-state
+batteries,” Materials Today Nano 8 (2019): 100048.
+97. M. Calpa, N. C. Rosero-Navarro, A. Miura, K. Terai, F. Utsuno, and
+K. Tadanaga, “Formation Mechanism of Thiophosphate Anions in the
+Liquid-Phase Synthesis of Sulfide Solid Electrolytes Using Polar Aprotic
+Solvents,” Chemistry of Materials 32 (2020): 9627–9632, https://doi.org/10.
+1021/acs.chemmater.0c03198.
+98. N. Tanibata, H. Tsukasaki, M. Deguchi, S. Mori, A. Hayashi, and
+M. Tatsumisago, “Characterization of Sulfur Nanocomposite Electrodes
+Containing Phosphorus Sulfide for High-capacity all-solid-state Na/S
+Batteries,” Solid State Ionics 311 (2017): 6–13, https://doi.org/10.1016/j.ssi.
+2017.08.022.
+99. X. Li, “Critical Assembly and Test Procedures Driven by Mechanical
+Constriction Principle for Advanced Performances of Solid-State Bat-
+teries,” Advanced Energy and Sustainability Research 2 (2021): 2100003,
+https://doi.org/10.1002/aesr.202100003.
+100. W. Fitzhugh, F. Wu, L. Ye, H. Su, and X. Li, “Strain-Stabilized
+Ceramic-Sulfide Electrolytes,” Small 15 (2019): 1901470, https://doi.org/
+10.1002/smll.201901470.
+101. W. Fitzhugh, X. Chen, Y. Wang, L. Ye, and X. Li, “Solid–electrolyte-
+interphase design in constrained ensemble for solid-state batteries,”
+Energy & Environmental Science 14 (2021): 4574–4583, https://doi.org/10.
+1039/d1ee00754h.
+102. Q. Li, C. Xie, X. Jiang, et al., “Catalytic Solder Fuses Solid-Solid Inter-
+faces for All-Solid-State Lithium-Sulfur Batteries,” Advanced Materials 37
+(2025): 2507308, https://doi.org/10.1002/adma.202507308.
+103. H. Wan, G. Liu, Y. Li, et al., “Transitional Metal Catalytic Pyrite Cath-
+ode Enables Ultrastable Four-Electron-Based All-Solid-State Lithium Bat-
+teries,” ACS Nano 13 (2019): 9551–9560, https://doi.org/10.1021/acsnano.
+9b04538.
+104. H. Zhong, Y. Su, Y. Wu, et al., “Long-Life and High-Loading All-Solid-
+State Li–S Batteries Enabled by Acetylene Black With Dispersed Co-N 4
+as Single Atom Catalyst,” Advanced Energy Materials 13 (2023): 2300767,
+https://doi.org/10.1002/aenm.202300767.
+105. J. Zhou, M. L. Holekevi Chandrappa, S. Tan, et al., “Healable and
+conductive sulfur iodide for solid-state Li–S batteries,” Nature 627 (2024):
+301–305, https://doi.org/10.1038/s41586-024-07101-z.
+106. H. Zhong, H. Lin, W. Huang, et al., “Synergistic Regulation of Single-
+Atom Catalysis and Conductive Enhancement in All-Solid-State Li–S
+Batteries,” ACS Energy Letters 10 (2025): 4082–4090, https://doi.org/10.
+1021/acsenergylett.5c01856.
+107. Y. Fujita, A. Nasu, A. Sakuda, M. Tatsumisago, and A. Hayashi,
+“Na2S–NaI solid solution as positive electrode in all-solid-state Na/S
+batteries,” Journal of Power Sources 532 (2022): 231313.
+108. C. Y. Kwok, S. Xu, I. Kochetkov, L. Zhou, and L. F. Nazar, “High-
+performance all-solid-state Li2S Batteries Using an Interfacial Redox
+Mediator,” Energy & Environmental Science 16 (2023): 610–618, https://doi.
+org/10.1039/d2ee03297j.
+109. J. Y. Kim, J. Park, S. H. Kang, et al., “Revisiting TiS2 as a Diffusion-
+dependent Cathode With Promising Energy Density for all-solid-state
+Lithium Secondary Batteries,” Energy Storage Materials 41 (2021): 289–
+296, https://doi.org/10.1016/j.ensm.2021.06.005.
+110. G. Whang and W. G. Zeier, “Transition Metal Sulfide Conversion: A
+Promising Approach to Solid-State Batteries,” ACS Energy Letters 8 (2023):
+5264–5274, https://doi.org/10.1021/acsenergylett.3c02246.
+111. G. Whang, L. Ketter, T. Zhao, E. Nazmutdinova, M. A. Kraft, and
+W. G. Zeier, “High Areal Capacity Cation and Anionic Redox Solid-
+State Batteries Enabled by Transition Metal Sulfide Conversion,” ACS
+Applied Materials & Interfaces 16 (2024): 42189–42197, https://doi.org/10.
+1021/acsami.4c07252.
+112. M. Pavan, K. Münch, S. L. Benz, et al., “Role and Evolution of FeS
+2 Cathode Microstructure in Argyrodite-Based All-Solid-State Lithium–
+Sulfur Batteries,” Chemistry of Materials 37 (2025): 3185–3196, https://doi.
+org/10.1021/acs.chemmater.4c03315.
+113. P. Chen, H. Qu, D. Zheng, X. Zhang, and D. Qu, “Long Cycle Stability
+of All-Solid-State Lithium-Sulfur Batteries at Low Pressure and Ambient
+Temperature: Addressing Contact and Diffusion Kinetics,” Advanced
+Advanced Energy Materials, 2026
+13 of 14
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+=== 第 14 页 ===
+Functional Materials 35 (2025): 2423633, https://doi.org/10.1002/adfm.
+202423633.
+114. X. Fang, Y. Fu, S. Sun, et al., “Halide as Catholyte in Composite
+Cathode to Enhance Cycling Stability of All-Solid-State Lithium–Sulfur
+Batteries,” Nano Letters 25 (2025): 3843–3850, https://doi.org/10.1021/acs.
+nanolett.4c05892.
+115. S. Jung, C. Lee, C. Park, et al., “Lithiation Diagnostics by Measuring
+Electrochemodynamics in Solid-State Batteries,” ACS Energy Letters 10
+(2025): 3112–3121, https://doi.org/10.1021/acsenergylett.5c01570.
+116. C. Lee, J. Y. Kim, K. Y. Bae, et al., “Enhancing Electrochemome-
+chanics: How Stack Pressure Regulation Affects all-solid-state Batteries,”
+Energy Storage Materials 66 (2024): 103196, https://doi.org/10.1016/j.ensm.
+2024.103196.
+117. C. Lee, S. Y. Han, J. A. Lewis, et al., “Stack Pressure Measure-
+ments to Probe the Evolution of the Lithium–Solid-State Electrolyte
+Interface,” ACS Energy Letters 6 (2021): 3261–3269, https://doi.org/10.1021/
+acsenergylett.1c01395.
+118. Q. Guo, K. C. Lau, and R. Pandey, “Thermodynamic and Mechanical
+Stability of Crystalline Phases of Li2S2,” The Journal of Physical Chemistry
+C 123 (2019): 4674–4681, https://doi.org/10.1021/acs.jpcc.8b11290.
+119. M. Alabdali, F. M. Zanotto, V. Viallet, V. Seznec, and A. A.
+Franco, “Microstructurally resolved modeling of all solid-state batteries:
+Latest progresses, opportunities, and challenges,” Current Opinion in
+Electrochemistry 36 (2022): 101127, https://doi.org/10.1016/j.coelec.2022.
+101127.
+120. H. Kim, M. Kim, M. Shin, H. Choi, I. Belharouak, and Y. Sun, “High-
+Areal-Capacity Sulfur Cathode Enabled by Dual-Phase Electrolyte for
+Sulfide-Based All-Solid-State Batteries,” Advanced Energy Materials 15
+(2025): 2500867, https://doi.org/10.1002/aenm.202500867.
+Supporting Information
+Additional supporting information can be found online in the Supporting
+Information section.
+SupportingFile: aenm70636-sup-0001-SuppMat.docx.
+14 of 14
+Advanced Energy Materials, 2026
+ 16146840, 2026, 11, Downloaded from https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202504832 by Tsinghua University Library, Wiley Online Library on [11/10/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+

@@ -1,0 +1,600 @@
+=== 第 1 页 ===
+Vol.:(0123456789)
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2
+Research Article
+Dual effect of MgS addition on ­li2s ionic conductivity 
+and all‑solid‑state Li–S cell performance
+Nguyen Huu Huy Phuc1   · Maeda Takaki1 · Hikima Kazuhiro1 · Muto Hiroyuki1 · Matsuda Atsunori1
+Received: 1 July 2020 / Accepted: 29 September 2020 / Published online: 9 October 2020 
+© Springer Nature Switzerland AG 2020
+Abstract
+The effect of a multivalence cation, i.e. ­Mg2+, on both the ionic conductivity of ­Li2-2xMgxS (0.05 ≤ x ≤ 0.2) and the all-solid-
+state Li–S cell performance employing ­Li2−2xMgxS as an active material is investigated. MgS was added to ­Li2S ­(Li2−2xMgxS) 
+using the planetary ball milling method. No trace of MgS was detected by X-ray diffraction (XRD) with x ≤ 0.05. Improve-
+ment of the ionic conductivity upon addition of MgS was observed even in the samples with 0.05 ≤ x ≤ 0.2, where the 
+remaining MgS was detected by XRD analysis. Vacancy formation and the nanoionic effect were the governing factors for 
+­Li+ conduction. Stabilization of the cycle capacity was also achieved in the cell containing ­Li1.7Mg0.15S when compared 
+with that employing bare ­Li2S as the electrode active material. Improvement of the ionic conductivity by approximately 
+2 orders of magnitude at 90 °C was obtained with x = 0.15 compared with that with x = 0. In addition, the charge–dis-
+charge capacities of the cell with x = 0.15 were stable up to 50 cycles, while the cell with x = 0 began to degrade after 
+the 25th cycle.
+Keywords  Lithium–sulfur battery · Li–S battery · Li2S conductivity
+1  Introduction
+Elemental sulfur has been attracting much interest from 
+researchers owing to its use as an active material in lith-
+ium and sodium rechargeable batteries. This interest has 
+resulted from its abundance and high theoretical capac-
+ity of approximately 1670 mAh ­g−1 [1–4]. Batteries that 
+employ S/Li2S are faced with many issues that arise directly 
+from the materials such as low conductivities and large 
+volume changes in the cycling process. Employing ele-
+mental sulfur as an active material results in the presence 
+of either Li metal or pre-lithiated materials at the anode, 
+which then result in other problems to be solved. The Li–S 
+battery, with Li metal at the anode, resembles other Li 
+metal batteries, where the problems at the anode become 
+evident above a certain current density or areal capacity. 
+To date, the Li metal battery, which is the holy grail of 
+electrochemical technology, is still insufficient to satisfy 
+commercial requirements because the stripping–plating 
+process of Li ion on Li metal is yet to be fully controlled [5]. 
+The use of ­Li2S as a cathode active material has opened the 
+door to many other commercially available anode mate-
+rials like carbonaceous materials or silicon. Either hard 
+or soft carbon is obviously more favorable than lithium 
+metal in terms of lithium-ion storage, and their durability 
+and safety have been proven over many years. However, a 
+­Li2S–carbonaceous materials/silicon battery is expected to 
+Electronic supplementary material  The online version of this article (https​://doi.org/10.1007/s4245​2-020-03604​-2) contains 
+supplementary material, which is available to authorized users.
+ *  Nguyen Huu Huy Phuc, nguyen.huu.huy.phuc.hr@tut.jp;  *  Matsuda Atsunori, matsuda@ee.tut.ac.jp; Maeda Takaki, maeda.takaki.
+px@tut.jp; Hikima Kazuhiro, hikima@ee.tut.ac.jp; Muto Hiroyuki, muto@ee.tut.ac.jp | 1Department of Electrical and Electronic Information 
+Engineering, Toyohashi University of Technology, 1‑1 Hibarigaoka, Tempaku, Toyohashi, Aichi 441‑8580, Japan.
+
+=== 第 2 页 ===
+Vol:.(1234567890)
+Research Article	
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2
+have a lower energy density than one employing lithium 
+metal [6, 7].
+As the ionic and electronic conductivities of S and ­Li2S 
+are extremely low at room temperature, improvement 
+of these properties is required as a priority to be able to 
+employ them as battery active materials [7]. The electronic 
+conductivity is usually enhanced by the introduction of 
+carbon-based electrically conductive materials, such as 
+carbon nanotubes, reduced graphene oxide, ketjen black 
+(KB) and so on [4, 8–10]. The boosting of the intrinsic 
+ionic conductivity of ­Li2S and its application in a battery 
+has almost been completely overlooked until recently. T. 
+Hakari et al. observed an increase of the ­Li+ conductiv-
+ity in ­Li2S–LiX (X = I−, ­Br−, ­Cl−) and reported the superior 
+performance of batteries that employed these as active 
+materials even though the electrode ionic and electronic 
+conductivities were further enhanced by the addition of 
+both a solid electrolyte and vapor-grown carbon fiber [11]. 
+A systematic study of ­Li+ transport in ­Li2S, conducted by S. 
+Lorger et al., led to the conclusion that the ion conduction 
+is governed by Frenkel disorder and vacancy–dopant asso-
+ciation [12]. Density functional theory calculations were 
+employed to stimulate the effect of transition metal dop-
+ing on the ­Li2S properties, and it was found that Fe doping 
+resulted in a reduction of the Li vacancy formation energy 
+and the induction of a gap state, which then resulted in 
+the accommodation of an electron during extraction / 
+insertion of a Li ion [13]. We have previously reported that 
+a slightly reduced amount of ­Li2S in ­Li7P2S8I results in an 
+increase of the ionic conductivity owing to the formation 
+of a lithium vacancy structure [14, 15].
+Inspired by the abovementioned findings, we noted 
+that the effect of a multivalence cation dopant on the ionic 
+conductivity of ­Li2S and the properties of a ­Li2S-based 
+electrode has yet to be reported, especially in the field 
+of all-solid-state batteries. Therefore, this study aims to 
+investigate the change in ionic conductivity of ­Li2S upon 
+addition of MgS, and the differences in the all-solid-state 
+cell performance with and without the addition of MgS to 
+the positive electrode active materials. Ionic conductivity 
+modification was observed in ­Li2−2xMgxS (0 ≤ x ≤ 0.2), and 
+the highest conductivity was detected in the sample with 
+x = 0.15. Furthermore, superiority in the cycling perfor-
+mance upon addition of MgS was observed but the reason 
+for this will be determined in further studies.
+2  Experimental
+Li2S (99.9%, Mitsuwa), ­P2S5 (99%, Merck), LiCl (99.99%, 
+Wako Fuijifilm) and MgS (99.9%, Kojundo Laboratory) were 
+used as received.
+Li2−2xMgxS (0 ≤ x ≤ 0.2) samples were prepared by the 
+planetary ball milling method. ­Li2S and MgS were mixed 
+for 10 min using an agate pestle and mortar prior to trans-
+fer into a 45-mL zirconia pot with zirconia balls (10 mm, 
+15 balls). The pots were rotated at 500 rpm for 12 h using 
+a Pulverisette 7 (Fritsch) micromill. The obtained sam-
+ples were recovered and used without any further heat 
+treatment.
+Argyrodite-type ­Li5.5PS4.5Cl was prepared by ball mill-
+ing following by heat treatment at 440 °C for 2 h in an 
+Ar atmosphere. In a typical batch, ­Li2S, ­P2S5 and LiCl were 
+mixed for 10 min using an agate pestle and mortar prior 
+to transfer into a 45-mL zirconia pot with zirconia balls 
+(10 mm, 15 balls). The pot was rotated at 600 rpm for 24 h 
+using a Pulverisette 7 (Fritsch) micromill. The obtained 
+samples were further heat treated at 440 °C for 2 h in an Ar 
+atmosphere. An argyrodite-type structure was confirmed 
+by powder X-ray diffraction (XRD) and its conductivity at 
+room temperature (RT) was approximately 2.8 mS ­cm−1.
+The positive electrode composite was prepared from 
+­Li2−2xMgxS, argyrodite-type ­Li5.5PS4.5Cl and KB with a 
+weight ratio of 50:40:10 by a ball milling method. The mix-
+ture of the three components was introduced into a 45-mL 
+zirconia pot with 4-mm zirconia balls (160 balls). The pots 
+were then rotated at 510 rpm for 10 h to obtain the posi-
+tive electrode composite.
+The structure of the prepared powders was character-
+ized using XRD (Ultima IV, Rigaku). For analysis, the sam-
+ples were sealed in special holders in an Ar-filled glove box 
+to avoid exposure to air humidity. The morphologies of the 
+prepared composites were characterized using scanning 
+electron microscopy (SEM; JSM 7800F, JEOL) and energy-
+dispersive X-ray spectroscopy (EDS).
+The temperature dependence of the total conduc-
+tivity of the prepared samples was investigated using 
+alternating-current impedance spectroscopy (SI 1260, 
+Solatron) from 1 MHz to 10 Hz under a dry Ar flow. Prior to 
+the measurements, the samples were pressed into pellets 
+of ~ 10 mm in diameter at a pressure of 550 MPa (at RT). 
+The pellets were then placed in a PEEK holder with two 
+stainless steel rods as blocking electrodes. The cell was 
+placed under an Ar stream in a glass tube for the temper-
+ature-dependence measurements. The temperature was 
+gradually increased from room temperature to 150 °C and 
+held at each temperature for 1 h prior to the impedance 
+measurement.
+An all-solid-state half-cell was fabricated to investigate 
+the electrochemical performance of the prepared positive 
+electrode composite and solid electrolyte. The prepared 
+argyrodite-type solid electrolyte was employed as a sepa-
+rator, and an In–Li alloy was used as the negative elec-
+trode. Indium (In) only can serve as negative electrode in 
+the all-solid-state half-cell using ­Li2S as positive electrode 
+
+=== 第 3 页 ===
+Vol.:(0123456789)
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2	
+Research Article
+material; however, small amount of Li in In can improve 
+the coulombic efficiency of the cell [16]. Therefore, In–Li 
+alloy was employed as negative electrode in this study. 
+The bilayer pellets (10 mm in diameter), composed of the 
+electrode composite and separator layer (80 mg), were 
+prepared by uniaxial pressing at 550 MPa followed by 
+mounting of indium foil onto the pellets by pressing at 
+200 MPa. The loading of positive electrode composites in 
+each cell was about 4.2–4.8 mg, in according to loading 
+of ­Li2S of 2.1–2.4 mg. The thickness of electrolyte (separa-
+tor) layer was about 0.80 mm and that of positive elec-
+trode was about 0.02–0.03 mm. Two stainless steel rods 
+were employed as current collectors. The electrochemical 
+compatibility of the cell was investigated by cyclic voltam-
+metry (at RT) at a scan rate of 0.1 mV s−1 on an SI1287 
+potentiostat (Solartron). The cells were cycled using a 
+charge–discharge device (BST-2004H, Nagano) in a dry 
+Ar atmosphere. The cutoff voltages were in the range of 
+3.0–0.60 V versus Li–In at 0.1 C. All the cells were placed 
+in an insulation box that was kept at 30 ± 2 °C for 4 h prior 
+to being tested. Cell preparation was conducted inside an 
+Ar-filled glove-box with ­O2 ≤ 1.0 ppm and ­H2O ≤ 0.1 ppm.
+3  Results and discussion
+Figure 1 shows the XRD patterns of the ­Li2−2xMgxS samples 
+prepared by the ball milling method, with Si addition as 
+the internal standard material for peak shift confirmation, 
+and the lattice parameter as a function of x (0 ≤ x ≤ 0.15). 
+Peaks of MgS were not detected at low loadings up to 
+x = 0.05, and their existence was observed at higher addi-
+tion amounts. However, the structure of ­Li2S was still pre-
+served despite the introduction of MgS. A peak shift in 
+the ­Li2−2xMgxS samples was not sufficiently clear in the 
+investigated range of x. It should be noted that the ionic 
+radius of ­Li+ (0.59 Å) is close to that of ­Mg2+ (0.57 Å), so a 
+peak shift is hindered as a result [17]. However, the lattice 
+constants as a function of x were calculated and are plot-
+ted in Fig. 1b. The lattice constant of x = 0.05 was slightly 
+smaller than that of x = 0 (ball-milled ­Li2S). Further addi-
+tion of MgS (x = 0.1) resulted in the reduction of this value 
+because the ionic radius of ­Mg2+ is slightly smaller than 
+that of ­Li+. The sample with x = 0.15 had a lattice constant 
+resembling that of the sample with x = 0.1, which was in 
+agreement with the remaining MgS that was detected by 
+XRD. This observation may suggest that ­Mg2+ was success-
+fully dissolved into the ­Li2S structure to form a ­Li2−2xMgxS 
+solid solution with the limitation at x of nearly 0.1. In fact, 
+the effect of ­Mg2+ doping on ­Li2S ionic conductivity was 
+also investigated by Lorger et al., but only a slight improve-
+ment of the ionic conductivity was observed [12]. Takeuchi 
+et al. prepared ­Li2S–FeS nanocomposites with different 
+molar ratios and applied them to all-solid-state batteries 
+[18]. They found that a solid solution of ­Li2S–FeS could be 
+obtained up to a molar ratio of approximately 3:1 by using 
+powder XRD. The lattice parameters were also reported in 
+their study. They found that this value was close to that 
+of bare ­Li2S at a low FeS content with a slight reduction 
+observed as the FeS content was increased. Our observa-
+tion was consistent with these results.
+Figure 2a and b shows the temperature dependence 
+of the ionic conductivity, activation energy and pre-
+exponential factor A of ­Li+ conduction of the prepared 
+­Li2−2xMgxS samples (0 ≤ x ≤ 0.2). Overall, the presence of 
+MgS in ­Li2S resulted in an increase of the ionic conductiv-
+ity of ­Li2−2xMgxS of approximately two orders of magnitude 
+compared with bare ­Li2S, which was also treated by plan-
+etary ball milling with similar conditions as those used in 
+the ­Li2−2xMgxS preparation procedure. Because the diam-
+eter of ­Mg2+ is similar to that of ­Li+ but ­Mg2+ has a higher 
+charge, the increase of ionic conductivity at low MgS load-
+ing may be a combination of many other effects, such as 
+cation vacancies, interstitial effects and substitution of 
+­Mg2+ into ­Li+ sites [19]. The remaining MgS in the sam-
+ples with x = 0.15 and 0.20 did not result in a reduction of 
+the conductivity compared with the other samples. It was 
+proposed that the remaining MgS, which was detected by 
+XRD, also contributed to the overall conductivity owing 
+to the nanoionics effect. This enhanced the conductiv-
+ity at the interface of MgS and ­Li2S crystals. Indeed, the 
+activation energy for the movement of ­Li+ was slightly 
+reduced when x = 0.05 compared with that when x = 0. 
+The pre-exponential factor was slightly increased with 
+x = 0.05. These results, together with the lattice parameter 
+data, illustrated that a solid solution was formed at x = 0.05. 
+Further increase of the MgS content led to drastic changes 
+of the lattice parameter, activation energy and pre-expo-
+nential factor. The reduction of both the lattice parameter 
+and activation energy proved that ­Li+ ion movement was 
+improved owing to vacancy formation. The reduction 
+of the pre-exponential factor resulted from a decrease 
+of the ­Li+ concentration in the ­Li1.8Mg0.1S solid solution. 
+Despite the limitation for the solid solution formation 
+at a value of x between 0.1 and 0.15, an increase of the 
+ionic conductivity and reduction of the activation energy 
+were observed. Pre-exponential factor A was also slightly 
+increased despite the decrease of the ­Li+ concentration 
+at x = 0.15. These results, together with XRD pattern and 
+lattice parameter, suggested that Li ion movement in this 
+case was driven by a new mechanism other than vacancy 
+formation because the ionic conductivity was expected to 
+be unchanged or to decrease owing to the remaining MgS 
+in the sample with x = 0.15. The sample with x = 0.2 exhib-
+ited an ionic conductivity slightly lower than that with 
+x = 0.15 but still higher than that with x = 0.1. In addition, 
+
+=== 第 4 页 ===
+Vol:.(1234567890)
+Research Article	
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2
+the activation energy for the sample with x = 0.2 was also 
+lower than that with x = 0.15. These results also confirmed 
+the existence of a new conduction mechanism other than 
+vacancy formation. Therefore, the effect of a MgS particle 
+should be noted in this case as the effect of nanoionics 
+was expected to contribute to an improvement of both 
+the ionic conductivities and activation energy for the sam-
+ples with x = 0.15 and 0.2. Upon doping with 4% mol of 
+MgS, a slight increase of the ionic conductivity of ­Li2S was 
+observed by Lorger et al. [12]. Recently, nanocomposites 
+of ­Li2S and transition metals were prepared by heating 
+mixtures of Li metal and transition metal sulfides at 600 °C 
+[20]. XRD analysis showed the coexistence of both the 
+transition metal sulfide and ­Li2S. ­Li2S–W and ­Li2S–Mo com-
+posites exhibited a high ionic conductivity of up to ­10−4 S 
+­cm−1 at RT; however, the ionic conductivity of bare ­Li2S and 
+its composites with other transition metals was too low to 
+be measured in their study.
+Argyrodite-type ­Li5.5PS4.5Cl was prepared in advance 
+and the SEM–EDS analysis results of its composite with 
+­Li1.7Mg0.15S and KB are shown in Fig. 3. P and Cl from the 
+electrolyte, Mg and S from ­Li1.7Mg0.15S, C from KB were 
+Fig. 1   Structure of ­Li2-2xMgxS prepared by ball milling method. a XRD patterns and b lattice parameters of ­Li2-2xMgxS samples
+
+=== 第 5 页 ===
+Vol.:(0123456789)
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2	
+Research Article
+well detected from EDS analysis. The good distribution 
+of Mg, Cl and C signals in all of the EDS results indicated 
+that the three components of the composite were well-
+blended together and therefore the conduction paths 
+of both ­Li+ and ­e− were established. In addition, the EDS 
+signal of P suggested that there were stand-alone solid 
+electrolyte particles. This mapping image seemed to be 
+in good agreement with the SEM observation owing to 
+the existence of particles with different contrasts.
+Figure 4 illustrates the electrochemical properties 
+of the all-solid-state cells constructed from the positive 
+composites containing either ­Li2S (x = 0) or ­Li1.7Mg0.15S 
+(x = 0.15). The cyclic voltammogram of the cell with x = 0 
+and 0.15 (Fig. 4a, b) exhibited only one oxidation peak and 
+two reduction peaks in the range of 0.6–3.0 V vs. Li–In. 
+The oxidation peak at 2.13 V versus Li–In was assigned to 
+the conversion of ­Li2S ­(Li1.7Mg0.15S) to S. The two reduc-
+tion peaks originated from the reaction of S with ­Li+ and 
+Fig.2   Conduction properties of ­Li2-2xMgxS (0 ≤ x ≤ 0.2) samples. a Temperature dependence of ionic conductivity; b Activation energy 
+(closed circle) and pre-exponential factor A (closed square) as function of x 
+Fig.3   SEM image and EDX mapping result of the electrode composite containing ­Li1.7Mg0.15S, argyrodite solid electrolyte ­Li5.5PS4.5Cl1.5 and 
+Ketjen Black prepared by ball milling method
+
+=== 第 6 页 ===
+Vol:.(1234567890)
+Research Article	
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2
+Fig.4   Electrochemical prop-
+erties of the all-solid-state 
+cell employed the prepared 
+positive electrode composite 
+containing samples x = 0 and 
+x = 0.15. a, b Cyclic voltammo-
+gram of the cell with x = 0 and 
+0.15, respectively; c, d voltage 
+profiles of the first 5 cycles of 
+the cell with x = 0 and 0.15, 
+respectively; e cycles perfor-
+mance at 0.1C of all-solid-state 
+cells employed the prepared 
+positive electrode compos-
+ite containing samples x = 0 
+(close circle) and x = 0.15 (open 
+square) with Li2S conversion 
+efficiency plotted in the small 
+inset; f, g EIS spectra of all-
+solidstate cell employed the 
+prepared positive electrode 
+composite containing samples 
+x = 0 and x = 0.15 before and 
+after first charge–discharge 
+cycle, respectively
+
+=== 第 7 页 ===
+Vol.:(0123456789)
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2	
+Research Article
+­e− to form ­Li2S. In the second cycle, the oxidation peak was 
+slightly shifted to a lower voltage position (1.95 V vs. Li–In) 
+compared with that in the first cycle. The existence of an 
+overvoltage during the first charge cycle of the batteries 
+employing ­Li2S as active material has been reported many 
+times despite the use of either liquid or solid electrolytes 
+[21]. Y. Yuan et al. found that the micro-sized ­Li2S was one 
+of the reasons that caused an overvoltage during the first 
+charge cycle owing to the activation phenomenon [22]. 
+It was later found that there was a high charge transfer 
+resistance at the interface between ­Li2S and liquid electro-
+lyte, which was lowered by coating the ­Li2S particle with 
+­TiS2 [23]. In situ coating of the solid electrolyte onto the 
+­Li2S particle surface also enhanced the charged transfer 
+resistance between the ­Li2S particle and electrolyte, and 
+thus reduced the overvoltage during the first scan [24]. 
+These observations, including the results in this study, 
+indicated that the overvoltage of the cell (or positive 
+electrode) was reduced during the first scan owing to the 
+complicated reaction among the components of the cell. 
+It is also worth noting that a voltage of 3.0 V versus Li–In or 
+3.62 V versus Li/Li+ was still sufficiently low to prevent the 
+solid electrolyte from an oxidation reaction [25]; therefore, 
+the oxidation reaction (or the charge capacity) observed 
+in this study was attributed to the change from ­Li2S to S. 
+From the CV results, a cutoff voltage of 3.0–0.6 V versus 
+Li–In was chosen to investigate the cyclic and C-rate per-
+formances of the all-solid cell to clarify the effect of MgS 
+addition.
+The voltage profiles and the cyclic performances of the 
+cells employing ­Li2S (x = 0) and ­Li1.7Mg0.15S are depicted in 
+Fig. 4c–e. The initial Coulombic efficiency of the cells was 
+higher than 95% and reached a stable value of higher than 
+99% after the tenth cycle. The first coulombic efficiency 
+of the cell x = 0 was about 104%. It is unusual if only the 
+conversion ­Li2S–S was counted. However, the oxidation of 
+solid electrolyte might occur and cause the increase of CE 
+in this case [26, 27]. The capacity of the cell with MgS addi-
+tion was slightly lower than that without addition up to 
+the ­20th cycle, but it became superior as the cycle number 
+was increased. Capacities of the cells in Fig. 4e were cal-
+culated based on ­Li2S. Theoretical capacities of ­Li2−2xMgxS 
+were illustrated in supporting information part. The Cou-
+lombic efficiency of the cell containing MgS was also rela-
+tively stable during the cycling process. To quantify the 
+effect of the addition of MgS on the electrochemical prop-
+erty of ­Li2S, we calculated the “Li2S conversion efficiency” 
+of both the cells with and without the addition. We defined 
+the “Li2S conversion efficiency” as the ratio between the 
+amount of electrochemically active ­Li2S at cycle n + 1 and 
+cycle n. The result is depicted in the small inset in Fig. 4b. 
+It was observed that during the first 10 cycles, the amount 
+of electrochemically active ­Li2S increased rapidly with the 
+efficiency values in the range of 102%–115%. After the ini-
+tial stage, the efficiency value of the sample with x = 0 kept 
+swinging in the range between 102%–100% until cycle 
+number 25, then subsequently became lower than 100%. 
+This result indicated that cell degradation commenced 
+from cycle number 25. However, the cell that employed 
+­Li1.7Mg0.15S exhibited a better performance with a higher 
+­Li2S conversion efficiency value from cycle number 5. In 
+addition, its conversion efficiency value was higher than 
+100% until cycle number 40, which meant that the cell 
+capacity kept improving until cycle number 40 and sub-
+sequently started to decrease. CC–CV mode was also 
+employed to charge–discharge the cell but the delivered 
+capacities was unchanged. Therefore, ion and electron 
+conduction paths were insufficient to connect all ­Li2S 
+particle inside the electrode. Improvement of electrode 
+composite preparation method could be a solution to this 
+issue.
+EIS spectra of both cells before and after first cycle were 
+illustrated in Fig. 4e–f. The internal resistance of both cells 
+was reduced after the first cycle. Those results supported 
+the observation in CV measurement which showed the 
+oxidation peaks shifted from 2.13 to 1.95 V. The voltage 
+gap in charge curves between first and second cycles also 
+proved the reduction in internal resistance of the posi-
+tive electrodes of the cells. The results from CV, EIS and 
+charge–discharge tests revealed the interfacial reaction 
+among the components of the cells which resulted in the 
+reduction of cell resistance. The addition of MgS into ­Li2S 
+in this study resulted in the improvement of not only ionic 
+conductivity but also the all-solid-state cell performance. 
+Addition of ­Mo6S8, ­TiS2 and ­Co9S8 into Li–S cells, which 
+employed liquid electrolytes, could improve the cell per-
+formances because of the enhancement of both S conver-
+sion and polysulfide adsorption [28–30]. The dissolution of 
+polysulfide doesn’t occur in the all-solid-state cell so that 
+boosting the ­Li2S/S conversion should be the main reason 
+for better performance of the cell with x = 0.15 compared 
+with that of x = 0.
+4  Conclusion
+In this study, ­Li2−2xMgxS (0 ≤ x ≤ 0.2) was successfully pre-
+pared by planetary ball milling. Addition of MgS into 
+­Li2S was able to improve its ionic conductivity owing to 
+vacancy formation and the nanoionic effect. ­Li+ ion move-
+ment in ­Li2−2xMgxS was driven by the vacancy mechanism 
+at 0 ˂  x ≤ 0.1, while both the vacancy mechanism and 
+nanoionic effect were found to be the governing factors 
+at 0.1 ˂  x ≤ 0.2. Better cycling stability of the all-solid-state 
+lithium–sulfur battery was also obtained with the addition 
+
+=== 第 8 页 ===
+Vol:.(1234567890)
+Research Article	
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2
+of MgS into ­Li2S. The improvement of the ionic conductiv-
+ity of ­Li2S by the addition of MgS is expected to contribute 
+to an improvement of the lithium metal battery because 
+­Li2S has been recognized as an important component that 
+forms a thin film on Li metal, which allows only Li ions to 
+pass through and provides native insulation to an electron.
+Acknowledgements  This study was supported by the Advanced Low 
+Carbon Technology Specially Promoted Research for Innovative Next 
+Generation Batteries (JST-ALCA-SPRING, Grant No. JPMJAL1301) pro-
+gram of the Japan Science and Technology Agency. We thank Ms. 
+Oshida Makiko and Mr. Shinoda Keisuke for their help with SEM-EDS 
+measurements at National Institute for Materials Science (NIMS) Bat-
+tery Research Platform.
+Author contributions  A. Matsuda & H. Muto: funding acquisi-
+tion. N.H.H. Phuc.: experimental design, supervision, manuscript 
+preparation. T. Maeda: data acquisition. K. Hikima: SEM – EDX data 
+acquisition.
+Compliance with ethical standard 
+Conflict of interest  The authors declare that they have no competing 
+interests
+References
+	 1.	 Fan L, Ma R, Yang Y, Chen S, Lu B (2016) Covalent sulfur for 
+advanced room temperature sodium-sulfur batteries. Nano 
+Energy 28:304–310
+	 2.	 Qiang Z, Chen Y-M, Xia Y, Liang W, Zhu Y, Vogt BD (2017) Ultra-
+long cycle life, low-cost room temperature sodium-sulfur batter-
+ies enabled by highly doped (N, S) nanoporous carbons. Nano 
+Energy 32:59–66
+	 3.	 Yun JH, Kim JH, Kim DK, Lee HW (2018) Suppressing polysulfide 
+dissolution via cohesive forces by interwoven carbon nanofib-
+ers for high-areal-capacity lithium-sulfur batteries. Nano Lett 
+18:475–481
+	 4.	 Pan H, Chen J, Cao R, Murugesan V, Rajput NN, Han KS, Persson 
+K, Estevez L, Engelhard MH, Zhang J-G, Mueller KT, Cui Y, Shao Y, 
+Liu J (2017) Non-encapsulation approach for high-performance 
+Li–S batteries through controlled nucleation and growth. Nat 
+Energy 2:813–820
+	 5.	 Lin DC, Liu YY, Cui Y (2017) Reviving the lithium metal anode for 
+high-energy batteries. Nat Nanotech 12:194–206
+	 6.	 Tarascon JM (2010) Key challenges in future Li-battery research. 
+Philos Trans A Math Phys Eng Sci 368:3227–3241
+	 7.	 Su D, Zhou D, Wang C, Wang G (2018) Toward high performance 
+lithium-sulfur batteries based on ­Li2S cathodes and beyond: sta-
+tus, challenges, and perspectives. Adv Funct Mater 28:1800154
+	 8.	 Beltran SP, Balbuena PB (2018) Formation of multilayer graphene 
+domains with strong sulfur-carbon interaction and enhanced 
+sulfur reduction zones for lithium-sulfur battery cathodes. 
+Chemsuschem 11:1970–1980
+	 9.	 Suzuki K, Kato D, Hara K, Yano T, Hirayama M, Hara M, Kanno R 
+(2017) Composite sulfur electrode prepared by high-temper-
+ature mechanical milling for use in an all-solid-state lithium-
+sulfur battery with a ­Li3.25Ge0.25P0.75S4 electrolyte. Electrochim 
+Acta 258:110–115
+	10.	 Rana M, Ahad SA, Li M, Luo B, Wang L, Gentle I, Knibbe R (2019) 
+Review on areal capacities and long-term cycling performances 
+of lithium sulfur battery at high sulfur loading. Energy Storage 
+Mater 18:289–310
+	11.	 Hakari T, Hayashi A, Tatsumisago M (2017) ­Li2S-Based solid 
+solutions as positive electrodes with full utilization and super-
+long cycle life in all-solid-state Li/S batteries. Adv Sustain Syst 
+2017(1):1700017
+	12.	 Lorger S, Usiskin RE, Maier J (2018) Transport and charge carrier 
+chemistry in lithium sulfide. Adv Funct Mater 29:1807688
+	13.	 Luo G, Zhao J, Wang B (2012) First-principles study of transition 
+metal doped ­Li2S as cathode materials in lithium batteries. J 
+Renew Sustain Ener 4:063128
+	14.	 Phuc NHH, Yamamoto T, Muto H, Matsuda A (2017) Fast syn-
+thesis of ­Li2S–P2S5–LiI solid electrolyte precursors. Inorg Chem 
+Front 4:1660–1664
+	15.	 Spannenberger S, Miß V, Klotz E, Kettner J, Cronau M, Rama-
+nayagam A, di Capua F, Elsayed M, Krause-Rehberg R, Vogel M, 
+Roling B (2019) Annealing-induced vacancy formation enables 
+extraordinarily high Li+ ion conductivity in the amorphous elec-
+trolyte 0.33 LiI + 0.67 ­Li3PS4. Solid State Ionics 341:115040
+	16.	 Sakuda A, Takeuchi T, Kobayashi H (2016) Electrode morphol-
+ogy in all-solid-state lithium secondary batteries consisting of 
+­LiNi1/3Co1/3Mn1/3O2 and ­Li2S-P2S5 solid electrolytes. Solid State 
+Ionics 285:112–117
+	17.	 Overton TL, Atkins PW, Rourke JP, Weller MT, Armstrong FA 
+(2010) Shriver and Atkins’ Inorganic Chemistry. Oxford Univer-
+sity Press, Oxford
+	18.	 Takeuchi T, Kageyama H, Nakanishi K, Ogawa M, Ohta T, Sakuda 
+A, Sakaebe H, Kobayashi H, Ogumi Z (2015) Preparation of 
+­Li2S-FeSx composite positive electrode materials and their elec-
+trochemical properties with pre-cycling treatments. J Electro-
+chem Soc 162:A1745–A1750
+	19.	 Zhang B, Tan R, Yang L, Zheng J, Zhang K, Mo S, Lin Z, Pan F 
+(2018) Mechanisms and properties of ion-transport in inorganic 
+solid electrolytes. Energy Storage Mater 10:139–159
+	20.	 Xing Z, Tan G, Yuan Y, Wang B, Ma L, Xie J, Li Z, Wu T, Ren Y, 
+Shahbazian-Yassar R, Lu J, Ji X, Chen Z (2020) Consolidating 
+lithiothermic-ready transition metals for ­Li2S-based cathodes. 
+Adv Mater 32:e2002403
+	21.	 Ye H, Li M, Liu T, Li Y, Lu J (2020) Activating ­Li2S as the lithium-
+containing cathode in lithium-sulfur batteries. ACS Energy Lett 
+5:2234–2245
+	22.	 Yang Y, Zheng G, Misra S, Nelson J, Toney MF, Cui Y (2012) High-
+capacity micrometer-sized ­Li2S particles as cathode materials 
+for advanced rechargeable lithium-ion batteries. J Am Chem 
+Soc 134:15387–15394
+	23.	 Seh ZW, Yu JH, Li W, Hsu PC, Wang H, Sun Y, Yao H, Zhang Q, Cui 
+Y (2014) Two-dimensional layered transition metal disulphides 
+for effective encapsulation of high-capacity lithium sulphide 
+cathodes. Nat Commun 5:5017
+	24.	 Jiao Z, Chen L, Si J, Xu C, Jiang Y, Zhu Y, Yang Y, Zhao B (2017) 
+Core-shell ­Li2S@Li3PS4 nanoparticles incorporated into gra-
+phene aerogel for lithium-sulfur batteries with low potential 
+barrier and overpotential. J Power Sources 353:167–175
+	25.	 Adeli P, Bazak JD, Park KH, Kochetkov I, Huq A, Goward GR, Nazar 
+LF (2019) Boosting solid-state diffusivity and conductivity in 
+lithium superionic argyrodites by halide substitution. Angew 
+Chem 58:8681–8686
+	26.	 Hakari T, Nagao M, Hayashi A, Tatsumisago M (2015) All-solid-
+state lithium batteries with ­Li3PS4 glass as active material. J 
+Power Sources 293:721–725
+	27.	 Han F, Gao T, Zhu Y, Gaskell KJ, Wang C (2015) A battery made 
+from a single material. Adv Mater 27:3473–3483
+	28.	 Pang Q, Kundu D, Nazar LF (2016) A graphene-like metallic cath-
+ode host for long-life and high-loading lithium–sulfur batteries. 
+Mater Horiz 3:130–136
+
+=== 第 9 页 ===
+Vol.:(0123456789)
+SN Applied Sciences (2020) 2:1803 | https://doi.org/10.1007/s42452-020-03604-2	
+Research Article
+	29.	 Chung S-H, Luo L, Manthiram A (2018) ­TiS2–polysulfide hybrid 
+cathode with high sulfur loading and low electrolyte consump-
+tion for lithium-sulfur batteries. ACS Energy Lett 3:568–573
+	30.	 Xue W, Shi Z, Suo L, Wang C, Wang Z, Wang H, So KP, Maurano A, 
+Yu D, Chen Y, Qie L, Zhu Z, Xu G, Kong J, Li J (2019) Intercalation-
+conversion hybrid cathodes enabling Li–S full-cell architectures 
+with jointly superior gravimetric and volumetric energy densi-
+ties. Nat Energy 4:374–382
+Publisher’s Note  Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.
+

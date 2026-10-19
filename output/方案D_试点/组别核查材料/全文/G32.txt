@@ -1,0 +1,840 @@
+=== 第 1 页 ===
+2496 | Energy Environ. Sci., 2019, 12, 2496--2506
+This journal is ©The Royal Society of Chemistry 2019
+Cite this: Energy Environ. Sci.,
+2019, 12, 2496
+Direct tracking of the polysulfide shuttling and
+interfacial evolution in all-solid-state lithium–
+sulfur batteries: a degradation mechanism study†
+Yue-Xian Song,ab Yang Shi,ab Jing Wan,ab Shuang-Yan Lang,ab Xin-Cheng Hu,ab
+Hui-Juan Yan,
+ab Bing Liu,
+bc Yu-Guo Guo,
+ab Rui Wen
+*ab and
+Li-Jun Wan
+ab
+With a remarkably high energy density and high safety, all-solid-state lithium–sulfur (ASSLS) batteries
+have emerged as promising next-generation energy storage systems. Direct tracking of the structural
+evolution at the solid–solid interfaces in an ASSLS battery is highly significant for deep understanding of
+the reaction mechanism to further improve the electrochemical performance. Herein, we present in situ
+monitoring of the evolution processes at both the cathode/electrolyte and anode/electrolyte interfaces
+in working ASSLS batteries via real-time optical microscope (OM) imaging. An irreversible transformation
+from bright-white to dark-brown in the polymer–ceramic composite electrolyte was directly captured
+upon discharge/charge, which indicates a shuttling process of polysulfides in the solid-state electrolyte
+further supported by XPS and Raman analyses. Furthermore, the in situ visualization of the temperature
+dependency of structural evolution clearly reveals that temperature greatly influences the polysulfide
+shuttling, irreversible volume-change of solid-state electrolytes and volume expansion of Li metal, which
+are directly correlated with the degradation of battery performance. These results provide a deep insight
+into the evolution processes of both structure and component in a working ASSLS battery, which could
+guide one to explore the electrochemical reactions at solid–solid interfaces and failure mechanism to
+design high performance lithium–sulfur batteries.
+Broader context
+All-solid-state lithium–sulfur (ASSLS) batteries have prospective potential to meet further energy-storage requirements because of their remarkably high energy
+density and high safety. However, their practical application has been largely hindered by many challenges including the interfacial instability between the
+solid-state electrolyte and electrode, as well as the side reactions resulting from polysulfide shuttling and electrolyte decomposition, which are highly related to
+the interfacial properties. It’s thereby of importance to directly track the evolution processes via real-time imaging inside a working ASSLS battery for in-depth
+understanding of the interfacial behavior and degradation mechanism. Herein, straightforward visualization of structural evolution and dynamics processes is
+successfully achieved upon discharge/charge in working ASSLS batteries via real-time optical microscope imaging. Based on the in situ observation, the color
+transformation of the solid-state electrolyte directly reflects the behavior of polysulfide shuttling further supported by spectroscopy, and structure-deformation
+of both the electrode and electrolyte during cycling is proved to be temperature dependent. This work could potentially promote a profound understanding of
+the fundamental electrochemical reactions and failure mechanisms in ASSLS batteries, which further guide one to build strategies for the design and
+optimization of ASSLS batteries with superior performance.
+1. Introduction
+Among the various kinds of lithium–metal secondary batteries,
+the lithium–sulfur (Li–S) batteries are considered as one of the
+most appealing energy storage systems, which is ascribed to
+their high energy density (2600 W h kg1) and theoretical
+specific capacity (1675 mA h g1).1,2 However, their practical
+application, in view of the above benefits, is limited by several
+intrinsic issues resulting from the electro-insulated nature of
+a Key Laboratory of Molecular Nanostructure and Nanotechnology, Beijing National
+Laboratory for Molecular Science, CAS Research/Education Center for Excellence
+in Molecular Sciences, Institute of Chemistry, Chinese Academy of Sciences,
+Beijing 100190, China. E-mail: ruiwen@iccas.ac.cn
+b University of the Chinese Academy of Sciences, Beijing 100049, China
+c State Key Laboratory of Polymer Physics and Chemistry, Beijing National
+Laboratory for Molecular Sciences, Institute of Chemistry,
+Chinese Academy of Sciences, Beijing 100190, China
+† Electronic supplementary information (ESI) available: Characterization of the
+solid-state electrolytes, cyclic voltammetry, EIS spectra, digital photo of the in situ
+optical cell and the structural evolution processes of the videos, etc. See DOI:
+10.1039/c9ee00578a
+Received 20th February 2019,
+Accepted 17th May 2019
+DOI: 10.1039/c9ee00578a
+rsc.li/ees
+Energy &
+Environmental
+Science
+PAPER
+Published on 17 May 2019
+Licence and permissions
+
+=== 第 2 页 ===
+This journal is ©The Royal Society of Chemistry 2019
+Energy Environ. Sci., 2019, 12, 2496--2506 | 2497
+sulfur (ca. 1030 S m1) and the solid reduction products
+(e.g., Li2S, ca. 1014 S m1), polysulfide (PS) shuttling between
+the cathode and anode, growth of lithium dendrites, large
+volume expansion of lithium–metal during perpetual cycling,
+etc.3–5 These drawbacks could result in poor cycling perfor-
+mance, irreversible loss of sulfur active materials and safety
+hazards. Great attempts have been devoted to addressing the
+above issues of Li–S batteries, mainly including using nano-
+structured host materials,6 unique interlayers and separators,7
+etc. Recently, solid-state electrolytes instead of liquid electrolytes
+have been considered as an effective approach to fundamentally
+solve the above-mentioned dilemmas.8–10
+So far, extensive studies have been focused on seeking suitable
+solid-state electrolytes for remarkably improving the performance
+of batteries. Solid polymer electrolytes (SPEs) have been the most
+promising in all-solid-state lithium–sulfur (ASSLS) batteries
+because of their manufacturability, excellent compatibility
+with electrodes, and reasonable mechanical and flexibility
+properties.11–13 Some reports showed that the addition of nano/
+micro-materials to the SPEs is a widely receptive strategy to
+optimize and enhance the performance of Li–S batteries.14–16
+Various types of inorganic nano-fillers, such as, SiO2,17 TiO2
+18
+and ZrO2,19 have been applied in SPE-based Li–S batteries, in
+which they might play a significant role in enhancing the ionic
+conductivity of SPEs and adsorbing PSs. The effects of lithium
+salts
+including
+lithium
+bis(trifluoromethanesulfonyl)imide
+(LiTFSI), lithium bis(fluorosulfonyl)imide (LiFSI) and lithium-
+(fluorosulfonyl) (trifluoro-methanesulfonyl)imide (LiFTFSI) have
+been thoroughly investigated to explore mechanically stable solid–
+electrolyte interphase (SEI) layers in the lithium anode.20–22 It is
+proposed that the polymer–ceramic (PEO-Li6.75La3Zr1.75Ta0.25O12)
+composite electrolytes, which integrate the merits of both the
+high lithium ion conductivity of inorganic ceramics and low
+interfacial resistance of polymer electrolytes,23–25 could stabi-
+lize the interfaces between electrode and electrolyte, as well as
+relieve PS dissolution.26 However, the cyclability and capacity
+fading of SPE-based ASSLS batteries are still far from expecta-
+tions and practical application. One of the key strategies lies in
+the deep understanding of interfacial and structural evolutions
+during discharge/charge in ASSLS batteries, which requires
+proper selection of in operando characterization techniques.27
+Nevertheless, in situ and non-destructive imaging charac-
+terization, which could directly visualize the morphological
+evolution and dynamic process at the electrode–electrolyte inter-
+faces of ASSLS, has not been reported owing to the technical
+challenges. For scanning electron microscopy (SEM)28,29 and
+transmission electron microscopy (TEM)30 apparatus, due to
+the volatility of elemental sulfur in a high vacuum chamber,
+observation of the structural transition of a sulfur electrode is
+difficult. Although transmission X-ray microscopy (TXM) can
+monitor the interfacial processes in the real time environment,31
+it is limited for simultaneously taking both the sulfur cathode
+and lithium anode into account due to their different X-ray
+absorption coefficient. Additionally, for scanning probe micro-
+scopy (SPM), it is very difficult to capture images in large rough
+ranges for in situ observation of complicated electrochemical
+processes in Li–S batteries.32 Thus, taking the advantages of
+in situ optical microscope (OM) imaging into the underlying
+investigation for ASSLS systems, it could be a realizable and
+simplified strategy for directly tracking the structural evolution
+processes to further clarify the reaction mechanism.
+Herein, we focus on the structural and interfacial properties
+of ASSLS batteries with polymer–ceramic composite electrolytes
+(CEs) at both the cathode/electrolyte and anode/electrolyte
+interfaces using in situ OM imaging from the cross-section
+observation. The migration and shuttling of PSs are clearly
+captured at the cathode/electrolyte interface, indicating an
+irreversible Li–S reaction upon discharging/charging. Raman
+and XPS spectroscopy were further utilized to analyse the
+soluble sulfur species, showing that the accumulation of S4
+2,
+S4
+, S3, Sx
+2 (x = 4–8) and Li2S induces the fast performance
+degradation of Li–S batteries. Furthermore, the real-time
+OM monitoring indicates that the temperature dependency of
+CE-based ASSLS batteries shows notable interfacial properties
+and dynamic processes from 45 1C to 75 1C. The in situ
+observations and ex situ characterizations elucidate the struc-
+ture and components of ASSLS batteries, and provide a direct
+insight into the performance aging mechanism of batteries,
+which contributes to the optimized design of ASSLS systems.
+2. Experimental
+2.1.
+Materials
+The poly(ethylene oxide) (PEO, molecular weight of 600000 g mol1)
+and lithium bis(trifluoromethanesulfonyl)imide (LiTFSI, purity
+499.5%) and acetonitrile (purity 499.9%) were from Sigma-
+Aldrich. Li6.75La3Zr1.75Ta0.25O12 (LLZTO) powders were pur-
+chased from Hefei Ke Jing Materials Technology Co. Ltd and
+ball milled to obtain LLZTO nanoparticles. Additionally, the
+elemental sulfur, poly(vinyl difluoride) (PVDF) and N-1-methyl-
+2-pyrolidone (NMP) were from Alfa-Aesar. PEO and LiTFSI were
+dried under vacuum for 24 h to remove water, and other
+materials were used without further purification.
+2.2.
+Preparation of composite electrolyte (CE) membranes
+and sulfur cathode
+A typical solvent-casting method was used to prepare CE
+membranes. Briefly, PEO and LiTFSI (20 : 1 of molar ratio) were
+dissolved in acetonitrile solvent and stirred at 60 1C for 12 h to
+obtain a homogeneous solution. The LLZTO powers of 40 wt%
+were then added into the solution, followed by mechanical
+stirring for an additional 12 h. After that, the mixture was
+coated onto the cathode electrode and dried at 60 1C for 24 h to
+remove solvents. All preparation processes were performed in
+an argon-filled glove box.
+The composite cathode was prepared by mixing 70% sulfur
+active materials, 20% Super P conductive carbon and 10%
+poly(vinyl difluoride) (PVDF) binder in N-1-methyl-2-pyrolidone
+(NMP). The resultant slurry was coated on a carbon-coated Al foil
+and dried at 60 1C for 8 h. The active material loading is about
+0.41 mg cm2.
+Paper
+Energy & Environmental Science
+
+=== 第 3 页 ===
+2498 | Energy Environ. Sci., 2019, 12, 2496--2506
+This journal is ©The Royal Society of Chemistry 2019
+2.3.
+Fabrication of all-solid-state lithium–sulfur cells
+The ASSLS battery was composed of 70% active sulfur as a
+cathode, CE as a solid-state electrolyte and lithium foil (Acros
+Organics, 99%) as an anode. The lithium–metal anode was
+not embellished and used without any current collector. The
+layered sheets of Li/CE/sulfur were assembled, and then a
+ceramic knife progressively cut through the sample to obtain
+a high quality cross-section. The cubic sheet (0.5 cm (length) 
+0.3 cm (width) of the electrode section) pressed using a stain-
+less steel and a Teflon plate was positioned in a sealed
+container with an optical glass window. A 38 mm diameter seal
+ring of per-fluorinated elastomers was used to seal the in situ
+optical cell. Fig. S1 (ESI†) shows a schematic diagram of three-
+layered sheets and photograph of an ASSLS cell. In situ optical
+observations of ASSLS batteries were performed in a cross-
+section view. All assemblies were performed in a glove box
+filled with argon (Mikrouna, Super 1220/750, H2O o 0.1 ppm,
+O2 o 0.1 ppm).
+2.4.
+In situ optical microscope imaging of ASSLS batteries
+The in situ optical experiments were carried out using a laser
+confocal microscope combined with a diﬀerential interference
+contrast microscope (LCM-DIM, OLS-4000 OLYMPUS). An opti-
+cal cell was assembled on the optical system coupled with a
+potentiostat to study the interfacial processes in real time.
+A CHI760E electrochemical workstation (Chenhua, Shanghai)
+was utilized to control the potential change of cyclic voltam-
+metry in the range of 1.50 V–3.50 V at a 0.5 mV s1 or 1 mV s1
+sweep rate. The potential was swept towards the negative
+direction from open circuit potential (OCP, ca. 2.60 V) to
+1.50 V during the discharge process, and then the position
+direction to 3.50 V during charging.
+2.5.
+Electrochemical measurements
+Electrochemical impedance spectroscopy (EIS) testing was
+carried out using an Autolab electrochemical workstation
+(Metrohm). A sandwich cell of stainless steel (SS)/CE/stainless
+steel (SS) was used to measure the ionic conductivity of CEs in
+the range of 0.1 to 1 000 000 Hz with an AC amplitude of 5 mV.
+Additionally, the EIS of ASSLS batteries was subjected to the
+frequency range from 0.1 to 200 000 Hz with an AC amplitude of
+10 mV. The discharge–charge performances under different
+temperature conditions were tested using 2032-type coin cells
+under a current density of 0.05 mA cm2 between 1.5 V and
+3.0 V using CT2001A (LANTHE Corp.).
+2.6.
+Material characterization
+Raman spectroscopy was applied to characterize the dissolved
+sulfur species in the solid-state composite electrolytes by Raman
+microscopy (Thermo Scientific DXR) with a 532 nm focused
+laser beam and a 50 objective (Olympus). The typical acquisi-
+tion time was 120 s per spectrum. The X-ray photoelectron
+spectroscopy (XPS) of the lithium electrode was measured by
+an ESCALab220i-XL electron spectrometer (VG scientific) with
+300 W monochromatized Al Ka radiation. X-ray diﬀraction
+(XRD) patterns were collected on an Empyrean instrument
+(PANalytical) in the 2y range from 101 to 801 with a step size
+of 0.02431. The morphology of the CEs was examined using
+scanning electron microscopy (SEM, JEOL6701F), operated at
+10 kV. Atomic force microscopy (AFM, Bruker Corp., Multimode
+8 with a Nanoscope V controller) in an argon-filled glove box
+was employed to measure the topography and modulus images
+of the electrolyte or lithium electrode surface with peak force
+tapping mode using an insulating triangular silicon nitride
+AFM tip (Bruker Corp., k = 26 N m1, f0 = 300 kHz). All samples
+mentioned above were sealed in the corresponding container
+under oxygen-free atmospheres during all ex situ measurement
+processes. Thermogravimetric analysis (TGA) tests were carried
+out from 30 1C to 800 1C at 10.0 1C min1 in a nitrogen
+atmosphere (STA449F3, Netzsch, Germany).
+3. Results and discussion
+The polymer–ceramic composite electrolytes were prepared via
+a typical solution casting method, and then utilized in ASSLS
+batteries to real time monitor the interfacial processes and
+further elucidate performance aging mechanisms during dis-
+charging/charging. XRD patterns show that all diffraction
+peaks of the as-obtained CEs are nearly well-matched with all
+components containing LLZTO, PEO and LiTFSI (Fig. S2, ESI†).
+TGA was introduced to evaluate the thermal stability of CE
+(Fig. S3, ESI†). The PEO, PEO–LiTFSI and CE membranes are
+relatively stable until 350 1C; while with the increase of tem-
+perature, PEO decomposes at 355–430 1C. As the temperature
+increases to 800 1C, as for the CE membrane, there is still
+44.7% of initial weight, thus yielding an extraordinary thermal
+tolerance of the remaining LLZTO–ceramic-filler, which suffi-
+ciently ensures safety and satisfies the requirement for its
+application of lithium–sulfur batteries. SEM was conducted to
+characterize the detailed morphology (Fig. S4, ESI†), indicating
+that the CE membranes exhibit a smooth surface and LLZTO
+particles are able to well disperse in the solid-state CEs. Furthermore,
+AFM topography and modulus images were shown to compare the
+morphology of PEO/LiTFSI polymer electrolytes and CEs, from
+which it can be clearly observed that the rigid LLZTO particles
+are intermingled in the PEO matrix, hence resulting in higher
+modulus of CEs according to excellent mechanical properties
+(Fig. S5, ESI†). Large-scale AFM topography images further show
+the PEO-chain agglomeration of a polymer electrolyte, yet CE
+seldom stacks together in Fig. S6 (ESI†). The EIS of SS/CE/SS steel
+cells evaluated the ionic conductivities of CE membranes from
+25 1C to 80 1C in Fig. S7 (ESI†). It approaches 6.18  105 S cm1
+at 25 1C and 1.37  104 S cm1 at 60 1C, respectively, which is
+comparable with other PEO-based composite electrolytes in ASSLS
+batteries (Table S1, ESI†).
+Fig. 1a shows the cyclic voltammetry curve of a CE-based
+ASSLS battery within the potential range of 1.5 V to 3.5 V at a
+sweep rate of 0.5 mV s1 at 65 1C, a representative temperature
+for PEO-based composite electrolytes.20,24 During the discharge
+process, there exist two remarkable reduction peaks at about
+Energy & Environmental Science
+Paper
+
+=== 第 4 页 ===
+This journal is ©The Royal Society of Chemistry 2019
+Energy Environ. Sci., 2019, 12, 2496--2506 | 2499
+2.24 V and 1.90 V, which can be associated with S8 reduced to
+PS intermediates, and then transformed into Li2S, respectively.
+The discharging behavior is similar to that of traditional Li–S
+batteries using liquid electrolytes (DOL/DME of a volume ratio
+(1 : 1) with 1 M LiTFSI and 1% LiNO3).33 Only one oxidation
+peak was observed at approximately 2.62 V, which could be
+correlated with conversation of short-chain to long-chain PSs
+during the charge process. As shown in Fig. 1(b–i), the in situ
+optical cross-section imaging was applied to investigate the
+interfacial behaviors between the active sulfur electrode and
+solid-state CE at 65 1C. The cell with a ca. 38 mm thick cathode-
+film and ca. 55 mm thick CE was obtained before cycling in
+Fig. 1b and Fig. S9 (ESI†), from which the flexible CEs produce
+slight plastic strains. The lithium electrode is placed at the
+bottom, and shielded by the beam. The visible cross-section
+could be clearly observed and the solid-state CEs keep bright-
+white from an optical glass window of an in situ cell at OCP of
+2.60 V (Fig. 1b). When the potential negatively shifts to 2.34 V, it
+is clearly demonstrated that the brightness of CEs markedly
+weakens in Fig. 1c. Upon discharging to 2.25 V, the CE
+membrane close to the sulfur-cathode gradually starts from
+white to light-brown (Fig. 1d), taking into consideration that
+the PSs dissolve into solid-state electrolytes. It is noted that the
+potential correlates with reduction of S8 to polysulfide at the CV
+Fig. 1
+(a) Cyclic voltammogram of the first cycling in a CE-based ASSLS battery at a sweep rate of 0.5 mV s1. (b–i) In situ OM imaging of the cell at the
+cathode/electrolyte interface upon discharge (b–h) and charge (i) (see detailed Video in the ESI†). (j) EIS spectra at the end of the discharge and charge
+states for the first cycling in the optical cell. (k–m) AFM topography images of CE membranes: (k) pristine, (l) discharged to 1.5 V and (m) charged to 3.0 V.
+The scale bars are 50 mm in (b–i) and 200 nm in (k–m). All electrochemical characterizations were performed at 65 1C.
+Paper
+Energy & Environmental Science
+
+=== 第 5 页 ===
+2500 | Energy Environ. Sci., 2019, 12, 2496--2506
+This journal is ©The Royal Society of Chemistry 2019
+curve. Afterwards, the potential was held at 2.25 V for 10 min,
+and the brown fully spreads over the bulk CE, as shown in
+Fig. 1e. When the potential approaches to 1.76 V, the solid-state
+electrolyte thoroughly becomes dark-brown. The high-speed
+video is shown in Video S1 of the ESI.† During the following
+charging to 2.60 V, the corresponding CE colour keeps
+unchanged in Fig. 1i, indicating that the dissolved PSs still
+remain in the solid-state electrolyte and do not further proceed
+the charge reaction back to a sulfur electrode. The irreversible
+reaction could result in fast capacity fading of ASSLS batteries,
+which is well in agreement with decreasing current density
+during charging compared with that during discharging in the
+CV curve of Fig. 1a. Moreover, making a further comparative
+study demonstrates that no colour change of CEs can be
+observed in the cell without an active sulfur cathode at 65 1C
+(the ESI,† Fig. S10).
+EIS measurements were carried out in the optical cell to
+probe the electrochemical processes in Fig. 1j. At discharging
+to 1.5 V, an additional semicircle was exhibited in the lower
+frequency region, which is assigned to the formation of Li2S2/LiS2.34
+The EIS spectra after charging to 3.0 V still exhibit two semicircles,
+which indicates the irreversible conversion of the solid-state LiS2 to
+lithium polysulfide. These results are well in agreement with the
+above-mentioned in situ OM imaging analyses.
+Based on the above analyses, the solid-state composite
+electrolyte cannot eﬀectively suppress PS shuttling associated
+with Li–S batteries, which promotes us to study morphological
+characteristics of CEs at the nanoscale. AFM topography images
+of CE membranes obtained at the end of discharge and charge
+states in the first cycling are shown in Fig. 1(k–m). The as-obtained
+CEs are mainly composed of PEO polymer matrix, LiTFSI–salt
+and LLZTO inorganic ceramic nanoparticles. Compared with the
+morphology of PEO/LiTFSI polymer electrolytes (Fig. S5, ESI†), the
+dispersive particles and stringy chains of CE could be attributable
+to the LLZTO and PEO matrix, respectively, as shown in Fig. 1k.
+Additionally, the EDS mapping also indicates that nanoparticles
+completely belong to ceramic LLZTO rather than the stacking
+LiTFSI–salt in Fig. S11 (ESI†). Furthermore, it could be found that
+the corresponding PEO chains (marked by the red arrows) slightly
+disappear and LLZTO nanoparticles stack together at 1.5 V.
+The accumulation of LLZTO at CEs increases with sequentially
+charging to 3.0 V, and PEO-chains completely disappear as
+shown in Fig. 1m. It is previously reported that LLZTO nano-
+particles embed into the PEO-chains, in which it can stabilize
+and immobilize TFSI anions, and then regulate homogeneous
+deposition of Li metal.24 Presumably, the figurate solid-state
+electrolytes could be beneficial for hampering Sx
+2 (x = 3–8).
+Moreover, the inorganic fillers may play a significant role in
+absorbing PSs and avoiding the ‘‘shuttle effect’’ in Li–S
+batteries.35 Therefore, the severe PS shuttling during the
+cycling process for ASSLS batteries could be related to the
+declined electrolyte including the accumulation of LLZTO
+nanoparticles and the PEO-chain disappearance.
+Ex situ analytical techniques were performed to further
+identify the dissolved sulfur species. The CEs were obtained
+at diﬀerent discharge–charge states by using a constant potential
+for 1 h. The CE samples close to the metallic lithium side were
+detected by Raman spectroscopy, as shown in Fig. 2a. It could be
+found that no obvious peaks at a range of 100–1000 cm1 are
+observed at CEs prior to cycling in Fig. 2a and Fig. S2b (ESI†).
+Moreover, in Fig. S12 (ESI†), the Raman spectroscopy does not
+acquire the apparent peaks of CEs for the cell without active sulfur
+of the cathode dependent on various discharge–charge states.
+Thus, it is possible to determine that the Raman peaks in Fig. 2a
+could be assigned to the soluble sulfur species. It is obvious that
+the long-chain Li2S8 or dissolved S8 starts to appear at 2.27 V. The
+peaks at 388 cm1, 447 cm1, 515 cm1 and 750 cm1 gradually
+appear at 2.05 V and considerably viewed on discharging to 1.85 V.
+The peak at 447 cm1 is attributed to S4
+2, and peaks at 388 cm1
+and at 515 cm1 are assigned to S4
+.36 The additional peak
+(750 cm1) is attributed to long-chain Sx
+2 (x = 4–8), such as
+Li2S6 and Li2S5, etc.37 Interestingly, maintaining the potential
+at 1.5 V, the radical anion S3 was found at 535 cm1.37,38
+As reported in previous Raman experiments, the presence of
+S3 species could be related to the reaction of 2S4
+2 - 2S3 +
+S2
+2,39 which indicates the formation of Li2S2 at the lithium/
+electrolyte interface. In the following charging to 2.60 V and
+3.00 V, the peaks corresponding to S4
+2, S4
+, S3 and Sx
+2
+(x = 4–8) are still visible. Furthermore, the Raman spectra of
+CEs were also acquired after the second, third and tenth cycles,
+Fig. 2
+(a) Raman spectra of CEs at representative potentials for the first
+cycling. (b–e) XPS S2p of the lithium electrode obtained upon discharging
+to (b) 2.25 V, (c) 1.85 V, and (d) 1.50 V and charging to (e) 2.60 V.
+Energy & Environmental Science
+Paper
+
+=== 第 6 页 ===
+This journal is ©The Royal Society of Chemistry 2019
+Energy Environ. Sci., 2019, 12, 2496--2506 | 2501
+as shown in Fig. S13 (ESI†). Interestingly, the peaks completely
+remain, which indicates that the pre-residual long-chain and
+short-chain PSs concentrated and stacked at the lithium electrode
+during the discharge–charge processes.
+To further characterize PS shuttling behaviors, the S2p XPS
+spectra of the corresponding lithium electrode are shown in
+Fig. 2(b–e). A Li2Sx (4 r x r 8) peak (Fig. 2b) at 163.01 eV
+confirms the diffusion of soluble PSs towards the lithium
+electrode when the applied potential is 2.25 V. As the electro-
+chemical potential is maintained at 1.85 V and 1.50 V, the Li2S2
+peak appears at 161.4 eV in Fig. 2c and d. In particular, a strong
+peak at 160.1 eV is observed at the charged potential of 2.60 V
+in Fig. 2e, which is identified as Li2S, demonstrating a consi-
+derably high concentration of PSs on the metallic lithium
+anode. As a result, the PSs react with the lithium electrode.
+Once the shuttling process continues to proceed, the capacity
+fading and anode inactivation take place in the working ASSLS
+batteries.
+The interfacial reaction of ASSLS batteries is thermo-
+dynamically favourable owing to the higher ionic conductivity
+of CEs and reductive interfacial resistance between the electrode
+and electrolyte at an increased temperature. However, an opera-
+tional temperature also has a significant influence on the PS
+dissolution and shuttling associated with Li–S batteries. Thus, it is
+quite critical to investigate the temperature dependence of inter-
+facial processes and mechanisms in CE-based ASSLS batteries.
+As shown in Fig. S7 and S14 (ESI†), the ionic conductivity of CE
+raises and the interfacial resistance of Li–S batteries significantly
+decreases with the operational temperature increasing from 45 1C
+to 75 1C. Furthermore, the corresponding CV curves were
+obtained at a sweep rate of 1 mV s1 in Fig. S15 (ESI†). In the
+first cathodic scan, there exist two reduction peaks at all opera-
+tional temperature from 45 1C to 75 1C, while it shows two
+shoulder peaks at 45 1C. It is most likely associated with a poor
+interfacial contact between the electrode and solid-state electro-
+lyte for the initial cycle at low temperature, then from the second
+cycle two distinct cathodic peaks appear with the progressive
+wetting processes of the CE/electrode interface in Fig. S15a (ESI†).
+These results indicate that the activity of Li–S electrochemical
+reaction increases with increasing temperature.
+The real time OM imaging was captured along with the
+above CV measurements dependent on varied temperature as
+shown in Video S2–S5 (see the ESI†). In Fig. 3, the optical cross-
+section images are shown merely before cycling (OCP) and after
+the 1st, 2nd and 3rd discharge–charge cycle, respectively. The
+following dimensional measurement of layers is marked for a
+more detailed comparison (Fig. S16, ESI†), and the corres-
+ponding plots also record variations of the layer-thickness in
+Fig. S17 (ESI†). As shown in Fig. 3a, at 45 1C, the thickness of
+the sulfur-cathode roughly keeps constant after three cycles,
+and that of flexible CE membranes shrinks by ca. 2 mm due to
+the negligible expansion of lithium. When the temperature
+goes up to 55 1C, the solid-state CE presents pale-yellow during
+the first cycling process in Fig. 3b, at which temperature the
+PS could start to dissolve into the solid-state electrolytes.
+Interestingly, upon further cycling, the metallic lithium starts
+to expand significantly from 60 mm to 92 mm, thus CE is
+contracted under the pressure from the lithium expansion. As a
+consequence, an internal short circuit could occur in the following
+cycles.
+In Fig. 3c, the change of CE colour is particularly visible
+at 65 1C, approximately the melting point of PEO, at which
+temperature PS dissolves into electrolytes. During the second
+cycles, the PS dissolves simultaneously accompanied by the
+expansion of CE. As shown in Fig. S16 (ESI†), the CE volume
+change is negligible in the cell without active sulfur of a
+cathode at 65 1C. It could be speculated that long-chain PSs
+dissolve into the solid-state CEs, in which it can disorder
+the electrolyte-layer. Thus, the migration and shuttling of PSs
+might induce the expansion of CEs. With further cycling, the Li-
+film expansion is again visible, and the corrosion rate of
+lithium metal obviously increases, as expected. The swelling
+lithium anode is quite detrimental to the energy density of the
+batteries. At the end of the third cycle, the variable-volume CE
+is extruded and removed between the two electrodes of the cell.
+As the operational temperature reaches 75 1C, both the color
+and volume-expansion of CE during the first cycling present
+more obvious change compared with that at 65 1C. Surprisingly,
+the additional extruding lithium is also observed at the
+CE/lithium interface (marked by the red arrow). With the
+electrochemical cycling increasing successively, the appearance
+of brown in the position of the lithium anode could be
+attributed to the severe PS shuttling at higher temperature
+(marked by the red arrow). The swelling lithium causes con-
+currently the volume-change of CE, which was monitored by
+video in more detail (the ESI,† Video S5). In addition, the brown
+in the position of lithium deepens markedly upon further
+cycling for the working Li–S battery, indicating the intensifying
+kinetics of PS dissolution at a high temperature of 75 1C.
+Furthermore, the cycling performance for Li–S cells is compara-
+tively displayed at discharge of 0.05 mA cm2 at different
+temperatures in Fig. 3e, and the corresponding coulombic
+efficiency is given (Fig. S19, ESI†). ASSLS at a working tempera-
+ture of 65 1C can deliver a superior discharge capacity, of
+ca. 1286 mA h gsulfur
+1 in the first cycle (Fig. 3e); yet, the cell
+at the tested rates over the 15 cycles presents a fast capacity
+fading for about 169 mA h gsulfur
+1, which results from the
+severe PS shuttling and lithium corrosion. Noteworthily,
+although the Li–S cell at 45 1C delivers poor capacity, it
+effectively keeps high cycling stability at the 50th cycle
+(Fig. 3e), which is in agreement with the stable interfacial
+behaviors in Fig. 3a. Afterwards, the CEs obtained at different
+temperatures were taken from in situ cells to observe the central
+part at the electrode/electrolyte interface, which exhibits the
+same colour conversion as the observation of in situ OM
+imaging experiments, as shown in Fig. S20 (ESI†).
+In order to further understand the temperature dependent
+interfacial processes, EIS measurements of CE-based Li–S cells
+after three cycles were compared with that before cycling in
+Fig. 4(a–d). The intercept at a high frequency region reveals the
+impedance in electrolyte, and the semicircle in the low-frequency
+region could represent the interfacial charge process.40,41 All cells
+Paper
+Energy & Environmental Science
+
+=== 第 7 页 ===
+2502 | Energy Environ. Sci., 2019, 12, 2496--2506
+This journal is ©The Royal Society of Chemistry 2019
+after three cycles have a significantly lower charge transfer
+resistance compared with the cells before cycling owing to trans-
+formation from bulk to interfacial charge transfer.42 It is clearly
+seen from Fig. 4c and d that higher electrolyte resistance at 65 1C
+and 75 1C could be associated with a higher concentration of
+dissolved PS, and the presence of an additional semicircle in the
+higher frequency region could be ascribed to the formation of
+a passivation layer of Li2S2/Li2S.41 Furthermore, as shown in
+Fig. 4(e–h), the S2p XPS spectra of the corresponding lithium
+electrode also reveal the characteristic peaks of Li2S2 at 161.4 eV
+and that of LiS2 at 160 eV at the operational temperature of 65 1C
+and 75 1C.
+Fig. 3
+In situ OM imaging of ASSLS batteries at (a) 45 1C, (b) 55 1C, (c) 65 1C and (d) 75 1C for OCP and after the first, second and third discharge–charge
+cycles, respectively (see detailed Videos in the ESI†). (e) Cycling performance of all-solid-state lithium–sulfur cells at 0.05 mA cm2 at different
+temperatures. The scale bars are 50 mm in (a–d).
+Energy & Environmental Science
+Paper
+
+=== 第 8 页 ===
+This journal is ©The Royal Society of Chemistry 2019
+Energy Environ. Sci., 2019, 12, 2496--2506 | 2503
+In terms of in situ optical experiments shown above, there is
+a dramatic variance on the interfacial behavior of the cells from
+observation of the cross-section view, especially, the lithium
+anode interface. Therefore, we further perform post-mortem
+Fig. 4
+EIS spectra of ASSLS batteries (a–d), XPS S2p spectra (e–h), AFM topography images (i–l) of the Li electrode obtained after three cycles at 45 1C
+(a, e and i), 55 1C (b, f and j), 65 1C (c, g and k) and 75 1C (d, h and l), respectively. XRD patterns (m) of the Li electrode obtained after three cycles at
+different temperatures. The scale bars are 500 nm in (i–l).
+Paper
+Energy & Environmental Science
+
+=== 第 9 页 ===
+2504 | Energy Environ. Sci., 2019, 12, 2496--2506
+This journal is ©The Royal Society of Chemistry 2019
+analysis of the lithium electrode interface for the cells obtained at
+the diﬀerent temperatures after in situ experiments. In Fig. 4(i–l),
+the representative AFM images were performed to characterize
+the surface of the lithium electrode at the nano/micro-scale. The
+inerratic lamellar morphology is clearly visible at low temperature
+of 45 1C. However, when the temperature increased to 55 1C,
+spherical lithium grains form and randomly distribute on the
+lithium electrode surface. With the temperature further increas-
+ing to 65 1C and 75 1C, the porous and loose morphology of
+lithium deposits is observed on the surface of lithium–metal in
+Fig. 4k and l. Furthermore, as shown in Fig. S22 of the ESI,† the
+optical images indicate that there is an eroded layer that formed
+on the metallic lithium surface with increasing temperature,
+which could also explain the eroded lithium–CE interface corres-
+ponding to in situ optical cross-section observation of cells (Fig. 3).
+The morphological variation of the lithium surface prompted us
+to investigate the characteristics of lithium crystals. Fig. 4m
+reveals XRD patterns of the cycled lithium anode after three
+cycles. It can be seen that two typical peaks at 2y = 361 and 521
+can be assigned to the Li(011) and Li(002) planes.43 Interestingly,
+at low temperature of 45 1C, the preferential growth of lithium is
+oriented along the (002) plane, whereas the preferred orientation
+changes into the (011) plane at three additional operational
+temperatures. Moreover, the presence of crystalline Li2S on the
+lithium anode is also confirmed by XRD for the Li2S(220) and
+Li2S(400) planes.44Theseobservationsindicatethatthepassivation
+of the lithium anode is correlated with the deposition of Li2S.
+Therefore, for ASSLS batteries, a modified film could still be
+essential to stabilize the lithium anode surface, and a 3D current
+collector might be applied to accommodate the volume expansion.
+Based on the above-mentioned in situ optical microscope
+imaging combined with ex situ measurements, Fig. 5 schema-
+tically illustrates the interfacial processes of ASSLS batteries.
+Fig. 5a shows the cross-section view of three-layered sheets for
+the cell. With the discharge proceeding, the PSs start to dissolve
+into solid-state CE (Fig. 5b). Moreover, in polymer–ceramic
+composite solid-state electrolytes, LLZTO nanoparticles embed
+into the stringy PEO-chains, which could play a significant role in
+immobilizing and absorbing PSs (Fig. 5b1). When the potential
+shifts towards a negative position, the corresponding PEO-chains
+slightly disappear and LLZTO nanoparticles stack together
+(Fig. 5c1), so PSs migrate and stack at the lithium–metal interface
+containing long-chain polysulfide (Sx
+2, x = 4–8) and short-chain
+polysulfide (S4
+2, S4
+ and S3) components (Fig. 5c). With
+further cycling, the PEO-chains are almost invisible (Fig. 5d1),
+and the PS dissolution simultaneously accompanies the expan-
+sion of CE as shown in Fig. 5d. In contrast, the CE volume-change
+is negligible in the cell without active sulfur of the cathode at
+65 1C, as shown in Fig. S18 (ESI†). Therefore, long-chain PSs
+dissolve into the solid-state CEs, and then could disorder the
+electrolyte-layer, which induces the expansion of the CEs.
+Meanwhile, the porous and loose morphology is visible in the
+lithium interface, indicating that the corrosion rate of lithium
+metal increases. Upon further cycling, Li-film expansion occurs
+dramatically (Fig. 5e), which further causes the contraction of the
+variable-volume CEs. Thereafter, the deformation at cathode/
+electrolyte interface appears during long cycling processes in
+Fig. 5f. Obviously, although a polymer–ceramic composite solid-
+state electrolyte has some advantages in enhancing the ionic
+conductivity of CEs and reducing interfacial resistance between
+the electrode and electrolyte, it is very difficult to avoid PS shuttling.
+These results show that the performance aging of ASSLS batteries is
+correlated with the PS shuttling, the irreversible volume-change of
+solid-state electrolytes and the metallic lithium expansion.
+4. Conclusions
+In conclusion, using real time optical microscope imaging,
+we successfully explore the interfacial processes and structural
+Fig. 5
+A schematic illustration showing the interfacial processes. (a) OCP; (b) PS shuttling into CE; (c) dissolved PS diﬀusion towards the lithium anode;
+(d) CE volume-expansion and erosion of the lithium interface; (e) lithium expansion and (f) deformation appearance at cathode/electrolyte interface. (b1),
+(c1) and (d1) describe the structural evolution of CE close to lithium interface corresponding to (b–d).
+Energy & Environmental Science
+Paper
+
+=== 第 10 页 ===
+This journal is ©The Royal Society of Chemistry 2019
+Energy Environ. Sci., 2019, 12, 2496--2506 | 2505
+evolutions in ASSLS batteries with polymer–ceramic composite
+electrolytes from visible cross-section view. In situ optical
+imaging clearly monitored PS dissolution into the solid-state
+CEs during the discharging process, and then the dissolved PSs
+still remain in the CEs during the following charging. Raman
+spectroscopy and XPS further identified solid-state electrolytes
+including the accumulation of S4
+2, S4
+, S3, Sx
+2 (x = 4–8) and
+Li2S on the metallic lithium anode. The irreversible reaction
+would induce fast capacity decay and low coulombic efficiency
+of Li–S batteries. Additionally, in situ optical imaging reveals
+the temperature effects on the interfacial properties in CE-based
+ASSLS batteries, and it indicates that the performance failure of
+batteries results from the PS shuttling, the irreversible volume-
+change of solid-state electrolytes and the metallic lithium
+expansion. We believe that the real-time observation can promote
+a deep understanding of the fundamental electrochemical
+mechanisms and provide direct information in perfecting the
+performance of ASSLS systems.
+Conflicts of interest
+The authors declare no competing financial interest.
+Acknowledgements
+The authors acknowledge funding support from the National
+Key R&D Program of China (Grant No. 2016YFA0202500), the
+National Natural Science Fund for Excellent Young Scholars
+(Grant No. 21722508), the ‘‘Hundred Talents Program’’ from
+Chinese Academy of Sciences and the 111 Project (No. B12015)
+from Key Laboratory of Advanced Energy Materials Chemistry,
+Nankai University.
+References
+1 P. G. Bruce, S. A. Freunberger, L. J. Hardwick and J. M.
+Tarascon, Nat. Mater., 2011, 11, 19.
+2 Y. X. Yin, S. Xin, Y. G. Guo and L. J. Wan, Angew. Chem., Int.
+Ed., 2013, 52, 13186–13200.
+3 Q. Pang, X. Liang, C. Y. Kwok and L. F. Nazar, Nat. Energy,
+2016, 1, 16132.
+4 D. Lu, Y. Shao, T. Lozano, W. D. Bennett, G. L. Graﬀ,
+B. Polzin, J. Zhang, M. H. Engelhard, N. T. Saenz, W. A.
+Henderson, P. Bhattacharya, J. Liu and J. Xiao, Adv. Energy
+Mater., 2015, 5, 1400993.
+5 M. Barghamadi, A. S. Best, A. I. Bhatt, A. F. Hollenkamp,
+M. Musameh, R. J. Rees and T. Ru¨ther, Energy Environ. Sci.,
+2014, 7, 3902–3920.
+6 X. Liu, J. Q. Huang, Q. Zhang and L. Mai, Adv. Mater., 2017,
+29, 1601759.
+7 S. H. Chung and A. Manthiram, Adv. Funct. Mater., 2014, 24,
+5299–5306.
+8 L. Danni, S. Kai, Y. Heng, W. Zipei, W. Yanyan, S. Lu,
+L. Baohua, Y. Quan Hong, K. Feiyu and H. Yan Bing,
+Adv. Funct. Mater., 2018, 0, 1707570.
+9 J. Lee, J. Song, H. Lee, H. Noh, Y. J. Kim, S. H. Kwon, S. G. Lee
+and H. T. Kim, ACS Energy Lett., 2017, 2, 1232–1239.
+10 M. Liu, D. Zhou, Y. B. He, Y. Fu, X. Qin, C. Miao, H. Du,
+B. Li, Q. H. Yang, Z. Lin, T. S. Zhao and F. Kang, Nano
+Energy, 2016, 22, 278–289.
+11 S. J. Tan, X. X. Zeng, Q. Ma, X. W. Wu and Y. G. Guo,
+Electrochem. Energy Rev., 2018, 1, 113–138.
+12 L. Chen and L. Z. Fan, Energy Storage Mater., 2018, 15, 37–45.
+13 G. Zhou, F. Li and H. M. Cheng, Energy Environ. Sci., 2014, 7,
+1307–1338.
+14 Y. Lin, J. Li, K. Liu, Y. Liu, J. Liu and X. Wang, Green Chem.,
+2016, 18, 3796–3803.
+15 C. Tang, K. Hackenberg, Q. Fu, P. M. Ajayan and H. Ardebili,
+Nano Lett., 2012, 12, 1152–1156.
+16 E. Staunton, Y. G. Andreev and P. G. Bruce, J. Am. Chem.
+Soc., 2005, 127, 12176–12177.
+17 C. Capiglia, P. Mustarelli, E. Quartarone, C. Tomasi and
+A. Magistris, Solid State Ionics, 1999, 118, 73–79.
+18 J. H. Shin, K. W. Kim, H. J. Ahn and J. H. Ahn, Mater. Sci.
+Eng., 2002, 95, 148–156.
+19 J. Hassoun and B. Scrosati, Adv. Mater., 2010, 22, 5198–5201.
+20 G. G. Eshetu, X. Judez, C. Li, M. Martinez-Iban˜ez, I. Gracia,
+O. Bondarchuk, J. Carrasco, L. M. Rodriguez-Martinez,
+H. Zhang and M. Armand, J. Am. Chem. Soc., 2018, 140,
+9921–9933.
+21 X. Judez, H. Zhang, C. Li, J. A. Gonza´lez Marcos, Z. Zhou,
+M. Armand and L. M. Rodriguez Martinez, J. Phys. Chem.
+Lett., 2017, 8, 1956–1960.
+22 X. Judez, H. Zhang, C. Li, G. G. Eshetu, Y. Zhang,
+J. A. Gonza´lez Marcos, M. Armand and L. M. Rodriguez
+Martinez, J. Phys. Chem. Lett., 2017, 8, 3473–3477.
+23 L. Chen, Y. Li, S. P. Li, L. Z. Fan, C. W. Nan and
+J. B. Goodenough, Nano Energy, 2018, 46, 176–184.
+24 C. Z. Zhao, X. Q. Zhang, X. B. Cheng, R. Zhang, R. Xu,
+P. Y. Chen, H. J. Peng, J. Q. Huang and Q. Zhang, Proc. Natl.
+Acad. Sci. U. S. A., 2017, 114, 11069–11074.
+25 K. Fu, Y. Gong, J. Dai, A. Gong, X. Han, Y. Yao, C. Wang,
+Y. Wang, Y. Chen, C. Yan, Y. Li, E. D. Wachsman and L. Hu,
+Proc. Natl. Acad. Sci. U. S. A., 2016, 113, 7094–7099.
+26 X. Tao, Y. Liu, W. Liu, G. Zhou, J. Zhao, D. Lin, C. Zu,
+O. Sheng, W. Zhang and H. W. Lee, Nano Lett., 2017, 17,
+2967–2972.
+27 J. Tan, D. Liu, X. Xu and L. Mai, Nanoscale, 2017, 9,
+19001–19016.
+28 P. Hovington, M. Lagace´, A. Guerfi, P. Bouchard, A. Mauger,
+C. Julien, M. Armand and K. Zaghib, Nano Lett., 2015, 15,
+2671–2678.
+29 H. Marceau, C. S. Kim, A. Paolella, S. Ladouceur, M. Lagace´,
+M. Chaker, A. Vijh, A. Guerfi, C. M. Julien, A. Mauger,
+M. Armand, P. Hovington and K. Zaghib, J. Power Sources,
+2016, 319, 247–254.
+30 Y. Gong, J. Zhang, L. Jiang, J. A. Shi, Q. Zhang, Z. Yang,
+D. Zou, J. Wang, X. Yu and R. Xiao, J. Am. Chem. Soc., 2017,
+139, 4274–4277.
+31 F. Sun, K. Dong, M. Osenberg, A. Hilger, S. Risse, Y. Lu,
+P. H. Kamm, M. Klaus, H. Marko¨tter, F. Garcı´a Moreno,
+Paper
+Energy & Environmental Science
+
+=== 第 11 页 ===
+2506 | Energy Environ. Sci., 2019, 12, 2496--2506
+This journal is ©The Royal Society of Chemistry 2019
+T.
+Arlt
+and
+I.
+Manke,
+J.
+Mater.
+Chem.
+A,
+2018,
+6,
+22489–22496.
+32 S. Xiong, K. Xie, Y. Diao and X. Hong, Electrochim. Acta,
+2012, 83, 78–86.
+33 S. Zhang, K. Ueno, K. Dokko and M. Watanabe, Adv. Energy
+Mater., 2015, 5, 1500117.
+34 W. G. Wang, X. Wang, L. Y. Tian, Y. L. Wang and S. H. Ye,
+J. Mater. Chem. A, 2014, 2, 4316–4323.
+35 J. Hassoun and B. Scrosati, Angew. Chem., Int. Ed., 2010, 49,
+2371–2374.
+36 M. Hagen, P. Schiﬀels, M. Hammer, S. Do¨rfler, J. Tu¨bke,
+M. J. Hoﬀmann, H. Althues and S. Kaskel, J. Electrochem.
+Soc., 2013, 160, A1205–A1214.
+37 J. T. Yeon, J. Y. Jang, J. G. Han, J. Cho, K. T. Lee and
+N. S. Choi, J. Electrochem. Soc., 2012, 159, A1308–A1314.
+38 H. L. Wu, L. A. Huﬀand A. A. Gewirth, ACS Appl. Mater.
+Interfaces, 2015, 7, 1709–1719.
+39 P. Dubois, J. Lelieur and G. Lepoutre, Inorg. Chem., 1988, 27,
+73–80.
+40 Z. A. Ghazi, X. He, A. M. Khattak, N. A. Khan, B. Liang,
+A. Iqbal, J. Wang, H. Sin, L. Li and Z. Tang, Adv. Mater.,
+2017, 29, 1606817.
+41 J. Liu, T. Qian, M. Wang, J. Zhou, N. Xu and C. Yan, Nano
+Lett., 2018, 18, 4598–4605.
+42 L. Yuan, X. Qiu, L. Chen and W. Zhu, J. Power Sources, 2009,
+189, 127–132.
+43 C. Zu and A. Manthiram, J. Phys. Chem. Lett., 2014, 5,
+2522–2527.
+44 S. E. Cheon, K. S. Ko, J. H. Cho, S. W. Kim, E. Y. Chin and
+H. T. Kim, J. Electrochem. Soc., 2003, 150, A796–A799.
+Energy & Environmental Science
+Paper

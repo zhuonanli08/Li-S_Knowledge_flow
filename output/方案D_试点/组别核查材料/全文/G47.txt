@@ -1,0 +1,677 @@
+=== 第 1 页 ===
+Citation: Wang, L.; Huang, J.; Shen, Y.;
+Ma, M.; Ruan, W.; Zhang, M.
+ARGET-ATRP-Mediated Grafting of
+Bifunctional Polymers onto Silica
+Nanoparticles Fillers for Boosting the
+Performance of High-Capacity All-
+Solid-State Lithium–Sulfur Batteries
+with Polymer Solid Electrolytes.
+Polymers 2024, 16, 1128. https://
+doi.org/10.3390/polym16081128
+Academic Editor: Wei-Ren Liu
+Received: 5 March 2024
+Revised: 13 April 2024
+Accepted: 15 April 2024
+Published: 17 April 2024
+Copyright: © 2024 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+polymers
+Article
+ARGET-ATRP-Mediated Grafting of Bifunctional Polymers onto
+Silica Nanoparticles Fillers for Boosting the Performance of
+High-Capacity All-Solid-State Lithium–Sulfur Batteries with
+Polymer Solid Electrolytes
+Liang Wang 1, Junyue Huang 1, Yujian Shen 1, Mengqi Ma 1, Wenhong Ruan 1,2,* and Mingqiu Zhang 1,2
+1
+Key Laboratory for Polymeric Composite and Functional Materials of Ministry of Education, GD HPPC Lab,
+School of Chemistry, Sun Yat-sen University, Guangzhou 510275, China; wangln57@mail2.sysu.edu.cn (L.W.);
+huangjy329@mail2.sysu.edu.cn (J.H.); shenyj7@mail2.sysu.edu.cn (Y.S.); mamq6@mail2.sysu.edu.cn (M.M.);
+ceszmq@mail.sysu.edu.cn (M.Z.)
+2
+Guangdong Provincial Laboratory of Chemistry and Fine Chemical Engineering Jieyang Center,
+Jieyang 515200, China
+*
+Correspondence: cesrwh@mail.sysu.edu.cn; Tel.: +86-020-84114008
+Abstract: The shuttle effect in lithium–sulfur batteries, which leads to rapid capacity decay, can
+be effectively suppressed by solid polymer electrolytes. However, the lithium-ion conductivity of
+polyethylene oxide-based solid electrolytes is relatively low, resulting in low reversible capacity and
+poor cycling stability of the batteries. In this study, we employed the activator generated through
+electron transfer atom transfer radical polymerization to graft modify the surface of silica nanoparti-
+cles with a bifunctional monomer, 2-acrylamide-2-methylpropanesulfonate, which possesses sulfonic
+acid groups with low dissociation energy for facilitating Li+ migration and transfer, as well as amide
+groups capable of forming hydrogen bonds with polyethylene oxide chains. Subsequently, the
+modified nanoparticles were blended with polyethylene oxide to prepare a solid polymer electrolyte
+with low crystallinity and high ion conductivity. The resulting electrolyte demonstrated excellent and
+stable electrochemical performance, with a discharge-specific capacity maintained at 875.2 mAh g−1
+after 200 cycles.
+Keywords: ARGET-ATRP; silica nanoparticles; lithium–sulfur batteries; polymer solid electrolytes
+1. Introduction
+With the continuous growth in global energy demand, lithium-ion batteries (LIBs) with
+high energy density and long cycling capability have experienced widespread development,
+playing an increasingly significant role in the global energy system [1–3]. The remarkable
+specific capacity (1672 mAh g−1) and cost-effectiveness have garnered extensive attention
+for sulfur cathodes in the field of lithium batteries [4]. Among them, lithium–sulfur (Li-S)
+batteries, which are compatible with the coveted lithium metal as the anode, represent one
+of the most extensively researched types of LIBs [5–8].
+However, in conventional liquid-state LIB systems, the favorable solubility of lithium
+polysulfides (LiPSs) generated at the cathode during battery cycling leads to continuous
+loss of active materials in the cathode [8–12]. These soluble LiPSs (Li2Sx, 4 < x < 8) migrate
+to the anode side with the electrolyte, a phenomenon known as the “shuttle effect”, where
+they react with the lithium metal, forming insoluble Li2S2 and Li2S, which subsequently
+deposit on the lithium metal surface [13–15]. This seemingly promising cathode material
+simultaneously gives rise to the aforementioned issues on both the cathode and anode,
+resulting in rapid capacity decay of Li-S batteries. The development of all-solid-state Li-S
+batteries holds tremendous potential for the commercialization of Li-S battery technol-
+ogy [16–20]. Solid polymer electrolytes (SPEs) can play a crucial role by acting as physical
+Polymers 2024, 16, 1128. https://doi.org/10.3390/polym16081128
+https://www.mdpi.com/journal/polymers
+
+=== 第 2 页 ===
+Polymers 2024, 16, 1128
+2 of 13
+barriers, effectively controlling the dissolution of LiPSs from the cathode and mitigating
+their negative impact on the anode [18,21–24]. Additionally, SPEs offer a range of advan-
+tages, such as preventing electrolyte leakage, enabling high energy density, and enhancing
+safety [24–26]. In the realm of SPEs, blends of high molecular weight polyethylene oxide
+(PEO) and its derivatives with lithium salts have gained considerable attention [27–31]. This
+stems from the favorable attributes of PEO, including excellent mechanical properties, high
+solubility with lithium salts, and favorable chemical stability towards lithium metal [32].
+The mechanism by which PEO-based polymer solid electrolytes facilitate Li+ transport is
+through the coordination of Li+ ions, dissociated from lithium salts, with ether oxygen
+atoms along the PEO polymer chains. The migration and transfer of Li+ ions are driven by
+the segmental motion of the PEO polymer chains [33,34]. However, it should be noted that
+PEO belongs to the category of crystalline polymers, exhibiting a relatively high degree
+of crystallinity at lower temperatures. This characteristic hinders the effective conduction
+of Li+ ions through the crystalline regions of the PEO polymer chains, resulting in low
+lithium-ion conductivity (approximately 10−7 S cm−1) [31]. Consequently, batteries utiliz-
+ing PEO-based solid electrolytes may exhibit limited reversible capacity and suboptimal
+cycling stability [35–37].
+The incorporation of diverse nanostructured inorganic fillers with varying surface
+properties into the polymer matrix of PEO to form composite SPEs represents a promising
+avenue to mitigate its crystallinity and enhance the performance of SPEs [38–40]. For
+instance, the crystallinity of PEO could be reduced by introducing Al2O3 or SiO2 fillers
+into the polymer matrix [41–46]. This approach effectively increased the number of free
+polymer segments, thereby accelerating the segmental motion of the polymer chains and
+ultimately leading to enhanced lithium-ion conductivity.
+In our previous investigations, we observed the tendency of inorganic fillers with abun-
+dant polar functional groups to aggregate when incorporated into crystalline polymer matri-
+ces for modification [47]. Such poor compatibility hampers the efficiency of filler-mediated
+polymer modification, particularly when the filler itself is inert and lacks inherent Li+ con-
+ductivity. To address this challenge, surface modification of inorganic fillers has emerged
+as a viable approach. Motivated by this concept, we employed cost-effective and readily
+available silica nanoparticles (SiO2 Nps), a typical inert filler, and employed the activators
+regenerated by the electron transfer atom transfer radical polymerization (ARGET-ATRP)
+technique to graft a bifunctional monomer lithium 2-acrylamide-2-methylpropanesulfonate
+(AMPSLi) onto the filler surface (SiO2-g-PAMPSLi). This monomer possesses sulfonic acid
+moieties with low dissociation energy for facilitating Li+ migration and transfer, as well as
+amide groups capable of forming hydrogen bonds with PEO polymer chains. Subsequently,
+the modified filler was blended with PEO to fabricate SPEs with reduced crystallinity and
+enhanced ion conductivity.
+2. Materials and Methods
+2.1. Preparation of SiO2-g-PAMPSLi
+Firstly, SiO2 NPs were obtained by using a modified Stöber method and activated by
+hydrogen peroxide and concentrated sulfuric acid [48]. Then, a certain amount of 2-bromo-
+2-methylpropanoyl bromide, 3-aminopropyltriethoxysilane, and triethylamine were mixed
+to produce the siloxane pre-initiator. Under anhydrous and anaerobic conditions, SiO2 NPs
+and siloxane pre-initiator reactions formed the SiO2 Nps initiator. Then, with the initiator
+and AMPSLi added, the SiO2-g-PAMPSLi nanoparticle was successfully obtained through
+ARGET-ATRP. The concrete process of synthesis is shown in the Supplementary Materials
+as well as Figure 1.
+
+=== 第 3 页 ===
+Polymers 2024, 16, 1128
+3 of 13
+Figure 1. Preparation of SiO2-g-PAMPSLi.
+2.2. Preparation of SiO2-g-PAMPSLi@PEO-Based Polymer Composite Solid Electrolytes
+This experiment uses a solution pouring method to prepare solid electrolytes, with
+the specific steps as follows: (1) dissolve a certain amount of LiClO4 in 10 mL acetonitrile
+according to the EO/Li+ ratio [49]; (2) add a certain amount of inorganic solid powder to
+the above solution and sonicate for 15 min to disperse; (3) add 0.88 g of polyethylene oxide
+(PEO) and a certain amount of SiO2-g-PAMPSLi to the above dispersion and stir at room
+temperature for 24 h; then (4) pour the solution into a PTFE mold with length, width, and
+height of 50 mm × 50 mm × 3 mm. First, let the solvent evaporate naturally under a fume
+hood. Then, remove the solvent on a 40 ◦C hot bench and dry it in a 40 ◦C vacuum oven
+for 24 h. (5) Lastly, cut the dried solid electrolyte film into circular slices with a diameter of
+16 mm using a slicer for later use.
+2.3. Preparation of Carbon Sulfur Composite Cathode Materials
+This experiment used an in-situ loading method to load sulfur onto Super P-activated
+carbon to prepare active materials. The specific steps are as follows: (1) dissolve and
+disperse 3 g sodium thiosulfate pentahydrate and 0.15 g Super P-activated carbon in
+10 mL deionized water, stir for 15 min; (2) dissolve 2.37 g of concentrated hydrochloric
+acid in 23.7 mL of deionized water and slowly add it to the above solution through a
+constant pressure drip funnel under magnetic stirring; (3) react at room temperature for
+12 h; (4) solid and liquid are separated by suction filtration, and the filter residue is washed
+with deionized water until the filtrate is neutral. It is then dried in a vacuum oven at 60 ◦C
+for 24 h before being set aside.
+2.4. Preparation of Cathodes and Lithium–Sulfur Batteries
+This experiment uses the scraping coating method to prepare the cathode of lithium–
+sulfur batteries. The specific steps are as follows: (1) grind and mix 0.8 g of carbon–sulfur
+composite material, 0.1 g of acetylene black, and 0.1 g of polyvinylidene fluoride (in a
+
+=== 第 4 页 ===
+Polymers 2024, 16, 1128
+4 of 13
+mass ratio of 8:1:1) evenly in an agate mortar; (2) add the mixed powder to 5 mL of N-
+methylpyrrolidone and stir at room temperature for 12 h to obtain a viscous cathode slurry;
+(3) use a four-sided scraper to coat the cathode slurry onto the carbon coated aluminum
+foil, and dry it in a 60 ◦C blast oven for 12 h to remove solvents; (4) cut the carbon-coated
+aluminum foil coated with cathode material and dried into circular pieces with a diameter
+of 12 mm using a slicer, and store them in a glove box filled with argon gas atmosphere for
+later use.
+2.5. Electrochemical Measurements
+The solid electrolytes, cathodes, and lithium metal were assembled into the CR2032
+button battery in a glove box filled with argon gas. The electrochemical stability window
+was tested by linear sweep voltammetry (LSV) measurement under a scan rate of 5 mV s−1,
+from 2.0 to 6.0 V (vs. Li/Li+) in an electrochemical workstation (CHI760E, CH Instrument,
+Shanghai, China). The cyclic voltammetry (CV) was carried out at a scan rate of 0.1 mV s−1
+between 1.6 and 2.8 V to characterize the redox reaction and reversibility. The electrochemi-
+cal cycling performance of the coin cells was tested within a voltage window of 1.6–2.8 V
+using a battery test system (CT2001A, LAND, Wuhan, China).
+3. Results
+Characterization of the synthesized pre-initiator was performed by dissolving it in
+deuterated chloroform and analyzing its chemical structure using nuclear magnetic reso-
+nance (NMR) spectroscopy. Figure S1 presents the proton NMR spectrum of the pre-initiator.
+From the spectrum, it can be observed that the absorption peaks at 1.21 ppm and 3.97 ppm
+correspond to the methyl and methylene protons on the ethoxy groups, respectively. The
+peaks at 0.63 ppm, 1.61 ppm, and 3.26 ppm correspond to the three methylene protons
+on the original amino propyl group. The peak at 6.89 ppm corresponds to the hydrogen
+atom in the amide group of the pre-initiator, while the peak at 1.98 ppm corresponds to
+the two methyl protons on the α-carbon atom connected to the carbonyl group. The ratios
+of the peak areas of all characteristic peaks are in complete agreement with the propor-
+tions of hydrogen atoms in the chemical structure, indicating the successful synthesis of
+the pre-initiator.
+In order to investigate the morphological structure of SiO2-g-PAMPSLi, scanning
+electron microscopy (SEM) and transmission electron microscopy (TEM) were employed
+for characterization. As shown in Figure S2, the surface of SiO2 Nps particles appears
+smooth and uniform. However, in Figure S3, the SiO2 Nps initiator exhibits the presence
+of adhered substances, indicating the successful grafting of the pre-initiator onto the
+surface of SiO2 Nps. After the ARGET-ATRP polymerization reaction, Figure 2A clearly
+reveals that the surface of SiO2 particles is no longer smooth, exhibiting noticeable adhered
+substances and agglomeration between particles. This phenomenon suggests the successful
+polymerization of AMPSLi monomers on the surface of SiO2 particles, forming a polymer
+layer that encapsulates the SiO2 particles and leads to interparticle adhesion. Elemental
+mapping analysis using energy-dispersive X-ray spectroscopy (EDS) confirms the presence
+of nitrogen (N) and sulfur (S) elements on the surface of SiO2-g-PAMPSLi particles, which
+are exclusive to the AMPSLi monomers. This observation further confirms the successful
+surface modification of SiO2 Nps. Moreover, the TEM image in Figure 2B reveals that
+SiO2-g-PAMPSLi nanoparticles possess a core–shell structure, with the SiO2 core and a
+PAMPSLi polymer shell formed by the polymerization of AMPSLi monomers. Infrared
+spectroscopy was performed on SiO2 Nps, SiO2 Nps initiator, and SiO2-g-PAMPSLi, as
+shown in Figure 2C. For SiO2 Nps, the strong absorption peak at 1100 cm−1 corresponds
+to the stretching vibration of Si-O-Si bonds, while the peak at 3300 cm−1 corresponds
+to the stretching vibration of hydroxyl groups (O-H) on the surface of SiO2 Nps. For
+the SiO2 Nps initiator, the peak at 3400 cm−1 corresponds to the stretching vibration of
+N-H bonds on the amine group, the peak at 2925 cm−1 corresponds to the stretching
+vibration of saturated C-H bonds, and the peak at 1620 cm−1 corresponds to the stretching
+
+=== 第 5 页 ===
+Polymers 2024, 16, 1128
+5 of 13
+vibration of C=O double bonds on the carbonyl group. These three characteristic peaks
+correspond to the functional groups present in the pre-initiator, and the peaks at 1465 cm−1
+and 1402 cm−1 correspond to the antisymmetric and symmetric deformation vibrations
+of the methyl groups on the pre-initiator, respectively, indicating the successful grafting
+of the pre-initiator onto the surface of SiO2 Nps to form the SiO2 Nps initiator. For SiO2-
+g-PAMPSLi, the monomer AMPSLi contains carbonyl, amine, and methyl groups. From
+the infrared spectrum, it can be observed that the intensities of the characteristic peaks
+corresponding to these three groups are enhanced. Additionally, the absorption peaks
+around 1070 cm−1 and 1193 cm−1 (overlapping with the stretching vibration peak of Si-O-Si
+bonds) as well as the peak at 630 cm−1 correspond to the antisymmetric and symmetric
+deformation vibrations and stretching vibration of S-O bonds on the sulfonic acid group,
+respectively. This further confirms the successful polymerization and grafting of AMPSLi
+monomers on the surface of SiO2 Nps, forming SiO2-g-PAMPSLi. Figure 2D presents the
+thermogravimetric analysis (TGA) curves of SiO2 Nps, the SiO2 Nps initiator, and SiO2-
+g-PAMPSLi. A notable observation is the 7% higher weight loss in the SiO2 Nps initiator
+compared to SiO2 Nps, confirming the successful bonding of the organic component to
+the surface of SiO2 Nps and the successful synthesis of the SiO2 initiator. Furthermore, a
+distinct weight loss is evident in SiO2-g-PAMPSLi beginning at 210 ◦C, indicative of the
+polymer grafting on the surface of SiO2 Nps. This finding allows for the calculation of the
+mass fraction of the grafted polymer PAMPSLi on the SiO2 Nps surface, estimated to be
+approximately 64.56%.
+Figure 2. (A) SEM and corresponding EDS element scanning profiles and (B) TEM images of SiO2-g-
+PAMPSLi; (C) infrared spectra and (D) thermogravimetric curves of SiO2 Nps, SiO2 Nps initiator,
+and SiO2-g-PAMPSLi.
+Composite SPEs were prepared by incorporating SiO2 Nps and SiO2-g-PAMPSLi into
+PEO (SiO2@PEO and SiO2-g-PAMPSLi@PEO). The morphology of the two composites was
+examined using SEM (Figure S3). In comparison to SiO2@PEO, SiO2-g-PAMPSLi@PEO
+exhibited a more uniform dispersion of fillers. Even at a high loading of 20 wt%, the
+SiO2-g-PAMPSLi particles did not aggregate. This can be attributed to the presence of the
+PAMPSLi polymer layer, which effectively isolates the inorganic SiO2 particles, preventing
+
+=== 第 6 页 ===
+Polymers 2024, 16, 1128
+6 of 13
+their agglomeration. Furthermore, the polymer layer demonstrates excellent organic–
+organic compatibility with the PEO matrix, facilitating the homogeneous dispersion of
+SiO2-g-PAMPSLi particles within the PEO matrix. However, at a loading of 25 wt%, SEM
+images revealed the occurrence of particle aggregation in SiO2-g-PAMPSLi@PEO.
+To investigate the influence of nanoparticles on the crystallization behavior of PEO,
+X-ray diffraction (XRD) and differential scanning calorimetry (DSC) characterization was
+performed on SPEs with different contents of SiO2 (Figure 3A,C) and SiO2-g-PAMPSLi
+(Figure 3B,D). The melting temperatures, enthalpies of fusion, and crystallinity of all
+substances in the DSC curves are summarized in Tables S1 and S2. The crystallinity of
+polymer PEO was calculated using the following equation.
+χc =
+∆Hm
+∆HPEO· fPEO
+× 100%
+Figure 3. The XRD spectra and DSC curves of SPEs containing varying amounts of (A,C) SiO2 and
+(B,D) SiO2-g-PAMPSLi.
+Here, χc represents the crystallinity of polymer PEO, and ∆HPEO denotes the enthalpy
+of fusion for fully crystallized PEO, with a value of 196.4 J g−1. ∆Hm corresponds to the
+experimentally measured enthalpy of fusion, and fPEO represents the mass fraction of PEO
+in the SPEs.
+The XRD spectra of individual SiO2 and SiO2-g-PAMPSLi exhibited no distinct diffrac-
+tion peaks, indicating their amorphous nature. In comparison to the XRD spectrum of
+SiO2@PEO, the XRD spectrum of SiO2-g-PAMPSLi@PEO did not exhibit the diffraction
+peaks at 14.9◦and 22.3◦. This suggests the presence of interactions between certain func-
+tional groups on SiO2-g-PAMPSLi and the PEO chains, which may affect the crystallization
+behavior of PEO and disrupt the corresponding crystalline regions associated with these
+diffraction peaks. With an increase in the loading of SiO2-g-PAMPSLi, the intensity of the
+characteristic diffraction peaks of PEO at 19.2◦and 23.5◦decreased, indicating the ability of
+SiO2-g-PAMPSLi to reduce the crystallinity of PEO. The DSC curves reveal that although
+the melting temperature of SiO2-g-PAMPSLi@PEO shows a slight increase with increas-
+
+=== 第 7 页 ===
+Polymers 2024, 16, 1128
+7 of 13
+ing SiO2-g-PAMPSLi content, the intensity of the melting peak significantly decreases.
+This observation is consistent with the results of melting temperature and crystallinity
+presented in Table S1. As shown in Table S1, when the SiO2-g-PAMPSLi content is be-
+low 20 wt%, the crystallinity of SiO2-g-PAMPSLi@PEO notably decreases with increasing
+SiO2-g-PAMPSLi content, reaching a minimum value of 24% at 20 wt%. Nevertheless,
+when the SiO2-g-PAMPSLi content exceeds a certain threshold, particle aggregation occurs
+(Figure S3), resulting in reduced interaction with polymer PEO and increased crystallinity.
+Furthermore, compared to SiO2@PEO, SiO2-g-PAMPSLi@PEO exhibits lower crystallinity
+at the same filler content, and the difference becomes more pronounced as the filler content
+increases. This phenomenon can be attributed to the presence of abundant amine and
+unreacted hydroxyl groups on the surface of SiO2-g-PAMPSLi particles. The hydrogen
+atoms on these functional groups can form stronger hydrogen bonds with the ether oxygen
+atoms in PEO, surpassing the hydrogen bonding effect of the hydroxyl groups on SiO2. As
+a result, the impact on PEO crystallization is more pronounced, leading to a more effective
+reduction in PEO crystallinity. Additionally, the SiO2-g-PAMPSLi@PEO system achieves
+the lowest crystallinity at a higher filler content compared to SiO2@PEO. This is attributed
+to the excellent dispersion of SiO2-g-PAMPSLi particles in PEO, even at higher contents, as
+confirmed by the SEM image in Figure S3.
+To investigate the interaction mechanism between SiO2-g-PAMPSLi particles and
+polymer PEO in SiO2-g-PAMPSLi@PEO, the mechanical properties were evaluated through
+tensile testing, as shown in Figure S4. PEO and SiO2@PEO with an equivalent filler content
+were selected as control groups. As observed from the graph, PEO exhibits a tensile strength
+of only 2.2 MPa and a fracture elongation of approximately 330% in the absence of filler
+addition. Upon the addition of nanoscale particle fillers, both SPE systems demonstrate
+a significant improvement in tensile strength and fracture elongation. This indicates that
+both types of nanoscale particles enhance and toughen the polymer PEO. Furthermore,
+SiO2-g-PAMPSLi exhibits superior reinforcement and toughening effects on polymer PEO
+compared to SiO2. This can be attributed to two factors: firstly, the surface of SiO2-g-
+PAMPSLi contains a substantial number of functional groups capable of interacting with
+PEO chains, thereby enhancing the tensile strength of SPEs. Secondly, at an equivalent filler
+content, SiO2-g-PAMPSLi@PEO exhibits lower crystallinity, leading to enhanced material
+toughness and increased fracture elongation. Figure S5 presents the stress–strain curves of
+SiO2-g-PAMPSLi@PEO with different SiO2-g-PAMPSLi contents. It can be observed that
+both the tensile strength and fracture elongation of SiO2-g-PAMPSLi@PEO increase with
+an increase in SiO2-g-PAMPSLi content. However, when the content reaches 25 wt%, the
+fracture elongation decreases. This behavior can be attributed to the stronger interaction
+between SiO2-g-PAMPSLi and polymer PEO at higher SiO2-g-PAMPSLi contents, leading
+to enhanced tensile strength and fracture elongation. Nevertheless, when the SiO2-g-
+PAMPSLi content exceeds a certain threshold, particle aggregation occurs, resulting in
+reduced interaction with polymer PEO, increased crystallinity, and decreased flexibility.
+Consequently, the fracture elongation decreases.
+The lithium-ion conductivity relationship with filler content at room temperature
+(25 ◦C) for SPEs is depicted in Figure 4A. It is evident that the lithium-ion conductivity of
+SiO2-g-PAMPSLi@PEO consistently surpasses that of SiO2@PEO at equivalent filler content.
+Moreover, as the filler content increases, the disparity between the two becomes more
+pronounced, reaching an order of magnitude higher lithium-ion conductivity for SiO2-g-
+PAMPSLi@PEO compared to SiO2@PEO at higher concentrations. On one hand, under
+equivalent content conditions, the crystallinity of SiO2-g-PAMPSLi@PEO is lower than that
+of SiO2@PEO, promoting an increase in the proportion of amorphous PEO molecular chains
+favorable for Li+ migration and transport, thereby enhancing lithium-ion conductivity. On
+the other hand, the surface of SiO2-g-PAMPSLi particles is rich in lithium sulfonate groups,
+facilitating interaction with Li+ to promote salt dissociation and possessing inherent Li+
+conductivity. Consequently, SPEs incorporating SiO2-g-PAMPSLi exhibit significantly im-
+proved lithium-ion conductivity. However, when the SiO2-g-PAMPSLi content exceeds a
+
+=== 第 8 页 ===
+Polymers 2024, 16, 1128
+8 of 13
+certain threshold, the lithium-ion conductivity of SiO2-g-PAMPSLi@PEO decreases. This is
+attributed to the agglomeration of SiO2-g-PAMPSLi particles at higher concentrations, in-
+creasing the crystallinity of SiO2-g-PAMPSLi@PEO and consequently leading to a reduction
+in lithium-ion conductivity.
+Figure 4. The relationship between lithium-ion conductivity of various SPEs and (A) filler loading
+levels, as well as (B) temperature; (C) Linear sweep voltammetry tests of SiO2-g-PAMPSLi@PEO
+composites with varying SiO2-g-PAMPSLi content.
+Temperature experiments on the lithium-ion conductivity of SiO2-g-PAMPSLi@PEO
+with varying SiO2-g-PAMPSLi content were conducted, using 10 wt% SiO2@PEO as a
+control group (Figure 4B). The results demonstrate that the lithium-ion conductivity
+of all SPEs increases with temperature elevation, particularly in the range of 40 ◦C to
+70 ◦C. This is attributed to the transition of crystalline PEO chains to a molten state from
+40 ◦C, enhancing the free movement of PEO chains and facilitating Li+ migration and
+transport, resulting in a noticeable increase in solid electrolyte lithium-ion conductivity.
+Beyond 80 ◦C, PEO enters a fully molten state, and the lithium-ion conductivity of
+solid electrolytes conforms to the Vogel–Tamman–Fuclcher equation with temperature
+variations [31].
+Figure S5 presents the chronoamperometric curves and corresponding pre- and post-
+polarization AC impedance spectra at room temperature (25 ◦C) for SiO2-g-PAMPSLi@PEO
+with varying SiO2-g-PAMPSLi content, with the summarized test results provided in
+Table S3. It is observed that the lithium-ion transference number of SiO2-g-PAMPSLi@PEO
+increases with higher SiO2-g-PAMPSLi content. This enhancement can be attributed to
+the presence of the polymer PAMPSLi layer on the surface of SiO2-g-PAMPSLi particles,
+which not only facilitates Li+ migration and transport but also interacts with PEO molecular
+chains, reducing the crystallinity of PEO and promoting Li+ migration and transport.
+Linear sweep voltammetry tests were conducted on SiO2-g-PAMPSLi@PEO com-
+posites with varying SiO2-g-PAMPSLi content, as depicted in Figure 4C. It is evident
+from the graph that with increasing SiO2-g-PAMPSLi content, the electrochemical sta-
+bility window of SiO2-g-PAMPSLi@PEO also rises. Notably, all SiO2-g-PAMPSLi@PEO
+composites exhibit electrochemical stability windows exceeding 5.0 V (vs. Li/Li+),
+meeting the electrolyte requirements of Li-S batteries. Following a series of electro-
+chemical performance assessments, it was determined that the electrochemical perfor-
+mance of the 20 wt% SiO2-g-PAMPSLi@PEO composite was optimal. Consequently, the
+20 wt% SiO2-g-PAMPSLi@PEO composite was selected as the solid electrolyte for as-
+sembling solid-state Li-S batteries, which were subsequently subjected to further battery
+performance evaluations.
+Figure 5A illustrates the cyclic voltammetry curves of Li-S batteries employing SiO2-
+g-PAMPSLi@PEO as SPEs. The curves exhibit two distinct reduction peaks and one ox-
+idation peak, indicative of the typical multi-step reaction mechanism in Li-S batteries.
+The higher reduction peak at 2.30 V corresponds to the reduction of elemental sulfur (S8)
+to long-chain polysulfides Li2Sx (4 ≤x ≤8), while the lower reduction peak at 2.00 V
+corresponds to the further reduction of long-chain polysulfides to short-chain sulfides
+Li2S2 and Li2S. Correspondingly, the oxidation peak at 2.43 V corresponds to the reverse
+oxidation reaction from short-chain sulfides Li2S2 and Li2S to long-chain polysulfides Li2Sx
+
+=== 第 9 页 ===
+Polymers 2024, 16, 1128
+9 of 13
+(4 ≤x ≤8) and ultimately to elemental sulfur (S8). During the initial three cycles, the cyclic
+voltammetry curves overlap closely, with no significant shifts in the oxidation-reduction
+peaks, indicating excellent cycle reversibility and stability of Li-S batteries utilizing SiO2-g-
+PAMPSLi@PEO. The constant current charge–discharge profiles at standard temperature
+(25 ◦C) and 0.1 C current rate conditions of Li-S batteries employing SiO2-g-PAMPSLi@PEO
+as SPEs (Figure 5B) reveal a continuous charging plateau (~2.20 V) and two discharging
+plateaus (~2.35 V and ~2.10 V), representing the oxidation reaction from Li2S to elemental
+sulfur S8 and the two-step reduction reaction from elemental sulfur S8 to polysulfides
+Li2Sx (4 ≤x ≤8) and then to Li2S. These steps correspond to the oxidation peak and
+two reduction peaks observed in the cyclic voltammetry curve, demonstrating that the
+oxidation-reduction reactions occurring during the charge–discharge cycles of the SiO2-g-
+PAMPSLi@PEO Li-S battery are characteristic of typical electrochemical redox reactions in
+Li-S batteries. Furthermore, Li-S batteries utilizing SiO2-g-PAMPSLi@PEO as SPEs demon-
+strate outstanding rate capabilities (Figure 5C). As the current rate escalates from 0.1 C
+to 1 C, the discharge-specific capacities of the Li-S batteries are recorded as 1098.3 mAh
+g−1, 966.3 mAh g−1, 777.5 mAh g−1, 419.4 mAh g−1, and 189.2 mAh g−1. Upon reverting
+back to 0.1 C, the discharge-specific capacity of the batteries can recover to approximately
+987.3 mAh g−1, underscoring the exceptional reversibility of the Li-S system. Illustrated in
+Figure 5D are the constant current charge–discharge profiles of Li-S batteries employing
+SiO2-g-PAMPSLi@PEO as SPEs under current rates ranging from 0.1 C to 1 C. The congru-
+ence in the shapes of all curves within the graph indicates that the Li-S battery undergoes
+the same electrochemical reactions at different current rates, devoid of any side reactions.
+Figure 5. (A) Cyclic voltammetry curves of Li-S batteries employing SiO2-g-PAMPSLi@PEO as SPEs;
+(B) constant current charge–discharge profiles of Li-S batteries utilizing SiO2-g-PAMPSLi@PEO as
+SPEs under standard temperature (25 ◦C) and 0.1 C current rate conditions are also depicted; (C) rate
+performance and (D) charge–discharge profiles at current densities ranging from 0.1 C to 1 C of
+Li-S batteries employing SiO2-g-PAMPSLi@PEO as SPEs; (E) discharge capacities and Coulombic
+efficiencies of Li-S batteries employing PEO, SiO2@PEO, and SiO2-g-PAMPSLi@PEO as SPEs under
+standard temperature (25 ◦C) and 0.1 C current rate conditions.
+By employing constant current charge–discharge methodology under standard tem-
+perature (25 ◦C) and at a 0.1 C current rate, the electrochemical performance of Li-S batteries
+utilizing @PEO as SPEs was assessed, as depicted in Figure 5E, with PEO and SiO2@PEO
+serving as control groups. Upon examination, the initial discharge-specific capacities of
+the three types of Li-S batteries using PEO, SiO2@PEO, and SiO2-g-PAMPSLi@PEO as
+SPEs were recorded as 854.5 mAh g−1, 1030.5 mAh g−1, and 1211.4 mAh g−1, respec-
+tively. Following 200 cycles, the discharge-specific capacities of these batteries stood at
+
+=== 第 10 页 ===
+Polymers 2024, 16, 1128
+10 of 13
+395.8 mAh g−1, 581.2 mAh g−1, and 875.2 mAh g−1, respectively. Evidently, the cyclic per-
+formance of the Li-S battery employing SiO2-g-PAMPSLi@PEO surpassed that of the other
+two variants, maintaining a Coulombic efficiency of approximately 100%. This enhance-
+ment can be attributed to the superior lithium-ion conductivity of SiO2-g-PAMPSLi@PEO,
+facilitating more thorough electrochemical reactions. Additionally, the favorable compati-
+bility between SiO2-g-PAMPSLi and the polymer PEO enhances the contact performance
+between the composite solid electrolyte and the electrodes, optimizing discharge capacity.
+4. Conclusions
+To mitigate the inert nature of SiO2 Nps, their tendency for aggregation, and their in-
+adequate inorganic–organic compatibility with the polymer PEO, we employed an ARGET-
+ATRP approach involving the grafting of sulfonic acid-functionalized organic polymer
+chains onto SiO2 Nps. This strategic modification was pursued to confer Li+ conductivity
+characteristics to SiO2 Nps and improve their compatibility with PEO. Subsequently, the
+modified nano fillers were blended with PEO using a solution-based method to fabricate
+SPE films. This approach ultimately led to the development of a polymer composite solid
+electrolyte. Experimental results demonstrate that this electrolyte manifests reduced crys-
+tallinity and exceptional Li+ conductivity, thereby displaying remarkable electrochemical
+performance during charge–discharge cycling in solid-state Li-S batteries.
+Supplementary Materials: The following supporting information can be downloaded at: https:
+//www.mdpi.com/article/10.3390/polym16081128/s1, Figure S1. The 1H NMR spectrum of pre-
+initiator. Figure S2. SEM images of (A) SiO2 Nps and (B) SiO2 Nps initiator. Figure S3. SEM images
+of SPEs with varying levels of (A–D) SiO2 and (E–I) SiO2-g-PAMPSLi content. Figure S4. The stress–
+strain curves of different SPEs. Figure S5. The stress–strain curves of SPEs with varying levels of
+SiO2-g-PAMPSLi content. Table S1. DSC results of SPEs containing varying amounts of SiO2. Table S2.
+DSC results of SPEs containing varying amounts of SiO2-g-PAMPSLi. Figure S6. The chronoamper-
+ometric curves at room temperature (25 ◦C) and the corresponding pre- and post-polarization AC
+impedance spectra of the SPEs with varying levels of SiO2-g-PAMPSLi content. Table S3. Li+ migra-
+tion number of SPEs containing varying amounts of SiO2-g-PAMPSLi. Table S4. The electrochemical
+performances of lithium–sulfur batteries with PEO-based SPEs. References [50–58] are cited in the
+supplementary materials.
+Author Contributions: Idea of experiment, L.W. and W.R.; experiments, investigations, and analysis,
+L.W., J.H., Y.S., and M.M.; writing—original draft preparation, L.W.; writing—review and editing,
+L.W. and W.R.; validation and supervision, W.R. and M.Z. All authors have read and agreed to the
+published version of the manuscript.
+Funding: This research was funded by the National Natural Science Foundation of China (grants
+number: 52033011 and 52173092) and the Guangxi Science and Technology Project (grant number:
+AB23049003).
+Institutional Review Board Statement: Not applicable.
+Data Availability Statement: Data are included in the article and Supplementary Materials. The data
+that support the findings of this study are available from the corresponding author, [W.R.], upon
+reasonable request.
+Conflicts of Interest: The authors declare no conflict of interest.
+References
+1.
+Su, X.; Xu, X.-P.; Ji, Z.-Q.; Wu, J.; Ma, F.; Fan, L.-Z. Polyethylene Oxide-Based Composite Solid Electrolytes for Lithium Batteries:
+Current Progress, Low-Temperature and High-Voltage Limitations, and Prospects. Electrochem. Energy Rev. 2024, 7, 2–39.
+[CrossRef]
+2.
+Chen, K.; Barai, P.; Kahvecioglu, O.; Wu, L.; Pupek, K.Z.; Ge, M.; Ma, L.; Ehrlich, S.N.; Zhong, H.; Zhu, Y.; et al. Cobalt-free
+composite-structured cathodes with lithium-stoichiometry control for sustainable lithium-ion batteries. Nat. Commun. 2024, 15,
+430–439. [CrossRef] [PubMed]
+3.
+Tao, Y.; Rahn, C.D.; Archer, L.A.; You, F. Second life and recycling: Energy and environmental sustainability perspectives for
+high-performance lithium-ion batteries. Sci. Adv. 2021, 7, eabi7633–eabi7648. [CrossRef] [PubMed]
+
+=== 第 11 页 ===
+Polymers 2024, 16, 1128
+11 of 13
+4.
+Li, J.; Gao, L.; Pan, F.; Gong, C.; Sun, L.; Gao, H.; Zhang, J.; Zhao, Y.; Wang, G.; Liu, H. Engineering Strategies for Suppressing the
+Shuttle Effect in Lithium–Sulfur Batteries. Nano-Micro Lett. 2023, 16, 12–46. [CrossRef] [PubMed]
+5.
+Qi, B.; Hong, X.; Jiang, Y.; Shi, J.; Zhang, M.; Yan, W.; Lai, C. A Review on Engineering Design for Enhancing Interfacial Contact in
+Solid-State Lithium–Sulfur Batteries. Nano-Micro Lett. 2024, 16, 71–104. [CrossRef]
+6.
+Shaibani, M.; Mirshekarloo, M.S.; Singh, R.; Easton, C.D.; Cooray, M.C.D.; Eshraghi, N.; Abendroth, T.; Dörfler, S.; Althues, H.;
+Kaskel, S.; et al. Expansion-tolerant architectures for stable cycling of ultrahigh-loading sulfur cathodes in lithium-sulfur batteries.
+Sci. Adv. 2020, 6, eaay2757–eaay2766. [CrossRef]
+7.
+Pei, F.; Wu, L.; Zhang, Y.; Liao, Y.; Kang, Q.; Han, Y.; Zhang, H.; Shen, Y.; Xu, H.; Li, Z.; et al. Interfacial self-healing polymer
+electrolytes for long-cycle solid-state lithium-sulfur batteries. Nat. Commun. 2024, 15, 351–360. [CrossRef] [PubMed]
+8.
+Hong, X.; Liu, Y.; Li, Y.; Wang, X.; Fu, J.; Wang, X. Application Progress of Polyaniline, Polypyrrole and Polythiophene in
+Lithium-Sulfur Batteries. Polymers 2020, 12, 331. [CrossRef] [PubMed]
+9.
+Yin, Y.-X.; Xin, S.; Guo, Y.-G.; Wan, L.-J. Lithium–Sulfur Batteries: Electrochemistry, Materials, and Prospects. Angew. Chem. Int.
+Ed. 2013, 52, 13186–13200. [CrossRef]
+10.
+Wang, C.; Liu, R.; Liu, W.; Zhu, W.; Yang, X.; Wu, Q.; Xie, K.; Shen, L.; Wu, J.; Liu, Y.; et al. Porous Carbon Cloth@CoSe2 as Kinetics-
+Enhanced and High-Loading Integrated Sulfur Host for Lithium–Sulfur Batteries. Adv. Funct. Mater. 2024, 2316221–2316231.
+[CrossRef]
+11.
+Wang, Z.; Song, C.; Shen, H.; Ma, S.; Li, G.; Li, Y. RuOx Quantum Dots Loaded on Graphdiyne for High-Performance Lithium–
+Sulfur Batteries. Adv. Mater. 2023, 36, 2307786–2307798. [CrossRef] [PubMed]
+12.
+Wang, M.; Su, H.; Zhong, Y.; Hu, X.; Wang, X.; Gu, C.; Tu, J. Localized S-Li2s Conversion with Accelerated Kinetics Mediated
+by Mixed Conductive Shell for High-Performance Solid-State Lithium-Sulfur Battery. Adv. Energy Mater. 2024, 14, 2302255.
+[CrossRef]
+13.
+Mikhaylik, Y.V.; Akridge, J.R. Polysulfide Shuttle Study in the Li/S Battery System. J. Electrochem. Soc. 2004, 151, A1969–A1976.
+[CrossRef]
+14.
+Yang, J.; Xiao, W.; Wu, X.; Zha, Y.; Liu, S. Preparation of GO/Diatomite/Polyacrylonitrile Functional Separator and Its Application
+in Li–S Batteries. Materials 2024, 17, 789. [CrossRef] [PubMed]
+15.
+Talukder, N.; Wang, Y.; Nunna, B.B.; Lee, E.S. N-Doped Graphene (N-G)/MOF(ZIF-8)-Based/Derived Materials for Electrochemi-
+cal Energy Applications: Synthesis, Characteristics, and Functionality. Batteries 2024, 10, 47. [CrossRef]
+16.
+Zheng, Y.; Yao, Y.; Ou, J.; Li, M.; Luo, D.; Dou, H.; Li, Z.; Amine, K.; Yu, A.; Chen, Z. A review of composite solid-state electrolytes
+for lithium batteries: Fundamentals, key materials and advanced structures. Chem. Soc. Rev. 2020, 49, 8790–8839. [CrossRef]
+[PubMed]
+17.
+Wang, J.; Liao, Y.; Wu, X.; Ye, L.; Wang, Z.; Wu, F.; Lin, Z. In Situ Construction of Elastic Solid-State Polymer Electrolyte with Fast
+Ionic Transport for Dendrite-Free Solid-State Lithium Metal Batteries. Nanomaterials 2024, 14, 433. [CrossRef] [PubMed]
+18.
+Kumar, S.; Raghupathy, R.; Vittadello, M. Sodium Polymer Electrolytes: A Review. Batteries 2024, 10, 73. [CrossRef]
+19.
+Patodia, T.; Gupta, M.K.; Singh, R.; Ichikawa, T.; Jain, A.; Tripathi, B. Electrochemical Performance of Graphene-Modulated Sulfur
+Composite Cathodes Using LiBH4 Electrolyte for All-Solid-State Li-S Battery. Energies 2021, 14, 7362. [CrossRef]
+20.
+Wang, L. Development of Novel High Li-Ion Conductivity Hybrid Electrolytes of Li10GeP2S12 (LGPS) and Li6.6La3Zr1.6Sb0.4O12
+(LLZSO) for Advanced All-Solid-State Batteries. Oxygen 2021, 1, 16–21. [CrossRef]
+21.
+Li, S.; Zhang, W.; Zheng, J.; Lv, M.; Song, H.; Du, L. Inhibition of Polysulfide Shuttles in Li–S Batteries: Modified Separators and
+Solid-State Electrolytes. Adv. Energy Mater. 2021, 11, 2000779–2000802. [CrossRef]
+22.
+Zhang, J.; Chou, J.; Luo, X.-X.; Yang, Y.-M.; Yan, M.-Y.; Jia, D.; Zhang, C.-H.; Wang, Y.-H.; Wang, W.-P.; Tan, S.-J.; et al. A Fully
+Amorphous, Dynamic Cross-Linked Polymer Electrolyte for Lithium-Sulfur Batteries Operating at Subzero-Temperatures. Angew.
+Chem. Int. Ed. 2024, 63–71, e202316087. [CrossRef]
+23.
+Song, Z.; Jiang, W.; Li, B.; Qu, Y.; Mao, R.; Jian, X.; Hu, F. Advanced Polymers in Cathodes and Electrolytes for Lithium–Sulfur
+Batteries: Progress and Prospects. Small 2024, 2308550. [CrossRef]
+24.
+Wu, Z.-H.; Huang, A.-C.; Tang, Y.; Yang, Y.-P.; Liu, Y.-C.; Li, Z.-P.; Zhou, H.-L.; Huang, C.-F.; Xing, Z.-X.; Shu, C.-M.; et al. Thermal
+Effect and Mechanism Analysis of Flame-Retardant Modified Polymer Electrolyte for Lithium-Ion Battery. Polymers 2021, 13, 1675.
+[CrossRef]
+25.
+Meyer, W.H. Polymer Electrolytes for Lithium-Ion Batteries. Adv. Mater. 1998, 10, 439–448. [CrossRef]
+26.
+Song, Z.; Wang, L.; Jiang, W.; Pei, M.; Li, B.; Mao, R.; Liu, S.; Zhang, T.; Jian, X.; Hu, F. “Like Compatible Like” Strategy Designing
+Strong Cathode-Electrolyte Interface Quasi-Solid-State Lithium–Sulfur Batteries. Adv. Energy Mater. 2024, 14, 2302688–2302701.
+[CrossRef]
+27.
+Feng, J.; Wang, L.; Chen, Y.; Wang, P.; Zhang, H.; He, X. PEO based polymer-ceramic hybrid solid electrolytes: A review. Nano
+Converg. 2021, 8, 2–13. [CrossRef]
+28.
+Le Mong, A.; Shin, J.C.; Lee, M.; Kim, D. Accelerated Single Li-Ion Transport in Solid Electrolytes for Lithium–Sulfur Batteries:
+Poly(Arylene Ether Sulfone) Grafted with Pyrrolidinium-Terminated Poly(Ethylene Glycol). Small 2023, 2309162. [CrossRef]
+29.
+Chiu, L.-L.; Chung, S.-H. A Poly(ethylene oxide)/Lithium bis(trifluoromethanesulfonyl)imide-Coated Polypropylene Membrane
+for a High-Loading Lithium–Sulfur Battery. Polymers 2021, 13, 535. [CrossRef]
+30.
+Babkova, T.; Kiefer, R.; Le, Q.B. Hybrid Electrolyte Based on PEO and Ionic Liquid with In Situ Produced and Dispersed Silica for
+Sustainable Solid-State Battery. Sustainability 2024, 16, 1683. [CrossRef]
+
+=== 第 12 页 ===
+Polymers 2024, 16, 1128
+12 of 13
+31.
+Croce, F.; Appetecchi, G.B.; Persi, L.; Scrosati, B. Nanocomposite polymer electrolytes for lithium batteries. Nature 1998, 394,
+456–458. [CrossRef]
+32.
+Zhao, S.; Wu, Q.; Ma, W.; Yang, L. Polyethylene Oxide-Based Composites as Solid-State Polymer Electrolytes for Lithium Metal
+Batteries: A Mini Review. Front. Chem. 2020, 8, 4581–4601. [CrossRef] [PubMed]
+33.
+Mao, G.; Saboungi, M.-L.; Price, D.L.; Armand, M.B.; Howells, W.S. Structure of Liquid PEO-LiTFSI Electrolyte. Phys. Rev. Lett.
+2000, 84, 5536–5539. [CrossRef] [PubMed]
+34.
+Song, J.Y.; Wang, Y.Y.; Wan, C.C. Review of gel-type polymer electrolytes for lithium-ion batteries. J. Power Sources 1999, 77,
+183–197. [CrossRef]
+35.
+Song, Z.; Chen, F.; Martinez-Ibañez, M.; Feng, W.; Forsyth, M.; Zhou, Z.; Armand, M.; Zhang, H. A reflection on polymer
+electrolytes for solid-state lithium metal batteries. Nat. Commun. 2023, 14, 4884–4896. [CrossRef] [PubMed]
+36.
+Xue, Z.; He, D.; Xie, X. Poly(ethylene oxide)-based electrolytes for lithium-ion batteries. J. Mater. Chem. A 2015, 3, 19218–19253.
+[CrossRef]
+37.
+Marmorstein, D.; Yu, T.H.; Striebel, K.A.; McLarnon, F.R.; Hou, J.; Cairns, E.J. Electrochemical performance of lithium/sulfur cells
+with three different polymer electrolytes. J. Power Sources 2000, 89, 219–226. [CrossRef]
+38.
+Yang, Q.; Deng, N.; Zhao, Y.; Gao, L.; Cheng, B.; Kang, W. A review on 1D materials for all-solid-state lithium-ion batteries and
+all-solid-state lithium-sulfur batteries. Chem. Eng. J. 2023, 451, 138532–138549. [CrossRef]
+39.
+Tian, W.; Li, Z.; Miao, L.; Sun, Z.; Wang, Q.; Jiao, L. Composite Quasi-Solid-State Electrolytes with Organic–Inorganic Interface
+Engineering for Fast Ion Transport in Dendrite-Free Sodium Metal Batteries. Adv. Mater. 2023, 36, 2308586. [CrossRef]
+40.
+Guo, J.; Zheng, J.; Zhang, W.; Lu, Y. Recent Advances of Composite Solid-State Electrolytes for Lithium-Based Batteries. Energy
+Fuels 2021, 35, 11118–11140. [CrossRef]
+41.
+Tambelli, C.C.; Bloise, A.C.; Rosário, A.V.; Pereira, E.C.; Magon, C.J.; Donoso, J.P. Characterisation of PEO–Al2O3 composite
+polymer electrolytes. Electrochim. Acta 2002, 47, 1677–1682. [CrossRef]
+42.
+Zhao, W.; Su, Y.; Wen, X.; Wang, D. Manipulating crystallization behavior of poly(ethylene oxide) by functionalized nanoparticle
+inclusion. Polymer 2019, 165, 28–38. [CrossRef]
+43.
+Jiang, S.; Yu, D.; Ji, X.; An, L.; Jiang, B. Confined crystallization behavior of PEO in silica networks. Polymer 2000, 41, 2041–2046.
+[CrossRef]
+44.
+Li, Q.; Wang, X.; Wang, L.; Zhu, S.; Zhong, Q.; Li, Y.; Zhou, Q. Li+ Conduction in a Polymer/Li1.5Al0.5Ge1.5(PO4)3 Solid Electrolyte
+and Li-Metal/Electrolyte Interface. Molecules 2023, 28, 8029. [CrossRef] [PubMed]
+45.
+Shi, L.; Zhang, L.; Yang, Y.; Zhang, H.; Yao, R.; Yuan, C.; Cheng, S. In Situ Nano-SiO2 Electrospun Polyethylene-Oxide-Based
+Nano-Fiber Composite Solid Polymer Electrolyte for High-Performance Lithium-Ion Batteries. Nanomaterials 2023, 13, 1294.
+[CrossRef] [PubMed]
+46.
+Cui, J.; Zhou, Z.; Jia, M.; Chen, X.; Shi, C.; Zhao, N.; Guo, X. Solid Polymer Electrolytes with Flexible Framework of SiO2
+Nanofibers for Highly Safe Solid Lithium Batteries. Polymers 2020, 12, 1324. [CrossRef]
+47.
+Zhou, T.H.; Ruan, W.H.; Rong, M.Z.; Zhang, M.Q.; Mai, Y.L. Keys to Toughening of Non-layered Nanoparticles/Polymer
+Composites. Adv. Mater. 2007, 19, 2667–2671. [CrossRef]
+48.
+Stöber, W.; Fink, A.; Bohn, E. Controlled growth of monodisperse silica spheres in the micron size range. J. Colloid Interface Sci.
+1968, 26, 62–69. [CrossRef]
+49.
+Gucci, F.; Grasso, M.; Russo, S.; Leighton, G.J.T.; Shaw, C.; Brighton, J. Electrical and Mechanical Characterisation of
+Poly(ethylene)oxide-Polysulfone Blend for Composite Structural Lithium Batteries. Polymers 2023, 15, 2581. [CrossRef]
+50.
+Eshetu, G.G.; Judez, X.; Li, C.; Martinez-Ibanez, M.; Gracia, I.; Bondarchuk, O.; Carrasco, J.; Rodriguez-Martinez, L.M.; Zhang,
+H.; Armand, M. Ultrahigh Performance All Solid-State Lithium Sulfur Batteries: Salt Anion’s Chemistry-Induced Anomalous
+Synergistic Effect. J. Am. Chem. Soc. 2018, 140, 9921–9933. [CrossRef]
+51.
+Fang, R.; Xu, H.; Xu, B.; Li, X.; Li, Y.; Goodenough, J.B. Reaction Mechanism Optimization of Solid-State Li–S Batteries with a
+PEO-Based Electrolyte. Adv. Funct. Mater. 2020, 31, 2001812. [CrossRef]
+52.
+Ji, Y.; Yang, K.; Liu, M.; Chen, S.; Liu, X.; Yang, B.; Wang, Z.; Huang, W.; Song, Z.; Xue, S.; et al. PIM-1 as a Multifunctional
+Framework to Enable High-Performance Solid-State Lithium–Sulfur Batteries. Adv. Funct. Mater. 2021, 31, 2104830. [CrossRef]
+53.
+Gao, X.; Zheng, X.; Wang, J.; Zhang, Z.; Xiao, X.; Wan, J.; Ye, Y.; Chou, L.Y.; Lee, H.K.; Wang, J.; et al. Incorporating the Nanoscale
+Encapsulation Concept from Liquid Electrolytes into Solid-State Lithium-Sulfur Batteries. Nano Lett. 2020, 20, 5496–5503.
+[CrossRef] [PubMed]
+54.
+Hong, S.; Wang, Y.; Kim, N.; Lee, S.B. Polymer-based electrolytes for all-solid-state lithium–sulfur batteries: From fundamental
+research to performance improvement. J. Mater. Sci. 2021, 56, 8358–8382. [CrossRef]
+55.
+Li, M.; Frerichs, J.E.; Kolek, M.; Sun, W.; Zhou, D.; Huang, C.J.; Hwang, B.J.; Hansen, M.R.; Winter, M.; Bieker, P. Solid-State
+Lithium–Sulfur Battery Enabled by Thio-LiSICON/Polymer Composite Electrolyte and Sulfurized Polyacrylonitrile Cathode.
+Adv. Funct. Mater. 2020, 30, 1910123. [CrossRef]
+56.
+Xu, X.; Hou, G.; Nie, X.; Ai, Q.; Liu, Y.; Feng, J.; Zhang, L.; Si, P.; Guo, S.; Ci, L. Li7P3S11/poly(ethylene oxide) hybrid solid
+electrolytes with excellent interfacial compatibility for all-solid-state batteries. J. Power Sources 2018, 400, 212–217. [CrossRef]
+
+=== 第 13 页 ===
+Polymers 2024, 16, 1128
+13 of 13
+57.
+Kou, W.; Wang, J.; Li, W.; Lv, R.; Peng, N.; Wu, W.; Wang, J. Asymmetry-structure electrolyte with rapid Li+ transfer pathway
+towards high-performance all-solid-state lithium–sulfur battery. J. Membr. Sci. 2021, 634, 119432. [CrossRef]
+58.
+Liu, Y.; Liu, H.; Lin, Y.; Zhao, Y.; Yuan, H.; Su, Y.; Zhang, J.; Ren, S.; Fan, H.; Zhang, Y. Mechanistic Investigation of Polymer-Based
+All-Solid-State Lithium/Sulfur Battery. Adv. Funct. Mater. 2021, 31, 2104863. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

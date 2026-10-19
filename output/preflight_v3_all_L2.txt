@@ -1,0 +1,483 @@
+
+========================================================================
+[all] L2  （只显示 >=20 篇的节点）
+========================================================================
+  L-LiS|route?                   7,973 篇
+  S-LiB|other-solid              7,224 篇
+  L-LiS|S-C                      6,184 篇
+  S-LiB|polymer                  4,593 篇
+  S-LiB|oxide                    3,402 篇
+  S-LiB|gel                      2,345 篇
+  S-LiB|sulfide                  2,211 篇
+  S-LiB|composite                2,034 篇
+  S-LiS|route?                     606 篇
+  S-LiS|S-C                        446 篇
+  S-LiB|halide                     438 篇
+  L-LiS|SPAN                       333 篇
+  L-LiS|Li2S                       238 篇
+  L-LiS|orgS                       160 篇
+  QSS-LiS|route?                   150 篇
+  S-LiB|hydride                    148 篇
+  S-LiS|Li2S                        73 篇
+  S-LiB|insitu                      57 篇
+  QSS-LiS|S-C                       54 篇
+  S-LiB|thiolisicon                 45 篇
+  S-LiS|SPAN                        36 篇
+  QSS-LiS|SPAN                      24 篇
+
+  引文边矩阵（行=接收/施引, 列=提供/被引）
+                      L-LiS|route?  S-LiB|other-s      L-LiS|S-C  S-LiB|polymer    S-LiB|oxide      S-LiB|gel  S-LiB|sulfide  S-LiB|composi   S-LiS|route?      S-LiS|S-C   S-LiB|halide     L-LiS|SPAN     L-LiS|Li2S     L-LiS|orgS  QSS-LiS|route  S-LiB|hydride     S-LiS|Li2S   S-LiB|insitu    QSS-LiS|S-C  S-LiB|thiolis     S-LiS|SPAN   QSS-LiS|SPAN
+L-LiS|route?               126,563          1,622        119,648            920            360            542            379            388          2,372          3,049             18          1,938          4,431          1,372            912              8            319              7            429              3            119             60
+S-LiB|other-solid            2,745         64,761          1,410         16,865         26,438          4,804         27,970         12,820          3,528          2,236          5,412             81            128             34            239            778            406            145             56            347            206             27
+L-LiS|S-C                   89,354            743        113,081            366            157            210            160            116          1,517          2,375              6          1,541          3,482          1,154            433              2            199              3            307              1             74             36
+S-LiB|polymer                1,465         12,975            546         38,181          3,435          7,801          1,621         13,174          1,283            751            185             47             30             29            345             48            147            300             38             29            126             30
+S-LiB|oxide                    594         19,471            196          2,594         35,670          1,059          3,129          4,272          1,498            367            298             14             11              4             51             90             43             16             10             88             53             16
+S-LiB|gel                    1,082          6,389            369         11,116          2,017         13,583            662          4,592            509            278            104             48             25              8            607             20             26            265             64              9             56             52
+S-LiB|sulfide                  530         20,061            267            969          3,296            201         32,488          1,027          1,345          1,308          1,185             20             78              9             26            154            355             13              9            334             91              4
+S-LiB|composite                578          9,397            224         12,444          5,687          3,117          1,564         14,350          1,082            499            194             19             16              5            161             20             70             82             13             25             81             13
+S-LiS|route?                 3,931          3,089          2,813          1,443          1,094            376          2,079          1,075          2,003          2,327            152            151            288             50            458             70            464              9            116             27            113             25
+S-LiS|S-C                    3,802          1,603          3,677            577            449            128          1,457            510          1,533          2,289             48            130            209             61            213             54            430              3             87             17             88             14
+S-LiB|halide                    35          4,492             16            244            671             47          2,357            178            234             86          4,337              1              5              0              5             36             10              1              1             10              3              2
+L-LiS|SPAN                   2,341             63          2,336             34             14             24             17             13             75             79              2          3,518             91             90             29              0              7              1              7              0             96             88
+L-LiS|Li2S                   2,959             62          2,928             24              5              9             58              6             79             92              1             34          1,615             36             20              0             61              0             11              0              2              2
+L-LiS|orgS                   1,465             21          1,835             16              7             14              2              4             31             66              0            167             85            729             11              1              6              0             11              0              6              5
+QSS-LiS|route?               1,449            204            946            345             82            550             34            150            291            295              3             33             51             15            507              1             21             23             95              0             18             22
+S-LiB|hydride                   28            589             14             30            129             11            188             42             63            114             18              0              1              0              1            651              5              0              1              1              5              0
+S-LiS|Li2S                     245            322            216             53             77              9            431             39            207            254              5              2            153              1             10              1            254              0              5              2              4              0
+S-LiB|insitu                    24            200              5            471             36            200             30            112             12             10              0              1              0              0             15              0              1             19              2              0              0              0
+QSS-LiS|S-C                    661             59            529             58             16             71             21             21             84             90              0             20             30              8            165              0             12              2             37              2              5              7
+S-LiB|thiolisicon                6            331              4              7             61              8            465              7              9             15              8              0              4              0              1              2              1              0              0             48              3              0
+S-LiS|SPAN                      95            157             72            117             68             42             62             96             62             87              4            143              3              1             12             11             13              1              2              0             60             12
+QSS-LiS|SPAN                   156             49            108             53             26             72              3             21             26             22              0            179              1              3             28              0              3              1              8              0             29             23
+
+  GO/NO-GO（跨节点边，自环不计）
+                  L-LiS|route? <- S-LiB|other-solid             1,622  GREEN 
+                  L-LiS|route? <- L-LiS|S-C                   119,648  GREEN 
+                  L-LiS|route? <- S-LiB|polymer                   920  GREEN 
+                  L-LiS|route? <- S-LiB|oxide                     360  GREEN 
+                  L-LiS|route? <- S-LiB|gel                       542  GREEN 
+                  L-LiS|route? <- S-LiB|sulfide                   379  GREEN 
+                  L-LiS|route? <- S-LiB|composite                 388  GREEN 
+                  L-LiS|route? <- S-LiS|route?                  2,372  GREEN 
+                  L-LiS|route? <- S-LiS|S-C                     3,049  GREEN 
+                  L-LiS|route? <- S-LiB|halide                     18  RED   
+                  L-LiS|route? <- L-LiS|SPAN                    1,938  GREEN 
+                  L-LiS|route? <- L-LiS|Li2S                    4,431  GREEN 
+                  L-LiS|route? <- L-LiS|orgS                    1,372  GREEN 
+                  L-LiS|route? <- QSS-LiS|route?                  912  GREEN 
+                  L-LiS|route? <- S-LiB|hydride                     8  RED   
+                  L-LiS|route? <- S-LiS|Li2S                      319  GREEN 
+                  L-LiS|route? <- S-LiB|insitu                      7  RED   
+                  L-LiS|route? <- QSS-LiS|S-C                     429  GREEN 
+                  L-LiS|route? <- S-LiB|thiolisicon                 3  RED   
+                  L-LiS|route? <- S-LiS|SPAN                      119  YELLOW
+                  L-LiS|route? <- QSS-LiS|SPAN                     60  RED   
+             S-LiB|other-solid <- L-LiS|route?                  2,745  GREEN 
+             S-LiB|other-solid <- L-LiS|S-C                     1,410  GREEN 
+             S-LiB|other-solid <- S-LiB|polymer                16,865  GREEN 
+             S-LiB|other-solid <- S-LiB|oxide                  26,438  GREEN 
+             S-LiB|other-solid <- S-LiB|gel                     4,804  GREEN 
+             S-LiB|other-solid <- S-LiB|sulfide                27,970  GREEN 
+             S-LiB|other-solid <- S-LiB|composite              12,820  GREEN 
+             S-LiB|other-solid <- S-LiS|route?                  3,528  GREEN 
+             S-LiB|other-solid <- S-LiS|S-C                     2,236  GREEN 
+             S-LiB|other-solid <- S-LiB|halide                  5,412  GREEN 
+             S-LiB|other-solid <- L-LiS|SPAN                       81  RED   
+             S-LiB|other-solid <- L-LiS|Li2S                      128  YELLOW
+             S-LiB|other-solid <- L-LiS|orgS                       34  RED   
+             S-LiB|other-solid <- QSS-LiS|route?                  239  YELLOW
+             S-LiB|other-solid <- S-LiB|hydride                   778  GREEN 
+             S-LiB|other-solid <- S-LiS|Li2S                      406  GREEN 
+             S-LiB|other-solid <- S-LiB|insitu                    145  YELLOW
+             S-LiB|other-solid <- QSS-LiS|S-C                      56  RED   
+             S-LiB|other-solid <- S-LiB|thiolisicon               347  GREEN 
+             S-LiB|other-solid <- S-LiS|SPAN                      206  YELLOW
+             S-LiB|other-solid <- QSS-LiS|SPAN                     27  RED   
+                     L-LiS|S-C <- L-LiS|route?                 89,354  GREEN 
+                     L-LiS|S-C <- S-LiB|other-solid               743  GREEN 
+                     L-LiS|S-C <- S-LiB|polymer                   366  GREEN 
+                     L-LiS|S-C <- S-LiB|oxide                     157  YELLOW
+                     L-LiS|S-C <- S-LiB|gel                       210  YELLOW
+                     L-LiS|S-C <- S-LiB|sulfide                   160  YELLOW
+                     L-LiS|S-C <- S-LiB|composite                 116  YELLOW
+                     L-LiS|S-C <- S-LiS|route?                  1,517  GREEN 
+                     L-LiS|S-C <- S-LiS|S-C                     2,375  GREEN 
+                     L-LiS|S-C <- S-LiB|halide                      6  RED   
+                     L-LiS|S-C <- L-LiS|SPAN                    1,541  GREEN 
+                     L-LiS|S-C <- L-LiS|Li2S                    3,482  GREEN 
+                     L-LiS|S-C <- L-LiS|orgS                    1,154  GREEN 
+                     L-LiS|S-C <- QSS-LiS|route?                  433  GREEN 
+                     L-LiS|S-C <- S-LiB|hydride                     2  RED   
+                     L-LiS|S-C <- S-LiS|Li2S                      199  YELLOW
+                     L-LiS|S-C <- S-LiB|insitu                      3  RED   
+                     L-LiS|S-C <- QSS-LiS|S-C                     307  GREEN 
+                     L-LiS|S-C <- S-LiB|thiolisicon                 1  RED   
+                     L-LiS|S-C <- S-LiS|SPAN                       74  RED   
+                     L-LiS|S-C <- QSS-LiS|SPAN                     36  RED   
+                 S-LiB|polymer <- L-LiS|route?                  1,465  GREEN 
+                 S-LiB|polymer <- S-LiB|other-solid            12,975  GREEN 
+                 S-LiB|polymer <- L-LiS|S-C                       546  GREEN 
+                 S-LiB|polymer <- S-LiB|oxide                   3,435  GREEN 
+                 S-LiB|polymer <- S-LiB|gel                     7,801  GREEN 
+                 S-LiB|polymer <- S-LiB|sulfide                 1,621  GREEN 
+                 S-LiB|polymer <- S-LiB|composite              13,174  GREEN 
+                 S-LiB|polymer <- S-LiS|route?                  1,283  GREEN 
+                 S-LiB|polymer <- S-LiS|S-C                       751  GREEN 
+                 S-LiB|polymer <- S-LiB|halide                    185  YELLOW
+                 S-LiB|polymer <- L-LiS|SPAN                       47  RED   
+                 S-LiB|polymer <- L-LiS|Li2S                       30  RED   
+                 S-LiB|polymer <- L-LiS|orgS                       29  RED   
+                 S-LiB|polymer <- QSS-LiS|route?                  345  GREEN 
+                 S-LiB|polymer <- S-LiB|hydride                    48  RED   
+                 S-LiB|polymer <- S-LiS|Li2S                      147  YELLOW
+                 S-LiB|polymer <- S-LiB|insitu                    300  GREEN 
+                 S-LiB|polymer <- QSS-LiS|S-C                      38  RED   
+                 S-LiB|polymer <- S-LiB|thiolisicon                29  RED   
+                 S-LiB|polymer <- S-LiS|SPAN                      126  YELLOW
+                 S-LiB|polymer <- QSS-LiS|SPAN                     30  RED   
+                   S-LiB|oxide <- L-LiS|route?                    594  GREEN 
+                   S-LiB|oxide <- S-LiB|other-solid            19,471  GREEN 
+                   S-LiB|oxide <- L-LiS|S-C                       196  YELLOW
+                   S-LiB|oxide <- S-LiB|polymer                 2,594  GREEN 
+                   S-LiB|oxide <- S-LiB|gel                     1,059  GREEN 
+                   S-LiB|oxide <- S-LiB|sulfide                 3,129  GREEN 
+                   S-LiB|oxide <- S-LiB|composite               4,272  GREEN 
+                   S-LiB|oxide <- S-LiS|route?                  1,498  GREEN 
+                   S-LiB|oxide <- S-LiS|S-C                       367  GREEN 
+                   S-LiB|oxide <- S-LiB|halide                    298  YELLOW
+                   S-LiB|oxide <- L-LiS|SPAN                       14  RED   
+                   S-LiB|oxide <- L-LiS|Li2S                       11  RED   
+                   S-LiB|oxide <- L-LiS|orgS                        4  RED   
+                   S-LiB|oxide <- QSS-LiS|route?                   51  RED   
+                   S-LiB|oxide <- S-LiB|hydride                    90  RED   
+                   S-LiB|oxide <- S-LiS|Li2S                       43  RED   
+                   S-LiB|oxide <- S-LiB|insitu                     16  RED   
+                   S-LiB|oxide <- QSS-LiS|S-C                      10  RED   
+                   S-LiB|oxide <- S-LiB|thiolisicon                88  RED   
+                   S-LiB|oxide <- S-LiS|SPAN                       53  RED   
+                   S-LiB|oxide <- QSS-LiS|SPAN                     16  RED   
+                     S-LiB|gel <- L-LiS|route?                  1,082  GREEN 
+                     S-LiB|gel <- S-LiB|other-solid             6,389  GREEN 
+                     S-LiB|gel <- L-LiS|S-C                       369  GREEN 
+                     S-LiB|gel <- S-LiB|polymer                11,116  GREEN 
+                     S-LiB|gel <- S-LiB|oxide                   2,017  GREEN 
+                     S-LiB|gel <- S-LiB|sulfide                   662  GREEN 
+                     S-LiB|gel <- S-LiB|composite               4,592  GREEN 
+                     S-LiB|gel <- S-LiS|route?                    509  GREEN 
+                     S-LiB|gel <- S-LiS|S-C                       278  YELLOW
+                     S-LiB|gel <- S-LiB|halide                    104  YELLOW
+                     S-LiB|gel <- L-LiS|SPAN                       48  RED   
+                     S-LiB|gel <- L-LiS|Li2S                       25  RED   
+                     S-LiB|gel <- L-LiS|orgS                        8  RED   
+                     S-LiB|gel <- QSS-LiS|route?                  607  GREEN 
+                     S-LiB|gel <- S-LiB|hydride                    20  RED   
+                     S-LiB|gel <- S-LiS|Li2S                       26  RED   
+                     S-LiB|gel <- S-LiB|insitu                    265  YELLOW
+                     S-LiB|gel <- QSS-LiS|S-C                      64  RED   
+                     S-LiB|gel <- S-LiB|thiolisicon                 9  RED   
+                     S-LiB|gel <- S-LiS|SPAN                       56  RED   
+                     S-LiB|gel <- QSS-LiS|SPAN                     52  RED   
+                 S-LiB|sulfide <- L-LiS|route?                    530  GREEN 
+                 S-LiB|sulfide <- S-LiB|other-solid            20,061  GREEN 
+                 S-LiB|sulfide <- L-LiS|S-C                       267  YELLOW
+                 S-LiB|sulfide <- S-LiB|polymer                   969  GREEN 
+                 S-LiB|sulfide <- S-LiB|oxide                   3,296  GREEN 
+                 S-LiB|sulfide <- S-LiB|gel                       201  YELLOW
+                 S-LiB|sulfide <- S-LiB|composite               1,027  GREEN 
+                 S-LiB|sulfide <- S-LiS|route?                  1,345  GREEN 
+                 S-LiB|sulfide <- S-LiS|S-C                     1,308  GREEN 
+                 S-LiB|sulfide <- S-LiB|halide                  1,185  GREEN 
+                 S-LiB|sulfide <- L-LiS|SPAN                       20  RED   
+                 S-LiB|sulfide <- L-LiS|Li2S                       78  RED   
+                 S-LiB|sulfide <- L-LiS|orgS                        9  RED   
+                 S-LiB|sulfide <- QSS-LiS|route?                   26  RED   
+                 S-LiB|sulfide <- S-LiB|hydride                   154  YELLOW
+                 S-LiB|sulfide <- S-LiS|Li2S                      355  GREEN 
+                 S-LiB|sulfide <- S-LiB|insitu                     13  RED   
+                 S-LiB|sulfide <- QSS-LiS|S-C                       9  RED   
+                 S-LiB|sulfide <- S-LiB|thiolisicon               334  GREEN 
+                 S-LiB|sulfide <- S-LiS|SPAN                       91  RED   
+                 S-LiB|sulfide <- QSS-LiS|SPAN                      4  RED   
+               S-LiB|composite <- L-LiS|route?                    578  GREEN 
+               S-LiB|composite <- S-LiB|other-solid             9,397  GREEN 
+               S-LiB|composite <- L-LiS|S-C                       224  YELLOW
+               S-LiB|composite <- S-LiB|polymer                12,444  GREEN 
+               S-LiB|composite <- S-LiB|oxide                   5,687  GREEN 
+               S-LiB|composite <- S-LiB|gel                     3,117  GREEN 
+               S-LiB|composite <- S-LiB|sulfide                 1,564  GREEN 
+               S-LiB|composite <- S-LiS|route?                  1,082  GREEN 
+               S-LiB|composite <- S-LiS|S-C                       499  GREEN 
+               S-LiB|composite <- S-LiB|halide                    194  YELLOW
+               S-LiB|composite <- L-LiS|SPAN                       19  RED   
+               S-LiB|composite <- L-LiS|Li2S                       16  RED   
+               S-LiB|composite <- L-LiS|orgS                        5  RED   
+               S-LiB|composite <- QSS-LiS|route?                  161  YELLOW
+               S-LiB|composite <- S-LiB|hydride                    20  RED   
+               S-LiB|composite <- S-LiS|Li2S                       70  RED   
+               S-LiB|composite <- S-LiB|insitu                     82  RED   
+               S-LiB|composite <- QSS-LiS|S-C                      13  RED   
+               S-LiB|composite <- S-LiB|thiolisicon                25  RED   
+               S-LiB|composite <- S-LiS|SPAN                       81  RED   
+               S-LiB|composite <- QSS-LiS|SPAN                     13  RED   
+                  S-LiS|route? <- L-LiS|route?                  3,931  GREEN 
+                  S-LiS|route? <- S-LiB|other-solid             3,089  GREEN 
+                  S-LiS|route? <- L-LiS|S-C                     2,813  GREEN 
+                  S-LiS|route? <- S-LiB|polymer                 1,443  GREEN 
+                  S-LiS|route? <- S-LiB|oxide                   1,094  GREEN 
+                  S-LiS|route? <- S-LiB|gel                       376  GREEN 
+                  S-LiS|route? <- S-LiB|sulfide                 2,079  GREEN 
+                  S-LiS|route? <- S-LiB|composite               1,075  GREEN 
+                  S-LiS|route? <- S-LiS|S-C                     2,327  GREEN 
+                  S-LiS|route? <- S-LiB|halide                    152  YELLOW
+                  S-LiS|route? <- L-LiS|SPAN                      151  YELLOW
+                  S-LiS|route? <- L-LiS|Li2S                      288  YELLOW
+                  S-LiS|route? <- L-LiS|orgS                       50  RED   
+                  S-LiS|route? <- QSS-LiS|route?                  458  GREEN 
+                  S-LiS|route? <- S-LiB|hydride                    70  RED   
+                  S-LiS|route? <- S-LiS|Li2S                      464  GREEN 
+                  S-LiS|route? <- S-LiB|insitu                      9  RED   
+                  S-LiS|route? <- QSS-LiS|S-C                     116  YELLOW
+                  S-LiS|route? <- S-LiB|thiolisicon                27  RED   
+                  S-LiS|route? <- S-LiS|SPAN                      113  YELLOW
+                  S-LiS|route? <- QSS-LiS|SPAN                     25  RED   
+                     S-LiS|S-C <- L-LiS|route?                  3,802  GREEN 
+                     S-LiS|S-C <- S-LiB|other-solid             1,603  GREEN 
+                     S-LiS|S-C <- L-LiS|S-C                     3,677  GREEN 
+                     S-LiS|S-C <- S-LiB|polymer                   577  GREEN 
+                     S-LiS|S-C <- S-LiB|oxide                     449  GREEN 
+                     S-LiS|S-C <- S-LiB|gel                       128  YELLOW
+                     S-LiS|S-C <- S-LiB|sulfide                 1,457  GREEN 
+                     S-LiS|S-C <- S-LiB|composite                 510  GREEN 
+                     S-LiS|S-C <- S-LiS|route?                  1,533  GREEN 
+                     S-LiS|S-C <- S-LiB|halide                     48  RED   
+                     S-LiS|S-C <- L-LiS|SPAN                      130  YELLOW
+                     S-LiS|S-C <- L-LiS|Li2S                      209  YELLOW
+                     S-LiS|S-C <- L-LiS|orgS                       61  RED   
+                     S-LiS|S-C <- QSS-LiS|route?                  213  YELLOW
+                     S-LiS|S-C <- S-LiB|hydride                    54  RED   
+                     S-LiS|S-C <- S-LiS|Li2S                      430  GREEN 
+                     S-LiS|S-C <- S-LiB|insitu                      3  RED   
+                     S-LiS|S-C <- QSS-LiS|S-C                      87  RED   
+                     S-LiS|S-C <- S-LiB|thiolisicon                17  RED   
+                     S-LiS|S-C <- S-LiS|SPAN                       88  RED   
+                     S-LiS|S-C <- QSS-LiS|SPAN                     14  RED   
+                  S-LiB|halide <- L-LiS|route?                     35  RED   
+                  S-LiB|halide <- S-LiB|other-solid             4,492  GREEN 
+                  S-LiB|halide <- L-LiS|S-C                        16  RED   
+                  S-LiB|halide <- S-LiB|polymer                   244  YELLOW
+                  S-LiB|halide <- S-LiB|oxide                     671  GREEN 
+                  S-LiB|halide <- S-LiB|gel                        47  RED   
+                  S-LiB|halide <- S-LiB|sulfide                 2,357  GREEN 
+                  S-LiB|halide <- S-LiB|composite                 178  YELLOW
+                  S-LiB|halide <- S-LiS|route?                    234  YELLOW
+                  S-LiB|halide <- S-LiS|S-C                        86  RED   
+                  S-LiB|halide <- L-LiS|SPAN                        1  RED   
+                  S-LiB|halide <- L-LiS|Li2S                        5  RED   
+                  S-LiB|halide <- QSS-LiS|route?                    5  RED   
+                  S-LiB|halide <- S-LiB|hydride                    36  RED   
+                  S-LiB|halide <- S-LiS|Li2S                       10  RED   
+                  S-LiB|halide <- S-LiB|insitu                      1  RED   
+                  S-LiB|halide <- QSS-LiS|S-C                       1  RED   
+                  S-LiB|halide <- S-LiB|thiolisicon                10  RED   
+                  S-LiB|halide <- S-LiS|SPAN                        3  RED   
+                  S-LiB|halide <- QSS-LiS|SPAN                      2  RED   
+                    L-LiS|SPAN <- L-LiS|route?                  2,341  GREEN 
+                    L-LiS|SPAN <- S-LiB|other-solid                63  RED   
+                    L-LiS|SPAN <- L-LiS|S-C                     2,336  GREEN 
+                    L-LiS|SPAN <- S-LiB|polymer                    34  RED   
+                    L-LiS|SPAN <- S-LiB|oxide                      14  RED   
+                    L-LiS|SPAN <- S-LiB|gel                        24  RED   
+                    L-LiS|SPAN <- S-LiB|sulfide                    17  RED   
+                    L-LiS|SPAN <- S-LiB|composite                  13  RED   
+                    L-LiS|SPAN <- S-LiS|route?                     75  RED   
+                    L-LiS|SPAN <- S-LiS|S-C                        79  RED   
+                    L-LiS|SPAN <- S-LiB|halide                      2  RED   
+                    L-LiS|SPAN <- L-LiS|Li2S                       91  RED   
+                    L-LiS|SPAN <- L-LiS|orgS                       90  RED   
+                    L-LiS|SPAN <- QSS-LiS|route?                   29  RED   
+                    L-LiS|SPAN <- S-LiS|Li2S                        7  RED   
+                    L-LiS|SPAN <- S-LiB|insitu                      1  RED   
+                    L-LiS|SPAN <- QSS-LiS|S-C                       7  RED   
+                    L-LiS|SPAN <- S-LiS|SPAN                       96  RED   
+                    L-LiS|SPAN <- QSS-LiS|SPAN                     88  RED   
+                    L-LiS|Li2S <- L-LiS|route?                  2,959  GREEN 
+                    L-LiS|Li2S <- S-LiB|other-solid                62  RED   
+                    L-LiS|Li2S <- L-LiS|S-C                     2,928  GREEN 
+                    L-LiS|Li2S <- S-LiB|polymer                    24  RED   
+                    L-LiS|Li2S <- S-LiB|oxide                       5  RED   
+                    L-LiS|Li2S <- S-LiB|gel                         9  RED   
+                    L-LiS|Li2S <- S-LiB|sulfide                    58  RED   
+                    L-LiS|Li2S <- S-LiB|composite                   6  RED   
+                    L-LiS|Li2S <- S-LiS|route?                     79  RED   
+                    L-LiS|Li2S <- S-LiS|S-C                        92  RED   
+                    L-LiS|Li2S <- S-LiB|halide                      1  RED   
+                    L-LiS|Li2S <- L-LiS|SPAN                       34  RED   
+                    L-LiS|Li2S <- L-LiS|orgS                       36  RED   
+                    L-LiS|Li2S <- QSS-LiS|route?                   20  RED   
+                    L-LiS|Li2S <- S-LiS|Li2S                       61  RED   
+                    L-LiS|Li2S <- QSS-LiS|S-C                      11  RED   
+                    L-LiS|Li2S <- S-LiS|SPAN                        2  RED   
+                    L-LiS|Li2S <- QSS-LiS|SPAN                      2  RED   
+                    L-LiS|orgS <- L-LiS|route?                  1,465  GREEN 
+                    L-LiS|orgS <- S-LiB|other-solid                21  RED   
+                    L-LiS|orgS <- L-LiS|S-C                     1,835  GREEN 
+                    L-LiS|orgS <- S-LiB|polymer                    16  RED   
+                    L-LiS|orgS <- S-LiB|oxide                       7  RED   
+                    L-LiS|orgS <- S-LiB|gel                        14  RED   
+                    L-LiS|orgS <- S-LiB|sulfide                     2  RED   
+                    L-LiS|orgS <- S-LiB|composite                   4  RED   
+                    L-LiS|orgS <- S-LiS|route?                     31  RED   
+                    L-LiS|orgS <- S-LiS|S-C                        66  RED   
+                    L-LiS|orgS <- L-LiS|SPAN                      167  YELLOW
+                    L-LiS|orgS <- L-LiS|Li2S                       85  RED   
+                    L-LiS|orgS <- QSS-LiS|route?                   11  RED   
+                    L-LiS|orgS <- S-LiB|hydride                     1  RED   
+                    L-LiS|orgS <- S-LiS|Li2S                        6  RED   
+                    L-LiS|orgS <- QSS-LiS|S-C                      11  RED   
+                    L-LiS|orgS <- S-LiS|SPAN                        6  RED   
+                    L-LiS|orgS <- QSS-LiS|SPAN                      5  RED   
+                QSS-LiS|route? <- L-LiS|route?                  1,449  GREEN 
+                QSS-LiS|route? <- S-LiB|other-solid               204  YELLOW
+                QSS-LiS|route? <- L-LiS|S-C                       946  GREEN 
+                QSS-LiS|route? <- S-LiB|polymer                   345  GREEN 
+                QSS-LiS|route? <- S-LiB|oxide                      82  RED   
+                QSS-LiS|route? <- S-LiB|gel                       550  GREEN 
+                QSS-LiS|route? <- S-LiB|sulfide                    34  RED   
+                QSS-LiS|route? <- S-LiB|composite                 150  YELLOW
+                QSS-LiS|route? <- S-LiS|route?                    291  YELLOW
+                QSS-LiS|route? <- S-LiS|S-C                       295  YELLOW
+                QSS-LiS|route? <- S-LiB|halide                      3  RED   
+                QSS-LiS|route? <- L-LiS|SPAN                       33  RED   
+                QSS-LiS|route? <- L-LiS|Li2S                       51  RED   
+                QSS-LiS|route? <- L-LiS|orgS                       15  RED   
+                QSS-LiS|route? <- S-LiB|hydride                     1  RED   
+                QSS-LiS|route? <- S-LiS|Li2S                       21  RED   
+                QSS-LiS|route? <- S-LiB|insitu                     23  RED   
+                QSS-LiS|route? <- QSS-LiS|S-C                      95  RED   
+                QSS-LiS|route? <- S-LiS|SPAN                       18  RED   
+                QSS-LiS|route? <- QSS-LiS|SPAN                     22  RED   
+                 S-LiB|hydride <- L-LiS|route?                     28  RED   
+                 S-LiB|hydride <- S-LiB|other-solid               589  GREEN 
+                 S-LiB|hydride <- L-LiS|S-C                        14  RED   
+                 S-LiB|hydride <- S-LiB|polymer                    30  RED   
+                 S-LiB|hydride <- S-LiB|oxide                     129  YELLOW
+                 S-LiB|hydride <- S-LiB|gel                        11  RED   
+                 S-LiB|hydride <- S-LiB|sulfide                   188  YELLOW
+                 S-LiB|hydride <- S-LiB|composite                  42  RED   
+                 S-LiB|hydride <- S-LiS|route?                     63  RED   
+                 S-LiB|hydride <- S-LiS|S-C                       114  YELLOW
+                 S-LiB|hydride <- S-LiB|halide                     18  RED   
+                 S-LiB|hydride <- L-LiS|Li2S                        1  RED   
+                 S-LiB|hydride <- QSS-LiS|route?                    1  RED   
+                 S-LiB|hydride <- S-LiS|Li2S                        5  RED   
+                 S-LiB|hydride <- QSS-LiS|S-C                       1  RED   
+                 S-LiB|hydride <- S-LiB|thiolisicon                 1  RED   
+                 S-LiB|hydride <- S-LiS|SPAN                        5  RED   
+                    S-LiS|Li2S <- L-LiS|route?                    245  YELLOW
+                    S-LiS|Li2S <- S-LiB|other-solid               322  GREEN 
+                    S-LiS|Li2S <- L-LiS|S-C                       216  YELLOW
+                    S-LiS|Li2S <- S-LiB|polymer                    53  RED   
+                    S-LiS|Li2S <- S-LiB|oxide                      77  RED   
+                    S-LiS|Li2S <- S-LiB|gel                         9  RED   
+                    S-LiS|Li2S <- S-LiB|sulfide                   431  GREEN 
+                    S-LiS|Li2S <- S-LiB|composite                  39  RED   
+                    S-LiS|Li2S <- S-LiS|route?                    207  YELLOW
+                    S-LiS|Li2S <- S-LiS|S-C                       254  YELLOW
+                    S-LiS|Li2S <- S-LiB|halide                      5  RED   
+                    S-LiS|Li2S <- L-LiS|SPAN                        2  RED   
+                    S-LiS|Li2S <- L-LiS|Li2S                      153  YELLOW
+                    S-LiS|Li2S <- L-LiS|orgS                        1  RED   
+                    S-LiS|Li2S <- QSS-LiS|route?                   10  RED   
+                    S-LiS|Li2S <- S-LiB|hydride                     1  RED   
+                    S-LiS|Li2S <- QSS-LiS|S-C                       5  RED   
+                    S-LiS|Li2S <- S-LiB|thiolisicon                 2  RED   
+                    S-LiS|Li2S <- S-LiS|SPAN                        4  RED   
+                  S-LiB|insitu <- L-LiS|route?                     24  RED   
+                  S-LiB|insitu <- S-LiB|other-solid               200  YELLOW
+                  S-LiB|insitu <- L-LiS|S-C                         5  RED   
+                  S-LiB|insitu <- S-LiB|polymer                   471  GREEN 
+                  S-LiB|insitu <- S-LiB|oxide                      36  RED   
+                  S-LiB|insitu <- S-LiB|gel                       200  YELLOW
+                  S-LiB|insitu <- S-LiB|sulfide                    30  RED   
+                  S-LiB|insitu <- S-LiB|composite                 112  YELLOW
+                  S-LiB|insitu <- S-LiS|route?                     12  RED   
+                  S-LiB|insitu <- S-LiS|S-C                        10  RED   
+                  S-LiB|insitu <- L-LiS|SPAN                        1  RED   
+                  S-LiB|insitu <- QSS-LiS|route?                   15  RED   
+                  S-LiB|insitu <- S-LiS|Li2S                        1  RED   
+                  S-LiB|insitu <- QSS-LiS|S-C                       2  RED   
+                   QSS-LiS|S-C <- L-LiS|route?                    661  GREEN 
+                   QSS-LiS|S-C <- S-LiB|other-solid                59  RED   
+                   QSS-LiS|S-C <- L-LiS|S-C                       529  GREEN 
+                   QSS-LiS|S-C <- S-LiB|polymer                    58  RED   
+                   QSS-LiS|S-C <- S-LiB|oxide                      16  RED   
+                   QSS-LiS|S-C <- S-LiB|gel                        71  RED   
+                   QSS-LiS|S-C <- S-LiB|sulfide                    21  RED   
+                   QSS-LiS|S-C <- S-LiB|composite                  21  RED   
+                   QSS-LiS|S-C <- S-LiS|route?                     84  RED   
+                   QSS-LiS|S-C <- S-LiS|S-C                        90  RED   
+                   QSS-LiS|S-C <- L-LiS|SPAN                       20  RED   
+                   QSS-LiS|S-C <- L-LiS|Li2S                       30  RED   
+                   QSS-LiS|S-C <- L-LiS|orgS                        8  RED   
+                   QSS-LiS|S-C <- QSS-LiS|route?                  165  YELLOW
+                   QSS-LiS|S-C <- S-LiS|Li2S                       12  RED   
+                   QSS-LiS|S-C <- S-LiB|insitu                      2  RED   
+                   QSS-LiS|S-C <- S-LiB|thiolisicon                 2  RED   
+                   QSS-LiS|S-C <- S-LiS|SPAN                        5  RED   
+                   QSS-LiS|S-C <- QSS-LiS|SPAN                      7  RED   
+             S-LiB|thiolisicon <- L-LiS|route?                      6  RED   
+             S-LiB|thiolisicon <- S-LiB|other-solid               331  GREEN 
+             S-LiB|thiolisicon <- L-LiS|S-C                         4  RED   
+             S-LiB|thiolisicon <- S-LiB|polymer                     7  RED   
+             S-LiB|thiolisicon <- S-LiB|oxide                      61  RED   
+             S-LiB|thiolisicon <- S-LiB|gel                         8  RED   
+             S-LiB|thiolisicon <- S-LiB|sulfide                   465  GREEN 
+             S-LiB|thiolisicon <- S-LiB|composite                   7  RED   
+             S-LiB|thiolisicon <- S-LiS|route?                      9  RED   
+             S-LiB|thiolisicon <- S-LiS|S-C                        15  RED   
+             S-LiB|thiolisicon <- S-LiB|halide                      8  RED   
+             S-LiB|thiolisicon <- L-LiS|Li2S                        4  RED   
+             S-LiB|thiolisicon <- QSS-LiS|route?                    1  RED   
+             S-LiB|thiolisicon <- S-LiB|hydride                     2  RED   
+             S-LiB|thiolisicon <- S-LiS|Li2S                        1  RED   
+             S-LiB|thiolisicon <- S-LiS|SPAN                        3  RED   
+                    S-LiS|SPAN <- L-LiS|route?                     95  RED   
+                    S-LiS|SPAN <- S-LiB|other-solid               157  YELLOW
+                    S-LiS|SPAN <- L-LiS|S-C                        72  RED   
+                    S-LiS|SPAN <- S-LiB|polymer                   117  YELLOW
+                    S-LiS|SPAN <- S-LiB|oxide                      68  RED   
+                    S-LiS|SPAN <- S-LiB|gel                        42  RED   
+                    S-LiS|SPAN <- S-LiB|sulfide                    62  RED   
+                    S-LiS|SPAN <- S-LiB|composite                  96  RED   
+                    S-LiS|SPAN <- S-LiS|route?                     62  RED   
+                    S-LiS|SPAN <- S-LiS|S-C                        87  RED   
+                    S-LiS|SPAN <- S-LiB|halide                      4  RED   
+                    S-LiS|SPAN <- L-LiS|SPAN                      143  YELLOW
+                    S-LiS|SPAN <- L-LiS|Li2S                        3  RED   
+                    S-LiS|SPAN <- L-LiS|orgS                        1  RED   
+                    S-LiS|SPAN <- QSS-LiS|route?                   12  RED   
+                    S-LiS|SPAN <- S-LiB|hydride                    11  RED   
+                    S-LiS|SPAN <- S-LiS|Li2S                       13  RED   
+                    S-LiS|SPAN <- S-LiB|insitu                      1  RED   
+                    S-LiS|SPAN <- QSS-LiS|S-C                       2  RED   
+                    S-LiS|SPAN <- QSS-LiS|SPAN                     12  RED   
+                  QSS-LiS|SPAN <- L-LiS|route?                    156  YELLOW
+                  QSS-LiS|SPAN <- S-LiB|other-solid                49  RED   
+                  QSS-LiS|SPAN <- L-LiS|S-C                       108  YELLOW
+                  QSS-LiS|SPAN <- S-LiB|polymer                    53  RED   
+                  QSS-LiS|SPAN <- S-LiB|oxide                      26  RED   
+                  QSS-LiS|SPAN <- S-LiB|gel                        72  RED   
+                  QSS-LiS|SPAN <- S-LiB|sulfide                     3  RED   
+                  QSS-LiS|SPAN <- S-LiB|composite                  21  RED   
+                  QSS-LiS|SPAN <- S-LiS|route?                     26  RED   
+                  QSS-LiS|SPAN <- S-LiS|S-C                        22  RED   
+                  QSS-LiS|SPAN <- L-LiS|SPAN                      179  YELLOW
+                  QSS-LiS|SPAN <- L-LiS|Li2S                        1  RED   
+                  QSS-LiS|SPAN <- L-LiS|orgS                        3  RED   
+                  QSS-LiS|SPAN <- QSS-LiS|route?                   28  RED   
+                  QSS-LiS|SPAN <- S-LiS|Li2S                        3  RED   
+                  QSS-LiS|SPAN <- S-LiB|insitu                      1  RED   
+                  QSS-LiS|SPAN <- QSS-LiS|S-C                       8  RED   
+                  QSS-LiS|SPAN <- S-LiS|SPAN                       29  RED   
+
+  → 本层可用
