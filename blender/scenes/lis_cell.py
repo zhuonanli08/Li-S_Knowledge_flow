@@ -8,16 +8,20 @@ from mathutils import Vector, noise
 
 # ================= 可调参数 =================
 FINAL = "--final" in sys.argv
-RES = (3600, 2400) if FINAL else (1500, 1000)   # 草图 / 定稿 分辨率
-SAMPLES = 256 if FINAL else 48
+RES = (3600, 2400) if FINAL else (1500, 1000)
+NAME = os.environ.get("LIS_NAME", "lis_cell")       # 出对比稿时换文件名
+if os.environ.get("LIS_QUICK"):
+    RES = (900, 600)   # 草图 / 定稿 分辨率
+SAMPLES = 256 if FINAL else (16 if os.environ.get("LIS_QUICK") else 48)
 SEED = 7
 
-W, D = 9.0, 5.0                     # 电池片长、宽
-OPEN = 0.55                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
+W, D = 11.0, 5.0                     # 电池片长、宽
+FAN_POW = 1.0                       # 收拢曲线：1 = 直线收拢，看起来最像三角形
+OPEN = float(os.environ.get("LIS_OPEN", -0.30))                         # 负值 = 从左到右，正极(含集流体)往下压、负极(含SEI)往上压，向中间收拢成三角形
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
-    "anode":     (-0.45, -0.05),
-    "sei":       (-0.05, 0.45),      # SEI 顶面另加起伏
+    "anode":     (-0.85, -0.45),
+    "sei":       (-0.45, 0.05),      # SEI 顶面另加起伏
     "spe":       (0.40, 3.40),      # 张开后上下表面分别贴合正极和 SEI      # 聚合物电解质块
     "mat":       (1.20, 1.95),      # 其中的纤维骨架
     "cathode":   (3.47, 4.45),      # 硫/碳颗粒层
@@ -50,7 +54,7 @@ LABELS = [                          # 右侧引线标注：(文字, 指向的层
     ("Stable SEI", "sei", 0.05),
     ("Li metal anode", "anode", -0.40),
 ]
-TEXT_SIZE = 0.30
+TEXT_SIZE = 0.36
 # 字体：优先 Arial（本机 Windows），云端用字形等宽的 Liberation Sans
 FONTS = [r"C:\Windows\Fonts\arial.ttf", "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf",
          "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"]
@@ -79,8 +83,8 @@ def bend(x, layer=None):             # 该层在 x 处的上下位移：左端 0
     if layer is None:
         return 0.0
     layer = GROUP.get(layer, layer)
-    t = (x + W / 2) / W
-    return OPEN * t * t * (sum(LAYERS[layer]) / 2 - MID)
+    t = max(0.0, (x + W / 2) / W)
+    return OPEN * t ** FAN_POW * (sum(LAYERS[layer]) / 2 - MID)
 
 
 def B(p):                            # 把左端坐标映射到张开后
@@ -96,6 +100,30 @@ def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0):
     p.inputs["Metallic"].default_value = metal
     p.inputs["Alpha"].default_value = alpha
     p.inputs["Coat Weight"].default_value = coat
+    return m
+
+
+def glass_mat(name, rgb, a_center=0.06, a_edge=0.45):
+    """电解质：正对视线处很透明，掠射处（边缘）更不透明、带淡紫色，形成玻璃感轮廓。"""
+    m = bpy.data.materials.new(name)
+    m.use_nodes = True
+    nt = m.node_tree
+    p = nt.nodes["Principled BSDF"]
+    p.inputs["Base Color"].default_value = (*lin(rgb), 1)
+    p.inputs["Roughness"].default_value = 0.05
+    p.inputs["Coat Weight"].default_value = 1.0
+    lw = nt.nodes.new("ShaderNodeLayerWeight")
+    lw.inputs["Blend"].default_value = 0.35
+    mr = nt.nodes.new("ShaderNodeMapRange")
+    mr.inputs["To Min"].default_value = a_center
+    mr.inputs["To Max"].default_value = a_edge
+    tr = nt.nodes.new("ShaderNodeBsdfTransparent")
+    mix = nt.nodes.new("ShaderNodeMixShader")
+    nt.links.new(lw.outputs["Facing"], mr.inputs["Value"])
+    nt.links.new(mr.outputs["Result"], mix.inputs[0])
+    nt.links.new(tr.outputs[0], mix.inputs[1])
+    nt.links.new(p.outputs[0], mix.inputs[2])
+    nt.links.new(mix.outputs[0], nt.nodes["Material Output"].inputs[0])
     return m
 
 
@@ -199,7 +227,7 @@ def arc_arrow(name, p0, p1, height, m, radius=0.075):
 M = {
     "anode": mat("anode", COLORS["anode"], rough=0.3, metal=0.6),
     "sei": mat("sei", COLORS["sei"], rough=0.35, coat=0.5),
-    "spe": mat("spe", COLORS["spe"], alpha=0.22, rough=0.05, coat=1.0),
+    "spe": glass_mat("spe", COLORS["spe"]),
     "fiber": mat("fiber", COLORS["fiber"], rough=0.55),
     "sulfur": mat("sulfur", COLORS["sulfur"], rough=0.3, coat=0.6),
     "carbon": mat("carbon", COLORS["carbon"], rough=0.25, coat=0.6),
@@ -296,7 +324,7 @@ def molecule(cx, cz, rot):
 
 
 zm = m1 + 0.32
-for cx, rot in [(-2.9, 0.2), (-0.6, 0.6), (1.7, 0.1)]:
+for cx, rot in [(-3.4, 0.2), (-0.8, 0.6), (1.8, 0.1)]:
     molecule(cx, zm, rot)
 
 arc_arrow("charge", (-0.70, yf - 0.1, zm + 0.40), (-2.60, yf - 0.1, zm + 0.35), 0.38, M["charge"])
@@ -321,14 +349,16 @@ slab("Collector", lambda x, y: LAYERS["collector"][0], lambda x, y: LAYERS["coll
      nx=60, ny=10)
 
 # ---------- 相机、灯光、世界 ----------
-target = Vector((1.1, 0, 1.6))
-bpy.ops.object.camera_add(location=(8.0, -15.0, 5.2))
+target = Vector((1.3, 0, 1.7))
+bpy.ops.object.camera_add(location=(5.5, -18.5, 5.8))
 cam = bpy.context.object
 cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
-cam.data.lens = 33
+cam.data.lens = 35
 scene.camera = cam
 
-for loc, e, s in [((-6, -8, 10), 1100, 8), ((9, -6, 6), 600, 6), ((2, 8, 8), 700, 8)]:   # 柔和一些
+for loc, e, s in [((-7, -7, 11), 2000, 3.5),      # 主光：左上前方，较小光源 → 清晰阴影
+                  ((10, -9, 2), 350, 12),         # 补光：右侧低位，大而柔
+                  ((3, 10, 9), 1800, 3)]:         # 轮廓光：后上方，打出边缘高光
     bpy.ops.object.light_add(type="AREA", location=loc)
     l = bpy.context.object
     l.data.energy, l.data.size = e, s
@@ -339,7 +369,7 @@ scene.world = world
 world.use_nodes = True
 nt = world.node_tree
 nt.nodes["Background"].inputs["Color"].default_value = (1, 1, 1, 1)
-nt.nodes["Background"].inputs["Strength"].default_value = 0.55
+nt.nodes["Background"].inputs["Strength"].default_value = 0.40
 lp = nt.nodes.new("ShaderNodeLightPath")   # 相机看到的背景为纯白，照明只用 0.35
 white = nt.nodes.new("ShaderNodeBackground")
 white.inputs["Color"].default_value = (1, 1, 1, 1)
@@ -397,9 +427,9 @@ for s, layer, dz in LABELS:
 
 CUR = "spe"
 front = -D / 2 - 0.1                 # 图中文字放在电解质块前面
-text("Charge", B((-3.0, front, zm + 0.30)), color=T["charge"], align="RIGHT", pull=0.6)
-text("Discharge", B((2.6, front, zm + 0.75)), color=T["discharge"], align="LEFT", pull=0.6)
-text("Accelerated dynamics", B((-0.3, front, zm + 1.12)), color=T["dynamics"], align="CENTER", pull=0.6)
+text("Charge", B((-3.9, front, zm + 0.30)), color=T["charge"], align="RIGHT", pull=0.6)
+text("Discharge", B((2.7, front, zm + 0.75)), color=T["discharge"], align="LEFT", pull=0.6)
+text("Accelerated dynamics", B((-0.7, front, zm + 1.12)), color=T["dynamics"], align="CENTER", pull=0.6)
 text([("Li", ""), ("+", "sup")], B((-3.9, front, s0 + 0.45)), size=0.28)
 
 # ---------- 图例（底部一行，正对相机） ----------
@@ -409,7 +439,7 @@ LEGEND = [("S", "sulfur", 0.14), ("C", "carbon", 0.09), ([("Li", ""), ("+", "sup
           ("O", "atom_o", 0.11)]
 GAPS = [0.9, 0.9, 1.0, 1.9, 1.8, 0.8, 0.8]          # 每项占的宽度
 R = cam_rot.to_matrix()
-origin = Vector((-W / 2 - 0.3, -D / 2 - 1.5, LAYERS["anode"][0] - 1.9))
+origin = Vector((-W / 2 + 0.6, -D / 2 - 1.5, LAYERS["collector"][1] + 1.5))   # 左上角空白处
 dx = 0.0
 for (name, key, r), g in zip(LEGEND, GAPS):
     pos = origin + R @ Vector((dx, 0, 0))
@@ -431,7 +461,7 @@ scene.cycles.transparent_max_bounces = 16
 scene.view_settings.view_transform = "Standard"
 scene.view_settings.look = "None"
 scene.render.resolution_x, scene.render.resolution_y = RES
-scene.render.filepath = os.path.join(out, "lis_cell.png")
+scene.render.filepath = os.path.join(out, NAME + ".png")
 bpy.ops.render.render(write_still=True)
-bpy.ops.wm.save_as_mainfile(filepath=os.path.join(out, "lis_cell.blend"))
+bpy.ops.wm.save_as_mainfile(filepath=os.path.join(out, NAME + ".blend"))
 print("OK:", scene.render.filepath)
