@@ -13,14 +13,15 @@ SAMPLES = 256 if FINAL else 48
 SEED = 7
 
 W, D = 9.0, 5.0                     # 电池片长、宽
-BEND = 1.3                          # 弯曲程度：右端比左端抬高多少
-LAYERS = {                          # 名称: (底 z, 顶 z)，未弯曲时的高度；层间留缝
+OPEN = 0.95                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
+MID = 1.55                          # 以这个高度为中心张开（电解质块中部，基本不动）
+LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
     "anode":     (-0.45, -0.05),
     "sei":       (0.00, 0.22),      # SEI 顶面另加起伏
-    "spe":       (0.55, 3.35),      # 聚合物电解质块
-    "mat":       (1.45, 1.85),      # 其中的纤维骨架
-    "cathode":   (3.60, 4.10),      # 硫/碳颗粒层
-    "collector": (4.13, 4.25),
+    "spe":       (0.40, 3.05),      # 聚合物电解质块
+    "mat":       (1.35, 1.75),      # 其中的纤维骨架
+    "cathode":   (3.12, 3.62),      # 硫/碳颗粒层
+    "collector": (3.65, 3.77),
 }
 SEI_ROUGH = 0.10                    # SEI 起伏幅度
 COLORS = {                          # 饱和度较高的论文配色 (R,G,B，sRGB)
@@ -31,7 +32,8 @@ COLORS = {                          # 饱和度较高的论文配色 (R,G,B，sR
     "sulfur":    (0.98, 0.80, 0.10),   # 硫：亮黄
     "carbon":    (0.12, 0.13, 0.16),   # 碳：深灰
     "collector": (0.12, 0.13, 0.16),   # 集流体：深灰
-    "li_ion":    (0.22, 0.24, 0.30),   # Li+ 颗粒：深灰蓝（金属光泽）
+    "li_ion":    (0.55, 0.30, 0.82),   # Li+：紫色小球
+    "sei_part":  (0.92, 0.93, 0.96),   # SEI 中的无机颗粒：银白
     "atom_c":    (0.45, 0.47, 0.52),   # 分子：C 灰
     "atom_n":    (0.15, 0.35, 0.90),   # N 蓝
     "atom_o":    (0.90, 0.15, 0.15),   # O 红
@@ -66,11 +68,18 @@ def lin(rgb):                        # sRGB → 线性，让渲染出的颜色�
     return [c ** 2.2 for c in rgb]
 
 
-def bend(x):                         # 整片弯曲：随 x 二次抬高
-    return BEND * ((x + W / 2) / W) ** 2
+CUR = None                           # 当前正在搭的层，决定张开时往上还是往下移
 
 
-def B(p):                            # 把未弯曲坐标映射到弯曲后
+def bend(x, layer=None):             # 该层在 x 处的上下位移：左端 0，向右二次增大
+    layer = layer or CUR
+    if layer is None:
+        return 0.0
+    t = (x + W / 2) / W
+    return OPEN * t * t * (sum(LAYERS[layer]) / 2 - MID)
+
+
+def B(p):                            # 把左端坐标映射到张开后
     return Vector((p[0], p[1], p[2] + bend(p[0])))
 
 
@@ -191,7 +200,8 @@ M = {
     "sulfur": mat("sulfur", COLORS["sulfur"], rough=0.3, coat=0.6),
     "carbon": mat("carbon", COLORS["carbon"], rough=0.25, coat=0.6),
     "collector": mat("collector", COLORS["collector"], rough=0.3, metal=0.8),
-    "li_ion": mat("li_ion", COLORS["li_ion"], rough=0.15, metal=0.7),
+    "li_ion": mat("li_ion", COLORS["li_ion"], rough=0.2, coat=0.8),
+    "sei_part": mat("sei_part", COLORS["sei_part"], rough=0.15, metal=0.5),
     "atom_c": mat("atom_c", COLORS["atom_c"], rough=0.3, coat=0.5),
     "atom_n": mat("atom_n", COLORS["atom_n"], rough=0.3, coat=0.5),
     "atom_o": mat("atom_o", COLORS["atom_o"], rough=0.3, coat=0.5),
@@ -203,6 +213,7 @@ M = {
 T = {k: emit_mat(k + "_txt", COLORS[k]) for k in ("text", "charge", "discharge", "dynamics")}
 
 # ---------- 负极 + 起伏的 SEI ----------
+CUR = "anode"
 slab("Li_anode", lambda x, y: LAYERS["anode"][0], lambda x, y: LAYERS["anode"][1], M["anode"])
 bumps = [(random.uniform(-W / 2, W / 2), random.uniform(-D / 2, D / 2), random.uniform(0.25, 0.6),
           random.choice([1, 1, -1]) * random.uniform(0.6, 1.0)) for _ in range(45)]
@@ -215,16 +226,17 @@ def sei_top(x, y):
     return h
 
 
+CUR = "sei"
 slab("SEI", lambda x, y: LAYERS["sei"][0], sei_top, M["sei"], nx=180, ny=100, smooth=True)
 spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
                          [(random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
-                          for _ in range(60)]], (0.05, 0.08), M["li_ion"])
+                          for _ in range(70)]], (0.045, 0.06), M["sei_part"])
 
 # ---------- 聚合物电解质块 + 纤维骨架 ----------
+CUR = "spe"
 slab("SPE", lambda x, y: LAYERS["spe"][0], lambda x, y: LAYERS["spe"][1], M["spe"], nx=60, ny=10)
 m0, m1 = LAYERS["mat"]
-slab("Mat_core", lambda x, y: m0 + 0.08, lambda x, y: m1 - 0.08, M["fiber"], nx=60, ny=10)
-for k in range(160):
+for k in range(280):
     zc = random.uniform(m0, m1)
     if k % 2 == 0:  # 沿 x 方向
         y = random.uniform(-D / 2 + 0.03, D / 2 - 0.03)
@@ -241,7 +253,7 @@ s0, s1 = LAYERS["spe"]
 rand_xy = lambda: (random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
 li_pts = [(*rand_xy(), random.uniform(s0 + 0.12, m0 - 0.12)) for _ in range(55)] + \
          [(*rand_xy(), random.uniform(m1 + 0.12, s1 - 0.12)) for _ in range(55)]
-spheres("Li", li_pts, (0.06, 0.08), M["li_ion"])
+spheres("Li", li_pts, (0.065, 0.075), M["li_ion"])
 
 # ---------- 骨架上的分子（球棍模型）与动力学箭头 ----------
 yf = -D / 2 + 0.55                   # 放在靠前的位置，便于看清
@@ -262,18 +274,19 @@ def molecule(cx, cz, rot):
     for hx, hy, hz, kind in hetero:   # 杂原子连到最近的环原子
         near = min(atoms, key=lambda p: (p[0] - hx) ** 2 + (p[2] - hz) ** 2)
         tube("bond", [near, (hx, hy, hz)], 0.025, M["bond"])
-        spheres("hetero", [(hx, hy, hz)], 0.075, M[kind])
-    spheres("atom", atoms, 0.065, M["atom_c"])
+        spheres("hetero", [(hx, hy, hz)], 0.085, M[kind])
+    spheres("atom", atoms, 0.055, M["atom_c"])
 
 
-zm = m1 + 0.38
+zm = m1 + 0.32
 for cx, rot in [(-2.9, 0.2), (-0.6, 0.6), (1.7, 0.1)]:
     molecule(cx, zm, rot)
 
-arc_arrow("charge", (-0.70, yf - 0.1, zm + 0.45), (-2.60, yf - 0.1, zm + 0.40), 0.50, M["charge"])
-arc_arrow("discharge", (0.50, yf - 0.1, zm + 0.45), (2.40, yf - 0.1, zm + 0.45), 0.50, M["discharge"])
+arc_arrow("charge", (-0.70, yf - 0.1, zm + 0.40), (-2.60, yf - 0.1, zm + 0.35), 0.38, M["charge"])
+arc_arrow("discharge", (0.50, yf - 0.1, zm + 0.40), (2.40, yf - 0.1, zm + 0.40), 0.38, M["discharge"])
 
 # ---------- 正极颗粒 + 集流体 ----------
+CUR = "cathode"
 c0, c1 = LAYERS["cathode"]
 s_pts, c_pts = [], []
 step = 0.24
@@ -284,13 +297,14 @@ for ix in range(int(W / step)):
                  -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
                  c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
             (s_pts if random.random() < 0.5 else c_pts).append(p)
-spheres("S", s_pts, (0.11, 0.14), M["sulfur"])
-spheres("C", c_pts, (0.10, 0.13), M["carbon"])
+spheres("S", s_pts, (0.13, 0.15), M["sulfur"])     # 硫：大
+spheres("C", c_pts, (0.08, 0.10), M["carbon"])     # 碳：小
+CUR = "collector"
 slab("Collector", lambda x, y: LAYERS["collector"][0], lambda x, y: LAYERS["collector"][1], M["collector"],
      nx=60, ny=10)
 
 # ---------- 相机、灯光、世界 ----------
-target = Vector((0.9, 0, 2.0))
+target = Vector((0.9, 0, 1.5))
 bpy.ops.object.camera_add(location=(-1.0, -16.5, 5.0))
 cam = bpy.context.object
 cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
@@ -354,18 +368,39 @@ def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None):
 
 xr = W / 2                           # 右侧引线标注
 for s, layer, dz in LABELS:
+    CUR = "spe" if layer == "mat" else layer
     zl = sum(LAYERS[layer]) / 2
     anchor = B((xr - 0.02, -D / 2 + 0.02, zl))
     end = anchor + Vector((0.9, 0, dz))
     tube("lead_" + layer, [anchor, anchor + Vector((0.45, 0, dz * 0.8)), end], 0.012, M["lead"], bent=False)
     text(s, end + Vector((0.12, 0, 0)))
 
+CUR = "spe"
 front = -D / 2 - 0.1                 # 图中文字放在电解质块前面
-text("Charge", B((-3.0, front, zm + 1.0)), color=T["charge"], align="CENTER")
-text("Discharge", B((2.9, front, zm + 1.15)), color=T["discharge"], align="CENTER")
-text("Accelerated", B((-0.1, front, zm + 1.20)), color=T["dynamics"], align="CENTER")
-text("dynamics", B((-0.1, front, zm + 0.88)), color=T["dynamics"], align="CENTER")
+text("Charge", B((-3.2, front, zm + 0.30)), color=T["charge"], align="RIGHT")
+text("Discharge", B((2.75, front, zm + 0.35)), color=T["discharge"], align="LEFT")
+text("Accelerated dynamics", B((-0.1, front, zm + 1.12)), color=T["dynamics"], align="CENTER")
 text([("Li", ""), ("+", "sup")], B((-3.9, front, s0 + 0.45)), size=0.28)
+
+# ---------- 图例（底部一行，正对相机） ----------
+CUR = None
+LEGEND = [("S", "sulfur", 0.14), ("C", "carbon", 0.09), ([("Li", ""), ("+", "sup")], "li_ion", 0.07),
+          ("SEI particle", "sei_part", 0.06), ("Polymer C", "atom_c", 0.055), ("N", "atom_n", 0.085),
+          ("O", "atom_o", 0.085)]
+GAPS = [0.9, 0.9, 1.0, 1.9, 1.8, 0.8, 0.8]          # 每项占的宽度
+R = cam_rot.to_matrix()
+origin = Vector((-W / 2 + 0.3, -D / 2 - 0.5, LAYERS["anode"][0] - 1.0))
+dx = 0.0
+for (name, key, r), g in zip(LEGEND, GAPS):
+    pos = origin + R @ Vector((dx, 0, 0))
+    o = bpy.data.objects.new("legend", _sphere_mesh.get(M[key].name) or _sphere_mesh[M["li_ion"].name])
+    if M[key].name not in _sphere_mesh:
+        spheres("legend_tmp", [(0, 0, -50)], 0.01, M[key])
+        o.data = _sphere_mesh[M[key].name]
+    o.location, o.scale = pos, [r * 1.4] * 3
+    scene.collection.objects.link(o)
+    text(name, pos + R @ Vector((0.25, 0, 0)), size=0.24)
+    dx += g
 
 # ---------- 渲染 ----------
 scene.render.engine = "CYCLES"
