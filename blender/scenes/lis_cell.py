@@ -175,8 +175,8 @@ def emit_mat(name, rgb):             # 文字用纯自发光，颜色不受灯�
     return m
 
 
-def slab(name, zbot, ztop, m, nx=90, ny=50, smooth=False):
-    """封闭的弯曲板：zbot/ztop 是 (x, y) → 未弯曲高度 的函数。"""
+def slab(name, zbot, ztop, m, nx=90, ny=50, smooth=False, cap_mat=None):
+    """封闭的弯曲板：zbot/ztop 是 (x, y) → 未弯曲高度 的函数。cap_mat：顶面和底面单独用的材质。"""
     bm = bmesh.new()
     xs = [-W / 2 + W * i / nx for i in range(nx + 1)]
     ys = [-D / 2 + D * j / ny for j in range(ny + 1)]
@@ -184,8 +184,8 @@ def slab(name, zbot, ztop, m, nx=90, ny=50, smooth=False):
     bot = [[bm.verts.new(B((x, y, zbot(x, y)))) for y in ys] for x in xs]
     for i in range(nx):
         for j in range(ny):
-            bm.faces.new((top[i][j], top[i + 1][j], top[i + 1][j + 1], top[i][j + 1]))
-            bm.faces.new((bot[i][j], bot[i][j + 1], bot[i + 1][j + 1], bot[i + 1][j]))
+            bm.faces.new((top[i][j], top[i + 1][j], top[i + 1][j + 1], top[i][j + 1])).material_index = 1 if cap_mat else 0
+            bm.faces.new((bot[i][j], bot[i][j + 1], bot[i + 1][j + 1], bot[i + 1][j])).material_index = 1 if cap_mat else 0
     for i in range(nx):              # 前后侧面
         bm.faces.new((bot[i][0], bot[i + 1][0], top[i + 1][0], top[i][0]))
         bm.faces.new((top[i][ny], top[i + 1][ny], bot[i + 1][ny], bot[i][ny]))
@@ -204,6 +204,8 @@ def slab(name, zbot, ztop, m, nx=90, ny=50, smooth=False):
             f.use_smooth = True
     o = bpy.data.objects.new(name, me)
     o.data.materials.append(m)
+    if cap_mat:
+        o.data.materials.append(cap_mat)
     scene.collection.objects.link(o)
     return o
 
@@ -282,6 +284,7 @@ M = {
     "charge": mat("charge", COLORS["charge"], rough=0.4),
     "discharge": mat("discharge", COLORS["discharge"], rough=0.4),
     "lead": emit_mat("lead", COLORS["text"]),
+    "clear": mat("clear", (1, 1, 1), alpha=0.0),
 }
 T = {k: emit_mat(k + "_txt", [c * 0.8 for c in COLORS[k]]) for k in ("charge", "discharge", "dynamics")}  # 文字比箭头深一些，更清楚
 T["text"] = emit_mat("text_txt", COLORS["text"])
@@ -311,7 +314,8 @@ spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
 CUR = "spe"
 CUR = None                           # 电解质块直接用最终高度：底面贴 SEI 顶面，顶面贴正极底面
 slab("SPE", lambda x, y: sei_top(x, y) + bend(x, "sei") + 0.005,
-     lambda x, y: LAYERS["cathode"][0] + bend(x, "cathode"), M["spe"], nx=120, ny=60)
+     lambda x, y: LAYERS["cathode"][0] + bend(x, "cathode"), M["spe"], nx=120, ny=60,
+     cap_mat=M["clear"])              # 与正极、负极接触的上下两面完全透明，只有侧面有颜色
 CUR = "spe"
 m0, m1 = LAYERS["mat"]
 for k in range(280):
