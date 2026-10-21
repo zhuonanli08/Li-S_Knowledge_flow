@@ -13,15 +13,15 @@ SAMPLES = 256 if FINAL else 48
 SEED = 7
 
 W, D = 9.0, 5.0                     # 电池片长、宽
-OPEN = 0.95                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
-MID = 1.55                          # 以这个高度为中心张开（电解质块中部，基本不动）
+OPEN = 0.55                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
+MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
     "anode":     (-0.45, -0.05),
-    "sei":       (0.00, 0.22),      # SEI 顶面另加起伏
-    "spe":       (0.40, 3.05),      # 聚合物电解质块
-    "mat":       (1.35, 1.75),      # 其中的纤维骨架
-    "cathode":   (3.12, 3.62),      # 硫/碳颗粒层
-    "collector": (3.65, 3.77),
+    "sei":       (-0.05, 0.22),      # SEI 顶面另加起伏
+    "spe":       (0.40, 3.40),      # 张开后上下表面分别贴合正极和 SEI      # 聚合物电解质块
+    "mat":       (1.20, 1.95),      # 其中的纤维骨架
+    "cathode":   (3.47, 3.97),      # 硫/碳颗粒层
+    "collector": (4.00, 4.12),
 }
 SEI_ROUGH = 0.10                    # SEI 起伏幅度
 COLORS = {                          # 饱和度较高的论文配色 (R,G,B，sRGB)
@@ -71,10 +71,14 @@ def lin(rgb):                        # sRGB → 线性，让渲染出的颜色�
 CUR = None                           # 当前正在搭的层，决定张开时往上还是往下移
 
 
+GROUP = {"sei": "anode", "collector": "cathode", "mat": "spe"}   # 这些层跟着所贴合的层一起移动
+
+
 def bend(x, layer=None):             # 该层在 x 处的上下位移：左端 0，向右二次增大
     layer = layer or CUR
     if layer is None:
         return 0.0
+    layer = GROUP.get(layer, layer)
     t = (x + W / 2) / W
     return OPEN * t * t * (sum(LAYERS[layer]) / 2 - MID)
 
@@ -234,7 +238,10 @@ spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
 
 # ---------- 聚合物电解质块 + 纤维骨架 ----------
 CUR = "spe"
-slab("SPE", lambda x, y: LAYERS["spe"][0], lambda x, y: LAYERS["spe"][1], M["spe"], nx=60, ny=10)
+CUR = None                           # 电解质块直接用最终高度：底面贴 SEI 顶面，顶面贴正极底面
+slab("SPE", lambda x, y: sei_top(x, y) + bend(x, "sei") + 0.005,
+     lambda x, y: LAYERS["cathode"][0] + bend(x, "cathode"), M["spe"], nx=120, ny=60)
+CUR = "spe"
 m0, m1 = LAYERS["mat"]
 for k in range(280):
     zc = random.uniform(m0, m1)
@@ -251,9 +258,19 @@ for k in range(280):
 # Li+ 颗粒：骨架上方和下方都有
 s0, s1 = LAYERS["spe"]
 rand_xy = lambda: (random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
-li_pts = [(*rand_xy(), random.uniform(s0 + 0.12, m0 - 0.12)) for _ in range(55)] + \
-         [(*rand_xy(), random.uniform(m1 + 0.12, s1 - 0.12)) for _ in range(55)]
+CUR = None                           # Li+ 填满张开后的电解质（用最终高度）
+li_pts = []
+for k in range(140):
+    x, y = rand_xy()
+    if k % 2:
+        li_pts.append((x, y, random.uniform(sei_top(x, y) + bend(x, "sei") + 0.12, m0 - 0.1)))
+    else:
+        li_pts.append((x, y, random.uniform(m1 + 0.1, LAYERS["cathode"][0] + bend(x, "cathode") - 0.1)))
+# 分子、箭头和文字所在的前方区域留空，避免遮挡
+li_pts = [p for p in li_pts if not (-4.0 < p[0] < 3.6 and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
+          and not (-4.0 < p[0] < 2.0 and p[2] > m1 + 0.75)]          # 文字后方整条带
 spheres("Li", li_pts, (0.065, 0.075), M["li_ion"])
+CUR = "spe"
 
 # ---------- 骨架上的分子（球棍模型）与动力学箭头 ----------
 yf = -D / 2 + 0.55                   # 放在靠前的位置，便于看清
@@ -304,11 +321,11 @@ slab("Collector", lambda x, y: LAYERS["collector"][0], lambda x, y: LAYERS["coll
      nx=60, ny=10)
 
 # ---------- 相机、灯光、世界 ----------
-target = Vector((0.9, 0, 1.5))
-bpy.ops.object.camera_add(location=(-1.0, -16.5, 5.0))
+target = Vector((1.1, 0, 1.6))
+bpy.ops.object.camera_add(location=(8.0, -15.0, 5.2))
 cam = bpy.context.object
 cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
-cam.data.lens = 36
+cam.data.lens = 33
 scene.camera = cam
 
 for loc, e, s in [((-6, -8, 10), 1500, 5), ((9, -6, 6), 600, 4), ((2, 8, 8), 900, 6)]:
@@ -337,8 +354,11 @@ font = next((bpy.data.fonts.load(f) for f in FONTS if os.path.exists(f)), None)
 cam_rot = cam.rotation_euler.copy()
 
 
-def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None):
-    """parts 可为字符串，或 [(文字, ""/"sup"/"sub"), ...]；上下标用小字号拼接，避免字体缺字。loc 为最终坐标。"""
+def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None, pull=1.0):
+    """parts 可为字符串，或 [(文字, ""/"sup"/"sub"), ...]；上下标用小字号拼接，避免字体缺字。loc 为最终坐标。
+    pull<1 时沿视线把文字拉近相机并等比缩小：画面上位置、大小不变，但保证挡在颗粒前面。"""
+    loc = cam.location + (Vector(loc) - cam.location) * pull
+    size *= pull
     if isinstance(parts, str):
         parts = [(parts, "")]
     m = color or T["text"]
@@ -371,15 +391,15 @@ for s, layer, dz in LABELS:
     CUR = "spe" if layer == "mat" else layer
     zl = sum(LAYERS[layer]) / 2
     anchor = B((xr - 0.02, -D / 2 + 0.02, zl))
-    end = anchor + Vector((0.9, 0, dz))
-    tube("lead_" + layer, [anchor, anchor + Vector((0.45, 0, dz * 0.8)), end], 0.012, M["lead"], bent=False)
+    end = anchor + Vector((1.5, 0, dz))
+    tube("lead_" + layer, [anchor, anchor + Vector((0.75, 0, dz * 0.8)), end], 0.012, M["lead"], bent=False)
     text(s, end + Vector((0.12, 0, 0)))
 
 CUR = "spe"
 front = -D / 2 - 0.1                 # 图中文字放在电解质块前面
-text("Charge", B((-3.2, front, zm + 0.30)), color=T["charge"], align="RIGHT")
-text("Discharge", B((2.75, front, zm + 0.35)), color=T["discharge"], align="LEFT")
-text("Accelerated dynamics", B((-0.1, front, zm + 1.12)), color=T["dynamics"], align="CENTER")
+text("Charge", B((-3.0, front, zm + 0.30)), color=T["charge"], align="RIGHT", pull=0.6)
+text("Discharge", B((2.6, front, zm + 0.75)), color=T["discharge"], align="LEFT", pull=0.6)
+text("Accelerated dynamics", B((-0.3, front, zm + 1.12)), color=T["dynamics"], align="CENTER", pull=0.6)
 text([("Li", ""), ("+", "sup")], B((-3.9, front, s0 + 0.45)), size=0.28)
 
 # ---------- 图例（底部一行，正对相机） ----------
@@ -389,7 +409,7 @@ LEGEND = [("S", "sulfur", 0.14), ("C", "carbon", 0.09), ([("Li", ""), ("+", "sup
           ("O", "atom_o", 0.085)]
 GAPS = [0.9, 0.9, 1.0, 1.9, 1.8, 0.8, 0.8]          # 每项占的宽度
 R = cam_rot.to_matrix()
-origin = Vector((-W / 2 + 0.3, -D / 2 - 0.5, LAYERS["anode"][0] - 1.0))
+origin = Vector((-W / 2 - 0.3, -D / 2 - 1.5, LAYERS["anode"][0] - 1.9))
 dx = 0.0
 for (name, key, r), g in zip(LEGEND, GAPS):
     pos = origin + R @ Vector((dx, 0, 0))
