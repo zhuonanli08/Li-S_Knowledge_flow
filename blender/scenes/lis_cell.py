@@ -17,11 +17,11 @@ OPEN = 0.55                         # 张开程度：从左到右，上面的层
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
     "anode":     (-0.45, -0.05),
-    "sei":       (-0.05, 0.22),      # SEI 顶面另加起伏
+    "sei":       (-0.05, 0.45),      # SEI 顶面另加起伏
     "spe":       (0.40, 3.40),      # 张开后上下表面分别贴合正极和 SEI      # 聚合物电解质块
     "mat":       (1.20, 1.95),      # 其中的纤维骨架
-    "cathode":   (3.47, 3.97),      # 硫/碳颗粒层
-    "collector": (4.00, 4.12),
+    "cathode":   (3.47, 4.45),      # 硫/碳颗粒层
+    "collector": (4.48, 4.60),
 }
 SEI_ROUGH = 0.10                    # SEI 起伏幅度
 COLORS = {                          # 饱和度较高的论文配色 (R,G,B，sRGB)
@@ -309,7 +309,7 @@ s_pts, c_pts = [], []
 step = 0.24
 for ix in range(int(W / step)):
     for iy in range(int(D / step)):
-        for iz in range(2):
+        for iz in range(4):             # 颗粒层数
             p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.05, 0.05),
                  -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
                  c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
