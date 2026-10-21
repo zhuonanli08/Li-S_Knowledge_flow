@@ -15,6 +15,7 @@ SEED = 7
 W, D = 8.0, 6.0                     # 电池片长（左右）、宽（前后）
 MX = 1.0                            # 骨架上的分子与充放电示意整体往右移多少
 S_RATIO = 0.25                      # 正极中硫颗粒的占比
+S_RATIO_BOTTOM = 0.06               # 正极最下层（接触电解质）硫的占比：碳远多于硫，这层看起来更暗
 OPEN = 0.55                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
@@ -26,7 +27,7 @@ LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张�
     "collector": (4.48, 4.60),
 }
 SEI_ROUGH = 0.20
-VIEW_ROT = 15                       # 视角绕竖直轴转的角度（度），正值 = 相机往右转、露出更多右侧截面
+VIEW_ROT = 10                       # 视角绕竖直轴转的角度（度），正值 = 相机往右转、露出更多右侧截面
 SAT_BOOST = 1.35                    # 颗粒/各层的饱和度倍数
 CONTRAST = 1.15                     # 颗粒/各层的明暗对比倍数
 SPE_ALPHA = 0.10                    # 电解质不透明度（越小越透明）
@@ -113,6 +114,35 @@ def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0, glow=0.0):
     if glow:                         # 微弱自发光：提亮暗部、减少阴影
         p.inputs["Emission Color"].default_value = (*lin(vivid(rgb)), 1)
         p.inputs["Emission Strength"].default_value = glow
+    return m
+
+
+SEI_DARK = (0.10, 0.12, 0.14)       # SEI 背光处：灰黑
+SEI_LIGHT = (0.10, 0.72, 0.70)      # SEI 迎光处：蓝绿
+SEI_ALPHA = 0.85                    # SEI 不透明度
+
+
+def sei_mat():
+    """SEI：按表面朝向主光的程度，从灰黑（背光）渐变到蓝绿（迎光），并带一点透明。"""
+    m = bpy.data.materials.new("sei")
+    m.use_nodes = True
+    nt = m.node_tree
+    p = nt.nodes["Principled BSDF"]
+    p.inputs["Roughness"].default_value = 0.12
+    p.inputs["Coat Weight"].default_value = 1.0
+    p.inputs["Alpha"].default_value = SEI_ALPHA
+    geo = nt.nodes.new("ShaderNodeNewGeometry")
+    dot = nt.nodes.new("ShaderNodeVectorMath")
+    dot.operation = "DOT_PRODUCT"
+    dot.inputs[1].default_value = Vector((-6, -8, 8.5)).normalized()   # 指向主光
+    ramp = nt.nodes.new("ShaderNodeValToRGB")
+    ramp.color_ramp.elements[0].position = 0.15
+    ramp.color_ramp.elements[0].color = (*lin(SEI_DARK), 1)
+    ramp.color_ramp.elements[1].position = 0.65
+    ramp.color_ramp.elements[1].color = (*lin(SEI_LIGHT), 1)
+    nt.links.new(geo.outputs["Normal"], dot.inputs[0])
+    nt.links.new(dot.outputs["Value"], ramp.inputs["Fac"])
+    nt.links.new(ramp.outputs["Color"], p.inputs["Base Color"])
     return m
 
 
@@ -214,8 +244,8 @@ def arc_arrow(name, p0, p1, height, m, radius=0.075):
 
 # ---------- 材质 ----------
 M = {
-    "anode": mat("anode", COLORS["anode"], rough=0.3, metal=0.6),
-    "sei": mat("sei", COLORS["sei"], rough=0.12, coat=1.0, glow=0.25),   # 高光多、阴影少
+    "anode": mat("anode", (0.88, 0.89, 0.92), rough=0.18, metal=1.0),     # 锂金属：银白、金属光泽
+    "sei": sei_mat(),
     "spe": mat("spe", COLORS["spe"], alpha=SPE_ALPHA, rough=0.05, coat=1.0),
     "fiber": mat("fiber", COLORS["fiber"], rough=0.25, coat=0.7),        # 带光泽
     "sulfur": mat("sulfur", COLORS["sulfur"], rough=0.3, coat=0.6),
@@ -334,7 +364,8 @@ for ix in range(int(W / step)):
             p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.05, 0.05),
                  -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
                  c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
-            (s_pts if random.random() < S_RATIO else c_pts).append(p)
+            ratio = S_RATIO_BOTTOM if iz == 0 else S_RATIO
+            (s_pts if random.random() < ratio else c_pts).append(p)
 spheres("S", s_pts, (0.13, 0.15), M["sulfur"])     # 硫：大
 spheres("C", c_pts, (0.08, 0.10), M["carbon"])     # 碳：小
 CUR = "collector"
