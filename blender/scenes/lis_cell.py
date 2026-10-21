@@ -17,6 +17,7 @@ SEED = 7
 
 W, D = 11.0, 5.0                     # 电池片长、宽
 FAN_POW = 1.3                       # 从左到右张开的曲线：1 = 直线，越大越晚张开
+SHEAR = 1.3                         # 正/负极左边那条边：前面的点比后面的点往右多少
 OPEN = float(os.environ.get("LIS_OPEN", 0.85))                         # 右前角张开的幅度：正极侧往上、负极侧往下
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
@@ -34,7 +35,7 @@ COLORS = {                          # 参考原图：整体低饱和、明暗接
     "spe":       (0.74, 0.78, 0.93),   # 电解质：浅蓝紫半透明
     "fiber":     (0.92, 0.84, 0.66),   # 纤维骨架：奶油色
     "sulfur":    (0.82, 0.68, 0.26),   # 硫：哑光金黄
-    "carbon":    (0.27, 0.29, 0.34),   # 碳：石板灰
+    "carbon":    (0.12, 0.20, 0.42),   # 碳：深蓝（金属光泽）
     "collector": (0.20, 0.22, 0.28),   # 集流体：深蓝灰
     "li_ion":    (0.52, 0.45, 0.72),   # Li+：灰紫
     "sei_part":  (0.40, 0.38, 0.55),   # SEI 中的颗粒：暗紫灰（原图 SEI 里的深色颗粒）
@@ -141,13 +142,17 @@ def emit_mat(name, rgb):             # 文字用纯自发光，颜色不受灯�
     return m
 
 
-def slab(name, zbot, ztop, m, nx=90, ny=50, smooth=False):
+def x_left(y, shear):                # 左边那条边在 y 处的 x：后面 -W/2，前面往右 shear
+    return -W / 2 + shear * (D / 2 - y) / D
+
+
+def slab(name, zbot, ztop, m, nx=90, ny=50, smooth=False, shear=0.0):
     """封闭的弯曲板：zbot/ztop 是 (x, y) → 未弯曲高度 的函数。"""
     bm = bmesh.new()
-    xs = [-W / 2 + W * i / nx for i in range(nx + 1)]
     ys = [-D / 2 + D * j / ny for j in range(ny + 1)]
-    top = [[bm.verts.new(B((x, y, ztop(x, y)))) for y in ys] for x in xs]
-    bot = [[bm.verts.new(B((x, y, zbot(x, y)))) for y in ys] for x in xs]
+    pts = [[(x_left(y, shear) + (W / 2 - x_left(y, shear)) * i / nx, y) for y in ys] for i in range(nx + 1)]
+    top = [[bm.verts.new(B((x, y, ztop(x, y)))) for x, y in row] for row in pts]
+    bot = [[bm.verts.new(B((x, y, zbot(x, y)))) for x, y in row] for row in pts]
     for i in range(nx):
         for j in range(ny):
             bm.faces.new((top[i][j], top[i + 1][j], top[i + 1][j + 1], top[i][j + 1]))
@@ -233,7 +238,7 @@ M = {
     "spe": glass_mat("spe", COLORS["spe"]),
     "fiber": mat("fiber", COLORS["fiber"], rough=0.55),
     "sulfur": mat("sulfur", COLORS["sulfur"], rough=0.3, coat=0.6),
-    "carbon": mat("carbon", COLORS["carbon"], rough=0.25, coat=0.6),
+    "carbon": mat("carbon", COLORS["carbon"], rough=0.2, metal=0.85, coat=0.5),
     "collector": mat("collector", COLORS["collector"], rough=0.3, metal=0.8),
     "li_ion": mat("li_ion", COLORS["li_ion"], rough=0.2, coat=0.8),
     "sei_part": mat("sei_part", COLORS["sei_part"], rough=0.15, metal=0.5),
@@ -249,7 +254,7 @@ T = {k: emit_mat(k + "_txt", COLORS[k]) for k in ("text", "charge", "discharge",
 
 # ---------- 负极 + 起伏的 SEI ----------
 CUR = "anode"
-slab("Li_anode", lambda x, y: LAYERS["anode"][0], lambda x, y: LAYERS["anode"][1], M["anode"])
+slab("Li_anode", lambda x, y: LAYERS["anode"][0], lambda x, y: LAYERS["anode"][1], M["anode"], shear=SHEAR)
 bumps = [(random.uniform(-W / 2, W / 2), random.uniform(-D / 2, D / 2), random.uniform(0.35, 0.8),
           random.choice([1, 1, -1]) * random.uniform(0.6, 1.0)) for _ in range(45)]
 
@@ -262,10 +267,10 @@ def sei_top(x, y):
 
 
 CUR = "sei"
-slab("SEI", lambda x, y: LAYERS["sei"][0], sei_top, M["sei"], nx=180, ny=100, smooth=True)
+slab("SEI", lambda x, y: LAYERS["sei"][0], sei_top, M["sei"], nx=180, ny=100, smooth=True, shear=SHEAR)
 spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
                          [(random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
-                          for _ in range(90)]], (0.06, 0.09), M["sei_part"])
+                          for _ in range(90)] if x > x_left(y, SHEAR) + 0.15], (0.06, 0.09), M["sei_part"])
 
 # ---------- 聚合物电解质块 + 纤维骨架 ----------
 CUR = "spe"
@@ -344,16 +349,18 @@ for ix in range(int(W / step)):
             p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.05, 0.05),
                  -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
                  c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
-            (s_pts if random.random() < 0.38 else c_pts).append(p)
+            if p[0] < x_left(p[1], SHEAR) + 0.12:   # 左边斜切
+                continue
+            (s_pts if random.random() < 0.25 else c_pts).append(p)
 spheres("S", s_pts, (0.13, 0.15), M["sulfur"])     # 硫：大
 spheres("C", c_pts, (0.08, 0.10), M["carbon"])     # 碳：小
 CUR = "collector"
 slab("Collector", lambda x, y: LAYERS["collector"][0], lambda x, y: LAYERS["collector"][1], M["collector"],
-     nx=60, ny=10)
+     nx=60, ny=10, shear=SHEAR)
 
 # ---------- 相机、灯光、世界 ----------
 target = Vector((1.3, 0, 1.7))
-bpy.ops.object.camera_add(location=(5.5, -18.5, 5.8))
+bpy.ops.object.camera_add(location=(10.0, -17.0, 5.8))
 cam = bpy.context.object
 cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
 cam.data.lens = 35
