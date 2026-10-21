@@ -20,19 +20,19 @@ OPEN = 0.55                         # 张开程度：从左到右，上面的层
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
     "anode":     (-0.45, -0.05),
-    "sei":       (-0.08, 0.25),      # SEI 顶面另加起伏
+    "sei":       (-0.05, 0.03),      # SEI：近似 2D 薄膜，贴在负极上，只保留轻微起伏
     "spe":       (0.40, 3.40),      # 张开后上下表面分别贴合正极和 SEI      # 聚合物电解质块
     "mat":       (1.20, 1.95),      # 其中的纤维骨架
     "cathode":   (3.47, 4.45),      # 硫/碳颗粒层
     "collector": (4.48, 4.60),
 }
-SEI_ROUGH = 0.13
+SEI_ROUGH = 0.03
 VIEW_ROT = 10                       # 视角绕竖直轴转的角度（度），正值 = 相机往右转、露出更多右侧截面
 SAT_BOOST = 1.35                    # 颗粒/各层的饱和度倍数
 CONTRAST = 1.15                     # 颗粒/各层的明暗对比倍数
 BG_COLOR = (0.84, 0.85, 0.95)       # 背景色（参考原图的浅蓝紫）
 REFLECT_ENV = 1.0                   # 反射环境亮度：越大，金属和高光越亮
-SPE_ALPHA = 0.10                    # 电解质不透明度（越小越透明）
+SPE_ALPHA = 0.16                    # 电解质不透明度（越小越透明）
 LI_LOWER = 40                       # 纤维骨架下方的 Li+ 数量（大部分放在背光的右后方）                    # SEI 起伏幅度
 COLORS = {                          # 参考原图：整体低饱和、明暗接近 (R,G,B，sRGB)
     "anode":     (0.80, 0.80, 0.90),   # 锂金属：浅灰紫
@@ -300,7 +300,8 @@ def sei_top(x, y):
 
 
 CUR = "sei"
-slab("SEI", lambda x, y: LAYERS["sei"][0], sei_top, M["sei"], nx=180, ny=100, smooth=True)
+slab("SEI", lambda x, y: max(LAYERS["sei"][0], sei_top(x, y) - 0.03), sei_top, M["sei"], nx=180, ny=100,
+     smooth=True)                     # 底面跟着顶面走：整层只有约 0.03 厚
 spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
                          [(random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
                           for _ in range(90)]], (0.06, 0.09), M["sei_part"])
