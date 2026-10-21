@@ -26,3 +26,11 @@
 - 新结果写到新文件夹 `output/云端_<日期>_<任务名>/`，不覆盖已有文件。
 - 遇到要用户拍板的地方（选主问题、定口径、改方案）停下来提问，不要自己定。
 - 全文文本受版权保护，会话不要设为公开分享。
+
+## Blender 画图（云端）
+用户不会命令行，只在网页上用中文说要什么图、怎么改；所有命令由 Claude 自己跑，出了问题自己排查，不让用户动手。
+- 第一次用：`bash blender/setup.sh`（装 Blender 的 Python 版 bpy），再跑 `blender/.venv/bin/python blender/test_render.py`，自己打开 `blender/out/test.png` 看一眼确认能出图。
+- 每张图一个脚本 `blender/scenes/<图名>.py`，场景全部由代码生成；尺寸、颜色、位置、标注等参数写在脚本开头，方便按用户的话改。
+- 云端没有显卡，只用 Cycles CPU 渲染。改稿时用小尺寸、低采样（约 800 px、32 采样）快速出草图，自己先看图检查再给用户；用户说定稿再出高分辨率。
+- 输出 `blender/out/<图名>.png` 和同名 `.blend`（用户之后可在本机 Blender 里打开继续调），单个文件不超过 100 MB。
+- 每出一版就推送到 main，并把图片链接发给用户：https://github.com/zhuonanli08/Li-S_Knowledge_flow/blob/main/blender/out/<图名>.png （用户在浏览器点开就能看），同时用一两句话说明这一版改了什么。

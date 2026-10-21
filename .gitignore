@@ -28,3 +28,6 @@ output/cited_meta*.json.gz
 
 # 不适用的旧方案/旧结果（本机保留）
 不适用/
+
+# Blender 云端环境
+blender/.venv/
