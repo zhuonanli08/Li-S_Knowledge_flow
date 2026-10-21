@@ -32,12 +32,12 @@ SAT_BOOST = 1.35                    # 颗粒/各层的饱和度倍数
 CONTRAST = 1.15                     # 颗粒/各层的明暗对比倍数
 BG_COLOR = (0.84, 0.85, 0.95)       # 背景色（参考原图的浅蓝紫）
 REFLECT_ENV = 1.0                   # 反射环境亮度：越大，金属和高光越亮
-SPE_ALPHA = 0.18                    # 电解质不透明度（越小越透明）
+SPE_ALPHA = 0.13                    # 电解质不透明度（越小越透明）
 LI_LOWER = 40                       # 纤维骨架下方的 Li+ 数量（大部分放在背光的右后方）                    # SEI 起伏幅度
 COLORS = {                          # 参考原图：整体低饱和、明暗接近 (R,G,B，sRGB)
     "anode":     (0.80, 0.80, 0.90),   # 锂金属：浅灰紫
     "sei":       (0.33, 0.64, 0.66),   # SEI：灰青绿
-    "spe":       (0.62, 0.82, 0.96),   # 电解质：浅蓝半透明
+    "spe":       (0.72, 0.87, 0.98),   # 电解质：浅蓝半透明
     "fiber":     (0.92, 0.84, 0.66),   # 纤维骨架：奶油色
     "sulfur":    (0.82, 0.68, 0.26),   # 硫：哑光金黄
     "carbon":    (0.27, 0.29, 0.34),   # 碳：石板灰
@@ -291,7 +291,6 @@ T["text"] = emit_mat("text_txt", COLORS["text"])
 
 # ---------- 负极 + 起伏的 SEI ----------
 CUR = "anode"
-slab("Li_anode", lambda x, y: LAYERS["anode"][0], lambda x, y: LAYERS["anode"][1], M["anode"])
 bumps = [(random.uniform(-W / 2, W / 2), random.uniform(-D / 2, D / 2), random.uniform(0.35, 0.8),
           random.choice([1, 1, -1]) * random.uniform(0.6, 1.0)) for _ in range(45)]
 
@@ -303,6 +302,9 @@ def sei_top(x, y):
     return h
 
 
+CUR = "anode"                        # 负极顶面跟着 SEI 底面起伏，两者处处贴合
+slab("Li_anode", lambda x, y: LAYERS["anode"][0], lambda x, y: sei_top(x, y) - 0.03, M["anode"], nx=180, ny=100,
+     smooth=True)
 CUR = "sei"
 slab("SEI", lambda x, y: sei_top(x, y) - 0.03, sei_top, M["sei"], nx=180, ny=100,
      smooth=True)                     # 底面跟着顶面走：整层只有约 0.03 厚
@@ -390,7 +392,7 @@ for ix in range(int(W / step)):
         for iz in range(4):             # 颗粒层数
             p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.05, 0.05),
                  -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
-                 c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
+                 LAYERS["collector"][0] - 0.14 - (3 - iz) * 0.24 + random.uniform(-0.02, 0.0))   # 最上层顶到集流体底面
             m_ = 0.17                   # 颗粒不超出集流体边缘（最大半径 0.15 + 余量）
             p = (min(max(p[0], -W / 2 + m_), W / 2 - m_), min(max(p[1], -D / 2 + m_), D / 2 - m_), p[2])
             ratio = S_RATIO_BOTTOM if iz == 0 else S_RATIO
