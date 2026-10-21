@@ -16,12 +16,12 @@ SAMPLES = 256 if FINAL else (16 if os.environ.get("LIS_QUICK") else 48)
 SEED = 7
 
 W, D = 11.0, 5.0                     # 电池片长、宽
-FAN_POW = 1.0                       # 收拢曲线：1 = 直线收拢，看起来最像三角形
-OPEN = float(os.environ.get("LIS_OPEN", -0.30))                         # 负值 = 从左到右，正极(含集流体)往下压、负极(含SEI)往上压，向中间收拢成三角形
+FAN_POW = 1.3                       # 从左到右张开的曲线：1 = 直线，越大越晚张开
+OPEN = float(os.environ.get("LIS_OPEN", 0.85))                         # 右前角张开的幅度：正极侧往上、负极侧往下
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
-    "anode":     (-0.85, -0.45),
-    "sei":       (-0.45, 0.05),      # SEI 顶面另加起伏
+    "anode":     (-0.45, -0.05),
+    "sei":       (-0.05, 0.45),      # SEI 顶面另加起伏
     "spe":       (0.40, 3.40),      # 张开后上下表面分别贴合正极和 SEI      # 聚合物电解质块
     "mat":       (1.20, 1.95),      # 其中的纤维骨架
     "cathode":   (3.47, 4.45),      # 硫/碳颗粒层
@@ -78,17 +78,20 @@ CUR = None                           # 当前正在搭的层，决定张开时�
 GROUP = {"sei": "anode", "collector": "cathode", "mat": "spe"}   # 这些层跟着所贴合的层一起移动
 
 
-def bend(x, layer=None):             # 该层在 x 处的上下位移：左端 0，向右二次增大
+def bend(x, layer=None, y=-D / 2):   # 该层在 (x, y) 处的上下位移
+    """左边那条边不动；右边那条边只有前面的点移动（正极侧往上、负极侧往下），后面的点与左边齐平。
+    所以位移 = 左→右系数 × 后→前系数，露出的截面在右前角呈三角形。"""
     layer = layer or CUR
     if layer is None:
         return 0.0
     layer = GROUP.get(layer, layer)
-    t = max(0.0, (x + W / 2) / W)
-    return OPEN * t ** FAN_POW * (sum(LAYERS[layer]) / 2 - MID)
+    t = max(0.0, (x + W / 2) / W)                    # 左 0 → 右 1
+    f = min(1.0, max(0.0, (D / 2 - y) / D))          # 后 0 → 前 1
+    return OPEN * t ** FAN_POW * f * (sum(LAYERS[layer]) / 2 - MID)
 
 
 def B(p):                            # 把左端坐标映射到张开后
-    return Vector((p[0], p[1], p[2] + bend(p[0])))
+    return Vector((p[0], p[1], p[2] + bend(p[0], y=p[1])))
 
 
 def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0):
@@ -267,8 +270,8 @@ spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
 # ---------- 聚合物电解质块 + 纤维骨架 ----------
 CUR = "spe"
 CUR = None                           # 电解质块直接用最终高度：底面贴 SEI 顶面，顶面贴正极底面
-slab("SPE", lambda x, y: sei_top(x, y) + bend(x, "sei") + 0.005,
-     lambda x, y: LAYERS["cathode"][0] + bend(x, "cathode"), M["spe"], nx=120, ny=60)
+slab("SPE", lambda x, y: sei_top(x, y) + bend(x, "sei", y) + 0.005,
+     lambda x, y: LAYERS["cathode"][0] + bend(x, "cathode", y), M["spe"], nx=120, ny=60)
 CUR = "spe"
 m0, m1 = LAYERS["mat"]
 for k in range(280):
@@ -291,9 +294,9 @@ li_pts = []
 for k in range(140):
     x, y = rand_xy()
     if k % 2:
-        li_pts.append((x, y, random.uniform(sei_top(x, y) + bend(x, "sei") + 0.12, m0 - 0.1)))
+        li_pts.append((x, y, random.uniform(sei_top(x, y) + bend(x, "sei", y) + 0.12, m0 - 0.1)))
     else:
-        li_pts.append((x, y, random.uniform(m1 + 0.1, LAYERS["cathode"][0] + bend(x, "cathode") - 0.1)))
+        li_pts.append((x, y, random.uniform(m1 + 0.1, LAYERS["cathode"][0] + bend(x, "cathode", y) - 0.1)))
 # 分子、箭头和文字所在的前方区域留空，避免遮挡
 li_pts = [p for p in li_pts if not (-4.0 < p[0] < 3.6 and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
           and not (-4.0 < p[0] < 2.0 and p[2] > m1 + 0.75)]          # 文字后方整条带
