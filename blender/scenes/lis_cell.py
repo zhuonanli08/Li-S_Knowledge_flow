@@ -30,6 +30,8 @@ SEI_ROUGH = 0.13
 VIEW_ROT = 10                       # 视角绕竖直轴转的角度（度），正值 = 相机往右转、露出更多右侧截面
 SAT_BOOST = 1.35                    # 颗粒/各层的饱和度倍数
 CONTRAST = 1.15                     # 颗粒/各层的明暗对比倍数
+BG_COLOR = (0.84, 0.85, 0.95)       # 背景色（参考原图的浅蓝紫）
+REFLECT_ENV = 1.0                   # 反射环境亮度：越大，金属和高光越亮
 SPE_ALPHA = 0.10                    # 电解质不透明度（越小越透明）
 LI_LOWER = 40                       # 纤维骨架下方的 Li+ 数量（大部分放在背光的右后方）                    # SEI 起伏幅度
 COLORS = {                          # 参考原图：整体低饱和、明暗接近 (R,G,B，sRGB)
@@ -117,7 +119,7 @@ def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0, glow=0.0):
     return m
 
 
-SEI_DARK = (0.10, 0.12, 0.14)       # SEI 背光处：灰黑
+SEI_DARK = (0.45, 0.48, 0.50)       # SEI 背光处：灰
 SEI_LIGHT = (0.10, 0.72, 0.70)      # SEI 迎光处：蓝绿
 SEI_ALPHA = 0.78                    # SEI 顶部的不透明度（底部为 1，往上渐变到这个值）
 
@@ -128,7 +130,7 @@ def sei_mat():
     m.use_nodes = True
     nt = m.node_tree
     p = nt.nodes["Principled BSDF"]
-    p.inputs["Roughness"].default_value = 0.12
+    p.inputs["Roughness"].default_value = 0.06
     p.inputs["Coat Weight"].default_value = 1.0
     p.inputs["Alpha"].default_value = SEI_ALPHA
     geo = nt.nodes.new("ShaderNodeNewGeometry")
@@ -142,15 +144,17 @@ def sei_mat():
     ramp.color_ramp.elements[1].color = (*lin(SEI_LIGHT), 1)
     nt.links.new(geo.outputs["Normal"], dot.inputs[0])
     nt.links.new(dot.outputs["Value"], ramp.inputs["Fac"])
-    # 上下渐变：与负极接触的底部为白色、不透明；往上过渡到蓝绿色并逐渐透明
+    # 上下渐变：与负极接触的底部为蓝绿、不透明；往上按受光过渡（背光处灰），并逐渐透明
     attr = nt.nodes.new("ShaderNodeAttribute")
     attr.attribute_name = "hfrac"
     mixc = nt.nodes.new("ShaderNodeMix")
     mixc.data_type = "RGBA"
-    mixc.inputs["A"].default_value = (1, 1, 1, 1)
+    mixc.inputs["A"].default_value = (*lin(SEI_LIGHT), 1)   # 与负极接触的底部：蓝绿
     nt.links.new(attr.outputs["Fac"], mixc.inputs["Factor"])
     nt.links.new(ramp.outputs["Color"], mixc.inputs["B"])
     nt.links.new(mixc.outputs["Result"], p.inputs["Base Color"])
+    nt.links.new(mixc.outputs["Result"], p.inputs["Emission Color"])   # 微弱自发光，整体更亮
+    p.inputs["Emission Strength"].default_value = 0.06
     mra = nt.nodes.new("ShaderNodeMapRange")
     mra.inputs["To Min"].default_value = 1.0
     mra.inputs["To Max"].default_value = SEI_ALPHA
@@ -259,19 +263,20 @@ def arc_arrow(name, p0, p1, height, m, radius=0.075):
 
 
 # ---------- 材质 ----------
+SHINY = dict(rough=0.15, metal=0.3, coat=1.0)   # 各类原子统一：光滑 + 清漆 + 少量金属感
 M = {
-    "anode": mat("anode", (0.94, 0.95, 0.98), rough=0.12, metal=0.7, coat=1.0, glow=0.08),  # 锂金属：亮白、高光
+    "anode": mat("anode", (0.95, 0.96, 1.00), rough=0.05, metal=1.0, coat=1.0),  # 锂金属：亮白金属、强高光
     "sei": sei_mat(),
     "spe": mat("spe", COLORS["spe"], alpha=SPE_ALPHA, rough=0.05, coat=1.0),
     "fiber": mat("fiber", COLORS["fiber"], rough=0.25, coat=0.7),        # 带光泽
-    "sulfur": mat("sulfur", COLORS["sulfur"], rough=0.3, coat=0.6),
-    "carbon": mat("carbon", COLORS["carbon"], rough=0.25, coat=0.6),
+    "sulfur": mat("sulfur", COLORS["sulfur"], **SHINY),
+    "carbon": mat("carbon", COLORS["carbon"], **SHINY),
     "collector": mat("collector", COLORS["collector"], rough=0.3, metal=0.8),
-    "li_ion": mat("li_ion", COLORS["li_ion"], rough=0.2, coat=0.8),
-    "sei_part": mat("sei_part", COLORS["sei_part"], rough=0.15, metal=0.5),
-    "atom_c": mat("atom_c", COLORS["atom_c"], rough=0.3, coat=0.5),
-    "atom_n": mat("atom_n", COLORS["atom_n"], rough=0.3, coat=0.5),
-    "atom_o": mat("atom_o", COLORS["atom_o"], rough=0.3, coat=0.5),
+    "li_ion": mat("li_ion", COLORS["li_ion"], **SHINY),
+    "sei_part": mat("sei_part", COLORS["sei_part"], **SHINY),
+    "atom_c": mat("atom_c", COLORS["atom_c"], **SHINY),
+    "atom_n": mat("atom_n", COLORS["atom_n"], **SHINY),
+    "atom_o": mat("atom_o", COLORS["atom_o"], **SHINY),
     "bond": mat("bond", (0.70, 0.70, 0.72), rough=0.4),
     "charge": mat("charge", COLORS["charge"], rough=0.4),
     "discharge": mat("discharge", COLORS["discharge"], rough=0.4),
@@ -415,12 +420,43 @@ nt.nodes["Background"].inputs["Color"].default_value = (1, 1, 1, 1)
 nt.nodes["Background"].inputs["Strength"].default_value = 0.45
 lp = nt.nodes.new("ShaderNodeLightPath")   # 相机看到的背景为纯白，照明只用 0.35
 white = nt.nodes.new("ShaderNodeBackground")
-white.inputs["Color"].default_value = (1, 1, 1, 1)
+white.inputs["Color"].default_value = (*lin(BG_COLOR), 1)   # 相机直接看到的背景：浅蓝紫
 mix = nt.nodes.new("ShaderNodeMixShader")
 nt.links.new(lp.outputs["Is Camera Ray"], mix.inputs[0])
 nt.links.new(nt.nodes["Background"].outputs[0], mix.inputs[1])
 nt.links.new(white.outputs[0], mix.inputs[2])
-nt.links.new(mix.outputs[0], nt.nodes["World Output"].inputs[0])
+# 反射里看到的环境更亮（只影响高光/金属反射，不改照明和背景）
+glossy_bg = nt.nodes.new("ShaderNodeBackground")      # 白色镀铬式反射环境：整体亮白，地平线处一条细暗带，产生亮暗条纹
+glossy_bg.inputs["Strength"].default_value = REFLECT_ENV
+tc = nt.nodes.new("ShaderNodeTexCoord")
+sep = nt.nodes.new("ShaderNodeSeparateXYZ")
+mrz = nt.nodes.new("ShaderNodeMapRange")
+mrz.inputs["From Min"].default_value = -1.0
+env_ramp = nt.nodes.new("ShaderNodeValToRGB")
+cr = env_ramp.color_ramp
+cr.elements[0].position, cr.elements[0].color = 0.0, (0.55, 0.56, 0.60, 1)
+cr.elements[1].position, cr.elements[1].color = 1.0, (0.70, 0.71, 0.74, 1)
+for pos, c in [(0.22, (0.30, 0.31, 0.35)), (0.33, (1.8, 1.8, 1.85)), (0.37, (0.45, 0.46, 0.50)),
+               (0.42, (1.6, 1.6, 1.65)), (0.475, (0.15, 0.15, 0.17)), (0.50, (1.8, 1.8, 1.8)),
+               (0.62, (1.2, 1.2, 1.25)), (0.80, (0.45, 0.46, 0.50))]:
+    e = cr.elements.new(pos)
+    e.color = (*c, 1)
+nt.links.new(tc.outputs["Generated"], sep.inputs[0])
+nt.links.new(sep.outputs["Z"], mrz.inputs["Value"])
+nt.links.new(mrz.outputs["Result"], env_ramp.inputs["Fac"])
+nt.links.new(env_ramp.outputs["Color"], glossy_bg.inputs["Color"])
+mix2 = nt.nodes.new("ShaderNodeMixShader")
+nt.links.new(lp.outputs["Is Glossy Ray"], mix2.inputs[0])
+nt.links.new(mix.outputs[0], mix2.inputs[1])
+nt.links.new(glossy_bg.outputs[0], mix2.inputs[2])
+nt.links.new(mix2.outputs[0], nt.nodes["World Output"].inputs[0])
+
+# 负极专用条形灯：在负极前缘打出一条亮高光
+bpy.ops.object.light_add(type="AREA", location=(2.0, -9.0, -3.5))
+strip = bpy.context.object
+strip.data.shape, strip.data.size, strip.data.size_y = "RECTANGLE", 14, 0.6
+strip.data.energy = 900
+strip.rotation_euler = (Vector((1.0, -1.0, -0.6)) - strip.location).to_track_quat("-Z", "Y").to_euler()
 
 # ---------- 文字标注（Arial，正对相机） ----------
 font = next((bpy.data.fonts.load(f) for f in FONTS if os.path.exists(f)), None)
