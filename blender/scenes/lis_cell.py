@@ -12,7 +12,9 @@ RES = (3600, 2400) if FINAL else (1500, 1000)   # 草图 / 定稿 分辨率
 SAMPLES = 256 if FINAL else 48
 SEED = 7
 
-W, D = 9.0, 5.0                     # 电池片长、宽
+W, D = 8.0, 6.0                     # 电池片长（左右）、宽（前后）
+MX = 1.0                            # 骨架上的分子与充放电示意整体往右移多少
+S_RATIO = 0.25                      # 正极中硫颗粒的占比
 OPEN = 0.55                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
@@ -99,7 +101,7 @@ def B(p):                            # 把左端坐标映射到张开后
     return Vector((p[0], p[1], p[2] + bend(p[0])))
 
 
-def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0):
+def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0, glow=0.0):
     m = bpy.data.materials.new(name)
     m.use_nodes = True
     p = m.node_tree.nodes["Principled BSDF"]
@@ -108,6 +110,9 @@ def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0):
     p.inputs["Metallic"].default_value = metal
     p.inputs["Alpha"].default_value = alpha
     p.inputs["Coat Weight"].default_value = coat
+    if glow:                         # 微弱自发光：提亮暗部、减少阴影
+        p.inputs["Emission Color"].default_value = (*lin(vivid(rgb)), 1)
+        p.inputs["Emission Strength"].default_value = glow
     return m
 
 
@@ -210,9 +215,9 @@ def arc_arrow(name, p0, p1, height, m, radius=0.075):
 # ---------- 材质 ----------
 M = {
     "anode": mat("anode", COLORS["anode"], rough=0.3, metal=0.6),
-    "sei": mat("sei", COLORS["sei"], rough=0.35, coat=0.5),
+    "sei": mat("sei", COLORS["sei"], rough=0.12, coat=1.0, glow=0.25),   # 高光多、阴影少
     "spe": mat("spe", COLORS["spe"], alpha=SPE_ALPHA, rough=0.05, coat=1.0),
-    "fiber": mat("fiber", COLORS["fiber"], rough=0.55),
+    "fiber": mat("fiber", COLORS["fiber"], rough=0.25, coat=0.7),        # 带光泽
     "sulfur": mat("sulfur", COLORS["sulfur"], rough=0.3, coat=0.6),
     "carbon": mat("carbon", COLORS["carbon"], rough=0.25, coat=0.6),
     "collector": mat("collector", COLORS["collector"], rough=0.3, metal=0.8),
@@ -283,8 +288,8 @@ for k in range(LI_LOWER):            # 骨架下方：约 3/4 放在背光的右
         x, y = rand_xy()
     li_pts.append((x, y, random.uniform(sei_top(x, y) + bend(x, "sei") + 0.12, m0 - 0.1)))
 # 分子、箭头和文字所在的前方区域留空，避免遮挡
-li_pts = [p for p in li_pts if not (-4.0 < p[0] < 3.6 and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
-          and not (-4.0 < p[0] < 2.0 and p[2] > m1 + 0.75)]          # 文字后方整条带
+li_pts = [p for p in li_pts if not (-4.0 + MX < p[0] < 3.6 + MX and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
+          and not (-4.0 + MX < p[0] < 2.0 + MX and p[2] > m1 + 0.75)]          # 文字后方整条带
 spheres("Li", li_pts, (0.08, 0.09), M["li_ion"])
 CUR = "spe"
 
@@ -312,11 +317,11 @@ def molecule(cx, cz, rot):
 
 
 zm = m1 + 0.32
-for cx, rot in [(-2.9, 0.2), (-0.6, 0.6), (1.7, 0.1)]:
+for cx, rot in [(-2.9 + MX, 0.2), (-0.6 + MX, 0.6), (1.7 + MX, 0.1)]:
     molecule(cx, zm, rot)
 
-arc_arrow("charge", (-0.70, yf - 0.1, zm + 0.40), (-2.60, yf - 0.1, zm + 0.35), 0.38, M["charge"])
-arc_arrow("discharge", (0.50, yf - 0.1, zm + 0.40), (2.40, yf - 0.1, zm + 0.40), 0.38, M["discharge"])
+arc_arrow("charge", (-0.70 + MX, yf - 0.1, zm + 0.40), (-2.60 + MX, yf - 0.1, zm + 0.35), 0.38, M["charge"])
+arc_arrow("discharge", (0.50 + MX, yf - 0.1, zm + 0.40), (2.40 + MX, yf - 0.1, zm + 0.40), 0.38, M["discharge"])
 
 # ---------- 正极颗粒 + 集流体 ----------
 CUR = "cathode"
@@ -329,7 +334,7 @@ for ix in range(int(W / step)):
             p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.05, 0.05),
                  -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
                  c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
-            (s_pts if random.random() < 0.38 else c_pts).append(p)
+            (s_pts if random.random() < S_RATIO else c_pts).append(p)
 spheres("S", s_pts, (0.13, 0.15), M["sulfur"])     # 硫：大
 spheres("C", c_pts, (0.08, 0.10), M["carbon"])     # 碳：小
 CUR = "collector"
@@ -441,9 +446,9 @@ def near(p, du, dv):                 # 某个 3D 点在画面上偏移 (du, dv) 
     return scr(u + du, v + dv)
 
 
-text("Charge", near((-2.60, yf, zm + 0.35), -0.03, 0.0), size=HS * 1.1, color=T["charge"], align="RIGHT")
-text("Discharge", near((2.40, yf, zm + 0.40), 0.04, 0.05), size=HS * 1.1, color=T["discharge"], align="LEFT")
-text("Accelerated dynamics", near((-0.1, yf, zm + 0.80), 0.0, 0.035), size=HS * 1.1, color=T["dynamics"],
+text("Charge", near((-2.60 + MX, yf, zm + 0.35), -0.03, 0.0), size=HS * 1.1, color=T["charge"], align="RIGHT")
+text("Discharge", near((2.40 + MX, yf, zm + 0.40), 0.04, 0.05), size=HS * 1.1, color=T["discharge"], align="LEFT")
+text("Accelerated dynamics", near((-0.1 + MX, yf, zm + 0.80), 0.0, 0.035), size=HS * 1.1, color=T["dynamics"],
      align="CENTER")
 text([("Li", ""), ("+", "sup")], near((-W / 2 + 0.3, -D / 2, s0 + 0.45), 0.0, 0.0), size=HS * 0.85)
 
