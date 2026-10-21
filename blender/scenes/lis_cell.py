@@ -23,24 +23,24 @@ LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张�
     "cathode":   (3.47, 4.45),      # 硫/碳颗粒层
     "collector": (4.48, 4.60),
 }
-SEI_ROUGH = 0.10                    # SEI 起伏幅度
-COLORS = {                          # 饱和度较高的论文配色 (R,G,B，sRGB)
-    "anode":     (0.80, 0.80, 0.90),   # 锂金属：浅银紫
-    "sei":       (0.05, 0.62, 0.62),   # SEI：青绿
-    "spe":       (0.60, 0.76, 0.96),   # 电解质：浅蓝半透明
-    "fiber":     (0.95, 0.80, 0.55),   # 纤维骨架：米黄
-    "sulfur":    (0.98, 0.80, 0.10),   # 硫：亮黄
-    "carbon":    (0.12, 0.13, 0.16),   # 碳：深灰
-    "collector": (0.12, 0.13, 0.16),   # 集流体：深灰
-    "li_ion":    (0.55, 0.30, 0.82),   # Li+：紫色小球
-    "sei_part":  (0.92, 0.93, 0.96),   # SEI 中的无机颗粒：银白
-    "atom_c":    (0.45, 0.47, 0.52),   # 分子：C 灰
-    "atom_n":    (0.15, 0.35, 0.90),   # N 蓝
-    "atom_o":    (0.90, 0.15, 0.15),   # O 红
-    "charge":    (0.88, 0.25, 0.10),   # Charge 箭头：橙红
-    "discharge": (0.10, 0.40, 0.85),   # Discharge 箭头：蓝
-    "dynamics":  (0.15, 0.60, 0.20),   # Accelerated dynamics：绿
-    "text":      (0.05, 0.05, 0.05),
+SEI_ROUGH = 0.20                    # SEI 起伏幅度
+COLORS = {                          # 参考原图：整体低饱和、明暗接近 (R,G,B，sRGB)
+    "anode":     (0.80, 0.80, 0.90),   # 锂金属：浅灰紫
+    "sei":       (0.33, 0.64, 0.66),   # SEI：灰青绿
+    "spe":       (0.74, 0.78, 0.93),   # 电解质：浅蓝紫半透明
+    "fiber":     (0.92, 0.84, 0.66),   # 纤维骨架：奶油色
+    "sulfur":    (0.82, 0.68, 0.26),   # 硫：哑光金黄
+    "carbon":    (0.27, 0.29, 0.34),   # 碳：石板灰
+    "collector": (0.20, 0.22, 0.28),   # 集流体：深蓝灰
+    "li_ion":    (0.52, 0.45, 0.72),   # Li+：灰紫
+    "sei_part":  (0.40, 0.38, 0.55),   # SEI 中的颗粒：暗紫灰（原图 SEI 里的深色颗粒）
+    "atom_c":    (0.55, 0.57, 0.62),   # 分子：C 灰
+    "atom_n":    (0.35, 0.50, 0.82),   # N 蓝
+    "atom_o":    (0.82, 0.38, 0.35),   # O 砖红
+    "charge":    (0.84, 0.42, 0.22),   # Charge：橙
+    "discharge": (0.30, 0.50, 0.80),   # Discharge：蓝
+    "dynamics":  (0.42, 0.63, 0.32),   # Accelerated dynamics：草绿
+    "text":      (0.15, 0.15, 0.18),
 }
 LABELS = [                          # 右侧引线标注：(文字, 指向的层, 文字相对层中心的上下偏移)
     ("Current collector", "collector", 0.55),
@@ -219,12 +219,12 @@ T = {k: emit_mat(k + "_txt", COLORS[k]) for k in ("text", "charge", "discharge",
 # ---------- 负极 + 起伏的 SEI ----------
 CUR = "anode"
 slab("Li_anode", lambda x, y: LAYERS["anode"][0], lambda x, y: LAYERS["anode"][1], M["anode"])
-bumps = [(random.uniform(-W / 2, W / 2), random.uniform(-D / 2, D / 2), random.uniform(0.25, 0.6),
+bumps = [(random.uniform(-W / 2, W / 2), random.uniform(-D / 2, D / 2), random.uniform(0.35, 0.8),
           random.choice([1, 1, -1]) * random.uniform(0.6, 1.0)) for _ in range(45)]
 
 
 def sei_top(x, y):
-    h = LAYERS["sei"][1] + 0.35 * SEI_ROUGH * noise.noise(Vector((x * 1.3, y * 1.3, 0.5)))
+    h = LAYERS["sei"][1] - 0.05 + 0.6 * SEI_ROUGH * noise.noise(Vector((x * 1.3, y * 1.3, 0.5)))
     for bx, by, r, s in bumps:       # 凸起 (+) / 凹陷 (−)
         h += SEI_ROUGH * s * math.exp(-((x - bx) ** 2 + (y - by) ** 2) / (r * r))
     return h
@@ -234,7 +234,7 @@ CUR = "sei"
 slab("SEI", lambda x, y: LAYERS["sei"][0], sei_top, M["sei"], nx=180, ny=100, smooth=True)
 spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
                          [(random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
-                          for _ in range(70)]], (0.045, 0.06), M["sei_part"])
+                          for _ in range(90)]], (0.06, 0.09), M["sei_part"])
 
 # ---------- 聚合物电解质块 + 纤维骨架 ----------
 CUR = "spe"
@@ -269,7 +269,7 @@ for k in range(140):
 # 分子、箭头和文字所在的前方区域留空，避免遮挡
 li_pts = [p for p in li_pts if not (-4.0 < p[0] < 3.6 and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
           and not (-4.0 < p[0] < 2.0 and p[2] > m1 + 0.75)]          # 文字后方整条带
-spheres("Li", li_pts, (0.065, 0.075), M["li_ion"])
+spheres("Li", li_pts, (0.08, 0.09), M["li_ion"])
 CUR = "spe"
 
 # ---------- 骨架上的分子（球棍模型）与动力学箭头 ----------
@@ -287,12 +287,12 @@ def molecule(cx, cz, rot):
               (cx + 0.30, yf, cz + 0.45, "atom_o")]
     bonds = [(i, (i + 1) % 6) for i in range(6)] + [(6 + i, 6 + (i + 1) % 6) for i in range(6)] + [(0, 9)]
     for a, b in bonds:
-        tube("bond", [atoms[a], atoms[b]], 0.025, M["bond"])
+        tube("bond", [atoms[a], atoms[b]], 0.032, M["bond"])
     for hx, hy, hz, kind in hetero:   # 杂原子连到最近的环原子
         near = min(atoms, key=lambda p: (p[0] - hx) ** 2 + (p[2] - hz) ** 2)
-        tube("bond", [near, (hx, hy, hz)], 0.025, M["bond"])
-        spheres("hetero", [(hx, hy, hz)], 0.085, M[kind])
-    spheres("atom", atoms, 0.055, M["atom_c"])
+        tube("bond", [near, (hx, hy, hz)], 0.032, M["bond"])
+        spheres("hetero", [(hx, hy, hz)], 0.11, M[kind])
+    spheres("atom", atoms, 0.075, M["atom_c"])
 
 
 zm = m1 + 0.32
@@ -313,7 +313,7 @@ for ix in range(int(W / step)):
             p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.05, 0.05),
                  -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
                  c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
-            (s_pts if random.random() < 0.5 else c_pts).append(p)
+            (s_pts if random.random() < 0.38 else c_pts).append(p)
 spheres("S", s_pts, (0.13, 0.15), M["sulfur"])     # 硫：大
 spheres("C", c_pts, (0.08, 0.10), M["carbon"])     # 碳：小
 CUR = "collector"
@@ -328,7 +328,7 @@ cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
 cam.data.lens = 33
 scene.camera = cam
 
-for loc, e, s in [((-6, -8, 10), 1500, 5), ((9, -6, 6), 600, 4), ((2, 8, 8), 900, 6)]:
+for loc, e, s in [((-6, -8, 10), 1100, 8), ((9, -6, 6), 600, 6), ((2, 8, 8), 700, 8)]:   # 柔和一些
     bpy.ops.object.light_add(type="AREA", location=loc)
     l = bpy.context.object
     l.data.energy, l.data.size = e, s
@@ -339,7 +339,7 @@ scene.world = world
 world.use_nodes = True
 nt = world.node_tree
 nt.nodes["Background"].inputs["Color"].default_value = (1, 1, 1, 1)
-nt.nodes["Background"].inputs["Strength"].default_value = 0.35
+nt.nodes["Background"].inputs["Strength"].default_value = 0.55
 lp = nt.nodes.new("ShaderNodeLightPath")   # 相机看到的背景为纯白，照明只用 0.35
 white = nt.nodes.new("ShaderNodeBackground")
 white.inputs["Color"].default_value = (1, 1, 1, 1)
@@ -404,9 +404,9 @@ text([("Li", ""), ("+", "sup")], B((-3.9, front, s0 + 0.45)), size=0.28)
 
 # ---------- 图例（底部一行，正对相机） ----------
 CUR = None
-LEGEND = [("S", "sulfur", 0.14), ("C", "carbon", 0.09), ([("Li", ""), ("+", "sup")], "li_ion", 0.07),
-          ("SEI particle", "sei_part", 0.06), ("Polymer C", "atom_c", 0.055), ("N", "atom_n", 0.085),
-          ("O", "atom_o", 0.085)]
+LEGEND = [("S", "sulfur", 0.14), ("C", "carbon", 0.09), ([("Li", ""), ("+", "sup")], "li_ion", 0.085),
+          ("SEI particle", "sei_part", 0.075), ("Polymer C", "atom_c", 0.075), ("N", "atom_n", 0.11),
+          ("O", "atom_o", 0.11)]
 GAPS = [0.9, 0.9, 1.0, 1.9, 1.8, 0.8, 0.8]          # 每项占的宽度
 R = cam_rot.to_matrix()
 origin = Vector((-W / 2 - 0.3, -D / 2 - 1.5, LAYERS["anode"][0] - 1.9))
