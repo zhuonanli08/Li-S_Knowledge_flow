@@ -2,7 +2,7 @@
 # 运行：blender/.venv/bin/python blender/scenes/lis_cell.py [--final]
 # 从下到上（各层之间留缝）：锂金属负极 → 起伏的 SEI → 聚合物电解质块（中间纤维骨架，上下有 Li+ 颗粒，
 # 骨架上有分子与 Charge/Discharge 箭头）→ 硫/碳颗粒正极 → 集流体；整片向右上弯曲
-import os, sys, math, random
+import os, sys, math, random, colorsys
 import bpy, bmesh
 from mathutils import Vector, noise
 
@@ -23,7 +23,12 @@ LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张�
     "cathode":   (3.47, 4.45),      # 硫/碳颗粒层
     "collector": (4.48, 4.60),
 }
-SEI_ROUGH = 0.20                    # SEI 起伏幅度
+SEI_ROUGH = 0.20
+VIEW_ROT = 30                       # 视角绕竖直轴转的角度（度），正值 = 相机往右转、露出更多右侧截面
+SAT_BOOST = 1.35                    # 颗粒/各层的饱和度倍数
+CONTRAST = 1.15                     # 颗粒/各层的明暗对比倍数
+SPE_ALPHA = 0.10                    # 电解质不透明度（越小越透明）
+LI_LOWER = 40                       # 纤维骨架下方的 Li+ 数量（大部分放在背光的右后方）                    # SEI 起伏幅度
 COLORS = {                          # 参考原图：整体低饱和、明暗接近 (R,G,B，sRGB)
     "anode":     (0.80, 0.80, 0.90),   # 锂金属：浅灰紫
     "sei":       (0.33, 0.64, 0.66),   # SEI：灰青绿
@@ -68,6 +73,13 @@ def lin(rgb):                        # sRGB → 线性，让渲染出的颜色�
     return [c ** 2.2 for c in rgb]
 
 
+def vivid(rgb):                      # 提高饱和度与对比度（亮的更亮、暗的更暗）
+    h, l, sat = colorsys.rgb_to_hls(*rgb)
+    sat = min(1.0, sat * SAT_BOOST)
+    l = min(1.0, max(0.0, 0.5 + (l - 0.5) * CONTRAST))
+    return colorsys.hls_to_rgb(h, l, sat)
+
+
 CUR = None                           # 当前正在搭的层，决定张开时往上还是往下移
 
 
@@ -91,7 +103,7 @@ def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0):
     m = bpy.data.materials.new(name)
     m.use_nodes = True
     p = m.node_tree.nodes["Principled BSDF"]
-    p.inputs["Base Color"].default_value = (*lin(rgb), 1)
+    p.inputs["Base Color"].default_value = (*lin(vivid(rgb)), 1)
     p.inputs["Roughness"].default_value = rough
     p.inputs["Metallic"].default_value = metal
     p.inputs["Alpha"].default_value = alpha
@@ -199,7 +211,7 @@ def arc_arrow(name, p0, p1, height, m, radius=0.075):
 M = {
     "anode": mat("anode", COLORS["anode"], rough=0.3, metal=0.6),
     "sei": mat("sei", COLORS["sei"], rough=0.35, coat=0.5),
-    "spe": mat("spe", COLORS["spe"], alpha=0.22, rough=0.05, coat=1.0),
+    "spe": mat("spe", COLORS["spe"], alpha=SPE_ALPHA, rough=0.05, coat=1.0),
     "fiber": mat("fiber", COLORS["fiber"], rough=0.55),
     "sulfur": mat("sulfur", COLORS["sulfur"], rough=0.3, coat=0.6),
     "carbon": mat("carbon", COLORS["carbon"], rough=0.25, coat=0.6),
@@ -214,7 +226,8 @@ M = {
     "discharge": mat("discharge", COLORS["discharge"], rough=0.4),
     "lead": emit_mat("lead", COLORS["text"]),
 }
-T = {k: emit_mat(k + "_txt", COLORS[k]) for k in ("text", "charge", "discharge", "dynamics")}
+T = {k: emit_mat(k + "_txt", [c * 0.8 for c in COLORS[k]]) for k in ("charge", "discharge", "dynamics")}  # 文字比箭头深一些，更清楚
+T["text"] = emit_mat("text_txt", COLORS["text"])
 
 # ---------- 负极 + 起伏的 SEI ----------
 CUR = "anode"
@@ -260,12 +273,15 @@ s0, s1 = LAYERS["spe"]
 rand_xy = lambda: (random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
 CUR = None                           # Li+ 填满张开后的电解质（用最终高度）
 li_pts = []
-for k in range(140):
+for k in range(70):                  # 骨架上方
     x, y = rand_xy()
-    if k % 2:
-        li_pts.append((x, y, random.uniform(sei_top(x, y) + bend(x, "sei") + 0.12, m0 - 0.1)))
+    li_pts.append((x, y, random.uniform(m1 + 0.1, LAYERS["cathode"][0] + bend(x, "cathode") - 0.1)))
+for k in range(LI_LOWER):            # 骨架下方：约 3/4 放在背光的右后方（阴影面）
+    if random.random() < 0.75:
+        x, y = random.uniform(0.0, W / 2 - 0.2), random.uniform(-0.3, D / 2 - 0.2)
     else:
-        li_pts.append((x, y, random.uniform(m1 + 0.1, LAYERS["cathode"][0] + bend(x, "cathode") - 0.1)))
+        x, y = rand_xy()
+    li_pts.append((x, y, random.uniform(sei_top(x, y) + bend(x, "sei") + 0.12, m0 - 0.1)))
 # 分子、箭头和文字所在的前方区域留空，避免遮挡
 li_pts = [p for p in li_pts if not (-4.0 < p[0] < 3.6 and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
           and not (-4.0 < p[0] < 2.0 and p[2] > m1 + 0.75)]          # 文字后方整条带
@@ -321,14 +337,17 @@ slab("Collector", lambda x, y: LAYERS["collector"][0], lambda x, y: LAYERS["coll
      nx=60, ny=10)
 
 # ---------- 相机、灯光、世界 ----------
-target = Vector((1.1, 0, 1.6))
-bpy.ops.object.camera_add(location=(8.0, -15.0, 5.2))
+target = Vector((1.1, 0, 1.4))
+a = math.radians(VIEW_ROT)           # 绕目标点的竖直轴旋转相机
+v = Vector((8.0, -15.0, 5.2)) - target
+bpy.ops.object.camera_add(location=target + Vector((v.x * math.cos(a) - v.y * math.sin(a),
+                                                    v.x * math.sin(a) + v.y * math.cos(a), v.z)))
 cam = bpy.context.object
 cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
-cam.data.lens = 33
+cam.data.lens = 30
 scene.camera = cam
 
-for loc, e, s in [((-6, -8, 10), 1100, 8), ((9, -6, 6), 600, 6), ((2, 8, 8), 700, 8)]:   # 柔和一些
+for loc, e, s in [((-6, -8, 10), 1400, 6), ((9, -6, 6), 450, 6), ((2, 8, 8), 900, 6)]:   # 主光略强、补光略弱 → 对比更强
     bpy.ops.object.light_add(type="AREA", location=loc)
     l = bpy.context.object
     l.data.energy, l.data.size = e, s
@@ -339,7 +358,7 @@ scene.world = world
 world.use_nodes = True
 nt = world.node_tree
 nt.nodes["Background"].inputs["Color"].default_value = (1, 1, 1, 1)
-nt.nodes["Background"].inputs["Strength"].default_value = 0.55
+nt.nodes["Background"].inputs["Strength"].default_value = 0.45
 lp = nt.nodes.new("ShaderNodeLightPath")   # 相机看到的背景为纯白，照明只用 0.35
 white = nt.nodes.new("ShaderNodeBackground")
 white.inputs["Color"].default_value = (1, 1, 1, 1)
@@ -386,21 +405,47 @@ def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None, pull=1.0):
         o.location = Vector(loc) + R @ Vector((ox + shift, dy, 0))
 
 
-xr = W / 2                           # 右侧引线标注
+R = cam_rot.to_matrix()
+HUD = 6.0                           # 标注/图例放在离相机 HUD 远的平面上（在电池前面，不会被挡）
+TAN = 18.0 / cam.data.lens           # 画面半宽对应的 tan 值（36 mm 传感器）
+
+
+def scr(u, v):                       # 画面坐标 → 世界坐标：u 左-1 右+1，v 下 -1/1.5 上 +1/1.5
+    return cam.location + R @ Vector((u * TAN * HUD, v * TAN * HUD, -HUD))
+
+
+def to_uv(p):                        # 世界坐标 → 画面坐标
+    c = R.transposed() @ (Vector(p) - cam.location)
+    return c.x / (-c.z) / TAN, c.y / (-c.z) / TAN
+
+
+K = HUD / 12.0                       # 画面平面上的尺寸系数
+LABEL_U = 0.62                       # 右侧标注列在画面中的横向位置
+xr = W / 2                           # 右侧引线标注：从右前角各层引出
 for s, layer, dz in LABELS:
     CUR = "spe" if layer == "mat" else layer
     zl = sum(LAYERS[layer]) / 2
     anchor = B((xr - 0.02, -D / 2 + 0.02, zl))
-    end = anchor + Vector((1.5, 0, dz))
-    tube("lead_" + layer, [anchor, anchor + Vector((0.75, 0, dz * 0.8)), end], 0.012, M["lead"], bent=False)
-    text(s, end + Vector((0.12, 0, 0)))
+    u, v = to_uv(anchor)
+    end = scr(LABEL_U, v + dz * 0.06)
+    tube("lead_" + layer, [anchor, end], 0.006 * K, M["lead"], bent=False)
+    text(s, end + R @ Vector((0.06 * K, 0, 0)), size=TEXT_SIZE * 0.62 * K)
 
 CUR = "spe"
 front = -D / 2 - 0.1                 # 图中文字放在电解质块前面
-text("Charge", B((-3.0, front, zm + 0.30)), color=T["charge"], align="RIGHT", pull=0.6)
-text("Discharge", B((2.6, front, zm + 0.75)), color=T["discharge"], align="LEFT", pull=0.6)
-text("Accelerated dynamics", B((-0.3, front, zm + 1.12)), color=T["dynamics"], align="CENTER", pull=0.6)
-text([("Li", ""), ("+", "sup")], B((-3.9, front, s0 + 0.45)), size=0.28)
+HS = TEXT_SIZE * 0.62 * K                # 画面平面上的字号
+
+
+def near(p, du, dv):                 # 某个 3D 点在画面上偏移 (du, dv) 处
+    u, v = to_uv(B(p))
+    return scr(u + du, v + dv)
+
+
+text("Charge", near((-2.60, yf, zm + 0.35), -0.03, 0.0), size=HS * 1.1, color=T["charge"], align="RIGHT")
+text("Discharge", near((2.40, yf, zm + 0.40), 0.04, 0.05), size=HS * 1.1, color=T["discharge"], align="LEFT")
+text("Accelerated dynamics", near((-0.1, yf, zm + 0.80), 0.0, 0.035), size=HS * 1.1, color=T["dynamics"],
+     align="CENTER")
+text([("Li", ""), ("+", "sup")], near((-W / 2 + 0.3, -D / 2, s0 + 0.45), 0.0, 0.0), size=HS * 0.85)
 
 # ---------- 图例（底部一行，正对相机） ----------
 CUR = None
@@ -408,18 +453,16 @@ LEGEND = [("S", "sulfur", 0.14), ("C", "carbon", 0.09), ([("Li", ""), ("+", "sup
           ("SEI particle", "sei_part", 0.075), ("Polymer C", "atom_c", 0.075), ("N", "atom_n", 0.11),
           ("O", "atom_o", 0.11)]
 GAPS = [0.9, 0.9, 1.0, 1.9, 1.8, 0.8, 0.8]          # 每项占的宽度
-R = cam_rot.to_matrix()
-origin = Vector((-W / 2 - 0.3, -D / 2 - 1.5, LAYERS["anode"][0] - 1.9))
 dx = 0.0
 for (name, key, r), g in zip(LEGEND, GAPS):
-    pos = origin + R @ Vector((dx, 0, 0))
+    pos = scr(-0.92, -0.58) + R @ Vector((dx * 0.62 * K, 0, 0))
     o = bpy.data.objects.new("legend", _sphere_mesh.get(M[key].name) or _sphere_mesh[M["li_ion"].name])
     if M[key].name not in _sphere_mesh:
         spheres("legend_tmp", [(0, 0, -50)], 0.01, M[key])
         o.data = _sphere_mesh[M[key].name]
-    o.location, o.scale = pos, [r * 1.4] * 3
+    o.location, o.scale = pos, [r * 0.9 * K] * 3
     scene.collection.objects.link(o)
-    text(name, pos + R @ Vector((0.25, 0, 0)), size=0.24)
+    text(name, pos + R @ Vector((0.15 * K, 0, 0)), size=0.15 * K)
     dx += g
 
 # ---------- 渲染 ----------
