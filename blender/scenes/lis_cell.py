@@ -1,46 +1,53 @@
 # 固态锂硫电池结构示意图（参考用户给的示意图版式）
 # 运行：blender/.venv/bin/python blender/scenes/lis_cell.py [--final]
-# 从下到上：锂金属负极 → SEI → 聚合物电解质（含纤维骨架、Li+）→ 硫正极（S + 碳）→ 铝集流体
+# 从下到上（各层之间留缝）：锂金属负极 → 起伏的 SEI → 聚合物电解质块（中间纤维骨架，上下有 Li+ 颗粒，
+# 骨架上有分子与 Charge/Discharge 箭头）→ 硫/碳颗粒正极 → 集流体；整片向右上弯曲
 import os, sys, math, random
-import bpy
-from mathutils import Vector
+import bpy, bmesh
+from mathutils import Vector, noise
 
 # ================= 可调参数 =================
 FINAL = "--final" in sys.argv
-RES = (3000, 2000) if FINAL else (1200, 800)    # 草图 / 定稿 分辨率
-SAMPLES = 256 if FINAL else 32
+RES = (3600, 2400) if FINAL else (1500, 1000)   # 草图 / 定稿 分辨率
+SAMPLES = 256 if FINAL else 48
 SEED = 7
 
-W, D = 8.0, 5.0                     # 电池片长、宽
-LAYERS = {                          # 名称: (底 z, 顶 z)
-    "anode":     (0.00, 0.50),
-    "sei":       (0.50, 0.68),
-    "spe":       (0.68, 2.30),
-    "cathode":   (2.30, 3.10),
-    "collector": (3.10, 3.20),
+W, D = 9.0, 5.0                     # 电池片长、宽
+BEND = 1.3                          # 弯曲程度：右端比左端抬高多少
+LAYERS = {                          # 名称: (底 z, 顶 z)，未弯曲时的高度；层间留缝
+    "anode":     (-0.45, -0.05),
+    "sei":       (0.00, 0.22),      # SEI 顶面另加起伏
+    "spe":       (0.55, 3.35),      # 聚合物电解质块
+    "mat":       (1.45, 1.85),      # 其中的纤维骨架
+    "cathode":   (3.60, 4.10),      # 硫/碳颗粒层
+    "collector": (4.13, 4.25),
 }
-COLORS = {                          # 科研常用低饱和配色 (R,G,B)
-    "anode":     (0.72, 0.76, 0.80),   # 锂金属：银灰
-    "sei":       (0.22, 0.62, 0.60),   # SEI：青绿
-    "spe":       (0.66, 0.80, 0.90),   # 聚合物电解质：浅蓝半透明
-    "fiber":     (0.85, 0.75, 0.58),   # 纤维骨架：米色
-    "sulfur":    (0.93, 0.77, 0.25),   # 硫：黄
-    "carbon":    (0.17, 0.17, 0.19),   # 碳：深灰
-    "collector": (0.35, 0.37, 0.40),   # 集流体：深灰
-    "li_ion":    (0.48, 0.37, 0.66),   # Li+：紫
-    "arrow":     (0.80, 0.30, 0.12),   # 快速动力学箭头：橙红
-    "text":      (0.08, 0.08, 0.08),
+SEI_ROUGH = 0.10                    # SEI 起伏幅度
+COLORS = {                          # 饱和度较高的论文配色 (R,G,B，sRGB)
+    "anode":     (0.80, 0.80, 0.90),   # 锂金属：浅银紫
+    "sei":       (0.05, 0.62, 0.62),   # SEI：青绿
+    "spe":       (0.60, 0.76, 0.96),   # 电解质：浅蓝半透明
+    "fiber":     (0.95, 0.80, 0.55),   # 纤维骨架：米黄
+    "sulfur":    (0.98, 0.80, 0.10),   # 硫：亮黄
+    "carbon":    (0.12, 0.13, 0.16),   # 碳：深灰
+    "collector": (0.12, 0.13, 0.16),   # 集流体：深灰
+    "li_ion":    (0.22, 0.24, 0.30),   # Li+ 颗粒：深灰蓝（金属光泽）
+    "atom_c":    (0.45, 0.47, 0.52),   # 分子：C 灰
+    "atom_n":    (0.15, 0.35, 0.90),   # N 蓝
+    "atom_o":    (0.90, 0.15, 0.15),   # O 红
+    "charge":    (0.88, 0.25, 0.10),   # Charge 箭头：橙红
+    "discharge": (0.10, 0.40, 0.85),   # Discharge 箭头：蓝
+    "dynamics":  (0.15, 0.60, 0.20),   # Accelerated dynamics：绿
+    "text":      (0.05, 0.05, 0.05),
 }
-LABELS = [                          # (文字, 指向的层, 文字高度位置 z)
-    ("Al current collector", "collector", 4.1),
-    ("S/C composite cathode", "cathode", 3.3),
-    ("Polymer electrolyte", "spe", 2.0),
-    ("Fiber scaffold", "fiber", 1.25),
-    ("Stable SEI", "sei", 0.55),
-    ("Li metal anode", "anode", -0.2),
+LABELS = [                          # 右侧引线标注：(文字, 指向的层, 文字相对层中心的上下偏移)
+    ("Current collector", "collector", 0.55),
+    ("S/C cathode", "cathode", 0.05),
+    ("Polymer electrolyte", "spe", 0.50),
+    ("Fiber scaffold", "mat", -0.10),
+    ("Stable SEI", "sei", 0.05),
+    ("Li metal anode", "anode", -0.40),
 ]
-TITLE_KINETICS = [("Fast Li", ""), ("+", "sup"), (" transport", "")]
-TITLE_CONVERSION = "Accelerated S conversion"
 TEXT_SIZE = 0.30
 # 字体：优先 Arial（本机 Windows），云端用字形等宽的 Liberation Sans
 FONTS = [r"C:\Windows\Fonts\arial.ttf", "/usr/share/fonts/truetype/msttcorefonts/Arial.ttf",
@@ -55,54 +62,101 @@ bpy.ops.wm.read_factory_settings(use_empty=True)
 scene = bpy.context.scene
 
 
-def mat(name, rgb, alpha=1.0, rough=0.5, metal=0.0, emit=0.0):
+def lin(rgb):                        # sRGB → 线性，让渲染出的颜色就是上面写的颜色
+    return [c ** 2.2 for c in rgb]
+
+
+def bend(x):                         # 整片弯曲：随 x 二次抬高
+    return BEND * ((x + W / 2) / W) ** 2
+
+
+def B(p):                            # 把未弯曲坐标映射到弯曲后
+    return Vector((p[0], p[1], p[2] + bend(p[0])))
+
+
+def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0):
     m = bpy.data.materials.new(name)
     m.use_nodes = True
     p = m.node_tree.nodes["Principled BSDF"]
-    p.inputs["Base Color"].default_value = (*rgb, 1)
+    p.inputs["Base Color"].default_value = (*lin(rgb), 1)
     p.inputs["Roughness"].default_value = rough
     p.inputs["Metallic"].default_value = metal
     p.inputs["Alpha"].default_value = alpha
-    if emit:
-        p.inputs["Emission Color"].default_value = (*rgb, 1)
-        p.inputs["Emission Strength"].default_value = emit
+    p.inputs["Coat Weight"].default_value = coat
     return m
 
 
-def box(name, z0, z1, m):
-    bpy.ops.mesh.primitive_cube_add(location=(0, 0, (z0 + z1) / 2))
-    o = bpy.context.object
-    o.name = name
-    o.scale = (W / 2, D / 2, (z1 - z0) / 2)
+def emit_mat(name, rgb):             # 文字用纯自发光，颜色不受灯光影响
+    m = bpy.data.materials.new(name)
+    m.use_nodes = True
+    nt = m.node_tree
+    nt.nodes.remove(nt.nodes["Principled BSDF"])
+    em = nt.nodes.new("ShaderNodeEmission")
+    em.inputs["Color"].default_value = (*lin(rgb), 1)
+    nt.links.new(em.outputs[0], nt.nodes["Material Output"].inputs[0])
+    return m
+
+
+def slab(name, zbot, ztop, m, nx=90, ny=50, smooth=False):
+    """封闭的弯曲板：zbot/ztop 是 (x, y) → 未弯曲高度 的函数。"""
+    bm = bmesh.new()
+    xs = [-W / 2 + W * i / nx for i in range(nx + 1)]
+    ys = [-D / 2 + D * j / ny for j in range(ny + 1)]
+    top = [[bm.verts.new(B((x, y, ztop(x, y)))) for y in ys] for x in xs]
+    bot = [[bm.verts.new(B((x, y, zbot(x, y)))) for y in ys] for x in xs]
+    for i in range(nx):
+        for j in range(ny):
+            bm.faces.new((top[i][j], top[i + 1][j], top[i + 1][j + 1], top[i][j + 1]))
+            bm.faces.new((bot[i][j], bot[i][j + 1], bot[i + 1][j + 1], bot[i + 1][j]))
+    for i in range(nx):              # 前后侧面
+        bm.faces.new((bot[i][0], bot[i + 1][0], top[i + 1][0], top[i][0]))
+        bm.faces.new((top[i][ny], top[i + 1][ny], bot[i + 1][ny], bot[i][ny]))
+    for j in range(ny):              # 左右侧面
+        bm.faces.new((bot[0][j], top[0][j], top[0][j + 1], bot[0][j + 1]))
+        bm.faces.new((bot[nx][j + 1], top[nx][j + 1], top[nx][j], bot[nx][j]))
+    bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
+    me = bpy.data.meshes.new(name)
+    bm.to_mesh(me)
+    bm.free()
+    if smooth:
+        for f in me.polygons:
+            f.use_smooth = True
+    o = bpy.data.objects.new(name, me)
     o.data.materials.append(m)
-    bpy.ops.object.modifier_add(type="BEVEL")
-    o.modifiers["Bevel"].width = 0.02
+    scene.collection.objects.link(o)
     return o
 
 
-def spheres(name, pts, r_range, m, segs=16):
-    bpy.ops.mesh.primitive_uv_sphere_add(segments=segs, ring_count=segs // 2, radius=1)
-    proto = bpy.context.object
-    proto.data.materials.append(m)
-    bpy.ops.object.shade_smooth()
-    mesh = proto.data
-    bpy.data.objects.remove(proto)
+_sphere_mesh = {}
+
+
+def spheres(name, pts, r_range, m):
+    """在未弯曲坐标 pts 处放小球（共用同一个网格，渲染快）。"""
+    if m.name not in _sphere_mesh:
+        bpy.ops.mesh.primitive_uv_sphere_add(segments=24, ring_count=12, radius=1)
+        proto = bpy.context.object
+        proto.data.materials.append(m)
+        bpy.ops.object.shade_smooth()
+        _sphere_mesh[m.name] = proto.data
+        bpy.data.objects.remove(proto)
     for i, p in enumerate(pts):
-        o = bpy.data.objects.new(f"{name}_{i}", mesh)
-        o.location = p
-        o.scale = [random.uniform(*r_range)] * 3
+        o = bpy.data.objects.new(f"{name}_{i}", _sphere_mesh[m.name])
+        o.location = B(p)
+        r = random.uniform(*r_range) if isinstance(r_range, tuple) else r_range
+        o.scale = [r] * 3
         scene.collection.objects.link(o)
 
 
-def tube(name, pts, radius, m):
+def tube(name, pts, radius, m, bent=True):
     cu = bpy.data.curves.new(name, "CURVE")
     cu.dimensions = "3D"
     cu.bevel_depth = radius
     cu.bevel_resolution = 4
+    cu.use_fill_caps = True
     sp = cu.splines.new("NURBS")
     sp.points.add(len(pts) - 1)
     for p, q in zip(sp.points, pts):
-        p.co = (*q, 1)
+        p.co = (*(B(q) if bent else Vector(q)), 1)
     sp.use_endpoint_u = True
     sp.order_u = min(4, len(pts))
     o = bpy.data.objects.new(name, cu)
@@ -111,7 +165,7 @@ def tube(name, pts, radius, m):
     return o
 
 
-def cone(tip, direction, m, r=0.14, h=0.32):
+def cone(tip, direction, m, r=0.13, h=0.30):
     d = Vector(direction).normalized()
     bpy.ops.mesh.primitive_cone_add(radius1=r, depth=h, location=Vector(tip) - d * h / 2)
     o = bpy.context.object
@@ -119,82 +173,131 @@ def cone(tip, direction, m, r=0.14, h=0.32):
     o.data.materials.append(m)
 
 
-# ---------- 分层 ----------
-M = {k: mat(k, v) for k, v in COLORS.items()}
-M["anode"] = mat("anode", COLORS["anode"], rough=0.25, metal=0.9)
-M["sei"] = mat("sei", COLORS["sei"], alpha=0.85, rough=0.4)
-M["spe"] = mat("spe", COLORS["spe"], alpha=0.25, rough=0.1)
-M["cathode_matrix"] = mat("cathode_matrix", COLORS["spe"], alpha=0.30, rough=0.2)
-M["collector"] = mat("collector", COLORS["collector"], rough=0.35, metal=0.7)
-M["arrow"] = mat("arrow", COLORS["arrow"], emit=0.6)
-M["text"] = mat("text", COLORS["text"], emit=1.0)
-for k in ("text", "arrow", "li_ion"):   # 文字用纯自发光，颜色不受灯光影响
-    M[k + "_txt"] = bpy.data.materials.new(k + "_txt")
-    M[k + "_txt"].use_nodes = True
-    nt = M[k + "_txt"].node_tree
-    nt.nodes.remove(nt.nodes["Principled BSDF"])
-    em = nt.nodes.new("ShaderNodeEmission")
-    em.inputs["Color"].default_value = (*[c ** 2.2 for c in COLORS[k]], 1)  # sRGB→线性，显示为原色
-    nt.links.new(em.outputs[0], nt.nodes["Material Output"].inputs[0])
+def arc_arrow(name, p0, p1, height, m, radius=0.075):
+    """从 p0 到 p1 的拱形箭头（未弯曲坐标），箭头在 p1。"""
+    p0, p1 = Vector(p0), Vector(p1)
+    pts = [p0.lerp(p1, t) + Vector((0, 0, height * 4 * t * (1 - t))) for t in [i / 12 for i in range(13)]]
+    tube(name, pts[:-1], radius, m)
+    a, b = B(pts[-3]), B(pts[-1])
+    cone(b, b - a, m, r=0.18, h=0.40)
 
-box("Li_anode", *LAYERS["anode"], M["anode"])
-box("SEI", *LAYERS["sei"], M["sei"])
-box("SPE", *LAYERS["spe"], M["spe"])
-box("Cathode_matrix", *LAYERS["cathode"], M["cathode_matrix"])
-box("Collector", *LAYERS["collector"], M["collector"])
 
-# ---------- 正极：硫颗粒 + 碳颗粒 ----------
-z0, z1 = LAYERS["cathode"]
+# ---------- 材质 ----------
+M = {
+    "anode": mat("anode", COLORS["anode"], rough=0.3, metal=0.6),
+    "sei": mat("sei", COLORS["sei"], rough=0.35, coat=0.5),
+    "spe": mat("spe", COLORS["spe"], alpha=0.22, rough=0.05, coat=1.0),
+    "fiber": mat("fiber", COLORS["fiber"], rough=0.55),
+    "sulfur": mat("sulfur", COLORS["sulfur"], rough=0.3, coat=0.6),
+    "carbon": mat("carbon", COLORS["carbon"], rough=0.25, coat=0.6),
+    "collector": mat("collector", COLORS["collector"], rough=0.3, metal=0.8),
+    "li_ion": mat("li_ion", COLORS["li_ion"], rough=0.15, metal=0.7),
+    "atom_c": mat("atom_c", COLORS["atom_c"], rough=0.3, coat=0.5),
+    "atom_n": mat("atom_n", COLORS["atom_n"], rough=0.3, coat=0.5),
+    "atom_o": mat("atom_o", COLORS["atom_o"], rough=0.3, coat=0.5),
+    "bond": mat("bond", (0.70, 0.70, 0.72), rough=0.4),
+    "charge": mat("charge", COLORS["charge"], rough=0.4),
+    "discharge": mat("discharge", COLORS["discharge"], rough=0.4),
+    "lead": emit_mat("lead", COLORS["text"]),
+}
+T = {k: emit_mat(k + "_txt", COLORS[k]) for k in ("text", "charge", "discharge", "dynamics")}
+
+# ---------- 负极 + 起伏的 SEI ----------
+slab("Li_anode", lambda x, y: LAYERS["anode"][0], lambda x, y: LAYERS["anode"][1], M["anode"])
+bumps = [(random.uniform(-W / 2, W / 2), random.uniform(-D / 2, D / 2), random.uniform(0.25, 0.6),
+          random.choice([1, 1, -1]) * random.uniform(0.6, 1.0)) for _ in range(45)]
+
+
+def sei_top(x, y):
+    h = LAYERS["sei"][1] + 0.35 * SEI_ROUGH * noise.noise(Vector((x * 1.3, y * 1.3, 0.5)))
+    for bx, by, r, s in bumps:       # 凸起 (+) / 凹陷 (−)
+        h += SEI_ROUGH * s * math.exp(-((x - bx) ** 2 + (y - by) ** 2) / (r * r))
+    return h
+
+
+slab("SEI", lambda x, y: LAYERS["sei"][0], sei_top, M["sei"], nx=180, ny=100, smooth=True)
+spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
+                         [(random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
+                          for _ in range(60)]], (0.05, 0.08), M["li_ion"])
+
+# ---------- 聚合物电解质块 + 纤维骨架 ----------
+slab("SPE", lambda x, y: LAYERS["spe"][0], lambda x, y: LAYERS["spe"][1], M["spe"], nx=60, ny=10)
+m0, m1 = LAYERS["mat"]
+slab("Mat_core", lambda x, y: m0 + 0.08, lambda x, y: m1 - 0.08, M["fiber"], nx=60, ny=10)
+for k in range(160):
+    zc = random.uniform(m0, m1)
+    if k % 2 == 0:  # 沿 x 方向
+        y = random.uniform(-D / 2 + 0.03, D / 2 - 0.03)
+        pts = [(x, y + 0.10 * math.sin(x * 2.5 + k), zc + 0.07 * math.sin(x * 3 + k * 1.7))
+               for x in [-W / 2 + 0.03 + i * (W - 0.06) / 16 for i in range(17)]]
+    else:           # 沿 y 方向
+        x = random.uniform(-W / 2 + 0.03, W / 2 - 0.03)
+        pts = [(x + 0.10 * math.sin(y * 2.5 + k), y, zc + 0.07 * math.sin(y * 3 + k * 1.7))
+               for y in [-D / 2 + 0.03 + i * (D - 0.06) / 9 for i in range(10)]]
+    tube(f"fiber_{k}", pts, 0.028, M["fiber"])
+
+# Li+ 颗粒：骨架上方和下方都有
+s0, s1 = LAYERS["spe"]
+rand_xy = lambda: (random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2))
+li_pts = [(*rand_xy(), random.uniform(s0 + 0.12, m0 - 0.12)) for _ in range(55)] + \
+         [(*rand_xy(), random.uniform(m1 + 0.12, s1 - 0.12)) for _ in range(55)]
+spheres("Li", li_pts, (0.06, 0.08), M["li_ion"])
+
+# ---------- 骨架上的分子（球棍模型）与动力学箭头 ----------
+yf = -D / 2 + 0.55                   # 放在靠前的位置，便于看清
+
+
+def molecule(cx, cz, rot):
+    """两个相连的六元环 + 杂原子，大致示意聚合物链段。"""
+    atoms = []
+    for ring, (ox, oz) in enumerate([(0, 0), (0.62, 0.18)]):
+        for i in range(6):
+            t = rot + i * math.pi / 3
+            atoms.append((cx + ox + 0.22 * math.cos(t), yf + 0.08 * math.sin(t * 2), cz + oz + 0.22 * math.sin(t)))
+    hetero = [(cx - 0.45, yf, cz - 0.10, "atom_o"), (cx + 1.05, yf, cz + 0.32, "atom_n"),
+              (cx + 0.30, yf, cz + 0.45, "atom_o")]
+    bonds = [(i, (i + 1) % 6) for i in range(6)] + [(6 + i, 6 + (i + 1) % 6) for i in range(6)] + [(0, 9)]
+    for a, b in bonds:
+        tube("bond", [atoms[a], atoms[b]], 0.025, M["bond"])
+    for hx, hy, hz, kind in hetero:   # 杂原子连到最近的环原子
+        near = min(atoms, key=lambda p: (p[0] - hx) ** 2 + (p[2] - hz) ** 2)
+        tube("bond", [near, (hx, hy, hz)], 0.025, M["bond"])
+        spheres("hetero", [(hx, hy, hz)], 0.075, M[kind])
+    spheres("atom", atoms, 0.065, M["atom_c"])
+
+
+zm = m1 + 0.38
+for cx, rot in [(-2.9, 0.2), (-0.6, 0.6), (1.7, 0.1)]:
+    molecule(cx, zm, rot)
+
+arc_arrow("charge", (-0.70, yf - 0.1, zm + 0.45), (-2.60, yf - 0.1, zm + 0.40), 0.50, M["charge"])
+arc_arrow("discharge", (0.50, yf - 0.1, zm + 0.45), (2.40, yf - 0.1, zm + 0.45), 0.50, M["discharge"])
+
+# ---------- 正极颗粒 + 集流体 ----------
+c0, c1 = LAYERS["cathode"]
 s_pts, c_pts = [], []
-step = 0.26
+step = 0.24
 for ix in range(int(W / step)):
     for iy in range(int(D / step)):
-        for iz in range(3):
-            p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.06, 0.06),
-                 -D / 2 + step * (iy + 0.5) + random.uniform(-0.06, 0.06),
-                 z0 + 0.15 + iz * 0.25 + random.uniform(-0.04, 0.04))
-            (s_pts if random.random() < 0.45 else c_pts).append(p)
-spheres("S", s_pts, (0.11, 0.15), M["sulfur"])
-spheres("C", c_pts, (0.09, 0.12), M["carbon"])
-
-# ---------- 电解质：纤维骨架 + Li+ ----------
-zf = (LAYERS["spe"][0] + LAYERS["spe"][1]) / 2 - 0.15
-for k in range(46):
-    if k % 2 == 0:  # 沿 x 方向
-        y = random.uniform(-D / 2 + 0.1, D / 2 - 0.1)
-        pts = [(x, y + 0.12 * math.sin(x * 2 + k), zf + random.uniform(-0.12, 0.12))
-               for x in [-W / 2 + 0.05 + i * (W - 0.1) / 10 for i in range(11)]]
-    else:           # 沿 y 方向
-        x = random.uniform(-W / 2 + 0.1, W / 2 - 0.1)
-        pts = [(x + 0.12 * math.sin(y * 2 + k), y, zf + random.uniform(-0.12, 0.12))
-               for y in [-D / 2 + 0.05 + i * (D - 0.1) / 7 for i in range(8)]]
-    tube(f"fiber_{k}", pts, 0.035, M["fiber"])
-
-li_pts = [(random.uniform(-W / 2 + 0.2, W / 2 - 0.2), random.uniform(-D / 2 + 0.2, D / 2 - 0.2),
-           random.uniform(LAYERS["spe"][0] + 0.15, LAYERS["spe"][1] - 0.1)) for _ in range(70)]
-spheres("Li", li_pts, (0.06, 0.07), M["li_ion"])
-
-# ---------- 快速动力学箭头（前侧面） ----------
-yf = -D / 2 - 0.05
-for x in (-2.6, -1.3, 0.0):
-    pts = [(x, yf, 0.75), (x + 0.25, yf, 1.3), (x - 0.15, yf, 1.8), (x + 0.1, yf, 2.25)]
-    tube("arrow_li", pts, 0.05, M["arrow"])
-    cone((x + 0.12, yf, 2.55), (0.05, 0, 1), M["arrow"])
-# 正极内的转化：环形箭头
-ring = [(1.6 + 0.55 * math.cos(t), yf - 0.02, 2.7 + 0.25 * math.sin(t))
-        for t in [i * 2 * math.pi * 0.85 / 16 for i in range(17)]]
-tube("arrow_conv", ring, 0.045, M["arrow"])
-cone(ring[-1], Vector(ring[-1]) - Vector(ring[-2]), M["arrow"], r=0.11, h=0.25)
+        for iz in range(2):
+            p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.05, 0.05),
+                 -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
+                 c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
+            (s_pts if random.random() < 0.5 else c_pts).append(p)
+spheres("S", s_pts, (0.11, 0.14), M["sulfur"])
+spheres("C", c_pts, (0.10, 0.13), M["carbon"])
+slab("Collector", lambda x, y: LAYERS["collector"][0], lambda x, y: LAYERS["collector"][1], M["collector"],
+     nx=60, ny=10)
 
 # ---------- 相机、灯光、世界 ----------
-target = Vector((1.9, 0, 1.4))
-bpy.ops.object.camera_add(location=(4.5, -13.5, 7.5))
+target = Vector((0.9, 0, 2.0))
+bpy.ops.object.camera_add(location=(-1.0, -16.5, 5.0))
 cam = bpy.context.object
 cam.rotation_euler = (target - cam.location).to_track_quat("-Z", "Y").to_euler()
-cam.data.lens = 34
+cam.data.lens = 36
 scene.camera = cam
 
-for loc, e, s in [((-5, -6, 9), 900, 6), ((8, -4, 5), 400, 4), ((0, 6, 6), 250, 6)]:
+for loc, e, s in [((-6, -8, 10), 1500, 5), ((9, -6, 6), 600, 4), ((2, 8, 8), 900, 6)]:
     bpy.ops.object.light_add(type="AREA", location=loc)
     l = bpy.context.object
     l.data.energy, l.data.size = e, s
@@ -203,11 +306,10 @@ for loc, e, s in [((-5, -6, 9), 900, 6), ((8, -4, 5), 400, 4), ((0, 6, 6), 250, 
 world = bpy.data.worlds.new("W")
 scene.world = world
 world.use_nodes = True
-world.node_tree.nodes["Background"].inputs["Color"].default_value = (1, 1, 1, 1)
-world.node_tree.nodes["Background"].inputs["Strength"].default_value = 0.6
-# 相机直接看到的背景为纯白，照明仍用 0.6 强度
 nt = world.node_tree
-lp = nt.nodes.new("ShaderNodeLightPath")
+nt.nodes["Background"].inputs["Color"].default_value = (1, 1, 1, 1)
+nt.nodes["Background"].inputs["Strength"].default_value = 0.35
+lp = nt.nodes.new("ShaderNodeLightPath")   # 相机看到的背景为纯白，照明只用 0.35
 white = nt.nodes.new("ShaderNodeBackground")
 white.inputs["Color"].default_value = (1, 1, 1, 1)
 mix = nt.nodes.new("ShaderNodeMixShader")
@@ -222,10 +324,10 @@ cam_rot = cam.rotation_euler.copy()
 
 
 def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None):
-    """parts 可为字符串，或 [(文字, ""/"sup"/"sub"), ...]；上下标用小字号拼接，避免字体缺字。"""
+    """parts 可为字符串，或 [(文字, ""/"sup"/"sub"), ...]；上下标用小字号拼接，避免字体缺字。loc 为最终坐标。"""
     if isinstance(parts, str):
         parts = [(parts, "")]
-    m = color or M["text_txt"]
+    m = color or T["text"]
     objs, x = [], 0.0
     for s, mode in parts:
         cu = bpy.data.curves.new("t", "FONT")
@@ -250,26 +352,29 @@ def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None):
         o.location = Vector(loc) + R @ Vector((ox + shift, dy, 0))
 
 
-xl = W / 2 + 1.0                   # 标注文字所在 x
-for s, layer, zt in LABELS:
-    zl = zf if layer == "fiber" else sum(LAYERS[layer]) / 2
-    anchor = (W / 2 - 0.05, -D / 2 + 0.3, zl)
-    text(s, (xl + 0.15, -D / 2 + 0.3, zt))
-    tube("lead_" + layer, [anchor, ((anchor[0] + xl) / 2, anchor[1], zt), (xl, anchor[1], zt)], 0.012, M["text"])
+xr = W / 2                           # 右侧引线标注
+for s, layer, dz in LABELS:
+    zl = sum(LAYERS[layer]) / 2
+    anchor = B((xr - 0.02, -D / 2 + 0.02, zl))
+    end = anchor + Vector((0.9, 0, dz))
+    tube("lead_" + layer, [anchor, anchor + Vector((0.45, 0, dz * 0.8)), end], 0.012, M["lead"], bent=False)
+    text(s, end + Vector((0.12, 0, 0)))
 
-text(TITLE_KINETICS, (-1.3, yf - 0.1, -0.45), align="CENTER", color=M["arrow_txt"])
-text(TITLE_CONVERSION, (1.6, yf - 0.1, 4.75), align="CENTER", color=M["arrow_txt"])
-text([("S", ""), ("8", "sub"), (" \u2192 Li", ""), ("2", "sub"), ("S", ""), ("n", "sub"),
-      (" \u2192 Li", ""), ("2", "sub"), ("S", "")], (1.6, yf - 0.1, 4.3), size=0.26, align="CENTER",
-     color=M["arrow_txt"])
-text([("Li", ""), ("+", "sup")], (0.4, yf - 0.1, 1.0), size=0.28, color=M["li_ion_txt"])
+front = -D / 2 - 0.1                 # 图中文字放在电解质块前面
+text("Charge", B((-3.0, front, zm + 1.0)), color=T["charge"], align="CENTER")
+text("Discharge", B((2.9, front, zm + 1.15)), color=T["discharge"], align="CENTER")
+text("Accelerated", B((-0.1, front, zm + 1.20)), color=T["dynamics"], align="CENTER")
+text("dynamics", B((-0.1, front, zm + 0.88)), color=T["dynamics"], align="CENTER")
+text([("Li", ""), ("+", "sup")], B((-3.9, front, s0 + 0.45)), size=0.28)
 
 # ---------- 渲染 ----------
 scene.render.engine = "CYCLES"
 scene.cycles.device = "CPU"
 scene.cycles.samples = SAMPLES
 scene.cycles.use_denoising = True
+scene.cycles.transparent_max_bounces = 16
 scene.view_settings.view_transform = "Standard"
+scene.view_settings.look = "None"
 scene.render.resolution_x, scene.render.resolution_y = RES
 scene.render.filepath = os.path.join(out, "lis_cell.png")
 bpy.ops.render.render(write_still=True)
