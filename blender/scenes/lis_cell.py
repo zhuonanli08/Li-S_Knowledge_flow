@@ -20,13 +20,13 @@ OPEN = 0.55                         # 张开程度：从左到右，上面的层
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
     "anode":     (-0.45, -0.05),
-    "sei":       (-0.05, 0.45),      # SEI 顶面另加起伏
+    "sei":       (-0.08, 0.25),      # SEI 顶面另加起伏
     "spe":       (0.40, 3.40),      # 张开后上下表面分别贴合正极和 SEI      # 聚合物电解质块
     "mat":       (1.20, 1.95),      # 其中的纤维骨架
     "cathode":   (3.47, 4.45),      # 硫/碳颗粒层
     "collector": (4.48, 4.60),
 }
-SEI_ROUGH = 0.20
+SEI_ROUGH = 0.13
 VIEW_ROT = 10                       # 视角绕竖直轴转的角度（度），正值 = 相机往右转、露出更多右侧截面
 SAT_BOOST = 1.35                    # 颗粒/各层的饱和度倍数
 CONTRAST = 1.15                     # 颗粒/各层的明暗对比倍数
@@ -119,7 +119,7 @@ def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0, glow=0.0):
 
 SEI_DARK = (0.10, 0.12, 0.14)       # SEI 背光处：灰黑
 SEI_LIGHT = (0.10, 0.72, 0.70)      # SEI 迎光处：蓝绿
-SEI_ALPHA = 0.85                    # SEI 不透明度
+SEI_ALPHA = 0.78                    # SEI 顶部的不透明度（底部为 1，往上渐变到这个值）
 
 
 def sei_mat():
@@ -142,7 +142,20 @@ def sei_mat():
     ramp.color_ramp.elements[1].color = (*lin(SEI_LIGHT), 1)
     nt.links.new(geo.outputs["Normal"], dot.inputs[0])
     nt.links.new(dot.outputs["Value"], ramp.inputs["Fac"])
-    nt.links.new(ramp.outputs["Color"], p.inputs["Base Color"])
+    # 上下渐变：与负极接触的底部为白色、不透明；往上过渡到蓝绿色并逐渐透明
+    attr = nt.nodes.new("ShaderNodeAttribute")
+    attr.attribute_name = "hfrac"
+    mixc = nt.nodes.new("ShaderNodeMix")
+    mixc.data_type = "RGBA"
+    mixc.inputs["A"].default_value = (1, 1, 1, 1)
+    nt.links.new(attr.outputs["Fac"], mixc.inputs["Factor"])
+    nt.links.new(ramp.outputs["Color"], mixc.inputs["B"])
+    nt.links.new(mixc.outputs["Result"], p.inputs["Base Color"])
+    mra = nt.nodes.new("ShaderNodeMapRange")
+    mra.inputs["To Min"].default_value = 1.0
+    mra.inputs["To Max"].default_value = SEI_ALPHA
+    nt.links.new(attr.outputs["Fac"], mra.inputs["Value"])
+    nt.links.new(mra.outputs["Result"], p.inputs["Alpha"])
     return m
 
 
@@ -178,6 +191,9 @@ def slab(name, zbot, ztop, m, nx=90, ny=50, smooth=False):
     me = bpy.data.meshes.new(name)
     bm.to_mesh(me)
     bm.free()
+    hf = me.attributes.new("hfrac", "FLOAT", "POINT")   # 高度比例：顶面 1，底面 0（顶面顶点先建）
+    n_top = (nx + 1) * (ny + 1)
+    hf.data.foreach_set("value", [1.0] * n_top + [0.0] * (len(me.vertices) - n_top))
     if smooth:
         for f in me.polygons:
             f.use_smooth = True
@@ -244,7 +260,7 @@ def arc_arrow(name, p0, p1, height, m, radius=0.075):
 
 # ---------- 材质 ----------
 M = {
-    "anode": mat("anode", (0.88, 0.89, 0.92), rough=0.18, metal=1.0),     # 锂金属：银白、金属光泽
+    "anode": mat("anode", (0.94, 0.95, 0.98), rough=0.12, metal=0.7, coat=1.0, glow=0.08),  # 锂金属：亮白、高光
     "sei": sei_mat(),
     "spe": mat("spe", COLORS["spe"], alpha=SPE_ALPHA, rough=0.05, coat=1.0),
     "fiber": mat("fiber", COLORS["fiber"], rough=0.25, coat=0.7),        # 带光泽
@@ -364,6 +380,8 @@ for ix in range(int(W / step)):
             p = (-W / 2 + step * (ix + 0.5) + random.uniform(-0.05, 0.05),
                  -D / 2 + step * (iy + 0.5) + random.uniform(-0.05, 0.05),
                  c0 + 0.13 + iz * 0.24 + random.uniform(-0.03, 0.03))
+            m_ = 0.17                   # 颗粒不超出集流体边缘（最大半径 0.15 + 余量）
+            p = (min(max(p[0], -W / 2 + m_), W / 2 - m_), min(max(p[1], -D / 2 + m_), D / 2 - m_), p[2])
             ratio = S_RATIO_BOTTOM if iz == 0 else S_RATIO
             (s_pts if random.random() < ratio else c_pts).append(p)
 spheres("S", s_pts, (0.13, 0.15), M["sulfur"])     # 硫：大
