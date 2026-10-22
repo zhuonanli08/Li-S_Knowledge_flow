@@ -16,7 +16,7 @@ W, D = 7.0, 7.0                     # 电池片长（左右）、宽（前后）
 MX = 1.0                            # 骨架上的分子与充放电示意整体往右移多少
 S_RATIO = 0.25                      # 正极中硫颗粒的占比
 S_RATIO_BOTTOM = 0.06               # 正极最下层（接触电解质）硫的占比：碳远多于硫，这层看起来更暗
-OPEN_TOP = 0.55                     # 正极侧向上弯的比例（1 = 和负极侧一样）
+OPEN_TOP = 0.35                     # 正极侧向上弯的比例（1 = 和负极侧一样）
 OPEN = 0.55                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
@@ -176,7 +176,7 @@ def tint_mat(name, rgb):
     p.inputs["Roughness"].default_value = 0.05
     p.inputs["Coat Weight"].default_value = 1.0
     tr = nt.nodes.new("ShaderNodeBsdfTransparent")
-    tint = [1 - SPE_ALPHA * 1.4 * (1 - c) for c in lin(rgb)]        # 染色强度随 SPE_ALPHA 变
+    tint = [1 - SPE_ALPHA * 0.9 * (1 - c) for c in lin(rgb)]        # 染色强度随 SPE_ALPHA 变
     tr.inputs["Color"].default_value = (*tint, 1)
     mix = nt.nodes.new("ShaderNodeMixShader")
     mix.inputs[0].default_value = SPE_ALPHA * 0.5
