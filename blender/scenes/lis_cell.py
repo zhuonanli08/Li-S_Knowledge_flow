@@ -12,10 +12,11 @@ RES = (3600, 2400) if FINAL else (1500, 1000)   # 草图 / 定稿 分辨率
 SAMPLES = 256 if FINAL else 48
 SEED = 7
 
-W, D = 8.0, 6.0                     # 电池片长（左右）、宽（前后）
+W, D = 7.0, 7.0                     # 电池片长（左右）、宽（前后）
 MX = 1.0                            # 骨架上的分子与充放电示意整体往右移多少
 S_RATIO = 0.25                      # 正极中硫颗粒的占比
 S_RATIO_BOTTOM = 0.06               # 正极最下层（接触电解质）硫的占比：碳远多于硫，这层看起来更暗
+OPEN_TOP = 0.55                     # 正极侧向上弯的比例（1 = 和负极侧一样）
 OPEN = 0.55                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
 LAYERS = {                          # 名称: (底 z, 顶 z)，左端（未张开）时的高度
@@ -37,12 +38,12 @@ LI_LOWER = 40                       # 纤维骨架下方的 Li+ 数量（大部�
 COLORS = {                          # 参考原图：整体低饱和、明暗接近 (R,G,B，sRGB)
     "anode":     (0.80, 0.80, 0.90),   # 锂金属：浅灰紫
     "sei":       (0.33, 0.64, 0.66),   # SEI：灰青绿
-    "spe":       (0.72, 0.87, 0.98),   # 电解质：浅蓝半透明
-    "fiber":     (0.92, 0.84, 0.66),   # 纤维骨架：奶油色
+    "spe":       (0.45, 0.78, 1.00),   # 电解质：浅蓝（饱和）
+    "fiber":     (0.96, 0.80, 0.52),   # 纤维骨架：暖奶油色（饱和度提高）
     "sulfur":    (0.82, 0.68, 0.26),   # 硫：哑光金黄
     "carbon":    (0.27, 0.29, 0.34),   # 碳：石板灰
     "collector": (0.20, 0.22, 0.28),   # 集流体：深蓝灰
-    "li_ion":    (0.52, 0.45, 0.72),   # Li+：灰紫
+    "li_ion":    (0.50, 0.33, 0.88),   # Li+：紫（饱和度提高）
     "sei_part":  (0.40, 0.38, 0.55),   # SEI 中的颗粒：暗紫灰（原图 SEI 里的深色颗粒）
     "atom_c":    (0.55, 0.57, 0.62),   # 分子：C 灰
     "atom_n":    (0.35, 0.50, 0.82),   # N 蓝
@@ -97,7 +98,8 @@ def bend(x, layer=None):             # 该层在 x 处的上下位移：左端 0
         return 0.0
     layer = GROUP.get(layer, layer)
     t = (x + W / 2) / W
-    return OPEN * t * t * (sum(LAYERS[layer]) / 2 - MID)
+    d = sum(LAYERS[layer]) / 2 - MID
+    return OPEN * t * t * d * (OPEN_TOP if d > 0 else 1.0)
 
 
 def B(p):                            # 把左端坐标映射到张开后
@@ -161,6 +163,26 @@ def sei_mat():
     mra.inputs["To Max"].default_value = SEI_ALPHA
     nt.links.new(attr.outputs["Fac"], mra.inputs["Value"])
     nt.links.new(mra.outputs["Result"], p.inputs["Alpha"])
+    return m
+
+
+def tint_mat(name, rgb):
+    """电解质：像有色玻璃一样只给透过的光染色，不叠加白色雾层；再加一点镜面反射显出轮廓。"""
+    m = bpy.data.materials.new(name)
+    m.use_nodes = True
+    nt = m.node_tree
+    p = nt.nodes["Principled BSDF"]
+    p.inputs["Base Color"].default_value = (*lin(rgb), 1)
+    p.inputs["Roughness"].default_value = 0.05
+    p.inputs["Coat Weight"].default_value = 1.0
+    tr = nt.nodes.new("ShaderNodeBsdfTransparent")
+    tint = [1 - SPE_ALPHA * 1.4 * (1 - c) for c in lin(rgb)]        # 染色强度随 SPE_ALPHA 变
+    tr.inputs["Color"].default_value = (*tint, 1)
+    mix = nt.nodes.new("ShaderNodeMixShader")
+    mix.inputs[0].default_value = SPE_ALPHA * 0.5
+    nt.links.new(tr.outputs[0], mix.inputs[1])
+    nt.links.new(p.outputs[0], mix.inputs[2])
+    nt.links.new(mix.outputs[0], nt.nodes["Material Output"].inputs[0])
     return m
 
 
@@ -270,7 +292,7 @@ SHINY = dict(rough=0.15, metal=0.3, coat=1.0)   # 各类原子统一：光滑 + 
 M = {
     "anode": mat("anode", (0.95, 0.96, 1.00), rough=0.05, metal=1.0, coat=1.0),  # 锂金属：亮白金属、强高光
     "sei": sei_mat(),
-    "spe": mat("spe", COLORS["spe"], alpha=SPE_ALPHA, rough=0.05, coat=1.0),
+    "spe": tint_mat("spe", COLORS["spe"]),
     "fiber": mat("fiber", COLORS["fiber"], rough=0.25, coat=0.7),        # 带光泽
     "sulfur": mat("sulfur", COLORS["sulfur"], **SHINY),
     "carbon": mat("carbon", COLORS["carbon"], **SHINY),
