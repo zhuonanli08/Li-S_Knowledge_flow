@@ -48,8 +48,8 @@ COLORS = {                          # 参考原图：整体低饱和、明暗接
     "li_ion":    (0.50, 0.33, 0.88),   # Li+：紫（饱和度提高）
     "sei_part":  (0.40, 0.38, 0.55),   # SEI 中的颗粒：暗紫灰（原图 SEI 里的深色颗粒）
     "atom_c":    (0.55, 0.57, 0.62),   # 分子：C 灰
-    "atom_n":    (0.35, 0.50, 0.82),   # N 蓝
-    "atom_o":    (0.82, 0.38, 0.35),   # O 砖红
+    "atom_n":    (0.10, 0.20, 0.55),   # N 深蓝
+    "atom_o":    (0.55, 0.90, 0.95),   # O 浅青
     "charge":    (0.84, 0.42, 0.22),   # Charge：橙
     "discharge": (0.30, 0.50, 0.80),   # Discharge：蓝
     "dynamics":  (0.42, 0.63, 0.32),   # Accelerated dynamics：草绿
@@ -192,6 +192,22 @@ def tint_mat(name, rgb):
     return m
 
 
+def plate_mat(alpha=0.72):           # 文字底板：白色、半透明、不受光照影响
+    m = bpy.data.materials.new("plate")
+    m.use_nodes = True
+    nt = m.node_tree
+    nt.nodes.remove(nt.nodes["Principled BSDF"])
+    em = nt.nodes.new("ShaderNodeEmission")
+    em.inputs["Color"].default_value = (1, 1, 1, 1)
+    tr = nt.nodes.new("ShaderNodeBsdfTransparent")
+    mix = nt.nodes.new("ShaderNodeMixShader")
+    mix.inputs[0].default_value = alpha
+    nt.links.new(tr.outputs[0], mix.inputs[1])
+    nt.links.new(em.outputs[0], mix.inputs[2])
+    nt.links.new(mix.outputs[0], nt.nodes["Material Output"].inputs[0])
+    return m
+
+
 def emit_mat(name, rgb):             # 文字用纯自发光，颜色不受灯光影响
     m = bpy.data.materials.new(name)
     m.use_nodes = True
@@ -284,6 +300,15 @@ def cone(tip, direction, m, r=0.13, h=0.30):
     o.data.materials.append(m)
 
 
+def ellipse_arrow(name, c, rx, rz, a0, a1, m, radius=0.075, n=24):
+    """竖直平面内的椭圆弧箭头：圆心 c，从角度 a0 到 a1（度），箭头在 a1 端。"""
+    pts = [Vector((c[0] + rx * math.cos(math.radians(a0 + (a1 - a0) * i / n)), c[1],
+                   c[2] + rz * math.sin(math.radians(a0 + (a1 - a0) * i / n)))) for i in range(n + 1)]
+    tube(name, pts[:-2], radius, m)
+    a, b = B(pts[-3]), B(pts[-1])
+    cone(b, b - a, m, r=0.18, h=0.40)
+
+
 def arc_arrow(name, p0, p1, height, m, radius=0.075):
     """从 p0 到 p1 的拱形箭头（未弯曲坐标），箭头在 p1。"""
     p0, p1 = Vector(p0), Vector(p1)
@@ -313,6 +338,7 @@ M = {
     "discharge": mat("discharge", COLORS["discharge"], rough=0.4),
     "lead": emit_mat("lead", COLORS["text"]),
     "clear": mat("clear", (1, 1, 1), alpha=0.0),
+    "plate": plate_mat(),
 }
 T = {k: emit_mat(k + "_txt", [c * 0.8 for c in COLORS[k]]) for k in ("charge", "discharge", "dynamics")}  # 文字比箭头深一些，更清楚
 T["text"] = emit_mat("text_txt", COLORS["text"])
@@ -377,6 +403,8 @@ for k in range(LI_LOWER):            # 骨架下方：约 3/4 放在背光的右
 # 分子、箭头和文字所在的前方区域留空，避免遮挡
 li_pts = [p for p in li_pts if not (-4.0 + MX < p[0] < 3.6 + MX and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
           and not (-4.0 + MX < p[0] < 2.0 + MX and p[2] > m1 + 0.75)]          # 文字后方整条带
+li_pts = [p for p in li_pts if not (abs(p[0] - (-0.6 + MX)) < 2.0 and p[1] < -D / 2 + 1.8
+                                      and abs(p[2] - (m0 + m1) / 2) < (m1 - m0) / 2 + 0.9)]   # 循环箭头周围留空
 spheres("Li", li_pts, (0.08, 0.09), M["li_ion"])
 CUR = "spe"
 
@@ -404,11 +432,14 @@ def molecule(cx, cz, rot):
 
 
 zm = m1 + 0.32
-for cx, rot in [(-2.9 + MX, 0.2), (-0.6 + MX, 0.6), (1.7 + MX, 0.1)]:
+for cx, rot in [(-3.1 + MX, 0.2), (1.8 + MX, 0.1)]:        # 骨架上方的有机分子（中间留给循环箭头）
     molecule(cx, zm, rot)
 
-arc_arrow("charge", (-0.70 + MX, yf - 0.1, zm + 0.40), (-2.60 + MX, yf - 0.1, zm + 0.35), 0.38, M["charge"])
-arc_arrow("discharge", (0.50 + MX, yf - 0.1, zm + 0.40), (2.40 + MX, yf - 0.1, zm + 0.40), 0.38, M["discharge"])
+# 充放电循环箭头：围着纤维骨架前方成一个圈，上半圈 Charge（右→左），下半圈 Discharge（左→右）
+CYC = (-0.6 + MX, -D / 2 - 0.15, (m0 + m1) / 2)            # 圈心
+CYC_RX, CYC_RZ = 1.35, (m1 - m0) / 2 + 0.45
+ellipse_arrow("charge", CYC, CYC_RX, CYC_RZ, 15, 165, M["charge"])
+ellipse_arrow("discharge", CYC, CYC_RX, CYC_RZ, 195, 345, M["discharge"])
 
 # ---------- 正极颗粒 + 集流体 ----------
 CUR = "cathode"
@@ -499,7 +530,7 @@ font = next((bpy.data.fonts.load(f) for f in FONTS if os.path.exists(f)), None)
 cam_rot = cam.rotation_euler.copy()
 
 
-def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None, pull=1.0):
+def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None, pull=1.0, plate=False):
     """parts 可为字符串，或 [(文字, ""/"sup"/"sub"), ...]；上下标用小字号拼接，避免字体缺字。loc 为最终坐标。
     pull<1 时沿视线把文字拉近相机并等比缩小：画面上位置、大小不变，但保证挡在颗粒前面。"""
     loc = cam.location + (Vector(loc) - cam.location) * pull
@@ -529,6 +560,13 @@ def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None, pull=1.0):
     for o, ox, dy in objs:
         o.rotation_euler = cam_rot
         o.location = Vector(loc) + R @ Vector((ox + shift, dy, 0))
+    if plate:                        # 文字后面垫一块半透明白底，压在纤维上也清楚
+        bpy.ops.mesh.primitive_plane_add(size=1)
+        pl = bpy.context.object
+        pl.scale = (x + size * 0.5, size * 1.35, 1)
+        pl.rotation_euler = cam_rot
+        pl.location = Vector(loc) + R @ Vector((shift + x / 2, 0, -0.004))
+        pl.data.materials.append(M["plate"])
 
 
 R = cam_rot.to_matrix()
@@ -567,10 +605,13 @@ def near(p, du, dv):                 # 某个 3D 点在画面上偏移 (du, dv) 
     return scr(u + du, v + dv)
 
 
-text("Charge", near((-2.60 + MX, yf, zm + 0.35), -0.03, 0.0), size=HS * 1.1, color=T["charge"], align="RIGHT")
-text("Discharge", near((2.40 + MX, yf, zm + 0.40), 0.04, 0.05), size=HS * 1.1, color=T["discharge"], align="LEFT")
-text("Accelerated dynamics", near((-0.1 + MX, yf, zm + 0.80), 0.0, 0.035), size=HS * 1.1, color=T["dynamics"],
-     align="CENTER")
+cx_, cy_, cz_ = CYC
+text("Charge", near((cx_, cy_, cz_ + CYC_RZ), 0.0, 0.05), size=HS * 1.1, color=T["charge"], align="CENTER",
+     plate=True)
+text("Discharge", near((cx_, cy_, cz_ - CYC_RZ), 0.0, -0.045), size=HS * 1.1, color=T["discharge"],
+     align="CENTER", plate=True)
+text("Accelerated dynamics", near(CYC, 0.0, 0.0), size=HS * 1.0, color=T["dynamics"], align="CENTER",
+     plate=True)
 text([("Li", ""), ("+", "sup")], near((-W / 2 + 0.3, -D / 2, s0 + 0.45), 0.0, 0.0), size=HS * 0.85)
 
 # ---------- 图例（底部一行，正对相机） ----------
