@@ -16,6 +16,7 @@ W, D = 7.0, 7.0                     # 电池片长（左右）、宽（前后）
 MX = 1.0                            # 骨架上的分子与充放电示意整体往右移多少
 S_RATIO = 0.25                      # 正极中硫颗粒的占比
 S_RATIO_BOTTOM = 0.06               # 正极最下层（接触电解质）硫的占比：碳远多于硫，这层看起来更暗
+BOT_FRONT = 0.70                    # 负极前右角下沉的比例（原来为 1；越小越往上）
 TOP_FRONT_EXTRA = 0.80              # 正极前右角（画面中间那个角）比后右角额外多翘的比例
 OPEN_TOP = 0.0                     # 正极侧向上弯的比例（1 = 和负极侧一样）
 OPEN = 0.55                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
@@ -102,8 +103,8 @@ def bend(x, layer=None, y=0.0):      # 该层在 (x, y) 处的上下位移：左
     d = sum(LAYERS[layer]) / 2 - MID
     if d > 0:                        # 正极侧：后面按 OPEN_TOP，越往前额外多翘 TOP_FRONT_EXTRA
         k = OPEN_TOP + TOP_FRONT_EXTRA * min(1.0, max(0.0, (D / 2 - y) / D))
-    else:
-        k = 1.0
+    else:                            # 负极侧：后右角不动（与左边齐平），越往前下沉越多，前右角下沉 BOT_FRONT
+        k = BOT_FRONT * min(1.0, max(0.0, (D / 2 - y) / D))
     return OPEN * t * t * d * k
 
 
