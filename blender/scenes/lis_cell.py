@@ -442,11 +442,10 @@ mrz = nt.nodes.new("ShaderNodeMapRange")
 mrz.inputs["From Min"].default_value = -1.0
 env_ramp = nt.nodes.new("ShaderNodeValToRGB")
 cr = env_ramp.color_ramp
-cr.elements[0].position, cr.elements[0].color = 0.0, (0.55, 0.56, 0.60, 1)
+cr.elements[0].position, cr.elements[0].color = 0.0, (1.2, 1.2, 1.25, 1)     # 地平线以下也保持亮白，负极侧面不再发灰
 cr.elements[1].position, cr.elements[1].color = 1.0, (0.70, 0.71, 0.74, 1)
-for pos, c in [(0.22, (0.30, 0.31, 0.35)), (0.33, (1.8, 1.8, 1.85)), (0.37, (0.45, 0.46, 0.50)),
-               (0.42, (1.6, 1.6, 1.65)), (0.475, (0.15, 0.15, 0.17)), (0.50, (1.8, 1.8, 1.8)),
-               (0.62, (1.2, 1.2, 1.25)), (0.80, (0.45, 0.46, 0.50))]:
+for pos, c in [(0.33, (1.8, 1.8, 1.85)), (0.40, (1.3, 1.3, 1.35)), (0.475, (0.7, 0.7, 0.75)),
+               (0.50, (1.8, 1.8, 1.8)), (0.62, (1.2, 1.2, 1.25)), (0.80, (0.45, 0.46, 0.50))]:
     e = cr.elements.new(pos)
     e.color = (*c, 1)
 nt.links.new(tc.outputs["Generated"], sep.inputs[0])
