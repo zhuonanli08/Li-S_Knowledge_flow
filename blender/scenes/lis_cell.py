@@ -16,6 +16,7 @@ W, D = 7.0, 7.0                     # 电池片长（左右）、宽（前后）
 MX = 1.0                            # 骨架上的分子与充放电示意整体往右移多少
 S_RATIO = 0.25                      # 正极中硫颗粒的占比
 S_RATIO_BOTTOM = 0.06               # 正极最下层（接触电解质）硫的占比：碳远多于硫，这层看起来更暗
+TOP_FRONT_EXTRA = 0.25              # 正极前右角（画面中间那个角）比后右角额外多翘的比例
 OPEN_TOP = 0.35                     # 正极侧向上弯的比例（1 = 和负极侧一样）
 OPEN = 0.55                         # 张开程度：从左到右，上面的层逐渐抬起、下面的层逐渐下沉，露出截面
 MID = 1.90                          # 以这个高度为中心张开（电解质块中部，不动）
@@ -92,18 +93,22 @@ CUR = None                           # 当前正在搭的层，决定张开时�
 GROUP = {"sei": "anode", "collector": "cathode", "mat": "spe"}   # 这些层跟着所贴合的层一起移动
 
 
-def bend(x, layer=None):             # 该层在 x 处的上下位移：左端 0，向右二次增大
+def bend(x, layer=None, y=0.0):      # 该层在 (x, y) 处的上下位移：左端 0，向右二次增大
     layer = layer or CUR
     if layer is None:
         return 0.0
     layer = GROUP.get(layer, layer)
     t = (x + W / 2) / W
     d = sum(LAYERS[layer]) / 2 - MID
-    return OPEN * t * t * d * (OPEN_TOP if d > 0 else 1.0)
+    if d > 0:                        # 正极侧：后面按 OPEN_TOP，越往前额外多翘 TOP_FRONT_EXTRA
+        k = OPEN_TOP + TOP_FRONT_EXTRA * min(1.0, max(0.0, (D / 2 - y) / D))
+    else:
+        k = 1.0
+    return OPEN * t * t * d * k
 
 
 def B(p):                            # 把左端坐标映射到张开后
-    return Vector((p[0], p[1], p[2] + bend(p[0])))
+    return Vector((p[0], p[1], p[2] + bend(p[0], y=p[1])))
 
 
 def mat(name, rgb, alpha=1.0, rough=0.4, metal=0.0, coat=0.0, glow=0.0):
@@ -337,8 +342,8 @@ spheres("SEI_particle", [(x, y, sei_top(x, y) - 0.03) for x, y in
 # ---------- 聚合物电解质块 + 纤维骨架 ----------
 CUR = "spe"
 CUR = None                           # 电解质块直接用最终高度：底面贴 SEI 顶面，顶面贴正极底面
-slab("SPE", lambda x, y: sei_top(x, y) + bend(x, "sei") + 0.005,
-     lambda x, y: LAYERS["cathode"][0] + bend(x, "cathode"), M["spe"], nx=120, ny=60,
+slab("SPE", lambda x, y: sei_top(x, y) + bend(x, "sei", y) + 0.005,
+     lambda x, y: LAYERS["cathode"][0] + bend(x, "cathode", y), M["spe"], nx=120, ny=60,
      cap_mat=M["clear"])              # 与正极、负极接触的上下两面完全透明，只有侧面有颜色
 CUR = "spe"
 m0, m1 = LAYERS["mat"]
@@ -361,13 +366,13 @@ CUR = None                           # Li+ 填满张开后的电解质（用最�
 li_pts = []
 for k in range(70):                  # 骨架上方
     x, y = rand_xy()
-    li_pts.append((x, y, random.uniform(m1 + 0.1, LAYERS["cathode"][0] + bend(x, "cathode") - 0.1)))
+    li_pts.append((x, y, random.uniform(m1 + 0.1, LAYERS["cathode"][0] + bend(x, "cathode", y) - 0.1)))
 for k in range(LI_LOWER):            # 骨架下方：约 3/4 放在背光的右后方（阴影面）
     if random.random() < 0.75:
         x, y = random.uniform(0.0, W / 2 - 0.2), random.uniform(-0.3, D / 2 - 0.2)
     else:
         x, y = rand_xy()
-    li_pts.append((x, y, random.uniform(sei_top(x, y) + bend(x, "sei") + 0.12, m0 - 0.1)))
+    li_pts.append((x, y, random.uniform(sei_top(x, y) + bend(x, "sei", y) + 0.12, m0 - 0.1)))
 # 分子、箭头和文字所在的前方区域留空，避免遮挡
 li_pts = [p for p in li_pts if not (-4.0 + MX < p[0] < 3.6 + MX and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
           and not (-4.0 + MX < p[0] < 2.0 + MX and p[2] > m1 + 0.75)]          # 文字后方整条带
