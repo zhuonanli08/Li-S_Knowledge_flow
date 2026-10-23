@@ -13,6 +13,7 @@ SAMPLES = 256 if FINAL else 48
 SEED = 7
 
 W, D = 8.0, 6.0                     # 电池片长（左右）、宽（前后）
+CYC_X = 0.9                         # 充放电循环箭头的左右位置（0 = 电池片正中）
 MX = 1.0                            # 骨架上的分子与充放电示意整体往右移多少
 S_RATIO = 0.25                      # 正极中硫颗粒的占比
 S_RATIO_BOTTOM = 0.06               # 正极最下层（接触电解质）硫的占比：碳远多于硫，这层看起来更暗
@@ -403,7 +404,7 @@ for k in range(LI_LOWER):            # 骨架下方：约 3/4 放在背光的右
 # 分子、箭头和文字所在的前方区域留空，避免遮挡
 li_pts = [p for p in li_pts if not (-4.0 + MX < p[0] < 3.6 + MX and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
           and not (-4.0 + MX < p[0] < 2.0 + MX and p[2] > m1 + 0.75)]          # 文字后方整条带
-li_pts = [p for p in li_pts if not (abs(p[0] - (-0.6 + MX)) < 2.0 and p[1] < -D / 2 + 1.8
+li_pts = [p for p in li_pts if not (abs(p[0] - CYC_X) < 3.6 and p[1] < -D / 2 + 2.3
                                       and abs(p[2] - (m0 + m1) / 2) < (m1 - m0) / 2 + 0.9)]   # 循环箭头周围留空
 spheres("Li", li_pts, (0.08, 0.09), M["li_ion"])
 CUR = "spe"
@@ -412,8 +413,9 @@ CUR = "spe"
 yf = -D / 2 + 0.55                   # 放在靠前的位置，便于看清
 
 
-def molecule(cx, cz, rot):
-    """两个相连的六元环 + 杂原子，大致示意聚合物链段。"""
+def molecule(cx, cz, rot, y=None):
+    """两个相连的六元环 + 杂原子，大致示意聚合物链段。y 为前后位置（默认靠前）。"""
+    yf = globals()["yf"] if y is None else y
     atoms = []
     for ring, (ox, oz) in enumerate([(0, 0), (0.62, 0.18)]):
         for i in range(6):
@@ -432,11 +434,13 @@ def molecule(cx, cz, rot):
 
 
 zm = m1 + 0.32
-for cx, rot in [(-3.1 + MX, 0.2), (1.8 + MX, 0.1)]:        # 骨架上方的有机分子（中间留给循环箭头）
-    molecule(cx, zm, rot)
+# 循环箭头两侧参与转化的有机分子：骨架上方两侧各两个（前后错开），骨架下方两侧各一个
+for cx, cz, rot, dy in [(-2.9, zm, 0.2, 0.0), (-2.2, zm + 0.05, 0.7, 1.4), (2.55, zm, 0.1, 0.0), (2.8, zm + 0.05, 0.5, 1.4),
+                        (-2.2, m0 - 0.35, 0.4, 0.3), (2.5, m0 - 0.35, 0.9, 0.3)]:
+    molecule(cx, cz, rot, yf + dy)
 
 # 充放电循环箭头：围着纤维骨架前方成一个圈，上半圈 Charge（右→左），下半圈 Discharge（左→右）
-CYC = (-0.6 + MX, -D / 2 - 0.15, (m0 + m1) / 2)            # 圈心
+CYC = (CYC_X, -D / 2 - 0.15, (m0 + m1) / 2)            # 圈心
 CYC_RX, CYC_RZ = 1.35, (m1 - m0) / 2 + 0.45
 ellipse_arrow("charge", CYC, CYC_RX, CYC_RZ, 15, 165, M["charge"])
 ellipse_arrow("discharge", CYC, CYC_RX, CYC_RZ, 195, 345, M["discharge"])
