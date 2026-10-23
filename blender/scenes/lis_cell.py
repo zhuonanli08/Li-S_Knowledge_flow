@@ -53,7 +53,7 @@ COLORS = {                          # 参考原图：整体低饱和、明暗接
     "atom_o":    (0.55, 0.90, 0.95),   # O 浅青
     "charge":    (0.58, 0.08, 0.12),   # Charge：深红
     "discharge": (0.10, 0.20, 0.55),   # Discharge：深蓝
-    "dynamics":  (0.42, 0.63, 0.32),   # Accelerated dynamics：草绿
+    "dynamics":  (0.12, 0.38, 0.12),   # Accelerated dynamics：深绿（压在纤维上也清楚）
     "text":      (0.15, 0.15, 0.18),
 }
 LABELS = [                          # 右侧引线标注：(文字, 指向的层, 文字相对层中心的上下偏移)
@@ -613,12 +613,11 @@ def near(p, du, dv):                 # 某个 3D 点在画面上偏移 (du, dv) 
 
 
 cx_, cy_, cz_ = CYC
-text("Charge", near((cx_, cy_, cz_ + CYC_RZ), 0.0, 0.05), size=HS * 1.1, color=T["charge"], align="CENTER",
-     plate=True)
-text("Discharge", near((cx_, cy_, cz_ - CYC_RZ), 0.0, -0.045), size=HS * 1.1, color=T["discharge"],
-     align="CENTER", plate=True)
-text("Accelerated", near(CYC, 0.0, 0.016), size=HS * 0.95, color=T["dynamics"], align="CENTER", plate=True)
-text("dynamics", near(CYC, 0.0, -0.016), size=HS * 0.95, color=T["dynamics"], align="CENTER", plate=True)
+LBL = HS * 1.45                      # 循环箭头处文字字号
+text("Charge", near((cx_, cy_, cz_ + CYC_RZ), 0.0, 0.055), size=LBL, color=T["charge"], align="CENTER")
+text("Discharge", near((cx_, cy_, cz_ - CYC_RZ), 0.0, -0.05), size=LBL, color=T["discharge"], align="CENTER")
+text("Accelerated", near(CYC, 0.0, 0.02), size=LBL * 0.85, color=T["dynamics"], align="CENTER")
+text("dynamics", near(CYC, 0.0, -0.02), size=LBL * 0.85, color=T["dynamics"], align="CENTER")
 text([("Li", ""), ("+", "sup")], near((-W / 2 + 0.3, -D / 2, s0 + 0.45), 0.0, 0.0), size=HS * 0.85)
 
 # ---------- 图例（底部一行，正对相机） ----------
