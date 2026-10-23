@@ -443,7 +443,7 @@ for cx, cz, rot, dy in [(-2.9, zm, 0.2, 0.0), (-2.2, zm + 0.05, 0.7, 1.4), (2.55
 # 上半圈（Charge）顶端保持在骨架上方 0.45 处不动；下半圈（Discharge）底端移到骨架中部，两者围成一个圆，表示反应发生在电解质界面
 CYC_TOP = m1 + 0.60
 CYC_BOT = (m0 + m1) / 2
-CYC_RX, CYC_RZ = 0.85, (CYC_TOP - CYC_BOT) / 2
+CYC_RX, CYC_RZ = 1.25, (CYC_TOP - CYC_BOT) / 2
 CYC = (CYC_X, -D / 2 - 0.15, (CYC_TOP + CYC_BOT) / 2)    # 圈心
 ellipse_arrow("charge", CYC, CYC_RX, CYC_RZ, 15, 165, M["charge"])
 ellipse_arrow("discharge", CYC, CYC_RX, CYC_RZ, 195, 345, M["discharge"])
@@ -534,10 +534,13 @@ strip.rotation_euler = (Vector((1.0, -1.0, -0.6)) - strip.location).to_track_qua
 
 # ---------- 文字标注（Arial，正对相机） ----------
 font = next((bpy.data.fonts.load(f) for f in FONTS if os.path.exists(f)), None)
+FONTS_BOLD = [r"C:\Windows\Fonts\arialbd.ttf", "/usr/share/fonts/truetype/msttcorefonts/Arial_Bold.ttf",
+              "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"]
+font_bold = next((bpy.data.fonts.load(f) for f in FONTS_BOLD if os.path.exists(f)), font)
 cam_rot = cam.rotation_euler.copy()
 
 
-def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None, pull=1.0, plate=False):
+def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None, pull=1.0, plate=False, bold=False):
     """parts 可为字符串，或 [(文字, ""/"sup"/"sub"), ...]；上下标用小字号拼接，避免字体缺字。loc 为最终坐标。
     pull<1 时沿视线把文字拉近相机并等比缩小：画面上位置、大小不变，但保证挡在颗粒前面。"""
     loc = cam.location + (Vector(loc) - cam.location) * pull
@@ -552,7 +555,7 @@ def text(parts, loc, size=TEXT_SIZE, align="LEFT", color=None, pull=1.0, plate=F
         cu.size = size * (0.62 if mode else 1)
         cu.align_y = "CENTER"
         if font:
-            cu.font = font
+            cu.font = font_bold if bold else font
         o = bpy.data.objects.new("label_" + s[:12], cu)
         o.data.materials.append(m)
         scene.collection.objects.link(o)
@@ -600,7 +603,7 @@ for s, layer, dz in LABELS:
     u, v = to_uv(anchor)
     end = scr(LABEL_U, v + dz * 0.06)
     tube("lead_" + layer, [anchor, end], 0.006 * K, M["lead"], bent=False)
-    text(s, end + R @ Vector((0.06 * K, 0, 0)), size=TEXT_SIZE * 0.62 * K)
+    text(s, end + R @ Vector((0.06 * K, 0, 0)), size=TEXT_SIZE * 0.80 * K)    # 右侧标注字号
 
 CUR = "spe"
 front = -D / 2 - 0.1                 # 图中文字放在电解质块前面
@@ -613,12 +616,13 @@ def near(p, du, dv):                 # 某个 3D 点在画面上偏移 (du, dv) 
 
 
 cx_, cy_, cz_ = CYC
-LBL = HS * 1.45                      # 循环箭头处文字字号
-text("Charge", near((cx_, cy_, cz_ + CYC_RZ), 0.0, 0.055), size=LBL, color=T["charge"], align="CENTER")
-text("Discharge", near((cx_, cy_, cz_ - CYC_RZ), 0.0, -0.05), size=LBL, color=T["discharge"], align="CENTER")
-text("Accelerated", near(CYC, 0.0, 0.02), size=LBL * 0.85, color=T["dynamics"], align="CENTER")
-text("dynamics", near(CYC, 0.0, -0.02), size=LBL * 0.85, color=T["dynamics"], align="CENTER")
-text([("Li", ""), ("+", "sup")], near((-W / 2 + 0.3, -D / 2, s0 + 0.45), 0.0, 0.0), size=HS * 0.85)
+LBL = HS * 1.80                      # 循环箭头处文字字号
+text("Charge", near((cx_, cy_, cz_ + CYC_RZ), 0.0, 0.06), size=LBL, color=T["charge"], align="CENTER", bold=True)
+text("Discharge", near((cx_, cy_, cz_ - CYC_RZ), 0.0, -0.055), size=LBL, color=T["discharge"], align="CENTER",
+     bold=True)
+text("Accelerated", near(CYC, 0.0, 0.022), size=LBL * 0.8, color=T["dynamics"], align="CENTER", bold=True)
+text("dynamics", near(CYC, 0.0, -0.022), size=LBL * 0.8, color=T["dynamics"], align="CENTER", bold=True)
+text([("Li", ""), ("+", "sup")], near((-W / 2 + 0.3, -D / 2, s0 + 0.45), 0.0, 0.0), size=HS * 1.1)
 
 # ---------- 图例（底部一行，正对相机） ----------
 CUR = None
@@ -628,14 +632,14 @@ LEGEND = [("S", "sulfur", 0.14), ("C", "carbon", 0.09), ([("Li", ""), ("+", "sup
 GAPS = [0.9, 0.9, 1.0, 1.9, 1.8, 0.8, 0.8]          # 每项占的宽度
 dx = 0.0
 for (name, key, r), g in zip(LEGEND, GAPS):
-    pos = scr(-0.92, -0.58) + R @ Vector((dx * 0.62 * K, 0, 0))
+    pos = scr(-0.92, -0.58) + R @ Vector((dx * 0.62 * K * 1.3, 0, 0))
     o = bpy.data.objects.new("legend", _sphere_mesh.get(M[key].name) or _sphere_mesh[M["li_ion"].name])
     if M[key].name not in _sphere_mesh:
         spheres("legend_tmp", [(0, 0, -50)], 0.01, M[key])
         o.data = _sphere_mesh[M[key].name]
     o.location, o.scale = pos, [r * 0.9 * K] * 3
     scene.collection.objects.link(o)
-    text(name, pos + R @ Vector((0.15 * K, 0, 0)), size=0.15 * K)
+    text(name, pos + R @ Vector((0.17 * K, 0, 0)), size=0.20 * K)      # 图例字号
     dx += g
 
 # ---------- 渲染 ----------
