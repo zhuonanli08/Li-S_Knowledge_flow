@@ -51,8 +51,8 @@ COLORS = {                          # 参考原图：整体低饱和、明暗接
     "atom_c":    (0.55, 0.57, 0.62),   # 分子：C 灰
     "atom_n":    (0.10, 0.20, 0.55),   # N 深蓝
     "atom_o":    (0.55, 0.90, 0.95),   # O 浅青
-    "charge":    (0.84, 0.42, 0.22),   # Charge：橙
-    "discharge": (0.30, 0.50, 0.80),   # Discharge：蓝
+    "charge":    (0.58, 0.08, 0.12),   # Charge：深红
+    "discharge": (0.10, 0.20, 0.55),   # Discharge：深蓝
     "dynamics":  (0.42, 0.63, 0.32),   # Accelerated dynamics：草绿
     "text":      (0.15, 0.15, 0.18),
 }
@@ -301,13 +301,13 @@ def cone(tip, direction, m, r=0.13, h=0.30):
     o.data.materials.append(m)
 
 
-def ellipse_arrow(name, c, rx, rz, a0, a1, m, radius=0.075, n=24):
+def ellipse_arrow(name, c, rx, rz, a0, a1, m, radius=0.045, n=24):
     """竖直平面内的椭圆弧箭头：圆心 c，从角度 a0 到 a1（度），箭头在 a1 端。"""
     pts = [Vector((c[0] + rx * math.cos(math.radians(a0 + (a1 - a0) * i / n)), c[1],
                    c[2] + rz * math.sin(math.radians(a0 + (a1 - a0) * i / n)))) for i in range(n + 1)]
     tube(name, pts[:-2], radius, m)
     a, b = B(pts[-3]), B(pts[-1])
-    cone(b, b - a, m, r=0.18, h=0.40)
+    cone(b, b - a, m, r=0.11, h=0.26)
 
 
 def arc_arrow(name, p0, p1, height, m, radius=0.075):
@@ -341,7 +341,7 @@ M = {
     "clear": mat("clear", (1, 1, 1), alpha=0.0),
     "plate": plate_mat(),
 }
-T = {k: emit_mat(k + "_txt", [c * 0.8 for c in COLORS[k]]) for k in ("charge", "discharge", "dynamics")}  # 文字比箭头深一些，更清楚
+T = {k: emit_mat(k + "_txt", [c * (1.0 if k != "dynamics" else 0.8) for c in COLORS[k]]) for k in ("charge", "discharge", "dynamics")}  # 文字比箭头深一些，更清楚
 T["text"] = emit_mat("text_txt", COLORS["text"])
 
 # ---------- 负极 + 起伏的 SEI ----------
@@ -441,9 +441,9 @@ for cx, cz, rot, dy in [(-2.9, zm, 0.2, 0.0), (-2.2, zm + 0.05, 0.7, 1.4), (2.55
 
 # 充放电循环箭头：围着纤维骨架前方成一个圈，上半圈 Charge（右→左），下半圈 Discharge（左→右）
 # 上半圈（Charge）顶端保持在骨架上方 0.45 处不动；下半圈（Discharge）底端移到骨架中部，两者围成一个圆，表示反应发生在电解质界面
-CYC_TOP = m1 + 0.85
+CYC_TOP = m1 + 0.60
 CYC_BOT = (m0 + m1) / 2
-CYC_RX, CYC_RZ = 1.05, (CYC_TOP - CYC_BOT) / 2
+CYC_RX, CYC_RZ = 0.85, (CYC_TOP - CYC_BOT) / 2
 CYC = (CYC_X, -D / 2 - 0.15, (CYC_TOP + CYC_BOT) / 2)    # 圈心
 ellipse_arrow("charge", CYC, CYC_RX, CYC_RZ, 15, 165, M["charge"])
 ellipse_arrow("discharge", CYC, CYC_RX, CYC_RZ, 195, 345, M["discharge"])
