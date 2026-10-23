@@ -13,10 +13,7 @@ SAMPLES = 256 if FINAL else 48
 SEED = 7
 
 W, D = 8.0, 6.0                     # 电池片长（左右）、宽（前后）
-CYC_Y = 0.0                         # 循环箭头的前后位置（0 = 前后方向正中，-D/2 = 最前面）
-CYC_RX = 1.35                       # 循环箭头横向半径
-CUT_WINDOW = True                   # 在箭头前方的纤维上开剖切窗口（False = 不开）
-CYC_X = 0.4                         # 充放电循环箭头的左右位置（0 = 电池片正中）
+CYC_X = 0.9                         # 充放电循环箭头的左右位置（0 = 电池片正中）
 MX = 1.0                            # 骨架上的分子与充放电示意整体往右移多少
 S_RATIO = 0.25                      # 正极中硫颗粒的占比
 S_RATIO_BOTTOM = 0.06               # 正极最下层（接触电解质）硫的占比：碳远多于硫，这层看起来更暗
@@ -383,21 +380,12 @@ for k in range(280):
     if k % 2 == 0:  # 沿 x 方向
         y = random.uniform(-D / 2 + 0.03, D / 2 - 0.03)
         pts = [(x, y + 0.10 * math.sin(x * 2.5 + k), zc + 0.07 * math.sin(x * 3 + k * 1.7))
-               for x in [-W / 2 + 0.03 + i * (W - 0.06) / 32 for i in range(33)]]
+               for x in [-W / 2 + 0.03 + i * (W - 0.06) / 16 for i in range(17)]]
     else:           # 沿 y 方向
         x = random.uniform(-W / 2 + 0.03, W / 2 - 0.03)
         pts = [(x + 0.10 * math.sin(y * 2.5 + k), y, zc + 0.07 * math.sin(y * 3 + k * 1.7))
-               for y in [-D / 2 + 0.03 + i * (D - 0.06) / 18 for i in range(19)]]
-    # 剖切窗口：循环箭头前方的纤维去掉，露出箭头（像论文里的剖面图）
-    run = []
-    for q in pts + [None]:
-        inside = q is not None and CUT_WINDOW and abs(q[0] - CYC_X) < CYC_RX + 0.35 and q[1] < CYC_Y + 0.3
-        if q is None or inside:
-            if len(run) >= 2:
-                tube(f"fiber_{k}", run, 0.028, M["fiber"])
-            run = []
-        else:
-            run.append(q)
+               for y in [-D / 2 + 0.03 + i * (D - 0.06) / 9 for i in range(10)]]
+    tube(f"fiber_{k}", pts, 0.028, M["fiber"])
 
 # Li+ 颗粒：骨架上方和下方都有
 s0, s1 = LAYERS["spe"]
@@ -416,7 +404,7 @@ for k in range(LI_LOWER):            # 骨架下方：约 3/4 放在背光的右
 # 分子、箭头和文字所在的前方区域留空，避免遮挡
 li_pts = [p for p in li_pts if not (-4.0 + MX < p[0] < 3.6 + MX and p[1] < -D / 2 + 2.2 and p[2] > m1 - 0.05)
           and not (-4.0 + MX < p[0] < 2.0 + MX and p[2] > m1 + 0.75)]          # 文字后方整条带
-li_pts = [p for p in li_pts if not (abs(p[0] - CYC_X) < 3.6 and p[1] < CYC_Y + 0.8
+li_pts = [p for p in li_pts if not (abs(p[0] - CYC_X) < 3.6 and p[1] < -D / 2 + 2.3
                                       and abs(p[2] - (m0 + m1) / 2) < (m1 - m0) / 2 + 0.9)]   # 循环箭头周围留空
 spheres("Li", li_pts, (0.08, 0.09), M["li_ion"])
 CUR = "spe"
@@ -447,15 +435,16 @@ def molecule(cx, cz, rot, y=None):
 
 zm = m1 + 0.32
 # 循环箭头两侧参与转化的有机分子：骨架上方两侧各两个（前后错开），骨架下方两侧各一个
-# 循环箭头两侧参与转化的有机分子：与箭头同一深度的左右各一对（骨架上下），前方再各放一个
-for cx, cz, rot, y in [(-2.6, zm, 0.7, CYC_Y), (2.1, zm, 0.5, CYC_Y),
-                       (-2.4, m0 - 0.35, 0.4, CYC_Y), (2.0, m0 - 0.35, 0.9, CYC_Y),
-                       (-3.0, zm, 0.2, yf), (2.4, zm, 0.1, yf)]:
-    molecule(cx, cz, rot, y)
+for cx, cz, rot, dy in [(-2.9, zm, 0.2, 0.0), (-2.2, zm + 0.05, 0.7, 1.4), (2.55, zm, 0.1, 0.0), (2.8, zm + 0.05, 0.5, 1.4),
+                        (-2.2, m0 - 0.35, 0.4, 0.3), (2.5, m0 - 0.35, 0.9, 0.3)]:
+    molecule(cx, cz, rot, yf + dy)
 
 # 充放电循环箭头：围着纤维骨架前方成一个圈，上半圈 Charge（右→左），下半圈 Discharge（左→右）
-CYC = (CYC_X, CYC_Y, (m0 + m1) / 2)            # 圈心
-CYC_RZ = (m1 - m0) / 2 + 0.45
+# 上半圈（Charge）顶端保持在骨架上方 0.45 处不动；下半圈（Discharge）底端移到骨架中部，两者围成一个圆，表示反应发生在电解质界面
+CYC_TOP = m1 + 0.85
+CYC_BOT = (m0 + m1) / 2
+CYC_RX, CYC_RZ = 1.05, (CYC_TOP - CYC_BOT) / 2
+CYC = (CYC_X, -D / 2 - 0.15, (CYC_TOP + CYC_BOT) / 2)    # 圈心
 ellipse_arrow("charge", CYC, CYC_RX, CYC_RZ, 15, 165, M["charge"])
 ellipse_arrow("discharge", CYC, CYC_RX, CYC_RZ, 195, 345, M["discharge"])
 
@@ -628,8 +617,8 @@ text("Charge", near((cx_, cy_, cz_ + CYC_RZ), 0.0, 0.05), size=HS * 1.1, color=T
      plate=True)
 text("Discharge", near((cx_, cy_, cz_ - CYC_RZ), 0.0, -0.045), size=HS * 1.1, color=T["discharge"],
      align="CENTER", plate=True)
-text("Accelerated dynamics", near(CYC, 0.0, 0.0), size=HS * 1.0, color=T["dynamics"], align="CENTER",
-     plate=True)
+text("Accelerated", near(CYC, 0.0, 0.016), size=HS * 0.95, color=T["dynamics"], align="CENTER", plate=True)
+text("dynamics", near(CYC, 0.0, -0.016), size=HS * 0.95, color=T["dynamics"], align="CENTER", plate=True)
 text([("Li", ""), ("+", "sup")], near((-W / 2 + 0.3, -D / 2, s0 + 0.45), 0.0, 0.0), size=HS * 0.85)
 
 # ---------- 图例（底部一行，正对相机） ----------
